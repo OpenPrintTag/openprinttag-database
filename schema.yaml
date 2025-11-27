@@ -1,0 +1,650 @@
+version: "1.0"
+description: "Material Database Schema Definition"
+
+# Field type definitions
+field_types:
+  uuid:
+    pattern: "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    description: "UUID v4 format"
+
+  slug:
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: "Lowercase alphanumeric with hyphens"
+
+  rgba:
+    pattern: "^#[0-9a-f]{8}$"
+    description: "RGBA color in hex format (#rrggbbaa)"
+
+  url:
+    pattern: "^https?://.*"
+    description: "HTTP or HTTPS URL"
+
+  gtin:
+    pattern: "^[0-9]{8}$|^[0-9]{12,14}$"
+    description: "GTIN-8, GTIN-12, GTIN-13, or GTIN-14"
+
+  country_code:
+    pattern: "^[A-Z]{2}$"
+    description: "ISO 3166-1 alpha-2 country code"
+
+  email:
+    pattern: "^[^@]+@[^@]+\\.[^@]+$"
+    description: "Email address"
+
+# Entity definitions
+entities:
+  # Lookup tables
+  material_types:
+    directory: "data/lookup-tables"
+    file: "material-types.yaml"
+    type: lookup_table
+    root_key: "types"
+    fields:
+      id:
+        type: integer
+        required: true
+      class:
+        type: enum
+        values: ["FFF", "SLA"]
+        required: true
+      abbreviation:
+        type: string
+        max_length: 7
+        required: true
+      name:
+        type: string
+        max_length: 255
+        required: true
+      description:
+        type: string
+        required: false
+      default_properties:
+        type: object
+        required: false
+
+  material_tag_categories:
+    directory: "data/lookup-tables"
+    file: "material-tag-categories.yaml"
+    type: lookup_table
+    root_key: "categories"
+    fields:
+      name:
+        type: string
+        max_length: 50
+        required: true
+      display_name:
+        type: string
+        max_length: 100
+        required: false
+      emoji:
+        type: string
+        max_length: 10
+        required: false
+
+  material_tags:
+    directory: "data/lookup-tables"
+    file: "material-tags.yaml"
+    type: lookup_table
+    root_key: "tags"
+    fields:
+      id:
+        type: integer
+        required: true
+      slug:
+        type: slug
+        required: true
+      name:
+        type: string
+        max_length: 100
+        required: true
+      category:
+        type: string
+        foreign_key:
+          entity: material_tag_categories
+          field: name
+        required: false
+      description:
+        type: string
+        required: false
+      implies:
+        type: array
+        items:
+          type: slug
+          foreign_key:
+            entity: material_tags
+            field: slug
+        required: false
+      hints:
+        type: array
+        items:
+          type: slug
+          foreign_key:
+            entity: material_tags
+            field: slug
+        required: false
+
+  material_certifications:
+    directory: "data/lookup-tables"
+    file: "material-certifications.yaml"
+    type: lookup_table
+    root_key: "certifications"
+    fields:
+      id:
+        type: integer
+        required: true
+      slug:
+        type: slug
+        required: true
+      name:
+        type: string
+        max_length: 100
+        required: true
+      display_name:
+        type: string
+        max_length: 150
+        required: false
+      description:
+        type: string
+        required: false
+
+  countries:
+    directory: "data/lookup-tables"
+    file: "countries.yaml"
+    type: lookup_table
+    root_key: "countries"
+    fields:
+      code:
+        type: country_code
+        required: true
+      name:
+        type: string
+        required: true
+
+  palette_colors:
+    directory: "data/lookup-tables"
+    file: "palette-colors.yaml"
+    type: lookup_table
+    root_key: "colors"
+    fields:
+      uuid:
+        type: string
+        required: true
+      palette:
+        type: enum
+        values: ["pantone", "ral"]
+        required: true
+      canonical_name:
+        type: string
+        max_length: 100
+        required: true
+      display_name:
+        type: string
+        max_length: 150
+        required: false
+      rgba:
+        type: rgba
+        required: false
+
+  sla_container_connectors:
+    directory: "data/lookup-tables"
+    file: "sla-container-connectors.yaml"
+    type: lookup_table
+    root_key: "connectors"
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      slug:
+        type: slug
+        required: true
+      name:
+        type: string
+        max_length: 150
+        required: true
+      description:
+        type: string
+        required: false
+
+  # Main entities
+  brands:
+    directory: "data/brands"
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      slug:
+        type: slug
+        required: true
+      name:
+        type: string
+        max_length: 255
+        required: true
+      keywords:
+        type: array
+        items:
+          type: string
+        required: false
+      material_url_template:
+        type: string
+        max_length: 500
+        required: false
+      material_package_url_template:
+        type: string
+        max_length: 500
+        required: false
+      material_package_instance_url_template:
+        type: string
+        max_length: 500
+        required: false
+      link_patterns:
+        type: array
+        items:
+          type: object
+          fields:
+            type:
+              type: enum
+              values: ["brand", "material", "material_package", "material_package_instance"]
+              required: true
+            pattern:
+              type: string
+              required: true
+        required: false
+      countries:
+        type: array
+        items:
+          type: country_code
+          foreign_key:
+            entity: countries
+            field: code
+        required: false
+
+  material_containers:
+    directory: "data/material-containers"
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      slug:
+        type: slug
+        required: true
+      class:
+        type: enum
+        values: ["FFF", "SLA"]
+        required: true
+      brand_slug:
+        type: slug
+        foreign_key:
+          entity: brands
+          field: slug
+        required: false
+      brand_specific_id:
+        type: string
+        max_length: 100
+        required: false
+      name:
+        type: string
+        max_length: 255
+        required: true
+      volumetric_capacity:
+        type: number
+        required: false
+      empty_weight:
+        type: number
+        required: false
+      hole_diameter:
+        type: number
+        required: false
+      inner_diameter:
+        type: number
+        required: false
+      outer_diameter:
+        type: number
+        required: false
+      width:
+        type: number
+        required: false
+      length:
+        type: number
+        required: false
+      height:
+        type: number
+        required: false
+      connector_slug:
+        type: slug
+        foreign_key:
+          entity: sla_container_connectors
+          field: slug
+        required: false
+
+  devices:
+    directory: "data/devices"
+    subdirectories: ["printers", "accessories"]
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      slug:
+        type: slug
+        required: true
+      type:
+        type: string
+        max_length: 50
+        required: true
+      brand_slug:
+        type: slug
+        foreign_key:
+          entity: brands
+          field: slug
+        required: false
+      name:
+        type: string
+        max_length: 255
+        required: true
+      printable_width:
+        type: number
+        required: false
+      printable_depth:
+        type: number
+        required: false
+      printable_height:
+        type: number
+        required: false
+      film_lifespan:
+        type: integer
+        required: false
+      density:
+        type: number
+        required: false
+      wash_capacity:
+        type: number
+        required: false
+
+  print_sheet_types:
+    directory: "data/print-sheet-types"
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      id:
+        type: integer
+        required: true
+      slug:
+        type: slug
+        required: true
+      brand_slug:
+        type: slug
+        foreign_key:
+          entity: brands
+          field: slug
+        required: false
+      name:
+        type: string
+        max_length: 150
+        required: true
+
+  materials:
+    directory: "data/materials"
+    subdirectories_by_brand: true
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      slug:
+        type: slug
+        required: true
+      brand_slug:
+        type: slug
+        foreign_key:
+          entity: brands
+          field: slug
+        required: true
+      brand_specific_id:
+        type: string
+        max_length: 100
+        required: false
+      class:
+        type: enum
+        values: ["FFF", "SLA"]
+        required: true
+      type_id:
+        type: integer
+        foreign_key:
+          entity: material_types
+          field: id
+        required: false
+      name:
+        type: string
+        max_length: 255
+        required: true
+      abbreviation:
+        type: string
+        max_length: 7
+        required: true
+      url:
+        type: url
+        required: false
+      primary_color:
+        type: object
+        fields:
+          rgba:
+            type: rgba
+            required: true
+        required: false
+      secondary_colors:
+        type: array
+        items:
+          type: object
+          fields:
+            rgba:
+              type: rgba
+              required: true
+        required: false
+      palette_color_alikes:
+        type: array
+        items:
+          type: string
+          foreign_key:
+            entity: palette_colors
+            field: uuid
+        required: false
+      transmission_distance:
+        type: number
+        required: false
+      refractive_index:
+        type: number
+        required: false
+      tags:
+        type: array
+        items:
+          type: slug
+          foreign_key:
+            entity: material_tags
+            field: slug
+        required: false
+      certifications:
+        type: array
+        items:
+          type: slug
+          foreign_key:
+            entity: material_certifications
+            field: slug
+        required: false
+      photos:
+        type: array
+        items:
+          type: object
+          fields:
+            url:
+              type: url
+              required: true
+            type:
+              type: enum
+              values: ["unspecified", "print", "package", "filament_colors_sample"]
+              required: true
+        required: false
+      properties:
+        type: object
+        required: false
+      print_sheet_compatibility:
+        type: array
+        items:
+          type: object
+          fields:
+            sheet_slug:
+              type: slug
+              foreign_key:
+                entity: print_sheet_types
+                field: slug
+              required: true
+            level:
+              type: enum
+              values: ["incompatible", "compatible", "with_glue_stick", "with_pp_tape"]
+              required: true
+            heatbed_required:
+              type: boolean
+              required: false
+        required: false
+
+  material_packages:
+    directory: "data/material-packages"
+    subdirectories_by_brand: true
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      slug:
+        type: slug
+        required: true
+      class:
+        type: enum
+        values: ["FFF", "SLA"]
+        required: true
+      brand_slug:
+        type: slug
+        foreign_key:
+          entity: brands
+          field: slug
+        required: true
+      brand_specific_id:
+        type: string
+        max_length: 100
+        required: false
+      gtin:
+        type: gtin
+        required: true
+      container_slug:
+        type: slug
+        foreign_key:
+          entity: material_containers
+          field: slug
+        required: false
+      material_slug:
+        type: slug
+        foreign_key:
+          entity: materials
+          field: slug
+        required: true
+      url:
+        type: url
+        required: false
+      nominal_netto_full_weight:
+        type: number
+        required: true
+      filament_diameter:
+        type: integer
+        required: false
+      filament_diameter_tolerance:
+        type: integer
+        required: false
+      nominal_full_length:
+        type: number
+        required: false
+
+  slicing_profiles:
+    directory: "data/slicing-profiles"
+    subdirectories: ["prusaslicer", "orcaslicer"]
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      id:
+        type: integer
+        required: true
+      slug:
+        type: slug
+        required: true
+      name:
+        type: string
+        max_length: 255
+        required: true
+      match_filters:
+        type: object
+        required: false
+
+  material_slicing_profiles:
+    directory: "data/material-slicing-profiles"
+    filename_pattern: "{slug}.yaml"
+    type: entity
+    primary_key: slug
+    fields:
+      id:
+        type: integer
+        required: true
+      slug:
+        type: slug
+        required: true
+      name:
+        type: string
+        max_length: 255
+        required: true
+      print_properties:
+        type: object
+        required: false
+      match_filters:
+        type: object
+        required: false
+
+# Validation rules
+validation_rules:
+  - name: unique_slugs
+    description: "Slugs must be unique within each entity type"
+    level: error
+
+  - name: foreign_key_exists
+    description: "Foreign key references must exist"
+    level: error
+
+  - name: required_fields
+    description: "Required fields must be present"
+    level: error
+
+  - name: field_types
+    description: "Field values must match their type definition"
+    level: error
+
+  - name: enum_values
+    description: "Enum fields must use defined values"
+    level: error
+
+  - name: orphaned_files
+    description: "Files should match expected naming patterns"
+    level: warning
+
+  - name: unused_lookup_entries
+    description: "Lookup table entries should be referenced"
+    level: info

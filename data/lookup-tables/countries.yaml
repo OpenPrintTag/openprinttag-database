@@ -1,0 +1,31 @@
+countries:
+  - code: CZ
+    name: "Czech Republic"
+  - code: US
+    name: "United States"
+  - code: DE
+    name: "Germany"
+  - code: GB
+    name: "United Kingdom"
+  - code: FR
+    name: "France"
+  - code: IT
+    name: "Italy"
+  - code: ES
+    name: "Spain"
+  - code: CN
+    name: "China"
+  - code: JP
+    name: "Japan"
+  - code: KR
+    name: "South Korea"
+  - code: CA
+    name: "Canada"
+  - code: AU
+    name: "Australia"
+  - code: NL
+    name: "Netherlands"
+  - code: BE
+    name: "Belgium"
+  - code: PL
+    name: "Poland"

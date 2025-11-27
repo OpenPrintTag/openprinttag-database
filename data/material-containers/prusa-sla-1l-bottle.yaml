@@ -1,0 +1,21 @@
+uuid: 8f6b95a5-49f2-408f-bcf5-576c4678666b
+slug: prusa-sla-1l-bottle
+class: SLA
+
+brand_slug: prusa-research
+brand_specific_id: "BOTTLE-1L-SLA"
+name: "Prusa SLA 1L Bottle"
+
+volumetric_capacity: 1000.0  # ml
+
+empty_weight: 45.0  # grams
+
+# Dimensions (all in mm)
+hole_diameter: null
+inner_diameter: null
+outer_diameter: null
+width: 85.0
+length: 85.0
+height: 250.0
+
+connector_slug: prusa-sla-connector-standard

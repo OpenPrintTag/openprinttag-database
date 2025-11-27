@@ -1,0 +1,81 @@
+uuid: 767ed2c7-efbd-4e65-a227-5aaea443c086
+slug: prusament-petg-jet-black
+brand_slug: prusa-research
+brand_specific_id: "PETG-JB-001"
+
+name: "Prusament PETG Jet Black"
+abbreviation: PETG
+class: FFF
+type_id: 2
+
+url: "https://prusament.com/materials/prusament-petg-jet-black/"
+
+# Color information
+primary_color:
+  rgba: "#0a0a0aff"
+
+secondary_colors: []
+
+palette_color_alikes:
+  - ral-9005
+
+transmission_distance: null
+refractive_index: null
+
+tags:
+  - high-strength
+  - chemical-resistant
+  - easy-printing
+  - low-warp
+
+certifications:
+  - reach
+  - rohs
+  - fda
+
+photos:
+  - url: "https://cdn.prusa3d.com/content/images/product/prusament-petg-jet-black-print.jpg"
+    type: print
+
+properties:
+  # Printing temperatures (°C)
+  nozzle_temperature_min: 230
+  nozzle_temperature_max: 260
+  nozzle_temperature_default: 245
+  bed_temperature_min: 80
+  bed_temperature_max: 90
+  bed_temperature_default: 85
+
+  # Speed limits
+  max_volumetric_speed: 13  # mm³/s
+  max_print_speed: 180      # mm/s
+
+  # Mechanical properties
+  tensile_strength: 52      # MPa
+  elongation_at_break: 150  # %
+  youngs_modulus: 2100      # MPa
+  impact_strength: 80       # kJ/m²
+
+  # Thermal properties
+  glass_transition_temp: 80  # °C
+  melting_temp: 250          # °C
+  heat_deflection_temp: 70   # °C
+
+  # Physical properties
+  density: 1.27              # g/cm³
+
+  # Print quality
+  shrinkage: 0.6             # %
+  layer_adhesion: excellent
+  surface_quality: good
+
+print_sheet_compatibility:
+  - sheet_slug: prusa-textured-powder-coated-sheet
+    level: compatible
+    heatbed_required: true
+  - sheet_slug: prusa-smooth-pei-sheet
+    level: compatible
+    heatbed_required: true
+  - sheet_slug: prusa-satin-sheet
+    level: with_glue_stick
+    heatbed_required: true

@@ -1,0 +1,50 @@
+colors:
+  # RAL Classic colors (selection)
+  - uuid: ral-9005
+    palette: ral
+    canonical_name: "9005"
+    display_name: "Jet Black"
+    rgba: "#0a0a0aff"
+
+  - uuid: ral-9016
+    palette: ral
+    canonical_name: "9016"
+    display_name: "Traffic White"
+    rgba: "#f6f6f6ff"
+
+  - uuid: ral-2004
+    palette: ral
+    canonical_name: "2004"
+    display_name: "Pure Orange"
+    rgba: "#f44611ff"
+
+  - uuid: ral-5015
+    palette: ral
+    canonical_name: "5015"
+    display_name: "Sky Blue"
+    rgba: "#2271b3ff"
+
+  - uuid: ral-6018
+    palette: ral
+    canonical_name: "6018"
+    display_name: "Yellow Green"
+    rgba: "#57a639ff"
+
+  # Pantone colors (selection)
+  - uuid: pantone-black-c
+    palette: pantone
+    canonical_name: "BLACK C"
+    display_name: "Black"
+    rgba: "#2d2926ff"
+
+  - uuid: pantone-white-c
+    palette: pantone
+    canonical_name: "WHITE C"
+    display_name: "White"
+    rgba: "#f0eeeaff"
+
+  - uuid: pantone-orange-021-c
+    palette: pantone
+    canonical_name: "ORANGE 021 C"
+    display_name: "Orange 021"
+    rgba: "#fe5000ff"

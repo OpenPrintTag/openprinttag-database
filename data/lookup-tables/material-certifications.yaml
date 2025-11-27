@@ -1,0 +1,30 @@
+certifications:
+  - id: 1
+    slug: reach
+    name: "REACH"
+    display_name: "REACH Compliant"
+    description: "Complies with EU REACH regulation for chemical safety"
+
+  - id: 2
+    slug: rohs
+    name: "RoHS"
+    display_name: "RoHS Compliant"
+    description: "Restriction of Hazardous Substances directive compliance"
+
+  - id: 3
+    slug: fda
+    name: "FDA"
+    display_name: "FDA Approved"
+    description: "Meets FDA requirements for food contact applications"
+
+  - id: 4
+    slug: ul94
+    name: "UL94"
+    display_name: "UL94 Fire Rating"
+    description: "Underwriters Laboratories flammability standard"
+
+  - id: 5
+    slug: iso-10993
+    name: "ISO 10993"
+    display_name: "ISO 10993 Biocompatibility"
+    description: "Biological evaluation of medical devices standard"

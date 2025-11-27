@@ -1,0 +1,35 @@
+uuid: 550e8400-e29b-41d4-a716-446655440000
+slug: prusa-research
+name: "Prusa Research"
+
+keywords:
+  - Prusa
+  - Prusament
+  - Original Prusa
+
+# URL templates for linking to brand's product pages
+material_url_template: "https://prusament.com/materials/{material_slug}/"
+material_package_url_template: "https://prusament.com/materials/{material_slug}/"
+material_package_instance_url_template: null
+
+# Link patterns for automatic brand detection
+link_patterns:
+  - type: brand
+    pattern: "https://prusament\\.com/.*"
+  - type: material
+    pattern: "https://prusament\\.com/materials/([^/]+)/"
+
+# Countries where brand is officially available
+countries:
+  - CZ
+  - US
+  - DE
+  - GB
+  - FR
+  - IT
+  - ES
+  - CA
+  - AU
+  - NL
+  - BE
+  - PL

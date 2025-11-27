@@ -1,0 +1,101 @@
+tags:
+  - id: 1
+    slug: uv-resistant
+    name: "UV Resistant"
+    category: properties
+    description: "Resistant to degradation from UV exposure"
+    implies:
+      - outdoor-suitable
+    hints:
+      - weather-resistant
+
+  - id: 2
+    slug: outdoor-suitable
+    name: "Outdoor Suitable"
+    category: applications
+    description: "Suitable for prolonged outdoor use"
+    hints:
+      - uv-resistant
+      - weather-resistant
+
+  - id: 3
+    slug: high-detail
+    name: "High Detail Capable"
+    category: performance
+    description: "Capable of producing fine details and smooth surfaces"
+    hints:
+      - low-layer-height
+
+  - id: 4
+    slug: decorative-finish
+    name: "Decorative Finish"
+    category: finish
+    description: "Special visual finish (glitter, metallic, silk, etc.)"
+
+  - id: 5
+    slug: food-safe
+    name: "Food Safe"
+    category: safety
+    description: "Safe for contact with food (requires proper post-processing)"
+    implies:
+      - fda-compliant
+
+  - id: 6
+    slug: fda-compliant
+    name: "FDA Compliant"
+    category: safety
+    description: "Meets FDA requirements for food contact"
+
+  - id: 7
+    slug: high-strength
+    name: "High Strength"
+    category: performance
+    description: "Superior mechanical strength and durability"
+
+  - id: 8
+    slug: flexible
+    name: "Flexible"
+    category: properties
+    description: "Flexible or elastomeric material"
+
+  - id: 9
+    slug: weather-resistant
+    name: "Weather Resistant"
+    category: properties
+    description: "Resistant to moisture, temperature changes, and weathering"
+
+  - id: 10
+    slug: low-warp
+    name: "Low Warping"
+    category: properties
+    description: "Minimal warping during printing"
+
+  - id: 11
+    slug: biodegradable
+    name: "Biodegradable"
+    category: safety
+    description: "Biodegradable under appropriate conditions"
+
+  - id: 12
+    slug: chemical-resistant
+    name: "Chemical Resistant"
+    category: properties
+    description: "Resistant to various chemicals and solvents"
+
+  - id: 13
+    slug: high-temperature
+    name: "High Temperature Resistance"
+    category: performance
+    description: "Maintains properties at elevated temperatures"
+
+  - id: 14
+    slug: low-layer-height
+    name: "Optimized for Low Layer Heights"
+    category: performance
+    description: "Performs well at layer heights below 0.15mm"
+
+  - id: 15
+    slug: easy-printing
+    name: "Easy to Print"
+    category: properties
+    description: "Beginner-friendly material with forgiving print characteristics"

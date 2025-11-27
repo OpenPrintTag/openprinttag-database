@@ -1,0 +1,95 @@
+uuid: cb87d2a8-1799-4379-b3b3-ce24eb1d6fff
+slug: prusament-pla-galaxy-black
+brand_slug: prusa-research
+brand_specific_id: "PLA-GB-001"
+
+name: "Prusament PLA Galaxy Black"
+abbreviation: PLA
+class: FFF
+type_id: 1
+
+url: "https://prusament.com/materials/prusament-pla-galaxy-black/"
+
+# Color information
+primary_color:
+  rgba: "#1a1a1aff"
+
+secondary_colors:
+  - rgba: "#4a4a7aff"  # Purple sparkle
+  - rgba: "#7a7aaaff"  # Light purple sparkle
+
+# Color palette references (optional)
+palette_color_alikes:
+  - ral-9005  # Jet Black
+
+# Optical properties (for transparent/translucent materials)
+transmission_distance: null
+refractive_index: null
+
+# Material tags (many-to-many)
+tags:
+  - high-detail
+  - decorative-finish
+  - easy-printing
+  - low-warp
+  - biodegradable
+
+# Certifications (many-to-many)
+certifications:
+  - reach
+  - rohs
+
+# Photos
+photos:
+  - url: "https://cdn.prusa3d.com/content/images/product/prusament-pla-galaxy-black-print.jpg"
+    type: print
+  - url: "https://cdn.prusa3d.com/content/images/product/prusament-pla-galaxy-black-spool.jpg"
+    type: package
+  - url: "https://cdn.prusa3d.com/content/images/product/prusament-pla-galaxy-black-sample.jpg"
+    type: filament_colors_sample
+
+# Material properties
+properties:
+  # Printing temperatures (°C)
+  nozzle_temperature_min: 210
+  nozzle_temperature_max: 230
+  nozzle_temperature_default: 215
+  bed_temperature_min: 50
+  bed_temperature_max: 60
+  bed_temperature_default: 60
+
+  # Speed limits
+  max_volumetric_speed: 15  # mm³/s
+  max_print_speed: 200      # mm/s
+
+  # Mechanical properties
+  tensile_strength: 50      # MPa
+  elongation_at_break: 6    # %
+  youngs_modulus: 3500      # MPa
+  impact_strength: 16       # kJ/m²
+
+  # Thermal properties
+  glass_transition_temp: 60  # °C
+  melting_temp: 180          # °C
+  heat_deflection_temp: 55   # °C
+
+  # Physical properties
+  density: 1.24              # g/cm³
+  melt_flow_rate: 7.5        # g/10min
+
+  # Print quality
+  shrinkage: 0.3             # %
+  layer_adhesion: excellent
+  surface_quality: excellent
+
+# Print sheet compatibility
+print_sheet_compatibility:
+  - sheet_slug: prusa-textured-powder-coated-sheet
+    level: compatible
+    heatbed_required: true
+  - sheet_slug: prusa-smooth-pei-sheet
+    level: compatible
+    heatbed_required: true
+  - sheet_slug: prusa-satin-sheet
+    level: compatible
+    heatbed_required: false

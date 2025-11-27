@@ -1,0 +1,50 @@
+types:
+  - id: 1
+    class: FFF
+    abbreviation: PLA
+    name: "Polylactic Acid"
+    description: "Biodegradable thermoplastic derived from renewable resources like corn starch"
+    default_properties:
+      nozzle_temperature_default: 215
+      bed_temperature_default: 60
+      density: 1.24
+
+  - id: 2
+    class: FFF
+    abbreviation: PETG
+    name: "Polyethylene Terephthalate Glycol"
+    description: "Durable, chemical-resistant thermoplastic with good layer adhesion"
+    default_properties:
+      nozzle_temperature_default: 240
+      bed_temperature_default: 85
+      density: 1.27
+
+  - id: 3
+    class: FFF
+    abbreviation: ASA
+    name: "Acrylonitrile Styrene Acrylate"
+    description: "UV-resistant thermoplastic suitable for outdoor applications"
+    default_properties:
+      nozzle_temperature_default: 260
+      bed_temperature_default: 100
+      density: 1.07
+
+  - id: 4
+    class: FFF
+    abbreviation: ABS
+    name: "Acrylonitrile Butadiene Styrene"
+    description: "Strong thermoplastic with good impact resistance"
+    default_properties:
+      nozzle_temperature_default: 255
+      bed_temperature_default: 100
+      density: 1.04
+
+  - id: 10
+    class: SLA
+    abbreviation: RESIN
+    name: "Standard Resin"
+    description: "UV-curable photopolymer resin for high detail prints"
+    default_properties:
+      exposure_time: 8
+      layer_height: 0.05
+      density: 1.1

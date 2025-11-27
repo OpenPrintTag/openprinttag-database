@@ -1,0 +1,21 @@
+uuid: d3ae889f-ced9-46ce-815b-bbb5e92fa2b1
+slug: prusa-mini-400g-spool
+class: FFF
+
+brand_slug: prusa-research
+brand_specific_id: "SPOOL-400G-MINI"
+name: "Prusa Mini 400g Spool"
+
+volumetric_capacity: null
+
+empty_weight: 140.0  # grams
+
+# Dimensions (all in mm)
+hole_diameter: 53.0
+inner_diameter: 80.0
+outer_diameter: 150.0
+width: 55.0
+length: null
+height: null
+
+connector_slug: null
