@@ -1,0 +1,21 @@
+uuid: aa219441-cf93-54b3-8611-b1bf9325e437
+slug: primacreator-primaselect-pla-gradient-golddeep-greendeep-blueblue-purplecopperred
+brand:
+  slug: primacreator
+name: PrimaSelect PLA Gradient Gold/Deep Green/Deep Blue/Blue Purple/Copper/Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#e3b145ff'
+- color_rgba: '#3c5415ff'
+- color_rgba: '#15817bff'
+- color_rgba: '#5c50e0ff'
+- color_rgba: '#904029ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/096403fd6a9f.png
+  type: unspecified
+properties: {}

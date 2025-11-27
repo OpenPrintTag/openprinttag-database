@@ -1,0 +1,17 @@
+uuid: 0b7500ab-cdef-5d57-abfb-fb20e9c48ed1
+slug: polar-filament-color-changing-blue-pla
+brand:
+  slug: polar-filament
+name: Color Changing Blue PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0353baff'
+- color_rgba: '#f0ebe5ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/5334e186cae7.png
+  type: unspecified
+properties: {}

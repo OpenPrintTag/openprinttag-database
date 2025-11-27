@@ -1,0 +1,18 @@
+uuid: ced87b73-7959-567d-896d-63f9406c9f8f
+slug: cc3d-temp-color-changing-pla-orange-to-yellow
+brand:
+  slug: cc3d
+name: Temp Color Changing PLA Orange to Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f67405ff'
+- color_rgba: '#ebff57ff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/1f5e62fda581.jpg
+  type: unspecified
+properties: {}

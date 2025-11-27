@@ -1,0 +1,20 @@
+uuid: 34f5e5fe-3805-542f-bed5-0a4b424d7dd6
+slug: elegoo-silk-pla-blue-green-orange
+brand:
+  slug: elegoo
+name: Silk PLA Blue Green Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0353baff'
+- color_rgba: '#3d9441ff'
+- color_rgba: '#fa8423ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/4272a880041a.png
+  type: unspecified
+properties: {}

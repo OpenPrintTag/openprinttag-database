@@ -1,0 +1,16 @@
+uuid: 3dd1d2ca-068a-5754-b08b-a01ff356a1e7
+slug: atomic-filament-reprap-green-pla
+brand:
+  slug: atomic-filament
+name: RepRap Green PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#089a45ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/73224fdd7c8c.png
+  type: unspecified
+properties: {}

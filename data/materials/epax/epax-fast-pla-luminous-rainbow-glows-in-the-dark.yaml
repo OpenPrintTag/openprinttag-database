@@ -1,0 +1,19 @@
+uuid: 4f6fc8c0-650a-54ea-95d1-cb6c5496f82f
+slug: epax-fast-pla-luminous-rainbow-glows-in-the-dark
+brand:
+  slug: epax
+name: Fast PLA+ Luminous Rainbow (glows in the dark)
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=49677895860437
+secondary_colors:
+- color_rgba: '#62e480ff'
+- color_rgba: '#00bfb3ff'
+- color_rgba: '#fbe0b1ff'
+- color_rgba: '#f5ec97ff'
+tags:
+- glow_in_the_dark
+- gradual_color_change
+- high_speed
+properties: {}

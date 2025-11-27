@@ -1,0 +1,19 @@
+uuid: 063508dc-5bad-5096-817b-0c3ea661ac0b
+slug: overture-tpu-high-speed-luminous-orange
+brand:
+  slug: overture
+name: TPU High Speed Luminous Orange
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://overture3d.com/products/overture-high-speed-tpu-3d-printer-filament-1-75mm?variant=46971915010302
+primary_color:
+  color_rgba: '#ffae62ff'
+secondary_colors:
+- color_rgba: '#e4e7e5ff'
+tags:
+- illuminescent_color_change
+- glow_in_the_dark
+- high_speed
+properties:
+  hardness_shore_a: 95

@@ -1,0 +1,18 @@
+uuid: b67b5030-f493-5bf1-9233-b9b539cc9c3e
+slug: eumakers-pla-uv-reactive-white
+brand:
+  slug: eumakers
+name: PLA UV Reactive White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.eumakers.com/pla-uv-reactive-filament-color-white.html
+primary_color:
+  color_rgba: '#0099e6ff'
+secondary_colors:
+- color_rgba: '#f2efe9ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties:
+  density: 1.24

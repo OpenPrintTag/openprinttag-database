@@ -1,0 +1,19 @@
+uuid: 7f6ef348-9473-5f4d-9b8d-2187e55c74f1
+slug: spectrum-pla-high-speed-neon-orange-uv
+brand:
+  slug: spectrum
+name: PLA High Speed Neon Orange UV
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://spectrumfilaments.com/en/filament/pla-high-speed/
+secondary_colors:
+- color_rgba: '#fa8423ff'
+- color_rgba: '#386dffff'
+tags:
+- illuminescent_color_change
+- industrially_compostable
+- neon
+- high_speed
+properties:
+  density: 1.24

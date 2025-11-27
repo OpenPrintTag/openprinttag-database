@@ -1,0 +1,20 @@
+uuid: 38fe16a2-80ed-5724-915f-aa226e9f42b9
+slug: amolen-pla-matte-pastel-berry-rainbow
+brand:
+  slug: amolen
+name: PLA Matte Pastel Berry Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-matte-rainbow-filament-1-75mm-1kg-2-2lb?variant=42112112754711
+secondary_colors:
+- color_rgba: '#4d99b0ff'
+- color_rgba: '#f5cf6fff'
+- color_rgba: '#f19269ff'
+- color_rgba: '#93b580ff'
+- color_rgba: '#bb1173ff'
+tags:
+- matte
+- gradual_color_change
+properties:
+  density: 1.24

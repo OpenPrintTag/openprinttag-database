@@ -1,0 +1,10 @@
+uuid: 64e5ad9e-0c08-540e-9e56-19c2033ccdc7
+slug: prusament-petg-v0-natural-1000-spool
+class: FFF
+material:
+  slug: prusament-petg-v0-natural
+nominal_netto_full_weight: 1000
+gtin: 8594173675742
+container:
+  slug: old-prusament-spool-1kg
+filament_diameter: 1750

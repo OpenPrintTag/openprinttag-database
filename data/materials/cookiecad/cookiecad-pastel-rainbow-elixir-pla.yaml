@@ -1,0 +1,21 @@
+uuid: 0823eb1c-444b-5d4e-92cb-2a3195081308
+slug: cookiecad-pastel-rainbow-elixir-pla
+brand:
+  slug: cookiecad
+name: Pastel Rainbow Elixir PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://cookiecad.com/products/pastel-rainbow-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
+secondary_colors:
+- color_rgba: '#fd9191ff'
+- color_rgba: '#fce575ff'
+- color_rgba: '#69ebb6ff'
+- color_rgba: '#9cd0dbff'
+- color_rgba: '#c1648eff'
+tags:
+- gradual_color_change
+- iridescent
+- silk
+- industrially_compostable
+properties: {}

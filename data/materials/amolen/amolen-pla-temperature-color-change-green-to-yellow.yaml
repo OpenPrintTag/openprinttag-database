@@ -1,0 +1,18 @@
+uuid: f35dcead-8ed5-5ff9-b708-3b50e4676035
+slug: amolen-pla-temperature-color-change-green-to-yellow
+brand:
+  slug: amolen
+name: PLA Temperature Color Change Green to Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#11784fff'
+- color_rgba: '#fbf942ff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/ef61b9e7-f09e-4df6-8f86-602bda368b05/fa553dcddf5e.png
+  type: unspecified
+properties: {}

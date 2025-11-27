@@ -1,0 +1,20 @@
+uuid: 4d95c3dd-900d-55f2-9881-8c28809850e1
+slug: flashforge-silk-tri-color-pla-red-yellow-blue
+brand:
+  slug: flashforge
+name: Silk Tri-Color PLA Red & Yellow & Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#cf4042ff'
+- color_rgba: '#ebff57ff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/3f71a2315a64.jpg
+  type: unspecified
+properties: {}

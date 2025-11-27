@@ -1,0 +1,16 @@
+uuid: 0cc32e30-e07c-504c-84cb-cdda6679997b
+slug: flashforge-pla-white
+brand:
+  slug: flashforge
+name: PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/90e527e3b885.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,20 @@
+uuid: 478bbfa4-4b6a-5032-abb8-65064df99b19
+slug: ovv3d-silk-pla-tri-color-blue-green-orange
+brand:
+  slug: ovv3d
+name: Silk PLA Tri-color Blue Green Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff8133ff'
+- color_rgba: '#41a840ff'
+- color_rgba: '#386dffff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/ba08f0350ab8.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,20 @@
+uuid: 822935cb-f151-59d4-93b8-b837f675d085
+slug: zyltech-silk-kaleidoscope-tri-color-pla
+brand:
+  slug: zyltech
+name: Silk Kaleidoscope Tri-Color PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#02a76bff'
+- color_rgba: '#0353baff'
+- color_rgba: '#f87fb5ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/0526f1c8e35e.png
+  type: unspecified
+properties: {}

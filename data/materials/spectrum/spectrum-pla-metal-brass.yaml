@@ -1,0 +1,17 @@
+uuid: cb00fb11-f266-5e12-a1d3-ed2f0259e30a
+slug: spectrum-pla-metal-brass
+brand:
+  slug: spectrum
+name: PLA Metal Brass
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://spectrumfilaments.com/en/filament/pla-metal-brass/
+primary_color:
+  color_rgba: '#998d58ff'
+tags:
+- contains_brass
+- abrasive
+- industrially_compostable
+properties:
+  density: 1.22

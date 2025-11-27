@@ -1,0 +1,15 @@
+uuid: e964220f-4aef-5ef3-a595-03756dccea1c
+slug: colorfabb-tpu-95a-white
+brand:
+  slug: colorfabb
+name: TPU 95A White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/92176f1b0cc1.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

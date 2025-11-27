@@ -1,0 +1,22 @@
+uuid: 7ee3a2f3-73d5-54c1-a71e-37550f5dd46a
+slug: amolen-pla-matte-candy-rainbow
+brand:
+  slug: amolen
+name: PLA Matte Candy Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fef49cff'
+- color_rgba: '#ffe6fdff'
+- color_rgba: '#f5b797ff'
+- color_rgba: '#d8eea3ff'
+- color_rgba: '#9cd0dbff'
+tags:
+- matte
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/386453fc-2af7-45ed-90af-14653449f8ec/c7498c29ecaa.png
+  type: unspecified
+properties: {}

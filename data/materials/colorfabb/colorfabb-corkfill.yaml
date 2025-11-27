@@ -1,0 +1,18 @@
+uuid: 36eee878-9730-5a54-891f-bc97c7847988
+slug: colorfabb-corkfill
+brand:
+  slug: colorfabb
+name: corkFill
+class: FFF
+type: PHA
+abbreviation: PHA
+primary_color:
+  color_rgba: '#774b3fff'
+tags:
+- contains_cork
+- foaming
+- home_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/80e4c44f3f8e.png
+  type: unspecified
+properties: {}

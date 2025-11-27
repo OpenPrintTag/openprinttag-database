@@ -1,0 +1,17 @@
+uuid: 0aaa4620-9970-5a91-8013-7b7d4b497808
+slug: flashforge-rapid-petg-burnt-titanium
+brand:
+  slug: flashforge
+name: Rapid PETG Burnt Titanium
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#663d7eff'
+- color_rgba: '#0e304fff'
+tags:
+- iridescent
+photos:
+- url: https://file.myfilamentlist.com/f/new/b580989a0cda.jpg
+  type: unspecified
+properties: {}

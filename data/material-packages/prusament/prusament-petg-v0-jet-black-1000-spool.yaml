@@ -1,0 +1,10 @@
+uuid: 914e1834-e4b8-576f-a82e-eaaddf7a7b32
+slug: prusament-petg-v0-jet-black-1000-spool
+class: FFF
+material:
+  slug: prusament-petg-v0-jet-black
+nominal_netto_full_weight: 1000
+gtin: 8594173675759
+container:
+  slug: old-prusament-spool-1kg
+filament_diameter: 1750

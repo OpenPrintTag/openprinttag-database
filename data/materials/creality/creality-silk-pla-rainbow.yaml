@@ -1,0 +1,22 @@
+uuid: b970419e-ac66-5bc4-8fe9-89b0f2041e82
+slug: creality-silk-pla-rainbow
+brand:
+  slug: creality
+name: Silk PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#8846aeff'
+- color_rgba: '#4e7642ff'
+- color_rgba: '#2e56f1ff'
+- color_rgba: '#fce575ff'
+- color_rgba: '#ad4f54ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/6a6cf8505be5.jpg
+  type: unspecified
+properties: {}

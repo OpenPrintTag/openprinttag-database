@@ -1,0 +1,21 @@
+uuid: 98768b09-64b3-5278-bf44-982ddb784c81
+slug: sunlu-silk-rainbow-pla-blue-purple-magenta
+brand:
+  slug: sunlu
+name: Silk Rainbow PLA (Blue-Purple-Magenta)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#82e3ecff'
+- color_rgba: '#0095ffff'
+- color_rgba: '#c80181ff'
+- color_rgba: '#a67dffff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/7f0afd613e3c.jpg
+  type: unspecified
+properties: {}

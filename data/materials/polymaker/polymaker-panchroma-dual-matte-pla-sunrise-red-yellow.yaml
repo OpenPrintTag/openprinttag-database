@@ -1,0 +1,19 @@
+uuid: 33e77354-d765-56eb-a6e5-fbcb89b017f7
+slug: polymaker-panchroma-dual-matte-pla-sunrise-red-yellow
+brand:
+  slug: polymaker
+name: Panchroma™ Dual Matte PLA Sunrise (Red-Yellow)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#e20010ff'
+tags:
+- matte
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/c69c1216ca58.png
+  type: unspecified
+properties: {}

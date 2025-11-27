@@ -1,0 +1,16 @@
+uuid: bb4f03c6-3d1b-5db3-bee6-e80b588f648e
+slug: flashforge-pla-pro-black
+brand:
+  slug: flashforge
+name: PLA PRO Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/94409bb4007d.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 9ba55d93-bab9-5542-b06e-32aa12ec8b92
+slug: colorfabb-steelfill
+brand:
+  slug: colorfabb
+name: steelFill
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6a6c6eff'
+tags:
+- contains_steel
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/658db96d109c.png
+  type: unspecified
+properties: {}

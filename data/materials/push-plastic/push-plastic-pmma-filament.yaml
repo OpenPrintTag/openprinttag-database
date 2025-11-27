@@ -1,0 +1,16 @@
+uuid: 668f9ba1-5a85-58da-8034-ac1c2536ca54
+slug: push-plastic-pmma-filament
+brand:
+  slug: push-plastic
+name: PMMA Filament
+class: FFF
+type: PMMA
+abbreviation: PMMA
+primary_color:
+  color_rgba: '#d9d8deff'
+tags:
+- translucent
+photos:
+- url: https://file.myfilamentlist.com/f/new/cabe25c76040.png
+  type: unspecified
+properties: {}

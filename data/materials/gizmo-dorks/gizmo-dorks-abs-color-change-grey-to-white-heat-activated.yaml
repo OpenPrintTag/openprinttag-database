@@ -1,0 +1,18 @@
+uuid: 0521d849-bcdf-5f16-8259-5e42e1ed5a59
+slug: gizmo-dorks-abs-color-change-grey-to-white-heat-activated
+brand:
+  slug: gizmo-dorks
+name: ABS Color Change Grey to White (Heat Activated)
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#727376ff'
+- color_rgba: '#ffffffff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/3a600c51590c.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,17 @@
+uuid: 9db49360-c8c5-5656-8d98-f9e6c9f754d3
+slug: econofil-glow-pla-glow-green
+brand:
+  slug: econofil
+name: Glow PLA Glow Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://filaments.ca/collections/econofil-pla/products/econofil-basic-pla-glow-green
+primary_color:
+  color_rgba: '#00f03cff'
+secondary_colors:
+- color_rgba: '#e5f1eaff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

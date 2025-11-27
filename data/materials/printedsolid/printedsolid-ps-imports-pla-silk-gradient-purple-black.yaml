@@ -1,0 +1,19 @@
+uuid: df951a8d-0980-53ff-b2ec-92a6e5af1c24
+slug: printedsolid-ps-imports-pla-silk-gradient-purple-black
+brand:
+  slug: printedsolid
+name: PS Imports PLA Silk Gradient-Purple-Black
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#372b74ff'
+- color_rgba: '#000000ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/af4c74ade148.png
+  type: unspecified
+properties: {}

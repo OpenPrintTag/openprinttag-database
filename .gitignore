@@ -1,0 +1,15 @@
+.idea/
+venv/
+.venv/
+__pycache__/
+.tmp_schemas/
+openprinttag/
+db-export.json
+
+# Python build artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+*.pyc
+*.pyo

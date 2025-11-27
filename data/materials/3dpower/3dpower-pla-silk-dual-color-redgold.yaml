@@ -1,0 +1,17 @@
+uuid: a4d9537e-1038-5cfd-87c6-692eae856b6a
+slug: 3dpower-pla-silk-dual-color-redgold
+brand:
+  slug: 3dpower
+name: PLA SILK Dual Color Red&Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://3dpower-filament.com/en/products/filament-3dpower-pla-silk-dual-color-1-75mm-red-gold-1kg-191.html
+secondary_colors:
+- color_rgba: '#da445aff'
+- color_rgba: '#f3b400ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24

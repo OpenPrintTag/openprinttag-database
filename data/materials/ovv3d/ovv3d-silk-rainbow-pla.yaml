@@ -1,0 +1,22 @@
+uuid: a0cb93a3-378d-5649-b6dc-dc85e8fc4d40
+slug: ovv3d-silk-rainbow-pla
+brand:
+  slug: ovv3d
+name: Silk Rainbow PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fce575ff'
+- color_rgba: '#7ab352ff'
+- color_rgba: '#82e3ecff'
+- color_rgba: '#f87fb5ff'
+- color_rgba: '#a67dffff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/5f5a2dcf0b47.jpg
+  type: unspecified
+properties: {}

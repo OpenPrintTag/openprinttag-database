@@ -1,0 +1,17 @@
+uuid: 288f7350-d025-515b-883d-3173cdea2a6e
+slug: flashforge-silk-pla-skin
+brand:
+  slug: flashforge
+name: Silk PLA Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fec8a4ff'
+tags:
+- silk
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/809ff1342c45.jpg
+  type: unspecified
+properties: {}

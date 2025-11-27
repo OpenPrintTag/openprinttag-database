@@ -1,0 +1,19 @@
+uuid: 125252df-10ac-5468-ae0e-5d20a1ae5f42
+slug: 3djake-ecopla-silk-rainbow-candyshop
+brand:
+  slug: 3djake
+name: ecoPLA Silk Rainbow Candyshop
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.3djake.com/3djake/ecopla-silk-rainbow-candyshop
+secondary_colors:
+- color_rgba: '#0099e6ff'
+- color_rgba: '#70a641ff'
+- color_rgba: '#fd64b3ff'
+- color_rgba: '#8d65c7ff'
+- color_rgba: '#ff9a14ff'
+tags:
+- silk
+- gradual_color_change
+properties: {}

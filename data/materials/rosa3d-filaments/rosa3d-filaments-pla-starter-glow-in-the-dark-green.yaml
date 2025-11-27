@@ -1,0 +1,17 @@
+uuid: d57cb392-89bf-5b05-b32e-b989e3fc9dbc
+slug: rosa3d-filaments-pla-starter-glow-in-the-dark-green
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Glow in the Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-pla-starter-glow-in-the-dark-green
+primary_color:
+  color_rgba: '#62e480ff'
+secondary_colors:
+- color_rgba: '#f9f3e5ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

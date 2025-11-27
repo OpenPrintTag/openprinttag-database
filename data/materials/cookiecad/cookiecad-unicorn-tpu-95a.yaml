@@ -1,0 +1,17 @@
+uuid: 86047324-2c7c-54e1-8d2b-1e7b6c92b21a
+slug: cookiecad-unicorn-tpu-95a
+brand:
+  slug: cookiecad
+name: Unicorn TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://cookiecad.com/products/tpu-unicorn-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+secondary_colors:
+- color_rgba: '#8d65c7ff'
+- color_rgba: '#ff72b6ff'
+- color_rgba: '#39b9dbff'
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95

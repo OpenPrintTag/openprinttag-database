@@ -1,0 +1,16 @@
+uuid: 5c1c52ba-a2b6-5f76-90e7-df621b52d91c
+slug: flashforge-abs-pro-white
+brand:
+  slug: flashforge
+name: ABS Pro White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/c4aadf0de376.jpg
+  type: unspecified
+properties: {}

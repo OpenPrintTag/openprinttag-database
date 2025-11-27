@@ -1,0 +1,23 @@
+uuid: 556d7a34-7fa6-5fc3-8044-4269731af999
+slug: buddy3d-pla-blue
+brand:
+  slug: buddy3d
+name: PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.prusa3d.com/product/buddy3d-pla-blue-1kg/
+primary_color:
+  color_rgba: '#0099e6ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40

@@ -1,0 +1,17 @@
+uuid: f24d76a6-2d37-5339-8150-1409f1edea13
+slug: flashforge-petg-cf-grass-green
+brand:
+  slug: flashforge
+name: PETG-CF Grass Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#4e7642ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/106690840ae2.jpg
+  type: unspecified
+properties: {}

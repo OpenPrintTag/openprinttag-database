@@ -1,0 +1,18 @@
+uuid: c0e98c98-8e3d-5180-8ca7-6daa3c943121
+slug: flashforge-pla-cf-dusty-pink
+brand:
+  slug: flashforge
+name: PLA-CF Dusty Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#795b65ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/3a916e332e5d.jpg
+  type: unspecified
+properties: {}

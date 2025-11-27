@@ -1,0 +1,15 @@
+uuid: 9ddb8280-12cd-5d5d-bce2-bfa61d97e4c4
+slug: eumakers-pla-marble-effect
+brand:
+  slug: eumakers
+name: PLA Marble Effect
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.eumakers.com/pla-filament-color-marble-effect.html
+primary_color:
+  color_rgba: '#f5f5f5ff'
+tags:
+- imitates_marble
+properties:
+  density: 1.24

@@ -1,0 +1,21 @@
+uuid: f740f6b3-9378-5070-b041-0cf94c126ac3
+slug: esun-matte-pla-rainbow
+brand:
+  slug: esun
+name: Matte PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fce575ff'
+- color_rgba: '#eadac2ff'
+- color_rgba: '#cafbe6ff'
+- color_rgba: '#f4d9deff'
+tags:
+- matte
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/0781ff6e9ccf.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,15 @@
+uuid: 3d338c55-a895-54af-8cbf-dae678385c14
+slug: francofil-virgin-petg-esd
+brand:
+  slug: francofil
+name: Virgin PETG ESD
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://francofil.fr/en/product/petg-esd-vierge/
+primary_color:
+  color_rgba: '#f2efe9ff'
+tags:
+- esd_safe
+properties:
+  density: 1.3

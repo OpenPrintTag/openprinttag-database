@@ -1,0 +1,19 @@
+uuid: 267d8b59-e032-5ee8-84d0-88a996360246
+slug: flashforge-silk-pla-gradient-silver-to-blue
+brand:
+  slug: flashforge
+name: Silk PLA Gradient Silver to Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#abacb0ff'
+- color_rgba: '#0078bfff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/03798f8017e4.jpg
+  type: unspecified
+properties: {}

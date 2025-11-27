@@ -1,0 +1,17 @@
+uuid: dd5682b5-5087-5212-a590-25fc2cffe093
+slug: flashforge-pla-black
+brand:
+  slug: flashforge
+name: PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- silk
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/f12df1ab31b0.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,21 @@
+uuid: 50b447e8-7aa8-5a47-bd62-47b9b08ee329
+slug: flashforge-silk-pla-rainbow
+brand:
+  slug: flashforge
+name: Silk PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#a67dffff'
+- color_rgba: '#d33d3dff'
+- color_rgba: '#9cbf60ff'
+- color_rgba: '#99b2deff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/5da67b66fb95.jpg
+  type: unspecified
+properties: {}

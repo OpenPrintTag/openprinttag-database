@@ -1,0 +1,18 @@
+uuid: bb2fd062-8d4e-5afa-b52f-fe988bd3d3c5
+slug: gizmo-dorks-carbon-fiber-filament
+brand:
+  slug: gizmo-dorks
+name: Carbon Fiber Filament
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/49cd32b32d19.png
+  type: unspecified
+properties: {}

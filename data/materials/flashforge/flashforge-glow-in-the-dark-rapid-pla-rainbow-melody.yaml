@@ -1,0 +1,22 @@
+uuid: a24d35ca-ff29-595d-8ab5-ae204f49f273
+slug: flashforge-glow-in-the-dark-rapid-pla-rainbow-melody
+brand:
+  slug: flashforge
+name: Glow in The Dark Rapid PLA Rainbow Melody
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f5b797ff'
+- color_rgba: '#f4d9deff'
+- color_rgba: '#9dbd8bff'
+- color_rgba: '#fce575ff'
+- color_rgba: '#8ed9f9ff'
+tags:
+- industrially_compostable
+- glow_in_the_dark
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/f47bf635abbd.jpg
+  type: unspecified
+properties: {}

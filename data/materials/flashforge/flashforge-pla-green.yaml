@@ -1,0 +1,16 @@
+uuid: 045631ac-7fe9-5c1e-9877-eff11e18b18e
+slug: flashforge-pla-green
+brand:
+  slug: flashforge
+name: PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#41a840ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/2437a4418f4d.jpg
+  type: unspecified
+properties: {}

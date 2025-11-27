@@ -1,0 +1,19 @@
+uuid: 4d811559-9968-51f2-afa6-b57463c1f04b
+slug: polymaker-polylite-neon-abs-green
+brand:
+  slug: polymaker
+name: PolyLite™ Neon ABS Green
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#7cef83ff'
+- color_rgba: '#6feedbff'
+tags:
+- illuminescent_color_change
+- filtration_recommended
+- neon
+photos:
+- url: https://file.myfilamentlist.com/f/new/60f5650c3ae8.png
+  type: unspecified
+properties: {}

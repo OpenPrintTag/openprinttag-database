@@ -1,0 +1,10 @@
+uuid: 565ada0d-c2fb-5492-b58f-6fe284fb6dbc
+slug: buddy3d-pla-white-1000-spool
+class: FFF
+material:
+  slug: buddy3d-pla-white
+nominal_netto_full_weight: 1000
+gtin: 8594173672994
+container:
+  slug: buddy3d-spool-1kg
+filament_diameter: 1750

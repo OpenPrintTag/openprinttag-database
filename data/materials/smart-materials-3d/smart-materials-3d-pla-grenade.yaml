@@ -1,0 +1,16 @@
+uuid: b7e3a473-8989-56a1-b633-792b63b3fcd1
+slug: smart-materials-3d-pla-grenade
+brand:
+  slug: smart-materials-3d
+name: PLA Grenade
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#98282fff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/310cc5103518.png
+  type: unspecified
+properties: {}

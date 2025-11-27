@@ -1,0 +1,18 @@
+uuid: f5cafa6a-3e8a-514a-b449-aefc70ad4cee
+slug: arianeplast-pla-multicolor
+brand:
+  slug: arianeplast
+name: PLA+ Multicolor
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-23kg/2607-pla-multicolors-3d-filament-23kg-fabrique-en-france-arianeplast.html
+secondary_colors:
+- color_rgba: '#cd5a2eff'
+- color_rgba: '#f5e457ff'
+- color_rgba: '#91db01ff'
+- color_rgba: '#39b9dbff'
+- color_rgba: '#8d65c7ff'
+tags:
+- gradual_color_change
+properties: {}

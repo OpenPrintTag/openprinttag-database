@@ -1,0 +1,15 @@
+uuid: 5f8317a9-cc1f-5de3-84e8-9e9aa1370dac
+slug: eumakers-pla-gold
+brand:
+  slug: eumakers
+name: PLA Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.eumakers.com/pla-filament-color-gold.html
+primary_color:
+  color_rgba: '#ddb95dff'
+tags:
+- imitates_metal
+properties:
+  density: 1.24

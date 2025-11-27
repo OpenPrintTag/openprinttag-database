@@ -1,0 +1,19 @@
+uuid: 4c102801-6892-5881-9c4d-64c46fa9874e
+slug: ovv3d-silk-pla-two-color-blue-red
+brand:
+  slug: ovv3d
+name: Silk PLA Two-color Blue Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ed1536ff'
+- color_rgba: '#2e56f1ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/890611c85658.jpg
+  type: unspecified
+properties: {}

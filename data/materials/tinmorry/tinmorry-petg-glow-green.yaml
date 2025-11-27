@@ -1,0 +1,17 @@
+uuid: 9d298860-e648-5813-894b-49e3af3e254a
+slug: tinmorry-petg-glow-green
+brand:
+  slug: tinmorry
+name: PETG Glow Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://tinmorry.net/en-eu/products/petg-filament-1-75-mm-tinmorry-filament-petg-3d-printing-materials-compatible-with-bambu-fdm-3d-printers-1-kg-1-spool-glow-green?variant=48028091121823
+primary_color:
+  color_rgba: '#7fe200ff'
+secondary_colors:
+- color_rgba: '#efeadfff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

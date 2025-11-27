@@ -1,0 +1,17 @@
+uuid: c69c8884-87a5-5b81-ae0c-0db57a490965
+slug: 3dxtech-3dxstat-esd-abs-black
+brand:
+  slug: 3dxtech
+name: 3DXSTAT ESD-ABS Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/7cd3fbddd684.png
+  type: unspecified
+properties: {}

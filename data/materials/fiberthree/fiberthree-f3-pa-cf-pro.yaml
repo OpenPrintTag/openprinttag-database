@@ -1,0 +1,16 @@
+uuid: 2a18fcb5-dbbc-58dd-ad51-14fb964f0905
+slug: fiberthree-f3-pa-cf-pro
+brand:
+  slug: fiberthree
+name: F3 PA-CF Pro
+class: FFF
+type: PA6
+abbreviation: PA6
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  density: 1.25

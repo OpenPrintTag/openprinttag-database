@@ -1,0 +1,18 @@
+uuid: 344eae9d-b58e-5c62-9f44-c1def111bb12
+slug: gizmo-dorks-abs-thermochromic-blue-to-white
+brand:
+  slug: gizmo-dorks
+name: ABS Thermochromic Blue to White
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#0353baff'
+- color_rgba: '#f5f5f5ff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/25c156f5b56d.png
+  type: unspecified
+properties: {}

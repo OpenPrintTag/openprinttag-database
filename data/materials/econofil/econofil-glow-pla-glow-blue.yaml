@@ -1,0 +1,17 @@
+uuid: d5e6d5ec-0dcf-574a-8589-c2a331259b29
+slug: econofil-glow-pla-glow-blue
+brand:
+  slug: econofil
+name: Glow PLA Glow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://filaments.ca/collections/econofil-pla/products/econofil-basic-pla-glow-blue
+primary_color:
+  color_rgba: '#0066d9ff'
+secondary_colors:
+- color_rgba: '#e5f1eaff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

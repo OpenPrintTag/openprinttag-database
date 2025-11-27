@@ -1,0 +1,20 @@
+uuid: a095ccbc-47c3-5e9a-85b7-2e99a4dcc387
+slug: creality-matte-pla-rainbow
+brand:
+  slug: creality
+name: Matte PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fce575ff'
+- color_rgba: '#f4d9deff'
+- color_rgba: '#cac2daff'
+- color_rgba: '#b4c8a2ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/4666180a3ac4.jpg
+  type: unspecified
+properties: {}

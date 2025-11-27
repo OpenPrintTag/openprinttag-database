@@ -1,0 +1,20 @@
+uuid: c70f2288-68d1-5a64-a589-ef0916765802
+slug: printedsolid-ps-imports-pla-rainbow-forest-series
+brand:
+  slug: printedsolid
+name: PS Imports PLA Rainbow Forest Series
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#95d05cff'
+- color_rgba: '#40e0d0ff'
+- color_rgba: '#ebff57ff'
+- color_rgba: '#a38496ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/3676637a2985.png
+  type: unspecified
+properties: {}

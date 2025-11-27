@@ -1,0 +1,21 @@
+uuid: e2f66998-4537-5d27-972b-253dae6fff04
+slug: printedsolid-ps-imports-pla-shiny-gradient-gold-green-black
+brand:
+  slug: printedsolid
+name: PS Imports PLA Shiny Gradient-Gold-Green-Black
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#e3b145ff'
+- color_rgba: '#3d9441ff'
+tags:
+- glitter
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/9e35d1319647.png
+  type: unspecified
+properties: {}

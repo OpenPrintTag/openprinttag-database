@@ -1,0 +1,20 @@
+uuid: 741534b4-ca65-54d2-9ce6-6c9bcf034794
+slug: amolen-pla-silk-rainbow-bloom
+brand:
+  slug: amolen
+name: PLA Silk Rainbow Bloom
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-silk-rainbow?variant=42285183631383
+secondary_colors:
+- color_rgba: '#f1eb9cff'
+- color_rgba: '#ff72b6ff'
+- color_rgba: '#6c93b5ff'
+- color_rgba: '#ee8881ff'
+- color_rgba: '#ff0039ff'
+tags:
+- silk
+- gradual_color_change
+properties:
+  density: 1.28

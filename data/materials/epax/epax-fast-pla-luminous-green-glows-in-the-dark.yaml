@@ -1,0 +1,18 @@
+uuid: 59c6db6e-8b91-5f43-91bc-59403b25f3f4
+slug: epax-fast-pla-luminous-green-glows-in-the-dark
+brand:
+  slug: epax
+name: Fast PLA+ Luminous Green (glows in the dark)
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50963408781525
+primary_color:
+  color_rgba: '#70fa00ff'
+secondary_colors:
+- color_rgba: '#dee2daff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- high_speed
+properties: {}

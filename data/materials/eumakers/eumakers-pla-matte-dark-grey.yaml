@@ -1,0 +1,15 @@
+uuid: 2813a57d-486c-5c7b-92c7-bfb6f5686603
+slug: eumakers-pla-matte-dark-grey
+brand:
+  slug: eumakers
+name: PLA Matte Dark Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.eumakers.com/pla-filament-color-matte-dark-grey.html
+primary_color:
+  color_rgba: '#595959ff'
+tags:
+- matte
+properties:
+  density: 1.24

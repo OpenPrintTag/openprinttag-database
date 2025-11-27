@@ -1,0 +1,22 @@
+uuid: 15f6515a-b50f-53a7-823a-d132af803c21
+slug: amolen-petg-transparent-multicolor-rainbow
+brand:
+  slug: amolen
+name: PETG Transparent Multicolor Rainbow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amolen.com/products/petg-transparent?variant=41741864730647
+secondary_colors:
+- color_rgba: '#0095ffff'
+- color_rgba: '#00cc00ff'
+- color_rgba: '#ff8400ff'
+- color_rgba: '#fffb00ff'
+- color_rgba: '#ed2602ff'
+tags:
+- translucent
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/55ea1ce8-fe75-4f13-a182-4ba90c4e78df/da74c1b5765d.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,19 @@
+uuid: 69aa99d1-1906-5395-9964-ec629c17d001
+slug: printedsolid-ps-imports-pla-bicolor-silk-magic-black-copper
+brand:
+  slug: printedsolid
+name: PS Imports PLA Bicolor Silk Magic-Black-Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#863938ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/7694cf555372.png
+  type: unspecified
+properties: {}

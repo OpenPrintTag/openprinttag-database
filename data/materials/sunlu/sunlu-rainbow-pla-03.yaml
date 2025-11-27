@@ -1,0 +1,20 @@
+uuid: 8a4f2727-e132-58ce-8cf2-eac1d96ca35b
+slug: sunlu-rainbow-pla-03
+brand:
+  slug: sunlu
+name: Rainbow PLA 03
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#6c47b2ff'
+- color_rgba: '#f4d9deff'
+- color_rgba: '#f4a0b1ff'
+- color_rgba: '#ae96d4ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/6879139f4f07.jpg
+  type: unspecified
+properties: {}

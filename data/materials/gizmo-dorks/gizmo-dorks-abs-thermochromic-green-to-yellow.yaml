@@ -1,0 +1,18 @@
+uuid: be3e8a39-17d7-563d-bf8b-c636194cdfcc
+slug: gizmo-dorks-abs-thermochromic-green-to-yellow
+brand:
+  slug: gizmo-dorks
+name: ABS Thermochromic Green to Yellow
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#91c500ff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/476bf6d681a7.png
+  type: unspecified
+properties: {}

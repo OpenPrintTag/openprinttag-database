@@ -1,0 +1,19 @@
+uuid: 5c6393b0-907a-597d-ad53-0a213c13f5c8
+slug: epax-tpu-95a-candy-rainbow
+brand:
+  slug: epax
+name: TPU 95A Candy Rainbow
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://epax3d.com/collections/epax-filaments/products/epax-tpu-filament-1-75mm-1kg-2-2lb?variant=50516360036565
+secondary_colors:
+- color_rgba: '#7659b5ff'
+- color_rgba: '#00bfb3ff'
+- color_rgba: '#ff00a2ff'
+- color_rgba: '#62e480ff'
+- color_rgba: '#ffb031ff'
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95

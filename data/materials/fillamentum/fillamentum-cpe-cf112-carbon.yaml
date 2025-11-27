@@ -1,0 +1,17 @@
+uuid: 0215d8ee-4518-5f5d-bfb2-5c295c3d6381
+slug: fillamentum-cpe-cf112-carbon
+brand:
+  slug: fillamentum
+name: CPE CF112 Carbon
+class: FFF
+type: CPE
+abbreviation: CPE
+primary_color:
+  color_rgba: '#4c4e56ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/3e5dac902f4e.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,21 @@
+uuid: 0889adac-adff-5b93-8273-679f7574e4a8
+slug: overture-matte-pla-rainbow
+brand:
+  slug: overture
+name: Matte PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#00a594ff'
+- color_rgba: '#fef49cff'
+- color_rgba: '#62e480ff'
+- color_rgba: '#e53267ff'
+tags:
+- matte
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/21631d98453b.jpg
+  type: unspecified
+properties: {}

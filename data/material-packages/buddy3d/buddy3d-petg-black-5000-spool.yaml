@@ -1,0 +1,10 @@
+uuid: efc9cd81-02f2-5bcd-888f-c4efe348e068
+slug: buddy3d-petg-black-5000-spool
+class: FFF
+material:
+  slug: buddy3d-petg-black
+nominal_netto_full_weight: 5000
+gtin: 8594173673922
+container:
+  slug: buddy3d-spool-5kg
+filament_diameter: 1750

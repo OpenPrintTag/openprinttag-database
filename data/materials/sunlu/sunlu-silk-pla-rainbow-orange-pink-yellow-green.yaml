@@ -1,0 +1,20 @@
+uuid: e395cab8-f741-58b1-9a21-37d53628bdb3
+slug: sunlu-silk-pla-rainbow-orange-pink-yellow-green
+brand:
+  slug: sunlu
+name: Silk PLA+ Rainbow (Orange-Pink-Yellow-Green)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#cafbe6ff'
+- color_rgba: '#f5b797ff'
+- color_rgba: '#fef49cff'
+- color_rgba: '#ffe6fdff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/1be5b890ca3d.jpg
+  type: unspecified
+properties: {}

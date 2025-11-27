@@ -1,0 +1,18 @@
+uuid: 20c8f0e7-8977-5343-a067-12779888422c
+slug: printedsolid-ps-imports-pla-special-series-carbon-fiber
+brand:
+  slug: printedsolid
+name: PS Imports PLA Special Series-Carbon Fiber
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/af7ebc19df2b.png
+  type: unspecified
+properties: {}

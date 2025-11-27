@@ -1,0 +1,23 @@
+uuid: b707f74d-8301-5dc4-a8f2-c939d033ba0f
+slug: prusament-pvb-natural
+brand:
+  slug: prusament
+name: PVB Natural
+class: FFF
+type: PVB
+abbreviation: PVB
+url: https://www.prusa3d.com/product/prusament-pvb-natural-transparent-500g/
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- without_pigments
+- transparent
+- ipa_soluble
+properties:
+  density: 1.1
+  hardness_shore_d: 77
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 60
+  max_bed_temperature: 80

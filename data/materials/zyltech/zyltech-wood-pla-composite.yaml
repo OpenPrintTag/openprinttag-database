@@ -1,0 +1,18 @@
+uuid: fb4c6512-42ed-5e1d-8137-10dbccf64201
+slug: zyltech-wood-pla-composite
+brand:
+  slug: zyltech
+name: Wood+ PLA Composite
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#caac78ff'
+tags:
+- contains_wood
+- imitates_wood
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/7ccb3fcc9a4f.png
+  type: unspecified
+properties: {}

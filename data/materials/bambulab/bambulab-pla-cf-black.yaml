@@ -1,0 +1,18 @@
+uuid: 49d2c704-368b-5e8e-b695-7f2bdb928565
+slug: bambulab-pla-cf-black
+brand:
+  slug: bambulab
+name: PLA-CF Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/03c0b3e36ca5.png
+  type: unspecified
+properties: {}

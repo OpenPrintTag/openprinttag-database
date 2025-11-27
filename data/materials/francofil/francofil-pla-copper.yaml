@@ -1,0 +1,15 @@
+uuid: 3b8dc3fe-94ef-571e-849b-391d381930e4
+slug: francofil-pla-copper
+brand:
+  slug: francofil
+name: PLA Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-cuivre/
+primary_color:
+  color_rgba: '#c06341ff'
+tags:
+- imitates_metal
+properties:
+  density: 1.24

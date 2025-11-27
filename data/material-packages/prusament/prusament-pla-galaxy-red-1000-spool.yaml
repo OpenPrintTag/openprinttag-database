@@ -1,0 +1,10 @@
+uuid: 7cd1b29c-f78a-5fcf-888a-73299f47d4ac
+slug: prusament-pla-galaxy-red-1000-spool
+class: FFF
+material:
+  slug: prusament-pla-galaxy-red
+nominal_netto_full_weight: 1000
+gtin: 8594173676091
+container:
+  slug: old-prusament-spool-1kg
+filament_diameter: 1750

@@ -1,0 +1,16 @@
+uuid: d931642a-13a2-538a-8bea-033603916ce7
+slug: spectrum-asa-kevlar-black
+brand:
+  slug: spectrum
+name: ASA Kevlar Black
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://spectrumfilaments.com/en/filament/asa-kevlar/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_kevlar
+- abrasive
+properties:
+  density: 1.07

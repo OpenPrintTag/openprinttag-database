@@ -1,0 +1,18 @@
+uuid: 058ed4c2-723c-530d-9fdd-309efebeca75
+slug: gizmo-dorks-pla-color-change-blue-to-white-heat-activated
+brand:
+  slug: gizmo-dorks
+name: PLA Color Change Blue to White (Heat Activated)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ffffffff'
+- color_rgba: '#0378d0ff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/06a79abca579.png
+  type: unspecified
+properties: {}

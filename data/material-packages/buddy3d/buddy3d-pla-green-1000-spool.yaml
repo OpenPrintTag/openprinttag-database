@@ -1,0 +1,10 @@
+uuid: fb10fca5-8dda-544e-aee7-c01211a0c232
+slug: buddy3d-pla-green-1000-spool
+class: FFF
+material:
+  slug: buddy3d-pla-green
+nominal_netto_full_weight: 1000
+gtin: 8594173673038
+container:
+  slug: buddy3d-spool-1kg
+filament_diameter: 1750

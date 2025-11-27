@@ -1,0 +1,10 @@
+uuid: a93f3bd0-e674-54f5-94fc-20842ce2f01f
+slug: prusament-petg-tungsten-75-1000-spool
+class: FFF
+material:
+  slug: prusament-petg-tungsten-75
+nominal_netto_full_weight: 1000
+gtin: 8594173675872
+container:
+  slug: old-prusament-spool-1kg
+filament_diameter: 1750

@@ -1,0 +1,15 @@
+uuid: ec22f401-383f-5557-a1a3-312d8ba2cad7
+slug: eumakers-pla-cor-ten
+brand:
+  slug: eumakers
+name: PLA Cor-Ten
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.eumakers.com/pla-filament-color-cor-ten.html
+primary_color:
+  color_rgba: '#a54830ff'
+tags:
+- imitates_metal
+properties:
+  density: 1.24

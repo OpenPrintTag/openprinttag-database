@@ -1,0 +1,15 @@
+uuid: f24805d8-a4ad-563f-8e3c-40f265b967d7
+slug: colorfabb-tpu-85a-orange
+brand:
+  slug: colorfabb
+name: TPU 85A Orange
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e03f26ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/c7f0e108f5e1.png
+  type: unspecified
+properties:
+  hardness_shore_a: 85

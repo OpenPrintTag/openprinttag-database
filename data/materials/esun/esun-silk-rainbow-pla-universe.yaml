@@ -1,0 +1,21 @@
+uuid: 715bc736-9448-5aec-a0fe-b77823c13e22
+slug: esun-silk-rainbow-pla-universe
+brand:
+  slug: esun
+name: Silk Rainbow PLA Universe
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#206233ff'
+- color_rgba: '#2e56f1ff'
+- color_rgba: '#8846aeff'
+- color_rgba: '#8e5850ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/61b1b6fe140c.jpg
+  type: unspecified
+properties: {}

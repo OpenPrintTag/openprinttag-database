@@ -1,0 +1,19 @@
+uuid: e90cd14f-4cbd-52c0-82e8-cf0f9bc97645
+slug: protopasta-just-peachy-thermochromic-htpla
+brand:
+  slug: protopasta
+name: Just Peachy Thermochromic HTPLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f3c102ff'
+- color_rgba: '#fb6066ff'
+tags:
+- temperature_color_change
+- high_temperature
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/a1b41a5496ee.png
+  type: unspecified
+properties: {}

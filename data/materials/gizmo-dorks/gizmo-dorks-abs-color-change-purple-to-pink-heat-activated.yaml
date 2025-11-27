@@ -1,0 +1,18 @@
+uuid: 23bf8f9f-7554-5423-911f-c0fc4bd10426
+slug: gizmo-dorks-abs-color-change-purple-to-pink-heat-activated
+brand:
+  slug: gizmo-dorks
+name: ABS Color Change Purple to Pink (Heat Activated)
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#c80181ff'
+- color_rgba: '#6c47b2ff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/82943ac99797.png
+  type: unspecified
+properties: {}

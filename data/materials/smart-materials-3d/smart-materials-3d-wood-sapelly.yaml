@@ -1,0 +1,17 @@
+uuid: 5908cb18-84dc-58bc-87d9-4ded8c6e499d
+slug: smart-materials-3d-wood-sapelly
+brand:
+  slug: smart-materials-3d
+name: WOOD Sapelly
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bf4427ff'
+tags:
+- contains_wood
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/7b98c4918f2f.png
+  type: unspecified
+properties: {}

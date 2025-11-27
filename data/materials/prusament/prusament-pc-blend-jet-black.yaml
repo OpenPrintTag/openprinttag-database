@@ -1,0 +1,26 @@
+uuid: 517f24cc-16a4-5091-8325-5f6873e9dfcb
+slug: prusament-pc-blend-jet-black
+brand:
+  slug: prusament
+name: PC Blend Jet Black
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#24292aff'
+transmission_distance: 0.4
+tags:
+- blend
+photos:
+- url: https://file.myfilamentlist.com/f/new/2ab621713691.png
+  type: unspecified
+properties:
+  density: 1.22
+  hardness_shore_d: 79
+  min_print_temperature: 265
+  max_print_temperature: 285
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 60

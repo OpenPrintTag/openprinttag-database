@@ -1,0 +1,22 @@
+uuid: 68012714-fecb-5484-9ff5-47997b6934df
+slug: printedsolid-ps-imports-pla-rainbow-luminous-rainbow-colorful
+brand:
+  slug: printedsolid
+name: PS Imports PLA Rainbow Luminous Rainbow-Colorful
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#40e0d0ff'
+- color_rgba: '#cf4042ff'
+- color_rgba: '#ff8e24ff'
+- color_rgba: '#fce575ff'
+- color_rgba: '#6c47b2ff'
+tags:
+- industrially_compostable
+- glow_in_the_dark
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/ccb34879ef56.png
+  type: unspecified
+properties: {}

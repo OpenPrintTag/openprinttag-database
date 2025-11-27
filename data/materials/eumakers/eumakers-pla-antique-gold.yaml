@@ -1,0 +1,15 @@
+uuid: 6f5151c7-e782-5fcf-b4f9-c7c5a3f4597a
+slug: eumakers-pla-antique-gold
+brand:
+  slug: eumakers
+name: PLA Antique Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.eumakers.com/pla-filament-color-antique-gold.html
+primary_color:
+  color_rgba: '#ce8d00ff'
+tags:
+- imitates_metal
+properties:
+  density: 1.24

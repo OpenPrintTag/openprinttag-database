@@ -1,0 +1,27 @@
+uuid: 481944dd-8319-5d9e-b4fa-d63d7da86f55
+slug: prusament-petg-jungle-green
+brand:
+  slug: prusament
+name: PETG Jungle Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#007249ff'
+transmission_distance: 0.5
+certifications:
+- ul_2904
+photos:
+- url: https://file.myfilamentlist.com/f/new/b0854136d230.png
+  type: unspecified
+properties:
+  density: 1.27
+  hardness_shore_d: 74
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

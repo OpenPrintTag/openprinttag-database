@@ -1,0 +1,18 @@
+uuid: feb8d753-c0cf-55b6-8acd-999fa018a6b7
+slug: flashforge-rapid-pla-yellow-to-pink-gradient
+brand:
+  slug: flashforge
+name: Rapid PLA Yellow to Pink Gradient
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#e6b535ff'
+- color_rgba: '#fb6066ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/bd1e5a93eacc.jpg
+  type: unspecified
+properties: {}

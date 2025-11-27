@@ -1,0 +1,49 @@
+import { Link } from '@tanstack/react-router';
+import { Box, ChevronRight, Package } from 'lucide-react';
+
+import { Brand } from '~/components/brand-sheet/types';
+import { slugifyName } from '~/utils/slug';
+
+interface BrandCardProps {
+  brand: Brand;
+}
+
+export const BrandCard = ({ brand }: BrandCardProps) => {
+  const id = slugifyName(brand.name) || brand.slug || brand.uuid;
+
+  const materialCount = brand?.material_count ?? 0;
+  const packageCount = brand?.package_count ?? 0;
+  const containerCount = brand?.container_count ?? 0;
+
+  return (
+    <Link
+      key={String(id)}
+      to="/brands/$brandId"
+      params={{ brandId: String(id) }}
+      className="cursor-pointer"
+    >
+      <button className="group block w-full cursor-pointer rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md">
+        <div className="mb-2 flex items-start justify-between gap-2">
+          <div className="flex-1 text-sm font-semibold text-gray-900 group-hover:text-orange-600">
+            {brand.name}
+          </div>
+          <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
+        </div>
+        <div className="mt-2 flex flex-wrap gap-2">
+          <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <Box className="h-3 w-3" />
+            {materialCount} {materialCount === 1 ? 'material' : 'materials'}
+          </div>
+          <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <Package className="h-3 w-3" />
+            {packageCount} {packageCount === 1 ? 'package' : 'packages'}
+          </div>
+          <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <Package className="h-3 w-3" />
+            {containerCount} {containerCount === 1 ? 'container' : 'containers'}
+          </div>
+        </div>
+      </button>
+    </Link>
+  );
+};

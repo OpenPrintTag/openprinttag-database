@@ -1,0 +1,18 @@
+uuid: 4f1b74aa-7712-5712-a9c9-7e08241a04c5
+slug: gizmo-dorks-pla-color-change-green-to-yellow-heat-activated
+brand:
+  slug: gizmo-dorks
+name: PLA Color Change Green to Yellow (Heat Activated)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#91c500ff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/1d712acf5d3e.png
+  type: unspecified
+properties: {}

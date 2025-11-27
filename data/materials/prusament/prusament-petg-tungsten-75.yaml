@@ -1,0 +1,26 @@
+uuid: d5724f7c-23e4-501b-8b9e-2f248cd6923b
+slug: prusament-petg-tungsten-75
+brand:
+  slug: prusament
+name: PETG Tungsten 75%
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#545252ff'
+transmission_distance: 0.3
+tags:
+- contains_tungsten
+- abrasive
+- radiation_shielding
+photos:
+- url: https://file.myfilamentlist.com/f/new/a2422f12e064.png
+  type: unspecified
+properties:
+  density: 4.12
+  hardness_shore_d: 79
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90

@@ -1,0 +1,17 @@
+uuid: 43403b96-d392-5ed0-bd49-b56763f6461f
+slug: smart-materials-3d-pla-natural
+brand:
+  slug: smart-materials-3d
+name: PLA Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eadac2ff'
+tags:
+- transparent
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/e50eb814647a.png
+  type: unspecified
+properties: {}

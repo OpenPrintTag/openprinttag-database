@@ -1,0 +1,19 @@
+uuid: 07faf3b4-790e-58c8-8c90-802c246a6ce4
+slug: polymaker-polylite-neon-abs-orange
+brand:
+  slug: polymaker
+name: PolyLite™ Neon ABS Orange
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#e20010ff'
+- color_rgba: '#f97429ff'
+tags:
+- illuminescent_color_change
+- filtration_recommended
+- neon
+photos:
+- url: https://file.myfilamentlist.com/f/new/3d070134dbd3.png
+  type: unspecified
+properties: {}

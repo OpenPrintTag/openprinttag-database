@@ -1,0 +1,22 @@
+uuid: 5c208020-ed70-56dc-97c5-8695a995fdfd
+slug: protopasta-fading-rainbow-multicolor-htpla
+brand:
+  slug: protopasta
+name: Fading Rainbow Multicolor HTPLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#9ef9ffff'
+- color_rgba: '#dabcc8ff'
+- color_rgba: '#add8abff'
+- color_rgba: '#8ed9f9ff'
+tags:
+- high_temperature
+- industrially_compostable
+- translucent
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/ddd4473ff0d8.png
+  type: unspecified
+properties: {}

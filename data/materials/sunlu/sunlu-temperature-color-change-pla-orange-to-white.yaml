@@ -1,0 +1,18 @@
+uuid: 2a99b14d-39c6-5d6c-98e0-7c15841a0b82
+slug: sunlu-temperature-color-change-pla-orange-to-white
+brand:
+  slug: sunlu
+name: Temperature Color Change PLA Orange to White
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f67405ff'
+- color_rgba: '#ffffffff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/07fa9144a6f7.jpg
+  type: unspecified
+properties: {}

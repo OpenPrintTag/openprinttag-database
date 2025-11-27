@@ -1,0 +1,19 @@
+uuid: 660e5dbc-2745-584b-8bff-90ae35c51e23
+slug: flashforge-rapid-pla-burnt-titanium
+brand:
+  slug: flashforge
+name: Rapid PLA Burnt Titanium
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#492972ff'
+- color_rgba: '#1e2f5aff'
+tags:
+- iridescent
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/e47b62652019.jpg
+  type: unspecified
+properties: {}

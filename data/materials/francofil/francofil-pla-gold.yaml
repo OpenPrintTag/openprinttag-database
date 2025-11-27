@@ -1,0 +1,15 @@
+uuid: ae0c3c39-aa2e-5e03-9f7a-7c97bdb84274
+slug: francofil-pla-gold
+brand:
+  slug: francofil
+name: PLA Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-or/
+primary_color:
+  color_rgba: '#ce8d00ff'
+tags:
+- imitates_metal
+properties:
+  density: 1.24

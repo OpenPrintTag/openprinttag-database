@@ -1,0 +1,17 @@
+uuid: affc2620-1ee9-5d88-baf8-dea9873983c3
+slug: rosa3d-filaments-pla-galaxy-rainbow-terra
+brand:
+  slug: rosa3d-filaments
+name: PLA GALAXY Rainbow Terra
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-terra-175mm-05kg
+secondary_colors:
+- color_rgba: '#6e8451ff'
+- color_rgba: '#a45b27ff'
+- color_rgba: '#11784fff'
+tags:
+- gradual_color_change
+- glitter
+properties: {}

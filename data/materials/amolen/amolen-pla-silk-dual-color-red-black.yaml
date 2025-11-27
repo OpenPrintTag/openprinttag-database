@@ -1,0 +1,17 @@
+uuid: f258f536-2b8a-573e-8f38-4046f9db0194
+slug: amolen-pla-silk-dual-color-red-black
+brand:
+  slug: amolen
+name: PLA Silk Dual Color Red & Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-silk-dual?variant=41760017252375
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#ed1536ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.28

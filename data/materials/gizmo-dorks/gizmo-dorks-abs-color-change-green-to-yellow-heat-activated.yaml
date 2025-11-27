@@ -1,0 +1,18 @@
+uuid: 09d0e0f1-a70d-58d3-a240-4ae4cab2fa2c
+slug: gizmo-dorks-abs-color-change-green-to-yellow-heat-activated
+brand:
+  slug: gizmo-dorks
+name: ABS Color Change Green to Yellow (Heat Activated)
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#7ab352ff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/2c7705f7a5ab.png
+  type: unspecified
+properties: {}

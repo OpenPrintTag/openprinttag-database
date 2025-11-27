@@ -1,0 +1,16 @@
+uuid: 2b518db5-0f82-53d3-8bb5-57da44e0bb2e
+slug: spectrum-the-filament-petg-cf-black
+brand:
+  slug: spectrum
+name: The Filament PETG CF Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://spectrumfilaments.com/en/filament/the-filament-petg-cf/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  density: 1.27

@@ -1,0 +1,17 @@
+uuid: 21d2f7fa-2f40-51e8-9365-fa51219201c3
+slug: amolen-pla-temperature-color-change-purple-green-to-pink-yellow
+brand:
+  slug: amolen
+name: PLA Temperature Color Change Purple Green to Pink Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-temperature?variant=42641917935639
+secondary_colors:
+- color_rgba: '#db3fa9ff'
+- color_rgba: '#9537cbff'
+- color_rgba: '#346ce3ff'
+- color_rgba: '#61c680ff'
+tags:
+- temperature_color_change
+properties: {}

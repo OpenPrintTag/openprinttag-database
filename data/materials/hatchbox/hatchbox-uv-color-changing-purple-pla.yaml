@@ -1,0 +1,18 @@
+uuid: be1cc92a-061f-5617-80bb-270fd690919b
+slug: hatchbox-uv-color-changing-purple-pla
+brand:
+  slug: hatchbox
+name: UV Color Changing Purple PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#cc52cfff'
+- color_rgba: '#ffffffff'
+tags:
+- illuminescent_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/37cb473acc62.jpg
+  type: unspecified
+properties: {}

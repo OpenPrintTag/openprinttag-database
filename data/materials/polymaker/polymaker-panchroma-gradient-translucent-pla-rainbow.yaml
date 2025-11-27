@@ -1,0 +1,22 @@
+uuid: fa2f8808-4dd8-5617-8a8a-831452dbc8a5
+slug: polymaker-panchroma-gradient-translucent-pla-rainbow
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Translucent PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0095ffff'
+- color_rgba: '#f00c00ff'
+- color_rgba: '#f3c102ff'
+- color_rgba: '#60ab61ff'
+- color_rgba: '#f67405ff'
+tags:
+- industrially_compostable
+- translucent
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/530a927505d3.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,18 @@
+uuid: a40f9d2b-43f2-5895-a7f0-16c6531ae011
+slug: flashforge-rapid-pla-luminous-yellow
+brand:
+  slug: flashforge
+name: Rapid PLA Luminous Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5e457ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/5ef4ab0b60a3.jpg
+  type: unspecified
+properties: {}

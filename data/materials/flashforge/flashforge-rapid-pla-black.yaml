@@ -1,0 +1,16 @@
+uuid: 716c9214-4bc4-5f7a-ac79-451cc5f9c8a7
+slug: flashforge-rapid-pla-black
+brand:
+  slug: flashforge
+name: Rapid PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/741c6e8753a7.jpg
+  type: unspecified
+properties: {}

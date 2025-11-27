@@ -1,0 +1,17 @@
+uuid: 84489fd1-ec2e-5f02-acd3-47a79d74a951
+slug: spectrum-flameguard-pla-technical-red
+brand:
+  slug: spectrum
+name: FlameGuard PLA Technical Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://spectrumfilaments.com/en/filament/pla-flameguard/
+primary_color:
+  color_rgba: '#ff2c29ff'
+tags:
+- silk
+- self_extinguishing
+- industrially_compostable
+properties:
+  density: 1.22

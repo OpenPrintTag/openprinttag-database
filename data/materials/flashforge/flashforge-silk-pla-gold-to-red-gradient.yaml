@@ -1,0 +1,19 @@
+uuid: 178eaac4-cc1b-58a3-b8d2-bc3bf7c205de
+slug: flashforge-silk-pla-gold-to-red-gradient
+brand:
+  slug: flashforge
+name: Silk PLA Gold to Red Gradient
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#df3303ff'
+- color_rgba: '#e3b145ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/76af8ebc8d08.jpg
+  type: unspecified
+properties: {}

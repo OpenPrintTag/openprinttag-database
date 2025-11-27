@@ -1,0 +1,19 @@
+uuid: 75bac414-faf3-5024-9a44-349b4bd10ba6
+slug: printedsolid-ps-imports-pla-silk-gradient-blue-green
+brand:
+  slug: printedsolid
+name: PS Imports PLA Silk Gradient-Blue-Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#005da4ff'
+- color_rgba: '#1e5a4fff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/b45a0d5a68b9.png
+  type: unspecified
+properties: {}

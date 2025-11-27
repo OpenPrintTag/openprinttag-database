@@ -1,0 +1,17 @@
+uuid: 138f1034-185f-56ee-9928-c9b59d7b2651
+slug: cookiecad-sunrise-tpu-95a
+brand:
+  slug: cookiecad
+name: Sunrise TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://cookiecad.com/products/tpu-sunrise-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+secondary_colors:
+- color_rgba: '#fadb24ff'
+- color_rgba: '#fa8423ff'
+- color_rgba: '#d85165ff'
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95

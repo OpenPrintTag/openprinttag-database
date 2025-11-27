@@ -1,0 +1,18 @@
+uuid: f3aab8da-8203-5526-b9e2-fed3bf707937
+slug: flashforge-rapid-pla-luminous-red
+brand:
+  slug: flashforge
+name: Rapid PLA Luminous Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7a7a1ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/88fe6d4829a9.jpg
+  type: unspecified
+properties: {}

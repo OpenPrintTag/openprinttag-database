@@ -1,0 +1,23 @@
+uuid: e4e0c336-bb6e-5887-aa80-8a5fc224af8f
+slug: flashforge-rapid-pla-luminous-melody
+brand:
+  slug: flashforge
+name: Rapid PLA Luminous Melody
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#62e480ff'
+- color_rgba: '#fce575ff'
+- color_rgba: '#ae96d4ff'
+- color_rgba: '#f7a7a1ff'
+- color_rgba: '#9ae0ddff'
+tags:
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/8b3493c8d43f.jpg
+  type: unspecified
+properties: {}

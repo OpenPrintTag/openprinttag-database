@@ -1,0 +1,19 @@
+uuid: bc6fe003-4f9d-52eb-bbc0-3b3b8ab1283c
+slug: overture-tpu-high-speed-luminous-green
+brand:
+  slug: overture
+name: TPU High Speed Luminous Green
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://overture3d.com/products/overture-high-speed-tpu-3d-printer-filament-1-75mm?variant=46971914944766
+primary_color:
+  color_rgba: '#00fa9aff'
+secondary_colors:
+- color_rgba: '#e4e7e5ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- high_speed
+properties:
+  hardness_shore_a: 95

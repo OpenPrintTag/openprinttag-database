@@ -1,0 +1,22 @@
+uuid: e97610bf-d6c6-5d3c-a3be-ce07c4f85716
+slug: polymaker-panchroma-gradient-matte-pla-pastel-rainbow
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Matte PLA Pastel Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#bba0daff'
+- color_rgba: '#ce92ceff'
+- color_rgba: '#fef49cff'
+- color_rgba: '#f2b67aff'
+- color_rgba: '#95c5d3ff'
+tags:
+- matte
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/ac5251ddd386.png
+  type: unspecified
+properties: {}

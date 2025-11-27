@@ -1,0 +1,19 @@
+uuid: cc768a9f-0fc8-5521-92c7-08cdbbd9e686
+slug: flashforge-chameleon-gradient-rapid-pla-blue-pink
+brand:
+  slug: flashforge
+name: Chameleon Gradient Rapid PLA Blue & Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f87fb5ff'
+- color_rgba: '#5c50e0ff'
+tags:
+- iridescent
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/d7d45b90ecae.jpg
+  type: unspecified
+properties: {}

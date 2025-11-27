@@ -1,0 +1,19 @@
+uuid: eb01731e-9375-5b72-b88f-7ee9984d408a
+slug: sunlu-pla-rainbow-red-pink-green-yellow
+brand:
+  slug: sunlu
+name: PLA Rainbow (Red-Pink-Green-Yellow)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#84d18bff'
+- color_rgba: '#ffbadeff'
+- color_rgba: '#d33d3dff'
+- color_rgba: '#fffb00ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/7e6b5a20d5c0.jpg
+  type: unspecified
+properties: {}

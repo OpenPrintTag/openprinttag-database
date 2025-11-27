@@ -1,0 +1,17 @@
+uuid: a8bc252c-3a60-505a-bdfe-3a2e12b8d4c9
+slug: flashforge-rapid-petg-metallic-green
+brand:
+  slug: flashforge
+name: Rapid PETG Metallic Green
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#4e7642ff'
+- color_rgba: '#4f7b57ff'
+tags:
+- silk
+photos:
+- url: https://file.myfilamentlist.com/f/new/ba7618481328.jpg
+  type: unspecified
+properties: {}

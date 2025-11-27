@@ -1,0 +1,19 @@
+uuid: 6c5e89bc-57db-59f8-b378-8f73ce358760
+slug: printedsolid-ps-imports-pla-bicolor-silk-magic-blue-red
+brand:
+  slug: printedsolid
+name: PS Imports PLA Bicolor Silk Magic-Blue-Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0353baff'
+- color_rgba: '#e72f1dff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/8d28595e3b62.png
+  type: unspecified
+properties: {}

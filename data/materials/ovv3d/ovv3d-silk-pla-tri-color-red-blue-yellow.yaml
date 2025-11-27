@@ -1,0 +1,20 @@
+uuid: 5e17865a-ed68-5885-b9d1-1523cfe284b1
+slug: ovv3d-silk-pla-tri-color-red-blue-yellow
+brand:
+  slug: ovv3d
+name: Silk PLA Tri-color Red Blue Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#e03f26ff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/de6e77cca798.jpg
+  type: unspecified
+properties: {}

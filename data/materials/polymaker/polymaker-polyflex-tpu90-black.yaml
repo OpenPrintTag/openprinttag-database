@@ -1,0 +1,15 @@
+uuid: 2511308b-05e8-52fd-8b74-b5909321581c
+slug: polymaker-polyflex-tpu90-black
+brand:
+  slug: polymaker
+name: PolyFlex™ TPU90 Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/2d86a09995fe.png
+  type: unspecified
+properties:
+  hardness_shore_a: 90

@@ -1,0 +1,17 @@
+uuid: 8a1244d7-c9f5-50b1-8270-e6b163c56d58
+slug: push-plastic-carbon-fiber-petg
+brand:
+  slug: push-plastic
+name: Carbon Fiber PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/2a0079920c7c.png
+  type: unspecified
+properties: {}

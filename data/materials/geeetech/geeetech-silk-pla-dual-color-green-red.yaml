@@ -1,0 +1,19 @@
+uuid: 199e8889-583e-5995-9fe0-c8224fbafc0c
+slug: geeetech-silk-pla-dual-color-green-red
+brand:
+  slug: geeetech
+name: Silk PLA Dual Color Green Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#06924dff'
+- color_rgba: '#861d2bff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/55ad85dfce85.jpg
+  type: unspecified
+properties: {}

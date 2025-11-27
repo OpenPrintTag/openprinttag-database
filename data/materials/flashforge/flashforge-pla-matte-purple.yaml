@@ -1,0 +1,17 @@
+uuid: 93e47dcf-605f-5452-a725-543c8ece320b
+slug: flashforge-pla-matte-purple
+brand:
+  slug: flashforge
+name: PLA Matte Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cac2daff'
+tags:
+- matte
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/29d503a7cfd8.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,17 @@
+uuid: 5564900b-6d8f-5ccb-b122-bc18f3e5ac1a
+slug: smart-materials-3d-wood-teka
+brand:
+  slug: smart-materials-3d
+name: WOOD Teka
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cd5a2eff'
+tags:
+- contains_wood
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/11adeee3dd30.png
+  type: unspecified
+properties: {}

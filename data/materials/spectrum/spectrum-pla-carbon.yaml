@@ -1,0 +1,17 @@
+uuid: 0177149e-66c6-5e90-9dee-8accde0474e4
+slug: spectrum-pla-carbon
+brand:
+  slug: spectrum
+name: PLA Carbon
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://spectrumfilaments.com/en/filament/pla-carbon/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+properties:
+  density: 1.3

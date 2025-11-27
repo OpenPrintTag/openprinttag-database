@@ -1,0 +1,19 @@
+uuid: 5bdc9b28-3b14-5a19-a3cf-c20fbf6627cb
+slug: printedsolid-ps-imports-pla-bicolor-silk-magic-silver-purple
+brand:
+  slug: printedsolid
+name: PS Imports PLA Bicolor Silk Magic-Silver-Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#a8b0bdff'
+- color_rgba: '#5c50e0ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/e82f45870bd3.png
+  type: unspecified
+properties: {}

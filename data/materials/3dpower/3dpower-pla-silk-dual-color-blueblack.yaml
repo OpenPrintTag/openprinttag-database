@@ -1,0 +1,17 @@
+uuid: ddd5c6e0-a4bd-5101-9a20-f2245ca7ab4b
+slug: 3dpower-pla-silk-dual-color-blueblack
+brand:
+  slug: 3dpower
+name: PLA SILK Dual Color Blue&Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://3dpower-filament.com/en/products/filament-3dpower-pla-silk-dual-color-1-75mm-blue-black-1kg-183.html
+secondary_colors:
+- color_rgba: '#232323ff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24

@@ -1,0 +1,10 @@
+uuid: a9f559d3-b4c2-5471-ab46-6ec7bd6b90a5
+slug: buddy3d-petg-lila-1000-spool
+class: FFF
+material:
+  slug: buddy3d-petg-lila
+nominal_netto_full_weight: 1000
+gtin: 8594173673120
+container:
+  slug: buddy3d-spool-1kg
+filament_diameter: 1750

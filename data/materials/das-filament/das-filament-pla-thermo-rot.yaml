@@ -1,0 +1,17 @@
+uuid: 9ce5aaf2-adb9-5a14-b6da-ef094a5046dc
+slug: das-filament-pla-thermo-rot
+brand:
+  slug: das-filament
+name: PLA Thermo-Rot
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/102/pla-filament-1-75-mm-thermo-rot-800-g?c=33
+primary_color:
+  color_rgba: '#ec0000ff'
+secondary_colors:
+- color_rgba: '#ff7d7aff'
+tags:
+- temperature_color_change
+- industrially_compostable
+properties: {}

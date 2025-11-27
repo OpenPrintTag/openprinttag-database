@@ -1,0 +1,17 @@
+uuid: 220dc2b7-18d2-5f46-b712-2a6378c1c879
+slug: ic3d-carbon-fiber-petg-black
+brand:
+  slug: ic3d
+name: Carbon Fiber PETG Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/6740ceabf55c.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 674e9c93-4765-5292-b283-36a6208e4f6a
+slug: rosa3d-filaments-refill-pla-rainbow-silk
+brand:
+  slug: rosa3d-filaments
+name: ReFill PLA Rainbow Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-refill-pla-rainbow-silk
+secondary_colors:
+- color_rgba: '#8d65c7ff'
+- color_rgba: '#91c2ccff'
+- color_rgba: '#62e480ff'
+- color_rgba: '#e4d77eff'
+tags:
+- silk
+- gradual_color_change
+properties: {}

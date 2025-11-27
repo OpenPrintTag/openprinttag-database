@@ -1,0 +1,22 @@
+uuid: a2e34feb-1cb3-5385-bf5d-4fa9c7f2a611
+slug: flashforge-silk-pla-ranbow-candy
+brand:
+  slug: flashforge
+name: Silk PLA Ranbow Candy
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff72b6ff'
+- color_rgba: '#ea9e3fff'
+- color_rgba: '#00a594ff'
+- color_rgba: '#7d8eaaff'
+- color_rgba: '#f47d59ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/2e754f829731.jpg
+  type: unspecified
+properties: {}

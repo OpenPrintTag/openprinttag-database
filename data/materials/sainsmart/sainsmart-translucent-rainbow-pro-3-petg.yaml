@@ -1,0 +1,19 @@
+uuid: 3a997cae-a9c2-58a7-9af8-347388172824
+slug: sainsmart-translucent-rainbow-pro-3-petg
+brand:
+  slug: sainsmart
+name: Translucent Rainbow PRO-3 PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sainsmart.com/products/multicolor-translucent-rainbow-1-75mm-pro-3-petg-filament-1kg?_pos=5&_fid=78605fd0c&_ss=c
+secondary_colors:
+- color_rgba: '#e72f1dff'
+- color_rgba: '#ff9a14ff'
+- color_rgba: '#fadb24ff'
+- color_rgba: '#62e480ff'
+- color_rgba: '#11784fff'
+tags:
+- translucent
+- gradual_color_change
+properties: {}

@@ -1,0 +1,17 @@
+uuid: c5c74abe-de42-55ce-ad5a-c0ade285d28d
+slug: flashforge-petg-pro-burnt-titanium
+brand:
+  slug: flashforge
+name: PETG Pro Burnt Titanium
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#663d7eff'
+- color_rgba: '#003287ff'
+tags:
+- iridescent
+photos:
+- url: https://file.myfilamentlist.com/f/new/b03258c05f82.jpg
+  type: unspecified
+properties: {}

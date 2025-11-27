@@ -1,0 +1,19 @@
+uuid: a71933d4-9264-5f29-af0a-ae31ba04061f
+slug: spectrum-pet-g-glow-in-the-dark-yellow-green
+brand:
+  slug: spectrum
+name: PET-G Glow in the Dark Yellow Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://spectrumfilaments.com/en/filament/pet-g-glow/
+primary_color:
+  color_rgba: '#4dff64ff'
+secondary_colors:
+- color_rgba: '#dfdfd3ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- abrasive
+properties:
+  density: 1.27

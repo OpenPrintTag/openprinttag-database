@@ -1,0 +1,17 @@
+uuid: feb0f06d-00ef-5db5-83a6-45e374d47348
+slug: filamentpm-petg-cfjet-carbon-black
+brand:
+  slug: filamentpm
+name: PETG CFJet Carbon - Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/6f438833e9ab.png
+  type: unspecified
+properties: {}

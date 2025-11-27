@@ -1,0 +1,18 @@
+uuid: a3d338d1-e257-5fdf-a480-0b7eb88fe989
+slug: rosa3d-filaments-rosa-flex-88a-glow-in-the-dark
+brand:
+  slug: rosa3d-filaments
+name: ROSA-Flex 88A Glow in The Dark
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-88a-glow-in-the-dark
+primary_color:
+  color_rgba: '#62e480ff'
+secondary_colors:
+- color_rgba: '#f9f3e5ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties:
+  hardness_shore_a: 88

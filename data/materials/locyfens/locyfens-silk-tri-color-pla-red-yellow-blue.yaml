@@ -1,0 +1,20 @@
+uuid: 35f44dbc-867c-5b33-b71a-e59575c56785
+slug: locyfens-silk-tri-color-pla-red-yellow-blue
+brand:
+  slug: locyfens
+name: Silk Tri Color PLA Red Yellow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#c80181ff'
+- color_rgba: '#fadb24ff'
+- color_rgba: '#0378d0ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/77ee0b5e5738.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,15 @@
+uuid: 30fcca34-e7c1-547f-a472-e6f38a97e32b
+slug: fiberthree-f3-pa-esd
+brand:
+  slug: fiberthree
+name: F3 PA ESD
+class: FFF
+type: PA6
+abbreviation: PA6
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+properties:
+  density: 1.2

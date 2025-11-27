@@ -1,0 +1,18 @@
+uuid: 7c7a4652-73fe-592a-aff8-bab9a9398c3f
+slug: amolen-pla-glow-in-the-dark-rainbow-flux
+brand:
+  slug: amolen
+name: PLA Glow-in-the-Dark Rainbow Flux
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-glow?variant=42604386451479
+secondary_colors:
+- color_rgba: '#40b6e4ff'
+- color_rgba: '#f884e2ff'
+- color_rgba: '#be2ed6ff'
+tags:
+- glow_in_the_dark
+- gradual_color_change
+properties:
+  density: 1.24

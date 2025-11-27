@@ -1,0 +1,20 @@
+uuid: 6838ba1d-1a14-5be9-9482-a6f267e45c4e
+slug: flashforge-silk-pla-gradient-metal-rainbow
+brand:
+  slug: flashforge
+name: Silk PLA Gradient Metal Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#abacb0ff'
+- color_rgba: '#ffcb47ff'
+- color_rgba: '#c88582ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/d8bdcbc7f2c8.jpg
+  type: unspecified
+properties: {}

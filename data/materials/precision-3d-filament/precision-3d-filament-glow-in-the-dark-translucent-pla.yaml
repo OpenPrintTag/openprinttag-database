@@ -1,0 +1,22 @@
+uuid: edca97b3-cbf7-5c06-9764-73dc9ac9c279
+slug: precision-3d-filament-glow-in-the-dark-translucent-pla
+brand:
+  slug: precision-3d-filament
+name: Glow In The Dark [Translucent] PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#06b100ff'
+secondary_colors:
+- color_rgba: '#dfdfd3ff'
+tags:
+- transparent
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+- illuminescent_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/702ca9807249.png
+  type: unspecified
+properties: {}

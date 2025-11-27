@@ -1,0 +1,17 @@
+uuid: f0f93b24-e569-52d4-8a5c-6137b1dace20
+slug: 3dpower-pla-silk-dual-color-goldblack
+brand:
+  slug: 3dpower
+name: PLA SILK Dual Color Gold&Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://3dpower-filament.com/en/products/filament-3dpower-pla-silk-dual-color-1-75mm-gold-black-1kg-187.html
+secondary_colors:
+- color_rgba: '#232323ff'
+- color_rgba: '#af7d00ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24

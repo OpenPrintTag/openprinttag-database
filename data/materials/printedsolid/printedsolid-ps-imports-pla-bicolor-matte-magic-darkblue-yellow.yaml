@@ -1,0 +1,19 @@
+uuid: 268ff1d8-ba0f-5e57-958d-f6c0724cd464
+slug: printedsolid-ps-imports-pla-bicolor-matte-magic-darkblue-yellow
+brand:
+  slug: printedsolid
+name: PS Imports PLA Bicolor Matte Magic-DarkBlue-Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0e21aeff'
+- color_rgba: '#fbe200ff'
+tags:
+- matte
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/2b56a5c6e3a0.png
+  type: unspecified
+properties: {}

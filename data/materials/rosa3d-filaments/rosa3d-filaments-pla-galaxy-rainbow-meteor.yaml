@@ -1,0 +1,17 @@
+uuid: 10d81a0a-2bf5-539c-acff-82aababa64ac
+slug: rosa3d-filaments-pla-galaxy-rainbow-meteor
+brand:
+  slug: rosa3d-filaments
+name: PLA GALAXY Rainbow Meteor
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-meteor-175mm-05kg
+secondary_colors:
+- color_rgba: '#292824ff'
+- color_rgba: '#8e5850ff'
+- color_rgba: '#5c5b59ff'
+tags:
+- gradual_color_change
+- glitter
+properties: {}

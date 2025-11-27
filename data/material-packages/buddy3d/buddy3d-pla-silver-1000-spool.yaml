@@ -1,0 +1,10 @@
+uuid: a901e073-b233-51ca-9673-52ccadbf690e
+slug: buddy3d-pla-silver-1000-spool
+class: FFF
+material:
+  slug: buddy3d-pla-silver
+nominal_netto_full_weight: 1000
+gtin: 8594173673069
+container:
+  slug: buddy3d-spool-1kg
+filament_diameter: 1750

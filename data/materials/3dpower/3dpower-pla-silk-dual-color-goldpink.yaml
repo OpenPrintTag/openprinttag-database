@@ -1,0 +1,17 @@
+uuid: dd45abf3-3ab9-50bc-8e99-6f01130b80f4
+slug: 3dpower-pla-silk-dual-color-goldpink
+brand:
+  slug: 3dpower
+name: PLA SILK Dual Color Gold&Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://3dpower-filament.com/en/products/filament-3dpower-pla-silk-dual-color-1-75mm-gold-pink1kg-195.html
+secondary_colors:
+- color_rgba: '#db3fa9ff'
+- color_rgba: '#f3b400ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24

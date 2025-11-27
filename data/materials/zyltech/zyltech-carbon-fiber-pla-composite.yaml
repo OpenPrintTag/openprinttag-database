@@ -1,0 +1,18 @@
+uuid: af056eb2-ffca-57a3-adde-fe53c0ab31c5
+slug: zyltech-carbon-fiber-pla-composite
+brand:
+  slug: zyltech
+name: Carbon Fiber PLA Composite
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/acca8a99cec2.png
+  type: unspecified
+properties: {}

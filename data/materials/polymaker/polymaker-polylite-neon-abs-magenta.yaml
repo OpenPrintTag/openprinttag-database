@@ -1,0 +1,19 @@
+uuid: b65cf176-8ea6-56b0-a1bc-26f29b58437c
+slug: polymaker-polylite-neon-abs-magenta
+brand:
+  slug: polymaker
+name: PolyLite™ Neon ABS Magenta
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#f300eaff'
+- color_rgba: '#ed1536ff'
+tags:
+- illuminescent_color_change
+- filtration_recommended
+- neon
+photos:
+- url: https://file.myfilamentlist.com/f/new/1398a72a5d1c.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,16 @@
+uuid: 40443552-4cdf-5d58-8d48-0da3762fa3be
+slug: prusament-pla-recycled
+brand:
+  slug: prusament
+name: PLA Recycled
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.prusa3d.com/product/prusament-pla-recycled-2kg/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- recycled
+properties:
+  density: 1.24
+  hardness_shore_d: 80

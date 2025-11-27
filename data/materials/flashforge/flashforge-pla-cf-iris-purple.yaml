@@ -1,0 +1,18 @@
+uuid: 374ca80e-0bf6-5b06-809b-f1cc3a0126b5
+slug: flashforge-pla-cf-iris-purple
+brand:
+  slug: flashforge
+name: PLA-CF Iris Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#663d7eff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/524e85af04c2.jpg
+  type: unspecified
+properties: {}

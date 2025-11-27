@@ -1,0 +1,22 @@
+uuid: f2d4ea05-388b-572c-b9bb-1d811051d126
+slug: locyfens-silk-pla-rainbow
+brand:
+  slug: locyfens
+name: Silk PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0099e6ff'
+- color_rgba: '#8d65c7ff'
+- color_rgba: '#ffd342ff'
+- color_rgba: '#06b100ff'
+- color_rgba: '#f7a4bdff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/553bead49849.jpg
+  type: unspecified
+properties: {}

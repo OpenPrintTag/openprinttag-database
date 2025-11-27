@@ -1,0 +1,24 @@
+uuid: 0dfc2cd0-cfe4-575d-99fc-08d3cd19ba91
+slug: prusament-petg-magnetite-40-grey
+brand:
+  slug: prusament
+name: PETG Magnetite 40% Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#272e29ff'
+tags:
+- contains_magnetite
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/f4aa678eb503.png
+  type: unspecified
+properties:
+  density: 1.82
+  hardness_shore_d: 82
+  min_print_temperature: 260
+  max_print_temperature: 280
+  preheat_temperature: 170
+  min_bed_temperature: 90
+  max_bed_temperature: 110

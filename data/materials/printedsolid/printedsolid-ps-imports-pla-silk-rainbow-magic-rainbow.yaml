@@ -1,0 +1,21 @@
+uuid: 0b42258a-29aa-5704-87c0-9e78dcba6739
+slug: printedsolid-ps-imports-pla-silk-rainbow-magic-rainbow
+brand:
+  slug: printedsolid
+name: PS Imports PLA Silk Rainbow-Magic Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#77a54bff'
+- color_rgba: '#0353baff'
+- color_rgba: '#f4ac23ff'
+- color_rgba: '#c75072ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/532140d48d43.png
+  type: unspecified
+properties: {}

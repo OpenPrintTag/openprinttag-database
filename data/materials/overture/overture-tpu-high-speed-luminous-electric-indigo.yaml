@@ -1,0 +1,19 @@
+uuid: 16d8b948-f5f0-50a3-9917-8b2ea7f003d1
+slug: overture-tpu-high-speed-luminous-electric-indigo
+brand:
+  slug: overture
+name: TPU High Speed Luminous Electric Indigo
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://overture3d.com/products/overture-high-speed-tpu-3d-printer-filament-1-75mm?variant=46971914813694
+primary_color:
+  color_rgba: '#6711f2ff'
+secondary_colors:
+- color_rgba: '#d6d7d8ff'
+tags:
+- illuminescent_color_change
+- glow_in_the_dark
+- high_speed
+properties:
+  hardness_shore_a: 95

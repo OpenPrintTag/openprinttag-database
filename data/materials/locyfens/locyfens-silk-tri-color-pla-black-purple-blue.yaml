@@ -1,0 +1,20 @@
+uuid: abc56e17-ed9f-5413-9d70-09873c72d197
+slug: locyfens-silk-tri-color-pla-black-purple-blue
+brand:
+  slug: locyfens
+name: Silk Tri Color PLA Black Purple Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#ae00ffff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/4f8640cdbaba.jpg
+  type: unspecified
+properties: {}

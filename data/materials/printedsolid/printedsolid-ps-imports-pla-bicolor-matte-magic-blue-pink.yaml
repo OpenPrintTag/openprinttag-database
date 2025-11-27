@@ -1,0 +1,19 @@
+uuid: 200b7eb8-e782-5dc8-b4ed-a85291b90f4d
+slug: printedsolid-ps-imports-pla-bicolor-matte-magic-blue-pink
+brand:
+  slug: printedsolid
+name: PS Imports PLA Bicolor Matte Magic-Blue-Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0e21aeff'
+- color_rgba: '#c80181ff'
+tags:
+- matte
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/65f622d9a76d.png
+  type: unspecified
+properties: {}

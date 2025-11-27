@@ -1,0 +1,21 @@
+uuid: 0badd7c4-1dd0-55f0-9384-148fddf37f49
+slug: printedsolid-ps-imports-pla-rainbow-star-series
+brand:
+  slug: printedsolid
+name: PS Imports PLA Rainbow Star Series
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#41a840ff'
+- color_rgba: '#db3fa9ff'
+- color_rgba: '#fbe200ff'
+- color_rgba: '#0099e6ff'
+tags:
+- glitter
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/c31e0a4bb35c.png
+  type: unspecified
+properties: {}

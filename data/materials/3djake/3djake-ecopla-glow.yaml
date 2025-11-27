@@ -1,0 +1,17 @@
+uuid: 8b94e593-c801-5cf9-8260-12f10a39bc87
+slug: 3djake-ecopla-glow
+brand:
+  slug: 3djake
+name: ecoPLA Glow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.3djake.com/3djake/ecopla-glow
+primary_color:
+  color_rgba: '#b3ff94ff'
+secondary_colors:
+- color_rgba: '#efeadfff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

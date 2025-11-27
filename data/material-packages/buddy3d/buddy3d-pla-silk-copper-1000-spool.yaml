@@ -1,0 +1,10 @@
+uuid: bcde1e24-faf1-5076-ad4c-9948dbff0cdc
+slug: buddy3d-pla-silk-copper-1000-spool
+class: FFF
+material:
+  slug: buddy3d-pla-silk-copper
+nominal_netto_full_weight: 1000
+gtin: 8594173673496
+container:
+  slug: buddy3d-spool-1kg
+filament_diameter: 1750

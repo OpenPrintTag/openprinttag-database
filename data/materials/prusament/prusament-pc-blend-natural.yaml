@@ -1,0 +1,27 @@
+uuid: d0b0bee4-238b-5574-8adc-88dfcc8f9af5
+slug: prusament-pc-blend-natural
+brand:
+  slug: prusament
+name: PC Blend Natural
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#dfdfd3ff'
+transmission_distance: 11.3
+tags:
+- blend
+- without_pigments
+photos:
+- url: https://file.myfilamentlist.com/f/new/41b497713f27.png
+  type: unspecified
+properties:
+  density: 1.22
+  hardness_shore_d: 79
+  min_print_temperature: 265
+  max_print_temperature: 285
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 60

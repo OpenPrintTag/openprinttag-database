@@ -1,0 +1,17 @@
+uuid: 4227bcb3-122d-5c25-9b44-b85d2a0572e9
+slug: rosa3d-filaments-pla-starter-glow-in-the-dark-blue
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Glow in the Dark Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-pla-starter-glow-in-the-dark-blue
+primary_color:
+  color_rgba: '#0378d0ff'
+secondary_colors:
+- color_rgba: '#f9f3e5ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

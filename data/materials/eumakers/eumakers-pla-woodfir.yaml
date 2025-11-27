@@ -1,0 +1,15 @@
+uuid: 8951b6e2-fdba-5c32-90fb-bc14adcbbc8a
+slug: eumakers-pla-woodfir
+brand:
+  slug: eumakers
+name: PLA Woodfir
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.colorhexa.com/b39374
+primary_color:
+  color_rgba: '#b39374ff'
+tags:
+- contains_wood
+properties:
+  density: 1.25

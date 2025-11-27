@@ -1,0 +1,17 @@
+uuid: 4df794d4-9d43-5f1e-b6f6-f2dff78ed62f
+slug: 3djake-easypetg-glow
+brand:
+  slug: 3djake
+name: easyPETG Glow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.3djake.com/3djake/easypetg-glow
+primary_color:
+  color_rgba: '#62e480ff'
+secondary_colors:
+- color_rgba: '#efeadfff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

@@ -1,0 +1,15 @@
+uuid: 20b522a5-f18b-5be5-8928-ff33eda2ceb2
+slug: polymaker-polyflex-tpu95-red
+brand:
+  slug: polymaker
+name: PolyFlex™ TPU95 Red
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e20010ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/be4e0584d3ca.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

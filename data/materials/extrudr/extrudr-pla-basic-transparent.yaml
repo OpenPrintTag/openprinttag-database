@@ -1,0 +1,17 @@
+uuid: 241d355d-ac96-5400-913b-51c8321d6fab
+slug: extrudr-pla-basic-transparent
+brand:
+  slug: extrudr
+name: PLA Basic transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efe8d8ff'
+tags:
+- translucent
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/0de54a5fd50e.png
+  type: unspecified
+properties: {}

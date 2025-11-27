@@ -1,0 +1,18 @@
+uuid: c9d85c7e-e2db-5f63-ac2e-6baf634cfe48
+slug: flashforge-pla-blue-to-yellow-gradient
+brand:
+  slug: flashforge
+name: PLA Blue to Yellow Gradient
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#c6f666ff'
+- color_rgba: '#5fbcddff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/5fc44da145fc.jpg
+  type: unspecified
+properties: {}

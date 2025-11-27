@@ -1,0 +1,17 @@
+uuid: af18fcb8-4578-5704-9522-7c38530f5121
+slug: bambulab-tpu-90a-blaze
+brand:
+  slug: bambulab
+name: TPU 90A Blaze
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=54084062511452
+secondary_colors:
+- color_rgba: '#f1aaa8ff'
+- color_rgba: '#f14147ff'
+tags:
+- gradual_color_change
+properties:
+  density: 1.24
+  hardness_shore_a: 90

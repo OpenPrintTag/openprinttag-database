@@ -1,0 +1,22 @@
+uuid: 5fbd0258-8c52-59b0-bde4-11971af5e331
+slug: cc3d-silk-rainbow-b-pla
+brand:
+  slug: cc3d
+name: Silk Rainbow B PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#c80181ff'
+- color_rgba: '#eeea44ff'
+- color_rgba: '#3d9441ff'
+- color_rgba: '#00a594ff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/34e6ec8ff303.jpg
+  type: unspecified
+properties: {}

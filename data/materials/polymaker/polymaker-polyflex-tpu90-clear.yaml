@@ -1,0 +1,17 @@
+uuid: 1f7b4f56-ea10-5135-a4f8-9ed005b70748
+slug: polymaker-polyflex-tpu90-clear
+brand:
+  slug: polymaker
+name: PolyFlex™ TPU90 Clear
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e4e7e5ff'
+tags:
+- transparent
+photos:
+- url: https://file.myfilamentlist.com/f/new/8ffa455233cd.png
+  type: unspecified
+properties:
+  hardness_shore_a: 90

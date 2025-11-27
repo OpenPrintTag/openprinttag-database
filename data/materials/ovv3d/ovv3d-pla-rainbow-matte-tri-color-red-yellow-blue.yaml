@@ -1,0 +1,20 @@
+uuid: ef08f26b-7ee3-530e-8645-6dce4000b8a3
+slug: ovv3d-pla-rainbow-matte-tri-color-red-yellow-blue
+brand:
+  slug: ovv3d
+name: PLA Rainbow Matte Tri-Color Red Yellow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#fb6066ff'
+- color_rgba: '#0099e6ff'
+tags:
+- matte
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/64c55c9c031a.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,20 @@
+uuid: 0eaa1b16-ee0c-50d7-9337-72e092c0c0a5
+slug: polymaker-panchroma-gradient-satin-pla-rainbow
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Satin PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f5cf6fff'
+- color_rgba: '#f5b797ff'
+- color_rgba: '#ce92ceff'
+- color_rgba: '#9ef9ffff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/b086eb412786.png
+  type: unspecified
+properties: {}

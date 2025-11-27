@@ -1,0 +1,16 @@
+uuid: d351ca42-01cf-5b71-bb90-f7380ec55d41
+slug: das-filament-pla-multicolor-galaxy
+brand:
+  slug: das-filament
+name: PLA Multicolor Galaxy
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/373/pla-filament-1-75-mm-multicolor-galaxy-800-g?c=33
+secondary_colors:
+- color_rgba: '#0066d9ff'
+- color_rgba: '#c90d6eff'
+tags:
+- gradual_color_change
+- industrially_compostable
+properties: {}

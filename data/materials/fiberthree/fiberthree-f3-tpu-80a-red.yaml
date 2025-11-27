@@ -1,0 +1,13 @@
+uuid: d970ec66-d134-5e3b-ac5a-e5183252c94b
+slug: fiberthree-f3-tpu-80a-red
+brand:
+  slug: fiberthree
+name: F3 TPU 80A Red
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color:
+  color_rgba: '#ac1a17ff'
+properties:
+  hardness_shore_a: 80

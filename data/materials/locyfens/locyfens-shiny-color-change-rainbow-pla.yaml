@@ -1,0 +1,20 @@
+uuid: 996c8df6-7639-54e6-bd8c-7caa55a4153b
+slug: locyfens-shiny-color-change-rainbow-pla
+brand:
+  slug: locyfens
+name: Shiny Color Change Rainbow PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0e21aeff'
+- color_rgba: '#ae00ffff'
+- color_rgba: '#15817bff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/4d6815c9c45c.jpg
+  type: unspecified
+properties: {}

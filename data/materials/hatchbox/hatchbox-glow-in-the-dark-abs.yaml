@@ -1,0 +1,19 @@
+uuid: 39aa82dd-7045-53be-ab7a-816d543e659e
+slug: hatchbox-glow-in-the-dark-abs
+brand:
+  slug: hatchbox
+name: Glow in the Dark ABS
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#3d9441ff'
+- color_rgba: '#ffffffff'
+tags:
+- glow_in_the_dark
+- abrasive
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/1fd28f0a5a0d.jpg
+  type: unspecified
+properties: {}

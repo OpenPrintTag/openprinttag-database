@@ -1,0 +1,20 @@
+uuid: 4d59e47f-28db-5c1e-82ca-65dff0cf6540
+slug: sunlu-pla-silk-triple-color-red-yellow-blue
+brand:
+  slug: sunlu
+name: PLA Silk Triple Color (Red Yellow Blue)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ea9e3fff'
+- color_rgba: '#eb0075ff'
+- color_rgba: '#2c3294ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/f2970599b891.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 1c80a20b-1472-501d-9d00-e3d0b144d811
+slug: flashforge-pla-cf-midnight-blue
+brand:
+  slug: flashforge
+name: PLA-CF Midnight Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#282d42ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/2abdc8cbcf31.jpg
+  type: unspecified
+properties: {}

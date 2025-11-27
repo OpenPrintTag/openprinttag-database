@@ -1,0 +1,17 @@
+uuid: 003aa93d-18ce-5a84-8df5-3d98fdafcbf5
+slug: flashforge-pla-matte-yellow
+brand:
+  slug: flashforge
+name: PLA Matte Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3c102ff'
+tags:
+- matte
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/e0ec2daefa87.jpg
+  type: unspecified
+properties: {}

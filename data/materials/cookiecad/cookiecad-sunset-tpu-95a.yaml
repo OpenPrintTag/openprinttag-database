@@ -1,0 +1,17 @@
+uuid: 0f7a0b7c-f68f-5cc0-b0d2-2f2e4141a10c
+slug: cookiecad-sunset-tpu-95a
+brand:
+  slug: cookiecad
+name: Sunset TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://cookiecad.com/products/tpu-sunset-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+secondary_colors:
+- color_rgba: '#0099e6ff'
+- color_rgba: '#8d65c7ff'
+- color_rgba: '#ff00a2ff'
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95

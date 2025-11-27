@@ -1,0 +1,21 @@
+uuid: b459923e-1555-51f0-af26-c13cb62fb51d
+slug: prusament-asa-prusa-pro-green
+brand:
+  slug: prusament
+name: ASA Prusa Pro Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.prusa3d.com/product/prusament-asa-prusa-pro-green-850g/
+primary_color:
+  color_rgba: '#00fa9aff'
+properties:
+  density: 1.07
+  hardness_shore_d: 78
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

@@ -1,0 +1,17 @@
+uuid: 84c5c533-fc86-56af-b985-fd3f97d5c938
+slug: 3dxtech-3dxstat-esd-pla-black
+brand:
+  slug: 3dxtech
+name: 3DXSTAT ESD-PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/8ac6b8ab49d0.png
+  type: unspecified
+properties: {}

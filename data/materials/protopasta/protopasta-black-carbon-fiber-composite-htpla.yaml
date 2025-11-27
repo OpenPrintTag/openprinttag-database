@@ -1,0 +1,19 @@
+uuid: a19f4f3d-9eea-582c-8e6b-1ce80f85f088
+slug: protopasta-black-carbon-fiber-composite-htpla
+brand:
+  slug: protopasta
+name: Black Carbon Fiber Composite HTPLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- high_temperature
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/d527fd399b9f.png
+  type: unspecified
+properties: {}

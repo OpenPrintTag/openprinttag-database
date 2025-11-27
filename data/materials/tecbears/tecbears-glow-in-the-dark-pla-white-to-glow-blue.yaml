@@ -1,0 +1,21 @@
+uuid: 8b7f0095-24a8-515f-a487-661915132ff1
+slug: tecbears-glow-in-the-dark-pla-white-to-glow-blue
+brand:
+  slug: tecbears
+name: Glow in The Dark PLA White to Glow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1adafbff'
+secondary_colors:
+- color_rgba: '#f5f5f5ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+- illuminescent_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/795d179eec4f.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,20 @@
+uuid: 902aa5df-d5cd-5a56-a5a3-e44002f8b31a
+slug: flashforge-rapid-pla-rainbow-candy
+brand:
+  slug: flashforge
+name: Rapid PLA Rainbow Candy
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fce575ff'
+- color_rgba: '#ff9c66ff'
+- color_rgba: '#6299dfff'
+- color_rgba: '#6c5bb1ff'
+- color_rgba: '#41a840ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/c1b24ff4fb0c.jpg
+  type: unspecified
+properties: {}

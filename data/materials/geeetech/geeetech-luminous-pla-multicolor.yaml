@@ -1,0 +1,20 @@
+uuid: 9c0f694d-2349-5582-ae4b-1bd30be7a447
+slug: geeetech-luminous-pla-multicolor
+brand:
+  slug: geeetech
+name: Luminous PLA Multicolor
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ce92ceff'
+- color_rgba: '#9dbd8bff'
+- color_rgba: '#bba0daff'
+tags:
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/b3c60cfc2879.jpg
+  type: unspecified
+properties: {}

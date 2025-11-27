@@ -1,0 +1,19 @@
+uuid: e90e68d4-14ae-5b6c-a4e0-d87d03baa07c
+slug: protopasta-chlorophylled-thermochromic-htpla
+brand:
+  slug: protopasta
+name: Chlorophylled Thermochromic HTPLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ffd342ff'
+- color_rgba: '#206233ff'
+tags:
+- temperature_color_change
+- high_temperature
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/985d8c16ee70.png
+  type: unspecified
+properties: {}

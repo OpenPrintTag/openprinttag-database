@@ -1,0 +1,18 @@
+uuid: e403e7bd-1480-5c32-a61c-0ec4ab813da8
+slug: colorfabb-copperfill
+brand:
+  slug: colorfabb
+name: copperFill
+class: FFF
+type: PHA
+abbreviation: PHA
+primary_color:
+  color_rgba: '#904029ff'
+tags:
+- contains_copper
+- abrasive
+- home_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/af9034bc2fb3.png
+  type: unspecified
+properties: {}

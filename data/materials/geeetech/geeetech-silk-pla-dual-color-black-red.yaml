@@ -1,0 +1,19 @@
+uuid: 04e8e725-236b-578e-b446-6dd63874d32e
+slug: geeetech-silk-pla-dual-color-black-red
+brand:
+  slug: geeetech
+name: Silk PLA Dual Color Black Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#ab2614ff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/13810c6687d6.jpg
+  type: unspecified
+properties: {}

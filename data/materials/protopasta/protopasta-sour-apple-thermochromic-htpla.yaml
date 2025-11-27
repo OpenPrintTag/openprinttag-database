@@ -1,0 +1,19 @@
+uuid: f118a373-d842-5e07-8b76-5e24763cc29f
+slug: protopasta-sour-apple-thermochromic-htpla
+brand:
+  slug: protopasta
+name: Sour Apple Thermochromic HTPLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#1e5a4fff'
+- color_rgba: '#c4dc00ff'
+tags:
+- temperature_color_change
+- high_temperature
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/127397aabd14.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 17b222b4-727d-585b-9c51-9e1217d8bc24
+slug: rosa3d-filaments-pet-g-standard-hs-glow-in-the-dark-green
+brand:
+  slug: rosa3d-filaments
+name: PET-G Standard HS Glow in the Dark Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.rosa3d.pl/en/filament-3d-pet-g-standard-hs-glow-in-the-dark-green
+primary_color:
+  color_rgba: '#62e480ff'
+secondary_colors:
+- color_rgba: '#efeadfff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- high_speed
+properties: {}

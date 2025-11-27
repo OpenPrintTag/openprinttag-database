@@ -1,0 +1,17 @@
+uuid: fe4f1e6e-fcbf-5b7e-979a-bb712727f19b
+slug: rosa3d-filaments-pla-multicolour-silk-moon
+brand:
+  slug: rosa3d-filaments
+name: PLA Multicolour Silk Moon
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-pla-multicolour-silk-moon
+secondary_colors:
+- color_rgba: '#545252ff'
+- color_rgba: '#aeb8c1ff'
+- color_rgba: '#aabccfff'
+tags:
+- silk
+- gradual_color_change
+properties: {}

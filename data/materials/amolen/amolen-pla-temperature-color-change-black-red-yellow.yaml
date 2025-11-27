@@ -1,0 +1,20 @@
+uuid: b0fe0aac-4c60-52f0-b93d-dc7dff3bc3d2
+slug: amolen-pla-temperature-color-change-black-red-yellow
+brand:
+  slug: amolen
+name: PLA Temperature Color Change Black Red Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#ffe15bff'
+- color_rgba: '#cb4726ff'
+tags:
+- temperature_color_change
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/filaments/new/temperature-change-pla-filament-pla-amolen-us-to-us-only-526368.webp
+  type: unspecified
+properties: {}

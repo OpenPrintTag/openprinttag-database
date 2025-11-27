@@ -1,0 +1,17 @@
+uuid: 8a39cf3b-4491-593e-8587-7ec67bf7b5bc
+slug: flashforge-silk-pla-silver
+brand:
+  slug: flashforge
+name: Silk PLA Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#abacb0ff'
+tags:
+- silk
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/18b95f7a732c.jpg
+  type: unspecified
+properties: {}

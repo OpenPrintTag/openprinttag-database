@@ -1,0 +1,18 @@
+uuid: 00408972-2b40-568f-9071-18591237f9dd
+slug: gizmo-dorks-pla-color-change-grey-to-white-heat-activated
+brand:
+  slug: gizmo-dorks
+name: PLA Color Change Grey to White (Heat Activated)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ffffffff'
+- color_rgba: '#9fa4a8ff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/79d57c7c2267.png
+  type: unspecified
+properties: {}

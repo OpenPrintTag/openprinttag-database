@@ -1,0 +1,17 @@
+uuid: 895e9754-c272-5e5d-a6bb-fe1b2e0a8eff
+slug: flashforge-pla-blue
+brand:
+  slug: flashforge
+name: PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0e21aeff'
+tags:
+- silk
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/fa8dac682007.jpg
+  type: unspecified
+properties: {}

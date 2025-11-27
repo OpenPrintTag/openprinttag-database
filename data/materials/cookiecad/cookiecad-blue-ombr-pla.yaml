@@ -1,0 +1,16 @@
+uuid: f8dc0c74-b973-5c8f-a95b-56bf261dc7ba
+slug: cookiecad-blue-ombr-pla
+brand:
+  slug: cookiecad
+name: Blue Ombré PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://cookiecad.com/products/blue-ombre-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
+secondary_colors:
+- color_rgba: '#39b9dbff'
+- color_rgba: '#0066d9ff'
+tags:
+- gradual_color_change
+- industrially_compostable
+properties: {}

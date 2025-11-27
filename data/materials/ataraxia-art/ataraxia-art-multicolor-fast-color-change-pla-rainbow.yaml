@@ -1,0 +1,21 @@
+uuid: e6af4dc8-c1b4-5b1d-9a63-b21ca9b530cf
+slug: ataraxia-art-multicolor-fast-color-change-pla-rainbow
+brand:
+  slug: ataraxia-art
+name: Multicolor Fast Color Change PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#00a594ff'
+- color_rgba: '#fbf942ff'
+- color_rgba: '#f00c00ff'
+- color_rgba: '#41a840ff'
+- color_rgba: '#0099e6ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/1471fc05d9e8.jpg
+  type: unspecified
+properties: {}

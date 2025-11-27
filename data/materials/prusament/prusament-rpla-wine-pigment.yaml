@@ -1,0 +1,29 @@
+uuid: c80b3e9e-1966-5e70-a43a-6ec24320f1da
+slug: prusament-rpla-wine-pigment
+brand:
+  slug: prusament
+name: rPLA Wine Pigment
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5e4940ff'
+transmission_distance: 2.8
+tags:
+- recycled
+- contains_organic_material
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/57bafbf1b4b8.png
+  type: unspecified
+properties:
+  density: 1.16
+  hardness_shore_d: 86
+  min_print_temperature: 195
+  max_print_temperature: 215
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40

@@ -1,0 +1,17 @@
+uuid: 761b5abd-85ba-5687-a90b-efae918cc5ce
+slug: flashforge-rapid-pla-marble-red
+brand:
+  slug: flashforge
+name: Rapid PLA Marble Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ece0eaff'
+tags:
+- imitates_marble
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/37d64451c43e.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,16 @@
+uuid: 5f79c9bd-e541-5471-b261-cc7556ae2866
+slug: flashforge-abs-red
+brand:
+  slug: flashforge
+name: ABS Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e20010ff'
+tags:
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/cbb4b9174542.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,17 @@
+uuid: 1f95ae24-6bf3-5891-a309-2df4f2bba4af
+slug: spectrum-pla-thermoactive-red
+brand:
+  slug: spectrum
+name: PLA Thermoactive Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://spectrumfilaments.com/en/filament/pla-thermoactive/
+secondary_colors:
+- color_rgba: '#efefefff'
+- color_rgba: '#ff4f4dff'
+tags:
+- temperature_color_change
+- industrially_compostable
+properties:
+  density: 1.24

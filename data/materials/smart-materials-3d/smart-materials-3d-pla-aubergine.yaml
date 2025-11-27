@@ -1,0 +1,16 @@
+uuid: 2a7c296b-e753-5a41-ad69-c608d36453e6
+slug: smart-materials-3d-pla-aubergine
+brand:
+  slug: smart-materials-3d
+name: PLA Aubergine
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#492972ff'
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/68cc35084ac2.png
+  type: unspecified
+properties: {}

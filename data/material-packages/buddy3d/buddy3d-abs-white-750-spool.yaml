@@ -1,0 +1,10 @@
+uuid: 39f5a4ca-e811-5529-977f-c860812621d7
+slug: buddy3d-abs-white-750-spool
+class: FFF
+material:
+  slug: buddy3d-abs-white
+nominal_netto_full_weight: 750
+gtin: 8594173673236
+container:
+  slug: buddy3d-spool-1kg
+filament_diameter: 1750

@@ -1,0 +1,17 @@
+uuid: 5098bad6-9c09-5886-b6d0-cd8ea82a622f
+slug: rosa3d-filaments-pla-multicolour-jungle
+brand:
+  slug: rosa3d-filaments
+name: PLA Multicolour Jungle
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.rosa3d.pl/en/filament-3d-pla-multicolour-jungle-1
+secondary_colors:
+- color_rgba: '#3d9441ff'
+- color_rgba: '#70fa00ff'
+- color_rgba: '#f6fb38ff'
+tags:
+- gradual_color_change
+- silk
+properties: {}
