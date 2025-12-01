@@ -5,12 +5,12 @@ Material Database Validator
 Validates YAML data files against the schema definition.
 """
 
-import os
 import re
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Set, Tuple
-import yaml
+from typing import Any, Dict, List, Tuple
+
+from lib import DatabaseLoader
 
 
 class ValidationError:
@@ -32,32 +32,28 @@ class Validator:
 
     def __init__(self, base_path: Path):
         self.base_path = base_path
-        self.schema_path = base_path / "schema.yaml"
+        self.loader = DatabaseLoader(base_path)
         self.schema = None
         self.errors: List[ValidationError] = []
         self.data_cache: Dict[str, Dict] = {}
 
     def load_schema(self) -> bool:
         """Load and parse schema file"""
-        try:
-            with open(self.schema_path, 'r') as f:
-                self.schema = yaml.safe_load(f)
-            return True
-        except Exception as e:
-            print(f"Error loading schema: {e}")
+        if not self.loader.load_schema():
+            print(f"Error: {self.loader.errors[0]}")
             return False
+        self.schema = self.loader.schema
+        return True
 
     def load_yaml_file(self, path: Path) -> Any:
         """Load a YAML file"""
-        try:
-            with open(path, 'r') as f:
-                return yaml.safe_load(f)
-        except Exception as e:
+        data = self.loader.load_yaml_file(path)
+        if data is None and self.loader.errors:
             self.errors.append(ValidationError(
                 'error', 'file_parse', 'file', str(path),
-                f"Failed to parse YAML: {e}"
+                f"Failed to parse YAML: {self.loader.errors[-1]}"
             ))
-            return None
+        return data
 
     def validate_field_type(self, value: Any, field_def: Dict, field_name: str) -> Tuple[bool, str]:
         """Validate a field value against its type definition"""
@@ -167,48 +163,15 @@ class Validator:
                         ))
 
     def load_entity_data(self, entity_name: str, entity_def: Dict) -> Dict[str, Any]:
-        """Load all data for an entity type"""
-        entity_data = {}
+        """Load all data for an entity type with validation"""
+        entity_data = self.loader.load_entity_data(entity_name, entity_def)
 
-        if entity_def.get('type') == 'lookup_table':
-            # Load lookup table
-            file_path = self.base_path / entity_def['directory'] / entity_def['file']
-            if file_path.exists():
-                data = self.load_yaml_file(file_path)
-                if data:
-                    root_key = entity_def.get('root_key')
-                    items = data.get(root_key, []) if root_key else data
+        # Add validation logic for non-lookup tables
+        if entity_def.get('type') != 'lookup_table':
+            search_dirs = self.loader.get_search_dirs(entity_def)
+            seen_keys = set()
 
-                    # Get primary key field
-                    pk_field = None
-                    for field_name, field_def in entity_def.get('fields', {}).items():
-                        if field_def.get('required', False):
-                            pk_field = field_name
-                            break
-
-                    if isinstance(items, list):
-                        for item in items:
-                            key = item.get(pk_field) if pk_field else None
-                            if key:
-                                entity_data[key] = item
-
-        else:
-            # Load entity files
-            base_dir = self.base_path / entity_def['directory']
-
-            # Handle subdirectories
-            search_dirs = []
-            if entity_def.get('subdirectories'):
-                for subdir in entity_def['subdirectories']:
-                    search_dirs.append(base_dir / subdir)
-            elif entity_def.get('subdirectories_by_brand'):
-                # Find all subdirectories (brand folders)
-                if base_dir.exists():
-                    search_dirs = [d for d in base_dir.iterdir() if d.is_dir()]
-            else:
-                search_dirs = [base_dir]
-
-            # Load files from all search directories
+            # Validate all files (already loaded by loader, just validate structure)
             for search_dir in search_dirs:
                 if not search_dir.exists():
                     continue
@@ -216,19 +179,19 @@ class Validator:
                 for file_path in search_dir.glob("*.yaml"):
                     data = self.load_yaml_file(file_path)
                     if data:
-                        # Validate the file
+                        # Validate the file structure
                         self.validate_entity_file(entity_name, entity_def, file_path, data)
 
-                        # Store by primary key
+                        # Check for duplicates
                         pk_field = entity_def.get('primary_key', 'slug')
                         key = data.get(pk_field)
                         if key:
-                            if key in entity_data:
+                            if key in seen_keys:
                                 self.errors.append(ValidationError(
                                     'error', 'unique_slugs', entity_name, str(file_path),
                                     f"Duplicate {pk_field}: {key}"
                                 ))
-                            entity_data[key] = data
+                            seen_keys.add(key)
 
         return entity_data
 
