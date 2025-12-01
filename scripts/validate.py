@@ -112,6 +112,16 @@ class Validator:
         """Validate a single entity file"""
         fields = entity_def.get('fields', {})
 
+        # Check that filename slug matches the slug in the entity contents
+        filename_slug = file_path.stem  # Get filename without extension
+        pk_field = entity_def.get('primary_key', 'slug')
+        content_slug = data.get(pk_field)
+        if content_slug and content_slug != filename_slug:
+            self.errors.append(ValidationError(
+                'error', 'slug_mismatch', entity_name, str(file_path),
+                f"Filename slug '{filename_slug}' does not match {pk_field} in file '{content_slug}'"
+            ))
+
         # Check all defined fields
         for field_name, field_def in fields.items():
             value = data.get(field_name)
