@@ -30,6 +30,27 @@ def save_yaml(path: Path, data):
         yaml.dump(data, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
 
 
+def update_uuid_in_file(file_path: Path, old_uuid: str, new_uuid: str, entity_key: str) -> None:
+    """
+    Update UUID in a YAML file by replacing the old value with the new one.
+
+    Args:
+        file_path: Path to the YAML file
+        old_uuid: Current UUID value
+        new_uuid: New UUID value
+        entity_key: Entity identifier for logging
+    """
+    print(f"  {entity_key}: {old_uuid} -> {new_uuid}")
+
+    with open(file_path, 'r') as f:
+        content = f.read()
+
+    content = content.replace(f"uuid: {old_uuid}", f"uuid: {new_uuid}")
+
+    with open(file_path, 'w') as f:
+        f.write(content)
+
+
 def fix_brand_uuids(base_path: Path, loader: DatabaseLoader):
     """Fix brand UUIDs"""
     brands = loader.load_entity_data('brands', loader.schema['entities']['brands'])
@@ -40,21 +61,7 @@ def fix_brand_uuids(base_path: Path, loader: DatabaseLoader):
         correct_uuid = generate_brand_uuid(brand_data['name'])
         if str(correct_uuid) != brand_data.get('uuid'):
             file_path = base_path / 'data' / 'brands' / f'{brand_slug}.yaml'
-            print(f"  {brand_slug}: {brand_data.get('uuid')} -> {correct_uuid}")
-
-            # Read and update file
-            with open(file_path, 'r') as f:
-                content = f.read()
-
-            # Replace UUID
-            content = content.replace(
-                f"uuid: {brand_data['uuid']}",
-                f"uuid: {correct_uuid}"
-            )
-
-            with open(file_path, 'w') as f:
-                f.write(content)
-
+            update_uuid_in_file(file_path, brand_data['uuid'], str(correct_uuid), brand_slug)
             fixed_count += 1
 
     if fixed_count == 0:
@@ -79,23 +86,8 @@ def fix_material_uuids(base_path: Path, loader: DatabaseLoader):
 
         correct_uuid = generate_material_uuid(brand_uuid, material_data['name'])
         if str(correct_uuid) != material_data.get('uuid'):
-            # Find the file
             file_path = base_path / 'data' / 'materials' / brand_slug / f'{material_slug}.yaml'
-            print(f"  {material_slug}: {material_data.get('uuid')} -> {correct_uuid}")
-
-            # Read and update file
-            with open(file_path, 'r') as f:
-                content = f.read()
-
-            # Replace UUID
-            content = content.replace(
-                f"uuid: {material_data['uuid']}",
-                f"uuid: {correct_uuid}"
-            )
-
-            with open(file_path, 'w') as f:
-                f.write(content)
-
+            update_uuid_in_file(file_path, material_data['uuid'], str(correct_uuid), material_slug)
             fixed_count += 1
 
     if fixed_count == 0:
@@ -120,23 +112,8 @@ def fix_material_package_uuids(base_path: Path, loader: DatabaseLoader):
 
         correct_uuid = generate_material_package_uuid(brand_uuid, package_data['gtin'])
         if str(correct_uuid) != package_data.get('uuid'):
-            # Find the file
             file_path = base_path / 'data' / 'material-packages' / brand_slug / f'{package_slug}.yaml'
-            print(f"  {package_slug}: {package_data.get('uuid')} -> {correct_uuid}")
-
-            # Read and update file
-            with open(file_path, 'r') as f:
-                content = f.read()
-
-            # Replace UUID
-            content = content.replace(
-                f"uuid: {package_data['uuid']}",
-                f"uuid: {correct_uuid}"
-            )
-
-            with open(file_path, 'w') as f:
-                f.write(content)
-
+            update_uuid_in_file(file_path, package_data['uuid'], str(correct_uuid), package_slug)
             fixed_count += 1
 
     if fixed_count == 0:
