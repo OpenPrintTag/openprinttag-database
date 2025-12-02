@@ -7,10 +7,17 @@ Validates YAML data files against the schema definition.
 
 import re
 import sys
+import uuid
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 from lib import DatabaseLoader
+from uuid_utils import (
+    validate_brand_uuid,
+    validate_material_uuid,
+    validate_material_package_uuid,
+    validate_palette_color_uuid,
+)
 
 
 class ValidationError:
@@ -238,6 +245,77 @@ class Validator:
                                 f"Foreign key {field_name}={val} not found in {target_entity}"
                             ))
 
+    def validate_uuids(self):
+        """Validate UUIDs match their derived values according to uuid.md specification"""
+
+        # Validate brands
+        brands_data = self.data_cache.get('brands', {})
+        for brand_slug, brand_data in brands_data.items():
+            is_valid, expected_uuid, error_msg = validate_brand_uuid(brand_data)
+            if not is_valid:
+                self.errors.append(ValidationError(
+                    'error', 'uuid_derivation', 'brands', brand_slug,
+                    error_msg
+                ))
+
+        # Validate materials (need brand UUID)
+        materials_data = self.data_cache.get('materials', {})
+        for material_slug, material_data in materials_data.items():
+            brand_slug = material_data.get('brand_slug')
+            if not brand_slug:
+                continue
+
+            brand_data = brands_data.get(brand_slug)
+            if not brand_data or 'uuid' not in brand_data:
+                # FK validation will catch missing brand
+                continue
+
+            try:
+                brand_uuid = uuid.UUID(brand_data['uuid'])
+                is_valid, expected_uuid, error_msg = validate_material_uuid(material_data, brand_uuid)
+                if not is_valid:
+                    self.errors.append(ValidationError(
+                        'error', 'uuid_derivation', 'materials', material_slug,
+                        error_msg
+                    ))
+            except (ValueError, TypeError) as e:
+                # UUID format validation will catch this
+                pass
+
+        # Validate material packages (need brand UUID)
+        packages_data = self.data_cache.get('material_packages', {})
+        for package_slug, package_data in packages_data.items():
+            brand_slug = package_data.get('brand_slug')
+            if not brand_slug:
+                continue
+
+            brand_data = brands_data.get(brand_slug)
+            if not brand_data or 'uuid' not in brand_data:
+                # FK validation will catch missing brand
+                continue
+
+            try:
+                brand_uuid = uuid.UUID(brand_data['uuid'])
+                is_valid, expected_uuid, error_msg = validate_material_package_uuid(package_data, brand_uuid)
+                if not is_valid:
+                    self.errors.append(ValidationError(
+                        'error', 'uuid_derivation', 'material_packages', package_slug,
+                        error_msg
+                    ))
+            except (ValueError, TypeError) as e:
+                # UUID format validation will catch this
+                pass
+
+        # Validate palette colors
+        palette_colors_data = self.data_cache.get('palette_colors', {})
+        for color_key, color_data in palette_colors_data.items():
+            is_valid, expected_uuid, error_msg = validate_palette_color_uuid(color_data)
+            if not is_valid:
+                self.errors.append(ValidationError(
+                    'error', 'uuid_derivation', 'palette_colors', color_key,
+                    error_msg
+                ))
+
     def validate(self) -> bool:
         """Run all validations"""
         print("Loading schema...")
@@ -254,6 +332,9 @@ class Validator:
 
         print("Validating foreign key references...")
         self.validate_foreign_keys()
+
+        print("Validating UUIDs...")
+        self.validate_uuids()
 
         # Print results
         print("\n" + "="*80)
