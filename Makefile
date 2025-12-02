@@ -1,4 +1,4 @@
-.PHONY: help setup validate build clean build-clean all
+.PHONY: help setup validate build clean build-clean fix-uuids all
 
 VENV_DIR := venv
 PYTHON := $(VENV_DIR)/bin/python
@@ -14,6 +14,7 @@ help:
 	@echo "Main Commands:"
 	@echo "  make validate      - Validate the material database"
 	@echo "  make build         - Build and flatten the database to JSON"
+	@echo "  make fix-uuids     - Fix UUIDs to match derived values"
 	@echo "  make all           - Setup, validate, and build"
 	@echo ""
 	@echo "Cleanup:"
@@ -39,6 +40,10 @@ validate: setup
 build: setup
 	@echo "Building material database..."
 	@$(PYTHON) $(SCRIPTS_DIR)/build.py
+
+fix-uuids: setup
+	@echo "Fixing UUIDs to match derived values..."
+	@$(PYTHON) $(SCRIPTS_DIR)/fix_uuids.py
 
 all: setup validate build
 	@echo "All tasks completed successfully!"

@@ -146,7 +146,7 @@ Reference data shared across entities:
 First-time setup to install dependencies:
 
 ```bash
-bash scripts/setup.sh
+make setup
 ```
 
 This creates a Python virtual environment and installs required packages (PyYAML).
@@ -156,12 +156,7 @@ This creates a Python virtual environment and installs required packages (PyYAML
 Validate all data files against the schema:
 
 ```bash
-# Quick way (auto-activates virtual environment)
-./scripts/validate.sh
-
-# Or manual way
-source venv/bin/activate
-python scripts/validate.py
+make validate
 ```
 
 The validator checks:
@@ -171,6 +166,57 @@ The validator checks:
 - Enum value validity
 - Unique constraints
 - Pattern matching (UUIDs, slugs, URLs, etc.)
+- **UUID derivation** (ensures UUIDs match their derived values per specification)
+
+### UUID Generation
+
+UUIDs in the database follow a deterministic generation scheme using **UUIDv5** (SHA1-based) according to RFC 4122, section 4.3. This ensures that UUIDs can be derived from known parameters in a standardized manner.
+
+See `uuid.md` for the complete specification. In summary:
+
+| Entity | Derivation Formula |
+|--------|-------------------|
+| Brand | `Namespace + Brand name (UTF-8)` |
+| Material | `Namespace + Brand UUID (bytes) + Material name (UTF-8)` |
+| Material Package | `Namespace + Brand UUID (bytes) + GTIN (UTF-8)` |
+| Material Package Instance | `Namespace + NFC tag UID (bytes)` |
+| Palette Color | `Namespace + Palette name (UTF-8) + Canonical name (UTF-8)` |
+
+The validation script automatically verifies that all UUIDs match their expected derived values.
+
+### Fixing Incorrect UUIDs
+
+If UUIDs don't match their derived values, you can fix them automatically:
+
+```bash
+make fix-uuids
+```
+
+This will update all incorrect UUIDs in the YAML files to match the specification.
+
+## Building
+
+Build the flattened JSON database:
+
+```bash
+make build
+```
+
+This generates a flattened JSON representation of the database in the `build/` directory.
+
+## All Commands
+
+Run setup, validation, and build in one command:
+
+```bash
+make all
+```
+
+See all available commands:
+
+```bash
+make help
+```
 
 ## Contributing
 
@@ -179,7 +225,7 @@ The validator checks:
 1. Create a material file: `data/materials/{brand-slug}/{material-slug}.yaml`
 2. Add material packages: `data/material-packages/{brand-slug}/{package-slug}.yaml`
 3. Optionally add slicing profiles
-4. Run validation: `python3 scripts/validate.py`
+4. Run validation: `make validate`
 5. Submit a pull request
 
 ### Adding a New Brand
@@ -187,8 +233,10 @@ The validator checks:
 1. Create a brand file: `data/brands/{brand-slug}.yaml`
 2. Create brand subdirectories in `materials/` and `material-packages/`
 3. Add materials and packages
-4. Run validation
+4. Run validation: `make validate`
 5. Submit a pull request
+
+**Note**: When adding entities, you can either manually generate UUIDs following the specification in `uuid.md`, or create placeholder UUIDs and run `make fix-uuids` to automatically generate the correct ones.
 
 ## Schema
 
