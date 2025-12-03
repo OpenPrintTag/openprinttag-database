@@ -215,6 +215,11 @@ entities:
       uuid:
         type: uuid
         required: true
+      directus_uuid:
+        type: uuid
+        required: false
+        deprecated: true
+        description: "DEPRECATED: Legacy back-reference to Directus database entry. Will be removed before release."
       slug:
         type: slug
         required: true
@@ -270,6 +275,11 @@ entities:
       uuid:
         type: uuid
         required: true
+      directus_uuid:
+        type: uuid
+        required: false
+        deprecated: true
+        description: "DEPRECATED: Legacy back-reference to Directus database entry. Will be removed before release."
       slug:
         type: slug
         required: true
@@ -332,6 +342,11 @@ entities:
       uuid:
         type: uuid
         required: true
+      directus_uuid:
+        type: uuid
+        required: false
+        deprecated: true
+        description: "DEPRECATED: Legacy back-reference to Directus database entry. Will be removed before release."
       slug:
         type: slug
         required: true
@@ -401,6 +416,11 @@ entities:
       uuid:
         type: uuid
         required: true
+      directus_uuid:
+        type: uuid
+        required: false
+        deprecated: true
+        description: "DEPRECATED: Legacy back-reference to Directus database entry. Will be removed before release."
       slug:
         type: slug
         required: true
@@ -527,6 +547,11 @@ entities:
       uuid:
         type: uuid
         required: true
+      directus_uuid:
+        type: uuid
+        required: false
+        deprecated: true
+        description: "DEPRECATED: Legacy back-reference to Directus database entry. Will be removed before release."
       slug:
         type: slug
         required: true

@@ -125,6 +125,13 @@ class Validator:
                 f"Filename slug '{filename_slug}' does not match {pk_field} in file '{content_slug}'"
             ))
 
+        # Check for deprecated directus_uuid field
+        if 'directus_uuid' in data:
+            self.errors.append(ValidationError(
+                'warning', 'deprecated_field', entity_name, str(file_path),
+                "Field 'directus_uuid' is deprecated and will be removed before release. This is a temporary back-reference to legacy Directus database entries."
+            ))
+
         # Check all defined fields
         for field_name, field_def in fields.items():
             value = data.get(field_name)
