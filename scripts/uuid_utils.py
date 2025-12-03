@@ -16,18 +16,31 @@ NAMESPACE_MATERIAL_PACKAGE_INSTANCE = uuid.UUID("31062f81-b5bd-4f86-a5f8-46367e8
 NAMESPACE_PALETTE_COLOR = uuid.UUID("6c10f945-d488-40aa-8a7e-d6d0bcacaccb")
 
 
-def generate_uuid(namespace: uuid.UUID, *args: bytes) -> uuid.UUID:
+def generate_uuid(namespace: uuid.UUID, *args) -> uuid.UUID:
     """
     Generate a UUIDv5 from namespace and concatenated arguments.
 
     Args:
         namespace: The UUID namespace to use
-        *args: Variable number of bytes to concatenate
+        *args: Variable number of bytes or strings to concatenate
 
     Returns:
         Generated UUIDv5
     """
-    return uuid.uuid5(namespace, b"".join(args))
+    # Concatenate all arguments as bytes first
+    combined_bytes = b""
+    for arg in args:
+        if isinstance(arg, str):
+            combined_bytes += arg.encode("utf-8")
+        elif isinstance(arg, bytes):
+            combined_bytes += arg
+        else:
+            raise TypeError(f"Arguments must be str or bytes, got {type(arg)}")
+
+    # uuid.uuid5 requires a string argument, so decode the combined bytes
+    # For binary data, use latin1 which is a 1-to-1 byte mapping
+    combined_str = combined_bytes.decode("latin1")
+    return uuid.uuid5(namespace, combined_str)
 
 
 def generate_brand_uuid(brand_name: str) -> uuid.UUID:
@@ -42,7 +55,7 @@ def generate_brand_uuid(brand_name: str) -> uuid.UUID:
     Returns:
         Generated brand UUID
     """
-    return generate_uuid(NAMESPACE_BRAND, brand_name.encode("utf-8"))
+    return generate_uuid(NAMESPACE_BRAND, brand_name)
 
 
 def generate_material_uuid(brand_uuid: uuid.UUID, material_name: str) -> uuid.UUID:
@@ -61,7 +74,7 @@ def generate_material_uuid(brand_uuid: uuid.UUID, material_name: str) -> uuid.UU
     return generate_uuid(
         NAMESPACE_MATERIAL,
         brand_uuid.bytes,
-        material_name.encode("utf-8")
+        material_name
     )
 
 
@@ -81,7 +94,7 @@ def generate_material_package_uuid(brand_uuid: uuid.UUID, gtin: str) -> uuid.UUI
     return generate_uuid(
         NAMESPACE_MATERIAL_PACKAGE,
         brand_uuid.bytes,
-        gtin.encode("utf-8")
+        gtin
     )
 
 
@@ -115,8 +128,8 @@ def generate_palette_color_uuid(palette_name: str, canonical_name: str) -> uuid.
     """
     return generate_uuid(
         NAMESPACE_PALETTE_COLOR,
-        palette_name.encode("utf-8"),
-        canonical_name.encode("utf-8")
+        palette_name,
+        canonical_name
     )
 
 

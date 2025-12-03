@@ -248,6 +248,21 @@ The database schema is defined in `schema.yaml` at the repository root. It speci
 - File naming patterns
 - Directory structure
 
+## Deprecated Fields
+
+### directus_uuid (Deprecated)
+
+The `directus_uuid` field is a temporary back-reference to legacy Directus database entries and will be removed before the first release. This field is optional and only present in data imported from the legacy system.
+
+**Affected entities**:
+- brands
+- material_containers
+- devices
+- materials
+- material_packages
+
+**Note**: The `directus_uuid` field is distinct from the primary `uuid` field and should not be confused with it. When validating data, the validator will emit a warning if this deprecated field is present. Do not add this field to new entries.
+
 ## Data Format Guidelines
 
 ### Colors
