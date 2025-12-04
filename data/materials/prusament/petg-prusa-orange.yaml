@@ -1,0 +1,19 @@
+uuid: 71227920-2268-59f9-a2a1-146ecba81b07
+slug: petg-prusa-orange
+brand_slug: prusament
+name: PETG Prusa Orange
+class: FFF
+type_id: 14
+abbreviation: ''
+transmission_distance: 6.2
+photos:
+- url: https://file.myfilamentlist.com/f/new/11f580fd2fad.png
+  type: unspecified
+properties:
+  density: 1.27
+  hardness_shore_d: 74
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90

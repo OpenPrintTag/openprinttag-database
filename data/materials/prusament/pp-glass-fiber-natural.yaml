@@ -1,0 +1,23 @@
+uuid: ddc16817-e636-5353-9e8e-c6c644e23aa4
+slug: pp-glass-fiber-natural
+brand_slug: prusament
+name: PP Glass Fiber Natural
+class: FFF
+type_id: 16
+abbreviation: ''
+url: https://www.prusa3d.com/product/prusament-pp-glass-fiber-natural-850g/
+tags:
+- contains-glass-fiber
+- without-pigments
+- abrasive
+properties:
+  density: 1.02
+  hardness_shore_d: 68
+  min_print_temperature: 240
+  max_print_temperature: 250
+  preheat_temperature: 170
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  chamber_temperature: 50
+  min_chamber_temperature: 40
+  max_chamber_temperature: 90

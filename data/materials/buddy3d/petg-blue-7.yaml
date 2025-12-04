@@ -1,0 +1,18 @@
+uuid: d623eee0-401a-5754-8d35-87e827ad0389
+slug: petg-blue-7
+brand_slug: buddy3d
+name: PETG Blue
+class: FFF
+type_id: 14
+abbreviation: ''
+url: https://www.prusa3d.com/product/buddy3d-petg-blue-1kg/
+properties:
+  density: 1.28
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

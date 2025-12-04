@@ -1,0 +1,24 @@
+uuid: 096a8c0e-acb9-5ec4-afee-44683ff65f8b
+slug: pa11-carbon-fiber-black
+brand_slug: prusament
+name: PA11 Carbon Fiber Black
+class: FFF
+type_id: 24
+abbreviation: ''
+tags:
+- contains-carbon-fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/9d9f4d7d1f09.png
+  type: unspecified
+properties:
+  density: 1.11
+  hardness_shore_d: 77
+  min_print_temperature: 275
+  max_print_temperature: 295
+  preheat_temperature: 170
+  min_bed_temperature: 95
+  max_bed_temperature: 115
+  chamber_temperature: 75
+  min_chamber_temperature: 50
+  max_chamber_temperature: 90

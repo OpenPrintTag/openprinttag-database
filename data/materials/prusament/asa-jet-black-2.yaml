@@ -1,0 +1,21 @@
+uuid: bd9b8c8d-7208-5efb-9ebb-4b0a72078026
+slug: asa-jet-black-2
+brand_slug: prusament
+name: ASA Jet Black
+class: FFF
+type_id: 28
+abbreviation: ''
+transmission_distance: 0.4
+photos:
+- url: https://file.myfilamentlist.com/f/new/48ebecdbda2c.png
+  type: unspecified
+properties:
+  density: 1.07
+  hardness_shore_d: 78
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

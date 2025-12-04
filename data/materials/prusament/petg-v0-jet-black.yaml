@@ -1,0 +1,19 @@
+uuid: 036d575a-6f16-5898-a6ec-8eaee62004cd
+slug: petg-v0-jet-black
+brand_slug: prusament
+name: PETG V0 Jet Black
+class: FFF
+type_id: 14
+abbreviation: ''
+url: https://www.prusa3d.com/product/prusament-petg-v0-jet-black-1kg/
+transmission_distance: 0.3
+tags:
+- self-extinguishing
+properties:
+  density: 1.27
+  hardness_shore_d: 79
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90

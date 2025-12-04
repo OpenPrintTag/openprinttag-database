@@ -49,7 +49,7 @@ entities:
         required: true
       abbreviation:
         type: string
-        max_length: 7
+        max_length: 32
         required: true
       name:
         type: string
@@ -251,7 +251,13 @@ entities:
           fields:
             type:
               type: enum
-              values: ["brand", "material", "material_package", "material_package_instance"]
+              values:
+                [
+                  "brand",
+                  "material",
+                  "material_package",
+                  "material_package_instance",
+                ]
               required: true
             pattern:
               type: string
@@ -450,7 +456,7 @@ entities:
         required: true
       abbreviation:
         type: string
-        max_length: 7
+        max_length: 32
         required: true
       url:
         type: url
@@ -511,7 +517,8 @@ entities:
               required: true
             type:
               type: enum
-              values: ["unspecified", "print", "package", "filament_colors_sample"]
+              values:
+                ["unspecified", "print", "package", "filament_colors_sample"]
               required: true
         required: false
       properties:
@@ -530,7 +537,13 @@ entities:
               required: true
             level:
               type: enum
-              values: ["incompatible", "compatible", "with_glue_stick", "with_pp_tape"]
+              values:
+                [
+                  "incompatible",
+                  "compatible",
+                  "with_glue_stick",
+                  "with_pp_tape",
+                ]
               required: true
             heatbed_required:
               type: boolean
@@ -571,7 +584,7 @@ entities:
         required: false
       gtin:
         type: gtin
-        required: true
+        required: false
       container_slug:
         type: slug
         foreign_key:

@@ -1,101 +1,250 @@
 tags:
-  - id: 1
-    slug: uv-resistant
-    name: "UV Resistant"
-    category: properties
-    description: "Resistant to degradation from UV exposure"
-    implies:
-      - outdoor-suitable
-    hints:
-      - weather-resistant
-
-  - id: 2
-    slug: outdoor-suitable
-    name: "Outdoor Suitable"
-    category: applications
-    description: "Suitable for prolonged outdoor use"
-    hints:
-      - uv-resistant
-      - weather-resistant
-
-  - id: 3
-    slug: high-detail
-    name: "High Detail Capable"
-    category: performance
-    description: "Capable of producing fine details and smooth surfaces"
-    hints:
-      - low-layer-height
-
-  - id: 4
-    slug: decorative-finish
-    name: "Decorative Finish"
-    category: finish
-    description: "Special visual finish (glitter, metallic, silk, etc.)"
-
-  - id: 5
-    slug: food-safe
-    name: "Food Safe"
-    category: safety
-    description: "Safe for contact with food (requires proper post-processing)"
-    implies:
-      - fda-compliant
-
-  - id: 6
-    slug: fda-compliant
-    name: "FDA Compliant"
-    category: safety
-    description: "Meets FDA requirements for food contact"
-
-  - id: 7
-    slug: high-strength
-    name: "High Strength"
-    category: performance
-    description: "Superior mechanical strength and durability"
-
-  - id: 8
-    slug: flexible
-    name: "Flexible"
-    category: properties
-    description: "Flexible or elastomeric material"
-
-  - id: 9
-    slug: weather-resistant
-    name: "Weather Resistant"
-    category: properties
-    description: "Resistant to moisture, temperature changes, and weathering"
-
-  - id: 10
-    slug: low-warp
-    name: "Low Warping"
-    category: properties
-    description: "Minimal warping during printing"
-
-  - id: 11
-    slug: biodegradable
-    name: "Biodegradable"
-    category: safety
-    description: "Biodegradable under appropriate conditions"
-
-  - id: 12
-    slug: chemical-resistant
-    name: "Chemical Resistant"
-    category: properties
-    description: "Resistant to various chemicals and solvents"
-
-  - id: 13
-    slug: high-temperature
-    name: "High Temperature Resistance"
-    category: performance
-    description: "Maintains properties at elevated temperatures"
-
-  - id: 14
-    slug: low-layer-height
-    name: "Optimized for Low Layer Heights"
-    category: performance
-    description: "Performs well at layer heights below 0.15mm"
-
-  - id: 15
-    slug: easy-printing
-    name: "Easy to Print"
-    category: properties
-    description: "Beginner-friendly material with forgiving print characteristics"
+- id: 1
+  slug: contains-carbon-nano-tubes
+  name: contains_carbon_nano_tubes
+- id: 2
+  slug: home-compostable
+  name: home_compostable
+- id: 3
+  slug: recycled
+  name: recycled
+- id: 4
+  slug: without-pigments
+  name: without_pigments
+- id: 5
+  slug: silk
+  name: silk
+- id: 6
+  slug: contains-iron
+  name: contains_iron
+- id: 7
+  slug: contains-organic-material
+  name: contains_organic_material
+- id: 8
+  slug: contains-hemp
+  name: contains_hemp
+- id: 9
+  slug: contains-brass
+  name: contains_brass
+- id: 10
+  slug: contains-plant
+  name: contains_plant
+- id: 11
+  slug: metal-detectable
+  name: metal_detectable
+- id: 12
+  slug: contains-cork
+  name: contains_cork
+- id: 13
+  slug: contains-graphene
+  name: contains_graphene
+- id: 14
+  slug: coextruded
+  name: coextruded
+- id: 15
+  slug: contains-pine
+  name: contains_pine
+- id: 16
+  slug: translucent
+  name: translucent
+- id: 17
+  slug: contains-magnetite
+  name: contains_magnetite
+- id: 18
+  slug: limonene-soluble
+  name: limonene_soluble
+- id: 19
+  slug: self-extinguishing
+  name: self_extinguishing
+- id: 20
+  slug: contains-metal
+  name: contains_metal
+- id: 21
+  slug: glow-in-the-dark
+  name: glow_in_the_dark
+- id: 22
+  slug: esd-safe
+  name: esd_safe
+- id: 23
+  slug: contains-siloxane
+  name: contains_siloxane
+- id: 24
+  slug: contains-kevlar
+  name: contains_kevlar
+- id: 25
+  slug: blend
+  name: blend
+- id: 26
+  slug: satin
+  name: satin
+- id: 27
+  slug: transparent
+  name: transparent
+- id: 28
+  slug: support
+  name: Support
+- id: 29
+  slug: contains-bronze
+  name: contains_bronze
+- id: 30
+  slug: radiation-shielding
+  name: radiation_shielding
+- id: 31
+  slug: contains-wax
+  name: contains_wax
+- id: 32
+  slug: gradual-color-change
+  name: gradual_color_change
+- id: 33
+  slug: imitates-marble
+  name: imitates_marble
+- id: 34
+  slug: contains-boron-carbide
+  name: contains_boron_carbide
+- id: 35
+  slug: contains-tungsten
+  name: contains_tungsten
+- id: 36
+  slug: cast
+  name: Cast
+- id: 37
+  slug: illuminescent-color-change
+  name: illuminescent_color_change
+- id: 38
+  slug: imitates-wood
+  name: imitates_wood
+- id: 39
+  slug: water-soluble
+  name: water_soluble
+- id: 40
+  slug: imitates-metal
+  name: imitates_metal
+- id: 41
+  slug: triple-color
+  name: triple_color
+- id: 42
+  slug: contains-carbon-fiber
+  name: contains_carbon_fiber
+- id: 43
+  slug: contains-steel
+  name: contains_steel
+- id: 44
+  slug: contains-linen
+  name: contains_linen
+- id: 45
+  slug: contains-stone
+  name: contains_stone
+- id: 46
+  slug: conductive
+  name: conductive
+- id: 47
+  slug: ipa-soluble
+  name: ipa_soluble
+- id: 48
+  slug: contains-copper
+  name: contains_copper
+- id: 49
+  slug: temperature-color-change
+  name: temperature_color_change
+- id: 50
+  slug: iridescent
+  name: iridescent
+- id: 51
+  slug: color-gradient
+  name: Color Gradient
+- id: 52
+  slug: industrially-compostable
+  name: industrially_compostable
+- id: 53
+  slug: contains-silver
+  name: contains_silver
+- id: 54
+  slug: air-purifier
+  name: air_purifier
+- id: 55
+  slug: contains-aluminium
+  name: contains_aluminium
+- id: 56
+  slug: traceable-authenticity
+  name: traceable_authenticity
+- id: 57
+  slug: bio-based
+  name: bio_based
+- id: 58
+  slug: biocompatible
+  name: biocompatible
+- id: 59
+  slug: pearlescent
+  name: pearlescent
+- id: 60
+  slug: contains-mineral
+  name: contains_mineral
+- id: 61
+  slug: contains-glass-fiber
+  name: contains_glass_fiber
+- id: 62
+  slug: antibacterial
+  name: antibacterial
+- id: 63
+  slug: dual-color
+  name: dual_color
+- id: 64
+  slug: imitates-stone
+  name: imitates_stone
+- id: 65
+  slug: low-outgassing
+  name: low_outgassing
+- id: 66
+  slug: paramagnetic
+  name: paramagnetic
+- id: 67
+  slug: contains-algae
+  name: contains_algae
+- id: 68
+  slug: medical-aplication
+  name: Medical aplication
+- id: 69
+  slug: contains-ptfe
+  name: contains_ptfe
+- id: 70
+  slug: contains-spirulina
+  name: contains_spirulina
+- id: 71
+  slug: filtration-recomended
+  name: filtration_recomended
+- id: 72
+  slug: abrasive
+  name: abrasive
+- id: 73
+  slug: high-temperature
+  name: high_temperature
+- id: 74
+  slug: matte
+  name: matte
+- id: 75
+  slug: contains-wood
+  name: contains_wood
+- id: 76
+  slug: contains-olive-bones
+  name: contains_olive_bones
+- id: 77
+  slug: glitter
+  name: glitter
+- id: 78
+  slug: multicolor
+  name: multicolor
+- id: 79
+  slug: contains-distillery-waste
+  name: contains_distillery_waste
+- id: 80
+  slug: neon
+  name: neon
+- id: 81
+  slug: contains-ceramic
+  name: contains_ceramic
+- id: 82
+  slug: lithophane
+  name: lithophane
+- id: 83
+  slug: foaming
+  name: foaming

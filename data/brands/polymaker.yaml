@@ -1,29 +1,5 @@
 uuid: 561da2d4-41ed-5186-8226-c404d31569d7
 slug: polymaker
-name: "Polymaker"
-
-keywords:
-  - Polymaker
-  - PolyLite
-  - PolyTerra
-  - PolyMax
-
-material_url_template: "https://www.polymaker.com/product/{material_slug}/"
-material_package_url_template: "https://www.polymaker.com/product/{material_slug}/"
-material_package_instance_url_template: null
-
-link_patterns:
-  - type: brand
-    pattern: "https://www\\.polymaker\\.com/.*"
-  - type: material
-    pattern: "https://www\\.polymaker\\.com/product/([^/]+)/"
-
+name: Polymaker
 countries:
-  - CN
-  - US
-  - DE
-  - GB
-  - FR
-  - JP
-  - KR
-  - AU
+- CH

@@ -1,0 +1,21 @@
+uuid: 9e6dea7a-9e60-553a-b514-f0632f867e9f
+slug: asa-prusa-orange
+brand_slug: prusament
+name: ASA Prusa Orange
+class: FFF
+type_id: 28
+abbreviation: ''
+transmission_distance: 4.4
+photos:
+- url: https://file.myfilamentlist.com/f/new/5f1964bf97ca.png
+  type: unspecified
+properties:
+  density: 1.07
+  hardness_shore_d: 78
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

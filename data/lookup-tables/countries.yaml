@@ -1,31 +1,35 @@
 countries:
-  - code: CZ
-    name: "Czech Republic"
-  - code: US
-    name: "United States"
-  - code: DE
-    name: "Germany"
-  - code: GB
-    name: "United Kingdom"
-  - code: FR
-    name: "France"
-  - code: IT
-    name: "Italy"
-  - code: ES
-    name: "Spain"
-  - code: CN
-    name: "China"
-  - code: JP
-    name: "Japan"
-  - code: KR
-    name: "South Korea"
-  - code: CA
-    name: "Canada"
-  - code: AU
-    name: "Australia"
-  - code: NL
-    name: "Netherlands"
-  - code: BE
-    name: "Belgium"
-  - code: PL
-    name: "Poland"
+- code: AE
+  name: United Arab Emirates
+- code: AT
+  name: Austria
+- code: AU
+  name: Australia
+- code: CA
+  name: Canada
+- code: CH
+  name: China
+- code: CZ
+  name: Czech Republic
+- code: GR
+  name: Germany
+- code: IT
+  name: Italy
+- code: NL
+  name: Netherlands
+- code: NZ
+  name: New Zealand
+- code: PL
+  name: Poland
+- code: PT
+  name: Portugal
+- code: SK
+  name: Slovakia
+- code: SP
+  name: Spain
+- code: SW
+  name: Sweden
+- code: UK
+  name: United Kingdom
+- code: US
+  name: United States

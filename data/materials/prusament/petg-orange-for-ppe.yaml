@@ -1,0 +1,18 @@
+uuid: 370c5a38-d56a-5cdd-84cc-1fa6d4b1d009
+slug: petg-orange-for-ppe
+brand_slug: prusament
+name: PETG Orange for PPE
+class: FFF
+type_id: 14
+abbreviation: ''
+url: https://www.prusa3d.com/product/prusament-petg-orange-for-ppe-1kg-2/
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
