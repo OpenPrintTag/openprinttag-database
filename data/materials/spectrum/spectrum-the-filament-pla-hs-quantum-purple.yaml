@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 24167bef-e265-4165-8c99-9f21e0787b64
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 0213127b-59c0-4fe8-a253-b7ea207abcc6
+slug: the-filament-pla-hs-quantum-purple
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PLA HS Quantum Purple
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-pla-hs/
+primary_color: eda03cd9-a95c-4756-89ea-1985306359f6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  THE FILAMENT PLA HS by Spectrum – a filament designed for fast and efficient 3D printing without compromising on quality. Thanks to its innovative formula, THE FILAMENT PLA HS enables printing at speeds of up to 600 mm/s, making it the ideal choice for users who want to accelerate the creation process without sacrificing precision.
+
+  THE FILAMENT PLA HS by Spectrum offers not only speed but also reliability. With excellent layer adhesion, high dimensional stability, and ease of printing, this filament is perfect for both advanced projects and everyday prints. It allows for large orders to be completed in a short time while maintaining accuracy.
+
+  Thanks to optimized technical parameters, THE FILAMENT PLA HS is perfectly suited for rapid prototyping, small-scale serial production and model creation where speed is key. By choosing THE FILAMENT PLA HS, you can count on the efficiency you need, while still enjoying the ease of printing characteristic of classic PLA.
+
+  This is a filament that meets the demands of professionals while remaining accessible to enthusiasts looking for tools to speed up their workflow.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 965f3ad6-5751-4e39-9383-036e5211400b
+created_at: '2025-10-08T15:43:48.432Z'
+updated_at: '2025-10-08T15:43:48.432Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9636
+packages:
+  - dea3c870-99c3-499c-96af-d81a1a41fccf
+  - ea73e509-f550-4af2-a2db-8eccb85e84d4
+secondary_material_types: []
+opentag_uuid: b94d2174-f6ef-54c2-ba32-fad02adc92aa

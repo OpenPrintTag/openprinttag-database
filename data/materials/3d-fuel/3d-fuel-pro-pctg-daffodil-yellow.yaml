@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b2dc43093075.png
+    type: gallery
+uuid: 4296aae7-a81d-49a1-9072-80bf6da80fbe
+slug: pro-pctg-daffodil-yellow
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Daffodil Yellow
+abbreviation: null
+url: null
+primary_color: 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/b2dc43093075.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:58.717Z'
+updated_at: '2025-03-25T22:34:58.717Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3782
+packages:
+  - 3ca7e8ca-16fd-40c8-bf2a-ebf0cff730d8
+  - 61d9b982-853b-4646-9fdb-d5ad1a4df71c
+secondary_material_types: []
+opentag_uuid: 2af89144-61f0-5c2b-b77d-de403100513f

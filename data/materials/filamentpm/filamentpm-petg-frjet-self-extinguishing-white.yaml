@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/447171796407.png
+    type: gallery
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: 57052f1c-4266-42b4-9f34-b627c6bc14ab
+slug: petg-frjet-self-extinguishing-white
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PETG FRJet self-extinguishing - White '
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  FRJet this material is based on PETG and contains a mixture of special additives with a flame-retardant (UL94 V0 certification). It is ideal for electronic components.
+
+  FRJet is a revolutionary material in the field of 3D printing, becoming a popular choice in the electronics industry. Thanks to its unique properties associated with self-extinguishing and flame retardancy, it is ideal for applications where resistance to burning is emphasized. Its high-temperature resistance, dimensional stability, and good layer adhesion ensure that printed objects are sturdy and durable. FRJet is a testament to our commitment to providing quality and safe materials for 3D printing.
+
+  Key Features:
+
+      Self-extinguishing and flame retardant: Meets the UL94 V0 safety standard, ensuring high resistance to burning.
+      PETG-based material: Contains a mixture of special additives with a flame retardant.
+      High-temperature resistance: The material is resistant up to 70degreesC.
+      Good layer adhesion: Ensures strength and integrity of printed objects.
+      Dimensional stability: For precision and print quality.
+      Safety aspect: Contains 20% flame retardant additive.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/447171796407.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T18:13:54.051Z'
+updated_at: '2025-04-22T18:13:54.051Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7052
+packages:
+  - 3db396b6-3e50-4d5e-b306-6f4b9abc84c8
+  - a95c3912-5932-4b4f-a284-1583cf733bb4
+secondary_material_types: []
+opentag_uuid: 19ca615a-7c6b-5692-bf81-fca944f050b7

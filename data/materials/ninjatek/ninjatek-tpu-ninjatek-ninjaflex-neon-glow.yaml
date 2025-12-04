@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/92e9a3e9802c.png
+    type: gallery
+uuid: bf5376ee-afd2-4619-a58a-2ade02e7fd2f
+slug: tpu-ninjatek-ninjaflex-neon-glow
+brand_slug: ninjatek
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU NinjaTek NinjaFlex - Neon Glow
+abbreviation: null
+url: null
+primary_color: 95e881ff-5692-4670-9cdb-90a55b7e23e5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  As the first flexible material on the market, NinjaFlex(R) TPU filament has proprietary technology that boasts a low-tack, easy-to-feed texture ideal for direct-drive extruders. The material has abrasion and chemical resistance and results in consistent printed parts.
+
+  Features and Benefits of NinjaFlex Filament
+
+      Shore Hardness = 85A
+      Truly flexible (no fill or layer manipulation required to achieve performance)
+      660% elongation allows for repeated movement and impact without wear or cracking
+      Polyurethane composition allows for excellent vibration reduction
+      Proprietary low-friction exterior allows for smooth feeding
+      Abrasion resistance 20% better than ABS and 68% better than PLA
+      Consistent diameter and material properties providing reliable, high-quality prints
+      Chemical resistance to many materials. View the NinjaFlex Chemical Resistance Guide for more information.
+      REACH and RoHS 3 (EU 2015/863)
+thumbnail_url: https://file.myfilamentlist.com/f/new/92e9a3e9802c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:26.635Z'
+updated_at: '2025-03-25T22:36:26.635Z'
+brand: dc14bc52-0ea9-467f-a3a1-cbff6957c8ec
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5264
+packages:
+  - bdc0d24d-11eb-44df-b6a0-ee29557e6260
+secondary_material_types: []
+opentag_uuid: 315f82ce-2dd4-5b9c-8f68-4a59efddb09a

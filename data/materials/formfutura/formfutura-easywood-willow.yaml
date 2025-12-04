@@ -1,0 +1,78 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6b3aec20b5b0.png
+    type: gallery
+tags:
+  - e4b51bb5-75c7-484a-bf67-20f37016fc30
+  - 82d7f94d-5fb1-4d74-ac09-17a65b37cd42
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ea8961a0-f549-4b70-b999-baa39d0ef1dc
+slug: easywood-willow
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyWood Willow
+abbreviation: null
+url: null
+primary_color: 4c90835b-157a-40ee-b459-a1fd4fb686be
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  EasyWood is a PLA-based 3D printer filament that is filled with 40% wood particles. EasyWood filament is perfect for 3D printing objects with real wood-like aesthetics, smell and touch.
+
+  EasyWood looks, feels and smells like real wood. A beautiful wood-nerve structures can be obtained by grinding the printed object with a piece of fine grit sandpaper. Alternatively the same result can be obtained by varying the print temperature during the printing process.
+  EasyWood is a PLA-based filament which is filled with 40% grinded wood particles. The wood particles in the filament have the added benefit of warp-free printing.
+
+  Unique features
+
+      Extremely high wood-filling of 40%
+      Real wood feel, look and smell
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Great thermal stability and filament flowing behaviour
+      Perfect first- and inter-layer adhesion
+      Can be printed at high printing speeds
+      By postprocessing the printed object with a piece of fine grit sandpaper
+      By varying with the print/extrusion temperature
+      Biodegradable
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/6b3aec20b5b0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:32.816Z'
+updated_at: '2025-03-25T22:31:32.816Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 724
+packages:
+  - 2c8c2169-14cc-4360-97e8-ace96287f0cb
+  - 2ed13775-bb74-4096-9304-8fd096c2726c
+  - 5adcf523-0196-48e5-8c3a-496e3ab09869
+  - 90410485-0b9e-42c7-9e53-3eb1bfd3072c
+  - b799c100-f1de-45dc-8323-b21aede64fe7
+  - faed640d-e6bd-4fb1-adf2-91d0a61220c6
+secondary_material_types: []
+opentag_uuid: 94c9dd21-4bcd-5dd6-a2be-d78fb225cfb4

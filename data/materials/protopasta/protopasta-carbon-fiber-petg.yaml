@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b0cfe8faa0a6.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 4df78bdd-f27e-4df7-b42f-9bd470e452c0
+slug: carbon-fiber-petg
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Carbon Fiber PETG
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Sitting comfortably between Carbon Fiber PLA and HTPLA
+
+  from a price and performance perspective, Carbon Fiber PETG is a durable and forgiving general purpose material.
+
+  PETG-CF7 adds just enough Carbon Fibers to increase the stiffness of PETG without feeling brittle. Carbon Fibers also improve dimensional stability and look great!
+
+  Protopasta Carbon Fiber PETG includes:
+
+      100% new PETG for the highest quality result
+      quality ingredients plus in-house processing for curated chemistry
+      minimal packaging with recyclable cardboard spools
+      processing from 230+ C @ 2 cu mm/s volume rate, 70+ C bed
+      less rigid than PLA and HTPLA for more flex before break
+      more heat resistance than PLA, but less than heat treated HTPLA
+thumbnail_url: https://file.myfilamentlist.com/f/new/b0cfe8faa0a6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T11:44:46.536Z'
+updated_at: '2025-04-02T11:44:46.536Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6372
+packages:
+  - 54194ff0-40ce-460f-85a4-5a0c95617ce9
+  - b0f7449a-887e-47c8-af4f-fca6453449ee
+  - d8055884-5cd4-448a-82d5-a6d2f235fbd7
+  - ed2ee50e-b7ed-479d-8a74-c01d14c6e496
+secondary_material_types: []
+opentag_uuid: 8839ba50-dbe8-57a9-9e13-3d417233bd37

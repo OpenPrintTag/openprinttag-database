@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 587b250f-de20-4d6a-99b9-052d19df9a1c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+secondary_colors:
+  - 02a93184-2bbb-4aa1-8818-67458224e16e
+uuid: 8a2f05a4-643a-4d2f-b5f2-060ba2d3d9f5
+slug: pla-uv-reactive-white
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA UV Reactive White
+abbreviation: null
+url: https://www.eumakers.com/pla-uv-reactive-filament-color-white.html
+primary_color: 2c3aef30-41c3-492d-ab84-8862af4cd79b
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing UV REACTIVE PLA filament color White.
+  Discover how this filament, once subjected to UV rays/black lights, changes its chemical structure becoming brighter. 
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/8a2f05a4-643a-4d2f-b5f2-060ba2d3d9f5.png
+deleted_at: null
+deleted_by: 5295ffd3-6522-4c66-9e17-81086fd74b07
+created_at: '2025-11-12T10:46:12.661Z'
+updated_at: '2025-11-12T10:46:12.661Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 29c2b17a-6f8c-4c21-92ef-cd896c5a307c
+  - 58f49626-3749-4c40-a83a-6c55b74065b9
+secondary_material_types: []
+opentag_uuid: b67b5030-f493-5bf1-9233-b9b539cc9c3e

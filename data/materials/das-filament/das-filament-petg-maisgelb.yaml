@@ -1,0 +1,64 @@
+uuid: dee47d8d-c9f5-4276-b0a8-6a4a0bcb5c6a
+slug: petg-maisgelb
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Maisgelb
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/189/petg-filament-1-75-mm-maisgelb-800-g?c=35
+primary_color: b6bca73e-c177-481b-b536-bc3fd520ef43
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 1023 Verkehrsgelb (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 1f17fdd3-9dbb-4dd2-b4dc-6ae3cdac36cd
+created_at: '2025-10-19T09:36:53.707Z'
+updated_at: '2025-10-19T09:36:53.707Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 91cd4b2c-f11b-406a-9895-c32c47f29bf7
+  - dcbb5f0f-780c-4518-9021-b3b9b5a6404c
+secondary_material_types: []
+opentag_uuid: b11331fb-3a35-50ba-8b8f-879b99db1e5a

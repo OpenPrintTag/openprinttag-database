@@ -1,0 +1,80 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1813da7a-ac08-47a6-bd10-cdc678092d4f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: dde937bc-1c45-41e9-9532-80f28660eea9
+slug: pla-pro-jet-black
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pro Jet Black
+abbreviation: PLA Pro
+url: https://www.filamentree.eu/shop/30210021-pla-pro-jet-black-1kg-4605?category=60#attr=753,2960,754,755,3536,3537,2963,2964,756
+primary_color: 9926c9ca-7cee-428a-a704-3295c84f22ad
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Unleash bold, striking designs with PLA Pro Jet Black, a premium filament engineered for depth, sophistication, and unmatched performance. Designed for creators who demand intensity and precision, this deep black filament combines the ease of PLA with professional-grade durability, making it ideal for both functional and artistic masterpieces.
+
+  Key Features:
+
+       Rich, Opaque Finish: Achieve a sleek, jet-black aesthetic with exceptional color consistency—perfect for projects requiring a sharp, professional look or a dramatic contrast.
+      Enhanced Strength & Stability: Optimized layer adhesion, minimal warping, and improved impact resistance ensure reliable prints, even for intricate or load-bearing designs.
+      Eco-Conscious & Non-Toxic: Crafted from renewable, biodegradable PLA (plant-based materials), supporting sustainable 3D printing without sacrificing quality.
+      Precision Manufacturing: Tight diameter tolerance (±0.03mm) ensures smooth extrusion, reduced clogs, and flawless results across all print sizes.
+      User-Friendly Versatility: Low-warp formula compatible with most FDM/FFF printers. Easy to print, with minimal odor and excellent bed adhesion.
+
+  Applications:
+
+      Functional Prototypes: Create durable enclosures, gears, or mechanical parts with a professional, industrial-grade finish.
+      Cosplay & Props: Craft bold armor, weapons, or accessories that stand out with a sleek, menacing appearance.
+      Art & Sculptures: Ideal for high-contrast designs, abstract art, or figurines where deep black adds dramatic flair.
+      Household & Tech Accessories: Design sleek phone stands, cable organizers, or modern décor with a minimalist aesthetic.
+      Technical Models: Perfect for engineering prototypes, robotics parts, or architectural elements requiring a polished look.
+
+
+  Why Choose PLA Pro Jet Black?
+
+  This filament is the ultimate choice for projects demanding boldness, durability, and versatility. Its deep black hue offers a flawless base for post-processing or a standalone statement, while its pro-grade properties ensure reliability for both hobbyists and professionals. Whether you’re building functional parts or artistic showpieces, PLA Pro Jet Black delivers unmatched results.
+  Unleash Darkness. Print with Precision.
+
+  Elevate your 3D printing with PLA Pro Jet Black—where striking aesthetics meet uncompromising performance. Order your 1kg spool today and bring depth, contrast, and sophistication to every creation!
+thumbnail_url: https://file.myfilamentlist.com/new/dde937bc-1c45-41e9-9532-80f28660eea9.png
+deleted_at: null
+deleted_by: d8be3a8a-16f4-4847-a116-c23452016a18
+created_at: '2025-12-01T10:49:45.006Z'
+updated_at: '2025-12-01T10:49:45.006Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 1df4e192-7f1e-4a16-9dfd-05691b5d4330
+  - 8e1893b8-f617-40aa-800c-b7712e0137ee
+secondary_material_types: []
+opentag_uuid: 305d713c-b93a-505e-98f0-208da4c3e9d2

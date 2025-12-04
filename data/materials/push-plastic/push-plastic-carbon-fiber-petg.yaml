@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2a0079920c7c.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 5f32ac44-2e0c-47ce-8058-4bb8b104ea51
+slug: carbon-fiber-petg-3
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Carbon Fiber PETG
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Carbon Fiber ABS, PETG, PC/PBT, and Nylon
+
+      Proprietary Carbon Fiber fill on all Resins
+      Added stiffness
+      Improved dimensional stability
+      Excellent surface finish
+thumbnail_url: https://file.myfilamentlist.com/f/new/2a0079920c7c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T10:31:17.717Z'
+updated_at: '2025-04-30T10:31:17.717Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7333
+packages:
+  - 2061d30a-0c22-4ef4-9295-86f49d55f578
+  - 5790976e-b78f-4d43-ba23-f4d851cc14e6
+  - 6d78150f-9543-4e96-b127-79688ab06d90
+  - 6d9a597b-ed13-4622-b751-06fcd041fdb1
+  - 705e11e7-63c5-4dd3-a8bd-87dc589b4e18
+  - ecf5cb37-80f3-469c-90e6-08c8fa9dfd33
+secondary_material_types: []
+opentag_uuid: 8a1244d7-c9f5-50b1-8270-e6b163c56d58

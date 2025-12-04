@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0bb4c4c15cc3.png
+    type: gallery
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: bf05b198-5524-4ffc-a2c5-7d66996e1f8f
+slug: thermax-tpi-natural
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ThermaX TPI Natural
+abbreviation: null
+url: null
+primary_color: 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ThermaX TPI is made using Sabic's ExtemTM Thermoplastic Polyimide (TPI) resin. This resin has been formulated specifically for FFF/FDM additive manufacturing. ThermaX TPI boasts exceptional thermal properties with a glass transition temperature (Tg) of 247C and an HDT of 230C. This material has exceptional mechanical, thermal, and chemical resistance properties and is suitable for the most demanding applications in the aerospace, automotive, electronics, and industrial markets.
+
+  What is TPI? One way to think about our ThermaX TPI [Thermoplastic Polyimide] is to consider it a higher-heat version of the venerable Ultem 1010 PEI (Polyether Imide). Both TPI and PEI are amorphous thermoplastic polyimides and offer excellent high-heat resistance, strength, and chemical resistance. Where ThermaXTM TPI shines is that it offers superior mechanical properties in applications that are exposed to temperatures above 170C and up to 230C (up to 50% higher strength than Ultem 1010 at these elevated temperatures). ThermaX TPI must be considered a top contender when you need the best performance in the most challenging applications. Our Gearbox HT2 printer [HERE] is the ideal platform for printing ThermaX TPI and other ultra-polymers.
+
+  Benefits of ThermaX TPI
+
+      Exceptional thermal properties: Tg = 247C, HDT 237C
+      Up to 50% stronger than Ultem 1010 at temps above 170degreesC [170-230C]
+      Superior chemical resistance [auto & aircraft fluids, aliphatic hydrocarbons, alcohols, acids, chlorinated solvents]
+      Inherently flame retardant without the use of halogenated additives
+      Amorphous polymer with excellent dimensional stability over a wide range of temperatures
+      Lower cost than other ultra-polymers such as PEEK and PEKK 
+
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/0bb4c4c15cc3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:05.530Z'
+updated_at: '2025-03-25T22:36:05.530Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: ebacb5bb-e477-438e-85b2-857729ff0a70
+colors:
+  - 4710
+packages:
+  - 6761e08a-f8c9-4e64-b511-2a2dc6cf821f
+secondary_material_types: []
+opentag_uuid: 4c155035-c9a9-5ccb-bedf-3c8b40a1c8d1

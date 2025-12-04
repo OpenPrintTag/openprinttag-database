@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/21feaa10bd2f.png
+    type: gallery
+uuid: 2b108352-b676-496d-bafe-2fe04df11a9e
+slug: petg-melon-yellow
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG "Melon Yellow"
+abbreviation: null
+url: null
+primary_color: 2d209ab2-db62-40bc-8b0b-3c39e3f75e1c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG filament is perfect for practical 3D prints, combining strength, flexibility, and easy processing.
+
+   High strength & good hardness
+   Temperature resistance up to 70 degreesC
+   Chemical resistance against water, acids, alkalis, and alcohols
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/21feaa10bd2f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:56.840Z'
+updated_at: '2025-03-25T22:32:56.840Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2035
+packages:
+  - 2258797d-4e28-4fb9-9ceb-fefa6ef8060c
+  - c5dba738-b886-405a-9807-6851e7ba0fd6
+secondary_material_types: []
+opentag_uuid: 6e8c665f-fb56-598a-8a48-61fcd219a391

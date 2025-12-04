@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b74e4eab7359.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 70ee331c-5c61-4cb9-ae79-bdc239b2b8cc
+slug: e-pla-light-grey
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: E-PLA Light Grey
+abbreviation: null
+url: null
+primary_color: 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      Easy to print PLA
+      Wide selection of colors
+      Glitter and fluorescent effects
+
+  E-PLA is made of biodegradable bioplastics, PLA. It's a filament that we highly recommend for beginners, because of its ease-of-use and trouble-free printing experience. E-PLA is also a very popular material for prototyping and covers a wide range of needs for the hobbyist. 
+
+  You can print functional parts for indoor use with E-PLA, but be aware of its low wear resistance and don't exceed a working temperature of 60degreesC. 
+
+  The colors are rich, and our glitz-series gives a gorgeous glitter effect to the printed surface. Lucent pink and orange become fluorescent under a black light and we also offer a green glow in the dark color (which you need a abrasion-resistant nozzle to print with, such as Brozzl Hardened steel nozzle). 
+
+  For additional printing advice, check out our cheat sheets for recommended slicer settings in Cura, Simplify 3D and PrusaSlicer.
+
+  Our E-PLA, together with all our other filaments, are made in Sweden and have a diameter tolerance of 0.025mm.
+
+  E-PLA is available in 1.75mm and 2.85mm diameter with large spool sizes up to 2300g. (Colors found on 2,300g spools are: white, light grey and black)
+thumbnail_url: https://file.myfilamentlist.com/f/new/b74e4eab7359.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T17:56:31.369Z'
+updated_at: '2025-04-01T17:56:31.369Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4921
+packages:
+  - 9ba1efe5-156f-4745-a0c0-10501b6d9e39
+  - d50c8944-0a8d-4451-83f8-f428d221f08b
+  - f656e804-b9d8-491d-98ee-ffc5c0963d64
+  - fc80d83c-8dc7-47d7-8d69-989a1eb28277
+secondary_material_types: []
+opentag_uuid: d2469499-b6e9-5b29-a90f-c65779af94d8

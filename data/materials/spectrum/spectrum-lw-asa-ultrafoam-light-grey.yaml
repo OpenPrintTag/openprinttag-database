@@ -1,0 +1,75 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.08000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2f5b592c-d964-4259-96f9-175c0567c040
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+uuid: 8a16f04c-8c19-45bb-8cdb-d1cc7c1c6335
+slug: lw-asa-ultrafoam-light-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: LW-ASA UltraFoam Light Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/lw-asa-ultrafoam/
+primary_color: 4c306dec-8e13-45ce-a3a1-6ec1a0503560
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Spectrum LW-ASA UltraFoam is a professional technical filament that combines the excellent UV and weather resistance of ASA with advanced active foaming technology. Thanks to the unique properties of the material, it enables up to 3x weight reduction of printed parts without compromising strength or surface quality. LW-ASA UltraFoam is an ideal solution for users seeking lightweight, durable, and visually appealing prints for outdoor and technical applications where weight and efficiency matter.
+
+  The filament is based on the proven Spectrum ASA 275 formula, enriched with additives that enable controlled expansion during printing. The foaming process activates at around 230°C, with the maximum effect achieved in the range of 270°C–285°C. When printed below 230°C, the material behaves like standard ASA 275, giving users great flexibility in tuning print settings.
+
+  In its fully foamed state, the filament expands up to three times its original volume, achieving an extremely low density of approximately 0.33 g/cm³. LW-ASA UltraFoam gives the user exceptional control over material flow, allowing it to be reduced by up to 66%. The degree and speed of foaming can be precisely adjusted by changing the printing temperature, which makes it possible to customize the density of specific parts as needed. The foaming effect also supports faster 3D printing, by enabling thicker layer heights or solid single-wall outlines.
+
+  Using Spectrum LW-ASA UltraFoam, it’s possible to achieve significant weight reductions of printed parts – up to 34% compared to traditional ASA, and even up to 3x in extreme cases.
+
+  The matte and rough surface finish effectively hides layer lines, giving the final part a professional look. The foaming degree also influences the shade of the material – as expansion increases, the filament color may become visibly lighter. Additionally, the filament retains all key ASA features – high UV resistance, dimensional stability, and mechanical durability. It’s a perfect choice for projects where every gram counts, such as RC modeling, drone structures, or lightweight functional components.
+
+  Tips:
+
+      Foaming level may vary depending on printer model (e.g., Bambulab P1S/X1C achieved 0.33 flow, Prusa i3 MK3S – 0.42)
+      Higher foaming level can be achieved in enclosed-chamber printers
+      Moisture negatively impacts foaming – drying the filament before use is recommended
+      Increasing retraction helps reduce artifacts and stringing; remaining imperfections can be easily removed manually
+      If the model sticks too much to the bed – lower bed temperature, clean the surface, or use an adhesive aid
+      If the model comes out too brittle, the flow is too low – increase value of the flow
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: c036623b-115b-4352-98d1-db6354a31ca1
+created_at: '2025-10-15T14:26:22.335Z'
+updated_at: '2025-10-15T14:26:22.335Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: f272a8db-307c-5714-a5cd-daa8c3af131f

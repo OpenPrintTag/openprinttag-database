@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8db5da6f-9648-477f-8b00-68dffe64803c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: dbd2f957-d898-410f-96bb-39496b5d29b0
+slug: abs-jet-black
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Jet Black
+abbreviation: null
+url: https://winkle.shop/producto/filamento-abs-winkle-175-mm-1-kg-negro-azabache/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Strength, precision, and high-level finishes.
+  Take your 3D prints to the next level with the 1.75 mm ABS Filament—ideal for those looking to buy high-quality ABS filament with industrial-grade reliability and performance. Its specialized formulation by Winkle offers excellent layer adhesion, a low shrinkage rate, and significantly reduced warping, making it perfect for parts where mechanical or thermal resistance is essential.
+
+  Available in a versatile range of colors—jet black, glacier white, and natural—this Winkle ABS Filament provides smooth, uniform surfaces with a professional finish. Its dimensional accuracy ensures consistent extrusion and clog-free printing, compatible with most FDM printers.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 3ab2c359-f9c4-4da5-a076-79ee01f7f0ba
+created_at: '2025-11-21T10:51:47.197Z'
+updated_at: '2025-11-21T10:51:47.197Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 5b12469c-3e9f-470e-a83c-2a5827fc033f
+  - 7fc52dab-bc8d-47b6-8ddc-0653fef144d2
+  - ac465178-ae79-4d0c-abfc-67395b5b69aa
+secondary_material_types: []
+opentag_uuid: dce9503a-4729-542e-9103-d8f5cf06e01b

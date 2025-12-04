@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 640f9a62-53a2-4e7a-ad18-04f558657b6b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 6915d802-ac7d-4156-8cae-2e4a4a04ce98
+slug: petg-natural-6
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Natural
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/petg-filament?variant=42395666252035
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints PETG Filament represents a sophisticated 3D printing filament that bridges the performance gap between PLA and ABS, offering an exceptional solution for professional and technical applications. This material delivers a unique combination of mechanical properties, printing ease, and material stability.
+thumbnail_url: https://file.myfilamentlist.com/new/6915d802-ac7d-4156-8cae-2e4a4a04ce98.png
+deleted_at: null
+deleted_by: d4983a41-f129-4662-b362-01ab40d4be98
+created_at: '2025-11-11T11:12:27.502Z'
+updated_at: '2025-11-11T11:12:27.502Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 0781e1d7-5b99-498e-bddb-5d71328dfa35
+  - 11cb74c6-428e-4fd6-90af-d24dbec32ed2
+  - 24d23ada-04a7-40dc-ba34-b5841dc9c2cc
+  - 51b8e178-14f7-4e46-8fd9-ec804ec7eb17
+  - 7ab1f1e5-7f81-4acb-a0aa-bb9779460d43
+  - cacd6106-6ce2-405b-9ecf-7b2434cb9592
+  - decbfdd6-7545-4cb3-96f1-44e01f1fdcb5
+secondary_material_types: []
+opentag_uuid: 824cc398-7119-532d-9dd8-702ce39e46c2

@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 750908cf-057a-4efe-b1d0-b0dd0446dad2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 74a44874-8e42-4a08-aa9c-4f573fb5aa22
+slug: asa-x-gf10-black
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA-X GF10 Black
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/asa-x-gf10/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Spectrum ASA-X GF10 filament is an advanced composite material. Based on a glass fiber reinforced ASA polymer provides excellent mechanical strength and hardness, making printed parts resistant to loads and prolonged exposure to UV radiation and moisture.
+
+  Similar to our other product – ASA-X CF10, the glass fiber-enriched version (GF10) also exhibits exceptional resistance to environmental factors, making it an excellent choice for outdoor applications. Thanks to the glass fiber content, the material maintains thermal stability up to 100°C. The matte surface finish effectively reduces layer visibility and gives prints an aesthetic appearance.
+
+  Spectrum ASA-X GF10 is characterized by low shrinkage and remarkable ease of printing. Whether you are working on components for industrial use, structural elements exposed to outdoor conditions, or other applications requiring exceptional resilience, Spectrum ASA-X GF10 filament will meet your expectations.
+thumbnail_url: null
+deleted_at: null
+deleted_by: c0e6d722-4412-4336-88c6-23784944071b
+created_at: '2025-10-15T14:20:03.319Z'
+updated_at: '2025-10-15T14:20:03.319Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: c3cb3324-3b92-57d7-ae01-fe95347bad74

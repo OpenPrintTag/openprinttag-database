@@ -1,0 +1,61 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 05297de5-97ad-490b-b36f-8381e2a7658f
+slug: pla-green
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Green
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-pla-filament-175mm-1kg-green-55324
+primary_color: ea2725d1-1d39-48aa-b9bc-31f3258f651a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PLA is an easy-to-print filament made of renewable plant-based resources. Verbatim PLA is made to a special recipe with high quality controls as standard. It is odourless with good post-printing workability, making it a wonderful all-purpose material for a wide range of applications including concept modelling and education.
+
+  Product Details
+
+      - High performance Polylactic Acid (PLA) for material extrusion
+      - Biopolymer derived from plants
+      - Good post-printing workability
+      - Odourless
+      - Main applications: Concept modelling for food packaging, transport containers, medical/hygienic products, housings.  Education. 
+thumbnail_url: null
+deleted_at: null
+deleted_by: e972cc93-0b03-4838-ae9d-c41fb1eb3f62
+created_at: '2025-09-25T07:58:44.048Z'
+updated_at: '2025-09-25T07:58:44.048Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 8994
+packages:
+  - 084b6eab-23ae-4b70-bc53-f05b88450f13
+  - 251e7b0a-f5eb-40b2-b8d1-b1e46fe40861
+secondary_material_types: []
+opentag_uuid: 60d85f34-6e26-5b99-b5c6-ad3dc30874b6

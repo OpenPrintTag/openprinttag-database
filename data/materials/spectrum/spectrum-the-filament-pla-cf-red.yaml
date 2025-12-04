@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 57d4c681-98dc-40ba-a49f-4929e0f81872
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 96a4a7b8-9b42-4306-9b29-c1120784b255
+slug: the-filament-pla-cf-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PLA CF Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-pla-cf/
+primary_color: 1177754e-4fcb-4963-a45a-ea2677a1df7e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Discover a new level of quality in 3D printing with THE FILAMENT PLA CF, a filament designed for those who value both aesthetics and functionality. This exceptional material, enriched with 3% high-quality carbon fibers, not only provides a perfect carbon fiber-like appearance but also offers enhanced mechanical strength. THE FILAMENT PLA CF guarantees a matte finish with a carbon fiber texture and nearly invisible layer lines, giving printed parts a unique and premium look. PLA CF is just as easy to print and beginner friendly as traditional PLA and is additionally compatible with the Bambu Lab AMS system.
+
+  THE FILAMENT PLA CF is designed for users seeking efficiency and reliability in everyday 3D printing. Thanks to the carbon fiber content, this filament features increased stiffness and better resistance to deformation, making it ideal for projects that require durability and precision.
+
+  Try out THE FILAMENT PLA CF – a practical and stylish solution for your most demanding projects.
+thumbnail_url: null
+deleted_at: null
+deleted_by: c4c07848-8aea-456a-99ca-dca358e04fda
+created_at: '2025-10-08T15:09:08.203Z'
+updated_at: '2025-10-08T15:09:08.203Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9624
+packages:
+  - 41e6e9ea-1e96-4edf-81e8-b28bee29acfa
+  - c71002b1-2875-4fa8-8aa2-de26037365d1
+secondary_material_types: []
+opentag_uuid: a0073d83-1f02-53ed-8d2e-5956db552fa2

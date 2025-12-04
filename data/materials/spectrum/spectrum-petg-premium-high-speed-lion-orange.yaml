@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 321ac304-776e-4b2c-b05c-7171164216f3
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 8fdd5ec6-dd71-4317-a581-7a6dedee234a
+slug: petg-premium-high-speed-lion-orange
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Premium High Speed Lion Orange
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-premium-high-speed/
+primary_color: 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Speed, strength and precision
+
+  The Spectrum PETG Premium High Speed filament is designed for fast 3D printing, combining the excellent mechanical properties of PETG with the capability to print at speeds of up to 800 mm/s. The material has been optimized specifically for high speed 3D printing technology, ensuring the perfect balance between speed and detail quality.
+
+  Spectrum PETG Premium High Speed offers resistance to mechanical and chemical factors, making it suitable for 3D printing functional parts that need to withstand heavy loads or challenging operating conditions. This filament allows for 3D printing of larger models without concerns about deformation making it an excellent choice for both aesthetic and functional applications.
+
+  Thanks to its balanced composition, Spectrum PETG Premium High Speed is ideal for both rapid prototyping and the production of final components. The filament is easy to use and compatible with most 3D printers on the market, and its wide range of colors, including transparent shades, gives users full creative freedom. Additionally, the material is fully recyclable.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 66822ee4-99ba-4651-9ff6-2897ffc61ff0
+created_at: '2025-10-15T09:31:40.091Z'
+updated_at: '2025-10-15T09:31:40.091Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 5448038e-0aa3-5ce5-a638-884a9b36d03c

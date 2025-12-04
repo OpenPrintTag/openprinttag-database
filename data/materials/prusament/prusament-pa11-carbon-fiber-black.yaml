@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5dacad8c-4cc6-493d-a7ad-1b8f4c07688c
+  hardness_shore_a: null
+  hardness_shore_d: 77
+  fff_material_properties: a469e014-69aa-4827-8225-9c78684afae5
+  sla_material_properties: null
+  min_print_temperature: 275
+  max_print_temperature: 295
+  preheat_temperature: 170
+  min_bed_temperature: 95
+  max_bed_temperature: 115
+  chamber_temperature: 75
+  heatbreak_temperature: null
+  min_chamber_temperature: 50
+  max_chamber_temperature: 90
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9d9f4d7d1f09.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 0f56a858-ddf4-42df-8ae6-a5b9017cf954
+slug: pa11-carbon-fiber-black
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA11 Carbon Fiber Black
+abbreviation: null
+url: null
+primary_color: 642e6ac3-476a-4560-b307-4f0b1979c93f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Prusament PA11 Carbon Fiber Black is our own in-house made Polyamide filament filled with carbon fibers. The whole manufacturing process is closely monitored and tested - we guarantee ±0.04mm precision and highly-consistent colors.
+
+  You can inspect the parameters of every spool we made at prusament.com.
+thumbnail_url: https://file.myfilamentlist.com/f/new/9d9f4d7d1f09.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:30.493Z'
+updated_at: '2025-03-25T22:32:30.493Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: a344ccbd-583d-46ca-b9eb-14aeb9612723
+colors:
+  - 9302
+packages:
+  - 3a593ab8-c2a5-4238-a06b-bd8b9cf03853
+  - 51f56746-437d-45ef-b3c3-7e97304d6336
+  - 578ce41f-cd22-43d1-b3e8-20cee174289e
+secondary_material_types: []
+opentag_uuid: 6a9237b9-321f-5701-a757-ddec980290db

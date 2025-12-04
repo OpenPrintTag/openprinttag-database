@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.19000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f19dbf4d-d20d-4544-9009-e86e5e0f7691
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/3d98e140-4d25-4b87-b229-10824233ca19/528f4e2727de.png
+    type: gallery
+uuid: 3d98e140-4d25-4b87-b229-10824233ca19
+slug: tpu-flexible-white
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flexible White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Flexible TPU Filament for Durable and Elastic 3D Prints
+
+  Experience the versatility of flexible 3D printing with our TPU Flexible filament.
+thumbnail_url: https://file.myfilamentlist.com/f/3d98e140-4d25-4b87-b229-10824233ca19/528f4e2727de.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:21.974Z'
+updated_at: '2025-04-06T01:13:41.932Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6811
+packages:
+  - 750fff4d-f275-4c94-a985-94fd850efb89
+secondary_material_types: []
+opentag_uuid: 4065f529-df25-5a81-9f27-b2608329161e

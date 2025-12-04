@@ -1,0 +1,65 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 525495d4-b50f-4af0-9378-ac6c008d29f2
+slug: pla-natur
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Natur
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Riecht gut, kein unangenehmer Kunststoffgeruch wie bei ABS
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm, 2,85mm und 3,00mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Reines PLA ohne Farbpigmente, Transparent mit leichtem Gelbton
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0d92195b-cf10-448c-b051-0f8e23bc689b
+created_at: '2025-10-17T13:59:23.011Z'
+updated_at: '2025-10-17T13:59:23.011Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 04020143-057b-4593-88c7-fb335e216f13
+  - 9cdd34cf-2779-4dd3-aeb5-821f44dcb30c
+  - 9ec0f2b1-7767-43b2-991a-25499a51604f
+  - f83da6d6-4ffb-4f0e-9f7a-0f55853c9abf
+secondary_material_types: []
+opentag_uuid: 7e4c6e65-44ed-5b96-b89c-bad5b3dcefdd

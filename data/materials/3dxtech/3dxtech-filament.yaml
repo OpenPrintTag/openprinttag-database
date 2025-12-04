@@ -1,0 +1,52 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/temp-1743978458454/6a791a9b0cd7.png
+    type: gallery
+uuid: a2bea1b3-abc9-459d-b9fe-7eb9044116cd
+slug: filament
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Filament
+abbreviation: null
+url: null
+primary_color: fd778592-b719-4149-bf27-a361d5a7b817
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: null
+thumbnail_url: https://file.myfilamentlist.com/f/temp-1743978458454/6a791a9b0cd7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-06T22:27:38.832Z'
+updated_at: '2025-04-06T23:07:44.937Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6836
+packages:
+  - 0ece0802-4f14-459c-b444-3c3f31973c06
+secondary_material_types: []
+opentag_uuid: eac1b062-868c-5262-a8cd-d0cb1ea7ea8f

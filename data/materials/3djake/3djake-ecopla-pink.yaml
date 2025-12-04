@@ -1,0 +1,71 @@
+uuid: 18b663ad-271a-45a1-9d94-6370c5ba40b9
+slug: ecopla-pink
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Pink
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-pink
+primary_color: 873ae474-e490-4f45-8ba0-aa515fec8661
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing applications.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  The properties of the ecoPLA from 3DJake:
+
+      Minimal shrinkage
+      Minimal warping
+      Good diameter and roundness tolerances
+      No unpleasant odors
+      Easy to print
+      Tougher & less brittle than conventional PLA filament
+
+  3DJake ecoPLA filament can be used with almost any FDM 3D printer.
+
+  All ecoPLA colours are based on the standardized RAL colour system.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 457d2b92-aff6-4f02-887a-ccf638def623
+created_at: '2025-11-07T10:19:13.361Z'
+updated_at: '2025-11-07T10:19:13.361Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 11a3ea79-a7db-4340-826c-d57dccbbca3a
+  - 4f8fb65c-ec2c-4435-9384-014344e97f54
+secondary_material_types: []
+opentag_uuid: ac6f5aae-3ede-52a3-952c-aebef0008068

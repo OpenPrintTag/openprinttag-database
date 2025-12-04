@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d937d1e981f3.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: f9d7b4c1-0433-472a-bb9d-f1af14c13c22
+slug: abs-black-26
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: ABS has a reputation as an industrial standard for consumer plastic parts due to its high impact resistance, strength, and slight flexibility. IC3D engineers prefer it for the ease of support removal. We use it for a wide variety of print jobs from end-use automotive parts to net shape or near-net shape industrial parts.
+thumbnail_url: https://file.myfilamentlist.com/f/new/d937d1e981f3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T08:48:00.676Z'
+updated_at: '2025-05-01T08:48:00.676Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7414
+packages:
+  - 113902cf-6f8e-4632-9d5f-7b02e958eb65
+  - 1313af18-6b2b-4a2a-a8e0-1080dbe69a08
+  - 59f2558a-8457-4e81-b011-abe14a3a0181
+  - 80494348-d1f5-4d64-b6d0-e96a8d74b00d
+  - 8a3dd129-7ac7-410a-bf09-93b9eb4d806b
+  - ca310c74-8afd-4131-9933-164d4305a43f
+secondary_material_types: []
+opentag_uuid: cbeff749-277b-5c17-a71e-69c67f01b34a

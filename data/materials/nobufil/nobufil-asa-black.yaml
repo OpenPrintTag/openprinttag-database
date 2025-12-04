@@ -1,0 +1,83 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2c834a496c01.png
+    type: gallery
+uuid: c9916aa6-4799-4be5-9b4e-a81913731d99
+slug: asa-black-14
+brand_slug: nobufil
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nobufil ASA filament is made from recycled industrial plastics. These are production wastes that arise during industrial processing. However, compared to ABS filament, ASA 3D material offers some clear advantages, such as higher UV resistance and better resistance to chemicals and high temperatures.
+
+   
+
+  The physical properties of Nobufil ASA filament include high tensile strength and rigidity.
+
+  Due to its durability and good weather resistance, Nobufil ASA 3D printing filament is ideal for outdoor signs, automotive components, functional applications and much more.
+
+   
+
+  - Temperature resistance up to approx. 90degreesC
+
+  - Good UV resistance
+
+  - Chemical resistance
+
+  - Low odor development
+
+  - High level of detail even with complex geometries
+
+   
+
+  Print Settings
+
+  - Print temperature: 260degreesC  10
+
+  - Bed temp: 110degreesC  10
+
+  - Printing surface: textured PEI sheet
+
+  - Fan speed: max 15%
+thumbnail_url: https://file.myfilamentlist.com/f/new/2c834a496c01.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-26T23:08:08.994Z'
+updated_at: '2025-03-26T23:08:08.994Z'
+brand: 2628eb85-2bed-43a5-91a3-1d2bd796950a
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3812
+packages:
+  - 86e6c21f-aa4a-4303-8aa3-789cf57301cf
+secondary_material_types: []
+opentag_uuid: 1aea54a7-c43f-5aea-a9ed-a911578f416b

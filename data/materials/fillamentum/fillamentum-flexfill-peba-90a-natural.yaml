@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e04b9b62-85b7-4b7d-8fe2-1e5367a71159
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e1b20d46318f.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 38bdf1f4-4eae-448b-a2b9-8a81f32196a1
+slug: flexfill-peba-90a-natural
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill PEBA 90A "Natural"
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  This type of Flexfill is based on polyether-block-amide (PEBA), which was specially developed for processing by 3D printing. Although it is flexible with hardness 90 Shore A, it exhibits different thermal, mechanical, and chemical behavior from other Flexfill filaments (TPU, TPE)!
+
+   Excellent energy return
+   Flexibility at low temperatures -60degreesC/ -76 degreesF
+   20% lighter than competitive polymers
+   Perfect for functional prototyping and parts
+thumbnail_url: https://file.myfilamentlist.com/f/new/e1b20d46318f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:41.890Z'
+updated_at: '2025-03-25T22:31:41.890Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 9f6608c2-4594-42be-915e-c59e2c4e3465
+colors:
+  - 755
+packages:
+  - 0f97f5cb-1b6e-4f5a-baf7-44bf8d25cdd5
+secondary_material_types: []
+opentag_uuid: 6ddc747a-00d3-5604-a330-4b04e52f5094

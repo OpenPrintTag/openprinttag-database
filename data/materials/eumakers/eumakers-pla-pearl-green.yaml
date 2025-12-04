@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f28353e1-1d43-472b-af5c-f79e54e03503
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: efd4703f-d8a7-4408-9904-171704e19937
+slug: pla-pearl-green-3
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pearl Green
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-pearl-green.html
+primary_color: e9df98dd-0c4b-43c2-9661-2024d750ab33
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Pearl Green.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/efd4703f-d8a7-4408-9904-171704e19937.png
+deleted_at: null
+deleted_by: c6bfeed5-e874-494d-8b81-96b9de57bc71
+created_at: '2025-11-12T09:55:33.126Z'
+updated_at: '2025-11-12T09:55:33.126Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - b843667d-d4b5-4889-a61a-ace2b7bfd4cd
+secondary_material_types: []
+opentag_uuid: b90d72bf-6e26-5d96-8637-6da5d16a5c9b

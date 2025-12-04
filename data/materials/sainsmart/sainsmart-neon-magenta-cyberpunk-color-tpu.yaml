@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9f0b0145-363b-40a3-b30b-8ae1dae35ee7
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: ffd96748-e8c3-4e74-9539-37d0834d6d92
+slug: neon-magenta-cyberpunk-color-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Neon Magenta, Cyberpunk Color TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/neon-purple-cyberpunk-color-tpu-1-75mm-0-8kg-1-76lb?_pos=12&_fid=0b0f09340&_ss=c
+primary_color: b1628b95-b8f5-4d68-af73-86f6eb02d97a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+
+
+      Electrifying and intense, solid neon colors inject excitement and inspiration into designs. Enliven your work with these neon color filaments.
+      Filament Diameter: 1.75 mm; Shore Hardness: 95A; Dimensional Accuracy +/- 0.05 mm; 0.8 kg (approximately 1.76 lbs) per spool; Vacuumed sealed with desiccant; Recommended extruder temperature: 195 - 230°C; Recommended platform temperature: 40 - 60°C
+      SainSmart TPU filament is renowned for its high quality and ease of use, offering you flexible and strong parts with consistency and smooth finish.
+      Compatibility: It is compatible with most FDM printers on the market that use 1.75 mm filament, including Creality, Prusa i3, Monoprice MakerSelect & Qidi, and other RepRap printers.
+      TPU filament is very versatile and it is therefore widely used in 3D printing. With it, you can make your own FPV drone parts, Playstation cover/skin, phone cases, phone stands, toys and so on.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7e85650f-665c-4ab3-9215-5d9af72b72f1
+created_at: '2025-09-26T14:40:34.830Z'
+updated_at: '2025-09-26T14:40:34.830Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9182
+packages:
+  - 3a621609-65f1-4388-9854-75bd035d0e47
+secondary_material_types: []
+opentag_uuid: d68182d5-8e51-580a-9e73-7c19b645ae77

@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8d7c15830eda.png
+    type: gallery
+uuid: 93ff6e86-c62e-4594-9759-9be89b6b9d61
+slug: polylite-asa-red
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ ASA Red '
+abbreviation: null
+url: null
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  PolyLite™ ASA is an alternative to ABS with an improved weather resistance. Its UV resistance and excellent mechanical properties make it the perfect choice for real life applications.
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+  If using a stock, older style printer - we would recommend printing slower.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/8d7c15830eda.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:35.403Z'
+updated_at: '2025-03-25T22:34:35.403Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3187
+packages:
+  - 0fb3d2fa-4c20-4ac1-8f74-8ad1630564a0
+  - 327b12ab-b20c-42b9-9504-deb641c52f30
+  - 38421ddb-fb9a-4654-9ef1-25dc1cc29170
+  - 5d3bfb53-a3df-48f9-ad42-ee956a85a645
+  - aac58084-3cb5-41a2-bcb6-bd43c4c3efcc
+  - f6921d80-40b3-4c0d-9caf-7b953916b5bb
+secondary_material_types: []
+opentag_uuid: dc4fee92-1898-57c6-87ea-e0b9f1508010

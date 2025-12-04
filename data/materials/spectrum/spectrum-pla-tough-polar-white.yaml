@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.20000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4ab0d3c4-6cd9-41a1-a608-89c9a5c7502c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 61441404-992b-413d-a008-07b49debce43
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ce263017-6306-4ff7-a1ac-8b1a1a948f9c
+slug: pla-tough-polar-white
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Tough Polar White
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-tough/
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Tough like ABS, easy to print like PLA
+
+  Spectrum PLA Tough is a specially modified consumable material for 3D printing. Aimed at improving the properties of the material at the monomer level, the treatment has brought about an enormous range of applications. It is a perfect solution for printing functional components with mechanical properties close to those of ABS, while retaining the simple printing and low shrinkage of PLA.
+
+  The use of unique additives which modify the polymer structure made it possible to:
+
+      - reduce shrinkage noticeably as compared to PLA-based classic materials. It will also allow you to print large-size items,
+      - improve the adhesion of printed items to build platforms,
+      - obtain a higher impact resistance of printed items as compared to their equivalents manufactured of ABS,
+      - retain the high rigidity typical for items manufactured of PLA without admixtures,
+      - eliminate the brittleness typical for printed items of PLA without admixtures. It also provides for improved adhesion between the material layers applied,
+      - obtain more matte surfaces as compared to the unmodified PLA,
+      - perform mechanical treatments of printed items which is difficult or impossible for standard PLA. Thus, you may grind, mill, drill, turn printed items,
+      - eliminate toxic or noxious vapours typical for ABS printing, and exhibit the combined advantages of PLA and ABS, while maintaining full biodegradability.
+
+  Due to its characteristics, the filament Spectrum PLA Tough may be used in applications which require a high impact resistance and very low processing shrinkage of items and a high dimensional accuracy.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 353e2d28-644f-4d2c-be64-b14bc3b063de
+created_at: '2025-09-30T21:19:38.597Z'
+updated_at: '2025-09-30T21:19:38.597Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9448
+packages:
+  - 81b05d07-f146-4a88-ba24-669a3fb05278
+  - 8f1305e4-f055-41d8-b22b-56c9c6a01fe0
+secondary_material_types: []
+opentag_uuid: 92bc463d-136d-59ae-959e-f298d9cb6d94

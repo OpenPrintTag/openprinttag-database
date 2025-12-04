@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bf877e67-fd6b-41c6-ad7d-29dc0448cc08
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 7a677d77-da11-4e01-84a9-3be36d33c414
+uuid: a438b968-c69f-4140-9b5d-fddd659738b0
+slug: loctite-3d-ind402
+brand_slug: henkel
+brand_specific_id: null
+class: SLA
+type_id: null
+name: LOCTITE 3D IND402
+abbreviation: null
+url: https://www.loctiteam.com/ind402-high-rebound/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0d8a6e6c-69e6-4868-8260-43caaf3677c8
+created_at: '2025-07-02T06:30:42.172Z'
+updated_at: '2025-07-02T06:30:42.172Z'
+brand: 5927d694-01b2-4262-b272-970764723090
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9498
+packages:
+  - 0abd4440-3010-4166-ae8d-6bf5ffcefdc3
+  - cd28783e-bf8f-48d1-9eec-887475df0288
+secondary_material_types: []
+opentag_uuid: d4708594-3896-55d9-9d38-76507d015d09

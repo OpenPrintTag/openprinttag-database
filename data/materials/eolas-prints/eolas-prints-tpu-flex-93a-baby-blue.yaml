@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f0a2cec4-e27b-4fe3-8dcc-6bdd55af793c
+  hardness_shore_a: 93
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 647aac58-d0a3-4d47-a864-1c19a9a66fe0
+slug: tpu-flex-93a-baby-blue
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flex 93A Baby Blue
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/tpu-filament?variant=42329779011843
+primary_color: 3ec9e18d-14d0-4533-9d52-1f42d91a4bd3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  TPU Flex 93A combines exceptional flexibility with professional-grade durability in a food-safe formulation. This premium thermoplastic polyurethane filament delivers the perfect balance of elasticity and strength, with a carefully calibrated 93A Shore hardness that ensures optimal performance across diverse applications.
+  Technical Specifications
+
+      Material Composition: Medical-grade thermoplastic polyurethane
+      Shore Hardness: 93A (medium-soft flexibility)
+      Available Diameters: 1.75mm and 2.85mm
+      Certifications: Food contact safe
+      Environmental Profile: Recyclable
+thumbnail_url: https://file.myfilamentlist.com/new/647aac58-d0a3-4d47-a864-1c19a9a66fe0.png
+deleted_at: null
+deleted_by: e2ae4320-7eec-40e9-ae24-3882dc1ee035
+created_at: '2025-11-11T10:41:44.183Z'
+updated_at: '2025-11-11T10:41:44.183Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 08d39482-1b14-4726-b82f-1f2b7411923c
+  - f1a97e9e-e910-42cf-9ef8-850295f511d2
+secondary_material_types: []
+opentag_uuid: afc37565-24cb-595a-ba64-d9465766733a

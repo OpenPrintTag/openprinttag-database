@@ -1,0 +1,64 @@
+uuid: 349e45ea-de33-4965-8245-e000318ceab9
+slug: iglide-i180-pf-white
+brand_slug: igus
+brand_specific_id: null
+class: FFF
+type_id: null
+name: iglide® i180-PF White
+abbreviation: iglide® i180-PF
+url: https://www.igus.com/product/iglidur_I180_PF?artnr=I180-PF-0300-0700
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Self-lubricating iglide i180 filament
+   
+  Components made of the 3D printing material iglide i180-PF are universally applicable for all types of wear-resistant parts, such as plain bearings, gears and drive nuts, since this material has also been specifically developed for moving applications. The higher wear resistance as well as a higher temperature resistance (100°C long-term) enlarge the field of application, especially for more dynamic applications with higher surface speeds. The filament can be easily processed on enclosed 3D printers and is slightly more demanding than an ABS filament. With the igus Bonding agent for tribofilaments, accessory materials are available to facilitate processing.
+   
+  When to use it?
+
+      When an increased permanent  application temperature of up to 212°F (100°C) is required.
+      For highly dynamic plain bearing applications
+
+  When not to use it?
+
+      If the application temperature is higher than 212°F (100°C)  in the long-term, or even higher wear resistance is required (→ iglide J260-PF)
+      If I need a filament that is very easy to process or if I only have an open 3D printer (→ iglide i150-PF)
+thumbnail_url: https://file.myfilamentlist.com/new/349e45ea-de33-4965-8245-e000318ceab9.png
+deleted_at: null
+deleted_by: fecac002-90cf-41e0-9dba-6bb8bcecb29a
+created_at: '2025-11-13T16:46:45.170Z'
+updated_at: '2025-11-13T16:46:45.170Z'
+brand: 2edf9afe-5dfa-4e19-87af-8bec2ec283de
+type: null
+colors: []
+packages:
+  - 30701c04-942b-4172-8244-aa17862a6220
+  - 3d875037-5b43-409b-8dfe-927ded05282b
+  - e61dd81c-6d50-4d4f-89bd-5ed16fa0b2f8
+secondary_material_types: []
+opentag_uuid: 08402dbc-9005-51e1-9d38-95d42e170aab

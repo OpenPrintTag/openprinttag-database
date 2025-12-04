@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c8a28b6f60f9.png
+    type: gallery
+uuid: 7e49a894-7cf6-4aad-be44-ceecf72c80ec
+slug: petg-pwalt-yellow
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG PWalt Yellow
+abbreviation: null
+url: null
+primary_color: 72a455ea-cd87-4a2d-b0a1-22d3b9c0e4e5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/c8a28b6f60f9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:24:15.758Z'
+updated_at: '2025-04-30T12:24:15.758Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7369
+packages:
+  - 22e7067f-78e6-4e76-9ae0-f7302721db7e
+  - 2f9d3e7c-2474-499b-b6cb-73671b4ea571
+  - 3da71fec-7f6e-4e2c-912f-b8d71546dbe8
+  - 4fd08a30-4963-4e35-baad-a0881ac25411
+  - 54474e3b-8c2f-40b2-8964-50249262b51b
+  - 57a9bc4d-279d-48ad-93bf-91cb34d9a22e
+  - 6e6e117d-4688-401a-9031-54a051cab624
+  - 81ad8ed4-8302-428a-b1fc-573a64058837
+  - ca87ceeb-1794-4931-9f7d-dd738ee57698
+  - f06e810b-99dd-438b-b9c4-4da22cf7d401
+secondary_material_types: []
+opentag_uuid: 477c1b57-8e18-5235-9405-a09746a53335

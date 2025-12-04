@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6c20ffdaabcb.png
+    type: gallery
+uuid: b49f2b40-c5b9-470a-abab-e9ee9ae8b1a1
+slug: petg-bronze-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG bronze | RAL 8000
+abbreviation: null
+url: null
+primary_color: 1ada7140-fe54-4934-b107-7efd3ff5dc35
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyethylene terephthalate glycol (PETG) is one of the world's best-known thermoplastic polymers. Extrudr PETG has been developed for a wide range of applications where the main requirement is a good balance between mechanical and optical material properties. The low-shrinking technology ensures that the material can be processed in an energy-saving manner at low temperatures and thus with relatively little distortion. The raw material is certified according to FDA, REACH and RoHS standards.
+
+      Good mechanical properties
+      High chemical resistance
+      Low warping
+      Low shrinking
+      Recyclable
+      Low-shrinking technology
+thumbnail_url: https://file.myfilamentlist.com/f/new/6c20ffdaabcb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T13:37:20.583Z'
+updated_at: '2025-03-27T13:37:20.583Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 5320
+packages:
+  - 2be26d3f-4a4a-41ab-9d40-06a8e017f22a
+  - 2ca49dc3-8d37-4ab0-948b-18c45cab53da
+  - 56ab6525-4ac8-4306-a9e6-e9d0438d7c54
+  - fb9b990c-dd88-4a0a-9187-c367a6deea70
+secondary_material_types: []
+opentag_uuid: c49c2f44-fc12-5177-a812-19efa8c9c4d4

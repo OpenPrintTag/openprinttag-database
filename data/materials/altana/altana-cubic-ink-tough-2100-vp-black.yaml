@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.10000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a9b9910a-7365-454f-abdb-e97d3c5c703c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 4cd4c27a-409e-47ef-8f3f-fd401dadc7a7
+uuid: cf80aa9d-f079-465e-8a3f-1b1040eb6af1
+slug: cubic-ink-tough-2100-vp-black
+brand_slug: altana
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Cubic Ink® Tough 2100 VP Black
+abbreviation: null
+url: https://www.altana.com/cubic-ink/resins.html
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: 886750a2-ed69-48e7-92f5-e9101d490d2a
+created_at: '2025-10-06T09:12:25.376Z'
+updated_at: '2025-10-06T09:12:25.376Z'
+brand: f9e0e423-61ea-4840-9b0b-3752c2f56a1f
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9529
+packages:
+  - 44ca78cf-d7d8-48c9-89cc-3f2923163889
+  - 6d665684-813a-4d77-bd94-82d705d398c3
+secondary_material_types: []
+opentag_uuid: 04f765fe-8809-5b21-a0ed-ffd24883e7fd

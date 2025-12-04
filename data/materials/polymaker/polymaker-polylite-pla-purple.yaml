@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/985ab62f640a.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: eec8b47e-0c13-4f0c-8127-8dc8fb99893b
+slug: polylite-pla-purple
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ PLA Purple '
+abbreviation: null
+url: null
+primary_color: 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/985ab62f640a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:45.599Z'
+updated_at: '2025-03-25T22:34:45.599Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3307
+packages:
+  - 3387eafa-0390-4cb4-a2b4-2d52465380f8
+  - 53ec5cef-7802-456c-b00f-f685b53c8622
+  - 97d8a2dc-1aa1-4fda-8d20-3d40b8a6c716
+  - a2811678-fb2d-4be5-ad0b-69ae41197d95
+  - bb287144-cd2f-4167-b71e-3d07a614ac7c
+  - e184a3ce-2c0d-4bb2-9a4e-e750d5e69550
+secondary_material_types: []
+opentag_uuid: 9d08e4ba-6e40-583f-a1da-14ea1842379a

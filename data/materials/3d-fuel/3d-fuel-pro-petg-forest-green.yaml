@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/81a975580526.jpg
+    type: gallery
+uuid: 9da78247-8a60-4a48-a343-8ec1d8e1014e
+slug: pro-petg-forest-green
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PETG, Forest Green
+abbreviation: null
+url: null
+primary_color: 9a076f62-c7f1-4f5e-bf2b-74f0a88c2913
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Manufactured from 100% virgin PETG resin, Pro PETG is a fantastic, economical 3D printing material. Natural Pro PETG filament has fantastic optical properties, resulting in nearly transparent prints with amazing light transmission. Different layer heights and print settings will affect how your 3D printed parts pass light.
+
+  PETG is a newer printing filament with the advantage of printing easily like PLA, but offering higher temp and impact resistance like ABS. Nearly ZERO warpage prints, extremely strong layer bonds, little to no odor at all. 
+  Recommended Print Settings (settings will vary from printer to printer)
+
+  Print nozzle temp: 245 - 265C (Our PETG Prints a little hotter than some.)
+
+  Heated Bed temp: 70 - 90C
+thumbnail_url: https://file.myfilamentlist.com/f/new/81a975580526.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:00.896Z'
+updated_at: '2025-03-25T22:35:00.896Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3554
+packages:
+  - bf3da935-f9e4-4ae9-9800-90b34cae16cb
+secondary_material_types: []
+opentag_uuid: c3db3e46-32f8-5fae-bbfb-5cf355a89ee0

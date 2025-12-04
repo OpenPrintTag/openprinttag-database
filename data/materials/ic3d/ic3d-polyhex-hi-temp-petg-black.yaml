@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7528fed07008.png
+    type: gallery
+uuid: 8de1a50f-c9a3-4951-8eb0-d5d419384788
+slug: polyhex-hi-temp-petg-black
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyHex™ (Hi-Temp PETG) Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Warning: PolyHexTM use will make your polycarbonate obsolete. PolyHex is a next-generation copolyester that combines the best qualities of PC with the 3D printing ease of PETG. This material was developed in partnership with the U.S. Army to create an accessible 3D printing filament that can be used on most desktop 3D printers to manufacture injection molds that can withstand hundreds of shots in the field.
+
+  Objects printed with PolyHex will have the same strength, durability, and chemical resistance of legacy polycarbonate without the typical PC troubles of warping, smell, BPA exposure, high printing chamber temperature, and cost. Use PolyHex to create injection molds that can withstand hundreds of medium IM temperature shots, vacuum form molds, and anything that will be exposed to high heat.
+thumbnail_url: https://file.myfilamentlist.com/f/new/7528fed07008.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T16:17:59.488Z'
+updated_at: '2025-04-30T16:17:59.488Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7401
+packages:
+  - 0ef433ca-7d2e-4209-a94d-2c40b170480f
+  - 5ba6368d-5ebc-4905-8e9f-689a5d52c10a
+  - fc33aad8-5fa7-40d9-95f5-b0a10ee566c5
+secondary_material_types: []
+opentag_uuid: bafb5b8b-0b9f-56b5-955a-a4c1df8b2568

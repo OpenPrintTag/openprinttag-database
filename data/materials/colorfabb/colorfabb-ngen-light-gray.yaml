@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9ca4757a9b1f.png
+    type: gallery
+uuid: 89cae615-37a3-4127-9d59-f724056768ed
+slug: ngen-light-gray
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: nGen Light Gray
+abbreviation: nGen
+url: null
+primary_color: 67d7c285-ea25-4067-a943-2dafac19bb10
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  With nGen colorFabb and Eastman Chemical Company have released an all-round, easy to use 3D printing filament for a wide range of applications. A very light and subtle gray shade. nGen Light Gray is delicate and just enough color to stand out from other standard colored prints.
+
+      FDA food contact compliance
+      Easy Printing
+      Multiple Colors
+thumbnail_url: https://file.myfilamentlist.com/f/new/9ca4757a9b1f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.186Z'
+updated_at: '2025-03-25T22:32:26.186Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1480
+packages:
+  - 0dea9b81-7b63-47ff-897e-56788894426c
+  - 2705d3f8-6b41-4c24-bb68-4e0978b6b57e
+  - 8df9f6ec-9fbf-42a5-bb54-aee6090170f6
+  - c42dca5b-8eff-44a0-abd6-3d97df40aed7
+secondary_material_types: []
+opentag_uuid: 72d63e9a-1dd9-5891-b752-af388cbd3a07

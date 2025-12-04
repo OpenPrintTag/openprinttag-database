@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4d807c3d0ef4.png
+    type: gallery
+uuid: b46bf067-b5a6-4203-ae9c-f3a008f7d2e1
+slug: polycarbonate-white
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Polycarbonate White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PC  (Polycarbonate) 3D printer filament
+
+  Push Plastic PC is an engineering grade filament that has been specifically formulated to be used for 3D printing.  Our PC offers excellent rigidity and heat resistance as well as clarity in its natural form.  This PC has a slightly lower melt temperature than traditional Poly-carbonate to allow for use with most 3D printers. 
+
+      Excellent toughness and rigidity
+      Easy printing with low warpage
+      Excellent clarity in natural form
+      High heat resistance 
+thumbnail_url: https://file.myfilamentlist.com/f/new/4d807c3d0ef4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T13:31:25.563Z'
+updated_at: '2025-04-30T13:31:25.563Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 7383
+packages:
+  - 744fc5e5-e329-4967-8300-153a62bb3a74
+  - b6bf6148-a08e-476f-ae50-c5015656b9b9
+  - d0fe34d2-dcdb-448a-a0d2-c4a825e2ca18
+  - e6754edb-52b7-4ae4-b7de-d86703cfb41f
+secondary_material_types: []
+opentag_uuid: 29722e35-5cb1-5ea9-84ca-cc5c4015de80

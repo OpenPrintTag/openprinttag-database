@@ -1,0 +1,57 @@
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 11a3db4c-1ed4-487b-ad71-55018403c6b2
+slug: f3-pa-cf-lite
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: F3 PA-CF Lite
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Filament for FFF-printers with major PA 12 content
+      15 weight-% carbon fiber
+      low warping effect with good wear resistance
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 482f37c9-9f2c-4772-a714-5b5429dc1f32
+created_at: '2025-10-21T14:42:22.047Z'
+updated_at: '2025-10-21T14:42:22.047Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors: []
+packages:
+  - 5455d6e4-d8d5-47ec-9ae7-889eee102221
+secondary_material_types: []
+opentag_uuid: d79c76ce-4297-5f64-a751-9480c176b003

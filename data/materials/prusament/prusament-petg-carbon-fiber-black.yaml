@@ -1,0 +1,72 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6abde842-ede6-49d2-9f00-b5e638c02d48
+  hardness_shore_a: null
+  hardness_shore_d: 77
+  fff_material_properties: 9bd68e0b-2a5e-4bfc-aaec-48d81bd845ae
+  sla_material_properties: null
+  min_print_temperature: 255
+  max_print_temperature: 275
+  preheat_temperature: 170
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  chamber_temperature: null
+  heatbreak_temperature: null
+  min_chamber_temperature: null
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1a0fe3fe4a93.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 7588e066-f393-406e-82ee-8377ab78cc46
+slug: petg-carbon-fiber-black-3
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Carbon Fiber Black
+abbreviation: null
+url: null
+primary_color: 6b9b1846-c5e3-4e42-9f82-a6e73d62dc2f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '0.30'
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: Prusament PETG Carbon Fiber is our classic Prusament PETG filament reinforced with carbon fiber, which improves some of its mechanical properties and gives it an attractive look. Compared to regular Prusament PETG, this material has better dimensional stability, better temperature resistance, higher modulus of elasticity, and is less prone to stringing. With Prusament PETG Carbon Fiber, you get very durable, professional-looking prints. The carbon fibers inside the filament are obtained by recycling industrial waste from the production process or carbon composites at the end of their life.
+thumbnail_url: https://file.myfilamentlist.com/f/new/1a0fe3fe4a93.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:51.779Z'
+updated_at: '2025-03-25T22:32:51.779Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2370
+packages:
+  - 36d1fd78-b408-4eb9-9249-d95ed9914a2e
+  - eabb41c0-469d-4a92-9d39-74de0c86faa4
+secondary_material_types: []
+opentag_uuid: cb2d147c-461e-5d32-aa94-7eb5cd282a49

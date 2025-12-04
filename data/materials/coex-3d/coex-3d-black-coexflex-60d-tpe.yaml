@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/cff5821e5b14.png
+    type: gallery
+uuid: f9fabc6c-32e5-4e23-80de-c96545c22a06
+slug: black-coexflex-60d-tpe
+brand_slug: coex-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Black CoexFlex™ 60D TPE
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: CoexFlexTM 60D TPE is our fourth most flexible filament in the CoexFlex product line.  With great layer adhesion and soft nature, it can be used to create very durable and flexible prints. 60D can be referenced on the Shore Hardness scale. CoexFlexTM 60D TPE is a TPC (Thermoplastic Copolyester Elastomer), which exception temperature resistance, abrasion resistance, and tensile strength.
+thumbnail_url: https://file.myfilamentlist.com/f/new/cff5821e5b14.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-29T11:03:14.720Z'
+updated_at: '2025-04-29T11:03:33.161Z'
+brand: 68f4f75c-636b-4da4-a6f2-a2950604cd0c
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 7232
+packages:
+  - 0f8eac2d-a8e1-4f19-a0ca-d8035265cffb
+  - 23b1dca0-84d3-4399-9e68-a475092e0bf3
+  - 30155e5f-c41f-4886-9d99-082ec700602e
+  - 3dd2b525-70de-4e72-bd95-3d3e897cce90
+  - 4a7a9b1e-afcf-40f7-87e7-1dc72cfcf57f
+  - c96e0cd0-5ade-4cbf-b980-40a301798591
+  - daf9b65d-c3cb-4437-8607-fdc831001707
+secondary_material_types: []
+opentag_uuid: 21b4eb14-767f-5d7c-9914-5f8a0e478e53

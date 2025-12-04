@@ -1,0 +1,76 @@
+uuid: 61b5a0bb-a08c-429a-b30b-f0d16cdbd71f
+slug: ecopla-silver
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Silver
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-silver
+primary_color: e949000e-a69e-41f3-a79a-f24205d3b8f1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  3DJake ecoPLA properties:
+
+      Minimal shrinkage
+      Low warping
+      Good diameters &circularity tolerance
+      Zero unpleasant odours
+      Easy to print
+      Tougher & less brittle than conventional PLA filaments
+
+  3DJake ecoPLA filament can be used with nearly all FDM 3D printers.
+
+  All ecoPLA colours are based on the standardized RAL colour system:
+
+  EcoPLA silver - RAL9006
+thumbnail_url: null
+deleted_at: null
+deleted_by: 4b904c10-9702-4dbb-87de-cb34367f3de7
+created_at: '2025-11-07T11:06:41.885Z'
+updated_at: '2025-11-07T11:06:41.885Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 34b6f27a-1676-42b0-b97d-9f3a90089445
+  - 36468491-eab7-4648-9b06-c4b768914dd8
+  - 8077cfc2-ea61-46f0-bc4a-5e55003a2206
+  - 88ef5b60-b984-453a-acb0-2f0d20ef7936
+  - affe36c8-9ab7-456f-8932-e758c5228cd7
+secondary_material_types: []
+opentag_uuid: 3e5944e0-193c-5c1e-aebd-d3d8744b17bc

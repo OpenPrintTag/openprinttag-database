@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/495838887e3e.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 8bafd644-9ba2-4fc8-b3d1-883c97baf761
+slug: pla-economy-white-3
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Economy White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PLA Economy is a high quality 3D printing filament, available on XL and larger spools only in a limited amount of colors. With the added impact modifier it is a bit tougher than your average PLA filament. By keeping the portfolio limited and on large spools only we are able to keep the price per kg as low as possible.
+
+  PLA Economy is a perfect solution for users in need for large volumes of quality filament at an affordable price.
+thumbnail_url: https://file.myfilamentlist.com/f/new/495838887e3e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:27.418Z'
+updated_at: '2025-03-25T22:33:27.418Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2840
+packages:
+  - 19001247-ed5a-412b-b9b2-6e2ba8b808b6
+  - 22c5ba9c-47f3-4e1b-bf63-1a9a5b899cfa
+  - 2a7adefe-c3ff-4313-abd3-16beb911d54c
+  - 42aaac20-8957-40be-a91a-13c80cbe5235
+  - 5ca3645f-44d8-4fa8-8e6d-da6e38ac09eb
+  - 80660422-ef90-4d51-94ae-7798e2568aff
+secondary_material_types: []
+opentag_uuid: 70e42537-d5f8-5035-b1f3-8065c5e02551

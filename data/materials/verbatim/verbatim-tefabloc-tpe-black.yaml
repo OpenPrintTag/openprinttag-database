@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4ba9459f-0b0a-47f5-a18b-3e74b2cca708
+  hardness_shore_a: 85
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 1c2864b9-9f4d-42d5-b0b4-99bba60d5323
+slug: tefabloc-tpe-black
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Tefabloc TPE Black
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-tefabloc-tpe-175mm-500g-black-55511
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Tefabloc TPE is a high performance flexible filament, offering excellent low temperature properties and a high level of hardness stability across a wide temperature range, making it particularly suited for outdoor applications. Tefabloc TPE is resistant to oil, grease, abrasion and solvents and suitable for applications requiring flexibility such as window seals, grips, holders, plugs, robot parts and protective components.
+
+  Product Details
+
+      - High performance thermoplastic polyester elastomer (TPE) for material extrusion
+      - Highly flexible
+      - Resistant to oil, grease, abrasion and solvents
+      - Good shape retention 
+      - Good weather resistance 
+      - Main applications: Flexible items such as brackets, insoles for shoes, hoses, bracelets, insulation, balls, wheels etc. 
+thumbnail_url: null
+deleted_at: null
+deleted_by: faa06ca6-e29d-4e01-bae4-e9686490ddf5
+created_at: '2025-09-25T10:03:36.536Z'
+updated_at: '2025-09-25T10:03:36.536Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 9019
+packages:
+  - e6e983ae-5bb1-40d5-a325-c19bb87b3d51
+  - e7386e99-1b79-4b63-b2c1-477cc709ce9e
+secondary_material_types: []
+opentag_uuid: d5a48163-5474-5c96-8be4-efeaa0b71a17

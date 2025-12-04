@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 74954ac9-8920-4d59-9f30-02b898f75189
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: cc2638e8-0fab-4c77-953b-0b72e566f089
+slug: pla-schwarz
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Schwarz
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/2/pla-filament-1-75-mm-schwarz-800-g?c=33
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: 'Polylactid (Polylactic acid, kurz: PLA) ist ein transparenter Kunststoff, der aus nachwachsenden Rohstoffen hergestellt wird. Aufgrund der geringen Glasübergangstemperatur und der geringen Schwindung eignet sich PLA hervorragend für den 3D Druck, insbesondere auch für größere Objekte. Die geringe Feuchtigkeitsaufnahme sowie die schwache Geruchsentwicklung vereinfachen den Umgang mit PLA, wodurch es zu einem der beliebtesten Materialien für den 3D Druck geworden ist. Es haftet gut auf vielen verschiedenen Druckbettoberflächen (z.B: Glas, PEI, CFK/GFK, Hartpapier) und benötigt dabei nur eine geringe Druckbetttemperatur. Zwar hat PLA eine gute UV Beständigkeit, ist aber im Außenbereich bei direkter Sonneneinstrahlung nicht immer geeignet, da es bei ca. 55-60°C erweicht und sich verformen kann. '
+thumbnail_url: null
+deleted_at: null
+deleted_by: 4123fb50-907d-460f-86b1-2d3d2a6de32b
+created_at: '2025-10-17T13:57:45.624Z'
+updated_at: '2025-10-17T13:57:45.624Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 6b360c71-73ee-4eef-a50c-c62b0d10e484
+  - 7206dad5-5209-4f42-af5a-d409206fb9b0
+  - 9d5c9d90-a2d8-40fb-bd2f-0e21f26294d7
+  - be334ca2-0814-4bf2-9a2b-54e44eacb268
+secondary_material_types: []
+opentag_uuid: ee0ebef4-75b6-5573-b7e5-151d9c8ab4bb

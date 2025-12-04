@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5d3d2c5bde48.png
+    type: gallery
+uuid: cf8a02f3-c341-4a66-bb9c-f7438e983bbe
+slug: nylon-black-4
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Nylon Black
+abbreviation: Nylon
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nylon prints will stick to blue painter's tape. Because Nylon adheres to cellulose surfaces poplar wood can be used as a bed. Nylon will also adhere to cardboard. Nylon also sticks extremely well to machinable garolite, but that may be hard to come by. Users have also said that using a glue stick on a glass bed works well. PVA glues (think of Elmer's white glue all) can also be diluted and applied on with a sponge head. Please use in a well ventilated area or in a closed ventilated system.
+
+      Extrusion Temperature: 230 - 260 C
+      Heated Bed: 110 - 145 C helps combat Nylon's warp
+      Diameter: 1.75mm or 2.85mm +/- 0.03mm
+      Net Weight: 200 grams
+      Available Colors in 200g Size: Black, Natural, White
+
+  Nylon is very hygroscopic. When not in use, please store in an air tight container. Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to try the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/5d3d2c5bde48.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.657Z'
+updated_at: '2025-03-25T22:32:26.657Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: null
+colors:
+  - 1711
+packages:
+  - a076038d-7daf-4135-a222-76472abda666
+  - dc97f46c-b6b0-421d-9b1e-c86cb462ea2d
+secondary_material_types: []
+opentag_uuid: b8ad4eb7-434f-5946-8a25-b3c96c5afd73

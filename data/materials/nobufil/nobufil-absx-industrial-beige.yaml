@@ -1,0 +1,76 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/123a7c862eb1.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 0665743c-06be-471c-9fa0-47c313594851
+slug: absx-industrial-beige
+brand_slug: nobufil
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABSx Industrial Beige
+abbreviation: null
+url: null
+primary_color: f18f67d7-0690-4497-afaf-11c6695f7c32
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nobufil ABSx filament is made from recycled plastics. This is production waste that occurs during industrial processing. In contrast to filaments made of conventional ABS 3D material, this material tends to have significantly less warping and has reduced odor formation thanks to special modifications. This means that processing on printers with an open installation space is also possible.
+
+  The physical properties of Nobufil ABSx include high tensile strength and stiffness. It also has good heat and chemical resistance.  Printed parts can then be easily post-processed. As a result, this material is particularly suitable for the production of prototypes, models and small series of technical parts.
+  Nobufil ABSx Filament Highlights
+
+  - Temperature resistance up to approx. 90degreesC
+
+  - Wide range of colors due to low inherent color
+
+  - Easy printability even with open construction space
+
+  - Low odor development
+
+  - High level of detail even with complex geometries
+  Print Settings
+
+  - Print temperature: 260degreesC  10
+
+  - Bed temp: 100degreesC  10
+
+  - Printing surface: textured PEI sheet
+
+  - Fan speed: max 15%
+thumbnail_url: https://file.myfilamentlist.com/f/new/123a7c862eb1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-26T21:02:13.517Z'
+updated_at: '2025-03-26T21:02:13.517Z'
+brand: 2628eb85-2bed-43a5-91a3-1d2bd796950a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 6111
+packages:
+  - c2d667ca-ba16-49aa-9040-93066a50b7af
+secondary_material_types: []
+opentag_uuid: 9c484b2b-a51d-5dbe-add2-a25070de07ad

@@ -1,0 +1,84 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2b6d10ee-1f0c-43be-9a35-05de415ef960
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9ffcec869a03.png
+    type: gallery
+uuid: a52c6d0b-3f25-4808-a098-f2b148c2afd5
+slug: python-flex-tpu-90a-skin-tone-id10
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Python Flex TPU 90A Skin Tone ID10
+abbreviation: null
+url: null
+primary_color: ccd78b49-af8b-42b7-a4ec-6bd3253eb469
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |+
+  Python Flex TPU 90A is a very flexible type of 3D printer filament with a shore hardness of 90A and is perfect for 3D printing strong and resilient parts that require both flexibility and elasticity.
+
+  Python Flex TPU 90A is an easy to print flexible filament. With a shore hardness of 90A, this filament is much softer than our Python Flex TPU 98A. Python Flex TPU 90A shows good adhesion to the print bed and has perfect inter-layer adhesion.
+
+  This industrial-grade TPU is designed for mechanical applications whereby resistance to wear, tear and abrasion are important. The filament also features good resistance to chemicals and UV radiation.
+
+   
+  Important key features
+
+      Flexible with a shore hardness of 90A
+      Elongation up to 500%
+      Good resistance to chemicals and oils
+      Resistant to wear, tear, and abrasion
+      Thermal resistance up to 74°C
+
+   
+  Suitable applications
+
+      Manufacturing seals and gaskets
+      Protective bumpers and vibration dampers
+      Snap-fit applications
+      Various Orthopedic applications
+      3D printing sleeves and hinges
+
+
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/9ffcec869a03.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:04.153Z'
+updated_at: '2025-03-25T22:35:04.153Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3909
+packages:
+  - 76107eac-f82e-4596-92ef-e8addd5d2c96
+  - a8933415-1c22-4a44-b8e6-5c232bfdb23d
+secondary_material_types: []
+opentag_uuid: 4b053d1d-85d0-5309-aae5-949ba39ae129

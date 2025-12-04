@@ -1,0 +1,55 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/939a6ef4b837.png
+    type: gallery
+uuid: c4c3f325-bac9-4b3b-b217-3f5cd6461228
+slug: flex-85a-ivory-white-3
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 85A Ivory White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Flex 85A is a 3D printing filament that offers controlled flexibility with a Shore hardness of 85A, providing a unique combination of strength and elasticity. This material is perfect for creating parts that require some flexibility but also need to be firmer and resistant to wear, such as belts, protectors, and cases.
+
+  Its easy processing and good layer adhesion make it an excellent choice for those looking for reliability and performance in every print, without sacrificing the moderate deformation capacity of the material.
+thumbnail_url: https://file.myfilamentlist.com/f/new/939a6ef4b837.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T14:08:50.844Z'
+updated_at: '2025-03-29T14:08:50.844Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5339
+packages:
+  - f5a62b56-509b-4a17-a74d-cef722345c79
+secondary_material_types: []
+opentag_uuid: 958430bb-9634-5282-acf0-9bbaae2d01de

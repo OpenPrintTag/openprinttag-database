@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/658db96d109c.png
+    type: gallery
+tags:
+  - 8f2fca70-4c27-415c-a5d7-773ed0f0156d
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: b9ec477f-44ac-40ef-b6ee-a8e3cb23e986
+slug: steelfill
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'steelFill '
+abbreviation: null
+url: null
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  "Steel yourself!" With steelFill you can give your print a very cool and shiny metal look. With post-processing like sanding and polishing you can make it look truly special, like a part forged in a metal workshop. steelFill has slight magnetic properties.
+
+  Please note: The high steel content of the steelFill material makes this filament quite abrasive to brass nozzles. Therefore it's recommended to print with abrasive resistant nozzles, for instance the E3D hardened steel nozzle, the JET RSS50 and performance 3-d Hercules nozzles.
+
+  Innovation never stops at colorFabb. Our ever expanding range of special filaments have been industry leading for years. Some of them are for aesthetic purposes, others are pure functionality or for specific niche applications. Materials like woodFill, bronzeFill, XT-CF20, LW-PLA, varioShore TPU and DPA-100 support filament were developed in-house and have been successes ever since. By listening to our customers' needs and forging strategic partnerships with material OEMs we are able to innovate continuously and bring FDM/FFF 3D printing to the next level.
+
+  Please note that most materials have specific printing instructions. Consult the individual article pages for more information.
+thumbnail_url: https://file.myfilamentlist.com/f/new/658db96d109c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:57.933Z'
+updated_at: '2025-03-25T22:35:57.933Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4460
+packages:
+  - 768c50d2-cfda-42d3-a8d7-a96703636b9e
+  - a48ba832-135e-4445-ac59-45020edafb51
+  - e587d11c-8d80-400c-ab09-62ab3cced352
+  - f06a4ad0-7cad-4126-b726-33a429d28570
+secondary_material_types: []
+opentag_uuid: 70ee706b-0fd1-5628-b92e-19e0d4c89263

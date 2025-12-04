@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5339a532-9eeb-440d-8618-9d95da65c303
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: ae7cbd1c-3d9a-4ced-9364-04e80f4e3f1f
+slug: petg-red-12
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Red
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/petg-filament?variant=42324526104835
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints PETG Filament represents a sophisticated 3D printing filament that bridges the performance gap between PLA and ABS, offering an exceptional solution for professional and technical applications. This material delivers a unique combination of mechanical properties, printing ease, and material stability.
+thumbnail_url: https://file.myfilamentlist.com/new/ae7cbd1c-3d9a-4ced-9364-04e80f4e3f1f.png
+deleted_at: null
+deleted_by: 105415e5-be25-44ad-88d5-22eb7f44b29b
+created_at: '2025-11-11T11:07:44.378Z'
+updated_at: '2025-11-11T11:07:44.378Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 72c0e3ce-8241-476b-8b2a-e81b8fd38706
+  - d8df1f06-24bd-4c4f-974b-3e7ef191199b
+  - e5231daf-d25b-496c-b5e8-6acf966aef35
+secondary_material_types: []
+opentag_uuid: 63cab8a0-8710-5811-b9de-80d65161df33

@@ -1,0 +1,82 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3b17ac4c-f630-40a6-8841-ddbd5c0cedc4
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: a81197be-b97d-4153-aeaf-c0f969cad160
+slug: pla-plus-military-green
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Military Green
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110121-pla-plus-military-green-1kg-4588?category=59#attr=286,2859,287,288,3515,2861,2862,2863,289
+primary_color: e38e42f2-c65e-454f-91fb-ee4609e5966a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Military Green is a high-quality filament featuring a deep, military-green shade, perfect for projects that require reliability, durability, and a tactical look. Built on an enhanced PLA base, it provides improved impact resistance and longevity while maintaining easy printability and eco-friendly origins. This filament is ideal for functional prototypes, outdoor gear, or military-inspired designs.
+
+  Key Benefits
+
+
+      Enhanced Strength and Durability: PLA Plus offers greater flexibility and impact resistance than standard PLA, making it suitable for more demanding applications and regular stress.
+      Tactical, Military Aesthetics: The dark green hue lends prints an authentic “military” vibe, making it excellent for camouflage projects, tactical equipment, or outdoor accessories.
+      Easy to Print: Low warping and strong layer adhesion ensure reliable results even on standard 3D printers, without the need for special settings.
+      Eco-Friendly and Safe: PLA Plus Military Green is made from biodegradable sources, promoting sustainability and reducing environmental impact.
+
+
+  Applications
+
+      Functional Prototypes: Suitable for creating parts that need to handle moderate mechanical stress, such as levers, brackets, or structural components.
+      Military and Outdoor Projects: Ideal for realistic replicas, holsters, organizers, camouflage elements, or tactical gear.
+      Decorative and Theme-Based Models: Bring tabletop games, dioramas, or cosplay accessories to life with a military look, giving them an authentic feel.
+      Outdoor Replacement Parts: Thanks to its increased wear resistance, PLA Plus is a great choice for tools and parts used in rugged environments or workshops.
+
+
+  Ideal For
+
+      Projects demanding higher strength and a tactical, military-style aesthetic
+      Creating robust prototypes and components for mechanical use
+      Outdoor and survival enthusiasts seeking both functionality and design
+      Eco-friendly projects adhering to sustainable 3D printing principles
+
+
+  PLA Plus Military Green is the perfect choice for anyone looking for a filament offering enhanced durability, a tactical appearance, and an eco-conscious foundation. With reliable print performance and an authentic green tone, it elevates any project to a professional level.
+thumbnail_url: https://file.myfilamentlist.com/new/a81197be-b97d-4153-aeaf-c0f969cad160.png
+deleted_at: null
+deleted_by: 9ab9e681-64f2-4454-9ded-e57eded4dc46
+created_at: '2025-12-01T09:43:36.589Z'
+updated_at: '2025-12-01T09:43:36.589Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 6b374656-ca01-4e00-8945-9e789708e5ea
+secondary_material_types: []
+opentag_uuid: 705a7f6d-cb72-5e3b-ae2e-3649d8f1c033

@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ec45853b-4723-4da5-aa0a-9092de4305f1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 28d355f9-c035-451b-adc7-7abd6a46d564
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 424ef39e-a5fa-42e9-8b7d-549d3c558f7a
+slug: model-transparent-red
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Transparent Red
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-transparent-red-1kg/
+primary_color: 7c9f672d-79d4-4042-b9db-3a8ceb117361
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 37b548db-8a5c-4dea-8563-423f071ca876
+created_at: '2025-10-03T12:56:30.247Z'
+updated_at: '2025-10-03T12:56:30.247Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9653
+packages:
+  - 898a23ae-c5a2-40bf-aa40-f385834e2c16
+secondary_material_types: []
+opentag_uuid: e8b1ed99-8fa1-54de-b9f2-3a8b14c347ef

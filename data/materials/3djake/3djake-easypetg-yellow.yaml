@@ -1,0 +1,58 @@
+uuid: ad5b3beb-79e7-46d9-a092-d91dbb18e553
+slug: easypetg-yellow
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: easyPETG Yellow
+abbreviation: null
+url: https://www.3djake.com/3djake/easypetg-yellow
+primary_color: d62ea23d-d53b-470a-bd5a-ee9fa88721b1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The modified PETG from 3DJAKE combines outstanding mechanical and optical properties and is ideal for printing functional parts and sophisticated objects.
+
+      High toughness and resilience: Offers significantly higher stability and resilience than PLA.
+      Improved temperature resistance: Suitable for applications that require higher heat resistance.
+      Low warping: Ensures consistent and warp-free print quality.
+      High chemical resistance: Resistant to many chemicals and ideal for demanding applications.
+
+  Tip: For optimal adhesion, we recommend using a heated bed or adhesion aids such as Blue Tape or BuildTak
+thumbnail_url: null
+deleted_at: null
+deleted_by: deba9da2-ee3c-4f44-9a5b-671d9ef2f27c
+created_at: '2025-11-07T16:21:30.665Z'
+updated_at: '2025-11-07T16:21:30.665Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 363071e9-10da-4d47-bafa-70341d678e60
+  - cc3175b3-df9e-4a95-9c9a-750416a394f7
+secondary_material_types: []
+opentag_uuid: 1ea08ea7-6f48-5e23-8fd3-83bdbc192862

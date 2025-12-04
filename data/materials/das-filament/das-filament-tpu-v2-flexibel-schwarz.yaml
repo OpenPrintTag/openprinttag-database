@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8d90cb2d-a91f-4673-81ac-cd95978733b2
+  hardness_shore_a: 94
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2a72c6a7-be65-4b94-ba8a-f04642688d36
+slug: tpu-v2-flexibel-schwarz
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU V2 (flexibel) Schwarz
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/tpu-1-75-mm/417/tpu-v2-filament-flexibel-1-75-mm-schwarz-800-g?c=37
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Neue Rezeptur! Version 2: Optimierte Druckbarkeit!
+
+      Material: TPU (Thermoplastisches Polyurethan)
+      Flexibel, Shorehärte 94A
+      UV-Beständig
+      Hydrolysestabilisiert
+      Geruchsneutral
+      Dichte: 1230 Kg/m³
+      Menge: 800 g gewickelt auf Kunststoffspule (Bruttogewicht: 1050 g)
+      Durchmesser von 1,75 mm und 2,85 mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,10 mm)
+      Spulenabmaße: Außen: Ø 200 mm; Aufnahme: Ø 52 mm; Breite: 55 mm
+      Die Drucktemperatur sollte im Bereich 220 °C +-15 °C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Empfehlung: Druckgeschwindigkeit: 20-30 mm/s ; Retract 2 mm
+      Sehr gute Haftung. Ein beheiztes Druckbett ist nicht erforderlich.
+      Zudem empfehlen wir ein System mit direct drive Extruder. Nach dem Vorschubritzel sollte das Filament sofort geführt werden, damit ein Verknicken verhindert wird.
+      Farbton: RAL 9005 Tiefschwarz (geringfügige Abweichung ist möglich) 
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: f33ed26f-74cd-4ed0-a875-4786ca1a6183
+created_at: '2025-10-19T09:57:41.681Z'
+updated_at: '2025-10-19T09:57:41.681Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 0b3112c8-7764-4ea0-b98b-35eb315f6561
+secondary_material_types: []
+opentag_uuid: a46c16b8-83f0-5627-a3cb-65d1d97ab01c

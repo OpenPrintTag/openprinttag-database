@@ -1,0 +1,66 @@
+uuid: fa5ec438-9f44-4462-977a-2c069da620dc
+slug: petg-schwarz
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Schwarz
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/158/petg-filament-1-75-mm-schwarz-800-g?c=35
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 9005 Tiefschwarz (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 05027af0-0547-47ea-abeb-01e375bcbf0f
+created_at: '2025-10-19T09:46:55.080Z'
+updated_at: '2025-10-19T09:46:55.080Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 027ea1a0-9289-498b-a346-08c16c91e802
+  - 30e778eb-9637-4a65-9c02-97f19fc76db0
+  - cff52e32-1bfe-4fff-93da-74e0327f64ea
+  - eb0ce2fc-98df-45f9-b168-8226ef05ce5e
+secondary_material_types: []
+opentag_uuid: a915113c-d577-5f41-a50c-b2df38cd3cc9

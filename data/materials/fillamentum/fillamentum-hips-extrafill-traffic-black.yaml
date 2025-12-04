@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d8af96c527f3.png
+    type: gallery
+uuid: 0c7fa057-4526-4781-9d27-e013837adceb
+slug: hips-extrafill-traffic-black
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS Extrafill "Traffic Black"
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  HIPS Extrafill is a versatile filament ideal for support structures, dissolvable in Lemonesol, and perfect for complex dual-extrusion prints. It also excels in functional parts with high impact strength, thermal resistance, low moisture absorption, and excellent insulation.
+
+
+      Excellent chemical resistance
+      Food-safe and BPA-free
+      Matte finish with easy post-processing
+      High impact and heat resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/d8af96c527f3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:04.291Z'
+updated_at: '2025-03-25T22:32:04.291Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 1755
+packages:
+  - 5d9edc4a-9bf9-48ae-ad09-eb759d9dc754
+  - 5f0d19c8-d848-4a84-8948-e75df55c4b3e
+secondary_material_types: []
+opentag_uuid: cbfef7b7-eb69-5de2-89ca-d7a75f78dd1d

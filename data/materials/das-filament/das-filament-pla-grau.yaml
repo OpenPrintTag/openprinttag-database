@@ -1,0 +1,65 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 474f721c-c540-43e8-b2cf-fa955fb81fcd
+slug: pla-grau
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Grau
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/8/pla-filament-1-75-mm-grau-800-g?c=33
+primary_color: 5f1ba83c-093e-44f7-b976-2882f1933618
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Riecht gut, kein unangenehmer Kunststoffgeruch wie bei ABS
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton entspricht: RAL 7040 Fenstergrau (geringfügige Abweichung ist möglich) 
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 03091e3e-1e25-44d8-bd89-860325763c35
+created_at: '2025-10-17T14:02:28.969Z'
+updated_at: '2025-10-17T14:02:28.969Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 2e7b00b2-072f-4df2-bdb3-397e3b0ed3fd
+  - 6fba92c7-f17d-40eb-92ab-2d9f45028834
+  - 8dce9ced-6bb2-466c-a91d-3f61d94a79dc
+  - c6d3c29b-d5e9-4097-91ab-9360f73e4669
+secondary_material_types: []
+opentag_uuid: d192504e-4528-5303-83fd-0e4069467250

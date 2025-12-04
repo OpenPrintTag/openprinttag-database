@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bd99bb43b2af.jpg
+    type: gallery
+  - url: https://file.myfilamentlist.com/f/new/d49f6f8bbd85.jpg
+    type: gallery
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 47306b38-ad7a-4ae0-8ba3-4f83fe4887a7
+slug: pro-abs-glow-in-the-dark
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro ABS, Glow-in-the-Dark
+abbreviation: null
+url: null
+primary_color: null
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Pro ABS (Acrylonitrile Butadiene Styrene) is a go-to material for projects that require durability and the ability to withstand high temperatures. Our unique formulation is low-warp and low odor.
+
+  ABS is used for high strength applications and is a petroleum-based material product, so it holds up well in a variety of environment. ABS requires a heated bed and works best with an enclosed print area. ABS can produce some off-gassing so it is recommended that you use it only in a well-ventilated area. 
+
+      Low warp
+      Low odor
+      Heat resistant
+      Durable
+      Mildly flexible
+      can be sanded or smoothed with additional processing 
+thumbnail_url: https://file.myfilamentlist.com/f/new/bd99bb43b2af.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:57.474Z'
+updated_at: '2025-04-11T14:38:41.844Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 6840
+  - 6841
+packages:
+  - f4b317eb-5383-4d75-a098-814aeebf399c
+secondary_material_types: []
+opentag_uuid: 8a916895-24dc-594c-811f-dce3ffaa6099

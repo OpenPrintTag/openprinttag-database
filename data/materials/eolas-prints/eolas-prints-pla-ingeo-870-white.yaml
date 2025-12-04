@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 626d27d4-48b1-4cdd-9bc3-4d1a17e802fb
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: ff4fe2fd-e27f-4908-9463-97e41fa57886
+slug: pla-ingeo-870-white
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Ingeo 870 White
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-ingeo-870-filament?variant=42257267097859
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: https://file.myfilamentlist.com/new/ff4fe2fd-e27f-4908-9463-97e41fa57886.png
+deleted_at: null
+deleted_by: 3c388dde-4fe4-4a44-b6e7-cea7246ce37c
+created_at: '2025-11-11T09:45:33.134Z'
+updated_at: '2025-11-11T09:45:33.134Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 22bceb39-5e8d-4345-b00a-3ce5a57c4cce
+  - 9eef62d9-44c3-4d5b-acd4-ec90671fab38
+secondary_material_types: []
+opentag_uuid: 17a66bb7-5b24-5965-9336-7148f3dd6d7b

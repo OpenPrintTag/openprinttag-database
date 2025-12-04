@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 60f66e39-158f-4f62-93e1-042399cac9f8
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 784f6f0a-fe32-4f46-9d1c-114b2378df98
+slug: petg-heather-violet
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Heather Violet
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410411-petg-heather-violet-1kg-5021?category=63#attr=725,3085,3084,727,3587,3588,3088,3089,728
+primary_color: ef775865-43cd-49b7-a744-cb42ec28c606
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Heather Violet 1kg is a premium 3D printing filament designed for creating strong, durable, and aesthetically pleasing prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament combines the ease of use of PLA with the strength and flexibility of ABS, making it an excellent choice for a variety of applications. The soft heather violet color provides a unique, elegant finish, ideal for both functional parts and decorative models.
+
+  This 1kg spool ensures reliable performance and consistent extrusion, making it suitable for both professionals and hobbyists. PETG Heather Violet is known for its excellent layer adhesion, impact resistance, and flexibility, ensuring that your prints remain strong and long-lasting. Additionally, it is resistant to moisture and chemicals, increasing its versatility across different environments.
+
+  Key Features:
+
+      High-Quality PETG Material: Offers a balance between ease of printing, strength, and durability.
+      Elegant Heather Violet Color: A soft yet distinctive finish suitable for creative and functional applications.
+      Excellent Layer Adhesion: Minimizes warping and ensures smooth, high-quality prints.
+      Impact Resistance: Withstands shocks and mechanical stress, making it ideal for durable parts.
+      Chemical and Moisture Resistance: Performs well in environments with exposure to chemicals or humidity.
+      Easy to Print: Compatible with most FDM 3D printers, ensuring smooth and reliable printing.
+
+  Applications:
+
+      Functional prototypes and mechanical components
+      Custom enclosures and protective casings
+      Artistic and decorative models
+      Fashion accessories and design projects
+      Outdoor applications due to its UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid direct contact with eyes and skin. In case of exposure, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+
+  PETG Heather Violet 1kg is a versatile and reliable filament choice for 3D printing, providing a perfect blend of strength, durability, and a stylish color. Whether you’re working on functional parts, artistic creations, or fashion-related prints, this filament ensures high-quality results with a refined violet touch.
+thumbnail_url: https://file.myfilamentlist.com/new/784f6f0a-fe32-4f46-9d1c-114b2378df98.png
+deleted_at: null
+deleted_by: faaaefd3-3155-41f6-be88-3efd35994b31
+created_at: '2025-12-01T12:10:46.004Z'
+updated_at: '2025-12-01T12:10:46.004Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - fe4e2f4d-8d83-4a2d-9638-f889bcf2a7a0
+secondary_material_types: []
+opentag_uuid: e0df5e4b-0f1b-52fb-823b-31c8595f0766

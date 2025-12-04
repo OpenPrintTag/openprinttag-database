@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.04000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4c15b8e4-f69a-4a0c-b668-4142fe53d44f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 8e0d90bd-862b-4736-b694-f4e2f959efe5
+slug: abs-white-14
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS White
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/abs-filament?variant=43499235475715
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ABS represents a significant advancement in additive manufacturing materials, offering superior performance compared to standard ABS filaments. The material demonstrates exceptional durability and impact resistance, with key improvements in processing characteristics and mechanical properties.
+thumbnail_url: https://file.myfilamentlist.com/new/8e0d90bd-862b-4736-b694-f4e2f959efe5.png
+deleted_at: null
+deleted_by: f0b806bd-5251-48ce-9ca0-784dd3dcc3c0
+created_at: '2025-11-11T11:28:12.324Z'
+updated_at: '2025-11-11T11:28:12.324Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 492fa4bf-084e-4caa-9c9c-90982350400c
+  - 4cea1ed6-9d36-4d02-bc7d-2167c794c4a4
+  - 4edc769b-2fc8-4743-87c4-844510f3774f
+  - 9ea5eb84-6cab-4d9d-af3a-38a4ab223b23
+  - 9fd08dd0-508d-4b05-8bda-55f347bc23ac
+  - f170757e-feea-4236-90da-5dfcff6fd65b
+secondary_material_types: []
+opentag_uuid: fc1674d9-8538-5f76-b32f-5bd679ab538c

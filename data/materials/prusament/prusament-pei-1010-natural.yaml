@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3b53793a-caa9-422c-bb20-c2e9be125b3f
+  hardness_shore_a: null
+  hardness_shore_d: 83
+  fff_material_properties: e854736a-0736-4947-96a8-07dc01fc7367
+  sla_material_properties: null
+  min_print_temperature: 400
+  max_print_temperature: 420
+  preheat_temperature: null
+  min_bed_temperature: 140
+  max_bed_temperature: 160
+  chamber_temperature: 90
+  heatbreak_temperature: null
+  min_chamber_temperature: null
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+  - ce3f9674-3622-445c-b6d2-2874193ffd79
+uuid: de4e0588-bfea-4622-a094-dcc9cf003ebf
+slug: pei-1010-natural
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PEI 1010 Natural
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-pei-1010-natural-500g/
+primary_color: 1333a659-1f4b-478e-8fd1-c2241a3c57ef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PEI 1010 (polyetherimide, branded as Ultem) is one of the most resistant 3D printing polymers, suitable for specialized and demanding industrial applications. The material has a great high-temperature and chemical resistance, and excellent mechanical properties. It is inherently flame-retardant and resistant to gamma radiation. As one of the most resistant materials, it can be used for industrial applications directly as functional parts - it can even be used as a replacement for aluminum alloys. The unique combination of material properties makes it usable for various medicinal or aerospace applications.
+
+  Due to very high printing temperatures, this material can be printed only with the Prusa Pro HT90 or a similar printer with a heated chamber (minimum 90 °C). Also, this material is extremely prone to moisture absorption and it is necessary to dry it before every print and keep it in a dry box during the printing.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9812c9d1-30af-4e00-a90d-f8848f2c1d7a
+created_at: '2025-10-22T21:57:08.720Z'
+updated_at: '2025-10-22T21:57:08.720Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: e93c4417-ea91-4ee7-9857-24a7bbf24e15
+colors: []
+packages:
+  - 9d92b6bf-1a04-46b9-9493-12bf8a6a1460
+  - d6b4e024-cc5d-45ca-ad05-2c6deaa28c23
+  - ebe92e9a-751e-493d-8b09-04a5fa196434
+secondary_material_types: []
+opentag_uuid: 09fd994c-a797-5fc0-9dfa-ebc7ae327ae6

@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.00000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6afe9638-7ed2-4782-844b-5b9af757e091
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 4cbbc87c-edb8-4bb0-bc89-8c1fe5317c25
+uuid: 218c5307-657e-4123-b03d-6867f57f18ab
+slug: flex80-white
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Flex80 White
+abbreviation: null
+url: https://www.prusa3d.com/cs/produkt/prusament-resin-flex80-white-1kg/
+primary_color: 42ff0276-7121-4140-9368-7752088174b7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Prusament Resin Flex80 is a high-quality rubber-like resin with a hardness around 80 Shore A. It is designed to print objects with soft, yet durable finish, providing the perfect balance between flexibility and strength. The flexibility of printed objects can be compared to a car tire, leather, tendons or a rubber shoe sole.
+
+  Prusament Resin Flex80 is easy to use resin and provides detailed prints. It is capable of fast printing of parts with intricate features while ensuring that they remain flexible, which makes it a perfect choice for rapid prototyping, functional parts, durable figures, RC car parts, organic structures, medical models and many other objects. Compared to most other flexible resins on the market, our Prusament Resin Flex80 has a noticeably lower odor and viscosity allowing the finished models to be easily washed in isopropyl alcohol without special washing and post-curing procedures.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 623f3970-8682-4582-8f6a-6a5394a837f3
+created_at: '2025-07-02T06:26:55.716Z'
+updated_at: '2025-07-02T06:26:55.716Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9551
+packages:
+  - 1bd2198b-ffa3-44af-963b-d278bb231001
+  - 60f6ff69-5ad2-492a-93d5-4cf91de9e3b0
+secondary_material_types: []
+opentag_uuid: d5a8fc16-0bbf-5462-a263-773c38d6ba7e

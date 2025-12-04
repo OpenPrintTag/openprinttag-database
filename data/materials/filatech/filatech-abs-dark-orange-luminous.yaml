@@ -1,0 +1,55 @@
+uuid: 4c6cc6db-3609-49b1-8cea-ff71ecd43a0a
+slug: abs-dark-orange-luminous
+brand_slug: filatech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Dark Orange (Luminous)
+abbreviation: null
+url: https://fila-tech.store/product/abs-filament/
+primary_color: f1085a5e-208f-41de-babe-314c9207c3af
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ABS – Acrylonitrile Butadiene Styrene
+
+  Our ABS (Acrylonitrile Butadiene Styrene) is a commonly used 3D printer material. Best used for making durable parts that need to withstand higher temperatures. In comparison to PLA filament, ABS plastic is less “brittle” and more “ductile.” It can also be post-processed with acetone to provide a glossy finish. When 3D printing with ABS filament, a heated printing surface is recommended, as ABS plastic will contract when cooled leading to warped parts. ABS filament is available in both 1.75mm and 2.85mm diameter sizes.
+
+  The latest range of ABS filaments have been developed by our expert engineers utilizing the latest technology and high quality prime virgin raw material
+thumbnail_url: null
+deleted_at: null
+deleted_by: db3b174d-72de-42d1-9559-9ce4aab8b6c7
+created_at: '2025-11-02T00:09:04.786Z'
+updated_at: '2025-11-02T00:09:04.786Z'
+brand: 900127a5-05e6-4723-87ac-a23de2b16d17
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 4ce19ee2-caee-43a5-b69d-a58402164830
+  - b41644c0-7931-4aec-a97d-5af9be6db3f9
+secondary_material_types: []
+opentag_uuid: 98450373-83d1-5369-abc8-bb109f592f6c

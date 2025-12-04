@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/17625fd48280.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f84a6c83-13af-43ae-97da-4596a1b9be4d
+slug: standard-pla-snow-white-3
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Standard PLA+, Snow White
+abbreviation: null
+url: null
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Standard PLA+ is a basic, entry-level PLA filament. It's available in a broad color selection and uses only virgin NatureWorks Ingeo 4043d PLA resin. No fillers or stretchers means a more predictable 3D printing experience. Because we don't use fillers, the ideal print temp might be 5-10C higher than your current PLA settings.
+
+  Our Standard PLA+, or Polylactic Acid, is among the most popular 3D printing materials in the world because it is easy to print and strong. Standard PLA+ is a hard plastic that produces a barely noticeable, but quite pleasant, sugary smell when extruding.
+thumbnail_url: https://file.myfilamentlist.com/f/new/17625fd48280.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:57.006Z'
+updated_at: '2025-03-25T22:35:57.006Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4576
+packages:
+  - 70684ce3-f42a-49aa-8eaa-8c8b3874ff3c
+  - 97decdb2-594c-4c7b-b975-807d1d0121d2
+secondary_material_types: []
+opentag_uuid: c909c056-25e2-5f5d-a24c-f9c71eba644b

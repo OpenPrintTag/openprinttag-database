@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 75f4c334-283b-4be7-a1ae-f0f5829bc76e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: a1a285b9-4966-4643-b072-dd8967f0090d
+  sla_material_properties: null
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c280e3f1-0a21-4a55-bdef-5fcafe8fc82f
+slug: pla-silk-white-7
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Silk White
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-pla-silk-white-1kg/
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 828ee41c-9732-4538-8ac3-38dae62c26cb
+created_at: '2025-09-23T20:59:05.647Z'
+updated_at: '2025-09-23T20:59:05.647Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 8920
+packages:
+  - a411fb25-9507-49aa-b704-22b6e1e4b644
+secondary_material_types: []
+opentag_uuid: e05f5634-7827-5a85-91a8-0c0333c22ee1

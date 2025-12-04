@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6ec35066ee1f.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 1221a547-9b20-4677-995a-597c605da1ec
+slug: abs-yellow
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS - Yellow '
+abbreviation: null
+url: null
+primary_color: 29531b03-49ae-4f3e-9993-d9c4a6694fb9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS (akrylonitrilbutadienstyren)
+  - more suitable for advanced makers
+  - for both small and large prints
+  - strong and tough material with a high surface hardness
+  - impact and heat resistant (up to 90 degreesC)
+  - acetone-soluble (easy post-processing)
+  - typical smell
+  - thermal contracting (closed chamber recommended)
+thumbnail_url: https://file.myfilamentlist.com/f/new/6ec35066ee1f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:10:09.399Z'
+updated_at: '2025-04-23T11:10:09.399Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7094
+packages:
+  - 09a2dcdd-4027-4754-b28c-000d8c1d61b9
+  - 8ed5390d-2f74-49ae-a636-8d04b8ab6fe0
+secondary_material_types: []
+opentag_uuid: 3bc27793-a458-5573-a7fc-b321156a1413

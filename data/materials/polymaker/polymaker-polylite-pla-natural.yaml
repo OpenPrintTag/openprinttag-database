@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/636f8ad85d56.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 5650e850-8b14-4bfe-9865-7ae48a331b8c
+slug: polylite-pla-natural
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ PLA Natural '
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/636f8ad85d56.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:42.518Z'
+updated_at: '2025-03-25T22:34:42.518Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3506
+packages:
+  - 2a0c7f8c-82ec-4099-9d28-9d115e471371
+  - 40fa361b-eecc-4151-970c-58d3da1c2e8f
+  - 828d14c5-c092-47cb-a2ce-cfcf31f47260
+  - 995c2aee-9756-4d08-91a8-48aabcc05950
+  - 9e75865b-3de6-4e09-865d-9e06107516ce
+  - fc0bdbf8-798e-4c41-94ae-4f2fe0c5e73e
+secondary_material_types: []
+opentag_uuid: 56d2907d-9d8c-5c39-8506-d992a03d8b37

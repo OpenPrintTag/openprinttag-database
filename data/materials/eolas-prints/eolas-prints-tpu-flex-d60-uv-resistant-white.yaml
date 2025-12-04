@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.16000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 218341bc-4e0d-489c-b033-bb1e0601e3c3
+  hardness_shore_a: null
+  hardness_shore_d: 60
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 4920aa52-656c-45ac-a1c9-15665516413e
+slug: tpu-flex-d60-uv-resistant-white
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flex D60 UV Resistant White
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/tpu-flex-filament-shore-d60-uv-resistant?variant=49892142055751
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Eolas Prints presents the TPU Filament D60 - UV Resistant, a high-quality 3D printing material designed for outdoor applications. This flexible polyurethane elastomer filament offers superior hydrolysis resistance and maintains its flexibility even at low temperatures.
+
+  Manufactured in Cantabria, Northern Spain, this TPU flex filament boasts UV stabilization and microbial resistance, making it ideal for projects exposed to sunlight and environmental factors. With a hardness rating of D60, it strikes a balance between flexibility and durability.
+
+  The Eolas Prints TPU filament ensures consistent print quality across a wide range of printing temperatures (195-240°C) and speeds (20-65 mm/s). It's compatible with FDM and FFF 3D printers and can be used with nozzle sizes from 0.15 to 1.2 mm.
+
+  This versatile filament requires minimal special handling, though a dry box is recommended for optimal results. With its precise diameter tolerance of ±0.08 mm, users can expect reliable performance and excellent layer adhesion, contributing to high-quality finished products.
+thumbnail_url: https://file.myfilamentlist.com/new/4920aa52-656c-45ac-a1c9-15665516413e.png
+deleted_at: null
+deleted_by: 97de5e94-778a-4c8d-b2a9-ae29b5f09336
+created_at: '2025-11-11T10:55:09.709Z'
+updated_at: '2025-11-11T10:55:09.709Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - a3f59f70-146e-4a1a-850b-305bced18eb2
+  - da84e695-7d21-46a3-b78c-337dc2917d92
+secondary_material_types: []
+opentag_uuid: 74837de2-245a-5691-9287-1012360adbb0

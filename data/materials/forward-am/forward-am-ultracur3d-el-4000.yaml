@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.06000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3f456616-983c-479d-980c-881133cdfe21
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: fa28bace-9a29-459d-9de3-4b8d538d941f
+uuid: 3410a5aa-0eef-44da-9a41-e087edbdc037
+slug: ultracur3d-el
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® EL 4000
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/flexible-elastomeric-line/ultracur3d-el-4000/
+primary_color: bdfab626-c8d0-4742-9590-ae8a821a7e47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Flexible Resin with Superior Strength, Rebound and High Hardness (Shore 90 A)
+
+  Ultracur3D® EL 4000 by Forward AM is the latest addition to our flexible and elastomeric resins. With its high hardness of Shore 90 A, it is at the high end of our portfolio, which now covers the whole spectrum from Shore 40 A to 90 A. Due to its superior strength, rebound, and tear resistance, this material is perfectly suitable for applications such as footwear, bike saddles, and cushioning pads.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 49a6ffe4-1a73-412e-909e-b91679bdcdec
+created_at: '2025-10-06T08:25:37.450Z'
+updated_at: '2025-10-06T08:25:37.450Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9512
+packages:
+  - 18f16d60-38d3-4fda-a36e-797947bbc814
+  - ad809c6a-9684-4c32-a975-896f3f23fa0e
+secondary_material_types: []
+opentag_uuid: 910113ca-cb5b-5f29-9289-9763c9c59f6b

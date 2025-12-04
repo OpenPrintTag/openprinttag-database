@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b50ed789ead4.png
+    type: gallery
+uuid: 7032fa9a-ff05-4ecb-8a0c-92d1c054b2c3
+slug: tpu-100a
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 100A
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Semi-Flex TPU 100A
+
+  Our Semi-Flex TPU is a harder filament with a hardness of 100 Shore A. It prints on a much more wide range of 3D printers, and posses characteristics such as:
+
+  -Ease of print-ability 
+
+  -Extreme durability and impact strength while maintaining flexibility
+
+  -Ideal hardness to ensure compatibility on wide range of printers including bowden fed extruders
+thumbnail_url: https://file.myfilamentlist.com/f/new/b50ed789ead4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T13:44:20.426Z'
+updated_at: '2025-04-30T13:44:20.426Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 7384
+packages:
+  - cb167a73-acb0-485d-bfff-4241b4b7f8b5
+  - cfdfdebc-3855-4a79-bc1e-8b760470b585
+  - f5a4d812-c789-46a9-ad11-428df4998b2d
+  - f8b29a8c-0254-4a0e-b461-85172c9eae03
+secondary_material_types: []
+opentag_uuid: 9d8115ff-c727-5bde-8905-6787387aef33

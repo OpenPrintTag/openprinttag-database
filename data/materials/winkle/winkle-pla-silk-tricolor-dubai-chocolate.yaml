@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8d446cff-e088-4bdb-95c1-2cc20ce39e49
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - 2d777c51-16f7-413f-8ccb-3a6a9004b61b
+secondary_colors:
+  - 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
+  - d68afba4-061f-467f-8c14-5406ceadc9d2
+  - 9ea53182-3b56-4ee4-b996-8ba04e5511bc
+uuid: 9d0dd76f-7634-43f4-84c3-62a4ca027162
+slug: pla-silk-tricolor-dubai-chocolate
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Silk Tricolor Dubai Chocolate
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-silk-tricolor-winkle/?_gl=1*kjee92*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3NjUxNTQkbzMkZzEkdDE3NjM3NjY4ODEkajYwJGwwJGgxMDM2MjI5NDYx
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **At Winkle, we’ve created the most visually striking 3D filament on the market.**
+
+  PLA Silk Tricolor Filament delivers spectacular results in both quality and appearance. Perfect for decorative applications, it combines three tones along the spool to create an iridescent color transition.
+
+  This multicolor effect shifts depending on how light hits the object, producing natural and highly visual transitions. PLA Tricolor Filament is manufactured at our Salamanca facility under strict quality controls, with a clear goal: to provide our customers with the most eye-catching 3D filament available.
+
+  Unlike “rainbow” filaments, where color changes are segmented, this filament seamlessly blends three tones, achieving natural and surprising transitions.
+
+  You’ll be amazed by its silky, glossy finish. It also features a subtle satin texture reminiscent of real silk, while the trichromatic effects change with light and viewing angle, creating a hypnotic and sophisticated result.
+
+  **Advantages of PLA Silk Tricolor:**
+
+  * Trichromatic filament: three colors in a single strand
+  * Smooth, glossy surface with no additional finishing required
+  * Excellent bed adhesion and compatible with 1.75 mm 3D printers
+  * Easy to print, deformation-free, with professional results
+
+  **Applications for PLA Silk Tricolor:**
+
+  * **Home decor:** vases, lamps, organizers, and accessories with superior aesthetic effect
+  * **Art and sculpture:** busts, low-poly figures, and helical pieces with 360° color transitions
+  * **Accessories and jewelry:** pendants, brooches, keychains, and medallions with intense shine without post-processing
+  * **Creative prototypes:** eye-catching models with strong visual impact and enhanced textures
+
+  Compatible with most 1.75 mm 3D printers, it offers excellent bed adhesion and ease of printing, preventing deformation and ensuring professional results.
+  With PLA Silk Tricolor, every print becomes a multicolor work of art.
+thumbnail_url: https://file.myfilamentlist.com/new/9d0dd76f-7634-43f4-84c3-62a4ca027162.png
+deleted_at: null
+deleted_by: 9ede1c3c-f5d7-48c2-a5c5-47014cf21330
+created_at: '2025-11-21T23:32:39.954Z'
+updated_at: '2025-11-21T23:32:39.954Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 31a8ab29-5702-493e-a060-a4d6f7069927
+secondary_material_types: []
+opentag_uuid: 4653fe9e-06da-5ad5-b34a-5bba9cc20bcb

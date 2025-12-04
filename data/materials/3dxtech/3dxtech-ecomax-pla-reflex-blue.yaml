@@ -1,0 +1,54 @@
+uuid: 50d232b6-5d24-48a2-8305-2b31b55d2040
+slug: ecomax-pla-reflex-blue
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ECOMAX PLA Reflex Blue
+abbreviation: null
+url: https://www.3dxtech.com/products/ecomax-r-pla?variant=43809029390389
+primary_color: 53bd1262-b96c-469b-ba45-26c3fa54ead1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+       Ideal for printing without a heated bed, no enclosure required
+      Low shrinkage, warping, and easy printability, PLA prints great on practically any desktop 3D printer
+      Very low odor, perfect for 3D printing in home and office environments
+      Made from plants makes PLA a renewable biopolymer
+      Gorgeous surface quality to make printed parts look beautiful 
+thumbnail_url: null
+deleted_at: null
+deleted_by: ec870934-7eba-4c03-87ec-38b8df713ae1
+created_at: '2025-11-04T11:35:21.083Z'
+updated_at: '2025-11-04T11:35:21.083Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - afd179ff-b191-4ce3-a7b9-2ba92d8a2b6c
+secondary_material_types: []
+opentag_uuid: c41d4fe8-7b33-5ec4-af25-497df137d745

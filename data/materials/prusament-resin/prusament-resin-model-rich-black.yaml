@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.00000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 35500d5b-86fa-4567-bacd-f2cbae33d217
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: cc48e6d4-9f4a-48d8-9460-2d8b2673598c
+uuid: 3531b708-1cea-4443-8856-5678d08e347b
+slug: model-rich-black
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Rich Black
+abbreviation: null
+url: https://www.prusa3d.com/cs/produkt/prusament-resin-model-rich-black-1kg/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b54dbab1-eb08-43f4-87d7-6b46c23f4e56
+created_at: '2025-07-02T06:24:23.427Z'
+updated_at: '2025-07-02T06:24:23.427Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9553
+packages:
+  - 22da03e8-224f-4506-9bcf-bf9024b82c94
+  - b3b6e169-016d-43f7-ae26-d0347b5e7dd8
+secondary_material_types: []
+opentag_uuid: 55ffb6e7-d642-5154-81d7-90c0b9160bcd

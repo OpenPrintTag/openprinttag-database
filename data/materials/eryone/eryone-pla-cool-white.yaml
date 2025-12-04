@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/870286580c12.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 417eee80-7c7e-4d0b-80c7-1eda8c579f58
+slug: pla-cool-white
+brand_slug: eryone
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Cool White
+abbreviation: null
+url: null
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ERYONE PLA Filament has the advantages of easy printing, low shrinkage, and excellent layer bonding.
+  Applicable to 99% of 3D FDM printers on the market, friendly to beginners.
+  High purity raw materials, corn.
+thumbnail_url: https://file.myfilamentlist.com/f/new/870286580c12.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:25.174Z'
+updated_at: '2025-03-25T22:33:25.174Z'
+brand: b8f8d33a-ac7b-42ed-a5b3-f41096abe242
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2835
+packages:
+  - fd75adbd-e18d-4c08-8b30-734a26a3666b
+secondary_material_types: []
+opentag_uuid: a113499f-bd08-5d80-81ce-e987ec99bef9

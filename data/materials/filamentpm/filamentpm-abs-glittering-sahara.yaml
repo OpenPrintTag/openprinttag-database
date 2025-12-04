@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5c50f49fd7e3.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 6b54a648-773f-43f1-bbdb-411c2de21fde
+slug: abs-glittering-sahara
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS - Glittering Sahara '
+abbreviation: null
+url: null
+primary_color: 3b6839c1-5407-4d34-9755-e2a793551167
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS (akrylonitrilbutadienstyren)
+  - more suitable for advanced makers
+  - for both small and large prints
+  - strong and tough material with a high surface hardness
+  - impact and heat resistant (up to 90 degreesC)
+  - acetone-soluble (easy post-processing)
+  - typical smell
+  - thermal contracting (closed chamber recommended)
+thumbnail_url: https://file.myfilamentlist.com/f/new/5c50f49fd7e3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T10:53:06.141Z'
+updated_at: '2025-04-23T10:53:06.141Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7088
+packages:
+  - 4aa12058-f6a7-4d08-b8ab-2d950eef6329
+secondary_material_types: []
+opentag_uuid: 97dae24c-968a-59c9-afee-5fd49ce5d702

@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0528b5014257.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7e0b7606-565d-4bb0-8e86-5067886455e1
+slug: easyfil-epla-traffic-red
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil ePLA Traffic Red
+abbreviation: null
+url: null
+primary_color: aab0fd0d-91b5-41f2-9ac3-023976837698
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil ePLA is your go-to PLA filament for 3D printing. This PLA filament comes at an unbeatable retail price of €19,99 per kg and wide availability in colors and spool sizes.
+
+  Suitable applications
+
+      Functional prototyping.
+      Creating visualization aids.
+      3D printing manufacturing aids.
+      Making detailed concept models.
+thumbnail_url: https://file.myfilamentlist.com/f/new/0528b5014257.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:27.040Z'
+updated_at: '2025-03-25T22:31:27.040Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 698
+packages:
+  - 102567cf-d457-4e77-a812-6015f273e773
+  - 182e3ffb-21ee-4a94-bd71-56bd139448d3
+  - 282b1f70-1902-497d-81d9-d3b89fba1947
+  - d430c837-7f64-473b-86a8-646871db1adf
+  - fa7b178b-815e-4915-ae11-0259c785d90e
+secondary_material_types: []
+opentag_uuid: 1c21ea7e-e975-5d4e-9722-dba7fd5977c4

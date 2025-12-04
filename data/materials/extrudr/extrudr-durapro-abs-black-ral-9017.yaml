@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/16c5e7cb6bcc.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 21c208eb-28ef-4d7c-b76f-6c2816c7ed6f
+slug: durapro-abs-black-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ABS black | RAL 9017
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ABS has been specially developed for industrial applications and is characterised by its high process reliability. It is ideal for the production of mechanically highly stressed components. The material is electrically insulating. DuraPro ABS is optimised for good layer adhesion, thermal stability, better flow properties and low warping. The raw material is approved according to REACH, RoHS and FDA standards.
+
+      For industrial applications
+      Flame retardant according to UL 94 HB
+      Electrically insulating
+      High mechanical strength
+      Low shrinking and warping
+      Excellent layer and bed adhesion
+thumbnail_url: https://file.myfilamentlist.com/f/new/16c5e7cb6bcc.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T19:35:48.461Z'
+updated_at: '2025-03-28T19:35:48.461Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3596
+packages:
+  - 1f11090c-fd7e-40b4-ba13-358e24596e1d
+  - 46b35b75-3f48-4143-9811-d12514020ebf
+  - 79dbd4f9-0d88-43a5-ae7c-12153fede16d
+  - 803a464e-af46-45cf-ac54-9012da7656bd
+  - 87e6ad0e-0f3e-4b1e-b321-0593325f49f2
+  - aca026b9-933f-4447-ae39-98145fa20502
+  - e0c2dc89-6cdd-4c06-bf01-f8728591585b
+  - edf00a57-c181-4a3b-b11d-b1747826c347
+secondary_material_types: []
+opentag_uuid: 53c41de2-a8ca-5135-b7c0-9314bd7bef2e

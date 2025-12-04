@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d903b06a-506d-4f13-89be-3e38fad8a5b2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 0178f952-fd5b-4f16-89eb-0a079913bfd9
+slug: pla-metallic-dark-antique-pink
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Metallic Dark Antique Pink
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-metallic-dark-antique-pink.html
+primary_color: 20dff4e0-5363-4178-9cfc-1911e0b2c78d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Metallic Dark Antique Pink.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/0178f952-fd5b-4f16-89eb-0a079913bfd9.png
+deleted_at: null
+deleted_by: 57a98c2a-0581-4e5a-b356-9a0202ee245c
+created_at: '2025-11-12T10:00:23.102Z'
+updated_at: '2025-11-12T10:00:23.102Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 047794df-a06a-4565-91ac-4fc83d7dadca
+  - 126fe463-c771-4351-9779-1e6902ac9789
+  - 8b5801de-3f0e-4cc9-94f5-9d4e505c1a7c
+  - a3031c37-cee3-4066-81cb-b1ee62524772
+  - e01b5221-f54d-4fdd-b6a7-2474ab9e0728
+secondary_material_types: []
+opentag_uuid: 6f5a66b4-9067-5e3f-be6a-cab871bddbaa

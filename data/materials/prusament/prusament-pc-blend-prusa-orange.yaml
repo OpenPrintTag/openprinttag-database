@@ -1,0 +1,71 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 18d86ff7-ed6c-409a-b3d1-243853c782d2
+  hardness_shore_a: null
+  hardness_shore_d: 79
+  fff_material_properties: aaeaa1fb-94e5-4bdc-9d94-0da5f71f0c41
+  sla_material_properties: null
+  min_print_temperature: 265
+  max_print_temperature: 285
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  heatbreak_temperature: null
+  min_chamber_temperature: 60
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d189ec46fafa.png
+    type: gallery
+tags:
+  - 59377502-a537-44e5-a394-61969dba22ed
+uuid: 18a68d86-0bc0-453d-88bb-9887ac3715d6
+slug: pc-blend-prusa-orange
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC Blend Prusa Orange
+abbreviation: null
+url: null
+primary_color: 8ad4b088-4040-48ef-b59b-34a387ae2e8d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '6.40'
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: 'Prusament PC Blend is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.03mm precision and highly-consistent colors. You can inspect the parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/d189ec46fafa.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:44.681Z'
+updated_at: '2025-03-25T22:32:44.681Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 2121
+packages:
+  - d54a864e-13dd-41da-9921-1537d0cd2cc5
+  - e5c6447a-ed75-4058-ba29-acd2476b6203
+secondary_material_types: []
+opentag_uuid: 53d353de-05c1-5de7-b078-162c730a0367

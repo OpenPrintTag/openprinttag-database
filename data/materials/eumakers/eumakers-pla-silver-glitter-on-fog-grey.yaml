@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5fb2eead-9c10-404d-a4c1-3ab5511cc384
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 2b37b614-7da2-49e2-92c3-c3e1c42865b5
+slug: pla-silver-glitter-on-fog-grey
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Silver Glitter on Fog Grey
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-silver-glitter-on-fog-grey.html
+primary_color: eaf3d580-c9d1-4c60-89c1-3937e65d19ef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Silver Glitter on Fog Grey.
+  This special filament features silver glitter within, which gives out a special glare.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/2b37b614-7da2-49e2-92c3-c3e1c42865b5.png
+deleted_at: null
+deleted_by: 3810e182-7d99-4b13-9f1f-46157972d516
+created_at: '2025-11-12T10:37:27.534Z'
+updated_at: '2025-11-12T10:37:27.534Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 39160135-c3d3-4116-98ba-78b3bc0c6e4b
+  - c7eb93be-1502-4910-b998-de22af087f14
+secondary_material_types: []
+opentag_uuid: d5ebdf53-83f3-5054-bf29-0ff70a95792a

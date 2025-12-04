@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bef9ba8e-1e68-40f1-923c-c36e10bd24b6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 8ecd9993-3a72-4bfc-9cb4-7f10e8ef94bc
+slug: asa-orange
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Orange
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/asa-filament?variant=49109313913159
+primary_color: ae0b6f98-6fa2-4af0-9c86-62785981cd02
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ASA Filament represents a breakthrough in professional-grade 3D printing filament, meticulously engineered to deliver exceptional performance in challenging environmental conditions. The material's advanced composition provides superior technological capabilities that distinguish it from conventional filament options.
+thumbnail_url: https://file.myfilamentlist.com/new/8ecd9993-3a72-4bfc-9cb4-7f10e8ef94bc.png
+deleted_at: null
+deleted_by: bad5a968-a33b-42af-8bc1-bee50ef3fefc
+created_at: '2025-11-11T11:34:06.925Z'
+updated_at: '2025-11-11T11:34:06.925Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 0e528c8c-4b86-4cfd-9165-280584095f13
+  - b7fe55ba-27de-4e79-bfb8-f6a45496a816
+secondary_material_types: []
+opentag_uuid: a8444e43-9839-5cf0-9cc3-270d7ece14a9

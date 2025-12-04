@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e8d2180ace50.png
+    type: gallery
+uuid: 8b311fec-df9e-4aea-b0b4-4c548506b3fc
+slug: asa-chlorophyll-3
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Chlorophyll
+abbreviation: null
+url: null
+primary_color: 8fa7c8a8-33a8-4e15-8762-006bce9dad4f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ASA is a filament for 3d printing with exceptional weather resistance. Unlike many plastic materials, the ASA maintains its color and impact resistance, even after long-term outdoor use.
+
+  Unlike many plastic materials, the ASA maintains its color and impact resistance, even after long-term outdoor use. It is mechanically robust, perfect for applications with need of resistance. Resistant to ultraviolet rays (U.V.), therefore does not  goes yellow. Water resistant. It has great dimensional stability, so it does not present warping and the printing pieces have good tolerances.
+
+  APLICATIONS
+
+      Prototyping of parts that require resistance to UV rays
+      Decoration objects and figures for outdoors
+      Automotive industry
+      Signage
+      Industrial applications that require mechanical resistance
+      Water and weather resistant parts
+      Electrical installations
+thumbnail_url: https://file.myfilamentlist.com/f/new/e8d2180ace50.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T21:00:56.053Z'
+updated_at: '2025-03-29T21:00:56.053Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 4992
+packages:
+  - 29039b1c-82ee-409a-9237-046250672040
+  - 7746a780-87e1-4bf6-b31d-d6c9342949c0
+secondary_material_types: []
+opentag_uuid: ffb326cb-edc3-5ab6-b469-42865c712e52

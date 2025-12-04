@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.32000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 395b47d9-705d-4fcb-8814-05ed359ae3bf
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - d5e1a220-4061-4837-916a-8e4663bd7b4d
+uuid: 6e6df612-621c-47b7-a0a4-bd32f07034cc
+slug: petgptfe-signal-white
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG/PTFE Signal White
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-ptfe/
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  PETG with tribological properties
+
+  The popularisation of 3D technology and the increase in specific expectations regarding the functionality of prints brings the need to develop increasingly specialised materials. Analysing the needs of the market and repeated requests from customers, we decided to supplement our range with PETG material with tribological properties.
+
+  We present Spectrum PETG/PTFE copolymer for use in sliding elements and gears. As the basis for the material, we used PETG, well-known for its excellent mechanical properties, supplemented by adding 10% PTFE, commonly known as Teflon, with self-lubricating properties. Thanks to the meticulous selection of components while reducing the coefficient of friction, the filament retains the ease of printing, interlayer adhesion, impact strength and thermal properties typical of PETG.
+
+  Spectrum PETG/PTFE will find use in printed components subject to increased wear from friction and operating temperatures of up to 70°C. The filament is available in a wide range of colours.
+thumbnail_url: null
+deleted_at: null
+deleted_by: f0bc48a7-3626-484e-bfa1-eecbbe4a1a3c
+created_at: '2025-10-15T09:52:25.196Z'
+updated_at: '2025-10-15T09:52:25.196Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: bb854157-bb84-589a-bc5c-ae099aef634a

@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: fcd3724a-ba57-4f26-bcd7-b037c526de60
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/9c6bf4a1-0fde-4286-9d28-816145443667/abba1058cad6.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 9c6bf4a1-0fde-4286-9d28-816145443667
+slug: tpu-transparent-clear-blue
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Transparent Clear Blue
+abbreviation: null
+url: null
+primary_color: 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Crystal Clear TPU for Stunning and Transparent 3D Prints
+
+  Elevate your 3D prints with the crystal clarity of TPU Transparent Filament. Tailored for both hobbyists and experts, this filament merges superior quality with a transparent finish that catches the eye.
+thumbnail_url: https://file.myfilamentlist.com/f/9c6bf4a1-0fde-4286-9d28-816145443667/abba1058cad6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:29.294Z'
+updated_at: '2025-04-03T22:28:28.365Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6673
+packages:
+  - 3cd830c1-9577-40a0-b6df-312d70b615f8
+secondary_material_types: []
+opentag_uuid: 748654af-ecbb-55da-89ed-c522f137c3a2

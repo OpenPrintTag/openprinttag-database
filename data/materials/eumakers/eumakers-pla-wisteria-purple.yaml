@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 754ad383-2998-4f55-bdd9-b86610511e8d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2f8bd579-44a6-4df4-afdb-d796f911bee1
+slug: pla-wisteria-purple
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Wisteria Purple
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-wisteria-purple.html
+primary_color: 527d2102-91ba-4b1d-807c-a1803d946750
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/2f8bd579-44a6-4df4-afdb-d796f911bee1.png
+deleted_at: null
+deleted_by: a9ef0a4e-5afb-44d8-899d-dcad6eaf1b53
+created_at: '2025-11-11T12:29:49.229Z'
+updated_at: '2025-11-11T12:29:49.229Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - bf142210-835e-460c-bfe0-586e22a807eb
+  - ea07262e-1549-43d1-b95c-b46d49cc38db
+  - ecd2a360-34cc-42fe-b4df-a632bf4afe9b
+secondary_material_types: []
+opentag_uuid: 44e0eff5-7b2a-53f4-a8b0-8dd63150910d

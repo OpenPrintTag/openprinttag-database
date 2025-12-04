@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f87a713c-923c-4192-9532-42903499c64b
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 5762c2af-501a-425e-bde2-137ef0dc390d
+slug: s-flex-carbon
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: S-Flex Carbon
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-carbon/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Extraordinary synergy of flexibility and durability
+
+  Filament S-Flex Carbon is an innovative 3D printing material that seamlessly combines the flexibility of traditional flex filament with the added strength and durability provided by a 20% carbon fiber reinforcement. This hybrid material offers a wide range of applications thanks to its unique combination of properties.
+
+  In essence, S-Flex Carbon Filament retains a flexibility (90A Shore hardness) and elasticity similar to standard flex materials, making it an excellent choice for projects that require bending and resilience. However, what sets it apart is the addition of carbon fiber, which dramatically improves its mechanical properties. The carbon fiber reinforcement imparts impressive tensile strength, stiffness, resistance to deformation, and increased chemical resistance. Additionally, S-Flex Carbon filament exhibits excellent resistance to elevated temperatures, further expanding its usability.
+
+  The carbon fiber content provides electrical conductivity to 3D-printed components, making this filament ideal for applications requiring protection against electrostatic discharges (ESD).
+
+  Filament S-Flex Carbon offers an exceptional synergy of flexibility and strength, making it a versatile 3D printing material suitable for various applications across multiple industries. Whether you need durable prototypes or sturdy end-use parts, this material provides the right balance to meet your requirements.
+thumbnail_url: null
+deleted_at: null
+deleted_by: cf20def9-d597-42cd-9d4e-559f225e14f8
+created_at: '2025-10-17T08:46:54.769Z'
+updated_at: '2025-10-17T08:46:54.769Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: null
+colors: []
+packages:
+  - 74a31313-8508-42e4-b978-132b5fba1528
+  - 7dd81b21-c9df-4ff5-b7df-d244a257eb9f
+secondary_material_types: []
+opentag_uuid: c471ed7f-4303-5e08-84c1-bf2b5d45904f

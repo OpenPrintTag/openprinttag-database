@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ced9634ada81.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 67a1fc4d-ad6c-44ed-86a4-107e64f08cf0
+slug: polycarbonate-blue-3
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Polycarbonate Blue
+abbreviation: null
+url: null
+primary_color: 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Polycarbonate (PC) 3D Printer Filament
+
+  The Gizmo Dorks 3D printer Polycarbonate filament, also known as PC filament, is a strong thermoplastic material used in 3D printing. Polycarbonate filament has many uses in everyday applications. It is a good electrical insulator while having heat-resistant properties. Polycarbonate is used in data storage for compact discs, DVD's and Blu-Ray's. It is used in many medical applications as well as for parts in today's advanced phones. It is commonly used in eye protection, and it is used after lamination to make bullet-proof glass.
+
+  Polycarbonate filament is such a great 3D printing filament material because of it's strength. It is a really strong material while still maintaining temperature resistance. Polycarbonate does not shatter like plexiglass. It tends to bend and deform similar to hard rubber until it eventually breaks. It also has high optical clarity. PC absorbs a lot of moisture in the air. It is a hygroscopic material, and it is best to store in an airtight container when not in use. Even during use the material can become unprintable within a 24 hour print if in a humid environment. Therefore, keeping in an airtight container during printing as well is ideal. Dry PC filament will print more clearly. Filament that has absorbed moisture will print white as well as pop and bubble during the print.
+
+  Extruding temperature for Polycarbonate filament is generally around 260degreesC, depending on the printer. PC 3D filament slowly softens when heated, unlike PLA which has a high transition temperature. Slower print speeds are preferred as an increase in temperature is required for faster prints. Polyimide tape (Kapton tape) should be used on a heated bed, ~120degreesC, with ABS juice on top of the tape. Some users prefer applying glue or superglue on a glass bed and then heating to ~120degreesC. Please do not inhale any fumes. Heated up superglue can release toxic fumes, so only use in a well ventilated area.
+
+      Filament net weight = 1 kg or 2.2 lbs
+      Printing temperature : 255degreesC - 300degreesC depending on part and printer type
+      Print bed temperature: 120degreesC or as close as your bed can heat up to
+      Print speeds : 30mm/s is ideal, can go up to 60 or 80mm/s
+      Store airtight in use and when not in use, absorbs moisture
+      Only use in well ventilated areas or in a ventilated system
+thumbnail_url: https://file.myfilamentlist.com/f/new/ced9634ada81.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:30.740Z'
+updated_at: '2025-03-25T22:34:30.740Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3480
+packages:
+  - 2e99c180-e462-4d3b-8d1c-c816dbbd4267
+  - 967dd951-727b-4873-8572-2f516f8370f6
+secondary_material_types: []
+opentag_uuid: 5c5b3e46-d545-5443-87cc-72000fba4c95

@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e75b98d677b4.png
+    type: gallery
+uuid: cb154777-65f8-4ba9-9aa9-96ec8e45f932
+slug: hips-natural-3
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS Natural
+abbreviation: null
+url: null
+primary_color: 6309bc7c-5076-482a-8de0-93903d672d42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: HIPS is a support material that has been specifically formulated to be sensitive to attack from d-limonene solvents
+thumbnail_url: https://file.myfilamentlist.com/f/new/e75b98d677b4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T11:07:29.617Z'
+updated_at: '2025-04-30T11:07:29.617Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 7340
+packages:
+  - 199c96d1-8247-4579-85c7-f35f5019d445
+  - 46a2d0b0-f38b-4374-af3e-1a8d489efb33
+  - 6f4201e1-53fd-4eb3-96fd-1fff7572be38
+  - 904c9dc3-3483-4c1c-9d04-6386880b3992
+  - a9db6959-c8e8-464e-8152-2e02f395a0a7
+  - c8999c18-a2f0-4cd5-bc06-81d39ebaf0ca
+secondary_material_types: []
+opentag_uuid: 2d8a56fd-87c7-5f78-85e5-8e384fffb7da

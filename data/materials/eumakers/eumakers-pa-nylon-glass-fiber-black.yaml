@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 90bc5663-f46d-40f8-abbe-d475c4d59d50
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+uuid: 08aa8bc8-9105-4807-985f-4c4032bb4584
+slug: pa-nylon-glass-fiber-black
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA Nylon Glass Fiber Black
+abbreviation: null
+url: null
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PA filament Nylon Glass Fiber in Black color.
+
+   
+
+  NYLON GLASS FIBER is a high quality filament in reinforced polyamide with glass fibers, which is odourless during the extrusion process.
+  Glass fiber filament is ideal for engineering prototypes that require optimal mechanical and heat resistance.
+  The manufactured articles obtained by the extrusion of this material cannot be deformed.
+
+  N.B. We recommend using stainless brass or resistant copper alloy nozzles.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/08aa8bc8-9105-4807-985f-4c4032bb4584.png
+deleted_at: null
+deleted_by: 6674c249-4d2d-49cd-ad3a-2b0018d42beb
+created_at: '2025-11-12T11:06:09.644Z'
+updated_at: '2025-11-12T11:06:09.644Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: null
+colors: []
+packages:
+  - 4622d1aa-1aa6-4f3e-8f23-46184b118985
+  - 51590c1a-2e7a-48b4-8d06-b591e0044c95
+  - 6224ae45-bedd-4430-9432-eb1befab4687
+  - 6c0bd3b3-a2f2-4e91-9020-ea42ef0a3511
+  - 6f38f439-4b28-491f-8031-b2a8d5e5bebd
+  - a1bd4900-e69d-4616-914d-8bc9ff789de2
+secondary_material_types: []
+opentag_uuid: adb1af1c-87cf-5250-8fac-56874217ec2c

@@ -1,0 +1,64 @@
+uuid: e9b0c98d-3570-4f6d-9bb0-6929ed324d56
+slug: petg-grasgrn
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Grasgrün
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/232/petg-filament-1-75-mm-grasgruen-800-g?c=35
+primary_color: 8fa7c8a8-33a8-4e15-8762-006bce9dad4f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Entspricht RAL 6037 Reingrün ( geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: b08a5527-ff42-4bb3-8d29-9f0f989f3edd
+created_at: '2025-10-19T09:16:46.002Z'
+updated_at: '2025-10-19T09:16:46.002Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 692c5025-82f4-4044-896c-b856024abc4e
+  - d742881a-2378-40c2-abe3-71e4604e583a
+secondary_material_types: []
+opentag_uuid: af4fd1ee-82d8-52ab-8701-a4774c38f05e

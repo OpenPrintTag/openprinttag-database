@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0a4189eee893.png
+    type: gallery
+uuid: c8f21a55-7376-4278-ac77-af40a25b0088
+slug: pc-white
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PC White '
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Product Features
+
+      Exceptional Thermal Resistance
+      Excellent Mechanical Properties
+      High Impact Strength and Durability
+      Suitable for Engineering Purpose
+      Comes with High Temperature Reusable Spool
+      Diameter: 1.75mm +/- 0.03mm
+
+
+  Cautions for Use
+
+      Dry out before use
+      AMS Compatible
+      AMS lite NOT Compatible
+      Enclosure Printers Required
+thumbnail_url: https://file.myfilamentlist.com/f/new/0a4189eee893.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:46.929Z'
+updated_at: '2025-03-25T22:32:46.929Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 1908
+packages:
+  - afbbd5c0-6cd7-4079-9105-94befe456cc2
+secondary_material_types: []
+opentag_uuid: b655f02c-f4a4-5282-bb17-96f83d8f6ba7

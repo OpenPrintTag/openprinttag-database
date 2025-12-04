@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c817e5a5-f8b9-4373-926e-6f12dfc7d4f5
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: d0a84cad-7d02-4f90-b80b-229007cf7e37
+slug: petg-transparent-11
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Transparent
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-winkle-1-kg-transparente-285-mm/
+primary_color: df11c8f3-7ff2-43dc-bca9-3958ac7f1a51
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  A versatile and durable filament, ideal for creating reliable, long-lasting parts without compromising print quality.
+  PETG combines the best of PLA and ABS: it offers greater mechanical and thermal resistance than PLA, without the complications of ABS. Its enhanced chemical structure provides increased elasticity, impact resistance, and excellent layer adhesion.
+
+  This filament is perfectly suited to the needs of both hobbyists and 3D printing experts. Once printed, PETG stands out for its resistance to moisture, UV rays, and chemicals, making it a reliable choice for parts exposed to demanding conditions.
+
+  With precise 1.75 mm diameters, this PETG Filament melts evenly at temperatures between 220 °C and 240 °C, ensuring clean, warp-free prints with high detail. Recommended bed temperature is between 60 °C and 80 °C.
+
+  Available in three options to suit your needs:
+
+  300 g – Ideal for testing or small projects.
+
+  1 kg – Standard for regular use.
+thumbnail_url: https://file.myfilamentlist.com/new/d0a84cad-7d02-4f90-b80b-229007cf7e37.png
+deleted_at: null
+deleted_by: ff9b98fa-9d9c-4fef-88b6-a3bbb3637565
+created_at: '2025-11-21T11:27:49.008Z'
+updated_at: '2025-11-21T11:27:49.008Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 053a09af-b5da-496e-9435-82bc22f52bdb
+  - 1de6d651-7213-466c-9e2c-a62d41f7ad16
+  - c9492995-f050-4850-a2e5-114a74289926
+secondary_material_types: []
+opentag_uuid: edbc794b-ef91-5a07-84d3-195a77c5d6ba

@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.12000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f20bd936-545b-4509-9959-b717c641a6b1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 5dfd648e-75e2-48a4-89ae-164190e6c5c6
+slug: the-filament-asa-cf-blue
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament ASA CF Blue
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-asa-cf/
+primary_color: 63e4b341-a699-4d89-b36d-4daed98a7aea
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  THE FILAMENT ASA CF is an advanced composite filament that combines the weather resistance of ASA with carbon fiber reinforcement, delivering exceptional rigidity and dimensional stability. This makes it an excellent choice for outdoor applications where durability and precision are essential. THE FILAMENT ASA CF offers high resistance to UV radiation, moisture and elevated temperatures, ensuring long-lasting performance in outdoor environments.
+
+  THE FILAMENT ASA CF is available in several color variants, allowing you to match the material to your design needs – without compromising between aesthetics and functionality. With its optimized formulation, printing is smooth and stable, with minimal risk of warping.
+
+  The presence of carbon fibers increases the stiffness of the material, making it suitable for printing parts exposed to mechanical stress, such as housings, brackets or automotive components. The matte surface finish provides a clean, aesthetic appearance while minimizing visible layer lines and the distinctive carbon-textured surface gives prints a technical and professional look.
+thumbnail_url: null
+deleted_at: null
+deleted_by: e81f191d-fe3f-4f2b-9dc4-6d3be87f9f36
+created_at: '2025-10-15T14:44:43.620Z'
+updated_at: '2025-10-15T14:44:43.620Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 1583f142-fbb0-508e-93c0-3d1790252377

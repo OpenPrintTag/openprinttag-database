@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f16083a7dcac.png
+    type: gallery
+uuid: 35eb9e7b-05a4-4243-8812-51a8c0ac5b0f
+slug: polylite-petg-purple
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ PETG Purple '
+abbreviation: null
+url: null
+primary_color: eee1b392-28ab-414a-bc18-8f9d09654530
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PETG is an affordable PETG filament with balanced mechanical properties and ease of printing.
+
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f16083a7dcac.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:40.115Z'
+updated_at: '2025-03-25T22:34:40.115Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3402
+packages:
+  - 1f2fcbbf-34e0-4195-ad1a-9b50e8d1f563
+  - 613f7e01-a0b7-44a4-9141-45980485b70c
+  - 619a0b53-be43-49ee-a01c-14f0ef1814f8
+  - 84a5d235-dbf7-4b69-be00-087505456e61
+  - 8f814093-e527-48f3-9abf-ca92b6da7731
+  - c664730b-1a01-444d-a9cf-81f09d083a8c
+secondary_material_types: []
+opentag_uuid: be42e5e8-fdac-58fc-96cb-d795c1e03e26

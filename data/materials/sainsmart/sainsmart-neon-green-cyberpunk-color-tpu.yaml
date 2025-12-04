@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ec813c99-c021-48cc-9213-f25e269c186c
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: d8de0151-50a0-4f05-a144-09803120172d
+slug: neon-green-cyberpunk-color-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Neon Green, Cyberpunk Color TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/neon-green-cyberpunk-color-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=8&_fid=0b0f09340&_ss=c
+primary_color: e2698625-8666-4ba7-a278-49db768a756c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+
+
+      Electrifying and intense, solid neon colors inject excitement and inspiration into designs. Enliven your work with these neon color filaments.
+      Filament Diameter: 1.75 mm; Shore Hardness: 95A; Dimensional Accuracy +/- 0.05 mm; 0.8 kg (approximately 1.76 lbs) per spool; Vacuumed sealed with desiccant; Recommended extruder temperature: 195 - 230°C; Recommended platform temperature: 40 - 60°C
+      SainSmart TPU filament is renowned for its high quality and ease of use, offering you flexible and strong parts with consistency and smooth finish.
+      Compatibility: It is compatible with most FDM printers on the market that use 1.75 mm filament, including Creality, Prusa i3, Monoprice MakerSelect & Qidi, and other RepRap printers.
+      TPU filament is very versatile and it is therefore widely used in 3D printing. With it, you can make your own FPV drone parts, Playstation cover/skin, phone cases, phone stands, toys and so on.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 8705846f-8e10-4689-bf86-c2d43634e7c7
+created_at: '2025-09-26T14:20:12.777Z'
+updated_at: '2025-09-26T14:20:12.777Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9179
+packages:
+  - 2f2888fa-c5d7-49be-8435-e3929052de45
+secondary_material_types: []
+opentag_uuid: 5fa65b05-2fd8-5423-941c-46471c6eac53

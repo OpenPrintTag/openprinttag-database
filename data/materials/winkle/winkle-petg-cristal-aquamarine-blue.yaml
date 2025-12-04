@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f81f4c0a-c71c-4fb6-9047-355b031c3575
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 5a0ad1d7-888b-4dd3-89d0-0e8a6d2ae147
+slug: petg-cristal-aquamarine-blue
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Cristal Aquamarine Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-cristal-winkle-175-mm-0300-kg-azul-aguamarina/
+primary_color: f6cc499f-46ba-44a4-9fc8-35d40562d59d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Translucent finish, high strength, and professional aesthetics.
+  With this 3D printer filament, you’ll combine modern aesthetics, precision, and durability. Winkle’s 1.75 mm Crystal PETG Filament is the perfect solution for 3D-printing enthusiasts who want both functional and visually appealing results.
+
+  Ideal for 3D prototypes such as decorative objects or technical parts with translucent finishes, this filament adapts to all your creative and technical needs. Available in 300 g and 1 kg spools, it is compatible with most FDM 3D printers on the market.
+thumbnail_url: https://file.myfilamentlist.com/new/5a0ad1d7-888b-4dd3-89d0-0e8a6d2ae147.png
+deleted_at: null
+deleted_by: ac7a6029-fc14-4715-b632-381427a70ce4
+created_at: '2025-11-21T11:01:12.830Z'
+updated_at: '2025-11-21T11:01:12.830Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - a42f8e2c-52b8-4536-be30-054fb2fffcaa
+  - bef6a406-1fa9-422f-8639-328cec745414
+secondary_material_types: []
+opentag_uuid: c0890acb-99ed-5a24-be8e-bf02d1ee5b27

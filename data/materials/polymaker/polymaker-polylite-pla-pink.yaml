@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bab086f065e5.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7c3473a8-823f-4fe1-9f76-0d203c174c95
+slug: polylite-pla-pink
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PolyLite™ PLA Pink '
+abbreviation: null
+url: null
+primary_color: 93df95b5-4ade-4372-9f27-83a63546c3d5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/bab086f065e5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:42.893Z'
+updated_at: '2025-03-25T22:34:42.893Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3204
+packages:
+  - 2476ea29-d852-4e8d-af33-94e67e42aaa9
+  - 29e4d5b3-4775-476e-be2a-15b355d31cf4
+  - 4822c178-7ee9-4310-abfe-0c3040528b72
+  - 5780e514-dc7f-4297-8447-bc881d9f0cfb
+  - 9a39596d-fcc7-493b-b90c-e3bc939e7550
+  - cc2e5a57-8878-4be2-a2bc-b8859251c977
+secondary_material_types: []
+opentag_uuid: cbb2942d-336e-5f1f-ae73-54aae80ec897

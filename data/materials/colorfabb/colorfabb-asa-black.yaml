@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/135de739341c.png
+    type: gallery
+uuid: e0d6ca91-c38c-41fd-957d-999f359a6f94
+slug: asa-black-16
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Despite the black color this ASA filament won't degrade in the sun. With a high temperature resistance and inherent UV stability ASA Black is well suited for outdoor applications.
+
+  ASA is more susceptible to warping compared to PLA or PETG type filaments. Please find our Printing Advice below for more detail.
+
+      UV resistant
+      High temperature resistant
+      Tough and rigid
+
+  The two most important features of ASA are its inherent UV stability and high temperature resistance of 96C. This material is well suited to be used for long lasting outdoor applications.
+
+  Parts printed with ASA can withstand prolonged exposure to UV light and retain toughness and durability for a much longer time then ABS. Therefore ASA is a really interesting alternative to ABS.
+
+  ASA is more susceptible to warping compared to PLA or PETG type filaments. Especially models with a large footprint can shrink and warp during printing, but compared to ABS in most cases less severe.
+
+  Apart from using a large brim and heated buildplate of 90-100C (or higher if your machine is capable) we can also advice the following. Print a tall skirt around your model to reduce cold air flow around the printed model or print inside an enclosure for better control of the environment temperature.
+thumbnail_url: https://file.myfilamentlist.com/f/new/135de739341c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.649Z'
+updated_at: '2025-03-25T22:31:13.649Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 144
+packages:
+  - 411222c3-ac02-4585-92e1-ac4b64a943be
+  - 91ca8ed2-9129-454c-94b3-658487b5965e
+  - 9296543a-dca4-47a2-aeee-283cdd5086f7
+  - aad60fdf-122f-4bf6-96b8-57c6ff15fcd5
+secondary_material_types: []
+opentag_uuid: b9a7fa48-03f4-52ab-8737-1f1d3a5d0fc8

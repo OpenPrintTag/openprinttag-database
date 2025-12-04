@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a4ca7935f4f2.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: da13740e-dcd6-4051-9d7c-1d792ebe138c
+slug: pla-purple-11
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Purple
+abbreviation: null
+url: null
+primary_color: 54951476-79a3-438c-a799-1ccf1bf37626
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Gizmo Dorks PLA filament is made from the highest quality virgin material. PLA, Polylactic Acid, is created from processing a number of plant products. PLA can be composted at commercial facilities unlike ABS which is derived from fossil fuels. PLA is a more earth friendly plastic and more rigid than ABS, and in general the printed objects will have a more glossy look and feel compared to ABS. PLA can be sanded and machined. PLA has a lower melting temperature compared to ABS. As a material, PLA has much less warping versus ABS. Additionally, a heated bed is not required to print it. PLA generally enjoys sharper details and corners compared to ABS without the risk of cracking or warping. PLA can also be printed at higher throughput speeds. 
+
+      Extrusion Temperature: 190 - 225 C
+      Heated Bed: Not required but recommended at 60 C
+      Diameter: 1.75mm +/- 0.03mm
+      Net Weight: 200 grams 
+
+  Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to try the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/a4ca7935f4f2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:13.645Z'
+updated_at: '2025-03-25T22:34:13.645Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2081
+packages:
+  - 81cf30b3-8ff6-40df-a014-69e4dd0728e5
+  - 9d42786c-1b0d-40ad-a10e-0f0071256dd1
+secondary_material_types: []
+opentag_uuid: 0dbb09f1-13f6-5d34-ad59-8228632500d7

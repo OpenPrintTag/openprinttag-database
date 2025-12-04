@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/be32bda530e3.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 5802036a-634f-4ac0-8258-d85727491da2
+slug: polylite-abs-lime
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ ABS Lime
+abbreviation: null
+url: null
+primary_color: 1c82a4c8-bd1f-419c-aafd-6ffbe8cf6c77
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ ABS is made with a specialty bulk-polymerized ABS resin, which has significantly lower volatile content compared to traditional ABS resins. It delivers excellent printing quality with minimal odor during printing.
+
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+
+  If using a stock, older style printer - we would recommend printing slower. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/be32bda530e3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:32.853Z'
+updated_at: '2025-03-25T22:34:32.853Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3385
+packages:
+  - 08f8a5df-ee35-4b65-bbae-1ba4d0dac7f1
+  - 1d228bad-4cda-4e85-9ed5-62b0b895ce4a
+  - 395c6dd5-2b89-4fff-96d2-d3a6c4279bd8
+  - 61e2d4b0-23c4-421c-9970-4edd3c23111d
+  - 64d14641-41c9-4961-a901-53baeb4a2301
+  - 89564835-45ab-4b6b-b659-63b154c18d0f
+secondary_material_types: []
+opentag_uuid: 2a9e8e27-b1dd-5701-84e4-488eea210cc7

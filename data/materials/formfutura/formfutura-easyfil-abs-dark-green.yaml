@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/24421bf1068f.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 8c8d593b-d838-494d-b1b3-b10e7a6669ee
+slug: easyfil-abs-dark-green
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil ABS Dark Green
+abbreviation: null
+url: null
+primary_color: 619dde05-83ae-4bfa-bdf5-99feaee10d49
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil ABS is an advanced and relatively easy to process ABS type of 3D printer filament that offers improved mechanical properties compared to regular ABS filaments.
+
+  EasyFil ABS is an easy to use and high-end ABS (Acrylonitrile Butadiene Styrene) 3D printer filament. It is optimized for FFF / FDM 3D printing technology. This has resulted in a filament with a high impact resistance and a high printing stability.
+  EasyFil ABS prints at slightly higher printing temperatures than regular ABS.
+
+   
+  Unique features
+
+      Superb process stability and limited warping
+      Significant higher impact resistance than average ABS
+      Very strong and durable
+      Light-weight
+      Viscat softening temperature of ± 103° C
+      Wide variety of vivid opaque colors
+thumbnail_url: https://file.myfilamentlist.com/f/new/24421bf1068f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:24.639Z'
+updated_at: '2025-03-25T22:31:24.639Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 223
+packages:
+  - 14886adb-73b6-4012-a346-e55ec9da67a6
+  - 77ca3e6c-7a04-4539-9932-8c98b21f1371
+  - 8854e523-4c2e-4c0d-8a15-116a00e0dc85
+  - bab77063-e218-4608-87c4-abfe64bb554f
+secondary_material_types: []
+opentag_uuid: 0a8785e2-e9f1-5fda-b355-3c1c1de6e8c2

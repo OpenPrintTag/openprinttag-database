@@ -1,0 +1,72 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/885372945867.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 9b2f1bee-b340-4151-b60f-9fcfd4a765e2
+slug: petg-translucent-green
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Translucent Green
+abbreviation: null
+url: null
+primary_color: 225dbbc3-cf44-40d9-b5a9-5efb0fe94986
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The Gizmo Dorks PETG filament is a close cousin to PET (Polyethylene terephthalate) filament. PETG is a new updated version that has enhanced properties. The optimum print temperature is between 230degreesC - 260degreesC. Please note that different printers print at slightly different temperatures. PETG filament has minimal shrinkage and warping. The filament has easy adhesion, so it can be printed on acrylic, glass, polyimide (Kapton) tape, blue tape, and others. A heated bed is not required.
+
+  PETG filament has good flexible strength more than ABS filament. It's the perfect filament to combine strength and flexibility, which is why it's used in so many mechanical parts or robotics. The filament is super transparent with a glossy finish. It has great chemical resistance with good acidic and alkalic resistance. The superb chemical resistance is why the FDA has approved PET as acceptable for direct food contact. The filament is environmentally friendly and recyclable. PETG is known for it's transparency and clarity.
+
+      Filament net weight = 1 kg or 2.2 lbs
+      Printing temperature : 230degreesC - 260 C
+      Heated Bed : 80 C
+      Print speeds : 55 mm/s or less
+      Great strength and flexibility
+      Easy adhesion to print on a number of surfaces
+
+  PETG Tips
+
+  The nozzle head should be offset on the Z axis. PETG does not like to be printed out squished unlike other filaments. There should be a gap to allow for the material to lay down. PETG has a high tendency to skim previous layers which will cause a buildup around your nozzle and stringing effects.
+
+  PETG sometimes bonds too well to certain surfaces. If this is the case then scale back the be temperature and / or increase first layer print speed.
+
+  PETG can be printed with or without a fan. For strongest inter layer adhesion, then print PETG without a fan. The hot plastic will bond incredibly well to the previous layer. If you want high detail and no strings, then turn on the fan to 100%.
+thumbnail_url: https://file.myfilamentlist.com/f/new/885372945867.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:02.953Z'
+updated_at: '2025-03-25T22:33:02.953Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2397
+packages:
+  - ad5acbcd-1353-4ab2-923f-7f1e34a8d176
+  - e16f18f7-1358-4b69-ba3b-70a7d4700ea3
+secondary_material_types: []
+opentag_uuid: c08297bd-7265-5f26-9fa1-6d9ddf32e586

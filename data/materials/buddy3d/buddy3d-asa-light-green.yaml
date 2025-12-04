@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 428242de-74ef-4181-9faa-adbd91b0f596
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: 46c69337-ae2a-4efe-85f6-46d8e133abdd
+  sla_material_properties: null
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  heatbreak_temperature: null
+  min_chamber_temperature: 55
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+uuid: 58bb50b7-7bed-4caa-afa6-a9326ca68590
+slug: asa-light-green-3
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Light Green
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-asa-light-green-750g/
+primary_color: 4b80164f-b954-403b-898f-30f8fb65245b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 07e5d76c-65ad-4396-a256-15a10406e7ca
+created_at: '2025-09-24T08:14:05.525Z'
+updated_at: '2025-09-24T08:14:05.525Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 8956
+packages:
+  - 05791e5c-22fe-4417-9363-0a0fa7b4bbc3
+secondary_material_types: []
+opentag_uuid: 569ccbcc-9cab-53d2-ac20-b62f44ce91c7

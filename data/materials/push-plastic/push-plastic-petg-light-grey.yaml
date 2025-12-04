@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f593277347e8.png
+    type: gallery
+uuid: 8ffe3fc6-2f4a-4229-b20b-43601ddcc0b6
+slug: petg-light-grey
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Light Grey
+abbreviation: null
+url: null
+primary_color: 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/f593277347e8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:19:54.186Z'
+updated_at: '2025-04-30T12:19:54.186Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7365
+packages:
+  - 0499e743-0ee9-4fa7-b3fc-aaed3c1b1aba
+  - 15040ba7-015b-46f2-a6b5-2e417758daa9
+  - 1f2e4897-2c18-42e2-a150-8318ca3115d6
+  - 40bd98f1-6b1b-4fb0-9f8e-2fa2ff05f67a
+  - 85329074-98f2-43c7-9824-aeb312ffe017
+  - c014e892-669e-4ff1-b68e-39dcfc1d456e
+  - cbc4937b-226c-4cc0-9170-bb299a13b646
+  - d408137b-e08c-4b5b-9e3b-2a0b937805eb
+  - dd6b553a-e0aa-42fb-ab21-1762148ba362
+  - e2256c76-13a5-4e9c-a488-7ac8b5fb66dd
+secondary_material_types: []
+opentag_uuid: ed5e536e-02f1-5587-88d3-63e842f9ac61

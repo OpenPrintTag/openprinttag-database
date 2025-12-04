@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 57284136-822c-4169-960d-99d32c8552fe
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 858cd02e-4310-48e0-8465-c7ba64e02d0d
+slug: pla-pro-coral
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pro Coral
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-pro/
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Improved heat resistance and high impact strength
+
+  Spectrum PLA Pro is a material based on modified PLA dedicated to the manufacturing of filaments for 3D printing. Through the orientation of the chemical composition of the material to achieve satisfactory properties required for additive manufactured items, the advantages of PLA and ABS were successfully combined. It is thus feasible to obtain a high impact resistance of printed items with a high tensile resistance and substantial rigidity, which is typical for PLA-based materials.
+
+  The changed chemical composition has improved the flowability of the material, making the filament suitable for industrial application which requires good mechanical strength properties, high printing efficiency and, most importantly the possibility to increase the printing speed in order to boost the additive manufacturing process capacity.
+
+  Post annealing:
+
+  Filament PLA Pro can be treated at high temperature using a heating chamber. After the model crystallizes, it is characterized by increased thermal resistance (up to 85°C) and almost twice higher resistance than standard ABS.
+
+  *Uneven heating can lead to unexpected deformation and sub-optimal performance of printed parts, please ensure absence of hot / cold spots in the heating chamber. Typical time to anneal parts with a wall thickness of approx. 3.2mm is on average 20 minutes.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b2f9ac5c-29f8-4db7-95f9-4ff4e536e145
+created_at: '2025-09-30T20:34:53.491Z'
+updated_at: '2025-09-30T20:34:53.491Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9421
+packages:
+  - 3129f6b0-df4d-4c7e-a95d-8a94c192f1f0
+  - aae08f7a-d85e-4e73-b364-b189ab214f15
+secondary_material_types: []
+opentag_uuid: f90b92af-1c5d-5698-b6d5-6c52f147d3ba

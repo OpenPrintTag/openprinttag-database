@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f1cf3a8e-05fe-4a60-992b-d99014e007ce
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6c189abc-4f36-452b-a08b-3c1b0cc146d9
+uuid: a6a0f9e4-cdf5-44e8-95c1-35b3282bb257
+slug: pla-hd-texture-marble
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Texture Marble
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-texture-winkle-175-mm-1-kg-marmol/
+primary_color: 57c7c899-f38b-4977-b6ac-a49293477274
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  The Textured PLA HD Filament lets you 3D print models with professional, realistic, and durable finishes.
+  This filament is perfect for 3D prototypes, decorative figures, functional parts, cosplay, or architectural models. It is compatible with any 3D printer that accepts 1.75 mm PLA filament.
+
+  This filament stands out for its advanced composition, featuring 96% stereochemical purity, minimal moisture, and low monomer content. These technical qualities ensure clog-free printing, well-defined layers, and high dimensional accuracy.
+
+  Available colors:
+
+  Sand: Provides a realistic, natural finish that mimics limestone, ideal for models, scenery, or artistic pieces with detailed texture.
+
+  Marble: Offers an elegant veined effect that simulates authentic marble surfaces, perfect for busts, figurines, or sophisticated interior décor.
+
+  This PLA HD Texture filament melts at 155 °C and works best with a nozzle temperature between 190–230 °C and a bed temperature of 50–70 °C. Its tensile strength of 45 MPa ensures durable parts with good structural rigidity.
+
+  If you want to buy 3D filament with unique textures and professional performance, choose Winkle’s PLA HD Texture Filament—a reliable option to take your 3D printing projects to the next level.
+
+  Specifications:
+
+  Weight: 300 g and 1 kg
+
+  Diameter: 1.75 mm
+
+  Colors: Sand and Marble
+thumbnail_url: https://file.myfilamentlist.com/new/a6a0f9e4-cdf5-44e8-95c1-35b3282bb257.png
+deleted_at: null
+deleted_by: 4cabcb5b-8864-456b-92f4-a794f97fe390
+created_at: '2025-11-21T12:08:00.351Z'
+updated_at: '2025-11-21T12:08:00.351Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 7747e97f-2b30-4f1a-b88b-bb7b9ce36d60
+  - 92a418b3-4462-4775-8535-a48702fa5b61
+secondary_material_types: []
+opentag_uuid: df4fe09b-d6f3-5d84-a5fa-59a9ecd8d470

@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.19000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bba1bf65-7673-49ea-9473-22a872b50e8c
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/cfa76c4f-cfd2-4195-8eb7-aa6aab673827/533024e5d928.png
+    type: gallery
+uuid: cfa76c4f-cfd2-4195-8eb7-aa6aab673827
+slug: tpu-flexible-solid-blue
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flexible Solid Blue
+abbreviation: null
+url: null
+primary_color: 7bcc5b03-bd50-4722-8912-c1d6b6c019d2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Flexible TPU Filament for Durable and Elastic 3D Prints
+
+  Experience the versatility of flexible 3D printing with our TPU Flexible filament.
+thumbnail_url: https://file.myfilamentlist.com/f/cfa76c4f-cfd2-4195-8eb7-aa6aab673827/533024e5d928.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:21.678Z'
+updated_at: '2025-04-06T01:15:37.219Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6825
+packages:
+  - 799abeb2-ce21-4002-a560-d0324b3c85f6
+secondary_material_types: []
+opentag_uuid: 0132a67a-c97a-5511-852b-44a0baf0bb7b

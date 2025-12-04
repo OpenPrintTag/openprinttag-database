@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 419df4f1-4739-49bf-9fe9-2bfca348e16c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e33f3fc7-84a2-414b-b44e-8e21945458b8
+slug: pla-matt-bahama-yellow
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA MATT Bahama Yellow
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-matt/
+primary_color: 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Spectrum PLA MATT is a PLA-based material with a chemical composition modified so that it would be possible to obtain matte surfaces of printed object. The matte finish of printed items considerably improves their aesthetic properties and also minimises the visibility of layers on the side surfaces of printed items.
+
+  In addition, Spectrum PLA MATT maintains all the features of PLA-based classic polymers, i.e., the easy and highly efficient printing, low shrinkage and very good adhesion between layers and also between the build platform and printed object. Further, the use of admixtures has improved temperature resistance, impact resistance and lowered the brittleness of printed items.
+
+  With the mentioned properties, the applications of Spectrum PLA MATT are mostly oriented towards the presentation of major aesthetic values, i.e., industrial design prototyping for concept visualisation and demonstration of designer variants of structures. It is also used for interior design purposes and architectural models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 2bf6f088-4d0f-478c-959e-8e098bf1ac28
+created_at: '2025-09-30T16:05:00.357Z'
+updated_at: '2025-09-30T16:05:00.357Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9365
+packages:
+  - 312e9fd0-e072-4585-b3e2-91c7909e101f
+  - 6a82a779-53b9-4ef4-afc3-2c33667f3231
+secondary_material_types: []
+opentag_uuid: 217e07fc-b83d-5eeb-89f3-0f8f223cdd6f

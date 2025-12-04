@@ -1,0 +1,65 @@
+uuid: 1c7660d2-7923-471f-9eb9-10e8ba5d6db4
+slug: bvoh-natural-3
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: BVOH Natural
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-bvoh-filament-285-mm-natural-55904
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  A high quality water soluble support material that can be used with a number of different polymers and easily dissolved in cold water. This environmentally-friendly material provides support for printing objects with overhangs or particularly complex structures. Verbatim BVOH follows the tightest quality controls as standard, ensuring excellent layer-forming and adhesion properties.
+
+  Product Details
+
+      - Butenediol Vinyl Alcohol Co-polymer (BVOH) for material extrusion
+      - Water dissolvable support material
+      - Waste can be disposed with household effluent** 
+      - Excellent layer-forming, emulsifying, adhesive
+      - Best in combination with ABS, PLA, and PET material 
+      - Light- and UV-sensitive
+      - High solubility 
+      - Main applications: Support material for filaments, printing projects with overhangs or complex objects 
+
+  **>20 times weight of water to this material required for disposal (i.e >20cc water to 1g BVOH) with a maximum of 2kg of BVOH per day. When more BVOH is to be used per day, professional organic effluent treatment will be required.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 6f958a2c-e85b-4f9f-a512-4e3580736c5d
+created_at: '2025-09-25T08:41:37.900Z'
+updated_at: '2025-09-25T08:41:37.900Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: ff4aad8b-2097-4d5a-bd42-5df8f3984016
+colors:
+  - 9012
+packages:
+  - 7a4959ed-abff-47fc-a2b8-52b88e02e15f
+  - d964c23d-74f9-4eea-b722-f214143c2acd
+secondary_material_types: []
+opentag_uuid: bd06f703-ad3a-5fa6-8605-3d96e81594a6

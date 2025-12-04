@@ -1,0 +1,71 @@
+uuid: d83bf012-ff53-4f35-b841-df3251bfc632
+slug: ecopla-light-green
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Light Green
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-light-green
+primary_color: 698d7a83-0d9e-486e-a226-feda77ec8c94
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing applications.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  The properties of the ecoPLA from 3DJake:
+
+      Minimal shrinkage
+      Minimal warping
+      Good diameter and roundness tolerances
+      No unpleasant odours
+      Easy to print
+      Tougher & less brittle than conventional PLA filament
+
+  3DJake ecoPLA filament can be used with almost any FDM 3D printer.
+
+  All ecoPLA colors are based on the standardized RAL color system.
+thumbnail_url: null
+deleted_at: null
+deleted_by: f9b1b267-0864-4642-a9c2-bf90c271a55e
+created_at: '2025-11-07T10:58:48.554Z'
+updated_at: '2025-11-07T10:58:48.554Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 7fe48c09-65eb-434c-b039-01309aa49559
+  - e36b849e-c125-42dc-990e-35358d5bc416
+secondary_material_types: []
+opentag_uuid: 1cd02474-9051-56e1-a457-18fb02095725

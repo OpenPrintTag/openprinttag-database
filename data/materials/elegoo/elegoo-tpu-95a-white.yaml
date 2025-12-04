@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 346ad2b7-10c4-4304-81b6-0d7086983aed
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d179c4550fab.png
+    type: gallery
+uuid: 8f369415-8ead-4240-8c35-6fd226090a94
+slug: tpu-95a-white-3
+brand_slug: elegoo
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 95A White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Extreme Resilience and Flexibility: Elegoo TPU 95A exhibits unparalleled resilience and flexibility, allowing most prints to stretch up to five times their original size without breaking.
+
+  Long-lasting Performance: Elegoo TPU features exceptional wear resistance, enabling your prints to withstand the rigors of daily use. Its strong impact resistance effectively absorbs shock energy, protecting your prints from accidental drops and ensuring reliable performance under sudden impacts, heavy loads, or potential collisions.
+
+  Built for Outdoor Use: Engineered for outdoor durability, Elegoo TPU offers excellent water and cold resistance to endure harsh rain and snow conditions. It performs well in freezing environments, preserving its integrity and flexibility. Combined with its superior chemical and abrasion resistance, Elegoo TPU is the ideal choice for all your outdoor gear and projects.
+
+  0.02mm Dimensional Accuracy: Our TPU filament is manufactured to strict tolerances with a dimensional accuracy of 0.02mm, ensuring that your prints will come with exceptional accuracy and consistency.
+
+  No Clogging or Bubbles: All our filament is completely dried before packing and vacuum-sealed with desiccants to protect the TPU filament from moisture and dust, preventing clogs and bubbles during printing.
+thumbnail_url: https://file.myfilamentlist.com/f/new/d179c4550fab.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T22:18:52.011Z'
+updated_at: '2025-03-31T22:18:52.011Z'
+brand: 40cd7ae8-2f07-4a99-93d4-db5f8fc20930
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 4783
+packages:
+  - 7bb74661-c0c9-4f92-bc2c-15f65c6b8b36
+secondary_material_types: []
+opentag_uuid: 86eb9994-4489-555c-8417-0dff8ddfec17

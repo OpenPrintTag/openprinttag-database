@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f71925351ade.png
+    type: gallery
+uuid: 88646b03-e7d1-4863-9d80-d22745c3cd42
+slug: polycarbonate-black-4
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Polycarbonate Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The Gizmo Dorks Polycarbonate filament, also known as PC filament, is an incredibly strong thermoplastic material used in 3D printing. It is a good electrical insulator while having heat-resistant properties. Polycarbonate is used in a whole host of applications such as data storage, phones, eye protection, bullet-proof glass, and more. Polycarbonate has a high temperature resistance for a thermoplastic, and it does not shatter like plexiglass. It tends to bend and deform similar to hard rubber until it eventually breaks. It also has high optical clarity.
+
+  PC absorbs a lot of moisture in the air. It is a hygroscopic material, and it is best to store in an airtight container when not in use. Even during use the material can become unprintable within a 24 hour print if in a humid environment. Therefore, keeping in an airtight container during printing as well is ideal. Dry filament will print more clear. Filament that has absorbed moisture will print white as well as pop and bubble during the print.Extruding temperature is generally around 260 C, depending on the printer. PC slowly softens when heated, unlike PLA which has a high transition temperature. Slower print speeds are preferred as an increase in temperature is required for faster prints. Polyimide tape (Kapton) should be used on a heated bed, ~120 C. Some users prefer applying glue or superglue on a glass bed and then heating to ~120 C-130 C. Please do not inhale any fumes. Heated up superglue can release toxic fumes, so only use in a well ventilated area.
+
+      Extrusion Temperature: 255 - 300 C
+      Heated Bed: 100 - 120 C
+      Diameter: 1.75mm or 2.85mm +/- 0.03mm
+      Colors: Black, Blue, or Transparent
+      Net Weight: 200 grams
+
+  Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to sample the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f71925351ade.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:30.608Z'
+updated_at: '2025-03-25T22:34:30.608Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3066
+packages:
+  - 7ce742dd-f3e9-4985-8618-91bb3820756e
+  - b9af9448-a928-4585-8fc6-35dcbca04c4a
+secondary_material_types: []
+opentag_uuid: aa295aaf-9fdd-5ac7-bd3c-319b6d54643c

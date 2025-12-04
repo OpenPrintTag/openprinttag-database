@@ -1,0 +1,83 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 912a286e-6448-4f13-b20b-1a8937a668fc
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/92176f1b0cc1.png
+    type: gallery
+uuid: 88494db5-c040-45fe-b0e8-4bcdad54f667
+slug: tpu-95a-white
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 95A White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Discover the versatility and value of colorFabb's TPU 95A filament, a smart addition to any 3D printing portfolio. Designed with affordability and performance in mind, this filament offers a compelling solution for a wide range of applications which need a semi-flexible material.
+
+  TPU (Thermoplastic Polyurethane) 95A stands out for its exceptional semi-flexibility and print-ability, offering a balanced blend of flexibility, elasticity and ease-of-printing. With a Shore hardness of 95A, it delivers reliable performance across various printing projects.
+
+  While TPU 95A offers exceptional value, it does require careful attention during printing. Achieving proper bed adhesion and fine-tuning print settings are essential for optimal results. We also advice our customers to process the TPU as dry as possible, drying the TPU at 70c for 6-9 hours in a warm air dehydrator works well.
+
+  Add colorFabb's TPU 95A filament to your arsenal and unlock new possibilities in 3D printing. Elevate your creations without breaking the bank, and embrace the future of additive manufacturing today.
+
+  Pros
+
+  Exceptional flexibility and elasticity.
+
+  High durability and resilience.
+
+  Compatible with most FFF/FDM 3D printers.
+
+  Vacuum sealed, ready for use!
+
+  Cons
+
+  Requires careful print settings adjustment.
+
+  Can be challenging to print with certain extruder setups.
+
+  Needs drying from time to time. 70c 6-9 hours.
+thumbnail_url: https://file.myfilamentlist.com/f/new/92176f1b0cc1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:19.790Z'
+updated_at: '2025-04-03T16:36:12.964Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6630
+packages:
+  - 1d88821b-0b6e-49fe-9ffd-fb56a82e7583
+  - 21af0eb2-d7d5-4694-904d-a9b5017e69b7
+secondary_material_types: []
+opentag_uuid: e964220f-4aef-5ef3-a595-03756dccea1c

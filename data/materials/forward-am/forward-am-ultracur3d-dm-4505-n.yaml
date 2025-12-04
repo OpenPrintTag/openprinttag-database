@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.10000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e7dbfb00-486a-4edd-a689-fcb41d8d6ca6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: cc7aa87d-43da-456b-80b0-4acac70b9050
+uuid: a73eae2a-0c1e-4f7f-b40f-f766cfc55134
+slug: ultracur3d-dm-4505-n
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® DM 4505 N
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/dental-line/ultracur3d-dm-4505-n/
+primary_color: c824a951-3ef0-4d97-89c2-39d8767d03e8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Precise and Safer Resin for Dental Professionals
+
+  Ultracur3D® DM 4505 N is the latest addition to our dental portfolio. Thanks to the high pigment stability of the material, there is no need for frequent mixing. Compared to Ultracur3D® DM 2505, this material is more matte and exhibits improved accuracy stability over time.
+
+  Unlike existing products on the market, Ultracur3D® DM 4505 N is water-washable, making it easy and safe to handle without the use of chemical cleaners.
+
+  Moreover, this material is free from TPO and TMPTA.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5209e852-3d61-4e10-b3c9-4ade86afd001
+created_at: '2025-10-06T08:31:10.974Z'
+updated_at: '2025-10-06T08:31:10.974Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9515
+packages:
+  - 554daf6a-1fd4-4a6a-afd8-bc8b236c5966
+  - 99ce84f9-ea52-44c4-ace3-5dd6969cd3a1
+secondary_material_types: []
+opentag_uuid: d2f3db22-0999-5a06-8afd-555187e97352

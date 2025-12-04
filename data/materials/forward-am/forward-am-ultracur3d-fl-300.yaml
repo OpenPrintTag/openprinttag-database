@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.01000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2e71f77a-11e3-4dde-988c-881f526ff28c
+  hardness_shore_a: 40
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 9a3db42d-e706-4c8b-97aa-916882c04ae8
+uuid: 0b39ab13-1c64-47e8-8478-305a1a188b26
+slug: ultracur3d-fl
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® FL 300
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/flexible-elastomeric-line/ultracur3d-fl-300/
+primary_color: bdfab626-c8d0-4742-9590-ae8a821a7e47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Flexible Resin with Superior Elongation and Softness (Shore 40 A)
+
+  Ultracur3D® FL 300 by Forward AM is a well-balanced reactive urethane photopolymer for flexible applications that delivers exceptional torsional flexibility with high tear strength. It provides very high softness (Shore 40 A), superior elongation at break, and consistent rebound.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5fe4996e-c0d8-40dc-a288-28cc72f6bba9
+created_at: '2025-10-06T08:22:40.802Z'
+updated_at: '2025-10-06T08:22:40.802Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9510
+packages:
+  - 209419bc-c546-4fb4-9714-6c063135fe8c
+  - b55320db-2947-4506-befd-96e1e4cbde82
+secondary_material_types: []
+opentag_uuid: 02f50da4-81ae-5cfb-8c6b-12457536dd66

@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/ad290444-c2b5-4f28-b0f7-e160b9486b45/8224d598ceee.png
+    type: gallery
+tags:
+  - 94ce8705-92d6-49aa-a341-c591ede2ea43
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ad290444-c2b5-4f28-b0f7-e160b9486b45
+slug: pla-conductive
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Conductive
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Innovative, Electrically Conductive Filament for Specialized 3D Printing
+
+  Ideal for electronic projects, prototyping, or custom circuit designs, our PLA Conductive Filament combines high-quality PLA with conductivity for unique, versatile applications in 3D printing.
+thumbnail_url: https://file.myfilamentlist.com/f/ad290444-c2b5-4f28-b0f7-e160b9486b45/8224d598ceee.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:25.080Z'
+updated_at: '2025-04-04T10:53:01.024Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 6779
+packages:
+  - b00e7dd0-f9e4-4e0b-9a6c-6ab8d516ec81
+secondary_material_types: []
+opentag_uuid: 5ab2159e-fd54-5b8e-ab35-6b6bf26fad7b

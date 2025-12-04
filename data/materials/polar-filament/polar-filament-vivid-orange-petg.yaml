@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/fa04dc67eacb.png
+    type: gallery
+uuid: eb6305ae-ecc4-4d62-b98a-fa320c6e8197
+slug: vivid-orange-petg
+brand_slug: polar-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Vivid Orange PETG
+abbreviation: null
+url: null
+primary_color: 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  Vivid Orange PETG 3D Printer Filament
+
+  1.75mm Diameter
+
+  Individual Tolerance Printed on Each Spool
+
+  Print temperature: 225C 10C
+
+  Bed temperature: 60C 5C
+thumbnail_url: https://file.myfilamentlist.com/f/new/fa04dc67eacb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-03T15:29:01.367Z'
+updated_at: '2025-05-03T15:29:01.367Z'
+brand: 30d1056a-dfb9-4613-8385-644bfc1b07f6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7735
+packages:
+  - f97b0ee0-b743-484a-ac8c-4aa07f269812
+secondary_material_types: []
+opentag_uuid: 2adda611-8265-5b80-bca5-e883dcc3ec2d

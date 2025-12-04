@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6fa9b3e28338.png
+    type: gallery
+uuid: 6f6a9cd2-f3b3-42a5-8d4d-426359535be1
+slug: petg-black-11
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  IC3D engineers use PETG for the widest variety of projects because it marries most of the best qualities of ABS and PLA. It combines the ease of use of PLA with more dimensional stability than ABS. This makes it ideal for most large-format, functional print projects, such as molds and manufacturing fixtures.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6fa9b3e28338.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T15:55:02.305Z'
+updated_at: '2025-04-30T15:55:02.305Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7387
+packages:
+  - 3599724f-b261-4a82-aca3-883febfb3166
+  - 6f432f7b-ca7e-4622-8597-80c2c4d0300b
+  - b40905a4-21be-4005-b487-881601dc79e8
+  - bd80d030-9be8-4474-90a3-3248b059f8a7
+  - caeff73a-4f36-41f7-9831-4479484d7afe
+  - cd18518c-5469-4be9-a3fd-6f8217f16ff4
+secondary_material_types: []
+opentag_uuid: e04890e0-f9dd-59c1-a993-8de5714d8b1d

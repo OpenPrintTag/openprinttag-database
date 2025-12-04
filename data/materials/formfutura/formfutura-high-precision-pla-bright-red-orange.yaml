@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/94cb81d045a7.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: b3d9de2c-3bc2-4ed2-9b01-ee99fd03a416
+slug: high-precision-pla-bright-red-orange
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' High Precision PLA Bright Red Orange '
+abbreviation: null
+url: null
+primary_color: 442e51ef-76c7-47e2-ad26-738cb89fe0a5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  A dense and resilient PLA filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  High Precision PLA is a more dense and resilient PLA filament that is developed for consistent batch-to-batch production. The filament has guaranteed precision on diameter, ovality, shrinkage, and color tolerances. The diameter and ovalness of High Precision PLA filament are measured via a continuous 3-axis laser measurement. A 3-axes measurement is far more accurate and ensures that there are no blind spots around the diameter. High Precision PLA filaments are  RAL-color matched.
+
+  Every spool comes with its individual measurement report. This information can be viewed by scanning the QR code on the spool.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Denser and more resilient than traditional PLA filaments.
+      3D prints details with high precision and high surface quality.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/94cb81d045a7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:55.441Z'
+updated_at: '2025-03-25T22:31:55.441Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1267
+packages:
+  - 1710b2a8-abd8-45d3-a0a1-cec683f52eff
+  - 72a96bd1-0278-4f8b-a44c-b192305a6b6c
+  - c95919cb-d182-4d5c-badb-4b2545e3eeb6
+  - f6ae4b17-9f55-4990-8800-c916685cfe41
+secondary_material_types: []
+opentag_uuid: 86d7bca8-c761-51f6-b0d4-ffb8e1c5c613

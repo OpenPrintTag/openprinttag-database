@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/196fac01d0c5.png
+    type: gallery
+uuid: 4108bc99-98b1-4b63-b0c0-bdf8a13b3b0f
+slug: polylite-asa-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ ASA Green '
+abbreviation: null
+url: null
+primary_color: c59d6aee-d3ca-45ea-b387-17550a7d30bf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  PolyLite™ ASA is an alternative to ABS with an improved weather resistance. Its UV resistance and excellent mechanical properties make it the perfect choice for real life applications.
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+  If using a stock, older style printer - we would recommend printing slower.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/196fac01d0c5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:34.389Z'
+updated_at: '2025-03-25T22:34:34.389Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3075
+packages:
+  - 0c693321-f2b7-4cb4-89e0-e3a779baaaa7
+  - 34dfaeaf-69c0-4aa3-ac02-16356248cbb8
+  - 4002400c-8883-4057-a6bd-47cad064b9e0
+  - 49ba2749-ab15-4430-88fb-5eb7b9002eab
+  - 594c6e3a-2a0f-4647-b067-42437ef6716b
+  - 9101d7f8-3313-458c-8900-6b2e01773833
+secondary_material_types: []
+opentag_uuid: 21e5318a-cefe-5a6c-8618-687683984a13

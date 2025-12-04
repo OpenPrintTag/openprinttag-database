@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/594588755d46.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: fcd9fb13-576a-4c98-9305-f7caee78c1bf
+slug: asa-cf10-carbon
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA CF10 Carbon
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ASA CF10 Carbon is a highly resistant material suitable for outdoor use.
+
+   Safe to use in electrical and electronic equipment
+   Excellent weather and UV light resistance
+   Temperature resistance up to 90 degreesC
+thumbnail_url: https://file.myfilamentlist.com/f/new/594588755d46.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.972Z'
+updated_at: '2025-03-25T22:31:13.972Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 263
+packages:
+  - c2d8f9ec-5250-4bd3-99f6-c89b09c1bae5
+secondary_material_types: []
+opentag_uuid: ff9a7423-1e60-5bed-ace5-e9d270d38220

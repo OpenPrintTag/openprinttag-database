@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/142afe78f296.jpg
+    type: gallery
+uuid: 6a770b66-bb6b-4a51-8292-c31fe86e6b2b
+slug: petg-pro-red-3
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Pro Red
+abbreviation: null
+url: null
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      About PETG Pro Filament: FLASHFORGE PETG Pro combines the benefits of ABS and PLA. It features low shrinkage, reducing the risk of warping during printing, and is easier to process than ABS. Its hydrophobic nature means it doesn't require sealed storage.
+
+      High Strength and Transparency: PETG Pro excels at creating strong, smooth, and semi-transparent 3D printed objects, such as lampshades and display items. It also has excellent weather resistance, making it suitable for outdoor 3D advertising signs.
+
+      Durability and Low Warping: PETG Pro offers excellent impact resistance, high transparency, and good chemical resistance. It has low warping risks and strong bed adhesion, making it suitable for large prints and stable printing results.
+
+      Premium Filaments: Our filament is engineered for smooth, clog-free printing. It is dried for 24 hours before packaging and vacuum-sealed to minimize bubbles caused by humidity.
+
+      Precision and Consistency: Advanced CCD diameter measurement and adaptive control systems ensure strict tolerance, with a diameter of 1.75 mm and a size accuracy of 99% with a deviation of +/-0.02 mm. Each spool contains 1 kg (2.2 lbs) of filament.
+thumbnail_url: https://file.myfilamentlist.com/f/new/142afe78f296.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:58.616Z'
+updated_at: '2025-03-25T22:32:58.616Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2158
+packages:
+  - 2fbfc679-9ed0-4a11-8d31-68abba73d8a3
+secondary_material_types: []
+opentag_uuid: a3f51d4c-7cb2-5603-abff-346821381f5a

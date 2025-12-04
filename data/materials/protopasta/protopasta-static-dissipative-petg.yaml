@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/be0eb918d8bc.png
+    type: gallery
+tags:
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+uuid: 7151c1fe-7b7a-49b7-99a5-516653448ed1
+slug: static-dissipative-petg
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Static Dissipative PETG
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  For ESD safe 3D prints!
+
+      Designed for static dissipation
+      Surface resistance 10^4-10^6 
+      Prints + performs like PETG
+      ESD-safe like Static Dissipative PLA 
+      From Nov 2024 Endless Exploration
+      USA made Protopasta exclusive
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/be0eb918d8bc.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T19:59:03.433Z'
+updated_at: '2025-04-02T19:59:03.433Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6567
+packages:
+  - 1c1f0686-616c-42ec-a4e6-8b868bbb24e9
+  - 26bfbee7-2883-4d27-88cd-d9b8feeb4da3
+  - 915643e3-42e5-4e1b-b1fa-aafda6ad5c53
+secondary_material_types: []
+opentag_uuid: db7e51fa-0195-5a08-af71-6592aa1a35dd

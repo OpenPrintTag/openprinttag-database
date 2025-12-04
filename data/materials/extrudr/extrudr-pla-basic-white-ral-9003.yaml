@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/10d655fcebd8.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: b29a8499-81a0-4fd5-bb89-4bf142be3c9c
+slug: pla-basic-white-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Basic white | RAL 9003
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PLA is a bio-based material and is one of the most commonly used polymer for 3D printing. It is ideal for a wide range of applications, including prototyping, architecture, modelling and DIY projects. The raw material is approved according to REACH, RoHS and FDA standards. Due to its low melting temperature, PLA Basic is very easy to print and enables the production of impressive end products with a glossy surface. High-speed printing up to 350 mm/s is possible with the material.
+
+      Excellent price-performance ratio
+      Wide range of colours
+      Easy to process
+      Very high print quality
+      Made from renewable raw materials
+      Biodegradable (EN 13432)
+thumbnail_url: https://file.myfilamentlist.com/f/new/10d655fcebd8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T12:32:31.646Z'
+updated_at: '2025-03-27T12:32:31.646Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 5963
+packages:
+  - 0e09d6cd-d478-456c-9ca5-c96c19d95f6d
+  - 0f2b0b40-4b4a-49d2-899d-b2306023d5c1
+  - 3017b027-8464-487f-957a-09b4875959a4
+  - 4cc9ff27-5eaf-4471-8932-d4946456f65a
+  - ab844fe1-8bc0-4ad9-a84a-85ec89923821
+  - c51259a0-a3f2-4cba-8f18-ada87aa7049f
+  - e14334e4-3ed9-4989-8dae-7e03ea2eea53
+  - fecebb45-14ad-4289-8915-274e0cc9931f
+secondary_material_types: []
+opentag_uuid: d58fd71a-f69d-59c7-8d01-c78ec914ae3b

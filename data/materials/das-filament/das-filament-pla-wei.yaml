@@ -1,0 +1,63 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 96facf09-07dc-4a60-a33c-4bb17296b3e3
+slug: pla-wei
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Weiß
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/11/pla-filament-1-75-mm-weiss-800-g?c=33
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Riecht gut, kein unangenehmer Kunststoffgeruch wie bei ABS
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton entspricht: RAL 9003 Signalweiß (geringfügige Abweichung ist möglich) 
+thumbnail_url: null
+deleted_at: null
+deleted_by: ae6e5a74-f1c9-4f4f-9e1e-2239064572ed
+created_at: '2025-10-17T13:35:21.706Z'
+updated_at: '2025-10-17T13:35:21.706Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - a673ec8a-6bf5-43d7-8937-200f17ff02be
+  - ad1d94aa-7f8f-4865-bb3c-23a4982d67a8
+  - d2831a3b-e768-4602-8b13-813801e5408c
+  - f5bd0045-ecf8-4248-a999-e6e0560f9514
+secondary_material_types: []
+opentag_uuid: d984ea4f-01eb-584a-86c0-ab850d9049da

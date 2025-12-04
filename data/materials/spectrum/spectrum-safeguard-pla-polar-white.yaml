@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f36d828e-f8ae-4422-8779-693043af4a35
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ca82e3e1-04c0-4ecc-a16d-9e56092ec3ea
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 3aa7d7cf-aa3d-44c2-be9c-0ffad3cf0e91
+slug: safeguard-pla-polar-white
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Safeguard PLA Polar White
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/safeguard-pla/
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Surface protection with antibacterial technology
+
+  SafeGuard PLA is an advanced antibacterial 3D printing filament designed to protect surfaces from harmful microbes, viruses, biofilm, fouling and mold. ISO 22196 tests conducted on 3D-printed specimens show that SafeGuard PLA is over 99.9% more hygienic than standard PLA. Tested against E. coli and Staphylococcus – two of the most common bacterial strains – these results confirm the effectiveness of SafeGuard PLA in preventing most related microorganisms from adhering to your 3D prints. This makes the material highly suitable for producing items that require a high level of hygiene.
+
+  One of the key advantages of SafeGuard PLA is its ever-lasting effectiveness. Unlike traditional copper or silver-based solutions, SafeGuard PLA does not lose its antibacterial properties over time. The product is 100% biocide-free, meaning it contains no chemical substances that could leach from the material and pose a risk. The technology behind SafeGuard PLA is completely safe, non-toxic, and prevents the migration of active substances, thereby reducing the risk of bacteria developing resistance to its effects.
+
+  SafeGuard PLA is ideal for producing everyday items, such as kitchen products and aquarium decorations, where it significantly reduces the growth of algae and biofilm.
+  The responsibility for the use of SafeGuard PLA and its applications rests entirely with the user. To ensure the highest level of safety, 3D printed items must undergo separate testing, especially when used in environments with elevated hygiene risks.
+thumbnail_url: null
+deleted_at: null
+deleted_by: c7c27a8d-1591-454c-b640-d5b28ca4af0c
+created_at: '2025-10-08T09:33:21.620Z'
+updated_at: '2025-10-08T09:33:21.620Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9568
+packages:
+  - 3d03acf8-2967-41f0-96fb-c9c6eedc52e0
+  - 84a7b474-3444-48d5-baff-c2a588ffaa97
+secondary_material_types: []
+opentag_uuid: b0bd397d-8642-55a3-b4ea-e695e5bab087

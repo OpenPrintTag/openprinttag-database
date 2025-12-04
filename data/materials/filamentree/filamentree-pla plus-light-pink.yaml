@@ -1,0 +1,54 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 13ae1592-2e90-470d-b8f0-705c73fc9390
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: fd338534-9fb9-42fe-95d9-6e29146b9aea
+slug: pla-plus-light-pink
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Light Pink
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110181-pla-plus-light-pink-1kg-4593?category=59#attr=248,2900,249,250,3525,2902,2903,2904,251
+primary_color: 2dc0b1b2-3917-4df1-bc2f-30ef6cf6add8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: "PLA Plus Light Pink is a high-quality 3D printing filament that combines the durability of PLA Plus with a soft, pastel pink hue. This filament offers a delicate, charming aesthetic while maintaining enhanced strength and reliability. Whether for decorative projects, artistic creations, or functional prototypes, Light Pink brings a subtle yet elegant touch to any print.\n\n\nKey Benefits\n\n\n    Soft, Elegant Pastel Pink: A gentle, light pink shade ideal for fashion accessories, home décor, and creative designs requiring a delicate yet sophisticated appearance.\n    Enhanced Strength & Durability: PLA Plus provides improved impact resistance and toughness compared to standard PLA, making prints stronger, more flexible, and long-lasting.\n    Effortless Printing: Excellent bed adhesion, minimal warping, and compatibility with most 3D printers ensure smooth, hassle-free printing for beginners and experts alike.\n    Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable 3D printing practices without compromising on quality.\n\n\nApplications\n\n\n    Home Décor & Accessories: Print elegant vases, lamps, and decorative pieces that complement pastel or modern interiors.\n    Fashion & Wearable Designs:\tCreate jewelry, hair accessories, or stylish custom wearables with a refined, soft color.\n    Artistic & Decorative Projects: \tIdeal for sculptures, figurines, or mixed-media art where pastel tones enhance creativity.\n    Children’s Toys & Gifts:\tDesign safe, charming toys, playful designs, or personalized gifts with a delicate touch.\n    • Great for ergonomic tool handles, phone stands, or stylish tech accessories needing a smooth and polished finish.\n\n\nIdeal For\n\n\n    Designers and artists looking for a stylish and elegant color.\n    Functional prints requiring durability with a soft aesthetic.\n    Eco-conscious users prioritizing sustainability without sacrificing performance.\n    Customizable prints that can be painted, dyed, or further personalized.\n\n\nPLA Plus Light Pink is the perfect filament for adding charm, sophistication, and reliability to any 3D printing project. Whether crafting delicate décor, fashionable accessories, or creative prototypes, this filament ensures your prints stand out with elegance and quality."
+thumbnail_url: https://file.myfilamentlist.com/new/fd338534-9fb9-42fe-95d9-6e29146b9aea.png
+deleted_at: null
+deleted_by: 433307f9-8f9e-4c99-b5b1-13366e8af3f8
+created_at: '2025-12-01T10:04:24.272Z'
+updated_at: '2025-12-01T10:04:24.272Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 95464bd2-74ca-4fb2-a1a0-442d30a49464
+secondary_material_types: []
+opentag_uuid: e161c97a-87d2-58e9-9a71-50591564a71e

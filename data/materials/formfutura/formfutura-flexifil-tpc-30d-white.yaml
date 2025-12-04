@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 493ca322-9023-4c98-b3a6-f3977e80d33f
+  hardness_shore_a: null
+  hardness_shore_d: 30
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a76bbbfd1afb.png
+    type: gallery
+uuid: 8a3cf9ad-80bc-4735-afa4-0ea91f8d6e1f
+slug: flexifil-tpc-30d-white
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' FlexiFil TPC 30D White'
+abbreviation: null
+url: null
+primary_color: e1ef474f-f52b-49fb-8154-bd6ea3a62bae
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  FlexiFil TPC 30D is a rubber-like flexible TPC type of 3D printer engineering filament that not only combines flexibility with elasticity and resilience, but also provides great strength and an excellent resistance to UV and chemicals.
+
+  FlexiFil TPC 30D is a rubber-like filament for 3D printing. This engineering filament combines flexibility with elasticity and resilience. You can fold, squish and stretch parts without tearing or breaking it. Its impact resistance and absorption properties are phenomenal. Your 3D printed objects are almost unbreakable. You can even stretch this material up to more than 400% of its initial size. FlexiFil TPC 30D shows good resistance to chemicals and UV radiation. This material is slightly more flexible than its sibling Flexifil TPC 40D.
+
+   
+  Important key features
+
+      Flexible with a shore hardness of 30D
+      Extremely impact resistant
+      High chemical resistance
+      Good UV resistant properties.
+      Low moisture absorption
+
+   
+  Suitable applications
+
+      Insoles and orthopedic applications
+      Footwear
+      CVJ boots
+      Seals and gaskets
+      Industrial applications
+thumbnail_url: https://file.myfilamentlist.com/f/new/a76bbbfd1afb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:44.642Z'
+updated_at: '2025-03-25T22:31:44.642Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 7b810802-06dc-4210-af24-2c15b1098dc5
+colors:
+  - 1110
+packages:
+  - 13f86915-087c-4426-863b-998490f6d6cc
+  - bfec6b37-0c6c-4fd3-8a22-5e818cf0209a
+secondary_material_types: []
+opentag_uuid: fd003e37-d31a-5877-9281-96ea20aa053c

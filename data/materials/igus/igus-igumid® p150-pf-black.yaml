@@ -1,0 +1,55 @@
+uuid: 1f163d2c-2ef9-4443-a6ab-038b90bc7a4e
+slug: igumid-p150-pf-black
+brand_slug: igus
+brand_specific_id: null
+class: FFF
+type_id: null
+name: igumid® P150-PF Black
+abbreviation: igumid® P150-PF
+url: https://www.igus.com/product/igumid_P150_PF?artnr=P150-PF-0300-0750
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  High-strength filament for structural components or as a material partner for multi-material components
+
+  igumid® P150 is an extremely strong and stiff 3D printing filament due to fiber reinforcement. It was specially developed as a partner material for iglidur i150 for the production of very strong and at the same time friction-optimized components in multi-material printing. Furthermore, it can be used for printing strong structural components. Thanks to the high strength and high rigidity, igumid® P150 is ideal for lightweight construction with low material requirements. 
+
+  igumid® P150 can be purchased as filament for processing with your own printer or ordered at 3D printing service via STEP file as a stand-alone component or as a 2K component in combination with iglide® i150.Because of the abrasive fibers, the used printer to process the filament should have a wear-resistant (e.g. hardened) nozzle and extruder pinion. For better adhesion to the printing plate, the bonding agent for tribofilaments can be used. 
+thumbnail_url: https://file.myfilamentlist.com/new/1f163d2c-2ef9-4443-a6ab-038b90bc7a4e.png
+deleted_at: null
+deleted_by: 11d4b936-f272-40f7-b94c-4d69a1c63a88
+created_at: '2025-11-13T16:47:58.827Z'
+updated_at: '2025-11-13T16:47:58.827Z'
+brand: 2edf9afe-5dfa-4e19-87af-8bec2ec283de
+type: null
+colors: []
+packages:
+  - 60debcf4-e390-48d4-a0c7-012c1643564a
+  - 99d09655-00cc-4570-9159-9dd6c430727e
+secondary_material_types: []
+opentag_uuid: 56068abd-d742-5783-a5e5-2432a1e67573

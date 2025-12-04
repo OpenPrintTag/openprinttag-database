@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5436ffe7-cd6e-4add-905b-68bc840d0932
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+secondary_colors:
+  - e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+  - 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+uuid: 35493a09-260f-4283-a36d-d7db0717bb0a
+slug: witches-blue-tpu-95a
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Witches Blue TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-witches-blue-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Witches Blue. It is a deep blue with purple shimmer-truly magical!
+
+  It is the same shade as our Witches Blue PLA. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0a6fb53f-0c36-4af2-8946-e1caeff32dde
+created_at: '2025-10-21T11:31:35.193Z'
+updated_at: '2025-10-21T11:31:35.193Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - f3578d19-8004-4ced-8220-badf63808c73
+secondary_material_types: []
+opentag_uuid: 62653016-0806-5da9-bd29-4b04c94fc0ee

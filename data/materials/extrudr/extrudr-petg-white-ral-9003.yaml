@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/00c4f85a7325.png
+    type: gallery
+uuid: adf63ef3-4cdc-4232-a832-b875b5611688
+slug: petg-white-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG white | RAL 9003
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyethylene terephthalate glycol (PETG) is one of the world's best-known thermoplastic polymers. Extrudr PETG has been developed for a wide range of applications where the main requirement is a good balance between mechanical and optical material properties. The low-shrinking technology ensures that the material can be processed in an energy-saving manner at low temperatures and thus with relatively little distortion. The raw material is certified according to FDA, REACH and RoHS standards.
+
+      Good mechanical properties
+      High chemical resistance
+      Low warping
+      Low shrinking
+      Recyclable
+      Low-shrinking technology
+thumbnail_url: https://file.myfilamentlist.com/f/new/00c4f85a7325.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T13:36:29.584Z'
+updated_at: '2025-03-27T13:36:29.584Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 4968
+packages:
+  - 3ad3d6a3-e396-4452-9976-f49024ebf796
+  - 85c8ba55-f343-4d4c-8452-c756120235fa
+  - 8c1f622d-71cc-4ca7-a36c-8a6bfb1208c9
+  - 8d04875e-63ee-43d7-a73d-ec29b5757074
+  - 9a1fd672-1b11-4933-9b51-8da84621c7a2
+  - b5f41f6f-9506-4b77-bd57-740068eea973
+  - c5849d19-4c91-4db2-9d20-3ce0adcda5f6
+  - ed89ba65-8b2a-43f8-81e6-fa17186007fc
+secondary_material_types: []
+opentag_uuid: de484660-831c-5123-bca6-7c5993da28d9

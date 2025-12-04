@@ -1,0 +1,59 @@
+uuid: f5b90da5-399c-4765-9548-df796022293f
+slug: easypetg-pastel-green
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: easyPETG Pastel Green
+abbreviation: null
+url: https://www.3djake.com/3djake/easypetg-pastel-green
+primary_color: 63a03759-ed60-4ec6-a09e-9fd072fac8d2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The modified PETG from 3DJAKE combines outstanding mechanical and optical properties and is ideal for printing functional parts and sophisticated objects.
+
+      High toughness and resilience: Offers significantly higher stability and resilience than PLA.
+      Improved temperature resistance: Suitable for applications that require higher heat resistance.
+      Low warping: Ensures consistent and warp-free print quality.
+      High chemical resistance: Resistant to many chemicals and ideal for demanding applications.
+
+  Tip: For optimal adhesion, we recommend using a heated bed or adhesion aids such as Blue Tape or BuildTak.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 83e222ed-fbce-4fc4-aa7a-1fb84308a930
+created_at: '2025-11-07T16:42:06.165Z'
+updated_at: '2025-11-07T16:42:06.165Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - f8743446-addc-4992-be32-686067f875ed
+secondary_material_types: []
+opentag_uuid: 7df6f751-7ad9-5aed-b0cc-c5e6024212a9

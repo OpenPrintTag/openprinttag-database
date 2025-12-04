@@ -1,0 +1,84 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5364613d-7ef6-4fdc-a815-ab8f394339c0
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+  - 6a225a15-e6d8-4ddc-a504-643a475c90e0
+secondary_colors:
+  - 59a8cf67-5708-4589-909b-d806ac2d2a79
+  - 307e4cc5-b36f-4d48-aa1c-db8eb780968a
+  - 72a455ea-cd87-4a2d-b0a1-22d3b9c0e4e5
+  - a3307156-f521-4e85-9527-92e5756a1571
+  - 4381170c-2748-4efb-882c-d76941d58f3a
+uuid: 8db22bf7-228d-4e99-8f1e-d263fbe9be70
+slug: tpu-95a-glass-candy-rainbow
+brand_slug: epax
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 95A Glass Candy Rainbow
+abbreviation: null
+url: https://epax3d.com/collections/epax-filaments/products/epax-tpu-filament-1-75mm-1kg-2-2lb?variant=50516360069333
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  TPU 95A Flexible 3D Printing Filament, Dimensional Accuracy +/- 0.03mm
+
+      Excellent soft texture, with high resilience
+      High transparency for glass colors
+      Anti-UV, non-smelling, and environmental-friendly
+      Printing temp. is 170~220℃
+      Note that flex filament is soft. You need to take special steps to ensure smooth printing for this kind of material.
+
+  Advantages:
+
+      TPU rubber-based
+      Shore A Hardness at 95A
+      Tensile Strength of 30 MPa
+
+  Some common steps people take to print TPU:
+
+  1. Print slow, ~40mm/s
+  2. Doesn't require a heated bed or, if you do use one, we suggest a bed temp of 60-80℃
+  2. May require the use of a modified extruder for a smoother feed path
+
+  For customized colors, please email to sales@epax3d.com.
+thumbnail_url: https://file.myfilamentlist.com/new/8db22bf7-228d-4e99-8f1e-d263fbe9be70.png
+deleted_at: null
+deleted_by: 98b93ec4-fc9c-4459-82b2-51890dc0b017
+created_at: '2025-12-01T21:40:20.550Z'
+updated_at: '2025-12-01T21:40:20.550Z'
+brand: 49c44d6f-0e7f-4db1-9f0d-4e1be06483af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - fc002624-d034-4483-8723-9fb48cc52ddf
+secondary_material_types: []
+opentag_uuid: 8ed0cb32-a639-50a0-b248-2accb38fb448

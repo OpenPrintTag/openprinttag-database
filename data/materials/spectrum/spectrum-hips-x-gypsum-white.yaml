@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5f9b7a80-4a71-479f-8fb3-18a2ebd59e14
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 93d4c229-64dd-4c19-bef5-6aa54e7d2917
+slug: hips-x-gypsum-white
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS-X™ Gypsum White
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/hips-x/
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  High impact resistance
+
+  Spectrum HIPS?X is a backing material designed for additive manufacturing using FDM/FFF technology. It is usually used as a substrate for components produced with ABS, where HIPS-X substrates are dissolved in D-Limonene at the end of the production process. In addition, Spectrum HIPS-X can be used as a base material for the production of components that require less processing shrinkage than ABS.
+
+  Spectrum HIPS-X exhibits high impact and compressive strength. It also allows for opaque surfaces with reduced layer visibility. Like ABS, HIPS-X allows for mechanical processing such as grinding, turning, milling, etc. The low hardness of molded items allows sections of the material to be easily separated with sharp tools.
+
+  Primarily used as a support material, Spectrum HIPS?X is also designed for industrial applications that require components that are impact resistant or can partially dissipate energy. Due to its low hardness, HIPS-X can be used in the arts, particularly in sculpture.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5102b9e5-8ab2-45a9-b848-444032eb5ead
+created_at: '2025-10-15T15:19:52.222Z'
+updated_at: '2025-10-15T15:19:52.222Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 9220cce4-23e2-5a32-bb76-ddd991db35db

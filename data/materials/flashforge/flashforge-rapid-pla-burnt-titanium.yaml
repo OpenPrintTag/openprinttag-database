@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e47b62652019.jpg
+    type: gallery
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+  - caf785fa-b389-437d-88a7-b4a13b05eb62
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - 1b594e7b-ec1b-48b4-9567-8b4a2a181a89
+  - 64a2b6b2-bff9-4a88-ad0d-1484a1acb41a
+uuid: 563aeac8-db29-4859-9f8f-b051ddc7c228
+slug: rapid-pla-burnt-titanium
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PLA Burnt Titanium
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Colour Burnt Titanium: A colour-changing material that reacts to different light intensities. This filament is made of special pigments and hides the layer lines perfectly, so you can create stunning visual effects in your prints.
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PLA filament features rapid melting and smooth flow, enabling speeds up to 500mm/s (many models reach 600+ mm/s due to variable fill rates), ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Precise Dimensions and Consistency - Features CCD diameter measurement and adaptive control, maintaining a strict 1.75mm diameter with +/- 0.02mm accuracy for smooth and precise extrusion.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e47b62652019.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:07.977Z'
+updated_at: '2025-03-25T22:35:07.977Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4038
+  - 4039
+packages:
+  - b52278e1-1110-4a13-b8f1-cc3e3e71cbba
+secondary_material_types: []
+opentag_uuid: 660e5dbc-2745-584b-8bff-90ae35c51e23

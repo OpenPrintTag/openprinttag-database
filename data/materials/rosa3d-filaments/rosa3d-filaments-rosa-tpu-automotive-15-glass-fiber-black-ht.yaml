@@ -1,0 +1,57 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9c974315-fabe-4517-9047-33f0aaf3a23a
+  hardness_shore_a: null
+  hardness_shore_d: 75
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - df5d80f1-cc07-4db1-aef7-19a2fd78d288
+uuid: a964ce32-d212-4ace-be90-1855f4675e6b
+slug: rosa-tpu-automotive-15-glass-fiber-black-ht
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA TPU Automotive 15 Glass Fiber Black, HT
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-tpu-automotive-15-glass-fiber-black-ht-1kg
+primary_color: 3db39c78-de71-4cc8-ac29-fc08fbb9b426
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: FILAMENT 3D ROSA TPU Automotive 15 Glass Fiber Black is a semi-flexible FLEX-type material enriched with 15% glass fiber. This addition makes the printed part rigid, yet capable of deforming under load without cracking. The glass fibers also provide a satin-like surface finish. This material is an excellent choice for applications such as the automotive industry.
+thumbnail_url: https://file.myfilamentlist.com/new/a964ce32-d212-4ace-be90-1855f4675e6b.png
+deleted_at: null
+deleted_by: 16b201ce-660c-43d3-a903-ccae560af38f
+created_at: '2025-11-18T10:55:47.402Z'
+updated_at: '2025-11-18T10:55:47.402Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 17aaaf77-5891-432a-865f-0539af9ec152
+  - 5fad0579-f49a-48e3-8a0c-ec0e77c0d91c
+secondary_material_types: []
+opentag_uuid: a74d23b6-0583-5531-a4bc-4c73ecd2c804

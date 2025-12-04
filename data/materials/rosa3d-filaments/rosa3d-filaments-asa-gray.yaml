@@ -1,0 +1,54 @@
+uuid: 0fe28653-84ff-4b09-a1c6-d78f815480d2
+slug: asa-gray
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Gray
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-asa-gray
+primary_color: 5bdcc7c3-979f-41ce-8273-64b235adc8c9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Filament 3D ASA Gray (acrylonitrile-styrene-acrylate) from ROSA3D is a UV, moisture, and heat-resistant material, making it ideal for outdoor applications. It is more efficient and easier to print than ABS, with less shrinkage and less noticeable fumes.
+
+  The gray filament color is perfect for printing everyday items, figurines, and helmets.
+thumbnail_url: https://file.myfilamentlist.com/new/0fe28653-84ff-4b09-a1c6-d78f815480d2.png
+deleted_at: null
+deleted_by: 7e2bbed1-0619-4c04-8fd0-11f1cc437d2f
+created_at: '2025-11-16T14:37:31.974Z'
+updated_at: '2025-11-16T14:37:31.974Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 8376618d-1a8e-4ffb-952f-842719615095
+  - 97ec75f9-65cb-4d41-9f1a-1e9fa93d990a
+  - e143707b-427f-4381-89c3-e8091f7329eb
+secondary_material_types: []
+opentag_uuid: 24bc5dda-9dc1-5809-a793-56f91ff1e92e

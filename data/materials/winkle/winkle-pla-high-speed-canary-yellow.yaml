@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 44789ed8-9a10-4c1a-be00-c0f0d890bd27
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 812ee67f-3a9c-4469-b953-825027de571a
+slug: pla-high-speed-canary-yellow
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA High Speed Canary Yellow
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-high-speed-winkle-175-mm-1-kg-amarillo-canario/?_gl=1*xke5yd*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3MzMyNDAkbzIkZzEkdDE3NjM3MzMzOTIkajU0JGwwJGg5MDMzNTcwMjg.
+primary_color: 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Print faster, with more precision, and without compromising quality.
+  If you're looking for speed, our PLA High Speed Filament will take your 3D prototypes to the next level.
+
+  PLA High Speed Filament offers speed, precision, and a wide color range.
+  This 1.75 mm PLA filament from Winkle is the perfect solution. Designed for printing speeds of up to 600 mm/s, it guarantees professional results without clogs or deformation. Its compatibility with most 3D printers makes it essential for makers, designers, and digital fabrication enthusiasts.
+
+  Applications of PLA High Speed Filament:
+  Ideal for rapid prototyping, functional parts, architectural models, decorations, toys, and lightweight mechanical components.
+  Thanks to its strength (3500 MPa) and thermal stability (glass transition at 60 °C), your creations will withstand the test of time without losing definition.
+thumbnail_url: https://file.myfilamentlist.com/new/812ee67f-3a9c-4469-b953-825027de571a.png
+deleted_at: null
+deleted_by: 2299b6f6-5313-46e4-80a3-c02234e9a20f
+created_at: '2025-11-21T22:23:22.159Z'
+updated_at: '2025-11-21T22:23:22.159Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 55f33370-02a5-4e12-b9a4-abde6fffcf97
+secondary_material_types: []
+opentag_uuid: 71ca7ab2-b4b0-5f2c-946c-4415b603bc39

@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2d83f842-0884-4b1b-98fa-8316ef883aa2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 26aec049-351f-45d8-93c8-7528882e24f3
+slug: asa-x-cf10
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'ASA-X CF10™ '
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/asa-x-cf10/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Resistance to outdoor conditions with a beautiful carbon finish
+
+  Analysing the feedback from the users of our filament, we have decided to expand the range of materials for outdoor use in conditions of increased exposure to UV radiation, temperature and humidity. ASA, a well-known polymer that is a highly weather-resistant alternative to ABS, has become the base for another composite material, Spectrum ASA-X CF10™.
+
+  Our paramount objective was to develop a material that would guarantee the printed models consistently high mechanical performance, especially in terms of hardness and stiffness, even under prolonged use in outdoor weather conditions. The result is the creation of Spectrum ASA-X CF10™, a composite based on an appropriately selected ASA with carbon fibre filling.
+
+  We provide our users with filament that is resistant to external exposure, such as sunlight (UV) and humidity (hydrolysis), with a tensile strength of over 7.5 GPa and a thermal resistance of 101°C. At the same time, Spectrum ASA-X CF10™ has low shrinkage and is, unusually for technical materials with comparable properties, easy to print. All of this, combined with a carbon matt surface that effectively masks the layers of the printed models, has made the Spectrum ASA-X CF10™ a very popular choice among the 3D printing community.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 83f22d51-829b-48c6-9068-eee2c371c22e
+created_at: '2025-10-15T14:18:22.087Z'
+updated_at: '2025-10-15T14:18:22.087Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 259d5447-0f8b-5d3a-86d4-10ed1d3b4c4b

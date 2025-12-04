@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/edc769aec4e0.png
+    type: gallery
+uuid: 52ab93b5-2ecd-4017-992e-3d0079fb8a0c
+slug: uv-petg-white
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: UV-PETG White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Ultraviolet Resistant PETG brings the performance of production grade IC3D PETG into the laboratory and the great outdoors. UV-PETG retains excellent clarity, puncture resistance, and impact toughness even after repeated ultraviolet radiation exposure outdoors or as part of the UV-sterilization process. While the color made fade over time, UV PETG can be expected to maintain its structural qualities and UV-resistance for several years.
+thumbnail_url: https://file.myfilamentlist.com/f/new/edc769aec4e0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T08:28:18.403Z'
+updated_at: '2025-05-01T08:28:18.403Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7410
+packages:
+  - 09d641fa-0fbf-485f-b018-c2e13abe274e
+  - 10efa4f7-2151-40cc-a1f8-20aefc6229ad
+  - 3fec6472-18ae-4930-9e7b-9cd18ab6ae61
+  - 4a5cff54-8bf1-43be-9e75-5f9d9346a4ed
+  - 66be8780-2079-4479-9f1e-e380f0990ec7
+  - 92805b5e-7f13-4c7a-a173-8e1c2d802bac
+secondary_material_types: []
+opentag_uuid: fd16c31a-6dfc-53eb-9225-107521ffe321

@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9175cff0417e.png
+    type: gallery
+uuid: 9a0a9448-a8f8-4dc0-a0c1-7a605d2c671b
+slug: ngen-red
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: nGen Red
+abbreviation: nGen
+url: null
+primary_color: 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  With nGen colorFabb and Eastman Chemical Company have released an all-round, easy to use 3D printing filament for a wide range of applications. Red equals passion, love and joy and nGen Red brings exactly that to your print. Your work will turn heads from far away.
+
+      FDA food contact compliance
+      Easy Printing
+      Multiple Colors
+thumbnail_url: https://file.myfilamentlist.com/f/new/9175cff0417e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.260Z'
+updated_at: '2025-03-25T22:32:26.260Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1595
+packages:
+  - 1dcff086-0c31-4966-bf35-56e9a2f521b0
+  - 9fcc9dba-4533-4bf4-963b-73cd57ac541f
+  - a0eb8305-e550-45cf-a4d3-a2c3fe5b42c8
+  - cea2792d-4748-41ae-8d62-52c5f75d8f36
+secondary_material_types: []
+opentag_uuid: 848d0ba9-cf17-59b4-b16b-bf12cef46c21

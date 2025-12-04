@@ -1,0 +1,77 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.82000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e72e9eca-c956-471e-acdd-f366337f6592
+  hardness_shore_a: null
+  hardness_shore_d: 82
+  fff_material_properties: 63827368-cdd7-409b-91fa-eca7a13908b3
+  sla_material_properties: null
+  min_print_temperature: 260
+  max_print_temperature: 280
+  preheat_temperature: 170
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  chamber_temperature: null
+  heatbreak_temperature: null
+  min_chamber_temperature: null
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f4aa678eb503.png
+    type: gallery
+tags:
+  - 34c100c0-ffaa-437e-897d-bbb93db6f660
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 8a965cae-764f-4b88-921c-7dfd14f1ab7b
+slug: petg-magnetite-40-grey
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Magnetite 40% Grey
+abbreviation: null
+url: null
+primary_color: 37b0fbf2-1a73-4d9c-934b-adf11f40d43f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Prusament PETG Magnetite 40% Grey is our own in-house made PETG filament filled with Magnetite powder. The whole manufacturing process is closely monitored and tested - we guarantee ±0.03mm precision.
+
+  You can inspect the parameters of every spool we made at prusament.com.
+
+  Prusament PETG Magnetite 40% Grey is a material with paramagnetic properties. This filament is suitable for making various electronic parts, such as switches, potentiometers, induction loops, electromagnetic shielding, etc. In hobby use, the material can be used for various tools that can be attached to a magnet. Another use can be found in art, design, and toys. Or, it can simply work as a weight.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f4aa678eb503.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:56.600Z'
+updated_at: '2025-03-25T22:32:56.600Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2264
+packages:
+  - 5d2c3bca-94cb-418c-a5ab-1cb85d25c5fc
+  - 79f51725-53b2-49b4-b82a-c33b1873c45b
+secondary_material_types: []
+opentag_uuid: 0dfc2cd0-cfe4-575d-99fc-08d3cd19ba91

@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/557994a22fee.png
+    type: gallery
+uuid: 207fc273-ba2f-4415-a9ae-20e822d9e7a9
+slug: salsa-red-asa-prime
+brand_slug: coex-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Salsa Red ASA Prime
+abbreviation: null
+url: null
+primary_color: a73c96f3-18f4-4069-95e5-ba4ea32e7695
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ASA filament (acrylonitrile styrene acrylate) is a thermoplastic 3D printing material that is perfect in many ways and is suitable for many different applications. It has a similar chemical makeup to ABS plastic but offers three notable improvements: better mechanical properties, it is naturally UV resistant, and it simply produces amazing finished prints. Coex 3D offers ASA in the same colors as our ABS giving you 11 colors to choose from and is available in both 1.75mm and 2.85mm diameters in varying spool sizes. 
+
+  Although ASA can safely be printed using an open bed printer, it is still recommended to print ASA in an enclosed printer which will allow parts to cool slowly and uniformly which helps to prevent shrinkage and warping. 
+
+  Coex 3D's ASA products are made with 100% virgin resin and high-quality colorants with no added fillers.  All Coex 3D filament is made in our production facility in Green Bay, WI, USA using industrial-grade extruders and laser measuring quality control to ensure quality and consistency with every spool.   
+thumbnail_url: https://file.myfilamentlist.com/f/new/557994a22fee.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-29T10:38:21.438Z'
+updated_at: '2025-04-29T10:38:36.982Z'
+brand: 68f4f75c-636b-4da4-a6f2-a2950604cd0c
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7224
+packages:
+  - 09d7f1a0-e4a0-45bd-978c-e50d42d0fce7
+  - 0e2bdb72-4f1d-4192-859e-7c964b7dedbe
+  - 881a3601-fba2-4d92-bc19-f0964df359e5
+  - d48005ad-9b82-49ae-ab28-04001e1d5968
+  - ef7c09bb-d6fe-4771-a777-de229551f8cc
+secondary_material_types: []
+opentag_uuid: 7e4a90c7-9ab8-5b6c-82b9-ced14bd9ee2f

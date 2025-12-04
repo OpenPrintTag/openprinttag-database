@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: fe946aa6-672e-4ca3-991d-fedefb4756fc
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: d725c536-4ff8-4e36-be54-fed910f87086
+slug: green-flexible-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Green, Flexible TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/green-flexible-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=24&_fid=bf8833f30&_ss=c
+primary_color: e2698625-8666-4ba7-a278-49db768a756c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  Specially formulated plastic with increased amount of flexibility, with rigid structure. Resistant to oil, grease and abrasions TPU 3D Printer Filament Vacuumed Sealed With Desiccant Widely used in many applications. Such as power tools, sporting goods, medical devices, drive belts etc. It's better to work on direct drive extruders. Please print slowly and read the tips if you are bowden.
+thumbnail_url: null
+deleted_at: null
+deleted_by: e369985c-23e9-481c-a577-0108486570b8
+created_at: '2025-09-26T14:58:28.389Z'
+updated_at: '2025-09-26T14:58:28.389Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9192
+packages:
+  - 0535cf5f-180e-47d6-a607-419b9f577dcf
+secondary_material_types: []
+opentag_uuid: baec98cb-270f-5d6e-b105-93bb353f6c3a

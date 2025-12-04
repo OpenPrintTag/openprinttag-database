@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4dc34388-ae5a-4706-8ed4-329c5cf71fd9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: dde8152a-f4ce-45c9-bc01-7548350ea788
+slug: pla-pro-pure-white
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pro Pure White
+abbreviation: PLA Pro
+url: https://www.filamentree.eu/shop/30210031-pla-pro-pure-white-1kg-4606?category=60#attr=749,2955,750,751,3540,3541,2958,2959,752
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Bring clarity and brilliance to your 3D prints with PLA Pro Pure White, a premium filament engineered for unmatched vibrancy, precision, and reliability. Perfect for projects demanding a crisp, clean finish, this high-performance PLA Pro variant combines the ease of printing with a professional-grade aesthetic, ideal for both functional and artistic creations.
+
+  Key Features:
+
+      Pristine White Finish: Achieve a bright, uniform color with excellent opacity, perfect for projects requiring a polished, professional look or a blank canvas for painting and post-processing.
+      Enhanced Durability: Optimized for superior layer adhesion, minimal warping, and increased toughness, ensuring your prints withstand handling and functional use.
+      Eco-Friendly & Safe: Made from renewable, biodegradable PLA (non-toxic, plant-based materials), promoting sustainable 3D printing without compromising performance.
+      Precision Engineering: Tight diameter tolerance (±0.03mm) guarantees smooth extrusion, reduced clogs, and consistent results across all print sizes.
+      User-Friendly Performance: Low-warp formulation and broad compatibility with FDM/FFF printers. Minimal odor and easy to print, even for beginners.
+
+  Applications:
+
+      Prototyping & Functional Parts: Create crisp, clean prototypes, enclosures, or mechanical components requiring a neutral base color.
+      Art & Sculptures: Ideal for figurines, miniatures, or decorative art where a bright white surface is essential for painting or detailing.
+      Medical & Educational Models: Produce anatomical models, teaching aids, or STEM project parts with a sterile, professional appearance.
+      Cosplay & Props: Craft lightweight armor, helmets, or accessories that can be sanded, primed, and painted effortlessly.
+      Household & Custom Décor: Design vases, organizers, or decorative items with a sleek, modern aesthetic.
+
+  Why Choose PLA Pro Pure White?
+
+  This filament is the ultimate choice for projects where brightness, versatility, and reliability matter. Its neutral tone serves as a flawless foundation for post-processing, while its pro-grade mechanical properties ensure durability. Whether you’re a hobbyist, educator, or professional designer, PLA Pro Pure White empowers you to create with confidence and precision.
+  Craft Perfection. Print with Purity.
+
+  Elevate your 3D printing journey with PLA Pro Pure White—the go-to filament for crisp, vibrant, and dependable results. Order your 1kg spool today and turn your boldest ideas into immaculate realities!
+thumbnail_url: https://file.myfilamentlist.com/new/dde8152a-f4ce-45c9-bc01-7548350ea788.png
+deleted_at: null
+deleted_by: 791f1cf8-2ef8-4c01-b01c-eec2c55d0de4
+created_at: '2025-12-01T10:50:52.005Z'
+updated_at: '2025-12-01T10:50:52.005Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0a2a2b30-5b36-480a-ace8-68f0e13c13f3
+  - 8a06b02c-90a6-4067-9900-59c50b2c31bc
+secondary_material_types: []
+opentag_uuid: 043f45fd-30f4-5799-b412-0a52dfef9a99

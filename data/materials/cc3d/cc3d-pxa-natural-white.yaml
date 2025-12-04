@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e3c48a0e7473.jpg
+    type: gallery
+uuid: 793feaea-afb3-4ada-be92-b7cef43b0511
+slug: pxa-natural-white
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PXA Natural White
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra-high-speed printing: The conventional printing speed of PXA ranges from 100-750mm/s, and the maximum printing speed can reach over 1200mm/s (tested on self-assembled machines).
+      Excellent molding effect: Regardless of the printing speed, PXA ensures perfect molding results, maintaining consistent quality at both low and high speeds.
+      High strength and good toughness: PXA boasts outstanding mechanical properties, with high strength and good toughness, making the printed parts more durable and reliable.
+      Low printing temperature and low shrinkage: PXA has a printing temperature of 200-230degreesC, which is lower than other materials, and it also has a low shrinkage rate. This reduces the risk of deformation after printing and eliminates the need for a sealed box.
+      Good material stability: PXA is chemically stable, not prone to degradation, and has excellent weather resistance, making it suitable for long-term storage and use.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e3c48a0e7473.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T18:39:29.809Z'
+updated_at: '2025-03-31T18:39:29.809Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: null
+colors:
+  - 3883
+packages:
+  - 2cfa69f9-0c58-4a79-ad0a-eaed7aa478d2
+secondary_material_types: []
+opentag_uuid: cbec9776-623e-5ce8-b9a8-1443b03170fb

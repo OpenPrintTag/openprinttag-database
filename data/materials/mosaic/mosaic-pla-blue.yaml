@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.31000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 02ee8f64-cb19-490a-bd88-758a8eef63a9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: dd0465cb-4a99-4480-be03-b12bcf73724b
+slug: pla-blue-25
+brand_slug: mosaic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Blue
+abbreviation: null
+url: .com/products/mosaic-pro-pla?_gl=1*fwrwr9*_gcl_au*MTk3NjAzNzM2OC4xNzYzNTgzODQx*_ga*MjE0NTc3Mjk0Ny4xNzYzNTgzODQw*_ga_F2G8XF8BZQ*czE3NjM3MTkwMzEkbzIkZzEkdDE3NjM3MTk2OTYkajMxJGwwJGgw
+primary_color: bfaf3a9f-1f57-46bb-bbbd-8acd33516123
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Mosaic PLA is easy to print with, stiff, economical, and has a nice matte finish.
+
+  This filament is the perfect choice for rapid prototyping, cosmetic parts, architectural models, and low stress mechanical parts.
+
+  This material is sold in units of 750cc. 
+thumbnail_url: https://file.myfilamentlist.com/new/dd0465cb-4a99-4480-be03-b12bcf73724b.png
+deleted_at: null
+deleted_by: 01726d84-6e4d-41e8-a76b-51e005b9c6c7
+created_at: '2025-11-21T10:10:18.365Z'
+updated_at: '2025-11-21T10:10:18.365Z'
+brand: 4d1c6df0-63f5-4695-a8ff-f29fe4d83e63
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 509f2e80-75a5-4608-9d6c-ad27b6969e4a
+secondary_material_types: []
+opentag_uuid: 69d7d97f-9848-5e32-af72-dd71468e038e

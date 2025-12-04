@@ -1,0 +1,57 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 113dee16-5189-44ab-aabc-02b681b90559
+  hardness_shore_a: 80
+  hardness_shore_d: 34
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 322571fa-5c01-4853-b8ce-0a299dfe0a7b
+slug: anasa-tpc-l80a-34d-black
+brand_slug: tectonic-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ANASA TPC L80A (34D) Black
+abbreviation: null
+url: https://www.tectonic-3d.com/products/anasa-tpc-l80a?variant=49892537106762
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: 'ANASA TPC 80A is a material that is easy to print, flexible over a wide range of temperatures. The base material is bio-based (52% renewable content) and passed the ISO irritation, ISO cytotoxic and the USP VI test. '
+thumbnail_url: null
+deleted_at: null
+deleted_by: d868b3d9-ee2c-461b-a854-1373a37db2e5
+created_at: '2025-10-19T10:14:45.472Z'
+updated_at: '2025-10-19T10:14:45.472Z'
+brand: a165f4a4-5c7e-4c3f-bf1c-2b5619803c44
+type: 7b810802-06dc-4210-af24-2c15b1098dc5
+colors: []
+packages:
+  - 00e590b6-952c-4668-a3a6-e3ba877a2084
+  - 2c5dab98-e17d-46cb-a66b-96da0ffa11eb
+  - 8380c949-5452-4235-b28a-5a02a545c922
+  - a6903525-971c-48e0-95fb-bad059adc878
+secondary_material_types: []
+opentag_uuid: 95cd9b59-1f9e-5b61-9ed1-e62a1abb8227

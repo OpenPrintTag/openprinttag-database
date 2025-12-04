@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 72ae6fa8-c440-41db-87c3-d17764524ee6
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 34511304-6a8c-44c2-b6e0-faf388153e2a
+slug: mint-star-stuff-tpu-95a
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Mint Star Stuff TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-mint-star-stuff-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: aee05ec1-5e13-4281-8cc6-e0676f760395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Mint Star Stuff. It is a translucent green filament with silver glitter!
+
+  It is the same shade as our Mint Star Stuff PLA and PETG. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5261a8bb-35c2-4680-a8cf-9fff3f9c472c
+created_at: '2025-10-21T11:27:32.553Z'
+updated_at: '2025-10-21T11:27:32.553Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - de467c7e-29c6-42fb-8dd2-7469f7a5a170
+secondary_material_types: []
+opentag_uuid: c90e7f9f-18ec-52b8-bf76-571ea8f46b73

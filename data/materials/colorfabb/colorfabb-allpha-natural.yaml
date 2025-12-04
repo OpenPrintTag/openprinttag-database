@@ -1,0 +1,85 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e8f30b9500cc.png
+    type: gallery
+tags:
+  - 02048ce5-f90d-4a48-a915-76d0ab568694
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: bbf331d2-aa9d-497e-ba5c-33f4d3acf7e2
+slug: allpha-natural
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: allPHA Natural
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  AllPHA is 100% biobased and 100% biodegradable in any biotope, without leaving microplastics.
+
+  Our allPHA 3D printing filament (pronounced as Alpha) is the ultimate bioplastic. PolyHydroxyAlkanoates abbreviated PHA, is created by a naturally occurring process called fermentation. By feeding bacteria natural sugars and oils, the bacteria create "fat" cells (the PHA). The best thing about PHA? Micro-organisms can eat it again at the end of the products' lifetime.
+
+  Our allPHA material will truly breakdown in any biotope, without leaving microplastics. The speed of the decomposition depends on the thickness of the printed part and compost environmental factors, such as heat, moisture and microbial activity. This makes allPHA very different from PLA, which is only biodegradable in industrial composting environment.
+
+  AllPHA shows exceptional layer to layer adhesion in most printing conditions. The material feels tough and capable and is stable to very high temperatures (>120C). Unlike other filaments, allPHA needs to be printed on a cold bed, with 100% fan cooling. As a bonus, using a non heated buildplate allows the users to print much more economical and sustainable, as this saves a huge amount of energy during printing.
+
+  AllPHA is a great material for any project which requires a more sustainable approach. With various end-of-life options and an inherent fade-into-nature property, allPHA is a truly circular material.
+
+  This filament comes on a cardboard spool made from recycled cardboard to further minimize the use of single use plastic.
+
+  Pros
+
+  100% biodegradeable in any biotope.
+
+  100% biobased, created by naturally occurring fermentation process.
+
+  high heat deflection temperature, >120C
+
+   Tough prints.
+
+   
+
+  Cons
+   Tends to be sensitive to warping of bottom layer.
+
+   Bottom layer can adhere very strong to some substrate materials.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e8f30b9500cc.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.124Z'
+updated_at: '2025-03-25T22:31:13.124Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: f9656b17-fc8a-4bd4-adaa-725bed0624aa
+colors:
+  - 373
+packages:
+  - 7bbc7be7-d3f0-495d-b356-91dd49665ca5
+  - 7e522e7f-a64e-4790-bf40-8022a4e2cc10
+  - c117590d-d53b-49f0-97ea-8008a87ea475
+  - d5086c19-06d9-47ca-8a3c-f5db12305187
+secondary_material_types: []
+opentag_uuid: 3bd6a09d-2383-5eeb-befe-25a390459b0d

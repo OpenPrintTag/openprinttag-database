@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bd7c5441-a70e-4bba-a40c-40003a80f273
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 02dc1b21-9ffc-49dd-ad11-ec56c2b783ba
+uuid: 2d72a980-fb1e-4d28-8f2d-436a33d5c0b5
+slug: model-classic-red
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Classic Red
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-classic-red-1kg/
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 55f7d7fb-8252-417a-bb0b-26377f79ed51
+created_at: '2025-10-03T12:46:12.922Z'
+updated_at: '2025-10-03T12:46:12.922Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9651
+packages:
+  - 8fb3e8d0-3992-41e4-8e36-98ae0c665d8f
+secondary_material_types: []
+opentag_uuid: e12237e5-624c-55bb-8498-3bf45f439b7a

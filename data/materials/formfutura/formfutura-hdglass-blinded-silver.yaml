@@ -1,0 +1,72 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f46a065a4942.png
+    type: gallery
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+uuid: 65f6ad90-9f89-443c-a201-e82b3a6b3e60
+slug: hdglass-blinded-silver
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HDglass Blinded Silver
+abbreviation: null
+url: null
+primary_color: eddf4d97-78b4-4ee7-87b6-abcab3577101
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  HDglass is a high performance PETG type of 3D printer with unsurpassed 3D printing properties and improved mechanical strength, flexibility, toughness and heat resistance.
+  HD in HDGlass stands for "Heavy Duty". It has outstanding properties with respect to strength, toughness and temperature resistance. Next to this, it is a high gloss and ultra-transparent 3D printer filament.
+  HDglass is a high performance filament based on a unique PETG blend. HDglass is amorphous filament developed to have a perfect 3D printing flowing behaviour. This is achieved by its optimal thermal stability.
+
+  Unique features
+
+      Extremely transparent and high gloss
+      90% optical light transmittance with only 1% of haze
+      Easy to print
+      Nearly warp-free and perfect inter-layer adhesion
+      Good first layer adhesion to a heated glass print bed and many other surfaces
+      Compatible for printing at high speed
+      Odourless processing/printing
+      High strength and toughness compared to similar materials
+      Watertight printing
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/f46a065a4942.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:52.358Z'
+updated_at: '2025-03-25T22:31:52.358Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 903
+packages:
+  - 54120832-8cca-4f0a-ab24-abfd4d9ea03d
+  - 5578eb7c-e879-419e-bbda-933273129d65
+  - 8da38aee-d3d9-421d-8858-caa5b5db2fc8
+  - af9bfa2e-9692-43e9-9bb0-50ee95ddbb05
+secondary_material_types: []
+opentag_uuid: 37a01847-b42d-51f1-9be2-c3051f108632

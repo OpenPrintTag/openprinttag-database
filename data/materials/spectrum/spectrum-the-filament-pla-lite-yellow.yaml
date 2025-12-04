@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b30ebe6a-365f-4e4a-9081-4ea56f4f80b7
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e8d1d3b8-fa73-4e45-bbec-412bb08ffebb
+slug: the-filament-pla-lite-yellow
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PLA Lite Yellow
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-pla-lite/
+primary_color: b6bca73e-c177-481b-b536-bc3fd520ef43
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  For those who value reliability.
+
+  THE FILAMENT PLA Lite is an affordable 3D printing filament you reach for without hesitation – proven and dependable. It’s perfect for everyday printing where simplicity, reliability, and consistency matter. From basic prototypes to advanced 3D models.
+
+  No unnecessary extras – just what really counts: smooth printing, repeatable results, and quality you can trust. THE FILAMENT PLA Lite is budget-friendly yet impressively stable and efficient. Try it once and it will become a permanent part of your projects.
+
+  Minimalism at its best.
+
+  THE FILAMENT PLA Lite comes in classic colors. Made in Europe and wound on spools made from recycled plastic (2nd life), it supports a sustainable approach to 3D printing. PLA Lite is the perfect choice when you want to print more – without compromising on reliability.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ad39cb21-3064-4386-8931-30dfad5ee1ca
+created_at: '2025-10-13T15:35:39.762Z'
+updated_at: '2025-10-13T15:35:39.762Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9670
+packages: []
+secondary_material_types: []
+opentag_uuid: 10d105f5-3297-5184-8d30-371fdce7af97

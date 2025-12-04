@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.08000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7ebb1a04-03a8-411f-bfca-d2c20912104f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 7ffa0fd0-5471-49fa-9f2a-40191adb2eed
+slug: asa-275-dark-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA 275™ Dark Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/asa-275/
+primary_color: 9ab875ef-415f-4865-8096-0f17aa59934a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  UV and thermal resistance
+
+   Filament Spectrum ASA 275 is a professional material, designed for desktop 3D printers.  The composition of Spectrum ASA 275 has been specially modified to make the material more flexible, improve flow parameters, reduce shrinkage, and increase adhesion between layers.
+
+  One of the main advantages of the modification of ASA 275 material is simplification of printing parameters. Spectrum ASA 275 technical material can be printed with nearly the same ease as Premium PLA. This allows the production of large models without the risk of deformation after cooling, but also obtaining relatively high printing speeds.
+
+  ASA 275 is a material resistant to UV radiation and other weather conditions. ASA 275 can be used for printing prototypes, functional production tools, but also elements that must withstand changing weather conditions, and even everyday use items.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 2846127b-9574-4129-9dbd-c9a86f0f858e
+created_at: '2025-10-15T12:19:30.638Z'
+updated_at: '2025-10-15T12:19:30.638Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 320f193c-43c9-592a-89d0-ebd8a68a2c72

@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '0.89000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c6111832-4579-4c88-9132-9d5bfbbd1390
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: e83855df-6b24-40e7-a4bc-b188d7a6f6b3
+slug: pp-black-3
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PP Black
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pp-polipropileno-winkle-175-mm-negro-15-kg/
+primary_color: 03a3b0d5-15cb-45c8-9108-24e533d4a3ae
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **Polypropylene (PP): Lightweight, strong, and technically versatile.**
+  Winkle’s Polypropylene (PP) filament is a semicrystalline thermoplastic material known for its excellent combination of lightness, flexibility, and mechanical strength. Thanks to its hydrophobic, chemically resistant, and non-toxic properties, PP is an ideal solution for both industrial and domestic applications.
+
+  Its low density and high impact resistance make it perfect for parts subject to intensive use, enabling the production of durable, flexible, and recyclable components—even suitable for microwaves, freezers, and dishwashers.
+
+  **Technical advantages of Winkle Polypropylene:**
+
+  * High chemical and fatigue resistance
+  * Waterproof and flexible, with elongation up to 200% before breaking
+  * Non-toxic and recyclable
+  * Low electrical conductivity
+  * Excellent layer adhesion
+  * Withstands high and low temperatures, ideal for reusable parts
+
+  **Main applications for PP filament:**
+
+  * **Automotive industry:** bumpers, impact-resistant flexible parts
+  * **Laboratories:** containers, test tubes, chemical components
+  * **Domestic use:** food-safe parts, microwave- and dishwasher-safe utensils
+  * **Electrical components:** insulators thanks to low conductivity
+  * **Functional mechanical parts:** hinges, clips, and parts under repetitive torsion
+  * **Packaging, piping, waterproof containers**
+
+  Lightweight, strong, versatile, and environmentally friendly, Polypropylene filament is the ideal choice for producing technical parts with high mechanical and chemical requirements.
+thumbnail_url: https://file.myfilamentlist.com/new/e83855df-6b24-40e7-a4bc-b188d7a6f6b3.png
+deleted_at: null
+deleted_by: e4442955-3426-4723-b379-b40a432ff872
+created_at: '2025-11-21T23:49:18.742Z'
+updated_at: '2025-11-21T23:49:18.742Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 6bc270a6-a9c8-430f-b3ea-b52fb0420f83
+colors: []
+packages:
+  - dca3cff5-02d9-4557-871c-5941a05e0cb3
+  - e58f276e-bb95-4184-b7e4-40413b53e190
+secondary_material_types: []
+opentag_uuid: fe14ff99-f836-52cc-9002-b38ce67a311f

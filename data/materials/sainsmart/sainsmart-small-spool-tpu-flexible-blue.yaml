@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1e8a9bb8-48ec-418b-b734-07d2f64c1260
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: ace1d32b-fedd-4904-b703-181506e356f5
+slug: small-spool-tpu-flexible-blue
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Small-Spool TPU Flexible Blue
+abbreviation: null
+url: https://www.sainsmart.com/products/small-spool-tpu-flexible-filament-1-75mm-250g-0-55lb?variant=42331131871311
+primary_color: efae8549-8440-426e-8bf1-4080ee157fff
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Thermoplastic polyurethane (TPU) is a high strength flexible material. TPU belongs to the TPE class of thermoplastics
+
+      Specially formulated plastic with increased amount of flexibility, with rigid structure.
+      Resistant to oil, grease and abrasions
+      Weight: 250g per spool (approximately 0.55 lb)
+      Diameter: 1.75mm (+/- 0.05mm)
+      Shore Hardness: 95A
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: d565cb1f-cf11-4a68-b343-f7bb911ef6c2
+created_at: '2025-09-26T15:06:30.369Z'
+updated_at: '2025-09-26T15:06:30.369Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9197
+packages:
+  - f9f024a1-d6c1-428f-b9ed-1a5b66c91541
+secondary_material_types: []
+opentag_uuid: aa3aa963-b866-5dc1-8d3d-f394dd844f0e

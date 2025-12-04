@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/910273b6b12b.png
+    type: gallery
+uuid: 945bcd34-fafa-4f6a-88dc-2eae8d4d3cf8
+slug: polymax-pc-fr-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyMax™ PC-FR Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyMax™ PC-FR, creation from Covestro's Makrolon® family, could achieve V0 performance in the UL94 flame retardancy test and displays excellent toughness, strength and heat resistance. This filament opens new applications in the automotive, railway and aerospace industries.
+  Please refer to the printing requirements below before purchasing. 
+
+  -  Printing Requirements
+
+      All-metal hotend that can reach at least 260˚C.
+      Enclosed printer that can trap heat required.
+      Actively heated chamber with minimum 90˚C chamber temp required.
+      Large, dense parts will require a heated chamber even more so than small parts.
+      Annealing post printing. More info on annealing: https://us.polymaker.com/blogs/3d-printing-tips/what-is-annealing-and-why-do-we-do-it
+      Dryer or drybox recommended.
+      Magigoo PC highly recommended to help with bed adhesion.
+      All-metal hotend that can reach at least 250˚C recommended
+          
+thumbnail_url: https://file.myfilamentlist.com/f/new/910273b6b12b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:47.376Z'
+updated_at: '2025-03-25T22:34:47.376Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3515
+packages:
+  - 6fb3490c-653c-42df-bbd8-a48ffc1f20e9
+secondary_material_types: []
+opentag_uuid: dc73e53f-f793-5021-9c55-fb64d39371ca

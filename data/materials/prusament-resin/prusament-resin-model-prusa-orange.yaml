@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6d326cd8-4757-4c2c-8c93-a6695a7f8bf1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 75e2240e-e3fe-4303-aed5-c1d3a5992928
+uuid: b8433914-7c21-4757-aa18-3cd3713e54aa
+slug: model-prusa-orange
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Prusa Orange
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-prusa-orange-1kg/
+primary_color: 6b73fc53-2dba-4887-b632-eee6c41abc45
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 78292e54-7cac-41a7-b2f8-c07d0134a76a
+created_at: '2025-10-03T12:58:06.484Z'
+updated_at: '2025-10-03T12:58:06.484Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9663
+packages:
+  - cb1155d8-9aa1-4a65-aa97-ea704aef8cb6
+secondary_material_types: []
+opentag_uuid: c627a5f1-9b03-52ab-8b08-99234853f020

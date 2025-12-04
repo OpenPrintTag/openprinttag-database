@@ -1,0 +1,77 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 72cfaf13-43d7-448a-9e01-6deb4dc84907
+  hardness_shore_a: null
+  hardness_shore_d: 72
+  fff_material_properties: a1a285b9-4966-4643-b072-dd8967f0090d
+  sla_material_properties: null
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/143d651377a8.png
+    type: gallery
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - 59377502-a537-44e5-a394-61969dba22ed
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+certifications:
+  - 2
+uuid: 4e57b590-a08f-4146-bb9e-fb5827df3a82
+slug: pla-blend-lime-green
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Blend Lime Green
+abbreviation: null
+url: null
+primary_color: db8e15f0-372b-4dd5-85c3-dbd7132abac5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '3.50'
+refractive_index: null
+print_sheet_compatibility: []
+description: |+
+  Prusament PLA is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision (± 0,03 for blends) and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/143d651377a8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:17.687Z'
+updated_at: '2025-03-25T22:33:17.687Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 8971
+packages:
+  - 39310805-ddaf-40ff-85d7-d8de8b1bb977
+  - c66781fc-cfca-4aef-a6fc-ceb808ca6c84
+  - d2e1a143-18f4-4489-b2d1-5b16bee58eb4
+secondary_material_types: []
+opentag_uuid: 80aed566-6b14-56c1-87e1-fec9f6f84f12

@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ae51510d6b43.png
+    type: gallery
+tags:
+  - 94ce8705-92d6-49aa-a341-c591ede2ea43
+uuid: 760d22dd-4ada-42fe-9dca-0e1245684c35
+slug: esd-petg
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ESD PETG
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      Conductive material based on PETG
+      Protects against electronic discharges
+      Suitable for electronic casings
+
+  ESD-PETG is a conductive filament based on our PETG that protects against electrostatic discharges. This is very useful when printing parts that come in contact with sensitive electronics, which could be damaged by static electricity. 
+
+  ESD-PETG comes with almost the same material properties as our regular PETG. It has high wear and chemical resistance, high UV-resistance and medium hygroscopic properties, which means it is moderately sensitive to moisture and needs drying if exposed to normal room humidity for an extended period of time.
+
+  Typical applications include: HDD components, casings, connectors, jigs, wafer handling and conveying.
+
+  Target resistivity is 10^6-10^9Ohm-cm.
+
+  For additional printing advice, check out our cheat sheets for recommended slicer settings in Cura, Simplify 3D and PrusaSlicer.
+
+  Our ESD-PETG, together with all our other filaments, are made in Sweden and have a diameter tolerance of 0.025mm.
+
+  Add North's ESD-PETG is available in 1.75mm and 2.85mm diameter with spool sizes up to 750g.
+thumbnail_url: https://file.myfilamentlist.com/f/new/ae51510d6b43.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T17:16:56.218Z'
+updated_at: '2025-04-01T17:16:56.218Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6045
+packages:
+  - e3d7fe1e-63b7-45d1-8e44-dc63c2cbc5cf
+  - fbb2c9b9-92fa-4ada-9770-4c2457bf0485
+secondary_material_types: []
+opentag_uuid: 811d47df-2024-56af-b580-f0fa4a8346f8

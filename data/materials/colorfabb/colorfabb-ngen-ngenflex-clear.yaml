@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8faada856590.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: c31dedc9-0f27-4a98-b46c-4f3326a9d37d
+slug: ngenflex-clear
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: nGen_FLEX Clear
+abbreviation: nGen
+url: null
+primary_color: f18f67d7-0690-4497-afaf-11c6695f7c32
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  nGen_FLEX is best described as a semi-flexible filament with a shore hardness of 95A. It can be fed through a Bowden tube and printed at regular speeds. It is temperature resistant to about 125C. This means that printed objects can be steam sterlilized at 121C. Not clear as in transparent, but clear in that it is a pure un-colored nGen_FLEX filament. No additions and no substitute!
+
+      Flexible
+      Easy Printing
+      Multiple Colors
+thumbnail_url: https://file.myfilamentlist.com/f/new/8faada856590.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:25.854Z'
+updated_at: '2025-03-25T22:32:25.854Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1479
+packages:
+  - 3d41cdeb-3c47-4159-a4c5-d44c612558d7
+  - 605fadd4-eaa3-4394-b311-5f3ab097b886
+secondary_material_types: []
+opentag_uuid: f265360b-619f-55ee-b063-082153098657

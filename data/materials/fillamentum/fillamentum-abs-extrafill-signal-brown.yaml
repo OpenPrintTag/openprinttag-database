@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ade05167c444.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 8600d348-9aa7-4251-8d08-4e10061db641
+slug: abs-extrafill-signal-brown
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Extrafill "Signal Brown"
+abbreviation: null
+url: null
+primary_color: 440e4496-a050-41c0-8949-ca624c0006a1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ABS Extrafill is a popular material for prototyping due to its excellent mechanical properties, impressive impact resistance, and suitability for long-term use.
+
+   High-temperature resistance
+   Tensile strength
+   Environmentally friendly material
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/ade05167c444.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:10.916Z'
+updated_at: '2025-03-25T22:31:10.916Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 106
+packages:
+  - 2256d8ff-125e-47c2-89e8-83807756f3a7
+  - b433f38c-7f3c-4a9f-96b6-95830ed1d7fb
+secondary_material_types: []
+opentag_uuid: 40dd63e8-70a7-55f0-905f-957eb6a75e14

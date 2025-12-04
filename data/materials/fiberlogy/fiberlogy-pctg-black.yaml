@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d6c553b732b9.png
+    type: gallery
+uuid: 5e29be4d-6cc7-4fe8-8bdf-70e2374e17c6
+slug: pctg-black
+brand_slug: fiberlogy
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Features & Advantages
+
+      High impact strength
+      High chemical resistance
+      High optical clarity
+      Easy to print
+      Temperature resistant
+thumbnail_url: https://file.myfilamentlist.com/f/new/d6c553b732b9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:45.800Z'
+updated_at: '2025-03-25T22:32:45.800Z'
+brand: 062398ca-21bf-4447-97c4-e4cd4016a2d0
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 2235
+packages:
+  - 28b36b11-9bce-4bb3-8711-ea9b1a1f2dd2
+secondary_material_types: []
+opentag_uuid: bd9142df-1cd4-5c9d-bbc8-aab964a3be56

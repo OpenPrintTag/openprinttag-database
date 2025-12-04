@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 98bb32a5-9de4-442d-875d-af6d6dbaa516
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2682acb0-b3c9-476d-b32a-490df1260d2a
+slug: the-filament-asa-pure-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament ASA Pure Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-asa/
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  When your 3D-printed project is meant for outdoor use, appearance alone isn’t enough. Discover THE FILAMENT ASA – a 3D printing filament that easily withstands UV exposure, moisture and fluctuating temperatures, maintaining its shape, color and performance over time.Perfect for any application where durability matters – from architectural details and garden features to technical components used every day.
+
+  Our filament prints with exceptional ease and stability, offering a smooth workflow combined with high mechanical and thermal resistance. Manufactured in Europe and reeled on recycled (2nd life) plastic spool, THE FILAMENT ASA is a smart and reliable choice for users who expect more than just the basics.
+thumbnail_url: null
+deleted_at: null
+deleted_by: c8ca687a-c0ba-44d5-a919-e0ce3816aae2
+created_at: '2025-10-15T14:37:22.002Z'
+updated_at: '2025-10-15T14:37:22.002Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 4d1dd498-28b1-58dd-a010-345f770742a6

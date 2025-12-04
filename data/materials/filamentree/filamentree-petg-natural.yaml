@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f83e58a5-4299-43e5-8918-a1c903fb0e4b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 64b19b73-5be8-4b81-9cf9-f5df070ee2ce
+slug: petg-natural-5
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Natural
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410101-petg-natural-1kg-5012?category=63#attr=721,3020,3019,723,3555,3556,3023,3024,724
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Natural 1kg is a premium-quality 3D printing filament designed for creating strong, durable, and versatile prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament combines the ease of printing of PLA with the strength and flexibility of ABS, making it an excellent choice for a wide range of applications. The natural, translucent finish offers a clean and professional look, ideal for both functional parts and aesthetic models.
+
+  This 1kg spool provides consistent performance and reliability, making it suitable for hobbyists and professionals alike. PETG Natural is known for its excellent layer adhesion, impact resistance, and flexibility, ensuring that your prints are not only visually appealing but also robust and long-lasting. Additionally, it is resistant to moisture and chemicals, enhancing its versatility for various environments.
+
+  Key Features:
+
+      High-Quality PETG Material: Combines the ease of use of PLA with the strength and durability of ABS.
+      Natural Translucent Finish: Offers a clean, professional look suitable for a wide range of applications.
+      Excellent Layer Adhesion: Ensures strong and reliable prints with minimal warping.
+      Impact Resistance: Withstands shocks and impacts, making it ideal for functional parts.
+      Chemical and Moisture Resistance: Suitable for use in environments where exposure to chemicals or moisture is a concern.
+      Easy to Print: Compatible with most FDM 3D printers, providing a smooth printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Durable containers and enclosures
+      Artistic models and decorative items
+      Outdoor applications due to its UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid contact with eyes and skin. In case of contact, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Natural 1kg is a versatile and reliable filament choice for 3D printing, offering a perfect balance of strength, durability, and aesthetic appeal. Whether you're creating functional parts or artistic models, this filament ensures high-quality results with a clean, natural finish.
+thumbnail_url: https://file.myfilamentlist.com/new/64b19b73-5be8-4b81-9cf9-f5df070ee2ce.png
+deleted_at: null
+deleted_by: 2d23d3ff-36fd-4c1a-b104-b86cf50cf27c
+created_at: '2025-12-01T11:09:30.196Z'
+updated_at: '2025-12-01T11:09:30.196Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 2366258e-77aa-4551-a336-4c4373f8dc93
+secondary_material_types: []
+opentag_uuid: a7e4aacc-1a54-511e-8528-839bcbb7a407

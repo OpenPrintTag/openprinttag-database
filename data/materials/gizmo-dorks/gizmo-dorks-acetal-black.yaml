@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/efd0ecde8624.png
+    type: gallery
+uuid: c19d72df-531a-4cb1-8e42-d485f79609d1
+slug: acetal-black-3
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Acetal Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Polyoxymethylene (POM) filament is also known as Acetal or Polyacetal. The company DuPont uses the trade name Delrin for Acetal Resin. It is a commonly used thermoplastic to engineer specific parts. Acetal filament has high stiffness, low friction, and excellent wear resistance. It has good elastic resilience and great dimensional stability. The filament has good chemical and heat resistance. Because of it's low friction, POM is routinely used as gear wheels, ball bearings, etc. It has high impact resistance, which is one of the reasons the M16 rifle's stock is made out of POM.
+
+  The recommended print temperature is between 210degreesC - 220degreesC. POM can be printed on a heated bed plate 100degreesC - 130degreesC. Acetal does not adhere well to any of the typical 3D printer bed surfaces. Some users have found great success with drywall joint tape as their bed surface, which is the preferred method. Using wood or cellulose based platforms to print on is another alternative. A cheap and quick option is to use a thick resume or sketch paper, roughly 80 pound weight. Glue down the paper with Elmer's glue stick on top of your printer bed which is typically metal or borosilicate glass. Some users print using blue tape covered with hairspray. Not all blue tape and hairspray are the same. If you have a heated chamber, then please remember to pre-heat your chamber to reduce warping. Printing in an enclosed chamber will help with delamination. Please keep Acetal away from moisture and always keep filament in an airtight container with a desiccant. 
+
+      Net weight = 1 kg or 2.2 lbs
+      Printing temperature : 210degreesC - 220degreesC
+      Bed temperature : 100degreesC - 130degreesC
+      Print speeds : 30mm/s
+      Great strength and low friction
+      Print on a heated bed
+      Use in well ventilated areas or ventilated systems
+thumbnail_url: https://file.myfilamentlist.com/f/new/efd0ecde8624.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:12.882Z'
+updated_at: '2025-03-25T22:31:12.882Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 888effcb-b156-4560-96cd-f5072a490c7f
+colors:
+  - 252
+packages:
+  - 671d3a5f-847e-4fbf-98df-7fc8cf13560b
+  - b2069826-e417-4fe7-adc8-dd3f57999f5f
+secondary_material_types: []
+opentag_uuid: 309caeba-060e-5426-9103-cd73a2cf6446

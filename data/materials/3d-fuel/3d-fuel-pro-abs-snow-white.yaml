@@ -1,0 +1,67 @@
+photos:
+  - url: |-
+      https://file.myfilamentlist.com/filaments/new/pro-abs-snow-white-175mm-614083_592x333.jpg?v=1703111027
+      3D-Fuel Pro ABS Snow White 1.75 1 kg Horizontal spool 
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 9e97dd4b-7228-4b19-9dd3-211037483cd9
+slug: pro-abs-snow-white
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro ABS, Snow White
+abbreviation: null
+url: null
+primary_color: e1ef474f-f52b-49fb-8154-bd6ea3a62bae
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Pro ABS (Acrylonitrile Butadiene Styrene) is a go-to material for projects that require durability and the ability to withstand high temperatures. Our unique formulation is low-warp and low odor.
+
+  ABS is used for high strength applications and is a petroleum-based material product, so it holds up well in a variety of environment. ABS requires a heated bed and works best with an enclosed print area. ABS can produce some off-gassing so it is recommended that you use it only in a well-ventilated area. 
+
+      Low warp
+      Low odor
+      Heat resistant
+      Durable
+      Mildly flexible
+      can be sanded or smoothed with additional processing 
+thumbnail_url: |-
+  https://file.myfilamentlist.com/filaments/new/pro-abs-snow-white-175mm-614083_592x333.jpg?v=1703111027
+  3D-Fuel Pro ABS Snow White 1.75 1 kg Horizontal spool 
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:58.062Z'
+updated_at: '2025-03-25T22:34:58.062Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3666
+packages:
+  - 99732620-24f4-4d48-82a0-b042484f7d8b
+secondary_material_types: []
+opentag_uuid: 60d8dd5c-1cb8-5b00-96cc-a22bf281053f

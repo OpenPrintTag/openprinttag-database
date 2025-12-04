@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5db77886d262.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: a2c399e8-fd72-47c0-a179-c7f94ae616a7
+slug: pla-grey-13
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Grey
+abbreviation: null
+url: null
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Gizmo Dorks PLA filament is made from the highest quality virgin material. PLA, Polylactic Acid, is created from processing a number of plant products. PLA can be composted at commercial facilities unlike ABS which is derived from fossil fuels. PLA is a more earth friendly plastic and more rigid than ABS, and in general the printed objects will have a more glossy look and feel compared to ABS. PLA can be sanded and machined. PLA has a lower melting temperature compared to ABS. As a material, PLA has much less warping versus ABS. Additionally, a heated bed is not required to print it. PLA generally enjoys sharper details and corners compared to ABS without the risk of cracking or warping. PLA can also be printed at higher throughput speeds. 
+
+      Extrusion Temperature: 190 - 225 C
+      Heated Bed: Not required but recommended at 60 C
+      Diameter: 1.75mm +/- 0.03mm
+      Net Weight: 200 grams 
+
+  Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to try the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/5db77886d262.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:41.754Z'
+updated_at: '2025-03-25T22:33:41.754Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2674
+packages:
+  - 2a611835-793f-48e8-b7c8-262e5061df30
+  - 901dd70e-7234-4d94-aa78-89c51851d00c
+secondary_material_types: []
+opentag_uuid: 452afd2a-f5a5-5b56-acd1-ef8d96a123e1

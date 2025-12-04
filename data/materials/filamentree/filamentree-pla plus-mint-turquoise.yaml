@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6663c604-5d8f-4856-a111-149eb13aee2e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 7d66040d-c7ab-4d52-8c28-57f1e1ae6bd0
+slug: pla-plus-mint-turquoise
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Mint Turquoise
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110421-pla-plus-mint-turquoise-1kg-4596?category=59#attr=693,2911,694,695,3516,2913,2914,2915,696
+primary_color: a919a6a0-07ca-480d-88b5-b7b522b0c5a8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Mint Turquoise merges the enhanced durability of PLA Plus with a refreshing, oceanic-inspired hue, blending minty freshness with vibrant turquoise undertones. Perfect for creators seeking a bold yet calming aesthetic, this filament delivers prints that capture the essence of tropical waters and modern elegance. Whether for artistic designs, functional prototypes, or eye-catching décor, it ensures your projects shine with both strength and style.
+
+  Key Benefits:
+
+      Vibrant, Dual-Tone Color: The striking mint-turquoise shade adds a lively, modern flair to prints, ideal for summer-themed projects, aquatic designs, or standout decorative pieces.
+      Superior Durability: PLA Plus offers enhanced impact resistance and toughness compared to standard PLA, ensuring prints endure wear, handling, or dynamic applications.
+      Effortless Printing: Minimal warping, excellent bed adhesion, and compatibility with most 3D printers guarantee smooth, reliable results for all skill levels.
+      Eco-Friendly Formula: Made from biodegradable, non-toxic materials, supporting sustainable 3D printing practices.
+
+  Applications:
+
+      Home Décor & Lifestyle: Craft vibrant vases, coasters, or wall art that evoke coastal charm or modern minimalism.
+      Fashion & Accessories: Design statement jewelry, sunglasses, or wearable tech cases with a fresh, trendy vibe.
+      Prototypes & Functional Parts: Ideal for ergonomic gadgets, tech housings, or outdoor gear requiring durability and visual appeal.
+      Artistic & Aquatic Projects: Create ocean-themed sculptures, aquarium décor, or abstract art with a splash of color.
+      Kids’ Toys & Educational Tools: Produce playful puzzles, bath toys, or STEM kits with a safe, eye-catching finish.
+
+  Ideal For:
+
+      Projects demanding a bold, refreshing color with long-lasting performance.
+      Designs inspired by nature, travel, or contemporary aesthetics.
+      Eco-conscious creators prioritizing sustainability without sacrificing vibrancy.
+      Customizing prints for seasonal themes, promotional items, or creative gifts.
+
+  PLA Plus Mint Turquoise transforms your ideas into vivid, durable creations. Dive into creativity and let your prints radiate the energy of crystal-clear waters and endless innovation!
+thumbnail_url: https://file.myfilamentlist.com/new/7d66040d-c7ab-4d52-8c28-57f1e1ae6bd0.png
+deleted_at: null
+deleted_by: 1bacf795-1cf4-43eb-a3c4-07fd02435fc3
+created_at: '2025-12-01T09:47:55.990Z'
+updated_at: '2025-12-01T09:47:55.990Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0b71e06a-2719-44ae-bc23-52c4ec95243b
+secondary_material_types: []
+opentag_uuid: 849da211-908f-5488-b9e2-4cb2308a9b4a

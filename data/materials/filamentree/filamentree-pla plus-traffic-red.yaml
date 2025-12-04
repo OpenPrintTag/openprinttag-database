@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 25da2c0e-8739-4a6b-aa57-bf454dc47085
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: c272cbf5-949c-4433-9b25-40dabcf7e5e0
+slug: pla-plus-traffic-red
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Traffic Red
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110061-pla-plus-traffic-red-1-kg-4581?category=59#attr=665,2864,666,667,3506,2866,2867,2868,668
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Traffic Red is a high-impact filament designed for projects that demand attention, urgency, and reliability. With its bold, vibrant red hue inspired by traffic signals and safety signage, this filament ensures your prints stand out with unmistakable visibility. Combining the enhanced durability of PLA Plus with a color engineered for high-contrast applications, it’s perfect for safety-critical designs, promotional items, or striking creative projects.
+  Key Benefits:
+
+      High-Visibility Red: The intense traffic-red shade ensures maximum attention, ideal for safety gear, warning signs, or designs requiring instant recognition.
+      Enhanced Durability: PLA Plus offers superior strength and impact resistance compared to standard PLA, making it reliable for functional parts exposed to wear or outdoor conditions.
+      Effortless Printability: Minimal warping, excellent layer adhesion, and compatibility with most 3D printers ensure smooth, consistent results for beginners and professionals.
+      Eco-Friendly Formula: Made from biodegradable, non-toxic materials, supporting sustainable 3D printing practices.
+
+  Applications:
+
+      Safety & Emergency Equipment: Create high-visibility warning signs, emergency tool handles, or reflective gear for industrial or outdoor use.
+      Promotional & Retail Displays: Craft eye-catching product stands, signage, or branded merchandise that commands attention.
+      Automotive & Transport Models: Design traffic cones, vehicle accessories, or scale models with authentic, realistic details.
+      Educational Tools: Print safety diagrams, fire alarms, or educational kits where color clarity is critical.
+      Kids’ Toys & Gadgets: Produce vibrant toys, puzzles, or wearable accessories with a safe, durable finish.
+
+  Idea​l For:
+
+      Projects requiring urgent visual impact or safety compliance.
+      Branding and marketing materials that need to stand out in crowded spaces.
+      Functional parts needing both durability and bold color retention.
+      Eco-conscious creators prioritizing sustainability without sacrificing performance.
+
+  PLA Plus Traffic Red is the ultimate choice for turning caution into creativity. Whether for lifesaving designs or head-turning innovations, this filament ensures your prints are seen, trusted, and remembered. 
+thumbnail_url: https://file.myfilamentlist.com/new/c272cbf5-949c-4433-9b25-40dabcf7e5e0.png
+deleted_at: null
+deleted_by: 6a0ffb14-93d0-4b4b-9674-21be8b5bc32a
+created_at: '2025-12-01T09:22:13.335Z'
+updated_at: '2025-12-01T09:22:13.335Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 13f29ac9-f79f-4aad-9597-65eed3c1bfb4
+secondary_material_types: []
+opentag_uuid: 1c894a05-ccd7-5b3d-a654-3c136177dd46

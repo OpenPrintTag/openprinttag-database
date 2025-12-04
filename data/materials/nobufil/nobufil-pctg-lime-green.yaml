@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/71f612fd5d35.png
+    type: gallery
+uuid: d0d1d15e-a471-467d-b849-2df5c6c424bc
+slug: pctg-lime-green
+brand_slug: nobufil
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Lime Green
+abbreviation: null
+url: null
+primary_color: c323ee49-ce9a-43ee-a36c-11be96822c5e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nobufil PCTG filament is made from recycled plastics, which are production waste that arises during industrial processing.
+
+   PCTG (polycyclohexylenedimethylene terephthalate glycol-modified) is a polymer from the polyester family and has a much higher impact resistance than its better-known counterpart PETG. This makes the material suitable for components that are exposed to the highest mechanical loads.
+
+  The PCTG material can be printed with an open build space and is therefore also suitable for use with common desktop 3D printers. The properties of PCTG filament are a perfect combination of high strength and easy processing.
+
+   - High impact resistance for mechanically stressed components
+
+   - Easy to print even with open build space
+
+   - Low odor and warping
+
+   - High chemical resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/71f612fd5d35.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T11:19:32.405Z'
+updated_at: '2025-03-27T11:19:32.405Z'
+brand: 2628eb85-2bed-43a5-91a3-1d2bd796950a
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3934
+packages:
+  - f2f92c76-67c6-4959-886f-1f9536bcee45
+secondary_material_types: []
+opentag_uuid: b9fc35ca-7f09-5f68-9296-14cc8ae04dce

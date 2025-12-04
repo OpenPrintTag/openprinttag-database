@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 03fc7d26-3a2c-405f-8f63-a86f9b07f37b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 8227d826-d65d-4744-bea2-59ed321d0427
+slug: pla-hd-glitter-purple
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Glitter Purple
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-glitter-particulas-winkle-1-kg-285-mm-purpura/
+primary_color: 76514d85-25ac-425b-98ec-cc4f2544f68c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Shine, precision, and strength to create 3D prints that stand out.
+  Looking for a filament that guarantees spectacular finishes and professional technical results? Winkle’s 1.75 mm PLA HD Glitter Filament is your perfect ally. Available in 300 g and 1 kg spools, this 3D printer filament combines ease of use, high mechanical performance, and an incredible glitter effect that enhances every piece.
+
+  Ideal for 3D prototypes, decorative parts, cosplay, functional accessories, and artistic models with professional quality.
+
+  Its composition, with 96% stereochemical purity and glitter particles that mask layer lines, ensures clean, detailed, and deformation-free prints. Controlled moisture prevents bubbles or clogs during printing.
+
+  Highlighted applications of PLA HD Glitter Filament:
+
+  High-impact decorative models
+
+  Durable prototypes for industrial design
+
+  Functional parts with a shiny finish
+
+  Personalized gifts and merchandising
+
+  Available colors and key features:
+
+  Midnight Blue: Deep chromatic tone with stellar reflections, perfect for elegant pieces
+
+  Coral: Vibrant shade that pops in the light, ideal for eye-catching objects
+
+  Galaxy Black: Sophisticated finish with a cosmic effect, great for gadgets and tech
+
+  Purple: Fantasy sparkle that turns any figure into a unique piece
+
+  Military Green: Matte opacity with subtle particles, ideal for technical or military parts
+thumbnail_url: https://file.myfilamentlist.com/new/8227d826-d65d-4744-bea2-59ed321d0427.png
+deleted_at: null
+deleted_by: 62d5769f-72ca-4a4a-b741-f1573390695d
+created_at: '2025-11-21T12:57:13.713Z'
+updated_at: '2025-11-21T12:57:13.713Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - b59b470d-e67d-4b57-9f2d-a36829a1b2c9
+  - bd034f85-fe2e-4ee2-ac98-7089ff9b5367
+  - c4b7c251-dd7c-4252-a6b9-d4ff506933e6
+secondary_material_types: []
+opentag_uuid: 7942e591-0623-5241-aa03-7ec1742e4f22

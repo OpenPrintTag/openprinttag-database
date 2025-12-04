@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f19c91f828c4.png
+    type: gallery
+uuid: 5bdd262b-963d-4125-a7f9-0d2a1eb986f8
+slug: polylite-asa-grey
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ ASA Grey '
+abbreviation: null
+url: null
+primary_color: c09c874e-bf08-4381-8629-f1962fccb84a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  PolyLite™ ASA is an alternative to ABS with an improved weather resistance. Its UV resistance and excellent mechanical properties make it the perfect choice for real life applications.
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+  If using a stock, older style printer - we would recommend printing slower.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/f19c91f828c4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:34.458Z'
+updated_at: '2025-03-25T22:34:34.458Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3185
+packages:
+  - 082f5d99-ae9a-49c6-9448-8db81c8eb787
+  - 427ba65e-51dd-48ce-884a-86e6e75360f3
+  - 8afc1de7-e124-4c0d-9141-871dd6872023
+  - e42ab6fe-0c54-4e6e-911f-19eb6f49ae01
+  - e659415d-9134-4dfe-a397-d6d85e154cef
+  - e9f171c6-e9ae-4bee-ad1f-80f93fae1135
+secondary_material_types: []
+opentag_uuid: fd07d689-990c-5cbe-b413-cf1715d16834

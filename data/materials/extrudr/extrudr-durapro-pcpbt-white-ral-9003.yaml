@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1fc294f80f31.png
+    type: gallery
+uuid: 754fe24a-2b79-4972-bbfb-4c2c23782bfa
+slug: durapro-pcpbt-white-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro PC/PBT white | RAL 9003
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro PC/PBT is a blend of two materials: polycarbonate (PC) and polybutylene terephthalate (PBT). It combines the strengths of both polymers, making it a versatile material for industrial applications. It offers exceptional mechanical properties combined with outstanding heat resistance and resistance to degrees below zero. Thanks to its excellent chemical resistance and ease of printing, it is the optimal choice for demanding 3D printing projects.
+
+      Excellent mechanical properties 
+      High thermal resistance (VICAT A 126degreesC) 
+      Good toughness even at low temperatures (at -20degreesC to -30degreesC) 
+      Excellent chemical resistance   
+thumbnail_url: https://file.myfilamentlist.com/f/new/1fc294f80f31.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T20:20:12.531Z'
+updated_at: '2025-03-28T20:20:12.531Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 4856
+packages:
+  - 82423405-71af-4774-a644-9593d0d0ae44
+secondary_material_types: []
+opentag_uuid: 9f3c07a4-f901-5339-adbf-4f2e5b5f4b71

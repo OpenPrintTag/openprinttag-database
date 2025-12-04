@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/fccb481225c7.png
+    type: gallery
+uuid: 86948a33-6b83-4b1c-89e4-9a0cdc3249c8
+slug: polylite-asa-purple
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ ASA Purple
+abbreviation: null
+url: null
+primary_color: 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  PolyLite™ ASA is an alternative to ABS with an improved weather resistance. Its UV resistance and excellent mechanical properties make it the perfect choice for real life applications.
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+  If using a stock, older style printer - we would recommend printing slower.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/fccb481225c7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:35.314Z'
+updated_at: '2025-03-25T22:34:35.314Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3077
+packages:
+  - 15cf6ced-5ed1-40a0-88de-d74ce6c4e055
+  - 170f6f16-6fb1-4582-8e2d-31843044a6a4
+  - 2eb74dbf-0161-406d-be64-91f361b7fcc7
+  - 54c151f0-c557-448e-940e-ccc9e8058565
+  - 593a1532-c602-4c51-a8c7-c8b5771f1a12
+  - b1ae7715-d207-494e-a558-eb4640a035b0
+secondary_material_types: []
+opentag_uuid: 6d742e9c-4872-5ad1-a60c-2ce5e14ee0a2

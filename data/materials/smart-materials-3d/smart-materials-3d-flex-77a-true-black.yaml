@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/20d358d69779.png
+    type: gallery
+uuid: 5599c49f-e8d5-4e05-a0e5-a681a89ad840
+slug: flex-77a-true-black
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 77A True black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  SMARTFIL(R) Flex 77A is a flexible and durable filament, ideal for additive manufacturing of parts requiring high elasticity and durability. Perfect for industrial applications and projects where extreme flexibility is key.
+
+  SMARTFIL(R) Flex 77A is an advanced polymeric material designed to provide maximum flexibility and strength in 3D printing applications.
+
+  With a Shore hardness of 77A, this filament stands out for its great elasticity, allowing the printing of parts that need to bend or stretch without losing their original shape.
+
+  It is ideal for producing gaskets, shoe soles, or any component that must withstand mechanical stress without fracturing.
+
+  Additionally, its excellent layer adhesion ensures a uniform and high-quality print, making it suitable for industrial applications and functional prototypes.
+thumbnail_url: https://file.myfilamentlist.com/f/new/20d358d69779.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T14:14:34.118Z'
+updated_at: '2025-03-29T14:14:34.118Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5987
+packages:
+  - aca6c52a-dc4e-467f-a8a5-7c935228665a
+secondary_material_types: []
+opentag_uuid: ec7ba977-8fae-5789-9962-947dd4378515

@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ce1cf051-5b29-42e6-b29a-4e6d8f52efd9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 4672627a-2a65-4f05-86ec-209041da6428
+uuid: 47915ac2-a02c-4bd8-a4d6-fc9d6b1dedfa
+slug: premium-black
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Premium Black
+abbreviation: null
+url: https://www.liqcreate.com/product/premium-black/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Liqcreate Premium Black is an opaque black photopolymer resin with excellent color stability, ideal for rapid prototyping and concept product development.
+
+  3D-printed parts from this material have exceptional dimensional stability and low shrinkage during printing. Liqcreate Premium Black is easy to use on all open source MSLA/LCD and DLP 3D-printers in the range of 385 – 420nm. This material has excellent properties like low shrinkage and low odor, which makes it ideal for applications that require an opaque, deep black surface finish.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 78c824aa-584e-4138-961b-a53f83e44ae6
+created_at: '2025-10-06T08:44:32.621Z'
+updated_at: '2025-10-06T08:44:32.621Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9521
+packages:
+  - b6ec10c2-638e-4588-97bb-54b68ba5fd9d
+  - f82c58f1-b545-41fc-b625-7c2496256553
+secondary_material_types: []
+opentag_uuid: 8c85162b-bdcf-5bc5-af38-8f115b3c1ca8

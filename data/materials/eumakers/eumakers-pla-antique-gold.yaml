@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 512ef935-8835-4175-9641-84d59d2c02c9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+uuid: 37747142-e21c-4048-88ea-be657b316344
+slug: pla-antique-gold
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Antique Gold
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-antique-gold.html
+primary_color: 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Antique Gold.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/37747142-e21c-4048-88ea-be657b316344.png
+deleted_at: null
+deleted_by: 0422f3e2-551c-4fd8-9bc4-6b53b1360f6b
+created_at: '2025-11-12T10:08:21.011Z'
+updated_at: '2025-11-12T10:08:21.011Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 3f7e134f-f0b7-4214-bbad-240869ed7944
+  - 45d9343e-7314-45d9-aa07-99376301408c
+  - 46bc8776-d8e2-4adc-8fb9-3166a95f3688
+  - 46c32c85-3ea3-4cec-9cc7-ddc2a7e46746
+  - 51de215a-7377-4f2e-b485-5ff90d880665
+secondary_material_types: []
+opentag_uuid: 6f5151c7-e782-5fcf-b4f9-c7c5a3f4597a

@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b49c22c1-8e96-4bb6-90d2-85d537feb3a1
+  hardness_shore_a: null
+  hardness_shore_d: 68
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9c0ace0f695d.png
+    type: gallery
+tags:
+  - f256a3c0-18ea-49c8-beb0-7af94c28e476
+uuid: f7801232-4543-4983-9141-a59e320f56fe
+slug: tpu-for-ams-neon-green
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU for AMS Neon Green
+abbreviation: null
+url: null
+primary_color: ed38752d-88e0-4107-a92d-b32e285e321d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |
+  Product Features
+
+      Seamless AMS & AMS lite Integration
+      Tough Yet Flexible
+      Less TPU Stringing
+      Blazing Fast TPU Printing
+      Comes with High Temperature Reusable Spool
+      Diameter: 1.75 mm +/- 0.05 mm
+
+
+  Cautions for Use
+
+      0.2 mm Nozzle Not Compatible
+      AMS & AMS lite Compatible
+      Dry Before Use
+thumbnail_url: https://file.myfilamentlist.com/f/new/9c0ace0f695d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:22.508Z'
+updated_at: '2025-03-25T22:36:22.508Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5132
+packages:
+  - e62c4be7-9cb8-436d-8327-0d8fb1150aed
+secondary_material_types: []
+opentag_uuid: 56f6456c-8c7e-5d3c-8c15-0918d5f7e021

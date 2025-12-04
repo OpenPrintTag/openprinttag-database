@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ff556b3bdd3c.png
+    type: gallery
+uuid: b68038b1-ca5a-4eb1-ba8b-f54d64d92b3a
+slug: candy-red-petg
+brand_slug: polar-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Candy Red PETG
+abbreviation: null
+url: null
+primary_color: aab0fd0d-91b5-41f2-9ac3-023976837698
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Candy Red PETG 3D Printer Filament
+
+  1.75mm Diameter
+
+  Individual Tolerance Printed on Each Spool
+
+  Print temperature: 225C 10C
+
+  Bed temperature: 60C 5C
+thumbnail_url: https://file.myfilamentlist.com/f/new/ff556b3bdd3c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-03T15:28:04.116Z'
+updated_at: '2025-05-03T15:28:04.116Z'
+brand: 30d1056a-dfb9-4613-8385-644bfc1b07f6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7734
+packages:
+  - 1a2694b7-99fb-4bc1-afe6-79bafdc1ade7
+secondary_material_types: []
+opentag_uuid: 3b2ca9f5-451b-57e4-ba4f-726e0b95a688

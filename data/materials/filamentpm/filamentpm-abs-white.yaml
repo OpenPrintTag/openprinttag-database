@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/00784fdb1686.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 7cd81ee8-ff95-4a51-ad44-c4d6ee4e62c1
+slug: abs-white-9
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS - White '
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS (akrylonitrilbutadienstyren)
+  - more suitable for advanced makers
+  - for both small and large prints
+  - strong and tough material with a high surface hardness
+  - impact and heat resistant (up to 90 degreesC)
+  - acetone-soluble (easy post-processing)
+  - typical smell
+  - thermal contracting (closed chamber recommended)
+thumbnail_url: https://file.myfilamentlist.com/f/new/00784fdb1686.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:07:09.515Z'
+updated_at: '2025-04-23T11:07:09.515Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7093
+packages:
+  - 04f4107a-93c3-49da-8228-1ad9a1ddc3a1
+  - 795a075c-aad3-457a-aa21-b9093464502c
+secondary_material_types: []
+opentag_uuid: b25833c5-628f-57a1-a872-5790b49af3d4

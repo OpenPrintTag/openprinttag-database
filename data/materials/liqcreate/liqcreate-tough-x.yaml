@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c628ec3e-90a1-406a-97cf-52e60c99650d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 9f431d91-5e71-48cc-b32e-fe8bdbd1e600
+uuid: 81acfcf8-3536-4320-a372-a489f24bb3d9
+slug: tough-x
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Tough-X
+abbreviation: null
+url: https://www.liqcreate.com/product/tough-x/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Liqcreate Tough-X is a durable opaque black photopolymer resin with high impact resistance. 3D-printed parts from this material have exceptional impact strength. Liqcreate Tough-X can be 3D-pinted on open DLP and MSLA 3D-printers in the range of 385 – 420nm and only requires UV post-curing.
+
+  Thin parts of Tough-X have rigid rubber-like properties while thicker designs feel robust like ABS plastic. This material has excellent properties like high impact strength and up to 150% elongation, making it perfect for the production of Industrial spare parts and other functional products.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9bf35b79-258c-4f8e-9e14-49081d7fa1c0
+created_at: '2025-10-06T08:48:44.330Z'
+updated_at: '2025-10-06T08:48:44.330Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9524
+packages:
+  - bb6f88f7-2296-4737-a9c7-5e70af79eca9
+secondary_material_types: []
+opentag_uuid: fd2aa4ea-c5ce-5e33-9e1c-af13abf00a0a

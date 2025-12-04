@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.12000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 36bc2a4b-b663-4c80-8615-ae76f5380e22
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: c74d942b-7576-4c62-acda-bc978be7fd91
+slug: abs-white-19
+brand_slug: mosaic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS White
+abbreviation: null
+url: https://shop.mosaicmfg.com/products/mosaic-abs?_gl=1*nqtf4n*_gcl_au*MTk3NjAzNzM2OC4xNzYzNTgzODQx*_ga*MjE0NTc3Mjk0Ny4xNzYzNTgzODQw*_ga_F2G8XF8BZQ*czE3NjM3MTkwMzEkbzIkZzEkdDE3NjM3MjEyODQkajYwJGwwJGgw
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Mosaic ABS is lightweight, durable, and heat resistant.
+
+  This filament is the perfect choice for rapid prototyping, jigs and fixtures, automotive parts, and enclosures/casings.
+
+  This material is sold in units of 750cc. 
+thumbnail_url: https://file.myfilamentlist.com/new/c74d942b-7576-4c62-acda-bc978be7fd91.png
+deleted_at: null
+deleted_by: 316aafbf-6c86-4d7a-98a8-df7d6238cb83
+created_at: '2025-11-21T10:35:48.996Z'
+updated_at: '2025-11-21T10:35:48.996Z'
+brand: 4d1c6df0-63f5-4695-a8ff-f29fe4d83e63
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 0753e58a-6003-4d63-920d-020d45dc7ff0
+secondary_material_types: []
+opentag_uuid: 71353de7-d75a-5ba5-816e-e20487b423b8

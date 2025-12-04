@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/eb6df08ad0a5.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ba6fdcaf-5d0f-4909-8564-0116498347f1
+slug: easyfil-epla-grey-aluminium
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil ePLA Grey Aluminium
+abbreviation: null
+url: null
+primary_color: b511bc38-4dee-47be-a684-512cc1b55e8e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil ePLA is your go-to PLA filament for 3D printing. This PLA filament comes at an unbeatable retail price of €19,99 per kg and wide availability in colors and spool sizes.
+
+  Suitable applications
+
+      Functional prototyping.
+      Creating visualization aids.
+      3D printing manufacturing aids.
+      Making detailed concept models.
+thumbnail_url: https://file.myfilamentlist.com/f/new/eb6df08ad0a5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:25.959Z'
+updated_at: '2025-03-25T22:31:25.959Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1038
+packages:
+  - 19835030-48c9-4697-966c-ce14e721300a
+  - ac050c6c-dae8-4659-8dec-67bf98556b5e
+  - ee29e286-d1d1-4469-ac3a-9c3bb3fec11c
+secondary_material_types: []
+opentag_uuid: cc5c1f63-6338-5a59-ac92-07d8a810ac50

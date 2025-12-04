@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7b3c96cc-0942-442b-903d-594505db3e40
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 9af322b7-1c4c-4f21-a0f0-71581b8c0572
+slug: pla-pearl-pink
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pearl Pink
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-pearl-pink.html
+primary_color: 895e0329-ea96-420e-8202-83ebe1d8a459
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Pearl Pink.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/9af322b7-1c4c-4f21-a0f0-71581b8c0572.png
+deleted_at: null
+deleted_by: 6bcbfc48-041d-409d-9917-617707e00dcf
+created_at: '2025-11-12T09:54:02.304Z'
+updated_at: '2025-11-12T09:54:02.304Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 7c3b473c-aba8-444a-8e63-2f2528990fd7
+secondary_material_types: []
+opentag_uuid: 9e571068-6a91-5cb7-b909-3d4a72dceeba

@@ -1,0 +1,75 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d619ec8a-645a-4b85-b4ee-dccf23b72558
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: bdc45410-4ec5-4ce7-920b-1fbdbf4981ef
+slug: pla-plus-pool-blue
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Pool Blue
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110201-pla-plus-pool-blue-1kg-4590?category=59#attr=677,3522,678,679,3518,3519,3520,3521,680
+primary_color: 027889b2-61fe-40bc-8569-07e7e274ac69
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Pool Blue 1Kg is a high-quality 3D printing filament that delivers a striking, vibrant shade of blue alongside enhanced mechanical properties compared to standard PLA. With this filament, you’ll achieve impressive print quality and benefit from increased strength and durability.
+
+
+  Key Features:
+
+      Vibrant “Pool Blue” Color: Draw attention to your prints with a fresh and attractive hue.
+      Enhanced Strength: PLA Plus offers higher impact resistance and reduced brittleness compared to regular PLA.
+      Easy Printing: Low warping, excellent layer adhesion, and wide compatibility with FDM 3D printers.
+      Eco-Friendly Choice: PLA is a plant-based, biodegradable material, ideal for those seeking more sustainable solutions.
+      Outstanding Visual Quality: Smooth surface finish and precise detail make PLA Plus perfect for both decorative and functional prints.
+
+
+  Ideal For:
+
+      Colorful Prototypes & Models: A bright blue shade suited for design projects and exhibit displays.
+      Decorative Items: Vases, figurines, toys, and interior accessories.
+      Functional Parts: Thanks to increased toughness, PLA Plus can handle prototyping and small-scale technical tasks.
+      Educational Projects: Schools and home workshops, where eye-catching appearance and reliable performance are essential.
+
+
+  With PLA Plus Pool Blue 1Kg, you get the perfect combination of vibrant color, reliable printing, and higher durability. Create 3D prints that stand out visually while meeting more demanding requirements for mechanical strength.
+thumbnail_url: https://file.myfilamentlist.com/new/bdc45410-4ec5-4ce7-920b-1fbdbf4981ef.png
+deleted_at: null
+deleted_by: 08b04cb7-6d2e-4e9a-ab09-0e32ab5abaa8
+created_at: '2025-12-01T09:51:40.470Z'
+updated_at: '2025-12-01T09:51:40.470Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 37f3f71e-15dc-4b09-944d-9b789032acc7
+secondary_material_types: []
+opentag_uuid: 41a9eb42-0868-55b2-b727-5ec71b76edd1

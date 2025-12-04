@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/eeb849ab0a8e.png
+    type: gallery
+uuid: 04eb27e1-a970-42fb-b7f6-1e669635c595
+slug: high-precision-pet-white-aluminium
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Precision PET White Aluminium
+abbreviation: null
+url: null
+primary_color: 4428c7b7-f711-42ea-bbc9-f9d3a29d5dcf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A pure PET filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Good inherent UV resistance.
+      Good chemical resistance.
+      3D Prints details with a high resolution and high surface quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/eeb849ab0a8e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:55.287Z'
+updated_at: '2025-03-25T22:31:55.287Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 798
+packages:
+  - 08aff5d0-83d8-4bb6-8ee7-a44604b1aa1a
+  - 10cd84fb-b130-4110-ac91-90e0bef64ff0
+  - 8e8e32e7-6bbf-49f0-b503-9f8edfddbd80
+  - c459e61b-80d3-441b-b3e3-298d0f52d878
+secondary_material_types: []
+opentag_uuid: 47327192-8791-5729-8d3a-fd2330c88310

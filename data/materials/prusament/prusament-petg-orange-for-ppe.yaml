@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 48ceb916-b000-4c12-9412-a52ad17e00cb
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+uuid: 2e1d88b5-06b1-40c0-9fd3-8cb5188433bf
+slug: petg-orange-for-ppe
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Orange for PPE
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-petg-orange-for-ppe-1kg-2/
+primary_color: 571d77b7-5ec7-473d-8c62-0a54a4b58ff5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: This Prusament PETG is primarily made for printing PPE (Personal protective equipment). The material composition matches Prusament PETG Prusa Orange, however, to speed up the production, the diameter tolerance is ±0.03mm and the winding is not as perfect as on the usual Prusaments. It's still a high-quality filament, which we've been using on our print farm for a long time.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 651d9f56-be9b-432f-9e55-03e8077cb4c6
+created_at: '2025-10-29T14:44:43.774Z'
+updated_at: '2025-10-29T14:44:43.774Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 311c6e7e-3eea-415b-8376-b3d59e984087
+secondary_material_types: []
+opentag_uuid: 357de176-2664-5edc-b3fe-849e2fa4f34c

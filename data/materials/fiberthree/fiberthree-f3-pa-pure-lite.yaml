@@ -1,0 +1,55 @@
+uuid: 505fa1cc-03e5-4add-8650-289256aba12f
+slug: f3-pa-pure-lite
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' F3 PA-Pure Lite '
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 7d53a059-288d-4be7-ab9c-32d35c560769
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      low warping effect
+      unfilled
+      excellent adhesion to various print plates
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: b71078ab-74b9-4255-a4b2-9baa27f9e062
+created_at: '2025-10-21T14:48:40.388Z'
+updated_at: '2025-10-21T14:48:40.388Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors: []
+packages:
+  - e7f72aa0-66e9-40bd-86ec-ff3747802c9f
+secondary_material_types: []
+opentag_uuid: 1327a08c-699c-561d-8b56-6f95a6c38ad9

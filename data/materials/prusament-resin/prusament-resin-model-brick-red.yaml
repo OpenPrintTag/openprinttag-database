@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7402332d-78de-49c1-95ff-4b2577ee9cc9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 71634d71-8cea-4f16-ab29-8d391cb6ff0b
+uuid: a915c7a9-4bf7-4fc1-84b6-9336594ea537
+slug: model-brick-red
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Brick Red
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-brick-red-1kg/
+primary_color: 0ed2d7ad-4d26-43e2-ac22-c825e787a8c7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ca0257ed-2b65-4092-999e-9fa7aca5f3b6
+created_at: '2025-10-03T13:03:02.994Z'
+updated_at: '2025-10-03T13:03:02.994Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9661
+packages:
+  - 4eb62022-6be5-46b9-ba36-abd29f56d1ba
+secondary_material_types: []
+opentag_uuid: aeec1190-fc6b-58bb-b2fa-26efc0616582

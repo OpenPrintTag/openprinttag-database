@@ -1,0 +1,53 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/866cee42cce6.jpg
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 1da9b584-206e-4b0c-b7e8-617e5c6773a2
+slug: abs-diamond-purple
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Diamond Purple
+abbreviation: null
+url: null
+primary_color: 229535f8-c6a8-4d8b-8115-e3ea5437a723
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Overture ABS is known for its impressive heat resistance, capable of withstanding temperatures up to approximately 100˚C. This property makes it an excellent choice for applications where exposure to elevated temperatures is a concern, such as automotive parts, home appliances, and other functional components. The ability to maintain structural integrity under heat ensures that ABS parts perform reliably in demanding environments.
+thumbnail_url: https://file.myfilamentlist.com/f/new/866cee42cce6.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:10.695Z'
+updated_at: '2025-03-25T22:31:10.695Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 86
+packages:
+  - 9b57e100-5307-4f2d-8310-8a0e02f2965b
+secondary_material_types: []
+opentag_uuid: 09f3d873-fad6-5887-9829-634109352f2d

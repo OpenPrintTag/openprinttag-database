@@ -1,0 +1,54 @@
+uuid: f62ea2eb-a2fa-4699-82e7-47ecacc517be
+slug: pctg-yellow-3
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Yellow
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-refill-pctg-yellow
+primary_color: 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  FILAMENT 3D ReFill PCTG Yellow is a polyester-based filament, offering an alternative to PET-G with higher impact resistance, heat resistance (up to 76°C), and improved clarity. It does not require a heated chamber, making it suitable for open hobbyist 3D printers. It features flexibility, strong layer adhesion, minimal shrinkage, and ease of use.
+
+  The intense yellow color of the filament is perfect for printing lampshades, figurines, and artificial fruits.
+
+  To use ReFill filaments, it is necessary to install the ROSA3D Masterpool, available in our store.
+thumbnail_url: https://file.myfilamentlist.com/new/f62ea2eb-a2fa-4699-82e7-47ecacc517be.png
+deleted_at: null
+deleted_by: e426710a-140e-42b5-bb98-678c86b02356
+created_at: '2025-11-16T14:19:12.525Z'
+updated_at: '2025-11-16T14:19:12.525Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors: []
+packages:
+  - 0165edf5-ee54-43f9-b7bd-035f8d694860
+secondary_material_types: []
+opentag_uuid: acb1bcef-7ab3-5499-b1ab-780f82664fef

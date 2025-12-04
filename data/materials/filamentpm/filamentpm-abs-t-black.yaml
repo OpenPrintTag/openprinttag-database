@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/622238d51225.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 53c71fa9-76ea-4c4b-9c4f-c1c36fad0f3e
+slug: abs-t-black
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS-T - Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS-T (akrylonitrilbutadienstyren + methyl-methacrylate)
+  - ABS with few differences:
+
+      even more resistant (up to 98 degreesC)
+      harder and stronger material than classic ABS
+      the colors are shiny because the input material is transparent
+      more difficult to print and adhesion to the heatbed (closed chamber recommended even more)
+      more suitable for printing smaller objects
+thumbnail_url: https://file.myfilamentlist.com/f/new/622238d51225.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:20:02.204Z'
+updated_at: '2025-04-23T11:20:02.204Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7104
+packages:
+  - 0e9dea58-b99b-4355-a68d-30b301bc9be6
+secondary_material_types: []
+opentag_uuid: f6f09b27-dae9-504a-9a6d-7c3c84f91c1b

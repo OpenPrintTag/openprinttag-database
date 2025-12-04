@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/03e76c046717.png
+    type: gallery
+uuid: f4e85d0c-f6ab-45b6-a71f-e88d910175d5
+slug: polymide-copa-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyMide™ CoPA Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyMide™ CoPA is based on a copolymer of Nylon 6 and Nylon 6,6. The filament combines excellent strength, toughness, and heat resistance of up to 180˚C.
+
+
+  -  Printing Requirements
+
+      All-metal hotend that can reach 250˚C recommended.
+      Filament dryer required - the material is very hygroscopic.
+      Annealing and then moisture conditioning post printing.
+
+  And that's all! This material does not require an enclosure or anything special to print.
+
+  Overhangs and supports can be difficult - so it is recommended you either use dissolvable support material or you design your part to not require support structures. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/03e76c046717.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:49.352Z'
+updated_at: '2025-03-25T22:34:49.352Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors:
+  - 3519
+packages:
+  - 67f3f365-f2c3-4b0b-b730-11063871f7e0
+  - b4a7edf8-7366-4754-b529-935f4840ef3b
+secondary_material_types:
+  - 18
+opentag_uuid: c3763e01-919b-5a81-9d60-f08cc2bf015c

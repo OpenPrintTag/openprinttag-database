@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d02ff03fb710.png
+    type: gallery
+uuid: 7eee64db-664e-4886-a013-7ec01c4b3697
+slug: asa-blue-6
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ASA - Blue '
+abbreviation: null
+url: null
+primary_color: 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ASA (acrylonitrile styrene acrylate)
+  - similar to ABS
+  - perfect for outside use
+  - UV stable, high water and impact resistant
+  - high impact and wear resistance
+  - easy postprocessing (it's possible to sand the prints using wet or dry sanding methods, smooth them out with acetone vapors, and glue them together with acetone)
+  - ideal for prototyping, outside use as well as the automotive and engineering industries
+thumbnail_url: https://file.myfilamentlist.com/f/new/d02ff03fb710.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:34:17.706Z'
+updated_at: '2025-04-23T11:34:17.706Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7107
+packages:
+  - a4fcbe47-8021-4ca9-9f9f-015c71bd9cba
+secondary_material_types: []
+opentag_uuid: 59b3c300-d265-547c-9c42-0dbb5b3f0088

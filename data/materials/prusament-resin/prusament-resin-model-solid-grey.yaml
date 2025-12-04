@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7439a8f6-251b-41f2-b2ed-6e34ca4a8e1d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 116fabbc-478d-4021-ad2b-23d318757169
+uuid: 2d5c7d74-5801-49cb-8dad-b603e63e3f4d
+slug: model-solid-grey
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Solid Grey
+abbreviation: null
+url: https://www.prusa3d.com/cs/produkt/prusament-resin-model-solid-grey-1kg/
+primary_color: 572eefaf-e268-4edf-9370-62e68e7e7a47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b0a0cdf8-5812-4cce-a0e9-b6f2a510a77a
+created_at: '2025-07-02T06:15:32.053Z'
+updated_at: '2025-07-02T06:15:32.053Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9552
+packages:
+  - 0ac90ea2-9061-49c5-ac7f-49e129b5ce69
+  - 280cc443-07fc-4216-8f8d-6eed31b880c8
+secondary_material_types: []
+opentag_uuid: 61971e03-5265-5fcf-84ae-3742ff4416de

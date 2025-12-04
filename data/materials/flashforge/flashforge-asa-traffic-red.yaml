@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d031085fda8a.jpg
+    type: gallery
+uuid: 4cbc684c-ae43-4166-a5d9-b80504e93621
+slug: asa-traffic-red
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Traffic Red
+abbreviation: null
+url: null
+primary_color: 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      High UV Resistance - FLASHFORGE ASA UV filament has all the properties of 3D filament ABS with the additional features of being high temperature resistance. Compared to ABS, it's UV stable, it doesn't suffer from shrinking so badly and the fumes produced are much less noticeable.
+
+      Excellent Temperature Resistance - It shows no signs of deformation up to temperatures near 93 C. Flashforge ASA is especially suitable to print objects meant for long-time outside use. such as RC planes or car accessories.
+
+      Gorgeous Matte Finish - Our ASA filament with a very special matte finish and bright colors which makes the final print look very smooth and high quality. (Matter surface than regular ABS Filament )
+
+      International products have separate terms, are sold from abroad and may differ from local products, including fit, age ratings, and language of product, labeling or instructions.
+thumbnail_url: https://file.myfilamentlist.com/f/new/d031085fda8a.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:15.413Z'
+updated_at: '2025-04-06T01:18:43.554Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 6832
+packages:
+  - 54ea3f31-6468-4185-bc6f-c4bc957d9ee3
+secondary_material_types: []
+opentag_uuid: 898593e1-edf1-5aa8-be8f-5c139213c72b

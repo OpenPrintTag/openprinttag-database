@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.34000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f808fe15-5caa-482a-8feb-7ed43c5bdba8
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 90f95331-0925-4c06-9611-d3d1c6f61a27
+slug: greenypro-real-green
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: GreenyPro Real Green
+abbreviation: GreenyPro
+url: https://spectrumfilaments.com/en/filament/greenypro/
+primary_color: 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  An innovative filament with versatile applications
+
+  GreenyPro is a new filament from the bio-performance series, created especially for demanding applications where efficiency, reliability and ease of printing are important. This innovative material is a response to the needs of engineers and creators who demand more from their projects and expect the best results.
+
+  GreenyPro is characterized by much higher impact resistance compared to standard PLA filaments. GreenyPro is also distinguished by other features, such as excellent plasticity (vs. classic PLA) and minimal warping during printing. Thanks to these properties, you can create durable and strong parts that are not subject to deformation. This is an ideal solution for applications where precision is key.
+
+  Temperature resistance is another significant advantage of GreenyPro, which highlights its versatility. This material achieves a VICAT temperature resistance of 160°C, making it an excellent choice for projects requiring thermal stability. Additionally, GreenyPro is characterized by a semi-matt print surface, giving 3D-printed objects elegance and a professional finish. GreenyPro is biodegradable according to DIN EN ISO 14855.
+
+  If you care about performance, reliability, excellent finish and temperature resistance, GreenyPro is the perfect choice. Discover new possibilities with GreenyPro filaments and take the quality of your projects to a higher level.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7e419ccd-3fb2-4ab7-9031-a09d1e8b627f
+created_at: '2025-10-13T16:44:28.364Z'
+updated_at: '2025-10-13T16:44:28.364Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: null
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 9531518e-ca68-5c8c-af49-1478185d90b0

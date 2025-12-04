@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.25000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: fe53dc30-0e90-42a8-8409-240ebf985ece
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 61441404-992b-413d-a008-07b49debce43
+  - f2311e2a-2a91-40bb-b201-da6f609e9bcd
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e9653f67-0cf1-4ba7-8f89-c0932be2a18b
+slug: pla-nature-pils-beer
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Nature Pils Beer
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-nature/
+primary_color: 49f83369-69ad-49e7-bc1e-0f03536e7c52
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  New inspirations and possibilities with filament containing natural fillers
+
+  The PLA Nature series was designed with the intention of creating new textures in 3D printing materials through the use of bio-fillers. Filaments from the PLA Nature series are characterized by ease of printing, unique textures and colors and low shrinkage. A significant presence of visible bio-filler in PLA Nature filaments is a unique feature compared to the traditional PLA material. The printed model can also undergo a post-print heat treatment process, thereby increasing its heat resistance.
+
+  The PLA Nature series consists of 3D printing filaments based on PLA, manufactured with the bio-fillers such as:
+
+      Distillery waste (PLA Nature Pils Beer and PLA Nature Dark Beer)
+      Algae (PLA Nature Algae and PLA Nature Algae Nori)
+      Industrial hemp byproducts, including sawdust and fibers (PLA Nature Hemp)
+      Linen (PLA Nature Flax).
+
+  The particle size of the natural fillers used in production has been specially reduced to increase their presence in the filament and enable printing on a much wider range of devices using standard PLA settings.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 2e1f811d-b43c-4bc2-bd15-1ad208ad9978
+created_at: '2025-09-30T18:50:28.598Z'
+updated_at: '2025-09-30T18:50:28.598Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9374
+packages:
+  - 0bb7f639-8af9-4235-b040-4cc9a96233dc
+  - c3179890-7d6f-4360-afd0-a14b84874219
+secondary_material_types: []
+opentag_uuid: 1440a9e6-b2e3-5f10-b888-5068e7f64f90

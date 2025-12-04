@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9f082297c5e8.png
+    type: gallery
+uuid: 3cb75c26-8bc6-4947-bee1-d1ef5e058cc8
+slug: flex-93a-sapphire
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 93A Sapphire
+abbreviation: null
+url: null
+primary_color: 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Thermoplastic Elastomer
+
+  It is a material that has the ability to be stretched to moderate elongations and, after the stress is removed, return to its original shape. It has the potential to be recyclable since it can be molded and reused like plastic.
+
+  FLEX
+
+  It is a specially modified filament that allows printing flexible, elastic objects with high print quality.
+
+  It has been specifically designed to prevent clogging in the printer's nozzle during printing, as its Shore hardness is 93A, higher than that of the competition.
+thumbnail_url: https://file.myfilamentlist.com/f/new/9f082297c5e8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T16:21:51.800Z'
+updated_at: '2025-03-29T16:21:51.800Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3955
+packages:
+  - 0966673b-7920-471e-9cf4-d411f27d089c
+  - 4d535ae2-7ea1-4086-8022-ecffb9404c3a
+secondary_material_types: []
+opentag_uuid: 8f9c70ef-7119-5d54-83be-9fb86954babb

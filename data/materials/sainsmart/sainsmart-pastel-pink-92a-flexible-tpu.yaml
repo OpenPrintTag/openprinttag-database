@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2518c15e-94f7-468d-bb32-4be227b592e4
+  hardness_shore_a: 92
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: fb6cc0cd-85ae-4479-b598-ad37211c3bef
+slug: pastel-pink-92a-flexible-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pastel Pink 92A Flexible TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/pastel-color-1-75mm-92a-flexible-tpu-3d-printer-filament-1kg?variant=32703003099215
+primary_color: 93df95b5-4ade-4372-9f27-83a63546c3d5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+      Filament Diameter: 1.75 mm; Shore Hardness: 92A; Dimensional Accuracy +/- 0.04 mm;1 kg (approximately 2.2 lbs) per Spool; Vacuumed Sealed with Desiccant; Recommended extruder temperature:195 - 230°C; Recommended platform temperature: 40 - 60°C
+      Compared to 95A filament, this 92A TPU Filament exhibits the following properties: higher elongation and abrasion resistance, better elasticity with highly reversible deformation and rebound resilience.
+      Low warping and stringing, resistance to oils, greases. Printing 92A Filament requires more tweaking than the 95A ones, but with the profile provided by us (find the product description below), printing with it would be much easier.
+      Compatibility: It is compatible with most FDM printers on the market that use 1.75 mm filament, including SainSmart x Creality, Prusa i3, Monoprice MakerSelect & Qidi, and other RepRap printers.
+      92A TPU Filament can be used to produce elastomer parts like protective covers and vibration dampeners, widely used in the sectors of electronics, automotive, consumer goods, and sports equipment.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: adba75d4-3bea-4c9f-9de6-2f49effc3aee
+created_at: '2025-09-29T07:47:02.566Z'
+updated_at: '2025-09-29T07:47:02.566Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9200
+packages:
+  - 4f8b6c85-76e1-4383-8006-710d4966b292
+secondary_material_types: []
+opentag_uuid: 21646726-7443-592b-a43c-22b3ecfe7fca

@@ -1,0 +1,82 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: dec828ea-ea32-4069-a3ad-86f1d6cf9eee
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 250e0305-c26e-4e57-a652-09c2d088048c
+slug: pla-pro-pastel-orange
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pro Pastel Orange
+abbreviation: PLA Pro
+url: https://www.filamentree.eu/shop/30210041-pla-pro-pastel-orange-1kg-4604?category=60#attr=757,2965,758,759,3543,3542,2968,2969,760
+primary_color: 9142e497-d33b-4444-b7f0-1f9c6f574bef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Elevate your 3D printing projects with PLA Pro Pastel Orange, a premium-grade filament designed for professionals and enthusiasts who demand precision, durability, and a soft yet vibrant aesthetic. This warm pastel shade combines the eco-friendly benefits of PLA with enhanced performance, making it perfect for both functional and decorative applications.
+
+
+  Key Features:
+
+      Soft Pastel Elegance: The delicate Pastel Orange hue adds a fresh, stylish touch to prints, ideal for artistic and modern designs.
+      Pro-Grade Performance: Enhanced layer adhesion, reduced warping, and improved thermal stability ensure smooth, reliable prints—even for intricate models.
+      Eco-Conscious Material: Made from renewable, biodegradable resources (non-toxic, plant-based PLA), supporting sustainable creativity.
+      Consistent Quality: Precision-engineered with a diameter tolerance of ±0.03mm for clog-free printing and flawless results.
+      User-Friendly: Optimized for FDM printers, featuring low odor and minimal warping. Compatible with most desktop 3D printers.
+
+
+  Applications:
+
+      Creative & Artistic Prints: Bring vibrancy to sculptures, figurines, and stylish home décor.
+      Functional Prototypes: Produce durable yet aesthetically pleasing enclosures, tools, or product designs.
+      Educational & Hobby Projects: Perfect for STEM applications, custom cosplay props, and accessories.
+      Interior & Fashion Accessories: Craft elegant vases, planters, or designer objects with a soft, pastel finish.
+
+
+  Why Choose PLA Pro Pastel Orange?
+
+  This filament bridges the gap between performance and aesthetics, offering a versatile solution for projects that require both strength and a unique color touch. Whether you’re prototyping a functional part or creating an eye-catching décor piece, PLA Pro Pastel Orange ensures consistent, professional-quality results every time.
+
+  Unlock Creativity. Print with Precision.
+
+  Ideal for makers, designers, and innovators who refuse to compromise on quality or sustainability. Order your PLA Pro Pastel Orange 1kg spool today and bring your 3D visions to life!
+thumbnail_url: https://file.myfilamentlist.com/new/250e0305-c26e-4e57-a652-09c2d088048c.png
+deleted_at: null
+deleted_by: 7840b96a-709a-4c94-b454-a3cd0a15c3ac
+created_at: '2025-12-01T10:53:16.523Z'
+updated_at: '2025-12-01T10:53:16.523Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 1283d560-c844-4aa7-9bd6-f203b6ef7968
+  - d4a7b8b7-6cd9-4f4b-9973-d7d78029e099
+secondary_material_types: []
+opentag_uuid: 554843b9-abdc-57cc-a4f3-babe13d8fd1f

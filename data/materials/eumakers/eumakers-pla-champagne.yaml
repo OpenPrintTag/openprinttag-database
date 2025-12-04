@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e21337fb-2445-4ce4-be52-1eaebe94b835
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 7a4d94c5-fff4-41ba-b596-8ce7ef0fa3e6
+slug: pla-champagne
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Champagne
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-champagne.html
+primary_color: 2d90a842-9c01-4d66-b5bf-14868f47376e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/7a4d94c5-fff4-41ba-b596-8ce7ef0fa3e6.png
+deleted_at: null
+deleted_by: cf3c8a39-6924-4034-bc84-1f4fab393f78
+created_at: '2025-11-11T12:35:38.019Z'
+updated_at: '2025-11-11T12:35:38.019Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 3a43b63e-e2d3-4061-a95c-919a2cb6284e
+  - 3f7654d9-405a-4c27-b366-dcce51b57982
+  - 7b1d1318-1584-4e10-86c3-4f752e9cd30a
+  - ca570b87-5a32-475e-9996-1c92ed761d7e
+  - fc551305-739e-4311-9c90-94a209f0ac22
+secondary_material_types: []
+opentag_uuid: c7340456-9227-5ece-b4bf-a04ed71d7707

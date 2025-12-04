@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9cd188d92c5a.png
+    type: gallery
+uuid: 9b03183e-776a-4e60-9447-87ea2f1fdbac
+slug: asa-extrafill-sky-blue
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Extrafill "Sky Blue"
+abbreviation: null
+url: null
+primary_color: 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  High UV stability and weather resistancemake ASA Extrafill ideal foroutdoor applications.
+
+   Excellent weather and UV light resistance
+   Retention of physical features such as color and mechanical properties
+   Recyclable
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/9cd188d92c5a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:14.223Z'
+updated_at: '2025-03-25T22:31:14.223Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 384
+packages:
+  - 35b4f95a-632f-4557-8552-a8ee76106b6f
+  - 6953e130-f3ef-469a-b6e2-48698c01cd98
+secondary_material_types: []
+opentag_uuid: 3b331b2a-8c17-5324-b5cb-3068664c2363

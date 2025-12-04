@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a7f7b22e9b71.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 6d727a9e-37fa-4819-b354-477cb3d02645
+slug: easyfil-pla-sapphire-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' EasyFil PLA Sapphire Grey'
+abbreviation: null
+url: null
+primary_color: 5531e687-09de-45aa-84ed-76a35eac7243
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  EasyFil PLA is an easy to print PLA type of 3D printer filament that is available in a wide variety of colors. Its improved flowing behavior make 3D printed layers flow more into each other.
+
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Slightly softer than standard PLA resulting in improved strength and impact resistance
+      Almost odourless processing/printing
+      Biodegradable
+      Wide variety of vivid opaque colors
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/a7f7b22e9b71.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:28.452Z'
+updated_at: '2025-03-25T22:31:28.452Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1051
+packages:
+  - 2b68a472-ac29-4289-ac9d-2be439bf6bab
+  - 3ad6571e-bef0-43f2-bbd3-29e5c1df3ef9
+  - abf8a77b-87df-4baf-9fed-1a46d7dd00d0
+  - b6ac5e70-950c-40bf-89ac-65f5ba05d25a
+secondary_material_types: []
+opentag_uuid: 24d485e9-bbc9-5b7d-bdfd-4f20afa8b5d8

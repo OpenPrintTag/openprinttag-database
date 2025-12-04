@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f46752b9fbbb.png
+    type: gallery
+uuid: 45f2a264-0f64-48e3-b90d-0c62fbfaf022
+slug: easyfil-hips-natural
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' EasyFil HIPS Natural '
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil HIPS is a versatile high-performance Polystyrene type of 3D printer filament that can be used for 3D printing light and durable parts with a matt surface finish.
+
+  EasyFil HIPS is a high-performance and easy to print filament. It is slightly softer and more flexible than a regular HIPS (High Impact PolyStyrene) filament. It also has a higher impact resistance than regular HIPS filaments.
+
+  EasyFil HIPS is chemically inert and has outstanding characteristics with respect to hygiene. It has a high strength and heat resistance and it prints really smoothly. Fine details and an extremely matte surface finish can be achieved with the material. Parts printed with the material are light-weight and can easily be glued together with a variety of adhesives.
+
+  Unique features
+
+      Very limited warping
+      High impact resistance
+      Extremely smooth matte surface finish
+      Light-weight and durable
+      High ESCR resistance
+      Engineered to meet UL 94HB flame retardancy standards
+      Easily to glue with various adhesives
+      HIPS styrene glues, epoxy based adhesives, superglues, and contact adhesives
+thumbnail_url: https://file.myfilamentlist.com/f/new/f46752b9fbbb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:27.455Z'
+updated_at: '2025-03-25T22:31:27.455Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 1046
+packages:
+  - 068b82f5-effe-4324-8483-b43739e84c7b
+  - 3e46b877-0ca9-4a53-be0e-5f7d5ec27d4c
+  - 83390f13-d550-44e4-9eda-ba6940ac4175
+  - bed92c92-29e1-4d5e-b5a2-27a9f127a25f
+  - ce434a07-3be7-403c-ada2-37628ad3de8a
+  - e1232420-2cfd-4751-b239-84ec3b295446
+secondary_material_types: []
+opentag_uuid: 2ff453c1-d807-5619-bbb6-7f2e377ac997

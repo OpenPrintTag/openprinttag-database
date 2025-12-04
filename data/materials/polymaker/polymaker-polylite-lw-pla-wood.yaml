@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/03f7d28d5f4c.png
+    type: gallery
+tags:
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d99fffe5-43ef-4c84-8b8e-7c64cc3f13ee
+slug: polylite-lw-pla-wood
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ LW-PLA Wood '
+abbreviation: null
+url: null
+primary_color: ece94c3a-7d84-46f1-820a-11ee45e2dab3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ LW-PLA is a special foamed PLA designed to print with similar settings as regular PLA but with half the weight.
+
+
+  - Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/03f7d28d5f4c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:37.349Z'
+updated_at: '2025-03-25T22:34:37.349Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3495
+packages:
+  - 8459292c-e3c4-472b-86ed-bcc39a435b29
+secondary_material_types: []
+opentag_uuid: 011dc588-ff8e-55d7-8ba6-091a832002a6

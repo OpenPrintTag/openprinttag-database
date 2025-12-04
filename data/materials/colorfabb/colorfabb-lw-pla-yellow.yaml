@@ -1,0 +1,79 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/14690c1cf83e.png
+    type: gallery
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: cb858bc5-bf25-4b75-a2e6-ec23b7d10d66
+slug: lw-pla-yellow
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: LW-PLA Yellow
+abbreviation: null
+url: null
+primary_color: f36bb080-3d2c-40e0-85b6-73cfc6075c44
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Pros
+  Reduce the weight of printed parts up to 65% compared to regular PLA.
+
+  Control extruded volume of material by regulating printing temperature. At around 230C LW-PLA starts foaming and can increase its volume by nearly 3 times.
+
+  With one spool LW-PLA you can print as much as with 3 regular spools of PLA, due to the 3x lower material multiplier / flow.
+
+  Easy to cut, trim, sand and takes paint really well.
+
+  LW-PLA  (Natural,Black,Gray Silver & Red) hides layer lines really well.
+
+  Cons
+   Material oozes on travelmoves, this is normal and can't be reduced completely.
+
+   Color will turn lighter when material is at maximum foamed state as opposed to non-foamed state which shows a deeper and richer color.
+
+  This is what our customer are saying about this material:
+  -"...Must have material for RC planes! Light, easy to print, can cut and trim, too"
+  -"...LW-PLA, it's perhaps the most ingenious 3D printer filament on the market."
+  -"...So far I have used this for cosplay and the weight reduction is amazing"
+  -"...This filament creates strong, lightweight parts with great surface finish and it sands very well (better than normal PLA)"
+  -"...I've been using this filament for various decorative prints to be worn, and the weight reduction is a real advantage!"
+  -.."Ideal for Drone replacement parts"
+thumbnail_url: https://file.myfilamentlist.com/f/new/14690c1cf83e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:14.170Z'
+updated_at: '2025-03-25T22:32:14.170Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1433
+packages:
+  - 567b8e5d-0493-45b9-8e5f-5c33ebab7591
+  - d3509e78-d945-4d90-b70e-31dfa8ad5e98
+secondary_material_types: []
+opentag_uuid: c3101909-dda7-5edd-942d-6d70a2d8167c

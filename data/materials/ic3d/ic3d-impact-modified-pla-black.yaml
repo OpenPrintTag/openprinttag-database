@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bbf8fad67f97.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: cd9e2a8a-415d-4f75-9502-341cf6f816ca
+slug: impact-modified-pla-black
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Impact Modified PLA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Impact Modified PLA (IM-PLA) is a new formulation of PLA that is tougher and less brittle than legacy 4043D PLA.
+
+  IM-PLA combines the ease of use, low warping, and consistent performance of raw 4043D PLA with an impact modifier to become tougher, more durable, and less prone to cracking when struck or stressed. IM-PLA is compatible with all open filament format 3D printers and can be recycled back into the earth by industrial composting facilities.
+thumbnail_url: https://file.myfilamentlist.com/f/new/bbf8fad67f97.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T10:16:13.304Z'
+updated_at: '2025-05-01T10:16:13.304Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7428
+packages:
+  - 185bd79c-c807-4022-9140-e45921360f7c
+  - 2005dc48-066a-45f8-8ae1-8ede0cb9d0f0
+  - 4ceb054b-5802-4951-99e3-f23febe9d7b7
+  - 85b7306a-b31c-49ce-a606-f556684a0f0f
+  - ab5009c5-66c1-45df-a015-3c822ae6bb1d
+  - d05600b4-8747-4c04-84fd-78522355a999
+secondary_material_types: []
+opentag_uuid: 682caca3-d0fd-5cc5-bef7-87873860b7ab

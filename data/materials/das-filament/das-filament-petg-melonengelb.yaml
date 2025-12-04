@@ -1,0 +1,64 @@
+uuid: 52a88a43-c7d7-41b6-946a-0842fe6df144
+slug: petg-melonengelb
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Melonengelb
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/176/petg-filament-1-75-mm-melonengelb-800-g?c=35
+primary_color: e4fc5556-4f2f-4c3f-a82d-163e353b16ba
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 1028 Melonengelb (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: fb1df1fe-37db-4afb-a742-00ab91d62c92
+created_at: '2025-10-19T09:40:44.079Z'
+updated_at: '2025-10-19T09:40:44.079Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 6aad805c-f253-4ce8-93e7-551849ffeb5c
+  - bba45730-f9cf-4be8-aabb-a8c4e3400536
+secondary_material_types: []
+opentag_uuid: 9a5d0873-2936-587c-b58c-48421442f01e

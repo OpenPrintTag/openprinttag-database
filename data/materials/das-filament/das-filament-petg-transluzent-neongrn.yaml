@@ -1,0 +1,65 @@
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 30391ba8-ed7f-417d-8678-b71f4aa96582
+slug: petg-transluzent-neongrn
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Transluzent Neongrün
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/140/petg-filament-1-75-mm-transluzent-neongruen-800-g?c=35
+primary_color: 70f1f0e7-07fc-4829-9749-c942d7e2042a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephtalat Glycol)
+      Temperaturbeständigkeit bis ca. 80 °C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800 g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75 mm und 2,85 mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05 mm)
+      Spulenabmaße: Außen: Ø 200 mm; Aufnahme: Ø 52 mm; Breite: 55 mm
+      Die Drucktemperatur sollte zwischen 210-240 °C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Transluzent-Neongrün (Fluoreszierend). Lichtdurchlässig. Wird mit zunehmender Schichtdicke schnell deckend.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 6241e7ee-ec65-4407-8093-d35db9c5765a
+created_at: '2025-10-19T09:49:47.065Z'
+updated_at: '2025-10-19T09:49:47.065Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 4c5b9ace-315f-4250-b23a-d982f75fcc77
+  - 61e1af96-64d1-45ba-a1ba-10a58b8761cf
+secondary_material_types: []
+opentag_uuid: 73db8ca4-22fc-5d0b-acfc-e6ae689f2c77

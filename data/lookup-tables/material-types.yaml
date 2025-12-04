@@ -1,50 +1,309 @@
 types:
-  - id: 1
+  - uuid: 11326e38-73f7-49f4-8829-af6b88797505
+    name: PEKK
     class: FFF
-    abbreviation: PLA
-    name: "Polylactic Acid"
-    description: "Biodegradable thermoplastic derived from renewable resources like corn starch"
-    default_properties:
-      nozzle_temperature_default: 215
-      bed_temperature_default: 60
-      density: 1.24
-
-  - id: 2
+    created_at: '2025-03-25T22:31:09.976Z'
+    updated_at: '2025-03-25T22:31:09.976Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 2794fe27-f341-4dae-be47-d1f8300c3865
+    name: PPS
     class: FFF
-    abbreviation: PETG
-    name: "Polyethylene Terephthalate Glycol"
-    description: "Durable, chemical-resistant thermoplastic with good layer adhesion"
-    default_properties:
-      nozzle_temperature_default: 240
-      bed_temperature_default: 85
-      density: 1.27
-
-  - id: 3
+    created_at: '2025-03-25T22:31:38.012Z'
+    updated_at: '2025-03-25T22:31:38.012Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 27a91e17-7871-4d99-88e5-9d92e84d20b8
+    name: CPE
     class: FFF
-    abbreviation: ASA
-    name: "Acrylonitrile Styrene Acrylate"
-    description: "UV-resistant thermoplastic suitable for outdoor applications"
-    default_properties:
-      nozzle_temperature_default: 260
-      bed_temperature_default: 100
-      density: 1.07
-
-  - id: 4
+    created_at: '2025-03-25T22:31:21.061Z'
+    updated_at: '2025-03-25T22:31:21.061Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+    name: PCTG
     class: FFF
-    abbreviation: ABS
-    name: "Acrylonitrile Butadiene Styrene"
-    description: "Strong thermoplastic with good impact resistance"
-    default_properties:
-      nozzle_temperature_default: 255
-      bed_temperature_default: 100
-      density: 1.04
-
-  - id: 10
+    created_at: '2025-03-25T22:31:15.620Z'
+    updated_at: '2025-03-25T22:31:15.620Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+    name: ABS
+    class: FFF
+    created_at: '2025-03-25T22:31:09.858Z'
+    updated_at: '2025-03-25T22:31:09.858Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 356c1e79-d2e2-4fea-84b5-05973a8e7253
+    name: Resin 405
+    class: FFF
+    created_at: '2025-05-13T09:00:30.620Z'
+    updated_at: '2025-05-13T09:00:30.620Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 4276cd45-24b9-4b77-a7c5-1582b5200e89
+    name: PVDF
+    class: FFF
+    created_at: '2025-03-25T22:31:45.338Z'
+    updated_at: '2025-03-25T22:31:45.338Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 428ffec6-1ed0-433d-8890-0f62a70a5f54
+    name: PS
+    class: FFF
+    created_at: '2025-03-25T22:36:04.951Z'
+    updated_at: '2025-03-25T22:36:04.951Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 458d9c08-8f78-4f27-9d85-e803727c3d97
+    name: PA66
+    class: FFF
+    created_at: '2025-03-31T10:06:22.207Z'
+    updated_at: '2025-03-31T10:06:22.207Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 495c02b1-f7aa-473c-aa63-f3e20359f160
+    name: PVC
+    class: FFF
+    created_at: '2025-03-25T22:36:42.518Z'
+    updated_at: '2025-03-25T22:36:42.518Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 4fca8d6e-48ab-42e8-bfee-75788e756d52
+    name: CPE
+    class: FFF
+    created_at: '2025-03-25T22:31:16.819Z'
+    updated_at: '2025-03-25T22:31:16.819Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 51cf087e-03a1-4dab-8df0-59216550a74d
+    name: PVB
+    class: FFF
+    created_at: '2025-03-25T22:31:38.756Z'
+    updated_at: '2025-03-25T22:31:38.756Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 5beec594-21be-49e1-bbb8-9967cce685fc
+    name: TPE
+    class: FFF
+    created_at: '2025-03-25T22:31:42.062Z'
+    updated_at: '2025-03-25T22:31:42.062Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 5f869243-9e59-4c4c-9698-d3926ae77712
+    name: PETG
+    class: FFF
+    created_at: '2025-03-25T22:31:09.992Z'
+    updated_at: '2025-03-25T22:31:09.992Z'
+    default_properties: 113f95c5-d66b-48e6-833e-4f4c5331d3aa
+    abbreviation: null
+  - uuid: 66738a5e-d08c-41ee-b21a-2b8e75ffd39f
+    name: PPE
+    class: FFF
+    created_at: '2025-03-25T22:36:04.951Z'
+    updated_at: '2025-03-25T22:36:04.951Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 6bc270a6-a9c8-430f-b3ea-b52fb0420f83
+    name: PP
+    class: FFF
+    created_at: '2025-03-25T22:31:19.623Z'
+    updated_at: '2025-03-25T22:31:19.623Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 74402b65-a6d9-4c22-90c2-1ab8c38a9323
+    name: PA612
+    class: FFF
+    created_at: '2025-10-09T16:25:03.987Z'
+    updated_at: '2025-10-09T16:25:03.987Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 7b810802-06dc-4210-af24-2c15b1098dc5
+    name: TPC
+    class: FFF
+    created_at: '2025-03-25T22:31:44.561Z'
+    updated_at: '2025-03-25T22:31:44.561Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 811db6e1-6f2a-47e7-a92f-ffb8b57d3f0b
+    name: PPSU
+    class: FFF
+    created_at: '2025-03-25T22:34:56.043Z'
+    updated_at: '2025-03-25T22:34:56.043Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 888effcb-b156-4560-96cd-f5072a490c7f
+    name: POM
+    class: FFF
+    created_at: '2025-03-25T22:31:12.859Z'
+    updated_at: '2025-03-25T22:31:12.859Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+    name: PA6
+    class: FFF
+    created_at: '2025-03-25T22:31:09.492Z'
+    updated_at: '2025-03-25T22:31:09.492Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+    name: PVA
+    class: FFF
+    created_at: '2025-03-25T22:31:09.845Z'
+    updated_at: '2025-03-25T22:31:09.845Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: 9f6608c2-4594-42be-915e-c59e2c4e3465
+    name: PEBA
+    class: FFF
+    created_at: '2025-03-25T22:31:41.802Z'
+    updated_at: '2025-03-25T22:31:41.802Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: a344ccbd-583d-46ca-b9eb-14aeb9612723
+    name: PA11
+    class: FFF
+    created_at: '2025-09-29T13:41:40.722Z'
+    updated_at: '2025-09-29T13:41:40.722Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: a4312caf-8833-4c65-9a52-a54327107e8d
+    name: PA12
+    class: FFF
+    created_at: '2025-03-25T22:31:09.929Z'
+    updated_at: '2025-03-25T22:31:09.929Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: b3847d78-d583-4560-a806-4a98f9d44aeb
+    name: TPU
+    class: FFF
+    created_at: '2025-03-25T22:31:09.523Z'
+    updated_at: '2025-03-25T22:31:09.523Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: bbe36018-f32e-48d2-827e-b0f86460fd59
+    name: Resin
     class: SLA
-    abbreviation: RESIN
-    name: "Standard Resin"
-    description: "UV-curable photopolymer resin for high detail prints"
-    default_properties:
-      exposure_time: 8
-      layer_height: 0.05
-      density: 1.1
+    created_at: null
+    updated_at: '2025-07-02T06:06:34.963Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: c68120d2-55a8-4434-b3f3-a29d75a374c7
+    name: ASA
+    class: FFF
+    created_at: '2025-03-25T22:31:09.617Z'
+    updated_at: '2025-03-25T22:31:09.617Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d2884c66-903c-4330-a69b-c7eacf998820
+    name: PCL
+    class: FFF
+    created_at: '2025-03-25T22:31:16.038Z'
+    updated_at: '2025-03-25T22:31:16.038Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d3b6e9e6-7cfb-49f8-8af6-91a0430c91e9
+    name: PMMA
+    class: FFF
+    created_at: '2025-04-30T13:29:22.738Z'
+    updated_at: '2025-04-30T13:29:22.738Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d4694b63-f4e0-4a7b-af90-34f99e336211
+    name: PSU
+    class: FFF
+    created_at: '2025-03-25T22:36:05.302Z'
+    updated_at: '2025-03-25T22:36:05.302Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d5068a37-16d3-48d9-9b16-c536d00add2e
+    name: PBT
+    class: FFF
+    created_at: '2025-03-28T20:19:44.846Z'
+    updated_at: '2025-03-28T20:19:44.846Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d5915783-f7a7-44c7-908a-2bae427eaa7b
+    name: PEEK
+    class: FFF
+    created_at: '2025-03-25T22:31:19.460Z'
+    updated_at: '2025-03-25T22:31:19.460Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d61d6b3c-cfe3-4b38-8f46-7ad1d80e7eca
+    name: PES
+    class: FFF
+    created_at: '2025-03-25T22:36:04.867Z'
+    updated_at: '2025-03-25T22:36:04.867Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: d8402742-8924-48df-bccd-c7a5b8341c31
+    name: HIPS
+    class: FFF
+    created_at: '2025-03-25T22:31:09.800Z'
+    updated_at: '2025-03-25T22:31:09.800Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: e4ecb819-04f3-4075-9933-8fb74d6d47a1
+    name: OBC
+    class: FFF
+    created_at: '2025-11-28T11:43:23.348Z'
+    updated_at: '2025-11-28T11:43:23.348Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: e74ef038-91c8-4428-a40b-c9438217ea22
+    name: PPA
+    class: FFF
+    created_at: '2025-03-25T22:31:39.565Z'
+    updated_at: '2025-03-25T22:31:39.565Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: e81f29e2-3ccf-428e-9441-f3d12f571051
+    name: PLA
+    class: FFF
+    created_at: '2025-03-25T22:31:10.007Z'
+    updated_at: '2025-03-25T22:31:10.007Z'
+    default_properties: fd086362-d845-4858-a701-3f4ee70a04ad
+    abbreviation: null
+  - uuid: e93c4417-ea91-4ee7-9857-24a7bbf24e15
+    name: PEI
+    class: FFF
+    created_at: '2025-03-25T22:31:09.958Z'
+    updated_at: '2025-03-25T22:31:09.958Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: ebacb5bb-e477-438e-85b2-857729ff0a70
+    name: TPI
+    class: FFF
+    created_at: '2025-03-25T22:36:05.530Z'
+    updated_at: '2025-03-25T22:36:05.530Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+    name: PET
+    class: FFF
+    created_at: '2025-03-25T22:31:37.838Z'
+    updated_at: '2025-03-25T22:31:37.838Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: f0b4ec6a-82e3-46ad-81d0-576129309522
+    name: PC
+    class: FFF
+    created_at: '2025-03-25T22:31:09.875Z'
+    updated_at: '2025-03-25T22:31:09.875Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: f9656b17-fc8a-4bd4-adaa-725bed0624aa
+    name: PHA
+    class: FFF
+    created_at: '2025-03-25T22:31:13.100Z'
+    updated_at: '2025-03-25T22:31:13.100Z'
+    default_properties: null
+    abbreviation: null
+  - uuid: ff4aad8b-2097-4d5a-bd42-5df8f3984016
+    name: BVOH
+    class: FFF
+    created_at: '2025-03-25T22:31:18.177Z'
+    updated_at: '2025-03-25T22:31:18.177Z'
+    default_properties: null
+    abbreviation: null

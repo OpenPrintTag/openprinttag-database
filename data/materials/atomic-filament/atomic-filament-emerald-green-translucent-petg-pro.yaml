@@ -1,0 +1,55 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a0bd3af025b5.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: a94a3431-9e54-4b71-9d29-e0d7f5f43918
+slug: emerald-green-translucent-petg-pro
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Emerald Green Translucent PETG PRO
+abbreviation: null
+url: null
+primary_color: 7ba5556a-1500-4f30-a85e-42a55489ce9a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG is a newer printing filament and has the advantage of printing easily like PLA, but offering higher temp and impact resistance like ABS.
+  Nearly ZERO warpage prints, extremely strong layer bonds, little to no odor at all.
+thumbnail_url: https://file.myfilamentlist.com/f/new/a0bd3af025b5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:35.001Z'
+updated_at: '2025-03-25T22:31:35.001Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 731
+packages:
+  - a5f66441-019f-47f9-bd13-840847dac64d
+secondary_material_types: []
+opentag_uuid: d92be758-80d0-568a-9fd8-73a75b485ebb

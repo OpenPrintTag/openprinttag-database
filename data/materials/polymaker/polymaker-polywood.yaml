@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2336c74f3dbe.png
+    type: gallery
+tags:
+  - 82d7f94d-5fb1-4d74-ac09-17a65b37cd42
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d0a9a8f3-9516-427c-89ee-cbe749f15797
+slug: polywood
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyWood™
+abbreviation: null
+url: null
+primary_color: ece94c3a-7d84-46f1-820a-11ee45e2dab3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyWood™ is a wood mimic filament without actual wood powder, which removes all risks of nozzle clogs. PolyWood™ is made entirely with PLA using a special foaming technology. It exhibits similar density and appearance as wood.
+
+
+  - Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2336c74f3dbe.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:54.858Z'
+updated_at: '2025-03-25T22:34:54.858Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3892
+packages:
+  - 01c537ca-52ef-468b-a1a8-fdb1aa847ea4
+  - 08d4d934-2ef4-495f-bea8-3e8240d79003
+secondary_material_types: []
+opentag_uuid: aaee75b3-6772-5ee9-8be4-5792e9119a2a

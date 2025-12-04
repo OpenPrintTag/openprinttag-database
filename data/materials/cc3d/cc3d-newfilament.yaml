@@ -1,0 +1,52 @@
+tags:
+  - 033050b8-25bb-4f28-aca3-dccc4d8f8efd
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 86ae4755-548d-4b37-81e9-01b3adca6890
+slug: newfilament
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: NewFilament
+abbreviation: null
+url: null
+primary_color: 4e47c67f-2b6c-495d-8613-78822a427b60
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-06T23:34:55.271Z'
+updated_at: '2025-04-06T23:41:35.244Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6837
+packages:
+  - 7863a299-53ae-4dcd-bfb0-fc26a4e94baf
+secondary_material_types: []
+opentag_uuid: 9974d5a0-ace8-5fd8-8efa-4c076e0b7483

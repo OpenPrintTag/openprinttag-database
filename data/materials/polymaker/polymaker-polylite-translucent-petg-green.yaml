@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8fbb10c66aa7.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: b305a504-35cd-4487-bfda-22e2840d6a15
+slug: polylite-translucent-petg-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ Translucent PETG Green '
+abbreviation: null
+url: null
+primary_color: c59d6aee-d3ca-45ea-b387-17550a7d30bf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PETG is an affordable PETG filament with balanced mechanical properties and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8fbb10c66aa7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:46.680Z'
+updated_at: '2025-03-25T22:34:46.680Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3415
+packages:
+  - 32d79f5d-f0ca-496a-b560-4c123a1d036a
+  - 41fc8e31-53b5-47c1-9de3-d68b0423fa26
+  - 43fdff84-3503-4f6b-afdb-c5407c42aeda
+  - 7376abac-e602-4cf9-a1eb-6fb931210665
+secondary_material_types: []
+opentag_uuid: fcdf4357-480c-5e19-99ee-5863c6f78d54

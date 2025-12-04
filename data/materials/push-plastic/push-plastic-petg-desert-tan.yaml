@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e35752fe028e.png
+    type: gallery
+uuid: f37023dd-307c-4843-b3ed-ee9ebd28e4a3
+slug: petg-desert-tan
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Desert Tan
+abbreviation: null
+url: null
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/e35752fe028e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:17:31.283Z'
+updated_at: '2025-04-30T12:17:31.283Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7363
+packages:
+  - 01b173a7-7efb-42e8-9cda-0fa48566f0fd
+  - 075f30b2-a06a-4d3e-807c-d54b2a588277
+  - 164c1ef9-bd46-4ea4-a7c3-e367dedcad05
+  - 61f6a69f-8297-4095-b914-9537184354d8
+  - 80204a1b-69be-4901-b953-d9161b368930
+  - 8e13d54d-2468-4765-9ef3-9af7ef867346
+  - 95a07e18-1fb7-4ac7-9e63-4b3eac65fd45
+  - afc24f59-a1a6-4150-b71c-16fef4b47039
+  - d143f45b-8e0c-4ee9-9c12-81fff1c4f70a
+  - f6f8d62a-6621-4b9a-b01a-65b613bc6687
+secondary_material_types: []
+opentag_uuid: 948a6efc-0302-529d-be8d-3cffcc4d9a08

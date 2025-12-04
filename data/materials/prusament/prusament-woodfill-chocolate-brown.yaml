@@ -1,0 +1,72 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.16000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7f117cf4-75c1-4e56-8458-ec3dd84fa9f3
+  hardness_shore_a: null
+  hardness_shore_d: 67
+  fff_material_properties: 60e607c2-4ff1-42b0-8a90-89518b71a5ef
+  sla_material_properties: null
+  min_print_temperature: 185
+  max_print_temperature: 205
+  preheat_temperature: 170
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  chamber_temperature: null
+  heatbreak_temperature: null
+  min_chamber_temperature: null
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - e4b51bb5-75c7-484a-bf67-20f37016fc30
+uuid: 70219d6a-a2a5-4168-af99-aad23e7e5842
+slug: woodfill-chocolate-brown
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Woodfill Chocolate Brown
+abbreviation: Woodfill
+url: https://www.prusa3d.com/product/prusament-woodfill-chocolate-brown-1kg/
+primary_color: a5b6ceba-c8b0-44ac-b94e-d472e3e69391
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Our first wood-filled filament, the Prusament Woodfill Linden Light, is both visually attractive and easy to print. It really resembles wood in multiple aspects: it looks like wood, smells like wood, feels like wood, and may slightly sound like wood when knocked on. It can even be stained like regular wood to highlight the texture. The other great advantage of Prusament Woodfill Linden Light is its easy printability. Most filaments filled with wood powder (or other similar additive) need a 0.6 mm, or even bigger nozzle for best results. However, the Prusament Woodfill Linden Light can be easily printed with a standard brass 0.4 mm nozzle. Also, it doesn’t have to be dried before printing.
+
+  Similarly to our rPLA filaments using various waste products, the wood used in this filament comes from the wood manufacturing process waste. Last but not least, linden is the Czech national tree, and - as you surely all know - Prusa Research is a Czech company. Using the color of this wood is one of the many ways we show the world where we come from.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9f71fecc-a117-4c5e-b7bc-dfed60c82eba
+created_at: '2025-09-23T17:17:06.076Z'
+updated_at: '2025-09-23T17:17:06.076Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: null
+colors:
+  - 8897
+packages:
+  - 27e11c13-51a5-48ca-8451-03d639f80712
+  - ea839c33-da2a-4c45-baaa-329edf299f34
+secondary_material_types: []
+opentag_uuid: ec73bc16-8fa4-531c-b871-fa6423feeaae

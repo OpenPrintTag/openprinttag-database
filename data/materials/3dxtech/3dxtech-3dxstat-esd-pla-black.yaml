@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8ac6b8ab49d0.png
+    type: gallery
+tags:
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: fa96ab21-e932-45c8-a209-b1e79bc1be02
+slug: 3dxstat-esd-pla-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 3DXSTAT ESD-PLA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  3DXSTAT ESD PLA is an advanced ESD-Safe compound designed for use in critical applications which require electrostatic discharge (ESD) protection. Made using cutting-edge multi-wall carbon nanotube technology, state of the art compounding technology, and precision extrusion processes. Target surface resistance: 10^7 to 10^9 Ohm.
+
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8ac6b8ab49d0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:10.007Z'
+updated_at: '2025-03-25T22:31:10.007Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 29
+packages:
+  - 6719db4d-a76e-4880-802e-ded843180ecb
+  - 9dde56b3-26d2-4790-92c8-92156dd656a2
+  - b72b06eb-9b2c-43d2-b913-3a9fd2206cd6
+  - edf62463-c165-4c81-9af5-f17a91b92b56
+secondary_material_types: []
+opentag_uuid: 84c5c533-fc86-56af-b985-fd3f97d5c938

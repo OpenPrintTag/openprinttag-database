@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5824df3c-cc4b-4673-8679-a77477ec12df
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 2c4f47e5-5e15-4bf7-8f18-bdac29d8f4ba
+slug: blue-star-stuff-tpu-95a
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Blue Star Stuff TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-blue-star-stuff-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: bec21c45-aa24-4662-b2c4-92b00e1c6c1c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Blue Star Stuff. It is a translucent blue filament with silver glitter!
+
+  It is the same shade as our Blue Star Stuff PLA and PETG. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 4c6d43be-0bdb-4f22-8110-4dcbdbf444bc
+created_at: '2025-10-21T11:17:17.862Z'
+updated_at: '2025-10-21T11:17:17.862Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 5282e444-0781-48b9-977e-5cd6aab32ea0
+secondary_material_types: []
+opentag_uuid: 558c5d60-4e6e-5196-8fb0-848a442d5c0d

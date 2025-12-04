@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/370f268daf78.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 72c42d49-4142-4340-8dfa-13a9eda9b78a
+slug: pla-extrafill-cobalt-blue
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Extrafill "Cobalt Blue"
+abbreviation: null
+url: null
+primary_color: 64a2b6b2-bff9-4a88-ad0d-1484a1acb41a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Fillamentum PLA Extrafill is a premium material for FFF 3D printing. It is made from natural raw materials and biodegradable by industrial composting.
+
+   Easy to print (suitable for beginners)
+   Safe for food contact applications
+   Made of natural ingredients (100% bio-based)
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/370f268daf78.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:27.599Z'
+updated_at: '2025-03-25T22:33:27.599Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2646
+packages:
+  - b1a598f0-3e5e-4e24-92cd-de53d9c818ff
+  - f3d46a54-64f0-4144-a047-46e7af14b038
+secondary_material_types: []
+opentag_uuid: e821343d-b1ee-5776-b7e5-67bf71409212

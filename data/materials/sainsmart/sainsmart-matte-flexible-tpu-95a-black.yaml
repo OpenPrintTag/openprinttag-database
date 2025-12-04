@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 99312deb-92a6-4f45-93b8-30e9b199b4ae
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: f44322a5-1b6b-4ac9-87da-27de583e8950
+slug: matte-flexible-tpu-95a-black
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'Matte Flexible TPU 95A Black '
+abbreviation: null
+url: https://www.sainsmart.com/products/matte-tpu-filament?_pos=1&_fid=0b0f09340&_ss=c
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  Flexible TPU: Create robust and flexible parts with ease using SainSmart TPU filament. Its Shore Hardness of 95A ensures your prints are tough and bendable, perfect for various projects such as shoe insoles, watch bands, phone cases, and drone parts, etc.
+
+  Matte Finish: Experience the high quality of our filament, designed to produce models with a sophisticated matte finish.
+
+  Precision and Consistency: Our filament boasts a diameter of 1.75 mm with a dimensional accuracy of ±0.05 mm, ensuring reliable and precise prints every time. Each spool contains 1kg (approximately 2.2 lbs) filament.
+
+  Optimal Printing Conditions: Achieve stunning results with a recommended extruder temperature of 200 - 220°C and a platform temperature of 30 - 55°C. (Tips: Lowering the temperature to 210°C can minimize drawing.)
+
+  SainSmart 3D Printer Filament provides quality PLA/ PVA/ PA/ PETG/ TPU/ PA-CF 3D filament. It is professional to enable you to see your thoughts and concepts engineered into a real and rewarding reality.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5e5ad1f1-cc96-4a19-a4fb-05c658eca762
+created_at: '2025-09-26T12:23:04.279Z'
+updated_at: '2025-09-26T12:23:04.279Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9156
+packages:
+  - 39a0d3f2-1c18-48bd-afe4-cea9ed12cd82
+secondary_material_types: []
+opentag_uuid: c80d16ab-4f62-586a-9f9c-a0f027fbae1c

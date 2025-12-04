@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f580ae65ff6d.png
+    type: gallery
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: a5fc2a5e-1e97-4b8c-a15e-523ed106a925
+slug: safety-orange-nylong-glass-fiber
+brand_slug: matterhackers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Safety Orange NylonG Glass Fiber
+abbreviation: null
+url: null
+primary_color: f52c9109-108f-4c4f-9663-0e1a208e9157
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  NylonG is a glass-fiber reinforced nylon for 3D printing, offering excellent impact-resistance, incredible tensile strength, and great inter-layer adhesion. It retains dimensional accuracy better than standard nylon and absorbs large amounts of kinetic energy, making it ideal for parts that need to withstand repeated shock. The filament creates clean, complex parts in various colors with no post-processing needed and pairs well with Ionic support materials for dual extrusion prints.
+
+      Glass fiber-infused for extra strength and impact resistance
+      Excellent at absorbing large amounts of kinetic energy
+      Produces clean, complex parts with no post-processing needed
+thumbnail_url: https://file.myfilamentlist.com/f/new/f580ae65ff6d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:21.555Z'
+updated_at: '2025-03-25T22:35:21.555Z'
+brand: 2f78f004-49c7-4672-9cd5-32971f28f7ca
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors:
+  - 4483
+packages:
+  - 1f587bdd-7f4f-4250-95e8-3d06e54866f6
+  - 27944145-8e05-4e98-a2ce-daf7acb6f67e
+secondary_material_types: []
+opentag_uuid: 714f4d22-c28c-5136-9525-16c9d5c47e35

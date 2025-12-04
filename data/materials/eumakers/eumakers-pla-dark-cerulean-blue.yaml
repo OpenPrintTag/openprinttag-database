@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0c792b98-dfce-4382-b180-4ab68cfdf14c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 31ee9f70-8dc7-430e-9e26-01656a325bae
+slug: pla-dark-cerulean-blue
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Dark Cerulean Blue
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-dark-cerulean-blue.html
+primary_color: 6ebe43f3-a819-46e3-af6b-053dc4e61b01
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/31ee9f70-8dc7-430e-9e26-01656a325bae.png
+deleted_at: null
+deleted_by: 616587d0-465a-4039-a29e-475fc7ac9b25
+created_at: '2025-11-11T12:10:58.408Z'
+updated_at: '2025-11-11T12:10:58.408Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 26ac8d14-4c57-4564-989d-a3eb3968f58a
+  - 3074d8b5-e0a7-44da-a85b-fc0c4a8103bc
+  - 96be0aad-c91c-4d69-9d83-be9c95ddd8d0
+  - c0a6989d-6447-4d62-8e3d-13fbc7fa673d
+  - cdca1bd8-e0e6-4f47-8283-4b06551e6742
+secondary_material_types: []
+opentag_uuid: ad92a585-7b01-5cb6-b27f-028b8a67ebee

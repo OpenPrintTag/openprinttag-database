@@ -1,0 +1,75 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 04e011c5-8270-4411-bb87-2e98d5c0fd01
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 1ca61b44-0b4e-4545-b45d-643d21e5c382
+slug: pla-pastel-blue
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pastel Blue
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-pastel-blue.html
+primary_color: 8994306d-ecec-417a-b89e-70045a94d8c7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/1ca61b44-0b4e-4545-b45d-643d21e5c382.png
+deleted_at: null
+deleted_by: a32524ed-c226-4e9d-b3a5-e25219a41859
+created_at: '2025-11-11T13:02:16.272Z'
+updated_at: '2025-11-11T13:02:16.272Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 02590a3a-7d13-4353-a5ac-ac8c630e303d
+  - 0436dc72-8727-45b4-bfe7-78efea92c1fb
+  - 3c31bd0d-ee4b-49b3-9aef-2b86e8ef3fb5
+  - e813f642-0b4e-445e-8a67-fbc8216e0f13
+secondary_material_types: []
+opentag_uuid: 5c5cc877-8b2d-510d-a9d2-0709b6a67ea1

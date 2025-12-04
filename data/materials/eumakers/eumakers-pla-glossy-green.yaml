@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: be56bd84-3592-4457-b957-08318dbceb0d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+uuid: 216b7085-5835-4613-ada3-c7e846eb38c1
+slug: pla-glossy-green
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Glossy Green
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-glossy-green.html
+primary_color: 9670fc48-8015-48c0-b7b6-bbc42d7c04cc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Glossy Green.
+
+   
+
+  This special filament is highly polished; when under a direct light, it yields a glare and a scattered glow.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/216b7085-5835-4613-ada3-c7e846eb38c1.png
+deleted_at: null
+deleted_by: 708aa094-e973-4c2a-9dd7-dc621054d43a
+created_at: '2025-11-12T09:51:35.717Z'
+updated_at: '2025-11-12T09:51:35.717Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - ae114aed-8b0a-44f7-bf92-7cdbfcb616fc
+secondary_material_types: []
+opentag_uuid: 722651ee-752d-513c-9112-96b779ad3f47

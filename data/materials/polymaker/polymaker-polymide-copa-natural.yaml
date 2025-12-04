@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ceee568752d9.jpg
+    type: gallery
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: 72619c9c-cad3-427f-847a-65a0f64950b9
+slug: polymide-copa-natural
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyMide™ CoPA Natural
+abbreviation: null
+url: null
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyMide™ CoPA is based on a copolymer of Nylon 6 and Nylon 6,6. The filament combines excellent strength, toughness, and heat resistance of up to 180˚C.
+
+
+  -  Printing Requirements
+
+      All-metal hotend that can reach 250˚C recommended.
+      Filament dryer required - the material is very hygroscopic.
+      Annealing and then moisture conditioning post printing.
+
+  And that's all! This material does not require an enclosure or anything special to print.
+
+  Overhangs and supports can be difficult - so it is recommended you either use dissolvable support material or you design your part to not require support structures. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/ceee568752d9.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:49.494Z'
+updated_at: '2025-03-25T22:34:49.494Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors:
+  - 3520
+packages:
+  - 7b32c88d-2b6b-4a2d-86b1-495271ef0e7c
+  - c261b260-29b9-49fb-8299-2b309165ed04
+secondary_material_types:
+  - 19
+opentag_uuid: aaeba610-47ee-5b4d-a952-74da7e7e91e1

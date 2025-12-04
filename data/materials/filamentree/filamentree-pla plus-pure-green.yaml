@@ -1,0 +1,86 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e9fc1ec7-0995-4372-ab26-6b4afdfc392a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 23b1a179-9640-4c9b-ad7d-5043efb04c17
+slug: pla-plus-pure-green
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Pure Green
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110301-pla-plus-pure-green-1kg-6335?page=2&category=59#attr=3797,3792,3789,3790,3793,3794,3795,3796,3791
+primary_color: 125178f8-347a-48e7-a4ae-fcb3e6598742
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Pure Green is a premium 3D printing filament with a clean, vibrant green shade that symbolizes energy, balance, and nature. This color is perfect for design, eco-friendly, and technical projects that combine precision with visual appeal. PLA Plus Pure Green offers excellent strength, a smooth surface, and easy printability – a great choice for anyone looking for both quality and lively color in one filament.
+
+
+  Key Benefits
+
+
+      Pure green color: A bright and balanced shade of green that gives prints a natural and fresh appearance.
+      High strength and flexibility: PLA Plus is stronger and more impact-resistant than standard PLA, ensuring durable and stable prints.
+      Easy to use: Excellent bed adhesion, minimal warping, and compatibility with most 3D printers for smooth and reliable printing.
+      Eco-friendly material: Made from biodegradable and non-toxic raw materials, ideal for environmentally conscious users.
+
+
+  Applications
+
+
+      Decorative and interior projects: Perfect for creating design accessories, plant-themed decorations, or nature-inspired models.
+      Eco and educational projects: Great for environmental models, school projects, or presentation prototypes.
+      Artistic and creative prints: Ideal for figurines, jewelry, or modern artistic designs.
+      Functional prototypes: Suitable for durable, precise, and visually appealing technical models.
+      Advertising and presentation items: Excellent for logos, signage, and demonstration pieces with a fresh look.
+
+
+  Ideal For
+
+
+      Designers and creators looking for a fresh, natural color.
+      Projects focused on aesthetics and sustainability.
+      Eco-conscious users seeking a reliable, high-quality filament.
+      Creative prints that combine color, strength, and quality.
+
+
+  PLA Plus Pure Green delivers the perfect combination of durability, reliability, and vibrant color. It’s the ideal choice for anyone who wants their 3D prints to look natural, fresh, and professional.
+thumbnail_url: https://file.myfilamentlist.com/new/23b1a179-9640-4c9b-ad7d-5043efb04c17.png
+deleted_at: null
+deleted_by: 00153e9b-67be-46e5-8c49-3cb53dfa8d19
+created_at: '2025-12-01T10:45:00.339Z'
+updated_at: '2025-12-01T10:45:00.339Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 8995a1a5-79e6-4272-a329-4482e836d5fa
+secondary_material_types: []
+opentag_uuid: 4c4eff94-2a52-509b-aa86-4d1b0f1ab499

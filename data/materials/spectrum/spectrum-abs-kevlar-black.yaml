@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 303b93a4-6439-4386-a1da-60fbd2eb9436
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 4cb7aa76-f907-4d4b-b1de-104a4499f337
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 60f10039-5b4a-443a-8d94-0e0a5c0222e1
+slug: abs-kevlar-black
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Kevlar Black
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/abs-kevlar/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Aramid-fiber-reinforced ABS  
+
+  Spectrum ABS Kevlar is a structural composite filament based on ABS with the addition of  aramid fibers, commonly known as Kevlar. The demand for properties better than  those offered by standard ABS, for durability and for increased tensile strength set in motion actions aimed at combining the very good properties of ABS with aramid fibers.
+
+  The applied modifications led to reduced shrinkage, excellent adhesion to work platforms and reduced material density, which means that the printed elements are slightly lighter than their counterparts made with standard ABS. The excellent dimensional stability makes it possible to 3D print objects with accurate dimensions, which is especially important for projects consisting of multiple parts.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 33ca6364-9d45-4534-a4b2-eadc7b739d92
+created_at: '2025-10-15T14:56:49.566Z'
+updated_at: '2025-10-15T14:56:49.566Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 501723f5-6b5c-5602-9b73-6e71a9ed7915

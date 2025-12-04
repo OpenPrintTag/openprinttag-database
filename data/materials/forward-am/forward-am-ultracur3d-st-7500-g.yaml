@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.10000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 10330eb0-9d83-40bf-9990-24a5ec21f546
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: baebe998-076b-437c-afec-4aba7a35afb2
+uuid: 7156f992-eb27-4f0d-a4d3-e86e17a9bf63
+slug: ultracur3d-st-7500-g
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® ST 7500 G
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/tough-line/ultracur3d-st-7500-g/
+primary_color: 572eefaf-e268-4edf-9370-62e68e7e7a47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Multi-Purpose Resin with High Durability and Fast Easy Printing
+
+  Ultracur3D® ST 7500 G by Forward AM is the latest addition to our tough product line. This material is extremely fast and easy to print, with printed parts showing excellent surface quality and intricate details. This makes the material perfect for applications like figurines, hobby models and functional prototyping.
+
+  In addition, with a combination of high toughness and low water absorption, this material is perfect for any applications where high durability is required, for example for outdoor use.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7745a626-f413-4b8e-8ede-658a1a76e2ec
+created_at: '2025-10-06T08:21:21.944Z'
+updated_at: '2025-10-06T08:21:21.944Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9509
+packages:
+  - 76926d0b-0318-4f7a-8054-52c27b200c8d
+  - dc8e1ba2-4d89-40ca-9ae9-c1e1ce0825f6
+secondary_material_types: []
+opentag_uuid: f3156247-b1da-5c3e-80bd-8638f3499f75

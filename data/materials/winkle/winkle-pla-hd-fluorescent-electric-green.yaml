@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ad8d8088-0297-4820-a146-6099dc4bebd0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - f256a3c0-18ea-49c8-beb0-7af94c28e476
+uuid: af332922-ed71-4460-94af-521779d544d0
+slug: pla-hd-fluorescent-electric-green
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Fluorescent Electric Green
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-fluorescente-winkle-175-mm-0300-kg-verde-electrico/?_gl=1*u9c3cc*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3MjEzNzYkbzEkZzEkdDE3NjM3MjU0OTckajQ5JGwwJGgxMjQwMTEyNzE.
+primary_color: 70f1f0e7-07fc-4829-9749-c942d7e2042a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Perfect for creating eye-catching 3D prototypes, decorative pieces, functional gadgets, and high-visibility signage. Available in 300 g and 1 kg spools.
+  This 3D printer filament is ideal for both makers and professionals looking to print unique objects.
+
+  If you need a filament with a striking finish, our PLA HD Fluorescent combines aesthetics and performance, delivering impressive visual results. It offers high visibility and precision in every layer.
+
+  This 1.75 mm PLA filament is designed for projects that require bright, vibrant, and attention-grabbing colors. Manufactured by Winkle, it shares the same properties as standard PLA: a flow rate of 8 g/10 min, high-density composition (1.24 g/cm³), and 96% stereochemical purity, ensuring stable extrusion, uniform adhesion, and spectacular results.
+
+  Fluorescent colors that transform your creations:
+
+  Electric Yellow: Perfect for signage or parts that need to stand out even in low light.
+
+  Electric Orange: Provides energetic and vibrant aesthetics for your most dynamic models.
+
+  Electric Pink: Ideal for creative, eye-catching designs with unique personality.
+
+  Electric Green: Adds a sense of safety and technology to your most durable 3D prototypes.
+thumbnail_url: https://file.myfilamentlist.com/new/af332922-ed71-4460-94af-521779d544d0.png
+deleted_at: null
+deleted_by: a0217e15-56f8-4824-b972-bd84665c9b05
+created_at: '2025-11-21T13:08:28.966Z'
+updated_at: '2025-11-21T13:08:28.966Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 17dc0a79-d735-4ac7-b51f-151756556a61
+  - 25aa7fa4-16ef-4d40-9bef-023cdcda4a78
+  - 6858fbe8-5534-4fb3-8f58-535dd9b0da17
+secondary_material_types: []
+opentag_uuid: 671754fa-613c-54b2-8179-4a252c093990

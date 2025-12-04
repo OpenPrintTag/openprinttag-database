@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 25ca41a8-dd12-477e-bd95-5809272ce923
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+uuid: b62542aa-4d76-4779-90e4-639b5f9ccd1e
+slug: pa-nylon-glass-fiber-translucent-white
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA Nylon Glass Fiber Translucent White
+abbreviation: null
+url: https://www.eumakers.com/pa-filament-color-nylon-glass-fiber.html
+primary_color: 8f33ad90-428e-4545-a2d1-1c7b95c472db
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PA filament Nylon Glass Fiber in Translucent White color.
+
+   
+
+  NYLON GLASS FIBER is a high quality filament in reinforced polyamide with glass fibers, which is odourless during the extrusion process.
+  Glass fiber filament is ideal for engineering prototypes that require optimal mechanical and heat resistance.
+
+  The manufactured articles obtained by the extrusion of this material cannot be deformed. 
+
+  N.B. We recommend using stainless brass or resistant copper alloy nozzles.
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/b62542aa-4d76-4779-90e4-639b5f9ccd1e.png
+deleted_at: null
+deleted_by: 289979ab-8b05-404b-8b37-5e5545579e67
+created_at: '2025-11-12T11:05:05.836Z'
+updated_at: '2025-11-12T11:05:05.836Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: null
+colors: []
+packages:
+  - 048b5401-3d1f-4276-9c97-20efd1bbf60f
+  - 1460e368-641a-47b7-abea-5bdaf3ee67d1
+  - 219e0c6d-e80c-43a9-bb1b-a4e4abfe75f4
+  - 5857c86d-f365-4e13-b8fd-b4f2e13a543e
+  - 60a3be1d-b7e8-4c27-93b0-9a79c663230f
+  - 6b06581c-9e28-4e9e-8730-b65787accae5
+secondary_material_types: []
+opentag_uuid: 24f9d71e-a927-581b-8e46-5182c36708cb

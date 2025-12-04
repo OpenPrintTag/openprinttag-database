@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/351fa302fa6f.png
+    type: gallery
+uuid: 56b8a8d4-13f3-481a-855f-dea39f227681
+slug: petg-pusch-green
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG PUSCH Green
+abbreviation: null
+url: null
+primary_color: a8298fed-68bc-44ba-a881-38b9207589b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/351fa302fa6f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:21:48.056Z'
+updated_at: '2025-04-30T12:21:48.056Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7368
+packages:
+  - 056659bb-46c9-4a59-aa58-a4cc23371fa8
+  - 0ad1dbcc-dc4e-4507-bba3-16a05306fa15
+  - 4a49b8ad-10a9-4c18-b94c-1f91f92d22a5
+  - 68af5ff0-18f4-4ca3-9eae-b9bed0ccf032
+  - 6f563cfc-86ff-4597-85f0-5a1fcf41d0de
+  - 74017c5b-f16d-4218-9f61-c7bbba182e60
+  - 7ef5bdda-ca51-4249-8504-8da753900f60
+  - 9f3da9fb-31c3-4738-a607-9027c3d8ba67
+  - a3a2fabe-3d4f-4c8a-812d-6e92d41f1310
+  - d5aa1eff-a969-4ae0-8a3e-076503966eb7
+secondary_material_types: []
+opentag_uuid: 999338e3-1a1f-5ece-92cf-183b4e5a60a2

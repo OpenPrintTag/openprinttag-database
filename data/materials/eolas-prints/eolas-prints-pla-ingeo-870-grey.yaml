@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d4d052b0-87f1-4e7d-af8f-879a60773744
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 0a16e622-2ed6-4d56-b4c9-5e86712f13f4
+slug: pla-ingeo-870-grey
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Ingeo 870 Grey
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-ingeo-870-filament?variant=42257267228931
+primary_color: 8a68f8ad-72bb-4261-838b-90981e68c87b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: https://file.myfilamentlist.com/new/0a16e622-2ed6-4d56-b4c9-5e86712f13f4.png
+deleted_at: null
+deleted_by: 9ece9ae3-1cfd-4377-bae5-ac93c5cff911
+created_at: '2025-11-10T22:07:09.853Z'
+updated_at: '2025-11-10T22:07:09.853Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 50bcba98-673d-46fb-96cb-5e86d2cafd28
+  - 60019ffe-90e3-4b0c-94b9-6168b29c4721
+secondary_material_types: []
+opentag_uuid: 057a8e98-5468-59e1-9606-80bbb44af2a7

@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.10000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: dac5987e-18d0-4641-bc1b-4ef6ed861615
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 905a22b7-532b-48bf-9b7d-e057c75592b5
+uuid: 411e3251-d683-43ec-a457-ae73a402e6be
+slug: loctite-3d-ind249
+brand_slug: henkel
+brand_specific_id: null
+class: SLA
+type_id: null
+name: LOCTITE 3D IND249
+abbreviation: null
+url: https://www.loctiteam.com/ind249/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  LOCTITE 3D IND249 is a high-temperature, high-strength material that prints challenging geometries with fine feature resolution. This low-viscosity material features exceptionally high green strength to enable ease of processing.
+
+  Stiffness and thermal durability make LOCTITE 3D IND249 ideal for production applications, including mold tooling, manufacturing aids, and other complex geometries.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9cffe6a9-c3cf-44ab-815b-f5007ac3f0f2
+created_at: '2025-10-03T16:33:00.147Z'
+updated_at: '2025-10-03T16:33:00.147Z'
+brand: 5927d694-01b2-4262-b272-970764723090
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9490
+packages:
+  - 0dc2cb24-de7e-45f9-825d-fca14fa4b47e
+  - cc3466bf-7ba8-42da-b25c-f08f89840961
+secondary_material_types: []
+opentag_uuid: 5dec674b-b2fc-5a68-b3ce-4bb7ac589e73

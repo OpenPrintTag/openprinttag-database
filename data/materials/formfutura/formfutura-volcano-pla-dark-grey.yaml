@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8250e5e9061c.png
+    type: gallery
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: a19b5dd9-e547-431e-97e3-2d10414ab8d7
+slug: volcano-pla-dark-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Volcano PLA Dark Grey
+abbreviation: null
+url: null
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Volcano PLA is an industrial grade PLA type of 3D printer filament that is engineered for high 3D printing speeds, high heat resistance, high impact strength, and mechanical properties similar to ABS.
+
+  Unique features
+
+      High heat resistance of ≥ 95° C after annealing
+      Less than 0.3% shrinkage after annealing
+      Roughly 8 times less shrinkage compared to competitor materials available on the market
+      Engineered to have excellent dimensional accuracy before and after annealing
+      Engineered for high printing speeds of > 120mm/s
+      Highly crystalline immediately after extruding resulting in increased stiffness and temperature resistance
+      Superb mechanical properties comparable to ABS
+      Excellent interlayer adhesion
+      Biodegradable
+      Matte surface finish
+thumbnail_url: https://file.myfilamentlist.com/f/new/8250e5e9061c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:42.915Z'
+updated_at: '2025-03-25T22:36:42.915Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 5170
+packages:
+  - 40b3545a-8875-4ca4-936a-029081c52531
+  - ae0d0b71-3bfc-47cc-9485-ccbd5be52ef0
+  - b88054fb-2603-4524-b7b3-fe99d16be825
+  - f47c9ff1-4370-44c0-a8f9-6b98a6ec806e
+secondary_material_types: []
+opentag_uuid: 81b1b9cd-d0c1-5dcd-8394-3a7408fda219

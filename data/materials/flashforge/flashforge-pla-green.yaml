@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2437a4418f4d.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e28a7128-0362-409e-8631-25717b25110b
+slug: pla-green-19
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Green
+abbreviation: null
+url: null
+primary_color: ca4f7e38-b23a-4f66-895d-8a91befb4ab7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Easy to Print: PLA's low melting point of 170degreesC to 180degreesC makes it easy to handle and compatible with various printers. It also reduces warping, ensuring stable prints, especially for large projects.
+
+      High Precision and Aesthetics: PLA offers excellent gloss, enhancing the visual appeal of printed models. Its strong layer adhesion ensures durability and high precision, resulting in detailed and accurate prints.
+
+      Low Odor: PLA is one of the materials that produce minimal odor during printing, making it ideal for home or office use and suitable for extended printing sessions.
+
+      Clog-Free & Bubble-Free: Our filaments are designed to prevent clogs, ensuring smooth printing. Each spool undergoes a 24-hour drying process and is vacuum-sealed to reduce humidity-related bubbles.
+
+      Dimensional Accuracy and Consistency: Our filaments use advanced CCD measurement and adaptive control to maintain a diameter of 1.75mm +/- 0.02mm, ensuring consistent, high-quality prints.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2437a4418f4d.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:41.134Z'
+updated_at: '2025-03-25T22:33:41.134Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2869
+packages:
+  - 3226f0b1-5c37-40f1-82e8-2aa7d56ae731
+secondary_material_types: []
+opentag_uuid: 045631ac-7fe9-5c1e-9877-eff11e18b18e

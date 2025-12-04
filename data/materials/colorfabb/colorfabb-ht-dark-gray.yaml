@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0eb73363ec71.png
+    type: gallery
+uuid: 5ed810bd-3ab2-451f-9552-cd99760979ae
+slug: ht-dark-gray
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HT Dark Gray
+abbreviation: null
+url: null
+primary_color: 5bdcc7c3-979f-41ce-8273-64b235adc8c9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Based on Eastman Chemical Company's signature TritanTM technology, colorFabb_HT is a dedicated engineering grade, high-temperature resistant 3D printing filament. The pro choice: colorFabb_HT Dark Gray comes close to RAL 7043, a gray shade that resembles lots of applications which can be found in the hardware story. Now you can match those parts.
+
+      FDA food contact compliance
+      High Temperature Resistance
+      Ultra Tough
+thumbnail_url: https://file.myfilamentlist.com/f/new/0eb73363ec71.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:06.526Z'
+updated_at: '2025-03-25T22:32:06.526Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: 4fca8d6e-48ab-42e8-bfee-75788e756d52
+colors:
+  - 1642
+packages:
+  - 305e7ee0-03ee-45e5-b877-76ad061c3168
+  - 444ae900-a53a-41c8-a87c-01ddb49f4d10
+  - b53b64a8-c669-4c77-9981-e77801069814
+  - f30bee9d-29d4-44f3-87b1-90466623fc35
+secondary_material_types: []
+opentag_uuid: ae8cd02e-098a-570f-b511-a4796382f111

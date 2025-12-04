@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a856f6e3b0f8.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 01658b8e-9488-4947-8e59-e3d0774e5c61
+slug: meltmiser-white-pla
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: MeltMiser White PLA
+abbreviation: null
+url: null
+primary_color: e1ef474f-f52b-49fb-8154-bd6ea3a62bae
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  A reliable and economical PLA + White colorant. 
+  Made on the same equipment to our high quality standards
+thumbnail_url: https://file.myfilamentlist.com/f/new/a856f6e3b0f8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:21.470Z'
+updated_at: '2025-03-25T22:32:21.470Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1579
+packages:
+  - 3583b8bb-291a-490d-88cd-dbde5d7d1ea4
+  - a34c0ed0-b00d-403e-9c4e-6b752ab71bde
+secondary_material_types: []
+opentag_uuid: 2eeb7aec-9ed3-5553-b4e4-892cc537379c

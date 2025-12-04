@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c676b83dd29a.png
+    type: gallery
+uuid: c365c71e-7892-476b-880a-68d94a4e4075
+slug: pro-pctg-grape-purple
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Grape Purple
+abbreviation: null
+url: null
+primary_color: f05c088f-988a-49ff-a578-220293dcf0c7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/c676b83dd29a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:59.099Z'
+updated_at: '2025-03-25T22:34:59.099Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3668
+packages:
+  - 47d3abd0-041b-40b2-a40e-6df1214d7439
+  - 5f3ac22e-ae22-4e55-a754-daaeddf29c88
+secondary_material_types: []
+opentag_uuid: e307f2dc-68ff-5e21-9ff4-c0526e99e50a

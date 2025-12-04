@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ea9656129a6b.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 07e55e33-f01b-4bd4-a784-27f115ec82e2
+slug: durapro-abs-red-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ABS red | RAL 3001
+abbreviation: null
+url: null
+primary_color: 8b037f8a-83da-4212-922f-40826135a2b8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ABS has been specially developed for industrial applications and is characterised by its high process reliability. It is ideal for the production of mechanically highly stressed components. The material is electrically insulating. DuraPro ABS is optimised for good layer adhesion, thermal stability, better flow properties and low warping. The raw material is approved according to REACH, RoHS and FDA standards.
+
+      For industrial applications
+      Flame retardant according to UL 94 HB
+      Electrically insulating
+      High mechanical strength
+      Low shrinking and warping
+      Excellent layer and bed adhesion
+thumbnail_url: https://file.myfilamentlist.com/f/new/ea9656129a6b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T19:39:22.229Z'
+updated_at: '2025-03-28T19:39:22.229Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3706
+packages:
+  - 15926eee-9f72-40e9-83ad-abd0c0974017
+  - 7e11e4fa-8cb6-45ed-a0d4-16a8012357d6
+  - daea520a-66d5-4ef8-9268-0dc2c4d2b77a
+  - e897dbc8-ac21-4468-8399-046c6320560e
+secondary_material_types: []
+opentag_uuid: d972be6a-a34d-5486-aeee-6d79bc479c6b

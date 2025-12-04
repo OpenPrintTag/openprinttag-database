@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7f39ba03-a91d-4444-b7ab-bb53c21396e2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f802230b-e7ac-458f-ae4f-ae002bbed180
+slug: the-filament-pla-cloud-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PLA Cloud Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-pla/
+primary_color: 4c306dec-8e13-45ce-a3a1-6ec1a0503560
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Discover THE FILAMENT PLA by Spectrum – a filament designed for 3D printing enthusiasts who value quality and simplicity. It’s the perfect choice for those who want to bring their ideas to life without compromises, while also being mindful of the environment and budget. THE FILAMENT PLA combines reliability and functionality, making it ideal for everyday 3D printing challenges.
+
+  THE FILAMENT PLA by Spectrum is manufactured in Europe, which helps shorten the supply chain and reduce emissions associated with long-distance transportation. The filament is wound on a spool made from recycled plastic, certified as 2nd life. By choosing THE FILAMENT PLA, you opt for practicality and responsibility, supporting sustainable development.
+
+  THE FILAMENT PLA offers high quality in a simpler, more eco-friendly version. This more affordable alternative does not compromise on quality but focuses on practicality and functionality. By choosing THE FILAMENT PLA by Spectrum, you select a product that meets your expectations while caring for your budget and the environment around you.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d0967eb4-c988-41fe-9b85-9ddc075dac92
+created_at: '2025-10-08T14:37:27.252Z'
+updated_at: '2025-10-08T14:37:27.252Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9609
+packages:
+  - 2c605b9d-1686-41df-a13e-7f27ae7a9e01
+  - 6e1d8c22-bcde-4a24-a95d-54e2f0126b2e
+secondary_material_types: []
+opentag_uuid: d6f6cbdb-b623-5975-a4a6-ad7e7f07d328

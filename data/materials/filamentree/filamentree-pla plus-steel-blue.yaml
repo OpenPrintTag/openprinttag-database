@@ -1,0 +1,86 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ea505244-6def-4b3c-b3f3-719fb6f87924
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 5007f346-ead5-4a49-bb3e-2423ff74b58e
+slug: pla-plus-steel-blue
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Steel Blue
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110571-pla-plus-steel-blue-1kg-6333?page=2&category=59#attr=3775,3770,3767,3768,3771,3772,3773,3774,3769
+primary_color: 4525474c-4a5d-4630-bb91-0bdac1379950
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Steel Blue is a premium 3D printing filament with an elegant steel-blue shade that combines a modern look with high strength and reliability. This filament is ideal for both technical and design projects where precision, durability, and professional aesthetics are essential. Its satin finish gives prints a metallic touch, making them look both robust and refined.
+
+
+  Key Benefits
+
+
+      Modern steel-blue color: An elegant hue with a metallic tone, perfect for technical models, design prints, or decorations with an industrial style.
+      Enhanced strength and toughness: PLA Plus provides greater impact resistance and stability compared to standard PLA, ensuring durable, long-lasting prints.
+      Easy and reliable printing: Excellent bed adhesion, minimal warping, and high layer precision deliver outstanding results even for complex models.
+      Eco-friendly and safe material: Made from biodegradable and non-toxic sources, safe for both users and the environment.
+
+
+  Applications
+
+
+      Technical and functional prototypes: Ideal for producing parts, holders, and components that require strength and precision.
+      Decorative and design elements: Perfect for modern home accessories, models, and ornaments with a metallic appearance.
+      Architectural and engineering models: Great for projects that combine technical accuracy with visual appeal.
+      Artistic projects: Suitable for sculptures, figures, and conceptual pieces with an elegant, muted tone.
+      Advertising and presentation models: A great choice for prints meant to look professional, strong, and high-quality.
+
+
+  Ideal For
+
+
+      Designers and engineers seeking a modern and professional look.
+      Projects that demand precision, strength, and aesthetics.
+      Users who prefer eco-friendly and reliable materials.
+      Printing models that aim to mimic realistic metallic finishes.
+
+
+  PLA Plus Steel Blue combines strength, precision, and modern design in one high-quality filament. It’s perfect for both technical and creative projects that require a professional look and premium printing performance.
+thumbnail_url: https://file.myfilamentlist.com/new/5007f346-ead5-4a49-bb3e-2423ff74b58e.png
+deleted_at: null
+deleted_by: 9b29961a-cdbd-4c08-bbea-09b6e046b814
+created_at: '2025-12-01T10:43:39.910Z'
+updated_at: '2025-12-01T10:43:39.910Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - da820f0c-0f1f-4e16-8309-b5476350e906
+secondary_material_types: []
+opentag_uuid: b734d1bd-9ef6-5285-bf96-75bcf29eea5f

@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/376c7ceb4b71.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 22b3ef48-167c-42bf-bcb5-4fd88b5e25bd
+slug: x-pla-light-grey
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: X-PLA Light Grey
+abbreviation: null
+url: null
+primary_color: 9eecd8d7-c673-4f23-a844-8f4b9a9b1182
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      High impact resistance PLA
+      100% biodegradable
+      Unique surface finish (hides layer lines)
+
+  X-PLA is a unique PLA-mix developed by Add north. It's produced using 100% biodegradable material and has a high impact resistance, zero brittleness and an unbeatable surface finish. X-PLA was first developed to meet the high requirements from architects, who often print thin walls but at the same time want a resistive and even surface finish.
+
+  X-PLA is just as easy to print with as regular PLA and has a solid and robust feeling which is perfect for technical applications but also prototypes and figures. X-PLA can be printed at low temperatures (from 180 degreesC) and will get a beautiful matte finish that is not possible using regular PLA.
+
+  For additional printing advice, check out our cheat sheets for recommended slicer settings in Cura, Simplify 3D and PrusaSlicer.
+
+  Add North's X-PLA, together with all our other filaments, are made in Sweden and have a diameter tolerance of 0.025mm.
+
+  X-PLA is available in 1.75mm and 2.85mm diameter with large spool sizes up to 5,000g. (Colors found on large spool sizes are: white, light grey and black)
+thumbnail_url: https://file.myfilamentlist.com/f/new/376c7ceb4b71.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T17:31:48.317Z'
+updated_at: '2025-04-01T17:31:48.317Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 5900
+packages:
+  - 4d12b1f0-4d9a-432a-b178-d61586c3f17b
+  - 94f44b72-306e-40ca-b0d9-4553d9b3250f
+  - 9a5c8923-ad30-4d22-bcba-f2389c63e509
+  - b4072dfc-1a93-4ed8-a97a-62b315a8ee6f
+  - d429e7ae-132e-434c-9f96-4017694ca156
+  - e69a1e1b-4cf2-47b5-8aab-2218b8d16bf6
+secondary_material_types: []
+opentag_uuid: 62344c4c-d1af-522a-853b-df38b4ed4a15

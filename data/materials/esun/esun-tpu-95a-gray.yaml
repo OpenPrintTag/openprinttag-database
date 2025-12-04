@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8bb00e98eaa1.jpg
+    type: gallery
+uuid: 6fdb2121-3bc2-4e32-b789-fde74cdfb2a9
+slug: tpu-95a-gray
+brand_slug: esun
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 95A Gray
+abbreviation: null
+url: null
+primary_color: db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Excellent soft texture, with high resilience.
+      Anti-UV, no smelling and environmental-friendly
+      Recommended Extrusion/Nozzle Temperature 200C - 220C
+      1KG net (approximately 2.2 lbs) TPU 95A Filament with New Black Spool
+thumbnail_url: https://file.myfilamentlist.com/f/new/8bb00e98eaa1.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:17.625Z'
+updated_at: '2025-04-03T16:10:52.142Z'
+brand: 03db2f85-a21d-4a98-abd3-f1e1d67351b5
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6607
+packages:
+  - 77d620ec-ae88-4f98-af7e-a900182a0ef2
+secondary_material_types: []
+opentag_uuid: 636ef298-5e54-5f22-b529-32e507c8a126

@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/58c3a7bdd6fe.png
+    type: gallery
+uuid: 85e272e7-98e0-41c0-8fd9-6e7b60181e84
+slug: petg-green-bright
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Green (Bright)
+abbreviation: null
+url: null
+primary_color: 0e564f4d-9a0f-4674-8d71-ca07975859bf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  IC3D engineers use PETG for the widest variety of projects because it marries most of the best qualities of ABS and PLA. It combines the ease of use of PLA with more dimensional stability than ABS. This makes it ideal for most large-format, functional print projects, such as molds and manufacturing fixtures.
+thumbnail_url: https://file.myfilamentlist.com/f/new/58c3a7bdd6fe.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T15:56:20.609Z'
+updated_at: '2025-04-30T15:56:20.609Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7389
+packages:
+  - 20d6d395-6ac7-4584-9883-c867187a7106
+  - 40ce9cb1-3a5d-486d-aa83-5d415c647da7
+  - 640f2a55-a6a9-44f3-870a-0504196021e0
+  - 7816f65f-a230-453d-b971-7ec67a9daaf9
+  - ae9d2ad8-dbc5-4a5e-acc7-9f8b9a2e63b3
+  - b0ae967d-7566-4a61-988f-f754fafdd5c0
+secondary_material_types: []
+opentag_uuid: 657863f3-338d-51b2-a01c-ce575efd174c

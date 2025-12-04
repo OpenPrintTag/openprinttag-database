@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 39ae3afa-9af1-448c-9b33-82466f3e3020
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 77a90153-cbf4-4bbf-ae79-23462551f37d
+slug: petg-cyan
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Cyan
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/petg-filament?variant=42324526661891
+primary_color: 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints PETG Filament represents a sophisticated 3D printing filament that bridges the performance gap between PLA and ABS, offering an exceptional solution for professional and technical applications. This material delivers a unique combination of mechanical properties, printing ease, and material stability.
+thumbnail_url: https://file.myfilamentlist.com/new/77a90153-cbf4-4bbf-ae79-23462551f37d.png
+deleted_at: null
+deleted_by: 0e37664a-1f2a-4645-adf7-1f65067c1269
+created_at: '2025-11-11T11:13:29.475Z'
+updated_at: '2025-11-11T11:13:29.475Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 3716aa6a-39a8-4e9b-8352-bb5d49879285
+  - 372f8c8c-5833-4e3e-8662-9be780d641ae
+  - dc78c1cc-24b8-49c8-9cf1-628b7331c5f7
+secondary_material_types: []
+opentag_uuid: 4ee050a3-674b-5c79-9fd8-27f4063f359a

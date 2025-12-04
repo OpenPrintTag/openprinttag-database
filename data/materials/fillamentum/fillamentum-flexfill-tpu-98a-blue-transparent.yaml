@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9e660725-ac4c-4ff8-8a2b-583208da0001
+  hardness_shore_a: 98
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c8a56b523050.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 003ad94e-6357-4201-812a-f0b8d3173f78
+slug: flexfill-tpu-98a-blue-transparent
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill TPU 98A "Blue Transparent"
+abbreviation: null
+url: null
+primary_color: 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |
+  Thermoplastic polyurethane with hardness 98 Shore A. A technical semi-flexible filament that offers great mechanical properties such as high tear and tensile strength.
+
+  It is characterized by highly reversible deformation, resistance to ozone, oils, greases, and aliphatic alcohols. Wear resistance guarantees the durability of 3D printed products. Great for the printing of continually sliding parts or sealings.
+
+   Excellent abrasion resistance and high tensile strength
+   High elasticity with highly reversible deformation
+   Great interlayer adhesion for tear strength in all directions
+   Improved UV stability for long-lasting performance
+thumbnail_url: https://file.myfilamentlist.com/f/new/c8a56b523050.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:43.004Z'
+updated_at: '2025-03-25T22:31:43.004Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 759
+packages:
+  - b2d61a72-64af-4448-a16d-f86829faa05f
+  - d23e5174-1b01-432c-a27d-8a4513b6f752
+secondary_material_types: []
+opentag_uuid: 62e6a2d3-47b4-5a7c-a4cd-fbbb7b72b1a7

@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.20000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f03ee4aa-6afe-48da-bfa8-9cf427d25007
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+uuid: f8a13dae-cc33-4dde-b0de-8c0cd2806362
+slug: f3-pa-esd
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: F3 PA ESD
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+
+
+      PA 6 based
+      high strength & low distortion
+      very smooth surfaces printable
+
+  Engineered in Germany for precision and reliability, the Fiberthree PA-ESD Filament is a cutting-edge material designed to meet the highest standards for electrostatic discharge (ESD) safety. Ideal for FFF/FDM 3D printing, this filament offers superior mechanical properties, chemical resistance, and dimensional stability, making it perfect for industrial applications in electronics, automotive, and aerospace.
+
+  Building on the proven performance of the F3 PA-CF Pro, this filament combines ESD protection with exceptional strength, stiffness, and reliable printability for demanding applications.
+thumbnail_url: null
+deleted_at: null
+deleted_by: a257598f-dfd3-498f-91cb-a4ee57ec5e7c
+created_at: '2025-10-21T14:27:12.432Z'
+updated_at: '2025-10-21T14:27:12.432Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors: []
+packages:
+  - e9857c3f-aa53-4d16-b26f-795c6aa028d6
+secondary_material_types: []
+opentag_uuid: 30fcca34-e7c1-547f-a472-e6f38a97e32b

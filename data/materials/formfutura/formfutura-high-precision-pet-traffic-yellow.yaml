@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/66b752e2561f.png
+    type: gallery
+uuid: 671520c3-4832-4ecf-a864-a99a57d93151
+slug: high-precision-pet-traffic-yellow
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Precision PET Traffic Yellow
+abbreviation: null
+url: null
+primary_color: 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A pure PET filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Good inherent UV resistance.
+      Good chemical resistance.
+      3D Prints details with a high resolution and high surface quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/66b752e2561f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:55.123Z'
+updated_at: '2025-03-25T22:31:55.123Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 1032
+packages:
+  - 54e934e7-45f1-47d7-9d62-f28d2e2261e9
+  - 75242d72-7d9e-4c17-8f9c-619b52b163cc
+  - 995f42e9-0fdd-4600-ab0c-f9c7173a58d7
+  - c64bd169-a576-4f1b-9c59-d6d21feaa83c
+secondary_material_types: []
+opentag_uuid: d264d7f0-d956-59e0-a6ba-17b46936ed88

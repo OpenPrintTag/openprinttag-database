@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0ac3a8177759.jpg
+    type: gallery
+uuid: 5f5cfc16-21f4-47ce-9b47-ba786d078931
+slug: rapid-petg-black-3
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PETG Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PETG filament features rapid melting and smooth flow, enabling speeds up to 600mm/s, ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Note - For the best metallic finish with the PETG Metallic color series, use the filament within a week or dry it at 80degreesC for 4-6 hours before or during printing. Other colors, such as black, white, and burnt titanium, are less moisture-sensitive.
+thumbnail_url: https://file.myfilamentlist.com/f/new/0ac3a8177759.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:06.283Z'
+updated_at: '2025-03-25T22:35:06.283Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 4035
+packages:
+  - 6875d8c9-cd46-4569-96e2-c04ea119dd84
+secondary_material_types: []
+opentag_uuid: 6b946e15-838d-584c-b0ee-fceb3d7528be

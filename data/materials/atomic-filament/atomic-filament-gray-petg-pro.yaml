@@ -1,0 +1,53 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/beef6f2ecb87.png
+    type: gallery
+uuid: 57131c85-60b1-47d5-8220-b4297414c947
+slug: gray-petg-pro
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Gray PETG PRO
+abbreviation: null
+url: null
+primary_color: db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Excellent color for rapid prototype / machine parts
+thumbnail_url: https://file.myfilamentlist.com/f/new/beef6f2ecb87.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:49.422Z'
+updated_at: '2025-03-25T22:31:49.422Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1247
+packages:
+  - ac61efba-f283-4387-ac36-42c6d1657365
+  - eb573fc5-c8c1-42c2-8d90-850a2bfa4c07
+secondary_material_types: []
+opentag_uuid: 79361cfd-cf58-5ab2-9a3b-0fa7e416d7a6

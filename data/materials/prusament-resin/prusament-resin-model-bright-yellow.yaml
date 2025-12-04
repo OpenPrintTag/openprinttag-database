@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 28343ffa-5eab-4874-b92f-2f2bd2323d31
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 69f37430-6e73-4915-9a7a-b4594952b5ca
+uuid: dc80cc8c-5b4e-47c6-904b-39528ccae22d
+slug: model-bright-yellow
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Bright Yellow
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-bright-yellow-1kg/
+primary_color: c2c1c4cd-0fa3-4ad5-bc0e-0f187dda4225
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: dd188710-f74f-4000-acf2-b840acc1d937
+created_at: '2025-10-03T12:52:12.085Z'
+updated_at: '2025-10-03T12:52:12.085Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9666
+packages:
+  - 5e6d7fe0-fec1-44de-be69-dae7c3904869
+secondary_material_types: []
+opentag_uuid: 44e933fd-aa9e-5baa-bd22-0f5b448822e1

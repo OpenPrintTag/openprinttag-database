@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2368146f-1342-4858-9c5a-3e176a942822
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: ea50a4cf-f1ce-47c3-8439-589ed49b7f56
+slug: petg-flame-red-t
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Flame Red T
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410261-petg-flame-red-t-1kg-5008?category=63#attr=773,3067,3066,775,3557,3558,3070,3071,776
+primary_color: 36d619e3-d911-41a0-9f83-7e79536b5d83
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Flame Red T 1kg is a premium 3D printing filament designed for high-quality, durable, and visually striking prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament offers a perfect balance between the ease of printing of PLA and the strength and flexibility of ABS. Its transparent flame red color provides a bold and dynamic look, making it ideal for both functional and decorative applications.
+
+  With a 1kg spool, PETG Flame Red T ensures consistent extrusion and reliable performance, making it suitable for both professionals and hobbyists. Known for its excellent layer adhesion, impact resistance, and flexibility, this filament produces long-lasting and high-precision prints. Additionally, it is resistant to moisture and chemicals, making it versatile for various environments.
+
+  Key Features:
+
+      High-Quality PETG Material: Combines the ease of use of PLA with the strength and durability of ABS.
+      Transparent Flame Red Color: Provides a bold and dynamic finish for eye-catching prints.
+      Excellent Layer Adhesion: Ensures strong and reliable prints with minimal warping.
+      Impact Resistance: Withstands shocks and impacts, making it ideal for functional parts.
+      Chemical and Moisture Resistance: Suitable for environments with exposure to chemicals or humidity.
+      Easy to Print: Compatible with most FDM 3D printers, ensuring a smooth and hassle-free printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Durable enclosures and protective casings
+      Artistic models and decorative items
+      High-visibility components and safety applications
+      Outdoor applications due to UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid contact with eyes and skin. In case of exposure, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Flame Red T 1kg is a versatile and reliable filament choice for 3D printing, offering a combination of strength, durability, and an eye-catching transparent red finish. Whether you’re creating functional parts, artistic models, or safety components, this filament ensures high-quality results with a bold and professional appearance.
+thumbnail_url: https://file.myfilamentlist.com/new/ea50a4cf-f1ce-47c3-8439-589ed49b7f56.png
+deleted_at: null
+deleted_by: 051dd874-a8b8-40ba-a8b4-1653a60c423b
+created_at: '2025-12-01T11:15:03.854Z'
+updated_at: '2025-12-01T11:15:03.854Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - aca74c08-bc29-496e-b726-b7de80ebaabb
+secondary_material_types: []
+opentag_uuid: 59ff4440-ff79-57b3-804e-cff4e789540d

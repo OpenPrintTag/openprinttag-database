@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.04200'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8d7ca999-ec8e-4ca5-bf99-d9538a12318a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - b0304217-2286-4583-a1fc-9257d6b550b3
+uuid: 59780244-ade8-4f19-9f27-b3e41d4a8bb1
+slug: biobased60-ivory-white
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: BioBased60 Ivory White
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-biobased60-ivory-white-1kg/
+primary_color: 48ac5576-1bde-488d-b12d-4d35e10c53f5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Our priorities were pretty much clear from the beginning: we wanted to make a high-quality resin that would be easy to print, with high detail, the lowest possible odor, and health risk. Our research gave us the possibility to control and select every ingredient to make a resin with desired properties, especially with as low negative health effects as possible. The health aspect seemed essential to us since regular tough resins are frequently used for hobby purposes at home. That’s why we tried to avoid chemicals with a strong odor, health risks, high toxicity, and also mixtures containing Bisphenol-A. The final product is a resin with a lower odor and health impact, compared to the other products on the market.
+
+  With the new BioBased60 resin, our goal was to create a product with the highest possible content of ingredients obtained from plant-based sources while maintaining exposure times and reliability during printing. And we succeeded - we have created a resin with the highest proportion of renewable ingredients on the market which makes no compromises in the level of detail or speed! So, if you’re looking for a printing material that will deliver intricate objects with amazing levels of detail, BioBased60 is a great choice.
+
+  If you’re wondering why we named our new resin BioBased60, it’s because we wanted to reflect the content of plant-based materials in the name. In other words: 60 % of BioBased60 composition is made up of ingredients derived from plant-based sources. To be a bit more exact and technical: Its acrylic monomers are produced from natural oils and terpenes, such as α-pinene obtained from pine trees (this gives the resin a nice pine-tree-like aroma). This is a major difference compared to conventional resins because their ingredients are derived exclusively from petroleum-sourced products.
+
+  The resin still requires careful handling (and disposal) like any other resin, so keep that in mind.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 907aeb84-aa68-4e23-820e-c16210438c4a
+created_at: '2025-10-03T13:22:03.070Z'
+updated_at: '2025-10-03T13:22:03.070Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9658
+packages:
+  - e4f6e90c-8ac8-4b8c-b4a2-9da0d208e038
+secondary_material_types: []
+opentag_uuid: 9df69868-09f0-5939-8ad9-7ef11623ddcb

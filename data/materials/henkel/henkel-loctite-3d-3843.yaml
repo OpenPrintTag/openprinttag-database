@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3af97b26-a389-4aee-9377-057b716edb8a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 91b7afdf-759b-4cc3-afdf-5d1abda20b2d
+uuid: e746dc19-892e-4d31-ae6b-35ce6e3609f9
+slug: loctite-3d
+brand_slug: henkel
+brand_specific_id: null
+class: SLA
+type_id: null
+name: LOCTITE 3D 3843
+abbreviation: null
+url: https://www.loctiteam.com/3843_tough/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: ae6ae5c3-d1c9-4c72-9f9b-ab87e134547e
+created_at: '2025-07-02T06:29:42.585Z'
+updated_at: '2025-07-02T06:29:42.585Z'
+brand: 5927d694-01b2-4262-b272-970764723090
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9499
+packages:
+  - 619e7095-26ee-4456-82c6-2fc3a9035dc9
+  - 6e8de3be-b30c-4002-b476-3b0af6103456
+secondary_material_types: []
+opentag_uuid: fc4c1a9a-07cd-5fc4-9b87-41fd26961b0e

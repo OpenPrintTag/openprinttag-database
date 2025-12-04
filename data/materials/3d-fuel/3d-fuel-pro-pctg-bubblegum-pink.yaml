@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a880f9aaa83f.png
+    type: gallery
+uuid: d7276c25-eae1-4670-bbea-34e67c24962c
+slug: pro-pctg-bubblegum-pink
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Bubblegum Pink
+abbreviation: null
+url: null
+primary_color: 7bf76913-9f53-409f-a62d-e0eca5dc136f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/a880f9aaa83f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:58.262Z'
+updated_at: '2025-03-25T22:34:58.262Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3899
+packages:
+  - 7540a9b3-72d1-43fa-96df-657afd0757b8
+  - 8fd39416-ccdf-4caa-90ab-a4d1de598c90
+secondary_material_types: []
+opentag_uuid: d8fe551a-67f6-51c6-a0dd-df41fbe7bb3f

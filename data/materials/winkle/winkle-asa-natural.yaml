@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0020c738-b8a9-43be-af68-c8b057f4978a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 32b8b45f-bf7f-4571-aca0-584a28423d83
+slug: asa-natural-3
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Natural
+abbreviation: null
+url: https://winkle.shop/producto/filamento-asa-winkle-175-mm-1-kg-natural/
+primary_color: 8f33ad90-428e-4545-a2d1-1c7b95c472db
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Professional strength for high-level 3D prints.
+  Looking for high-quality filament for furniture, prototypes, or decoration?
+
+  The Winkle ASA Filament 1.75 mm is the ultimate choice for 3D-printing enthusiasts seeking industrial-grade quality without sacrificing aesthetics.
+  Available in 250 g, 1 kg, and 5 kg formats, and in ash gray, natural, and jet black, this 3D printer filament is designed to simplify demanding projects.
+
+  Thanks to its high toughness, low shrinkage, and excellent resistance to weathering and UV light, this ASA 3D Filament withstands extreme conditions: sun exposure, water, impacts, and elevated temperatures. It is perfect for those seeking durable 3D prototypes, functional parts, or structural components that maintain their shape and color over time.
+thumbnail_url: https://file.myfilamentlist.com/new/32b8b45f-bf7f-4571-aca0-584a28423d83.png
+deleted_at: null
+deleted_by: aacea9f7-1bbc-4f93-a2c2-c2a00b0f6c8a
+created_at: '2025-11-21T10:58:19.272Z'
+updated_at: '2025-11-21T10:58:19.272Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 6deeb886-a78c-4a93-ac9a-6bd2fc4f4791
+  - d0d417d2-741d-4c07-991e-96d49a431f53
+  - d11a4314-8e89-4028-bcc5-9e8fa8014c98
+secondary_material_types: []
+opentag_uuid: 4a3768f0-ff0e-5ba3-add5-6d0d753b472c

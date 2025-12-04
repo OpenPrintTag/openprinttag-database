@@ -1,0 +1,63 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 45299781-93d9-462b-a575-5d2f28eb9726
+slug: pla-metallic-rot
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Metallic Rot
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/255/pla-filament-1-75-mm-metallic-rot-800-g?c=33
+primary_color: e5ed4ede-599b-4976-bce5-f72c5de2e83f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Kein unangenhemer Kunststoffgeruch (wie z.B. bei ABS)
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbe: Der Metallic Effekt kommt insbesondere bei guter Beleuchtung sowie bei glatten Flächen (Unterseite zum Druckbett) zum Geltung.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 1d405d94-97a0-483e-8697-86b168c00220
+created_at: '2025-10-17T13:06:06.626Z'
+updated_at: '2025-10-17T13:06:06.626Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 339f917f-ccba-418e-8770-e9e645cd804b
+  - f1f396e5-a3e2-4d1a-be44-e67b89ff0bcf
+secondary_material_types: []
+opentag_uuid: e6860377-6361-554b-8fcd-89ec5af4d1aa

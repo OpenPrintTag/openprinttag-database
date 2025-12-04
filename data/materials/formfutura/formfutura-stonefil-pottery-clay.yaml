@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/29939bae7268.png
+    type: gallery
+tags:
+  - 930807f4-0f7d-4630-a929-9030f31881a6
+  - cccac441-8d20-451f-9d3c-217949e6a341
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f19b70c4-d7d9-4a53-8091-62967263b67d
+slug: stonefil-pottery-clay
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: StoneFil Pottery Clay
+abbreviation: null
+url: null
+primary_color: 555bfb45-0d8c-4e6d-b3c8-3b527d5c5c57
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  StoneFil is a PLA-based 3D printer filament with a 50% powdered stone filling, which give 3D printed parts true stone-like aesthetics and a rough and matt stone-like surface finish.
+
+  Unique features
+
+      Easy to print
+      Matte and rough stone-like finish
+
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/29939bae7268.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:58.584Z'
+updated_at: '2025-03-25T22:35:58.584Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4579
+packages:
+  - 0f9ec147-80a5-4321-ad48-71185b3c8158
+  - 13883c5e-2c97-49a2-ab68-ea55d201b36d
+  - 36eab615-1f88-45c7-9279-d1d3e8eb4579
+  - 3969e3a0-7aeb-4c2c-a65c-f4f54f157284
+  - 67099b64-66b7-4642-b9bc-47e60cc10a09
+  - cd0c0cc8-d122-4585-842f-86f833235b46
+  - cd4f6dfe-02c9-4d7b-b1c2-27eff0f67d3a
+  - f44df608-c08c-48dd-bc59-0c8496c70e80
+secondary_material_types: []
+opentag_uuid: 7a6770f7-7004-5e38-8e0e-29043c210df3

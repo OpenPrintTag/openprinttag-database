@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 60e3a6da-26ad-4fb9-9b01-c8446a6bdea2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b8489195-74fa-4eca-a1ba-0769cfb0197e
+slug: pla-dark-green-4
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Dark Green
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-dark-green.html
+primary_color: a2ad17c4-d75b-4e30-aebb-dea04dbf5edb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/b8489195-74fa-4eca-a1ba-0769cfb0197e.png
+deleted_at: null
+deleted_by: 8a8c8387-383b-4bba-8dd8-d03c7ad37bb0
+created_at: '2025-11-11T12:07:47.341Z'
+updated_at: '2025-11-11T12:07:47.341Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 02e0eae6-7268-4445-8c61-63b31fcadcec
+  - 2712b910-6092-4427-8c85-e2e6b3851d33
+  - 527f6445-9d95-40c0-9569-d41a154fb6a6
+  - b508c865-595f-44fd-9097-ee83d5935632
+  - c53b8925-00b1-4698-89c3-277284966eca
+secondary_material_types: []
+opentag_uuid: b2c62e04-873b-5f04-b03a-633cf7055611

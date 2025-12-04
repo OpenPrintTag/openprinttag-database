@@ -1,0 +1,77 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 35e29cdd-9462-4743-8b57-0985147d4322
+  hardness_shore_a: null
+  hardness_shore_d: 81
+  fff_material_properties: a1a285b9-4966-4643-b072-dd8967f0090d
+  sla_material_properties: null
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8e14e44127bf.png
+    type: gallery
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+certifications:
+  - 2
+uuid: af7e58e2-7a1e-45d6-beb8-0ef57a76f22d
+slug: pla-prusa-galaxy-black
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Prusa Galaxy Black
+abbreviation: null
+url: null
+primary_color: d4fc9832-ac89-4ec5-8c0c-cc7f050fbed0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '0.20'
+refractive_index: null
+print_sheet_compatibility: []
+description: |+
+  Prusament PLA is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision (± 0,03 for blends) and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/8e14e44127bf.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:13.304Z'
+updated_at: '2025-03-25T22:34:13.304Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2191
+packages:
+  - 13596443-7226-4add-a8bb-0fa3041fd5da
+  - 536c0366-010f-41bd-b981-9b47940027c2
+  - a5fd4623-8552-4234-86c3-1b824462a95b
+  - eccd337a-ce5e-4150-a37f-247dcab9e718
+secondary_material_types: []
+opentag_uuid: 1aaca54a-431f-5601-adf5-85dd018f487f

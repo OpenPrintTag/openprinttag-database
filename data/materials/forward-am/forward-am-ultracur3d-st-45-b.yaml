@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.12000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8a5a12e6-bd6d-4013-b7d8-a7c9fc8d5d2b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 47af3b73-ff3d-400d-83e7-77b66795f062
+uuid: a6d00480-9ad3-4b2b-98cd-9c67d1de33cd
+slug: ultracur3d-st-45-b
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® ST 45 B
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/tough-line/ultracur3d-st-45/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Multi-Purpose Resin with Optimum Toughness and Processing Speed
+
+  Ultracur3D® ST 45, Ultracur3D® ST 45 M, Ultracur3D® ST 45 B by Forward AM are reactive urethane photopolymers for Tough applications that delivers an excellent combination of high strength, plus long-term toughness and impact resistance. It is very well suited for 3D printing high performance functional parts requiring high accuracy and mechanical strength. It ensures very fast printing and outstanding surface finishing, and is available as fully colorless (clear) and black.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 14b7d6e6-4622-44fd-84ce-568b0ca21999
+created_at: '2025-10-06T08:13:49.509Z'
+updated_at: '2025-10-06T08:13:49.509Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9507
+packages:
+  - e3fb90c3-ed2c-4f88-8992-bc01602b5483
+  - f0f7c781-b1b6-42d2-bc77-0d3e1b09c643
+secondary_material_types: []
+opentag_uuid: c2db5dfb-c5ae-5477-9fe1-1b3d6fb150ad

@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3056a95d93d6.png
+    type: gallery
+uuid: 9a1b1f1d-9ef0-4789-9d89-5238304183d3
+slug: hips-black-5
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  HIPS 3D printing filament is similar to ABS and share a lot of the same characteristics and qualities. It has comparable strength and durability to ABS filament. HIPS filament is extremely versatile and economical. However, HIPS filament dissolves in a different solvent. Limonene is used to dissolve HIPS (acetone is used to dissolve ABS). Therefore, HIPS filament is commonly used as a supporting material especially in conjunction with ABS filament.
+
+  When printing using an FDM 3D printer, sometimes there are problems if the printed object has large overhangs or bridges. FDM printers, such as the Makerbot or any RepRap based printer, can print support material on the outside which must be torn away after printing. Sometimes the print is sanded or finished as well. What happens when you need support material on the inside that cannot be torn away? This is where printing with a dissolvable material such as HIPS filament really shines. Dissolving HIPS filament in a Limonene bath will leave behind just the ABS filament printed sections. If you are fortunate to have a 3D printer with two extruders, then the possibilities are endless. Using your dual extruder printer with HIPS filament and ABS filament can produce more complicated objects such as moving parts. 
+
+      **Net weight: 1 kg or 2.2 lbs
+      Diameter: +/- 0.05mm
+      Roundness: +/- 0.07mm
+      Print Temperature: 230-250degreesC
+      Heated Bed Temperature: 110degreesC
+thumbnail_url: https://file.myfilamentlist.com/f/new/3056a95d93d6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:03.776Z'
+updated_at: '2025-03-25T22:32:03.776Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 1521
+packages:
+  - 5f87e43d-3b4b-4262-9fbe-ebeb674f6327
+  - c29d401f-bc08-4ff9-b86b-6f4895f2b626
+secondary_material_types: []
+opentag_uuid: 06ab12c6-98be-5658-94b2-2de1ac92f05d

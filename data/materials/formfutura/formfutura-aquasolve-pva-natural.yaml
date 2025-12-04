@@ -1,0 +1,82 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/31d7ba28bd89.png
+    type: gallery
+tags:
+  - 85b92735-dfaf-418c-9971-8fec7d0ed97e
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: fa8c1d62-bd47-4487-a29e-8a5654f973da
+slug: aquasolve-pva-natural
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' AquaSolve – PVA Natural'
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  AquaSolve is a water-soluble PVA type of 3D printer filament that is ideal as support material for complex multi-extrusion 3D printing with PLA based filaments as build material.
+
+  AquaSolve PVA (polyvinyl alcohol) is a water-soluble support material for complex multi-extrusion 3D printing. It exhibits an excellent thermal stability and can be printed at relatively low temperatures. This makes AquaSolve PVA an ideal support material for PLA-based materials with good thermal and chemical adherence.
+
+   
+  Key features
+
+      Excellent (cold) water solubility
+      Good thermal stability, resulting in less risk on deterioration/crystalizing inside the nozzle
+      Max thermal stability of 210° C, tested up to 256 seconds with no flow
+      Biodegradable once dissolved in water
+      Safe dissolution in tap water
+      Can be disposed of in the kitchen sink, or household drain as the material is "ok biodegradable water" certified
+      Good bonding to PLA-based materials and other (thermo)plastics that print within a similar temperature range
+
+   
+  Applications
+
+      Reliable multi-extrusion 3D printing of complex structures that require a water-soluble support material
+      3D printing geometries with large overhangs, or complex hollow structures
+      PVA Molds
+thumbnail_url: https://file.myfilamentlist.com/f/new/31d7ba28bd89.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.444Z'
+updated_at: '2025-03-25T22:31:13.444Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+colors:
+  - 142
+packages:
+  - 0da8c0c3-f479-41e9-a899-b3dfa03cf1f3
+  - 28aec62c-f50b-42e1-a593-c4937a7a1dec
+  - 2df1c65b-889d-4c3a-900e-2ad258dbce11
+  - 471a89e4-ae37-46d1-b1fc-b138b293dc43
+  - 962a2f5a-8d13-4d30-85e5-f922e42bf6ed
+  - a2653f7a-1e89-4498-877d-e4af08b6199a
+  - a7d94e55-6904-4c13-bf66-ed1482faca87
+  - e11ae1e9-ff4d-4b37-b75c-1730f404e503
+secondary_material_types: []
+opentag_uuid: f36b4691-9a22-5949-b012-433773afda8c

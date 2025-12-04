@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1204af883b53.png
+    type: gallery
+tags:
+  - 930807f4-0f7d-4630-a929-9030f31881a6
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 88deeea3-3066-4266-83b3-550bf94a46bb
+slug: stonefil-concrete
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' StoneFil Concrete'
+abbreviation: null
+url: null
+primary_color: 25c9f93a-d41a-4687-a3b4-c7f07580ceb3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  StoneFil is a PLA-based 3D printer filament with a 50% powdered stone filling, which give 3D printed parts true stone-like aesthetics and a rough and matt stone-like surface finish.
+
+  Unique features
+
+      Easy to print
+      Matte and rough stone-like finish
+
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/1204af883b53.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:58.062Z'
+updated_at: '2025-03-25T22:35:58.062Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4578
+packages:
+  - 0c40e2e5-283c-4964-a5c2-20c0ed4ef54d
+  - 0c517c2f-caf0-40d2-ad7e-eb75b5f785b1
+  - 11b5e2e0-9c61-4a29-b09e-0f7a51b8d8f5
+  - 2c84e567-a33c-4dbb-a63e-c9b29465784d
+  - 7a6f0c18-b642-46a6-ae91-aaa29fee0271
+  - 875c21b9-bca6-4012-9db2-cf008409fcff
+  - 889c30bb-72f9-4e99-9bc6-eca70a9d98e3
+  - d3ed79d4-b5df-4ce8-a5ce-29541574ec08
+  - d99f18a0-6bb1-45e1-bc89-bb484f302e1a
+  - f6e85a5d-576d-4670-b85b-621a896e63af
+secondary_material_types: []
+opentag_uuid: 81ef7d4c-e67e-51db-a481-4cf12954fa6d

@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c9e4e91441b8.png
+    type: gallery
+uuid: 672c4861-b791-469d-b651-7689818f14a8
+slug: uv-petg-charcoal
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: UV-PETG Charcoal
+abbreviation: null
+url: null
+primary_color: 4b341e7c-0595-4cf9-bee9-6bda06e99ceb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Ultraviolet Resistant PETG brings the performance of production grade IC3D PETG into the laboratory and the great outdoors. UV-PETG retains excellent clarity, puncture resistance, and impact toughness even after repeated ultraviolet radiation exposure outdoors or as part of the UV-sterilization process. While the color made fade over time, UV PETG can be expected to maintain its structural qualities and UV-resistance for several years.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c9e4e91441b8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T08:41:37.171Z'
+updated_at: '2025-05-01T08:41:37.171Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7413
+packages:
+  - 3e5343bc-b342-469a-a16b-502c6831b09d
+  - 4be5e0cb-9bb9-47fa-81de-3530c11a6711
+  - 7a1b54aa-cf50-4e01-b974-16f5a1ee4df8
+  - aa897e67-6a23-464f-b364-da40f98bbe20
+  - dcddf3f7-849b-4d88-8a1d-82c5423c75a8
+  - f035879c-daed-4624-8e22-fdef13eebf2b
+secondary_material_types: []
+opentag_uuid: d356618a-0c98-5a27-8ef4-183202aafeaa

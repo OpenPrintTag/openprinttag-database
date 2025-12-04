@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3e5dac902f4e.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 73a85548-fe19-4d63-9ed7-7bcab2ac9204
+slug: cpe-cf112-carbon
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CPE CF112 Carbon
+abbreviation: null
+url: null
+primary_color: 1f578390-e42e-4331-bdbb-7e0237e31d29
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  This advanced filament combines carbon fibers with CPE HG100 for superior durability, printability, and dimensional stability. It offers excellent pressure resistance, hardness, and a smooth matte finish, making it ideal for applications under long-term loads. Compared to standard CPE HG100, it delivers enhanced wear resistance, higher heat distortion temperature, and greater chemical resistance.
+
+   High durability with excellent interlayer adhesion
+   Superior wear resistance and temperature stability up to 100 degreesC
+   Resistant to acids, alkalis, and alcohols
+   Easy to print with low warping and a matte finish
+   Safe for electrical applications, recyclable, BPA-free, and 25% bio-based
+thumbnail_url: https://file.myfilamentlist.com/f/new/3e5dac902f4e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:21.090Z'
+updated_at: '2025-03-25T22:31:21.090Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 27a91e17-7871-4d99-88e5-9d92e84d20b8
+colors:
+  - 661
+packages:
+  - 1f7612d6-9c72-4f8d-87cf-7305b78bdd74
+  - d6e46c3d-6149-46f6-a28a-16eee7f85a57
+secondary_material_types: []
+opentag_uuid: 0215d8ee-4518-5f5d-bfb2-5c295c3d6381

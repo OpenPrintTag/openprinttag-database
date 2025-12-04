@@ -1,0 +1,83 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d27d8035-3ddc-4cd0-9f2e-58f6d3361a0e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 7ef0e3a5-4984-4010-95b3-a6a8a4fbef91
+slug: petg-light-green
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Light Green
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410231-petg-light-green-1kg-5010?category=63#attr=717,3061,3060,719,3571,3572,3064,3065,720
+primary_color: db8e15f0-372b-4dd5-85c3-dbd7132abac5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Light Green 1kg is a premium 3D printing filament that delivers exceptional durability, strength, and aesthetic appeal. Manufactured from PETG (Polyethylene Terephthalate Glycol), this filament offers the best of both PLA and ABS, making it an excellent choice for a variety of applications. The light green shade provides a soft and natural look, making it ideal for both functional and decorative prints.
+
+  With a 1kg spool, PETG Light Green ensures consistent quality and smooth extrusion, making it suitable for both professionals and hobbyists. This filament is highly resistant to impact, moisture, and chemicals, ensuring long-lasting prints that maintain their structural integrity. Additionally, its superior layer adhesion reduces the risk of warping and enhances print precision.
+
+  Key Features:
+
+      Durable and Flexible: Stronger than PLA with enhanced impact resistance and flexibility.
+      Smooth Light Green Finish: Soft and natural-looking color for a wide range of creative and functional applications.
+      Excellent Layer Adhesion: Reduces warping and ensures smooth, high-quality prints.
+      Weather and Chemical Resistant: Withstands exposure to humidity, chemicals, and outdoor elements.
+      User-Friendly Printing: Compatible with most FDM 3D printers, offering a hassle-free printing experience.
+
+  Applications:
+
+      Functional mechanical components
+      Custom enclosures and protective casings
+      Decorative and artistic models
+      Weather-resistant outdoor prints
+      High-precision general-purpose 3D printing
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid direct contact with eyes and skin. In case of exposure, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Light Green 1kg is a dependable and visually appealing filament designed to enhance your 3D printing experience. Whether you’re working on intricate designs, industrial parts, or everyday prints, this filament provides the perfect balance of strength, flexibility, and aesthetics.
+thumbnail_url: https://file.myfilamentlist.com/new/7ef0e3a5-4984-4010-95b3-a6a8a4fbef91.png
+deleted_at: null
+deleted_by: 8647b9a1-6de9-4c41-b9a6-4586276a9c3b
+created_at: '2025-12-01T11:39:23.847Z'
+updated_at: '2025-12-01T11:39:23.847Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 7b3b5d70-cd78-4a4e-b549-b06c23f8bf43
+secondary_material_types: []
+opentag_uuid: 5dfd3a85-9568-5ff3-be94-5e2c63ea24df

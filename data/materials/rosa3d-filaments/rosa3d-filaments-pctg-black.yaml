@@ -1,0 +1,54 @@
+uuid: 77f6a163-5713-4e77-8e3f-8b7baf212b44
+slug: pctg-black-3
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Black
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-pctg-black-1
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  FILAMENT 3D PCTG Black is a polyester-based filament, offering an alternative to PET-G with higher impact resistance, heat resistance (up to 76°C), and improved clarity. It does not require a heated chamber, making it suitable for open hobbyist 3D printers. It features flexibility, strong layer adhesion, minimal shrinkage, and ease of use.
+
+  The deep black filament can be used for printing figurines for further painting, everyday used items and vases.
+thumbnail_url: https://file.myfilamentlist.com/new/77f6a163-5713-4e77-8e3f-8b7baf212b44.png
+deleted_at: null
+deleted_by: 2b47c24a-933e-4e24-8f08-e9151fd66032
+created_at: '2025-11-16T14:18:28.646Z'
+updated_at: '2025-11-16T14:18:28.646Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors: []
+packages:
+  - 262aaf3b-9377-4111-a564-9897678d051c
+  - cd9a2427-4c6d-4a50-a699-dfd7f20fd886
+  - ea09899b-dbc1-48e6-a109-8fbec9953ffd
+secondary_material_types: []
+opentag_uuid: 64688646-9c14-58a6-875c-e783af300f0d

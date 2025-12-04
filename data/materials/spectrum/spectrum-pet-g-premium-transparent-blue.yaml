@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 88af8361-bc2f-4e99-b711-d93238eeddc9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 884e5cc0-ab71-495b-8959-303396db2637
+slug: pet-g-premium-transparent-blue
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PET-G Premium Transparent Blue
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-premium/
+primary_color: 412279bf-af5d-428d-87de-0157024d2389
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High transparency and chemical resistance
+
+  Spectrum PET-G Premium is the second most popular material for desktop 3D printing. Major advantage provided by Spectrum PET-G Premium are the virtually zero shrinkage rate and low absorption of moisture as compared to other thermoplastics used for FDM/FFF 3D printing. Items manufactured with PET-G maintain stable properties over a long life. Spectrum PET-G Premium combines advantages of PLA and ABS. It also provides nearly trouble-free printing and exceptional adhesion between layers.
+
+  Items printed using transparent Spectrum PET-G Premium colours have a high content of the crystalline phase, which allows for the near transparency effect at a small number of outer perimeters of additive manufactured items. Pellet and pigments used in the production of Spectrum PET-G Premium are approved for contact with food.
+
+  As regards other properties of Spectrum PET-G Premium, note the good creep resistance under constant load conditions. It results from the very good cohesion between the layers of the material applied. This leads to a much lower mechanical anisotropy in the printed items, which means that for each manufacturing direction the mechanical properties differ less than in other thermoplastics designed for 3D printing.
+
+  Very good mechanical properties of Spectrum PET-G Premium combined with its chemical resistance determine the application of this material for the manufacturing of items with a relatively high dimensional accuracy and stability of both shapes and mechanical properties. Accordingly, these are mainly gear wheels and slide bearings subject to relatively high static loads in an aqueous environment. PET-G is also used to manufacture semi-transparent enclosures and backlit sections of various boards and signs.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 286e93e1-2e87-4de4-834f-a15f3e4833da
+created_at: '2025-10-15T08:19:54.276Z'
+updated_at: '2025-10-15T08:19:54.276Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: b18aa9da-16ec-5d0c-b8c2-4141bd6918b1

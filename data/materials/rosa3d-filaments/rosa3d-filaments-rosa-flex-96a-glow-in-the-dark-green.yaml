@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bb8d62e1-0d55-4399-b36c-b21e5d826e53
+  hardness_shore_a: 96
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+secondary_colors:
+  - 8f33ad90-428e-4545-a2d1-1c7b95c472db
+uuid: e2e8c022-d4ce-4d97-874e-b00322608261
+slug: rosa-flex-96a-glow-in-the-dark-green
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA-Flex 96A Glow in the Dark Green
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-glow-in-the-dark-green
+primary_color: 59a8cf67-5708-4589-909b-d806ac2d2a79
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Filament 3D ROSA-Flex 96A Glow in The Dark is a flexible thermoplastic polyurethane from ROSA3D, perfect for technical applications requiring mechanical resistance and tensile strength. The material glows in the dark after exposure to natural or artificial light, emitting a phosphorescent green glow.
+
+  The filament can be repeatedly compressed and stretched without losing its shape. It is also resistant to greases, oils, and solvents. Recommended for experienced 3D printing users.
+
+  WE DO NOT RECOMMEND USING FILAMENT THROUGH THE BAMBU LAB AMS
+thumbnail_url: https://file.myfilamentlist.com/new/e2e8c022-d4ce-4d97-874e-b00322608261.png
+deleted_at: null
+deleted_by: 07987962-bb13-4b5d-974b-87fed6ee3007
+created_at: '2025-11-18T10:30:11.485Z'
+updated_at: '2025-11-18T10:30:11.485Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - b96e8592-528f-4414-93bd-64383af502b8
+secondary_material_types: []
+opentag_uuid: 3e6e53a5-0dc7-5a81-9811-b98ee0b943a1

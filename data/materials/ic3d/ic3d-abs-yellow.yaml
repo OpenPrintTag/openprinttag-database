@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4d383e9fdc30.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: c5d0c804-8fb3-40c8-828f-9c80278d20ba
+slug: abs-yellow-8
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Yellow
+abbreviation: null
+url: null
+primary_color: 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: ABS has a reputation as an industrial standard for consumer plastic parts due to its high impact resistance, strength, and slight flexibility. IC3D engineers prefer it for the ease of support removal. We use it for a wide variety of print jobs from end-use automotive parts to net shape or near-net shape industrial parts.
+thumbnail_url: https://file.myfilamentlist.com/f/new/4d383e9fdc30.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T08:58:54.063Z'
+updated_at: '2025-05-01T08:58:54.063Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7419
+packages:
+  - 330d8086-404b-4516-ba60-9e06bfccc27f
+  - 79528670-ab5a-4a88-bdc0-603e6c9a21c5
+  - 89f24000-bfa9-4656-96ba-3c3e6236635e
+  - 8cf203df-dd6b-48e5-a6ba-4d4b5b6f0afe
+  - de1f9fce-9981-4a54-9c9a-278bb772f708
+  - f82dc6d4-de27-4b21-ad8e-7177c128f6b1
+secondary_material_types: []
+opentag_uuid: fabe7a70-de0e-5b14-b337-6701b75f5d7f

@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0bf194fd-0e19-4e30-ac39-6b54babd335f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 681dcaa1-0a94-4e41-b8a1-dba384882fcd
+slug: pla-plus-lilac-snow
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Lilac Snow
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/filament-pla-plus-jet-black-6102?category=59#attr=3446,3441,3438,3439,3532,3443,3444,3445,3440
+primary_color: b979a06e-ff89-41e6-9aba-59bb87de7a31
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Lilac Snow is a high-quality 3D printing filament featuring a soft, elegant lilac tone that brings a clean and sophisticated aesthetic to every print. This enhanced PLA Plus material combines increased durability with a smooth, pastel appearance, making it ideal for decorative pieces, design prototypes, artistic models, and functional parts that benefit from a refined visual style. Whether you're printing creative accessories or stylish components, this filament ensures premium performance and a beautifully delicate finish.
+
+  Key Benefits:
+
+      Soft & Elegant Color: A gentle lilac shade that adds a modern, calming, and sophisticated touch to any model.
+      Enhanced Strength & Durability: PLA Plus provides superior impact resistance and flexibility compared to standard PLA, ensuring strong and long-lasting prints.
+      Smooth Printing Experience: Excellent layer adhesion, minimal warping, and broad compatibility with most 3D printers – perfect for both beginners and advanced users.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable and responsible 3D printing.
+
+  Applications:
+
+      Decorative & Artistic Projects: Create elegant decor, delicate sculptures, pastel accessories, or stylish display pieces.
+      Functional Parts: Ideal for components that require both strength and a refined visual appearance.
+      Educational & Presentation Models: Perfect for demonstration pieces, classroom models, and visually appealing prototypes.
+      Toys & Gadgets: Print charming toys, accessories, and collectible figures with a unique pastel tone.
+      Branding & Promotional Items: Produce attractive promotional pieces and custom items with a soft, professional look.
+
+  Ideal For:
+
+      Users seeking a delicate, pastel-colored filament with premium quality.
+      Design and artistic projects focusing on clean, modern aesthetics.
+      Makers who prefer eco-friendly materials without sacrificing durability.
+      Creators wanting a smooth, elegant finish for their 3D printed work.
+
+  PLA Plus Lilac Snow is the perfect choice for creators looking for a premium, reliable filament with a refined pastel lilac finish. Bring your ideas to life with elegance, clarity, and exceptional print quality! 
+thumbnail_url: https://file.myfilamentlist.com/new/681dcaa1-0a94-4e41-b8a1-dba384882fcd.png
+deleted_at: null
+deleted_by: a948297f-8858-4b67-a7be-5f523376c16f
+created_at: '2025-12-01T10:33:52.615Z'
+updated_at: '2025-12-01T10:33:52.615Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - db4858f8-6686-4efd-8092-a83f361bfcc0
+secondary_material_types: []
+opentag_uuid: e3e552a8-196d-565e-b2c1-e6ae9abab0d9

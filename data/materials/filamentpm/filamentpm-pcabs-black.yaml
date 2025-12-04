@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4352f4b64ddc.png
+    type: gallery
+uuid: dde800ac-3ba8-456b-885c-631061e26c50
+slug: pcabs-black-3
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PC/ABS - Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PC/ABS (polycarbonate + akrylonitrilbutadienstyren)
+  - unique blend of polycarbonate and ABS
+  - extremely tough and hard material
+  - highly impact and heat resistant (up to 115 degreesC)
+  - self-extinguishing (UL94 V0 certification)
+  - ideal for industrial use - mechanical components
+  - thermal contracting (closed chamber recommended)
+thumbnail_url: https://file.myfilamentlist.com/f/new/4352f4b64ddc.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T12:05:34.141Z'
+updated_at: '2025-04-23T12:05:34.141Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 7119
+packages:
+  - 5876d482-f72b-4d40-9fcb-bcd5d3f30fb3
+secondary_material_types: []
+opentag_uuid: 2a6a3d71-b023-59e4-a35d-83e361c5c950

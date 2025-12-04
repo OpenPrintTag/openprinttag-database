@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/58f0ba80237f.png
+    type: gallery
+uuid: 5e263b2d-b598-4a64-a7d1-e166c95e3b5f
+slug: pctg-graphite
+brand_slug: fiberlogy
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Graphite
+abbreviation: null
+url: null
+primary_color: db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Features & Advantages
+
+      High impact strength
+      High chemical resistance
+      High optical clarity
+      Easy to print
+      Temperature resistant
+thumbnail_url: https://file.myfilamentlist.com/f/new/58f0ba80237f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:46.260Z'
+updated_at: '2025-03-25T22:32:46.260Z'
+brand: 062398ca-21bf-4447-97c4-e4cd4016a2d0
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 2355
+packages:
+  - 879d2074-7a3a-46e4-8f50-9c1af7b3becc
+secondary_material_types: []
+opentag_uuid: c5f9f21c-471d-5be8-8e63-2c28ee3c9b90

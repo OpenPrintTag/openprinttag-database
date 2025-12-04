@@ -1,0 +1,72 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4dd2cedb-0ffa-4d42-874c-3d6ba74aa7a4
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/715e487a306a.png
+    type: gallery
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+certifications:
+  - 2
+uuid: bedb6066-2249-4b53-86bd-5d23c09cefde
+slug: petg-prusa-galaxy-black
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Prusa Galaxy Black
+abbreviation: null
+url: null
+primary_color: d4fc9832-ac89-4ec5-8c0c-cc7f050fbed0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '0.20'
+refractive_index: null
+print_sheet_compatibility: []
+description: 'Prusament PETG is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/715e487a306a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:58.682Z'
+updated_at: '2025-03-25T22:32:58.682Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2388
+packages:
+  - 0371903a-01ba-4d01-92b3-95d6dddf245b
+  - 12fe15cb-9de5-44af-89f5-3a41dde472ee
+secondary_material_types: []
+opentag_uuid: 0713a0d1-c6c9-5f3e-96c7-4c06ca543a6a

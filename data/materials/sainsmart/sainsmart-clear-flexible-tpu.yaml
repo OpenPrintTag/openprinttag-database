@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 946e07d9-a58a-4dad-9033-c3c8e1daf99b
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: d192bef5-a28b-44e8-88ba-abbf8280590d
+slug: clear-flexible-tpu-3
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Clear, Flexible TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/clear-flexible-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=21&_fid=bf8833f30&_ss=c
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Thermoplastic polyurethane (TPU) is a high strength flexible material. TPU belongs to the TPE class of thermoplastics
+
+      Specially formulated plastic with increased amount of flexibility, with rigid structure.
+      Resistant to oil, grease and abrasions
+      Weight: 1 KG (approximately 2.20 lbs)
+      Diameter: 1.75mm (+/- 0.05mm)
+      Shore Hardness: 95A
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 474c6459-5979-49e0-9d80-c7bdc1e1b9ea
+created_at: '2025-09-26T14:54:21.626Z'
+updated_at: '2025-09-26T14:54:21.626Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9189
+packages:
+  - 73e4ca4c-7f9f-4c01-bb4b-1a049b281d08
+secondary_material_types: []
+opentag_uuid: 506d67b8-6c0e-5ffd-8636-a8623eb843af

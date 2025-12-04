@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9663d9bc-e952-47b3-882f-3b84d875d5ea
+  hardness_shore_a: null
+  hardness_shore_d: 78
+  fff_material_properties: 46c69337-ae2a-4efe-85f6-46d8e133abdd
+  sla_material_properties: null
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  heatbreak_temperature: null
+  min_chamber_temperature: 55
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5f1964bf97ca.png
+    type: gallery
+uuid: e0084f9b-015a-4d81-bae4-43dfb93baf74
+slug: asa-prusa-orange
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Prusa Orange
+abbreviation: null
+url: null
+primary_color: ae0b6f98-6fa2-4af0-9c86-62785981cd02
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '4.40'
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: 'Prusament ASA is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.04mm precision and highly-consistent colors. You can inspect the parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/5f1964bf97ca.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:15.043Z'
+updated_at: '2025-03-25T22:31:15.043Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 392
+packages:
+  - 1c4f4238-110b-4041-a3ed-6d4df9b2d998
+  - 67760a21-d1d5-4f37-a0d5-b7be4823a710
+secondary_material_types: []
+opentag_uuid: 08f78c9d-1d5b-5cee-a00a-ee536cb3208f

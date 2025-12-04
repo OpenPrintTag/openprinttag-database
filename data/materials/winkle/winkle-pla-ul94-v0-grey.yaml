@@ -1,0 +1,88 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.31000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 170e7686-2e07-45b7-bb5f-8cd81c4a4212
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: 0014ed35-daff-4f56-a285-8069ffc72dd1
+slug: pla-ul94-v0-grey
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA UL94 V0 Grey
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-ul94-v0-winkle-175-mm-0750-kg-gris/?_gl=1*cs8f2j*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3NjUxNTQkbzMkZzEkdDE3NjM3Njg1MzEkajYwJGwwJGgxMDM2MjI5NDYx
+primary_color: eaf3d580-c9d1-4c60-89c1-3937e65d19ef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **PLA UL94 V-0 (Flame Retardant): Safety, strength, and reliability for critical environments.**
+  Winkle’s PLA UL94 V-0 is specially formulated to provide fire resistance and electrical safety, making it the perfect choice for projects that require compliance with fire protection standards.
+
+  Made from UL94 V-0 certified raw material, this PLA is self-extinguishing—stopping combustion in less than 10 seconds after removing the ignition source—without spreading flames or producing flammable drips.
+
+  **Recommended printing parameters:**
+
+  * Nozzle temperature: 190–250 °C
+  * Bed temperature: 50–60 °C
+  * Printing speed: 40–60 mm/s
+  * Volumetric speed: up to 9 mm³/s
+
+  **Advantages of Winkle Flame Retardant PLA:**
+
+  * Complies with UL94 V-0 standard: self-extinguishing with no flaming drips
+  * Compatible with most FDM printers
+  * Excellent layer adhesion with minimal warping
+  * Easy to print, though slightly more brittle due to additive content
+  * Textured with visible particles confirming its specialized composition
+  * Reliable under critical conditions where safety is essential
+
+  **Applications for PLA UL94 V-0 (Flame Retardant):**
+
+  * Electronics: housings, circuit mounts, connectors
+  * Automotive and aerospace components
+  * Public and commercial environments: signage, visible components
+  * Functional prototyping with safety requirements
+  * Consumer products: safe toys, organizers
+  * Education and DIY robotics
+  * Art and design requiring regulatory compliance
+
+  For improved bed adhesion, the use of adhesives or a heated base is recommended.
+  A technical filament for printing with quality, precision, and protection.
+thumbnail_url: https://file.myfilamentlist.com/new/0014ed35-daff-4f56-a285-8069ffc72dd1.png
+deleted_at: null
+deleted_by: 749bdc36-7859-4533-a742-5505faea507e
+created_at: '2025-11-21T23:44:36.115Z'
+updated_at: '2025-11-21T23:44:36.115Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 253b19d7-9fe6-490a-8eaf-6adc37e38d52
+secondary_material_types: []
+opentag_uuid: 9bafc9c7-6f2f-5cde-b0e1-917ae7485bba

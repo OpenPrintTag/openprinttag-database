@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1d424648-d4e4-433c-bd71-9bc9636278ad
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 4b62499e-040d-4a80-b90a-b290df4a9ae3
+slug: petg-pine-green
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Pine Green
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-winkle-175-mm-1-kg-verde-pino/
+primary_color: 4f052bdd-314d-42aa-a245-5e216681c9be
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  A versatile and durable filament, ideal for creating reliable, long-lasting parts without compromising print quality.
+  PETG combines the best of PLA and ABS: it offers greater mechanical and thermal resistance than PLA, without the complications of ABS. Its enhanced chemical structure provides increased elasticity, impact resistance, and excellent layer adhesion.
+
+  This filament is perfectly suited to the needs of both hobbyists and 3D printing experts. Once printed, PETG stands out for its resistance to moisture, UV rays, and chemicals, making it a reliable choice for parts exposed to demanding conditions.
+
+  With precise 1.75 mm diameters, this PETG Filament melts evenly at temperatures between 220 °C and 240 °C, ensuring clean, warp-free prints with high detail. Recommended bed temperature is between 60 °C and 80 °C.
+
+  Available in three options to suit your needs:
+
+  300 g – Ideal for testing or small projects.
+
+  1 kg – Standard for regular use.
+thumbnail_url: https://file.myfilamentlist.com/new/4b62499e-040d-4a80-b90a-b290df4a9ae3.png
+deleted_at: null
+deleted_by: c715dcd7-cba8-4f64-9770-51379ac6b366
+created_at: '2025-11-21T11:29:31.308Z'
+updated_at: '2025-11-21T11:29:31.308Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 0d2be0ea-bb70-4b3d-908e-9a734e0189f3
+  - abda9452-f47a-4a11-b2be-0fc1489b8b1e
+secondary_material_types: []
+opentag_uuid: e1b60ab4-6fa2-56bc-b66a-ac1bb7e0c407

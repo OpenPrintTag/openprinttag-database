@@ -1,29 +1,9 @@
-uuid: 561da2d4-41ed-5186-8226-c404d31569d7
+uuid: 6dc5c23f-4b13-4493-9b06-e93170f05db0
 slug: polymaker
-name: "Polymaker"
-
-keywords:
-  - Polymaker
-  - PolyLite
-  - PolyTerra
-  - PolyMax
-
-material_url_template: "https://www.polymaker.com/product/{material_slug}/"
-material_package_url_template: "https://www.polymaker.com/product/{material_slug}/"
-material_package_instance_url_template: null
-
-link_patterns:
-  - type: brand
-    pattern: "https://www\\.polymaker\\.com/.*"
-  - type: material
-    pattern: "https://www\\.polymaker\\.com/product/([^/]+)/"
-
-countries:
-  - CN
-  - US
-  - DE
-  - GB
-  - FR
-  - JP
-  - KR
-  - AU
+name: Polymaker
+description: ''
+location: ''
+country_uuid: fc5f0691-2b56-4c2d-ad08-354900506b69
+created_at: '2025-03-25T22:31:22.452Z'
+updated_at: '2025-03-25T22:31:22.452Z'
+opentag_uuid: 561da2d4-41ed-5186-8226-c404d31569d7

@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/28ff13eeac6c.png
+    type: gallery
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 6f85ca51-2a37-4641-be96-4389c4dfaeea
+slug: olive-green-nylong-glass-fiber
+brand_slug: matterhackers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Olive Green NylonG Glass Fiber
+abbreviation: null
+url: null
+primary_color: a302856c-fe22-4f65-8a99-b30f93375159
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  NylonG is a glass-fiber reinforced nylon for 3D printing, offering excellent impact-resistance, incredible tensile strength, and great inter-layer adhesion. It retains dimensional accuracy better than standard nylon and absorbs large amounts of kinetic energy, making it ideal for parts that need to withstand repeated shock. The filament creates clean, complex parts in various colors with no post-processing needed and pairs well with Ionic support materials for dual extrusion prints.
+
+      Glass fiber-infused for extra strength and impact resistance
+      Excellent at absorbing large amounts of kinetic energy
+      Produces clean, complex parts with no post-processing needed
+thumbnail_url: https://file.myfilamentlist.com/f/new/28ff13eeac6c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:29.397Z'
+updated_at: '2025-03-25T22:32:29.397Z'
+brand: 2f78f004-49c7-4672-9cd5-32971f28f7ca
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors:
+  - 1845
+packages:
+  - 21d4219b-3a4a-4f1b-bc9f-67dcbf2a737e
+  - 965995ee-6483-4250-9ab5-4e18d23efb66
+  - a7da7ad9-cea7-4006-9154-8a16de3c2a9d
+secondary_material_types: []
+opentag_uuid: cb9cf464-3619-52b5-8fbb-6454e0b8d69e

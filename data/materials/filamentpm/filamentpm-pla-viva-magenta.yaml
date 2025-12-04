@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/07657e3559f0.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 31fc78d9-f599-4cf0-8d43-dfb30fa9a633
+slug: pla-viva-magenta
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PLA+ Viva Magenta '
+abbreviation: null
+url: null
+primary_color: 9fb40439-2d08-4c1d-8956-d75e60566707
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PLA+ (polylactic acid)
+  - improved printing properties compared to standard PLA:
+
+      lower printing temperature 195 degreesC - great for bridging and printing overhangs
+      higher adhesion of layers and impact toughness - ie. that the printed object is more flexible when bending
+      higher viscosity = doesn't clog the nozzle
+      the material withstands insufficient cooling of the printer in a warm environment (for example in the summer months), precisely because of the lower printing temperatures used and the higher viscosity
+      is suitable for 3D pens, again due to lower temperatures
+      has an attractive matte finish
+      is offered in the new Skin edition, Army edition, classic Black&White, modern Pastel edition, hot Summer edition, or recycled RePLA+
+      check out our video on PLA+ material
+thumbnail_url: https://file.myfilamentlist.com/f/new/07657e3559f0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T16:42:00.012Z'
+updated_at: '2025-04-22T16:42:00.012Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7032
+packages:
+  - 0392e892-444e-4c2b-96f0-f25ea92c58bf
+  - b2a834c1-b44f-471b-ac8e-a0cc51e1cdee
+secondary_material_types: []
+opentag_uuid: d322c7af-3097-5c36-b4d5-b519db4a994f

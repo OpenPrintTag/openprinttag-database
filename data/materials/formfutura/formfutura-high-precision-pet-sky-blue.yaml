@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/abe4084ec1c8.png
+    type: gallery
+uuid: d65f5879-5be5-4f22-8cd3-9ac4501f7e5b
+slug: high-precision-pet-sky-blue
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Precision PET SKy Blue
+abbreviation: null
+url: null
+primary_color: c758d7b1-413e-431f-8ac1-f7f3bfc3df99
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A pure PET filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Good inherent UV resistance.
+      Good chemical resistance.
+      3D Prints details with a high resolution and high surface quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/abe4084ec1c8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:54.802Z'
+updated_at: '2025-03-25T22:31:54.802Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 1150
+packages:
+  - 2c9d3988-811a-4458-994a-f61ab672bdcd
+  - 2f04ebc4-2770-4331-afe3-148a83827a2c
+  - 4b3eb655-a8ba-4a67-b8dc-25e9baf6a515
+  - 7c9b3b1d-ec66-4726-8270-b239e601a864
+secondary_material_types: []
+opentag_uuid: 80c634bb-2b03-5295-b5e2-07b628d4bb2b

@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/819c42bc6d2e.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: cb48ca2c-d967-415d-adea-e57f0a815699
+slug: clear-flexible-tpu
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Clear Flexible TPU
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  3D print parts that can flex without breaking!
+
+      Featured in EX3, July 2024's Endless Exploration
+      A clear, flexible TPU with hardness of about 98A
+      Durable w/ good memory when folded like a hinge (folding triangle from Joan Horvath and Rich Cameron's book Make: Geometry)
+      Absorbs energy for minimal return when bounced
+      Easy printing, dyeable, and holds shape up to 200 C
+      Drying overnight recommended before printing
+      Printing starting at 240 C w/ no bed heat required
+      Prep bed w/ Magigoo to avoid permanent bond
+      Compare to 90A-95A hardness or NinjaTek Cheetah
+      Produced by Protoplant exclusively for Protopasta
+thumbnail_url: https://file.myfilamentlist.com/f/new/819c42bc6d2e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T20:00:58.254Z'
+updated_at: '2025-04-02T20:00:58.254Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6568
+packages:
+  - 50707507-750d-4363-9c22-34a2a395900c
+  - 6aeabcff-65e6-4cd1-9591-07a5a640cfb0
+  - d6ed47b2-e5ca-4609-b6ba-935e829cb525
+secondary_material_types: []
+opentag_uuid: fb5a4964-6ea1-5947-bcb9-6eeec7f5e3cd

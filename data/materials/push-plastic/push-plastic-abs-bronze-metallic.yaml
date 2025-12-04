@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1489c632d22d.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: b2f6f8a3-f654-4479-b8dd-35afa1ece1cb
+slug: abs-bronze-metallic
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Bronze Metallic
+abbreviation: null
+url: null
+primary_color: 8b9f3d7c-8fa2-4db1-ab5f-ea7cda50970f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  The benefits of ABS include:
+
+      Higher strength and flexibility compared to PLA
+      Higher temperature resistance over PLA
+      Machinability allows for end-use parts 
+      Finished parts can be vapor smoothed with acetone
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/1489c632d22d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-29T16:40:33.800Z'
+updated_at: '2025-04-29T16:40:33.800Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7305
+packages:
+  - a56b0d1a-6443-4c20-8019-9af941e3cf7f
+secondary_material_types: []
+opentag_uuid: 5550c4cd-3f47-5c3f-bded-23dfed66eb4a

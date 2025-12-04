@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/91d2065362ab.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 42415b8c-7bda-49cc-a014-23b575e4bd82
+slug: standard-pla-metallic-copper
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Standard PLA+, Metallic Copper
+abbreviation: null
+url: null
+primary_color: 19a9ceb5-f0c0-46ec-9628-ea26196f2a02
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Standard PLA+ is a basic, entry-level PLA filament. It's available in a broad color selection and uses only virgin NatureWorks Ingeo 4043d PLA resin. No fillers or stretchers means a more predictable 3D printing experience. Because we don't use fillers, the ideal print temp might be 5-10C higher than your current PLA settings.
+
+  Our Standard PLA+, or Polylactic Acid, is among the most popular 3D printing materials worldwide because it is easy to print and strong. Standard PLA+ is a hard plastic that produces a barely noticeable but quite pleasant, sugary smell when extruding.
+
+  The broad color selection and ease of printing make it an ideal choice for printing in a multi-color 3D printing system like the Bambu Lab AMS.
+thumbnail_url: https://file.myfilamentlist.com/f/new/91d2065362ab.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:55.762Z'
+updated_at: '2025-03-25T22:35:55.762Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4456
+packages:
+  - c0535f18-5cfe-4255-a078-1799162302a3
+  - cd02ac77-382c-428c-8bee-815dd8ed4f3a
+secondary_material_types: []
+opentag_uuid: 149af633-a427-58af-8b87-c5806643aa74

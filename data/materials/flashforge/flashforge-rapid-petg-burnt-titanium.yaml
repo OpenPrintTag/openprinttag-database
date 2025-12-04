@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b580989a0cda.jpg
+    type: gallery
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+secondary_colors:
+  - a7370c0c-a72d-4da3-a82a-79ffc7577169
+  - 3288be0c-7f1d-48fc-85a9-6799507e2be1
+uuid: 011d4ee4-907e-4b54-8998-efc760c4d924
+slug: rapid-petg-burnt-titanium
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PETG Burnt Titanium
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PETG filament features rapid melting and smooth flow, enabling speeds up to 600mm/s, ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Note - For the best metallic finish with the PETG Metallic color series, use the filament within a week or dry it at 80degreesC for 4-6 hours before or during printing. Other colors, such as black, white, and burnt titanium, are less moisture-sensitive.
+thumbnail_url: https://file.myfilamentlist.com/f/new/b580989a0cda.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:06.365Z'
+updated_at: '2025-03-25T22:35:06.365Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3567
+  - 3568
+packages:
+  - 995e8fa0-8123-4985-9ec6-b8dcef406bc0
+secondary_material_types: []
+opentag_uuid: 0aaa4620-9970-5a91-8013-7b7d4b497808

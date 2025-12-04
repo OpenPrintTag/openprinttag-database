@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/466263760622.png
+    type: gallery
+uuid: 689b5929-d834-401d-809f-2af4551ab33b
+slug: durapro-asa-red-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ASA red | RAL 3001
+abbreviation: null
+url: null
+primary_color: 78a33020-fb35-4108-86d7-c0f74493c7a2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ASA has been specially developed for industrial applications and is characterised by its high UV and weather resistance. It is therefore particularly suitable for use in the automotive sector and outdoors. The material is fire retardant according to UL94 HB. DuraPro ASA has been optimised for the FFF/FDM process, so the material has good layer adhesion, thermal stability, improved flow properties and low warping.
+
+      UV and weather resistant
+      Matt surface
+      High mechanical strength
+      Good layer and bed adhesion
+      Low warping
+thumbnail_url: https://file.myfilamentlist.com/f/new/466263760622.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T19:58:04.972Z'
+updated_at: '2025-03-28T19:58:04.972Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3601
+packages:
+  - 5811cc10-15ef-424f-bcf7-21bd6ff9be11
+  - 5ace1059-bad5-4c5b-926f-983b2a11223c
+  - 66fd9351-9b0d-47d0-bafa-adad291baba8
+  - c72ccdb9-db12-444f-8fd3-842d584418bf
+secondary_material_types: []
+opentag_uuid: 2ca3a5b2-9c71-5454-ac4e-d643ce3ac662

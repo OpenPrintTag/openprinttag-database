@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b37806e47351.png
+    type: gallery
+tags:
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+uuid: e821058d-c44c-4289-bb0c-a5ce5795619c
+slug: lw-asa-black
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: LW-ASA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  After printing the LW-ASA Black will turn slightly lighter shade of black.  When foamed the surface finish will also turn matte, which gives a very professional looking result. Due to higher temperature resistance of LW-ASA you don't need to worry about heat absorption.
+
+  The LW-ASA material is capable of increasing its volume nearly 2,5 times. The filament density is close to 1,07 g/cm3 but when foamed at its maximum capacity users will achieve part density close to 0,43 g/cm3.
+
+  After printing the LW-ASA Black will turn slightly lighter shade of black.  When foamed the surface finish will also turn matte, which gives a very professional looking result. Due to higher temperature resistance of LW-ASA you don't need to worry about heat absorption.
+
+  LW-ASA is more susceptible to warping compared to LW-PLA type filament. Especially models with a large footprint can shrink and warp during printing, but compared to ABS in most cases less severe.
+
+  Please note that color variations may occur. Color will turn lighter when material is at maximum foamed state as opposed to non-foamed state which shows a deeper and richer color.
+
+      Light weight
+      UV resistant
+      High temperature resistant
+thumbnail_url: https://file.myfilamentlist.com/f/new/b37806e47351.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:13.523Z'
+updated_at: '2025-03-25T22:32:13.523Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 1320
+packages:
+  - 27532277-a3f0-43b0-820e-6f7ecbc26e7b
+  - 8a33fce5-38aa-45be-a4ac-1508e690b013
+secondary_material_types: []
+opentag_uuid: 812fc683-c68b-5518-bbf8-78dad5fb73cd

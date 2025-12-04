@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 564ee79e-4abb-4445-b621-ae776b6a0333
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2a3cb041-752f-4f54-8db0-fcf00fed7fbd
+slug: pla-pro-glacier-white
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA PRO Glacier White
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-pro-winkle-blanco-glaciar-175-mm-1-kg/
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Print strong, technical parts with a professional finish—without the hassle.
+  Winkle’s PLA PRO Filament is designed to offer you the best of both worlds: the easy printability of PLA and the advanced performance of ABS.
+
+  This filament is perfect for functional, industrial, or prototyping applications. It provides superior thermal resistance and an impeccable aesthetic finish.
+  Thanks to its high crystallinity, PLA PRO withstands over 95 °C after annealing and maintains exceptional dimensional stability with virtually no shrinkage. It also enhances the visual appearance of printed pieces, hiding layer lines and adding an elegant texture.
+
+  This 1.75 mm 3D filament combines impact resistance, strong layer adhesion, and high flow, allowing you to print faster without sacrificing quality.
+thumbnail_url: https://file.myfilamentlist.com/new/2a3cb041-752f-4f54-8db0-fcf00fed7fbd.png
+deleted_at: null
+deleted_by: d51ad8e2-94f9-4e91-82dc-072431e15d67
+created_at: '2025-11-21T23:07:55.178Z'
+updated_at: '2025-11-21T23:07:55.178Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 4f9bde0e-7ae3-4710-ad7b-888ac2f37c03
+  - 73c753da-011e-431a-97be-9dd2380ba6a9
+  - 8833e59a-d86c-46ff-a1d3-83b8611ecd6f
+secondary_material_types: []
+opentag_uuid: 112294bc-9c88-5377-832b-a648c1f5d0f0

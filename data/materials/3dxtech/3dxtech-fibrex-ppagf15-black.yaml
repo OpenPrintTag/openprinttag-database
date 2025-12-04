@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1f8debf3b829.png
+    type: gallery
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 71837064-c81b-4d03-b77c-f2a32db601b5
+slug: fibrex-ppagf15-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FibreX PPA+GF15 Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  FibreX PPA+GF15 is a glass fiber reinforced polyphthalamide (PPA) with exceptional thermal, mechanical, and chemical resistance. PPA's are a special type of high temperature nylon (HTN) - semi-aromatic polyamides - whose molecular structure imparts significantly higher properties than aliphatic polyamides such as PA6, PA66, PA11, and PA12, which are normally used in 3D printing. PPA's have significantly higher glass transition temperatures (Tg's), melt temperatures (Tm's) and heat deflection temperatures (HDT's) when compared to typical aliphatic nylons such as PA6 or PA12. The chemical structure of PPA reduces the amount of moisture that is absorbed as well as the rate at which it is absorbed - resulting in a stiffer printed part once exposed to environmental or end-use conditions.
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/1f8debf3b829.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:39.565Z'
+updated_at: '2025-03-25T22:31:39.565Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e74ef038-91c8-4428-a40b-c9438217ea22
+colors:
+  - 1096
+packages:
+  - 44b7c437-a7ae-4e3b-aebc-65959d024cdf
+  - ffd0dfad-c401-4288-8434-320c2db3eb70
+secondary_material_types: []
+opentag_uuid: 61ceddd6-2071-54b9-9ed3-b8ef34d6a417

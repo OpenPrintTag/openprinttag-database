@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c9c2ad1872fc.png
+    type: gallery
+uuid: c051cd1b-9475-406c-9dfa-e39db6d0bac4
+slug: support-for-abs-white
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Support for ABS White
+abbreviation: BambuSupport
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Product Features
+
+      Easy Support Removal
+      Superior Support Interface Quality
+      Comes with High Temperature Reusable Spool
+      Diameter: 1.75 mm +/- 0.05mm
+
+
+  Cautions for Use
+
+      ONLY used for support
+      Optional to Dry before Use
+      Enclosure Printers Required
+      AMS Compatible
+      AMS lite NOT Compatible
+
+   
+  Note: Before printing, please kindly refer to the Printing Tips for optimal results.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c9c2ad1872fc.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:01.810Z'
+updated_at: '2025-03-25T22:36:01.810Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: null
+colors:
+  - 4584
+packages:
+  - aecfc2f7-1a45-458d-a467-d54dcf1267f4
+secondary_material_types: []
+opentag_uuid: 80b8d6c0-197a-511f-ab00-12b24cf8ed4d

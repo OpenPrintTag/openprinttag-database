@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8fa6fd8bd6c9.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 69f9df8d-b140-4a04-a9bf-8be998591642
+slug: abs-gold-metallic
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Gold Metallic
+abbreviation: null
+url: null
+primary_color: b55e8cff-4470-43e3-aba9-fba478cebe1c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  The benefits of ABS include:
+
+      Higher strength and flexibility compared to PLA
+      Higher temperature resistance over PLA
+      Machinability allows for end-use parts 
+      Finished parts can be vapor smoothed with acetone
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/8fa6fd8bd6c9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T08:54:25.612Z'
+updated_at: '2025-04-30T08:54:25.612Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7309
+packages:
+  - 7aa51583-e20e-4dd8-a3cd-3d799756d5e6
+secondary_material_types: []
+opentag_uuid: 21cd6c51-5df0-524c-bdb6-60855b64acd4

@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bfb492bf0b84.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: df818fea-3fc0-4d99-b5a1-b637e78fb0cc
+slug: glace-natural
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: GLACE Natural
+abbreviation: null
+url: null
+primary_color: f18f67d7-0690-4497-afaf-11c6695f7c32
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Thermoplastic polymer with mechanical properties superior to ABS and PLA, good impact resistance and high flexibility. Without warping so large parts can be manufactured with excellent quality. In addition, it can be chemically polished with alcohol in such a way that pieces with high transparency and a completely smooth finish can be manufactured.
+
+  It is a filament to which alcohol can be applied and thus achieve different effects. Completely transparent pieces can be manufactured or surface polished to remove rough surfaces and thus achieve a pearlescent effect.
+
+  In addition, due to the fusion between layers, the piece increases its structural strength, forming a continuous solid and achieving high tightness.
+thumbnail_url: https://file.myfilamentlist.com/f/new/bfb492bf0b84.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T16:51:37.626Z'
+updated_at: '2025-03-29T16:51:37.626Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: 51cf087e-03a1-4dab-8df0-59216550a74d
+colors:
+  - 4983
+packages:
+  - b5a01412-1802-48af-b1e5-917ec50e1359
+  - bcfecf0e-b9f5-42b0-a9a9-f418fac9cde4
+secondary_material_types: []
+opentag_uuid: 85762025-7740-5788-8078-0b9a3fac2b11

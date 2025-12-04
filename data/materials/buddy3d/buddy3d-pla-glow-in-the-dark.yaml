@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6e09a91a-d143-4eee-bb49-e03d928fc334
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: a1a285b9-4966-4643-b072-dd8967f0090d
+  sla_material_properties: null
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - 5019134c-2526-4924-9b7c-349278e205eb
+  - 70f1f0e7-07fc-4829-9749-c942d7e2042a
+uuid: 1f0fe6b4-eded-4cb7-a44e-287ce9a1b9a9
+slug: pla-glow-in-the-dark
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Glow in the dark
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-pla-glow-in-the-dark-1kg/
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 91783ae6-0a61-407e-98aa-dd167985a545
+created_at: '2025-09-23T22:02:06.161Z'
+updated_at: '2025-09-23T22:02:06.161Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 8932
+  - 8933
+packages:
+  - e5041ca9-ecae-4ee7-8b53-19cefe1b3930
+secondary_material_types: []
+opentag_uuid: 41233bb9-ff40-5375-88ee-f5c59bd57eb4

@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: be265f1e-cd19-4931-b440-9972fc01723c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: e9656d2c-02c9-4e9e-8a30-0fc8e96a7a4e
+slug: pla-cerulean-blue
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Cerulean Blue
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-cerulean-blue.html
+primary_color: 738c6069-7a7a-40ed-8ce2-4145cfecd4d6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/e9656d2c-02c9-4e9e-8a30-0fc8e96a7a4e.png
+deleted_at: null
+deleted_by: 36f21ad3-1007-4dad-9972-9928eb9a4921
+created_at: '2025-11-11T12:08:42.939Z'
+updated_at: '2025-11-11T12:08:42.939Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 36476d21-24be-4d9c-b66a-060616e0827b
+  - 728d8ebc-3ece-43b5-b8da-c909b1053592
+  - 8a13e376-94c3-46a6-8e5b-d0bca4fad813
+  - 8ba2732d-f077-4e07-bd78-d8c31bd49e9c
+  - e75f748d-42ee-4117-974d-5a589496b594
+secondary_material_types: []
+opentag_uuid: bcf0194d-7e8e-5591-94f0-0813391e9411

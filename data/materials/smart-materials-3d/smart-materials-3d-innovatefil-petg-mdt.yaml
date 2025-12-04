@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/41d3bdda11c8.png
+    type: gallery
+tags:
+  - ce4c37f3-37fd-4771-beca-f7312ddf8dab
+uuid: 7e55a6b1-5c5f-4583-9c49-722c4f1041e7
+slug: innovatefil-petg-mdt
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: INNOVATEFIL® PETG MDT
+abbreviation: null
+url: null
+primary_color: 4cca5d96-6b68-4b57-a354-4aaaffea45b6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Is a filament for 3D printing designed to be detected by any type of auto switch, even when the material is present in very small particles
+
+  This property makes it especially suitable for the food industry, where the absence of contaminants of any origin is essential. It is also recommeded for the manufactaring of sensors, smart packagings, etc. In addition, this filament possess a high dimensional stability. It can be in contact with food and resistant to moisture, fungi and mold.
+
+  Unlike the filaments existing on the market reinforced with ferromagnetic powders, PETG MDT is detectable by magnetic sensors. It does not contain carbon fibers, graphite and carbon black.
+
+  For this reason, PETG Magneto Detectable does not release powders or particles during printing that are difficult to identify and, therefore, are able to disperse in the working atmosphere and contaminate the process or the finished products.
+
+  It is very easy to print, as it has very low shrinkage and requires no warm bed.
+
+  We recommend cleaning the extruder with CLEAN after printing with this material
+thumbnail_url: https://file.myfilamentlist.com/f/new/41d3bdda11c8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T18:50:48.157Z'
+updated_at: '2025-03-29T18:50:48.157Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 4988
+packages:
+  - 9623ef2e-e6e8-4ced-9dc7-d5b0f1e12812
+  - f422aa2b-2a3c-4b5b-91cd-3a83e541d414
+secondary_material_types: []
+opentag_uuid: 2ae5f7bd-e9d3-52ae-8d1c-bf014d2b8759

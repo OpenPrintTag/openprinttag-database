@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a50f43e7-68b1-4737-9f2b-4e520ea1bf80
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 78145f92-3a81-4316-979d-701b1a0f7150
+slug: fast-prints-pla-black
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FAST PRINTS PLA Black
+abbreviation: null
+url: https://www.eumakers.com/fast-prints-pla-filament-color-black.html
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing FAST PRINTS PLA filament color Black.
+  Speed up your prints up to 300 mm/s with FAST PLA filament.
+  High resolution...in less time!
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/78145f92-3a81-4316-979d-701b1a0f7150.png
+deleted_at: null
+deleted_by: bfd5ad62-94f6-47e0-b1e6-98eb49c5eb55
+created_at: '2025-11-12T10:56:50.522Z'
+updated_at: '2025-11-12T10:56:50.522Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 2d8bd752-ca7a-4ee2-8b14-701d17be17bf
+  - f53da7ef-f626-4c63-bb80-2eea74eceab5
+secondary_material_types: []
+opentag_uuid: d79663b5-9e4c-572d-8819-bf53de6cc8fc

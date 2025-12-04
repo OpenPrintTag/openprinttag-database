@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9df45677-8e83-40c7-99c1-422f73a246d1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f8c77dca-e069-4c88-b9c2-04737b711cc0
+slug: pla-plus-window-grey
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Window Grey
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110011-pla-plus-window-grey-1-kg-4586?category=59#attr=689,2884,690,691,3526,2886,2887,2888,692
+primary_color: eaf3d580-c9d1-4c60-89c1-3937e65d19ef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Window Grey is a sophisticated and versatile filament designed for projects that require a neutral, modern aesthetic with enhanced durability. Inspired by sleek architectural elements and industrial design, this filament provides a refined grey tone that complements professional prototypes, technical models, and artistic creations. With the superior mechanical properties of PLA Plus, Window Grey offers reliable strength and consistency for high-precision prints.
+
+  Key Benefits
+
+
+      Modern, Neutral Grey: The sleek, window-grey shade provides a professional and contemporary look, ideal for design models, industrial parts, and architectural prototypes.
+       Enhanced Strength & Durability: PLA Plus offers improved impact resistance and toughness compared to standard PLA, making it a dependable choice for functional parts and everyday use.
+      Effortless Printing: Excellent bed adhesion, minimal warping, and broad compatibility with most 3D printers ensure smooth and reliable printing for users of all skill levels.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable 3D printing without sacrificing quality or performance.
+
+
+  Applications
+
+
+      Architectural & Engineering Models: Print detailed building prototypes, scale models, or industrial design concepts with a clean and modern grey finish.
+      Functional Prototypes & Mechanical Parts: Ideal for casings, brackets, and test components where durability and professional aesthetics matter.
+      Home & Office Accessories: Create storage solutions, desk organizers, and decorative elements that seamlessly blend with contemporary interiors.
+      Automotive & Technical Components: Suitable for printing dashboard elements, mounts, or structural supports requiring a sleek, refined appearance.
+      Artistic & Minimalist Designs: Perfect for sculptures, modern decor, or creative projects that benefit from a neutral yet stylish color.
+
+
+  Ideal For
+
+
+      Projects requiring a neutral, professional aesthetic with high precision.
+      Functional prototypes and industrial components demanding durability.
+      Designers and architects looking for a refined, modern grey finish.
+      Eco-conscious creators who prioritize sustainability without compromising performance.
+
+
+  PLA Plus Window Grey is the perfect filament for achieving clean, professional-looking prints with excellent strength and reliability. Whether for technical applications, design prototypes, or artistic creations, this filament ensures a polished and sophisticated result.
+thumbnail_url: https://file.myfilamentlist.com/new/f8c77dca-e069-4c88-b9c2-04737b711cc0.png
+deleted_at: null
+deleted_by: d2eda85e-c60f-40e8-8f3f-b7b852b8657c
+created_at: '2025-12-01T10:05:11.727Z'
+updated_at: '2025-12-01T10:05:11.727Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 6fe05213-21d5-4ec5-881f-8629ef9bd1ad
+secondary_material_types: []
+opentag_uuid: ca74983f-f17a-5eee-a243-0a83e5e41907

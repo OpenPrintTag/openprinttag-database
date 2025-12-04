@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bd3afc52-d320-444f-ba93-b0e942919e06
+  hardness_shore_a: null
+  hardness_shore_d: 79
+  fff_material_properties: 4f1c2eb8-2272-43e7-9195-1d09636e66e7
+  sla_material_properties: null
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: null
+  heatbreak_temperature: null
+  min_chamber_temperature: null
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+certifications:
+  - 1
+uuid: 8ce71568-2d7b-4c7e-b3ef-0ffb8b422daa
+slug: petg-v0-natural
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG V0 Natural
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-petg-v0-natural-1kg/
+primary_color: 12987aad-0d28-48a1-be44-43ff0280e1d2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '10.40'
+refractive_index: null
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Prusament PETG V0 is the one-in-the-world UL-certified self-extinguishing PETG filament. Similar to the regular Prusament PETG, it is a tough material with good thermal resistance. Its use is universal but it is especially suitable for housings and insulating parts in electronics, due to its self-extinguishing properties.
+
+  PETG V0 is a unique UL-certified self-extinguishing PETG filament. Similar to the regular Prusament PETG, it is a tough material with good thermal resistance. It has universal use, but is especially suitable for housings and insulating parts in electronics, due to its self-extinguishing properties.
+
+  PETG V0 is not prone to warping, so printing large objects isn’t a problem. When our Prusament PETG V0 starts burning, it creates a carbonized crust on the surface that prevents the oxygen from getting in and fueling the flame and eventually extinguishes the fire.
+
+  We asked the UL to test the flammability of the Prusament PETG V0. The test method was made according to the IEC 60695-11-10 standard and resulted in a class UL94 V0 (for both our colors).
+thumbnail_url: null
+deleted_at: null
+deleted_by: 3056f6c7-10c5-4a8c-b2b9-8c5043adb01e
+created_at: '2025-09-24T12:55:20.537Z'
+updated_at: '2025-09-24T12:55:20.537Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 8959
+packages:
+  - 02b9bd45-43e5-4218-9cc0-775889f8b5aa
+  - 9de02e7d-8200-4c5c-8cbc-47b4ee27d1a4
+secondary_material_types: []
+opentag_uuid: 11181d77-a6fa-59dc-81a4-21e31d8106e3

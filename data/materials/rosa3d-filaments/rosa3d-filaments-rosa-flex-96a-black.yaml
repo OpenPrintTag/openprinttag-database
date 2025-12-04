@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d2524d94-e895-4e31-9ea5-51f9163b64db
+  hardness_shore_a: 96
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b9afa05c-15a1-4553-b8e3-0077e2b03000
+slug: rosa-flex-96a-black
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA-Flex 96A Black
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-black
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  The 3D Filament ROSA-Flex 96A Black is a high-quality flexible material, ideal for creating durable and elastic 3D prints. Made from thermoplastic polyurethane (TPU), it offers a hardness level of 96A on the Shore scale, ensuring an optimal balance between flexibility and durability.
+
+  Thanks to its exceptional resistance to abrasion, chemicals, and oils, ROSA-Flex 96A is suitable for demanding applications such as gaskets, cushioning components, protective housings, or functional prototypes. Its high flexibility makes it an excellent choice for printing elastic elements that need to withstand mechanical stress and retain their properties in challenging conditions. The filament is compatible with most 3D printers supporting TPU materials; however, it is important to note that it is not compatible with the AMS system of Bambu Lab printers. This allows users seeking a reliable and versatile material to make an informed choice for their equipment.
+thumbnail_url: https://file.myfilamentlist.com/new/b9afa05c-15a1-4553-b8e3-0077e2b03000.png
+deleted_at: null
+deleted_by: aa6325e7-bd2b-4c78-8e7f-22e48e63ab3f
+created_at: '2025-11-18T10:31:52.950Z'
+updated_at: '2025-11-18T10:31:52.950Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 52999e09-8869-49b9-af84-3beea29fd7e9
+  - 83e79459-5d68-4062-a19a-329430e930ee
+secondary_material_types: []
+opentag_uuid: 0908f7ed-4436-5271-8842-0c9e1c2ea355

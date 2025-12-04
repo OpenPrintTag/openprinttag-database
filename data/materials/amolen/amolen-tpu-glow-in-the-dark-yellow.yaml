@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.20000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5e9aad3f-bd86-4137-b7f1-3832b19c2334
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/46a30690-ab47-43c9-b71b-eeb37d598d37/6180d105f425.png
+    type: gallery
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 46a30690-ab47-43c9-b71b-eeb37d598d37
+slug: tpu-glow-in-the-dark-yellow
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Glow-in-the-Dark Yellow
+abbreviation: null
+url: null
+primary_color: 7abd308a-476d-4eb2-ae90-5ef22c4db37b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Luminous Glow TPU for Unique and Radiant 3D Prints
+
+  Transform your 3D prints with the vibrant illumination of TPU Glow-in-the-Dark Filament. Designed for creative enthusiasts and professionals alike, this filament combines exceptional quality with a glowing finish that truly stands out.
+thumbnail_url: https://file.myfilamentlist.com/f/46a30690-ab47-43c9-b71b-eeb37d598d37/6180d105f425.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:23.373Z'
+updated_at: '2025-04-03T23:01:14.861Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6706
+packages:
+  - 03a16119-1d87-4d22-870e-9fbf4c6f7f3b
+secondary_material_types: []
+opentag_uuid: ce58939b-c961-574e-a01e-3859f97232b7

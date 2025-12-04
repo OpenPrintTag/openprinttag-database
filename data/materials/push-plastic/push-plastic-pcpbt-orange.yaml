@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2ad1ffba684e.png
+    type: gallery
+uuid: aae573a0-5882-4f6a-8ee9-6d3789d9603f
+slug: pcpbt-orange
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC+PBT Orange
+abbreviation: null
+url: null
+primary_color: 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PC+PBT (Polycarbonate + Polybutylene Terephthalate) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Superior stiffness/ductility balance
+      Great structural integrity and drop impact performance
+      Excellent fatigue performance
+      High chemical resistance to motor oil and grease
+thumbnail_url: https://file.myfilamentlist.com/f/new/2ad1ffba684e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T11:40:32.686Z'
+updated_at: '2025-04-30T11:40:32.686Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: d5068a37-16d3-48d9-9b16-c536d00add2e
+colors:
+  - 7351
+packages:
+  - 0947c9d5-77bb-4382-844d-a178d70f75df
+  - 16e19bbe-a4e9-48cd-83fd-4839cbbf18c0
+  - 485284b9-9d3a-41a6-bbd9-2d0f1ae28420
+  - b4343c0d-f84c-4129-bc72-70ebb0f8f98e
+  - ba72038f-4d82-445e-9808-03bc2213c394
+  - c2898d3d-73ff-4953-8f97-20ade70941db
+secondary_material_types: []
+opentag_uuid: c8cfa619-a1d9-5e18-96e1-5319e9b319b4

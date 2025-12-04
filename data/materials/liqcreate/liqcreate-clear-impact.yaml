@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.12000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 85c97f9d-a4d6-44a0-9f07-4931ff13c199
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 12b1ac06-d7a8-4bdf-a2a2-0ef91e64d850
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: a7d7f267-58d0-4325-8e9e-f32c4c114e05
+slug: clear-impact
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Clear Impact
+abbreviation: null
+url: https://www.liqcreate.com/product/clear-impact/
+primary_color: bdfab626-c8d0-4742-9590-ae8a821a7e47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Liqcreate Clear Impact is an optically clear photopolymer resin for SLA, DLP and MSLA technologies in the range of 385 – 405nm. Parts created with Liqcreate Clear Impact are perfectly transparent after post-processing, slightly flexible and have an excellent impact resistance.
+
+  The high toughness of this clear resin makes it ideal for the production of clear and transparent functional parts which are repeatedly exposed to stress. Low water absorption, weather resistance and low yellowing properties, makes it perfect for outdoor and display applications
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0fc4d8c0-020e-417d-8297-1d569f025766
+created_at: '2025-10-06T08:41:51.321Z'
+updated_at: '2025-10-06T08:41:51.321Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9519
+packages:
+  - 114867f3-beb6-4e5b-8252-61a60a0c3c17
+  - 8b82c41d-76ca-4b03-95af-8b444ee5eb79
+secondary_material_types: []
+opentag_uuid: 477ac9bf-9ab0-5f98-9dd3-b636e763b961

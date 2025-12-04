@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.26000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a930000b-1e64-445f-a307-4db5048cfc74
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: 92bb22a7-4c80-4468-9e82-71bef8f6f44f
+slug: pet-g-fr-v0-black
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PET-G FR V0 Black
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-fr-v0/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Flame-resistant, halogen-free PET-G for 3D printing
+
+  Spectrum PET-G FR V0 is a new halogen-free, flame-resistant 3D printing material based on the ever-popular PET-G. The filament is designed according to UL 94 V0* flammability rating requirements, meaning that the vertical burning of the filament or printed part does not exceed 10 seconds. Most typical plastics have poor flame resistance, which is why the Spectrum PET-G FR V0 filament was developed with flame-resistant or self-extinguishing properties to provide a high level of safety in everyday or working environments. The applied modifications do not affect the printability of the filament, which helps maintain the classic properties of PET-G, i.e. simplicity and efficiency of printing, with very low shrinkage and relatively high tensile strength.
+
+  *The filament is not certified by Underwriters Laboratories and does not have a UL number.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 08c62c25-a5f9-46fb-b41a-65201ab997ce
+created_at: '2025-10-13T16:51:44.735Z'
+updated_at: '2025-10-13T16:51:44.735Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 8cbd4c6d-834c-5b6a-8bb6-119a93698c1f

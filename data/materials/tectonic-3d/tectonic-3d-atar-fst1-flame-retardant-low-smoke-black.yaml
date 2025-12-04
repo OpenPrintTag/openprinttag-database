@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: df5afa2f-6c2d-4994-a749-fd08202945bf
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 59377502-a537-44e5-a394-61969dba22ed
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: 70957f71-9fc9-4be1-8229-64ac0718621b
+slug: atar-fst1-flame-retardant-low-smoke-black
+brand_slug: tectonic-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ATAR FST1 Flame Retardant & Low Smoke Black
+abbreviation: null
+url: https://www.tectonic-3d.com/products/tennet-atar-fst1-1?variant=48897081147722
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: 'ATAR FST1 is a brominated, chlorinated FREE flame-retardant (UL94 flame rating of V0 at 1.5mm) performance grade. Enhanced resistance to melting & dripping. Heat stabilized and impact modified. Complies with EN45545-2 R22 R23 HL1/2 on 1,6mm and NFPA 130 (ASTM E162, ASTM E622 passed). Base material meets the requirements of FAR 25.853. Very low density compared to a PA6/66 20% glass fiber. '
+thumbnail_url: null
+deleted_at: null
+deleted_by: e43e845e-8150-471f-b48b-c036cce75725
+created_at: '2025-10-19T10:19:38.084Z'
+updated_at: '2025-10-19T10:19:38.084Z'
+brand: a165f4a4-5c7e-4c3f-bf1c-2b5619803c44
+type: 66738a5e-d08c-41ee-b21a-2b8e75ffd39f
+colors: []
+packages:
+  - 716ef4d1-8154-4e7f-becb-9119a3728411
+secondary_material_types: []
+opentag_uuid: 8e45ca0b-f7e1-5c0c-9438-dc27c2d3df90

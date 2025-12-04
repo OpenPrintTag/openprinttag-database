@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e3453eb974d3.png
+    type: gallery
+uuid: b126581b-a558-49a0-ae3b-1dd0c7f1bbea
+slug: polylite-petg-polymaker-teal
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PETG Polymaker Teal
+abbreviation: null
+url: null
+primary_color: 424c6c1d-f5cd-4698-a4d5-cab621481a3a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PETG is an affordable PETG filament with balanced mechanical properties and ease of printing.
+
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e3453eb974d3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:40.007Z'
+updated_at: '2025-03-25T22:34:40.007Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3296
+packages:
+  - 1458bbf5-6e90-4a45-af99-3057f6ce3c86
+  - 1f016650-7050-481c-8d6f-b5c470de0a79
+  - b335c8db-ab9d-4879-92e7-c96a42a6c47f
+  - c8309a8e-257a-42b6-b14f-15cb09345f66
+  - e7a94327-29d6-4d8c-b05a-00bf48dfa344
+  - f24d4801-4d19-40f3-9e1a-e9a2a8261d43
+secondary_material_types: []
+opentag_uuid: 1f41fee4-82ef-5552-b3ba-d74a7f221ea9

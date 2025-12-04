@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/fdcbd97b311c.png
+    type: gallery
+uuid: 45877036-2728-47d6-aa49-d8d9c63a802a
+slug: pro-pctg-brightest-white
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Brightest White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/fdcbd97b311c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:58.191Z'
+updated_at: '2025-03-25T22:34:58.191Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3781
+packages:
+  - 92ff84a2-ec2d-48c3-ac88-ed40aed52968
+  - 9e2cc15b-4d8b-4a6a-bdb7-da417f50f6b1
+secondary_material_types: []
+opentag_uuid: 0da10c86-3ace-5fea-8884-61e5e9682faf

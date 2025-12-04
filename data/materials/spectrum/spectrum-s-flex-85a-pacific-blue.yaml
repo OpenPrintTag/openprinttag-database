@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1c240a15-538e-45c4-804e-fe1fa02eb945
+  hardness_shore_a: 85
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f9386152-702e-4589-8dac-246730cb703a
+slug: s-flex-85a-pacific-blue
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: S-Flex 85A™ Pacific Blue
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-85a/
+primary_color: 9ff71ced-a991-4871-802b-5d6e03ebbbdb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Flexibility with excellent impact resistance and thermal insulation
+
+  Spectrum S-Flex 85A is a thermoplastic polyether polyurethane-based filament. In the context of additive manufacturing, S-Flex 85A is a material characterized by a relatively easy and error-free 3D printing process. An additional advantage that enables perfect printing is the excellent adhesion of the first layer of the printed part to the workspace, regardless of whether it is made of glass, steel, plastic or other material.
+
+  The low processing shrinkage and high flexibility significantly reduce the risk of so-called edge curling of produced parts. The distinguishing feature of the 85A filament name refers to the hardness of the material on the Shore scale and classifies Spectrum S-Flex 85A in the category of hard elastomers. This property, from the perspective of the 3D printing process, reduces the risk of filament deformation in the insertion system that brings the material to the print head. This allows for slightly faster printing than other more compact elastomers.
+
+  Parts made with Spectrum S-Flex 85A feature very high resistance to hydrolysis (a type of degradation caused by the presence of water), good recyclability, and excellent resistance to dynamic forces. Thanks to these properties, it is possible to 3D print parts that protect surfaces exposed to impacts (bumpers, sharp edge protectors), sealing and protective elements with high chemical resistance, as well as thermal insulators.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0dc266c0-b98d-48d2-bba1-2c19ac20f939
+created_at: '2025-10-17T09:14:22.462Z'
+updated_at: '2025-10-17T09:14:22.462Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: null
+colors: []
+packages:
+  - 1c63d84d-d104-4a98-a33b-8e75597080cf
+secondary_material_types: []
+opentag_uuid: 3a75c8c5-e13a-516b-8cd9-030ec122ce00

@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11400'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2eab596a-7db6-4758-b4e5-32345085c524
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2f1cf85c-229e-4116-ba95-d308036dd508
+slug: flex-anatomic-red
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Flex Anatomic Red
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-flex-anatomic-red-1kg/
+primary_color: edca0f67-3497-442b-8a6f-0b305cc1ee54
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Flex Anatomic Red is a high-quality resin developed for the printing of flexible soft tissue models. It offers flexibility and natural-looking color, exceptionally short exposure times, high resolution, low shrinkage, low viscosity and perfect platform adhesion coupled with high printing performance and reliability. These properties make the resin the perfect choice for printing anatomical models for education or surgery practice and planning tools.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 685af1c5-e394-488a-9e6e-98bfb2388506
+created_at: '2025-10-03T13:09:00.779Z'
+updated_at: '2025-10-03T13:09:00.779Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9468
+packages:
+  - 944373a5-dc28-4945-b5e7-08880362b4a0
+secondary_material_types: []
+opentag_uuid: 07681449-267e-5188-a823-1d6ca5fafdd2

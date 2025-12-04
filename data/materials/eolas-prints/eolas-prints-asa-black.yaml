@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 191bc175-e428-4d95-80c9-0bb237e3f261
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 1b055907-59eb-47a0-b8ee-c1eff2bc1065
+slug: asa-black-3
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Black
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/asa-filament?variant=49109314175303
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ASA Filament represents a breakthrough in professional-grade 3D printing filament, meticulously engineered to deliver exceptional performance in challenging environmental conditions. The material's advanced composition provides superior technological capabilities that distinguish it from conventional filament options.
+thumbnail_url: https://file.myfilamentlist.com/new/1b055907-59eb-47a0-b8ee-c1eff2bc1065.png
+deleted_at: null
+deleted_by: c29f3bf4-a5e5-47c0-8d6a-236fca4497bc
+created_at: '2025-11-11T11:37:00.128Z'
+updated_at: '2025-11-11T11:37:00.128Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 39f1bc63-81b8-4491-9aec-c33e4532b953
+  - 61664c3d-51ad-4aa4-896f-1f75371911e5
+  - 622cd624-8768-4b17-8dfd-ac1611617f64
+  - c77c8f10-93ba-4bf1-a6de-f6fc1fcec8a2
+  - ea54fe2f-553b-4c90-8f01-48b0057fd506
+  - f5edda38-64b2-4190-a406-78b02bef32c9
+secondary_material_types: []
+opentag_uuid: bc29c3b3-99b8-59fc-827f-e6104aa74e94

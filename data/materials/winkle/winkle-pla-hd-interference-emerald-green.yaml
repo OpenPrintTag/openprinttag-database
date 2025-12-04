@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6d8b7903-a66f-4a55-ab1d-7bf0e4761419
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f3d28d4c-150c-4b1f-9a48-6b8c99f9b4d1
+slug: pla-hd-interference-emerald-green
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Interference Emerald Green
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-interferencia-winkle-175-mm-1-kg-verde-esmeralda/
+primary_color: 75697ff5-7602-4d0e-96c5-79adf7e92aa5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Introducing PLA HD Interference Filament, offering uniform metallic visual effects.
+  This 1.75 mm Winkle PLA Filament is the ideal choice for 3D printing enthusiasts who value both aesthetics and technical performance.
+  Available in 300 g, 1 kg, and 5 kg formats, this 3D printer filament delivers highly visual and consistent results.
+
+  Applications for PLA HD Interference Filament:
+  Perfect for 3D prototypes, decorative pieces, functional elements, detailed figures, and components with high-impact visual finishes.
+  Compatible with any FDM printer that uses 1.75 mm PLA filament, this filament provides a smooth printing experience, clog-free operation, and excellent layer-to-layer adhesion.
+thumbnail_url: https://file.myfilamentlist.com/new/f3d28d4c-150c-4b1f-9a48-6b8c99f9b4d1.png
+deleted_at: null
+deleted_by: 2b8177db-d36d-4965-942f-fb9917647bd4
+created_at: '2025-11-21T12:35:54.700Z'
+updated_at: '2025-11-21T12:35:54.700Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 7314a3ac-b2e6-4389-abaf-87fede1e3c34
+  - 87b99968-3a62-4669-9c17-97128cd626d3
+secondary_material_types: []
+opentag_uuid: b8b6fe79-b5ff-5d5d-a439-4e04d9e6fbc9

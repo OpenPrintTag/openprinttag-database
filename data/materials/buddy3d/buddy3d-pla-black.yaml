@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6f44a453-f411-4846-87e7-12b12246b20b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: a1a285b9-4966-4643-b072-dd8967f0090d
+  sla_material_properties: null
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 4632ed24-6c6b-45f4-bcb2-242e9cfb89af
+slug: pla-black-15
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Black
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-pla-black-1kg/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 388eb1f6-bd1c-4de3-beef-5044377fd75e
+created_at: '2025-09-23T18:14:35.866Z'
+updated_at: '2025-09-23T18:14:35.866Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 8935
+packages:
+  - 8ce2240a-97a9-4e11-b7b8-6dbd15385dce
+  - b2be5fb1-00c5-4761-be98-81e0257facb1
+secondary_material_types: []
+opentag_uuid: d62244df-c68c-5f78-833a-01933b80e280

@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/801a79742440.png
+    type: gallery
+uuid: 473acd02-fd60-498e-afc5-8309da61b343
+slug: max-g-petg-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: MAX-G PETG Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  MAX-G PETG is a durable material that has excellent strength while remaining flexible. The base resin used in our PETG filament is FDA approved and has improved chemical resistance compared to PLA or ABS. It is suitable for cleaning with isopropyl alcohol as needed!
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/801a79742440.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:20.839Z'
+updated_at: '2025-03-25T22:32:20.839Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1346
+packages:
+  - 75351614-6e6d-43ce-83ec-896b4b68b0d8
+  - 7f068973-b0cc-4721-8d42-5e30448dcb2d
+  - c3c01d93-aa08-4d99-90d0-c27bbbbfe600
+  - ef25be1b-97ae-46f7-8ad3-1ea02477ecbe
+secondary_material_types: []
+opentag_uuid: 29d05a8f-e035-56d2-b09e-e5ed963f4aef

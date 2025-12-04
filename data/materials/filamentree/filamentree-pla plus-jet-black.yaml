@@ -1,0 +1,98 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b02a87e0-0be9-44d0-af47-70e633bb436c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 6856ff62-d5ae-48b3-89c1-1c5f558df804
+slug: pla-plus-jet-black
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Jet Black
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/filament-pla-plus-jet-black-4587?category=59#attr=697,2818,698,699,3501,2820,2821,2822,700
+primary_color: 9926c9ca-7cee-428a-a704-3295c84f22ad
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Jet Black is a premium 3D printing filament known for its excellent mechanical properties and outstanding printing performance. Its deep, rich black color provides a sleek, professional look, making it an ideal choice for creating detailed models, prototypes, and high-contrast decorative elements.
+
+
+  Key Benefits
+
+
+      Enhanced Strength and Durability : PLA Plus Jet Black is an advanced version of standard PLA (Polylactic Acid), offering superior strength and durability. It is perfect for producing functional prototypes that need to withstand moderate mechanical stress. The improved formulation ensures strong and stable prints that maintain their quality over time.
+      Sleek Aesthetic and High Detail : The deep jet-black color enhances print contrast and detail, giving designs a bold and professional finish. Whether you’re printing technical parts, figurines, or high-end decorative pieces, this filament provides a smooth surface with an elegant matte or glossy finish, depending on the printing settings.
+      Easy Printing and Versatility : PLA Plus is widely known for its user-friendly nature, making it suitable for a broad range of 3D printers and applications. It does not require a heated chamber and prints with minimal warping, ensuring consistent results without the need for support structures.
+      Eco-Friendly and Sustainable : Made from biodegradable materials, PLA Plus Jet Black is an environmentally responsible choice. It is ideal for projects that emphasize sustainability while maintaining high-quality performance.
+
+  Applications
+
+
+  • Functional Prototypes : Suitable for creating durable and precise mechanical parts such as brackets, gears, and casings.
+
+  • Decorative and Display Models : Excellent for printing sleek, high-detail sculptures, presentation models, and display pieces.
+
+  • Architectural Models : Great for producing complex, high-contrast architectural elements with sharp details.
+
+  • Art and Design Projects : Ideal for artists and designers working on intricate figurines, fashion accessories, or modern decor.
+
+  • Eco-Friendly Products : A sustainable choice for environmentally conscious projects requiring a premium black finish.
+
+  Printing Tips
+
+
+      Temperature : Print within the recommended temperature range for optimal extrusion and smooth layer adhesion.
+      Heated Bed : Using a heated bed improves first-layer adhesion and minimizes warping.
+      Print Speed : Maintain a moderate speed to preserve fine details and avoid under-extrusion.
+      Cooling : Enable cooling fans to enhance surface quality and avoid overheating effects.
+      Storage : Keep the filament in a cool, dry place to prevent moisture absorption and maintain print consistency.
+
+
+  Ideal For
+
+
+       Printing high-contrast models and visually striking designs
+      Manufacturing functional prototypes and durable components
+      Creating professional-grade decorative and artistic prints
+      Eco-friendly projects with a focus on sustainability
+
+
+  PLA Plus Jet Black is the perfect choice for those seeking a filament that delivers high precision, sleek aesthetics, and reliable durability, making every print stand out with a bold, professional finish.
+thumbnail_url: https://file.myfilamentlist.com/new/6856ff62-d5ae-48b3-89c1-1c5f558df804.png
+deleted_at: null
+deleted_by: cdfc3f37-6b98-48c2-a323-9520d60e4fb1
+created_at: '2025-12-01T09:17:08.076Z'
+updated_at: '2025-12-01T09:17:08.076Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 05e31b7b-7464-469e-8b57-af9e8550f3f2
+secondary_material_types: []
+opentag_uuid: 751744de-f1d1-5c74-a475-d4569e76fb84

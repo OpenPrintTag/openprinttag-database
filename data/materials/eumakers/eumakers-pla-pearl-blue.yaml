@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e5a865b6-23b5-4fdb-bdb7-dd62c3e9ec10
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - c2135f1d-6241-4a6d-badd-9fa087187eeb
+uuid: a7b36e2e-96c8-4da0-884e-d41b24c0feca
+slug: pla-pearl-blue-3
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pearl Blue
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-pearl-blue.html
+primary_color: 9a9b2d1f-8ab3-4d52-9686-1af0f5c1010c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Pearl Blue.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/a7b36e2e-96c8-4da0-884e-d41b24c0feca.png
+deleted_at: null
+deleted_by: de6af69a-c068-4289-a88f-9ad6f25771dc
+created_at: '2025-11-12T09:56:48.230Z'
+updated_at: '2025-11-12T09:56:48.230Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 9aeb7702-f8b3-4e11-8463-e0858142df06
+secondary_material_types: []
+opentag_uuid: 6db6220f-9b21-51ff-a7eb-d9a239cb6b29

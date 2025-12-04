@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c313722637d5.jpg
+    type: gallery
+uuid: 1897b279-354f-425c-8be9-f16ba365d779
+slug: pc-orange
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PC Orange '
+abbreviation: null
+url: null
+primary_color: 442e51ef-76c7-47e2-ad26-738cb89fe0a5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Heat resistant filament.
+      Can withstand temperatures: 110 degreesC
+      Harder and stronger than ABS filament.
+      Modified filament, not 100% pure PC. (50% PC + 45% PETG + 5% Other Materials).
+      Recommended printing temperature: 255-265 degreesC; Recommended print speed: 30.60 mm/s; Heated bed: 90.105 degreesC.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c313722637d5.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T17:33:26.344Z'
+updated_at: '2025-03-31T17:34:07.722Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 4889
+packages:
+  - 00ddfd4d-ed14-4144-bc0f-31f8f9a0a034
+secondary_material_types: []
+opentag_uuid: f0bf2687-6952-55e0-acd8-d9352b3e7ad5

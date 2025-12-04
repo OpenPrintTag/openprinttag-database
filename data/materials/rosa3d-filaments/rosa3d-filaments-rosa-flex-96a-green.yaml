@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e68b0b59-d619-43a9-be2b-63e1ed8313b4
+  hardness_shore_a: 96
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 70bbc6b9-becc-4e05-a35f-965af4d3e70d
+slug: rosa-flex-96a-green
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA-Flex 96A Green
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-green-175mm-1kg
+primary_color: 755b1456-0cb8-4ff4-9ee9-09d5e2aec53b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  FILAMENT 3D ROSA-Flex 96A Green filament is a thermoplastic polyurethane designed for intermediate users, ideal for learning to print with flexible materials. It is firm enough for Bowden printers, does not require an enclosed chamber, and adheres well to various build surfaces.
+
+  Prints feature excellent adhesion, mechanical damage resistance, and flexibility, allowing repeated compression and stretching without losing their shape. The filament is resistant to vinegar and motor oil and is made from materials approved for food contact.
+thumbnail_url: https://file.myfilamentlist.com/new/70bbc6b9-becc-4e05-a35f-965af4d3e70d.png
+deleted_at: null
+deleted_by: 7c0d666a-9886-4453-a1e7-5443bdb6a0ea
+created_at: '2025-11-18T10:15:12.822Z'
+updated_at: '2025-11-18T10:15:12.822Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 96d857f0-45f9-47ef-adf7-870706abd009
+  - af83912c-8a44-4742-abba-e4423e22983e
+secondary_material_types: []
+opentag_uuid: 4f61ac2e-ade0-59f1-b146-d82ff9213637

@@ -1,0 +1,54 @@
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+uuid: 3e745a03-1454-4d8f-ac15-ff56f75f1c95
+slug: pla-carbonlook
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA CarbonLook
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-pla-carbonlook
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Filament 3D PLA CarbonLook was designed for prints where visual impact is more important than industrial application. It combines PLA with a small amount of carbon fibers, resulting in prints with a satin, glossy finish that effectively hides layer lines.
+
+  The filament is easy to print, with low stringing, excellent layer adhesion, and precise detail reproduction. The abrasive properties of carbon fibers have been minimized to protect brass nozzles. It does not require a heated bed or enclosed chamber and features low shrinkage.
+thumbnail_url: https://file.myfilamentlist.com/new/3e745a03-1454-4d8f-ac15-ff56f75f1c95.png
+deleted_at: null
+deleted_by: 6437edfb-78c3-494c-bd90-fc408a86b952
+created_at: '2025-11-14T10:06:00.558Z'
+updated_at: '2025-11-14T10:06:00.558Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0cd83776-e6af-4371-bcfa-99b7dae9e2bd
+  - 0d58894f-70b9-4959-8d19-4fd46a858ed5
+secondary_material_types: []
+opentag_uuid: f275a8d2-0e4c-5076-9ef3-9b7a2c1b7d10

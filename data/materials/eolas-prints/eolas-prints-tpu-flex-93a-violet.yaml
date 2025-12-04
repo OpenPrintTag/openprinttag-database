@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2e8aaf7e-6aa5-4f5d-be3f-f99037262434
+  hardness_shore_a: 93
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: af55e1f8-4de6-4e13-8c46-671a84148309
+slug: tpu-flex-93a-violet
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flex 93A Violet
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/tpu-filament?variant=42329778946307
+primary_color: d88fe4bf-60a6-469e-bdca-27f9a752f058
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  TPU Flex 93A combines exceptional flexibility with professional-grade durability in a food-safe formulation. This premium thermoplastic polyurethane filament delivers the perfect balance of elasticity and strength, with a carefully calibrated 93A Shore hardness that ensures optimal performance across diverse applications.
+  Technical Specifications
+
+      Material Composition: Medical-grade thermoplastic polyurethane
+      Shore Hardness: 93A (medium-soft flexibility)
+      Available Diameters: 1.75mm and 2.85mm
+      Certifications: Food contact safe
+      Environmental Profile: Recyclable
+thumbnail_url: https://file.myfilamentlist.com/new/af55e1f8-4de6-4e13-8c46-671a84148309.png
+deleted_at: null
+deleted_by: eac4b14e-086c-4ef4-9fe4-d7149325d5ea
+created_at: '2025-11-11T10:24:46.288Z'
+updated_at: '2025-11-11T10:24:46.288Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 057eedc0-84c5-46eb-922e-d08a71f1e494
+  - c2fdd584-d729-41fd-932b-9d7f3ff32447
+secondary_material_types: []
+opentag_uuid: 27fd5632-7a7d-5335-b56e-b52d2c877959

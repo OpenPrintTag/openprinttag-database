@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e5c14283-88db-4aad-98fb-99401d44e41d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: c6ff5dcd-5d30-4746-9935-98f1c7f29518
+slug: pla-plus-grey-beige
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Grey Beige
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110171-pla-plus-grey-beige-1kg-4591?category=59#attr=294,2894,295,296,3503,2896,2897,2898,2899
+primary_color: 3b6839c1-5407-4d34-9755-e2a793551167
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Grey Beige is a refined, neutral-toned filament designed for creators who value versatility and understated elegance. Combining the enhanced durability of PLA Plus with a warm, earthy grey-beige hue, this filament delivers prints that exude sophistication and adaptability. Perfect for minimalist designs, professional prototypes, or décor projects, it bridges the gap between functionality and timeless style.
+
+  Key Benefits:
+
+      Neutral Elegance: The muted grey-beige shade offers a versatile, calming aesthetic, ideal for blending seamlessly into modern interiors, architectural models, or designs requiring a subtle, natural finish.
+      Enhanced Durability: PLA Plus provides superior impact resistance and mechanical strength compared to standard PLA, ensuring long-lasting prints for functional parts or high-traffic applications.
+      Smooth & Reliable Printing: Excellent layer adhesion, minimal warping, and compatibility with most 3D printers guarantee consistent results for beginners and experts.
+      Eco-Friendly Formula: Made from biodegradable, non-toxic materials, supporting sustainable 3D printing practices.
+
+  Applications:
+
+      Home Décor & Furniture: Craft shelves, lamps, or minimalist décor that complements neutral interiors.
+      Architectural & Scale Models: Ideal for realistic building replicas, terrain designs, or urban planning mockups with a natural, earthy tone.
+      Fashion & Accessories: Design jewelry, eyewear frames, or wearable art with a timeless, understated palette.
+      Professional Prototypes: Create ergonomic tool handles, tech housings, or consumer product models requiring a clean, professional appearance.
+      Artistic Sculptures: Perfect for abstract art, figurines, or mixed-media projects where neutral tones enhance organic or modern themes.
+
+  Ideal For:
+
+      Projects demanding a versatile, neutral base for customization or seamless integration into any setting.
+      Functional prints requiring durability and a sophisticated, non-distracting aesthetic.
+      Eco-conscious creators prioritizing sustainability without compromising on quality or style.
+      Architectural, interior design, or fashion-forward applications where subtlety and elegance are key.
+
+  PLA Plus Grey Beige transforms simplicity into strength, offering endless possibilities for innovation. Whether crafting for practicality, artistry, or professional precision, this filament ensures your prints stand out with quiet confidence and enduring quality. 
+thumbnail_url: https://file.myfilamentlist.com/new/c6ff5dcd-5d30-4746-9935-98f1c7f29518.png
+deleted_at: null
+deleted_by: da7a88fb-edcb-440b-960f-d6d268a960c1
+created_at: '2025-12-01T09:18:40.967Z'
+updated_at: '2025-12-01T09:18:40.967Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - d623fded-7032-4f73-a23d-c2305588a9a4
+secondary_material_types: []
+opentag_uuid: 4554fd01-6b9e-50d2-8d59-ad9e69fbe868

@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c56488f8eed1.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e47b7725-3e37-42be-bbe7-931df9c50f5f
+slug: polylite-pla-dark-grey-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PLA Dark Grey Green
+abbreviation: null
+url: null
+primary_color: fc0a519c-5de3-4d7e-9e96-7f1dcc824fa5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c56488f8eed1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:41.860Z'
+updated_at: '2025-03-25T22:34:41.860Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3092
+packages:
+  - 0da1545f-c375-44a1-b9c1-9e80f9494bf9
+  - 32661621-9fdf-479a-bf32-67efc3e2d85d
+  - 7f8a138b-4e3e-4dac-945e-5b61d9867e59
+  - a47df8d5-752e-4e4a-809b-b47caaf88901
+  - cf202beb-3e32-49ff-8a60-ba90bb5130bb
+  - fc24ebce-bb95-4997-b7a1-f8d2db500946
+secondary_material_types: []
+opentag_uuid: a57b6482-c478-50e0-9f55-f70a0e481056

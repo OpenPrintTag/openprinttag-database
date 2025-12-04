@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/357d5db17265.png
+    type: gallery
+uuid: 1fefa869-45b4-44c5-bd19-86e8b77ec36f
+slug: polydissolve-s1-pva
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyDissolve™ S1 (PVA) '
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyDissolve™ S1 is a PVA based water dissolvable support for PLA, TPU, PVB and Nylon based filaments from our portfolio. It is specifically engineered to have a perfect interface with these materials while also displaying good solubility.
+
+
+  -  Printing Requirements
+
+      Filament dryer - PolyDissolve is very hygroscopic.
+      Highly recommended to use a printer with two nozzles - such as an IDEX or Tool Changer. You will have issues with clogging when printing two material types out of a single nozzle. 
+
+  Other than that - no requirements! No enclosure, high temp hotend, or hardened nozzle required. 
+    
+thumbnail_url: https://file.myfilamentlist.com/f/new/357d5db17265.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:31.049Z'
+updated_at: '2025-03-25T22:34:31.049Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+colors:
+  - 3177
+packages:
+  - 415f1dc1-7b94-4770-8bae-6452525943ff
+  - 5cf4b007-eb1c-4b99-8414-969780ec20a5
+secondary_material_types: []
+opentag_uuid: af9f1bfd-5a62-5175-a15a-f3e7a1a2ae58

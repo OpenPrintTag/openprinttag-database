@@ -1,0 +1,76 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/87a981922257.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 7069ab9f-0d9e-4961-b41c-3ac60d645d4e
+slug: absx-neon-orange
+brand_slug: nobufil
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABSx Neon Orange
+abbreviation: null
+url: null
+primary_color: f52c9109-108f-4c4f-9663-0e1a208e9157
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Thanks to special modifications in production of our ABS filament, ABSx 3D material tends to have significantly less warping than filaments made from conventional ABS and has reduced odor formation. This means that processing on printers with an open installation space is also possible.
+
+  The physical properties of Nobufil ABSx include high tensile strength and stiffness. It also has good heat and chemical resistance. Printed parts can then be easily reworked. As a result, this material is particularly suitable for the production of prototypes, models and small series of technical parts.
+
+  - Temperature resistance up to approx. 90degreesC
+
+  - Wide range of colors due to low inherent color
+
+  - Easy printability even with open build space
+
+  - Low odor
+
+  - High detalization even with complex geometries
+
+  Print Settings
+
+  - Print temperature: 260degreesC  10
+
+  - Bed temp: 100degreesC  10
+
+  - Printing surface: textured PEI sheet
+
+  - Fan speed: max 15%
+thumbnail_url: https://file.myfilamentlist.com/f/new/87a981922257.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-26T21:55:01.869Z'
+updated_at: '2025-03-26T21:55:01.869Z'
+brand: 2628eb85-2bed-43a5-91a3-1d2bd796950a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 5424
+packages:
+  - 1c2947d5-f7e0-4607-a8f3-3c79a55e2289
+secondary_material_types: []
+opentag_uuid: 294082ef-382a-506a-9611-ae24e825ea56

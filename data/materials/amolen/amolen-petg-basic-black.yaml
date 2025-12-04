@@ -1,0 +1,55 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/923ea410-03c8-4d2c-942b-0cef7fcbf557/5c9cf681c99a.png
+    type: gallery
+uuid: 923ea410-03c8-4d2c-942b-0cef7fcbf557
+slug: petg-basic-black
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Basic Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Durable PETG Filament with Versatile Heat Resistance
+
+  Achieve reliable results with our PETG Basic filament, designed for both strength and versatility.
+thumbnail_url: https://file.myfilamentlist.com/f/923ea410-03c8-4d2c-942b-0cef7fcbf557/5c9cf681c99a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:49.501Z'
+updated_at: '2025-04-04T10:46:09.826Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6773
+packages:
+  - 4f0f5713-70bb-4280-90a1-c87fd054b4e7
+secondary_material_types: []
+opentag_uuid: 10f2d095-c456-59e6-b45c-9ff4ac6b28b6

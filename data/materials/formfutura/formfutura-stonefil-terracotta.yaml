@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0173c4648791.png
+    type: gallery
+tags:
+  - 930807f4-0f7d-4630-a929-9030f31881a6
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 02f39033-154c-4c34-8217-69054001238b
+slug: stonefil-terracotta
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: StoneFil Terracotta
+abbreviation: null
+url: null
+primary_color: 21fb14ea-554a-4323-be5a-4c1fe21c6b6b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  StoneFil is a PLA-based 3D printer filament with a 50% powdered stone filling, which give 3D printed parts true stone-like aesthetics and a rough and matt stone-like surface finish.
+
+  Unique features
+
+      Easy to print
+      Matte and rough stone-like finish
+
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/0173c4648791.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:58.809Z'
+updated_at: '2025-03-25T22:35:58.809Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4697
+packages:
+  - 4a32add2-bd73-4413-b95d-238623b5078d
+  - 6bc14326-e574-4bcc-865e-9667f03418a5
+  - 76542840-e640-42f5-9ffe-c2c09311b65a
+  - 77bfed8c-8bb8-4b2d-8ed6-e2d5544f443c
+  - 85cd2bc5-56fb-405a-9058-02f96645bd7d
+  - a2179dd4-0357-49e2-8822-a4e8e00c7294
+  - b6944689-404b-48bf-af1b-d784a8c525e3
+  - d5c09bb4-c198-4b0a-a7ef-5469b6c34abe
+secondary_material_types: []
+opentag_uuid: 220c91d8-90c1-59e5-b632-86813c1e1117

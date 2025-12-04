@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 854012eb-4325-411f-80bf-db224b25f304
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6a225a15-e6d8-4ddc-a504-643a475c90e0
+secondary_colors:
+  - 597049be-cc71-4850-943c-175907ea9a42
+  - 442e51ef-76c7-47e2-ad26-738cb89fe0a5
+  - a6ec0cfa-8468-4bcf-8bdf-b558a6bc758e
+uuid: d99d372d-9831-4c1f-99a1-dd907de7d9ed
+slug: sunrise-tpu-95a
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Sunrise TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-sunrise-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Sunrise! It is a gradient filament that shifts from yellow to orange to pink and back again.
+
+  It is the same shade as our Sunrise PLA and Silk PLA. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0d18a886-a986-4345-907b-822f4929542a
+created_at: '2025-10-21T11:59:16.351Z'
+updated_at: '2025-10-21T11:59:16.351Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 39d38cd2-d693-4ace-8d1f-d631c7335f05
+secondary_material_types: []
+opentag_uuid: 138f1034-185f-56ee-9928-c9b59d7b2651

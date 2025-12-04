@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4bdfd930c312.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 9c4a7463-275a-4235-9ec3-358dcf1ba08b
+slug: polylite-abs-polymaker-teal
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ ABS Polymaker Teal
+abbreviation: null
+url: null
+primary_color: 424c6c1d-f5cd-4698-a4d5-cab621481a3a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ ABS is made with a specialty bulk-polymerized ABS resin, which has significantly lower volatile content compared to traditional ABS resins. It delivers excellent printing quality with minimal odor during printing.
+
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+
+  If using a stock, older style printer - we would recommend printing slower. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/4bdfd930c312.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:33.278Z'
+updated_at: '2025-03-25T22:34:33.278Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3280
+packages:
+  - 06706185-d0b8-44ec-a081-0e66815fad06
+  - 40556b21-702c-46f6-958d-7ec02cbe5752
+  - 610cf9ec-92e0-4b9c-af1d-81a08564b5b8
+  - 780fc749-fb8f-4d1a-8fde-e93e0b7f3d2c
+  - a0cae82d-5af4-4f38-a005-0333a97e9104
+  - ad692065-5f49-45fb-a172-709c28e47699
+secondary_material_types: []
+opentag_uuid: e5930c2e-6aea-5d19-bfdd-44a625d8daf3

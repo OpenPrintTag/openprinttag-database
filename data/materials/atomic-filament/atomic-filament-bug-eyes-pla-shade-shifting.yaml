@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b326483b4c63.png
+    type: gallery
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 8a0c04e1-2770-4dbc-911c-7f7005cbe786
+slug: bug-eyes-pla-shade-shifting
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Bug Eyes PLA Shade-Shifting
+abbreviation: null
+url: null
+primary_color: 372aeebc-7868-4a28-a87e-0fd476f3d93a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The special thing about this filament is that it creates a shiny, multi-faceted look, like the eyes of bugs. As you print layer by layer, it reflects light in different ways, changing how it looks from different angles.
+
+  Hex Color #38614D.  This is according to Filamentcolors.xyz.  We cannot verify this information.
+thumbnail_url: https://file.myfilamentlist.com/f/new/b326483b4c63.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:18.082Z'
+updated_at: '2025-03-25T22:31:18.082Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 530
+packages:
+  - 281dfab9-8b7c-431d-bc13-b52591796737
+secondary_material_types: []
+opentag_uuid: b53047e2-89f9-534b-9ecf-688f3a3cd2ec

@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.30000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5bdf1eab-2374-48c2-bb19-5eccd05184a1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 416ad814-82c0-4f9f-82c3-d1c686628cf7
+slug: high-impact-pla-black
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIGH IMPACT PLA Black
+abbreviation: null
+url: https://www.eumakers.com/high-impact-pla-filament-color-black.html
+primary_color: 03a3b0d5-15cb-45c8-9108-24e533d4a3ae
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing HIGH IMPACT PLA filament color Black.
+  Ideal for components that require high resistance to shocks and high temperatures. Post-processing annealing is suggested. Suitable for fast sanding processes.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/416ad814-82c0-4f9f-82c3-d1c686628cf7.png
+deleted_at: null
+deleted_by: 0523b568-31e0-4f01-ac3a-c405d43016dd
+created_at: '2025-11-12T10:54:17.803Z'
+updated_at: '2025-11-12T10:54:17.803Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 33223cb8-9cc6-4df5-abdc-672c4e18a03e
+  - 8698f542-a70c-484e-a190-1b97c5366bb1
+secondary_material_types: []
+opentag_uuid: 5ff0a509-8073-54b7-8706-daf5fe228f9b

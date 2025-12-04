@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/474fdffd7dee.png
+    type: gallery
+uuid: abcf515f-c297-4d89-9b4e-026b8725b60a
+slug: flex-medium-white-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX Medium white | RAL 9003
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  TPU FLEX Medium has been specially developed for the FDM/FFF process. With an extensibility of up to 470%, high material quality, high chemical resistance and a heat distortion resistance of up to 115degreesC, the material is suitable for numerous industrial applications. The raw material is compliant with REACH and RoHS standards.
+
+      Very high impact and breakage resistant
+      Halogen-free
+      Free of silicone, plasticisers and oils
+      Shore hardness A98
+      UV-resistant
+      Extreme layer adhesion
+thumbnail_url: https://file.myfilamentlist.com/f/new/474fdffd7dee.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T17:33:28.386Z'
+updated_at: '2025-03-28T17:33:28.386Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5447
+packages:
+  - 029f96e3-576e-4aa4-ac40-d585b23d6af7
+  - 094b8a4e-dcb5-4cdb-bcec-c5f12337f376
+  - 197b50cd-4647-4ea8-8283-4e93d2d6f049
+  - e1b3f1a4-5125-4e1e-aded-6c3cafe296f3
+secondary_material_types: []
+opentag_uuid: 34e3ade7-f4cd-5835-9314-0f72e4b7ce18

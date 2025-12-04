@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4b57a0a3-f97e-47df-8ad5-2a158a19cc41
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 1dc58603-adfa-4a56-b814-8a17c7bddef2
+slug: pla-hd-pastel-turmeric-yellow
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Pastel Turmeric Yellow
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-pastel-winkle-175-mm-1-kg-amarillo-curcuma/
+primary_color: f4789708-80aa-415e-a9c8-a8c1008790b5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Winkle’s PLA HD Pastel Filament is designed to deliver high precision, strength, and aesthetics in every layer.
+  Its consistent 1.75 mm diameter, 96% stereochemical purity, and 45 MPa tensile strength ensure stable extrusion, reducing clogs and enhancing detail definition in complex prints.
+
+  PLA HD Filament has a low moisture level (maximum 400 ppm) and only 0.3% residual monomer, resulting in clean, deformation-free prints.
+
+  Applications for Winkle PLA HD Pastel Filament:
+  Perfect for 3D prototypes, decorative parts, custom accessories, architectural models, toys, creative jewelry, and design elements with a soft, subtle visual effect.
+
+  If you’re looking to buy PLA HD filament with excellent performance and a professional finish, this is the ideal filament for your most demanding 3D prints.
+thumbnail_url: https://file.myfilamentlist.com/new/1dc58603-adfa-4a56-b814-8a17c7bddef2.png
+deleted_at: null
+deleted_by: dcac6e0c-81c2-4d19-a470-939f9a6c023a
+created_at: '2025-11-21T12:12:28.374Z'
+updated_at: '2025-11-21T12:12:28.374Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 2f242d6e-3586-49e1-9612-0fcfd9c80c77
+  - 983aadd4-8644-426f-8983-46b685a50f11
+secondary_material_types: []
+opentag_uuid: e7b4b4f8-99b3-56ff-bce1-5b06a2ee4aa8

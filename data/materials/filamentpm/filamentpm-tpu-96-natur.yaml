@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c4dc2b0462d7.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 662942c7-ec80-430a-bba2-8f322331b962
+slug: tpu-96-natur
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' TPU 96 - Natur '
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  TPU96 is our new thermoplastic polyurethane (TPU) filament that combines exceptional flexibility and durability. This material is ideal for a wide range of industrial and hobby projects, from protective covers and RC model parts to flexible joints and seals. In addition to its flexibility, this material is also known for its ability to dampen vibrations and absorb shocks.
+
+  TPU has excellent adhesion to commonly used print beds, ensuring stable and reliable prints. However, TPU is more prone to moisture absorption. To maintain its optimal printing properties, the material needs to be dried periodically.
+
+  With the ability to stretch more than five times its original length before breaking, TPU96 is perfect for applications requiring high elasticity. One of the key properties of TPU96 is its chemical resistance. It exhibits excellent resistance to hydrolysis and microorganisms but has lower resistance to strong acids and certain solvents, such as acetone and toluene. The surface of TPU96 prints is glossier and smoother compared to TPE, which can be advantageous in applications where surface aesthetics are important.
+
+  For optimal printing, we recommend a nozzle temperature of 245degreesC, a bed temperature of 50degreesC, and a maximum print speed of 35 mm/s. TPU filament achieves varying levels of hardness and flexibility through changes in infill density. Lower infill density results in more flexible parts, while higher infill creates stiffer prints. TPU96 has a heat resistance with a Vicat softening temperature of 128degreesC, significantly higher than TPE's softening temperature of 110degreesC. This higher heat resistance allows TPU96 to better withstand higher temperatures, expanding its use in demanding conditions and applications where higher thermal stability is required.
+
+  TPU enables the rapid and efficient production of industrial rubber parts in small volumes, making it ideal for custom one-off products as well as quick manufacturing of industrial components.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c4dc2b0462d7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:42:38.832Z'
+updated_at: '2025-04-23T11:42:38.832Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 7112
+packages:
+  - 1be0b380-e3b3-45b6-a411-c4a8d0ed751a
+secondary_material_types: []
+opentag_uuid: 883aff95-784e-559e-bc66-7932d2da9513

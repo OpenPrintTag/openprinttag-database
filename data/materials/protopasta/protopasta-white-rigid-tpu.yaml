@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f3af8432b76c.png
+    type: gallery
+uuid: 2ef57cce-1b28-48d6-b2ad-9a516051d5e8
+slug: white-rigid-tpu
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: White Rigid TPU
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Like Clear Rigid TPU, but white.
+
+  3D print parts that can flex without breaking!
+
+      Featured in EX3, July 2024's Endless Exploration
+      A white, semi-rigid TPU with hardness of about 70D
+      Nylon-like durability both mechanically & chemically
+      Less flexible than 98A, but still returns when folded (folding triangle from Joan Horvath and Rich Cameron's book Make: Geometry)
+      Easy printing, dyeable, & holds shape up to 200 C
+      Drying overnight recommended before printing
+      Printing starting at 240 C w/ no bed heat required
+      Prep bed w/ Magigoo to avoid permanent bond
+      Compare to 75D hardness or NinjaTek Armadillo
+      Produced by Protoplant exclusively for Protopasta
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/f3af8432b76c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T20:03:10.299Z'
+updated_at: '2025-04-02T20:03:10.299Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6570
+packages:
+  - 063eb4b3-c4b4-445f-9900-b6fd5fb89e3e
+  - 1f4e816a-8fe0-4b70-b1ba-ef58d0d90d48
+  - f3d9c1ae-a6f7-4aa6-b6d6-cbad90da56c7
+secondary_material_types: []
+opentag_uuid: f8fe4c6b-a0ef-5b14-a37d-d6023ccc5d92

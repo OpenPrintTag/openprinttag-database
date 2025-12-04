@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.19000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 91d020a2-2e3f-46f0-b64a-7f63f823aee2
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/602eb79a-a5a6-40d1-8c4a-c9da2c8fd714/fc01c8fb72e9.png
+    type: gallery
+tags:
+  - 6a225a15-e6d8-4ddc-a504-643a475c90e0
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+secondary_colors:
+  - c0eaefba-6e7a-4316-9244-bff28800827a
+  - 8291b0a0-0406-42f7-b2cf-ebce0706f490
+  - fb922d46-603b-4b1e-8b32-7cf5a0461f87
+uuid: 602eb79a-a5a6-40d1-8c4a-c9da2c8fd714
+slug: tpu-flexible-yellow-green-orange-translucent-rainbow
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flexible Yellow Green Orange Translucent Rainbow
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Flexible TPU Filament for Durable and Elastic 3D Prints
+
+  Experience the versatility of flexible 3D printing with our TPU Flexible filament.
+thumbnail_url: https://file.myfilamentlist.com/f/602eb79a-a5a6-40d1-8c4a-c9da2c8fd714/fc01c8fb72e9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:22.056Z'
+updated_at: '2025-04-06T01:14:30.946Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6816
+  - 6817
+  - 6818
+packages:
+  - 5a088251-c884-4e79-8ee6-114b87c0e0d5
+secondary_material_types: []
+opentag_uuid: db22a5d0-d118-50e0-9836-59a8cbf54af6

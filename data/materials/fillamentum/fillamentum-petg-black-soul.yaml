@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f44820728fe5.png
+    type: gallery
+uuid: f06cded7-7f77-4a8c-831d-3131bc54c51d
+slug: petg-black-soul
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG "Black Soul"
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG filament is perfect for practical 3D prints, combining strength, flexibility, and easy processing.
+
+   High strength & good hardness
+   Temperature resistance up to 70 degreesC
+   Chemical resistance against water, acids, alkalis, and alcohols
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/f44820728fe5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:50.770Z'
+updated_at: '2025-03-25T22:32:50.770Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2019
+packages:
+  - 5888b266-0a28-4873-a468-42920aff4a61
+  - e0a82714-9569-495c-ae51-0404686189ad
+secondary_material_types: []
+opentag_uuid: df308d71-44c6-5ecb-81a7-d38e76c90cc4

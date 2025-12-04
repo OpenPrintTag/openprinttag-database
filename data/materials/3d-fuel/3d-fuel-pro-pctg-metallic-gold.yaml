@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/651a4b854803.png
+    type: gallery
+uuid: 19946a0d-942f-492b-aa12-01cff710cb92
+slug: pro-pctg-metallic-gold
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Metallic Gold
+abbreviation: null
+url: null
+primary_color: c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/651a4b854803.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:59.691Z'
+updated_at: '2025-03-25T22:34:59.691Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3902
+packages:
+  - 926d26ca-6f4a-42ea-ac25-6f93d61cfaf5
+  - b610e607-16c0-49f9-9ee3-369353cacc69
+secondary_material_types: []
+opentag_uuid: 27134cb6-3551-5051-a023-6e665e60f153

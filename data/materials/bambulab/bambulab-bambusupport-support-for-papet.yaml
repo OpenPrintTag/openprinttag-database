@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/fce9ec2eadd0.png
+    type: gallery
+uuid: ac2b2286-bebc-430f-8d5c-884c671f9f6b
+slug: support-for-papet
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Support for PA/PET
+abbreviation: BambuSupport
+url: null
+primary_color: 898d53aa-a022-47a2-a5c2-b12dd8868cd6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Product Features
+
+      Easy removal by hand
+      Perfect support interface
+      Recommended for PAHT-CF, PA6-CF, PET-CF, PA-GF, etc.
+      Comes with High Temperature Reusable Spool
+      Diameter: 1.75mm +/- 0.03mm
+
+
+  Cautions for Use
+
+      ONLY used for support interface
+      Not used for printing models alone
+      Dry out before use
+      AMS compatible
+      AMS lite NOT Compatible
+      Enclosure Printers Required
+thumbnail_url: https://file.myfilamentlist.com/f/new/fce9ec2eadd0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:01.940Z'
+updated_at: '2025-03-25T22:36:01.940Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: null
+colors:
+  - 4702
+packages:
+  - 63c67c68-3d6f-4a5b-a68d-acb794c2b44e
+secondary_material_types: []
+opentag_uuid: cc1fb897-f6cc-574d-9f94-f3f91cfe137a

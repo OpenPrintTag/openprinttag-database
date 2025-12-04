@@ -1,0 +1,56 @@
+uuid: 8361d472-56a4-43bc-9e87-8077a07230c6
+slug: ecomax-tough-pla-white
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ECOMAX Tough PLA White
+abbreviation: null
+url: https://www.3dxtech.com/products/ecomax-r-tough-pla?variant=43809030209589
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+       Bambu AMS compatible
+      Greatly improved impact resistance and ductility while still being among the easiest materials to 3D print with
+      Low shrinkage, warping, and easy printability, Tough PLA prints great on practically any desktop 3D printer
+      Very low odor, perfect for 3D printing in home and office environments
+      Made from plants makes PLA a renewable biopolymer
+      Gorgeous surface quality and low-gloss to make printed parts look beautiful and highly technical
+      Ideal for printing without a heated bed, no enclosure required 
+thumbnail_url: null
+deleted_at: null
+deleted_by: 2e948797-44b9-40c6-838a-12dada28700b
+created_at: '2025-11-04T12:18:30.716Z'
+updated_at: '2025-11-04T12:18:30.716Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - b0e1121f-a082-48f1-bdc5-fbdd9787e5f2
+secondary_material_types: []
+opentag_uuid: 64f33ae9-ef3a-59ba-a1da-8a1e3f0da1b6

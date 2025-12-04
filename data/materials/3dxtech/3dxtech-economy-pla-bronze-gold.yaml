@@ -1,0 +1,55 @@
+uuid: 8b71dc1b-cbe4-4f25-9179-098f63ac9c65
+slug: economy-pla-bronze-gold
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Economy PLA Bronze Gold'
+abbreviation: null
+url: https://www.3dxtech.com/products/economy-pla
+primary_color: a3a2c9cb-59c8-418a-8dad-b301656dc134
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+       Bambu AMS compatible
+      Low shrinkage, warping, and easy printability, PLA prints great on practically any desktop 3D printer
+      Very low odor, perfect for 3D printing in home and office environments
+      Made from plants makes PLA a renewable biopolymer
+      Gorgeous surface quality to make printed parts look beautiful
+      Ideal for printing without a heated bed, no enclosure required 
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9861645f-0136-4c22-8b54-764cd0088096
+created_at: '2025-11-04T11:31:22.910Z'
+updated_at: '2025-11-04T11:31:22.910Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - a70e5507-f4c5-40b8-a7af-46745665afa0
+secondary_material_types: []
+opentag_uuid: b599867c-3fee-5df3-b7c9-14db03d20e4f

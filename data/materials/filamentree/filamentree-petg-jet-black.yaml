@@ -1,0 +1,84 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 903de8a3-890e-4bd8-843b-1505263cfeee
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: acea9290-fd95-4708-be94-dd7fdf461987
+slug: petg-jet-black-4
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Jet Black
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410021-petg-jet-black-1kg-5000?category=63#attr=2976,2978,2977,198,3544,3545,2981,2982,2983
+primary_color: 9926c9ca-7cee-428a-a704-3295c84f22ad
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Jet Black 1kg is a high-quality, jet black-colored filament specifically designed for 3D printing enthusiasts and professionals. Made from PETG (Polyethylene Terephthalate Glycol), this filament combines the ease of use of PLA with the strength and durability of ABS, making it an excellent choice for a wide range of 3D printing applications. The jet black color provides a sleek, professional finish, ideal for both functional parts and aesthetic models.
+
+  This 1kg spool offers ample material for numerous projects, ensuring consistent quality and performance throughout. PETG Jet Black is known for its excellent layer adhesion, impact resistance, and flexibility, making it suitable for creating durable and long-lasting prints. It is also resistant to moisture and chemicals, adding to its versatility.
+
+  Key Features:
+
+      High-Quality PETG Material: Combines the best properties of PLA and ABS for strong, durable prints.
+      Jet Black Color: Provides a sleek, professional finish for both functional and aesthetic models.
+      Excellent Layer Adhesion: Ensures strong and reliable prints with minimal warping.
+      Impact Resistance: Withstands shocks and impacts, making it ideal for functional parts.
+      Chemical and Moisture Resistance: Suitable for use in environments where exposure to chemicals or moisture is a concern.
+      Easy to Print: Compatible with most FDM 3D printers, offering a smooth printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Durable containers and enclosures
+      Artistic models and decorative items
+      Outdoor applications due to its UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid contact with eyes and skin. In case of contact, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Jet Black 1kg is a reliable and versatile filament choice for 3D printing, offering a perfect balance of strength, durability, and ease of use. Whether you're creating functional parts or artistic models, this filament ensures high-quality results with a professional finish.
+thumbnail_url: https://file.myfilamentlist.com/new/acea9290-fd95-4708-be94-dd7fdf461987.png
+deleted_at: null
+deleted_by: 4ae5f222-90aa-4195-a1ba-d538b68d7115
+created_at: '2025-12-01T11:04:34.450Z'
+updated_at: '2025-12-01T11:04:34.450Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 8ba976eb-fcb2-428d-837f-3baf0d1404ea
+  - d6edbede-436f-4cb3-bf50-05372c8ab070
+secondary_material_types: []
+opentag_uuid: dc68c20f-4de5-59a7-9132-6f398bd8c3c6

@@ -1,0 +1,51 @@
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 3f16de7f-7dbb-4dfb-b346-4d7ef49ae75a
+slug: abs-green-4
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Green
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-abs-green-750g/
+primary_color: 6a224532-a956-4969-9508-63d97eddea22
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d1a86ba4-656e-4259-b017-4b94d28259b5
+created_at: '2025-09-24T08:03:53.711Z'
+updated_at: '2025-09-24T08:03:53.711Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 8952
+packages:
+  - b52be3a9-fddc-48f1-9237-acd77e4b9878
+secondary_material_types: []
+opentag_uuid: ac27191e-9cc8-547b-9d97-d5cbc1e82673

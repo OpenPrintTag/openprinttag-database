@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.09000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1eab7a42-2252-49ad-997d-2e3519c4e773
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: e9accb23-1a3c-4c5d-96e6-5ba5d5bec7d0
+uuid: 1c7d9cb4-90be-47aa-81b0-877ca0ca46ed
+slug: loctite-3d-med3394-bk
+brand_slug: henkel
+brand_specific_id: null
+class: SLA
+type_id: null
+name: LOCTITE 3D MED3394 BK
+abbreviation: null
+url: https://www.loctiteam.com/loctite-3d-med3394/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  A high-performance material capable of withstanding multiple cycles of various sterilization methods, while maintaining critical performance properties. Excellent Heat
+  Deflection Temperature HDT and tensile physical properties combined with resistance to chemical exposures make this an optimal material for medical applications.
+
+
+      Ability to withstand multiple methods and rounds of
+      sterilization while maintaining performance.
+      Capable of meeting ISO 10993-5, -10, -11 & -23
+      biocompatibility standards for medical applications
+      USP Class VI Certified
+      Excellent chemical resistance
+      High Dimensional Accuracy
+      Good balance of HDT and toughness.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b8ce6dfa-143e-4662-90b1-70882a248aab
+created_at: '2025-10-03T16:25:13.955Z'
+updated_at: '2025-10-03T16:25:13.955Z'
+brand: 5927d694-01b2-4262-b272-970764723090
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9487
+packages:
+  - 015c522c-cb33-4fd0-9c5e-db64dd675c42
+  - ca9eb641-2b02-415e-9f14-a7e8b1e79bb0
+secondary_material_types: []
+opentag_uuid: e6e7cb8b-304d-5217-8b92-0a050b869e13

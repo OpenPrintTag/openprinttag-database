@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/40021803f231.png
+    type: gallery
+uuid: c5bd9a32-ba12-4cea-8c51-d13ce5a58281
+slug: nylon-fx256-sky-blue
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Nylon FX256 "Sky Blue"
+abbreviation: null
+url: null
+primary_color: c758d7b1-413e-431f-8ac1-f7f3bfc3df99
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nylon FX256 is an advanced, exceptionally durable, and highly versatile material. With outstanding interlayer adhesion, flexibility in thin layers, and resistance to extreme temperatures and chemicals (including car fluids), it's the ideal choice for tough, functional, and technical 3D prints
+
+   Exceptional chemical resistance and wear resistance
+   High impact resistance, even at -40 degreesC
+   Heat resistance up to 140 degreesC
+   Lower moisture absorption for better dimensional stability
+   Safe for food contact 
+thumbnail_url: https://file.myfilamentlist.com/f/new/40021803f231.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.980Z'
+updated_at: '2025-03-25T22:32:26.980Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: null
+colors:
+  - 1837
+packages:
+  - bda2aba9-ab41-4a90-a2dc-f6a2e6a9a5f3
+secondary_material_types: []
+opentag_uuid: 19c0c32f-95a4-508f-93ae-a52bf89e709e

@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1a962167-0ce3-47f5-94db-626830309459
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - cccac441-8d20-451f-9d3c-217949e6a341
+uuid: 29ddaaf1-2b15-47dd-8dd6-c453ff3241e7
+slug: pla-ceramic-effect
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Ceramic Effect
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-ceramic-effect.html
+primary_color: 8f33ad90-428e-4545-a2d1-1c7b95c472db
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Ceramic Effect.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/29ddaaf1-2b15-47dd-8dd6-c453ff3241e7.png
+deleted_at: null
+deleted_by: 52c42633-b241-4df7-ae08-7c8ec0576614
+created_at: '2025-11-12T10:16:52.047Z'
+updated_at: '2025-11-12T10:16:52.047Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 5ee502d9-0fbd-4e81-8eb4-e1b6a0b9ca5d
+  - e32e8e60-ffe5-4cc4-b869-13d30e8d863f
+secondary_material_types: []
+opentag_uuid: 0217483a-a246-54cd-8dce-0457a92efc8f

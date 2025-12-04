@@ -1,0 +1,69 @@
+tags:
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e27c57dd-1a0b-4d77-b278-d4bef701c9b1
+slug: lw-pla-ultrafoam-pure-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: LW-PLA UltraFoam Pure Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
+primary_color: null
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Spectrum LW-PLA UltraFoam is an innovative filament that combines the properties of high-quality PLA with advanced active foaming technology. Thanks to its unique material characteristics, it enables more than a 3x reduction in the weight of printed parts, without compromising strength or surface quality. LW-PLA UltraFoam is an ideal solution for all seeking lightweight, durable and aesthetically pleasing prints, especially where weight matters – such as in model making, drone structures, or prototyping.
+
+  The filament is based on the proven Spectrum Premium PLA and enhanced with ingredients that allow for controlled volume expansion during printing. The foaming process is activated at around 220°C, with the maximum effect achieved in the 240°C–250°C range. When printing below 220°C, the material behaves like standard Premium PLA, offering great flexibility in choosing print settings.
+
+  In the full foaming phase filament expands more than 3x, achieving an extremely low density of around 0.40 g/cm³. LW-PLA UltraFoam provides significant flexibility in flow adjustment, enabling up to a 70% reduction. Foaming level and speed can be controlled via temperature, allowing the density to be adapted to specific parts. The foaming capability also helps to speed up 3D printing by using thicker layers or single, solid outlines. With LW-PLA UltraFoam, you can achieve prints weighing just about 30% of those made with standard PLA – over 3x lighter while retaining durability and aesthetics.
+
+  The matte surface finish effectively hides layer lines, giving printed parts a professional look. The foaming level also affects the shade – with greater expansion, the color may appear noticeably lighter. Moreover, the filament retains all key features of classic PLA – ease of printing and stability. It’s a perfect solution for applications where every gram counts, such as RC modeling, drone structures, or lightweight functional components.
+
+  Tips:
+
+      - Foaming level may vary depending on printer model (e.g., Bambulab P1S/X1C achieved 0.30 flow, Prusa i3 MK3S – 0.31)
+      - Higher foaming level can be achieved in enclosed-chamber printers
+      - Moisture negatively impacts foaming – drying the filament before use is recommended
+      - Increasing retraction helps reduce artifacts and stringing; remaining imperfections can be easily removed manually
+      - If the model sticks too much to the bed – lower bed temperature, clean the surface, or use an adhesive aid
+      - If the model comes out too brittle, the flow is too low – increase value of the flow
+thumbnail_url: null
+deleted_at: null
+deleted_by: 47af5dff-7f66-404a-bed1-091a34a7dd58
+created_at: '2025-09-29T12:25:04.903Z'
+updated_at: '2025-09-29T12:25:04.903Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9285
+packages:
+  - 2e750d0c-ce74-4fe7-8336-48ad27e81ccd
+  - c6bd2da2-5674-4317-b2d6-f59ecfa2f1f5
+secondary_material_types: []
+opentag_uuid: 126d5314-e39c-5a13-a8b6-7f35062db7b6

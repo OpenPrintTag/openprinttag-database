@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 27aa083f-40c9-4653-9866-a21adef11c19
+  hardness_shore_a: 92
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7dcc343bff15.png
+    type: gallery
+uuid: adce2f04-dae5-49cf-a1b2-932b8183129f
+slug: flexfill-tpu-92a-metallic-grey
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill TPU 92A "Metallic Grey"
+abbreviation: null
+url: null
+primary_color: 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Thermoplastic polyurethane with hardness 92 Shore A. Atechnical flexible filamentthat offers great mechanical properties such as high tear and tensile strength.
+  It is characterized by highly reversible deformation, resistance to ozone, oils, greases, and aliphatic alcohols. Wear resistance guarantees the durability of 3D printed products. Great for the printing of continually sliding parts or sealings.
+
+   High elasticity with highly reversible deformation
+   Excellent abrasion resistance and tear strength in all directions
+   Flexible with great interlayer adhesion
+   BPA-free, styrene-free, and recyclable
+thumbnail_url: https://file.myfilamentlist.com/f/new/7dcc343bff15.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:42.682Z'
+updated_at: '2025-03-25T22:31:42.682Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 1105
+packages:
+  - 7f5f901d-8ede-4c77-a78c-67ec46b746fa
+  - c092093c-87b7-46c0-81a3-a340d84306b3
+secondary_material_types: []
+opentag_uuid: d67837c5-9681-5cb1-9de9-83e7ca05cbcb

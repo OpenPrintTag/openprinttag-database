@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e72c7a87f164.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f0157b14-f67b-4d19-bab3-ab9f108772e7
+slug: pla-economy-silver
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Economy Silver
+abbreviation: null
+url: null
+primary_color: 16059413-b47d-4a4e-a689-084e687db667
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PLA Economy is a high quality 3D printing filament, available on XL and larger spools only in a limited amount of colors. With the added impact modifier it is a bit tougher than your average PLA filament. By keeping the portfolio limited and on large spools only we are able to keep the price per kg as low as possible.
+
+  PLA Economy is a perfect solution for users in need for large volumes of quality filament at an affordable price.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e72c7a87f164.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:27.314Z'
+updated_at: '2025-03-25T22:33:27.314Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2732
+packages:
+  - 3ef34156-75f7-4b1b-86aa-5edfe57167b9
+  - 54d01778-153e-4ebf-8b0d-b7bc1042d617
+  - 61a10579-d091-4791-811e-17222e531e7d
+  - 7e9c615a-cd33-45eb-97a2-077a43ba0c83
+  - eb24ca47-1744-4e0c-b7b1-ccb901dc7c21
+  - eff7bb6c-6ed8-402c-9274-a15570b535b6
+secondary_material_types: []
+opentag_uuid: ea75c8d2-a3fc-5f55-a736-9d0cf5516485

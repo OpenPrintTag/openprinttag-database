@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/96a00a9f4565.png
+    type: gallery
+uuid: 3afdfaaf-60ad-467a-b620-29914a4ccd0b
+slug: adamant-s1-white
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Adamant S1 White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      Made of 100% PVDF
+      Ideal industrial-grade 3D-printing material
+      Extreme layer adhesion and high working temperature
+
+  Add North's Adamant S1 is made of 100% PVDF (Polyvinylidene fluoride), which makes it the ideal industrial-grade printing material. The Adamant S1 offers good thermal and excellent chemical and solvent resistance. While other PVDF filaments experience a lot of warping, this version is completely warp-free which makes it much easier to use.
+
+  This filament can be used in demanding applications and under some of the most extreme conditions in very harsh environments, with a flammability rating of UL94 V-0.
+
+  Adamant S1 yields semi-flexible prints with extreme durability. Layer adhesion is especially good. Some have called it the low-temp equivalent to PEEK, and it works on almost any regular desktop 3D-printer.
+
+  For additional printing advice, check out our cheat sheets for recommended slicer settings in Cura, Simplify 3D and PrusaSlicer.
+
+  Adamant S1, together with all our other filaments, are made in Sweden and have a diameter tolerance of 0.025mm.
+
+  Adamant S1 is available in 1,000g spool sizes in 1.75mm and 2.85mm diameter.
+thumbnail_url: https://file.myfilamentlist.com/f/new/96a00a9f4565.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T18:14:18.977Z'
+updated_at: '2025-04-01T18:14:18.977Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: 4276cd45-24b9-4b77-a7c5-1582b5200e89
+colors:
+  - 6054
+packages:
+  - 53053687-c62f-4fd2-a456-f1ab54280f23
+secondary_material_types: []
+opentag_uuid: b08586d6-930a-510c-894a-b45938fc62ad

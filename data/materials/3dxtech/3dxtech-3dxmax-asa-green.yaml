@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/978a461dd101.png
+    type: gallery
+uuid: fe81ff74-3b56-48fb-a0a6-88909be4af5f
+slug: 3dxmax-asa-green
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 3DXMAX® ASA Green
+abbreviation: null
+url: null
+primary_color: 6b8a2454-8f00-4026-b1c4-a985df8b8ea4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  3DXMAX(R) ASA (Acrylonitirle Styrene Acrylate) is a UV-resistant, famously weatherable polymer. Our ASA has a low-gloss matte finish which makes it the perfect filament for technical-looking prints, especially when you don't want the high-gloss surface finish often associated with 3D printing materials like ABS, PETG, or PLA.
+
+       Excellent mechanical and thermal properties (Tg of 105C)
+      Highly resistant to ultra-violet radiation and sunlight
+      Sturdy and rugged against the weather, ideal for an outdoor part
+      Easier to print than most industrial-grade materials
+      Variety of colors and beautiful, low-gloss finish to make your models pop! 
+
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/978a461dd101.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:09.672Z'
+updated_at: '2025-03-25T22:31:09.672Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 8
+packages:
+  - 0a56f92e-c96f-45f2-9b2f-c3a9c870619b
+  - 54568cd2-e62c-4a2a-b06a-dac58e8b40ab
+  - 7ed4123e-9511-4d4d-af71-b450c211c817
+  - b1682032-2fa0-4eeb-b822-8b71329e2a6e
+  - be3ee896-ae6d-4e6c-83fc-e0637701c4a6
+  - c243363f-39ca-4613-8649-342ea4d9af47
+  - c5ad2f55-db41-4e2e-9d07-99a36f98e026
+  - d5611614-1b95-4902-94d8-179d65852556
+secondary_material_types: []
+opentag_uuid: 3fca42b5-959b-51bd-953c-904639d8a2ad

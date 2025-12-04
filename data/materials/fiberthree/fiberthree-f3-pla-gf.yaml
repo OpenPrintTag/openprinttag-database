@@ -1,0 +1,61 @@
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 2ceaef83-e153-4c3b-99c3-954df0c90f11
+slug: f3-pla-gf
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' F3 PLA GF'
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PLA (modified)
+  contains glass fibers
+  good impact resistance
+  no water absorption
+  low warpage
+  excellent adhesion to print bed
+  high stiffness
+  exellent thermal stability up to 80°C
+  matt gloss (anthrazite
+thumbnail_url: null
+deleted_at: null
+deleted_by: 48279cb5-5cd4-458e-b24c-5a962008551a
+created_at: '2025-10-21T14:55:20.839Z'
+updated_at: '2025-10-21T14:55:20.839Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - b11d7e3e-8328-404c-803f-f308d7393b42
+secondary_material_types: []
+opentag_uuid: 43cfc656-53a2-586c-8ea6-5a95f1bdf391

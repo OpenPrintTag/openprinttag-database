@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.28000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1310e9cc-feff-43ed-b9a8-f2e7a052c437
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 047becc8-9814-42b3-b116-84754bad2a89
+slug: pctg-cf10-black
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG CF10 Black
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pctg-cf10/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Remarkable product enriched with carbon fibres
+
+  PCTG is a copolyester that is gaining increasing popularity among users of 3D printing technology. In terms of properties, it is often compared to well know PETG. However, it t is worth noting that PCTG has a significantly higher impact strength compared to its big brother. PCTG’s high elasticity combined with high layer cohesiveness, high viscosity and negligible shrinkage make it a perfect polymer for composite materials.
+
+  The first of the PCTG-based composites we developed was a carbon fibre version – PCTG CF10. The carbon fibres used give the filament an extremely high stiffness, while reducing the brittle fracture typical for other PETG-based carbon composites. PCTG CF10 filament allows the printing of parts with increased hardness and tensile strength compared to classic PCTG. The use of carbon fibres increases the thermal resistance of the filament, further reduces shrinkage and gives the characteristic “carbon” matt appearance to the printed models.
+
+  With Spectrum PCTG CF filament, 3D printing is becoming an even more viable alternative to conventional plastic processing, enabling the production of durable and long-lasting everyday objects, regardless of size.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ecb8861c-27be-448d-a2ca-30d66c30afc2
+created_at: '2025-10-15T11:23:40.378Z'
+updated_at: '2025-10-15T11:23:40.378Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 06557124-5798-5f61-be9a-72c1a61037ae

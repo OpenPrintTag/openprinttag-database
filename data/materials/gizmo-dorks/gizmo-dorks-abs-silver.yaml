@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/87ca26b77add.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 5c4713ea-8409-47c2-9f7c-9d780e16d30f
+slug: abs-silver-6
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Silver
+abbreviation: null
+url: null
+primary_color: 642ef6e5-476e-43dd-8468-78098a078bf2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ABS Filament
+
+  ABS (Acrylonitrile Butadiene Styrene) plastic filament is a polymer used in 3D printing because it can be molded and engineered. It falls under a family of other plastics known as thermoplastics. These plastics have the ability to become soft and moldable when heated at high temperatures and returning to it's normal solid state when at cooler temperatures, making it an ideal 3D printing filament.
+
+  ABS filament is a favorite for 3D printing because it is light weight and durable. It can be injection molded which makes it perfect for 3D printing extruders. It has a high glass transition temperature to reduce deformation but low enough to be safely attainable with 3D printers. ABS filament needs to be printed on a heated bed because the filament will curl upwards of the surface. The heated build platform as well as a smooth flat surface helps reduce the deformation.
+
+  ABS filament is a hard strong plastic with some flexibility when compared to PLA filament. It is also soluble in acetone, and it can be easily sanded and machined. It has ideal strength, machinability, and temperature resistance making it a favorite filament among 3D printer users.
+
+  Please store ABS filament in a cool dry place. ABS, if exposed to moisture, will bubble and spurt from the extruding nozzle. ABS filament can be dried from a food dehydrator, oven, or from any source of hot air.
+thumbnail_url: https://file.myfilamentlist.com/f/new/87ca26b77add.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:12.295Z'
+updated_at: '2025-03-25T22:31:12.295Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 129
+packages:
+  - 85f4df66-3fab-46a2-b6b0-d9d14e84bcbe
+  - ec6a4675-6f34-4beb-ab1e-71c621c580d8
+secondary_material_types: []
+opentag_uuid: c0b4f8d0-b186-50a2-a638-be3b05386696

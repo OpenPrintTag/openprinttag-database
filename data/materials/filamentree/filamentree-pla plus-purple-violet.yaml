@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a260ed68-06b5-4daa-b99d-e4483ce6c809
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 28144dcf-a4db-43af-b306-6e09015f217b
+slug: pla-plus-purple-violet
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Purple Violet
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110511-pla-plus-purple-violet-1kg-5262?category=59#attr=1206,2834,1207,1208,3524,2836,2837,2838,1209
+primary_color: 3740f39c-c279-45d3-a929-e03dc6c0d75b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Purple Violet is a high-quality 3D printing filament that combines enhanced mechanical properties with a stunning deep purple-violet color. This filament offers a smooth and glossy finish, making it perfect for projects that require both durability and aesthetic appeal. Whether you’re printing decorative models, functional prototypes, or artistic creations, PLA Plus Purple Violet ensures excellent print quality with vibrant, eye-catching results.
+
+
+  Key Benefits:
+
+
+      Enhanced Strength and Durability : PLA Plus is stronger and more impact-resistant than standard PLA, ensuring long-lasting and reliable prints. It is ideal for functional parts that require increased durability.
+      Rich and Elegant Purple-Violet Color : The deep, vibrant hue provides a luxurious and sophisticated look, making it perfect for decorative and artistic applications. The filament’s color stability ensures consistent results across multiple prints.
+      Smooth Printing Experience : Excellent bed adhesion, minimal warping, and consistent extrusion make this filament easy to use for both beginners and professionals. Compatible with most FDM 3D printers.
+      Eco-Friendly and Sustainable : Made from biodegradable materials, PLA Plus supports sustainable 3D printing with a lower environmental impact.
+
+
+  Applications:
+
+
+      Decorative and Display Models : Ideal for printing sculptures, artistic designs, and ornamental pieces with a rich purple finish.
+      Functional Prototypes : Suitable for strong and durable parts, including mechanical components, enclosures, and everyday tools.
+      Fashion and Accessories : Perfect for printing jewelry, decorative accessories, or modern fashion elements with a unique violet touch.
+      Educational and Scientific Models : Great for creating visually striking learning tools, anatomical models, or engineering prototypes.
+      Toys and Creative Projects : A fantastic choice for printing toys, figurines, or playful designs that stand out with vibrant colors.
+
+
+  Ideal For:
+
+
+      3D printing projects that require a luxurious and unique color finish.
+      Strong and durable prototypes with excellent visual appeal.
+      Fashion, design, and artistic creations that stand out.
+      Sustainable and eco-friendly 3D printing solutions.
+
+  PLA Plus Purple Violet is the perfect choice for anyone looking for a reliable filament with an eye-catching color, combining strength, smooth printing, and exceptional quality. Elevate your 3D prints with a touch of elegance!
+thumbnail_url: https://file.myfilamentlist.com/new/28144dcf-a4db-43af-b306-6e09015f217b.png
+deleted_at: null
+deleted_by: 94aae81d-c544-4cab-aebb-9301f476e5c2
+created_at: '2025-12-01T10:01:58.487Z'
+updated_at: '2025-12-01T10:01:58.487Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 451be57b-3922-4ea1-a1ff-033b9e30a16d
+secondary_material_types: []
+opentag_uuid: 45c233d3-2dc4-57dc-8495-6633db9ba5bd

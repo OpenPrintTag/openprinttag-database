@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/67d4b544dfbb.png
+    type: gallery
+uuid: 50fd4334-8653-4098-af25-0fd531526f5c
+slug: polymaker-pc-pbt-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Polymaker PC-PBT Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polymaker PC-PBT is a PC/PBT polymer blend which offers good heat resistance and toughness at low temperature (-20˚C/-30˚C). Polymaker PC-PBT also features  good chemical resistance.
+
+  Please refer to the printing requirements below before purchasing. 
+
+  -  Printing Requirements
+      Enclosed printer that can trap heat required.
+      Actively heated chamber with minimum 100˚C chamber temp required.
+      Large, dense parts will require a heated chamber even more so than small parts.
+      Annealing post printing. More info on annealing: https://us.polymaker.com/blogs/3d-printing-tips/what-is-annealing-and-why-do-we-do-it
+      Dryer or drybox recommended.
+      Magigoo PC highly recommended to help with bed adhesion.
+      All-metal hotend that can reach at least 260˚C
+thumbnail_url: https://file.myfilamentlist.com/f/new/67d4b544dfbb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:47.084Z'
+updated_at: '2025-03-25T22:34:47.084Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3312
+packages:
+  - 00d73049-1a6a-4612-9f57-528ae64a03cb
+  - 760a2c5b-0f5c-4942-9d6d-f3ed93fcb2a4
+secondary_material_types:
+  - 15
+opentag_uuid: 2d47fba2-5c18-5782-b845-eee4fa22bb9f

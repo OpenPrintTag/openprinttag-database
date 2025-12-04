@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bdde96dc-b97f-4e9c-9a66-322a5f94ed00
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/de989a00b06b.png
+    type: gallery
+uuid: 4ce8bc82-1b07-44b9-afd8-70ee9071e087
+slug: easyflex-yellow
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFlex Yellow
+abbreviation: null
+url: null
+primary_color: 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |2-
+      Easy to use - also in high speed
+      Good chemical resistance
+      High ductility and durability
+
+  EasyFlex is a TPU-based material with 95A Shore hardness. It is easy to use, have good chemical resistance and is very ductile and durable. Print anything from phone cases to gaskets to RC car tires - whatever requires softness and flexibility.
+thumbnail_url: https://file.myfilamentlist.com/f/new/de989a00b06b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T18:29:17.170Z'
+updated_at: '2025-04-01T18:29:17.170Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 4819
+packages:
+  - 3637ee0b-92ae-4d65-b7c2-bf9b5bea7647
+secondary_material_types: []
+opentag_uuid: 2225df8c-f390-535f-aa0e-3d70f0549593

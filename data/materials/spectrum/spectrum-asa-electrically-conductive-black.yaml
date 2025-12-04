@@ -1,0 +1,72 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.17000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5d39ba6c-4c14-4ea2-a086-77113b01fc4c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 94ce8705-92d6-49aa-a341-c591ede2ea43
+  - 0019bccd-81c6-4ec0-8988-6b1f44bddf7d
+uuid: 469a2088-d1ad-43a7-aaad-16ece4938d2c
+slug: asa-electrically-conductive-black
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Electrically Conductive Black
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/asa-electrically-conductive/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Spectrum ASA Electrically Conductive is an advanced technical filament developed for professional applications where electrical conductivity and high resistance to external factors are essential. The filament is based on a durable ASA polymer enriched with carbon nanotubes (CNT), which provide very low surface resistivity – around 40 Ω. This makes the filament an excellent choice for applications requiring effective current conduction.
+
+  In addition to its electrical properties, Spectrum ASA Electrically Conductive also offers exceptional resistance to UV radiation and weather conditions, making it ideal for outdoor use. Its high rigidity, good dimensional stability, and mechanical strength make the material perfect for producing technical components that must perform reliably even in harsh environments. Prints made from this filament feature a matte finish, which not only offers an aesthetic appearance but also hides layer lines, eliminating the need for post-processing.
+
+  Although Spectrum ASA Electrically Conductive does not require a heated chamber, using one can improve stability when printing larger models. Due to the presence of carbon nanotubes, the material is slightly abrasive, so we recommend using a hardened steel or ruby nozzle. Spectrum ASA Electrically Conductive is a great choice for users seeking a durable, weather-resistant, and electrically conductive material for specialized technical prints.
+
+  Volume Resistivity Measurements:
+
+  To verify the conductive properties, tests were conducted using a 3D-printed specimen with dimensions 4 × 4 × 120 mm (100% infill), at 10 V and three different extrusion temperatures: 270°C, 280°C, and 290°C. The volume resistivity results were as follows:
+
+      270°C: 51 Ω·m
+      280°C: 45 Ω·m
+      290°C: 41 Ω·m
+
+  These measurements demonstrate that increasing the extrusion temperature positively influences the filament’s conductivity. Higher temperatures improve the dispersion of carbon nanotubes within the model’s structure, resulting in lower volume resistivity. For the user, this means that printing components requiring maximum conductivity is best achieved at higher extrusion temperatures (up to 290°C), provided that the printer’s hardware supports such settings.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 54489116-55fd-43ec-adc9-863e913da9b4
+created_at: '2025-10-15T13:37:01.553Z'
+updated_at: '2025-10-15T13:37:01.553Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 822c442c-097b-5458-882d-ebd59da23eac

@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6b7fe71dd26f.png
+    type: gallery
+uuid: 2d3d1999-5b7f-4346-9c5c-db5ed918e197
+slug: polysmooth-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolySmooth™ Green '
+abbreviation: PolySmooth™
+url: null
+primary_color: ab92fe8b-b144-4a69-91c0-b0d2e92f0e49
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolySmooth™ is a unique, easy-to-print filament designed for hands-free post processing. The surface can be smoothed with alcohol to achieve layer free models using the Polysher™.
+
+  -  Printing Requirements
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6b7fe71dd26f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:50.144Z'
+updated_at: '2025-03-25T22:34:50.144Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: null
+colors:
+  - 3524
+packages:
+  - 00c1d974-a7f6-4c45-8fbd-013141974d76
+  - 2778d653-f708-46bc-8241-1471c8c40216
+secondary_material_types: []
+opentag_uuid: 80129efc-c9d3-599d-9f68-6eb1411c3cbd

@@ -1,0 +1,55 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4a72b087fd2b.png
+    type: gallery
+uuid: 73cc42f7-1f87-4936-8be8-8ef7c1283fd5
+slug: cool-gray-asa
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Cool Gray ASA
+abbreviation: null
+url: null
+primary_color: baf67508-1c8e-430a-923e-02e53e625ba9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ASA is a great alternative to ABS when UV resistance is needed. Ideal for outdoor items and high temperature resistance (105C). Prints very similar to ABS. Heated Build plates are a must. Enclosures are highly recommended. Avoid fans and drafts.
+
+  Made from premium top tier virgin ASA resin and our rich colorant for vibrant high quality prints.
+thumbnail_url: https://file.myfilamentlist.com/f/new/4a72b087fd2b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:20.619Z'
+updated_at: '2025-03-25T22:31:20.619Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 658
+packages:
+  - 738a5bb8-9d21-4ca0-8b64-24de3d69e3a2
+secondary_material_types: []
+opentag_uuid: 5b20b65e-b675-5d66-83be-df6c80484cef

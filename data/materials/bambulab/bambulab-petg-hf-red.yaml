@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6481a49ce4ab.png
+    type: gallery
+uuid: cb4aa9a6-e1f8-4b91-930c-e9022d153edd
+slug: petg-hf-red
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PETG HF Red '
+abbreviation: null
+url: null
+primary_color: a9294fef-655b-4cef-a8b9-35d5d1622ffa
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Product Features
+
+      Designed for Speed
+      Print Flawlessly with Minimal Tuning
+      Smooth, Soft Texture
+      Ready for Outdoor Use
+      Diameter: 1.75 mm +/- 0.03 mm
+
+
+  Cautions for Use
+
+      AMS & AMS lite Compatible
+      Dry Out Before Use
+
+
+  Note: PETG HF must be dried before use to achieve optimal print quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6481a49ce4ab.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:56.037Z'
+updated_at: '2025-03-25T22:32:56.037Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2149
+packages:
+  - b3193866-2315-42f2-8eae-8d16c34122b0
+secondary_material_types: []
+opentag_uuid: 0bd77d3a-b514-53dc-8751-cbf363ec4169

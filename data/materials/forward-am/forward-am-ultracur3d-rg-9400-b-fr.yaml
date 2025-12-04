@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 848553ff-88e5-40e8-80c1-0a6d76883ffd
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: f0b70e74-5dcc-4857-afa3-bfc5b2ee7fb8
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: d6c966b9-cacc-4b1e-8177-9f539a811ca8
+slug: ultracur3d-rg-9400-b-fr
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® RG 9400 B FR
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/rigid-line/ultracur3d-rg-9400-b-fr/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Flame-Retardant Resin with UL 94 V-0 Rating and Superior HDT
+
+  Ultracur3D® RG 9400 B FR is a rigid, flame-retardant material that can be used for production parts requiring UL 94 V-0 rating. The material is halogen free, and in addition to its flame-retardant properties, it has a very high HDT, making it ideal for demanding applications in electronics, custom jigs & fixtures as well as replacement parts for industrial environments.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5c7b8260-a35d-435d-997d-7ca50160ab7d
+created_at: '2025-10-06T08:03:55.939Z'
+updated_at: '2025-10-06T08:03:55.939Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9504
+packages:
+  - b77c403e-e053-49b4-a128-67875619ad43
+  - eee166ce-9e03-4dbb-a6ad-5983afd10161
+secondary_material_types: []
+opentag_uuid: ca076473-4b5d-579b-b160-4b5b230053a4

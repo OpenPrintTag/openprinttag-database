@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.08000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: beb8cb02-693d-4825-a238-e32f01ca4d74
+  hardness_shore_a: 75
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 3d7b758c-263a-4476-ab85-ac9720fb1dd9
+uuid: e508ff01-bca0-4ee1-979e-2a92e3864a96
+slug: ultracur3d-el-60
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® EL 60
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/flexible-elastomeric-line/ultracur3d-el-60/
+primary_color: bdfab626-c8d0-4742-9590-ae8a821a7e47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Flexible Resin with Quick Elastic Response and Low Hardness (Shore 75 A)
+
+  Ultracur3D® EL 60 by Forward AM is a very versatile reactive urethane photopolymer for highly elastic applications, combining very good torsional strength and elongation at break with high softness (Shore 75 A) and low water uptake. It shows almost no compression set over time, and is very easy to print.
+thumbnail_url: null
+deleted_at: null
+deleted_by: c451b520-365d-4cb4-a587-aca39e057599
+created_at: '2025-10-06T08:24:20.717Z'
+updated_at: '2025-10-06T08:24:20.717Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9511
+packages:
+  - 55f6c756-b2c2-4f86-9c19-fc77382a8004
+  - 988dd4db-e431-4b60-af53-83c38b1b730e
+secondary_material_types: []
+opentag_uuid: 2d8332c1-4ded-51bb-92b9-d55145c1ec7e

@@ -1,0 +1,84 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d21219f3-3ec1-4f36-86ce-d51e2d1d24fc
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: c25e2246-2cc5-4fce-b767-a402801d5f9f
+slug: petg-sky-blue-t
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Sky Blue T
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410331-petg-sky-blue-t-1kg-5017?category=63#attr=830,3110,3109,832,3581,3582,3113,3114,833
+primary_color: 412279bf-af5d-428d-87de-0157024d2389
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Sky Blue T 1kg is a premium-quality 3D printing filament designed for producing strong, durable, and visually striking prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament offers the perfect balance of printability, strength, and flexibility, making it ideal for a wide range of applications. The translucent sky blue color provides a fresh, modern, and elegant look, perfect for both functional components and decorative projects.
+
+  This 1kg spool ensures consistent performance, smooth extrusion, and reliable printing, making it a top choice for both hobbyists and professionals. PETG Sky Blue T is well known for its superior layer adhesion, impact resistance, and flexibility, ensuring that your prints are not only visually appealing but also highly durable. Additionally, its moisture and chemical resistance make it an excellent choice for various environments.
+
+  Key Features:
+
+       High-Quality PETG Material – Combines the ease of PLA printing with the strength and durability of ABS.
+      Translucent Sky Blue Color – Provides a fresh and elegant appearance for a variety of applications.
+      Excellent Layer Adhesion – Reduces warping and ensures strong, high-quality prints.
+      Impact Resistance – Withstands shocks and mechanical stress, making it suitable for functional parts.
+      Chemical and Moisture Resistance – Performs well in humid environments and in contact with chemicals.
+      Easy to Print – Compatible with most FDM 3D printers, providing a smooth and efficient printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Durable enclosures and protective casings
+      Artistic and decorative modelsTransparent or light-diffusing design elements
+      Outdoor applications due to UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid direct contact with eyes and skin. In case of exposure, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Sky Blue T 1kg is a reliable and versatile filament for 3D printing, offering a perfect blend of strength, durability, and an eye-catching translucent sky blue finish. Whether you’re working on functional components, artistic designs, or modern decorative pieces, this filament guarantees high-quality results with a sleek and professional look.
+thumbnail_url: https://file.myfilamentlist.com/new/c25e2246-2cc5-4fce-b767-a402801d5f9f.png
+deleted_at: null
+deleted_by: 67631cc5-c5aa-48f7-b124-e4fe7c27a54b
+created_at: '2025-12-01T12:02:52.298Z'
+updated_at: '2025-12-01T12:02:52.298Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 894784f0-4ebe-4266-9838-2639e3019689
+secondary_material_types: []
+opentag_uuid: 849996f9-517e-57fa-bb39-2ac370476b3e

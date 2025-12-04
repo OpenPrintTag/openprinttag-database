@@ -1,0 +1,88 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/dc80b696d3b4.png
+    type: gallery
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 2bc668ba-8fe3-4825-96c8-c6eadd7d9f97
+slug: ngen-cf10
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: nGen-CF10
+abbreviation: nGen
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Our great all-round 3D printing filament just got better with the addition of a chopped carbon fiber blend. nGen-CF10 retains good toughness and adds the matte carbon fiber high quality surface finish look to your 3D printed parts. This filament is very easy to print and requires little to no adjustments compared to printing regular nGen.
+
+
+  Please note: A special point of attention is the abrasive nature of the carbon fibers. In general these fibers will accelerate the nozzle-wear of brass nozzles, much faster than unfilled filaments. We recommend to use from stainless steel nozzles or nozzles made with hardened copper alloys.
+
+  Pros
+
+  Easy to print carbon fiber filled material
+
+  Matte surface finish look
+
+  High temperature resistance 85C
+
+  Warp free printing.
+
+   
+
+  Cons
+
+  Needs hardened steel nozzle to minimize wear
+
+  Drying can be needed after sometime exposed to the environment
+
+   
+
+  Difference between XT-CF20 and nGen-CF10
+
+  The main difference between XT-CF20 and nGen-CF10 is the base polymer XT and nGen. This gives a slight advantage to nGen-CF10 in terms of temperature resistance, about 5-10C. The lower carbon fiber content also makes nGen-CF10 easier to work with an less susceptible to material accumulating around the nozzle during printing.
+
+  Drying of nGen-CF10 is recommended when users observe excessive stringing / oozing on travel moves. The melt of the material will become easier to control when dried properly at 70C for 4-9 hours depending on the time it has spend exposed to the environment.
+thumbnail_url: https://file.myfilamentlist.com/f/new/dc80b696d3b4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:25.707Z'
+updated_at: '2025-03-25T22:32:25.707Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1593
+packages:
+  - 108aff0a-c303-4674-aeae-6656178c6acd
+  - 1abc9409-84cb-437e-9323-ad8dc4248e70
+  - 94f1ae50-acdb-4916-81a2-0a7e13d9ae12
+  - 982d658c-50b9-4606-9586-88a813fcb6a4
+secondary_material_types: []
+opentag_uuid: c8979f7e-1d02-5a24-85b9-3d7678c0d2b7

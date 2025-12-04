@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3fa3c534-7ec0-4fd0-b126-8983b4f4daf0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - cccac441-8d20-451f-9d3c-217949e6a341
+  - 61441404-992b-413d-a008-07b49debce43
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: bde382ec-ff81-40a9-bc26-f1126b95d902
+slug: pla-stone-age-dark
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Stone Age™ Dark
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-stone/
+primary_color: 5f1ba83c-093e-44f7-b976-2882f1933618
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Get the unique stone look
+
+  Spectrum PLA Stone Age filament is a series of PLA-based material with admixtures to obtain an imitation of ?stony? structure of printed items. The Stone type filament, manufactured in two shades: Stone Age Light and Stone Age Dark, demonstrates excellent masking of layers, while printed items feel rough resembling real stone.
+
+  The original properties of Spectrum PLA Stone Age™ series filaments determine their applications for industries mostly related to the decorative art and architecture. Spectrum PLA Stone Age has been used to create dozens of models of objects which already exist as well as to visualise objects to be built.
+
+  Tip: The admixtures do not affect much the properties of printed items. A major aspect is the use of printing nozzles with diameters of 0.4mm or more. 
+thumbnail_url: null
+deleted_at: null
+deleted_by: 46a88a25-b595-4b8d-8e00-8de315199b93
+created_at: '2025-09-30T21:04:36.687Z'
+updated_at: '2025-09-30T21:04:36.687Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9441
+packages:
+  - 3117d1b2-07ce-4d7b-a4a9-655df1a70218
+  - d0545a47-4ab7-4291-a296-8a879edc3e6a
+secondary_material_types: []
+opentag_uuid: 3e28b5c1-9f9d-58b3-bd0e-5c2c6d32bd27

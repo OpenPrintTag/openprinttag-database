@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/044c6d60dd74.png
+    type: gallery
+uuid: 819bb3de-d04e-485b-a6cc-b0488288be09
+slug: max-g-petg-red
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: MAX-G PETG  Red
+abbreviation: null
+url: null
+primary_color: 67c24dbc-d22f-4ce9-9813-18592bdc3008
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  MAX-G PETG is a durable material that has excellent strength while remaining flexible. The base resin used in our PETG filament is FDA approved and has improved chemical resistance compared to PLA or ABS. It is suitable for cleaning with isopropyl alcohol as needed!
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/044c6d60dd74.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:21.045Z'
+updated_at: '2025-03-25T22:32:21.045Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1815
+packages:
+  - 160d776a-91e3-4f1d-9f75-a4f85b70586a
+  - 4c0109c0-de1c-4f14-aaf7-1cd9f30c9ea7
+  - b8dc4235-9bf4-486c-b12c-2b927ec047b3
+  - db30e64c-1125-4fa0-9ba7-9a0fd0673e5c
+secondary_material_types: []
+opentag_uuid: 06f19b9b-7f55-52ff-9f9f-f82581fb8ce2

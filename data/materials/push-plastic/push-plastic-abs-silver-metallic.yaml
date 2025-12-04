@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/78aa497fcd26.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: c3a4b260-50cf-4d35-89d6-dc1358ea9048
+slug: abs-silver-metallic
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Silver Metallic
+abbreviation: null
+url: null
+primary_color: dc09b020-2315-43d6-9b85-16b8dc7d9768
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  The benefits of ABS include:
+
+      Higher strength and flexibility compared to PLA
+      Higher temperature resistance over PLA
+      Machinability allows for end-use parts 
+      Finished parts can be vapor smoothed with acetone
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/78aa497fcd26.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T09:14:42.368Z'
+updated_at: '2025-04-30T09:14:42.368Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7322
+packages:
+  - 96a8f19f-e306-4f7f-8f87-82b9167b72bd
+secondary_material_types: []
+opentag_uuid: 9a2b3f62-1115-5d14-a13e-2f20c99ac75d

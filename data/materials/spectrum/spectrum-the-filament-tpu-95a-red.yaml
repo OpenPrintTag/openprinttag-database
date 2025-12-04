@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ea9775e0-b2f0-453e-b1e4-ee02cf68fb78
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 3f10ed05-f83c-4fe8-a550-e1fa4b5d4bc9
+slug: the-filament-tpu-95a-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament TPU 95A Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-tpu-95a/
+primary_color: e5ed4ede-599b-4976-bce5-f72c5de2e83f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  The Filament TPU 95A is a flexible filament that offers an excellent balance between durability, flexibility, and ease of printing. Designed for functional applications, it performs reliably wherever the material needs to withstand mechanical stress, deformation, and continuous use. Thanks to its precisely engineered formulation, the filament ensures smooth feeding and consistent results, even during longer print jobs.
+
+  Optimized layer adhesion, abrasion resistance, and high resilience make it ideal for producing technical parts, protective components, and shock-absorbing elements. Notably, the filament contains recycled materials, which helps reduce its carbon footprint without compromising performance or mechanical properties. The use of high-quality raw materials and strict process control ensure dimensional consistency and reliability in everyday use.
+
+  The Filament TPU is available in various Shore hardness grades, allowing users to select the desired level of flexibility – from very soft and stretchable to more rigid, structural variants.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 20480d53-9633-4924-900d-4f898b74f7f1
+created_at: '2025-10-17T08:25:06.531Z'
+updated_at: '2025-10-17T08:25:06.531Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 5d80e901-3100-4028-9cca-74cda3286145
+secondary_material_types: []
+opentag_uuid: b69b2af6-ff1c-5045-a80f-17593cf4df48

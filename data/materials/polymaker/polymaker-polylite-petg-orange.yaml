@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/68bb7f2848ec.png
+    type: gallery
+uuid: 399398ea-ba5e-4586-b4c4-bd6009935b53
+slug: polylite-petg-orange
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ PETG Orange '
+abbreviation: null
+url: null
+primary_color: f76de825-d914-4b42-882e-6e8f7eaf47b2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PETG is an affordable PETG filament with balanced mechanical properties and ease of printing.
+
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/68bb7f2848ec.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:39.867Z'
+updated_at: '2025-03-25T22:34:39.867Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3198
+packages:
+  - 43643edc-e5ac-43cd-af04-77ad81ae9e2f
+  - 4b8ef4d9-96d7-4543-b069-34049e7247ff
+  - 8c44cd9a-ccec-41f5-a596-c75fc2716f02
+  - bc3f0c80-1153-4117-b5a6-f80064aeb2d6
+  - bfd10d5a-dbbb-4d92-87c6-f4f5b49225c4
+  - e399461d-a384-4eb6-b8fa-d49338f049b2
+secondary_material_types: []
+opentag_uuid: 1cab87b5-eefc-5698-8294-b80761bf25a7

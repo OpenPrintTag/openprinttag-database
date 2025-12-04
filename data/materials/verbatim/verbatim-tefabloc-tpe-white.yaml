@@ -1,0 +1,61 @@
+uuid: a921000f-c622-4252-83cc-283727d46bcc
+slug: tefabloc-tpe-white
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Tefabloc TPE White
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-tefabloc-tpe-175mm-500g-white-55510
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Tefabloc TPE is a high performance flexible filament, offering excellent low temperature properties and a high level of hardness stability across a wide temperature range, making it particularly suited for outdoor applications. Tefabloc TPE is resistant to oil, grease, abrasion and solvents and suitable for applications requiring flexibility such as window seals, grips, holders, plugs, robot parts and protective components.
+
+  Product Details
+
+      - High performance thermoplastic polyester elastomer (TPE) for material extrusion
+      - Highly flexible
+      - Resistant to oil, grease, abrasion and solvents
+      - Good shape retention 
+      - Good weather resistance 
+      - Main applications: Flexible items such as brackets, insoles for shoes, hoses, bracelets, insulation, balls, wheels etc. 
+thumbnail_url: null
+deleted_at: null
+deleted_by: bf571eb3-ed3a-44d8-802a-45012185ab7e
+created_at: '2025-09-25T10:04:14.621Z'
+updated_at: '2025-09-25T10:04:14.621Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 9018
+packages:
+  - 5ab590dc-1f05-4ac7-8c18-9ba8d5f43495
+  - 9e04a057-f0a4-4302-938c-baba1a3a8782
+secondary_material_types: []
+opentag_uuid: 78a56c4a-01ae-555a-91ec-1d7d0e2574dd

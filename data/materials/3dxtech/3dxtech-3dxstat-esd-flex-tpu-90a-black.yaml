@@ -1,0 +1,75 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4fb0c40b-d673-4273-805a-c00b08ec6aa9
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/cc7895f3416c.png
+    type: gallery
+tags:
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+uuid: 0610f4cf-e99c-408f-9172-108e92c2335c
+slug: 3dxstat-esd-flex-tpu-90a-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 3DXSTAT ESD-Flex TPU [90A] Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  3DXSTAT ESD-Flex TPU [90A] [thermoplastic polyurethane] elastomer is an engineering-grade thermoplastic chosen for its balance of excellent flexibility, ease of printing, chemical resistance, and toughness. 3DXSTAT ESD Flex elastomeric filament has been formulated to offer ESD-Safe electrical conductivity with a target surface resistance of 102-103 Ohm.
+
+
+  Benefits of 3DXSTAT ESD-FLEX TPU
+
+      High elongation, over 300%
+      Shore 90A semi-flex hardness
+      Ease of printing compared to similar flexible materials
+      Excellent layer bonding
+      Outstanding fatigue resistance
+      Low moisture absorption
+      Retains flexibility even at low temperatures 
+
+
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/cc7895f3416c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:09.916Z'
+updated_at: '2025-03-25T22:31:09.916Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 23
+packages:
+  - 7b1f3a13-ac37-44f8-92d0-f500e616ee8e
+  - ad31c539-3d6b-4951-96a5-cdf875021483
+secondary_material_types: []
+opentag_uuid: ec9169e3-4145-5811-af71-8e8429d138f4

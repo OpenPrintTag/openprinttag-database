@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a15dd2ae6110.png
+    type: gallery
+uuid: c6be630a-6383-4c53-a9ed-73c3fb04df8b
+slug: petg-white-16
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/a15dd2ae6110.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:33:32.475Z'
+updated_at: '2025-04-30T12:33:32.475Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7379
+packages:
+  - 24aead7a-57c6-4465-b8fb-f7441b5a7ed9
+  - 58a05e16-07a2-466f-b1f0-c89e3cb2d31b
+  - 7192f3db-63b6-42ca-85dd-af768f835eeb
+  - a38c1023-ebfd-4f0e-9397-8d70429368cf
+  - a8908692-f943-4794-8554-41662ff0656a
+  - a99edc72-72e2-4eda-8002-383cb311c6f4
+  - b06c12ac-fa44-4b92-963f-e39bc3f71a4a
+  - be0164ef-5a01-4c05-b7d5-90a304c39b3d
+  - e1a00d66-7ef5-4d86-92b1-c92cf7984129
+  - f9fa1f68-8dcd-4265-8d1b-2ede1f0895d8
+secondary_material_types: []
+opentag_uuid: 9aa3c352-4dd3-5052-a930-566e058ec00c

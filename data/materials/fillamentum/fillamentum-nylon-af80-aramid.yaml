@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e2c948c9cbca.png
+    type: gallery
+tags:
+  - 4cb7aa76-f907-4d4b-b1de-104a4499f337
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 74bd8690-f0a2-49f2-9cb9-565fec591099
+slug: nylon-af80-aramid
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Nylon AF80 Aramid
+abbreviation: null
+url: null
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  This Polyamide 12 filament, reinforced with 8% aramid fibers, offers excellent chemical resistance, tribological properties, and high stability across a wide temperature range. Perfect for durable parts like bearings, cogwheels, and unwinding wheels, it withstands even harsh chemicals, including car fluids.
+
+   Exceptional mechanical properties retained from -40 degreesC to +140 degreesC
+   High wear resistance and low thermal expansion for demanding applications
+   Excellent chemical resistance to a wide range of substances
+   Safe for use in electrical equipment, BPA-free, and low emissions
+thumbnail_url: https://file.myfilamentlist.com/f/new/e2c948c9cbca.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.539Z'
+updated_at: '2025-03-25T22:32:26.539Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors:
+  - 1481
+packages:
+  - 043828bd-acdf-4355-8267-9e1ab4d71714
+  - 9e59569b-7b51-456f-92f2-877cec849655
+secondary_material_types: []
+opentag_uuid: 8e1ea46c-1bf2-5260-9fad-9f72f48c7f08

@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0289988a-c5c5-4579-ac5c-11d9993001db
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+secondary_colors:
+  - e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+  - 027889b2-61fe-40bc-8569-07e7e274ac69
+uuid: c8f0d147-7c53-4acf-b3fd-9f5f05e3035e
+slug: petg-transition
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Transition
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/petg-transition-filament?variant=42324577059075
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG filament, a derivative of PET (Polyethylene Terephthalate), is enhanced with glycol to create a high-performance material for 3D printing. This modification results in PETG transition filament, which offers superior characteristics compared to standard PET. Eolas Prints' PETG filament boasts improved thermal stability, making it suitable for applications requiring heat resistance. Its durability and chemical resistance contribute to the longevity of printed objects, while good sunlight resistance ensures that outdoor applications maintain their integrity over time. The high flexibility of PETG translates to exceptional impact resistance, making it an ideal choice for functional prototypes and end-use parts that may be subjected to stress or impact.
+
+  Why Transition Filament?
+
+  Transition filaments are produced during the color change process in manufacturing, resulting in a unique blend of two colors within a single filament. This innovative approach not only reduces waste typically generated during color transitions but also significantly decreases the carbon footprint of filament production. By utilizing transition filaments, Eolas Prints demonstrates a commitment to sustainability in 3D printing. Moreover, the distinctive appearance of objects printed with transition filament adds an element of uniqueness to each creation, appealing to makers who desire one-of-a-kind prints with minimal environmental impact.
+thumbnail_url: https://file.myfilamentlist.com/new/c8f0d147-7c53-4acf-b3fd-9f5f05e3035e.png
+deleted_at: null
+deleted_by: c7580e92-02e4-4bf6-8002-6302cbf752d8
+created_at: '2025-11-11T11:25:42.308Z'
+updated_at: '2025-11-11T11:25:42.308Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 17fd822d-91af-4b6d-a067-1f39371dfe06
+  - 4e82afec-1834-4817-b3b9-ef500c806967
+  - e015ec41-2c59-48cf-a2a9-8b952235d033
+secondary_material_types: []
+opentag_uuid: 74622446-a11e-5920-8dc2-aa0882d1847f

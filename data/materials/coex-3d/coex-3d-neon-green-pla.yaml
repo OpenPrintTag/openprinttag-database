@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b024dcbcb4fa.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ab03c915-f122-40a5-b451-00b2851b4eb3
+slug: neon-green-pla-3
+brand_slug: coex-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Neon Green PLA
+abbreviation: null
+url: null
+primary_color: 59d8dd61-d257-4552-8109-2d90096e9d94
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Coex 3D Neon Green PLA - The most environment-friendly 3D filament solution. Because of its low toxicity and ease of printing, PLA (Polylactic Acid) filament is a very popular choice in the 3D printing community. It looks great, is extremely easy to print with, and has generally good mechanical properties. It's perfect for prototypes and decorative models. We provide filament that gives excellent-looking and strong prints.
+
+  Coex's PLA is made with Virgin NatureWorks Ingeo 4043D resin, high-quality colorant only, and no fillers.
+
+  All of Coex 3D's filament is made in our production facility located in Wisconsin, USA.
+thumbnail_url: https://file.myfilamentlist.com/f/new/b024dcbcb4fa.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-28T19:56:52.845Z'
+updated_at: '2025-04-28T19:57:05.938Z'
+brand: 68f4f75c-636b-4da4-a6f2-a2950604cd0c
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7181
+packages:
+  - 30ff5213-25b7-4132-b734-6bfff00246ab
+  - 335d94d2-4eb4-4212-9270-29bdcaaf246d
+  - 41279153-1b0b-4edf-9878-a5a8c4bbeb91
+  - 51996ad9-c3e4-4311-82eb-c1ab9946a0cd
+  - 92552617-97e6-4d10-b868-8d5640030c88
+  - 965982df-bc9f-44b3-8e29-fcc59932a587
+  - a9d7d70f-63c3-4a9c-a547-319fdef30d41
+secondary_material_types: []
+opentag_uuid: 718f9f4c-48b2-5322-805f-167b1118f12c

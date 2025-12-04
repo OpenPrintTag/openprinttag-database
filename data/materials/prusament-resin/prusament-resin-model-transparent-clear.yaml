@@ -1,0 +1,57 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a55d8a25-3070-4d91-82a3-115a56567c06
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 68553e97-0cf7-4e3a-8485-133a0c5d018c
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 14aa5838-c1e7-4306-ac2a-5ef1280c0a44
+slug: model-transparent-clear
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Transparent Clear
+abbreviation: null
+url: https://www.prusa3d.com/cs/produkt/prusament-resin-model-transparent-clear-1kg/
+primary_color: 4cb66ac6-a849-4fc0-b970-3ab2095d2dda
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ae00efbc-76cd-425d-9581-7ebf6f166cd8
+created_at: '2025-07-02T06:23:09.400Z'
+updated_at: '2025-07-02T06:23:09.400Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9557
+packages:
+  - 5eedc0be-0157-4270-88e2-0913b8784f99
+  - db54d19b-4414-4fcb-9870-f3dd887c7540
+secondary_material_types: []
+opentag_uuid: 71e0c19a-af99-5851-95c2-53237122b9af

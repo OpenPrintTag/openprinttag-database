@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4d5a129b4841.png
+    type: gallery
+uuid: 39dc910b-1492-4b0c-8cb1-2e633afea348
+slug: 3dxstat-emi-petg-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 3DXSTAT™ EMI-PETG  Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Introducing our advanced EMI Shielding PETG filament, engineered to meet the demands of cutting-edge 3D printing applications where electromagnetic interference (EMI) is a critical concern. Crafted for high-performance and reliability, this filament is designed to provide exceptional shielding against electromagnetic signals, particularly in the 5GHz to 8GHz range. Whether you're creating prototypes, enclosures, or custom parts for electronics, our EMI Shielding PETG ensures your components stay protected from unwanted interference and maintain optimal performance.
+
+  Our EMI Shielding PETG filament boasts impressive test results, demonstrating superior shielding effectiveness that meets industry standards. The filament's unique composition not only enhances the electromagnetic shielding properties but also maintains the ease of use and durability that PETG is known for. With excellent layer adhesion, minimal warping, and high impact resistance, this filament provides a robust and reliable solution for engineers and hobbyists alike.
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/4d5a129b4841.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:10.023Z'
+updated_at: '2025-03-25T22:31:10.023Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 30
+packages:
+  - 00e222bf-7901-4dfe-b87a-d82836b8f5e8
+secondary_material_types: []
+opentag_uuid: d9ccb738-bf7f-5a90-a0de-eeb9f4b17c8a

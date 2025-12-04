@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/94a321d09f72.png
+    type: gallery
+tags:
+  - 82d7f94d-5fb1-4d74-ac09-17a65b37cd42
+  - e4b51bb5-75c7-484a-bf67-20f37016fc30
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7035466b-b94d-49e6-b690-95b11fefa755
+slug: wood-filament
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Wood Filament
+abbreviation: null
+url: null
+primary_color: bce7f9e5-5d20-476e-9d5c-bee5d7664404
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  3D Printing Wood Filament
+
+  Wood filament for 3D printing is a new FDM (Fused Deposition Modeling) filament that was developed to print wooden-like objects. This filament is comprised of recycled wood combined with PLA filament and some binding polymers. Therefore, printing our wood filament is similar to printing PLA filament. However, our wood filament is slightly less viscous when compared to PLA or ABS filament during printing. Please extrude a little extra wood filament at the beginning of a print to prevent dry extrusion.
+
+  Because 3D wood filament has real wood fibers, the print temperature can be adjusted during the print to produce differing shades of color. If the print temperature is adjusted by as little as 10 degrees mid-print, the resulting color will have a "grainy" look. Printing at lower temperatures will produce a brighter color, versus a print at higher temps will create a darker print.
+
+  The finished wood print will appear rough and similar to MDF, Medium Density Fiberboard. Also, increasing the retraction setting during slicing will reduce "leakage." After printing please allow thirty to sixty minutes for the print to sit and settle. The 3D wood print will appear delicate and time will allow the print to settle properly.
+thumbnail_url: https://file.myfilamentlist.com/f/new/94a321d09f72.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:50.140Z'
+updated_at: '2025-03-25T22:36:50.140Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 5532
+packages:
+  - 868bc62c-74e1-4e3c-8ba1-2b4abd9dbda3
+  - 879d570f-ab3f-47e0-ac10-23d72a82c447
+secondary_material_types: []
+opentag_uuid: 1b289f5b-12fa-5adc-85a6-cbf6cf4ef87f

@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a2430b8d7483.jpg
+    type: gallery
+tags:
+  - caf785fa-b389-437d-88a7-b4a13b05eb62
+  - 99903cc9-07cb-4a3a-93af-c7d72ff7ccd8
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - ae70f6e5-412c-44f7-8b93-20437976ae58
+  - bf997e3f-d4ef-4bf1-b24a-ab8aa1b82d37
+uuid: f7ff7346-ab7e-4a1b-913a-5f71c6064545
+slug: temperature-color-change-pla-green-to-yellow
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Temperature Color Change PLA Green to Yellow
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Color Change Filament with Temperature PLA filament.
+      From Green to Yellow.
+      Under 31C it looks Green and above that it starts getting Yellow.
+      Industrial & Scientific  Additive Manufacturing Products  3D Printing Supplies  3D Printing Filament
+thumbnail_url: https://file.myfilamentlist.com/f/new/a2430b8d7483.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T16:21:36.806Z'
+updated_at: '2025-04-03T15:43:21.953Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 6598
+  - 6599
+packages:
+  - d9963e09-c646-445a-8075-25e260924900
+secondary_material_types: []
+opentag_uuid: ba948665-cbb1-5869-811f-20ca77588bfa

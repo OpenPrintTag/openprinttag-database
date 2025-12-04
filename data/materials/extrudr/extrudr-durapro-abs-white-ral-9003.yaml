@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/df6aed9d0e85.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 4a244593-736d-49be-a0c7-c9cb670f1243
+slug: durapro-abs-white-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ABS white | RAL 9003
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ABS has been specially developed for industrial applications and is characterised by its high process reliability. It is ideal for the production of mechanically highly stressed components. The material is electrically insulating. DuraPro ABS is optimised for good layer adhesion, thermal stability, better flow properties and low warping. The raw material is approved according to REACH, RoHS and FDA standards.
+
+      For industrial applications
+      Flame retardant according to UL 94 HB
+      Electrically insulating
+      High mechanical strength
+      Low shrinking and warping
+      Excellent layer and bed adhesion
+thumbnail_url: https://file.myfilamentlist.com/f/new/df6aed9d0e85.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T19:32:28.450Z'
+updated_at: '2025-03-28T19:32:28.450Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 6133
+packages:
+  - 0635cc7d-f79d-4aec-ae35-6bfd9c222924
+  - 1c5fcf34-292f-437b-96b9-9c03fc24a93b
+  - 41aa8dee-ce54-463c-98d7-3b805aa18f2d
+  - 92ae8c2b-4523-45fb-8671-68826974a12f
+  - c7d3e1a6-0c35-4b85-a8de-d5150e22cda1
+  - f00d98ad-cbab-41c5-800e-239d88a2a696
+secondary_material_types: []
+opentag_uuid: 0772f343-3e04-5dc7-9ac4-8113d7fbc182

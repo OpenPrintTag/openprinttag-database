@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/filaments/new/orange_3ae70969-346e-4a31-b2f3-a8aa90c0a443.png?v=1731969096&width=720
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d5e750e9-2e31-432a-a29d-75785af4c789
+slug: polymax-pla-orange
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyMax™ PLA Orange '
+abbreviation: null
+url: null
+primary_color: f1085a5e-208f-41de-babe-314c9207c3af
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyMax™ PLA is an incredibly easy-to-print filament with improved mechanical properties, making it an excellent alternative to ABS.
+
+
+  Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/filaments/new/orange_3ae70969-346e-4a31-b2f3-a8aa90c0a443.png?v=1731969096&width=720
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:48.655Z'
+updated_at: '2025-03-25T22:34:48.655Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3423
+packages:
+  - 0bd9b821-5715-4135-b18a-022a4cf67306
+  - bdb961ed-e8e3-406b-a91f-ac5db09eb6a9
+  - d88f19a0-b324-4e10-a598-294e4d36f723
+  - db327187-175d-4257-a83e-79bba42c4a50
+secondary_material_types: []
+opentag_uuid: 0e55604e-50c9-5a19-8ec2-3cb920444d27

@@ -1,0 +1,77 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7a8dd8fe-5266-4cba-a615-4140f260feb1
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 47f65d81-5e98-4170-8bd8-a6258335a240
+slug: tpu-95a-black-3
+brand_slug: epax
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 95A Black
+abbreviation: null
+url: https://epax3d.com/collections/epax-filaments/products/epax-tpu-filament-1-75mm-1kg-2-2lb?variant=50516360003797
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  TPU 95A Flexible 3D Printing Filament, Dimensional Accuracy +/- 0.03mm
+
+      Excellent soft texture, with high resilience
+      High transparency for glass colors
+      Anti-UV, non-smelling, and environmental-friendly
+      Printing temp. is 170~220℃
+      Note that flex filament is soft. You need to take special steps to ensure smooth printing for this kind of material.
+
+  Advantages:
+
+      TPU rubber-based
+      Shore A Hardness at 95A
+      Tensile Strength of 30 MPa
+
+  Some common steps people take to print TPU:
+
+  1. Print slow, ~40mm/s
+  2. Doesn't require a heated bed or, if you do use one, we suggest a bed temp of 60-80℃
+  2. May require the use of a modified extruder for a smoother feed path
+
+  For customized colors, please email to sales@epax3d.com.
+thumbnail_url: https://file.myfilamentlist.com/new/47f65d81-5e98-4170-8bd8-a6258335a240.png
+deleted_at: null
+deleted_by: 15b1a76c-50ff-4f8c-b223-504830f74b69
+created_at: '2025-12-01T21:41:25.457Z'
+updated_at: '2025-12-01T21:41:25.457Z'
+brand: 49c44d6f-0e7f-4db1-9f0d-4e1be06483af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 7954ae15-19c1-4f44-8fd4-1db3664807c1
+secondary_material_types: []
+opentag_uuid: ea3a85a5-cf5d-5bc3-bc13-33e909e284c4

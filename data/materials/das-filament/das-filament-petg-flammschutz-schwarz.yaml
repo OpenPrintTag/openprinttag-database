@@ -1,0 +1,72 @@
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: c91a0fe0-8a27-4c60-aabb-88203df7d35c
+slug: petg-flammschutz-schwarz
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Flammschutz Schwarz
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/479/petg-filament-1-75-mm-flammschutz-schwarz-800-g?c=35
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Einstufung gemäß UL94 Testvorgaben:
+
+  UL94 HB  ✓
+
+  UL94 V0 ✓
+
+  (6 mm Prüfkörperdicke)
+
+   
+
+      Material: PETG (Polyethylenterephthalat Glycol) mit Flammschutzmittel (halogenfrei)
+      Temperaturbeständigkeit bis ca. 80 °C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800 g gewickelt auf Kunststoffspule (Bruttogewicht: 1050 g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05 mm)
+      Spulenabmaße: Außen: Ø 200 mm; Aufnahme: Ø 52 mm; Breite: 55 mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Schwarz - matte Oberfläche 
+thumbnail_url: null
+deleted_at: null
+deleted_by: 4125f9b9-b353-4ac9-9f36-8a4439d7f166
+created_at: '2025-10-19T08:45:34.418Z'
+updated_at: '2025-10-19T08:45:34.418Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 7d47657b-92c1-4185-944a-e4d8d951380e
+  - 8bdeee01-c56c-47e8-b2c6-dd0cbff551b7
+secondary_material_types: []
+opentag_uuid: d26c3e6e-ef2d-521f-bb97-9c4fdc7370e9

@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 584a01b2-7e2e-4ed0-a00b-ea2e3a8474a0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 623796f3-3aee-44b6-8fd1-ad1b29c3b1f9
+slug: smart-abs-dark-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: smart ABS™ Dark Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/smart-abs/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Durable and impact resistant
+
+  The specific qualities of Spectrum Smart ABS include a high impact resistance and relatively high rigidity. Smart version demonstrates improved processing parameters which considerably reduce the difficulties which accompany the additive manufacturing using the standard ABS. It is essentially the lower shrinkage and reduced emission of irritant volatiles during processing. An unquestionable advantage is that the material retains its properties at temperatures down to -40°C.
+
+  Compared to standard ABS, smart ABS is characterized by:
+
+      reduced shrinkage ratio,
+      shiny surface of the printout,
+      lower printing temperature,
+      increased flow rate
+
+  The possibility to conduct chemical treatments (acetone vapours) on Smart ABS provides for extremely smooth surfaces of printed items. Hence, items treated as above are used in the industrial design and broadly defined decoration-related industry.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5dbe5c4a-ef07-454a-9434-fbddbe9ada06
+created_at: '2025-10-15T15:07:52.430Z'
+updated_at: '2025-10-15T15:07:52.430Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 900420be-db18-5299-8748-75f342733c2c

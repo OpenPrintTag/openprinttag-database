@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f7432b490997.png
+    type: gallery
+uuid: 8f48ae5f-9b54-4448-a7bf-dfff127fbd36
+slug: polysmooth-pink
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolySmooth™ Pink '
+abbreviation: PolySmooth™
+url: null
+primary_color: 7bf76913-9f53-409f-a62d-e0eca5dc136f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolySmooth™ is a unique, easy-to-print filament designed for hands-free post processing. The surface can be smoothed with alcohol to achieve layer free models using the Polysher™.
+
+  -  Printing Requirements
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f7432b490997.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:50.387Z'
+updated_at: '2025-03-25T22:34:50.387Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: null
+colors:
+  - 3526
+packages:
+  - 1f1d3824-bc5d-4be8-b83f-75975fff6298
+  - 8890c21f-6a35-48d8-b69d-4d81daf4fc70
+secondary_material_types: []
+opentag_uuid: df65b07b-b203-5c34-bc39-13b48d22ea27

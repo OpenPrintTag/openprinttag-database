@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/454a6fd9c862.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7d652f08-3cb3-43cd-8398-039b5f02500f
+slug: standard-pla-midnight-black-3
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Standard PLA+, Midnight Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Standard PLA+ is a basic, entry-level PLA filament. It's available in a broad color selection and uses only virgin NatureWorks Ingeo 4043d PLA resin. No fillers or stretchers means a more predictable 3D printing experience. Because we don't use fillers, the ideal print temp might be 5-10C higher than your current PLA settings.
+
+  Our Standard PLA+, or Polylactic Acid, is among the most popular 3D printing materials in the world because it is easy to print and strong. Standard PLA+ is a hard plastic that produces a barely noticeable, but quite pleasant, sugary smell when extruding.
+thumbnail_url: https://file.myfilamentlist.com/f/new/454a6fd9c862.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:56.162Z'
+updated_at: '2025-03-25T22:35:56.162Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4344
+packages:
+  - 3ab48e01-a76d-4591-a765-ff8b99e001af
+  - 6a9511b9-9a8e-4d45-bfd9-1e1193f20ef9
+secondary_material_types: []
+opentag_uuid: 2dfbca07-8e8b-582e-92d8-7564f4889b87

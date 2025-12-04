@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.04000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e0ac7b9e-0996-4fc0-9dc3-f014e58ec922
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 32ed2032-ecd3-4753-b045-1b6372ef9a80
+slug: abs-red-3
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Red
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/abs-filament?variant=43499234787587
+primary_color: 6042ddb4-5ca7-4482-b0cd-6fcf65ec0104
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ABS represents a significant advancement in additive manufacturing materials, offering superior performance compared to standard ABS filaments. The material demonstrates exceptional durability and impact resistance, with key improvements in processing characteristics and mechanical properties.
+thumbnail_url: https://file.myfilamentlist.com/new/32ed2032-ecd3-4753-b045-1b6372ef9a80.png
+deleted_at: null
+deleted_by: acaa2a6b-fc91-4d42-8bd5-f7bb54012a52
+created_at: '2025-11-11T11:31:15.783Z'
+updated_at: '2025-11-11T11:31:15.783Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 71afa308-cc25-403f-984a-6c45453e94a6
+  - a1487dde-b945-4163-a32e-c9f7682b7e2f
+secondary_material_types: []
+opentag_uuid: a9660fcd-79fa-5bb0-bb70-67aa23c2390d

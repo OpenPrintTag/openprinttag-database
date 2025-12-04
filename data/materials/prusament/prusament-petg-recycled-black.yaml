@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5339a698-a892-4302-a264-a5f68fb27f32
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/85de509b4a32.png
+    type: gallery
+tags:
+  - 033050b8-25bb-4f28-aca3-dccc4d8f8efd
+uuid: f8bebccb-f52b-44c0-b69c-b0df13f258f2
+slug: petg-recycled-black
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Recycled Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Prusament PETG Recycled is our own in-house made filament with ±0.05mm manufacturing tolerance. 100 % of the material consists of recycled Prusament PETG materials, so every batch has a different color. You can inspect the parameters of every spool we made at prusament.com.
+
+  Prusament PETG Recycled is our own in-house filament. 100% of the material consists of shredded Prusament PETG filaments that didn't pass our strict control, so every batch has a different color. Due to its excellent layer-to-layer adhesion, PETG prints are ideal for indoor and outdoor waterproof applications. Furthermore, PETG is a tough material with good high-temperature resistance. The G in the acronym stands for a glycol-modified substance that is present during the manufacturing process. It modifies the properties of PET, so that it's easier to print, less brittle, and clearer when printing with semi-transparent variants. PETG has a low thermal expansion, so even when printing big objects, and without an enclosure, it rarely lifts from the bed and warps. In addition to that, PETG has a healthy amount of flex which can prevent parts from breaking under pressure. We use PETG to print parts for our printers! 
+thumbnail_url: https://file.myfilamentlist.com/f/new/85de509b4a32.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:59.479Z'
+updated_at: '2025-03-25T22:32:59.479Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2272
+packages:
+  - 8a362e9f-aca4-46d4-884c-d024c5d3e5c0
+  - f888733e-f7fa-46c9-9262-d28ac2a2b795
+secondary_material_types: []
+opentag_uuid: 2c921997-28f8-5af3-8fdf-ea4bd7c58652

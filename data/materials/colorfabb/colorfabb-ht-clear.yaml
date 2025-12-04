@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3f51a102f706.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 2e0b3672-1e24-4de4-91ea-db0766ef885e
+slug: ht-clear
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'HT Clear '
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Based on Eastman Chemical Company's signature TritanTM technology, colorFabb_HT is a dedicated engineering grade, high-temperature resistant 3D printing filament. Our colorFabb_HT Clear is the go-to filament for clarity and strength. It is the engineer's choice to create durable and strong parts.
+
+      FDA food contact compliance
+      High Temperature Resistance
+      Ultra Tough
+thumbnail_url: https://file.myfilamentlist.com/f/new/3f51a102f706.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:06.454Z'
+updated_at: '2025-03-25T22:32:06.454Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: 4fca8d6e-48ab-42e8-bfee-75788e756d52
+colors:
+  - 1528
+packages:
+  - 07463d9d-c8f8-45b0-8abc-0266a9140e62
+  - 666a0c5d-6ed6-4cde-afa9-9a5bd1570a8d
+  - b4af7a2a-95ec-4438-b93a-cfb665fedf32
+  - d64de52c-f2a7-4e6f-8cee-3d42a2f61829
+secondary_material_types: []
+opentag_uuid: 9c6ce974-98c4-5145-a3b0-8f07457c3cd7

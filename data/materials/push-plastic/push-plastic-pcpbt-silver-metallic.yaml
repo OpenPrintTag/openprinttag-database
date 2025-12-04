@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/22e3e3508391.png
+    type: gallery
+uuid: be5ca432-ad02-4c3e-aad8-ec1b6a889f20
+slug: pcpbt-silver-metallic
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC+PBT Silver Metallic
+abbreviation: null
+url: null
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PC+PBT (Polycarbonate + Polybutylene Terephthalate) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Superior stiffness/ductility balance
+      Great structural integrity and drop impact performance
+      Excellent fatigue performance
+      High chemical resistance to motor oil and grease
+thumbnail_url: https://file.myfilamentlist.com/f/new/22e3e3508391.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T11:41:23.514Z'
+updated_at: '2025-04-30T11:41:23.514Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 7353
+packages:
+  - 516417ba-5dcb-4dc6-a16b-f4e58fbb69f9
+  - 89bdc346-9274-4bb7-9f49-211f90b3665e
+  - 93056632-4017-40ce-9aa2-ff78dec4378f
+  - c22a75dc-056c-46d5-85ea-6b76acba1f6a
+  - cc82a900-25c0-4457-a8de-619a8f323f5c
+  - d91c79c7-fb2c-4f3c-9c58-b796d3742a7e
+secondary_material_types: []
+opentag_uuid: ee0c3cdf-2ea0-58c7-90da-07f91c217510

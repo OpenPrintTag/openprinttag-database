@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ca4689da-5ea8-4456-8a8f-98e1ac1d147f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: cbdf6fd3-925f-4233-a28b-e360fd5cd104
+slug: pla-pro-pacific-blue-3
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA PRO Pacific Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-pro-winkle-175-mm-1-kg-azul-pacifico/
+primary_color: e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Print strong, technical parts with a professional finish—without the hassle.
+  Winkle’s PLA PRO Filament is designed to offer you the best of both worlds: the easy printability of PLA and the advanced performance of ABS.
+
+  This filament is perfect for functional, industrial, or prototyping applications. It provides superior thermal resistance and an impeccable aesthetic finish.
+  Thanks to its high crystallinity, PLA PRO withstands over 95 °C after annealing and maintains exceptional dimensional stability with virtually no shrinkage. It also enhances the visual appearance of printed pieces, hiding layer lines and adding an elegant texture.
+
+  This 1.75 mm 3D filament combines impact resistance, strong layer adhesion, and high flow, allowing you to print faster without sacrificing quality.
+thumbnail_url: https://file.myfilamentlist.com/new/cbdf6fd3-925f-4233-a28b-e360fd5cd104.png
+deleted_at: null
+deleted_by: 4a446526-9444-4640-b154-be3880ced684
+created_at: '2025-11-21T23:05:55.694Z'
+updated_at: '2025-11-21T23:05:55.694Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 24f29078-f4a8-4d14-8f31-80f9545d032e
+  - 6312a0ec-3fad-4d42-8cae-fa40cb0271e9
+secondary_material_types: []
+opentag_uuid: af066058-6645-5d07-94ae-5f08a68e3df4

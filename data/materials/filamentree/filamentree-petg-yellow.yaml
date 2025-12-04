@@ -1,0 +1,85 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e159bf23-92ab-4663-9647-4569967b6b51
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 7b07813f-9dd5-4681-9f01-edebdb3cd460
+slug: petg-yellow-5
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Yellow
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410241-petg-yellow-1kg-5009?category=63#attr=814,3116,3115,816,3569,3570,3119,3120,817
+primary_color: 2443bde2-a153-44e0-8103-c2d8f43bcc81
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Yellow 1kg is a high-quality 3D printing filament designed for producing strong, durable, and visually appealing prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament offers an excellent balance between ease of printing, strength, and flexibility, making it an ideal choice for a variety of applications. The vibrant yellow color ensures a bold, high-visibility finish, perfect for both functional and decorative models.
+
+  This 1kg spool guarantees consistent performance, smooth extrusion, and reliable printing, making it suitable for both hobbyists and professionals. PETG Yellow is known for its superior layer adhesion, impact resistance, and durability, ensuring that your prints are not only aesthetically pleasing but also long-lasting. Additionally, it is resistant to moisture and chemicals, increasing its versatility for different environments.
+
+  Key Features:
+
+      High-Quality PETG Material – Offers the printability of PLA with the durability and flexibility of ABS.
+      Bright Yellow Color – Provides a high-visibility, bold, and attractive finish.
+      Excellent Layer Adhesion – Minimizes warping and ensures strong, high-quality prints.
+      Impact Resistance – Withstands shocks and mechanical stress, making it ideal for durable components.
+      Chemical and Moisture Resistance – Suitable for use in humid environments and in contact with chemicals.
+      Easy to Print – Compatible with most FDM 3D printers, ensuring a smooth and efficient printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical components
+      Durable enclosures and protective casings
+      Artistic and decorative models
+      Safety and high-visibility applications
+      Outdoor applications due to UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid direct contact with eyes and skin. In case of exposure, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Yellow 1kg is a reliable and versatile filament for 3D printing, offering a perfect blend of strength, durability, and a striking yellow finish. Whether you’re working on functional components, artistic designs, or high-visibility safety prints, this filament guarantees high-quality results with a bold and professional look.
+thumbnail_url: https://file.myfilamentlist.com/new/7b07813f-9dd5-4681-9f01-edebdb3cd460.png
+deleted_at: null
+deleted_by: c490bc7d-94bc-4a76-b7f1-e311ef9ec34f
+created_at: '2025-12-01T11:37:05.449Z'
+updated_at: '2025-12-01T11:37:05.449Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 50a0131e-bf02-451b-bcd9-9774e18e45f8
+secondary_material_types: []
+opentag_uuid: 45799fe6-6c75-572a-afa9-93be1ab45bb2

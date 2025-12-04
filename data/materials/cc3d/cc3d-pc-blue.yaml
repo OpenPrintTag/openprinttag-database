@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/da79963493de.jpg
+    type: gallery
+uuid: 3c9c7b8b-738e-4dab-b8ad-446c2f4121d0
+slug: pc-blue
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC Blue
+abbreviation: null
+url: null
+primary_color: 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Heat resistant filament.
+      Can withstand temperatures: 110 degreesC
+      Harder and stronger than ABS filament.
+      Modified filament, not 100% pure PC. (50% PC + 45% PETG + 5% Other Materials).
+      Recommended printing temperature: 255-265 degreesC; Recommended print speed: 30.60 mm/s; Heated bed: 90.105 degreesC.
+thumbnail_url: https://file.myfilamentlist.com/f/new/da79963493de.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T17:50:31.125Z'
+updated_at: '2025-03-31T17:50:31.125Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 6016
+packages:
+  - ffac2b2a-4bc0-45a8-9d33-8d7226e5125c
+secondary_material_types: []
+opentag_uuid: 68a6526e-6fab-5414-98d6-4add5e67c246

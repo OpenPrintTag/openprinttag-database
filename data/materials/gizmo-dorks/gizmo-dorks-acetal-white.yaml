@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/05265d31b256.png
+    type: gallery
+uuid: c5242ee5-3cce-4f70-a212-11e9e52d4c80
+slug: acetal-white-3
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Acetal White
+abbreviation: null
+url: null
+primary_color: 51a09628-4651-41cf-b737-8460eb45fc86
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyoxymethylene (POM) filament is also known as Acetal or Polyacetal. It is a commonly used thermoplastic to engineer specific parts. Acetal filament has high stiffness, low friction, and excellent wear resistance. It has good elastic resilience and great dimensional stability. Because of it's low friction, POM is routinely used as gear wheels, ball bearings, etc.
+
+  Extrusion Settings - The recommended print temperature is between 210 C - 225 C. Please note that acetal degrades when overheated and may give off small amounts of formaldehyde gas. Do not keep acetal heated above 230 C. Therefore, please always use in a well ventilated area or in a ventilation system.
+
+  Print Bed - The hardest part to printing acetal filament is getting the first layer to adhere. POM filament does not typically adhere to conventional 3D print bed surfaces. Some users have found great success with drywall joint tape as their bed surface. Some users have found success with blue painters tape with hairspray on top (different blue tapes and hairspray brands have different results). However, POM filament prefers wood or cellulose based platforms. Thicker weight paper such as resume paper or sketch paper can be glued to borosilicate glass with Elmer's glue stick. A heated bed should be used to at least 100 - 110 C.
+
+  Special Note - POM filament warps a lot. An enclosed chamber should be used to retain heat for better layer adhesion and reduce delamination issues. Please keep acetal away from moisture and always keep filament in an airtight container with a desiccant.
+
+      Extrusion Temperature: 210 - 225 C
+      Heated Bed: 110 C
+      Print speeds : 30mm/s
+      Diameter: 1.75mm or 2.85mm +/- 0.03mm
+      Net Weight: 200 grams
+      Available Colors in 200g Size: Black and White
+
+   Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to try the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/05265d31b256.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:12.926Z'
+updated_at: '2025-03-25T22:31:12.926Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 888effcb-b156-4560-96cd-f5072a490c7f
+colors:
+  - 487
+packages:
+  - 8a8072e9-4c7c-43d7-ad4e-991dfb56fbd1
+  - 8e54a4c2-4815-49b4-943b-76237ba16aef
+secondary_material_types: []
+opentag_uuid: 8ce77acd-5860-5a98-ae2f-5ce9cb693347

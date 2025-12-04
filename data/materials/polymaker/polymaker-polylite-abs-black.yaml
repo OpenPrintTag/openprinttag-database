@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a2adaf2dbbf7.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: c78a5733-bd4c-41b6-b2f1-ae7345179a82
+slug: polylite-abs-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ ABS Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ ABS is made with a specialty bulk-polymerized ABS resin, which has significantly lower volatile content compared to traditional ABS resins. It delivers excellent printing quality with minimal odor during printing.
+
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+
+  If using a stock, older style printer - we would recommend printing slower. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/a2adaf2dbbf7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:32.294Z'
+updated_at: '2025-03-25T22:34:32.294Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3180
+packages:
+  - 2cfadac1-decf-4a84-94a7-33c1ec36d34e
+  - 4748f0ca-880e-4826-ab80-9b22d26f5b5b
+  - 63f86a80-161c-4f7f-96af-26156a042a12
+  - 8bd9e21a-e968-4f99-9343-6a22273df22b
+  - bfe66d0a-0373-431c-bfbb-edf32f8f1778
+  - d98b466d-528a-4c94-9a58-a4bd9cd9e6b3
+secondary_material_types: []
+opentag_uuid: 3c9f58cc-46b2-55cf-922e-03d4929528b2

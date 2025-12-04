@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/eb94dca10693.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d5ef35c1-7136-4c61-9abd-854a1d24174e
+slug: rapid-pla-aurora-purple
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PLA Aurora Purple
+abbreviation: null
+url: null
+primary_color: 0a165cb6-53d4-4b74-b9d8-8461c26a2554
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PLA filament features rapid melting and smooth flow, enabling speeds up to 500mm/s (many models reach 600+ mm/s due to variable fill rates), ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Precise Dimensions and Consistency - Features CCD diameter measurement and adaptive control, maintaining a strict 1.75mm diameter with +/- 0.02mm accuracy for smooth and precise extrusion.
+thumbnail_url: https://file.myfilamentlist.com/f/new/eb94dca10693.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:07.430Z'
+updated_at: '2025-03-25T22:35:07.430Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3570
+packages:
+  - 19ce1565-b849-4db8-a5c8-9aa6d870ddb8
+secondary_material_types: []
+opentag_uuid: 4fb99e99-d21d-50a0-9782-155634fb7657

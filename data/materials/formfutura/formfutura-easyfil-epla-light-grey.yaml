@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a4ad6e30d0af.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: b95d9610-5542-40af-8a8e-723a286ac662
+slug: easyfil-epla-light-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil ePLA Light Grey
+abbreviation: null
+url: null
+primary_color: e28a4749-344c-4e99-8ece-e693adb546f4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil ePLA is your go-to PLA filament for 3D printing. This PLA filament comes at an unbeatable retail price of €19,99 per kg and wide availability in colors and spool sizes.
+
+  Suitable applications
+
+      Functional prototyping.
+      Creating visualization aids.
+      3D printing manufacturing aids.
+      Making detailed concept models.
+thumbnail_url: https://file.myfilamentlist.com/f/new/a4ad6e30d0af.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:26.145Z'
+updated_at: '2025-03-25T22:31:26.145Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 693
+packages:
+  - 125d2947-ce65-4d04-89a0-279d8b34ad51
+  - 49ff8118-a673-430c-9a6d-704a2338a890
+  - 59228f0a-6f25-4863-9e58-e5f11e854a73
+  - 5adacc80-0080-4a14-9f83-2f69714ea24f
+  - 76b0bff2-72a6-4f4b-866d-6b58a01b804d
+  - 8b31ce3a-c542-49be-bd8d-da074c9a03b0
+  - a969d668-706f-4ac0-96af-86c32f766451
+  - de547c31-ec3f-49c6-89af-e17f76e776fb
+  - e06609f6-e472-4452-b476-b89c7e41c872
+  - f6066b4e-8e6a-43f4-8211-a252446f7810
+secondary_material_types: []
+opentag_uuid: 4510c34c-3f67-51d1-b935-22b19d7974ca

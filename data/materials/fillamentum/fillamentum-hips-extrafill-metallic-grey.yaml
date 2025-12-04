@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6c4b45b5e0a6.png
+    type: gallery
+uuid: b6c0d0eb-5333-4ea1-b084-9a6de81c7d5a
+slug: hips-extrafill-metallic-grey
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS Extrafill "Metallic Grey"
+abbreviation: null
+url: null
+primary_color: 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  HIPS Extrafill is a versatile filament ideal for support structures, dissolvable in Lemonesol, and perfect for complex dual-extrusion prints. It also excels in functional parts with high impact strength, thermal resistance, low moisture absorption, and excellent insulation.
+
+
+      Excellent chemical resistance
+      Food-safe and BPA-free
+      Matte finish with easy post-processing
+      High impact and heat resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/6c4b45b5e0a6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:03.995Z'
+updated_at: '2025-03-25T22:32:03.995Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 1403
+packages:
+  - 14a4a6df-5ff6-478c-a4d8-6bc7b98c3328
+  - 79947fa3-aeb7-4216-b32c-98dc654ca430
+secondary_material_types: []
+opentag_uuid: a7628f46-f85b-5507-80ba-65b45f59bae6

@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b457e5d8-2b2c-4af6-a5ec-01c66c529916
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 8679ff88-e5d6-4bd9-b3bf-6e4db3fe9bc3
+uuid: 651f59aa-71dc-49d2-a35e-49dec503d369
+slug: cubic-ink-high-temperature-1901-vp
+brand_slug: altana
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Cubic Ink® High Temperature 1901 VP
+abbreviation: null
+url: https://www.altana.com/cubic-ink/resins.html
+primary_color: null
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: 28cf0724-3015-4445-aebb-d43470bd5922
+created_at: '2025-10-06T09:14:17.276Z'
+updated_at: '2025-10-06T09:14:17.276Z'
+brand: f9e0e423-61ea-4840-9b0b-3752c2f56a1f
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors: []
+packages:
+  - 44cefb41-dd68-4849-b9d8-bfa019ae92ba
+  - dd771cf4-d1a0-4377-b4b7-a3384c0753f1
+secondary_material_types: []
+opentag_uuid: 1765af93-f598-5dff-abd7-59d23c83e237

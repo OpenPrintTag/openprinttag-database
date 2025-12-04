@@ -1,0 +1,58 @@
+uuid: 520b78bd-9ed6-4c1e-a49d-ab3fd35ceed7
+slug: pla-black-17
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Black
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-filament-1-75-mm?variant=42329911853315
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Eolas Prints presents a high quality PLA filament engineered for exceptional performance in 3D printing. The 1.75 mm diameter ensures wide compatibility with a diverse range of 3D printers, providing a reliable and seamless printing process for hobbyists and professionals. This material is designed to produce precise, consistent results, making it ideal for detailed prototypes, artistic creations, and functional parts.
+
+  The Eolas Prints collection includes over twenty vibrant colors, from deep black to radiant blue, offering extensive creative freedom. A significant advantage of this pla filament is its composition, which is suitable for food contact applications. This specialized feature enables the safe creation of custom kitchen utensils, containers, and other culinary projects, expanding the possibilities of your 3D printing work.
+thumbnail_url: https://file.myfilamentlist.com/new/520b78bd-9ed6-4c1e-a49d-ab3fd35ceed7.png
+deleted_at: null
+deleted_by: f813aaa0-574b-4fea-b3fe-f35a223ac703
+created_at: '2025-11-10T20:44:14.508Z'
+updated_at: '2025-11-10T20:44:14.508Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0a9706a3-9c43-4785-91d8-46ed3e885a9e
+  - 1a08fb3c-7e21-43c4-b65a-7f60161619d5
+  - 231dec5b-5149-4c3c-b680-0361e747603f
+  - 67b253a1-4259-4075-8217-9ecf20518505
+  - ce31b371-5a47-4011-96d8-f4c3226d3a8a
+  - d52bc6fa-4186-4c84-88a6-c6d1769d4a35
+  - dbc74c49-6e94-4df7-93ed-2d2326419caa
+secondary_material_types: []
+opentag_uuid: eee53066-025d-56e0-bfbc-9c8674cced4d

@@ -1,0 +1,84 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7f3da26e-4326-4c06-aeaf-9f39f7caf094
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 1854186b-c744-470e-a728-aecaf14093ca
+slug: petg-blue-lagoon
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Blue Lagoon
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410251-petg-blue-lagoon-1kg-5006?category=63#attr=705,3025,706,707,3583,3584,3028,3029,708
+primary_color: 9ff71ced-a991-4871-802b-5d6e03ebbbdb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Blue Lagoon 1kg is a high-quality 3D printing filament designed for creating strong, durable, and visually striking prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament combines the ease of printing of PLA with the strength and flexibility of ABS, making it an excellent choice for a wide range of applications. The vibrant blue lagoon color offers a stunning, eye-catching finish, perfect for both functional parts and aesthetic models.
+
+  This 1kg spool provides consistent performance and reliability, making it suitable for hobbyists and professionals alike. PETG Blue Lagoon is known for its excellent layer adhesion, impact resistance, and flexibility, ensuring that your prints are not only visually stunning but also robust and long-lasting. Additionally, it is resistant to moisture and chemicals, enhancing its versatility for various environments.
+
+  Key Features:
+
+      High-Quality PETG Material: Combines the ease of use of PLA with the strength and durability of ABS.
+      Vibrant Blue Lagoon Color: Offers a stunning, eye-catching finish suitable for a wide range of applications.
+      Excellent Layer Adhesion: Ensures strong and reliable prints with minimal warping.
+      Impact Resistance: Withstands shocks and impacts, making it ideal for functional parts.
+      Chemical and Moisture Resistance: Suitable for use in environments where exposure to chemicals or moisture is a concern.
+      Easy to Print: Compatible with most FDM 3D printers, providing a smooth printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Durable containers and enclosures
+      Artistic models and decorative items
+      Outdoor applications due to its UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid contact with eyes and skin. In case of contact, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Blue Lagoon 1kg is a versatile and reliable filament choice for 3D printing, offering a perfect balance of strength, durability, and aesthetic appeal. Whether you're creating functional parts or artistic models, this filament ensures high-quality results with a vibrant, eye-catching finish.
+thumbnail_url: https://file.myfilamentlist.com/new/1854186b-c744-470e-a728-aecaf14093ca.png
+deleted_at: null
+deleted_by: 54223c19-d3dc-499a-9f25-a76a608512b2
+created_at: '2025-12-01T12:04:43.832Z'
+updated_at: '2025-12-01T12:04:43.832Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 4159c359-6cfb-41a0-a339-76d1652a292c
+secondary_material_types: []
+opentag_uuid: 225269b3-7c3e-56c8-acdc-5f3b2b7c8d87

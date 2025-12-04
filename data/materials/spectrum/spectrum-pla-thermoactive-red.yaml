@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 066d4d79-e79d-41be-980c-36d23fa4e7ce
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 99903cc9-07cb-4a3a-93af-c7d72ff7ccd8
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - 24ba2cef-4188-405b-b707-94296d02c914
+  - 6042ddb4-5ca7-4482-b0cd-6fcf65ec0104
+uuid: cbf34b6d-b52b-4445-ac7b-184b56d0c9d9
+slug: pla-thermoactive-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Thermoactive Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-thermoactive/
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Colour changing ability
+
+  Spectrum PLA Thermoactive is a filament based on pure PLA blended with a thermochromic pigment. Due to this extremely original addition, additive manufactured items change their colour according to the temperature. The colour changes from red to cream once the surface temperature of the item exceeds 30°C. The previous colour is restored gradually once the item reaches its initial temperature.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7ea02653-b0a2-4754-95f0-222d1092f6a8
+created_at: '2025-09-30T21:07:44.088Z'
+updated_at: '2025-09-30T21:07:44.088Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9443
+  - 9444
+packages:
+  - 2f75d479-95dd-48bb-b537-34df22aec7fb
+  - fd5c479b-5276-4c59-bd53-511bca409035
+secondary_material_types: []
+opentag_uuid: 1f95ae24-6bf3-5891-a309-2df4f2bba4af

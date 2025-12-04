@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/fa14540e7b49.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7d197b72-90cb-4997-b240-9de88480844e
+slug: pla-economy-light-gray
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Economy Light Gray
+abbreviation: null
+url: null
+primary_color: e28a4749-344c-4e99-8ece-e693adb546f4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PLA Economy is a high quality 3D printing filament, available on XL and larger spools only in a limited amount of colors. With the added impact modifier it is a bit tougher than your average PLA filament. By keeping the portfolio limited and on large spools only we are able to keep the price per kg as low as possible.
+
+  PLA Economy is a perfect solution for users in need for large volumes of quality filament at an affordable price.
+thumbnail_url: https://file.myfilamentlist.com/f/new/fa14540e7b49.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:27.076Z'
+updated_at: '2025-03-25T22:33:27.076Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2553
+packages:
+  - 4060cca9-0597-4894-80f2-306192101869
+  - 4fd28e01-9c58-40f2-b070-0fbdf0e16ee8
+  - 86cb490a-fc37-4348-a3b8-24b6b8727ed9
+  - 9c24fb54-aa45-40ef-8322-4a5b4bf8d892
+  - ac5eac75-8bf7-4cf9-8e1a-3a55e14f6100
+  - c4169e0e-74c0-4369-964b-a001827a6419
+secondary_material_types: []
+opentag_uuid: b8288e57-803b-57cb-bd05-424a07e8a2c8

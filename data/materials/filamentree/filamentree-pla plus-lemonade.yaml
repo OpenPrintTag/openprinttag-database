@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7cbb862b-4c36-47d0-9856-185e9a6c1a5e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 79fe54c0-a156-4200-a5d1-5e1e8a2b8f5f
+slug: pla-plus-lemonade
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Lemonade
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/filament-pla-plus-jet-black-6101?category=59#attr=3436,3431,3428,3429,3531,3433,3434,3435,3430
+primary_color: bc359bc5-22e4-447c-8479-2fcd56997b9a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Lemonade is a high-quality 3D printing filament featuring a bright, refreshing yellow color that brings energy and visibility to every print. This enhanced PLA Plus material combines increased durability with a vibrant, uplifting appearance, making it ideal for functional components, creative designs, and eye-catching presentation models. Whether you're printing practical parts or cheerful decorative pieces, this filament ensures premium performance and a vivid, clean finish.
+
+  Key Benefits:
+
+      Bright & Refreshing Color: A lively yellow shade that stands out instantly – perfect for models requiring high visibility or a positive, playful aesthetic.
+      Enhanced Strength & Durability: PLA Plus offers superior impact resistance and improved flexibility compared to standard PLA, ensuring reliable and long-lasting prints.
+      Smooth Printing Experience: Excellent layer adhesion, minimal warping, and wide compatibility with most 3D printers. Ideal for both beginners and experienced users.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable and responsible 3D printing.
+
+  Applications:
+
+      Decorative & Artistic Projects: Create bright accents, cheerful sculptures, modern decor, or design elements that radiate positivity.
+      Functional Parts: Ideal for casings, handles, brackets, and prototypes that require strong mechanical properties with increased visibility.
+      Educational & Presentation Models: Perfect for school projects, teaching tools, and visual demonstrations.
+      Toys & Gadgets: Print colorful toys, puzzles, and accessories with an engaging and playful look.
+      Branding & Promotional Items: Produce standout promotional pieces or custom signage with a bold, memorable yellow tone.
+
+  Ideal For:
+
+      Users who want a bright, attention-grabbing filament color.
+      Projects that require a balance of durability, visibility, and aesthetic appeal.
+      Makers who prefer eco-friendly, sustainable printing materials.
+      Designers and engineers creating models that benefit from a clean, vibrant finish.
+
+  PLA Plus Lemonade is the perfect choice for creators seeking a premium, durable filament with a joyful and striking yellow finish. Bring your ideas to life with clarity, color, and confidence! 
+thumbnail_url: https://file.myfilamentlist.com/new/79fe54c0-a156-4200-a5d1-5e1e8a2b8f5f.png
+deleted_at: null
+deleted_by: 1c23bba0-74c9-42cd-b706-a4cd419f5e02
+created_at: '2025-12-01T10:16:14.249Z'
+updated_at: '2025-12-01T10:16:14.249Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - bc63d689-81a9-4cee-a4ad-93bae651cc5c
+secondary_material_types: []
+opentag_uuid: 9ad258af-3beb-571a-8eb3-4e2598542cfb

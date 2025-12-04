@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 666327aa-5634-4ab5-9ea8-129ec192e5ed
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f9c6ff42-6ee7-4b2b-93b2-d18a6d210109
+slug: pla-glow-in-the-dark-blue-3
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Glow in the Dark Blue
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-glow/
+primary_color: null
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Spectrum PLA Glow in the Dark is a PLA-based filament blended with a concentrated phosphorescent pigment which causes the phosphorescence effect. Accordingly, once the printed items are exposed to an external light source, they will emit their own light. The material has all the typical characteristics of the pure PLA ? the added pigment has a neutral impact on the material’s properties.
+
+  The addition of a phosphorescent supplement to PLA provides for the following properties in printed items:
+
+      The capability to emit own light after prior exposure to an external source of light, and
+      The possibility to ?control? the light intensity of printed items by adjusting the wall thickness and filler density.
+
+  Tip: To achieve a stronger and longer lasting glowing effect, leave the model exposed to light for a longer time. The presence of phosphorescent pigment may also cause the wear of brass nozzle; thus it is recommended to use stainless steel nozzles for prolonged application of Spectrum PLA Glow in the Dark.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 246a3ac0-f6cc-489e-9ee7-58e6cef00f14
+created_at: '2025-09-30T13:46:42.258Z'
+updated_at: '2025-09-30T13:46:42.258Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9559
+  - 9560
+packages:
+  - 2897d1c7-ccf2-4717-8450-a154c6fb97d3
+  - fd537127-5c02-4f6a-9fe3-57345f74b88a
+secondary_material_types: []
+opentag_uuid: cf0dd186-0f63-5016-b6ef-c5f446d475eb

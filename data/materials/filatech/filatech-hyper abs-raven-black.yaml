@@ -1,0 +1,54 @@
+uuid: 01464d2d-2804-4ea7-87fd-aaa570b27433
+slug: hyper-abs-raven-black
+brand_slug: filatech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Hyper ABS Raven Black
+abbreviation: Hyper ABS
+url: https://fila-tech.store/product/abs-filament/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ABS – Acrylonitrile Butadiene Styrene
+
+  Our ABS (Acrylonitrile Butadiene Styrene) is a commonly used 3D printer material. Best used for making durable parts that need to withstand higher temperatures. In comparison to PLA filament, ABS plastic is less “brittle” and more “ductile.” It can also be post-processed with acetone to provide a glossy finish. When 3D printing with ABS filament, a heated printing surface is recommended, as ABS plastic will contract when cooled leading to warped parts. ABS filament is available in both 1.75mm and 2.85mm diameter sizes.
+
+  The latest range of ABS filaments have been developed by our expert engineers utilizing the latest technology and high quality prime virgin raw material
+thumbnail_url: null
+deleted_at: null
+deleted_by: 77860c75-d3a2-43b7-baf0-b3902d77ad9d
+created_at: '2025-11-02T00:19:07.305Z'
+updated_at: '2025-11-02T00:19:07.305Z'
+brand: 900127a5-05e6-4723-87ac-a23de2b16d17
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 3928d2fd-8c7f-4aed-b581-e04bf936fa89
+secondary_material_types: []
+opentag_uuid: b05af4bf-f8f8-5943-85fb-dd2c0582adfa

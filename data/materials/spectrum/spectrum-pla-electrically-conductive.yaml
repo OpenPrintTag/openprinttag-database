@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.35000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a7523082-a681-4f76-912e-be0e6745ddf6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 94ce8705-92d6-49aa-a341-c591ede2ea43
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: a70bb5f0-ccc8-4c3a-a9bf-d3c060df6601
+slug: pla-electrically-conductive
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Electrically Conductive
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-electrically-conductive/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+  Spectrum PLA Electrically Conductive is a specialized technical filament developed for applications where electrical conductivity is important, combined with the ease of printing typical of PLA. The material is based on a PLA polymer modified with carbon nanotubes (CNT), which significantly reduce surface resistivity – making it suitable for components that require basic electrical conduction.
+
+  The filament retains key PLA advantages such as easy processing, low shrinkage, and no need for a heated chamber. This makes Spectrum PLA Electrically Conductive an excellent choice for educational, workshop, and prototyping environments where both functionality and printing simplicity are crucial. Additionally, the printed parts feature a matte surface finish that enhances aesthetics and minimizes visible layer lines.
+
+  Due to the presence of carbon nanotubes, the filament is slightly abrasive – we recommend using a hardened steel or ruby nozzle.
+
+  Volume Resistivity Test Interpretation:
+
+  To verify the conductive properties, tests were conducted using a 3D-printed specimen measuring 4 × 4 × 120 mm (100% infill), under 10 V voltage and three different extrusion temperatures: 210°C, 220°C, and 230°C. The measured volume resistivity values were:
+
+      210°C: 120 Ω·m
+      220°C: 103 Ω·m
+      230°C: 97 Ω·m
+
+  These results show that increasing the extrusion temperature improves electrical conductivity. Higher temperatures allow better dispersion of carbon nanotubes within the print structure, resulting in lower volume resistivity. For users, this means that for parts where conductivity is critical, it’s recommended to use higher extrusion temperatures (up to 230°C), while ensuring compatibility with their printer’s hardware.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 0109eb4a-f2a7-4b5b-9e25-8e9629b16f85
+created_at: '2025-09-30T11:53:29.911Z'
+updated_at: '2025-09-30T11:53:29.911Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9310
+packages:
+  - 5f7f417e-ed78-4e01-859c-cd0ade5b95a4
+  - 6d86da5c-5235-44b5-b3b3-273cafe52bd0
+secondary_material_types: []
+opentag_uuid: 8a5ee7c6-a1ea-5d86-9203-240385ce5c1b

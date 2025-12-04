@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/39d216821da7.png
+    type: gallery
+uuid: 96a2aeba-7ff2-43b5-a092-cfb695e472bc
+slug: fiberflex-30d-graphite
+brand_slug: fiberlogy
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FiberFlex 30D Graphite
+abbreviation: null
+url: null
+primary_color: db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Features & Advantages
+
+      Shore hardness D30
+      High impact resistance
+      Very flexible
+      Good thermal resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/39d216821da7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:36.030Z'
+updated_at: '2025-03-25T22:31:36.030Z'
+brand: 062398ca-21bf-4447-97c4-e4cd4016a2d0
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 735
+packages:
+  - c820cda5-331c-4257-84a3-a663a5080c72
+secondary_material_types: []
+opentag_uuid: f13dd919-9db2-5aef-b5d3-30c56a94cabc

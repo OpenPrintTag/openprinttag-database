@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2728ebaff058.png
+    type: gallery
+tags:
+  - 99903cc9-07cb-4a3a-93af-c7d72ff7ccd8
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - 80a623ad-5aed-43a6-bcd5-7638b2fde7f0
+  - 1c82a4c8-bd1f-419c-aafd-6ffbe8cf6c77
+uuid: e265303d-af28-4725-8e62-04f6ae8bed79
+slug: panchroma-temp-shift-pla-green-lime
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Panchroma™ Temp Shift PLA Green-Lime
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Panchroma™ Temp Shift changes colors depending on the temperature.
+
+  Can holder model designed and printed by NordicSkol.
+
+  Formerly called PolyLite™ PLA Temperature Color Changing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2728ebaff058.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:42.758Z'
+updated_at: '2025-03-25T22:32:42.758Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2226
+  - 2227
+packages:
+  - 94afab0c-f9f8-4f22-86c6-a1d216e4dc75
+secondary_material_types: []
+opentag_uuid: 61ce2849-a0b5-5975-b091-ad5d877df9d9

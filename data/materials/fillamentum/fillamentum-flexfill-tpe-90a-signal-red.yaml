@@ -1,0 +1,75 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 848dc26d-a9db-43f9-ba6c-c9869e60c608
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5993d7d3ccff.png
+    type: gallery
+uuid: cf78620c-6966-4315-ac1a-4617be29694e
+slug: flexfill-tpe-90a-signal-red
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill TPE 90A "Signal Red"
+abbreviation: null
+url: null
+primary_color: f2127d30-e781-4812-a6d6-7289b4215950
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |+
+  Flexible material based on polyolefinic thermoplastic elastomer with hardness 90 Shore A. This filament is safe for food-contact applications and for applications in contact with skin.
+
+  Wear resistance guarantees the durability of 3D printed products. Great for sealings especially in the presence of certain substances, the ability to seal is preserved also at higher temperatures. This material has very low gas permeability.
+
+  Features:
+
+      Safe for food-contact and skin-contact applications
+      Dimensional stability
+      Smooth matte finish
+      Pleasant to touch
+      Tear strength, abrasion resistance
+      Chemical resistance against acids, alcohols, alkalis, and water
+      Resistant against dirt, washable
+      Recyclable
+      BPA-free
+      Low odor
+      Safe to use in electrical and electronic equipment
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/5993d7d3ccff.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:42.194Z'
+updated_at: '2025-03-25T22:31:42.194Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 756
+packages:
+  - de3b7e61-9ea6-4c31-b231-ce719d37d071
+secondary_material_types: []
+opentag_uuid: a25a7746-bbf4-55a6-856e-6be76cf6984c

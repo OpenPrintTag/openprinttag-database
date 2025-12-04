@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.28000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3e9904e8-ab11-42cf-8827-0c743159e2b0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+uuid: 2a090ec4-5ba5-4faf-ae5b-90e762bbb7a6
+slug: petg-black-6
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Black
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-petg-black-1kg/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 3d98ac8d-0ee3-4a16-a0ad-f8f1b0ab3b14
+created_at: '2025-09-24T07:26:38.302Z'
+updated_at: '2025-09-24T07:26:38.302Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 8937
+packages:
+  - ca478463-1ae2-4ed8-b00d-909f30bac485
+  - e782a44b-81dc-4eba-a4ad-9a1f839cc838
+secondary_material_types: []
+opentag_uuid: 986d0442-f545-51c8-a5b2-b579060da8b0

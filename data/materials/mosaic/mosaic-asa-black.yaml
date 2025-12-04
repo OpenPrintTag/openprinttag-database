@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.13000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8f43f4f2-da70-4828-b886-02ea235035fb
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 3c418e45-4548-4ccf-9ba3-eaf1f004ba42
+slug: asa-black-5
+brand_slug: mosaic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Black
+abbreviation: null
+url: https://shop.mosaicmfg.com/products/mosaic-asa?_gl=1*h6lcvr*_gcl_au*MTk3NjAzNzM2OC4xNzYzNTgzODQx*_ga*MjE0NTc3Mjk0Ny4xNzYzNTgzODQw*_ga_F2G8XF8BZQ*czE3NjM3MTkwMzEkbzIkZzEkdDE3NjM3MjExMzIkajYwJGwwJGgw
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Mosaic ASA is Durable, UV and high thermal resistant, and hydrolytic stable.
+
+  This filament is the perfect choice for tool casings, marine applications, signage, and jigs and fixtures.
+
+  This material is sold in units of 750cc. 
+thumbnail_url: https://file.myfilamentlist.com/new/3c418e45-4548-4ccf-9ba3-eaf1f004ba42.png
+deleted_at: null
+deleted_by: 0393fa26-9079-4891-9aef-9b51e44739b0
+created_at: '2025-11-21T10:34:40.837Z'
+updated_at: '2025-11-21T10:34:40.837Z'
+brand: 4d1c6df0-63f5-4695-a8ff-f29fe4d83e63
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 9995a693-ad9b-40d3-ac32-d0578e1f0987
+secondary_material_types: []
+opentag_uuid: 849badf3-f52d-5739-9599-c1300ddb0fcd

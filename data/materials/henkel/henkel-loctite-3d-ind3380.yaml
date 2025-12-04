@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.10000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b1f580bc-de3b-4bf0-b51c-c0b53f78e1c8
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: e452e686-9d19-49a4-b005-bba0f8bcfa79
+tags:
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+uuid: 39f19851-360c-4e26-b72f-31a0e3ef8636
+slug: loctite-3d-ind3380
+brand_slug: henkel
+brand_specific_id: null
+class: SLA
+type_id: null
+name: LOCTITE 3D IND3380
+abbreviation: null
+url: https://www.loctiteam.com/loctite-3d-3380/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  A high-temperature-resistant resin featuring ESD capabilities, and high stiffness.
+
+  LOCTITE 3D IND3380, with its smooth surface finish and exceptional chemical resistance, serves as an excellent choice for jigs, fixtures, and electronic manufacturing. Its unique properties also make it a dependable option for various tooling applications, providing versatile solutions to meet diverse manufacturing requirements.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b8c5a09b-99e5-47b1-9e1f-46486dfcd0c2
+created_at: '2025-10-03T16:16:31.058Z'
+updated_at: '2025-10-03T16:16:31.058Z'
+brand: 5927d694-01b2-4262-b272-970764723090
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9484
+packages:
+  - 680483f4-8b9e-4dfa-8b5f-8f6ae0978e5a
+  - 6f8f05af-53dd-44e7-aa45-3c54fd6b53ee
+secondary_material_types: []
+opentag_uuid: fcbbd9db-f4fd-5891-8a7f-a31088e227f8

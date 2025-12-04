@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0b20db78-8815-4fe4-ab4e-5d7680de30ea
+  hardness_shore_a: 96
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+uuid: 196f89a9-34d8-401f-b29d-17e1482e865e
+slug: rosa-flex-96a-green-glow-in-the-dark-green
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA-Flex 96A Green /Glow in the Dark Green
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-green-glow-in-the-dark-green-175mm-05kg
+primary_color: 59a8cf67-5708-4589-909b-d806ac2d2a79
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  ROSA-Flex 96A Green/Glow in the Dark Green is a high-quality flexible TPU filament designed. With a hardness of 96A, the material combines high flexibility with higher stiffness than the 88A version, making it ideal for creating parts that require durability and mechanical resistance.
+  The ROSA-Flex 96A Green /Glow in the Dark Green filament has a green colour already on the spool, and in addition, when exposed to natural or artificial light, the filament glows in the dark, emitting a green phosphorescent glow. This is a great choice for projects that need to be visible in a dark environment or simply to make a visual impression.
+
+  Note: Due to the flexible properties of the filament, we DO NOT RECOMMEND the use of ROSA-Flex 96A through the Bambu Lab AMS system
+thumbnail_url: https://file.myfilamentlist.com/new/196f89a9-34d8-401f-b29d-17e1482e865e.png
+deleted_at: null
+deleted_by: 955a29d1-f1c5-4b96-a709-db44efe58ceb
+created_at: '2025-11-18T10:12:36.926Z'
+updated_at: '2025-11-18T10:12:36.926Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 187cf819-4818-42d2-a2b7-23093da9ee62
+secondary_material_types: []
+opentag_uuid: 8cf1bec9-e149-5c8d-be93-8ed5269f377e

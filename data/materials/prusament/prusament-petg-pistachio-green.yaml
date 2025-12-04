@@ -1,0 +1,71 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 950fd4e1-722b-4da6-a306-f80c9c52d249
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6cf2f78b000b.png
+    type: gallery
+certifications:
+  - 2
+uuid: a80e690c-46c6-4858-83cd-1dbd2f10f0f5
+slug: petg-pistachio-green
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Pistachio Green
+abbreviation: null
+url: null
+primary_color: 7e79b52d-b688-46bf-b1c3-b2ee07cd6e0d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '0.90'
+refractive_index: null
+tags: []
+print_sheet_compatibility: []
+description: 'Prusament PETG is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/6cf2f78b000b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:58.087Z'
+updated_at: '2025-04-04T11:03:44.356Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6794
+packages:
+  - 7fa5b044-93af-4049-af34-8ffaaf411eee
+  - 82d19d79-ec95-4d34-a6b3-d04da4352e71
+secondary_material_types: []
+opentag_uuid: ec2eeb2f-94bc-5eea-a3c0-b1e8ccbb6746

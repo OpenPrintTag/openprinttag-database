@@ -1,0 +1,89 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8cb07fc5818d.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 996a4c2a-f85a-4395-bca8-6be53612be29
+slug: primaselect-pla-cf-black
+brand_slug: primacreator
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PrimaSelect PLA-CF Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PrimaSelect PLA-CF
+
+  PRIMA SELECT PLA-CF is a specialized 3D printing filament that combines Polylactic Acid (PLA) with carbon fiber (CF) to create a material with enhanced mechanical properties. The addition of carbon fiber significantly improves the strength, rigidity, and overall performance of the filament, making it suitable for demanding applications.
+  Material Composition
+
+      PLA Base: Retains the ease of printing and biodegradability of standard PLA.
+      10% Carbon Fiber: Infused with 10% carbon fiber, which enhances the filament's properties.
+
+  Enhanced Mechanical Properties:
+
+      Increased Strength and Rigidity: The carbon fibers provide greater tensile strength and stiffness, making parts more durable and resistant to deformation.
+      Improved Dimensional Stability: Reduced warping and shrinkage during printing, resulting in more accurate and stable prints.
+
+  Printing Characteristics:
+
+      Ease of Printing: Similar to standard PLA but may require a hardened steel nozzle to prevent wear from the abrasive carbon fibers.
+      Surface Finish: Parts printed with PRIMA SELECT PLA-CF often have a matte, slightly textured surface due to the carbon fiber content.
+
+  Applications:
+
+      Functional Prototypes: Ideal for creating strong, lightweight prototypes that need to withstand mechanical stress.
+      End-Use Parts: Suitable for manufacturing durable end-use components for various industries.
+      Tools and Fixtures: Great for making custom tools and fixtures that require high strength and stiffness.
+
+  Environmental Considerations
+
+  Retains the environmentally friendly aspect of PLA, though the presence of carbon fiber may affect compostability.
+  Usage Tips:
+
+      Nozzle Requirements: Use a hardened steel nozzle to prevent excessive wear due to the abrasive nature of carbon fibers.
+      Print Settings: Typically prints at temperatures around 210-230degreesC with a bed temperature of 30-60degreesC. Adjust settings based on specific printer and filament manufacturer recommendations.
+      Storage: Keep the filament in a cool, dry place to avoid moisture absorption, which can affect print quality.
+
+  PRIMA SELECT PLA-CF is a robust, high-performance filament that combines the ease of use and eco-friendliness of PLA with the enhanced strength and rigidity of carbon fiber. It is ideal for applications that require durable, high-strength parts and offers excellent dimensional stability and a unique surface finish. Suitable for both prototyping and end-use parts, PRIMA SELECT PLA-CF provides a reliable solution for demanding 3D printing projects.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8cb07fc5818d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-30T11:50:37.697Z'
+updated_at: '2025-03-30T11:50:37.697Z'
+brand: 22c3edfb-2c8d-4208-8c01-af5d094c98d9
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3967
+packages:
+  - ac20827b-350b-4b7f-8f04-8ea414f37d83
+secondary_material_types: []
+opentag_uuid: 8c9ff881-b263-57ac-980e-90441cf407cd

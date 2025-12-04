@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/eba473b8411d.png
+    type: gallery
+uuid: 1b793da1-a794-46dc-b73e-c554ede4cf4a
+slug: ngenflex-black
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: nGen_FLEX Black
+abbreviation: nGen
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  nGen_FLEX is best described as a semi-flexible filament with a shore hardness of 95A. It can be fed through a Bowden tube and printed at regular speeds. It is temperature resistant to about 125C. This means that printed objects can be steam sterlilized at 121C. For a functional part that needs to remain hidden, or unnoticed. nGen_FLEX Black is that filament for you.
+
+      Flexible
+      Easy Printing
+      Multiple Colors
+thumbnail_url: https://file.myfilamentlist.com/f/new/eba473b8411d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:25.816Z'
+updated_at: '2025-03-25T22:32:25.816Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1364
+packages:
+  - 4eb35bf3-9ba9-4dc4-8ad5-28f804d75063
+secondary_material_types: []
+opentag_uuid: d0635c46-b6d5-524b-8587-fe693b3c42af

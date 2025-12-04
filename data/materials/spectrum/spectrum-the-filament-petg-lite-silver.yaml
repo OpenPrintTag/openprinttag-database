@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.29000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2fd4ae75-1224-4eb6-b2fe-edeeb6e5a5c2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 5d01f8a8-01b7-4537-9c53-d2bf176f35da
+slug: the-filament-petg-lite-silver
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PETG Lite Silver
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-petg-lite/
+primary_color: 5f1ba83c-093e-44f7-b976-2882f1933618
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  For those who value durability and functionality.
+
+  THE FILAMENT PETG Lite is an affordable 3D printing filament that combines the durability of PET-G with ease of use. Perfect for everyday applications – from functional prototypes to ready-to-use parts. It provides excellent layer adhesion, high mechanical strength and stable print performance, even in longer prints.
+
+  No unnecessary extras – just what really matters: strength, consistency, and reliability. PETG Lite is a material that won’t let you down – whether at work or in your home workshop. Try it once, and it will become a regular part of your projects.
+
+  Reliability and practicality for everyday use
+
+  THE FILAMENT PETG Lite is available in classic, universal colors. Manufactured in Europe and wound on spools made from recycled plastic (2nd life), it supports a responsible approach to 3D printing. PETG Lite is a great choice when you need durability and hassle-free printing.
+thumbnail_url: null
+deleted_at: null
+deleted_by: a082a37f-b6b3-48e3-8d85-fc7b49c70588
+created_at: '2025-10-15T10:55:09.090Z'
+updated_at: '2025-10-15T10:55:09.090Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 2671d55b-c778-5c28-8e45-50fbb567ef4d

@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bb0b7eeb-186f-4067-9068-b0ddeff4086e
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 1d3b73ea-9ceb-46c6-abe8-2695d9cfd774
+slug: premium-s-flex-glow-in-the-dark-3
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Premium S-Flex Glow in the Dark
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color: 70f1f0e7-07fc-4829-9749-c942d7e2042a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Where durability and flexibility are essential
+
+  Spectrum S-Flex 90A is a filament designed for 3D printing, making it much easier to produce flexible objects than other such materials. The material’s appropriate composition ensures good adhesion both between layers and between the printed object and the build platform.
+
+  Due to its resistance to hydrocarbons and good lamination between layers, S-Flex 90A enables the production of sealing elements that must be resistant to any operating fluid, ensuring the best possible seal. Parts made from this material can be used as energy absorbers, i.e., all types of bumpers or vibration dampers.
+
+  In addition to the above properties, S-Flex 90A material also features good UV resistance and high resistance to aging. S-Flex 90A flexible filament is resistant to weak and dilute acids and bases.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 68cef083-8951-4d74-80e0-89736d1787b7
+created_at: '2025-10-17T09:42:57.772Z'
+updated_at: '2025-10-17T09:42:57.772Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: null
+colors: []
+packages:
+  - 73abc912-ac9c-4003-99e3-384d4be0abc9
+secondary_material_types: []
+opentag_uuid: 44d997cb-bdf2-54fd-be78-3575e2fae5f7

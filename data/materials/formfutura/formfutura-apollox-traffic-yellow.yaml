@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b16e622324e6.png
+    type: gallery
+uuid: 6892222d-bd74-4c30-b71b-0185522a367c
+slug: apollox-traffic-yellow
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ApolloX Traffic Yellow'
+abbreviation: null
+url: null
+primary_color: 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ApolloX is a modified ASA based 3D printer filament with improved mechanical properties and is suitable for 3D printing mechanical parts and outdoor applications with high precision and low warping.
+
+  Unique features
+
+          UV & weather resistant
+          FDM/FFF-optimized
+          Warp-free printing
+          Optimized filament flowing behaviour, thermal stability, and inter-layer adhesion
+          Excellent adhesion to heated glass plate, Kapton tape, PET tape and Formfutura EasyPad
+          Greatly improved mechanical properties and strength
+          Extremely high printing precision
+          Printing with remarkable fine detail
+thumbnail_url: https://file.myfilamentlist.com/f/new/b16e622324e6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.389Z'
+updated_at: '2025-03-25T22:31:13.389Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 376
+packages:
+  - 4a97b09e-8812-421b-99e0-9a6e1dbe7666
+  - 7a891e1d-cd65-4cb0-a6cc-7ee15b9eefbe
+  - 819b74c9-6c8c-4740-b3d4-7b8382116f6b
+  - b9b6594a-8ebb-4138-9bb5-945b25e6b293
+  - c9384b73-188a-4465-91e7-7ea16f5012aa
+  - d704cdd5-e5c3-4de6-8548-6daf990ea571
+secondary_material_types: []
+opentag_uuid: 5fd69c92-0928-5ae6-b630-49d910a09f3b

@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 37a1c767-04e6-4d7a-974c-8d131f155fb9
+  hardness_shore_a: 87
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b67587b6-e9c8-4b8c-ac2e-22208095494f
+slug: the-filament-tpu-87a-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament TPU 87A Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-tpu-87a/
+primary_color: e5ed4ede-599b-4976-bce5-f72c5de2e83f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  The Filament TPU 87A is a semi-flex filament that offers an excellent balance between durability, flexibility, and printability. Designed for functional applications, it performs well wherever the material needs to withstand mechanical stress, deformation, and continuous use. Thanks to its precisely formulated composition, the filament feeds smoothly and delivers consistent results, even during long print sessions.
+
+  Optimized layer adhesion, abrasion resistance, and high resilience make it ideal for producing technical parts, protective components, and shock-absorbing elements. Notably, the filament contains recycled content, which helps reduce its carbon footprint without compromising performance or mechanical properties. High-quality raw materials and strict production control ensure dimensional accuracy and reliability in everyday use.
+
+  The Filament TPU is available in various Shore hardness grades, allowing users to select the right level of flexibility – from very soft and stretchable to more rigid, structural variants.
+thumbnail_url: null
+deleted_at: null
+deleted_by: e4ccad09-0f26-470a-be39-e7f4a9c09135
+created_at: '2025-10-17T08:28:08.231Z'
+updated_at: '2025-10-17T08:28:08.231Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 26f5bf1b-b40e-4545-ab9d-647faad3573e
+secondary_material_types: []
+opentag_uuid: a888b27a-fa9a-59dd-833e-db3ee4468df7

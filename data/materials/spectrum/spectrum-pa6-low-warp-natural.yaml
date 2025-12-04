@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.15000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8f99dd97-9578-43e7-afc1-f7c52334b51a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: e78f0fe8-369b-4fc8-a577-ef4feb0b9575
+slug: pa6-low-warp-natural
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA6 Low Warp™ Natural
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pa6-low-wrap/
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Strong and abrasion-resistant
+
+  Spectrum PA6 Low Warp™ is an extremely strong construction material based on polycaprolactam enhanced with additives that reduce the high shrinkage typical of processing such materials. The most important characteristics of Spectrum PA6 Low Warp™ filament include, among others: resistance to fuels and oils, high impact resistance, and excellent mechanical properties.
+
+  The improved cohesion of the Spectrum PA6 Low Warp™ material makes it possible to significantly reduce the “curling” effect (especially at the corners of the printed model). The reduction of this negative effect is related to the low processing shrinkage of 0.3%.
+
+  Additives used in the production of Spectrum PA6 Low Warp™ make it a self-lubricating material, so it is possible to use the parts produced in applications where friction occurs. In addition, the molded parts will have good electrical insulation properties and also show physiological indifference.
+
+  In order to obtain the interesting properties of Spectrum PA6 Low Warp™, as far as technical aspects are concerned, the basic storage rules for these materials must be followed (in a dry and dark place with humidity less than 15%). To obtain the best parameters of the printed object, it is recommended to dry the material before processing.
+thumbnail_url: null
+deleted_at: null
+deleted_by: dc7dba81-47c5-43e2-b0a0-7db57a67247a
+created_at: '2025-10-16T13:35:30.618Z'
+updated_at: '2025-10-16T13:35:30.618Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 51b05cb9-02ec-5d67-a012-4652bb875a17

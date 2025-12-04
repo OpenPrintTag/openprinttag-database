@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f009b3f5-ba79-4d52-a6f0-d0d66528d371
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 07d3a1b5-9458-490f-bb90-2a336beac301
+slug: pla-plus-lime-cream
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Lime Cream
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/filament-pla-plus-jet-black-6103?category=59#attr=3456,3451,3448,3449,3533,3453,3454,3455,3450
+primary_color: 6e04e0cc-71a5-4a58-a332-220cdfda25f5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Lime Cream is a high-quality 3D printing filament featuring a soft, refreshing light green tone that brings a clean, smooth, and modern aesthetic to every print. This enhanced PLA Plus material combines increased durability with a gentle pastel appearance, making it ideal for functional components, creative designs, and visually pleasing presentation models. Whether you're printing practical parts or elegant decorative pieces, this filament ensures premium performance and a beautifully balanced, creamy finish.
+
+  Key Benefits:
+
+      Soft & Refreshing Color: A subtle light green shade that offers a calm, clean, and harmonious visual effect – perfect for models requiring a modern and soothing aesthetic.
+      Enhanced Strength & Durability: PLA Plus provides superior impact resistance and improved flexibility compared to standard PLA, ensuring long-lasting and reliable prints.
+      Smooth Printing Experience: Excellent layer adhesion, minimal warping, and wide compatibility with most 3D printers. Ideal for both beginners and advanced makers.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable and responsible 3D printing.
+
+  Applications:
+
+      Decorative & Artistic Projects: Create soft-toned artistic pieces, pastel decor, elegant miniatures, or modern interior accessories.
+      Functional Parts: Ideal for technical components that require strength combined with a gentle, stylish appearance.
+      Educational & Presentation Models: Perfect for teaching tools, visual prototypes, and calm, aesthetically pleasing demonstration prints.
+      Toys & Gadgets: Print smooth and visually appealing toys, accessories, and creative gadgets with a soft pastel vibe.
+      Branding & Promotional Items: Produce attractive promotional pieces or custom items featuring a refined, light green tone.
+
+  Ideal For:
+
+      Users who want a soothing, pastel filament color.
+      Projects requiring a balance of durability, gentle aesthetics, and clean visual presentation.
+      Makers who prefer eco-friendly, sustainable printing materials.
+      Designers and engineers creating models that benefit from a modern, soft-toned finish.
+
+  PLA Plus Lime Cream is the perfect choice for creators seeking a premium, durable filament with a smooth and elegant light green finish. Bring your ideas to life with softness, clarity, and exceptional print quality! 
+thumbnail_url: https://file.myfilamentlist.com/new/07d3a1b5-9458-490f-bb90-2a336beac301.png
+deleted_at: null
+deleted_by: 38ea8bf4-099b-4ed9-ae15-8db7a5c6b219
+created_at: '2025-12-01T10:34:53.201Z'
+updated_at: '2025-12-01T10:34:53.201Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - cf823416-f20d-4e9b-b42f-a2a1898f01d3
+secondary_material_types: []
+opentag_uuid: 5a9d3c30-4665-57dd-ad82-ecc72f4cfbf5

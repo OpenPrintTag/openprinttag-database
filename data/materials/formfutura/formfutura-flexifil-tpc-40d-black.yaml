@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 744cdaf9-f1b2-4c76-8757-e586bde15d67
+  hardness_shore_a: null
+  hardness_shore_d: 40
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bae56df73235.png
+    type: gallery
+uuid: 777b8fb5-42e8-4e79-adeb-2ea7923dd969
+slug: flexifil-tpc-40d-black
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' FlexiFil TPC 40D Black'
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  FlexiFil TPC 40D is a rubber-like flexible TPC type of 3D printer engineering filament that not only combines flexibility with elasticity and resilience, but also provides great strength and an excellent resistance to UV and chemicals.
+
+  FlexiFil TPC 40D is a rubber-like filament for 3D printing. This engineering filament combines flexibility with elasticity and resilience. You can fold, squish and stretch parts without tearing or breaking it. Its impact resistance and absorption properties are phenomenal. Your 3D printed objects are almost unbreakable. You can even stretch this material up to more than 400% of its initial size. FlexiFil TPC 40D shows good resistance to chemicals and UV radiation. This material is slightly less flexible than its sibling Flexifil TPC 30D.
+
+   
+  Important key features
+
+      Flexible with a shore hardness of 40D
+      Extremely impact resistant
+      High chemical resistance
+      Good UV resistant properties.
+      Low moisture absorption
+
+   
+  Suitable applications
+
+      Insoles and orthopedic applications
+      Footwear
+      CVJ boots
+      Seals and gaskets
+      Industrial applications
+thumbnail_url: https://file.myfilamentlist.com/f/new/bae56df73235.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:44.788Z'
+updated_at: '2025-03-25T22:31:44.788Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 7b810802-06dc-4210-af24-2c15b1098dc5
+colors:
+  - 877
+packages:
+  - 345309a7-e1a9-4380-b3c9-816537e058ca
+  - 875dbcd1-71eb-4d07-a4bf-56bfd349ae22
+secondary_material_types: []
+opentag_uuid: d3648d17-2042-556d-a951-669456e70727

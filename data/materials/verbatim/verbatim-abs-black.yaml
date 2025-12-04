@@ -1,0 +1,62 @@
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 832b5dd9-a1fd-40dc-b81b-48aca53c0234
+slug: abs-black-14
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Black
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-abs-filament-175mm-1kg-black-55026
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A popular, highly durable filament with a glossy, smooth finish. ABS has a high melting temperature compared to other materials available for 3D printing, making it well suited for applications where heat resistance is important such as concept modelling for the building, electrical and automotive industries. Verbatim ABS is made to a special recipe with high quality controls as standard.
+
+  Product Details
+
+      - High performance Acrylonitrile Butadiene Styrene (ABS) for material extrusion
+      - High rigidity, high gloss, medium impact strength
+      - Resistant to grease
+      - Good post-printing workability
+      - Strong odour during printing
+      - Main applications: Concept modelling for building, electrical, automotive industry etc.  Non-critical parts such as enclosures
+thumbnail_url: null
+deleted_at: null
+deleted_by: f489a2cb-6b3a-42e8-971e-9998b49701a8
+created_at: '2025-09-25T08:08:32.752Z'
+updated_at: '2025-09-25T08:08:32.752Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 8997
+packages:
+  - 66643c5a-5f09-42ad-9e31-b47a579485f9
+  - cf025cef-0b65-43e5-bc38-5db806a887d7
+secondary_material_types: []
+opentag_uuid: 1001fd1c-7953-5ad4-8a2d-96a73e5399ce

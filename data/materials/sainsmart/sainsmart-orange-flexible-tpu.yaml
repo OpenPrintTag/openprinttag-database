@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9fbb58a5-13ef-4281-bf6b-083cfff79a5c
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 73dfcfed-99d0-4ee2-806c-64f49afabb82
+slug: orange-flexible-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'Orange, Flexible TPU '
+abbreviation: null
+url: https://www.sainsmart.com/products/orange-flexible-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=20&_fid=bf8833f30&_ss=c
+primary_color: 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Thermoplastic polyurethane (TPU) is a high strength flexible material. TPU belongs to the TPE class of thermoplastics
+
+      Specially formulated plastic with increased amount of flexibility, with rigid structure.
+      Resistant to oil, grease and abrasions
+      Weight: 1 KG (approximately 2.20 lbs)
+      Diameter: 1.75mm (+/- 0.05mm)
+      Shore Hardness: 90A
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: de219212-5125-45b4-9897-21f7d387dc27
+created_at: '2025-09-26T14:53:23.666Z'
+updated_at: '2025-09-26T14:53:23.666Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9188
+packages:
+  - fe6bd792-41a4-413a-9527-e0f78ec6dcbd
+secondary_material_types: []
+opentag_uuid: 89a4fa83-cdf1-5f5a-9e0c-622175991941

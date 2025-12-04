@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/91648cea9a87.png
+    type: gallery
+uuid: ea7a44a6-3ffe-41dd-83fb-76245fdf0d05
+slug: nylon-fx256-signal-red
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Nylon FX256 "Signal Red"
+abbreviation: null
+url: null
+primary_color: 67c24dbc-d22f-4ce9-9813-18592bdc3008
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nylon FX256 is an advanced, exceptionally durable, and highly versatile material. With outstanding interlayer adhesion, flexibility in thin layers, and resistance to extreme temperatures and chemicals (including car fluids), it's the ideal choice for tough, functional, and technical 3D prints
+
+   Exceptional chemical resistance and wear resistance
+   High impact resistance, even at -40 degreesC
+   Heat resistance up to 140 degreesC
+   Lower moisture absorption for better dimensional stability
+   Safe for food contact 
+thumbnail_url: https://file.myfilamentlist.com/f/new/91648cea9a87.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.908Z'
+updated_at: '2025-03-25T22:32:26.908Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: null
+colors:
+  - 1712
+packages:
+  - 537337da-5d52-468b-9d7c-30f291fdf135
+secondary_material_types: []
+opentag_uuid: fc0ded1e-2af2-5d64-b537-9d44820374dd

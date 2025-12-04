@@ -1,0 +1,64 @@
+uuid: c96f4e27-05ab-4cdc-adeb-736b6a3dbdc8
+slug: petg-saphirblau
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Saphirblau
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/173/petg-filament-1-75-mm-saphirblau-800-g?c=35
+primary_color: e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 5003 Saphirblau (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: ea8b1861-e965-4a8b-8e3c-71145dfea0c8
+created_at: '2025-10-19T09:39:00.900Z'
+updated_at: '2025-10-19T09:39:00.900Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 86df3342-b946-4ca3-a8a8-ee7e725feb9f
+  - af976caa-5d23-490c-8f0d-d6d964fe5603
+secondary_material_types: []
+opentag_uuid: 26d759f6-e649-535b-9525-68451763c66f

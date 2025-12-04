@@ -1,0 +1,65 @@
+uuid: f3dc9ea1-1ac0-4167-8442-da9e57251a1c
+slug: asa-black-18
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Black
+abbreviation: null
+url: https://www.3djake.com/3djake/asa-black?sai=6422
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+
+
+  The ASA has been specially designed to make it perfect for 3D printing applications.
+
+  ASA is one of the most popular 3D printing materials due to its features. The advantages of the material are its excellent weather and UV resistance.
+
+  The features of the ASA from 3DJake:
+
+      Minimal shrinkage
+      Less warping
+      Good diameter and roundness tolerances
+      Easy to print
+      Good layer adhesion
+
+thumbnail_url: https://file.myfilamentlist.com/new/f3dc9ea1-1ac0-4167-8442-da9e57251a1c.png
+deleted_at: null
+deleted_by: 83d22201-7ad5-487b-ae60-5d1c150983ee
+created_at: '2025-11-09T21:23:33.585Z'
+updated_at: '2025-11-09T21:23:33.585Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 3ad2a8db-ee65-4627-b61b-aa5ade1a54a9
+  - e275a5fe-5ff3-41f0-8e7b-f972fd326787
+  - fe084597-6047-45a3-a07f-3460f74626fd
+secondary_material_types: []
+opentag_uuid: 8d4f410f-d7a5-5db7-a100-8defc6c2dafd

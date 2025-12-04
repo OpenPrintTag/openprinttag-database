@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/78a5d63b041e.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 5b859552-7185-400b-bbd4-3b604e8c78ae
+slug: pla-pastel-edition-baby-blue
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PLA+ pastel edition - Baby Blue '
+abbreviation: null
+url: null
+primary_color: 6c74cf71-b852-47f6-b8c0-775fb93f3d69
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+  PLA+ (polylactic acid)
+  - improved printing properties compared to standard PLA:
+
+      lower printing temperature 195 degreesC - great for bridging and printing overhangs
+      higher adhesion of layers and impact toughness - ie. that the printed object is more flexible when bending
+      higher viscosity = doesn't clog the nozzle
+      the material withstands insufficient cooling of the printer in a warm environment (for example in the summer months), precisely because of the lower printing temperatures used and the higher viscosity
+      is suitable for 3D pens, again due to lower temperatures
+      has an attractive matte finish
+      is offered in the new Skin edition, Army edition, classic Black&White, modern Pastel edition, hot Summer edition, or recycled RePLA+
+      check out our video on PLA+ material
+thumbnail_url: https://file.myfilamentlist.com/f/new/78a5d63b041e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T18:08:11.271Z'
+updated_at: '2025-04-22T18:08:11.271Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7049
+packages:
+  - 3fc5bd78-184b-495d-9945-b1b29eb93094
+secondary_material_types: []
+opentag_uuid: 68d44ef9-c30c-5569-a1fb-a662ba7c3b98

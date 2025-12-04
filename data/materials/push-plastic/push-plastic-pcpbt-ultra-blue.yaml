@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b408fba05857.png
+    type: gallery
+uuid: 7f995d4d-511d-4796-a2d1-7c69aee72c34
+slug: pcpbt-ultra-blue
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC+PBT Ultra Blue
+abbreviation: null
+url: null
+primary_color: 1b18060d-2433-4948-811c-f46a123c2fbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PC+PBT (Polycarbonate + Polybutylene Terephthalate) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Superior stiffness/ductility balance
+      Great structural integrity and drop impact performance
+      Excellent fatigue performance
+      High chemical resistance to motor oil and grease
+thumbnail_url: https://file.myfilamentlist.com/f/new/b408fba05857.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T11:41:50.940Z'
+updated_at: '2025-04-30T11:41:50.940Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: d5068a37-16d3-48d9-9b16-c536d00add2e
+colors:
+  - 7354
+packages:
+  - 3df14d84-33e6-4d59-83e6-e066b3645bea
+  - 41cd4f6a-e5c6-4696-90ef-7b2a91d34cfd
+  - 5927f119-b502-4df4-bc7b-da8a98207f57
+  - a1ded4bf-5b04-4eec-b292-d520468e369d
+  - c4ef8339-4682-4fe3-8ce2-3a14463adc0c
+  - ed824154-88f6-4741-9e37-8358f1ff1d17
+secondary_material_types: []
+opentag_uuid: 12bcacc4-275a-5d16-8dce-dafdbfac0bad

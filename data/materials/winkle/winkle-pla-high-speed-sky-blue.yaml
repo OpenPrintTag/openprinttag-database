@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1e892cc7-89b0-47e6-bffc-8571c8a5d5c3
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 8f5f5523-05dc-491f-8202-10885b5aefa7
+slug: pla-high-speed-sky-blue
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA High Speed Sky Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-high-speed-winkle-175-mm-1-kg-azul-celeste/?_gl=1*1sl23r6*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3MzMyNDAkbzIkZzEkdDE3NjM3MzMzOTIkajU0JGwwJGg5MDMzNTcwMjg.
+primary_color: 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Print faster, with more precision, and without compromising quality.
+  If you're looking for speed, our PLA High Speed Filament will take your 3D prototypes to the next level.
+
+  PLA High Speed Filament offers speed, precision, and a wide color range.
+  This 1.75 mm PLA filament from Winkle is the perfect solution. Designed for printing speeds of up to 600 mm/s, it guarantees professional results without clogs or deformation. Its compatibility with most 3D printers makes it essential for makers, designers, and digital fabrication enthusiasts.
+
+  Applications of PLA High Speed Filament:
+  Ideal for rapid prototyping, functional parts, architectural models, decorations, toys, and lightweight mechanical components.
+  Thanks to its strength (3500 MPa) and thermal stability (glass transition at 60 °C), your creations will withstand the test of time without losing definition.
+thumbnail_url: https://file.myfilamentlist.com/new/8f5f5523-05dc-491f-8202-10885b5aefa7.png
+deleted_at: null
+deleted_by: 44d457a6-898b-4814-9dc0-7d71b74773ad
+created_at: '2025-11-21T22:25:07.418Z'
+updated_at: '2025-11-21T22:25:07.418Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - e3a07e49-7e0b-4e61-acf9-24c2baf1beba
+secondary_material_types: []
+opentag_uuid: d8453705-c976-5b60-a563-24df49094549

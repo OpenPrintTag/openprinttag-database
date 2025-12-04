@@ -1,0 +1,56 @@
+uuid: 3683e818-df16-42be-8719-cbfead3ccc10
+slug: petg-red-6
+brand_slug: filkemp
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Red
+abbreviation: null
+url: https://3dfilkemp.com/product/petg-blend/
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PETG is a user-friendly filament that prints 20% faster than PLA. It has great thermal stability and creates glossy, see-through prints with impressive strength and durability.
+
+      PETG is stronger than PLA and has better impact resistance. It is also less brittle than ABS. With a higher melting point than PLA, PETG works well in warmer environments.
+      Has low warping and doesn’t release strong fumes while printing, making it safer than ABS. This material keeps its shape over time and resists deformation, making it perfect for functional parts and prototypes.
+      FDA compliant, which means it is safe for food contact. It also absorbs little moisture, helping to maintain its quality and performance during printing and storage.
+      Easy to use, making it suitable for both beginners and experienced users. It allows for smooth printing without needing many adjustments.
+thumbnail_url: https://file.myfilamentlist.com/new/3683e818-df16-42be-8719-cbfead3ccc10.png
+deleted_at: null
+deleted_by: e3144803-5f9a-4a37-b03e-5ba51793df8f
+created_at: '2025-11-22T17:57:57.841Z'
+updated_at: '2025-11-22T17:57:57.841Z'
+brand: 96d1d0d4-d641-4dea-9e53-935e698673cc
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 34fad8b2-d84b-4bb9-81c7-b674616055e3
+  - e77d30c3-3c90-4fbb-8010-a6f29db8588d
+secondary_material_types: []
+opentag_uuid: a93e04b1-55a0-57ec-aa3f-2100cf796489

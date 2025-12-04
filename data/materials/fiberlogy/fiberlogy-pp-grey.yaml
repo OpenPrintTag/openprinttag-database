@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4f58c6a62ff5.png
+    type: gallery
+uuid: 0dc90f62-b002-4f88-8c4e-0fe14215c2c0
+slug: pp-grey
+brand_slug: fiberlogy
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PP Grey
+abbreviation: null
+url: null
+primary_color: 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Features & Advantages
+
+      High chemical resistance
+      Good layer adhesion
+      Easy to print
+      Mechanical resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/4f58c6a62ff5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:55.411Z'
+updated_at: '2025-03-25T22:34:55.411Z'
+brand: 062398ca-21bf-4447-97c4-e4cd4016a2d0
+type: 6bc270a6-a9c8-430f-b3ea-b52fb0420f83
+colors:
+  - 3545
+packages:
+  - 22e1f383-8cec-46b0-bc05-787f1b92ea9a
+secondary_material_types: []
+opentag_uuid: beae3bb3-2d81-58e7-8de0-6a202aa1a60a

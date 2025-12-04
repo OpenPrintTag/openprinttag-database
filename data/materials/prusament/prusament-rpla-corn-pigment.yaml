@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.16000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4367ef65-100f-480b-a326-19855c39487c
+  hardness_shore_a: null
+  hardness_shore_d: 86
+  fff_material_properties: 65221a87-59c0-4d7e-8eb4-4a2f194af906
+  sla_material_properties: null
+  min_print_temperature: 195
+  max_print_temperature: 215
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/205dbb35485e.png
+    type: gallery
+tags:
+  - 033050b8-25bb-4f28-aca3-dccc4d8f8efd
+  - 15866d4c-ae0c-4d5b-a853-038462724e27
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f4d4c88f-dee2-4da2-b63f-11de806f7267
+slug: rpla-corn-pigment
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: rPLA Corn Pigment
+abbreviation: null
+url: null
+primary_color: 4c3fd806-19b3-4c51-8eb1-2edc0e5424a9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '6.20'
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Prusament rPLA Natural Pigments is our in-house made PLA filament with ±0.03mm manufacturing tolerance and natural pigments. The filament is made of recycled PLA from industrial waste. No artificial pigments are added; the coloring of this Prusament comes from processed organic waste, resulting in a unique shade for every batch. You can inspect the parameters of every spool we made at prusament.com.
+
+  Prusament rPLA Natural Pigments is our own in-house recycled PLA filament with natural pigment additives. The filament is made of PLA parts manufacturing waste provided by our external supplier. No artificial pigment is added, the coloring of this Prusament comes from processed organic waste, such as red algae. The organic additives create a noticeable scent during printing.
+
+  The Prusament rPLA Natural Pigments has mechanical properties similar to regular PLA, but it is slightly more brittle and hygroscopic. In general, PLA is used for various aesthetic models, prototypes, and other visual parts. With Prusament rPLA Natural Pigments, these parts can be made with significantly lower ecological impact. Last but not least, the natural pigments give rPLA pleasant subtle colors, perfectly suitable for various home decor and other aesthetic purposes.
+thumbnail_url: https://file.myfilamentlist.com/f/new/205dbb35485e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:19.997Z'
+updated_at: '2025-03-25T22:35:19.997Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 8979
+packages:
+  - af8c7d9c-4499-40fb-8589-3054a2fa6161
+  - b765c7f5-6fa7-4be8-b3a1-508bf1cc24e9
+secondary_material_types: []
+opentag_uuid: 0e6dd0ff-a56d-55ea-9f7c-bcc92011173e

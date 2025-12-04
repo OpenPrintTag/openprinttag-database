@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 53163041-2b16-4926-973d-6545fbc1f33a
+  hardness_shore_a: 96
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c094345eb323.png
+    type: gallery
+uuid: 70602727-343d-4174-9303-861b33d20349
+slug: flexfill-tpe-96a-light-grey
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill TPE 96A "Light Grey"
+abbreviation: null
+url: null
+primary_color: e28a4749-344c-4e99-8ece-e693adb546f4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |+
+  Semi-flexible material based on polyolefinic thermoplastic elastomer with hardness 96 Shore A. This filament is safe for food-contact applications and for applications in contact with skin.
+
+  Wear resistance guarantees the durability of 3D printed products. Great for sealings especially in the presence of certain substances, the ability to seal is preserved also at higher temperatures. This material has very low gas permeability.
+
+  Features:
+
+      Safe for food-contact and skin-contact applications
+      Dimensional stability
+      Smooth matte finish
+      Pleasant to touch
+      Semi-flexible
+      Tear strength, abrasion resistance
+      Chemical resistance against acids, alcohols, alkalis, and water
+      Resistant against dirt, washable
+      Recyclable
+      BPA-free
+      Low odor
+      Safe to use in electrical and electronic equipment
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/c094345eb323.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:42.381Z'
+updated_at: '2025-03-25T22:31:42.381Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 987
+packages:
+  - 932affd7-5703-44b8-8927-7c7bae536889
+secondary_material_types: []
+opentag_uuid: 2d3a7858-4feb-50b5-bdc1-1fec4b21a4c3

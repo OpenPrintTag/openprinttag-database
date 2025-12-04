@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f0d17a838814.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 898573df-c6ee-4723-9d2b-9f60c417fa2a
+slug: abs-ultra-blue
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Ultra Blue
+abbreviation: null
+url: null
+primary_color: 1b18060d-2433-4948-811c-f46a123c2fbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  The benefits of ABS include:
+
+      Higher strength and flexibility compared to PLA
+      Higher temperature resistance over PLA
+      Machinability allows for end-use parts 
+      Finished parts can be vapor smoothed with acetone
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/f0d17a838814.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T09:19:30.903Z'
+updated_at: '2025-04-30T09:19:30.903Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7323
+packages:
+  - bc9d059f-fd60-4500-bf12-cae012b7e9fc
+secondary_material_types: []
+opentag_uuid: 6b9ec923-36e8-5343-bb92-7299a04d9596

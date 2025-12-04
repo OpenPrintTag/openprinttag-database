@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0c6bff37d756.png
+    type: gallery
+uuid: 43bf01eb-caa0-47bf-8f63-11b33f29a9f7
+slug: asa-brown
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ASA - Brown '
+abbreviation: null
+url: null
+primary_color: cdf37f9c-d618-42d0-93e0-4a2d7331d334
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ASA (acrylonitrile styrene acrylate)
+  - similar to ABS
+  - perfect for outside use
+  - UV stable, high water and impact resistant
+  - high impact and wear resistance
+  - easy postprocessing (it's possible to sand the prints using wet or dry sanding methods, smooth them out with acetone vapors, and glue them together with acetone)
+  - ideal for prototyping, outside use as well as the automotive and engineering industries
+thumbnail_url: https://file.myfilamentlist.com/f/new/0c6bff37d756.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:35:16.353Z'
+updated_at: '2025-04-23T11:35:16.353Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7109
+packages:
+  - d9229053-f3d2-4aa2-863c-04dab4a3c9e9
+secondary_material_types: []
+opentag_uuid: f98297bf-f1f3-5b13-ac2a-f20ebc9a247a

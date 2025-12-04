@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: eef6b622-5023-4613-a5c5-7f95ba318ea1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - cccac441-8d20-451f-9d3c-217949e6a341
+uuid: b355eae1-265f-4263-bfe2-0d31caeb2a9a
+slug: pla-travertine-effect
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Travertine Effect
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-travertine-effect.html
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Travertine Effect.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/b355eae1-265f-4263-bfe2-0d31caeb2a9a.png
+deleted_at: null
+deleted_by: d2924a82-466f-4092-99cd-c3f647cf79a9
+created_at: '2025-11-12T10:17:44.518Z'
+updated_at: '2025-11-12T10:17:44.518Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - b199fde7-c430-4ddd-a0d4-f8ec50f241df
+  - fd3054d8-48ea-4e20-a797-c03afc340c30
+secondary_material_types: []
+opentag_uuid: 2f78a77c-3936-5e54-b537-86c7f64dcebe

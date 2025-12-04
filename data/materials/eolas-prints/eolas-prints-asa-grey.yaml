@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 02a065b9-1a8c-4fe1-a17a-ce9a91c6b38a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 5b9ffc17-f22a-4621-90d1-b915358aa64a
+slug: asa-grey-3
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Grey
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/asa-filament?variant=49109313716551
+primary_color: 8a68f8ad-72bb-4261-838b-90981e68c87b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ASA Filament represents a breakthrough in professional-grade 3D printing filament, meticulously engineered to deliver exceptional performance in challenging environmental conditions. The material's advanced composition provides superior technological capabilities that distinguish it from conventional filament options.
+thumbnail_url: https://file.myfilamentlist.com/new/5b9ffc17-f22a-4621-90d1-b915358aa64a.png
+deleted_at: null
+deleted_by: c94563b3-e818-43f4-a0b9-7b3da661579c
+created_at: '2025-11-11T11:37:43.890Z'
+updated_at: '2025-11-11T11:37:43.890Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 09b0152b-e73f-4d55-a17c-adb1ca771742
+  - 15b36af6-1d62-4868-80d5-259d69fb152b
+  - 64a420b7-a941-4fda-bd9e-c035d07642fe
+  - 81c4e2a4-870c-422f-b5d0-be45c8284a36
+  - e0ac2925-65d2-4c58-b73d-bc40f57100c0
+  - f6d66301-48b4-4cf3-9795-3a795d7179d7
+secondary_material_types: []
+opentag_uuid: c1d2f691-7e16-5bcd-a983-c7741d7965e5

@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f781ef7afb54.png
+    type: gallery
+uuid: 5b9f7376-36c3-44dd-9443-bd966e795b49
+slug: durapro-asa-yellow-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ASA yellow | RAL 1023
+abbreviation: null
+url: null
+primary_color: 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ASA has been specially developed for industrial applications and is characterised by its high UV and weather resistance. It is therefore particularly suitable for use in the automotive sector and outdoors. The material is fire retardant according to UL94 HB. DuraPro ASA has been optimised for the FFF/FDM process, so the material has good layer adhesion, thermal stability, improved flow properties and low warping.
+
+      UV and weather resistant
+      Matt surface
+      High mechanical strength
+      Good layer and bed adhesion
+      Low warping
+thumbnail_url: https://file.myfilamentlist.com/f/new/f781ef7afb54.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T20:03:58.085Z'
+updated_at: '2025-03-28T20:03:58.085Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 4737
+packages:
+  - 03abd3d6-6f2f-4d5a-8f27-9fd044c9b5c2
+  - 99fe3819-e518-4642-acd9-9b707525d601
+  - 9b3fa8df-ffcd-4340-8043-1cc78990f6d9
+secondary_material_types: []
+opentag_uuid: e5e5593c-b696-53b6-86a0-e672ed15a430

@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/39377e09a45d.png
+    type: gallery
+uuid: a73c97c0-62b4-4d0c-940f-1d00b9b21d08
+slug: durapro-pcpbt-black-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro PC/PBT black | RAL 9017
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro PC/PBT is a blend of two materials: polycarbonate (PC) and polybutylene terephthalate (PBT). It combines the strengths of both polymers, making it a versatile material for industrial applications. It offers exceptional mechanical properties combined with outstanding heat resistance and resistance to degrees below zero. Thanks to its excellent chemical resistance and ease of printing, it is the optimal choice for demanding 3D printing projects.
+
+      Excellent mechanical properties 
+      High thermal resistance (VICAT A 126degreesC) 
+      Good toughness even at low temperatures (at -20degreesC to -30degreesC) 
+      Excellent chemical resistance   
+thumbnail_url: https://file.myfilamentlist.com/f/new/39377e09a45d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T20:19:44.846Z'
+updated_at: '2025-03-28T20:19:44.846Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 4976
+packages:
+  - 75f0fd63-8231-4fe0-b7c1-9eda7b80bb96
+  - a8a47c2f-0010-43fa-8c9d-c51d2b7e1ed1
+secondary_material_types: []
+opentag_uuid: 07e80115-1167-58ad-8598-f66c20f525ee

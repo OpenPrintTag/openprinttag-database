@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bfb4490636fd.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d1ac6df1-d4cf-4d05-a2e0-2d89c86e4642
+slug: pla-yellow-21
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PLA - Yellow '
+abbreviation: null
+url: null
+primary_color: 29531b03-49ae-4f3e-9993-d9c4a6694fb9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  PLA - so-called starting material for 3D printing
+
+  PLA (polylactic acid) 
+  - easy to print material
+  - is suitable for printing large objects
+  - is made from corn starch and biodegradable
+  - is suitable for beginners, as printing from it is trouble-free
+  - PLA prints are not ideal for outdoor use (low-temperature resistance, low UV resistance)
+thumbnail_url: https://file.myfilamentlist.com/f/new/bfb4490636fd.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T15:42:29.006Z'
+updated_at: '2025-04-22T15:42:29.006Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7012
+packages:
+  - 549f63c6-72b5-496d-a30a-4d598628ff9e
+secondary_material_types: []
+opentag_uuid: 064314f0-e514-586f-ba36-a825410274bd

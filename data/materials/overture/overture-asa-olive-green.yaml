@@ -1,0 +1,52 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f15b6c5f9de2.jpg
+    type: gallery
+uuid: 78459946-526f-45fd-ae02-f6c08b8ec6d6
+slug: asa-olive-green
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'ASA Olive Green '
+abbreviation: null
+url: null
+primary_color: 8d9c9496-170a-43b4-8e26-4bd1ac463e73
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: 'OVERTURE ASA is designed to withstand a variety of environmental conditions, making it highly resistant to rain, humidity, and temperature fluctuations. This weather resistance ensures that printed parts maintain their structural integrity and performance over time, even when exposed to the elements. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/f15b6c5f9de2.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:14.911Z'
+updated_at: '2025-03-25T22:31:14.911Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 157
+packages:
+  - e7f3ae4b-e81b-4aa5-a216-3812dead643a
+secondary_material_types: []
+opentag_uuid: 96a0d024-1d65-5f8d-88b2-c4ac2967a680

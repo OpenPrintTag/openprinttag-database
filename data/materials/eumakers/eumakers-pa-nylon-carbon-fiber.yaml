@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.00000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 44d30d8d-c761-49a2-b164-ed5fb9ea64d0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+uuid: 64be7d86-9ba5-40df-b1b4-9c558c22b859
+slug: pa-nylon-carbon-fiber
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA Nylon Carbon Fiber
+abbreviation: null
+url: https://www.eumakers.com/pa-filament-color-nylon-carbon-fiber.html
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PA filament Nylon Carbon Fyber in Black color.
+
+   
+
+  Nylon Carbon Fyber is a high quality filament in reinforced polyamide with carbon fibers, which is odourless during the extrusion process.
+  Carbon fiber filament is ideal for prototypes that need optimal mechanical and heat resistance.
+  The surface finish of the filament is opaque, while the manufactured articles will be difficult to deform.
+  N.B. We recommend using stainless brass or resistant copper alloy nozzles.
+thumbnail_url: https://file.myfilamentlist.com/new/64be7d86-9ba5-40df-b1b4-9c558c22b859.png
+deleted_at: null
+deleted_by: 43fdb6aa-624b-4fbe-9a62-9195f9fa788a
+created_at: '2025-11-12T11:03:57.951Z'
+updated_at: '2025-11-12T11:03:57.951Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: null
+colors: []
+packages:
+  - 0736cdd0-85b3-4ed7-8202-1d381f40df7a
+  - 4ded89d8-1521-4d15-8a64-79cfe387e327
+  - 70fa578c-1be5-4a9d-b55e-929ab108bfa4
+  - 87a64427-4a2c-4547-86a8-e0ac8c63f7bc
+  - b4117b19-ced2-4e91-a3b4-2fb6153417c0
+  - bb8eedea-8e67-4c67-a0b0-3a4ca8900b53
+secondary_material_types: []
+opentag_uuid: 15202445-54f2-59a7-9a65-6e8c32f5a6fd

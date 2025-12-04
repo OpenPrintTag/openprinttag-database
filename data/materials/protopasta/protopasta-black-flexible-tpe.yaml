@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/41af0d0e5915.png
+    type: gallery
+uuid: 8cdc6619-2f58-4552-bfe8-57ecfaee48e8
+slug: black-flexible-tpe
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Black Flexible TPE
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  3D print parts that can flex without breaking!
+
+      Featured in EX3, July 2024's Endless Exploration
+      A black, flexible TPE with hardness of about 98A
+      Durable when folded like a hinge (folding triangle from Joan Horvath and Rich Cameron's book Make: Geometry)
+      Great return when bounced
+      Holds shape up to 150 C
+      No drying required
+      Printing starting at 240 C w/ no bed heat required
+      Prep bed w/ Magigoo to avoid permanent bond
+      Produced by Protoplant exclusively for Protopasta
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/41af0d0e5915.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T20:02:08.792Z'
+updated_at: '2025-04-02T20:02:08.792Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 6569
+packages:
+  - 0e1d529f-569b-4eaf-9ef3-adf613d38c9b
+  - 54d9796b-6788-4973-9fca-a46f15f47ef9
+  - 6572c93a-94d4-4ce3-97e8-8a8240789f07
+secondary_material_types: []
+opentag_uuid: 2bddac64-ae6b-50c3-8d1a-ecee568fe84b

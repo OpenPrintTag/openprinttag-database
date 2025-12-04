@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7f7ca64edf9d.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 41e921aa-b654-4695-9c64-885a481f528e
+slug: premium-pla-solar-yellow
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Premium PLA Solar Yellow'
+abbreviation: null
+url: null
+primary_color: ae70f6e5-412c-44f7-8b93-20437976ae58
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Premium PLA is a more pure PLA type of 3D printer filament with higher crystallinity, which makes it the PLA of choice for 3D printing parts with overhangs and for objects where bridging is required.
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Almost odourless processing/printing
+      Biodegradable
+      Available in a variety of semi-translucent colors and opaque black/white
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/7f7ca64edf9d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:57.018Z'
+updated_at: '2025-03-25T22:34:57.018Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3664
+packages:
+  - 636a3c40-989a-45f8-98b8-02a95dd9cba8
+  - 9a3bbca4-92aa-4806-a217-7cfaf55d06a4
+  - aac8d9cc-0d56-474e-bb23-b1db3ed5f045
+  - e9584e56-c8db-4e24-b041-dbb628e13776
+secondary_material_types: []
+opentag_uuid: d5880eff-a991-5643-8443-cabebb40ca1b

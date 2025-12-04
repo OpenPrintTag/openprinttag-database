@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f524e2d6e77c.png
+    type: gallery
+uuid: b7185a7d-f5e2-40e5-bad4-e5f14b94e64c
+slug: petg-neon-yellow-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG neon yellow | RAL 1026
+abbreviation: null
+url: null
+primary_color: 7abd308a-476d-4eb2-ae90-5ef22c4db37b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyethylene terephthalate glycol (PETG) is one of the world's best-known thermoplastic polymers. Extrudr PETG has been developed for a wide range of applications where the main requirement is a good balance between mechanical and optical material properties. The low-shrinking technology ensures that the material can be processed in an energy-saving manner at low temperatures and thus with relatively little distortion. The raw material is certified according to FDA, REACH and RoHS standards.
+
+      Good mechanical properties
+      High chemical resistance
+      Low warping
+      Low shrinking
+      Recyclable
+      Low-shrinking technology
+thumbnail_url: https://file.myfilamentlist.com/f/new/f524e2d6e77c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T13:44:48.386Z'
+updated_at: '2025-03-27T13:44:48.386Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 5443
+packages:
+  - 01cb0d06-23f0-4415-ab16-4bfd57b39b5a
+  - 0bede204-f585-4c74-8825-d9e9594447c0
+  - 5eff6679-7a53-4daa-a5de-143d658d1b05
+  - d47d4c46-f631-4d86-ad7e-a92fe79b8c9f
+  - ec2e3910-942c-4ec9-a59d-3927597f15a4
+  - f480a049-a667-40d4-91a0-7d2ba7c78511
+secondary_material_types: []
+opentag_uuid: 04f2e610-bc49-5e5a-8635-24eb54baa902

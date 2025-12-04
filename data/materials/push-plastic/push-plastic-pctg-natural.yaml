@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7723d244f167.png
+    type: gallery
+uuid: 60c20c1a-0aac-4d34-be6e-348ad54d6b6d
+slug: pctg-natural
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Natural
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PCTG  (Poly Cyclohexylenedimethylene Terephthalate glycol-modified) 3D printer filament
+
+   
+
+  Push Plastic PCTG is an engineering grade filament that has been specifically formulated to be used for 3D printing.  PCTG is an excellent alternative for anyone looking for a higher level of clarity, chemical resistance, or impact resistance over PETG. 
+
+      Excellent clarity  
+      Increased chemical resistance 
+      PETG substitute
+      BPA FREE
+      Increased Impact resistant
+thumbnail_url: https://file.myfilamentlist.com/f/new/7723d244f167.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T11:50:40.465Z'
+updated_at: '2025-04-30T11:50:40.465Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 7359
+packages:
+  - 030592d5-983c-4d24-9243-2e020c732112
+  - 11540c5d-c8ba-4cf3-b456-18c07030d7c1
+  - 9101ac54-fe46-415d-b635-a5f512a1ab92
+  - 99a68555-3fcb-40f3-8cc3-3a7d3540a63c
+  - bdcaf807-598d-4e55-b968-8be231cc0bae
+  - d68514dc-6a39-44f8-827d-25aeac2654a5
+  - f3b3c6fe-6f16-4f15-8389-ef8ba7c47521
+  - f957fc76-c486-481b-85db-6190d818e803
+secondary_material_types: []
+opentag_uuid: 36f8ef79-be4b-54ce-9f8c-9c78e09fd29a

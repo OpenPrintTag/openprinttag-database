@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: cbfb3d7e-623f-4ccd-837d-f8b58a207cee
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: 4a765bb5-2bed-4ace-b7e3-4327417a30a9
+slug: pla-tough-natural
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Tough Natural
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-tough-winkle-175-mm-1-kg-natural/
+primary_color: 1e59f006-188a-4b4a-8f9f-72ecc8b84125
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **Looking for a strong 3D filament to print functional and durable parts?**
+  Winkle PLA Tough Filament 1.75 mm is your best choice for creating 3D prototypes, technical parts, or demanding models with a professional finish and superior mechanical strength. Ideal for those seeking tough PLA filament without sacrificing ease of printing.
+
+  * Available in 300 g and 1 kg spools
+  * Compatible with most 3D printers on the market
+  * Excellent layer adhesion and dimensional stability
+
+  PLA Tough offers higher impact and tensile resistance (**20 MPa tensile strength and 30 kJ/m² Charpy impact resistance**). Choose this 3D filament when you need rigidity, precision, and durability for your most demanding projects.
+thumbnail_url: https://file.myfilamentlist.com/new/4a765bb5-2bed-4ace-b7e3-4327417a30a9.png
+deleted_at: null
+deleted_by: b2ff335e-530d-403e-b592-02a5e5dbdbb9
+created_at: '2025-11-21T23:36:02.071Z'
+updated_at: '2025-11-21T23:36:02.071Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 3d3cfe79-00b0-4a72-90e4-0c4f6485bc48
+  - 758ef422-fd21-4153-8dfa-f41f12bc0a94
+  - 89c86099-13fa-4905-bc52-424f2a886e14
+secondary_material_types: []
+opentag_uuid: 136772b3-3d3a-5381-8ce1-a3ea2da0abde

@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/00f58b13f0c2.png
+    type: gallery
+uuid: 1bc5c82f-4697-4327-bad5-ed1a1673d468
+slug: xt-dark-gray
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: XT Dark Gray
+abbreviation: null
+url: null
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  XT DARK GRAY - The colorFabb_XT co-polyester range, made with Eastman AmphoraTM 3D polymer, is now available in many vibrant colors
+
+      FDA food contact compliance
+      Low Odor
+      High Toughness
+thumbnail_url: https://file.myfilamentlist.com/f/new/00f58b13f0c2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:51.572Z'
+updated_at: '2025-03-25T22:36:51.572Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: 4fca8d6e-48ab-42e8-bfee-75788e756d52
+colors:
+  - 5183
+packages:
+  - 790d1a45-7fcc-48da-b310-ed0b0dd1c4d5
+  - 81edcd06-f361-4408-849d-a24a4b492087
+  - 81f1355d-5506-42fb-8635-594b3cf08973
+  - 84f06f5f-aa05-4c7c-b737-eabe2482a159
+secondary_material_types: []
+opentag_uuid: 5dbf04f0-dbdc-5337-86ba-e34a22003005

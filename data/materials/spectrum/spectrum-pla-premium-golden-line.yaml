@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8d187832-e78c-4095-9b0d-19568b46b9f6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 94a78056-f9c8-43c3-811f-c62939a288a8
+slug: pla-premium-golden-line
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Premium Golden Line
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-premium/
+primary_color: d213ea54-daa4-4dfa-afb3-7c08c0f53c8a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Aesthetic, biodegradable and reliable 3D printing
+
+  Spectrum PLA Premium is a filament based on polylactide which belongs to aliphatic polymers. It shows full biodegradability. Carefully selected colour concentrates provide items manufactured of Spectrum PLA Premium with intense colours in a broad spectrum. Moreover, the choice of an appropriate dye base for the pellets for filament extrusion ensures a highly efficient printing with an extremely good adhesion of printed items to the build beds of FDM/FFF 3D printers.
+
+  An unquestionable advantage of Spectrum PLA Premium is a very low processing shrinkage. Thus, it is particularly useful for large-size 3D printers without a closed build-in chamber. Spectrum PLA Premium yields excellent surface quality and detail, producing reliable results.
+
+  The characteristics of the filament Spectrum PLA Premium determine its application as a training material for those who learn to employ the FDM/FFF additive manufacturing technologies. Moreover, on account of the extremely high aesthetic properties, the material is widely used in industrial design, specifically for concept and demo prototyping of designed finished and semi-finished products.
+
+  The material is also widely used for producing gadgets and company advertising aids as well as all kinds of toys, figurines, containers, handles and stands for interior design purposes.
+thumbnail_url: null
+deleted_at: null
+deleted_by: a6de6705-5562-4722-9707-85c41bde327f
+created_at: '2025-09-30T19:29:49.965Z'
+updated_at: '2025-09-30T19:29:49.965Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9389
+packages:
+  - 1c4791e1-443a-4d65-874e-f84ff4691786
+  - 563674be-1aa8-4d5b-bf63-9cd890e4523a
+secondary_material_types: []
+opentag_uuid: f6c304ff-a058-50c7-b3da-70fe96b90040

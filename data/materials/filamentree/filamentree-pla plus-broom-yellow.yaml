@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9a39cb95-0e7b-4359-9c65-d2c58acd5c90
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: cb8b0fd0-30f7-4fa7-8f75-990c06bc3a20
+slug: pla-plus-broom-yellow
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Broom Yellow
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110521-pla-plus-broom-yellow-1kg-5260?category=59#attr=1198,2824,1199,1200,3510,2826,2827,2828,1201
+primary_color: d62ea23d-d53b-470a-bd5a-ee9fa88721b1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Broom Yellow is a high-quality 3D printing filament that combines enhanced mechanical durability with a vibrant, energetic yellow hue. Its rich, bright shade gives prints a lively and modern appearance, making it ideal for creative projects, functional parts, and models where visual impact matters.
+  Key Benefits:
+
+      High Strength and Durability: PLA Plus is more resistant to impacts and bending than standard PLA, ensuring longer-lasting and reliable prints. Perfect for parts exposed to mechanical stress.
+      Vivid Color and Striking Appearance: The intense broom-yellow color adds an energetic character to prints, ideal for attention-grabbing projects or highlighting details. Color stability ensures consistent aesthetics.
+      Easy to Print: Excellent bed adhesion, minimal warping, and compatibility with most 3D printers. Suitable for both beginners and advanced users.
+      Eco-Friendly Material: Made from biodegradable raw materials, supporting sustainable 3D printing with low environmental impact.
+
+  Applications:
+
+      Decorative and Promotional Projects: The bold yellow color is perfect for eye-catching models, signage, or exhibition pieces.
+      Functional Prototypes and Parts: Wear-resistant and durable, ideal for mechanical components, replacement parts, or testing models.
+      Educational and Safety Projects: Yellow is often used to highlight safety elements, such as protective covers, warning signs, or educational tools.
+      Creative Artwork: Great for sculptures, figurines, or interior decor where a contrasting color is desired.
+      Children’s Toys and Accessories: Safe material with an attractive color for toys, school projects, or kid-friendly designs.
+
+  Ideal For:
+
+      Printing visually striking models with high aesthetic value
+      Producing durable components that require reliability and strength
+      Projects where visibility and color dominance are key (safety features, advertising)
+      Sustainable solutions for eco-conscious users
+
+  PLA Plus Broom Yellow is the perfect choice for those seeking a reliable filament with bold color, capable of transforming every print into a visually captivating and durable result.
+thumbnail_url: https://file.myfilamentlist.com/new/cb8b0fd0-30f7-4fa7-8f75-990c06bc3a20.png
+deleted_at: null
+deleted_by: 55ac9e00-74ad-46d2-8c40-03b2dd74ddcf
+created_at: '2025-12-01T09:26:25.973Z'
+updated_at: '2025-12-01T09:26:25.973Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 081e3f0c-5d61-4731-8c7c-228acaa17a60
+secondary_material_types: []
+opentag_uuid: e0571890-bf4e-5914-b2fb-4d3228aae3d7

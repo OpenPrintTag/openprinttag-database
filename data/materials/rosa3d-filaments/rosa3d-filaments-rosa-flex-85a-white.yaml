@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 17d4059d-ceca-46db-82b7-89eca84a791e
+  hardness_shore_a: 85
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2bcd8f80-fc48-4b43-9128-4f24c7001cd0
+slug: rosa-flex-85a-white
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA-Flex 85A White
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-85a-white
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Filament 3D ROSA-Flex 85A White is a flexible thermoplastic polyurethane from ROSA3D, ideal for technical applications requiring mechanical resistance and tensile strength.
+
+  The filament can be repeatedly compressed and stretched without losing its shape. It also offers chemical resistance to greases, oils, and solvents. Recommended for experienced 3D printing users.
+
+  Applications:
+  - Seals, bumpers, vibration dampers/feet,
+  - Smartphone cases and device housing,
+  - Drone components,
+  - RC car parts.
+thumbnail_url: https://file.myfilamentlist.com/new/2bcd8f80-fc48-4b43-9128-4f24c7001cd0.png
+deleted_at: null
+deleted_by: 3d83edde-e549-492d-a2fc-b4e9ffc43d7d
+created_at: '2025-11-18T10:05:21.824Z'
+updated_at: '2025-11-18T10:05:21.824Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 10af1c2f-3256-43a4-aeff-4bc75d711bc3
+secondary_material_types: []
+opentag_uuid: 699cda0e-0ca7-5664-9153-a0948239a783

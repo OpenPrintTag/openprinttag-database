@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e3ecc1b406b3.png
+    type: gallery
+uuid: 192fa014-a213-448d-b187-cdda91285dbb
+slug: petg-economy-white-3
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Economy White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The pro users choice: PETG Economy. It is our go-to filament for functional 3D printing without breaking the bank. With PETG Economy White you can achieve large, functional and clean looking prints like no other.
+
+  With PETG Economy we offer a new standard in high quality PETG filament at an affordable price.  It is the choice for users looking for large volume printing of functional parts without breaking the bank.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e3ecc1b406b3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:53.886Z'
+updated_at: '2025-03-25T22:32:53.886Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1925
+packages:
+  - 4fd163a0-8984-448b-b945-fdb5b66cad1f
+  - 5999af7c-9b95-46c9-a29a-0161ad1d86f2
+  - 864d5dea-4a34-4d55-a530-b22ccaafc660
+  - 8b7384a0-aa7f-419e-8d67-f7d888373b72
+  - 9ec2f217-de42-4abc-8d3e-f578b7df15d9
+  - c1b555c0-0f36-45ad-ab70-0b2cbee7acf1
+  - ce976be2-ebe4-435c-bb1a-bd7cd476da34
+  - df0612d8-96c1-4225-b91c-0f5fe308e6d3
+secondary_material_types: []
+opentag_uuid: 5ae4bac1-9600-5e0e-8935-c63e616dc1bf

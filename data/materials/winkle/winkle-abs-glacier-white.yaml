@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bcbf519d-7817-478b-ae59-7f2e2832a4e7
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 4a311ab7-ca36-4169-9cbd-7f0e788e685c
+slug: abs-glacier-white
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Glacier White
+abbreviation: null
+url: https://winkle.shop/producto/filamento-abs-winkle-blanco-glaciar-175-mm-1-kg/
+primary_color: c871082a-b7e9-47c5-9cc9-25b26c1eeeea
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Strength, precision, and high-level finishes.
+  Take your 3D prints to the next level with the 1.75 mm ABS Filament—ideal for those looking to buy high-quality ABS filament with industrial-grade reliability and performance. Its specialized formulation by Winkle offers excellent layer adhesion, a low shrinkage rate, and significantly reduced warping, making it perfect for parts where mechanical or thermal resistance is essential.
+
+  Available in a versatile range of colors—jet black, glacier white, and natural—this Winkle ABS Filament provides smooth, uniform surfaces with a professional finish. Its dimensional accuracy ensures consistent extrusion and clog-free printing, compatible with most FDM printers.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b3e65bcd-ad3e-4227-ba7e-1cf6b7ec4cd1
+created_at: '2025-11-21T10:50:43.575Z'
+updated_at: '2025-11-21T10:50:43.575Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 29885c5f-163a-4083-b431-1983b6008948
+  - 3f78bf44-3418-443c-a2b9-da1fc05b00f1
+  - a51071ba-12f6-4911-ac96-b1c47e59223a
+secondary_material_types: []
+opentag_uuid: 5b2884e9-47ff-5d02-a276-f429733900fd

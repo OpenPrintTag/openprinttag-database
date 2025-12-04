@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b09dd975-659b-477a-8f6c-8581f119d0c3
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: deb025fe-8cb2-4d68-89ac-ece797cddcdb
+slug: pla-hd-interference-galaxy-blue
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Interference Galaxy Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-interferencia-winkle-175-mm-1-kg-azul-galaxia/
+primary_color: 5c909e5f-c5b6-447f-9f57-5a6d51d2a898
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Introducing PLA HD Interference Filament, offering uniform metallic visual effects.
+  This 1.75 mm Winkle PLA Filament is the ideal choice for 3D printing enthusiasts who value both aesthetics and technical performance.
+  Available in 300 g, 1 kg, and 5 kg formats, this 3D printer filament delivers highly visual and consistent results.
+
+  Applications for PLA HD Interference Filament:
+  Perfect for 3D prototypes, decorative pieces, functional elements, detailed figures, and components with high-impact visual finishes.
+  Compatible with any FDM printer that uses 1.75 mm PLA filament, this filament provides a smooth printing experience, clog-free operation, and excellent layer-to-layer adhesion.
+thumbnail_url: https://file.myfilamentlist.com/new/deb025fe-8cb2-4d68-89ac-ece797cddcdb.png
+deleted_at: null
+deleted_by: ded24383-976f-4c95-bb96-df6e8518dbb6
+created_at: '2025-11-21T12:26:57.189Z'
+updated_at: '2025-11-21T12:26:57.189Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 711a232d-9f4e-4e56-9a68-04d6315e9f96
+  - e7e2adbe-1015-4bbc-a663-122b0bdb9ad7
+secondary_material_types: []
+opentag_uuid: e540e79e-16ec-5696-bbe3-614ed2b80e70

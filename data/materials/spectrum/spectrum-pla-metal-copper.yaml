@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e5f4b79a-3c06-4450-b6bd-560a9279c4c9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 9847647c-dea3-4f38-a967-a856876e0708
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: b77690d7-dbea-46cc-8539-1104cc248b89
+slug: pla-metal-copper
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Metal Copper
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-metal-cooper/
+primary_color: c5881605-8c57-4939-9193-45969bc982a5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Spectrum PLA Metal Copper, enriched with copper powder, is an advanced material that combines the ease of printing typical of PLA with the aesthetics of metal. Due to the high copper powder content, prints made with this filament achieve a natural look and feel of genuine brass, including its weight and characteristic cool surface. This material is ideal for creating sculptures, jewelry, and other projects where an elegant, metallic finish is required.
+
+  Post-processing capabilities
+
+  Spectrum PLA Metal Copper filament offers extensive post-processing capabilities, making it an excellent choice for creators seeking advanced finishing effects. Prints can be easily polished to achieve a smooth, glossy surface that highlights the metallic copper sheen and elegance. Sanding enables more subtle textural effects, while patination techniques can give your prints an aged appearance. With these options, each print can be tailored to individual aesthetic needs, from a sleek shine to a rustic, antique look.
+
+  Tip: Due to the high metal powder content in the PLA Metal series filaments, it is recommended to use nozzles larger than the standard 0.4mm. The high metal content may cause accelerated wear of standard brass nozzles; therefore, it is advisable to use hardened steel or ruby nozzles.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 55e09892-8c5d-40a0-929b-90d5614aecd6
+created_at: '2025-09-30T18:16:37.531Z'
+updated_at: '2025-09-30T18:16:37.531Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9368
+packages:
+  - 508e0e8e-6df8-43f0-9841-d91cf8cdb283
+  - f32d8c16-dbac-4709-8a21-1f9345cc734d
+secondary_material_types: []
+opentag_uuid: 6f70d094-d666-5176-8739-89678d5b0c06

@@ -1,0 +1,70 @@
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+  - b92fdbec-b24a-4f52-9a65-2a4ae589e82e
+uuid: 15d01bfc-69ed-4c31-bc50-c747934a0250
+slug: f3-pa-ortho
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: F3 PA Ortho
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+
+      PA 6 based
+      colorless, translucent, transparent
+      high strength & low distortion
+      excellent adhesion to print bed
+      very smooth surfaces printable
+      biocompatibility ISO 10993-5 is passed
+
+
+  Technical filament made of polyamide modified for 3D printing.
+  Material Properties
+  The material shows good strength with a low tendency to warp and very good layer adhesion.
+  The material differs from other polyamides in its high light transmission and good transparency.
+  It is therefore ideally suited for applications where transparency and permanent strength above 70°C are required, such as orthoses, luminaires, displays, etc.
+  Printed objects become translucent, but not clear due to the printing process.
+  Depending on the light source, the printed material appears: slightly yellowish in artificial light or slightly bluish in daylight/sunlight.
+  Handling Notes
+  The material has to be kept dry for reliable print results under all conditions.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d6e301d4-3757-4931-8624-20ab9acc427e
+created_at: '2025-10-21T14:32:08.413Z'
+updated_at: '2025-10-21T14:32:08.413Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors: []
+packages:
+  - a0524990-2bb8-458f-a17e-b63f0d6396ea
+secondary_material_types: []
+opentag_uuid: 9ae1a657-66ff-5a57-9923-f15e981625a5

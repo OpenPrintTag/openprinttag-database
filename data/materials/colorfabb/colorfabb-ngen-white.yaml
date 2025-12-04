@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4978fe3a82d6.png
+    type: gallery
+uuid: ff31ae85-28f0-465e-98ea-bfc7ea950963
+slug: ngen-white
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: nGen White
+abbreviation: nGen
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  With nGen colorFabb and Eastman Chemical Company have released an all-round, easy to use 3D printing filament for a wide range of applications. Pure as fresh snow on a winter morning, nGen White is best suited for the most delicate of all prints.
+
+      FDA food contact compliance
+      Easy Printing
+      Multiple Colors
+thumbnail_url: https://file.myfilamentlist.com/f/new/4978fe3a82d6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.394Z'
+updated_at: '2025-03-25T22:32:26.394Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1835
+packages:
+  - 14ca29f0-675f-491f-80ca-39e19edcbe63
+  - 69456dc4-f76d-47ac-803d-2d40d2ccf33a
+  - a857b2e5-018f-47e4-962b-1ae85686eb1e
+  - e8aa8b6b-9cc8-4789-9daf-5790b01f7fa2
+secondary_material_types: []
+opentag_uuid: 2ff5c9c1-9ab2-5c0b-8f4b-a9cf70651aec

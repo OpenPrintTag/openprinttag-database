@@ -1,0 +1,63 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c425c581-91d1-47d9-a72f-06af176f7509
+slug: pla-kastanienbraun
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Kastanienbraun
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/47/pla-filament-1-75-mm-kastanienbraun-800-g?c=33
+primary_color: bf538d1a-a7ae-4dd0-8eec-538ce73fca4e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Riecht gut, kein unangenehmer Kunststoffgeruch wie bei ABS
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton entspricht: RAL 8015 Kastanienbraun (geringfügige Abweichung ist möglich) 
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 1d7e6dee-b85b-44cf-8a35-1c08e65c24c3
+created_at: '2025-10-17T14:00:45.436Z'
+updated_at: '2025-10-17T14:00:45.436Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 7cd7fadb-2dc3-4773-9df5-27848d822932
+  - c3182b99-deff-47c2-976c-1281cbbe5ee7
+secondary_material_types: []
+opentag_uuid: 18df53a5-cbad-5770-ace8-8fda1a93a244

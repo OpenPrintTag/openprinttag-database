@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a4f90fc3-fee7-407e-a11f-b05953904d49
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: a72de02f-467e-4826-abe2-37368cb930a9
+slug: the-filament-petg-cf-purple
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PETG CF Purple
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-petg-cf/
+primary_color: a8c26023-82f9-4bc4-9082-28799365d4fb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Try THE FILAMENT PETG CF – 3D filament that combines reliability with exceptional aesthetics. Thanks to the PETG composition and the addition of 3% high-quality carbon fibers, it provides excellent durability and flexibility. The optimized formula eliminates nozzle clogging and reduces stringing, making the printing process smooth and hassle-free. PETG CF is just as easy to print and beginner friendly as traditional PETG, and it is also compatible with the Bambu Lab AMS system.
+
+  THE FILAMENT PETG CF stands out with its elegant carbon-like finish, making it perfect for functional parts such as drone components, racing models or industrial parts. Its increased impact resistance and mechanical strength make it an ideal material for applications requiring both high performance and a stylish appearance.
+
+  THE FILAMENT PETG CF offers a combination of functionality and aesthetics that will excel in a variety of advanced projects.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ed2e409d-ee90-44c6-8d17-9415e8583aa4
+created_at: '2025-10-15T10:36:51.278Z'
+updated_at: '2025-10-15T10:36:51.278Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: ef39b414-863e-53b9-9025-0c2f386dbeca

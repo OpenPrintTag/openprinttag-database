@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2d0e72c4-bec8-4a18-bcec-ea509d57c3be
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7a9636c3e5f8.png
+    type: gallery
+uuid: c0de6ab3-adef-4bdb-8466-d934a6a489c5
+slug: tpu-95a-hf-yellow
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'TPU 95A HF Yellow '
+abbreviation: null
+url: null
+primary_color: 7abd308a-476d-4eb2-ae90-5ef22c4db37b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  Product Features
+
+      High-speed printing TPU
+      Soft, Flexible & Tough
+      Outstanding Impact Resistance and Flexibility
+      Includes High Temperature Reusable Spool
+      Diameter: 1.75mm +/- 0.03mm
+
+
+  Cautions for Use
+
+      Dry out before use
+      AMS & AMS lite NOT Compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/7a9636c3e5f8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:18.625Z'
+updated_at: '2025-04-03T16:37:23.613Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6636
+packages:
+  - ec7f9f80-2e04-40b2-a720-c814de4f9256
+secondary_material_types: []
+opentag_uuid: ce645338-965c-5b3a-b2ec-de8c7b5acf70

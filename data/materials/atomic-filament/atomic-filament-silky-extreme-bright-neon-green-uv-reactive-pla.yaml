@@ -1,0 +1,89 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3b129862b5b8.png
+    type: gallery
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - f256a3c0-18ea-49c8-beb0-7af94c28e476
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 10f99963-2b5d-489b-8e61-040b8f0d6642
+slug: silky-extreme-bright-neon-green-uv-reactive-pla
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Silky Extreme Bright Neon Green UV Reactive PLA
+abbreviation: null
+url: null
+primary_color: c323ee49-ce9a-43ee-a36c-11be96822c5e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  This is a modified PLA that gives an INTENSE BRIGHT looking silky sheen + reduced brittleness
+
+  Fantastic looking neon green color that prints opaque with a fantastic bright sheen and silk look & reactive under black light.
+
+  Experience the electrifying brilliance of Atomic Filament's Silky Extreme Bright Neon Green UV Reactive PLA Filament. This premium-quality filament is engineered to deliver stunning, neon-green hues that come alive under blacklight or UV light.
+
+  Key Features:
+
+      Intense Neon Glow: Under UV or blacklight conditions, this filament emits a vibrant, neon-green radiance that's sure to captivate.
+      Silky Smooth Finish: The silky finish provides a luxurious, smooth surface for your 3D prints, enhancing their overall aesthetic appeal.
+      UV Reactive Properties: The filament is designed to react to ultraviolet light, ensuring a dynamic and interactive experience.
+      PLA-Based: Made from biodegradable polylactic acid (PLA), this filament is an environmentally friendly choice for your 3D printing projects.
+      Excellent Print Quality: Enjoy high-quality prints with minimal warping or stringing, thanks to the precision-engineered filament.
+
+  Ideal Applications:
+
+      Glow-in-the-Dark Creations: Create unique and eye-catching objects that illuminate in the dark.
+      Decorative Accessories: Add a touch of neon flair to your home or workspace with custom-printed items.
+      Prototype Modeling: Use this filament for prototyping or modeling projects that require a vibrant and attention-grabbing color.
+      Art and Design: Unleash your creativity and create stunning works of art with this UV reactive filament.
+
+  Elevate your 3D printing experience with Atomic Filament's Silky Extreme Bright Neon Green UV Reactive PLA Filament. Order yours today and discover the magic of this extraordinary material.
+
+   prints at a slightly higher temp than regular pla
+
+  ***Silk products require special print settings***
+
+  For best results, use the following settings
+
+  230C Nozzle & 60C Bed temperatures
+
+  Extrusion width is CRITICAL for strong layer bond
+
+  .40mm nozzle must use a extrusion width of 0.50-0.60mm
+thumbnail_url: https://file.myfilamentlist.com/f/new/3b129862b5b8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:45.888Z'
+updated_at: '2025-04-12T11:23:43.715Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 6915
+packages:
+  - b179bd20-b02e-421e-8efb-8ed942951d3c
+secondary_material_types: []
+opentag_uuid: 5795c1a7-34b7-51f1-a7ed-f96abbbf8109

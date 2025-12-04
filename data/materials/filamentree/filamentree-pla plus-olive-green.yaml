@@ -1,0 +1,86 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3be57326-b321-4225-b643-981209837d88
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 262a6e78-b0c3-4944-97fd-047f00acc9ad
+slug: pla-plus-olive-green
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Olive Green
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110581-pla-plus-olive-green-1kg-6334?page=2&category=59#attr=3785,3780,3777,3778,3781,3782,3783,3784,3779
+primary_color: 2a762ebf-dd5f-41da-92e3-05c1c0294d79
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Olive Green is a premium 3D printing filament featuring an elegant olive-green shade that stands out with its natural, muted look and modern character. This color is perfect for design, technical, and eco-oriented projects. With high strength, easy printability, and a smooth matte finish, it offers the perfect balance between functionality and aesthetics.
+
+
+  Key Benefits
+
+
+      Elegant olive-green color: A subtle, natural tone that gives your prints a modern, eco-friendly, and professional look.
+      Enhanced strength and durability: PLA Plus provides greater impact resistance and toughness than standard PLA, ensuring long-lasting prints.
+      Easy processing: Excellent bed adhesion, minimal warping, and precise layer definition guarantee clean, accurate results with every print.
+      Eco-friendly material: Made from biodegradable, non-toxic raw materials – safe for users and the environment.
+
+
+  Applications
+
+
+      Decorative objects: Ideal for creating design accessories, home decorations, and artistic pieces with a natural look.
+      Architectural and prototype models: Perfect for models that combine precision with an elegant, muted appearance.
+      Functional prints: Suitable for holders, cases, technical components, and accessories requiring both strength and visual appeal.
+      Outdoor and eco-friendly projects: Great for products inspired by nature or environmentally themed creations.
+      Artistic and craft projects: Excellent for figures, models, and creative designs with a soft, modern color accent.
+
+
+  Ideal For
+
+
+      Designers and creators seeking a natural, elegant color palette.
+      Projects that combine technical precision with aesthetic appeal.
+      Users who prefer eco-friendly and reliable materials.
+      Prints designed for modern, minimalist, or nature-inspired environments.
+
+
+  PLA Plus Olive Green brings a stylish blend of strength, reliability, and natural design to 3D printing. It’s the perfect choice for anyone looking for a filament with a modern look, high quality, and an eco-conscious character.
+thumbnail_url: https://file.myfilamentlist.com/new/262a6e78-b0c3-4944-97fd-047f00acc9ad.png
+deleted_at: null
+deleted_by: d09707a0-7603-4d9f-83ac-f64d93d65526
+created_at: '2025-12-01T10:44:16.944Z'
+updated_at: '2025-12-01T10:44:16.944Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - e76028e4-8c48-4931-8170-ddfdd28838cc
+secondary_material_types: []
+opentag_uuid: 3980ab02-1f0c-50ef-85dc-8fd6e241cc53

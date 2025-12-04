@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 664528b8-65b4-4f3d-bdf1-7d37c8b9fba3
+  hardness_shore_a: 43
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 185a0142-899b-4fab-9ea9-ba24b932657f
+uuid: 9e2956c2-91a5-45c3-be4b-d2e0e3c281bf
+slug: elastomer-x
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Elastomer-X
+abbreviation: null
+url: https://www.liqcreate.com/product/elastomer-x/
+primary_color: bdfab626-c8d0-4742-9590-ae8a821a7e47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Liqcreate Elastomer-X is a clear photopolymer resin and can be processed on most resin based 3D-printers. 3D-printed parts from this material are exceptionally soft with a Shore A of 43 and has great flexibility. The product can be used as received, or colored with almost any commercial available 3D-resin colorant. Liqcreate Elastomer-X can be used on open DLP, LCD and SLA 3D-printers in the range of 385 – 420nm. Its properties simulate soft TPU and silicone which makes it perfect for the production digital lattice foams, soft end of arm tooling (EOAT) for robots, grommets, bellows and elastic industrial parts.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 90be2b98-d8e0-41ed-94d7-2c0dda0d58f2
+created_at: '2025-10-06T08:49:50.458Z'
+updated_at: '2025-10-06T08:49:50.458Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9525
+packages:
+  - 34760632-7d23-438a-bc4f-71e34c269de4
+  - 8f4042e5-ab8e-4389-85dd-1ff4febc865b
+secondary_material_types: []
+opentag_uuid: 2afeb8c6-9593-5f2a-b377-14e4021da0a7

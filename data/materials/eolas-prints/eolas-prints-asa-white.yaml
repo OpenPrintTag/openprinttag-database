@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: cc3ef043-e17b-443f-afc9-3b6b781a6102
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f3f1a9cc-29ae-4be6-99e8-2f53cdd0db08
+slug: asa-white-12
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA White
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/asa-filament?variant=49109313814855
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ASA Filament represents a breakthrough in professional-grade 3D printing filament, meticulously engineered to deliver exceptional performance in challenging environmental conditions. The material's advanced composition provides superior technological capabilities that distinguish it from conventional filament options.
+thumbnail_url: https://file.myfilamentlist.com/new/f3f1a9cc-29ae-4be6-99e8-2f53cdd0db08.png
+deleted_at: null
+deleted_by: 6ae85d14-fa07-40aa-9925-a11e6a8dbe91
+created_at: '2025-11-11T11:35:06.050Z'
+updated_at: '2025-11-11T11:35:06.050Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 216da1c3-793e-4c7f-991e-2d395a6709e5
+  - 4b7ba5a9-8a82-4ecf-be36-023b6f3a374d
+  - a9829abc-1065-4530-a081-2067ac811d12
+  - ad952ec1-8500-488c-9e62-0cf76d416faf
+  - d03ab477-c4f5-4986-9bdc-d32eccf2a53d
+  - d4f6d24d-cacb-43d8-bbac-53b20ceb0eb7
+secondary_material_types: []
+opentag_uuid: a65ff3f8-6002-5796-bc6e-427969666a01

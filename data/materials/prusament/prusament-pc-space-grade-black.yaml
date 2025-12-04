@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6d008b55-c255-44b7-b8a1-9c4747d764af
+  hardness_shore_a: null
+  hardness_shore_d: 83
+  fff_material_properties: 48f391dc-e22c-4e96-bd25-ecfe1bcc225c
+  sla_material_properties: null
+  min_print_temperature: 280
+  max_print_temperature: 300
+  preheat_temperature: 170
+  min_bed_temperature: 110
+  max_bed_temperature: 130
+  chamber_temperature: 90
+  heatbreak_temperature: null
+  min_chamber_temperature: 60
+  max_chamber_temperature: null
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+tags:
+  - ce3f9674-3622-445c-b6d2-2874193ffd79
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 0283d715-802e-442e-9e64-bb8a359c4e98
+slug: pc-space-grade-black
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC Space Grade Black
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-pc-space-grade-black-850g/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Prusament PC Space Grade Black is a material developed for the space industry and particle physics applications. Its main advantages are its ESD-safe properties and very low outgassing. Plus, its affordable price and ease of printing on common desktop printers make it something unique in this industry. Due to its excellent ESD properties and compatibility with desktop 3D printers, it’s suitable not only for parts exposed to outer space but also for advanced personal projects, such as housings for electronic devices and more.
+
+  High-end material accessible to everyone
+
+  Our goal was to create a professional, yet affordable material that would make prototyping and manufacturing space components easier. Until now, only costly materials like PEEK, PEKK and PEI with ESD-safe properties were suitable in this field. All of these materials require highly expensive industrial printers. Prusament PC Space Grade Black can be printed on most Prusa 3D printers, which significantly reduces the final price of manufactured components and greatly increases accessibility for everyone.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d7e388bb-51e8-4134-afd8-4929c49e94a9
+created_at: '2025-10-01T10:31:40.390Z'
+updated_at: '2025-10-01T10:31:40.390Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 9452
+packages:
+  - a5d88e1d-326c-401a-bb22-4d38ce4307e7
+  - af6bcf76-21a9-47e2-99ca-fb0958c37ae0
+secondary_material_types: []
+opentag_uuid: b6181a9d-161f-5126-82c5-0b7e5b77c5b6

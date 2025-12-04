@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/06d5c7e75c5d.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 13587b5c-3142-4589-88d9-1b7ae204597d
+slug: petg-natural
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG "Natural"
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG filament is perfect for practical 3D prints, combining strength, flexibility, and easy processing.
+
+   High strength & good hardness
+   Temperature resistance up to 70 degreesC
+   Chemical resistance against water, acids, alkalis, and alcohols
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/06d5c7e75c5d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:56.967Z'
+updated_at: '2025-03-25T22:32:56.967Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2265
+packages:
+  - 0d044f66-1be2-44db-a4a7-03012f76e604
+  - 8d54722e-f235-437e-ba75-196c0c7427ef
+secondary_material_types: []
+opentag_uuid: b32c7d94-9a69-59fa-8fb3-6338cecbf1c4

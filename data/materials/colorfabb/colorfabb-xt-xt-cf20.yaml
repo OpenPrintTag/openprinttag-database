@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3daa4941ccac.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: c4893eb7-4e7d-4cfd-8fbc-55ba9fb0fb17
+slug: xt-cf20
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: XT-CF20
+abbreviation: XT
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+  Based on colorFabb_XT, XT-CF20 is a carbon fiber composite material. Loaded with no less than 20% specially sourced carbon fibers we have developed a very stiff and tough 3D printing filament made for functional parts. It is truly a professional printers go-to material, especially for users looking for high melt strength, high melt viscosity and good dimensional accuracy and stability.
+
+  Please note: A special point of attention is the abrasive nature of the carbon fibers. In general these fibers will accelerate the nozzle-wear of brass nozzles, much faster than unfilled filaments. We recommend to use from stainless steel nozzles or nozzles made with hardened copper alloys.
+
+
+      Carbon Fiber
+      Tough
+      Matte surface finish
+thumbnail_url: https://file.myfilamentlist.com/f/new/3daa4941ccac.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:51.285Z'
+updated_at: '2025-03-25T22:36:51.285Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 5534
+packages:
+  - 6e1b83fa-30bc-459c-8287-9a47bf751ae6
+secondary_material_types: []
+opentag_uuid: 77c2df1c-dd37-5ee4-8d2b-21cb106accfb

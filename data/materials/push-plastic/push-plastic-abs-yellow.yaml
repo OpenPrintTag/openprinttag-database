@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/627a3590bdb8.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: c1361faa-361f-4c00-8c78-0ab12be00e24
+slug: abs-yellow-7
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Yellow
+abbreviation: null
+url: null
+primary_color: e9f9e8ad-c217-4c99-a2c8-8f88aae97cb3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  The benefits of ABS include:
+
+      Higher strength and flexibility compared to PLA
+      Higher temperature resistance over PLA
+      Machinability allows for end-use parts 
+      Finished parts can be vapor smoothed with acetone
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/627a3590bdb8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T09:20:53.160Z'
+updated_at: '2025-04-30T09:20:53.160Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7325
+packages:
+  - 0e0bc0d5-d0ef-4844-b561-8a7b0ef360a3
+secondary_material_types: []
+opentag_uuid: 37fd4050-ec80-5e2e-b35b-a4d2b02fef03

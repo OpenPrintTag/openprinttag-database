@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ce12adfd-ba57-45ca-b26b-2c7ee3ccc7fd
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e4b51bb5-75c7-484a-bf67-20f37016fc30
+uuid: ca6bce38-71de-4bd9-8540-7584306ece42
+slug: pla-wood-maple
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Wood Maple
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-wood-winkle-175-mm-0300-kg-arce/
+primary_color: 551c22e4-cdc6-427a-98a7-f91147d7a3db
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **With a unique blend of PLA and wood particles, this PLA Wood filament lets you print objects with the look and texture of real wood.**
+  Compatible with most 3D printers, this 3D printer filament is available in 300 g and 750 g spools, suitable for both detailed projects and larger prints.
+
+  **Key applications for PLA Wood Filament:**
+  Ideal for decorative pieces, models, 3D prototypes, design items, handcrafted toys, custom gadgets, sculptures, and any creation with a rustic, natural finish. If you’re looking to buy PLA filament that combines aesthetics and functionality, this is your best ally.
+
+  **Two unique finishes:**
+
+  * **Maple:** Soft, elegant, and uniform tone. Perfect for modern designs, architectural models, or minimalist décor. Its warm color highlights fine details and adds a sophisticated touch to every piece.
+  * **Pine:** Warmer and more intense, with slightly earthy nuances. Ideal for handcrafted objects, sculptures, or rustic replicas. This tone conveys authenticity and a natural feel.
+
+  With a flow rate of 19 g/10 min and density of 1.27 g/cm³, Winkle PLA Wood Filament offers stable extrusion, excellent layer adhesion, and a surface finish that mimics natural wood grain. Print without warping, unpleasant odors, and achieve a premium result. A nozzle of at least 0.6 mm is recommended for optimal printing.
+
+  If you want the best 3D filament to bring your ideas to life, this wood-effect PLA will become your new favorite. Add it to your cart and transform your 3D prints into true works of art with Winkle quality.
+thumbnail_url: https://file.myfilamentlist.com/new/ca6bce38-71de-4bd9-8540-7584306ece42.png
+deleted_at: null
+deleted_by: 0ff38c41-ff57-4e9a-946f-be72ec810f5c
+created_at: '2025-11-21T23:39:32.058Z'
+updated_at: '2025-11-21T23:39:32.058Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 4ae361a3-6b45-4c59-b505-cfa660a4fb6b
+  - 71df04a7-c05c-4c7c-9ea5-b85d9ff6debd
+secondary_material_types: []
+opentag_uuid: 040d5324-5030-5037-96b4-732bb64e0a7c

@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/dd0c1695e912.png
+    type: gallery
+uuid: 8362dfcb-5d3c-40a3-b72d-55b5d85e6021
+slug: royal-blue-opaque-petg-pro
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Royal Blue Opaque PETG PRO
+abbreviation: null
+url: null
+primary_color: 5c909e5f-c5b6-447f-9f57-5a6d51d2a898
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG is a newer printing filament and has the advantage of printing easily like PLA, but offering higher temp and impact resistance like ABS.
+  Nearly ZERO warpage prints, extremely strong layer bonds, little to no odor at all.
+
+  HEX COLOR: #305CA3. This is according to Filamentcolors.xyz. We cannot verify this information.
+thumbnail_url: https://file.myfilamentlist.com/f/new/dd0c1695e912.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:19.232Z'
+updated_at: '2025-03-25T22:35:19.232Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 4479
+packages:
+  - b04ebe7b-9120-431e-85d0-17c3f2b10936
+secondary_material_types: []
+opentag_uuid: 15f32fd5-b5d9-57b4-b809-120141bf98e4

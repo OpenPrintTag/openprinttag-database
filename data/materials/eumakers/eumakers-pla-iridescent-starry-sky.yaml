@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 29f9dea4-5ef5-4115-afba-dba7f5161c5e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+uuid: f4eed20b-f87e-43c9-886a-1a8954759758
+slug: pla-iridescent-starry-sky
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Iridescent Starry Sky
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-iridescent-starry-sky.html
+primary_color: fd6ab862-8f82-4581-b535-3aac369f1714
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Iridescent Starry Sky.
+
+   
+
+  This special filament has a lovely motherpearl effect; when you see it under a light, its colour appears lighter.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/f4eed20b-f87e-43c9-886a-1a8954759758.png
+deleted_at: null
+deleted_by: 7c385d86-7b96-487a-bb52-2b19bb8a84b2
+created_at: '2025-11-11T13:59:40.821Z'
+updated_at: '2025-11-11T13:59:40.821Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - ae4df854-7be8-4b4e-a5c0-696dd23a814e
+secondary_material_types: []
+opentag_uuid: 12f700aa-98c2-5894-88a5-53bb476da935

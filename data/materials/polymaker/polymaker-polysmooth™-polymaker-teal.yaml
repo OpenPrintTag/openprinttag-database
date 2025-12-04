@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/57d4cbc82d77.png
+    type: gallery
+uuid: f54e54f1-2029-4864-bb4a-f49dfbcf35c2
+slug: polysmooth-polymaker-teal
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolySmooth™ Polymaker Teal '
+abbreviation: PolySmooth™
+url: null
+primary_color: 424c6c1d-f5cd-4698-a4d5-cab621481a3a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolySmooth™ is a unique, easy-to-print filament designed for hands-free post processing. The surface can be smoothed with alcohol to achieve layer free models using the Polysher™.
+
+  -  Printing Requirements
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/57d4cbc82d77.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:50.487Z'
+updated_at: '2025-03-25T22:34:50.487Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: null
+colors:
+  - 3527
+packages:
+  - a39cfa98-972d-4ba4-96ff-67194fe30cee
+  - eee052a8-32cb-4371-8dc0-81b291adf891
+secondary_material_types: []
+opentag_uuid: 742f8934-6b52-5a7f-9bf4-8f03d0e17595

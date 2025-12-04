@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5587b1cd77f1.png
+    type: gallery
+uuid: 30f5ed9b-6aea-40e2-aab9-7d6fd5a816c7
+slug: petg-white-5
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Large 5kg Spool
+
+  Gizmo Dorks is proud to introduce bigger spools in a 5kg net weight filament size for large format 3D printers. Even users who are tired of changing spools will be able to use these 5kg spools on any open 3D printer. The larger spools still carry our top notch Gizmo Dorks filament but will require less filament changing with the printer. The larger amount of filament allows continuous prints without the need to swap out spools. It's perfect for larger builds.
+  Filament Type
+
+  The Gizmo Dorks PETG filament is an updated cousin to PET (Polyethylene terephthalate) filament with enhanced properties. PETG has minimal shrinkage and warping. The filament has easy adhesion, so it can be printed on acrylic, glass, polyimide (Kapton) tape, blue tape, and other surfaces. PETG filament has a good combination of strength and flexibility, which is why it is used in latches and mechanical parts for snap fits. The filament is transparent with a glossy finish. It has chemical resistant properties, especially good acidic and alkalic resistance. Large prints tend to have less issues as well due to PETG having a shrink rate of less than 0.004 in/in. Printing Tips: Print speeds should be 50 mm/s or less. The slower the print speed, the more transparent the print will be.
+
+      Extrusion temperature: 230degrees- 260degreesC
+      Heated Bed Temperature: 80degreesC
+      Print Speed: 50mm/s or less
+thumbnail_url: https://file.myfilamentlist.com/f/new/5587b1cd77f1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:05.843Z'
+updated_at: '2025-03-25T22:33:05.843Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2404
+packages:
+  - 280e2fcd-f68d-4639-b923-ff6ccccc36de
+  - 8a8e3918-2540-4185-af46-50e4910a60c4
+secondary_material_types: []
+opentag_uuid: 430f2930-92bd-5c66-b65b-98544ada1668

@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.28000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5be714f3-1d6b-4842-b565-b0568ec960e2
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+uuid: 9a1c7933-50a9-48c1-b214-468ddd7661dd
+slug: petg-green-10
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Green
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-petg-green-1kg/
+primary_color: 6a224532-a956-4969-9508-63d97eddea22
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: b52c38e1-642a-4d2d-b818-2307786c2a15
+created_at: '2025-09-24T07:38:45.373Z'
+updated_at: '2025-09-24T07:38:45.373Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 8941
+packages:
+  - 2a5bcb24-b2ec-46da-8ec1-ba59dbf7f408
+secondary_material_types: []
+opentag_uuid: 0b6f9fdb-2b6e-5ffa-91af-cfda5f2795e1

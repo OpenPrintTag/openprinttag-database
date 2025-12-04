@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a8204eddd089.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 1811bf45-354b-46d4-aaa2-ff3a946cb0b2
+slug: pla-pearl-blue
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PLA - Pearl Blue '
+abbreviation: null
+url: null
+primary_color: 56876fcf-cf87-4e13-b729-c3bcfbcf6de7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  PLA - so-called starting material for 3D printing
+
+  PLA (polylactic acid) 
+  - easy to print material
+  - is suitable for printing large objects
+  - is made from corn starch and biodegradable
+  - is suitable for beginners, as printing from it is trouble-free
+  - PLA prints are not ideal for outdoor use (low-temperature resistance, low UV resistance)
+thumbnail_url: https://file.myfilamentlist.com/f/new/a8204eddd089.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T16:20:09.117Z'
+updated_at: '2025-04-22T16:20:09.117Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7026
+packages:
+  - ab8c2a99-0188-4876-b755-db9179058b0e
+secondary_material_types: []
+opentag_uuid: 16296ad1-f366-5657-8032-1ec7f37bb5bc

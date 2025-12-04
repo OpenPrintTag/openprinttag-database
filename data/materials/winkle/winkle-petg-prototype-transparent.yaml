@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5981c080-3f68-4a93-8376-ab500f301fa7
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: e8979183-3a59-478e-bfe7-5f12deee6305
+slug: petg-prototype-transparent
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Prototype Transparent
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-prototype-winkle-175-mm-transparente-1-kg/?_gl=1*1plpzkn*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3MjEzNzYkbzEkZzEkdDE3NjM3MjQ5MjgkajU2JGwwJGgxMjQwMTEyNzE.
+primary_color: df11c8f3-7ff2-43dc-bca9-3958ac7f1a51
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  New Winkle Filament. Mechanical strength, functional prototypes, and high precision.
+  The new Winkle Transparent PETG Prototype filament has been specifically designed to meet the demands of the industrial and applied engineering sectors. This filament offers excellent mechanical strength and stability, making it ideal for technical, engineering, industrial, and mechanical prototypes. Developed in Winkle’s laboratory in Salamanca, this PETG outperforms any other filament in terms of:
+
+  Impact resistance
+
+  Strong layer adhesion
+
+  Low shrinkage
+
+  Easy printing even without an enclosed chamber
+
+  Excellent value for money
+
+  This makes it the perfect solution for parts subjected to mechanical stress or industrial prototypes. PETG Prototype is easy to print and provides high durability in use. We offer a new, innovative filament that ensures precise and consistent technical reproductions.
+thumbnail_url: https://file.myfilamentlist.com/new/e8979183-3a59-478e-bfe7-5f12deee6305.png
+deleted_at: null
+deleted_by: e9e4b435-d668-4e8a-bbd4-13488119f17a
+created_at: '2025-11-21T11:39:12.993Z'
+updated_at: '2025-11-21T11:39:12.993Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - b9ce8714-422e-46fa-a517-eadcc44d2767
+secondary_material_types: []
+opentag_uuid: 0bff2b7a-c0e6-5804-98dd-6f6afea358c4

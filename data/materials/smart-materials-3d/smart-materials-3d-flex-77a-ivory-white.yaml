@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2a693ebc75f7.png
+    type: gallery
+uuid: ac779018-70ff-4182-8d7b-6c4dbc43b5db
+slug: flex-77a-ivory-white
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 77A Ivory White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  SMARTFIL(R) Flex 77A is a flexible and durable filament, ideal for additive manufacturing of parts requiring high elasticity and durability. Perfect for industrial applications and projects where extreme flexibility is key.
+
+  SMARTFIL(R) Flex 77A is an advanced polymeric material designed to provide maximum flexibility and strength in 3D printing applications.
+
+  With a Shore hardness of 77A, this filament stands out for its great elasticity, allowing the printing of parts that need to bend or stretch without losing their original shape.
+
+  It is ideal for producing gaskets, shoe soles, or any component that must withstand mechanical stress without fracturing.
+
+  Additionally, its excellent layer adhesion ensures a uniform and high-quality print, making it suitable for industrial applications and functional prototypes.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2a693ebc75f7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T14:13:53.592Z'
+updated_at: '2025-03-29T14:13:53.592Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5986
+packages:
+  - d36abcd4-8823-45c2-bef5-b9b9789e439e
+secondary_material_types: []
+opentag_uuid: 513af3f1-5829-5a29-840c-837bb45bbe3e

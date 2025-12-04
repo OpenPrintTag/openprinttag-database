@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e2dd1464d633.png
+    type: gallery
+tags:
+  - 930807f4-0f7d-4630-a929-9030f31881a6
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 4db4309b-3d45-478c-b301-923f85b79d84
+slug: stonefil-granite
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: StoneFil Granite
+abbreviation: null
+url: null
+primary_color: 3dade77e-bc86-487f-b91a-a6ee710f02b2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  StoneFil is a PLA-based 3D printer filament with a 50% powdered stone filling, which give 3D printed parts true stone-like aesthetics and a rough and matt stone-like surface finish.
+
+  Unique features
+
+      Easy to print
+      Matte and rough stone-like finish
+
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/e2dd1464d633.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:58.176Z'
+updated_at: '2025-03-25T22:35:58.176Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4696
+packages:
+  - 03a29b91-8ddc-4c8c-af76-da6c72f6492c
+  - 5ca2d5e8-9818-43c1-83e2-fca0329589f3
+  - ad5585f7-e6f7-46e8-8566-711921ede2f2
+  - be3e24c5-3e96-4f44-9675-17925003ee7e
+  - f0ea24cf-b837-4164-ae2d-d3c8a4451beb
+  - f2555003-1e5f-41a5-a012-eb4c3e12d616
+  - f2ea860c-eb63-4b1e-aad7-79309563f13a
+  - f5eda69c-e584-47e8-8f47-8508c4b134a0
+  - f7f5003d-ca62-45e6-af24-fd4f1de94431
+  - f84c0636-0582-4a39-9e2d-f29f82297f39
+secondary_material_types: []
+opentag_uuid: 729c25ba-e4a8-5222-a16b-a58f93037451

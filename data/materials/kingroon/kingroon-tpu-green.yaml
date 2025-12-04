@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d8bc2669-452e-4d65-8bd5-27a4f3577afc
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f95e9358-f504-427b-9de6-01d56f15e345
+slug: tpu-green-3
+brand_slug: kingroon
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Green
+abbreviation: null
+url: https://kingroon.com/products/10kg-tpu-3d-printer-filament?variant=46931212828890
+primary_color: 78e04ea4-bfaa-42ea-a72d-074c9bb23c1b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Kingroon TPU 95A has high elasticity, allowing us to print airless basketballs that bounce just like real ones. This soft and flexible filament offers exceptional impact resistance, making it an ideal material for protective covers and mats.
+
+  TPU boasts high chemical resistance, UV resistance, waterproofing, and abrasion resistance. This makes it perfect for parts that require long-lasting performance and durability. It's also well-suited for outdoor applications.
+
+  TPU is ideal for creating phone cases, gaskets, and footwear. Its impact resistance makes it perfect for protective gear and automotive components. It's also a great choice for wearables and industrial parts.
+
+  Kingroon TPU material is highly resistant to oils—including mineral, animal, and vegetable oils, as well as lubricants—and solvents. Additionally, TPU resin offers strong weather resistance and excellent durability against ultraviolet ray.
+thumbnail_url: https://file.myfilamentlist.com/new/f95e9358-f504-427b-9de6-01d56f15e345.png
+deleted_at: null
+deleted_by: 1b96bab5-570d-47ef-a782-a9941f01c0d6
+created_at: '2025-11-20T13:47:43.420Z'
+updated_at: '2025-11-20T13:47:43.420Z'
+brand: d151e8d1-5cc0-4a16-9038-f5f708b79ab7
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 80cdb3a3-1e9a-4609-9ca2-28c033a82771
+  - e2a0cec9-9168-40f4-9d9f-735a79309394
+secondary_material_types: []
+opentag_uuid: 481107af-8043-5d40-9b35-067534e14020

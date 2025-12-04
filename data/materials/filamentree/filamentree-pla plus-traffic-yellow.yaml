@@ -1,0 +1,54 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c568cb97-b3bf-4e82-8d13-b8aa7cc141d1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 6c15b22f-8757-4585-95f4-6253555fdbfb
+slug: pla-plus-traffic-yellow
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Traffic Yellow
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110211-pla-plus-traffic-yellow-1-kg-4585?category=59#attr=685,2879,686,687,3511,2881,2882,2883,688
+primary_color: 1333a659-1f4b-478e-8fd1-c2241a3c57ef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: "PLA Plus Traffic Yellow is a high-visibility filament designed for projects that demand attention, clarity, and durability. Inspired by road safety signs and industrial markings, this vibrant yellow filament ensures that your prints stand out with striking visibility. Combining the enhanced mechanical properties of PLA Plus with a bold, eye-catching hue, it is perfect for safety equipment, functional prototypes, promotional materials, and creative applications where high contrast and reliability are essential.\n\nKey Benefits\n\n\n    High-Visibility Yellow: The intense traffic-yellow shade ensures maximum attention, making it ideal for safety markings, warning signs, or functional parts that need to stand out.\n    Enhanced Strength & Durability: PLA Plus offers superior impact resistance and toughness compared to standard PLA, ensuring long-lasting, reliable prints that can withstand daily use.\n    Effortless Printing: Excellent bed adhesion, minimal warping, and compatibility with most 3D printers guarantee smooth and hassle-free printing for both beginners and professionals.\n    Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable 3D printing without compromising quality.\n\n\nApplications\n\n\n     Safety & Industrial Equipment: Print high-visibility warning signs, emergency tool handles, or safety gear for industrial and outdoor environments.\n    Promotional & Retail Displays: Create eye-catching product displays, signage, or branded merchandise that commands attention.\n    Automotive & Transportation Models:\tPerfect for printing traffic cones, road barriers, vehicle accessories, or realistic transport-related scale models.\n    Educational Tools & Prototypes: Ideal for scientific models, interactive learning tools, or functional prototypes requiring strong contrast and recognition.\n    Kids’ Toys & Accessories:\tBright, safe, and durable material for fun toys, puzzles, or wearable tech designed for children and creatives.\n\n\nIdeal For\n\n\n    Projects that require maximum visibility for safety, warnings, or industrial applications.\n    Branding and marketing materials that need to stand out.\n    Functional prototypes demanding strength, durability, and bold color retention.\n    Eco-conscious creators who prioritize sustainability without compromising performance.\n\n\nPLA Plus Traffic Yellow is the ultimate filament for ensuring visibility, reliability, and creativity in every print. Whether for safety applications, striking designs, or innovative prototypes, this filament makes sure your prints get noticed and perform flawlessly."
+thumbnail_url: https://file.myfilamentlist.com/new/6c15b22f-8757-4585-95f4-6253555fdbfb.png
+deleted_at: null
+deleted_by: fce5d452-8c49-438e-8380-593b5a52e367
+created_at: '2025-12-01T09:27:42.752Z'
+updated_at: '2025-12-01T09:27:42.752Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - bb665878-6e9b-4161-85f7-d57cf70f53e8
+secondary_material_types: []
+opentag_uuid: b6c16e24-a5f0-50a9-bab6-a084e9c3fc86

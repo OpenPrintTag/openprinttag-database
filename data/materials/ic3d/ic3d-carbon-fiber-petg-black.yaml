@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6740ceabf55c.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 7afbdfac-2244-4fc9-9173-6c35db2d4a4a
+slug: carbon-fiber-petg-black
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Carbon Fiber PETG Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Industry-leading PETG resin is combined with high quality milled carbon fiber creating a material that retains the  3D printing ease of PETG with added rigidity from carbon fiber reinforcement.
+
+  CF-PETG is stiffer and stronger than traditional PETG, more affordable than other fiber reinforced materials, and features a clean printed part finish all while 3D printing with minimal warp. Due to the abrasive nature of carbon fiber reinforced materials a hardened steel nozzle is required to prevent early nozzle wear.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6740ceabf55c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T15:53:46.393Z'
+updated_at: '2025-04-30T15:53:46.393Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7386
+packages:
+  - 5b87c300-95be-4543-8bc9-d702a8d48ecb
+  - c5e28031-3b62-4762-99fc-05f81a2cba3d
+  - fb29da75-5901-4254-b331-f21c75058d81
+secondary_material_types: []
+opentag_uuid: 220dc2b7-18d2-5f46-b712-2a6378c1c879

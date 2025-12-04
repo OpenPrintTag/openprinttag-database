@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 92ca39a5-7b33-4806-9f88-59a91ba1fafe
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - df5d80f1-cc07-4db1-aef7-19a2fd78d288
+uuid: df58e861-2c5d-4c7b-bed9-285c5125e0f0
+slug: pet-g-ht100-iron-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PET-G HT100™ Iron Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-ht100/
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Dimensional stability and high temperature resistance
+
+  Spectrum PET-G HT100™ is a co-polyester based filament designed for 3D printing in FFF / FDM technology. The material is intended for advanced users, who require excellent durability from printouts working in real conditions.
+
+  PET-G HT100™ does not contain styrene and is chemical resistant. Excellent dimension stability allows printing with accurate dimensions, which is particularly important for projects consisting of many different elements. One of the biggest advantages of PET-G HT100™ is the increased temperature resistance of 100°C.
+
+  The higher temperature resistance of Spectrum PET-G HT100™ ensures the use of printed elements without fear of deformation. In combination with the additional features such as: dimensional stability, high stiffness and chemical resistance, using PET-G HT100™ allows to create fully functional parts.
+
+  Tip: It is recommended to print using a heated chamber.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7cf162f2-d049-474f-a52a-38399273ba11
+created_at: '2025-10-14T13:55:05.051Z'
+updated_at: '2025-10-14T13:55:05.051Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: e459aed0-8281-5e2e-bd4e-54aba5acffa4

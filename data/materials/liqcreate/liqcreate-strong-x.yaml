@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.12000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: dbebc8eb-51d0-4c2a-9019-afc04acc0207
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 1ba4751f-ba99-4bbf-9bee-6f3b0c242f10
+uuid: fc0bb222-2dab-4703-8734-9455805765e2
+slug: strong-x
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Strong-X
+abbreviation: null
+url: https://www.liqcreate.com/product/strong-x/
+primary_color: c7ffdf7e-6a16-492a-8c27-7f5b9beeed7a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Liqcreate Strong-X is one of the strongest photopolymer resins available in the market. Its flexural strength of 135MPa is comparable to industry’s leading dual-cure cyanate ester resins.
+
+  Liqcreate Strong-X is easy to use on open SLA, MSLA and DLP 3D-printers in the range of 385 – 405nm and only requires UV post-curing. This material has excellent features like high strength, high stiffness and good short term temperature resistance which makes it ideal for injection molding and heavy duty applications.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d6906256-0d7e-414c-822f-b36b09adae32
+created_at: '2025-10-06T08:36:23.198Z'
+updated_at: '2025-10-06T08:36:23.198Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9516
+packages:
+  - 190b9eeb-b229-417c-9f5f-ef0795e03fe6
+  - 93ff4fc7-18c4-4c85-9ca6-cf896cab144f
+secondary_material_types: []
+opentag_uuid: 62f95eda-fb62-59ce-b457-1990ab459b65

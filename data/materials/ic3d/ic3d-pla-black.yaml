@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a360ceded288.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 2c71c02b-7732-4ad9-be43-388083f35125
+slug: pla-black-12
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Dimensionally stable with little-to-no warp, PLA is the recommended material for first time users. IC3D PLA is created with premium Ingeo PLA resin and colorants from Chroma. PLA excels at small & large scale objects where net shape and dimensionally accurate parts matter most.
+thumbnail_url: https://file.myfilamentlist.com/f/new/a360ceded288.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T10:02:53.730Z'
+updated_at: '2025-05-01T10:02:53.730Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7420
+packages:
+  - 4213c81a-d659-4fe7-897d-6cf8d7f8b0e3
+  - 63e63c36-5edb-431c-b95e-2306b87ba0ed
+  - 8392dfdc-c9a7-4641-8d87-5e80f1cbad1c
+  - 840e96e4-30de-414a-8f0d-e138e7e227e6
+  - dac7f571-2104-4f6b-9ebb-cf42c5000b58
+  - f42aabf1-6551-40da-9a73-ced1ad350ad3
+secondary_material_types: []
+opentag_uuid: 2038d74e-792c-5adb-a464-eeaf41a1af0c

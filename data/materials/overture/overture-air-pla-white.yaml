@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/62a443b83615.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: b5fd50bd-b181-42c4-857f-2b38e03b2eb2
+slug: air-pla-white
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'Air PLA White '
+abbreviation: null
+url: null
+primary_color: 95e881ff-5692-4670-9cdb-90a55b7e23e5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  AIR PLA is specifically engineered to be a low-density foam filament. The lower density allows for the production of lighter parts without compromising on strength or integrity, making AIR PLA an excellent choice for applications where weight is a critical factor.
+
+  One of the standout features of AIR PLA is its remarkable lightness, being approximately 20% lighter than regular PLA. This substantial reduction in weight opens up new possibilities for 3D printing, especially in fields such as aerospace, automotive, and model-making, where minimizing weight can enhance performance and efficiency. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/62a443b83615.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.033Z'
+updated_at: '2025-03-25T22:31:13.033Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 488
+packages:
+  - c73e60ad-2ba6-48b6-ad20-7507f34e19a9
+secondary_material_types: []
+opentag_uuid: 6d846bea-b815-50d9-b144-3fe37b1eb063

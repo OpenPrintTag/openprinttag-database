@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/600f724452d2.png
+    type: gallery
+uuid: ff9199f3-ba6b-494a-bcb4-c13bf9a4fb92
+slug: petg-turquoise-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG turquoise | RAL 5018
+abbreviation: null
+url: null
+primary_color: aa6781ce-c602-48f0-849d-a1d101ddcfed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyethylene terephthalate glycol (PETG) is one of the world's best-known thermoplastic polymers. Extrudr PETG has been developed for a wide range of applications where the main requirement is a good balance between mechanical and optical material properties. The low-shrinking technology ensures that the material can be processed in an energy-saving manner at low temperatures and thus with relatively little distortion. The raw material is certified according to FDA, REACH and RoHS standards.
+
+      Good mechanical properties
+      High chemical resistance
+      Low warping
+      Low shrinking
+      Recyclable
+      Low-shrinking technology
+thumbnail_url: https://file.myfilamentlist.com/f/new/600f724452d2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T13:51:30.326Z'
+updated_at: '2025-03-27T13:51:30.326Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 5967
+packages:
+  - 26ca12da-5b4b-4aef-a8fe-a6fdbb32de55
+  - 289765ae-1a87-4bdf-b167-aa4322615304
+  - 5d5dfc56-437a-40b8-ac1a-196862f28564
+  - 6246d701-6526-4333-b4f9-8de01669d221
+  - a4c670bb-c1f9-4c10-ad4d-434ea5a74f23
+  - de3432d2-a45e-4c62-8f4e-3ee51f5ec6f5
+secondary_material_types: []
+opentag_uuid: 5af3a314-1d54-5298-bfe6-3d28c14fb0dd

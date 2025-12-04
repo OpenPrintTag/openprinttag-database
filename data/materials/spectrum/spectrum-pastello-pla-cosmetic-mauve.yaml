@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.30000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6cb9987b-5e8b-4001-a8d7-2165bdcd03d6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 61441404-992b-413d-a008-07b49debce43
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 41cb2165-4292-4e3a-bf39-a7011e2ba63e
+slug: pastello-pla-cosmetic-mauve
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pastello PLA Cosmetic Mauve
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pastello-pla/
+primary_color: a8857aa6-dd92-4e83-b36f-0f4b7c032973
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  The new Pastello PLA filament series is the essence of beauty and delicacy in the world of 3D printing. These unique filaments captivate with their palette of pastel colors, attracting the eye of every creative 3D printing enthusiast. The matte surface of the prints gives projects a subtle, elegant appearance. In the Pastello PLA palette, you will find delicate pinks, mints, blues, purples, and other shades that allow you to express your creativity in the most beautiful way possible. Each shade in this series has been carefully chosen to make your projects even more unique.
+
+  However, the Pastello PLA series is not just a choice of diverse pastel colors. These filaments have been wound on eco-friendly cardboard spools, making them not only environmentally friendly but also reducing carbon footprint. Additionally, Pastello PLA incorporates recycled material, making your projects a real contribution to protecting our planet.
+
+  Print models, jewelry, home decorations, and much more. Pastello PLA is not just filament, it’s an artistic palette of colors on your desk.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 8fe6457e-99fb-4dcd-bb05-05ce4c5ae6cc
+created_at: '2025-09-29T12:50:56.445Z'
+updated_at: '2025-09-29T12:50:56.445Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9295
+packages:
+  - 0a725fac-6bf3-4c37-aeb9-fc94b5e7e0d1
+  - 9625aba6-7222-4097-8311-48454fdf5dc4
+secondary_material_types: []
+opentag_uuid: c48bf4d3-cab3-52e3-a66e-fcb5cc0ea64e

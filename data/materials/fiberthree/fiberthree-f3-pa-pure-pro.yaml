@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.20000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 052f5af2-425b-41c2-a622-b5f9a852451c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 0b6896bb-ca0f-4c9b-83d0-c36d990649a3
+slug: f3-pa-pure-pro
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: F3 PA Pure Pro
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 7d53a059-288d-4be7-ab9c-32d35c560769
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2
+
+
+      Filament for FFF-printers with major PA 6 content
+      unfilled
+      high tensile strength & moderate water absorption
+      low warping effect
+      excellent adhesion to various print plates
+      very smooth surfaces possible (bone white color)
+
+
+  Technical filament from polyamide modified for 3D-printing in FFF.
+  Material Properties
+  Material shows nearly similar strength for injection-molded or printed parts by the good layer adhesion with highly reduced warping behaviour.
+  Recommended for all high strength parts with good heat- and media resistance.
+  The material can be used as a baseline for comparison of the fiber addition impact or where fibers or conductivity is not wanted in the printed part.
+  The material differs from PA PureLite by less heat absorption in the melting process and a lightly increased moisture sensitivity.
+  Handling Notes
+  Printed parts show an excellent smooth surface finish.
+  The material differs from F3 PA-CF Pro/ GF Pro as it is unfilled.
+  The material has to be kept dry for reliable print results under all conditions.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ee08e8f1-1fcc-40a4-addd-293d4b6709ad
+created_at: '2025-10-21T14:24:24.858Z'
+updated_at: '2025-10-21T14:24:24.858Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors: []
+packages:
+  - 1ec9062f-b657-4fa9-852a-1526fae0760e
+secondary_material_types: []
+opentag_uuid: ff0bb1ee-9b88-5ee2-ba8f-b0d2acb3471f

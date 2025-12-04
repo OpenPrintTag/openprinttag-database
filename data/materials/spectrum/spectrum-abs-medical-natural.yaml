@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.06000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e89601e3-f7c4-4f3d-811e-44cefec4eedc
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - b92fdbec-b24a-4f52-9a65-2a4ae589e82e
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 07bcc248-227d-4cd9-9479-005439954f2b
+slug: abs-medical-natural
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Medical Natural
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/abs-medical/
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Biocompatible up to 30 days in contact with the human body
+
+  Filament Spectrum Medical ABS is a highest-quality material designed specifically for medical applications. This 3D printing filament has been manufactured using ABS pellets that meet the biocompatibility requirements of USP Class VI or ISO 10993-1 certifications, which guarantees that it is biocompatible up to 30 days in contact with the human body (topical use).
+
+  Additionally, Medical ABS filament is food contact approved according to EU No 10/20111 and 21 CFR FDA regulations.
+
+  Spectrum Group Sp. z o.o. guarantees that the base raw material has no additives and has not been modified in the filament production process.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d775e353-82b6-4411-8b27-e8c8b19ec23f
+created_at: '2025-10-15T14:58:38.899Z'
+updated_at: '2025-10-15T14:58:38.899Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: b6bc118e-4284-59ae-9ab9-4332fc16a4d9

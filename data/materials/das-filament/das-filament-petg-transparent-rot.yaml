@@ -1,0 +1,65 @@
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 7e798a9d-1c7d-4c73-bb35-e08b9b17ada2
+slug: petg-transparent-rot
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Transparent Rot
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/231/petg-filament-1-75-mm-transparent-rot-800-g?c=35
+primary_color: e5ed4ede-599b-4976-bce5-f72c5de2e83f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Transparent Rot 
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 3b11dbb4-ef88-4601-b8d1-641764d867e4
+created_at: '2025-10-19T09:15:32.447Z'
+updated_at: '2025-10-19T09:15:32.447Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - aedeb5fd-1f5b-403b-b82a-055debc409db
+  - fd8f6182-1186-41f8-b4fb-64a8eee4d6ae
+secondary_material_types: []
+opentag_uuid: a3c0a362-9148-534e-a59a-58eecb36bf5f

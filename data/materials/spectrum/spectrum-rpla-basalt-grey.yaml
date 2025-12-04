@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 82562ce2-6c2a-4fbc-990b-d08b7b6c2ab0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 033050b8-25bb-4f28-aca3-dccc4d8f8efd
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 651876e8-b306-4a8d-97bf-885358806133
+slug: rpla-basalt-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: rPLA Basalt Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/r-pla/
+primary_color: 572eefaf-e268-4edf-9370-62e68e7e7a47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Environmentally-friendly 3D printing
+
+  Spectrum rPLA is an environmentally-friendly 3D printing material that fits into a sustainability initiative. The filament is created by reusing the recycled extrusion residual waste stream. The raw material is collected, shredded, re-mixed and homogenised into a high-grade and easy-to-print recycled PLA filament with much less environmental impact. Spectrum rPLA retains the properties of classic PLA, which is simplicity and printing efficiency, to combine them with very low shrinkage and relatively high tensile strength. To make 3D printing more sustainable, Spectrum r-PLA is wound on a cardboard, environmentally-friendly spool.
+
+  Note: As it is a fully recycled material, Spectrum rPLA may not be available or there may be longer delivery lead times due to limited raw material availability.
+thumbnail_url: null
+deleted_at: null
+deleted_by: f2ad4e05-4921-4095-adb7-7143e1637cea
+created_at: '2025-10-08T09:26:48.819Z'
+updated_at: '2025-10-08T09:26:48.819Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9566
+packages:
+  - 51c0b93b-0f40-43c0-8356-93a01591ca94
+secondary_material_types: []
+opentag_uuid: 17dbbbf5-ca35-5746-b1ab-5f59020b4abd

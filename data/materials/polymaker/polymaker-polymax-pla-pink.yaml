@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c86e343bead8.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 57e18084-bd7b-4fa2-ab19-20fc1dd1416f
+slug: polymax-pla-pink
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyMax™ PLA Pink '
+abbreviation: null
+url: null
+primary_color: 7f884112-6ce0-4a09-bccc-019bbcb59b97
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyMax™ PLA is an incredibly easy-to-print filament with improved mechanical properties, making it an excellent alternative to ABS.
+
+
+  Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c86e343bead8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:48.859Z'
+updated_at: '2025-03-25T22:34:48.859Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3424
+packages:
+  - 66982a82-08b4-443f-9f71-71c226a183c9
+  - 68acfa12-f0dd-46d5-8782-95a8151d9cc7
+  - 8635a1a0-4711-443a-a47b-18ad00102d8a
+  - ac740fbb-eea2-4830-8b51-b3d0397d7414
+secondary_material_types: []
+opentag_uuid: 43d37cd4-0bee-577c-b718-0e4b962e2897

@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/707cfb3a45ae.jpg
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 50c31ee7-9e58-4fd0-8d1e-72ffc2058644
+slug: pro-abs-midnight-black
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro ABS, Midnight Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Pro ABS (Acrylonitrile Butadiene Styrene) is a go-to material for projects that require durability and the ability to withstand high temperatures. Our unique formulation is low-warp and low odor.
+
+  ABS is used for high strength applications and is a petroleum-based material product, so it holds up well in a variety of environment. ABS requires a heated bed and works best with an enclosed print area. ABS can produce some off-gassing so it is recommended that you use it only in a well-ventilated area. 
+
+      Low warp
+      Low odor
+      Heat resistant
+      Durable
+      Mildly flexible
+      can be sanded or smoothed with additional processing 
+thumbnail_url: https://file.myfilamentlist.com/f/new/707cfb3a45ae.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:57.883Z'
+updated_at: '2025-03-25T22:34:57.883Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 4017
+packages:
+  - f79a3ff0-6e44-43a0-b645-20ef7c6cfa8b
+secondary_material_types: []
+opentag_uuid: 904de2d3-0daa-589a-857d-3c43e88ba109

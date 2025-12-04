@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 21467314-6a90-4c28-a735-a1505c711efe
+  hardness_shore_a: 98
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c6baebefa383.png
+    type: gallery
+uuid: a697b44e-e523-4048-8229-bf555c043328
+slug: flexfill-tpu-98a-powder-beige
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill TPU 98A "Powder Beige"
+abbreviation: null
+url: null
+primary_color: 2403e820-ee1b-41ed-8868-f8eb3412014b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  Thermoplastic polyurethane with hardness 98 Shore A. A technical semi-flexible filament that offers great mechanical properties such as high tear and tensile strength.
+
+  It is characterized by highly reversible deformation, resistance to ozone, oils, greases, and aliphatic alcohols. Wear resistance guarantees the durability of 3D printed products. Great for the printing of continually sliding parts or sealings.
+
+   Excellent abrasion resistance and high tensile strength
+   High elasticity with highly reversible deformation
+   Great interlayer adhesion for tear strength in all directions
+   Improved UV stability for long-lasting performance
+thumbnail_url: https://file.myfilamentlist.com/f/new/c6baebefa383.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:43.358Z'
+updated_at: '2025-03-25T22:31:43.358Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 874
+packages:
+  - e3a1de54-9473-430c-aac1-1c5dc86bda88
+  - f71b064b-d25c-4188-97f3-5b00c654a810
+secondary_material_types: []
+opentag_uuid: 41995e9f-7e0d-5682-9bba-b40ebd6a5841

@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5d7f518ef324.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 45800a4a-af0c-411b-8703-9aadd06d6c3b
+slug: carbon-fiber-nylon-black
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Carbon Fiber Nylon Black
+abbreviation: Carbon Fiber Nylon
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Carbon Fiber ABS, PETG, PC/PBT, and Nylon
+
+      Proprietary Carbon Fiber fill on all Resins
+      Added stiffness
+      Improved dimensional stability
+      Excellent surface finish
+thumbnail_url: https://file.myfilamentlist.com/f/new/5d7f518ef324.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T10:14:07.821Z'
+updated_at: '2025-04-30T10:14:07.821Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: null
+colors:
+  - 7331
+packages:
+  - 9665c72f-7354-44a3-839b-136642ed20cb
+  - 9a2ff3fc-a8d1-460b-b050-91f27298b6ce
+  - a2db1b3c-96de-45e1-bec5-da43ef729be3
+  - cfef0084-7cba-43fb-bdab-298c70813853
+  - d64ed73e-d009-458b-a6a5-c9cb85c46767
+  - fa55b1f7-fbe9-4cc7-895e-77869ca54dfe
+secondary_material_types: []
+opentag_uuid: fe84236c-6de8-5c7c-8d58-4b66c65291a0

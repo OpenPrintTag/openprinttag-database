@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1ff2b9fe8904.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e3362290-8fb0-404e-a409-b5861e8b7685
+slug: pla-extrafill-traffic-white
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Extrafill "Traffic White"
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Fillamentum PLA Extrafill is a premium material for FFF 3D printing. It is made from natural raw materials and biodegradable by industrial composting.
+
+   Easy to print (suitable for beginners)
+   Safe for food contact applications
+   Made of natural ingredients (100% bio-based)
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/1ff2b9fe8904.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:30.420Z'
+updated_at: '2025-03-25T22:33:30.420Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2561
+packages:
+  - 34830cc3-fe08-4296-85f0-2fb2159b85b2
+  - 4dfd9870-e997-4d8b-a52c-5397dd520ac9
+  - 5460b81f-129e-46c8-8d9e-cf74bf71a384
+  - 7f0405a6-6a68-43ec-b065-c5508904a2d9
+  - cdcaa94c-783b-4a4e-baf4-d7ee017ee2fe
+  - f6b28d5f-90d7-48c3-a7da-86795e9b9f52
+secondary_material_types: []
+opentag_uuid: 940642a2-7a65-5176-9370-6a253970e289

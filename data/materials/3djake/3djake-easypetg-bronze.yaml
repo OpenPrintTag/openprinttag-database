@@ -1,0 +1,60 @@
+uuid: a297e6a3-4409-44a8-9970-7fedbf2f11e4
+slug: easypetg-bronze
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: easyPETG Bronze
+abbreviation: null
+url: https://www.3djake.com/3djake/easypetg-bronze
+primary_color: 69f0b8e7-a557-4e72-87d5-633d188f8dbb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The modified PETG from 3DJAKE combines outstanding mechanical and optical properties and is ideal for printing functional parts and sophisticated objects.
+
+      High toughness and resilience: Offers significantly higher stability and resilience than PLA.
+      Improved temperature resistance: Suitable for applications that require higher heat resistance.
+      Low warping: Ensures consistent and warp-free print quality.
+      High chemical resistance: Resistant to many chemicals and ideal for demanding applications.
+
+  Tip: For optimal adhesion, we recommend using a heated bed or adhesion aids such as Blue Tape or BuildTak.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5676a2ec-62ee-4356-a833-fbcd24bcb46d
+created_at: '2025-11-07T17:06:39.955Z'
+updated_at: '2025-11-07T17:06:39.955Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 4c9b76b3-3ce8-4bf6-8c32-47beb76caa29
+  - cacde3b0-1cfa-49af-a3d8-b9e112aed5ba
+secondary_material_types: []
+opentag_uuid: 4a56b280-3f73-5d4c-af3a-798e550953dd

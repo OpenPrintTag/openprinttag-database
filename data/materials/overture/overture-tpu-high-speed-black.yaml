@@ -1,0 +1,54 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/de0a84935995.jpg
+    type: gallery
+uuid: 590d9752-4f0a-40a6-abdf-93ee2efe6c84
+slug: tpu-high-speed-black
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU High Speed Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  High Speed TPU is designed with a high melt index, allowing it to be printed 3 to 5 times faster than TPU filaments. This high flow rate enables quicker production times, making it ideal for projects that require efficiency without compromising quality.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/de0a84935995.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:23.592Z'
+updated_at: '2025-03-25T22:36:23.592Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5136
+packages:
+  - 3e1851d6-694a-47a3-9b81-8c43dcd8241e
+secondary_material_types: []
+opentag_uuid: 07db3d80-de6c-543f-9783-40275f32dcc2

@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d66f006698cb.jpg
+    type: gallery
+uuid: bf92eae6-1918-40c8-a356-b605085c552c
+slug: pc-yellow
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC Yellow
+abbreviation: null
+url: null
+primary_color: ce9caeb2-16c7-4a34-9669-d0ed8ab459e0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+      Heat resistant filament.
+      Can withstand temperatures: 110 degreesC
+      Harder and stronger than ABS filament.
+      Modified filament, not 100% pure PC. (50% PC + 45% PETG + 5% Other Materials).
+      Recommended printing temperature: 255-265 degreesC; Recommended print speed: 30.60 mm/s; Heated bed: 90.105 degreesC.
+
+
+
+
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/d66f006698cb.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T18:22:30.536Z'
+updated_at: '2025-03-31T18:22:30.536Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3879
+packages:
+  - 5772329e-1fd2-41e0-90bb-849cb3141090
+secondary_material_types: []
+opentag_uuid: c4185b2d-2735-5467-80a6-e676042199f8

@@ -1,0 +1,57 @@
+tags:
+  - 85b92735-dfaf-418c-9971-8fec7d0ed97e
+uuid: c6336f0b-7a1f-4c08-af98-b98a9857a5e6
+slug: natural-pva-3
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Natural PVA
+abbreviation: null
+url: https://www.sainsmart.com/products/natural-pva-dissolvable-filament-water-soluble-support-1-75mm-0-5kg-1-1lbs-accuracy-0-05mm?_pos=1&_fid=4e68241cb&_ss=c
+primary_color: 46b326dc-069b-4f14-87eb-fa6fc401163b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+      Faster Dissolution Rate: PVA filament begins to dissolve after 1-2 minutes in water at 50°C.
+      Creative Freedom: Sainsmart PVA filament provides stable support to complex designs, even those with features like cavities, and intricate internal details.
+      Compatible with PLA: PVA is used in conjunction with PLA not ABS because it adheres well to PLA. The extrusion temperature difference can also be problematic with ABS.
+      Printing Setting: Recommended Extrusion/Nozzle Temperature 190ºC- 210ºC (212ºF - 410ºF); Recommended bed Temperature 60ºC- 80ºC (140ºF - 176ºF).
+      Package: PVA 3D Printer Filament Vacuumed Sealed With Desiccant.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: eb24d353-7fca-4abf-a801-bc72c10cbde8
+created_at: '2025-09-29T10:39:47.767Z'
+updated_at: '2025-09-29T10:39:47.767Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+colors:
+  - 9262
+packages:
+  - 8c570d83-f29e-4ea7-89dc-9c78bf093b57
+secondary_material_types: []
+opentag_uuid: d24c8799-a686-55f9-a87f-599b0bbccbac

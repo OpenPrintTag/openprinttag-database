@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 35607fc0-ed3e-4d82-9b35-d1f2d3b12777
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: c61cb6b5-36a3-4068-b421-996514706b36
+slug: petg-cristal-lime-green
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Cristal Lime Green
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-cristal-winkle-175-mm-1-kg-verde-lima/
+primary_color: 9670fc48-8015-48c0-b7b6-bbc42d7c04cc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Translucent finish, high strength, and professional aesthetics.
+  With this 3D printer filament, you’ll combine modern aesthetics, precision, and durability. Winkle’s 1.75 mm Crystal PETG Filament is the perfect solution for 3D-printing enthusiasts who want both functional and visually appealing results.
+
+  Ideal for 3D prototypes such as decorative objects or technical parts with translucent finishes, this filament adapts to all your creative and technical needs. Available in 300 g and 1 kg spools, it is compatible with most FDM 3D printers on the market.
+thumbnail_url: https://file.myfilamentlist.com/new/c61cb6b5-36a3-4068-b421-996514706b36.png
+deleted_at: null
+deleted_by: 5bb63163-1d45-41bb-b4fd-28a46c519a91
+created_at: '2025-11-21T11:07:22.091Z'
+updated_at: '2025-11-21T11:07:22.091Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 2da7cc4a-72d9-445a-8dd6-954c5a6d429f
+  - 393b1ebe-0f66-4124-8ba3-87dbe20d004d
+secondary_material_types: []
+opentag_uuid: 8fae245d-6d9a-5472-8d83-e51051e4a1b0

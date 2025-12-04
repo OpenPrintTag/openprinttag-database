@@ -1,0 +1,73 @@
+uuid: a12a9298-167a-425b-831a-adddd9620eb4
+slug: ecopla-brown
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Brown
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-brown
+primary_color: 03874ad1-86a0-402d-af4e-8691e9a13ce9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing applications.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  The properties of the ecoPLA from 3DJake:
+
+      Minimal shrinkage
+      Minimal warping
+      Good diameter and roundness tolerances
+      No unpleasant odours
+      Easy to print
+      Tougher & less brittle than conventional PLA filament
+
+  3DJake ecoPLA filament can be used with almost any FDM 3D printer.
+
+  All ecoPLA colours are based on the standardized RAL colour system.
+
+  ecoPLA Brown - RAL8016
+thumbnail_url: null
+deleted_at: null
+deleted_by: ef20822a-741e-415d-b32c-a8a34042fc2d
+created_at: '2025-11-07T11:03:38.526Z'
+updated_at: '2025-11-07T11:03:38.526Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 8bea98a1-8bad-449e-97a5-d10030363773
+  - d3ea0430-4d2e-4168-a18c-3212fc778603
+secondary_material_types: []
+opentag_uuid: 4a4dc298-704a-5d7a-99be-b3408e08999f

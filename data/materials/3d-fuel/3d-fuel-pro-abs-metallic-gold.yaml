@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/535dd8769639.jpg
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 44fe05c0-229b-4c07-9430-b86e00337ab3
+slug: pro-abs-metallic-gold
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro ABS, Metallic Gold
+abbreviation: null
+url: null
+primary_color: c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Pro ABS (Acrylonitrile Butadiene Styrene) is a go-to material for projects that require durability and the ability to withstand high temperatures. Our unique formulation is low-warp and low odor.
+
+  ABS is used for high strength applications and is a petroleum-based material product, so it holds up well in a variety of environment. ABS requires a heated bed and works best with an enclosed print area. ABS can produce some off-gassing so it is recommended that you use it only in a well-ventilated area. 
+
+      Low warp
+      Low odor
+      Heat resistant
+      Durable
+      Mildly flexible
+      can be sanded or smoothed with additional processing 
+thumbnail_url: https://file.myfilamentlist.com/f/new/535dd8769639.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:57.757Z'
+updated_at: '2025-03-25T22:34:57.757Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3780
+packages:
+  - 1696912b-ced2-47c8-8e15-eede37a3a9f6
+secondary_material_types: []
+opentag_uuid: 10f27087-0344-5b7a-b1ca-cbabb4d0f9db

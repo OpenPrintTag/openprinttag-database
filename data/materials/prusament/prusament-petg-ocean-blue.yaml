@@ -1,0 +1,71 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 30047af6-6f5f-411c-922e-d6a69e00fa41
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6ab58ee59090.png
+    type: gallery
+certifications:
+  - 2
+uuid: 5c221fe9-c9bd-4465-b841-d43034425de1
+slug: petg-ocean-blue-3
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Ocean Blue
+abbreviation: null
+url: null
+primary_color: 5c53a43f-4796-4b35-8c46-40734d554a4e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '3.00'
+refractive_index: null
+tags: []
+print_sheet_compatibility: []
+description: 'Prusament PETG is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/6ab58ee59090.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:57.383Z'
+updated_at: '2025-04-04T11:02:16.249Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6791
+packages:
+  - 1fc1c631-fd5e-432a-9efe-16887ec31e90
+  - dacf5672-8e39-4653-b2d1-516ae73f43b3
+secondary_material_types: []
+opentag_uuid: 421e0d10-0ec7-50c9-927c-7a585e8a15c2

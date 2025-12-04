@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f1eb0cec1bba.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 4d4acc09-9dde-4ff6-adf2-1a20b72622dd
+slug: abspro-white
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABSpro White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABSpro is a PC-ABS filament that is perfect for 3D printing mechanical parts. It is durable, strong and impact resistant and 3D prints with a high dimensional accuracy and perfect interlayer adhesion.
+
+  Unique features
+
+      Extremely strong and impact resistant
+      Extremely high printing precision
+      High gloss
+      Good chemical resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/f1eb0cec1bba.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:12.061Z'
+updated_at: '2025-03-25T22:31:12.061Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 361
+packages:
+  - 165098a3-833f-41ce-8282-e501d25f55e3
+  - 28069d9a-763d-4306-ba27-3d0a6ca882ac
+  - 462fde13-70e0-407a-8fc5-a932937f9688
+  - c29c0e58-2cd7-4c90-9188-bc94cdb482a8
+  - c3a4b229-b58d-4659-bdbf-72d334a2ac28
+  - fc3cb354-8e51-4237-8833-a358df8aecee
+secondary_material_types:
+  - 29
+opentag_uuid: 404f6e17-f614-5f51-b4e0-581e8f4836f6

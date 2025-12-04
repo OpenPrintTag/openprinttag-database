@@ -1,0 +1,93 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: fab1d0e8-8740-4700-97a4-06a4ffab8ed9
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: d63f4763-1031-427b-b216-887ffe435410
+slug: pla-plus-nut-brown
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Nut Brown
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110661-pla-plus-nut-brown-1kg-5645?category=59#attr=2437,2812,2438,2439,3504,2809,2810,2811,2440
+primary_color: 304e9c84-943c-4e8a-9b6c-8940b1a41777
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Nut Brown is a filament for 3D printing that stands out with excellent mechanical properties, ensuring outstanding printing results. Its distinctive nut-brown color gives your creations a beautiful, natural look, making it ideal for printing decorative items, models, and prototypes.
+
+
+  Key Benefits
+
+
+      Enhanced Strength and Durability: PLA Plus Nut Brown is an upgraded version of standard PLA (Polylactic Acid), offering significantly higher strength and durability. This filament is perfect for creating functional prototypes that need to withstand moderate mechanical stress. The enhanced properties allow for the production of more durable and stable prints that maintain their quality even after extended use.
+
+      Aesthetic and Detail: The nut-brown color gives your projects a natural look and depth. This filament is a great choice for printing realistic models, figurines, decorative elements, and more complex structures that require detailed rendering. Printing with PLA Plus Nut Brown is ideal for those seeking a professional appearance without compromise.
+      Easy Printing and Versatility: PLA Plus is known for its ease of use, making it ideal for a wide range of printers and applications. This filament does not require special printing conditions and works well with most 3D printers. It has minimal warping tendencies, allowing you to achieve quality results without the need for support structures.
+      Eco-Friendly an​d Environmentally Conscious: PLA Plus Nut Brown is made from a biodegradable material, which makes it more eco-friendly than many other plastic filaments. This material is ideal for projects that focus on environmental concerns and sustainability.
+
+  Applications:
+
+      Functional Prototypes: Ideal for creating durable, stress-resistant parts like gears and brackets.
+      Decorative Models: Perfect for detailed and realistic sculptures or display pieces.
+      Architectural Models: Great for intricate design prints and architectural representations.
+      Art and Design Projects: Excellent for artists creating figurines or decorative items.
+      Eco-Friendly Products: Perfect for projects focused on sustainability, offering biodegradability.
+
+
+  Printing Tips:
+
+      Temperature: Print at a range of recommended temperatures for smooth extrusion.
+      Heated Bed: Use a heated bed for better adhesion and reduced warping.
+      Print Speed: Keep a moderate speed to avoid under-extrusion and to maintain detail.
+      Cooling: Use cooling fans to maintain detail and avoid over-extrusion.
+      Storage: Keep the filament in a dry, cool place to prevent moisture absorption.
+
+
+  Ideal For:
+
+      Printing detailed models and decorative elements
+      Creating prototypes and functional parts
+      Projects that require high aesthetic value
+      Eco-friendly projects and designs with an emphasis on sustainability
+
+
+  PLA Plus Nut Brown is the perfect choice for anyone looking to print high-quality, aesthetically pleasing, and functional objects that have long-lasting durability and minimal environmental impact.
+thumbnail_url: https://file.myfilamentlist.com/new/d63f4763-1031-427b-b216-887ffe435410.png
+deleted_at: null
+deleted_by: 1dac7226-b1f7-44e6-9a88-128bb9354d62
+created_at: '2025-12-01T09:19:57.595Z'
+updated_at: '2025-12-01T09:19:57.595Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 1afe7870-a580-4b7d-a15f-7b7d5e2fbbd1
+secondary_material_types: []
+opentag_uuid: 294d74b9-a636-5090-81e6-7835b2262c90

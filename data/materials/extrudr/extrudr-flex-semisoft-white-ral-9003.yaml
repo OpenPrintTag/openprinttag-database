@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/95a3e6d76f31.png
+    type: gallery
+uuid: 884c559b-d49f-47a6-84b2-610140c19b0b
+slug: flex-semisoft-white-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX Semisoft white | RAL 9003
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  TPU FLEX Semisoft has been specially developed for the FDM/FFF process. With an extensibility of up to 550%, high material quality, high chemical resistance and a heat distortion resistance of up to 98degreesC, the material is suitable for numerous industrial applications. The raw material is compliant with REACH and RoHS standards.
+
+      Very impact and breakage resistant
+      Halogen-free
+      Free of silicone, plasticisers and oils
+      Shore hardness A85
+      UV-resistant
+      Extreme layer adhesion
+thumbnail_url: https://file.myfilamentlist.com/f/new/95a3e6d76f31.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T18:10:01.694Z'
+updated_at: '2025-03-28T18:10:01.694Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6132
+packages:
+  - 579962c1-377f-40ce-b50c-48635c7e9293
+  - 85213626-a6fb-4f6a-8eaf-6b20f082ca79
+  - a07b98e7-1142-4254-a878-2c07da44f12c
+  - bdf10c72-6527-43bb-bab3-490cfe2d3246
+secondary_material_types: []
+opentag_uuid: 3fb6f003-6a2f-5288-afd9-03a52afc0990

@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f1cfff19-ad32-44c7-b4dd-d1c07f6d4699
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 1722821f-bb1f-44f7-85ff-7431c623ba91
+slug: flameguard-pla-light-grey
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FlameGuard PLA Light Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-flameguard/
+primary_color: 6f821cfe-261b-4ac7-8c1a-3d39531c7076
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Introducing the new Spectrum FlameGuard PLA filament, based on an innovative formula designed for applications that require both durability and fire safety. FlameGuard PLA is a halogen-free, flame-retardant material that meets the highest V0 fire safety standards, making it the perfect choice for advanced applications such as electronics enclosures, automation device components, furniture finishes, and speaker housings.
+
+  FlameGuard PLA is an eco-friendly alternative to standard FR ABS, which contains halogens. Halogens limit the recyclability of the material, often leading to landfill waste, whereas our filament promotes a sustainable approach, offering recyclability and reduced environmental impact. Compared to traditional FR ABS, FlameGuard PLA boasts a carbon footprint (PCF) that is up to seven times lower – typically 0.6 kgCO2e/kg for PLA based material versus typically 3.8 kgCO2e/kg for ABS FR, while maintaining similar physical properties such as modulus of elasticity and tensile strength.
+
+  FlameGuard PLA is an innovative material with a high content of renewable resources, providing durability comparable to FR ABS while meeting V0 UL94 flame retardancy standards. It offers safety, ecological responsibility, and high quality in a single solution.
+
+
+  Material characteristics
+
+      flame retardancy V0 (UL94)
+      Halogen-free, environmentally friendly
+      Eco-friendly alternative to ABS FR
+      7 times lower carbon footprint than ABS FR
+      Similar mechanical properties to ABS FR
+      High-temperature resistance, high crystallinity
+
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9a6e7fea-300b-43be-8109-c3afb24102f1
+created_at: '2025-09-30T12:13:45.985Z'
+updated_at: '2025-09-30T12:13:45.985Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9313
+packages:
+  - 139a2cb4-d199-4c20-874b-c99c6022da40
+  - 4dc4b6db-5a7f-41cf-aec2-776f9ba458af
+secondary_material_types: []
+opentag_uuid: 239c4fe5-efcd-5215-b067-d4af6b23a7e5

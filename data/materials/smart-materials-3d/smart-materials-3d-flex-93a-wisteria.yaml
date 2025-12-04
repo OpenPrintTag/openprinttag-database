@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2dcacb0c235d.png
+    type: gallery
+uuid: 9f94cee2-a809-405f-a1e9-bed8e6cf2d68
+slug: flex-93a-wisteria
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 93A Wisteria
+abbreviation: null
+url: null
+primary_color: a3307156-f521-4e85-9527-92e5756a1571
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Thermoplastic Elastomer
+
+  It is a material that has the ability to be stretched to moderate elongations and, after the stress is removed, return to its original shape. It has the potential to be recyclable since it can be molded and reused like plastic.
+
+  FLEX
+
+  It is a specially modified filament that allows printing flexible, elastic objects with high print quality.
+
+  It has been specifically designed to prevent clogging in the printer's nozzle during printing, as its Shore hardness is 93A, higher than that of the competition.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2dcacb0c235d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T16:23:29.597Z'
+updated_at: '2025-03-29T16:23:29.597Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 4740
+packages:
+  - 72ad24ce-24a3-400c-8e43-8a7142a97616
+secondary_material_types: []
+opentag_uuid: 30747da9-2297-54ea-b2a1-f7dcff7d9d91

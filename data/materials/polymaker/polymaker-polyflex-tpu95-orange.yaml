@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ad0f67b2-864b-4e92-ae18-9ba34f55a012
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/448b062a16dd.png
+    type: gallery
+uuid: 244492ea-fcc5-4a3e-9bf3-0f595077ba5c
+slug: polyflex-tpu95-orange
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyFlex™ TPU95 Orange '
+abbreviation: null
+url: null
+primary_color: f76de825-d914-4b42-882e-6e8f7eaf47b2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  PolyFlex™ TPU95 is a thermoplastic polyurethane (TPU) based filament specifically engineered to work on most desktop 3D printers. It has a shore hardness of 95A and can stretch more than 3 times its original length.
+
+  -  Printing Requirements
+
+      Direct extruder with a gear ratio mechanical advantage highly required.
+      Will be very difficult to print with a small nozzle diameter..
+
+  And that's all!
+
+  If using a stock, older style printer - we would recommend printing VERY slow. Make sure your printer is not setup as Bowden - any large gap between your extruder and hotend will cause printing issues.
+thumbnail_url: https://file.myfilamentlist.com/f/new/448b062a16dd.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:31.908Z'
+updated_at: '2025-03-25T22:34:31.908Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3483
+packages:
+  - 1908bad1-8feb-4878-878c-0c16381ec48a
+  - ec74e866-1ab3-492c-abc5-be897504b075
+secondary_material_types: []
+opentag_uuid: 4b8e7ff6-eecf-5cc8-b054-659c16af830d

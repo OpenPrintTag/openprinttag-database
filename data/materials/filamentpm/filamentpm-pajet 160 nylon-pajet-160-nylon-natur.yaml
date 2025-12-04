@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9e770b5f41a2.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 6f7d0e58-2478-47cc-9ec0-6e322e2535b8
+slug: pajet-160-nylon-natur
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PAJet 160 Nylon - Natur '
+abbreviation: PAJet 160 Nylon
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PAJet 160 nylon (polyamide)
+  - engineering thermoplastic
+  - has similar printing properties as ABS
+  - highly heat (up to 160 degrees C), impact, chemicals and mechanical resistant
+  - smooth surface ideal for rolling and sliding components (e.g. bearings)
+thumbnail_url: https://file.myfilamentlist.com/f/new/9e770b5f41a2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T12:12:13.869Z'
+updated_at: '2025-04-23T12:12:13.869Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: null
+colors:
+  - 7124
+packages:
+  - af0789c1-71bd-461d-b919-115343810272
+secondary_material_types: []
+opentag_uuid: b9518e60-f3fe-52e5-9f60-78fa8e2a6ec0

@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.05000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8c6cf96f-eb53-42fd-befb-4c43cd987203
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 0b9061b6-6bb2-4c85-8988-9790eadbc678
+slug: smart-abs-deep-black
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: smart ABS™ Deep Black
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/smart-abs/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Durable and impact resistant
+
+  The specific qualities of Spectrum Smart ABS include a high impact resistance and relatively high rigidity. Smart version demonstrates improved processing parameters which considerably reduce the difficulties which accompany the additive manufacturing using the standard ABS. It is essentially the lower shrinkage and reduced emission of irritant volatiles during processing. An unquestionable advantage is that the material retains its properties at temperatures down to -40°C.
+
+  Compared to standard ABS, smart ABS is characterized by:
+
+      reduced shrinkage ratio,
+      shiny surface of the printout,
+      lower printing temperature,
+      increased flow rate
+
+  The possibility to conduct chemical treatments (acetone vapours) on Smart ABS provides for extremely smooth surfaces of printed items. Hence, items treated as above are used in the industrial design and broadly defined decoration-related industry.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 40141865-5091-47ef-acd6-f0c0ae76da0d
+created_at: '2025-10-15T15:08:43.868Z'
+updated_at: '2025-10-15T15:08:43.868Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: d66755e1-3d1b-5ff0-98ea-7587f27e7b5d

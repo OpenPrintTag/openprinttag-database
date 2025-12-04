@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d3b72158-36fb-4f37-ab68-1756cfc57358
+  hardness_shore_a: null
+  hardness_shore_d: 40
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1cf96fd7c5a1.png
+    type: gallery
+uuid: 089ec05f-ba8b-4431-bdc0-3b0848dd0f53
+slug: natural-coexflex-40d-tpe
+brand_slug: coex-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Natural CoexFlex™ 40D TPE
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  CoexFlexTM 40D TPE is our third most flexible filament in our CoexFlexTM product line. With great layer adhesion and soft nature, it can be used to create very durable and flexible prints. 60D can be referenced on the Shore Hardness scale. CoexFlexTM 40D TPE is a TPC (Thermoplastic Copolyester Elastomer), which exception temperature resistance, abrasion resistance, and tensile strength.
+
+  Our CoexFlexTM TPE/TPU lineup of filaments will give you the best results when you require a flexible 3D Printing Filament.  Proudly made in the USA.
+thumbnail_url: https://file.myfilamentlist.com/f/new/1cf96fd7c5a1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-29T11:11:58.351Z'
+updated_at: '2025-04-29T11:11:58.351Z'
+brand: 68f4f75c-636b-4da4-a6f2-a2950604cd0c
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 7234
+packages:
+  - 650893fe-f129-44b1-936b-595d6b751004
+  - 806a18bc-9c41-4113-bd7b-79629a1450c7
+secondary_material_types: []
+opentag_uuid: 2645410f-8a78-530c-a9e7-83e181c92fbb

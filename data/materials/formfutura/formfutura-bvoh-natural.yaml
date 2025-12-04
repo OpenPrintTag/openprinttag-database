@@ -1,0 +1,78 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a08c503530d5.png
+    type: gallery
+tags:
+  - 85b92735-dfaf-418c-9971-8fec7d0ed97e
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: 07bdec2b-e560-479f-9742-03e1d1a275f2
+slug: bvoh-natural
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: BVOH Natural
+abbreviation: null
+url: null
+primary_color: f18f67d7-0690-4497-afaf-11c6695f7c32
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  BVOH is a water-soluble support filament for complex multi-extrusion 3D printing. BVOH filament 3D prints without risks of hot-end clogging and bonds to nearly all build materials.
+
+  BVOH (Butenediol Vinyl Alcohol Co-polymer) is an advanced water-soluble support material for complex multi-extrusion 3D prints. BVOH bonds to nearly all 'build materials' and it dissolves in water at a faster rate than PVA support materials. Its thermal stability is optimized to eliminate any risk of your hot-end clogging up due to thermal degradation.
+
+  Key features
+
+      Good bonding with nearly all 'build materials'
+      Excellent solubility in water
+      Resistant to thermal degradation through optimized melt flow properties
+      Eco-friendly
+      Waste can be disposed of by flushing it (with water) through any regular household drain
+
+   
+  Applications
+
+      Reliable multi-extrusion 3D printing of complex structures that require a water-soluble support material
+      3D printing geometries with large overhangs or complex hollow structures
+      PVA molds
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/a08c503530d5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:18.204Z'
+updated_at: '2025-03-25T22:31:18.204Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ff4aad8b-2097-4d5a-bd42-5df8f3984016
+colors:
+  - 531
+packages:
+  - 14be7f3f-c011-429e-9a43-00febf09b121
+  - 26a334e1-6a20-4489-af10-c0530b5fd09d
+  - 4ce8ea85-bba4-4131-a1c0-2d921c707172
+  - 919ac439-c3fe-4f4f-a69e-a10931e5178f
+  - a787946d-998c-4a09-840a-247130ade00e
+  - f1e76db5-61e9-4ad3-9413-c4ca156a2831
+secondary_material_types: []
+opentag_uuid: 08c494b7-9db8-53d2-99bb-d941ae908de5

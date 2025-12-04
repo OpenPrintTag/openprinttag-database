@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/362a8809dd4e.png
+    type: gallery
+uuid: 538ecbad-84b6-423c-9bf6-a6dc6803b70c
+slug: purplex-petg
+brand_slug: polar-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Purplex PETG
+abbreviation: null
+url: null
+primary_color: 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+
+  Purplex PETG 3D Printer Filament
+
+  1.75mm Diameter
+
+  Individual Tolerance Printed on Each Spool
+
+  Print temperature: 225C 10C
+
+  Bed temperature: 60C 5C
+thumbnail_url: https://file.myfilamentlist.com/f/new/362a8809dd4e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-03T15:35:30.021Z'
+updated_at: '2025-05-03T15:35:30.021Z'
+brand: 30d1056a-dfb9-4613-8385-644bfc1b07f6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7738
+packages:
+  - 575c31d8-595c-44e4-b46e-fea926f928d1
+secondary_material_types: []
+opentag_uuid: b4147be2-558a-58ca-aa7d-9aaa91ea7a78

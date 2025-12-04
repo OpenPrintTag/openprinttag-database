@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f5dded00-6c25-4cbb-b888-891c77a5d070
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+secondary_colors:
+  - c58429fe-d74c-41f0-a19a-f05a04f4d093
+  - 94af218b-e279-4485-a934-181baa567445
+  - 3ae2fbf0-e524-4629-8705-0c3bbe5bcfcb
+uuid: b4351728-1fd8-4fff-a25e-d4e92bdedafe
+slug: dark-magic-tpu-95a
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Dark Magic TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-dark-magic-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Dark Magic. It is a deep black with a green blue purple shimmer-truly magical!
+
+  It is the same shade as our Dark Magic PLA, PETG, and ABS. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: bf0a6f6b-2435-42e0-85cc-5fca123429e6
+created_at: '2025-10-21T11:29:05.927Z'
+updated_at: '2025-10-21T11:29:05.927Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 87c7470a-97cd-4e1c-a12b-b206c9504150
+secondary_material_types: []
+opentag_uuid: c0999f42-012e-56f5-ab1d-538dc67ab641

@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8bc0b1be-82b0-4154-b2bd-9c233890a774
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 215e164a-38e1-4c7c-82c9-9ec647987da0
+slug: pla-blaster-window-grey
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Blaster Window Grey
+abbreviation: null
+url: https://www.filamentree.eu/shop/30310011-pla-blaster-window-grey-1kg-4615?category=61#attr=737,2991,2990,739,3607,3608,2994,2995,740
+primary_color: eaf3d580-c9d1-4c60-89c1-3937e65d19ef
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Blaster Window Grey is a high-quality filament designed for those who need a reliable material with a professional appearance and excellent mechanical properties. Its neutral light grey “window grey” tone is ideal for technical, design, and functional prints that require precision, clarity, and subtle elegance.
+
+  Based on PLA Plus, this filament offers enhanced strength, greater toughness, and a smooth printing experience even with complex geometries. It’s the perfect choice for everyday functional prints, visual prototypes, or structural models.
+  Key Benefits:
+
+      Neutral Light Grey Finish: The elegant “window grey” color is perfect for technical use where shape and function take priority over bold aesthetics.
+      Improved Durability: Thanks to its PLA+ base, this filament is tougher, more impact-resistant, and suitable for durable parts and assemblies.
+      Easy and Stable Printing: Excellent layer adhesion, low warping, and consistent quality make it suitable for both beginners and professionals.
+      Universal Compatibility: Works well with all common FDM/FFF 3D printers with a 0.4 mm nozzle.
+      Eco-Friendly Material: Made from biodegradable, non-toxic materials—an ideal choice for sustainable 3D printing.
+
+  Applications:
+
+      Technical Parts and Components: Mounts, housings, holders, and enclosures that require accuracy and a clean technical look.
+      Prototypes and Functional Models: Perfect for testing parts visually and functionally before mass production.
+      Design Concepts: Highlights the shape and structure without color distraction.
+      Educational Models and Tools: The grey tone enhances visibility of details and contours.
+      All-Purpose Printing: A great default filament for everyday prints with no specific aesthetic demands.
+
+
+  PLA Blaster Window Grey strikes an ideal balance between functionality, aesthetics, and ease of use. It’s perfect for technical applications, professional prototypes, and clean, neutral prints that must perform with precision and reliability.
+thumbnail_url: https://file.myfilamentlist.com/new/215e164a-38e1-4c7c-82c9-9ec647987da0.png
+deleted_at: null
+deleted_by: 3220b589-e72c-4ac3-b74a-145c9f03db1f
+created_at: '2025-12-01T10:56:26.059Z'
+updated_at: '2025-12-01T10:56:26.059Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 3f117cf3-2e97-42e6-a328-20c9c08fa6ae
+  - 419859ae-d64c-4333-89c6-ec2aac51d0f2
+secondary_material_types: []
+opentag_uuid: acbd46e9-e03d-5ad3-994c-da35d6760e66

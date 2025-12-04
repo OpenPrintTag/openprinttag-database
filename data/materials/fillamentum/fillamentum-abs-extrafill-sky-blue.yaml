@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/45b252e1dd92.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 6f1e3880-6dbe-4773-aa1b-be5c75e17dfb
+slug: abs-extrafill-sky-blue
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Extrafill "Sky Blue"
+abbreviation: null
+url: null
+primary_color: 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ABS Extrafill is a popular material for prototyping due to its excellent mechanical properties, impressive impact resistance, and suitability for long-term use.
+
+   High-temperature resistance
+   Tensile strength
+   Environmentally friendly material
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/45b252e1dd92.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:10.929Z'
+updated_at: '2025-03-25T22:31:10.929Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 107
+packages:
+  - 44fd08fb-6586-4610-bac8-afe4cb9fce67
+  - ff67c64e-0e23-4515-ad5b-955506bba3a0
+secondary_material_types: []
+opentag_uuid: 60a91454-15b1-5cfe-a7da-f8b6dfa85aed

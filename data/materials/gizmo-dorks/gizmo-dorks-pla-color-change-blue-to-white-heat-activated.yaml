@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/06a79abca579.png
+    type: gallery
+tags:
+  - 99903cc9-07cb-4a3a-93af-c7d72ff7ccd8
+  - caf785fa-b389-437d-88a7-b4a13b05eb62
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+  - 9ff71ced-a991-4871-802b-5d6e03ebbbdb
+uuid: 4bf325a5-62e9-4816-af07-f73e97bcd07e
+slug: pla-color-change-blue-to-white-heat-activated
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Color Change Blue to White (Heat Activated)
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polylactic Acid (PLA) is one of the most popular plastics used for 3D printing. PLA filament is a thermoplastic meaning at cooler temperatures it is solid and higher temperatures it is soft and moldable.
+
+  Polylactic Acid or PLA filament, is created from processing a number of plant products. PLA plastic can be composted at commercial facilities making this 3D printing filament a more earth friendly plastic compared to ABS. Since PLA filament is derived from sugars, it gives off a semi-sweet smell when heated during printing. This is generally preferred over ABS filament, which gives off the smell of hot plastic.
+
+  PLA plastic filament is stronger and more rigid than the ABS filament. The 3D printed parts will feel more glossy. PLA plastics can also be sanded and machined.
+
+  PLA filament has a relatively low melting temperature compared to other thermoplastics. PLA has much less warping versus ABS, and thus a heated build platform is not required. Because a heated bed plate is not used for PLA, many users often prefer to print using blue painters tape instead of kapton tape. PLA filament generally enjoys sharper details and corners compared to ABS without the risk of cracking or warping. PLA can also be printed at higher throughput speeds.
+
+  Please store PLA plastic filament in a dry cool space. Absorption of moisture can cause bubbles to form because PLA reacts with water at high temperatures.
+thumbnail_url: https://file.myfilamentlist.com/f/new/06a79abca579.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:24.842Z'
+updated_at: '2025-03-25T22:33:24.842Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2833
+  - 2834
+packages:
+  - 8342b4bb-40c4-44cd-8fe8-1a9d8bdca51a
+  - dc914856-6193-4e49-9833-994753bbff90
+secondary_material_types: []
+opentag_uuid: 058ed4c2-723c-530d-9fdd-309efebeca75

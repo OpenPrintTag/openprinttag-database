@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a9d9a914-4e49-4d7e-acca-32ab558b2610
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 9e2e43ca-117b-417c-8b70-81b5b82567ef
+slug: red-flexible-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Red, Flexible TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/red-flexible-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=28&_fid=bf8833f30&_ss=c
+primary_color: bac11d23-72c3-48bb-b282-1b1e09d8b04d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Thermoplastic polyurethane (TPU) is a high strength flexible material. TPU belongs to the TPE class of thermoplastics
+
+      Specially formulated plastic with increased amount of flexibility, with rigid structure.
+      Resistant to oil, grease and abrasions
+      Weight: 1 KG (approximately 2.20 lbs) Spool Weight Total, Net Weight 0.8 KG
+      Diameter: 1.75mm (+/- 0.05mm)
+      Shore Hardness: 95A
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7522979f-0d9a-4034-acab-b977f8e9a1cf
+created_at: '2025-09-26T15:08:55.030Z'
+updated_at: '2025-09-26T15:08:55.030Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9198
+packages:
+  - 9e4ac9c9-eeea-462e-a1c4-0873e1069e35
+secondary_material_types: []
+opentag_uuid: ea39fad3-c011-59f3-8928-0ae936ebac99

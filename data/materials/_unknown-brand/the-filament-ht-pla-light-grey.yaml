@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.20000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5d476994-b533-4394-909d-c778f8294cd6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - df5d80f1-cc07-4db1-aef7-19a2fd78d288
+uuid: 28dbbb39-4957-4e48-8395-3420beb2ff73
+slug: the-filament-ht-pla-light-grey
+brand_slug: null
+brand_specific_id: null
+class: FFF
+type_id: null
+name: THE FILAMENT HT-PLA Light Grey
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-ht-pla/
+primary_color: 4c306dec-8e13-45ce-a3a1-6ec1a0503560
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Heat stability up to 150°C – as printed.
+
+  The Filament HT-PLA is a next-generation, advanced PLA filament that sets a completely new standard among 3D printing materials. It’s your go-to solution for demanding applications. Thanks to its unique formulation, HT-PLA offers impressive thermal stability of up to 150°C, combined with a semi-matte finish that gives your prints an elegant and refined appearance. What’s more, HT-PLA enables the creation of objects that are fully dishwasher-safe. The Filament HT-PLA is a reliable choice for a wide range of applications.
+
+  Eco-friendly. High-performance. Reliable.
+
+  The Filament HT-PLA maintains its shape at high temperatures (up to 150°C) resisting sagging or deformations under its own weight. Thermal resistance depends on the wall thickness of the printed part, but most importantly – it is achieved immediately after printing, with no need for annealing or additional post-processing. This makes The Filament HT-PLA ideal for use cases where other filaments fall short. Perfect for creating durable end-use parts, device housings, brackets, mounting components, organizational accessories, and everyday items that demand high thermal and mechanical performance. While designed for strength and functionality, HT-PLA is also fully compostable and made from renewable resources – making it a conscious and environmentally friendly choice.
+
+  When standard PLA just isn’t enough.
+
+  The Filament HT-PLA is an exceptional filament that clearly outperforms traditional PLA in mechanical properties – it is over twice as stiff, more resistant to tensile stress, and offers three times the impact resistance. This powerful combination of rigidity and toughness makes it the perfect choice for functional prototypes and technical applications.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ae6ac9df-0571-46c7-bfb5-232c63789636
+created_at: '2025-10-08T13:21:21.619Z'
+updated_at: '2025-10-08T13:21:21.619Z'
+brand: null
+type: null
+colors:
+  - 9600
+packages:
+  - 3ed78054-5edb-4d49-ae58-0ffdaaf16040
+  - f9517ec2-0314-456d-95ac-28856a364638
+secondary_material_types: []

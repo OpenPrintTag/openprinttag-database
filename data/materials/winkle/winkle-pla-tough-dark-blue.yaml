@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3be4c1a9-ce82-4aa0-a9d9-4f2b96d65227
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 0714df43-af21-46f8-b8b8-192026c707e3
+slug: pla-tough-dark-blue
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Tough Dark Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-tough-winkle-175-mm-1-kg-azul-oscuro/
+primary_color: e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **Looking for a strong 3D filament to print functional and durable parts?**
+  Winkle PLA Tough Filament 1.75 mm is your best choice for creating 3D prototypes, technical parts, or demanding models with a professional finish and superior mechanical strength. Ideal for those seeking tough PLA filament without sacrificing ease of printing.
+
+  * Available in 300 g and 1 kg spools
+  * Compatible with most 3D printers on the market
+  * Excellent layer adhesion and dimensional stability
+
+  PLA Tough offers higher impact and tensile resistance (**20 MPa tensile strength and 30 kJ/m² Charpy impact resistance**). Choose this 3D filament when you need rigidity, precision, and durability for your most demanding projects.
+thumbnail_url: https://file.myfilamentlist.com/new/0714df43-af21-46f8-b8b8-192026c707e3.png
+deleted_at: null
+deleted_by: 08fe373c-37d3-499f-9f65-c6a4b35fb224
+created_at: '2025-11-21T23:34:05.351Z'
+updated_at: '2025-11-21T23:34:05.351Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 315b70a7-73e0-44af-9cc7-a776543394d0
+  - 6075ba0d-828f-483a-bfe6-198a850ba62d
+  - f3275439-90d3-4274-b699-ebf28bd9b674
+secondary_material_types: []
+opentag_uuid: 02fce807-c8f5-5ce4-a785-b5c29a67ded0

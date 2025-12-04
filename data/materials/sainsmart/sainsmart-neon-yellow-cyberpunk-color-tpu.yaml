@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2d65d0ad-d822-4c79-b0b4-565d45b3e58a
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 4c78a255-45c1-48e6-9e3e-a5c0c34d9d15
+slug: neon-yellow-cyberpunk-color-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Neon Yellow, Cyberpunk Color TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/neon-yellow-cyberpunk-color-tpu-1-75mm-0-8kg-1-76lb?_pos=10&_fid=0b0f09340&_ss=c
+primary_color: e9f9e8ad-c217-4c99-a2c8-8f88aae97cb3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+
+
+      Electrifying and intense, solid neon colors inject excitement and inspiration into designs. Enliven your work with these neon color filaments.
+      Filament Diameter: 1.75 mm; Shore Hardness: 95A; Dimensional Accuracy +/- 0.05 mm; 0.8 kg (approximately 1.76 lbs) per spool; Vacuumed sealed with desiccant; Recommended extruder temperature: 195 - 230°C; Recommended platform temperature: 40 - 60°C
+      SainSmart TPU filament is renowned for its high quality and ease of use, offering you flexible and strong parts with consistency and smooth finish.
+      Compatibility: It is compatible with most FDM printers on the market that use 1.75 mm filament, including Creality, Prusa i3, Monoprice MakerSelect & Qidi, and other RepRap printers.
+      TPU filament is very versatile and it is therefore widely used in 3D printing. With it, you can make your own FPV drone parts, Playstation cover/skin, phone cases, phone stands, toys and so on.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: e02d2598-736c-4895-9313-f0ad77be0695
+created_at: '2025-09-26T14:27:36.415Z'
+updated_at: '2025-09-26T14:27:36.415Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9180
+packages:
+  - b268ffd9-da99-4560-ab23-d2d4a49fe4a9
+secondary_material_types: []
+opentag_uuid: 05fcbbfa-776e-5ded-af65-de86865e519b

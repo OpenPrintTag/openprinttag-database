@@ -1,0 +1,64 @@
+uuid: 6503853b-b2a4-4dc8-9eb3-c8e52fb00edd
+slug: petg-burnt-copper
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Burnt Copper
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/355/petg-filament-1-75-mm-burnt-copper-800-g?c=35
+primary_color: 3f4b15f8-335d-4e9d-88b8-c25b72649003
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Burnt Copper - Metallic Effekt
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9ea6803d-ac48-42d0-99ff-5b0cf85982e4
+created_at: '2025-10-19T09:05:51.542Z'
+updated_at: '2025-10-19T09:05:51.542Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 0a9ab2d3-6ca8-4ea2-bb47-088d44ae84d4
+  - 86da87a5-1506-48b7-b5dd-75fa46ff1314
+secondary_material_types: []
+opentag_uuid: f21468cb-d25e-514c-ac86-72bd1cce4260

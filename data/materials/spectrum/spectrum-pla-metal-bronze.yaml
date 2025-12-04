@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '2.28000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1210c093-d11f-41a0-a2f9-8dd797d6faa0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6736cdcc-3414-45cd-afc5-4bbfc560603a
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 6d67b465-ae3d-446f-a169-a2d542c842c6
+slug: pla-metal-bronze
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Metal Bronze
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-metal-bronze/
+primary_color: a3a2c9cb-59c8-418a-8dad-b301656dc134
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Spectrum PLA Metal Bronze, enriched with bronze powder, is an advanced material that combines the ease of printing typical of PLA with the aesthetics of metal. Due to the high bronze powder content, prints made with this filament achieve a natural look and feel of genuine brass, including its weight and characteristic cool surface. This material is ideal for creating sculptures, jewelry, and other projects where an elegant, metallic finish is required.
+
+  Post-processing capabilities
+
+  Spectrum PLA Metal Bronze filament offers extensive post-processing capabilities, making it an excellent choice for creators seeking advanced finishing effects. Prints can be easily polished to achieve a smooth, glossy surface that highlights the metallic bronze sheen and elegance. Sanding enables more subtle textural effects, while patination techniques can give your prints an aged appearance. With these options, each print can be tailored to individual aesthetic needs, from a sleek shine to a rustic, antique look.
+
+  Tip: Due to the high metal powder content in the PLA Metal series filaments, it is recommended to use nozzles larger than the standard 0.4mm. The high metal content may cause accelerated wear of standard brass nozzles; therefore, it is advisable to use hardened steel or ruby nozzles.
+thumbnail_url: null
+deleted_at: null
+deleted_by: a83281ce-e12e-45dc-ac1d-3bb910bb2184
+created_at: '2025-09-30T18:13:49.857Z'
+updated_at: '2025-09-30T18:13:49.857Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9367
+packages:
+  - 1840e9b0-fd28-4f04-9208-ea483c40de94
+  - 4873d206-52d8-4da0-b05d-91051c774601
+secondary_material_types: []
+opentag_uuid: a4dfbc8c-a588-51b5-b15b-24851e1051ed

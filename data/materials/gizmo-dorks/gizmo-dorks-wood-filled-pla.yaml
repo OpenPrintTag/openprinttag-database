@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8ebdcc51d8c7.png
+    type: gallery
+tags:
+  - e4b51bb5-75c7-484a-bf67-20f37016fc30
+  - 82d7f94d-5fb1-4d74-ac09-17a65b37cd42
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 5eeeff5a-e79b-4c65-b771-252610778355
+slug: wood-filled-pla
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Wood Filled PLA
+abbreviation: null
+url: null
+primary_color: bce7f9e5-5d20-476e-9d5c-bee5d7664404
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Wood is a new FDM filament that was developed to print wooden-like objects. The filament contains recycled wood with PLA and some binding polymers. The printed wood will appear rough and similar to Medium Density Fiberboard, known as MDF. Wood filament is less viscous compared to PLA or ABS during printing. Please add a little extra extrusion to the beginning of the print to help prevent dry extrusion. Also, increasing the retraction setting during slicing will reduce "leakage." The wood filament will appear delicate after print, so please allow the wood filament to set approximately thirty to sixty minutes after printing.
+
+      Extrusion Temperature: 220 - 230 C
+      Heated Bed: 110 - 120 C
+      Layer Height: .2-.25 mm
+      Diameter: 1.75mm or 2.85mm +/- 0.03mm
+      Net Weight: 200 grams
+
+  Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to try the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8ebdcc51d8c7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:50.303Z'
+updated_at: '2025-03-25T22:36:50.303Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 5181
+packages:
+  - 0a4f5eaf-cb10-46ba-abe4-dd9e17d29b1b
+  - e12ab03d-fb94-42c6-812f-fd1c3141f877
+secondary_material_types: []
+opentag_uuid: 941b8c87-238a-53fc-adb0-25c99595fdde

@@ -1,0 +1,54 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/60f3f170891b.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 6b320da4-b508-4385-8da4-81f91b8257b3
+slug: gray-abs
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Gray ABS
+abbreviation: null
+url: null
+primary_color: db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Prints with less warp than most other resins. Excellent rating from customers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/60f3f170891b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:48.844Z'
+updated_at: '2025-03-25T22:31:48.844Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 1129
+packages:
+  - 23f8ed30-16fd-44e2-981e-2aaa9be3e7fe
+  - e4ee7784-fb4b-4ee0-8604-aa15689bcf7e
+secondary_material_types: []
+opentag_uuid: 146b929a-8400-5a14-9793-015d142ccfbd

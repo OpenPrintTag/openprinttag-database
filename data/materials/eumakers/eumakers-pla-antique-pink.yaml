@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c7171c27-5a16-4e92-b6b7-556d5790576c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 0896a1b7-5dc0-46e1-bbe0-26c0252f94a2
+slug: pla-antique-pink
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Antique Pink
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-antique-pink.html
+primary_color: 895e0329-ea96-420e-8202-83ebe1d8a459
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/0896a1b7-5dc0-46e1-bbe0-26c0252f94a2.png
+deleted_at: null
+deleted_by: 125e19ac-e4a9-4cb6-a1dc-42daac49605b
+created_at: '2025-11-11T12:49:31.867Z'
+updated_at: '2025-11-11T12:49:31.867Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 339efb0b-766a-45aa-ad6e-da7e7f49bd7c
+  - 4ae6e8e1-8f41-41b0-8923-7c27cc381d08
+  - 63bd65ca-5315-41dd-a44e-016254a4e43f
+  - b730ec2e-d9e7-4324-9dbe-4031ff21be05
+  - ce12f685-1b97-4b3d-889e-e11d88ccc1f6
+secondary_material_types: []
+opentag_uuid: ac57da6a-d686-5450-a55c-c1a6d3be6d4a

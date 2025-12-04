@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8b5bb849-0a53-4e00-9e27-be793787dfae
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+uuid: 30f3a89d-0ec0-4c01-b109-099ba1949a82
+slug: pla-cor-ten
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Cor-Ten
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-cor-ten.html
+primary_color: c4c23fee-755c-45b3-845b-9d3b81e3aa1e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Cor-Ten.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/30f3a89d-0ec0-4c01-b109-099ba1949a82.png
+deleted_at: null
+deleted_by: 36289c2f-0b86-49a0-9eae-adbf7b5591a6
+created_at: '2025-11-12T10:11:21.795Z'
+updated_at: '2025-11-12T10:11:21.795Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0a5b84ce-3206-42c7-96cb-97db271a286f
+  - 50b70594-84a0-4dcf-bdd2-5b6b02fb5201
+  - 78b1296b-e207-4071-924b-723b36cbb872
+  - c133ebe5-87ca-4a65-85b0-75b968424c7e
+  - d73442e7-59a4-43d2-9ea0-1da662890873
+secondary_material_types: []
+opentag_uuid: ec22f401-383f-5557-a1a3-312d8ba2cad7

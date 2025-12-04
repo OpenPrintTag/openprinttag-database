@@ -1,0 +1,80 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 24efef7b-3001-4287-a219-336f740afb3a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: d42e941f-ee0d-4527-a853-969e147c9a58
+slug: pla-plus-pearl-orange
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Pearl Orange
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110531-pla-plus-pearl-orange-1kg-5644?category=59#attr=2433,2813,2434,2435,3507,2815,2816,2817,2436
+primary_color: ffac55c4-8216-492e-867c-41f23d78b44f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Pearl Orange is a high-quality 3D printing filament that combines enhanced mechanical properties with a unique pearlescent orange effect. Its vibrant color adds a sophisticated look to prints, making it ideal for design and artistic projects as well as functional prototypes and models.
+
+
+  Key Benefits:
+
+      High Strength and Durability : PLA Plus is tougher and more impact-resistant than standard PLA, making prints more durable and less prone to breaking. It is ideal for functional parts and prototypes that require added strength.
+      Pearlescent Effect and Vibrant Color :The rich orange hue with a subtle pearlescent sheen enhances surface details, giving prints a premium, professional look. This makes it a great choice for artistic and decorative applications.
+      Easy Printing and High Compatibility : Low warping, excellent bed adhesion, and seamless processing on various 3D printers.
+      Eco-Friendly Material : Made from biodegradable material, making it a sustainable choice for environmentally conscious projects.
+
+  Applications:
+
+      Decorative Models and Design Elements : Perfect for aesthetically demanding prints with a pearlescent effect.
+      Functional Prototypes : More durable than standard PLA, suitable for testing mechanical parts.
+      Advertising and Presentation Models : Eye-catching color adds exclusivity to prints.
+      Artistic and Creative Projects : Ideal for sculptures, figurines, and personalized items.
+      Architectural Models : Great for detailed designs and realistic presentations.
+
+  Ideal For
+
+      3D printing of detailed models and decorative items
+      Manufacturing functional prototypes and durable components
+      Projects requiring high aesthetic value and visual appeal
+      Eco-friendly solutions and sustainable design projects
+
+  PLA Plus Pearl Orange is the perfect choice for those looking for a filament with high quality, excellent aesthetics, and reliable performance. 
+thumbnail_url: https://file.myfilamentlist.com/new/d42e941f-ee0d-4527-a853-969e147c9a58.png
+deleted_at: null
+deleted_by: 7d7d2399-a4a6-4edc-ae41-5b47cf39639b
+created_at: '2025-12-01T09:23:17.054Z'
+updated_at: '2025-12-01T09:23:17.054Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - dc26e2e5-5ec8-4f39-83e0-81a7a854af56
+secondary_material_types: []
+opentag_uuid: ff7d8699-29dc-5233-aa2f-2ddb1939d3d4

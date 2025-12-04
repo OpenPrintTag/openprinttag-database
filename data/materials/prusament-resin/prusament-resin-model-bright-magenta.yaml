@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 173604cc-f6de-49f6-9e69-9750682d626c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 3c3adde5-5697-448d-85e0-ec08f6639d5e
+uuid: 4ef0f5cf-1118-438e-8440-d40a97b33f12
+slug: model-bright-magenta
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Bright Magenta
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-bright-magenta-1kg/
+primary_color: fec18c7b-511c-487c-9a4e-a922500ac5b4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 79a0e3fa-72e7-4bd0-a663-e435a651c89c
+created_at: '2025-10-03T12:54:17.804Z'
+updated_at: '2025-10-03T12:54:17.804Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9655
+packages:
+  - bf17aa19-45aa-4d47-9ab4-a13c4f26824e
+secondary_material_types: []
+opentag_uuid: 2f5e4f92-5884-527b-bf5b-73b50a6a7f28

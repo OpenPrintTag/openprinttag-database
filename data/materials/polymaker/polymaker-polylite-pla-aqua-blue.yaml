@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/783e08cdb839.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: cf46c9d2-a038-4318-90f8-08890574e38c
+slug: polylite-pla-aqua-blue
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PLA Aqua Blue
+abbreviation: null
+url: null
+primary_color: 027889b2-61fe-40bc-8569-07e7e274ac69
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/783e08cdb839.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:40.644Z'
+updated_at: '2025-03-25T22:34:40.644Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3090
+packages:
+  - 12275dd9-38d2-4529-8bab-cfdb7269ab77
+  - 1b6d2de9-4253-41b4-b17d-1f20f49e694f
+  - 1cf67623-5ba5-4033-8a46-f995cbdaaabb
+  - 3f8efc66-3aaa-479a-9a6d-91a1f8ad43a8
+  - 9e7deaee-595d-415a-ac59-53d04dc1e172
+  - df52e891-6e8a-4fe9-a3f7-74d2970b42af
+secondary_material_types: []
+opentag_uuid: 8b967f26-9ad2-516d-84d4-590b3b49b96e

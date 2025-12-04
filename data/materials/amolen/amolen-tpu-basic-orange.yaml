@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.19000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 84495ec6-8ec2-4e37-ab74-19f9a97349d9
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 7f166393-dff7-48a5-8d7f-2945ff888545
+slug: tpu-basic-orange
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Basic Orange
+abbreviation: null
+url: https://www.amolen.com/products/tpu-basic
+primary_color: 5dd3d736-54bf-4b5d-9398-b76a03955406
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  Enhance your 3D printing projects with our TPU Flexible filament, designed to deliver durable and elastic prints. Engineered for smooth, bubble-free, and jam-free performance, this eco-friendly filament ensures high-quality results for both professionals and hobbyists.
+thumbnail_url: https://file.myfilamentlist.com/new/7f166393-dff7-48a5-8d7f-2945ff888545.png
+deleted_at: null
+deleted_by: 48930eef-e888-4be2-b36b-5aa64415cf88
+created_at: '2025-11-23T16:32:06.905Z'
+updated_at: '2025-11-23T16:32:06.905Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 35f3cf49-1b2c-4359-920e-093a8fff6f4d
+secondary_material_types: []
+opentag_uuid: db49e85a-5ede-56d6-aa95-b59b6baf5158

@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/10ec4d4e08db.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 3fefeabb-635d-4b82-a02d-116a42a066bf
+slug: fiberon-pa6-cf20-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Fiberon™ PA6-CF20 Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Fiberon™ PA6-CF20 is a carbon fiber reinforced PA6 (Nylon 6) filament. The carbon fiber reinforcement provides significantly improved stiffness, strength and heat resistance with outstanding layer adhesion.
+
+  Fiberon™ PA6-CF20 is the same great formula as PolyMide PA6-CF, although Fiberon™ PA6-CF20 may print in a slightly darker black shade color than its predecessor.
+
+
+  -  Printing Requirements
+      All-metal hotend 280˚C+
+      Hardened nozzle
+      Filament dryer
+      Annealing post printing
+      Moisture conditioning after Annealing
+thumbnail_url: https://file.myfilamentlist.com/f/new/10ec4d4e08db.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:37.746Z'
+updated_at: '2025-03-25T22:31:37.746Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors:
+  - 1208
+packages:
+  - 60326d86-c5e8-4763-a48f-7a85d25a282f
+  - cff2465b-0a1c-4804-8500-850d67185e1d
+  - f1cfc4aa-b28c-411e-b51d-897dd82b730b
+secondary_material_types: []
+opentag_uuid: 6021a0bc-38d1-5056-a7ca-ca8c5ad4bc47

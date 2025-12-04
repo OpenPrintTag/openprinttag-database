@@ -1,0 +1,75 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/82cb08570cf0.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 6ea0eb78-d8e6-4fb7-a4c1-9e2ab9ff899f
+slug: carbonfil-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CarbonFil Grey
+abbreviation: null
+url: null
+primary_color: e06fbbdb-323e-4157-9744-5631c05ce2ad
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  CarbonFil is a 10% carbon fiber reinforced PETG based 3D printer filament that is extremely stiff. CarbonFil 3D prints 3D prints with a high dimensional accuracy and virtually no warping.
+
+  Our CarbonFil filament is based on our unique HDGlass PETG compound. It is reinforced with 10% ultra-light and relatively long stringer carbon fibres. The result is an exceptionally stiff carbon-fibre reinforced 3D printer filament. CarbonFil is twice as stiff as HDglass. On top of that it is 10% more impact resistant, which is a remarkable feature for carbon-fibre reinforced filament.
+
+  Unique features
+
+      Reinforced with 10% ultra-lightweight and relatively long carbon fibre stringers
+      Extremely stiff
+      Two times as stiff as HDglass (or even more compared to other PETG-based filaments)
+      Great impact resistance
+      10% more impact resistant than HDglass (or even more compared to other PETG-based filaments)
+      Very easy to print
+      Nearly warp-free, improved thermal stability, nearly perfect first layer and inter-layer adhesion
+      Good first layer adhesion to a heated glass print bed and many other surfaces
+      Heat deflection temperature of ± 85° C
+      Great dimensional stability
+thumbnail_url: https://file.myfilamentlist.com/f/new/82cb08570cf0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:18.858Z'
+updated_at: '2025-03-25T22:31:18.858Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 187
+packages:
+  - 14775078-211b-4c25-a508-46ef4ce1e935
+  - 2cf0503a-8984-42cc-bc0e-f3b4a7c737db
+  - 41144f4a-a442-40f8-b820-2d258f9df1da
+  - 652da2bd-2ab1-4a46-9e27-f6a0655f3f5b
+  - ae9ade6e-f97c-4fef-bfae-e9be6617dc67
+  - b0820187-d1af-4e57-b3a3-08246fa6213c
+secondary_material_types: []
+opentag_uuid: aacce939-631a-517e-afc4-4a0a75bdbbd1

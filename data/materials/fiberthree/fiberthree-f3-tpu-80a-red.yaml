@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0132b79c-2e3f-43fb-8f96-22ac189b1c14
+  hardness_shore_a: 80
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 39b9f17a-9145-4bdd-8a7a-9b7a12d08052
+slug: f3-tpu-80a-red
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' F3 TPU 80A Red'
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: e5ed4ede-599b-4976-bce5-f72c5de2e83f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  TPU
+  available in black/ red/ yellow
+  very high impact resistance
+  moderate water absorption
+  enormous elasticity (Elongation@break 640%)
+  excellent adhesion to print bed
+  exellent thermal stability up to 100°C
+  shining surface (black /red /yellow)
+  good oil & solvent resistance
+  hardness Shore 80 A
+thumbnail_url: null
+deleted_at: null
+deleted_by: 30fc44e6-e00a-40bb-acf5-94da03ec0742
+created_at: '2025-10-21T15:01:03.179Z'
+updated_at: '2025-10-21T15:01:03.179Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 28ca4b22-2b4e-4cc0-abd5-6e838b4d1a30
+secondary_material_types: []
+opentag_uuid: 1d0234e1-5b92-5c3f-8102-08a52168fb92

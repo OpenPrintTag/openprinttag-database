@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 02dce2e8-3890-4149-99f4-34ed6eaf3805
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d673eda77881.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 5278e28b-03f0-4630-a052-da1b4cc68326
+slug: flexfill-peba-90a-blue-transparent
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexfill PEBA 90A "Blue Transparent"
+abbreviation: null
+url: null
+primary_color: 3496eec2-66ac-411e-81bd-c54ee005aa35
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  This type of Flexfill is based on polyether-block-amide (PEBA), which was specially developed for processing by 3D printing. Although it is flexible with hardness 90 Shore A, it exhibits different thermal, mechanical, and chemical behavior from other Flexfill filaments (TPU, TPE)!
+
+   Excellent energy return
+   Flexibility at low temperatures -60degreesC/ -76 degreesF
+   20% lighter than competitive polymers
+   Perfect for functional prototyping and parts
+thumbnail_url: https://file.myfilamentlist.com/f/new/d673eda77881.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:41.848Z'
+updated_at: '2025-03-25T22:31:41.848Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 9f6608c2-4594-42be-915e-c59e2c4e3465
+colors:
+  - 1102
+packages:
+  - 4e8f646a-4f63-4465-ac57-258bbd519297
+secondary_material_types: []
+opentag_uuid: d937137b-ab5b-524a-aa2b-a3594b5d7c07

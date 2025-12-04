@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2f84af40-53f7-4da9-8d37-753581c35f0f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 169ac1c0-a822-4188-aacf-175155fb05f5
+slug: pla-plus-moss-green
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Moss Green
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110161-pla-plus-moss-green-1kg-4597?category=59#attr=274,2854,275,276,3514,2856,2857,2858,277
+primary_color: 8ca79cb7-df43-4a52-a7c2-e52d50461d29
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Moss Green combines the rugged durability of PLA Plus with a rich, earthy green hue inspired by natural foliage. Designed for creators seeking both resilience and a connection to nature, this filament produces prints with a muted, organic aesthetic, perfect for outdoor applications, camouflage designs, or projects that thrive in harmony with the environment.
+
+  Key Benefits:
+
+      Natural, Earthy Tone: The deep moss green shade mimics forest landscapes, ideal for stealthy designs, outdoor gear, or nature-inspired art.
+      Enhanced Strength & Impact Resistance: PLA Plus outperforms standard PLA, offering toughness for functional parts exposed to stress, wear, or outdoor conditions.
+      Smooth, Reliable Printing: Low warping, excellent layer adhesion, and compatibility with most 3D printers ensure consistent results for all skill levels.
+      Eco-Friendly Formula: Made from biodegradable materials, aligning with sustainable practices for environmentally conscious creators.
+
+  Applications:
+
+      Outdoor & Survival Gear: Craft camouflage accessories, hiking equipment, or protective cases for rugged environments.
+      Botanical & Garden Designs: Print planters, garden markers, or decorative terrarium elements that blend seamlessly with nature.
+      Military & Tactical Models: Ideal for realistic dioramas, toy soldiers, or scale models requiring authentic camouflage details.
+      Architectural Landscapes: Enhance terrain models, eco-friendly building mockups, or park layouts with natural green accents.
+      Artistic & Eco-Friendly Projects: Create sculptures, wall art, or eco-conscious consumer products with an organic aesthetic.
+
+  Ideal For:
+
+      Functional prints needing durability and a discreet, natural appearance.
+      Outdoor enthusiasts, modelers, or designers focused on nature-themed projects.
+      Combining sustainability with performance in eco-aware creations.
+      Enhancing prototypes, tools, or decor with a rugged, earthy finish.
+
+  PLA Plus Moss Green is the ultimate choice for bridging innovation and nature. Whether for stealth, function, or organic artistry, this filament empowers your 3D prints to thrive in both form and resilience!
+thumbnail_url: https://file.myfilamentlist.com/new/169ac1c0-a822-4188-aacf-175155fb05f5.png
+deleted_at: null
+deleted_by: 5e0ee032-8e87-46a6-9da4-80a0a46d11a5
+created_at: '2025-12-01T09:40:48.938Z'
+updated_at: '2025-12-01T09:40:48.938Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - debd4a70-759a-4b93-a1d9-c2e33773b2fe
+secondary_material_types: []
+opentag_uuid: 8b6d865a-d9d0-5e86-b07f-72cf9b645884

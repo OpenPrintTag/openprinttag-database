@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 999bf2aa-1277-41cf-bd64-1be0abc932ff
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 38a2d5f3-e19c-4dcd-a207-e7a5cbce6934
+slug: asa-cyan
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Cyan
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/asa-filament?variant=49109313945927
+primary_color: f4de8784-1f2d-49d6-bc75-c29e15ada857
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ASA Filament represents a breakthrough in professional-grade 3D printing filament, meticulously engineered to deliver exceptional performance in challenging environmental conditions. The material's advanced composition provides superior technological capabilities that distinguish it from conventional filament options.
+thumbnail_url: https://file.myfilamentlist.com/new/38a2d5f3-e19c-4dcd-a207-e7a5cbce6934.png
+deleted_at: null
+deleted_by: fc82b57f-e96c-4c94-a29a-798acc28771b
+created_at: '2025-11-11T11:38:44.763Z'
+updated_at: '2025-11-11T11:38:44.763Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 185fb6ce-8720-45ed-8f77-c6f6351830be
+  - c5130250-4beb-4a1b-8179-e17c06f6c610
+secondary_material_types: []
+opentag_uuid: 764f986b-0c02-599e-8712-38d3749a5e0b

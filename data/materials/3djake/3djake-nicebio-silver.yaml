@@ -1,0 +1,67 @@
+uuid: e9cf3637-273d-4314-9db9-73475f1d8fdc
+slug: nicebio-silver
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: niceBIO Silver
+abbreviation: niceBIO
+url: https://www.3djake.com/3djake/nicebio-silver
+primary_color: 96b97c1c-d766-4428-9e76-98d50146edbb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+
+
+  3DJake niceBio is a high-quality organic filament that is characterised by its excellent thermal and mechanical properties and is also biodegradable.
+
+  Since no heated print bed is required to print the material, it can be processed on almost any FDM printer. Models made with niceBio have the best layer adhesion and have a matt surface.
+
+  Key features of 3DJake niceBio
+
+      Excellent thermal & mechanical properties
+      High impact resistance
+      Heat resistance up to approx. 145 °C
+      Good layer adhesion
+      Odour-free
+      Matt model surface
+      Biodegradable (according to DIN EN ISO 14855 standard)
+
+thumbnail_url: https://file.myfilamentlist.com/new/e9cf3637-273d-4314-9db9-73475f1d8fdc.png
+deleted_at: null
+deleted_by: dcd4b873-4a4c-48dc-a24e-cb3e5e4ceab1
+created_at: '2025-11-09T22:31:06.551Z'
+updated_at: '2025-11-09T22:31:06.551Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: null
+colors: []
+packages:
+  - 302c830b-a6f8-4897-9c47-b4e771a16335
+  - b07a55fc-a0e4-492c-ba09-e16a85e4e290
+  - c4eaee07-77e5-4642-aec2-1b8c969f6053
+secondary_material_types: []
+opentag_uuid: d7a560be-e0d7-569b-ae2b-49e28ef13889

@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/78ab7512d7b6.png
+    type: gallery
+uuid: 9bfee562-f2a5-4016-a569-daa4fac8cc6b
+slug: pa-neat
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA Neat
+abbreviation: PA
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PA Neat. A brand new unfilled, heat resistant, low warp PA
+
+  PA Neat is our new highly functional polyamide (nylon) grade. PA NEAT allows continues use at 120degreesC while retaining sufficient mechanical properties and thus highly temperature resistant and tough. This makes it a perfect material for the professional user to make durable prints that need to perform.
+
+  PA Neat barely warps and is thus ideally suited for professional users who need their filament to perform.
+
+
+      Highly temperature resistant
+      Tough
+      Durable prints
+
+  Due to high stiffness of 2.85mm filament we recommend users to use spoolmounts which have some friction between spool and holder, to prevent unspooling of filament.
+
+  The filament may absorb moisture from the environment. If absorbed moisture levels are too high, users will see excessive oozing of material on travelmoves and rough outer surface of printed parts. Drying is advised using filament dryers, drying temperature set at 70-80C for 4-6 hours.
+thumbnail_url: https://file.myfilamentlist.com/f/new/78ab7512d7b6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:43.375Z'
+updated_at: '2025-03-25T22:32:43.375Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 2000
+packages:
+  - 6ed49ea6-b9be-4955-a8a1-329ca3f39f09
+secondary_material_types: []
+opentag_uuid: 41aa9cde-59c8-547f-bfc9-64a05c794d3c

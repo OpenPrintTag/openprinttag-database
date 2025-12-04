@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9c18e326-5746-4e77-88d4-f5046e8165cd
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/58b09ddcbce7.png
+    type: gallery
+certifications:
+  - 2
+uuid: 36ee2c45-31a4-4553-95e2-242c9a6ad43e
+slug: petg-anthracite-grey
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Anthracite Grey
+abbreviation: null
+url: null
+primary_color: 03d152f9-4c4f-49b8-a48e-773ab08dabd0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '0.30'
+refractive_index: null
+tags: []
+print_sheet_compatibility: []
+description: 'Prusament PETG is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/58b09ddcbce7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:49.296Z'
+updated_at: '2025-04-04T11:01:02.268Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 8982
+packages:
+  - 4d6a7c3f-1534-47ca-974b-a35c01254aa4
+  - 83fa7b39-61a9-4d2f-9594-766bce5b4dc7
+  - be604377-9a2d-41df-9671-dcf49a3cf77c
+  - d69895d7-3c51-40ec-8bcc-90f12afb7e73
+secondary_material_types: []
+opentag_uuid: e65bec5f-3a91-5e31-a785-e758a1f055f4

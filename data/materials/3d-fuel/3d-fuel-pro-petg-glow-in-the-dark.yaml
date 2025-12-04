@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/bed998800b84.jpg
+    type: gallery
+  - url: https://file.myfilamentlist.com/f/new/bdca898889a9.jpg
+    type: gallery
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: c75ec758-395c-4d80-801b-5e7d0321b688
+slug: pro-petg-glow-in-the-dark
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PETG, Glow-in-the-Dark
+abbreviation: null
+url: null
+primary_color: null
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Manufactured from 100% virgin PETG resin, Pro PETG is a fantastic, economical 3D printing material. Natural Pro PETG filament has fantastic optical properties, resulting in nearly transparent prints with amazing light transmission. Different layer heights and print settings will affect how your 3D printed parts pass light.
+
+  PETG is a newer printing filament with the advantage of printing easily like PLA, but offering higher temp and impact resistance like ABS. Nearly ZERO warpage prints, extremely strong layer bonds, little to no odor at all. 
+  Recommended Print Settings (settings will vary from printer to printer)
+
+  Print nozzle temp: 245 - 265C (Our PETG Prints a little hotter than some.)
+
+  Heated Bed temp: 70 - 90C
+thumbnail_url: https://file.myfilamentlist.com/f/new/bed998800b84.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:01.003Z'
+updated_at: '2025-04-11T14:44:05.048Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6844
+  - 6845
+packages:
+  - 59ad6317-12f8-4485-b8ab-fb99fb4a3b8f
+secondary_material_types: []
+opentag_uuid: 51142916-1072-5eea-828c-27e7c87a60ca

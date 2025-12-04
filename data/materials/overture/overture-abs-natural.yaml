@@ -1,0 +1,53 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8d5a1f452042.jpg
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 251c58da-dec0-46d3-97d8-fcd9fd7b0baf
+slug: abs-natural-4
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'ABS Natural '
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Overture ABS is known for its impressive heat resistance, capable of withstanding temperatures up to approximately 100˚C. This property makes it an excellent choice for applications where exposure to elevated temperatures is a concern, such as automotive parts, home appliances, and other functional components. The ability to maintain structural integrity under heat ensures that ABS parts perform reliably in demanding environments.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8d5a1f452042.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:11.533Z'
+updated_at: '2025-03-25T22:31:11.533Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 470
+packages:
+  - 3620679f-3be1-4072-b7b4-ddcd9a768fd7
+secondary_material_types: []
+opentag_uuid: f5c56cf7-76b2-5417-84ec-51d75a58b152

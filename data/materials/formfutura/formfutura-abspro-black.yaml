@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/468ce93595bf.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: a16bddbd-2fe8-4231-96eb-1dd3c1185c1d
+slug: abspro-black
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABSpro Black'
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABSpro is a PC-ABS filament that is perfect for 3D printing mechanical parts. It is durable, strong and impact resistant and 3D prints with a high dimensional accuracy and perfect interlayer adhesion.
+
+  Unique features
+
+      Extremely strong and impact resistant
+      Extremely high printing precision
+      High gloss
+      Good chemical resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/468ce93595bf.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:11.953Z'
+updated_at: '2025-03-25T22:31:11.953Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 242
+packages:
+  - 0b4a6547-292d-4587-b075-33af7adaaa94
+  - 47c8a476-7295-40ef-aa18-5289e88b2615
+  - 501921fa-f28d-4efc-83ad-370dad88316b
+  - 811fc8ec-1b2f-4c19-8f49-dd71f2bd459f
+  - b735db4a-4906-468e-8abc-0dbd1d02ec80
+  - fdc6cf57-797c-4ff8-b406-533a4ec2b5ca
+secondary_material_types:
+  - 28
+opentag_uuid: 411e2cc5-a397-5dbc-81a4-8b9d2da8201b

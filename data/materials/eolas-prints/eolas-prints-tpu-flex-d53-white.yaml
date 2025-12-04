@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.17000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a4469082-ec09-4b6b-9501-0e2fe9b2895a
+  hardness_shore_a: null
+  hardness_shore_d: 53
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 064f12fa-c943-44c7-a3ae-af40c60446d5
+slug: tpu-flex-d53-white
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flex D53 White
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/tpu-flex-filament-shore-d53?variant=49880647041351
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Discover the optimal balance of flexibility and printability with our premium TPU flexible filament. This high-quality material offers exceptional versatility for a wide range of 3D printing applications, from prototypes to functional end-use parts. Our TPU Flex Filament combines the benefits of thermoplastic polyurethane with advanced engineering to deliver superior performance and ease of use.
+
+  • Shore D53 hardness: Ideal for applications requiring both flexibility and durability, striking the perfect balance between pliability and strength
+  • Easy to print: Designed for smooth, hassle-free printing on most 3D printers, minimizing common issues associated with flexible filaments
+  • Food contact safe: Perfect for kitchen gadgets and food-related projects, ensuring compliance with food safety regulations
+  • Skin contact safe: Suitable for wearables and prosthetics, making it an excellent choice for medical and consumer applications
+  • 100% TPU: Pure thermoplastic polyurethane for consistent quality and performance, guaranteeing reliable results across various printing conditions
+thumbnail_url: https://file.myfilamentlist.com/new/064f12fa-c943-44c7-a3ae-af40c60446d5.png
+deleted_at: null
+deleted_by: 10f6c3fd-d6c0-4464-a915-cea52ed9840a
+created_at: '2025-11-11T10:48:37.522Z'
+updated_at: '2025-11-11T10:48:37.522Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - b6c66715-ce0f-4557-99bc-d5c6ee3f4f4c
+secondary_material_types: []
+opentag_uuid: 217298c0-f9e2-5c50-93cc-b9cb839f0ef9

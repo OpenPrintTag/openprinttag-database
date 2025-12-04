@@ -1,0 +1,87 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2fcfde67-2766-4daa-ae07-6719c5aa2f99
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ef3df99942aa.png
+    type: gallery
+uuid: b96af0be-aa43-40db-96f4-e8b32d2a5607
+slug: flexible-tpu-red-3
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexible TPU Red
+abbreviation: null
+url: null
+primary_color: 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  Flexible Filament - TPU
+
+  Gizmo Dorks is proud to introduce flexible filament based off of TPU, which is Thermoplastic Polyurethane.  In the world of 3D printing, the standard plastic used for printer filament has been ABS and PLA. However, these two filaments lack a crucial physical property - flexibility. Many prototypes or 3D prints need to bend while still maintaining the original form factor.
+
+  TPU 3D printing filament is a soft flexible plastic that retains its shape and form. It is a bendable yet strong and durable plastic that draws comparisons to rubber. TPU filament is semi-transparent as well as very elastic. TPU plastic is also very resistant to oils and grease but must be kept away from solvents, acids, and fuels. Cleaning a printed part is easy and can be accomplished with mild soap.
+
+  There are many everyday uses for TPU as a plastic. TPU plastic is used in car parts to power tools and medical devices. TPU is also very popular in protective cases for mobile phones and tablets due to its high flexibility.
+
+  Flexible Filament Technical Specifications
+
+      Hardness: 95 Shore A
+      Elongation at Break: 600% Strain
+      Tensile Strength: 11600 psi
+      Density: 1.25 g/cm3
+
+  Flexible Filament Printing Specifications
+
+      Extrusion Temperature: 200 - 220degreesC
+      Heated Bed Plate: 80 - 100degreesC, although some users do not use a heated bed
+      Print Speed: 30 - 50 mm/s
+      Layer Thickness: Above 0.1mm
+
+  In general, flexible TPU filaments should be printed on direct extruders, if possible. A direct extruder is where a geared motor pulls filament directly into the hot end. Conversely, a Bowden extruder is not ideal for flexible TPU filament because of the distance between the motor and hot end. Some users are still able to print on Bowden extruders, and if you have a Bowden extruder, we recommend printing on slower speeds.
+
+  Flexible TPU filament will adhere well to most surfaces such as aluminum, glass, blue painters tape, and Kapton tape.
+
+  If you have a cooling fan, please use one pointed at the extruder, not the print.
+
+  Always print in a well ventilated area.
+thumbnail_url: https://file.myfilamentlist.com/f/new/ef3df99942aa.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:44.127Z'
+updated_at: '2025-03-25T22:31:44.127Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 1229
+packages:
+  - 31f1d09c-6798-4a18-b075-ae7332f77476
+  - 5834a8d9-51ca-4ed4-8f43-7f49263b2b84
+secondary_material_types: []
+opentag_uuid: ee55cde3-8515-5f72-9af6-728e0ca6187e

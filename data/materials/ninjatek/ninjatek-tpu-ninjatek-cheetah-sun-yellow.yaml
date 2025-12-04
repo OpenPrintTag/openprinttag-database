@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a02458255d7e.png
+    type: gallery
+uuid: 2820c3f6-55b3-4cb1-8991-9ccdb37b9a41
+slug: tpu-ninjatek-cheetah-sun-yellow
+brand_slug: ninjatek
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU NinjaTek Cheetah - Sun Yellow
+abbreviation: null
+url: null
+primary_color: cdebad31-7fd3-419c-93d6-ff2deeb3d0cf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The fastest and easiest-to-print flexible TPU filament available, Cheetah(R) maintains industry-leading durability and impact strength 84% greater than ABS. Cheetah is the perfect blend of speed and toughness.
+
+  Features and Benefits of Cheetah Filament
+
+      Shore hardness = 95A
+      Prints at speeds greater than 60 mm/ sec with standard ABS settings
+      Significantly greater impact strength than all widely used materials - 84% greater than ABS
+      Industry-leading toughness and durability to ensure longevity in printed parts
+      Abrasion resistance 40% better than ABS and 76% better than PLA
+      580% elongation capabilities improve the ability to withstand wear and tear
+      Chemical resistance to many materials. View Cheetah Chemical Resistance Guide for more information.
+      Consistent diameter and material properties providing reliable, high-quality prints
+      REACH and RoHS 3 (EU 2015/863)
+thumbnail_url: https://file.myfilamentlist.com/f/new/a02458255d7e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:25.319Z'
+updated_at: '2025-03-25T22:36:25.319Z'
+brand: dc14bc52-0ea9-467f-a3a1-cbff6957c8ec
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5610
+packages:
+  - 067e7eb8-5969-484e-9ea0-9f2a8b817072
+  - 5f72d947-05b0-4e98-a1aa-a17621958198
+  - 7bab847a-7000-4c45-a286-a7efb81223a2
+  - 85c03a97-a0fb-4ce6-9657-2423dd347fa8
+secondary_material_types: []
+opentag_uuid: 519c022f-3c48-5966-aef8-96b0be8063d2

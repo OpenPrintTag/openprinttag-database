@@ -1,0 +1,72 @@
+uuid: 304b5352-deb8-4543-a550-9da7a7fc3f59
+slug: ecopla-yellow
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Yellow
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-yellow
+primary_color: fd2a0d48-2eb2-48b9-b311-f9db002c01b3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  3DJake ecoPLA properties:
+
+      Minimal shrinkage
+      Minimal warping
+      Good diameters & roundness tolerance
+      Zero unpleasant odours
+      Easy to print
+      Tougher & less brittle than conventional PLA filaments
+
+  3DJake ecoPLA filament can be used with nearly all FDM 3D printers.
+
+  All ecoPLA colours are based on the standardized RAL colour system.
+  ecoPLA Yellow - RAL1023
+thumbnail_url: null
+deleted_at: null
+deleted_by: 1a55d90e-51d7-43cb-b7ae-19cccbb3b9f3
+created_at: '2025-11-07T10:31:40.586Z'
+updated_at: '2025-11-07T10:31:40.586Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0cfb81c0-4f55-47ac-bd2e-d93ca40f04a0
+  - dcd43e78-9a2e-4c57-929e-5544f93d0bce
+secondary_material_types: []
+opentag_uuid: 21f901b4-cf02-5e19-971b-a31fb483743f

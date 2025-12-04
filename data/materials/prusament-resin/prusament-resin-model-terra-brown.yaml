@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 95b63382-e563-4462-95c0-e34ad9fb842d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 7f2e9ef8-0510-4ece-a8fb-dab3d5e5c6bc
+uuid: 2fbaac55-3757-4ec8-bd57-944bdaf6baaf
+slug: model-terra-brown
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Terra Brown
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-terra-brown-1kg/
+primary_color: 42aa352d-1255-4d92-8b65-bc9fcbe52307
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 3b4d7e25-a420-43e6-b7ef-c138df91ac44
+created_at: '2025-10-03T12:57:19.097Z'
+updated_at: '2025-10-03T12:57:19.097Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9652
+packages:
+  - b12f43cf-ea47-467f-9bdd-35caa6ae60a2
+secondary_material_types: []
+opentag_uuid: f91d353e-a7da-599e-8612-7215cd075a24

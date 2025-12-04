@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: df841d39-7028-4571-89f0-815a7f9b0139
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: dd894abd-a30b-418f-8b2a-d08f99320a0a
+slug: pla-plus-baby-blue
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Baby Blue
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110131-pla-plus-baby-blue-1kg-4589?category=59#attr=290,2889,291,292,3517,2891,2892,2893,293
+primary_color: 6c74cf71-b852-47f6-b8c0-775fb93f3d69
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Baby Blue combines the enhanced durability of PLA Plus with a soft, soothing sky-blue hue, perfect for projects that blend gentle aesthetics with functional reliability. This filament delivers a calming, versatile color ideal for nursery décor, playful designs, or professional models requiring a touch of serenity and sophistication.
+
+  Key Benefits:
+
+      Calming Baby Blue Hue: A delicate, airy shade of blue that evokes tranquility, perfect for children’s toys, decorative accents, or designs needing a soothing visual appeal.
+      Enhanced Strength & Flexibility: PLA Plus offers superior impact resistance and toughness compared to standard PLA, ensuring prints withstand everyday use while maintaining their polished finish.
+      Smooth Printing Experience: Minimal warping, excellent bed adhesion, and compatibility with most 3D printers guarantee consistent results for beginners and experts alike.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, aligning with sustainable 3D printing practices.
+
+  Applications:
+
+      Nursery & Kids’ Items: Create safe, charming toys, mobiles, or educational tools with a gentle, child-friendly color.
+      Home Décor & Lifestyle: Craft decorative vases, picture frames, or wall art that complements modern, minimalist interiors.
+      Prototypes & Functional Parts: Ideal for ergonomic gadgets, tech accessories, or prototypes requiring a clean, professional look.
+      Artistic & Creative Projects: Design sculptures, cosplay props, or themed dioramas with a soft, dreamy aesthetic.
+      Medical & Educational Models: Print anatomical diagrams, dental guides, or classroom tools with a calming, approachable finish.
+
+  Ideal For:
+
+      Projects demanding a blend of gentle aesthetics and functional durability.
+      Designs inspired by childhood, nature, or minimalist trends.
+      Eco-conscious creators prioritizing sustainability and premium performance.
+      Customizing prints with paint, dyes, or decals thanks to its neutral pastel base.
+
+  PLA Plus Baby Blue transforms your ideas into serene, reliable creations. Whether crafting for little ones, decorating your space, or innovating with precision, this filament ensures your prints radiate calmness and quality. 
+thumbnail_url: https://file.myfilamentlist.com/new/dd894abd-a30b-418f-8b2a-d08f99320a0a.png
+deleted_at: null
+deleted_by: e4871859-ed65-4c33-b4e0-b1b4f37f0ac5
+created_at: '2025-12-01T09:50:22.595Z'
+updated_at: '2025-12-01T09:50:22.595Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - b1227ddf-992d-449c-991b-4fada8dabb33
+secondary_material_types: []
+opentag_uuid: 3e7932bd-9c93-52e6-b312-adc239b862ad

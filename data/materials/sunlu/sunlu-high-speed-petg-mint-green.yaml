@@ -1,0 +1,52 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/172ed8ea0aa5.jpg
+    type: gallery
+uuid: 1470f5de-7b78-4747-a3b8-d86f09c4caad
+slug: high-speed-petg-mint-green
+brand_slug: sunlu
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Speed PETG Mint Green
+abbreviation: null
+url: null
+primary_color: c3f32b49-5bf0-4737-af29-e5870e00da55
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: "  \n    \x01[30mm/s - 600mm/s Print Speed]- With enhanced fluidity, SUNLU High Speed PETG filament melts rapidly and flows smoothly, allowing for up to 600mm/s fast printing speed. You can complete the projects quickly without compromising on quality, bring your ideas to life with high-speed printing.\n\n    \x02[Combining PLA and ABS]- PETG 3D printer filament combines the advantages of both PLA 3D printer filament and ABS 3D printer filament, ease to use like PLA, durable strength like ABS.\n\n    \x03[Enhanced Toughness]- Known for its toughness, PETG outperforms many other filaments in durability, making it ideal for creating sturdy and resilient items that can withstand stress and use.\n\n    \x04[High Impact Strength]- With its high impact resistance, PETG is perfect for printing parts that need to endure bumps and drops, ensuring long-lasting performance without cracks or breaks.\n\n    \x05[High Speed PETG Recommend Settings]- Hot Bed Temp:70-80. \x01Print Speed:50-100mm/s, Print Temp: 230-240. \x02Print Speed: 100-300mm/s Print Temp: 240-255, \x03Print Speed: 300-600mm/s Print Temp: 255-270. We recommend that different print speeds be adjusted to the corresponding nozzle temperature.\n"
+thumbnail_url: https://file.myfilamentlist.com/f/new/172ed8ea0aa5.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:58.573Z'
+updated_at: '2025-03-25T22:31:58.573Z'
+brand: abbb1c1f-2cdb-4850-8db6-cafd363223d2
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1740
+packages:
+  - 69afb6bf-4cef-4ee4-bb41-9a96efa0628a
+secondary_material_types: []
+opentag_uuid: 695ba993-8907-5363-956e-72de622382b2

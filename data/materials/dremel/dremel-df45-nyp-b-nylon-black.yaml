@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4f0e635b7a6d.jpg
+    type: gallery
+uuid: 9d796a3b-a333-4f4a-a9c0-e90b066fbef2
+slug: df45-nyp-b-nylon-black
+brand_slug: dremel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DF45-NYP-B Nylon Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+   
+      Dremel nylon filament boasts higher strength, flexibility and durability than traditional pla filaments
+      Nylon-printed parts have few rough edges and produce smooth end products with little need for post-processing
+      Manufactured and tested to provide smooth and consistent building
+      Dremel Nylon filament is engineered to produce a stable, strong object with a high quality finish
+      Compatible with 3D45 only, not compatible with 3D20 or 3D40-FLEX
+thumbnail_url: https://file.myfilamentlist.com/f/new/4f0e635b7a6d.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:23.121Z'
+updated_at: '2025-03-25T22:31:23.121Z'
+brand: b948b2a9-2cad-4f4a-943d-f42dab64be76
+type: null
+colors:
+  - 448
+packages:
+  - ae95561e-3d11-4454-8d92-12f966d9aea5
+secondary_material_types: []
+opentag_uuid: bbfaa68a-35eb-5c7a-bc5e-b3fdfafede74

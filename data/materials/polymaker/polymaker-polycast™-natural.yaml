@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b4be628f64d7.png
+    type: gallery
+tags:
+  - 818b59a4-cab1-405b-8317-95be09802242
+uuid: 6a438397-f388-4ada-a256-dc4baad2900d
+slug: polycast-natural
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyCast™ Natural
+abbreviation: PolyCast™
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyCast™ is a filament designed to produce investment patterns for investment casting applications. 3D printing significantly cuts down both the cost and lead time by eliminating the tooling process.
+
+
+  -  Printing Requirements
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/b4be628f64d7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:30.950Z'
+updated_at: '2025-03-25T22:34:30.950Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: null
+colors:
+  - 3067
+packages:
+  - 508a6134-b4eb-48b9-87c2-e1dbfad6c6ec
+  - 50f6ce14-cf08-43b1-aeb5-b3ae692b5c01
+  - 8fb8b78c-8c6f-406a-8087-8bd16203fa50
+  - b3cfe40c-450f-450f-8c8d-e985b8ab59fb
+secondary_material_types: []
+opentag_uuid: 93f205f8-35a9-5c8a-91fa-171bf7d5d34f

@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.30000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 13633c79-bcfc-4384-808e-88d147c84314
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c9103dd3-7433-49df-a5bf-37c5f2692ecd
+slug: pla-carbon
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Carbon
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-carbon/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Carbon is a modified, PLA-based filament blended with carbon fibers which contributes to a considerably higher rigidity, hardness and tensile resistance, while retaining low shrinkage and very good adhesion to build platforms typical for the pure PLA. The 10% addition of carbon fibre enables you to obtain matte surfaces of printed items, which greatly improves the aesthetic properties of printed items.
+
+  Tip: Due to the essential content of chopped carbon fire, it is recommended to use nozzles with diameters exceeding the standard value of 0.4mm. The presence of carbon fibers may also cause wear of standard nozzles; thus it is recommended to use hardened steel or ruby nozzles for prolonged application of Spectrum Carbon PLA.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 4ecb5b2d-20bb-423e-9e64-962e053720ef
+created_at: '2025-09-29T14:44:49.114Z'
+updated_at: '2025-09-29T14:44:49.114Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9303
+packages:
+  - 406cc87f-9aaf-4ee6-90a2-54c7c36ed545
+secondary_material_types: []
+opentag_uuid: 0177149e-66c6-5e90-9dee-8accde0474e4

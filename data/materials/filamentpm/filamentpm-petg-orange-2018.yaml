@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/69a30eb6a78a.png
+    type: gallery
+uuid: 686de9c7-74d9-465b-939f-fda4001dd26c
+slug: petg-orange-2018
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PETG - Orange 2018 '
+abbreviation: null
+url: null
+primary_color: e6d37a77-1b24-437f-982c-679432508d68
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+  PETG (polyethylene terephthalate glycol)
+  - PETG is a universal material
+  - for beginners (very easy to print)
+  - father for large prints
+  - high impact material than PLA, same as ABS
+  - temperature resistant up to 70 degreesC
+  - no warping
+  - ideal for mechanical parts (used to be one of the main materials for PRUSA Printers - PETG Orange 2018)
+thumbnail_url: https://file.myfilamentlist.com/f/new/69a30eb6a78a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T18:37:24.087Z'
+updated_at: '2025-04-22T18:37:24.087Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7066
+packages:
+  - a5ec7147-e0ef-4ee8-84f8-da0d65e1d2c1
+  - bafc29a4-15f2-4e03-8282-c267fa0bd303
+secondary_material_types: []
+opentag_uuid: fd41f152-e860-57dc-bb1a-f988e7d9d0c7

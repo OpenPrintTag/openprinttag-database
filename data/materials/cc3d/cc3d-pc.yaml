@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/db3774e648e0.jpg
+    type: gallery
+uuid: a8545231-e7fe-4ce4-8cf5-7de3ddce4e79
+slug: pc
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC
+abbreviation: null
+url: null
+primary_color: 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Heat resistant filament.
+      Can withstand temperatures :110 degreesC
+      Harder and Stronger than ABS filament
+      Modified Filament,Not 100% pure PC.50% PC+45%PETG+5% Other Matertials)
+      Recommended Printing Temp: 255 - 265 degreesC; Recommended Printing Speed: 30 - 60 mm/s; Heated Bed:90 ~ 105 degreesC
+
+      Burnt Titanimu PETG Filament 3D Printing Materials
+thumbnail_url: https://file.myfilamentlist.com/f/new/db3774e648e0.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T18:55:48.607Z'
+updated_at: '2025-03-31T18:55:48.607Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 5877
+packages:
+  - 4500f093-ee7d-4722-917f-cb4973e359cc
+secondary_material_types: []
+opentag_uuid: c9a7bf85-f2b0-5ef1-b0e2-26775115dbfa

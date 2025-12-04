@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4f0f0a82-6edf-40cf-b951-94201b7697ab
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+secondary_colors:
+  - 1e59f006-188a-4b4a-8f9f-72ecc8b84125
+uuid: 22a88a11-a3ee-4a1f-af2d-ce2d4bf1580f
+slug: pla-hd-glow-alien-green
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Glow Alien Green
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-glow-winkle-175-mm-1-kg-verde-alien/
+primary_color: d19322f5-5abc-4baf-9a09-dc682e93940a
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Looking for a 3D filament that glows on its own? Try our PLA HD Glow (phosphorescent) Filament. You’ll achieve high visual impact!
+  The PLA HD Glow Filament is perfect for printing everything from 3D prototypes, decorative figures, and artistic pieces to luminous prototypes. This glow filament shines brightly in the dark after exposure to natural or artificial light, making it the perfect ally for your most striking creations.
+
+  Highlighted applications for Phosphorescent PLA HD Filament:
+
+  Decorative pieces that glow in the dark
+
+  Functional prototypes with nighttime visibility
+
+  Cosplay accessories and creative components
+
+  Emergency signage or visual safety elements
+
+  Its “Alien Green” color emits a luminescent glow with a smooth finish, ideal for highlighting fine details and creating high-contrast effects. Available in 300 g and 1 kg spools, this 1.75 mm PLA Glow Filament adapts to all types of prints, from quick tests to larger projects.
+
+  Thanks to the same properties as standard PLA, it minimizes warping, delivering clean and consistent results. Its tensile strength and density ensure durable parts, while its low moisture content prevents clogs and ensures smooth extrusion.
+thumbnail_url: https://file.myfilamentlist.com/new/22a88a11-a3ee-4a1f-af2d-ce2d4bf1580f.png
+deleted_at: null
+deleted_by: a96e0018-0b5a-4d38-9a2e-6203fe248592
+created_at: '2025-11-21T12:42:41.919Z'
+updated_at: '2025-11-21T12:42:41.919Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 74021ff7-3b0d-43d5-9361-f2bebaa23443
+  - fd87aa83-339c-4d89-850f-6a804a3e1a97
+secondary_material_types: []
+opentag_uuid: 9e5e3b13-9507-5f81-a7ee-2ffa205c1ee4

@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7e52609ecf4d.png
+    type: gallery
+uuid: d5bcd8c4-6945-4013-b3ba-42f84915e7d0
+slug: high-precision-pet-yellow-green
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Precision PET Yellow Green
+abbreviation: null
+url: null
+primary_color: 8fa7c8a8-33a8-4e15-8762-006bce9dad4f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A pure PET filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Good inherent UV resistance.
+      Good chemical resistance.
+      3D Prints details with a high resolution and high surface quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/7e52609ecf4d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:55.352Z'
+updated_at: '2025-03-25T22:31:55.352Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 913
+packages:
+  - 06f0aa25-1f7e-46f0-b630-b6f6d553cd56
+  - 1a895a91-a2ae-4fc1-929d-f2e750942ca0
+  - 83c5f9fe-7c1f-4c4d-87b4-fb90d04aa690
+  - a7a6ae79-0ee0-4ee0-985f-e5b772c5c92d
+secondary_material_types: []
+opentag_uuid: 619a9725-4d9c-56c7-b789-774e1b954918

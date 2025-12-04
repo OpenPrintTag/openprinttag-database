@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: dcf235cc-89d6-4d3c-a938-ce391451123d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 5a80b745-1eba-4c3c-bf6b-2151c360294b
+slug: pla-silver-glitter-on-black
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Silver Glitter on Black
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-silver-glitter-on-black.html
+primary_color: 9821064a-8549-43f8-99b9-42270e8d552e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Silver Glitter on Black.
+  This special filament features silver glitter within, which gives out a special glare.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/5a80b745-1eba-4c3c-bf6b-2151c360294b.png
+deleted_at: null
+deleted_by: cb92741b-1467-46d0-9f14-07662124b5d6
+created_at: '2025-11-12T10:40:26.348Z'
+updated_at: '2025-11-12T10:40:26.348Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 2f06930a-ce40-41cf-ac9e-7f35087b17a8
+  - 941697a2-95bb-45f5-ad0d-e70aa838495b
+secondary_material_types: []
+opentag_uuid: 5e39be04-f699-56ba-9582-132c6ffe938f

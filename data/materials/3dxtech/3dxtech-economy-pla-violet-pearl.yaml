@@ -1,0 +1,56 @@
+secondary_colors:
+  - e4030af7-b905-425e-9f7c-db893396e656
+uuid: 0d3ec103-4c04-4275-a60b-2177ea7b952d
+slug: economy-pla-violet-pearl
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Economy PLA violet-pearl
+abbreviation: null
+url: https://www.3dxtech.com/products/economy-pla?variant=52122604208491
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+       Bambu AMS compatible
+      Low shrinkage, warping, and easy printability, PLA prints great on practically any desktop 3D printer
+      Very low odor, perfect for 3D printing in home and office environments
+      Made from plants makes PLA a renewable biopolymer
+      Gorgeous surface quality to make printed parts look beautiful
+      Ideal for printing without a heated bed, no enclosure required 
+thumbnail_url: null
+deleted_at: null
+deleted_by: 34ba407f-2562-4d26-9312-e23345005d11
+created_at: '2025-11-04T09:46:47.592Z'
+updated_at: '2025-11-04T09:46:47.592Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 853194fe-7a18-487c-addf-bbf041462a0e
+secondary_material_types: []
+opentag_uuid: cb790f61-1b4d-5e54-b1e2-ef28de24c20c

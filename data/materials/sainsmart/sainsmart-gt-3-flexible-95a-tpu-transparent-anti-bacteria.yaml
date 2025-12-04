@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4c08e4b3-9b5d-49d9-ae44-34c687da38e0
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: c35073ad-0da0-4a3e-b434-5db98ba124e2
+slug: gt-3-flexible-95a-tpu-transparent-anti-bacteria
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: GT-3 Flexible 95A TPU Transparent Anti-bacteria
+abbreviation: null
+url: https://www.sainsmart.com/products/gt-3-antibacteria-tpu-filament?_pos=3&_fid=0b0f09340&_ss=c
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hyper Speed: The SainSmart GT-3 TPU filament is designed to balance high printing speeds of up to 200mm/s with printing quality. It is 4 times as fast as regular TPU filament.
+      Elasticity & toughness: With a hardness rating of 95A, this filament offers high elasticity and exceptional toughness. It is ideal for creating intricate and bendable prints that require movement, such as phone cases, flexible toys, prosthetics, and other parts that need to stretch or deform.
+      Strong & Sturdy: Despite its flexibility, the GT-3 TPU Filament is incredibly strong and sturdy. It can withstand everyday wear and tear, ensuring that your prints will last longer and maintain their shape even under stress.
+      Recommend Printing Setting: Nozzle Temp: 210-240°C, bed Temp: 0-50°C, printing speed:100-150mm/s, dimensional accuracy +/- 0.04 mm.
+      Compatibility: This filament, with its 1.75mm diameter, will work on a variety of 3D printers like Prusa, Creality, AnkerMake M5, QI DI, ANYCUBIC, Flashforge, Monoprice, SCRIB3D, MYNT3D, etc.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 1d705268-b9e4-4aa9-9cea-369f5e65d75b
+created_at: '2025-09-26T13:54:56.476Z'
+updated_at: '2025-09-26T13:54:56.476Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9171
+packages:
+  - 6f7faf8c-f32d-4999-9d2e-b535816b4e40
+secondary_material_types: []
+opentag_uuid: 6ed51edb-d86e-5dd1-8266-c8b1cd8e267b

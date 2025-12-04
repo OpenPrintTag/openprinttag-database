@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/320b92ba410a.png
+    type: gallery
+uuid: cb79d64a-6e28-4812-9462-70be131e107f
+slug: durapro-asa-nature-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ASA nature | RAL 1013
+abbreviation: null
+url: null
+primary_color: 51a09628-4651-41cf-b737-8460eb45fc86
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ASA has been specially developed for industrial applications and is characterised by its high UV and weather resistance. It is therefore particularly suitable for use in the automotive sector and outdoors. The material is fire retardant according to UL94 HB. DuraPro ASA has been optimised for the FFF/FDM process, so the material has good layer adhesion, thermal stability, improved flow properties and low warping.
+
+      UV and weather resistant
+      Matt surface
+      High mechanical strength
+      Good layer and bed adhesion
+      Low warping
+thumbnail_url: https://file.myfilamentlist.com/f/new/320b92ba410a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T19:56:18.225Z'
+updated_at: '2025-03-28T19:56:18.225Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3600
+packages:
+  - 30060fb7-f010-421c-b7a5-386bb600ad55
+  - c0578cb5-6fcd-4ba4-b07a-e953294bd74e
+secondary_material_types: []
+opentag_uuid: 278787c5-9bee-5775-a5fa-2432c966eb35

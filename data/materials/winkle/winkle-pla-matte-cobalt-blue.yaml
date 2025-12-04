@@ -1,0 +1,81 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 43aae09d-40e4-456d-bb73-285a8d8b3496
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: 29eb68b9-579e-408a-a935-574b2c9b8f09
+slug: pla-matte-cobalt-blue
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Matte Cobalt Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-mate-winkle-175-mm-1-kg-azul-cobalto/?_gl=1*lr4d3n*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3NjUxNTQkbzMkZzAkdDE3NjM3NjUxNTQkajYwJGwwJGgxMDM2MjI5NDYx
+primary_color: 412279bf-af5d-428d-87de-0157024d2389
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Winkle Matte PLA 1.75 mm is perfect for those seeking a sophisticated and elegant aesthetic, thanks to its matte finish that reduces the plastic look and hides layer lines.
+  Ideal for design, art, and decoration projects, this filament offers a smooth, non-shiny finish that enhances every detail of your prints.
+
+  It retains all the advantages of PLA HD—such as easy printing, minimal shrinkage, and low warping—while providing a more refined appearance. Its smooth texture diffuses light, improving both the visual and tactile quality of your models, from prototypes to decorative or functional pieces.
+
+  Ideal for:
+
+  Decorative and artistic designs with a professional appearance
+
+  Functional prototypes and everyday-use parts
+
+  Toys, jewelry, packaging, and catering items
+
+  Creations where visual finish is essential
+
+  Key advantages:
+
+  Matte finish: no shine or reflections
+
+  Hides layer lines and improves surface texture
+
+  Biodegradable material, odorless, and low-shrink
+
+  Suitable for high-speed printing
+
+  Easy to print and compatible with most FDM printers
+thumbnail_url: https://file.myfilamentlist.com/new/29eb68b9-579e-408a-a935-574b2c9b8f09.png
+deleted_at: null
+deleted_by: 63007194-5b41-47f4-8303-7d89c85e04c4
+created_at: '2025-11-21T22:50:07.843Z'
+updated_at: '2025-11-21T22:50:07.843Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 241668a4-9864-4f44-a5e0-5aac02698504
+secondary_material_types: []
+opentag_uuid: cea63356-25f6-5b1c-8f38-fbe82031c16f

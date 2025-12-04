@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 93ed8a84-8e1e-4b30-8b3c-d1ade5717704
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 09f9e045-330e-430e-8886-8ad30bacb382
+slug: pla-silver-glitter-on-anthracite
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Silver Glitter on Anthracite
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-silver-glitter-on-anthracite.html
+primary_color: e9cb4f7e-bac0-40f4-8701-5347f30e6f5b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Silver Glitter on Anthracite.
+
+  This special filament features silver glitter within, which gives out a special glare.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/09f9e045-330e-430e-8886-8ad30bacb382.png
+deleted_at: null
+deleted_by: 8d1ee39c-ecfe-45f9-b30b-1d20818d249c
+created_at: '2025-11-12T10:38:30.587Z'
+updated_at: '2025-11-12T10:38:30.587Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 5be5472f-3864-4061-a085-13803f0bbdff
+  - edf1d3c7-6d44-4b89-ab78-1fa100d9dc79
+secondary_material_types: []
+opentag_uuid: 61ea9873-63e9-535a-ac28-2aae5b134ca5

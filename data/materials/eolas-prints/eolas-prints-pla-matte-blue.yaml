@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a8f48cdd-c3a8-4129-8f87-fd88007954cb
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: 5bc229bb-0d4c-4b84-902e-0fe6eab375a7
+slug: pla-matte-blue-3
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Matte Blue
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-matte-filament?variant=42726058033411
+primary_color: 412279bf-af5d-428d-87de-0157024d2389
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: https://file.myfilamentlist.com/new/5bc229bb-0d4c-4b84-902e-0fe6eab375a7.png
+deleted_at: null
+deleted_by: bfe17a4d-cfd4-4ecb-9ca2-b2558e6939b1
+created_at: '2025-11-10T21:57:08.890Z'
+updated_at: '2025-11-10T21:57:08.890Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 18178582-f157-4960-97ef-41d3c38c7725
+  - 2f68cb86-41db-4a54-86a3-1853238ca701
+secondary_material_types: []
+opentag_uuid: fa2b2c93-987b-569e-b1fa-fdc883291e5e

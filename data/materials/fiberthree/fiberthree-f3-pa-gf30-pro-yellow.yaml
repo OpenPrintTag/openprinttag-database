@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.35000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3e56a600-00a7-451d-beaf-60347ac64149
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: b727dc09-13de-4ac0-a573-a5e55dd1a47b
+slug: f3-pa-gf30-pro-yellow
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: F3 PA-GF30 Pro Yellow
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: f50921e1-4192-41d8-91ab-84b8a078a2bb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2
+
+
+      Filament for FFF-printers / PA 6 blend
+      30 weight-% glass fiber
+      high tensile strength - excellent compression strength
+      low warping effect
+      good adhesion to epoxy based fiber plates
+
+  Technical filament from polyamide modified for 3D-printing in FFF with additional glass fibers.
+  Material Properties
+  The glass fibers reduce the shrinkage and the warping behaviour extremely. Material shows excellent strength with remaining impact resistance.
+  Recommended for all high strength parts with good heat- and media resistance.
+  Printed parts show a rough matte surface finish.
+  The material differs from F3 PA-GF Pro in higher compression strength - suitable for autoclav cycle up to 180°C. The fibers are not electricallly conductive and therefore an alternative for carbon fibers .
+  The high stiffness of the filament should be considered for the pipes and the feeder system of the printer to avoid breaking.
+  Handling Notes
+  The use of wear-resistant nozzles is highly recommended.
+  The material has to be kept dry for reliable print results under all conditions.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 924cd895-8159-4fec-b586-3d6c1ada8072
+created_at: '2025-10-21T14:11:55.911Z'
+updated_at: '2025-10-21T14:11:55.911Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors: []
+packages:
+  - b5691e57-b07b-4091-9259-1ef9537a6a41
+secondary_material_types: []
+opentag_uuid: abef6b2e-003d-5d43-9431-10725187a8c5

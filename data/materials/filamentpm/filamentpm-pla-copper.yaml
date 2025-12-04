@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5141822f85ec.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 787593e9-63d4-43c7-bd55-8e7d20a5a7ba
+slug: pla-copper-3
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PLA - Copper '
+abbreviation: null
+url: null
+primary_color: f52c9109-108f-4c4f-9663-0e1a208e9157
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  PLA - so-called starting material for 3D printing
+
+  PLA (polylactic acid) 
+  - easy to print material
+  - is suitable for printing large objects
+  - is made from corn starch and biodegradable
+  - is suitable for beginners, as printing from it is trouble-free
+  - PLA prints are not ideal for outdoor use (low-temperature resistance, low UV resistance)
+thumbnail_url: https://file.myfilamentlist.com/f/new/5141822f85ec.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T15:58:22.884Z'
+updated_at: '2025-04-22T15:58:22.884Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7016
+packages:
+  - 0d4d4b13-9257-4de7-aef6-1905c1a7957e
+secondary_material_types: []
+opentag_uuid: de61b466-9902-572b-a7de-4623733aab3f

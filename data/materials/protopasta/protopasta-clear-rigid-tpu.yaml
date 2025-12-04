@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c36d3d492c33.png
+    type: gallery
+uuid: a5946e36-cf47-408d-ab77-5a120420e183
+slug: clear-rigid-tpu
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Clear Rigid TPU
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Like White Rigid TPU, but clear.
+
+  3D print parts that can flex without breaking!
+
+      Featured as white in EX3, July 2024's Endless Exploration
+      A clear, semi-rigid TPU with hardness of about 70D
+      Nylon-like durability both mechanically & chemically
+      UV resistant
+      Less flexible than 98A, but still returns when folded (folding triangle from Joan Horvath and Rich Cameron's book Make: Geometry)
+      Easy printing, dyeable, & holds shape up to 200 C
+      Drying overnight recommended before printing
+      Printing starting at 240 C w/ no bed heat required
+      Prep bed w/ Magigoo to avoid permanent bond
+      Compare to 75D hardness or NinjaTek Armadillo
+      Produced by Protoplant exclusively for Protopasta
+thumbnail_url: https://file.myfilamentlist.com/f/new/c36d3d492c33.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T20:03:51.581Z'
+updated_at: '2025-04-02T20:03:51.581Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6571
+packages:
+  - 506c515c-0d15-424c-a6b9-58337ecb0952
+  - 60c4fe63-c423-4ae4-aa33-88ca34c18514
+  - a66c9046-65b6-4c0b-b38f-a60ded6bfea6
+secondary_material_types: []
+opentag_uuid: a4579c14-9d81-5406-9c87-e9c1d61f0954

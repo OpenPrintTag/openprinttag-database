@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 26b076fe-ca03-47ac-b070-554b80acc0eb
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: eb6f124f-a43d-4913-ace3-8ace55d64ff3
+slug: petg-certified-uv-resistant-black
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Certified UV Resistant Black
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/petg-filament-certified-uv-resistant?variant=42885295276291
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints UV-Resistant PETG combines advanced polymer technology with enhanced UV protection, delivering a professional-grade filament that excels in both indoor and outdoor applications. This certified material offers exceptional durability while maintaining the superior printing characteristics of PETG.
+thumbnail_url: https://file.myfilamentlist.com/new/eb6f124f-a43d-4913-ace3-8ace55d64ff3.png
+deleted_at: null
+deleted_by: 6b850686-b2b7-4649-8eea-e504cabf945c
+created_at: '2025-11-11T11:20:37.065Z'
+updated_at: '2025-11-11T11:20:37.065Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 52dae353-100d-4597-a579-887c2b611865
+  - 8caebd0f-64bf-41e1-8c5d-53901a163aac
+secondary_material_types: []
+opentag_uuid: d1069d6a-75af-5200-89ab-faaaaa9ef327

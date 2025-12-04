@@ -1,0 +1,79 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1a8df8089901.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 924d45b0-3485-4939-86b6-376ceffd0b2c
+slug: lw-pla-ht-white
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: LW-PLA-HT White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Meet our new & improved LW-PLA-HT. This formulation features an increased temperature resistance compared to our original LW-PLA.
+
+  Thin printed structures will be able to handle heat from external sources such as the sun much better and prolong the time until failure. Not convinced? Check out our comparison video in the image gallery between regular LW-PLA and LW-PLA-HT.
+
+  Our LW-PLA-HT is the best filament for printing RC Planes, Cosplay and other light weight items. Parts are feather light, yet retain good strength and are easy to cut, trim and sand.
+
+  Read our tutorial: Upgrading from LW-PLA to LW-PLA-HT, what you need to know. 
+
+  Watch this video: Video CNC kitchen
+
+  Pros
+
+  better heat resistance compared to LW-PLA
+
+  print light weight parts due to active foaming process
+
+  darker colors are less prone to heat deformation
+
+  takes paint really well
+
+  Cons
+  slightly higher density at maximum foaming, compared to LW-PLA
+
+  you'll have to adjust your LW-PLA gcodes to accommodate LW-PLA-HT
+
+  higher temperature resistance of the material can lead to more warping
+thumbnail_url: https://file.myfilamentlist.com/f/new/1a8df8089901.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:14.021Z'
+updated_at: '2025-03-25T22:32:14.021Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1664
+packages:
+  - bd19ce85-a30e-4a14-8a62-ccd5f1d3be66
+secondary_material_types: []
+opentag_uuid: cd670ae7-0292-572e-ada6-8ce9ff85c7b3

@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1c6fae9d8883.png
+    type: gallery
+uuid: 4c977451-670a-4ce3-aa63-b43c10077b55
+slug: gray-asa
+brand_slug: polar-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Gray ASA
+abbreviation: null
+url: null
+primary_color: 3dade77e-bc86-487f-b91a-a6ee710f02b2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Gray PLA 3D Printer Filament
+
+  1.75mm Diameter
+
+  Individual Tolerance Printed on Each Spool
+
+  Print temperature: 240C 10C
+
+  Bed temperature: 80C 5C
+
+  Enclosure Required to print
+thumbnail_url: https://file.myfilamentlist.com/f/new/1c6fae9d8883.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-03T17:31:20.856Z'
+updated_at: '2025-05-03T17:31:20.856Z'
+brand: 30d1056a-dfb9-4613-8385-644bfc1b07f6
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7750
+packages:
+  - 89294ece-4612-4428-851f-9aa526870cab
+secondary_material_types: []
+opentag_uuid: b66b94ff-99a7-5c2d-b77c-90fcb5813fe2

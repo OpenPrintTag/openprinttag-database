@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1323176b1cfb.png
+    type: gallery
+uuid: 4668d7ec-01e9-46d5-b456-362267f5076e
+slug: flex-93a-caribbean
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 93A Caribbean
+abbreviation: null
+url: null
+primary_color: 898d53aa-a022-47a2-a5c2-b12dd8868cd6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Thermoplastic Elastomer
+
+  It is a material that has the ability to be stretched to moderate elongations and, after the stress is removed, return to its original shape. It has the potential to be recyclable since it can be molded and reused like plastic.
+
+  FLEX
+
+  It is a specially modified filament that allows printing flexible, elastic objects with high print quality.
+
+  It has been specifically designed to prevent clogging in the printer's nozzle during printing, as its Shore hardness is 93A, higher than that of the competition.
+thumbnail_url: https://file.myfilamentlist.com/f/new/1323176b1cfb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T16:21:05.496Z'
+updated_at: '2025-03-29T16:21:05.496Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3840
+packages:
+  - 125afdd0-68eb-46e6-90e4-98d3f87a8e5b
+  - f6298c99-1585-4962-bf5e-266e1e99ae8b
+secondary_material_types: []
+opentag_uuid: 4a799bf2-55ef-5432-b7cf-83e05e0b4680

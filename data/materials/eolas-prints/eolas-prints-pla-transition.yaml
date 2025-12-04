@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: edddf3e2-3a0a-4ddd-980d-cdc5daffbf16
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b7038fa6-cbe1-4dd6-9796-f49106047292
+slug: pla-transition
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Transition
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-transition-filament?variant=42324485505283
+primary_color: null
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA (Polylactic Acid) is widely regarded as the quintessential 3D printing filament, renowned for its user-friendly printing characteristics and eco-conscious composition. Derived from renewable resources such as corn starch and sugar cane, PLA transition filament represents a sustainable choice for additive manufacturing. Our premium PLA not only aligns with environmental concerns but also adheres to stringent quality standards, ensuring a non-toxic and safe printing experience.
+
+  The innovative concept of transition filament emerges from the color change process during manufacturing. As one color transitions to another, a unique blend is created, resulting in filaments that exhibit a captivating gradient effect. This approach significantly reduces waste and minimizes the carbon footprint associated with traditional color-change methods. Moreover, PLA transition filament imparts a distinctive aesthetic to each printed object, offering makers the opportunity to create truly one-of-a-kind pieces with minimal environmental impact.
+  Why Transition Filament?
+
+  The adoption of transition filament in 3D printing represents a commitment to sustainability and creativity. By utilizing the material produced during color transitions, manufacturers can substantially decrease waste generation. This environmentally friendly approach not only conserves resources but also results in a product that offers unique visual appeal. Each spool of PLA transition filament contains a spectrum of colors, allowing for prints with subtle gradients or dramatic color shifts, depending on the specific transition used.
+thumbnail_url: https://file.myfilamentlist.com/new/b7038fa6-cbe1-4dd6-9796-f49106047292.png
+deleted_at: null
+deleted_by: 5b8fedba-9853-4b3a-861d-a89f98cc3699
+created_at: '2025-11-11T09:48:39.010Z'
+updated_at: '2025-11-11T09:48:39.010Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 9251934f-ce17-46c8-ae2e-b75fbd7d5307
+  - f1d0913b-cecf-4288-8269-e069feab0434
+secondary_material_types: []
+opentag_uuid: 56b7f94c-3abc-50ea-9177-b6c8eb51bdeb

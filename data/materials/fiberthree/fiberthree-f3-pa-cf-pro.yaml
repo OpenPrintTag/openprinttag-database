@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.25000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 14a0a9c6-0436-4d62-9c6e-58b5e6ec593c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 132685e9-d728-4328-9fb7-ec1ab2f8b432
+slug: f3-pa-cf-pro
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: F3 PA-CF Pro
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2
+
+
+      Filament for FFF-printers with major PA 6 content
+      15 weight-% carbon fiber
+      very high tensile strength; moderate water absorption
+      low warping effect
+      excellent adhesion to various print plates
+      matt black surface finish
+
+
+  Technical filament from polyamide modified for 3D-printing in FFF with additional carbon fibers. The carbon fibers reduce the shrinkage and the warping behaviour extremely.
+  Material Properties
+  Material shows superior strength with remaining impact resistance. Recommended for all high-strength parts with good heat- and media resistance.
+  Printed parts show an attractive matte surface finish.
+  Printed parts with thin wall layers can become very flexible under high humidity intake - in this case we recommend F3 PA-CF Lite.
+  The material differs from F3 PA-CF Lite in higher tensile strength, better printability and more sensitivity towards moisture.
+  The stiffness of the filament should be considered for the pipes and the feeder system of the printer to avoid breaking.
+  Handling Notes
+  The use of wear-resistant nozzles is highly recommended.
+  The material has to be kept dry for reliable print results under all conditions.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 51666ef8-5d09-408a-843d-937781a9fa2b
+created_at: '2025-10-21T14:04:09.147Z'
+updated_at: '2025-10-21T14:04:09.147Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: 8907d442-4b68-4a8e-ac2d-5c83d27e9cc7
+colors: []
+packages:
+  - 45c9a685-12d1-401d-ade2-bf1fafb326d8
+secondary_material_types: []
+opentag_uuid: 2a18fcb5-dbbc-58dd-ad51-14fb964f0905

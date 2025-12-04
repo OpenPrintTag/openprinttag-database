@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/195f48cbc9c1.png
+    type: gallery
+uuid: ceae5495-595e-468a-9901-9d4b2cd50362
+slug: clean
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CLEAN
+abbreviation: CLEAN
+url: null
+primary_color: f18f67d7-0690-4497-afaf-11c6695f7c32
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  If you use different materials in your 3D printer, this filament we have created to clean the extruder is ideal for you
+
+  Clean your printer extruder to have a better maintenance of your 3D printer and also increase the lifetime of your hotend.
+
+  When you use different filaments in you 3D printer, eventually you can get obstructions and defects in your printings. This filament is thought out to clean the extruder completely. This way you will guarantee the correct working and maintenance of your 3D printer.
+
+  INSTRUCTIONS TO CLEAN THE EXTRUDER.
+
+  Temperature is a key factor if you want this material to clean well the extrusion system of your 3D printer. For that, just follow this simple steps: Heap up the extruder until it exceeds in 10C the melting temperature of the last material you have used. For example, if you have used ABS in your 3D printer previously, you should set the extrusion temperature at 250C aproximately.
+
+  After that, load our SMART CLEAN FILAMENT and extrude a certain amount of material. Finally, unload the filament and reload your 3D printer with the material you want to use.
+thumbnail_url: https://file.myfilamentlist.com/f/new/195f48cbc9c1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T13:28:07.520Z'
+updated_at: '2025-03-29T13:28:07.520Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: null
+colors:
+  - 4857
+packages:
+  - db4596e2-2352-4637-b827-a9ebce023374
+  - deeff343-2803-4a1d-8c1d-9b316eb7efd7
+secondary_material_types: []
+opentag_uuid: aad51cc6-574d-583c-b961-1948bc2f6665

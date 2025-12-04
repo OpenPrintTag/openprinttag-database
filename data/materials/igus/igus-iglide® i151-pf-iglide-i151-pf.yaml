@@ -1,0 +1,58 @@
+uuid: 773b31cf-6eea-41cb-ad59-e7be5c0985a4
+slug: iglide-i151-pf
+brand_slug: igus
+brand_specific_id: null
+class: FFF
+type_id: null
+name: iglide® i151-PF
+abbreviation: iglide® i151-PF
+url: https://www.igus.com/product/iglidur_I151_PF
+primary_color: f45bf10d-a26d-4b61-ae86-064d1a59b797
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The food conformity declarations and data sheets as well as the material profiles for processing iglidur i151 on Bambu Lab X1 and P1 and Prusa 3D printers can be found on this page in the "Downloads" tab.
+
+  Here you will find an overview of all the material profiles that we offer for download: Go to print profiles overview 
+
+
+  Easy-to-process, abrasion-resistant filament for the printing of food grade components in blue
+
+  The iglidur i151 tribofilament is suitable for the printing of components with high wear resistance, as the material is filled with solid lubricants. It was specifically developed for use in the food and packaging industry: the printed components conform to FDA and EU Regulation 10/2011 and the blue colour ensures the required optical detectability. iglidur i151 is also an all-rounder material, and due to its good mechanical properties (strength, toughness, layer adhesion) it is suitable for most applications and 3D printers. It can be processed just as easily as standard PLA and PETG filaments. iglidur i151 has comparable mechanical specifications as iglidur i150, by far the most frequently used igus filament. There are restrictions in terms of the maximum permanent application temperature of 65°C and for highly dynamic applications. With the Bonding agent for tribofilaments iglidur i151 can be processed on conventional print bed surfaces (e.g. glass).
+thumbnail_url: https://file.myfilamentlist.com/new/773b31cf-6eea-41cb-ad59-e7be5c0985a4.png
+deleted_at: null
+deleted_by: 89b950b3-7c16-4224-8091-f91c925f7be8
+created_at: '2025-11-13T16:43:07.820Z'
+updated_at: '2025-11-13T16:43:07.820Z'
+brand: 2edf9afe-5dfa-4e19-87af-8bec2ec283de
+type: null
+colors: []
+packages:
+  - 3d3d14e2-9f5f-4bce-be36-5d84ecbf565e
+  - 8e403e60-1096-43cb-96bf-c8921fc3675c
+secondary_material_types: []
+opentag_uuid: c50a556b-319c-5dc7-bdb9-d4edbab743bc

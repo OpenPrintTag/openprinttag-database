@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d0a90f4bafd2.png
+    type: gallery
+uuid: c2deb5b1-837d-448c-84a7-837d32b03d19
+slug: petg-military-green-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG military green | RAL 6003
+abbreviation: null
+url: null
+primary_color: e751fdfe-a8de-4cfc-ad4b-22fb5ba51bb1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyethylene terephthalate glycol (PETG) is one of the world's best-known thermoplastic polymers. Extrudr PETG has been developed for a wide range of applications where the main requirement is a good balance between mechanical and optical material properties. The low-shrinking technology ensures that the material can be processed in an energy-saving manner at low temperatures and thus with relatively little distortion. The raw material is certified according to FDA, REACH and RoHS standards.
+
+      Good mechanical properties
+      High chemical resistance
+      Low warping
+      Low shrinking
+      Recyclable
+      Low-shrinking technology
+thumbnail_url: https://file.myfilamentlist.com/f/new/d0a90f4bafd2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T13:50:13.293Z'
+updated_at: '2025-03-27T13:50:13.293Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 5827
+packages:
+  - 4fc7c067-50fd-481a-a68b-cdddcf6d69e1
+  - 6357a2a0-bdef-4067-bc82-05e5dcda3b8a
+  - 804cbecd-8a73-496a-8135-83b6feb10254
+  - 83440433-8002-4d65-a6af-120ddc258884
+  - cab6caa9-e205-4289-8482-ce8465fd1b3a
+  - da7fe185-86e4-400c-9356-96e5be908054
+secondary_material_types: []
+opentag_uuid: 53fcd3e1-98b3-5c91-ad80-1ece32921ce9

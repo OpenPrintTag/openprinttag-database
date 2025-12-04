@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/63b636bdcc05.png
+    type: gallery
+uuid: 29a461c4-b64a-419d-a59c-478baeea4b05
+slug: pcabs-natural
+brand_slug: fiberlogy
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC/ABS Natural
+abbreviation: null
+url: null
+primary_color: 51a09628-4651-41cf-b737-8460eb45fc86
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Features & Advantages
+
+      Easy to print & durable
+      High strength & impact resistance
+      Temperature resistant up to 110degreesC
+thumbnail_url: https://file.myfilamentlist.com/f/new/63b636bdcc05.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:44.467Z'
+updated_at: '2025-03-25T22:32:44.467Z'
+brand: 062398ca-21bf-4447-97c4-e4cd4016a2d0
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 2120
+packages:
+  - 5aba1cdf-c366-4f80-8cae-8b5dc6953691
+secondary_material_types: []
+opentag_uuid: 0ef0b34d-f781-5e7f-bdf8-5ef4c044a641

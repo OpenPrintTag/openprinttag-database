@@ -1,0 +1,63 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 70a83bf9-6cb1-4a16-ae85-453f38aaa6a9
+slug: pla-magenta
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Magenta
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/223/pla-filament-1-75-mm-magenta-800-g?c=33
+primary_color: bb37c602-92dc-42a7-88ec-c55282267e06
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Riecht gut, kein unangenehmer Kunststoffgeruch wie bei ABS
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton entspricht: entspricht RAL 4010 (Telemagenta), geringfügige Abweichungen sind möglich
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: ce91b610-c3bb-4cf8-9ce9-ca02cfc25062
+created_at: '2025-10-17T13:15:05.009Z'
+updated_at: '2025-10-17T13:15:05.009Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 1eab1364-7e93-49c3-9f02-3a0f46cc1e93
+  - f22913ec-b69b-4820-ad90-fe7a32f75eb5
+secondary_material_types: []
+opentag_uuid: 505613cb-cccf-5e85-ba9a-7ed22b140f14

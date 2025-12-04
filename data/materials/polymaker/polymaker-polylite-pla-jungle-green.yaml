@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ae0e5dc740cd.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 2a442b06-9359-45dc-8d1f-668d7b08bb5c
+slug: polylite-pla-jungle-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PLA Jungle Green
+abbreviation: null
+url: null
+primary_color: e38e42f2-c65e-454f-91fb-ee4609e5966a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/ae0e5dc740cd.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:42.182Z'
+updated_at: '2025-03-25T22:34:42.182Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3300
+packages:
+  - 0e7d420d-4056-47ab-97e4-404dcbbf6c24
+  - 3087ca52-4786-4866-961c-277a725b9782
+  - 5964d6d3-8199-4ea9-99d3-5cc7a5341ecd
+  - 8a8c8fcb-9cc6-4d42-bdd4-b4d47ddd4857
+  - 9eff332c-5b08-47e4-b6b1-24c5498539b5
+  - efe9f676-efd3-4658-9410-8a29269c6479
+secondary_material_types: []
+opentag_uuid: b777f9c7-cbb4-50c2-8290-3413fba698f7

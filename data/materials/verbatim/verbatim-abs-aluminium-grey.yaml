@@ -1,0 +1,62 @@
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 160c32c7-d4e3-4bd6-b757-46ddfc6db9db
+slug: abs-aluminium-grey
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Aluminium Grey
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-abs-filament-175mm-1kg-aluminium-grey-55032
+primary_color: 9eecd8d7-c673-4f23-a844-8f4b9a9b1182
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  A popular, highly durable filament with a glossy, smooth finish. ABS has a high melting temperature compared to other materials available for 3D printing, making it well suited for applications where heat resistance is important such as concept modelling for the building, electrical and automotive industries. Verbatim ABS is made to a special recipe with high quality controls as standard.
+
+  Product Details
+
+      - High performance Acrylonitrile Butadiene Styrene (ABS) for material extrusion
+      - High rigidity, high gloss, medium impact strength
+      - Resistant to grease
+      - Good post-printing workability
+      - Strong odour during printing
+      - Main applications: Concept modelling for building, electrical, automotive industry etc.  Non-critical parts such as enclosures
+thumbnail_url: null
+deleted_at: null
+deleted_by: 3769e404-4817-4aa8-83e0-80caac5d6b34
+created_at: '2025-09-25T08:17:31.422Z'
+updated_at: '2025-09-25T08:17:31.422Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 9002
+packages:
+  - b22c257b-74ff-462e-925b-aadb74234ff8
+  - fe39a0ea-cc27-4357-b5d9-7953be6c6838
+secondary_material_types: []
+opentag_uuid: 7856abdb-d6bd-5545-ae1b-0af3b8d147c1

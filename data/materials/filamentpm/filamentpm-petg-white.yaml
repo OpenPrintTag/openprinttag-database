@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/39b0943ba6e3.png
+    type: gallery
+uuid: c54b742d-7f51-400d-8d5d-d08ed0bbee97
+slug: petg-white-15
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' PETG - White '
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+  PETG (polyethylene terephthalate glycol)
+  - PETG is a universal material
+  - for beginners (very easy to print)
+  - father for large prints
+  - high impact material than PLA, same as ABS
+  - temperature resistant up to 70 degreesC
+  - no warping
+  - ideal for mechanical parts (used to be one of the main materials for PRUSA Printers - PETG Orange 2018)
+thumbnail_url: https://file.myfilamentlist.com/f/new/39b0943ba6e3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-22T18:34:36.195Z'
+updated_at: '2025-04-22T18:34:36.195Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7062
+packages:
+  - 63b7e792-65ad-4824-aeac-289c8c0b6960
+  - ac7f0342-6067-47ae-8ab9-91404c513659
+  - b010aa72-38c9-4abc-b3d2-92c4d7ff7108
+  - b4052311-1919-4d83-aa79-a1a25b839479
+  - c81aa527-9603-490e-a80c-242a8d790bdf
+  - df76e141-6f10-409a-9827-a5238ef5e684
+secondary_material_types: []
+opentag_uuid: e2099f0c-b971-531b-bcfa-20281625e884

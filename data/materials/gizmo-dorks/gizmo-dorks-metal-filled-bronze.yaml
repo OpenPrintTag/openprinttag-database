@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f19b387fe1c9.png
+    type: gallery
+tags:
+  - 48013d97-6ee5-4565-a7f1-32e833b71468
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: cfd5e297-b8e5-42f5-af3c-8dae1ebdc92f
+slug: metal-filled-bronze
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Metal Filled Bronze
+abbreviation: null
+url: null
+primary_color: 1ada7140-fe54-4934-b107-7efd3ff5dc35
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Metal Filament
+
+  Gizmo Dorks offers 3D filament filled with metal. The base material is our high performance PLA compounded with durable metal such as bronze or copper. The resulting filament imparts the look and feel of a metal object. The unique filament uses a regular PLA printing profile, so it is very easy to print and environmentally friendly.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f19b387fe1c9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:21.830Z'
+updated_at: '2025-03-25T22:32:21.830Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1350
+packages:
+  - 671756e2-ea2a-4bad-a3ee-acba72ff4ead
+  - bf77b614-9018-458c-a109-aa97db610665
+secondary_material_types: []
+opentag_uuid: 90ca9a63-2b2e-56fe-a500-3f09807ea2ed

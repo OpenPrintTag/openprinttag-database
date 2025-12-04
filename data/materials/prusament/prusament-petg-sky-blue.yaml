@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ab45e655-9ebd-4fe4-91db-ee28999e2fd5
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+uuid: 4182dd65-1f90-4a97-970d-80fea63faece
+slug: petg-sky-blue-3
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Sky Blue
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-petg-sky-blue-1kg-nfc/
+primary_color: 3494b297-6236-43d9-aea6-297a7273981a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: PETG is one of the most commonly used filaments. Its strength and durability make it an excellent choice for printing various mechanically-stressed parts, such as various holders, or clamps, for example. Due to its excellent layer-to-layer adhesion, PETG prints are ideal for indoor and outdoor waterproof applications. Furthermore, PETG is a tough material with good high-temperature resistance. The G in the acronym stands for a glycol-modified substance that is present during the manufacturing process. It modifies the properties of PET, so that it’s easier to print, less brittle, and clearer when printing with semi-transparent variants. PETG has a low thermal expansion, so even when printing big objects, and without an enclosure, it rarely lifts from the bed and warps. In addition to that, PETG is tougher and less brittle than PLA. It has a healthy amount of flex which can prevent parts from breaking under pressure. We use PETG to print parts for our printers!
+thumbnail_url: null
+deleted_at: null
+deleted_by: 543ed37e-d8d1-41e6-9322-24de0c220dbd
+created_at: '2025-11-06T15:45:46.754Z'
+updated_at: '2025-11-06T15:45:46.754Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 6f355334-e730-49ae-9256-4dcf1118aeaf
+secondary_material_types: []
+opentag_uuid: aa94b3d2-1e67-5ade-b228-b47e8b601029

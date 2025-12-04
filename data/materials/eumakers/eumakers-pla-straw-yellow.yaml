@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 28847b6a-a9ac-45df-9454-91db3fde8bb7
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 2b7cd89c-72aa-4919-8ed8-f1a52c425ed2
+slug: pla-straw-yellow
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Straw Yellow
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-straw-yellow.html
+primary_color: 0c0e97c6-8efa-407e-8947-447c11559a30
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  PRODUCTION
+
+  All EUMAKERS’ filaments are produced with solar energy in our factories situated in Italy, respecting the highest standards of production.
+  QUALITY CONTROL
+
+  We check each component used in the production of our coils in our laboratories. A laser measurement system allows us to have real-time production control to guarantee high-quality products and low tolerance values.
+  PACKAGING
+
+  All filaments and spools are vacuum-sealed to prevent damage from environmental exposure. In the box, you will find a zipper bag to storage them after use.
+  The boxes we ship the filaments with are made of impact and water-resistant cardboard. This prevents damage during transport.
+  SHIPPING
+
+  Worldwide. FREE shipping for the purchase of filaments from €115.
+  INNOVATION & DEVELOPMENT
+
+  EUMAKERS is -together with Rigenera Biocompound and SMP- part of the Sfregola Group, active since 1963, and known today as one of the leading Italian companies in the field of regeneration, development of innovative polymers, and processing of plastic materials.
+  For more information, please see our Company Profile.
+thumbnail_url: https://file.myfilamentlist.com/new/2b7cd89c-72aa-4919-8ed8-f1a52c425ed2.png
+deleted_at: null
+deleted_by: f105fe06-c198-42b9-aa8b-ef54d60dd1c7
+created_at: '2025-11-11T11:54:01.799Z'
+updated_at: '2025-11-11T11:54:01.799Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 066e8515-8699-4b5b-8f40-6b3f73edf7e1
+  - 8005a6dc-3a4e-4f60-98a4-da2f06d47939
+  - 855f9aef-dd97-487c-a70c-f93c3d9a836b
+  - 880e1aff-8556-47f9-a3c0-0d8b2e1bc947
+  - df5cd234-6c92-4286-baf1-c34ad84d8a70
+secondary_material_types: []
+opentag_uuid: ddbaac71-1e6d-57ad-b61b-1e419a2b4c62

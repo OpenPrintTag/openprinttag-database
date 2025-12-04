@@ -1,0 +1,628 @@
+tags:
+  - uuid: 0019bccd-81c6-4ec0-8988-6b1f44bddf7d
+    name: contains_carbon_nano_tubes
+    created_at: '2025-03-25T22:31:37.885Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 18
+  - uuid: 02048ce5-f90d-4a48-a915-76d0ab568694
+    name: home_compostable
+    created_at: '2025-10-01T20:50:30.582Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 033050b8-25bb-4f28-aca3-dccc4d8f8efd
+    name: recycled
+    created_at: '2025-03-25T22:31:09.492Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 0cbdddd6-5867-4822-8b88-a009588c7daf
+    name: without_pigments
+    created_at: '2025-10-21T18:30:39.796Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 10fdf066-128e-4414-81b5-206d347ce8fd
+    name: silk
+    created_at: '2025-03-25T22:31:24.098Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 11303016-2648-4033-aba2-57c1d2fa88ce
+    name: contains_iron
+    created_at: '2025-04-02T11:58:40.340Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 11
+      - 24
+  - uuid: 15866d4c-ae0c-4d5b-a853-038462724e27
+    name: contains_organic_material
+    created_at: '2025-10-21T18:25:11.476Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 46
+  - uuid: 159c1f23-2acf-415d-9fed-917e6ddb5fc2
+    name: contains_hemp
+    created_at: '2025-09-30T18:39:28.716Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 33
+  - uuid: 16907a78-d8f8-47de-8d1e-3ccc24c338ee
+    name: contains_brass
+    created_at: '2025-04-02T12:07:03.005Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 8
+      - 21
+  - uuid: 1f883a29-c80b-4371-bf42-8d77639b857f
+    name: contains_plant
+    created_at: '2025-04-01T16:15:57.322Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 37
+  - uuid: 22bc97d1-683d-40d6-acc7-b59e54ac427c
+    name: metal_detectable
+    created_at: '2025-03-25T22:32:31.134Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 2596ab30-2e93-4fc5-b5d6-7f25c9d2999e
+    name: contains_cork
+    created_at: '2025-03-25T22:31:20.952Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 31
+  - uuid: 29a66b08-9b92-4eb4-b2b8-c06cdc420384
+    name: contains_graphene
+    created_at: '2025-10-20T07:17:30.620Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 2d777c51-16f7-413f-8ccb-3a6a9004b61b
+    name: coextruded
+    created_at: '2025-10-06T11:26:57.103Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 325989fc-0228-4d28-aa60-9ef7c511e577
+    name: contains_pine
+    created_at: '2025-03-29T17:53:27.903Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 36
+  - uuid: 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+    name: translucent
+    created_at: '2025-03-25T22:31:10.212Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 34c100c0-ffaa-437e-897d-bbb93db6f660
+    name: contains_magnetite
+    created_at: '2025-03-25T22:32:56.600Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 15
+      - 43
+  - uuid: 3d0d20e0-5b15-4fc5-af5f-c33cf1dfd87c
+    name: limonene_soluble
+    created_at: '2025-03-25T22:32:03.547Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 45794af3-8cee-4323-a6c5-40a45fa83008
+    name: self_extinguishing
+    created_at: '2025-03-25T22:31:11.990Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 48013d97-6ee5-4565-a7f1-32e833b71468
+    name: contains_metal
+    created_at: '2025-03-25T22:32:21.751Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 3
+      - 16
+      - 25
+  - uuid: 485cb460-7133-49d8-84a7-eae15a056f50
+    name: glow_in_the_dark
+    created_at: '2025-03-25T22:31:11.203Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 4
+  - uuid: 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+    name: esd_safe
+    created_at: '2025-03-28T18:00:05.530Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 4c8f2778-d8f4-4db6-b8c5-362f12371966
+    name: contains_siloxane
+    created_at: '2025-04-30T13:43:16.514Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 4cb7aa76-f907-4d4b-b1de-104a4499f337
+    name: contains_kevlar
+    created_at: '2025-03-25T22:31:13.305Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 12
+  - uuid: 59377502-a537-44e5-a394-61969dba22ed
+    name: blend
+    created_at: '2025-09-08T09:06:08.545Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 61441404-992b-413d-a008-07b49debce43
+    name: satin
+    created_at: '2025-03-25T22:32:35.672Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 6191963a-c766-4a72-a52a-a1fe7d88386c
+    name: transparent
+    created_at: '2025-03-25T22:31:13.161Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 66b581cf-481a-41b4-a79d-c94bf22c7242
+    name: Support
+    created_at: '2025-03-25T22:31:13.463Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 6736cdcc-3414-45cd-afc5-4bbfc560603a
+    name: contains_bronze
+    created_at: '2025-03-25T22:31:17.467Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 7
+      - 22
+  - uuid: 6982f758-107c-4e4e-8abe-75e58de5e8d5
+    name: radiation_shielding
+    created_at: '2025-04-01T15:39:22.937Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 69d6aec8-1afb-4a9c-a05a-19ee8627817c
+    name: contains_wax
+    created_at: '2025-05-13T19:06:24.950Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 39
+  - uuid: 6a225a15-e6d8-4ddc-a504-643a475c90e0
+    name: gradual_color_change
+    created_at: '2025-10-07T09:49:33.984Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 6c189abc-4f36-452b-a08b-3c1b0cc146d9
+    name: imitates_marble
+    created_at: '2025-03-25T22:31:14.708Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 76ef36c7-ed2c-4c37-bf09-5665130291bf
+    name: contains_boron_carbide
+    created_at: '2025-04-01T15:39:22.937Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 28
+  - uuid: 7e0c28d8-a2ac-42a0-9955-0aec5fffd148
+    name: contains_tungsten
+    created_at: '2025-03-25T22:33:05.196Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 1
+      - 27
+  - uuid: 818b59a4-cab1-405b-8317-95be09802242
+    name: Cast
+    created_at: '2025-03-25T22:34:30.950Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 82ad7122-8851-4cb3-b1e6-10975e292492
+    name: illuminescent_color_change
+    created_at: '2025-03-25T22:31:35.125Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 82d7f94d-5fb1-4d74-ac09-17a65b37cd42
+    name: imitates_wood
+    created_at: '2025-03-25T22:31:32.517Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 85b92735-dfaf-418c-9971-8fec7d0ed97e
+    name: water_soluble
+    created_at: '2025-03-25T22:31:13.444Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 8c73fb33-5762-40f0-a23b-f0a937fd4702
+    name: imitates_metal
+    created_at: '2025-10-06T12:20:10.216Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 8d2931db-400d-4846-bb4a-5ad72d0d4735
+    name: triple_color
+    created_at: '2025-03-25T22:32:18.726Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 8e227eca-38b9-492d-a001-f4598443013c
+    name: contains_carbon_fiber
+    created_at: '2025-03-25T22:31:09.492Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 6
+      - 17
+  - uuid: 8f2fca70-4c27-415c-a5d7-773ed0f0156d
+    name: contains_steel
+    created_at: '2025-03-25T22:35:57.933Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 2
+      - 26
+  - uuid: 92fbea2f-6acf-4475-b903-bd8e21b1584b
+    name: contains_linen
+    created_at: '2025-09-30T18:40:02.233Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 34
+  - uuid: 930807f4-0f7d-4630-a929-9030f31881a6
+    name: contains_stone
+    created_at: '2025-03-25T22:35:58.062Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 42
+  - uuid: 94ce8705-92d6-49aa-a341-c591ede2ea43
+    name: conductive
+    created_at: '2025-03-25T22:31:10.640Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 96e06a43-c102-4aee-aee1-2bc749c5a6bb
+    name: ipa_soluble
+    created_at: '2025-03-25T22:31:38.756Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: 9847647c-dea3-4f38-a967-a856876e0708
+    name: contains_copper
+    created_at: '2025-03-25T22:31:20.763Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 5
+      - 23
+  - uuid: 99903cc9-07cb-4a3a-93af-c7d72ff7ccd8
+    name: temperature_color_change
+    created_at: '2025-03-25T22:31:10.590Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+    name: iridescent
+    created_at: '2025-03-25T22:31:13.947Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: a99a2a70-705d-456a-a395-cc27b37577eb
+    name: Color Gradient
+    created_at: '2025-03-25T22:31:19.918Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: ab14a69d-e52f-4cdc-8e78-c46f5340d181
+    name: industrially_compostable
+    created_at: '2025-10-01T20:48:54.868Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: abbbdae5-c6c8-4ea2-b26b-91220563eb84
+    name: contains_silver
+    created_at: '2025-03-29T18:53:49.876Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: ac56c1ec-8562-41be-8342-2980baba1862
+    name: air_purifier
+    created_at: '2025-05-09T11:04:43.561Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: aee53bdb-9d09-4592-b8cd-88bd7080980b
+    name: contains_aluminium
+    created_at: '2025-05-15T09:55:51.961Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 9
+      - 13
+      - 20
+  - uuid: af7c4604-76a7-4514-9797-89beef288e24
+    name: traceable_authenticity
+    created_at: '2025-05-16T10:36:38.071Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: b0304217-2286-4583-a1fc-9257d6b550b3
+    name: bio_based
+    created_at: '2025-10-03T13:20:46.038Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: b92fdbec-b24a-4f52-9a65-2a4ae589e82e
+    name: biocompatible
+    created_at: '2025-03-29T17:15:30.733Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 44
+  - uuid: c2135f1d-6241-4a6d-badd-9fa087187eeb
+    name: pearlescent
+    created_at: '2025-10-01T09:36:12.286Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: c792b483-e103-4ee6-9465-7af97f0aadd8
+    name: contains_mineral
+    created_at: '2025-03-28T18:26:50.711Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 41
+  - uuid: c826eca4-8c40-4f07-930e-99a6231c54b9
+    name: contains_glass_fiber
+    created_at: '2025-03-25T22:31:11.103Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 10
+      - 19
+  - uuid: ca82e3e1-04c0-4ecc-a16d-9e56092ec3ea
+    name: antibacterial
+    created_at: '2025-09-30T22:54:19.268Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 45
+  - uuid: caf785fa-b389-437d-88a7-b4a13b05eb62
+    name: dual_color
+    created_at: '2025-03-25T22:31:10.590Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: cccac441-8d20-451f-9d3c-217949e6a341
+    name: imitates_stone
+    created_at: '2025-03-25T22:35:58.062Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: ce3f9674-3622-445c-b6d2-2874193ffd79
+    name: low_outgassing
+    created_at: '2025-10-01T10:26:46.891Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: ce4c37f3-37fd-4771-beca-f7312ddf8dab
+    name: paramagnetic
+    created_at: '2025-03-25T22:33:58.717Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 14
+  - uuid: cee06c39-c80f-40aa-a14d-ea5bf49283d2
+    name: contains_algae
+    created_at: '2025-09-30T18:31:13.584Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 30
+  - uuid: d5468bd6-6ada-4f0f-aaeb-ffe7a09c3db7
+    name: Medical aplication
+    created_at: '2025-03-25T22:31:13.523Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: d5e1a220-4061-4837-916a-8e4663bd7b4d
+    name: contains_ptfe
+    created_at: '2025-10-09T14:01:17.180Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: d9db273a-ad8d-4795-9934-c6e0d2997e4d
+    name: contains_spirulina
+    created_at: '2025-03-29T20:25:15.528Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 38
+  - uuid: db45c006-2f86-4ae0-9280-4a73592297fa
+    name: filtration_recomended
+    created_at: '2025-10-01T20:51:27.614Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: db61f157-b71c-47dd-97b1-5f9f939c54f5
+    name: abrasive
+    created_at: '2025-10-01T20:40:58.627Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: df5d80f1-cc07-4db1-aef7-19a2fd78d288
+    name: high_temperature
+    created_at: '2025-05-13T17:56:53.789Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: e272b26b-5e84-4a88-932e-feb2087bbd5c
+    name: matte
+    created_at: '2025-03-25T22:31:14.000Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: e4b51bb5-75c7-484a-bf67-20f37016fc30
+    name: contains_wood
+    created_at: '2025-03-25T22:31:32.451Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 40
+  - uuid: e5c73b19-d38b-4c8d-a4ee-f720b9d2c43a
+    name: contains_olive_bones
+    created_at: '2025-03-29T19:54:08.507Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 35
+  - uuid: ec9293e7-be62-43b2-a468-248d64a9dc9e
+    name: glitter
+    created_at: '2025-03-25T22:31:11.691Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: f0070159-71de-49c4-a734-f6fc95e27d9e
+    name: multicolor
+    created_at: '2025-03-25T22:31:47.935Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: f2311e2a-2a91-40bb-b201-da6f609e9bcd
+    name: contains_distillery_waste
+    created_at: '2025-09-30T18:38:50.514Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 32
+  - uuid: f256a3c0-18ea-49c8-beb0-7af94c28e476
+    name: neon
+    created_at: '2025-03-25T22:31:44.911Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: f3cc6be4-8d00-4a1a-b6d8-c371d63ba6f6
+    name: contains_ceramic
+    created_at: '2025-03-25T22:31:19.803Z'
+    id: null
+    implies: []
+    hints: []
+    categories:
+      - 29
+  - uuid: f9a50901-5756-4f50-8015-992aab26788c
+    name: lithophane
+    created_at: '2025-04-29T13:06:11.999Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []
+  - uuid: ffbb76b1-58a4-4005-ac75-b9c71db5a974
+    name: foaming
+    created_at: '2025-03-25T22:31:20.952Z'
+    id: null
+    implies: []
+    hints: []
+    categories: []

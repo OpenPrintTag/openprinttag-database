@@ -1,0 +1,82 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b63c08b4-461c-40d5-8145-6d50edc32b5f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+uuid: 02ba371f-588d-4b83-a6cb-349c00fed604
+slug: pla-silk-ruby-pink
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Silk Ruby Pink
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-silk-winkle-175-mm-1-kg-rosa-rubi/
+primary_color: a6ec0cfa-8468-4bcf-8bdf-b558a6bc758e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  **PLA SILK: Shiny, silk-like finish for spectacular 3D prints**
+  Winkle PLA Silk Filament has been enhanced with special polymers to provide a shiny, smooth, and silky finish that reflects light beautifully and hides layer lines. This results in prints with a professional finish and striking visual appeal—ideal for those seeking highly detailed prints with impeccable presentation.
+
+  While retaining standard PLA properties such as easy printing, low shrinkage, and minimal warping, PLA Silk goes further by offering greater thermal and mechanical resistance, as well as allowing visual adjustment of the finish depending on printing parameters.
+
+  **Advantages of Winkle PLA Silk:**
+
+  * Silky, glossy finish with a mirror-like surface
+  * Smooth texture that hides layer lines
+  * Easy to print, free of deformation or bubbles
+  * Biodegradable and odorless
+  * Compatible with most FDM 3D printers
+
+  **Adjustable gloss with printing settings:**
+
+  * More shine at lower speeds and higher temperatures
+  * More matte at higher speeds and lower temperatures
+
+  **Applications for PLA Silk:**
+
+  * Aesthetic prototypes and presentation models
+  * Decorative pieces: sculptures, figurines, jewelry
+  * Design and art: toys, models, visually striking objects
+  * Any project where a glossy finish is a key feature
+
+  Available in a wide range of vibrant colors, PLA Silk is perfect for projects where visual impact is essential. Make your prints shine with style and precision.
+thumbnail_url: https://file.myfilamentlist.com/new/02ba371f-588d-4b83-a6cb-349c00fed604.png
+deleted_at: null
+deleted_by: 5b50e8f7-c62b-4e85-9ad2-2a672836d1d8
+created_at: '2025-11-21T23:26:56.679Z'
+updated_at: '2025-11-21T23:26:56.679Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 310bf26d-1f97-43bb-8651-fc490bf13f03
+  - d9658d9f-123d-4536-b8df-76e358551393
+secondary_material_types: []
+opentag_uuid: 44ed66f9-9537-512e-996e-6ffb4e1b881d

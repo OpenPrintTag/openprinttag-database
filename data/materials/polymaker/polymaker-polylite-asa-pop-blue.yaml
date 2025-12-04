@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/796890027c21.png
+    type: gallery
+uuid: 6a6d9b9d-5d96-470e-9a0b-a0abda6493ab
+slug: polylite-asa-pop-blue
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ ASA Pop Blue
+abbreviation: null
+url: null
+primary_color: 9ff71ced-a991-4871-802b-5d6e03ebbbdb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  PolyLite™ ASA is an alternative to ABS with an improved weather resistance. Its UV resistance and excellent mechanical properties make it the perfect choice for real life applications.
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+  If using a stock, older style printer - we would recommend printing slower.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/796890027c21.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:34.987Z'
+updated_at: '2025-03-25T22:34:34.987Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3490
+packages:
+  - 059480c1-d995-403b-a048-a17f9160a6f7
+  - 1640fc25-a7c3-4aa4-a6a3-da734a541015
+  - 6971fb1c-50e7-4198-aed4-b68d406b2028
+  - 90d97916-3221-4165-92aa-40f953bb29a2
+  - da51038e-6bbc-40fb-bfe9-4f9bb876797e
+  - e9598836-c57e-472b-be10-5a1edaaaf5f3
+secondary_material_types: []
+opentag_uuid: be0c2dd1-c161-523d-bf43-f144356b759e

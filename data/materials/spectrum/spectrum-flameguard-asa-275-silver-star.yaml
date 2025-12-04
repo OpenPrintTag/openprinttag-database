@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.08000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b05adb12-583a-4d3b-b52f-0b5f5548a8a1
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: 3277dfce-06e7-4ed8-b896-607de0443cb1
+slug: flameguard-asa-275-silver-star
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FlameGuard ASA 275 Silver Star
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/asa-flameguard-275/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Spectrum FlameGuard ASA 275 Filament is an advanced material designed for use in desktop 3D printers. Based on the proven ASA 275 formula, the FlameGuard version has been specifically engineered to meet the stringent flame-retardancy requirements of the UL94 V0 classification. This means that the filament or parts printed with it, when subjected to a vertical burn test, self-extinguish within 10 seconds without propagating the fire.
+
+  Like the standard ASA 275 filament, the FlameGuard version features excellent mechanical properties, including increased flexibility, improved flow characteristics, minimal shrinkage and outstanding layer adhesion. It is also easy to print, comparable in this regard to Spectrum Premium PLA, allowing for the trouble-free production of large models without the risk of warping after cooling.
+
+  Spectrum FlameGuard ASA 275 is also resistant to UV radiation and changing weather conditions, making it an ideal choice for printing prototypes, manufacturing tools, and other parts that require high durability and enhanced fire safety.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 2bfc9725-1574-4220-8fe1-9f2613fe4933
+created_at: '2025-10-15T14:12:26.540Z'
+updated_at: '2025-10-15T14:12:26.540Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 4ea5db61-c00c-51e5-8e24-e6a5ad7b1736

@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0642abc06b0b.png
+    type: gallery
+uuid: 11687025-9b2a-473d-b9e3-0043da97922a
+slug: bright-white-opaque-petg-pro
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Bright White Opaque PETG PRO
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Prints snow white with no yellow tones like some other PETG products on the market.
+  PETG is a newer printing filament and has the advantage of printing easily like PLA, but offering higher temp and impact resistance like ABS.
+  Nearly ZERO warpage prints, extremely strong layer bonds, little to no odor at all.
+  HEX COLOR: #DEE5F5. This is according to Filamentcolors.xyz.  We cannot verify this information. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/0642abc06b0b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:17.368Z'
+updated_at: '2025-03-25T22:31:17.368Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 410
+packages:
+  - 98956cd7-dfad-4761-8431-dd57281670ef
+  - e719c3d6-b453-4ad7-8e68-790d5ce6e874
+secondary_material_types: []
+opentag_uuid: ea95c487-e93a-5eff-a8d8-23b4534df333

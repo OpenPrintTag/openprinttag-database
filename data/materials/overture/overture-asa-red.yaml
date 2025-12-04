@@ -1,0 +1,52 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/dd25cace3dd1.jpg
+    type: gallery
+uuid: 5ff132ff-f4b3-45d6-955d-89a6ebabfde2
+slug: asa-red-6
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'ASA Red  '
+abbreviation: null
+url: null
+primary_color: a73c96f3-18f4-4069-95e5-ba4ea32e7695
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: 'OVERTURE ASA is designed to withstand a variety of environmental conditions, making it highly resistant to rain, humidity, and temperature fluctuations. This weather resistance ensures that printed parts maintain their structural integrity and performance over time, even when exposed to the elements. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/dd25cace3dd1.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:15.188Z'
+updated_at: '2025-03-25T22:31:15.188Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 625
+packages:
+  - c9288b78-1ace-4680-a86c-20cbb60a4706
+secondary_material_types: []
+opentag_uuid: 0959ed23-0692-57ff-b269-638dbe2d4ea2

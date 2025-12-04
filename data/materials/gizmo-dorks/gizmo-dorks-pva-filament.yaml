@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d52178702481.png
+    type: gallery
+tags:
+  - 85b92735-dfaf-418c-9971-8fec7d0ed97e
+uuid: e8a80a69-665e-480b-addc-88074ec35d93
+slug: pva-filament
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PVA Filament
+abbreviation: null
+url: null
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Polyvinyl Alcohol
+
+  PVA filament is a water-soluble synthetic polymer; our PVA filament dissolves in water. Many 3D printer users find PVA to be the perfect support filament because of its dissolvable properties. In general, PVA filament is used in conjunction with PLA not ABS. PVA adheres well to PLA and not ABS. Moreover, the extrusion temperature difference between PVA and ABS can be problematic.
+
+  Most importantly, PVA filament should not be allowed to sit at temperatures higher than 200degreesC for an extended period of time. An irreversible degradation of the material will occur, known as pyrolysis. It will form jams which are extremely difficult to remove. Unlike PLA and ABS, you cannot remove the jam by increasing the temperature. Clearing the jam in the nozzle will often require it to be re-drilled or replaced altogether, so be careful!
+
+      **Net weight: 0.5 kg or 1.1 lbs
+      Color: Natural
+      Diameter: +/- 0.05mm
+      Roundness: +/- 0.07mm
+      Print Temperature: 160 - 190degreesC (Warning - do not let PVA sit at temperatures higher than 200degreesC!)
+thumbnail_url: https://file.myfilamentlist.com/f/new/d52178702481.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:03.427Z'
+updated_at: '2025-03-25T22:35:03.427Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+colors:
+  - 3908
+packages:
+  - 76cebe80-c785-4046-8261-6978ce5190d1
+  - ae149db0-2ab0-4428-bd09-a49b525f90fd
+secondary_material_types: []
+opentag_uuid: 8e780e53-87e4-5a1e-a3ce-e3119795f5c0

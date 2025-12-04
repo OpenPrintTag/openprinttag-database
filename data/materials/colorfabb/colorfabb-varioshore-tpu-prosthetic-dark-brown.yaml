@@ -1,0 +1,90 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d812c4f8cb89.png
+    type: gallery
+uuid: d096477e-056c-46d8-8459-b8e636e6a1e0
+slug: varioshore-tpu-prosthetic-dark-brown
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: varioShore TPU Prosthetic Dark Brown
+abbreviation: null
+url: null
+primary_color: fbe8fa89-a15c-4548-8f12-993bc709aeae
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  This version of varioShore TPU Dark Brown is uniquely suited for printing prosthetics and orthotics. We have included silver in our formulation. Silver is known to have beneficial properties for prosthetic and orthotic applications. 
+
+  Wikipedia: Medical uses of silver
+
+  Besides the addition of silver, this version of varioShore is available in three skintone colors: Pale Pink, Medium Brown, Dark Brown. Printing at a lower temperature will result in a more intense skintone color, printing at a higher temperature (activating the foaming agent) results in a more powder like skintone color, less intense and a softer appearance.
+
+  VarioShore TPU Prosthetic has a few main distinctive features: its variable shore hardness, reduced weight and density and soft touch. varioShore TPU Prosthetic allows users to vary the density of the material by adjusting temperature and material throughput (speed & layerheight). At temperatures between 200 and 250C the materials will start to expand to roughly 1.4-1.6 times its original volume, which reduces the density to 0.7 to 0.9 g/cm3. This means the material can be printed at low flow rates (60-70%), to compensate the active foaming, which in return gives very soft printed parts.
+
+  Developed in co-operation with Lubrizol, varioShore TPU Prosthetic is a material ideally suited for printing prosthetic and orthotic parts.
+
+  Please note that the color can change, depending on the amount of foaming. The color will turn lighter when the material is at maximum foamed state as opposed to non-foamed state which shows a deeper and richer color.
+
+  From shore hardness 92A(unfoamed) to shore 55A (maximum foamed).
+
+      Light Weight
+      Soft Touch
+      Prosthetics
+
+
+  Pros
+
+  Silver is known to have beneficial properties for prosthetics and orthotics.
+
+  Available in skintone colors
+
+  Soft touch surface when foamed
+
+  Lower density when foamed 0.5 to 0.6 g/cm3
+
+   
+
+  Cons
+  Stringing /oozing due to foaming effect
+
+  Requires knowledge of printing process to finetune settings.
+thumbnail_url: https://file.myfilamentlist.com/f/new/d812c4f8cb89.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:41.535Z'
+updated_at: '2025-03-25T22:36:41.535Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5519
+packages:
+  - 4b4b59b0-27d1-4320-b22c-cdde51d044b1
+  - 8398c5d5-c8c5-4722-8447-880b772a2aca
+  - 87ca4617-d892-4b51-832d-f3eaa49c3b37
+  - 87cc7d68-04ee-4c25-a8ce-93069985dbf3
+secondary_material_types: []
+opentag_uuid: c8c93d35-cee8-5712-a252-2a55fd5fe417

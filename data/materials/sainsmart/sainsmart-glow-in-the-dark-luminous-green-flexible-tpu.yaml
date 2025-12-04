@@ -1,0 +1,71 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 42f3f6ab-377c-40bc-912a-7608858d7dd8
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+secondary_colors:
+  - 5019134c-2526-4924-9b7c-349278e205eb
+  - 59a8cf67-5708-4589-909b-d806ac2d2a79
+uuid: 56e0f53f-750e-4267-8dbc-b21b2324b093
+slug: glow-in-the-dark-luminous-green-flexible-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Glow-in-the-dark, Luminous Green, Flexible TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/luminous-green-glow-in-the-dark-flexible-tpu-filament-1-75mm-1kg-2-2lb?_pos=26&_fid=bf8833f30&_ss=c
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  SainSmart TPU filaments are featured by flexibility and elasticity, which provide reliable and high quality prints. Now we add a new feature, glow in the dark!
+
+      [Flexible and High strength] 95A hardness is simlar to an o-ring. High abrasion resistance and low compression compared to rubber
+      [Resistant to chemicals] resist to oil, grease and etc. Duarable performance even in chemical harsh environment.
+      [Easy to print] Excellent adhesion on heat bed, not neccessary for extra adhesion like tape. Compatible with most Prusa i3 3D printers in market. With bowden extruder needs to print slowly.
+      [Glow in the dark] Close to transparent in day time, glows in green in dark.
+      [Great for end-use parts or models] Can be used to print as functional parts or standalong prototypes. Like RC parts, case, or engineer design prototypes.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 91e5ca05-28da-4129-b16c-e2f1230570a7
+created_at: '2025-09-26T15:00:56.629Z'
+updated_at: '2025-09-26T15:00:56.629Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9194
+  - 9195
+packages:
+  - 2d42edc8-b950-4c7c-8f24-f5231a9a2df1
+secondary_material_types: []
+opentag_uuid: 7014a9dc-585c-5ba4-b145-ec4c579a5948

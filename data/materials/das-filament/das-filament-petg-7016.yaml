@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.29000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6c7d04f3-08d2-4cc6-a4eb-501b21f30e62
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: a1415e1c-2569-4162-9bce-89611065312e
+slug: petg-7016
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG "7016"
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/526/petg-filament-1-75-mm-7016-800-g?c=35
+primary_color: ade8c697-7129-4c52-93b0-da120faaedcc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: PETG ist ein mit Glykol modifiziertes PET (Polyethylenterephthalat), welches aufgrund seiner niedrigeren Viskosität und des geringeren Schmelzpunktes zu einem nützlichen Kunststoff für den 3D Druck geworden ist. Da PETG eine hohe UV-Beständigkeit hat und der Erweichungspunkt bei etwa 80 °C liegt, eignet es sich gut für Anwendungen im Außenbereich. Es vergilbt nicht und hält seine Form bei direkter Sonneneinstrahlung über mehrere Jahre hinweg. Durch seine höhere Schlagzähigkeit sowie Bruchdehnung wird PETG im 3D Druck auch gerne für technische Bauteile verwendet. Es lässt sich gut mechanisch bearbeiten (z.B. schleifen, bohren, drehen). Ohne Farbpigmente ist unser PETG vollkommen transparent, wodurch es gerne Anwendungen in Verbindung mit Licht findet (Diffusor, Lichtleiter, Lampenschirme, Gehäuse...). Während des Druckens zeigt PETG eine vergleichsweise geringe Geruchsentwicklung.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 68a727d5-b434-4b27-9dd2-0c50ef955535
+created_at: '2025-10-19T08:41:37.051Z'
+updated_at: '2025-10-19T08:41:37.051Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 1e4e2fd5-922b-4005-a052-d4216b410a66
+  - afa5e337-ed35-43da-af90-23139b3a3179
+secondary_material_types: []
+opentag_uuid: 17d37cbe-e000-5344-9086-4f34f1d4e7cc

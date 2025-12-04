@@ -1,0 +1,71 @@
+uuid: 0a6ee235-6649-4057-a021-809fb2f7c5af
+slug: ecopla-purple
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Purple
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-purple
+primary_color: 65b0e7e8-0442-443f-bd17-e254e84948c0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing applications.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  The properties of the ecoPLA from 3DJake:
+
+      Minimal shrinkage
+      Minimal warping
+      Good diameter and roundness tolerances
+      No unpleasant odours
+      Easy to print
+      Tougher & less brittle than conventional PLA filament
+
+  3DJake ecoPLA filament can be used with almost any FDM 3D printer.
+
+  All ecoPLA colours are based on the standardized RAL colour system.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ea7b6dc8-78d5-481c-a34d-c07f4d2eca9c
+created_at: '2025-11-07T10:44:16.634Z'
+updated_at: '2025-11-07T10:44:16.634Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 98881708-c7bd-42e9-92b6-d7d675653026
+  - f22728ba-c43b-48c8-a243-ebf5fb3e8df2
+secondary_material_types: []
+opentag_uuid: 222307b8-9e83-50a1-a427-f2ee518afd01

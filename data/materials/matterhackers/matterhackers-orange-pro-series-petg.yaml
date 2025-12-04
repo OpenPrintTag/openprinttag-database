@@ -1,0 +1,53 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8e5aa462f0b6.png
+    type: gallery
+uuid: de2ca1a5-20d7-4c8d-bb60-6e0c3d814b1e
+slug: orange-pro-series-petg
+brand_slug: matterhackers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Orange PRO Series PETG
+abbreviation: null
+url: null
+primary_color: 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: MatterHackers PRO Series PETG 3D printing filament is an exceptionally tough and sturdy material that is a terrific general-purpose additive manufacturing material. PETG filament has incredible minimal shrinkage, making it a great solution for parts that need to be impact resistant and pliable. MatterHackers PRO Series PETG filament is specifically formulated to enhance PETG's natural properties, like durability, heat and chemical resistance, and ease-of-use.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8e5aa462f0b6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:30.274Z'
+updated_at: '2025-03-25T22:32:30.274Z'
+brand: 2f78f004-49c7-4672-9cd5-32971f28f7ca
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1723
+packages:
+  - 248d733a-f286-4a32-b012-3e3045404624
+  - f1dca41b-3e07-4ac2-a02f-6058b4270083
+secondary_material_types: []
+opentag_uuid: 4e0187f7-bfb5-5d5c-9e24-77289a510e30

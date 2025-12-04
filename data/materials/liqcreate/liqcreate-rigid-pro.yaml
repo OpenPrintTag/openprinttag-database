@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.12000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e56468d1-93e4-44d2-a294-775ea9f9bdfa
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 6d0ede79-84b2-4da2-a6ff-4eac368cbb00
+uuid: b9d41d3e-5635-4ec8-80c4-3f882d1fd8ee
+slug: rigid-pro
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Rigid Pro
+abbreviation: null
+url: https://www.liqcreate.com/product/rigid-pro/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: 'Liqcreate Rigid Pro is a rigid black photopolymer resin and can be processed on most open DLP, MSLA and laser based 3D-printers operating at a wavelength of 385-405nm. 3D-printed parts from this material exhibit high strength and rigidity. Liqcreate Rigid Pro only requires UV post-curing with heat to reach its optimal strength. This material has excellent features like: high stiffness, durability, high strength and good temperature resistance which makes it ideal for molding, and industrial applications like pulleys, automotive connectors, covers, brackets, housings and demanding engineering parts.'
+thumbnail_url: null
+deleted_at: null
+deleted_by: b6168efa-991e-4494-91b9-bab49e3de530
+created_at: '2025-10-06T08:43:37.267Z'
+updated_at: '2025-10-06T08:43:37.267Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9520
+packages:
+  - ede258c0-bc83-44bb-b5ad-c849afee4045
+secondary_material_types: []
+opentag_uuid: 271da215-c4de-58da-9f95-d83c44b55634

@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.04000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e44176e9-7460-4b88-b1ad-d62f534fec91
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: f55aa431-4bc4-4aa2-a65e-8b44317799f7
+slug: abs-gp450-natural
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS GP450™ Natural
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/abs-gp450/
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Industrial grade ABS optimized for 3D printing
+
+  Spectrum ABS GP450™ is an industrial grade, construction filament for 3D printing. It is a material with an amorphous structure, its popularity is due to high impact strength, hardness, and relatively high scratch resistance. Spectrum ABS GP450™ is very useful for printing durable and impact resistant parts. The composition of the material compared to classic ABS has been optimized for additive manufacturing, which allows printing at a very high speed (up to 200mm/s) without any mechanical properties losses. Another especially important aspect is the ease of breaking off the support structures. In addition, Spectrum ABS GP450™ exhibits improved adhesion of the first layer to the 3D printer build plate, thanks to this, strong warping effect has been reduced, as well as the model curling at the edges.
+
+  Good mechanical properties, especially high deformability of the material and its high impact strength will allow the production of static and dynamic load-bearing parts in various designs. The particularly good insulating properties of the Spectrum ABS GP450™ filament allow printing parts that protect against electric current, while the relatively high hardness allows to print tools and devices used in assembly or serial production.
+
+  ABS GP450™ exhibits much higher mechanical strength than other similar materials available on the market.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 11b0d365-0d74-486d-8d35-2f83b8b12d1f
+created_at: '2025-10-15T14:50:29.624Z'
+updated_at: '2025-10-15T14:50:29.624Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: f6842ba7-d3c4-5ec8-a6b8-dea7342eb596

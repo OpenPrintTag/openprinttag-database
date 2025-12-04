@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.04000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 09bdf7aa-cdfd-4174-91a6-415eeb674998
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: e7c015ed-c6d6-4925-bd01-5830c02385b8
+slug: abs-cyan
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Cyan
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/abs-filament?variant=43499235148035
+primary_color: e88106a6-8c4a-40bb-b08d-d8bc39c71965
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ABS represents a significant advancement in additive manufacturing materials, offering superior performance compared to standard ABS filaments. The material demonstrates exceptional durability and impact resistance, with key improvements in processing characteristics and mechanical properties.
+thumbnail_url: https://file.myfilamentlist.com/new/e7c015ed-c6d6-4925-bd01-5830c02385b8.png
+deleted_at: null
+deleted_by: 5f0be235-7e07-4ece-90ea-483d6c0e8202
+created_at: '2025-11-11T11:32:05.290Z'
+updated_at: '2025-11-11T11:32:05.290Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 783479cc-cafd-4afb-bee9-a8ba89ac9ae6
+  - 7973a7d2-7490-44e7-828e-59e04e82ccde
+secondary_material_types: []
+opentag_uuid: b4ae00e0-5c9d-50d2-bbd4-55622f097fb8

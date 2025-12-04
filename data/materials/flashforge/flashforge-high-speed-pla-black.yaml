@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/29291347564c.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 87f30405-3cfb-4bb9-8d37-5687ede49eb1
+slug: high-speed-pla-black-5
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Speed PLA Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Colour Burnt Titanium: A colour-changing material that reacts to different light intensities. This filament is made of special pigments and hides the layer lines perfectly, so you can create stunning visual effects in your prints.
+
+      500 mm/s high-speed PLA - FLASHFORGE high-speed PLA filament is characterised by fast melting and even flow and allows printing speeds of up to 500 mm/s, which ensures high-quality prints and accelerates the production of various applications.
+
+      Upgraded tangle-smooth extrusion: thanks to the use of improved winding technology, tangles and blockages of the filament are effectively eliminated, which fundamentally reduces interruptions during the printing process and ensures seamless, continuous printing operation.
+
+      Excellent bed adhesion and stability: unlike conventional filament, our filament achieves exceptional prints without pre-drying (24-hour drying before the factory) or parameter adjustments. Its excellent bed adhesion ensures a stable first layer, while the excellent bridging performance prevents layer separation.
+
+      Precise dimensions and consistency: By using CCD diameter measurement and adaptive control, our filaments maintain a strict diameter of 1.75 mm with a 99% probability of +/- 0.02 mm accuracy and ensure smooth extrusion for clean and precise prints.
+thumbnail_url: https://file.myfilamentlist.com/f/new/29291347564c.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:59.301Z'
+updated_at: '2025-03-25T22:31:59.301Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1623
+packages:
+  - a9fd6389-835f-4283-aa8b-75a24bcf4167
+secondary_material_types: []
+opentag_uuid: 787afd51-937e-5536-b51e-28a686b935c7

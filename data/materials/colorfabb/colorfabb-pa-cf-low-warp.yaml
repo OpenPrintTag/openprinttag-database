@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/09276c8a53e0.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: c0e5f8ac-0342-4f65-b2eb-99e08cc5665c
+slug: pa-cf-low-warp
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PA-CF Low Warp
+abbreviation: PA-CF
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  The PA-CF Low Warp is a one of a kind polyamide formulation with the ability to print nearly warp free on non heated buildplatforms. Low infill prints come out perfectly flat on cold bed for higher infill prints 40/50C temperature is enough to obtain flat prints.
+
+      High tensile
+      High temperature resistance
+      Carbon fiber infused
+thumbnail_url: https://file.myfilamentlist.com/f/new/09276c8a53e0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:31.276Z'
+updated_at: '2025-03-25T22:32:31.276Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 1382
+packages:
+  - 650a4f25-be6a-4461-b0dd-555b2a55b950
+  - b00f1fb2-a64e-4d3b-bd3d-a8ce1588062b
+  - b6b3abdb-325d-4840-8797-b0feef088689
+  - cdb2a689-7120-4dc3-9e9d-32ccf3b479de
+secondary_material_types: []
+opentag_uuid: f55ba0fe-65c2-53b6-936a-8bb13ca78c79

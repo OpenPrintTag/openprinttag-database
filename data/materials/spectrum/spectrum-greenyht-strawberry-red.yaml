@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.54000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: cf7914ca-89f9-434f-a9dc-e19224f439d4
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7caf20a4-4904-402d-b96e-521326c8cb28
+slug: greenyht-strawberry-red
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: GreenyHT™ Strawberry Red
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/greenyht/
+primary_color: 96444b75-3426-4045-a85c-9b871920d320
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  High durability & rough surface
+
+  PLA is invariably the most popular among users of FDM technology due to its extraordinary ease of printing. A disadvantage of conventional PLA-based filaments is their relatively low thermal resistance, often reaching 50–60°C for non-crystallised prints, significantly limiting their practical use.
+
+  As a result of months of implementation testing, we have developed a new Spectrum GreenyHT™ filament based on high-performance biopolymer with a softening temperature (VICAT) of up to 100°C and thermal resistance (HDT B) of up to 90°C. In addition to improving the thermal properties, we also wanted not to deviate from the original mechanical characteristics of the plastic, which is why Spectrum GreenyHT™ does not contain plasticisers. Furthermore, in terms of rigidity and hardness, it significantly outperforms classic PLA grades.
+
+  Despite the modifications, Spectrum GreenyHT™ remains fully biodegradable and compostable under industrial conditions as defined by EN 13432. Its bio-base is derived from GMO-free sources. The material also meets the conditions for food contact (for more information, see the food-contact section of the material’s technical data sheet).
+
+  In addition, visually, Spectrum GreenyHT™ filament is distinguished by surface roughness. The surface irregularity and matt look effectively mask the layers, significantly enhancing the aesthetic value of the printed models.
+
+  Spectrum GreenyHT™ filament is intended for users who demand ease of printing, delivered with enhanced thermal resistance, high rigidity and a matt, rough finish.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5772ebea-f4c4-4fc4-b462-f6e71e71d5f1
+created_at: '2025-10-13T16:35:12.304Z'
+updated_at: '2025-10-13T16:35:12.304Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 7881734c-223e-5d8b-9dc7-3ec71099d0c0

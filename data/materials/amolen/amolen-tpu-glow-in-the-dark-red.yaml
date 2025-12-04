@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.20000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 87e0984f-d07c-448a-ba64-4e7969b84e9a
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/1e23ce47-0b19-4c8f-8e98-cd92a06957fb/05d1ddd2beac.png
+    type: gallery
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 1e23ce47-0b19-4c8f-8e98-cd92a06957fb
+slug: tpu-glow-in-the-dark-red
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Glow-in-the-Dark Red
+abbreviation: null
+url: null
+primary_color: cadfa5c0-8ac1-422c-8d95-a484f5e329b3
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Luminous Glow TPU for Unique and Radiant 3D Prints
+
+  Transform your 3D prints with the vibrant illumination of TPU Glow-in-the-Dark Filament. Designed for creative enthusiasts and professionals alike, this filament combines exceptional quality with a glowing finish that truly stands out.
+thumbnail_url: https://file.myfilamentlist.com/f/1e23ce47-0b19-4c8f-8e98-cd92a06957fb/05d1ddd2beac.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:23.272Z'
+updated_at: '2025-04-06T01:13:23.208Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6809
+packages:
+  - d666ad17-77c0-4d60-b166-8a3efc7f9e77
+secondary_material_types: []
+opentag_uuid: 749d39c9-e2d2-52cd-9fea-5ca77e8b62d7

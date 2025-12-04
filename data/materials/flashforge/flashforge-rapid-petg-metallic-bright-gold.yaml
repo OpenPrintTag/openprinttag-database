@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5d1d970c0580.jpg
+    type: gallery
+tags:
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+uuid: 49c068e3-2ec8-4044-98e2-32329433e206
+slug: rapid-petg-metallic-bright-gold
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PETG Metallic Bright Gold
+abbreviation: null
+url: null
+primary_color: c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PETG filament features rapid melting and smooth flow, enabling speeds up to 600mm/s, ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Note - For the best metallic finish with the PETG Metallic color series, use the filament within a week or dry it at 80degreesC for 4-6 hours before or during printing. Other colors, such as black, white, and burnt titanium, are less moisture-sensitive.
+thumbnail_url: https://file.myfilamentlist.com/f/new/5d1d970c0580.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:06.415Z'
+updated_at: '2025-03-25T22:35:06.415Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3799
+packages:
+  - 58ef84a6-a419-4d5c-976b-01a4ebaa3ff4
+secondary_material_types: []
+opentag_uuid: 4ea9442b-2a79-5af3-9971-e863c12d83d2

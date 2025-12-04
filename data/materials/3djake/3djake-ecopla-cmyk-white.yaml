@@ -1,0 +1,64 @@
+uuid: ad65d3b5-0f0f-41eb-908a-c70d4066f476
+slug: ecopla-cmyk-white
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA CMYK White
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-cmyk-white
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  3DJAKE ecoPLA has been slightly modified to make it perfect for frequent printers and 3D printing applications. It is one of the most popular 3D printing filaments due to its properties and good printability. It can be used with almost all FDM 3D printers.
+
+  ecoPLA CMYK adds the basic building blocks of the world of colours to 3DJake's colour palette and expands your creative possibilities. Create impressive 3D lithophanes with fine details and fantastic colour depth. Print realistic portraits, create abstract artworks or bring your own cartoon characters to life.
+
+  Features of 3DJake ecoPLA CMYK:
+
+      minimal shrinkage
+      minimal warpage
+      good diameter & roundness tolerances
+      no unpleasant odours
+      easy to print
+      tougher & less brittle than regular PLA filament
+      ideal for printing colourful, aesthetic lithophanes
+
+  Note: All ecoPLA colours are based on the standardised RAL colour system
+thumbnail_url: null
+deleted_at: null
+deleted_by: 51bf08eb-8ab0-4e81-a3ff-f9e229f293ad
+created_at: '2025-11-07T10:23:32.059Z'
+updated_at: '2025-11-07T10:23:32.059Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 580bad53-4c48-4564-b8c1-5dc8632dba76
+secondary_material_types: []
+opentag_uuid: dceaec92-e1e7-52b4-9638-c0d964d736dc

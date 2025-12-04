@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0201d51da901.png
+    type: gallery
+uuid: 6c688f08-7c45-4f90-a720-b1653633d96d
+slug: polysmooth-yellow
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolySmooth™ Yellow '
+abbreviation: null
+url: null
+primary_color: 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolySmooth™ is a unique, easy-to-print filament designed for hands-free post processing. The surface can be smoothed with alcohol to achieve layer free models using the Polysher™.
+
+  -  Printing Requirements
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/0201d51da901.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:50.769Z'
+updated_at: '2025-03-25T22:34:50.769Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 51cf087e-03a1-4dab-8df0-59216550a74d
+colors:
+  - 3530
+packages:
+  - 4603d220-806c-442a-bc52-22371774703f
+  - b5de3eda-6bbc-4ac4-96f5-69d954092ce1
+secondary_material_types: []
+opentag_uuid: e432e466-47e3-57ae-95bb-2ff7f98c599a

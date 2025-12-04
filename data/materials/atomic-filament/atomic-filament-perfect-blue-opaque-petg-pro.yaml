@@ -1,0 +1,52 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/27ccabcce22f.png
+    type: gallery
+uuid: 2171098b-1936-4aad-9de6-c3945c6e7f63
+slug: perfect-blue-opaque-petg-pro
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Perfect Blue Opaque PETG PRO
+abbreviation: null
+url: null
+primary_color: 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: PETG is a newer printing filament and has the advantage of printing easily like PLA, but offering higher temp and impact resistance like ABS.
+thumbnail_url: https://file.myfilamentlist.com/f/new/27ccabcce22f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:47.878Z'
+updated_at: '2025-03-25T22:32:47.878Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2013
+packages:
+  - 201438d6-0068-4418-b634-875c4521065a
+secondary_material_types: []
+opentag_uuid: 08412f98-b0b5-5c12-90bb-71c2223f7b0b

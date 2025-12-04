@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a0d4f3c1a46e.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 44a3e84e-dd2c-4d24-a8c8-2317476c74ea
+slug: premium-pla-cctransparent
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Premium PLA C.C.Transparent'
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Premium PLA is a more pure PLA type of 3D printer filament with higher crystallinity, which makes it the PLA of choice for 3D printing parts with overhangs and for objects where bridging is required.
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Almost odourless processing/printing
+      Biodegradable
+      Available in a variety of semi-translucent colors and opaque black/white
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/a0d4f3c1a46e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:56.464Z'
+updated_at: '2025-03-25T22:34:56.464Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3547
+packages:
+  - 4207ef09-bae2-46ba-9865-c6bd402bb77d
+  - e0524453-6433-422e-9f33-09ddf1cc854d
+  - eee1ab73-f273-47c8-ae57-b090143885c0
+  - f445014d-eb46-4791-a19d-55d4f5b048d8
+  - fb29ddf3-a5c4-4352-b601-1fe693c1fce8
+  - fbd71ca5-7d41-4c6e-913f-33da56781412
+secondary_material_types: []
+opentag_uuid: 3a9f1fe0-7f7b-55cb-90e5-35debc57c309

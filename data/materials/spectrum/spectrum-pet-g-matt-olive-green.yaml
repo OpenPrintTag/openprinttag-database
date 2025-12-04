@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.35000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7f6c914c-d5e1-4a96-939b-7213cae0ced4
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: 49776338-3b94-4607-9148-bbab591a2f51
+slug: pet-g-matt-olive-green
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PET-G MATT Olive Green
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-matt/
+primary_color: 2a762ebf-dd5f-41da-92e3-05c1c0294d79
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Impressive matte surface
+
+  Spectrum PET-G MATT is a PET-G-based material with a chemical composition modified so that it would be possible to obtain matte surfaces of printed object. The matte finish of printed items considerably improves their aesthetic properties and also minimises the visibility of layers on the side surfaces of printed items.
+
+  In addition, Spectrum PET-G MATT maintains all the features of PET-G-based classic polymers, i.e., the easy and highly efficient printing, low shrinkage and very good adhesion between layers and also between the build platform and printed object. Further, the use of admixtures has improved temperature resistance, impact resistance and lowered the brittleness of printed items.
+thumbnail_url: null
+deleted_at: null
+deleted_by: cf18bfa5-01be-4607-8296-a2dcbb612246
+created_at: '2025-10-14T14:46:41.028Z'
+updated_at: '2025-10-14T14:46:41.028Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: b7d2ccd2-ada4-527e-b877-65af8856ce90

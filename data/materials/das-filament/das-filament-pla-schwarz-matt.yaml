@@ -1,0 +1,63 @@
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 7eaefb9b-27db-492f-85df-fa5b751fe76a
+slug: pla-schwarz-matt
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Schwarz matt
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/363/pla-filament-1-75-mm-schwarz-matt-800-g?c=33
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Kein unangenhemer Kunststoffgeruch (wie z.B. bei ABS)
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbe: Schwarz mattt; Enthält Mattierungsmittel ( Der Effekt kommt bei kälteren Drucktemperaturen am besten zur Wirkung). Entspricht RAL 9005 Tiefschwarz
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7761d9f2-3e6d-47c3-b168-c562aab856b5
+created_at: '2025-10-17T11:01:01.778Z'
+updated_at: '2025-10-17T11:01:01.778Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 156abc97-b277-4c78-acb4-78b49d9b78ad
+  - 4672928e-1ceb-4d70-a367-e6c4e88a2bfd
+  - 7a92c119-aece-4ec1-ae62-a2892ca857f6
+secondary_material_types: []
+opentag_uuid: 222cf0f1-9df0-59a9-9b11-bbfd4a7b843d

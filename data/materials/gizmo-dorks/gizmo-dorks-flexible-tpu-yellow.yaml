@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8b9eb2d97876.png
+    type: gallery
+uuid: 2e936117-3255-4b8d-9410-c64544ef728f
+slug: flexible-tpu-yellow-3
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexible TPU Yellow
+abbreviation: null
+url: null
+primary_color: 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Gizmo Dorks provides many 3D filament material types including ABS, PLA, and HIPS. However, these traditional plastics are printed into a stiff and rigid form. New materials are being brought to market every day, and Gizmo Dorks is proud to introduce the flexible filament line. Gizmo Dorks flexible filament is based off of TPU, which is Thermoplastic Polyurethane. TPU flexible filament is a soft bendable plastic that retains it's shape and form. It is a strong durable filament that is comparable to rubber. TPU filament has wonderful properties such as semi-transparency and elasticity. TPU plastic is also resistant to oils and grease.
+
+  There are many practical uses for TPU as a material, and TPU can be found in my everyday applications. You will find TPU being used anywhere from car parts to power tools and medical devices. TPU is also a popular plastic used in protective cases for cell phones and tablets.
+
+      Extrusion temperature: 200-220 C
+      Bed temperature: 80 - 100 C
+      Print Speed: 30 - 50 mm/s
+      Layer Thickness: Above 0.1mm
+      Net Weight: 200 grams
+      Shore hardness: 95A
+
+  After many requests for a smaller sample spool, Gizmo Dorks has proudly released this filament with a net weight 200 grams. The smaller weight spool allows users to try the filament quality and color before committing to a larger 1 kilogram spool.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8b9eb2d97876.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:44.490Z'
+updated_at: '2025-03-25T22:31:44.490Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 1230
+packages:
+  - 04eb2b45-fcb6-438c-b524-80a1269d5d92
+  - 8a569a0b-443b-48c9-b4cc-98fecb499c54
+secondary_material_types: []
+opentag_uuid: 36e9ac9a-7793-50b1-8239-f2e7fe904a6d

@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/c8c177015e61.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d0efc1ec-b9ef-4c11-b787-434522099fd2
+slug: easyfil-epla-light-green
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil ePLA Light Green
+abbreviation: null
+url: null
+primary_color: 8ad970cd-b4e7-409c-8461-314411b852fd
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil ePLA is your go-to PLA filament for 3D printing. This PLA filament comes at an unbeatable retail price of €19,99 per kg and wide availability in colors and spool sizes.
+
+  Suitable applications
+
+      Functional prototyping.
+      Creating visualization aids.
+      3D printing manufacturing aids.
+      Making detailed concept models.
+thumbnail_url: https://file.myfilamentlist.com/f/new/c8c177015e61.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:26.112Z'
+updated_at: '2025-03-25T22:31:26.112Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1039
+packages:
+  - 760ef83d-d92a-44ff-9ff1-24430aacd6f7
+  - 7b67a45e-6572-4c06-8713-487a956f479a
+  - feb95310-05af-4020-a9db-6f04fdb0447a
+secondary_material_types: []
+opentag_uuid: 17331c1d-9ffb-5054-a540-1b66926ca74e

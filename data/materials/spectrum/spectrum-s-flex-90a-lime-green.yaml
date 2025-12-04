@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 92a8a842-478a-44c3-8be6-c72f2aa70efb
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 6c729211-7155-482c-a788-029723a67299
+slug: s-flex-90a-lime-green
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: S-Flex 90A™ Lime Green
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color: 225dbbc3-cf44-40d9-b5a9-5efb0fe94986
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Where durability and flexibility are essential
+
+  Spectrum S-Flex 90A is a filament designed for 3D printing, making it much easier to produce flexible objects than other such materials. The material’s appropriate composition ensures good adhesion both between layers and between the printed object and the build platform.
+
+  Due to its resistance to hydrocarbons and good lamination between layers, S-Flex 90A enables the production of sealing elements that must be resistant to any operating fluid, ensuring the best possible seal. Parts made from this material can be used as energy absorbers, i.e., all types of bumpers or vibration dampers.
+
+  In addition to the above properties, S-Flex 90A material also features good UV resistance and high resistance to aging. S-Flex 90A flexible filament is resistant to weak and dilute acids and bases.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 8d38c4e8-0815-4b40-8300-856679ff1958
+created_at: '2025-10-17T09:44:11.617Z'
+updated_at: '2025-10-17T09:44:11.617Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: null
+colors: []
+packages:
+  - 1ed0d5bf-1fda-41ec-852c-96e0c56b891c
+secondary_material_types: []
+opentag_uuid: cfc1c44d-8a27-574d-9672-51fa7b543f10

@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/50a24323dba4.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 6d483076-dac9-42bf-88a9-a90a6f67aceb
+slug: abs-extrafill-turquoise-green
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Extrafill "Turquoise Green"
+abbreviation: null
+url: null
+primary_color: 9a076f62-c7f1-4f5e-bf2b-74f0a88c2913
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ABS Extrafill is a popular material for prototyping due to its excellent mechanical properties, impressive impact resistance, and suitability for long-term use.
+
+   High-temperature resistance
+   Tensile strength
+   Environmentally friendly material
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/50a24323dba4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:11.008Z'
+updated_at: '2025-03-25T22:31:11.008Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 463
+packages:
+  - 893729f7-c2f4-47ed-be2a-0d83274ccd3a
+  - f7efaa1c-cc5d-413d-97be-f2051de01c4d
+secondary_material_types: []
+opentag_uuid: b45cf280-e578-5232-82ad-369647a9cd76

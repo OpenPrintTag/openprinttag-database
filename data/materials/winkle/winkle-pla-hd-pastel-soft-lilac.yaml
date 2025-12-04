@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 78b695f7-7e4d-46de-a9a1-0ccb9028190f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: e2e61d68-be55-4f39-9a47-0b278a967528
+slug: pla-hd-pastel-soft-lilac
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Pastel Soft Lilac
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-pastel-winkle-175-mm-1-kg-lila-suave/
+primary_color: 1f74420a-be3a-458d-bc9d-f115d91e9996
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Winkle’s PLA HD Pastel Filament is designed to deliver high precision, strength, and aesthetics in every layer.
+  Its consistent 1.75 mm diameter, 96% stereochemical purity, and 45 MPa tensile strength ensure stable extrusion, reducing clogs and enhancing detail definition in complex prints.
+
+  PLA HD Filament has a low moisture level (maximum 400 ppm) and only 0.3% residual monomer, resulting in clean, deformation-free prints.
+
+  Applications for Winkle PLA HD Pastel Filament:
+  Perfect for 3D prototypes, decorative parts, custom accessories, architectural models, toys, creative jewelry, and design elements with a soft, subtle visual effect.
+
+  If you’re looking to buy PLA HD filament with excellent performance and a professional finish, this is the ideal filament for your most demanding 3D prints.
+thumbnail_url: https://file.myfilamentlist.com/new/e2e61d68-be55-4f39-9a47-0b278a967528.png
+deleted_at: null
+deleted_by: 7d68589f-94e0-428e-8cb2-02d0c4402d8c
+created_at: '2025-11-21T12:21:38.598Z'
+updated_at: '2025-11-21T12:21:38.598Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 89bd1f49-41fc-4542-9afa-e42609806db3
+  - ee963f52-2e83-4180-8d42-fbe0672c5e20
+secondary_material_types: []
+opentag_uuid: 76effa7c-1b93-5ef3-8341-22d0f4db3911

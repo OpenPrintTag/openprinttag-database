@@ -1,0 +1,68 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 1bf561c1-cb50-487b-8f53-870a3b75294a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 907a2f8b-3329-4052-8670-d633cda73fd6
+slug: petg-glacier-white
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Glacier White
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-winkle-blanco-glaciar-175-mm-1-kg/
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  A versatile and durable filament, ideal for creating reliable, long-lasting parts without compromising print quality.
+  PETG combines the best of PLA and ABS: it offers greater mechanical and thermal resistance than PLA, without the complications of ABS. Its enhanced chemical structure provides increased elasticity, impact resistance, and excellent layer adhesion.
+
+  This filament is perfectly suited to the needs of both hobbyists and 3D printing experts. Once printed, PETG stands out for its resistance to moisture, UV rays, and chemicals, making it a reliable choice for parts exposed to demanding conditions.
+
+  With precise 1.75 mm diameters, this PETG Filament melts evenly at temperatures between 220 °C and 240 °C, ensuring clean, warp-free prints with high detail. Recommended bed temperature is between 60 °C and 80 °C.
+
+  Available in three options to suit your needs:
+
+  300 g – Ideal for testing or small projects.
+
+  1 kg – Standard for regular use.
+thumbnail_url: https://file.myfilamentlist.com/new/907a2f8b-3329-4052-8670-d633cda73fd6.png
+deleted_at: null
+deleted_by: e2571ac6-9907-4bd3-b6ca-523f76bfb111
+created_at: '2025-11-21T11:17:51.033Z'
+updated_at: '2025-11-21T11:17:51.033Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 6c1d9128-a49b-4fc2-9cd5-aa40e839d76f
+  - 8305fadd-9177-474f-a00d-4a8dd3b61782
+  - e021c560-2f0b-4004-8b44-712c41adfb7c
+secondary_material_types: []
+opentag_uuid: 7ef949cd-96f1-545f-af31-b9efdeae3ccc

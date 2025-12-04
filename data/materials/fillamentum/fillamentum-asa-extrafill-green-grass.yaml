@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b556ed68ddc9.png
+    type: gallery
+uuid: 316d4312-808b-4645-8a7c-2a9676bdb259
+slug: asa-extrafill-green-grass
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Extrafill "Green Grass"
+abbreviation: null
+url: null
+primary_color: 3e6f2e19-d76d-4a7d-81c7-083e94022636
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  High UV stability and weather resistancemake ASA Extrafill ideal foroutdoor applications.
+
+   Excellent weather and UV light resistance
+   Retention of physical features such as color and mechanical properties
+   Recyclable
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/b556ed68ddc9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:14.136Z'
+updated_at: '2025-03-25T22:31:14.136Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 499
+packages:
+  - 4a302184-29fb-4b97-aafc-ebaf92cba129
+  - acf0d393-0fe5-4e84-bfa7-13f78b668987
+secondary_material_types: []
+opentag_uuid: db167e80-14c3-560d-8a9d-754b49c5d8a0

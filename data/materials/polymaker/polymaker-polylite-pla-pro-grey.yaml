@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ae2e1169aaa0.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 5f3e829a-2209-4e3d-abce-312964d90382
+slug: polylite-pla-pro-grey
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PLA Pro Grey
+abbreviation: null
+url: null
+primary_color: 642ef6e5-476e-43dd-8468-78098a078bf2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PLA Pro is a first of its kind: combining high toughness and high rigidity, this professional PLA offers engineering properties with the ease of print of regular PLA.
+
+  -  Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/ae2e1169aaa0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:44.313Z'
+updated_at: '2025-03-25T22:34:44.313Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3410
+packages:
+  - 3194d6cf-b6dc-46d1-95a8-aace882dd800
+  - 3cb9abb4-d677-47f5-b437-6f8493beb7d2
+  - 61507e75-95d1-48a7-8ad4-4df468730d87
+  - b9f94cc0-fbde-4ba3-89a0-bd777ba8dfa1
+  - c3ef7231-1d08-4b25-b31d-46320480e8db
+  - e3f5f3a9-3587-4edb-a112-5bc6eaf6c48e
+secondary_material_types: []
+opentag_uuid: 29d3593b-cbf9-532a-9f42-a32f73b996bb

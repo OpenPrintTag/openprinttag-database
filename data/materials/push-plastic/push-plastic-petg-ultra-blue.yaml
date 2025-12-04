@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/affd77b54378.png
+    type: gallery
+uuid: d0e72a99-cf0b-4bbb-ba90-19060390c251
+slug: petg-ultra-blue-3
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Ultra Blue
+abbreviation: null
+url: null
+primary_color: 1b18060d-2433-4948-811c-f46a123c2fbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/affd77b54378.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:33:10.674Z'
+updated_at: '2025-04-30T12:33:10.674Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7378
+packages:
+  - 26c5c143-2d54-4412-992f-1ebe5f73dd4a
+  - 52aa1641-7bd1-468c-84bc-9929cd00dfc8
+  - 5f11b828-081a-4117-85d7-a6be554052f6
+  - 62c7eac0-2bcd-483d-a436-a7248a83d322
+  - 636dc175-da57-4cda-9d9a-5501f289c51c
+  - 66a81947-77bc-4637-9f69-91bfd131c064
+  - 8b0830f3-8dca-45bb-a07d-28c5151623cd
+  - b62759c2-d652-45e2-b25a-65147d710852
+  - db0f22b0-34f6-4ac0-8d82-f11107880dec
+  - fe22b963-c7b4-4fc8-91f5-4447c255329f
+secondary_material_types: []
+opentag_uuid: ac0290ed-404a-57e7-ad5b-ea7b947417b7

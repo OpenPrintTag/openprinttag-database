@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3d11f406-71ae-498e-b854-ed6e06c74c00
+  hardness_shore_a: 96
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - f256a3c0-18ea-49c8-beb0-7af94c28e476
+uuid: e25d0aee-7c6b-4dca-855d-d031509aec7b
+slug: rosa-flex-96a-neon-green
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA-Flex 96A Neon Green
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-neon-green-175mm-1kg
+primary_color: 7f3a6a3a-1a12-44d4-8f36-14596a1101f8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  FILAMENT 3D ROSA-Flex 96A Neon Green is a thermoplastic polyurethane designed for intermediate users, ideal for learning to print with flexible materials. It is firm enough for Bowden printers, does not require an enclosed chamber, and adheres well to various build surfaces.
+
+  Prints feature excellent adhesion, mechanical damage resistance, and flexibility, allowing repeated compression and stretching without losing their shape. The filament is resistant to vinegar and motor oil and is made from materials approved for food contact.
+
+  Additionally, under UV light, it shines with an intense color, making it the perfect choice for printing party accessories.
+thumbnail_url: https://file.myfilamentlist.com/new/e25d0aee-7c6b-4dca-855d-d031509aec7b.png
+deleted_at: null
+deleted_by: bc12005f-a4ef-4c3a-9d54-2ab3e6539ffd
+created_at: '2025-11-18T10:35:44.443Z'
+updated_at: '2025-11-18T10:35:44.443Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 2cdf78e6-6307-40bb-a7a4-9fac803fc596
+  - b0d8d5af-c77a-457f-83f6-d90b070b31da
+secondary_material_types: []
+opentag_uuid: b810a4ec-784f-5838-b1c3-04e11e3e02fe

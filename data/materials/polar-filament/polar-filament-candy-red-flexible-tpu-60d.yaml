@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3334cbfc6ef5.png
+    type: gallery
+uuid: 738d44fd-986b-4e99-bffc-7cf76cebef3c
+slug: candy-red-flexible-tpu-60d
+brand_slug: polar-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Candy Red Flexible TPU-60D
+abbreviation: null
+url: null
+primary_color: a73c96f3-18f4-4069-95e5-ba4ea32e7695
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  What is TPU?
+  Thermoplastic Polyurethane (TPU) is a flexible, impact-resistant material that offers significantly more durability than common 3D printing materials like PLA or PETG. Unlike PLA, which is rigid and brittle, TPU can absorb impacts without cracking, making it ideal for functional parts, protective components, and industrial applications.
+
+  However, not all TPU is the same-and even within the TPU-60D category, different blends can have vastly different properties. At Polar Filament, we extensively tested multiple formulations to achieve exceptional layer adhesion, impact resistance, and printability, ensuring a smooth and reliable printing experience.
+
+  Why Choose TPU-60D?
+
+  Most TPU filaments on the market are rated 95A-98A on the Shore A hardness scale, meaning they are soft and highly flexible. TPU-60D, on the other hand, falls on the Shore D hardness scale, making it considerably more rigid while retaining impact resistance. This makes it perfect for applications requiring tough, semi-rigid parts that can withstand mechanical stress while maintaining some flexibility.
+thumbnail_url: https://file.myfilamentlist.com/f/new/3334cbfc6ef5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-03T15:46:54.868Z'
+updated_at: '2025-05-03T15:46:54.868Z'
+brand: 30d1056a-dfb9-4613-8385-644bfc1b07f6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 7742
+packages:
+  - c541c898-e671-44c8-af6d-3a56f577eeb3
+secondary_material_types: []
+opentag_uuid: 28cf8ff5-bbb0-574f-b27f-3599e367b281

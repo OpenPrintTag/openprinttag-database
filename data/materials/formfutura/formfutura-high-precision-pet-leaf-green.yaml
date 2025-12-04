@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/605dbcff46d4.png
+    type: gallery
+uuid: 118848f0-677e-4741-807b-2784de7a3008
+slug: high-precision-pet-leaf-green
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Precision PET Leaf Green
+abbreviation: null
+url: null
+primary_color: 6b8a2454-8f00-4026-b1c4-a985df8b8ea4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A pure PET filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Good inherent UV resistance.
+      Good chemical resistance.
+      3D Prints details with a high resolution and high surface quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/605dbcff46d4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:54.739Z'
+updated_at: '2025-03-25T22:31:54.739Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 1031
+packages:
+  - 083a9a3f-687a-4b1e-b538-5b939e09017e
+  - 09f098ab-76c6-4bf8-950b-204804b5c41c
+  - 165f5597-6e4c-4e15-8106-e25589a966e3
+  - ab3ccacf-fd77-489a-8c78-f0b20abb20ab
+secondary_material_types: []
+opentag_uuid: aa9972f1-ea18-5884-90cd-7fac5c4e529a

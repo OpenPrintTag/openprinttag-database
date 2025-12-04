@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/21df604d5906.jpg
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: b5038b88-f585-454a-9ec5-76ab72e8646e
+slug: petg-clearnatural
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Clear/Natural
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Behaves as a combination of ABS and PLA
+      Good tenacity, excellent hardness, high impact strength as much as 30 times more than PLA
+      Excellent breaking elongation
+      Corrosion resistance and weather resistance including UV
+      Excellent shock resistance between layers and stress resistance - Does not yield "creamy white spot" due to stress for objects with thin walls
+thumbnail_url: https://file.myfilamentlist.com/f/new/21df604d5906.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:52.999Z'
+updated_at: '2025-03-25T22:32:52.999Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 1923
+packages:
+  - 8ba16a41-0e38-439a-bbab-10d2463b07c7
+secondary_material_types: []
+opentag_uuid: d8dcaea0-c50a-53db-a229-1b6024f3e1ba

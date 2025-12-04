@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 813d1a68-6c39-4ff5-bfac-c77bf806be31
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 61441404-992b-413d-a008-07b49debce43
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c8cdd85b-825a-4056-9a81-248ad7b56957
+slug: pla-high-speed-grass-green
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA High Speed Grass Green
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-high-speed/
+primary_color: 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Spectrum Premium PLA High Speed is our latest filament designed for fast 3D printing at speeds of up to 600mm/s, allowing for the creation of highly precise models in significantly shorter times. Our filament has been optimized for high-speed 3D printing technology, ensuring high flowability, rapid cooling and precise reproduction of details.
+
+  The enhanced mechanical properties of Premium PLA High Speed, surpassing standard PLA, are particularly important when printing at high speeds. The material stands out for its increased impact resistance and excellent layer adhesion. Premium PLA High Speed also boasts exceptional performance and quality, making it ideal for many applications, including rapid prototyping and conceptual modeling.
+
+  During the formulation of our product, we focused on maintaining an environmentally friendly profile, so it is composed of 100% bio-based materials and is industrially compostable.
+
+  In response to user demand, we have introduced a wide range of colors, including our eye-catching UV-reactive Neon series – Premium PLA High Speed allows for creativity without limits!
+
+  Note: It should be remembered that higher printing speeds also require higher printing temperatures.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 5cea583b-e712-4962-ba86-1ab1bef1fc97
+created_at: '2025-09-30T14:11:30.552Z'
+updated_at: '2025-09-30T14:11:30.552Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9335
+packages:
+  - 332553a9-e9ab-4bf0-9527-a5b1bac97322
+  - 5d9621ea-57f9-4358-8e86-07978d933e81
+secondary_material_types: []
+opentag_uuid: 3576a5b3-be5a-5cb3-9063-67fe02d90100

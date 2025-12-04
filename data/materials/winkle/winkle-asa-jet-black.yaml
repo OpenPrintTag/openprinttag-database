@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 41d3db37-370f-441f-bff3-ed23902abe56
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b273a4a1-abff-46f1-b789-3fc3b4e36173
+slug: asa-jet-black-3
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Jet Black
+abbreviation: null
+url: https://winkle.shop/producto/filamento-asa-winkle-0250-kg-175-mm-negro-azabache/
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Professional strength for high-level 3D prints.
+  Looking for high-quality filament for furniture, prototypes, or decoration?
+
+  The Winkle ASA Filament 1.75 mm is the ultimate choice for 3D-printing enthusiasts seeking industrial-grade quality without sacrificing aesthetics.
+  Available in 250 g, 1 kg, and 5 kg formats, and in ash gray, natural, and jet black, this 3D printer filament is designed to simplify demanding projects.
+
+  Thanks to its high toughness, low shrinkage, and excellent resistance to weathering and UV light, this ASA 3D Filament withstands extreme conditions: sun exposure, water, impacts, and elevated temperatures. It is perfect for those seeking durable 3D prototypes, functional parts, or structural components that maintain their shape and color over time.
+thumbnail_url: https://file.myfilamentlist.com/new/b273a4a1-abff-46f1-b789-3fc3b4e36173.png
+deleted_at: null
+deleted_by: 43d6adf2-5f86-4fc8-bce9-7983bec5cc7a
+created_at: '2025-11-21T10:57:33.842Z'
+updated_at: '2025-11-21T10:57:33.842Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 45e731cd-5c9b-4556-ab92-533b999ffc0f
+  - 60c6aaca-9991-4b04-92bb-e6a453b564bc
+  - c20ab1d4-1b7a-45af-855f-f2715f62f4f5
+secondary_material_types: []
+opentag_uuid: fb77da7c-ffa6-5abf-804e-32de863e7018

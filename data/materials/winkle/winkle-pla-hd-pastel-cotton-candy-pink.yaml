@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: d78d120b-6ea7-4fc7-98df-5d7457f71826
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f03b9d29-0fc3-49e6-8370-1daa23e30f38
+slug: pla-hd-pastel-cotton-candy-pink
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Pastel Cotton Candy Pink
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-pastel-winkle-175-mm-1-kg-rosa-algodon-de-azucar/
+primary_color: ef417541-20ec-4c47-8420-be581a593bac
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Winkle’s PLA HD Pastel Filament is designed to deliver high precision, strength, and aesthetics in every layer.
+  Its consistent 1.75 mm diameter, 96% stereochemical purity, and 45 MPa tensile strength ensure stable extrusion, reducing clogs and enhancing detail definition in complex prints.
+
+  PLA HD Filament has a low moisture level (maximum 400 ppm) and only 0.3% residual monomer, resulting in clean, deformation-free prints.
+
+  Applications for Winkle PLA HD Pastel Filament:
+  Perfect for 3D prototypes, decorative parts, custom accessories, architectural models, toys, creative jewelry, and design elements with a soft, subtle visual effect.
+
+  If you’re looking to buy PLA HD filament with excellent performance and a professional finish, this is the ideal filament for your most demanding 3D prints.
+thumbnail_url: https://file.myfilamentlist.com/new/f03b9d29-0fc3-49e6-8370-1daa23e30f38.png
+deleted_at: null
+deleted_by: a0a9e778-9a25-4695-a178-87b1584c21de
+created_at: '2025-11-21T12:24:17.902Z'
+updated_at: '2025-11-21T12:24:17.902Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0e56df61-0477-4422-a855-3ad9e537a43e
+  - a877710b-c83c-4333-acd0-b7e738cacf06
+secondary_material_types: []
+opentag_uuid: 956910ec-a183-5882-a2cd-84926be76a96

@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/524e85af04c2.jpg
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 4be4fd28-3541-48b1-b520-7dcc0ad5edc1
+slug: pla-cf-iris-purple-3
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA-CF Iris Purple
+abbreviation: null
+url: null
+primary_color: a7370c0c-a72d-4da3-a82a-79ffc7577169
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Enhanced Strength and Rigidity: PLA-CF contains a high percentage of carbon fiber, significantly improving the mechanical strength and rigidity of printed parts, especially those that need to bear pressure and load.
+
+      Lightweight: Despite its increased strength, PLA-CF remains lightweight, making it ideal for applications in aerospace, automotive, and other industries where weight is critical.
+
+      Improved Wear Resistance: The inclusion of carbon fiber provides PLA-CF with higher wear resistance, making it suitable for parts that experience frequent friction, such as gears and bearings.
+
+      Easy to Print: Compared to other carbon fiber-reinforced materials, PLA-CF shares similar printing properties with regular PLA and doesn't require special printing conditions such as high bed temperatures or nozzle heat, making it easier to print.
+
+      Low Warping and Smooth Finish: PLA-CF maintains PLA's low shrinkage and warping, ensuring better dimensional stability during printing. Its carbon fiber content provides a smooth, matte surface, making it ideal for both functional and aesthetic parts.
+thumbnail_url: https://file.myfilamentlist.com/f/new/524e85af04c2.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:23.410Z'
+updated_at: '2025-03-25T22:33:23.410Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2634
+packages:
+  - 1e144072-83f2-4bc2-8c0e-f06caffe4455
+secondary_material_types: []
+opentag_uuid: 374ca80e-0bf6-5b06-809b-f1cc3a0126b5

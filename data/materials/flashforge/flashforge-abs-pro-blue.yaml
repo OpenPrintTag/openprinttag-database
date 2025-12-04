@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/81202628fb27.jpg
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: b44626ba-5110-4265-8b0b-d17eb7ce940d
+slug: abs-pro-blue
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Pro Blue
+abbreviation: null
+url: null
+primary_color: efae8549-8440-426e-8bf1-4080ee157fff
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      High Durability and Heat Resistance: FLASHFORGE ABS Pro is an advanced ABS 3D printing filament with reduced shrinkage and eliminated strong odors. It is ideal for creating sturdy, high-temperature-resistant items such as action camera mounts, tools, and electrical device housings, providing a smoother printing experience.
+
+      Premium Raw Materials: FLASHFORGE ABS Pro is renowned for its exceptional quality. It comes in vibrant colors and is compatible with various FDM 3D printers. Thoroughly tested to minimize troubleshooting, it saves time and is perfect for quickly producing prototypes and fine models.
+
+      Outstanding Stability: This filament delivers excellent print results without the need for pre-drying or parameter adjustments. Its strong bed adhesion ensures a stable first layer, while superior bridging performance prevents delamination.
+
+      Precise Consistency: Advanced CCD diameter measurement systems and adaptive control ensure that ABS Pro filaments meet strict tolerance requirements. The size accuracy is 99% with a deviation as low as +/-0.02 mm. Each spool contains 1 kg (2.2 lbs) of filament.
+
+      Improved Warping and Low Odor: Compared to standard ABS, ABS Pro has lower warping and cracking risks, making it suitable for large prints. Its low odor characteristic enhances printing environment comfort.
+thumbnail_url: https://file.myfilamentlist.com/f/new/81202628fb27.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:11.971Z'
+updated_at: '2025-03-25T22:31:11.971Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 360
+packages:
+  - 2fa9b2c1-b766-43f0-8ed2-e29004d3371d
+secondary_material_types: []
+opentag_uuid: 98e9c97e-668b-5aa3-b049-e7c4a8fe2cd8

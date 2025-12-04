@@ -1,0 +1,52 @@
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: b57cbda4-3002-4a24-b77b-b75d28ab04e8
+slug: abs-matt-black-3
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Matt BLACK
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-abs-matt-black-750g/
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 57d60b48-dd51-447d-b630-60efb0181331
+created_at: '2025-09-24T08:01:40.112Z'
+updated_at: '2025-09-24T08:01:40.112Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 8950
+packages:
+  - d446355f-b6e2-4527-a6f3-dc7eb49eaba2
+secondary_material_types: []
+opentag_uuid: 92904819-bd0a-5ffa-ad9a-a2161eba824b

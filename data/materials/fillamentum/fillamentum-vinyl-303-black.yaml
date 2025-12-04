@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b13f941ec624.png
+    type: gallery
+uuid: 0ea00b50-b81c-46af-8dc7-a4e7251741a9
+slug: vinyl-303-black
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Vinyl 303 "Black"
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Vinyl 303 is a high-tech filament made of polyvinyl chloride (PVC), widely used (commodity) plastic.
+
+  Thanks to its great properties, this is a perfect choice for functional prototyping, spare parts, or printing of objects for everyday use.
+
+   Naturally flame-retardant without additives
+   Excellent chemical resistance to oils, salts, solutions, and water
+   High impact resistance with great toughness and rigidity
+   Safe for use in electrical and electronic equipment
+thumbnail_url: https://file.myfilamentlist.com/f/new/b13f941ec624.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:42.518Z'
+updated_at: '2025-03-25T22:36:42.518Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 495c02b1-f7aa-473c-aa63-f3e20359f160
+colors:
+  - 5288
+packages:
+  - ab6cad03-3d39-456e-83ff-f5b3c74ebdeb
+  - ca7bfbd6-9e71-48fb-b3da-30baa6089461
+secondary_material_types: []
+opentag_uuid: 39321efd-5b83-5a9d-8896-7f106f7f39b0

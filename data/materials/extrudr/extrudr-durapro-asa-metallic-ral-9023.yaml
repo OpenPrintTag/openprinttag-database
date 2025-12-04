@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/dce78d85eb64.png
+    type: gallery
+uuid: 84052823-64e9-4dba-8ad5-81f9ec3d2a86
+slug: durapro-asa-metallic-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ASA metallic | RAL 9023
+abbreviation: null
+url: null
+primary_color: db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ASA has been specially developed for industrial applications and is characterised by its high UV and weather resistance. It is therefore particularly suitable for use in the automotive sector and outdoors. The material is fire retardant according to UL94 HB. DuraPro ASA has been optimised for the FFF/FDM process, so the material has good layer adhesion, thermal stability, improved flow properties and low warping.
+
+      UV and weather resistant
+      Matt surface
+      High mechanical strength
+      Good layer and bed adhesion
+      Low warping
+thumbnail_url: https://file.myfilamentlist.com/f/new/dce78d85eb64.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T20:07:14.910Z'
+updated_at: '2025-03-28T20:07:14.910Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 3831
+packages:
+  - 1b2f24bc-691b-4852-8e5b-464bf4306223
+  - 67409823-d1be-4b26-86ee-5906a0a3ce13
+secondary_material_types: []
+opentag_uuid: 195dc41e-2bd0-517f-8a92-b0b0fa81060f

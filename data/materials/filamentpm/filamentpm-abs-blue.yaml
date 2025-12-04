@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/227e6f50ddc7.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 5f976500-0613-4330-860b-2bee93edc237
+slug: abs-blue-5
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS - Blue '
+abbreviation: null
+url: null
+primary_color: 9ff71ced-a991-4871-802b-5d6e03ebbbdb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS (akrylonitrilbutadienstyren)
+  - more suitable for advanced makers
+  - for both small and large prints
+  - strong and tough material with a high surface hardness
+  - impact and heat resistant (up to 90 degreesC)
+  - acetone-soluble (easy post-processing)
+  - typical smell
+  - thermal contracting (closed chamber recommended)
+thumbnail_url: https://file.myfilamentlist.com/f/new/227e6f50ddc7.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:01:08.272Z'
+updated_at: '2025-04-23T11:01:08.272Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7092
+packages:
+  - dc9f0f3e-9a6a-4bff-b858-de396368ee35
+secondary_material_types: []
+opentag_uuid: d7ab93a2-06fa-533c-adeb-a8fd2a52b644

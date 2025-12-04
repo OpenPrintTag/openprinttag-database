@@ -1,0 +1,76 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a7e8da2febcd.png
+    type: gallery
+tags:
+  - 85b92735-dfaf-418c-9971-8fec7d0ed97e
+uuid: 7ae346f7-5749-455c-941b-889c04d9be1b
+slug: atlas-support-red
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Atlas Support Red'
+abbreviation: null
+url: null
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Atlas Support is a water-soluble PVA type of 3D printer filament that is ideal as support material for complex multi-extrusion 3D printing with PETG based filaments as build material.
+
+  Atlas Support is a water-soluble PVA (polyvinyl alcohol) support material for complex multi extrusion prints. It is designed to be used in combination with PETG based materials. Atlas Support is a 3D printer filament with a high thermal stability and can be printed at slightly higher temperatures compared to regular PVA.
+  Key features
+
+      Excellent (cold) water solubility
+      Improved thermal stability, resulting in less risk on deterioration/crystalizing inside the nozzle
+      Max thermal stability of 225° C, tested up to 256 seconds with no flow
+      Biodegradable once dissolved in water
+      Safe dissolution in tap water
+      Can be disposed of in the kitchen sink, or household drain with an excess of water
+      Good bonding to PETG-based materials and other (thermo)plastics that print within a similar temperature range
+      Less sensitive to deterioration by humidity compared to regular PVA
+
+   
+  Applications
+
+      Reliable multi-extrusion 3D printing of complex structures that require a water-soluble support material
+      3D printing geometries with large overhangs, or complex hollow structures
+      PVA Molds
+thumbnail_url: https://file.myfilamentlist.com/f/new/a7e8da2febcd.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:15.764Z'
+updated_at: '2025-03-25T22:31:15.764Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+colors:
+  - 164
+packages:
+  - 25fd17bc-49b5-4d91-90fa-4be0f37be003
+  - 499d255e-ad93-4f12-b66d-bac9eaeffdb5
+  - 5bc82f6a-1f79-4565-a9f5-4ed47c825853
+  - 718cbfc2-cf49-4896-8cdb-aac9db36edb9
+secondary_material_types: []
+opentag_uuid: 781b780a-f6bc-50e7-a909-0acb08a54b55

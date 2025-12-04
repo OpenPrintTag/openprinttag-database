@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/15e321b61e60.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 9734a9f0-913d-4d18-8246-ae25ce92dbed
+slug: adura-fda
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Adura™ FDA
+abbreviation: Adura™
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      A specially developed Nylon co-polymer
+      Print parts with tight tolerances and minimal warpage
+      Lower crystallinity makes it better suitable and easier to use
+
+  AduraTM FDA is made using a specially developed Nylon copolymer with all the durability you expect from Nylon.
+
+  It has a lower crystallinity compared to other Nylons, which makes it better suitable and easier to use in FFF-printing.
+
+  AduraTM has a very low shrinkage rate which allows for printing parts with tight tolerances and with minimal warpage. This enables users to create functional parts with a specific size requirement.
+
+  The material furthermore complies with all the requirements of the FDA regulations 21 CFR 177.1500. It is however the responsibility of the customer/user/printer to go thru any and all certifications for the final prints to also be FDA certified.
+thumbnail_url: https://file.myfilamentlist.com/f/new/15e321b61e60.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T16:39:11.903Z'
+updated_at: '2025-04-01T16:39:11.903Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: null
+colors:
+  - 4912
+packages:
+  - c81e15d8-0c8a-49ba-8e03-bbeb8a2eee16
+  - f695434e-5f81-4e9e-8422-b3f30c2fe460
+secondary_material_types: []
+opentag_uuid: 8ee812bb-adf8-57fe-8a13-a148728ae738

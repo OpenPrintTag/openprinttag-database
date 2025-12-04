@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 328eca1b-8df7-41dd-a68e-b99cfdb74b2d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 1408f65a-2e4f-4835-8c29-94361cacd60d
+uuid: bf7f1a5a-51e0-42f0-85a5-8fcab39110f7
+slug: cubic-ink-rigid-1600-vp-black
+brand_slug: altana
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Cubic Ink® Rigid 1600 VP Black
+abbreviation: null
+url: https://www.altana.com/cubic-ink/resins.html
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: 6eaede1c-f7f3-486d-8a59-fa1b7a5b53af
+created_at: '2025-10-06T09:13:26.730Z'
+updated_at: '2025-10-06T09:13:26.730Z'
+brand: f9e0e423-61ea-4840-9b0b-3752c2f56a1f
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9530
+packages:
+  - 8f2cdfbb-3d48-4f41-8582-83d79b2a58b0
+  - fdf874f1-9bdc-4bf6-a684-297b348f5e3c
+secondary_material_types: []
+opentag_uuid: 9015a0f2-1f94-5174-8c1c-b6f1398b7216

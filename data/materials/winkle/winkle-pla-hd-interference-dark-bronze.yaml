@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9cf52d38-a5fc-4fce-aad9-aed2b9108fd7
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: de677690-28b7-4045-96e9-8fc7a462ddb2
+slug: pla-hd-interference-dark-bronze
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Interference Dark Bronze
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-interferencia-winkle-175-mm-1-kg-bronce-oscuro/
+primary_color: 46a1eab6-8cf5-4b3f-a451-3fe0914c9759
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Introducing PLA HD Interference Filament, offering uniform metallic visual effects.
+  This 1.75 mm Winkle PLA Filament is the ideal choice for 3D printing enthusiasts who value both aesthetics and technical performance.
+  Available in 300 g, 1 kg, and 5 kg formats, this 3D printer filament delivers highly visual and consistent results.
+
+  Applications for PLA HD Interference Filament:
+  Perfect for 3D prototypes, decorative pieces, functional elements, detailed figures, and components with high-impact visual finishes.
+  Compatible with any FDM printer that uses 1.75 mm PLA filament, this filament provides a smooth printing experience, clog-free operation, and excellent layer-to-layer adhesion.
+thumbnail_url: https://file.myfilamentlist.com/new/de677690-28b7-4045-96e9-8fc7a462ddb2.png
+deleted_at: null
+deleted_by: e1367583-fe81-47eb-a7cd-c8f332bb620c
+created_at: '2025-11-21T12:28:16.272Z'
+updated_at: '2025-11-21T12:28:16.272Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 244e767d-d472-4db1-8b1d-d1e13ba63cb4
+  - 479ef8bb-a262-480a-acd3-6533be13f0f2
+secondary_material_types: []
+opentag_uuid: b5f6f827-61a7-538c-aca4-366b35c1ca4b

@@ -1,0 +1,54 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2d15c4f2-308f-451c-b6e6-3322ae98eac2
+  hardness_shore_a: null
+  hardness_shore_d: 83
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 411e4b7c-0565-4544-a2f7-a40c87fd3678
+slug: rosa-tpu-hardtech-83d-impact-abrasive-uv-h2o-microbe-resistant-red
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ROSA TPU HardTech+ 83D, Impact - Abrasive - UV - H2O - microbe- resistant Red
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-rosa-tpu-hardtech-plus-83d-impact-abrasive-uv-h2o-microbe-resistant-red-1kg
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: FILAMENT 3D ROSA TPU HardTech+ 83D Red is an exceptionally durable filament designed to withstand harsh conditions. It is resistant to microbes, water, cold conditions, UV radiation, abrasion, and impacts. Although it’s a FLEX-type material, it remains very rigid while maintaining one of the key characteristics of flexible filaments – excellent interlayer adhesion. This means that under high stress, the material will deform rather than break, ensuring strength and reliability in demanding applications.
+thumbnail_url: https://file.myfilamentlist.com/new/411e4b7c-0565-4544-a2f7-a40c87fd3678.png
+deleted_at: null
+deleted_by: a28b5c80-1d5f-49a0-924f-c64fa5fe5e71
+created_at: '2025-11-18T11:05:07.199Z'
+updated_at: '2025-11-18T11:05:07.199Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - ff75741e-8029-41da-896f-284bd864f049
+secondary_material_types: []
+opentag_uuid: b372d12e-5ff7-5358-94c1-5614171a6b90

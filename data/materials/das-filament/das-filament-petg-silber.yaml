@@ -1,0 +1,63 @@
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: d03d43c0-9617-4232-b891-734342456303
+slug: petg-silber
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Silber
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/379/petg-filament-1-75-mm-silber-800-g?c=35
+primary_color: 493c1f2e-7c71-48c4-9dfb-36df1fe9108d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,10mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Silber mit Sparkle Effekt
+thumbnail_url: null
+deleted_at: null
+deleted_by: c0a6ad24-0904-4dae-a489-8545bea5bd84
+created_at: '2025-10-19T09:04:47.197Z'
+updated_at: '2025-10-19T09:04:47.197Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 0d63573a-86de-441d-8300-6eaed62bc1f9
+  - 56132986-5dc9-47ad-b995-9c9cc8fb56f8
+secondary_material_types: []
+opentag_uuid: 72d430bc-b872-5a5c-8664-e31bb0c5cebb

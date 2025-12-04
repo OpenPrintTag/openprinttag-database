@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7169b7d850c8.png
+    type: gallery
+tags:
+  - 94ce8705-92d6-49aa-a341-c591ede2ea43
+uuid: b35687c0-5286-43e7-a51b-622a8522f74c
+slug: tpu-ninjatek-eel-midnight-black
+brand_slug: ninjatek
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU NinjaTek Eel - Midnight Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  EelTM TPU 3D printing filament is one of the only conductive, static dissipative and flexible materials on the market. The consistent diameter yields high-quality prints, and it's chemically resistant to a variety of materials.
+
+      Shore Hardness = 90A
+      Truly flexible conductive material
+      355% elongation allows for repeated movement without wear or cracking
+      Chemical resistance to many materials.
+      REACH and RoHS 3 (EU 2015/863)
+thumbnail_url: https://file.myfilamentlist.com/f/new/7169b7d850c8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:25.991Z'
+updated_at: '2025-03-25T22:36:25.991Z'
+brand: dc14bc52-0ea9-467f-a3a1-cbff6957c8ec
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5144
+packages:
+  - 501e135d-7234-4fcd-a8c9-af5078bdff59
+  - 5f3429b3-248f-4594-a506-cabac5aeab5a
+  - a9d03733-b3ce-4f75-bf3d-cb250478fe42
+  - bced0db3-f9d2-49c2-bc2b-01990ca342fc
+secondary_material_types: []
+opentag_uuid: 2ae9d161-f704-5e25-9b21-e5551f2b7664

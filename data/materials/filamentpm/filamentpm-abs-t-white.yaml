@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ee383b84af1d.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: e874259e-7cad-45b0-b4f1-0f1d56a94f1e
+slug: abs-t-white
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS-T - White '
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS-T (akrylonitrilbutadienstyren + methyl-methacrylate)
+  - ABS with few differences:
+
+      even more resistant (up to 98 degreesC)
+      harder and stronger material than classic ABS
+      the colors are shiny because the input material is transparent
+      more difficult to print and adhesion to the heatbed (closed chamber recommended even more)
+      more suitable for printing smaller objects
+thumbnail_url: https://file.myfilamentlist.com/f/new/ee383b84af1d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:15:23.159Z'
+updated_at: '2025-04-23T11:15:23.159Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7100
+packages:
+  - 4b11beb6-d512-4bb8-b544-cd3c69494d8e
+secondary_material_types: []
+opentag_uuid: b5739101-bd38-5791-94ce-2927678b939c

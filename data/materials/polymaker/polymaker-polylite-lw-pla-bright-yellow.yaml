@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2c751290207e.png
+    type: gallery
+tags:
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f39780fd-0e9d-4d77-b5c9-557c5b6058eb
+slug: polylite-lw-pla-bright-yellow
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ LW-PLA Bright Yellow
+abbreviation: null
+url: null
+primary_color: ce9caeb2-16c7-4a34-9669-d0ed8ab459e0
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ LW-PLA is a special foamed PLA designed to print with similar settings as regular PLA but with half the weight.
+
+
+  - Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2c751290207e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:37.032Z'
+updated_at: '2025-03-25T22:34:37.032Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3394
+packages:
+  - cc54b3bd-e73d-431f-a46e-175842514339
+secondary_material_types: []
+opentag_uuid: 109e5b01-55d0-5c5b-8edb-0ce5207915e7

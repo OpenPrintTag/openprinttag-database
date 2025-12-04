@@ -1,0 +1,76 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 35d81bfa-4b41-4899-be66-77a9c70268a5
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: b71e9efa-f3dd-45a8-82dc-248bf3b04881
+slug: pla-blaster-natural
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Blaster Natural
+abbreviation: null
+url: https://www.filamentree.eu/shop/30310101-pla-blaster-natural-1kg-4612?category=61#attr=733,2985,2984,735,3611,3612,2988,2989,736
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Blaster Natural is a premium filament for users who value not only strength and performance but also visual neutrality and partial transparency. This clear, pigment-free PLA+ highlights the natural appearance of the material and is ideal for applications that require clean lines, visible internal structures, or visual content inspection.
+  Based on PLA Plus, it provides enhanced toughness, excellent layer adhesion, and consistent print quality—just what you need for technical or experimental projects.
+  Key Benefits:
+
+      Natural, Semi-Transparent Look: Free of color pigments, offering a subtle translucency—perfect for visual analysis, lit elements, or minimalist models.
+      Improved Mechanical Strength: Thanks to PLA+ composition, the filament is tougher and suitable for functional parts under moderate stress.
+      Reliable Printing Experience: Minimal warping, strong layer bonding, and consistent output.
+      Wide Compatibility: Suitable for all FDM/FFF 3D printers with a standard 0.4 mm nozzle.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources—sustainable and safe.
+
+  Applications:
+
+      Functional Parts with Visual Access: Great for tanks, covers, tubes, sensors, or containers where internal contents need to be visible.
+      Prototypes and Visual Concepts: Allows observation of geometry, structure, and light flow through the model.
+      Illuminated Prints and Diffusers: Ideal for lamps, LED covers, and translucent elements.
+      Educational Projects: Perfect for classroom demonstrations where internal features must be shown clearly.
+      All-Purpose Neutral Filament: A great default option for those who prefer a clean, natural look without added color.
+
+
+  PLA Blaster Natural is a smart choice for creators looking to combine functionality, clarity, and aesthetics. With its transparency and reliable performance, it’s ideal for technical prints, prototypes, educational models, or detailed analysis projects.
+thumbnail_url: https://file.myfilamentlist.com/new/b71e9efa-f3dd-45a8-82dc-248bf3b04881.png
+deleted_at: null
+deleted_by: 5944f5d9-9b52-453e-8d88-7b4671c67d44
+created_at: '2025-12-01T11:00:29.450Z'
+updated_at: '2025-12-01T11:00:29.450Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 31247cb2-3014-4aba-9d51-cd8fe093547a
+secondary_material_types: []
+opentag_uuid: 51a5892a-9cab-5c2e-99c9-8a5f7c512485

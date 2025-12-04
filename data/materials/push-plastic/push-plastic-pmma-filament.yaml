@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/cabe25c76040.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 61930c4b-89c0-48c2-a294-9e49f291f711
+slug: pmma-filament
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PMMA Filament
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PMMA or Poly(methyl methacrylate) or more commonly know as acrylic or plexiglass 3D printing filament.
+
+  PMMA is commonly used as a replacement for glass and is very clear in it's natural form. This material also has the ability to be acetone smoothed to give a truly clear print! 
+thumbnail_url: https://file.myfilamentlist.com/f/new/cabe25c76040.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T13:29:22.738Z'
+updated_at: '2025-04-30T13:29:22.738Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: d3b6e9e6-7cfb-49f8-8af6-91a0430c91e9
+colors:
+  - 7380
+packages:
+  - 271d3b24-be30-42dd-a7c5-8f5f7d192714
+  - 876e4be3-5f42-44fc-aa96-c74244011d8e
+  - adbaaeae-5dfb-4259-930e-98cc6c2d4dda
+  - beae99f5-b809-4b0a-a0ec-0a427bb81730
+  - e069b3b5-ddda-4366-b78e-f932e521ddbe
+  - fad93b9e-e4f7-4791-ab6c-b37b9ff3780e
+secondary_material_types: []
+opentag_uuid: 668f9ba1-5a85-58da-8034-ac1c2536ca54

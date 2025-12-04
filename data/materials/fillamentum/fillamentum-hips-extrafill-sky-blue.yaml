@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e7824db28136.png
+    type: gallery
+uuid: 573f6dc9-4b61-49cb-b15a-17e4c3d92c36
+slug: hips-extrafill-sky-blue
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS Extrafill "Sky Blue"
+abbreviation: null
+url: null
+primary_color: 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  HIPS Extrafill is a versatile filament ideal for support structures, dissolvable in Lemonesol, and perfect for complex dual-extrusion prints. It also excels in functional parts with high impact strength, thermal resistance, low moisture absorption, and excellent insulation.
+
+
+      Excellent chemical resistance
+      Food-safe and BPA-free
+      Matte finish with easy post-processing
+      High impact and heat resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/e7824db28136.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:04.209Z'
+updated_at: '2025-03-25T22:32:04.209Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 1636
+packages:
+  - 400758c7-15c8-4e03-b427-f2bb608998de
+  - 91026185-8897-40df-8422-0e27d0818415
+secondary_material_types: []
+opentag_uuid: e06b3767-ad46-54fb-b12d-18a5e0809eb5

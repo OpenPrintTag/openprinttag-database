@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/242ff7f1-e01d-4142-aa8c-7813c5acf927/1d672370d679.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 242ff7f1-e01d-4142-aa8c-7813c5acf927
+slug: pla-carbon-fiber-aquamarine-blue
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Carbon Fiber Aquamarine Blue
+abbreviation: null
+url: null
+primary_color: a8298fed-68bc-44ba-a881-38b9207589b9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Carbon Fiber PLA for Strength and Precision
+
+  Engineered for advanced 3D printing, PLA Carbon Fiber Filament combines the lightweight durability of carbon fibers with the reliability of high-performance PLA. This filament delivers enhanced rigidity and strength, making it ideal for functional prototypes, engineering parts, and projects requiring superior structural integrity.
+thumbnail_url: https://file.myfilamentlist.com/f/242ff7f1-e01d-4142-aa8c-7813c5acf927/1d672370d679.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:21.432Z'
+updated_at: '2025-04-11T15:29:30.625Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 6866
+packages:
+  - 28699a39-1e28-4972-83d2-b596e0f3d8e4
+secondary_material_types: []
+opentag_uuid: 5a52b2b5-1a04-567f-94d5-d61a19f77f93

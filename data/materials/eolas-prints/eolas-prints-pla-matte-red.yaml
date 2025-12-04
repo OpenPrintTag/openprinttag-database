@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 47568d99-a5cc-4cff-be9b-06388c2799ef
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: 05d976e8-49ec-442c-bb55-260de9d4b5ca
+slug: pla-matte-red
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Matte Red
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-matte-filament?variant=42726060261635
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: https://file.myfilamentlist.com/new/05d976e8-49ec-442c-bb55-260de9d4b5ca.png
+deleted_at: null
+deleted_by: c04eee54-6d8a-41b3-9603-9db5f74617fc
+created_at: '2025-11-10T21:52:01.664Z'
+updated_at: '2025-11-10T21:52:01.664Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 67019df7-4e9d-48c4-a1f4-189d56585adc
+  - ddd03c0b-cfbf-470e-8f25-c607c0ee48f8
+secondary_material_types: []
+opentag_uuid: ae13b68e-2d02-5b73-a797-b2e0b3a42e8d

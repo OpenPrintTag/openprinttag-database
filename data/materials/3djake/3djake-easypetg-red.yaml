@@ -1,0 +1,60 @@
+uuid: 9a83a674-68a8-4ddb-b4fc-df58cb42f680
+slug: easypetg-red
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: easyPETG Red
+abbreviation: null
+url: https://www.3djake.com/3djake/easypetg-red
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The modified PETG from 3DJAKE combines outstanding mechanical and optical properties and is ideal for printing functional parts and sophisticated objects.
+
+      High toughness and resilience: Offers significantly higher stability and resilience than PLA.
+      Improved temperature resistance: Suitable for applications that require higher heat resistance.
+      Low warping: Ensures consistent and warp-free print quality.
+      High chemical resistance: Resistant to many chemicals and ideal for demanding applications.
+
+  Tip: For optimal adhesion, we recommend using a heated bed or adhesion aids such as Blue Tape or BuildTak.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 601cda16-5a27-4aef-97ee-3a7c387fd742
+created_at: '2025-11-07T16:33:31.992Z'
+updated_at: '2025-11-07T16:33:31.992Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 1293da87-8006-4c10-a540-6e9165c8d8f7
+  - beca1b44-f9a4-4f76-b7bd-29047a1d4af6
+secondary_material_types: []
+opentag_uuid: c9d5f053-9e1d-55b2-811e-f3b077c6c833

@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6ff1503d-33ea-43c0-9b60-110bc2d2d73a
+  hardness_shore_a: 89
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7a389848b99a.png
+    type: gallery
+uuid: 03b43a31-d7e7-44fa-a1b2-87250c9eb33f
+slug: flex-920-fuchsia
+brand_slug: sakata-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FleX-920 Fuchsia
+abbreviation: FleX-920
+url: null
+primary_color: c5316f73-554d-4f15-acce-bfe877244b91
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  The FleX-920 is a flexible filament developed by Sakata 3D Filaments, making it a unique product in the market. This material, 100% biodegradable and compostable, emerges as an alternative to TPU/TPE due to its elastic properties. Furthermore, it exhibits the ease of printing of PLA. This revolutionary filament allows for the creation of parts with a high degree of flexibility (89 Shore A).
+
+  100% MADE IN SPAIN  
+thumbnail_url: https://file.myfilamentlist.com/f/new/7a389848b99a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:41.216Z'
+updated_at: '2025-03-25T22:31:41.216Z'
+brand: 5dd4f5e8-652a-405f-b17f-61813e135bf3
+type: null
+colors:
+  - 983
+packages:
+  - 10530600-dd84-46e9-9ac9-bba1329f9689
+  - e3c2b987-14ec-4c2b-b70a-7c28c129a5c5
+secondary_material_types: []
+opentag_uuid: d10464c0-bd4a-53b7-9109-0e112c2e4402

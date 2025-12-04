@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0508e516-b07c-435e-a8fe-73f2d48428d0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 3987ab7d-e015-4a29-94cc-7e785f8d4caa
+slug: huracan-pla-ola-pink
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Huracan PLA Ola Pink
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/huracan-pla/
+primary_color: 7f884112-6ce0-4a09-bccc-019bbcb59b97
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Huracan PLA is an innovative filament designed for high speed 3D printing (up to 350mm/s), which combines incredible printing speed with unique mechanical and thermal (post-annealed) properties. This material is characterized by exceptional efficiency and quality, making it ideal for a wide range of applications.
+
+  Through the optimization of its chemical composition, the material flow of Huracan PLA has been improved nearly threefold compared to standard PLA filaments. This means that you can achieve extremely high printing speeds without sacrificing print quality. Even at fast speeds, Huracan PLA ensures excellent printing precision, enabling the creation of models with extraordinary details.
+
+  The high material flow ensures an adequate amount of extrusion, while rapid cooling allows for quick shaping of the print. This allows you to enjoy excellent surface quality and precise model structures, even at high printing speeds.
+
+  Huracan PLA offers not only exceptional print quality, but also enhanced mechanical and thermal properties, making it excellent in many demanding applications. The impact resistance of Huracan PLA, measured by the Izod method, is nearly twice as high as standard ABS. This filament provides a genuine alternative to styrene-based filaments. Huracan PLA has been made from ingredients approved for food contact.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 98894a79-6996-40f6-b4ed-57fa6d090ed8
+created_at: '2025-09-29T12:14:03.880Z'
+updated_at: '2025-09-29T12:14:03.880Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9278
+packages:
+  - 7d171459-6f2b-4d6f-8beb-ffbaa71f873c
+  - a418caaa-76e7-4e21-addb-226ad33a4490
+secondary_material_types: []
+opentag_uuid: c3094afa-3bd1-5498-a453-932e8d0b37a3

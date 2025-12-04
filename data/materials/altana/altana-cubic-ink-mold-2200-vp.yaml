@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11800'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 44097cf5-4251-4cb6-8bc4-ae7a0fbfaf20
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 17a87177-f9b9-4058-abd8-8340ae0752a8
+uuid: 7f935126-2432-488c-94ac-8d4ef1406b00
+slug: cubic-ink-mold-2200-vp
+brand_slug: altana
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Cubic® Ink Mold 2200 VP
+abbreviation: null
+url: https://www.altana.com/cubic-ink/resins.html
+primary_color: 2443bde2-a153-44e0-8103-c2d8f43bcc81
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: null
+deleted_at: null
+deleted_by: aadc2985-37ca-4803-9027-dcdf2d0840f4
+created_at: '2025-10-06T09:03:25.304Z'
+updated_at: '2025-10-06T09:03:25.304Z'
+brand: f9e0e423-61ea-4840-9b0b-3752c2f56a1f
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9668
+packages:
+  - 3d7ce046-c834-47d2-bb53-57ec8a3ec507
+  - db7cde7b-25d2-46e9-a983-8d054ce3f3ea
+secondary_material_types: []
+opentag_uuid: f6fea9b1-efe1-5580-918c-a1264b82484a

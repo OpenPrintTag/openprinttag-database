@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.04000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6a039a9b-76c6-4746-b6e6-df130a1a1f38
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: d4a90bb4-5df9-41c1-879b-7c5980c1ad40
+slug: abs-grey-8
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Grey
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/abs-filament?variant=43499235508483
+primary_color: 8a68f8ad-72bb-4261-838b-90981e68c87b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints ABS represents a significant advancement in additive manufacturing materials, offering superior performance compared to standard ABS filaments. The material demonstrates exceptional durability and impact resistance, with key improvements in processing characteristics and mechanical properties.
+thumbnail_url: https://file.myfilamentlist.com/new/d4a90bb4-5df9-41c1-879b-7c5980c1ad40.png
+deleted_at: null
+deleted_by: b379882c-1ab1-4ab8-8b63-ba1516d3ec49
+created_at: '2025-11-11T11:30:04.564Z'
+updated_at: '2025-11-11T11:30:04.564Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors: []
+packages:
+  - 17d7227d-294a-4e96-b7bf-9827800e3a61
+  - 38120c6e-c2d4-4d05-836f-74308e8a312b
+  - 3bd62532-4804-48ec-b00a-b62c6204870e
+  - 7312f8e0-8656-4c30-a686-eec23d4ae662
+  - 73569025-650e-43ec-b57e-5456726fabaa
+  - f05856d0-377e-4b21-aa3f-18c9c050eab0
+secondary_material_types: []
+opentag_uuid: 540f86f3-b383-5e9b-9013-d4afcbe57109

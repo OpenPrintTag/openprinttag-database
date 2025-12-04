@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e940ac5715c3.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 30d4a848-69f4-4d52-a702-f7899a8c7f8e
+slug: polylite-abs-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ ABS Green
+abbreviation: null
+url: null
+primary_color: c59d6aee-d3ca-45ea-b387-17550a7d30bf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ ABS is made with a specialty bulk-polymerized ABS resin, which has significantly lower volatile content compared to traditional ABS resins. It delivers excellent printing quality with minimal odor during printing.
+
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+
+  If using a stock, older style printer - we would recommend printing slower. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/e940ac5715c3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:32.731Z'
+updated_at: '2025-03-25T22:34:32.731Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3181
+packages:
+  - 1bc3f9d5-5e36-4cb3-90fb-9a77f70d0542
+  - 2038b83c-d379-4bef-a2d2-8c041da31b61
+  - 3baf0895-0629-4d97-a380-f62884a66e77
+  - 9ea528d6-4d0a-48e9-bbda-f2649d547c3b
+  - f36bb5f3-3fb9-4649-a1c4-2dd1289c4bd6
+  - f5c4ee35-913e-403b-ac5c-c20e07d9d402
+secondary_material_types: []
+opentag_uuid: 914a1829-3165-5137-8c7b-701ab1043369

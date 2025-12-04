@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/846c4ba3eab7.jpg
+    type: gallery
+tags:
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+uuid: 09f1513d-3af2-4929-ae2c-924abf24d70d
+slug: rapid-petg-metallic-blue
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PETG Metallic Blue
+abbreviation: null
+url: null
+primary_color: 63e4b341-a699-4d89-b36d-4daed98a7aea
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PETG filament features rapid melting and smooth flow, enabling speeds up to 600mm/s, ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Note - For the best metallic finish with the PETG Metallic color series, use the filament within a week or dry it at 80degreesC for 4-6 hours before or during printing. Other colors, such as black, white, and burnt titanium, are less moisture-sensitive.
+thumbnail_url: https://file.myfilamentlist.com/f/new/846c4ba3eab7.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:06.389Z'
+updated_at: '2025-03-25T22:35:06.389Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3683
+packages:
+  - 26340691-98cf-4e31-8dd9-9fc7f4426d09
+secondary_material_types: []
+opentag_uuid: b3fbaf1e-d73c-57c8-b4e1-4ff60f76a670

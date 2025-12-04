@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/55b56bf52d17.png
+    type: gallery
+uuid: 188ccfad-8a02-4272-b288-6a1742fd03b9
+slug: polymax-pc-blue
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyMax™ PC Blue '
+abbreviation: null
+url: null
+primary_color: e717ec21-f959-45a2-a17a-39217adfca2a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyMax™ PC is an engineered PC filament combining excellent strength, toughness, heat resistance and printing quality. It is the ideal choice for a wide range of engineering applications.
+  Please refer to the printing requirements before purchasing. 
+
+  -  Printing Requirements
+
+          Enclosed printer that can trap heat required.
+      Actively heated chamber highly recommended. Minimum 60˚C chamber temp highly recommended.
+      Large, dense parts will require a heated chamber.
+      Annealing post printing. More info on annealing: https://us.polymaker.com/blogs/3d-printing-tips/what-is-annealing-and-why-do-we-do-it
+      Dryer or drybox recommended.
+      Magigoo PC highly recommended to help with bed adhesion.
+thumbnail_url: https://file.myfilamentlist.com/f/new/55b56bf52d17.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:47.329Z'
+updated_at: '2025-03-25T22:34:47.329Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3313
+packages:
+  - 01f8e266-eaca-43f2-adcd-b5bb51ffcc8d
+  - 04898b3a-b142-4cb2-8087-b7c8f301a8e5
+  - 8486882a-b30c-4c7d-b05a-3d59daf5ffcb
+  - d19a6266-4417-444e-88b9-43fece38b3d6
+secondary_material_types: []
+opentag_uuid: 0a7c4663-a53e-5f76-929e-b0f4635282b6

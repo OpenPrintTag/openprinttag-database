@@ -1,0 +1,66 @@
+uuid: 22b21bf9-280f-46d8-9337-a3ca39f649f4
+slug: petg-schiefergrau
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Schiefergrau
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/159/petg-filament-1-75-mm-schiefergrau-800-g?c=35
+primary_color: 5bdcc7c3-979f-41ce-8273-64b235adc8c9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 7015 Schiefergrau (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: d67708d4-f016-4a38-a2db-452c4ee2e3e7
+created_at: '2025-10-19T09:48:07.845Z'
+updated_at: '2025-10-19T09:48:07.845Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 486b7af3-0532-401c-bf27-5555998c6d5e
+  - abea063b-ea10-4c27-ad44-c90a4ed314bf
+  - d2666295-5794-44ad-89fd-a59cfcaec6ef
+  - e41ad2df-bc2b-4383-9de3-b2349307691f
+secondary_material_types: []
+opentag_uuid: 2d467859-4925-5fb5-be8e-ccfd21e9ca64

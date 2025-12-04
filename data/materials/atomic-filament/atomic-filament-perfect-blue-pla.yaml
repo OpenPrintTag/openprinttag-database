@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d4356cf54de6.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e8fc2edc-cf0d-4fe3-85a0-0e6accf8ec48
+slug: perfect-blue-pla
+brand_slug: atomic-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Perfect Blue PLA
+abbreviation: null
+url: null
+primary_color: 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  A well balanced opaque blue filament, not overly bright or dull. Pantone PMS 285C. 
+
+  HEX COLOR: #0B7BC1. This is according to Filamentcolors.xyz. We cannot verify this information.
+thumbnail_url: https://file.myfilamentlist.com/f/new/d4356cf54de6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:48.044Z'
+updated_at: '2025-03-25T22:32:48.044Z'
+brand: 1eb29f9a-dd92-4efe-82ed-3b756eb0432f
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2242
+packages:
+  - 67745818-cbfc-4591-9a35-5d21bbcbba48
+  - 999cbf6e-9914-48f8-b730-bf32e7bceafc
+secondary_material_types: []
+opentag_uuid: 9a10bd0a-729e-58f3-9083-13f7855d124e

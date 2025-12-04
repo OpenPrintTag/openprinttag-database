@@ -1,0 +1,54 @@
+uuid: e7d9bd6c-b569-4c00-ad8b-9fde09778fa1
+slug: pva-2-natural
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PVA-2 Natural
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-pva-2-natural-05kg
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  FILAMENT 3D PVA-2 (polyvinyl alcohol) is a water-soluble thermoplastic, ideal as a support material for complex prints using PLA, PET-G, TPU, or PA. The improved PVA-2 version offers higher temperature resistance and is suitable for printing in actively heated chambers (up to 70°C).
+
+  Used on dual-extruder printers, it allows the creation of models that would otherwise be difficult or impossible to produce. After printing, the supports dissolve in warm water within minutes to a few hours. The filament must be stored in airtight packaging with a desiccant, at 15-25°C, away from direct sunlight.
+thumbnail_url: https://file.myfilamentlist.com/new/e7d9bd6c-b569-4c00-ad8b-9fde09778fa1.png
+deleted_at: null
+deleted_by: 5055d859-5108-44a9-9cc1-6f11bae02e13
+created_at: '2025-11-19T10:28:49.320Z'
+updated_at: '2025-11-19T10:28:49.320Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: 9b3ccb59-9ac3-46b6-aa5b-475dbade3a45
+colors: []
+packages:
+  - 1bdfd100-3f28-4147-abe2-0c9819f948dd
+  - 4d53bb71-7801-4d6b-9f8f-0997e495da0e
+  - 9e078306-0fb2-4f5d-99e2-0584b735d60e
+secondary_material_types: []
+opentag_uuid: 32ce59e9-e882-55e2-a3ec-0764acad40ec

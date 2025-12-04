@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.18000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f1edf55e-90fe-42ed-a73c-0644ca75e228
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: d84b2a38-2f99-4b5a-8586-ab48824dd99f
+uuid: a7125225-467e-4e24-9abf-2870defa7bae
+slug: wax-castable
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Wax Castable
+abbreviation: null
+url: https://www.liqcreate.com/product/wax-castable/
+primary_color: 631aec26-7fe1-4769-9921-03ba16714975
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Liqcreate Wax Castable is a wax-based photopolymer resin, perfect for manufacturing jewelry, dental and industrial parts using the direct investment casting method.
+
+  Liqcreate Wax Castable is easy to use on open LCD/MSLA, DLP and laser based 3D-printers in the range of 385 – 420nm. 3D-printed parts from this material captures intricate features and show crisp details. This wax-based material offers smooth surfaces with clean burnout for a reliable casting process. Create custom made elegant organic geometries according to your preferences with excellent casting for positive and negative engravings.
+thumbnail_url: null
+deleted_at: null
+deleted_by: a2d59938-8945-4fe7-8724-f92892911da2
+created_at: '2025-10-06T08:57:51.977Z'
+updated_at: '2025-10-06T08:57:51.977Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9526
+packages:
+  - cde11ca0-4709-4c5e-93f7-7c7d9eaf8390
+  - e698fcbc-446a-4667-94d6-cefc27a9fa5b
+secondary_material_types: []
+opentag_uuid: 70c8d89a-5e62-54ca-887f-2d08a93f728a

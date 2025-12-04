@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/76ff1d7f4fe7.jpg
+    type: gallery
+uuid: 469007c6-d8f3-4176-a326-9b06290aa7ad
+slug: pc-green
+brand_slug: cc3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC Green
+abbreviation: null
+url: null
+primary_color: e25b5aae-c815-4e52-84d9-2ae572b61038
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Heat resistant filament.
+      Can withstand temperatures: 110 degreesC
+      Harder and stronger than ABS filament.
+      Modified filament, not 100% pure PC. (50% PC + 45% PETG + 5% Other Materials).
+      Recommended printing temperature: 255-265 degreesC; Recommended print speed: 30.60 mm/s; Heated bed: 90.105 degreesC.
+thumbnail_url: https://file.myfilamentlist.com/f/new/76ff1d7f4fe7.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-31T18:27:41.808Z'
+updated_at: '2025-03-31T18:27:41.808Z'
+brand: d10bdf99-fee0-43b4-bc59-7aea2c261b5b
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 4891
+packages:
+  - fc8df5d7-d20b-4f10-8fc6-af437c137d52
+secondary_material_types: []
+opentag_uuid: dad90dc7-a420-54b4-a14d-7f4e4d7ac2e6

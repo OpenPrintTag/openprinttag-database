@@ -1,0 +1,66 @@
+uuid: ea599598-85eb-4963-8498-8761e58e8029
+slug: iglide-i190-pf
+brand_slug: igus
+brand_specific_id: null
+class: FFF
+type_id: null
+name: iglide® i190-PF
+abbreviation: iglide® i190-PF
+url: https://www.igus.com/product/iglidur_I190_PF?artnr=I190-PF-0300-0750
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Flexurally high strength and wear-resistant filament - iglide i190
+   
+  iglide i190-PF is characterised by high wear resistance as the material is enriched with solid lubricants. It can be processed on regular 3D printers, but a closed 3D printer is recommended. Due to its high wear resistance and excellent mechanical specifications (strength, toughness, coating adhesion), it is an all-round material that is suitable for most applications and 3D printers. Of all igus tribo-filaments, only iglide RW370 has a higher strength than iglide i190, making iglide i190 the tribo-filament with the highest strength that can be processed on regular 3D printers. With the bonding agent for tribo-filaments, iglide i190 can be processed on conventional print bed surfaces (e.g. glass).
+   
+  When to use it?
+
+      For all types of applications where low friction and high wear resistance are important
+      If an easy to process tribo-filament is required.
+      When higher strengths are required.
+
+  When not to use it?
+
+      If the application temperature is higher than 90°C in the long term (iglide J260 or iglide RW370-PF)
+      For applications under water or with high humidity (iglide i180-PF)
+      If the application requires a food grade material (iglide i150-PF or iglide A350)
+      When an even easier to process tribo-filament is required (iglide l150-PF)
+thumbnail_url: https://file.myfilamentlist.com/new/ea599598-85eb-4963-8498-8761e58e8029.png
+deleted_at: null
+deleted_by: 240cc79c-75f7-449d-a7ab-7736b5014174
+created_at: '2025-11-13T16:44:14.908Z'
+updated_at: '2025-11-13T16:44:14.908Z'
+brand: 2edf9afe-5dfa-4e19-87af-8bec2ec283de
+type: null
+colors: []
+packages:
+  - 2fb6e0f3-de9c-4ed0-9366-56e7e905f32c
+  - 69085fa9-52ae-4778-a458-6b3761a7a55f
+secondary_material_types: []
+opentag_uuid: c2c08b4e-a3a3-576c-bb73-c0354f391685

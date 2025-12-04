@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/870497537d06.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c48cd602-2f7f-48f2-a7d8-5f11c47a7263
+slug: premium-pla-flaming-red
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Premium PLA Flaming Red'
+abbreviation: null
+url: null
+primary_color: 78a33020-fb35-4108-86d7-c0f74493c7a2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Premium PLA is a more pure PLA type of 3D printer filament with higher crystallinity, which makes it the PLA of choice for 3D printing parts with overhangs and for objects where bridging is required.
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Almost odourless processing/printing
+      Biodegradable
+      Available in a variety of semi-translucent colors and opaque black/white
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/870497537d06.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:56.587Z'
+updated_at: '2025-03-25T22:34:56.587Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3778
+packages:
+  - 4a6a45fc-3933-4d32-9d9a-1c13d315a3a2
+  - 7d3fd5e5-0826-41fa-998a-8d26113e29b5
+  - a115cb73-9f07-4a88-9a85-06c3fab39afd
+  - c4077be7-afb7-4ddc-aefd-5656342f9c57
+  - d91f7332-c1cd-4288-8430-96bb796d3ae6
+  - edb2f43f-be5e-481f-982b-fa7ab12e6c30
+secondary_material_types: []
+opentag_uuid: 239ae0e5-a3b2-5257-8af2-858fb7acddaa

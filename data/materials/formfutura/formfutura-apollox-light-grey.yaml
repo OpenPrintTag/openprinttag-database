@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2bfcab5cee4f.png
+    type: gallery
+uuid: 423e9afb-7486-4ff4-a295-c2f6c859b2b2
+slug: apollox-light-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ApolloX Light Grey
+abbreviation: null
+url: null
+primary_color: e28a4749-344c-4e99-8ece-e693adb546f4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ApolloX is a modified ASA based 3D printer filament with improved mechanical properties and is suitable for 3D printing mechanical parts and outdoor applications with high precision and low warping.
+
+  Unique features
+
+          UV & weather resistant
+          FDM/FFF-optimized
+          Warp-free printing
+          Optimized filament flowing behaviour, thermal stability, and inter-layer adhesion
+          Excellent adhesion to heated glass plate, Kapton tape, PET tape and Formfutura EasyPad
+          Greatly improved mechanical properties and strength
+          Extremely high printing precision
+          Printing with remarkable fine detail
+thumbnail_url: https://file.myfilamentlist.com/f/new/2bfcab5cee4f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.340Z'
+updated_at: '2025-03-25T22:31:13.340Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 608
+packages:
+  - 0eaf213f-b21e-43ec-bac7-7cfc72be1185
+  - 2b180e6d-cf9b-4730-b626-ba5363ee6f12
+  - 39189cab-65e3-4357-8100-4366faeaea56
+  - 3a3ebf00-8c2b-481b-93ad-5630796f53de
+  - 3ed8baa1-1a13-4a40-b0fe-baa2f85281bd
+  - 4689b753-d79a-4d86-b994-108513533e3f
+  - 6d3bfe39-4b88-4103-853a-a08a99c29090
+  - b124d799-60ee-40e7-bb9d-e632a9ac2e18
+  - b793d2c0-1dad-4af9-9cab-0ba0db5c1204
+  - d515fb4b-c06a-43f4-a83d-4b057f930fa5
+secondary_material_types: []
+opentag_uuid: 3d066e7f-1b1d-5baf-81aa-68625174bf25

@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ddc17ccb3e1a.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 3eaca7a9-2c73-4a83-a4c7-98e3272bba57
+slug: polylite-pc-clear
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PC Clear
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PC is produced using a polycarbonate resin specifically engineered for 3D printing. It delivers good stiffness and heat resistance with light diffusing properties.
+
+  -  Printing Requirements
+
+      Enclosed printer that can trap heat required.
+      Actively heated chamber highly recommended. Minimum 60˚C chamber temp highly recommended.
+      Large, dense parts will require a heated chamber.
+      Annealing post printing. More info on annealing: https://us.polymaker.com/blogs/3d-printing-tips/what-is-annealing-and-why-do-we-do-it
+      Dryer or drybox recommended.
+      Magigoo PC highly recommended to help with bed adhesion.
+      All-metal hotend that can reach at least 250˚C recomended.
+     
+thumbnail_url: https://file.myfilamentlist.com/f/new/ddc17ccb3e1a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:38.679Z'
+updated_at: '2025-03-25T22:34:38.679Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3498
+packages:
+  - 19d6b039-50be-47f1-8a7e-d55d5d42240d
+  - 2157741e-bbec-4499-9f7b-35d67c2efd33
+  - 5ece2da7-9c75-48ca-9408-9adc6306912f
+  - 738b0495-0b93-49ae-aa15-0eef9ff87a40
+secondary_material_types: []
+opentag_uuid: 8170a6d5-9655-5a39-adf0-ac7f31bd0a1d

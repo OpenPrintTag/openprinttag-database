@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6fffc87b6564.png
+    type: gallery
+uuid: 5cbb1066-b9a7-45f5-934f-5fcadebad4a4
+slug: flex-93a-true-black
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FLEX 93A True black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Thermoplastic Elastomer
+
+  It is a material that has the ability to be stretched to moderate elongations and, after the stress is removed, return to its original shape. It has the potential to be recyclable since it can be molded and reused like plastic.
+
+  FLEX
+
+  It is a specially modified filament that allows printing flexible, elastic objects with high print quality.
+
+  It has been specifically designed to prevent clogging in the printer's nozzle during printing, as its Shore hardness is 93A, higher than that of the competition.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6fffc87b6564.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T16:14:47.881Z'
+updated_at: '2025-03-29T16:14:47.881Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3611
+packages:
+  - 74c97311-e17a-4a40-87f5-25c4b6926866
+secondary_material_types: []
+opentag_uuid: 0f403817-db02-5185-8380-2c8ba0dca283

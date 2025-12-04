@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ee2705b181db.png
+    type: gallery
+uuid: 0be669a8-0ebe-42f3-8fed-fe8637c69925
+slug: pro-pctg-charcoal-gray
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Charcoal Gray
+abbreviation: null
+url: null
+primary_color: 3c5f8e02-a4ad-417b-9bbe-57f2b064974c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/ee2705b181db.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:58.410Z'
+updated_at: '2025-03-25T22:34:58.410Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 4018
+packages:
+  - 3366f531-f08d-45eb-927b-f18131713cd5
+  - 6e4ce7fc-4f2e-4771-b0fa-23a4cc490a8a
+secondary_material_types: []
+opentag_uuid: 3f3c9045-423d-557b-bb97-5b025464e897

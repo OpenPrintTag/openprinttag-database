@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7f0611d59ee4.png
+    type: gallery
+uuid: 87a09349-3c22-4951-87d2-ca6ad0e3f9cc
+slug: high-precision-pet-ultramarine-blue
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: High Precision PET Ultramarine Blue
+abbreviation: null
+url: null
+primary_color: efae8549-8440-426e-8bf1-4080ee157fff
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  A pure PET filament with guaranteed "High Precision" on diameter, ovalidity, shrinkage, and color tolerances. Each spool has its own certificate of analysis, which can be verified by scanning the QR code.
+
+  Important key features
+
+      3-axes filament measurement to ensure the tightest diameter and ovality tolerances.
+      Tolerance of ± 0,03 mm for the 1.75 mm diameter filament.
+      Tolerance of ± 0,06 mm for the 2.85 mm diameter filament.
+      Precise batch-to-batch color consistency (≤ Delta E5).
+      Good inherent UV resistance.
+      Good chemical resistance.
+      3D Prints details with a high resolution and high surface quality.
+thumbnail_url: https://file.myfilamentlist.com/f/new/7f0611d59ee4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:55.207Z'
+updated_at: '2025-03-25T22:31:55.207Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 1151
+packages:
+  - 02680284-f07a-44bd-8336-fb7afbfd9579
+  - 49dffc67-df9f-41e3-be5e-b986aaf8e8c6
+  - aac9a2ab-f980-4404-a9f5-b82277159fd4
+  - d35e6322-f060-49ae-9f8b-0d7fefc26a57
+secondary_material_types: []
+opentag_uuid: b70ff557-e907-5a44-ade7-50542f06d83b

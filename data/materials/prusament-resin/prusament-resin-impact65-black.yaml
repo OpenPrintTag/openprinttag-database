@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: eb725e85-0b94-4f12-9382-56e816dc596f
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: acdae2cb-7f1c-4541-a22c-ee10a42139de
+uuid: 0af33df4-541d-4e0a-a00d-23d495c8095e
+slug: impact65-black
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Impact65 Black
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-impact65-black-1kg/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Prusament Resin Impact65 is a hobby resin with increased impact resistance while maintaining its easy printability and lowest possible toxicity. This material comes with nice Izod impact strength 65 kJ/m2 (thus the name), tensile strength 25 MPa, and elongation reaching 30 %. Such values might be comparable to various common thermoplastics. It slightly resembles a very hard rubber, as the material’s thin parts bend instead of breaking.
+
+  One more useful thing is that when cured properly, the 3D printed part keeps its mechanical properties without any further change. This means that as a user, you simply print the resin (in SL1S SPEED, for example), wash it for 10 minutes and let it cure for 1 hour in CW1S. After that, the model properties will remain unchanged.
+
+  Furthermore, Impact65 can also be used for certain outdoor applications, which is also not very common among hobby SLA resins. If you don’t expose it to high temperatures, it should resist prolonged periods of UV exposure, moisture and low temperatures.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 560e6303-d91b-4323-8835-3c8344eed6f7
+created_at: '2025-10-03T12:08:01.795Z'
+updated_at: '2025-10-03T12:08:01.795Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9548
+packages:
+  - 858f8f8b-fad1-4c00-8bfa-bb767202501a
+secondary_material_types: []
+opentag_uuid: ad835c8f-e33f-53f0-9d2e-eb2602a2fb6c

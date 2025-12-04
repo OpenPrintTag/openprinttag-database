@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8f3230d6-5a59-48f1-bb62-aad1afa76bbf
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b57cd55a4e60.png
+    type: gallery
+uuid: 6f2f4d2e-153a-4a19-acaa-36a405f3ab6c
+slug: tpu-95a-hf-black
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'TPU 95A HF Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  Product Features
+
+      High-speed printing TPU
+      Soft, Flexible & Tough
+      Outstanding Impact Resistance and Flexibility
+      Includes High Temperature Reusable Spool
+      Diameter: 1.75mm +/- 0.03mm
+
+
+  Cautions for Use
+
+      Dry out before use
+      AMS & AMS lite NOT Compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/b57cd55a4e60.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:18.176Z'
+updated_at: '2025-04-03T16:35:35.439Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6626
+packages:
+  - 58734443-ed22-4867-9be8-4d2d6cab0e62
+secondary_material_types: []
+opentag_uuid: 960471c1-223a-5685-aa7b-01a15e88ecfe

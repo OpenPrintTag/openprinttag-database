@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: dc7ba359-e4ef-4504-ae5b-d681799e4ffb
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f456d987-9461-4a68-ae02-de43c510c2bd
+slug: pla-hd-interference-agate-violet
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Interference Agate Violet
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-interferencia-winkle-175-mm-1-kg-violeta-agata/
+primary_color: b71e415e-f6cc-4395-b4b2-4f3265dc7a0a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Introducing PLA HD Interference Filament, offering uniform metallic visual effects.
+  This 1.75 mm Winkle PLA Filament is the ideal choice for 3D printing enthusiasts who value both aesthetics and technical performance.
+  Available in 300 g, 1 kg, and 5 kg formats, this 3D printer filament delivers highly visual and consistent results.
+
+  Applications for PLA HD Interference Filament:
+  Perfect for 3D prototypes, decorative pieces, functional elements, detailed figures, and components with high-impact visual finishes.
+  Compatible with any FDM printer that uses 1.75 mm PLA filament, this filament provides a smooth printing experience, clog-free operation, and excellent layer-to-layer adhesion.
+thumbnail_url: https://file.myfilamentlist.com/new/f456d987-9461-4a68-ae02-de43c510c2bd.png
+deleted_at: null
+deleted_by: 36789dd4-dd7e-4000-a8da-4ab2a1408cfc
+created_at: '2025-11-21T12:37:24.667Z'
+updated_at: '2025-11-21T12:37:24.667Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - e3643ca7-bdd8-4a00-8750-50f9c9a86667
+  - f3f18a43-13c6-4f83-b7c1-97b23e541824
+secondary_material_types: []
+opentag_uuid: a08d10cc-1e7c-50eb-aff0-3e73578d8b46

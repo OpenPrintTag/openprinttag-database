@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.30000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6c5c8135-3ce4-4043-9e20-c32de9d8a37d
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b2a82f59-1ed2-4dd9-9893-e0429a38a956
+slug: high-impact-pla-white
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIGH IMPACT PLA White
+abbreviation: null
+url: https://www.eumakers.com/high-impact-pla-filament-color-white.html
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing HIGH IMPACT PLA filament color White.
+  Ideal for components that require high resistance to shocks and high temperatures. Post-processing annealing is suggested. Suitable for fast sanding processes.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/b2a82f59-1ed2-4dd9-9893-e0429a38a956.png
+deleted_at: null
+deleted_by: e78454da-6ddd-4f86-be81-fa7696767a3b
+created_at: '2025-11-12T10:55:03.449Z'
+updated_at: '2025-11-12T10:55:03.449Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - c3e4b164-e4ce-490f-a353-579c73ff37fd
+  - ee805232-0322-475b-ac82-7a13374ceb5d
+secondary_material_types: []
+opentag_uuid: ff526389-2b8b-5d39-ab28-bc9f25f1208f

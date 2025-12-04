@@ -1,0 +1,72 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7fa0cb410b4c.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e98145ab-2f9a-4b0f-bf2b-c28950842148
+slug: easyfil-pla-light-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil PLA Light Grey
+abbreviation: null
+url: null
+primary_color: e28a4749-344c-4e99-8ece-e693adb546f4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  EasyFil PLA is an easy to print PLA type of 3D printer filament that is available in a wide variety of colors. Its improved flowing behavior make 3D printed layers flow more into each other.
+
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Slightly softer than standard PLA resulting in improved strength and impact resistance
+      Almost odourless processing/printing
+      Biodegradable
+      Wide variety of vivid opaque colors
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/7fa0cb410b4c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:28.085Z'
+updated_at: '2025-03-25T22:31:28.085Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 1049
+packages:
+  - 3478c175-e3ab-46a0-9d61-47655836fbc6
+  - 5e6475eb-abca-4666-a025-75cf6b14c002
+  - b26f8870-3901-4124-943f-723e3d2d99b8
+  - cd801075-aff7-45fd-ab7f-5823798ce09c
+  - e4df031a-3ef1-4f46-bb96-e5ff0ce57aac
+  - e9670032-25b1-4a02-8620-624c8f1e0f30
+secondary_material_types: []
+opentag_uuid: 8307436c-56f8-5f95-be3f-df9602d878a1

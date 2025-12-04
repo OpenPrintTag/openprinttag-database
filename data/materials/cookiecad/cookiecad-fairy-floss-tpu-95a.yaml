@@ -1,0 +1,65 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 38935a12-f876-43c4-89a2-9d148ddf2be5
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+  - 6a225a15-e6d8-4ddc-a504-643a475c90e0
+secondary_colors:
+  - ef775865-43cd-49b7-a744-cb42ec28c606
+  - 2bdd032b-7a02-48ee-b5f4-999106b7e17e
+  - f45bf10d-a26d-4b61-ae86-064d1a59b797
+uuid: 5bcd6e0c-bc46-45f6-8bab-ead048b04854
+slug: fairy-floss-tpu-95a-3
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Fairy Floss TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-fairy-floss-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Fairy Floss. It is a translucent pink, purple, blue gradient filament with silver glitter!
+
+  It is the same shade as our Fairy Floss PLA and PETG. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 942d2581-920e-4356-a9e3-761f1cb520a7
+created_at: '2025-10-21T11:54:34.061Z'
+updated_at: '2025-10-21T11:54:34.061Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - e2f03eb0-7b21-4ddd-a158-77a1a0ea9ea5
+secondary_material_types: []
+opentag_uuid: dca8855f-d38b-52a8-be24-2cd346d72c9f

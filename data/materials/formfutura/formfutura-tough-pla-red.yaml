@@ -1,0 +1,75 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/43f1e589f685.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: fba02eb2-6c78-43aa-8d2d-f40855b55bd6
+slug: tough-pla-red
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Tough PLA Red
+abbreviation: null
+url: null
+primary_color: 78a33020-fb35-4108-86d7-c0f74493c7a2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Tough PLA is a 3D printer filament that is extremely impact resistant. Tough PLA combines the durability of ABS-like strength properties and is significantly more stiff than ABS filaments
+
+  Key features
+
+      Impact strength of 29.8 kJ/m2
+      Excellent machinability properties allowing multiple post-processing techniques, such as drilling, sanding, cnc, tapping, etc…
+      Superb layer adhesion
+      Stiff, strong and durable
+      Compatible with AquaSolve PVA and BVOH for complex multi-extrusion 3D printing
+
+   
+  Applications
+
+      Tooling and manufacturing aids
+      Functional prototypes
+      Snap-fit assemblies
+      Jigs and fixures
+thumbnail_url: https://file.myfilamentlist.com/f/new/43f1e589f685.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:08.033Z'
+updated_at: '2025-03-25T22:36:08.033Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4718
+packages:
+  - 9258cc31-c533-424f-a694-611e9ee7b89a
+  - 9cc8f453-e71c-443e-8c4a-2670da31a62a
+  - 9ff020be-c08a-47ba-a381-f4b3efbe52f7
+  - bda607f9-4e9d-4217-a755-eca3aaeb0d24
+  - cd523a62-f0bf-4cc5-b92e-9191e87214b4
+  - ec85ecdc-c9e3-4ea2-9ca8-e47b3036ee62
+secondary_material_types: []
+opentag_uuid: 8c0b1d49-a7e3-58e3-9e18-347909ad4c05

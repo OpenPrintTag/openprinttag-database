@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/360814e06b1b.png
+    type: gallery
+uuid: c6c0bc71-6a87-48a8-b8f4-a029bbd2dba2
+slug: hips-true-black
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: HIPS True black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  High impact polystyrene, ideal for printing highly resistant parts with excellent mechanical properties.It has similar characteristics to ABS, It can be sanded and painted with acrylic paints. Ideal to be used as a support material, as it can be subsequently diluted in D-Limonene
+thumbnail_url: https://file.myfilamentlist.com/f/new/360814e06b1b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T14:03:42.844Z'
+updated_at: '2025-03-29T14:03:42.844Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: d8402742-8924-48df-bccd-c7a5b8341c31
+colors:
+  - 5833
+packages:
+  - 1b56bfc3-14a1-4e0d-a06c-700302ac304f
+  - 6b38f4af-c99a-4f7e-95cc-45f0886661c3
+secondary_material_types: []
+opentag_uuid: d562d965-244a-568f-9fdb-90412d9c24b4

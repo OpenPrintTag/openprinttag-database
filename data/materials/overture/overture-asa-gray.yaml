@@ -1,0 +1,52 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f5a71c6399a2.jpg
+    type: gallery
+uuid: 64676d7b-eaf9-4012-834a-b298c8d4083e
+slug: asa-gray-3
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'ASA Gray '
+abbreviation: null
+url: null
+primary_color: 14ac25b0-b7bf-4a08-8661-f8b32b8b4458
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: 'OVERTURE ASA is designed to withstand a variety of environmental conditions, making it highly resistant to rain, humidity, and temperature fluctuations. This weather resistance ensures that printed parts maintain their structural integrity and performance over time, even when exposed to the elements. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/f5a71c6399a2.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:14.445Z'
+updated_at: '2025-03-25T22:31:14.445Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 502
+packages:
+  - 01cbde38-4c2a-4ead-864d-71dabf2d9f2a
+secondary_material_types: []
+opentag_uuid: 48591304-a5b8-599a-8678-25a5cba31006

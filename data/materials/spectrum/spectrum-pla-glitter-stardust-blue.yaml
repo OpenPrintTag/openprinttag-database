@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2e7b0b70-01d5-40ef-bd59-51726d23569e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: cdb4f4d5-b773-4297-9a11-fec2a3ecd6db
+slug: pla-glitter-stardust-blue
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Glitter Stardust Blue
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-glitter/
+primary_color: 34dac208-d717-4b4a-b78b-a765ed4c7ee6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Spectrum PLA Glitter is a highly aesthetical material blended with high-glitter particles. The particle content in the filament increases the hardness and compression resistance of printed items. These properties are improved at the cost of the higher brittleness of items. There is a possibility to control the gloss level by increasing/decreasing the wall thickness.
+
+  Tip: Due to the content of infusible particles, it is necessary to use printing nozzles with diameters of 0.4mm or more.
+
+  Properties of Spectrum PLA Glitter determine its use in industries related to the production of advertising materials or interior design elements, and wherever it is important to present the object effectively.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 25c2d952-a794-4829-a645-c3dd84d0ec60
+created_at: '2025-09-30T13:35:49.415Z'
+updated_at: '2025-09-30T13:35:49.415Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9323
+packages:
+  - ccc16416-ba8a-4f19-ae21-5e66915512e5
+  - eef5ed7c-9024-4dca-92e9-be460d12c578
+secondary_material_types: []
+opentag_uuid: 75979d3f-fade-57c2-980a-cc4cc63621c3

@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 17bf0050-ad11-4ebd-aa1e-4f49ecd195ea
+  hardness_shore_a: 98
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4150b56ad767.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 5c3016c1-2953-4822-8dce-b430b82ed041
+slug: python-flex-tpu-98a-clear
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Python Flex TPU 98A Clear'
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |+
+  Python Flex TPU 98A is a flexible type of 3D printer filament with a shore hardness of 98A and is perfect for 3D printing strong and resilient parts that require flexibility and elasticity.
+
+  Python Flex 98A is a TPU based filament which is perfect for parts needing flexibility and elasticity. It is designed for high speed printing on both direct drive and Bowden style extruders. Python Flex is an extremely easy to print flexible filament: it can be printed directly on a (unheated) glass plate.
+
+  Python Flex 98A allows itself to be stretched up to 450% before breaking. Python Flex is extremely transparent in its natural form and has excellent resistance to oil, greases, microorganisms and abrasion.
+
+  Unique features
+
+      Perfect combination of strength, flexibility and elasticity
+      Designed for high speed printing
+      Flexible filament that can be printed at speeds of >80mm/s
+      Heat resistant up to 138°C
+      Watertight printing possible with only single wall prints
+      Excellent resistance to oil, greases, microorganisms and abrasion
+      Very easy to print on both direct drive & Bowden style extruders
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/4150b56ad767.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:04.929Z'
+updated_at: '2025-03-25T22:35:04.929Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3561
+packages:
+  - 0e20dae0-b3ae-4e70-a8fc-4adb3d075e45
+  - 33534d65-ecf2-46c9-be2d-399a73368fb7
+  - 350bf2da-008c-4697-891c-5cd44dc70b9a
+secondary_material_types: []
+opentag_uuid: d49a9059-38b8-594e-90b7-2f3ff37d8d68

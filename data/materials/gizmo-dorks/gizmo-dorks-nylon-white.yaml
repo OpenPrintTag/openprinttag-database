@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/073486542e83.png
+    type: gallery
+uuid: dbad11e0-8afb-4913-b87c-9043e40636a8
+slug: nylon-white-4
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Nylon White
+abbreviation: Nylon
+url: null
+primary_color: 51a09628-4651-41cf-b737-8460eb45fc86
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  The Gizmo Dorks 3D printing Nylon filament is a strong durable material that is not as brittle as ABS or PLA. Nylons are classified in the family of polyamides, which is a polymer consisting of amides joined together by peptide bonds. For Fused Deposition Modeling, FDM, Nylon filament is a great material to use for 3D printing. The strength of the Nylon filament is remarkable, especially when using a higher fill setting.
+
+  3D prints using Nylon filament are generally very wear resistant, and they are incredibly flexible as well. Many users prefer using Nylon filament when printing engineered parts such as gears. However, Nylon does have a considerable amount of warping when compared to ABS or PLA. Pyrolysis occurs around 350degreesC.
+  Tips When Printing With Nylon Filament
+
+  Nylon prints will stick to blue painter's tape. Because Nylon adheres to cellulose surfaces poplar wood can be used as a bed. Some users have used cardboard or hardboard (not to be confused with hardwood). Nylon also sticks extremely well to machinable garolite, but that may be hard to come by. Users have also said that using a glue stick on a glass bed works well. PVA glues (think of Elmer's white glue all) can also be diluted and applied on with a sponge head. Please use in a well ventilated area or in a closed ventilated system.
+
+  Nylon filament absorbs a lot of moisture when left out in the open. Please bake the Nylon filament in the oven at 170degreesF for 3-6 hours just before printing to remove moisture.
+
+      Net weight = 1 kg or 2.2 lbs
+      Printing temperature : 230degreesC - 260degreesC depending on part and printer type
+      Print speeds : 18 mm/s first layer, then 28mm/s - 34mm/s
+      Heated bed of 110degreesC helps combat Nylon's warp
+      No cooling fans
+      Only use in well ventilated areas
+      Store dry when not in use, absorbs moisture
+thumbnail_url: https://file.myfilamentlist.com/f/new/073486542e83.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:28.436Z'
+updated_at: '2025-03-25T22:32:28.436Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: null
+colors:
+  - 1602
+packages:
+  - c2547938-6af9-47db-8fc8-d72b1dc8142a
+  - c2c67bd8-ad53-400e-8dbb-6a5e55b30cf2
+secondary_material_types: []
+opentag_uuid: 67c1b61a-9f47-58ef-bb2c-93cf87bc2797

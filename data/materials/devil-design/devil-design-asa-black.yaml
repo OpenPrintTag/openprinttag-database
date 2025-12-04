@@ -1,0 +1,66 @@
+uuid: b2f3f315-a30a-4579-9a59-9702d9d935fe
+slug: asa-black-13
+brand_slug: devil-design
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA BLACK
+abbreviation: null
+url: https://www.smart3d.cz/en/p/filament-devil-design-asa-black-1-75-mm-0-8-kg
+primary_color: 046af60e-25d0-4af6-a3f2-b8c62829db71
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Upozornění - nově je materiál z důvodu lepší kompatibility s Bambu Lab AMS v provedení 0,8 kg
+
+  Struna pro 3D tisk polského výrobce Devil Design.
+
+  V kartonové krabici najdete materiál vakuově zabalený spolu se silikagelem na pohlcování vlhkosti a dále je přibalena kartička s podoručenými teplotami pro extruder a bed. Krabice s cívkou váží cca 1,2kg
+
+  Struna je namotána na čiré cívce o vnějším průměru 220mm, šířce 70mm a středovém otvoru 52mm.
+
+  Průměr struny 1,75mm ( s tolerancí +/- 0,05mm )
+
+  Popis materiálu:
+
+  ASA (Acrylonitrile Styrene Acrylate)
+
+  ASA je velmi pevný a tvrdý materiál, který je odolný vůči povětrnostním vlivům i UV záření. Hodí se proto pro tisk funkčních modelů, které budou využívány ve venkovním prostředí. Tiskové vlastnosti a také kvalita 3D tisku je stejná, jako u ABS materiálu, díky čemuž je ASA materiál vhodný i pro náročné aplikace. Odolnost ASA materiálu vůči stárnutí a degradaci je 10x vyšší než u ABS. Modely vyrobené z tohoto materiálu jsou velmi odolné také proti vysoké teplotě (až 105°C).
+
+  Nevýhodou tohoto materiálu je, podobně jako u ABS, velká tepelná roztažnost, kvůli které může při chladnutí modelu docházet k deformacím modelu. U větších modelů tedy doporučujeme tisknout v uzavřeném tiskovém prostoru.
+thumbnail_url: https://file.myfilamentlist.com/new/b2f3f315-a30a-4579-9a59-9702d9d935fe.png
+deleted_at: null
+deleted_by: 98a28395-65c7-4dce-8314-05193d177462
+created_at: '2025-11-10T16:31:34.964Z'
+updated_at: '2025-11-10T16:31:34.964Z'
+brand: f1c99216-fa1a-4728-9fb6-72c5a3f8eb51
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - f8982ec5-a665-4361-b117-9d0ab5ab267b
+secondary_material_types: []
+opentag_uuid: 2c015e10-02be-5f45-8ace-f164a28310f1

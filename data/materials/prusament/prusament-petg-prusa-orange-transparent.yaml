@@ -1,0 +1,72 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e3363989-0d30-436e-84a4-10fd7d890804
+  hardness_shore_a: null
+  hardness_shore_d: 74
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/aad9b6a490d3.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+certifications:
+  - 2
+uuid: e4571c67-bc63-4c1f-98ad-4afbb4adfe4f
+slug: petg-prusa-orange-transparent
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Prusa Orange Transparent
+abbreviation: null
+url: null
+primary_color: 40f062fe-bdc3-45b5-80ec-4af449707ab6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '44.20'
+refractive_index: null
+print_sheet_compatibility: []
+description: 'Prusament PETG is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com. '
+thumbnail_url: https://file.myfilamentlist.com/f/new/aad9b6a490d3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:58.886Z'
+updated_at: '2025-03-25T22:32:58.886Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2041
+packages:
+  - 3839fc21-5313-4256-8428-183dda7d6497
+  - 41319a71-1516-4fa6-a52d-e0da1a500fdb
+secondary_material_types: []
+opentag_uuid: 8fe0c24e-275e-5359-a07d-025db072d823

@@ -1,0 +1,82 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/cfde55cdf58c.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 88dfab75-ab3e-4e14-af0f-d5fc4e3c5822
+slug: titanx-dark-blue
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TitanX Dark Blue
+abbreviation: null
+url: null
+primary_color: efae8549-8440-426e-8bf1-4080ee157fff
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  TitanX is a modified ABS-based 3D printer filament with greatly improved mechanical properties and printability. TitanX is the next generation ABS that 3D prints with high precision and zero warping.
+
+  TitanX is used by industries worldwide for creating functional prototypes and end-use parts.
+
+  TitanX is a high-end engineering filament with ABS (acrylonitrile butadiene styrene) as its main ingredient. The formulation of TitanX is enhanced with added polymers, binding agents and impact modifiers. This has resulted in an engineering filament that combines exceptional mechanical properties with optimized interlayer adhesion and virtually no warping.
+  Key features
+
+      Strongly improved mechanical properties
+      >65% more impact resistant than regular ABS
+      Minimal warping, excellent interlayer adhesion, and seamless build plate adhesion
+      Precise 3D printing with remarkable fine detail
+      Vicat softening temperature of 97˚C
+      Compatible with Helios Support for complex multi-extrusion 3D printing
+      Nearly odorless processing and no unpleasant styrene smell when being 3D printed
+
+   
+  Applications
+
+      Functional prototyping
+      End-use parts
+      Fit testing
+      Engineering parts
+      Short-run manufacturing
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/cfde55cdf58c.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:06.587Z'
+updated_at: '2025-03-25T22:36:06.587Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 4712
+packages:
+  - 19d43b4b-c0b1-4fd7-8558-ab08fbd967b0
+  - 218f4a4d-0c85-43b9-806b-93425f37b255
+  - 8e6cb0a4-68be-495b-bb85-284196083327
+  - dcb46c78-3163-4e09-998b-f49fba482f85
+  - e517ae8f-d2e8-496b-aea9-8da0d6d38c35
+  - fc181467-0d89-41a6-bca5-5ad2c2730872
+secondary_material_types: []
+opentag_uuid: 2cf42a01-08ef-54c3-8dfb-c4e46388705f

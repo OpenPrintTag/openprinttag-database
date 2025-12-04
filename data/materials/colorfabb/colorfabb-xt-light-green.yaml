@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b9c8e292973e.png
+    type: gallery
+uuid: aa746517-1392-4f34-8e19-3513336b9c11
+slug: xt-light-green
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: XT Light Green
+abbreviation: XT
+url: null
+primary_color: 4b80164f-b954-403b-898f-30f8fb65245b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  colorFabb_XT is a functional, engineering grade 3D printing filament based on Eastman Chemical Amphora 3D Polymer. colorFabb_XT Light Green is a bright and cheerful color, here to wow your audiences.
+
+      FDA food contact compliance
+      Low Odor
+      High Toughness
+thumbnail_url: https://file.myfilamentlist.com/f/new/b9c8e292973e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:51.771Z'
+updated_at: '2025-03-25T22:36:51.771Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: null
+colors:
+  - 5535
+packages:
+  - 403abf44-0b2b-4d84-97cb-1f51054666b8
+  - c7f5c4e6-d215-4551-8548-987e1f5e496e
+  - d5c97ded-03f2-40e1-8c6e-b95492355abc
+  - e7ebd986-9336-49fe-9c69-d564a579bf13
+secondary_material_types: []
+opentag_uuid: 174e6c5f-9b13-5c1d-b649-885660b95cec

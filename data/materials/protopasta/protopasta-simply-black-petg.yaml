@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/26dbf2730299.png
+    type: gallery
+uuid: fc2036b8-1025-4c36-8c01-15c8e26e9c62
+slug: simply-black-petg
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Simply Black PETG
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  For Simply Black PETG, we minimize processing and ingredients, without sacrificing quality, for an exceptional value. There's nothing basic about the care and consideration this material is made with.
+
+  Simply Black PETG includes:
+
+      100% new PETG for the highest quality result
+      quality ingredients plus in-house processing for curated chemistry
+      minimal packaging with recyclable cardboard spools
+      processing from 230+ C @ 2 cu mm/s volume rate, 70+ C bed
+      less rigid than PLA and HTPLA for more flex before break
+      more heat resistance than PLA, but less than heat treated HTPLA
+thumbnail_url: https://file.myfilamentlist.com/f/new/26dbf2730299.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T19:47:46.451Z'
+updated_at: '2025-04-02T19:47:46.451Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 6556
+packages:
+  - 0bb6e7fa-aed1-4a6e-9289-24bf2546592f
+  - a5042b65-bd3e-43dd-8032-5f870ac6e3fd
+  - e9fdb0a0-a1d9-4044-87fe-9b9ddce3c3b2
+secondary_material_types: []
+opentag_uuid: 9e56e5f1-e656-5c2c-9b85-598bc12c77a6

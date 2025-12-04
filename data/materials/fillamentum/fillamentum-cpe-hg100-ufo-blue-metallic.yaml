@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/930f8750f634.png
+    type: gallery
+uuid: 720519c5-4917-4e8f-82f2-0c2de2e19c59
+slug: cpe-hg100-ufo-blue-metallic
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CPE HG100 "UFO Blue Metallic"
+abbreviation: null
+url: null
+primary_color: 81b6959c-e011-4961-8c36-ca3797d0ff30
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  CPE HG100 is a modified PETG material developed for technical prints. You can rely on easy 3D printing, high quality, excellent lamination, perfect details, and high precision.
+
+   High-technical durable long-life material
+   Great impact resistance (no break)
+   Easy printing as PLA
+   High hardness
+   Temperature resistance up to 80 degreesC
+   Chemical resistance against acids, alkalis, alcohols, and hydrocarbon
+thumbnail_url: https://file.myfilamentlist.com/f/new/930f8750f634.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:21.814Z'
+updated_at: '2025-03-25T22:31:21.814Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 27a91e17-7871-4d99-88e5-9d92e84d20b8
+colors:
+  - 322
+packages:
+  - 75c2a668-603e-4721-98fd-3c8111255af7
+  - f0071ea1-b5e4-4493-84a2-18ff39930dda
+secondary_material_types: []
+opentag_uuid: 7b3228bb-9dd1-5519-b88c-3604dcd83b4c

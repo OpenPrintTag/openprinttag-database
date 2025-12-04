@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 35c98e73-87dc-496f-b4e4-12344f7712c5
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: d593a206-c09c-4e95-801d-2ab0cddf5bf1
+uuid: db704831-6aa5-469f-a235-1e0d62d63e5a
+slug: model-anthracite-grey
+brand_slug: prusament-resin
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Model Anthracite Grey
+abbreviation: null
+url: https://www.prusa3d.com/product/prusament-resin-model-anthracite-grey-1kg/
+primary_color: 96b97c1c-d766-4428-9e76-98d50146edbb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Prusament Resin Model is a high-quality resin developed with a strong emphasis on both user safety and print quality. It offers exceptionally short exposure times, sharp details, low shrinkage, and perfect platform adhesion coupled with high printing performance and reliability. Our unique formula also minimizes unpleasant odors and potential health risks. These qualities make the Model resin a perfect choice for a wide range of use cases from hobby printing, educational projects, art, design, high-end industrial prototyping, or dental models.
+thumbnail_url: null
+deleted_at: null
+deleted_by: d8c96edf-b221-4edd-9cee-78241af8f891
+created_at: '2025-10-03T12:59:38.176Z'
+updated_at: '2025-10-03T12:59:38.176Z'
+brand: cfc23beb-9ca8-431f-a406-47c727d3d0f7
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9665
+packages:
+  - d43d5395-5402-43ae-b910-3f479f8acf87
+secondary_material_types: []
+opentag_uuid: e39f7a3d-3fd5-5fe8-8fd5-db5d29cf29c2

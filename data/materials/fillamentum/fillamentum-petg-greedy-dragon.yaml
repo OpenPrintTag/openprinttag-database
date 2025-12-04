@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1830cf17ee70.png
+    type: gallery
+tags:
+  - ec9293e7-be62-43b2-a468-248d64a9dc9e
+uuid: 26a77001-2c3b-4eb1-970b-bbd32df66819
+slug: petg-greedy-dragon
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG "Greedy Dragon"
+abbreviation: null
+url: null
+primary_color: 67c24dbc-d22f-4ce9-9813-18592bdc3008
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG filament is perfect for practical 3D prints, combining strength, flexibility, and easy processing.
+
+   High strength & good hardness
+   Temperature resistance up to 70 degreesC
+   Chemical resistance against water, acids, alkalis, and alcohols
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/1830cf17ee70.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:54.812Z'
+updated_at: '2025-03-25T22:32:54.812Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2145
+packages:
+  - 1c10bb8d-5047-4f3c-b746-a2aaa475f3df
+  - 47c0b116-5243-4bbc-a3fc-525e07f2ef11
+secondary_material_types: []
+opentag_uuid: c40f3575-cbcd-5596-b1e4-d16472ce42a1

@@ -1,0 +1,86 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 964d6be8-e98b-4ab8-bbdb-1379372a78c8
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+uuid: b599844b-5e86-46bc-bf5c-1efc5f5458d7
+slug: petg-cf-black-5
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG-CF Black
+abbreviation: null
+url: https://www.filamentree.eu/shop/30610461-petg-cf-black-1kg-5020?category=62#attr=834,3135,3133,836,3134,3136,3137,3138,3139
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG-CF Black 1 kg is a high-performance 3D printing filament designed for creating strong, lightweight, and durable prints. Made from PETG (Polyethylene Terephthalate Glycol) infused with carbon fiber (CF), this filament combines the ease of printing of PETG with the enhanced strength, stiffness, and dimensional stability provided by carbon fiber. The sleek black color offers a professional and modern finish, making it ideal for both functional parts and high-end prototypes.
+
+  This 0.75kg spool is perfect for users seeking superior mechanical properties and a premium finish. PETG-CF Black is known for its excellent rigidity, reduced weight, and improved surface quality, making it suitable for demanding applications where strength and precision are critical. Additionally, it retains the chemical and moisture resistance of standard PETG, ensuring durability in various environments.
+
+
+  Key Features:
+
+      Carbon Fiber Reinforced PETG: Combines the ease of printing of PETG with the enhanced strength and stiffness of carbon fiber.
+      Sleek Black Color: Offers a professional and modern finish for high-quality prints.
+      High Rigidity and Strength: Ideal for functional parts requiring durability and precision.
+      Lightweight: Carbon fiber reduces the overall weight of prints without compromising strength.
+      Improved Surface Finish: Delivers smoother and more refined prints compared to standard filaments.
+      Chemical and Moisture Resistance: Suitable for use in environments where exposure to chemicals or moisture is a concern.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Lightweight components for drones, RC cars, and robotics
+      High-strength enclosures and brackets
+      Automotive and aerospace parts
+      Industrial tools and fixtures
+      General-purpose 3D printing projects requiring enhanced performance
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area to avoid inhaling fine particles.
+      Avoid contact with eyes and skin. In case of contact, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG-CF Black 1 kg is a premium filament choice for 3D printing, offering exceptional strength, rigidity, and a professional finish. Whether you're creating high-performance parts or precision prototypes, this filament ensures outstanding results with the added benefits of carbon fiber reinforcement.
+thumbnail_url: https://file.myfilamentlist.com/new/b599844b-5e86-46bc-bf5c-1efc5f5458d7.png
+deleted_at: null
+deleted_by: d2a8f2b5-7b99-4467-8c97-b2e70ab0bbdd
+created_at: '2025-12-01T12:12:07.972Z'
+updated_at: '2025-12-01T12:12:07.972Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - c9e78bbb-7234-4c6e-b9bf-57e2a821e750
+secondary_material_types: []
+opentag_uuid: 6a409305-46c4-5daf-a42f-36d2804d5338

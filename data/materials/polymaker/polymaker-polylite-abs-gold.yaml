@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f67e96e0b187.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 5affde80-f6b1-4e06-ba88-f74e35e09750
+slug: polylite-abs-gold
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ ABS Gold
+abbreviation: null
+url: null
+primary_color: b73cae23-ff59-4427-bc2f-d11fe45ddd6b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ ABS is made with a specialty bulk-polymerized ABS resin, which has significantly lower volatile content compared to traditional ABS resins. It delivers excellent printing quality with minimal odor during printing.
+
+
+  -  Printing Requirements
+
+      Enclosure that can trap ambient air and keep it hot
+      All-metal hotend that can reach 250C+ is recommended though not needed. 
+
+  And that's all! You can use Magigoo Original to help with build plate adhesion
+
+  If using a stock, older style printer - we would recommend printing slower. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/f67e96e0b187.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:32.663Z'
+updated_at: '2025-03-25T22:34:32.663Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3071
+packages:
+  - 3590a39f-4de3-482f-bbc1-1128044fa41f
+  - 767b0d1d-4f86-4e4b-a75b-85ae6a9c69e6
+  - 8339d00f-2612-4d56-a047-9d90367b9be7
+  - 8df455cc-0de6-4a91-a262-e292515f3549
+  - b2b10ee4-1580-4965-a52c-2a43621adf38
+  - c938ba92-6ed4-44b0-ab5e-69f423d3be03
+secondary_material_types: []
+opentag_uuid: 836e422e-3845-5421-ad7c-4177fef9118b

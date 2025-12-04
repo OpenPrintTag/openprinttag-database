@@ -1,0 +1,74 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/28a786d9f562.png
+    type: gallery
+tags:
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: 966b3904-ad45-4d7d-b8c7-205d4ddc06ba
+slug: apollox-natural
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ApolloX Natural
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ApolloX is a modified ASA based 3D printer filament with improved mechanical properties and is suitable for 3D printing mechanical parts and outdoor applications with high precision and low warping.
+
+  Unique features
+
+          UV & weather resistant
+          FDM/FFF-optimized
+          Warp-free printing
+          Optimized filament flowing behaviour, thermal stability, and inter-layer adhesion
+          Excellent adhesion to heated glass plate, Kapton tape, PET tape and Formfutura EasyPad
+          Greatly improved mechanical properties and strength
+          Extremely high printing precision
+          Printing with remarkable fine detail
+thumbnail_url: https://file.myfilamentlist.com/f/new/28a786d9f562.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.354Z'
+updated_at: '2025-03-25T22:31:13.354Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 141
+packages:
+  - 6251145f-167f-4a16-aa29-4d0eefd64265
+  - 6585ebb1-8dee-46c7-a151-d353cd0edf62
+  - 76055132-ae7f-4b37-92e7-e59f9a189b50
+  - 8508c932-bf97-409e-b85e-67cb333e2fd9
+  - a38eb5f9-91aa-4326-8751-241463e86f4c
+  - a3cc17b4-a1a4-4efc-b3d9-dbc36dc63ad8
+  - a3cc77e2-9981-4c3f-aa5b-f63538c80b68
+  - b33db198-81c8-4a94-956f-8a3b4236351b
+  - f1f71b7d-7390-4cd0-b50b-8dbf43f6e3fa
+  - fd4a6b36-cd8b-4b29-a2af-bafacb74a466
+secondary_material_types: []
+opentag_uuid: 937978d9-82e0-51d2-8eb2-0e6f97b8ed3c

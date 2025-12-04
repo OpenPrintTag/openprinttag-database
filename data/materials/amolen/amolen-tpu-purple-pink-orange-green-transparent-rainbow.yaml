@@ -1,0 +1,60 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.19000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 7db21607-ffa4-49a9-beae-7168b23ea1d5
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+secondary_colors:
+  - 895e0329-ea96-420e-8202-83ebe1d8a459
+  - 2bdd032b-7a02-48ee-b5f4-999106b7e17e
+  - e4fc5556-4f2f-4c3f-a82d-163e353b16ba
+  - 59a8cf67-5708-4589-909b-d806ac2d2a79
+uuid: 31ce0731-4509-4e78-86e5-7700a7b2fae8
+slug: tpu-purple-pink-orange-green-transparent-rainbow
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Purple Pink Orange Green Transparent Rainbow
+abbreviation: null
+url: https://www.amolen.com/products/tpu-rainbow
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+  Enhance your 3D printing projects with our TPU Flexible filament, designed to deliver durable and elastic prints. Engineered for smooth, bubble-free, and jam-free performance, this eco-friendly filament ensures high-quality results for both professionals and hobbyists.
+thumbnail_url: https://file.myfilamentlist.com/new/31ce0731-4509-4e78-86e5-7700a7b2fae8.png
+deleted_at: null
+deleted_by: 587df744-c123-40b5-b8a5-a4606c596df3
+created_at: '2025-11-23T17:12:56.436Z'
+updated_at: '2025-11-23T17:12:56.436Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - ff8f43ca-ea16-483d-8099-0c3f1ac1875f
+secondary_material_types: []
+opentag_uuid: 55c9d631-48a5-5ab3-8dc2-8f1577915ed4

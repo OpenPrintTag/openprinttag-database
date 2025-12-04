@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ced107e93b9d.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 4738b5fb-3cd9-4d9f-9ed3-9b2465cd3e3e
+slug: air-pla-yellow
+brand_slug: overture
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'Air PLA Yellow '
+abbreviation: null
+url: null
+primary_color: f36bb080-3d2c-40e0-85b6-73cfc6075c44
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  AIR PLA is specifically engineered to be a low-density foam filament. The lower density allows for the production of lighter parts without compromising on strength or integrity, making AIR PLA an excellent choice for applications where weight is a critical factor.
+
+  One of the standout features of AIR PLA is its remarkable lightness, being approximately 20% lighter than regular PLA. This substantial reduction in weight opens up new possibilities for 3D printing, especially in fields such as aerospace, automotive, and model-making, where minimizing weight can enhance performance and efficiency. 
+thumbnail_url: https://file.myfilamentlist.com/f/new/ced107e93b9d.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:13.078Z'
+updated_at: '2025-03-25T22:31:13.078Z'
+brand: f6445e5e-f6b6-4958-90c0-d2eb90e4ea9b
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 138
+packages:
+  - 669079b8-9757-4647-8ae1-4bf964439360
+secondary_material_types: []
+opentag_uuid: e79af4d8-74da-5d99-828a-77b21e710d7d

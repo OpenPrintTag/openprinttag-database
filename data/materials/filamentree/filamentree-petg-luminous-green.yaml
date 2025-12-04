@@ -1,0 +1,84 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 24643550-8841-46a3-b233-85080edcc84c
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: f02066d0-cd81-4b95-b85a-4ddbe8fc77d7
+slug: petg-luminous-green
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Luminous Green
+abbreviation: null
+url: https://www.filamentree.eu/shop/30410311-petg-luminous-green-1kg-5019?category=63#attr=790,3055,3054,792,3573,3574,3058,3059,793
+primary_color: 4f052bdd-314d-42aa-a245-5e216681c9be
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG Luminous Green 1kg is a high-quality 3D printing filament designed for creating strong, durable, and visually striking prints. Made from PETG (Polyethylene Terephthalate Glycol), this filament combines the ease of printing of PLA with the strength and flexibility of ABS, making it an excellent choice for a wide range of applications. The vibrant luminous green color offers a bold, glowing finish, perfect for both functional parts and aesthetic models.
+
+  This 1kg spool ensures consistent performance and reliability, making it suitable for hobbyists and professionals alike. PETG Luminous Green is known for its excellent layer adhesion, impact resistance, and flexibility, ensuring that your prints are not only visually appealing but also robust and long-lasting. Additionally, it is resistant to moisture and chemicals, enhancing its versatility for various environments.
+
+  Key Features:
+
+      High-Quality PETG Material: Combines the ease of use of PLA with the strength and durability of ABS.
+      Vibrant Luminous Green Color: Offers a bold, glowing finish suitable for a wide range of applications.
+      Excellent Layer Adhesion: Ensures strong and reliable prints with minimal warping.
+      Impact Resistance: Withstands shocks and impacts, making it ideal for functional parts.
+      Chemical and Moisture Resistance: Suitable for use in environments where exposure to chemicals or moisture is a concern.
+      Easy to Print: Compatible with most FDM 3D printers, providing a smooth printing experience.
+
+  Applications:
+
+      Functional prototypes and mechanical parts
+      Durable containers and enclosures
+      Artistic models and decorative items
+      Safety and high-visibility applications
+      Outdoor applications due to its UV and moisture resistance
+      General-purpose 3D printing projects
+
+  Safety Information:
+
+      Keep out of reach of children.
+      Use in a well-ventilated area.
+      Avoid contact with eyes and skin. In case of contact, rinse thoroughly with water.
+      Store in a cool, dry place away from direct sunlight and moisture.
+
+  PETG Luminous Green 1kg is a versatile and reliable filament choice for 3D printing, offering a perfect balance of strength, durability, and aesthetic appeal. Whether you’re creating functional parts, safety equipment, or artistic models, this filament ensures high-quality results with a vibrant, luminous green finish.
+thumbnail_url: https://file.myfilamentlist.com/new/f02066d0-cd81-4b95-b85a-4ddbe8fc77d7.png
+deleted_at: null
+deleted_by: 069044f4-d066-455a-b7f9-64b7897add3c
+created_at: '2025-12-01T11:56:37.204Z'
+updated_at: '2025-12-01T11:56:37.204Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - ef906459-dc3f-43f2-8994-41b626ad25af
+secondary_material_types: []
+opentag_uuid: e62eefe9-02c3-52b0-8793-1a3edaa6f572

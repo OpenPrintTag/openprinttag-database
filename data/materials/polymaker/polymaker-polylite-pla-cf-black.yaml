@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f65486eeeb1b.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ad4fa415-5e1f-4b89-baea-ca87bfa4bec6
+slug: polylite-pla-cf-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ PLA-CF Black '
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PLA-CF is a carbon fiber reinforced PLA.
+
+
+  - Printing Requirements
+
+      Hardened Nozzle
+
+  And that's it! This material is abrasive so you will need a hardened nozzle, but it will print on any stock printer aside from that.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f65486eeeb1b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:41.367Z'
+updated_at: '2025-03-25T22:34:41.367Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3201
+packages:
+  - b604f5cc-2e41-4e4d-9383-2b6c46f48f8c
+secondary_material_types: []
+opentag_uuid: 96cb4ca5-e255-50ee-ad90-f8bc0bd41978

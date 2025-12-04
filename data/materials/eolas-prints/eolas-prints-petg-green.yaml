@@ -1,0 +1,55 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 0b562c77-adf1-4fab-b259-03d993206369
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: fc921032-cf2f-4f2d-92a9-a9291001dc06
+slug: petg-green-15
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Green
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/petg-filament?variant=48686849360199
+primary_color: 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Eolas Prints PETG Filament represents a sophisticated 3D printing filament that bridges the performance gap between PLA and ABS, offering an exceptional solution for professional and technical applications. This material delivers a unique combination of mechanical properties, printing ease, and material stability.
+thumbnail_url: https://file.myfilamentlist.com/new/fc921032-cf2f-4f2d-92a9-a9291001dc06.png
+deleted_at: null
+deleted_by: c68d3e9e-a4d6-440c-abed-c91e7fc0b0e3
+created_at: '2025-11-11T11:14:37.467Z'
+updated_at: '2025-11-11T11:14:37.467Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 00756426-f24c-4709-978f-0705d4dfc0be
+  - 65d3576a-49aa-4b86-9e5f-283e779d025d
+secondary_material_types: []
+opentag_uuid: 23ecd6c0-2d4b-548f-a565-f075f37b2fbe

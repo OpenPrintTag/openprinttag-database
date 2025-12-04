@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.23000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: dae3f3c7-f083-461a-87d6-3d74a52da8c0
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+uuid: 2ee22487-8895-4b4a-9907-1efcf3d0426f
+slug: petg-carbon-fiber-carbon-black
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Carbon Fiber Carbon Black
+abbreviation: null
+url: https://winkle.shop/producto/filamento-petg-fibra-de-carbono-winkle-175-mm-1-kg-negro-carbon/
+primary_color: 9821064a-8549-43f8-99b9-42270e8d552e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PETG CF (Carbon Fiber) Filament is synonymous with precision, strength, and industrial-grade finish in every print.
+  Winkle’s Carbon Fiber PETG Filament is the ideal solution for projects requiring structural parts with high rigidity, durability, and impeccable technical finish. It combines the ease of printing of PETG with the advanced mechanical strength of carbon fiber, offering a versatile, high-performance material.
+
+  This filament provides excellent dimensional stability, even under mechanical loads or elevated temperatures. Its satin matte industrial finish conceals print layers, achieving a professional appearance straight from the hotend.
+
+  Although abrasive and requiring hardened nozzles, PETG CF prints easily and ensures strong layer adhesion, reducing failures and enhancing the structural integrity of your parts.
+thumbnail_url: https://file.myfilamentlist.com/new/2ee22487-8895-4b4a-9907-1efcf3d0426f.png
+deleted_at: null
+deleted_by: 8889cabb-0cc4-4e96-8ab9-c85128790fb3
+created_at: '2025-11-21T11:33:42.790Z'
+updated_at: '2025-11-21T11:33:42.790Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - cb5c1e74-b2c1-48ae-9d62-5e28c538425b
+  - e4edda7f-7590-42f1-be54-d50a166d719a
+  - fedeaa2d-d0e7-4b8a-8c0d-42cd1a48ebd0
+secondary_material_types: []
+opentag_uuid: 93e49430-3a60-59e1-b237-62cf5105e6c9

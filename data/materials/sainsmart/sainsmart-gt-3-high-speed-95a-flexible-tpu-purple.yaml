@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 572421bd-3e6a-4891-9df4-db8f7b774208
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: c9d3453f-7175-468c-bbb5-90219b2a7e39
+slug: gt-3-high-speed-95a-flexible-tpu-purple
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: GT-3 High-Speed 95A Flexible TPU Purple
+abbreviation: null
+url: https://www.sainsmart.com/products/gt-3-flexible-tpu?variant=42202493091919
+primary_color: cb9a6da4-6b75-440e-a13e-20506678ef08
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hyper Speed: The SainSmart GT-3 TPU filament is designed to balance high printing speeds of up to 500mm/s with printing quality. 5 times faster than regular TPU filament.
+      UV Protection: The filament resists damage from UV rays and aging factors, which extends its lifespan and maintains its performance. This makes it ideal for various applications, particularly those exposed to outdoor or harsh conditions.
+      Elasticity & Toughness: With a hardness rating of 95A, this filament offers high elasticity and exceptional toughness. It is ideal for creating intricate and bendable prints that require movement, such as phone cases, flexible toys, prosthetics, and other parts that need to stretch or deform.
+      Compatibility: This filament, with its 1.75mm diameter, will work on a variety of 3D printers like Creality K1, K1 Max, Ender-5 S1, Anycubic Kobra 2, ELEGOO Neptune 4, Bambu 3D Printers, Ankermake M5 ＆ AnkerMake M5C, Flashforge Adventurer 5M ＆ Adventurer 5M Pro, Prusas, Monoprice, FLSUN V400, Artillery, Qidi MAX3, SCRIB3D, MYNT3D, etc.
+      Recommend Printing Setting: Nozzle Temp: 220-240°C, bed Temp: 30-50°C, printing speed:300mm/s, dimensional accuracy +/- 0.04 mm.
+      Noted: Flexible TPU and other flexible filaments are not suitable to be put into the Bambu Lab AMS system (Multi-color printing).
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: b1168b61-44d2-4e5a-9d9c-6583493b0018
+created_at: '2025-09-26T13:37:56.320Z'
+updated_at: '2025-09-26T13:37:56.320Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9166
+packages:
+  - f8da0736-8a47-407e-a4e5-212d5d3b9686
+secondary_material_types: []
+opentag_uuid: bafc1764-86d8-507e-8ad4-53bdb5ce90b1

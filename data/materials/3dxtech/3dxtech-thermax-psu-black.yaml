@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/e7f2e33ae3d6.png
+    type: gallery
+uuid: b101888e-4372-4e0b-a359-afa5ecbf658a
+slug: thermax-psu-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ThermaX PSU  Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polysulfone (PSU) is a high-temperature aromatic sulfone polymer. PSU has excellent thermal and chemical resistance, making it well suited for demanding applications in automotive, aerospace, electronics, defense, food service, industrial, plumbing, medical, semi-con applications.
+
+  PSU is an excellent alternative to ULTEM 9085. While having a lower cost per kilogram and lower density (giving you more filament per kilogram as well), it maintains superior thermal properties. Its higher Tg and HDT give it higher strength and stiffness at elevated temperatures.
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/e7f2e33ae3d6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:05.302Z'
+updated_at: '2025-03-25T22:36:05.302Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: d4694b63-f4e0-4a7b-af90-34f99e336211
+colors:
+  - 4471
+packages:
+  - 681d1b08-eb79-440d-886f-b7588acf6fcf
+  - b4c8cc01-6898-4edd-93f0-6130af5a8935
+  - f88875aa-82e1-4788-b894-fe729893f812
+secondary_material_types: []
+opentag_uuid: c64a0d72-c6b4-5a03-a2d5-f16cf4de98e1

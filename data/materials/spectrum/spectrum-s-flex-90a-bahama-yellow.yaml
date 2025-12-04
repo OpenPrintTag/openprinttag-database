@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.22000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 24758c1c-2bc3-4703-914d-33655c2b16fe
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 9b5959c0-2677-412d-8b4c-4780929b2141
+slug: s-flex-90a-bahama-yellow
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: S-Flex 90A™ Bahama Yellow
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color: 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Where durability and flexibility are essential
+
+  Spectrum S-Flex 90A is a filament designed for 3D printing, making it much easier to produce flexible objects than other such materials. The material’s appropriate composition ensures good adhesion both between layers and between the printed object and the build platform.
+
+  Due to its resistance to hydrocarbons and good lamination between layers, S-Flex 90A enables the production of sealing elements that must be resistant to any operating fluid, ensuring the best possible seal. Parts made from this material can be used as energy absorbers, i.e., all types of bumpers or vibration dampers.
+
+  In addition to the above properties, S-Flex 90A material also features good UV resistance and high resistance to aging. S-Flex 90A flexible filament is resistant to weak and dilute acids and bases.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 61a0aeae-f537-4e5f-89e0-b37969729532
+created_at: '2025-10-17T09:37:57.842Z'
+updated_at: '2025-10-17T09:37:57.842Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: null
+colors: []
+packages:
+  - 7d94bb4e-d94d-4c7f-b15c-302fa57a156a
+secondary_material_types: []
+opentag_uuid: 6ac77beb-d94c-5118-a07d-76f25c83fd35

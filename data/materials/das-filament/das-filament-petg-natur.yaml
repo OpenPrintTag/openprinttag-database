@@ -1,0 +1,67 @@
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: a31ffa6c-63e2-41d0-955f-840f6ebb91ff
+slug: petg-natur
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Natur
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/136/petg-filament-1-75-mm-natur-800-g?c=35
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Transparent, reines PETG ohne Farbpigmente
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: f9695942-5232-40f5-bf8c-6bff84f69a89
+created_at: '2025-10-19T09:51:40.285Z'
+updated_at: '2025-10-19T09:51:40.285Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 491e1455-5e1f-48f0-b234-70ba0502f886
+  - 6698c65e-184b-4744-8ba7-c0638cb6bb41
+  - 718e58ef-c115-4827-8519-2c6a04e71de6
+  - 91da8149-bf91-4fa3-87f8-fe33aacd0f51
+secondary_material_types: []
+opentag_uuid: 4ae8d423-81fa-5dbb-bd09-27377fc1ddc8

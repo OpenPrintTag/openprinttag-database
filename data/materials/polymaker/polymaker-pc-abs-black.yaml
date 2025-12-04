@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/d5076f570d3f.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 2b63978e-2ab4-4d02-9b15-f3db3b49229d
+slug: polymaker-pc-abs-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Polymaker PC-ABS Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polymaker PC-ABS is a PC/ABS polymer blend which offers excellent toughness and heat resistance while displaying good surface finish and good compatibility with metal plating.
+
+  Please refer to the printing requirements below before purchasing. 
+
+  -  Printing Requirements
+
+      Enclosed printer that can trap heat required.
+      Actively heated chamber with minimum 90˚C chamber temp required.
+      Large, dense parts will require a heated chamber even more so than small parts.
+      Annealing post printing. More info on annealing: https://us.polymaker.com/blogs/3d-printing-tips/what-is-annealing-and-why-do-we-do-it
+      Dryer or drybox recommended.
+      Magigoo PC highly recommended to help with bed adhesion.
+      All-metal hotend that can reach at least 250˚C recommended 
+thumbnail_url: https://file.myfilamentlist.com/f/new/d5076f570d3f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:46.864Z'
+updated_at: '2025-03-25T22:34:46.864Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 3311
+packages:
+  - 8a0473d6-a4f9-480c-8b1b-16c8313d945c
+  - 8f13dff4-26fc-4d95-92e3-70b16e42a6aa
+secondary_material_types:
+  - 34
+opentag_uuid: 181101fa-7328-5409-ba0c-a9714f7c0b4f

@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ed5bf1d1605e.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 538aca1e-5bc6-47a4-b97d-9571c396193f
+slug: polymax-pla-purple
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyMax™ PLA Purple '
+abbreviation: null
+url: null
+primary_color: 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyMax™ PLA is an incredibly easy-to-print filament with improved mechanical properties, making it an excellent alternative to ABS.
+
+
+  Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/ed5bf1d1605e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:49.080Z'
+updated_at: '2025-03-25T22:34:49.080Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3518
+packages:
+  - 091d46f5-bda1-40af-a6aa-dbbbd06dd221
+  - 09a12a4e-b0e1-4489-987e-5269b655d0f8
+  - 23d8561d-7532-476e-bc34-4f2285620757
+  - aca91e66-7b4c-40dd-bcb9-8d5e1209323f
+secondary_material_types: []
+opentag_uuid: 531bffa5-859e-5df7-a859-1de47124c76a

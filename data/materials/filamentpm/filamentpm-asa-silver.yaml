@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4e9cf19598d3.png
+    type: gallery
+uuid: e955b377-b114-4c46-bd96-3db65664c8db
+slug: asa-silver-4
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ASA - Silver '
+abbreviation: null
+url: null
+primary_color: dc09b020-2315-43d6-9b85-16b8dc7d9768
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ASA (acrylonitrile styrene acrylate)
+  - similar to ABS
+  - perfect for outside use
+  - UV stable, high water and impact resistant
+  - high impact and wear resistance
+  - easy postprocessing (it's possible to sand the prints using wet or dry sanding methods, smooth them out with acetone vapors, and glue them together with acetone)
+  - ideal for prototyping, outside use as well as the automotive and engineering industries
+thumbnail_url: https://file.myfilamentlist.com/f/new/4e9cf19598d3.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T11:34:42.413Z'
+updated_at: '2025-04-23T11:34:42.413Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7108
+packages:
+  - 09a874c0-67e5-49cb-b86e-2472036ee1c7
+secondary_material_types: []
+opentag_uuid: e76e7aed-5181-58e7-9af3-0e331bc08509

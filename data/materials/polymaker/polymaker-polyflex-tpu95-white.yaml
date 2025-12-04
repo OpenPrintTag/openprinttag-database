@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 6215f661-c2b8-478d-b7fd-d7810185221a
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/63e667dfb258.png
+    type: gallery
+uuid: 3c4bd9dd-2c7d-458d-abd4-55ce3126d3f9
+slug: polyflex-tpu95-white
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyFlex™ TPU95 White '
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |
+  PolyFlex™️ TPU90, created from Covestro's Addigy®️ family, is a thermoplastic polyurethane (TPU) based filament designed to provide great flexibility without compromising on printing speed.
+
+
+  -  Printing Requirements
+
+      Direct extruder with a gear ratio mechanical advantage required.
+      Will be very difficult to print with a small nozzle diameter..
+
+  And that's all!
+
+  If using a stock, older style printer - we would recommend printing VERY slow. Make sure your printer is not setup as Bowden - any large gap between your extruder and hotend will cause printing issues.
+thumbnail_url: https://file.myfilamentlist.com/f/new/63e667dfb258.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:32.094Z'
+updated_at: '2025-03-25T22:34:32.094Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3383
+packages:
+  - 6e81e844-aa2a-45aa-a2ff-46527f7e711f
+  - c1386982-583e-42df-8080-850cf9f5a096
+secondary_material_types: []
+opentag_uuid: 4717c19d-fe76-5f5f-aba5-058642c26942

@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5f6779fc-a633-4da8-ac32-a2575e010f58
+  hardness_shore_a: 85
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a64aba684833.png
+    type: gallery
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: c202228e-d019-4179-b594-cf007d3c0a09
+slug: tpu-pro-matte-85a-black
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Pro Matte 85A Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |2-
+      Easy to use flexible material in 85A Shore Hardness
+      Professional aesthetic with sleek matte finish
+      Enhanced durability for functional products
+
+  Introducing TPU Pro Matte - the flexible game-changer in 3D printing materials. By adjusting wall thickness and infill, you can achieve either a more rigid or highly flexible part. In short, it's a versatile and ductile filament.
+
+  Say goodbye to the glossy sheen of ordinary filaments and hello to the sophistication of matte with our groundbreaking TPU Pro Matte. Engineered for ease of use and exceptional performance, this filament is designed to deliver a professional-grade surface finish that stands out in the world of 3D printing.
+
+  Whether you're a seasoned pro or new to the scene, TPU Pro Matte makes printing a breeze. Its unique properties ensure smooth extrusion and excellent bed adhesion, reducing warping and minimizing printing errors. The result? Flawless prints with a chic, velvety appearance that feels as good as it looks.
+
+  TPU Pro Matte isn't just about aesthetics; it's built to last. The material's durability means it can withstand the demands of functional prototypes or everyday objects. Its matte surface is not only stylish but also hides fingerprints and smudges, keeping your creations pristine.
+thumbnail_url: https://file.myfilamentlist.com/f/new/a64aba684833.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T18:16:37.671Z'
+updated_at: '2025-04-01T18:16:37.671Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5914
+packages:
+  - 98f1632a-cc8f-4cfb-af01-018c6abecaff
+secondary_material_types: []
+opentag_uuid: f6f50972-1668-52ed-ab20-99f85e022c2b

@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/b1d6024cd2cb.png
+    type: gallery
+uuid: b1c94f1e-2495-4800-b938-aeb356fe6a9f
+slug: asa-ruby-3
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Ruby
+abbreviation: null
+url: null
+primary_color: 74ca198c-35b7-47e7-a649-ab3467871240
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ASA is a filament for 3d printing with exceptional weather resistance. Unlike many plastic materials, the ASA maintains its color and impact resistance, even after long-term outdoor use.
+
+  Unlike many plastic materials, the ASA maintains its color and impact resistance, even after long-term outdoor use. It is mechanically robust, perfect for applications with need of resistance. Resistant to ultraviolet rays (U.V.), therefore does not  goes yellow. Water resistant. It has great dimensional stability, so it does not present warping and the printing pieces have good tolerances.
+
+  APLICATIONS
+
+      Prototyping of parts that require resistance to UV rays
+      Decoration objects and figures for outdoors
+      Automotive industry
+      Signage
+      Industrial applications that require mechanical resistance
+      Water and weather resistant parts
+      Electrical installations
+thumbnail_url: https://file.myfilamentlist.com/f/new/b1d6024cd2cb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T20:57:54.724Z'
+updated_at: '2025-03-29T20:57:54.724Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 5227
+packages:
+  - 94028b93-e009-4956-a493-db65b3c60b04
+  - b7122943-5829-492d-a9ea-6231c9e03090
+secondary_material_types: []
+opentag_uuid: a7ada47b-3a90-5072-b0a7-7ab7ac8af764

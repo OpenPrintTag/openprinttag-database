@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2d9d0878-9888-4a0c-9d61-69615dbac1ca
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: ab363079-6501-47b2-9649-b660947fb57f
+slug: pla-hd-pastel-cloud-blue
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Pastel Cloud Blue
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-pastel-winkle-175-mm-1-kg-azul-nube/
+primary_color: 73d85eb6-1311-435f-a2ae-868fe0492c65
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Winkle’s PLA HD Pastel Filament is designed to deliver high precision, strength, and aesthetics in every layer.
+  Its consistent 1.75 mm diameter, 96% stereochemical purity, and 45 MPa tensile strength ensure stable extrusion, reducing clogs and enhancing detail definition in complex prints.
+
+  PLA HD Filament has a low moisture level (maximum 400 ppm) and only 0.3% residual monomer, resulting in clean, deformation-free prints.
+
+  Applications for Winkle PLA HD Pastel Filament:
+  Perfect for 3D prototypes, decorative parts, custom accessories, architectural models, toys, creative jewelry, and design elements with a soft, subtle visual effect.
+
+  If you’re looking to buy PLA HD filament with excellent performance and a professional finish, this is the ideal filament for your most demanding 3D prints.
+thumbnail_url: https://file.myfilamentlist.com/new/ab363079-6501-47b2-9649-b660947fb57f.png
+deleted_at: null
+deleted_by: 87fa393b-514d-4cf7-ade5-3445d6ed702b
+created_at: '2025-11-21T12:18:23.711Z'
+updated_at: '2025-11-21T12:18:23.711Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - a251b815-4815-4769-a814-bfc9b2c21f7a
+  - e2554200-bfad-41e5-8830-5eca5dfe4d6b
+secondary_material_types: []
+opentag_uuid: c0bcc610-bae0-561f-b553-80bd43f8395d

@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6b8c563d2630.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 86cbd18d-9120-41b5-9f1c-d8387a57c08d
+slug: rigid-x-green-camo
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rigid X Green Camo
+abbreviation: null
+url: null
+primary_color: 61b60ad2-0d6a-40eb-9c87-045e17ce95a8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      Carbon fiber-reinforced PETG
+      Chemical, heat and UV-resistance
+      Unique surface finish (hides layer lines)
+
+  Add:North's Rigid X is a carbon fiber reinforced PETG filament. It combines the excellent chemical, heat and UV-resistance of regular PETG, along with the strength and stiffness of carbon fibers. It also adds about 10-20degreesC in heat resistance, making it the perfect material for a broad range of demanding applications, such as vehicle parts, fixtures or jiggs.
+
+  Rigid X is effortless to print. You can easily achieve maximum layer adhesion and a beautiful surface finish, with zero warping. Because of the higher print temperatures, starting at 245 degreesC, we recommend an all metal hotend. Rigid X is a highly abrasive filament that requires a hardened steel nozzle or equivalent. Nozzle X works very well for printing all our abrasive filaments.
+
+  Rigid X is available in black, dark green, and blue.
+
+  For additional printing advice, check out our cheat sheets for recommended slicer settings in Cura, Simplify 3D and PrusaSlicer. 
+
+  Rigid X, together with all our other filaments, are made in Sweden and have a diameter tolerance of 0.025mm.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6b8c563d2630.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T15:52:17.485Z'
+updated_at: '2025-04-01T15:52:17.485Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 5054
+packages:
+  - e4f41b10-a6f3-44ce-8727-fd841e9d3268
+  - fda82fc4-b0f6-49dd-937f-4537918d4707
+secondary_material_types: []
+opentag_uuid: 228b87bb-c5cc-5852-a903-9a053cfd1758

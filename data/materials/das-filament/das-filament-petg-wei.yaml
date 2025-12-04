@@ -1,0 +1,66 @@
+uuid: 126e246a-0819-4337-8259-cc5c769461a0
+slug: petg-wei
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Weiß
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/157/petg-filament-1-75-mm-weiss-800-g?c=35
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 9003 Signalweiß (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: b04d21e3-886d-4c8a-854f-45785e847f70
+created_at: '2025-10-19T09:43:23.576Z'
+updated_at: '2025-10-19T09:43:23.576Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 090eca2e-e3fa-4cf3-9516-63609955e693
+  - 54218d28-67a2-4460-8fed-1d4366d055c0
+  - 8d8b457a-9676-4d51-899f-30f56616d05c
+  - fd84d848-37d5-488d-b343-672992244de4
+secondary_material_types: []
+opentag_uuid: 4a89bc11-5212-5ebb-b52e-9943ca40b45b

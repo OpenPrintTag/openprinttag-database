@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/22f507594207.png
+    type: gallery
+uuid: 12a0c4f5-01f0-4b76-98d1-105ee1bd7c6e
+slug: tpe-ninjatek-edge-midnight-black
+brand_slug: ninjatek
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPE NinjaTek Edge - Midnight Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  NinjaFlex(R) Edge offers the best of both worlds: NinjaFlex flexibility and NinjaTek's innovative printability. NinjaFlex Edge provides incredible rebound - unlike anything in the market, and unparalleled print speeds for an 83A durometer.
+
+  Features and Benefits of NinjaFlex Filament
+
+      Shore Hardness = 83A
+      Truly flexible (no fill or layer manipulation required to achieve performance)
+      Flexibility allows for repeated movement and impact without wear or cracking
+      Proprietary low-friction exterior allows for smooth feeding
+      Unique rebound gives material excellent bounce and recoil
+      High grip lends itself to robotic grippers and tread
+      Consistent diameter and material properties providing reliable, high-quality prints
+      Chemical resistance to many materials. View the NinjaFlex Edge Chemical Resistance Guide for more information.
+      REACH and RoHS 3 (EU 2015/863)
+thumbnail_url: https://file.myfilamentlist.com/f/new/22f507594207.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:15.568Z'
+updated_at: '2025-03-25T22:36:15.568Z'
+brand: dc14bc52-0ea9-467f-a3a1-cbff6957c8ec
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5112
+packages:
+  - 5093abbe-b4d4-4ef6-affd-6597bb99db18
+  - 80c75846-68ae-4a87-a26b-cdaa54667629
+  - 9fc24269-44fc-41c0-9c4e-e908112dc1ab
+  - baae751b-aef9-4173-97bb-8e6ff80ad408
+  - cbbda18f-e901-4e77-bd71-db09839969b9
+  - d1e62f08-0462-48e2-8a64-e4a38b2df8ab
+secondary_material_types: []
+opentag_uuid: 42802268-ba4e-5a70-a070-d71df87d5bdb

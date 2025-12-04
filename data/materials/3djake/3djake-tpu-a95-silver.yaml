@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2c7754df-f128-40c5-8c74-0cf715312775
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 0990b839-df7d-4179-b4de-4c22898cb55f
+slug: tpu-a95-silver
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU A95 Silver
+abbreviation: null
+url: https://www.3djake.com/3djake/tpu-a95-silver
+primary_color: 572eefaf-e268-4edf-9370-62e68e7e7a47
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  The TPU A95 has been specially designed to make it perfect for 3D printing applications. TPU A95 by 3DJake is a flexible filament with incredible elasticity.
+
+  The 3DJake TPU A95 has a Shore hardness of A95 and can withstand an elongation of up to 400%. The soft and flexible feel of the model opens up new possibilities in the application with 3D printers.
+
+  The properties of TPU A95 from 3DJake include:
+
+      High flexibility
+      Low shrinkage
+      Good layer adhesion
+      Easy to print
+
+  We also recommend increasing the flow by about 5-10% for more consistent extrusion.
+thumbnail_url: https://file.myfilamentlist.com/new/0990b839-df7d-4179-b4de-4c22898cb55f.png
+deleted_at: null
+deleted_by: b5815890-caea-4dad-93d3-99da69062a2c
+created_at: '2025-11-09T21:17:55.608Z'
+updated_at: '2025-11-09T21:17:55.608Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 37391a3f-b6c0-4e4d-bcca-a9f6cb58f12b
+  - cdd2c9a0-2300-4013-8df1-4aff30ed3ea7
+secondary_material_types: []
+opentag_uuid: 2306873d-8ee5-588e-8292-4b0f1f2fd6a9

@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.52000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: df3f7f7a-6583-4143-810a-b02d863e0f55
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 65663536-9f92-407a-bded-5a2fa071bf3b
+uuid: 997260af-a03f-4bae-a040-226f1d0a7870
+slug: composite-x
+brand_slug: liqcreate
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Composite-X
+abbreviation: null
+url: https://www.liqcreate.com/product/composite-x/
+primary_color: 42ff0276-7121-4140-9368-7752088174b7
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Liqcreate Composite-X is an extremely rigid and high performance reinforced nano-micro composite resin for SLA, DLP & LCD / MSLA in the range of 385 – 420nm. Perfect for rapid tooling, wind tunnel testing and industrial applications.
+
+  Liqcreate Composite-X is one of the stiffest and strongest material available in the market. It has a flexural modulus over 9000 MPa and a flexural strength of 150 – 170 MPa. The material can be used after UV-post curing, or the properties can be boosted with a thermal cure. This material has features like excellent chemical resistance, high strength and high stiffness.
+thumbnail_url: null
+deleted_at: null
+deleted_by: a444e810-5752-4701-90f6-7a2d15f0eca7
+created_at: '2025-10-06T08:37:57.077Z'
+updated_at: '2025-10-06T08:37:57.077Z'
+brand: 2a9dda1d-d445-4655-834a-df68be28c352
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9527
+packages:
+  - 23e3dcfc-c01a-49d0-a38a-8b2e63cdd88a
+  - 257b3f7a-ac90-4b91-b878-27d1d7d84240
+secondary_material_types: []
+opentag_uuid: d568a7b4-7857-56d1-aaca-535048367948

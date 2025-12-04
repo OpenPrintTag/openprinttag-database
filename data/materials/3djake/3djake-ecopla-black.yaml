@@ -1,0 +1,76 @@
+uuid: 4fc413fb-6e88-427e-b2a8-53f426a9a05f
+slug: ecopla-black
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ecoPLA Black
+abbreviation: null
+url: https://www.3djake.com/3djake/ecopla-black
+primary_color: f6c293c8-1db9-434c-9e63-f8878366acb1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  The ecoPLA has been slightly modified to make it perfect for 3D printing applications.
+  PLA (polylactic acid) is a non-toxic biodegradable 3D printing material.
+
+  3DJake ecoPLA is the cheap & high-quality alternative for many printers.
+
+  PLA is one of the most popular 3D printing materials due to its features, good printability and ease of use.
+
+  The properties of the ecoPLA from 3DJake:
+
+      Minimal shrinkage
+      Minimal warping
+      Good diameter and roundness tolerances
+      No unpleasant odours
+      Easy to print
+      Tougher & less brittle than conventional PLA filament
+
+  3DJake ecoPLA filament can be used with almost any FDM 3D printer.
+
+  All ecoPLA colors are based on the standardized RAL color system:
+
+  ecoPLA Black - RAL9017
+thumbnail_url: https://file.myfilamentlist.com/new/4fc413fb-6e88-427e-b2a8-53f426a9a05f.png
+deleted_at: null
+deleted_by: d77fe265-70ac-4e18-9e6a-df36f7141a47
+created_at: '2025-11-07T11:10:51.534Z'
+updated_at: '2025-11-07T11:10:51.534Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 3b7789e4-ab4e-48b7-befc-79de37f0e752
+  - 71502588-affb-46f4-931e-4282d37a0239
+  - 7c11cc67-fea6-4797-8c5e-e1ed60aa9c90
+  - fa7eca7c-1621-4348-b2a9-7dc66ce621ab
+  - fd7df433-aaaa-4a25-bedf-6cf523afbfb2
+secondary_material_types: []
+opentag_uuid: e50e31b5-35ad-5f4f-b8a7-68e66ec0f77e

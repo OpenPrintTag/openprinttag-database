@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f5887dd3-1248-4c07-8b3f-f4645de3e3ba
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 951ec09a-e3a9-4fdb-8050-2589e3a6e9f2
+slug: the-filament-petg-transparent-blue
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PETG Transparent Blue
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-petg/
+primary_color: 412279bf-af5d-428d-87de-0157024d2389
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  THE FILAMENT PETG by Spectrum – filament designed for those seeking a material that combines strength with ease of printing. THE FILAMENT PETG is the ideal choice for projects that require durability, flexibility and resistance. It merges the advantages of both PLA and ABS materials while remaining easy to print, even for less experienced users.
+
+  THE FILAMENT PETG by Spectrum is manufactured in Europe, which helps not only to reduce emissions associated with transportation but also guarantees consistent production quality. The filament is wound on a spool made from recycled plastic, certified as 2nd life. PETG is a practical choice for users who value both reliability and the convenience of working with a material that maintains excellent mechanical properties.
+
+  THE FILAMENT PETG is perfect for creating functional parts, tools, prototypes and technical components that need to withstand daily stresses. Its physical properties make it an indispensable material for projects that require both precision and durability.
+
+  By choosing THE FILAMENT PETG by Spectrum, you are opting for strength and versatility – a solution that meets the demands of the most challenging projects.
+thumbnail_url: null
+deleted_at: null
+deleted_by: c5ed88b3-7b70-4b5e-96a2-366088dcbb15
+created_at: '2025-10-15T10:14:42.472Z'
+updated_at: '2025-10-15T10:14:42.472Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: f9c548b4-fed7-594d-816e-78bd40e7a96c

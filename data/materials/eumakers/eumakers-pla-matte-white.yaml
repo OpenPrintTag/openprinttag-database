@@ -1,0 +1,57 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ff2b9436-e567-4866-898d-d2eaf1b63726
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: ad947646-efd3-42c2-bb6b-780cde530686
+slug: pla-matte-white-5
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Matte White
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-matte-white.html
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Matte White.
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/ad947646-efd3-42c2-bb6b-780cde530686.png
+deleted_at: null
+deleted_by: 45b6f908-619c-4236-8b38-7cc9256ef748
+created_at: '2025-11-12T10:21:18.635Z'
+updated_at: '2025-11-12T10:21:18.635Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - bf18cb69-a64c-4dfd-a3b2-db146022aaab
+secondary_material_types: []
+opentag_uuid: c24e3223-83bd-5b4f-b581-0cc730cbbd6c

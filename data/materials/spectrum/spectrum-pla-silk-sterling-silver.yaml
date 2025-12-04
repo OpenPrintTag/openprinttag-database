@@ -1,0 +1,58 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f41756a9-b1e3-4cf5-9ab2-eb1ba190a896
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c0b7db3b-24d9-48d3-b861-abe419affe4b
+slug: pla-silk-sterling-silver
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA SILK Sterling Silver
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/silk-pla/
+primary_color: f6f1b6d4-73b2-4cba-8846-3197db83e5c6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: SILK Filament is a PLA-based material for additive manufacturing with colour concentrates which imparts the satin texture effect to printed items. The surface satin texture of printed items largely reduces the visibility of layers on the side surface of printed items. Using a specially development pigment, it is possible to retain the classic properties of PLA, i.e. the simple and efficient printing, while obtaining a very low shrinkage rate and relatively high tensile strength. Thus, the material is designed for those who appreciate simple printing and very high aesthetic properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 7f743947-d6e8-42e9-827f-c255e21f11a5
+created_at: '2025-10-08T11:16:29.298Z'
+updated_at: '2025-10-08T11:16:29.298Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9591
+packages:
+  - ba621476-ec69-4d58-8eaf-03c8082b17ad
+  - f6b8e059-a621-4b2e-b947-471829aa842b
+secondary_material_types: []
+opentag_uuid: 47026b02-251b-5153-9b01-d4ce8f42881d

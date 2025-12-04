@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9d2da752cf04.png
+    type: gallery
+uuid: 8528ca08-7eca-4cf7-81e4-2faaefd81b72
+slug: pro-pctg-industrial-gray
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Industrial Gray
+abbreviation: null
+url: null
+primary_color: e84d2e0b-53b9-4e31-a487-54fdd853a32e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/9d2da752cf04.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:59.254Z'
+updated_at: '2025-03-25T22:34:59.254Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3901
+packages:
+  - 0065fcde-fbfc-44de-9ba5-3c90e48d907d
+  - 0c7f5ced-3271-4629-bfe3-aaa45f791157
+secondary_material_types: []
+opentag_uuid: 46b6f59e-8aa4-5723-91fa-ff541c3363f6

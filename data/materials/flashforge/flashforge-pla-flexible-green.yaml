@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a2da4c54d1c2.jpg
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 218bfea8-7369-4c81-93bb-b93bbc7edeb7
+slug: pla-flexible-green
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Flexible Green
+abbreviation: null
+url: null
+primary_color: 64a7801b-8584-4fda-9a51-ed087d9a7060
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      High Elasticity: FLASHFORGE flexible is more elastic than TPU and can stretch up to four times its original length. It's ideal for making insoles, arts & crafts, DIY projects, phone cases, belts, and decorations.
+
+      Easy Printing: FLASHFORGE Flexible PLA is beginner-friendly and works with both Bowden and direct drive extruders, though Bowden setups may need adjustments.
+
+      Premium Filaments: Our filament is engineered for smooth, clog-free printing. It is dried for 24 hours before packaging and vacuum-sealed to minimize bubbles caused by humidity.
+
+      Dimensional Accuracy: Advanced measurement systems ensure 99% of the filament has a diameter of 1.75mm +/- 0.02mm for high-quality prints.
+
+      No Special Settings Needed: Flexible PLA is easier to print than other flexible materials and typically doesn't require heated beds or special nozzle settings, reducing warping and improving accuracy.
+thumbnail_url: https://file.myfilamentlist.com/f/new/a2da4c54d1c2.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:33:32.267Z'
+updated_at: '2025-03-25T22:33:32.267Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 2657
+packages:
+  - 007de442-c264-4521-89c8-59f162ff8b09
+secondary_material_types: []
+opentag_uuid: 3970d40c-b3f2-520b-8a93-a783afda922e

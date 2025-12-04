@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c4a3ae4c-ef77-4440-b29e-88596eedc542
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 487260a3-bb70-4c0d-a9b2-f26df425e449
+slug: tpu-a95-yellow
+brand_slug: 3djake
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU A95 Yellow
+abbreviation: null
+url: https://www.3djake.com/3djake/tpu-a95-yellow
+primary_color: d62ea23d-d53b-470a-bd5a-ee9fa88721b1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  The TPU A95 was specially developed to make it perfect for 3D printing applications. TPU A95 from 3DJake is a flexible filament with incredible elasticity.
+
+  The 3DJake TPU A95 has a Shore hardness of A95 and can withstand stretching of up to 400%. The soft and flexible feel of the model opens up new possibilities in the application of 3D printers.
+
+  The features of the TPU A95 from 3DJake:
+
+      High flexibility
+      Low shrinkage
+      Good layer adhesion
+      Easy to print
+
+  We also recommend increasing the flow by about 5-10% to allow for safer extrusion.
+thumbnail_url: https://file.myfilamentlist.com/new/487260a3-bb70-4c0d-a9b2-f26df425e449.png
+deleted_at: null
+deleted_by: 4420e6ea-c029-4599-89f8-900425886e82
+created_at: '2025-11-09T20:57:26.189Z'
+updated_at: '2025-11-09T20:57:26.189Z'
+brand: b1e793c5-ac58-4a5b-9736-81908ae6bff3
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 4953482f-0ce2-4188-a4e7-c6286385f82b
+  - f090f3b0-fa70-44c7-b9ab-41f4750ae189
+secondary_material_types: []
+opentag_uuid: 489f3a3a-7b97-5a24-b2d5-3510f381f226

@@ -1,0 +1,63 @@
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 354f8f79-4a44-4ec0-8047-c4efcbca7c6d
+slug: pla-feuerrot
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Feuerrot
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/95/pla-filament-1-75-mm-feuerrot-800-g?c=33
+primary_color: 8f812af3-1504-45e3-9d43-43d5b276f35c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Hochwertiges PLA (Polylactid acid bzw. Polymilchsäuren)
+      Hergestellt aus nachwachsenden Rohstoffen und somit biologisch abbaubar
+      Riecht gut, kein unangenehmer Kunststoffgeruch wie bei ABS
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 205-230°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton entspricht: RAL 3020 Verkehrsrot (geringfügige Abweichung ist möglich) 
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: b341a55a-6571-4a92-8a6d-7d19a77a5f38
+created_at: '2025-10-17T13:31:53.255Z'
+updated_at: '2025-10-17T13:31:53.255Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 4f2faa54-c014-490a-8a98-8cd8ae746750
+  - 73104c2f-b7a1-4f45-83aa-0505f22357b2
+secondary_material_types: []
+opentag_uuid: 050b00fc-f81e-55f5-9664-1e088a6d26c9

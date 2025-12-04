@@ -1,0 +1,57 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.11000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9b29e4ca-c5f4-4e18-99f0-33f520a9db08
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 32953c58-343e-472c-82eb-f45be54a32ac
+uuid: fdf84074-67a2-40a8-9c44-2c08baaa76ae
+slug: ultracur3d-rg-1100-b
+brand_slug: forward-am
+brand_specific_id: null
+class: SLA
+type_id: null
+name: Ultracur3D® RG 1100 B
+abbreviation: null
+url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/rigid-line/ultracur3d-rg-1100/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Ultracur3D® RG 1100 by Forward AM is a high-strength polyurethane-based engineering grade resin with mechanical properties comparable to widely spread injection molding grades used in automotive or other demanding industries. Due to its high heat deflection temperature (HDT 116°C), its good chemical resistance and long-term UV-stability this material is perfectly suitable for applications such as automotive connectors, demanding engineering parts, exterior covers, brackets and housings.
+thumbnail_url: null
+deleted_at: null
+deleted_by: f4246def-64a2-4133-90b9-016b35121099
+created_at: '2025-10-06T07:41:19.853Z'
+updated_at: '2025-10-06T07:41:19.853Z'
+brand: 99b03308-ada3-4201-b491-14e9b9f5bf66
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9494
+packages:
+  - 7d3dfeb2-00bd-4171-b83a-77faded158cb
+  - a3e5b445-36f2-40ad-9f7b-c79b90e6f14f
+secondary_material_types: []
+opentag_uuid: 8e29be36-5984-5742-b91d-f5e3ccd0b7bd

@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8165a0f0-4049-43bf-b01e-aaba1d808e1a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: a3e41c0c-bb40-4291-ba1e-e5993986f5d9
+slug: pla-plus-ultramarine-blue
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Ultramarine Blue
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110071-pla-plus-ultramarine-blue-1-kg-4582?category=59#attr=823,2849,824,822,3523,2851,2852,2853,825
+primary_color: e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Ultramarine Blue is a high-performance filament designed for creators who seek a bold, deep blue hue paired with the enhanced mechanical properties of PLA Plus. This filament delivers stunning prints with a rich, saturated color reminiscent of the ocean’s depths, making it perfect for projects that demand visual impact, durability, and versatility. Whether for artistic designs, functional prototypes, or professional models, Ultramarine Blue elevates your prints with a vibrant, professional finish.
+
+  Key Benefits:
+
+      Vivid, Deep Blue Color: The intense ultramarine shade ensures eye-catching prints with excellent color consistency, ideal for highlighting details or creating striking visual contrasts.
+      Enhanced Strength & Durability: PLA Plus offers superior resistance to impacts and wear compared to standard PLA, making it reliable for functional parts, mechanical components, or everyday use.
+      Smooth Printing Experience: Minimal warping, excellent bed adhesion, and compatibility with most 3D printers ensure hassle-free printing for both beginners and experts.
+      Eco-Friendly Material: Crafted from biodegradable, non-toxic resources, supporting sustainable 3D printing practices without compromising quality.
+
+  Applications:
+
+      Artistic & Decorative Projects: Create sculptures, vases, or wall art that captivates with its rich blue tone.
+      Functional Prototypes & Parts: Durable enough for gears, tool handles, or engineering models requiring both strength and aesthetics.
+      Marine & Nautical Models: Perfect for boats, underwater drones, or aquatic-themed displays with realistic color accuracy.
+      Tech Accessories & Housings: Design sleek phone cases, keyboard components, or gadget covers with a professional, modern look.
+      Educational & Architectural Models: Highlight details in scientific diagrams, geographic terrains, or architectural designs with a bold blue accent.
+
+  Ideal For:
+
+      Projects requiring a bold, professional color with long-lasting durability.
+      Combining aesthetics and functionality in prototypes or consumer products.
+      Eco-conscious users prioritizing sustainability and premium performance.
+      Enhancing marine-themed, artistic, or high-visibility prints with a vibrant ultramarine finish.
+
+  PLA Plus Ultramarine Blue is the ultimate choice for innovators and artists alike, offering a perfect blend of striking color and robust performance. Dive into creativity and transform your 3D prints into vivid, durable masterpieces!
+thumbnail_url: https://file.myfilamentlist.com/new/a3e41c0c-bb40-4291-ba1e-e5993986f5d9.png
+deleted_at: null
+deleted_by: 06f7f6a0-419e-4711-b7a0-7022cd3b6e69
+created_at: '2025-12-01T09:57:46.072Z'
+updated_at: '2025-12-01T09:57:46.072Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 56cc0c76-9519-4c22-8c27-fdcbe00fe94a
+secondary_material_types: []
+opentag_uuid: 91105663-0984-5e2d-930e-060d1aee4ea7

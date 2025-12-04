@@ -1,0 +1,56 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3473029a-2ec5-4aa5-b314-ce5022d87309
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+uuid: 45696f6b-7006-480f-af40-60e591fe55c9
+slug: pla-matte-white-3
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Matte White
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/pla-matte-filament?variant=42726058688771
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: null
+thumbnail_url: https://file.myfilamentlist.com/new/45696f6b-7006-480f-af40-60e591fe55c9.png
+deleted_at: null
+deleted_by: ddc9b78b-b7fd-40c4-a130-35caceb0daa5
+created_at: '2025-11-10T21:57:56.092Z'
+updated_at: '2025-11-10T21:57:56.092Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 20af308e-83ee-41ae-8f6f-6104d2acb90e
+  - b1dc621d-28ed-40d1-980e-9fdfc4423b03
+secondary_material_types: []
+opentag_uuid: be04ddb3-5d5f-5c36-a93e-de3e4ebceee4

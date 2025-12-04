@@ -1,31 +1,86 @@
 countries:
-  - code: CZ
-    name: "Czech Republic"
-  - code: US
-    name: "United States"
-  - code: DE
-    name: "Germany"
-  - code: GB
-    name: "United Kingdom"
-  - code: FR
-    name: "France"
-  - code: IT
-    name: "Italy"
-  - code: ES
-    name: "Spain"
-  - code: CN
-    name: "China"
-  - code: JP
-    name: "Japan"
-  - code: KR
-    name: "South Korea"
-  - code: CA
-    name: "Canada"
-  - code: AU
-    name: "Australia"
-  - code: NL
-    name: "Netherlands"
-  - code: BE
-    name: "Belgium"
-  - code: PL
-    name: "Poland"
+  - uuid: 16840341-2c22-4e13-a4ee-fc7610a49500
+    name: Italy
+    code: IT
+    continent: null
+    created_at: '2025-11-11T11:44:44.699Z'
+  - uuid: 1abc5df4-c267-4336-81e6-a4cde7548cc4
+    name: Austria
+    code: AT
+    continent: Europe
+    created_at: '2025-04-06T15:30:03.677Z'
+  - uuid: 27d41944-5508-4b7c-b1f5-bcf066ebda0d
+    name: Spain
+    code: SP
+    continent: Europe
+    created_at: '2025-04-06T15:34:11.569Z'
+  - uuid: 3f440138-dfd7-4910-ad30-9fb5aeca2d9c
+    name: Portugal
+    code: PT
+    continent: null
+    created_at: '2025-11-22T16:36:30.557Z'
+  - uuid: 5dca5de3-3aa4-42bd-87fb-2be94e701ab3
+    name: Slovakia
+    code: SK
+    continent: null
+    created_at: '2025-12-01T09:13:58.834Z'
+  - uuid: 5dcfc9dc-a78d-419d-9d9f-e9545076357f
+    name: Poland
+    code: PL
+    continent: Europe
+    created_at: '2025-04-06T15:02:38.730Z'
+  - uuid: 5e121c92-7bea-4d15-9edd-1da67b78af7a
+    name: Canada
+    code: CA
+    continent: America
+    created_at: '2025-04-06T15:04:29.629Z'
+  - uuid: 6b681504-ca5c-4bf9-8c53-0d6b27d85b60
+    name: Netherlands
+    code: NL
+    continent: Europe
+    created_at: '2025-04-06T15:22:29.767Z'
+  - uuid: 8b434d9e-6c30-44b1-9cf8-5d2148b8a1d9
+    name: New Zealand
+    code: NZ
+    continent: Oceania
+    created_at: '2025-04-06T15:04:04.693Z'
+  - uuid: 9513abb6-7146-4f7e-a597-cc19bae2e032
+    name: Australia
+    code: AU
+    continent: Oceania
+    created_at: '2025-04-06T15:04:18.063Z'
+  - uuid: be719fee-976c-4b54-8bba-6809a3ff7429
+    name: Sweden
+    code: SW
+    continent: Europe
+    created_at: '2025-04-06T15:10:47.926Z'
+  - uuid: bfd7d1a6-0424-4e8c-9b47-4bf477da293d
+    name: United States
+    code: US
+    continent: America
+    created_at: '2025-04-06T15:01:51.939Z'
+  - uuid: c46277e9-e78f-4023-8f0c-4e7f54b5441c
+    name: United Arab Emirates
+    code: AE
+    continent: null
+    created_at: '2025-11-01T22:51:20.742Z'
+  - uuid: ea4276e3-05cc-472d-9113-91c5539fb3c3
+    name: Germany
+    code: GR
+    continent: Europe
+    created_at: '2025-04-06T15:02:10.996Z'
+  - uuid: fc5f0691-2b56-4c2d-ad08-354900506b69
+    name: China
+    code: CH
+    continent: Asia
+    created_at: '2025-04-06T15:03:06.105Z'
+  - uuid: fc609176-6a52-4da8-8284-e3b89fc8a382
+    name: United Kingdom
+    code: UK
+    continent: null
+    created_at: '2025-11-13T16:31:49.453Z'
+  - uuid: fda2d717-4042-4799-9d15-9131c6aa3d78
+    name: Czech Republic
+    code: CZ
+    continent: Europe
+    created_at: '2025-04-06T15:34:02.169Z'

@@ -1,0 +1,62 @@
+uuid: 69b74543-201b-4b52-8143-10fbfca0b618
+slug: petg-militr-grn
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Militär-Grün
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/458/petg-filament-1-75-mm-militaer-gruen-800-g?c=35
+primary_color: 3f0ab8a5-57e7-44a3-99e3-336330808150
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,10mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: Militär-Grün - Enspricht RAL 6031 Bronzegrün
+thumbnail_url: null
+deleted_at: null
+deleted_by: 93b84521-4827-4a5e-b476-ed726e0d806a
+created_at: '2025-10-19T08:48:05.954Z'
+updated_at: '2025-10-19T08:48:05.954Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 0996c051-bfdd-4594-9f70-92348e8b12ed
+  - 38c506bf-4299-4980-a013-067b57445b76
+secondary_material_types: []
+opentag_uuid: 9c974f9f-85fb-563d-bce9-c1289f6fb304

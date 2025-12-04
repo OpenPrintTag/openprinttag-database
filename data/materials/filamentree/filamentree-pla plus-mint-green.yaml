@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9321ed8b-0b97-4363-a786-fc1534cef336
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 8e34fbb6-eb99-417b-abea-468b7c96c5de
+slug: pla-plus-mint-green-3
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Mint Green
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110321-pla-plus-mint-green-1kg-6107?category=59#attr=3476,3471,3468,3469,3535,3473,3474,3475,3470
+primary_color: 39e61712-935a-45f7-bab5-960e42bc8f59
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Mint Green is a high-quality 3D printing filament featuring a fresh, clean mint-green tone that adds a cool, modern aesthetic to every print. This enhanced PLA Plus material combines increased durability with a smooth pastel appearance, making it ideal for functional components, creative designs, and visually appealing presentation models. Whether you're printing practical parts or stylish decorative pieces, this filament ensures premium performance and a crisp, refreshing finish.
+
+  Key Benefits:
+
+      Fresh & Clean Color: A calm mint-green shade that provides a modern, refreshing, and visually balanced look – perfect for models requiring a smooth and pleasant aesthetic.
+      Enhanced Strength & Durability: PLA Plus offers superior impact resistance and improved flexibility compared to standard PLA, ensuring strong and long-lasting prints.
+      Smooth Printing Experience: Excellent layer adhesion, minimal warping, and broad compatibility with most 3D printers – ideal for beginners and experienced makers alike.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting sustainable and responsible 3D printing.
+
+  Applications:
+
+      Decorative & Artistic Projects: Create elegant mint-toned decor, pastel accessories, stylish miniatures, or modern interior pieces.
+      Functional Parts: Ideal for components that demand strength while maintaining a clean and fresh visual appearance.
+      Educational & Presentation Models: Perfect for display models, classroom tools, and visually soothing prototypes.
+      Toys & Gadgets: Print attractive toys, accessories, and creative gadgets in a refreshing mint color.
+      Branding & Promotional Items: Produce appealing custom items and promotional materials with a distinctive mint-green finish.
+
+  Ideal For:
+
+      Users who want a clean, refreshing pastel filament color.
+      Projects requiring durability combined with smooth, modern aesthetics.
+      Makers who prefer eco-friendly, sustainable printing materials.
+      Creators and designers looking for a refined and calming color finish on their 3D prints.
+
+  PLA Plus Mint Green is the perfect choice for creators seeking a premium, durable filament with a crisp and refreshing mint-green finish. Bring your ideas to life with cool elegance, clarity, and exceptional print quality! 
+thumbnail_url: https://file.myfilamentlist.com/new/8e34fbb6-eb99-417b-abea-468b7c96c5de.png
+deleted_at: null
+deleted_by: 067bde9e-a45c-4747-afcb-c6f90f53c477
+created_at: '2025-12-01T10:40:48.918Z'
+updated_at: '2025-12-01T10:40:48.918Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 7a75abb9-57b1-423a-b3c1-f5166c2d4ce9
+secondary_material_types: []
+opentag_uuid: 3bf8a048-d64a-578f-974d-8a2b48629006

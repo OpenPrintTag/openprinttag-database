@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/eaf2c4ea6a8a.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 20e03c37-86a2-4bd8-b008-2feba5c7fcc2
+slug: pla-blue-5
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Blue
+abbreviation: null
+url: null
+primary_color: 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Dimensionally stable with little-to-no warp, PLA is the recommended material for first time users. IC3D PLA is created with premium Ingeo PLA resin and colorants from Chroma. PLA excels at small & large scale objects where net shape and dimensionally accurate parts matter most.
+thumbnail_url: https://file.myfilamentlist.com/f/new/eaf2c4ea6a8a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T10:03:31.122Z'
+updated_at: '2025-05-01T10:03:31.122Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7421
+packages:
+  - 36c0ba7d-b538-4a32-b433-a2e9365887fa
+  - 469058ce-d4de-4c69-b2cb-d5cec91d7b07
+  - 55e88a47-1ea2-4b25-9315-9f695044eb0a
+  - 8c9d0735-7567-4277-b91d-7e89e2570bb4
+  - 911d04a8-760f-4ea1-afb8-78952b789814
+  - d7f5475d-507c-47e6-95c0-50d7ae2deb38
+secondary_material_types: []
+opentag_uuid: 2769e9ea-1dbc-543d-a605-2bb2d551c2bc

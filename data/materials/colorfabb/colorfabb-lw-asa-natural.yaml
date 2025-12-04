@@ -1,0 +1,72 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6143b01011a9.png
+    type: gallery
+tags:
+  - ffbb76b1-58a4-4005-ac75-b9c71db5a974
+  - 0cbdddd6-5867-4822-8b88-a009588c7daf
+uuid: 3bc95350-05e7-4119-8cf9-543474cf5791
+slug: lw-asa-natural
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: LW-ASA Natural
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Despite the black color this ASA filament won't degrade in the sun. With a high temperature resistance and inherent UV stability ASA Black is well suited for outdoor applications.
+
+  ASA is more susceptible to warping compared to PLA or PETG type filaments. Please find our Printing Advice below for more detail.
+
+      UV resistant
+      High temperature resistant
+      Tough and rigid
+
+  The two most important features of ASA are its inherent UV stability and high temperature resistance of 96C. This material is well suited to be used for long lasting outdoor applications.
+
+  Parts printed with ASA can withstand prolonged exposure to UV light and retain toughness and durability for a much longer time then ABS. Therefore ASA is a really interesting alternative to ABS.
+
+  ASA is more susceptible to warping compared to PLA or PETG type filaments. Especially models with a large footprint can shrink and warp during printing, but compared to ABS in most cases less severe.
+
+  Apart from using a large brim and heated buildplate of 90-100C (or higher if your machine is capable) we can also advice the following. Print a tall skirt around your model to reduce cold air flow around the printed model or print inside an enclosure for better control of the environment temperature.
+thumbnail_url: https://file.myfilamentlist.com/f/new/6143b01011a9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:13.590Z'
+updated_at: '2025-03-25T22:32:13.590Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 1431
+packages:
+  - 00b7b328-4075-4796-aca3-d5c6ae11301b
+  - 956d4b2b-ce54-4cc2-a27b-64ca720398cb
+  - b526825f-d9bf-4455-8840-c66a37f9ee38
+  - b9c12b7f-7ca1-4e3a-8124-f57d240c6984
+secondary_material_types: []
+opentag_uuid: 394f1eaa-ccce-5cda-bdd7-4c7d8f0f2a98

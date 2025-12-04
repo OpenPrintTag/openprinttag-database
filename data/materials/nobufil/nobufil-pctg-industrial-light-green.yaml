@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a4e389dcc539.png
+    type: gallery
+uuid: 2035acfa-6a21-4301-95a5-f33c5f566355
+slug: pctg-industrial-light-green
+brand_slug: nobufil
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Industrial Light Green
+abbreviation: null
+url: null
+primary_color: 4287db50-0e2b-4cd3-81a4-42573a07f5be
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nobufil PCTG filament is made from recycled plastics, which are production waste that arises during industrial processing.
+
+   PCTG (polycyclohexylenedimethylene terephthalate glycol-modified) is a polymer from the polyester family and has a much higher impact resistance than its better-known counterpart PETG. This makes the material suitable for components that are exposed to the highest mechanical loads.
+
+  The PCTG material can be printed with an open build space and is therefore also suitable for use with common desktop 3D printers. The properties of PCTG filament are a perfect combination of high strength and easy processing.
+
+   - High impact resistance for mechanically stressed components
+
+   - Easy to print even with open build space
+
+   - Low odor and warping
+
+   - High chemical resistance
+thumbnail_url: https://file.myfilamentlist.com/f/new/a4e389dcc539.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T11:09:29.837Z'
+updated_at: '2025-03-27T11:09:29.837Z'
+brand: 2628eb85-2bed-43a5-91a3-1d2bd796950a
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 5962
+packages:
+  - 27bd8aff-a915-4706-8572-50c98fce5f27
+secondary_material_types: []
+opentag_uuid: 4f90bc4a-975a-5e71-9363-d59b8031596f

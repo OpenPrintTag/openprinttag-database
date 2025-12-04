@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8fd8810d88df.png
+    type: gallery
+tags:
+  - 4bdf0763-f280-4cdf-b0ab-70cf816934e9
+uuid: ece8220b-d191-4778-ae60-f9dfe1bb4104
+slug: 3dxstat-esd-pc-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' 3DXSTAT ESD-PC  Black'
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  3DXSTAT ESD PC is an advanced ESD-Safe compound designed for use in critical applications which require electrostatic discharge (ESD) protection. Made using cutting-edge multi-wall carbon nanotube technology, state of the art compounding technology, and precision extrusion processes. Target surface resistance of 10^7 to 10^9 Ohm.
+
+
+
+  Benefits of 3DXSTAT ESD-PC
+
+      High thermal properties including a Tg of 147C
+      Amorphous structure gives low, near isotropic shrinkage
+      Excellent ductility and impact resistance
+      Very low odor emitted while printing
+      Wide processing range of 265-300C 
+
+
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8fd8810d88df.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:09.942Z'
+updated_at: '2025-03-25T22:31:09.942Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 25
+packages:
+  - 65372d0d-9b69-4b1e-b0ab-61fcb70aeebf
+  - 808a630d-ec6a-4c06-83bd-efbafac1eb1e
+  - 9b4f091a-fdec-46a9-9d9d-8ae6c2a1fc35
+  - ecd0f25f-c5aa-41a4-b90e-ee3498297abd
+secondary_material_types: []
+opentag_uuid: e8314707-79a8-552e-b142-0a7f6c81095a

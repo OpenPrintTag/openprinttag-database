@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1ee39e916ce6.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e5fad0ce-6925-4945-b4db-d452a4f5bb5f
+slug: easyfil-epla-iron-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: EasyFil ePLA Iron Grey
+abbreviation: null
+url: null
+primary_color: 80616fe9-dfaa-466d-ab13-c72bf52e5fa9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  EasyFil ePLA is your go-to PLA filament for 3D printing. This PLA filament comes at an unbeatable retail price of €19,99 per kg and wide availability in colors and spool sizes.
+
+  Suitable applications
+
+      Functional prototyping.
+      Creating visualization aids.
+      3D printing manufacturing aids.
+      Making detailed concept models.
+thumbnail_url: https://file.myfilamentlist.com/f/new/1ee39e916ce6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:26.017Z'
+updated_at: '2025-03-25T22:31:26.017Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 804
+packages:
+  - 243efcb0-840d-4685-9a65-5955d7ba07e0
+  - 38ad77a6-84f0-48be-b53a-87a251742c55
+  - 743acfdc-8247-4194-acf6-952e824e4446
+  - 771eb9f1-c4a5-4102-b579-9a523c82afbe
+  - 7e5ec784-b06d-40b4-9291-f2a3f6e70652
+  - a1c790c0-8687-4d84-a566-21b0db2e3a2d
+  - acb9d09b-0788-4860-a491-73488acbeb67
+  - adc3f2b2-8409-4ed2-ad59-3fd01140071e
+  - bdeb511f-07a0-4a5d-9ccf-2dd6c6e07813
+  - db12f12a-e464-476e-9ee5-b86945c15d05
+secondary_material_types: []
+opentag_uuid: 8150a7c1-705a-52aa-aa99-e6de77d4a969

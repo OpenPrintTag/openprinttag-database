@@ -1,0 +1,80 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 87c0fba2-a5b4-4fa7-8eed-10292d9e1b12
+  hardness_shore_a: 85
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/743ae1236e79.png
+    type: gallery
+uuid: 12ed4fb2-8fc8-4dd2-aadd-b3276aab601a
+slug: tpu-85a-green
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 85A Green
+abbreviation: null
+url: null
+primary_color: 4b80164f-b954-403b-898f-30f8fb65245b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  colorFabb's TPU 85A Green filament - the ultimate solution for softness, flexibility, and elasticity in your 3D prints. Perfect for projects that demand a softer touch and enhanced elasticity, TPU 85A brings your creations to life with a gentle yet resilient feel.
+
+  Crafted with precision and innovation, this filament offers unparalleled softness and flexibility, making it ideal for a variety of applications such as wearables, cushioning components, and ergonomic designs.
+
+  While TPU 85A offers exceptional softness and flexibility, it does require careful attention during printing. Its softer nature can make it more challenging to achieve optimal print results compared to firmer materials like TPU 95A. Print settings adjustment and dry condition of the filament are essential for successful prints.
+
+  Unlock the potential of soft, flexible 3D printing with colorFabb's TPU 85A filament. Elevate your creations to new levels of comfort and functionality, and embrace the future of additive manufacturing with confidence and precision.
+
+  Pros
+
+  Exceptional elasticity.
+
+  Compatible with most FFF/FDM 3D printers.
+
+  Vacuum sealed, ready for use!
+
+  Cons
+
+  Requires careful print settings adjustment.
+
+  Can be challenging to print with certain extruder setups.
+
+  Needs drying from time to time. 70c 6-9 hours.
+thumbnail_url: https://file.myfilamentlist.com/f/new/743ae1236e79.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:15.903Z'
+updated_at: '2025-03-25T22:36:15.903Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5116
+packages:
+  - dc91ebbf-a869-4abb-82f9-ef7fb06293f7
+secondary_material_types: []
+opentag_uuid: b34795e0-9c35-56f0-b477-3e1d73b98f8a

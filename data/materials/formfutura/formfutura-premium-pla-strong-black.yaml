@@ -1,0 +1,74 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/20c331b1ca0b.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: bffe3b6d-268e-4b6c-99d6-7f000a13964c
+slug: premium-pla-strong-black
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Premium PLA Strong Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Premium PLA is a more pure PLA type of 3D printer filament with higher crystallinity, which makes it the PLA of choice for 3D printing parts with overhangs and for objects where bridging is required.
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Almost odourless processing/printing
+      Biodegradable
+      Available in a variety of semi-translucent colors and opaque black/white
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/20c331b1ca0b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:57.101Z'
+updated_at: '2025-03-25T22:34:57.101Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3779
+packages:
+  - 0b8b4b67-2773-4fdd-b6cf-a3521bed844b
+  - 14000655-c96b-46d5-8d11-ef87ca13c680
+  - 2bd1720c-31a4-426e-a6a9-dd3ca3f47ec2
+  - 381c4fb4-e5a2-42dc-a1c5-ca850ee7e8f1
+  - 3e751140-8aef-4115-ad70-582e248c1c6e
+  - 465b731e-2e2d-433a-98a4-0f964efd10af
+  - 481e7afd-a959-4289-87d6-698d8cc196ae
+  - 54ab1c73-8b32-482f-9955-5332a54ccaed
+  - cb28f404-ef73-4ce5-8574-2e7b07e088bf
+  - efc213c5-7a10-4d68-8f58-767eba1a2c7c
+secondary_material_types: []
+opentag_uuid: 9a79d169-232d-51ed-a980-e0fab1ade36b

@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6f0c664e2536.png
+    type: gallery
+uuid: 50712dfc-b24f-4624-b4f5-7c975eca3770
+slug: cpe-hg100-army-green
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CPE HG100 "Army Green"
+abbreviation: null
+url: null
+primary_color: 372aeebc-7868-4a28-a87e-0fd476f3d93a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  CPE HG100 is a modified PETG material developed for technical prints. You can rely on easy 3D printing, high quality, excellent lamination, perfect details, and high precision.
+
+   High-technical durable long-life material
+   Great impact resistance (no break)
+   Easy printing as PLA
+   High hardness
+   Temperature resistance up to 80 degreesC
+   Chemical resistance against acids, alkalis, alcohols, and hydrocarbon
+thumbnail_url: https://file.myfilamentlist.com/f/new/6f0c664e2536.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:21.129Z'
+updated_at: '2025-03-25T22:31:21.129Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 27a91e17-7871-4d99-88e5-9d92e84d20b8
+colors:
+  - 201
+packages:
+  - 87f0f5fb-7faa-466a-8690-52dd85946679
+  - c621034e-1b1a-44e4-818d-f215093d5072
+secondary_material_types: []
+opentag_uuid: 5ba795ef-72b8-5809-9c5d-60bcd954d46f

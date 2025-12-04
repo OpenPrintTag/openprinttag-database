@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.19000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c33f8a5f-e21b-4a1b-848a-000b5545d12d
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/8bd2724d-1257-4b75-967a-7a8e738d5a1b/78e47d4322fb.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+  - 6a225a15-e6d8-4ddc-a504-643a475c90e0
+secondary_colors:
+  - 491c9130-63d7-4434-af37-40385f110ac9
+  - ed457b23-9352-4c42-9519-dfbdd40e803e
+  - 8291b0a0-0406-42f7-b2cf-ebce0706f490
+uuid: 8bd2724d-1257-4b75-967a-7a8e738d5a1b
+slug: tpu-flexible-blue-green-orange-translucent-rainbow
+brand_slug: amolen
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flexible Blue Green Orange Translucent Rainbow
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  Flexible TPU Filament for Durable and Elastic 3D Prints
+
+  Experience the versatility of flexible 3D printing with our TPU Flexible filament.
+thumbnail_url: https://file.myfilamentlist.com/f/8bd2724d-1257-4b75-967a-7a8e738d5a1b/78e47d4322fb.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:21.054Z'
+updated_at: '2025-04-06T01:15:26.854Z'
+brand: 9612c94e-dd20-482d-bc63-26deaf87dbdd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 6822
+  - 6823
+  - 6824
+packages:
+  - 7fcffd58-54c7-4c86-9087-dbfadc5a63a4
+secondary_material_types: []
+opentag_uuid: 15583167-b21e-51c9-b729-44b16ffe3575

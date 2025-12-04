@@ -1,0 +1,71 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/809ebcdf7065.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - df5d80f1-cc07-4db1-aef7-19a2fd78d288
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 5d12c2f9-aa28-48bd-9aeb-3b485202d9c2
+slug: light-gray-carbon-fiber-composite-htpla
+brand_slug: protopasta
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Light Gray Carbon Fiber Composite HTPLA
+abbreviation: null
+url: null
+primary_color: 1ce61d41-4c9d-4173-ac88-46e1452aae91
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Sitting comfortably between Carbon Fiber PLA and HTPLA
+
+  from a price and performance perspective, Carbon Fiber PETG is a durable and forgiving general purpose material.
+
+  PETG-CF7 adds just enough Carbon Fibers to increase the stiffness of PETG without feeling brittle. Carbon Fibers also improve dimensional stability and look great!
+
+  Protopasta Carbon Fiber PETG includes:
+
+      100% new PETG for the highest quality result
+      quality ingredients plus in-house processing for curated chemistry
+      minimal packaging with recyclable cardboard spools
+      processing from 230+ C @ 2 cu mm/s volume rate, 70+ C bed
+      less rigid than PLA and HTPLA for more flex before break
+      more heat resistance than PLA, but less than heat treated HTPLA
+thumbnail_url: https://file.myfilamentlist.com/f/new/809ebcdf7065.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-02T11:45:39.761Z'
+updated_at: '2025-04-02T11:45:39.761Z'
+brand: fbc4f5d0-2c43-41ff-ac2c-28a7e59d1130
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 6373
+packages:
+  - 70e99542-f474-4f5f-9fbf-a74ada4fc651
+  - b763078d-cbd1-4d80-b752-6dc24aed8767
+secondary_material_types: []
+opentag_uuid: 3f894983-2008-50fb-9810-a96602f496f2

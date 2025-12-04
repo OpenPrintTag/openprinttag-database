@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f52c08b5-149b-4634-b7a3-c36c1cbfc5c6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 7fea221e-4a59-4e25-a587-43e6a3dc8c81
+slug: pla-plus-pure-white
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Pure White
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110031-pla-plus-pure-white-1-kg-4583?category=59#attr=681,2869,682,683,3528,2871,2872,2873,684
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus Pure White is the ultimate choice for creators seeking pristine clarity and versatility in their 3D prints. This filament combines the enhanced strength of PLA Plus with a crisp, bright white finish, offering a blank canvas for professional prototypes, artistic designs, or functional parts requiring a clean, polished aesthetic. Ideal for projects where neutrality and precision matter, Pure White ensures your prints radiate simplicity and sophistication.
+
+  Key Benefits:
+
+      Brilliant White Finish: A flawless, opaque white surface perfect for painting, dyeing, or showcasing intricate details. Ideal for models requiring a neutral base or professional-grade appearance.
+      Enhanced Durability: PLA Plus provides superior impact resistance and toughness compared to standard PLA, ensuring prints withstand handling, testing, or everyday use.
+      Smooth & Reliable Printing: Minimal warping, excellent layer adhesion, and compatibility with most 3D printers guarantee consistent results for beginners and experts alike.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, aligning with sustainable 3D printing practices.
+
+  Applications:
+
+      Professional Prototypes: Create clean, minimalist models for engineering, architectural, or product design presentations.
+      Artistic & Customizable Projects: Prime for painting, airbrushing, or post-processing to achieve any desired finish or color.
+      Medical & Dental Models: Produce accurate anatomical models, surgical guides, or orthodontic devices with a sterile, professional look.
+      Home Décor & Lighting: Craft vases, lampshades, or minimalist décor that benefits from a bright, neutral tone.
+      Consumer Products: Design tech accessories, kitchenware, or toys with a sleek, modern appearance.
+
+  Ideal For:
+
+      Projects demanding a pristine, adaptable base for customization.
+      Functional parts requiring durability and a professional aesthetic.
+      Medical, educational, or architectural applications where clarity is critical.
+      Eco-conscious users prioritizing sustainability without compromising quality.
+
+  PLA Plus Pure White transforms simplicity into strength, offering endless possibilities for innovation. Whether for precision or creativity, this filament ensures your prints shine with timeless elegance. 
+thumbnail_url: https://file.myfilamentlist.com/new/7fea221e-4a59-4e25-a587-43e6a3dc8c81.png
+deleted_at: null
+deleted_by: 09feb734-1ec9-40fe-8b0a-abe2cd2bc42e
+created_at: '2025-12-01T10:08:23.809Z'
+updated_at: '2025-12-01T10:08:23.809Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 5c99da6f-d147-4e00-8115-b1b7db6c3a5c
+secondary_material_types: []
+opentag_uuid: 858be925-c95b-583a-8bb3-24c7209e61df

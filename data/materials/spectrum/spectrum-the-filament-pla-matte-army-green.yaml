@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.29000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5944bc5e-c34e-415d-95bb-778d0ca2c90b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ee7f720d-3c58-4265-8725-96c311a8d593
+slug: the-filament-pla-matte-army-green
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: The Filament PLA Matte Army Green
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/the-filament-pla-matte/
+primary_color: 81d67c46-0f9b-4dd1-b3b6-ec10200bb831
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Exceptional appearance with a matte finish
+
+  THE FILAMENT PLA Matte combines outstanding aesthetics with reliable print quality. Its matte surface makes layer lines almost invisible, giving printed models a modern and professional look. PLA Matte filament enables the creation of elegant, richly saturated prints that stand out at first glance – an ideal choice for projects where both appearance and precision matter.
+
+  Where aesthetics meets functionality
+
+  Enhanced with an innovative mineral additive, THE FILAMENT PLA Matte offers increased stiffness and dimensional stability, resulting in precise and durable prints. This formulation also improves the mechanical properties and ensures a smooth, predictable, and efficient printing process.
+
+  Effortless printing experience
+
+  THE FILAMENT PLA Matte is exceptionally easy to print on both desktop 3D printers and advanced AMS-enabled systems. Its optimized formula ensures excellent flow, no stringing, and precise details even at high speeds. No heated chamber is required, making it a perfect everyday choice – for both practical and creative projects.
+
+  THE FILAMENT PLA Matte is more than just a filament – it’s a tool for creating beautiful, functional objects that impress with both form and finish.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 90ecfdb6-fda6-4e2d-98bf-7fd3c481a602
+created_at: '2025-10-13T16:21:57.183Z'
+updated_at: '2025-10-13T16:21:57.183Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: cc829bf0-eda3-53ab-8b82-0b492a8b0d6f

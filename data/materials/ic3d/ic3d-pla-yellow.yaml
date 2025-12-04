@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4798c0a2eea1.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 8a663bd6-5f66-4c3c-a1fa-2072b6223bbc
+slug: pla-yellow-15
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Yellow
+abbreviation: null
+url: null
+primary_color: 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Dimensionally stable with little-to-no warp, PLA is the recommended material for first time users. IC3D PLA is created with premium Ingeo PLA resin and colorants from Chroma. PLA excels at small & large scale objects where net shape and dimensionally accurate parts matter most.
+thumbnail_url: https://file.myfilamentlist.com/f/new/4798c0a2eea1.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T10:08:12.222Z'
+updated_at: '2025-05-01T10:08:12.222Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 7427
+packages:
+  - 4997bffe-cf90-48b8-ae91-e4236a94174f
+  - 49d32716-d80b-4305-909b-43ffa8277183
+  - 66d9c21e-dbfd-4365-87fc-2addf1ee03b3
+  - a7f8cf7c-122c-48da-a7da-9b1232a98c54
+  - bd44e447-02e3-4714-81d8-3e69419729d9
+  - ced690cb-25be-4304-ad74-1bad6a2f81f2
+secondary_material_types: []
+opentag_uuid: 1f4e3a0c-59f4-5e69-a32e-8499936d692e

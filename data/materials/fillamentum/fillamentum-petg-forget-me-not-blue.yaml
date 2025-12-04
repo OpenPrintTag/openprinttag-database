@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ef9365aba671.png
+    type: gallery
+uuid: 39db96fd-158f-47bf-b15d-b8830e83ebea
+slug: petg-forget-me-not-blue
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG "Forget-me-not Blue"
+abbreviation: null
+url: null
+primary_color: 027889b2-61fe-40bc-8569-07e7e274ac69
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG filament is perfect for practical 3D prints, combining strength, flexibility, and easy processing.
+
+   High strength & good hardness
+   Temperature resistance up to 70 degreesC
+   Chemical resistance against water, acids, alkalis, and alcohols
+   AMS-compatible
+thumbnail_url: https://file.myfilamentlist.com/f/new/ef9365aba671.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:54.048Z'
+updated_at: '2025-03-25T22:32:54.048Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2256
+packages:
+  - c1ec808a-9979-48cf-b71c-2cccc07a0c24
+  - dc4e1bac-8e44-4ab1-84cb-6079ac68c32c
+secondary_material_types: []
+opentag_uuid: e9df2a69-294e-5f18-bcd5-6e2e79b4ee35

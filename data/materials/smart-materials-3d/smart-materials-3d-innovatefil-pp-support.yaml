@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/25001c3501ea.png
+    type: gallery
+uuid: 46eb399c-82dc-4bac-9cd3-d3f4dc947f46
+slug: innovatefil-pp-support
+brand_slug: smart-materials-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: INNOVATEFIL® PP SUPPORT
+abbreviation: null
+url: null
+primary_color: f18f67d7-0690-4497-afaf-11c6695f7c32
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+
+
+  With INNOVATEFIL(R) PP, allowing users to fully benefit from the advantages of polypropylene to print pieces with geometries that require the use of support material, and also taking into account that traditional support materials like PVA, BVOH, HIPS, and so on, are not valid because polypropylene does not adhere to them. Until now, some users used PP itself as support with the difficulty that it is impossible to remove it manually, being necessary to machine or cut it, deteriorating the final finish of the piece.
+thumbnail_url: https://file.myfilamentlist.com/f/new/25001c3501ea.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-29T20:20:55.778Z'
+updated_at: '2025-03-29T20:20:55.778Z'
+brand: f4b7617b-9637-47ad-a12c-99cf5cf9d0d3
+type: 6bc270a6-a9c8-430f-b3ea-b52fb0420f83
+colors:
+  - 3618
+packages:
+  - 884f5ea3-daf0-4f54-b416-bab563dfd7e4
+  - ba5ad030-3308-4d4b-9c30-2e62062d5bf7
+secondary_material_types: []
+opentag_uuid: 555c931f-a466-58f4-a4cf-bbf5f98b08df

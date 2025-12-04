@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/05008f69a623.jpg
+    type: gallery
+tags:
+  - a99a2a70-705d-456a-a395-cc27b37577eb
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+secondary_colors:
+  - 8017d5c1-0d27-4d36-bc52-79aa5440a671
+  - 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+uuid: 1bd587cc-ee9b-4416-a91d-65b0b4ba7c3a
+slug: rapid-pla-pink-white-gradient
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Rapid PLA Pink White Gradient
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Ultra High-Speed Printing - FLASHFORGE high-speed PLA filament features rapid melting and smooth flow, enabling speeds up to 500mm/s (many models reach 600+ mm/s due to variable fill rates), ensuring high-quality prints and faster production.
+
+      High-Precision Printing - Even at high speeds, it maintains excellent layer adhesion, reducing layer separation risk, and its low shrinkage ensures stable dimensions and finely detailed surfaces.
+
+      Upgraded Tangle-Smooth Extrusion - Enhanced winding technology reduces tangling and blockages, ensuring uninterrupted printing.
+
+      Excellent Bed Adhesion and Stability - Achieves superb prints without pre-drying or parameter tweaks, with great first-layer adhesion and bridging performance.
+
+      Precise Dimensions and Consistency - Features CCD diameter measurement and adaptive control, maintaining a strict 1.75mm diameter with +/- 0.02mm accuracy for smooth and precise extrusion.
+thumbnail_url: https://file.myfilamentlist.com/f/new/05008f69a623.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:10.942Z'
+updated_at: '2025-03-25T22:35:10.942Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 4050
+  - 4051
+packages:
+  - d712a1c0-fe86-4b6b-821b-f94595eded5c
+secondary_material_types: []
+opentag_uuid: dcf3fe47-e5b7-54d0-b036-0521b8278011

@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b2c92e3f-dfbc-4eb6-ad6e-24ba73d57e81
+  hardness_shore_a: 85
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2a31378de1ba.png
+    type: gallery
+uuid: 3ab52934-b165-440a-96c7-ba12a3a56552
+slug: 3dxflex-tpu-85a-black
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 3DXFLEX™ TPU (85A) Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+print_sheet_compatibility: []
+description: |-
+  3DXFLEXTM TPU (85A) elastomer is an engineering-grade material that we chose based on its balance of printability, flexibility, chemical resistance, and toughness. 3DXFLEXTM TPU has a hardness of 85A, allowing you to make very tough, impact resistant, flexible prints. We recommend direct-drive extruders, but experienced users can be successful with Bowden-type drives as well.
+
+  Benefits of 3DXFLEX TPU (85A)
+
+      High elongation, over 500%
+      Shore 85A semi-flex hardness
+      Ease of printing compared to similar flexible materials
+      Excellent layer bonding
+      Outstanding fatigue resistance
+      Very low odor emitted while printing
+      Low moisture absorption
+      Retains flexibility even at low temperature
+      Styrene and BPA free 
+
+
+
+  We manufacture all of our filaments in our 68,000 ft2 manufacturing facility (located in Grand Rapids, Michigan) using state-of-the-art equipment and processes. Our goal continues to be to make the most innovative filaments on the market - targeting difficult end-use applications.
+thumbnail_url: https://file.myfilamentlist.com/f/new/2a31378de1ba.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:09.523Z'
+updated_at: '2025-03-25T22:31:09.523Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 2
+packages:
+  - 61ed509c-bade-4221-8926-9241574ac282
+secondary_material_types: []
+opentag_uuid: fc06eda5-32f8-5c8c-85d8-d5a18be8112f

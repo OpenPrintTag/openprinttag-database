@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4f4a54fcf093.png
+    type: gallery
+  - url: https://file.myfilamentlist.com/f/new/8c2c10e68d15.png
+    type: gallery
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+secondary_colors:
+  - 70242cee-8b9c-4e28-be74-d2b25647048c
+  - 8fa7c8a8-33a8-4e15-8762-006bce9dad4f
+uuid: edafc078-e329-4ea8-91cf-41bc479e19dd
+slug: petg-glowex-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG glowEx | RAL 6038
+abbreviation: null
+url: null
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Polyethylene terephthalate glycol (PETG) is one of the world's best-known thermoplastic polymers. Extrudr PETG has been developed for a wide range of applications where the main requirement is a good balance between mechanical and optical material properties. The low-shrinking technology ensures that the material can be processed in an energy-saving manner at low temperatures and thus with relatively little distortion. The raw material is certified according to FDA, REACH and RoHS standards.
+
+      Good mechanical properties
+      High chemical resistance
+      Low warping
+      Low shrinking
+      Recyclable
+      Low-shrinking technology
+thumbnail_url: https://file.myfilamentlist.com/f/new/4f4a54fcf093.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T13:22:20.177Z'
+updated_at: '2025-03-27T13:22:20.177Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 4848
+  - 4849
+packages:
+  - 4a169544-6c56-46a6-a76d-803245448d07
+  - 550327a1-04df-47cf-93fc-d3cb8fc2e61d
+  - 82a69bb8-4c85-4219-b737-21baaef5f388
+  - e84a1cc2-d61c-4c8c-95c2-9e85006d98d1
+secondary_material_types: []
+opentag_uuid: 784b2b45-2ead-57ed-a89b-432f5a02a81e

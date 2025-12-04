@@ -1,0 +1,63 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/794d1166b5f6.png
+    type: gallery
+uuid: 6df983f9-80c7-4edb-8d20-a423b8ec9fb6
+slug: polycarbonate-black-3
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Polycarbonate Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PC  (Polycarbonate) 3D printer filament
+
+  Push Plastic PC is an engineering grade filament that has been specifically formulated to be used for 3D printing.  Our PC offers excellent rigidity and heat resistance as well as clarity in its natural form.  This PC has a slightly lower melt temperature than traditional Poly-carbonate to allow for use with most 3D printers. 
+
+      Excellent toughness and rigidity
+      Easy printing with low warpage
+      Excellent clarity in natural form
+      High heat resistance 
+thumbnail_url: https://file.myfilamentlist.com/f/new/794d1166b5f6.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T13:30:31.521Z'
+updated_at: '2025-04-30T13:30:31.521Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: f0b4ec6a-82e3-46ad-81d0-576129309522
+colors:
+  - 7381
+packages:
+  - 4b44c4ef-4905-402e-a7da-6fff029f013e
+  - 6591f9f8-4449-4bf7-a3d3-4d79989488ac
+  - 7e4941e3-875c-4113-910f-88331f7b7235
+  - c69d70dd-1c35-45db-bdc2-302cfcbea709
+secondary_material_types: []
+opentag_uuid: c8bce4ad-380b-5878-9ab7-cde290b9c08c

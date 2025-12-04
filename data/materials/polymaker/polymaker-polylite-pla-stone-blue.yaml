@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/044780c7856d.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: 340e1a1c-5c04-4089-9369-0a5c8dc03163
+slug: polylite-pla-stone-blue
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PLA Stone Blue
+abbreviation: null
+url: null
+primary_color: 63e4b341-a699-4d89-b36d-4daed98a7aea
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/044780c7856d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:46.104Z'
+updated_at: '2025-03-25T22:34:46.104Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3413
+packages:
+  - 0cb2702f-7a2d-4d83-833d-65674e435eef
+  - 3383c56c-ad80-4da0-803f-c1ca6f7429fc
+  - 5fea3a97-422f-43f9-bba4-5eaa666635ae
+  - 6a0edbdc-fcf4-4465-9554-42d8ae61e1e2
+  - b5b30a53-fe1a-41f4-b514-ad239c1c5f0e
+  - d6b9e449-4633-4655-bcea-cfe9479edf30
+secondary_material_types: []
+opentag_uuid: c2264cff-f51f-5c87-bfc3-67246057b68b

@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/949a6dc5e571.png
+    type: gallery
+uuid: 6586d1b6-3b78-4c7a-a561-9b1cb56c7942
+slug: pctg-red-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG red | RAL 3001
+abbreviation: null
+url: null
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PCTG is a modified copolyester for the highest industrial requirements. The material combines high chemical and thermal resistance with mechanical properties, such as high impact resistance, scratch resistance and excellent optical brilliance. In addition, it meets numerous certifications (cosmetics approval, FDA, REACH, RoHS).
+
+      Good mechanical properties
+      Excellent transparency
+      High chemical resistance
+      Clear colours
+      Fire retardant according to UL94V2
+thumbnail_url: https://file.myfilamentlist.com/f/new/949a6dc5e571.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T14:31:37.463Z'
+updated_at: '2025-03-28T14:31:37.463Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3592
+packages:
+  - 0f7b5bca-4a06-4813-b309-2b6c8b99fb2b
+  - faee03e4-bb5c-4080-912b-fce7b3118c20
+secondary_material_types: []
+opentag_uuid: f8e8cfcc-2166-5744-84b1-c732b962aaef

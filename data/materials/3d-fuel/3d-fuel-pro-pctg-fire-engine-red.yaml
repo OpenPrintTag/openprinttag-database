@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7dd5434e1cc2.png
+    type: gallery
+uuid: e0a247e7-ddf1-4a24-bb8f-3aa106774915
+slug: pro-pctg-fire-engine-red
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Fire Engine Red
+abbreviation: null
+url: null
+primary_color: 3f216a6c-0611-4ad2-8086-8a6fce3a0395
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/7dd5434e1cc2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:58.858Z'
+updated_at: '2025-03-25T22:34:58.858Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 4019
+packages:
+  - 622f4ab9-b5a4-4b64-bbfa-ba0b5a556a0c
+  - 6f63bd11-c9a2-4e16-ac98-8b348a1da786
+secondary_material_types: []
+opentag_uuid: 35c1e6f6-0a16-5753-8f50-bdc15303dea1

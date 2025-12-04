@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/92d0e08c348b.jpg
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 598ec84a-fedb-4bed-b67f-a71077b06928
+slug: petg-cf-black-3
+brand_slug: flashforge
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG-CF Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      Enhanced Strength and Rigidity: The carbon fiber content in PETG-CF substantially increases the mechanical strength and rigidity of printed parts, making it perfect for load-bearing and high-strength applications.
+
+      Superior Heat Resistance: Compared to regular PETG, PETG-CF offers significantly improved heat resistance. This makes it suitable for use in high-temperature environments, where printed parts need to withstand heat, such as in automotive, electronics, and machinery applications.
+
+      Excellent Wear Resistance: The inclusion of carbon fiber enhances the wear resistance of PETG-CF, making printed parts more resistant to abrasion. This is especially useful for producing high-friction parts like gears, bearings, and sliders.
+
+      Tensile and Impact Resistance: Carbon fiber reinforcement boosts PETG-CF's tensile strength and impact resistance. This makes printed parts more durable under stress and impact, ensuring they maintain their structural integrity in tough conditions.
+
+      Stable Printing Performance: PETG-CF combines the ease of printing inherent to PETG with the benefits of carbon fiber. It reduces warping and deformation during the printing process, resulting in more stable prints with better dimensional accuracy and smoother surfaces.
+thumbnail_url: https://file.myfilamentlist.com/f/new/92d0e08c348b.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:52.056Z'
+updated_at: '2025-03-25T22:32:52.056Z'
+brand: 5143dbc4-64a2-4007-a464-99613a5c1b83
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2251
+packages:
+  - 618ee763-9181-480c-a44e-b093f8ea0d68
+secondary_material_types: []
+opentag_uuid: e6dfa0ed-bf15-5a31-a9e2-44197e5cfa9c

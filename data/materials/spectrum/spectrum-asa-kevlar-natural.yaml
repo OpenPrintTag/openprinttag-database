@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 208c84cd-3ca7-4d85-a7c4-cd38fdc90fee
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 4cb7aa76-f907-4d4b-b1de-104a4499f337
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 2cbb6654-bc98-410d-b42f-20d24252e3e5
+slug: asa-kevlar-natural
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Kevlar Natural
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/asa-kevlar/
+primary_color: 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High durability in production applications
+
+  Spectrum ASA Kevlar filament is a technical composite material based on a combination of ASA copolymer and aramid fibres. The aim of producing composite materials by combining different types materials is to impart new properties, previously unattainable for separate components. As a base for the composite, we used the ASA copolymer, well known for its high resistance to weather conditions, combining it with aramid, which is used to make some of the strongest synthetic fibres.
+
+  Aramid fibres, mainly known as Kevlar, are used to manufacture highly damage-resistant items such as bulletproof vests, helmets and speaker membranes. Aramid fibres do not fracture easily under stress (unlike glass and carbon fibres), instead they experience shear fracture and tearing – which gives them high resistance to damage.
+
+  Aramid itself is a not a particularly UV-resistant material, coating it and – in a way – protecting in the ASA polymer, highly resistant to this factor, guarantees a long life for the fibres and the entire composite. Unlike carbon and glass fibres, Kevlar fibres exhibit significantly less abrasion of the printer nozzle, which is not insignificant for the processing costs of printing. The use of fibre structures helps reduce material shrinkage when printing, making it possible to produce large-scale models.
+
+  With our new filament, Kevlar is now also finding its place in 3D printing technology. Components printed from Spectrum ASA Kevlar can be used in applications that require sunlight resistance and high impact strength (e.g.  bumpers, protection, etc.). The aramid fibre makes for a rougher outer surface of the prints, making them more matt and, therefore, more aesthetically pleasing than classic ASA.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 9188dc87-9141-4e67-bcd0-f670d997685e
+created_at: '2025-10-15T14:17:09.557Z'
+updated_at: '2025-10-15T14:17:09.557Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 0305023a-980d-548e-971b-78da94eb6a83

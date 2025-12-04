@@ -1,0 +1,79 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 4aaac76c-7df8-426a-bb45-96bac309b1a5
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: bf9a64bc-9c4b-4b28-bd07-7a93b5eb51e9
+slug: pla-plus-pale-peach
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Pale Peach
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/filament-pla-plus-jet-black-6104?category=59#attr=3466,3461,3458,3459,3534,3463,3464,3465,3460
+primary_color: f85a7f55-59fe-495f-b1b0-5c60512d0902
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Pale Peach is a high-quality 3D printing filament featuring a soft, delicate peach tone that adds a warm, elegant aesthetic to every print. This enhanced PLA Plus material combines increased durability with a smooth pastel appearance, making it ideal for functional components, creative designs, and visually appealing presentation models. Whether you're printing practical parts or decorative pieces with a gentle touch, this filament ensures premium performance and a beautifully subtle, refined finish.
+
+  Key Benefits:
+
+      Soft & Warm Color: A light peach shade that provides a gentle, cozy, and visually calming appearance – perfect for models requiring an elegant and pleasant aesthetic.
+      Enhanced Strength & Durability: PLA Plus offers superior impact resistance and improved flexibility compared to standard PLA, ensuring strong and long-lasting prints.
+      Smooth Printing Experience: Excellent layer adhesion, minimal warping, and broad compatibility with most 3D printers – suitable for both beginners and experienced makers.
+      Eco-Friendly Material: Made from biodegradable, non-toxic resources, supporting responsible and sustainable 3D printing.
+
+  Applications:
+
+      Decorative & Artistic Projects: Create warm-toned decor, pastel accessories, charming miniatures, or elegant interior pieces.
+      Functional Parts: Ideal for components that require durability while maintaining a soft and refined visual appearance.
+      Educational & Presentation Models: Perfect for display models, classroom tools, and aesthetically pleasing prototypes.
+      Toys & Gadgets: Print adorable toys, accessories, and creative gadgets in a gentle peach tone.
+      Branding & Promotional Items: Produce memorable custom items and promotional materials with a distinctive peach finish.
+
+  Ideal For:
+
+      Users who want a soft, elegant pastel filament color.
+      Projects requiring durability paired with a warm, refined aesthetic.
+      Makers who prefer eco-friendly, sustainable materials.
+      Creators and designers seeking a gentle, sophisticated color finish for their 3D prints.
+
+  PLA Plus Pale Peach is the perfect choice for creators seeking a premium, durable filament with a soft and elegant peach-toned finish. Bring your ideas to life with warmth, delicacy, and exceptional print quality! 
+thumbnail_url: https://file.myfilamentlist.com/new/bf9a64bc-9c4b-4b28-bd07-7a93b5eb51e9.png
+deleted_at: null
+deleted_by: e684a410-f306-488a-b397-987abf0044a2
+created_at: '2025-12-01T10:37:16.884Z'
+updated_at: '2025-12-01T10:37:16.884Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 4d55fce9-89a0-45d7-b61d-7ccf2616b32c
+secondary_material_types: []
+opentag_uuid: fc8889a8-bdc6-5f20-a0e0-d88b76551e7b

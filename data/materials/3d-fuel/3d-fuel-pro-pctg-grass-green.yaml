@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2fc3798d75af.png
+    type: gallery
+uuid: 28642328-7016-432c-afae-fe85a702dc0c
+slug: pro-pctg-grass-green
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Grass Green
+abbreviation: null
+url: null
+primary_color: 59a8cf67-5708-4589-909b-d806ac2d2a79
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/2fc3798d75af.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:59.216Z'
+updated_at: '2025-03-25T22:34:59.216Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 3783
+packages:
+  - 399cb2b4-98a6-463c-87e5-355a64cf5ca9
+  - 531513c0-5c9b-453a-8e88-eb00569059fd
+secondary_material_types: []
+opentag_uuid: d21e14cf-7796-5020-8bdb-75dd0bb1f719

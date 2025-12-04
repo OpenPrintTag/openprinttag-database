@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9812efb2c37e.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: afccc499-61e6-4700-9768-2727e242a502
+slug: polysonic-pla-pro-3
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolySonic™ PLA Pro '
+abbreviation: null
+url: null
+primary_color: 424c6c1d-f5cd-4698-a4d5-cab621481a3a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolySonic™ PLA Pro is a tough PLA that can print at incredible speeds. With its advanced formulation, this filament ensures durable, rugged prints, with an impact strength similar to ABS and bending strength outperforming ASA & PETG. When time is of the essence for functional parts, PolySonic™ PLA Pro is the ideal choice for you.
+
+
+  - Printing Requirements
+
+  None! Will print great on any stock FDM 3D printer without any upgrades required.
+
+  If using a stock, older style printer - we would recommend printing slower.
+thumbnail_url: https://file.myfilamentlist.com/f/new/9812efb2c37e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:53.011Z'
+updated_at: '2025-03-25T22:34:53.011Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3541
+packages:
+  - b025d6de-e8e1-41c1-918c-63a9e335488f
+secondary_material_types: []
+opentag_uuid: db91f194-8b66-578d-bf57-552891007716

@@ -1,0 +1,77 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/98fc5fecd3f4.png
+    type: gallery
+tags:
+  - e4b51bb5-75c7-484a-bf67-20f37016fc30
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c5339ade-6236-496b-968c-c8e542ecebfc
+slug: easywood-olive
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' EasyWood Olive'
+abbreviation: null
+url: null
+primary_color: d90e092e-c002-4700-a39d-df38166148e6
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  EasyWood is a PLA-based 3D printer filament that is filled with 40% wood particles. EasyWood filament is perfect for 3D printing objects with real wood-like aesthetics, smell and touch.
+
+  EasyWood looks, feels and smells like real wood. A beautiful wood-nerve structures can be obtained by grinding the printed object with a piece of fine grit sandpaper. Alternatively the same result can be obtained by varying the print temperature during the printing process.
+  EasyWood is a PLA-based filament which is filled with 40% grinded wood particles. The wood particles in the filament have the added benefit of warp-free printing.
+
+  Unique features
+
+      Extremely high wood-filling of 40%
+      Real wood feel, look and smell
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Great thermal stability and filament flowing behaviour
+      Perfect first- and inter-layer adhesion
+      Can be printed at high printing speeds
+      By postprocessing the printed object with a piece of fine grit sandpaper
+      By varying with the print/extrusion temperature
+      Biodegradable
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/98fc5fecd3f4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:32.698Z'
+updated_at: '2025-03-25T22:31:32.698Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 952
+packages:
+  - 0cf4964e-a5ef-4f45-8ebf-9b6df5f88326
+  - 0e21b296-aad9-4f6c-9de2-eaec64224035
+  - 146f8847-a519-4907-b1e8-dbd1758a8a8b
+  - 2a464c18-95e5-46ab-8f58-d5f9490cb14b
+  - 56355619-abb8-43d3-be82-9629a1c49001
+  - 9ce129ec-1bef-4a74-ac7a-452fba9ee307
+secondary_material_types: []
+opentag_uuid: 5baf1254-d86d-5df0-9c2e-6006cbdbcbb0

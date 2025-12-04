@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9a38279d0338.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 5bc3c298-3821-4f28-b620-364f437d497e
+slug: pcabs-natural-3
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PC/ABS Natural
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PC/ABS (polycarbonate + acrylonitrile butadiene styrene) 3D Printing Filament
+
+  Benefits of this engineering thermoplastic include:
+
+      Mechanical properties & high-heat resistance of PC with the printability of ABS
+      Improved thermal properties, ductility, and impact resistance
+
+  Recommended Print Settings:
+
+      Extruder: 270-290degreesC
+      Bed Temp: 110-120degreesC
+      Heated Chamber: Recommended
+      Drying Instructions: 110degreesC for 4hrs
+thumbnail_url: https://file.myfilamentlist.com/f/new/9a38279d0338.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T11:45:54.321Z'
+updated_at: '2025-04-30T11:45:54.321Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7357
+packages:
+  - 189a0ec3-6783-4615-b1df-859ff0772737
+  - 27e571fb-3692-4824-86ff-96b322cd41c7
+  - 4cf31cf1-479e-467d-be66-d939e5e223b4
+  - c93b6a5b-33db-4e31-a27a-be2a90c84a3d
+secondary_material_types: []
+opentag_uuid: 845dedb4-133e-5b4e-9e20-cf6bc0ac17d9

@@ -1,0 +1,69 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 2a6c5af8-f9f9-45e3-b058-d2d8a519df83
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 485cb460-7133-49d8-84a7-eae15a056f50
+  - 82ad7122-8851-4cb3-b1e6-10975e292492
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+secondary_colors:
+  - 5019134c-2526-4924-9b7c-349278e205eb
+  - 2c3aef30-41c3-492d-ab84-8862af4cd79b
+uuid: 3e3c96b2-7d88-42c5-946e-5cf71d47b783
+slug: glow-in-the-dark-luminous-blue-flexible-tpu
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Glow-in-the-dark, Luminous Blue, Flexible TPU
+abbreviation: null
+url: https://www.sainsmart.com/products/glow-in-the-dark-luminous-blue-flexible-tpu-filament-1-75mm-1kg-2-2lb?_pos=5&_fid=0b0f09340&_ss=c
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2+
+
+
+      Glow-in-the-Dark Fun: Our filament features a unique glow-in-the-dark effect, thanks to the special material that absorbs light energy. When exposed to strong sunlight or UV light, it creates a mesmerizing glow that will leave you in awe.
+      High-Quality Material: Made with thermoplastic polyurethane (TPU), our filament produces strong and flexible parts with ease. You can trust in the quality of our product to bring your projects to life.
+      No More Warping: Say goodbye to warping and hello to a smooth and seamless printing experience. Our filament provides excellent bed adhesion, preventing jamming and bubbles so you can focus on creating.
+      Endless Possibilities: From shoe insoles to watch bands, phone cases, drone parts, and more - the possibilities are endless with our versatile filament. Let your imagination run wild!
+      Affordable and Compatible: Our cost-effective filament is compatible with the most popular 3D printers on the market, making it the perfect choice for all your 3D printing needs. With Bowden extruder needs to print slowly.
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: ad4726b0-5b01-477c-8642-5151c597dbeb
+created_at: '2025-09-26T14:09:45.218Z'
+updated_at: '2025-09-26T14:09:45.218Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9174
+  - 9175
+packages:
+  - d4f3ec27-66f4-4e21-a0ca-cba645a9cb01
+secondary_material_types: []
+opentag_uuid: b148fb40-ea45-539a-b232-774c7ce4eeac

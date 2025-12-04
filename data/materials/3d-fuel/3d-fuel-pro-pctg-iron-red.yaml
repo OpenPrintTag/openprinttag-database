@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/3336ee9d-e4f3-4eaa-8009-11c00da5959d/66b952a0946d.png
+    type: gallery
+uuid: 3336ee9d-e4f3-4eaa-8009-11c00da5959d
+slug: pro-pctg-iron-red
+brand_slug: 3d-fuel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pro PCTG, Iron Red
+abbreviation: null
+url: null
+primary_color: a321a52e-7d2a-4575-b0dd-d5e7455403e4
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Compared to PETG, 3D-Fuel Pro PCTG is:
+
+      Up to 20x Tougher
+      Chemical and UV Resistant
+      More Flexible & Impact Resistant
+      Less Susceptible to Moisture
+
+thumbnail_url: https://file.myfilamentlist.com/f/3336ee9d-e4f3-4eaa-8009-11c00da5959d/66b952a0946d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:59.343Z'
+updated_at: '2025-04-11T14:36:37.137Z'
+brand: 43a1f6ff-b7da-4bf1-a7a9-e707dfb8555d
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors:
+  - 6839
+packages:
+  - 8cd5e21f-2984-46c6-92b6-a94869196c5f
+  - c1957f2c-8a30-4328-81d6-be4737779b90
+secondary_material_types: []
+opentag_uuid: 7756f8f7-6dd1-5dbc-a419-7af6d599af37

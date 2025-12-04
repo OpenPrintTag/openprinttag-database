@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e53d5814-15a0-4503-bfc9-51b08d0d9336
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - f256a3c0-18ea-49c8-beb0-7af94c28e476
+uuid: 603b5342-9628-4e9f-bc9e-825e84a2df0d
+slug: pla-hd-fluorescent-electric-orange
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Fluorescent Electric Orange
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-fluorescente-winkle-175-mm-1-kg-naranja-electrico/
+primary_color: 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Perfect for creating eye-catching 3D prototypes, decorative pieces, functional gadgets, and high-visibility signage. Available in 300 g and 1 kg spools.
+  This 3D printer filament is ideal for both makers and professionals looking to print unique objects.
+
+  If you need a filament with a striking finish, our PLA HD Fluorescent combines aesthetics and performance, delivering impressive visual results. It offers high visibility and precision in every layer.
+
+  This 1.75 mm PLA filament is designed for projects that require bright, vibrant, and attention-grabbing colors. Manufactured by Winkle, it shares the same properties as standard PLA: a flow rate of 8 g/10 min, high-density composition (1.24 g/cm³), and 96% stereochemical purity, ensuring stable extrusion, uniform adhesion, and spectacular results.
+
+  Fluorescent colors that transform your creations:
+
+  Electric Yellow: Perfect for signage or parts that need to stand out even in low light.
+
+  Electric Orange: Provides energetic and vibrant aesthetics for your most dynamic models.
+
+  Electric Pink: Ideal for creative, eye-catching designs with unique personality.
+
+  Electric Green: Adds a sense of safety and technology to your most durable 3D prototypes.
+thumbnail_url: https://file.myfilamentlist.com/new/603b5342-9628-4e9f-bc9e-825e84a2df0d.png
+deleted_at: null
+deleted_by: e48972ce-6ec8-4dae-a285-11f07eeed827
+created_at: '2025-11-21T13:04:36.651Z'
+updated_at: '2025-11-21T13:04:36.651Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 06346cd3-0297-489f-a9b7-612b891a9e5c
+  - 7ac2a738-28b8-4fea-9237-35b2290ffc37
+  - b50969a9-e1de-4d3b-9668-7e0c525aacbd
+secondary_material_types: []
+opentag_uuid: db772453-7109-5b7f-8295-0b6ddfdb9e9b

@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/5b65bdd12ebe.png
+    type: gallery
+uuid: 5150dd1f-26ef-49ee-a95f-e5f8318f2067
+slug: petg-natural-3
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Natural
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/5b65bdd12ebe.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:20:28.522Z'
+updated_at: '2025-04-30T12:20:28.522Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7366
+packages:
+  - 1d75a28f-0483-4869-a285-4ed6f949e8c5
+  - 37a6f19b-a32e-426a-9c5f-1d9bfd0d1797
+  - 3c49ef26-45ae-4941-9349-d04d60077ab8
+  - 42157935-49f9-406b-843f-3281097b3ec7
+  - 44cbacda-97a5-429c-89c3-35734a458e9f
+  - 488aad58-5a56-4e77-a083-75681ac804fd
+  - ccafd9dd-2c15-411c-a890-9d9201032fd6
+  - d2cd8593-403f-4a01-97ef-890d978e6419
+  - f0232c0c-903a-422a-b562-d697b2de087d
+  - f39effa6-aa34-4e45-96ed-3aea4187ec1b
+secondary_material_types: []
+opentag_uuid: 38ccd643-350d-5dba-9a14-40122f70c227

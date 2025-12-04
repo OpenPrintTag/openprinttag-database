@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/88ab65ed95d2.png
+    type: gallery
+uuid: e834d0d1-5502-4af3-a761-55c5858aa712
+slug: asa-natural-12
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA Natural
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ASA filament made from premium UV-resistant resin
+
+  Printed parts made from this material offer exceptional UV-stability making it a great choice for outdoor applications
+
+  ASA also exhibits excellent mechanical and thermal properties 
+
+  Manufactured in the USA by Push Plastic using premium ASA resin. This material is a great substitute for normal ABS when resistance to outdoor exposure is needed.
+
+  -Manufactured from 100% virgin resin and then spooled onto 750 gram reels, the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/88ab65ed95d2.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T10:02:13.643Z'
+updated_at: '2025-04-30T10:02:13.643Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7327
+packages:
+  - 1ad48c85-6b54-4f40-a76b-9d41d095f2d9
+  - 6d9ef907-aed9-4d69-8a03-c09e379cfdc0
+  - 9e333679-dc01-47fe-ba62-fe03eff5c223
+  - aebed45d-e594-45bc-9ad4-dfad2ab4cffe
+secondary_material_types: []
+opentag_uuid: 818c63bf-05de-56d8-8507-45361a749edf

@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7f703c13ff7f.png
+    type: gallery
+uuid: 0acdef5a-2850-47fa-b429-f9209e70c7f6
+slug: cpe-hg100-flash-yellow-metallic
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CPE HG100 "Flash Yellow Metallic"
+abbreviation: null
+url: null
+primary_color: 7abd308a-476d-4eb2-ae90-5ef22c4db37b
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  CPE HG100 is a modified PETG material developed for technical prints. You can rely on easy 3D printing, high quality, excellent lamination, perfect details, and high precision.
+
+   High-technical durable long-life material
+   Great impact resistance (no break)
+   Easy printing as PLA
+   High hardness
+   Temperature resistance up to 80 degreesC
+   Chemical resistance against acids, alkalis, alcohols, and hydrocarbon
+thumbnail_url: https://file.myfilamentlist.com/f/new/7f703c13ff7f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:21.274Z'
+updated_at: '2025-03-25T22:31:21.274Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 27a91e17-7871-4d99-88e5-9d92e84d20b8
+colors:
+  - 662
+packages:
+  - 23b14c02-7c46-44d7-bc8b-c779e4cdc8e0
+  - 244a2640-801d-471b-b75c-437a7b61e9fa
+secondary_material_types: []
+opentag_uuid: 7439e8ff-17aa-576d-b3d9-e7de744c5dda

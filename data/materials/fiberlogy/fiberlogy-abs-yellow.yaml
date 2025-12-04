@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/3234e2ff1a4a.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 2ded6228-fed9-4585-9d40-42547d36c815
+slug: abs-yellow-3
+brand_slug: fiberlogy
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABS Yellow
+abbreviation: null
+url: null
+primary_color: 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+
+  Features & Advantages
+
+      High hardness
+      High impact resistance
+      Resistant to high temperatures
+thumbnail_url: https://file.myfilamentlist.com/f/new/3234e2ff1a4a.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:12.780Z'
+updated_at: '2025-03-25T22:31:12.780Z'
+brand: 062398ca-21bf-4447-97c4-e4cd4016a2d0
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 251
+packages:
+  - 3f89e298-ebda-4020-8f2b-fc65c1cc272f
+  - 5cd5f435-dfa2-4753-bf42-c692bd54e8f6
+secondary_material_types: []
+opentag_uuid: 654e1986-665a-56b0-9f4f-6ca0e1fd15fe

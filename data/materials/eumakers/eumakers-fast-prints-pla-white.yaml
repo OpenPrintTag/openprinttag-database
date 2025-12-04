@@ -1,0 +1,59 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 53cc48b3-5e42-4627-8178-cda6d92c9e61
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 9b32e8f1-c88d-4bb0-b0ea-83ee6dae8bc1
+slug: fast-prints-pla-white
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: FAST PRINTS PLA White
+abbreviation: null
+url: https://www.eumakers.com/fast-prints-pla-filament-color-white.html
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing FAST PRINTS PLA filament color White.
+  Speed up your prints up to 300 mm/s with FAST PLA filament.
+  High resolution...in less time!
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/9b32e8f1-c88d-4bb0-b0ea-83ee6dae8bc1.png
+deleted_at: null
+deleted_by: 104d1baf-a4ca-499a-ace1-6ddbf343bcae
+created_at: '2025-11-12T10:56:07.400Z'
+updated_at: '2025-11-12T10:56:07.400Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 428656b1-2cb9-4769-8cdc-3087eb3904bf
+  - f59f7815-c9a6-439e-bb4e-4c4ab8ca05fb
+secondary_material_types: []
+opentag_uuid: bb416e9b-f22c-5780-aea3-150c02ebcba7

@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 52311f38-d493-4836-9b1f-2661ec728f87
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: c0c5e021-6770-4573-8f4d-d542682ce363
+slug: pla-hd-pearl
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Pearl
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-winkle-175-mm-1-kg-nacar/
+primary_color: 0b1aaf91-58a7-4fd4-8f1c-e0af97724cb9
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Precision, strength, and a wide range of unique colors to bring your ideas to life.
+  PLA HD Filament offers great versatility for your 3D printing projects. This 1.75 mm filament is ideal for creating functional parts, 3D prototypes, detailed models, and figures with flawless finishes.
+
+  Available in 300 g, 1 kg, and 5 kg spools, it is perfect for both hobbyists and professionals seeking top performance.
+
+  At Winkle, our PLA HD filament is made with 96% stereochemical purity, ensuring stable, durable, and deformation-free prints. Its 45 MPa tensile strength, low moisture content, and melting temperature of 155 °C make it a safe and efficient choice.
+
+  Applications for 1.75 mm PLA HD Filament:
+
+  Industrial and functional prototypes
+
+  Decorative parts with high detail
+
+  Educational and architectural models
+
+  Custom accessories and practical gadgets
+
+  Small batch production and everyday-use durable objects
+thumbnail_url: https://file.myfilamentlist.com/new/c0c5e021-6770-4573-8f4d-d542682ce363.png
+deleted_at: null
+deleted_by: 74754aa3-5b18-4091-b914-3bdc32a23f09
+created_at: '2025-11-21T13:38:53.466Z'
+updated_at: '2025-11-21T13:38:53.466Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 3ddddac1-3eb0-446b-be93-6150e67863cc
+  - 7560e4e0-c762-481d-bb1d-8a662b62c1f8
+  - dcae64be-bb61-4582-861d-7224c3974519
+secondary_material_types: []
+opentag_uuid: 1a1e577f-2441-5034-8a2f-dbe97761d030

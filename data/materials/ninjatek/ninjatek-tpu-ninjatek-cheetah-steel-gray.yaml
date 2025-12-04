@@ -1,0 +1,70 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/034c123e4a57.png
+    type: gallery
+uuid: 3220b50c-e7c9-45e1-9826-bd03dd257548
+slug: tpu-ninjatek-cheetah-steel-gray
+brand_slug: ninjatek
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU NinjaTek Cheetah - Steel Gray
+abbreviation: null
+url: null
+primary_color: 14ac25b0-b7bf-4a08-8661-f8b32b8b4458
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The fastest and easiest-to-print flexible TPU filament available, Cheetah(R) maintains industry-leading durability and impact strength 84% greater than ABS. Cheetah is the perfect blend of speed and toughness.
+
+  Features and Benefits of Cheetah Filament
+
+      Shore hardness = 95A
+      Prints at speeds greater than 60 mm/ sec with standard ABS settings
+      Significantly greater impact strength than all widely used materials - 84% greater than ABS
+      Industry-leading toughness and durability to ensure longevity in printed parts
+      Abrasion resistance 40% better than ABS and 76% better than PLA
+      580% elongation capabilities improve the ability to withstand wear and tear
+      Chemical resistance to many materials. View Cheetah Chemical Resistance Guide for more information.
+      Consistent diameter and material properties providing reliable, high-quality prints
+      REACH and RoHS 3 (EU 2015/863)
+thumbnail_url: https://file.myfilamentlist.com/f/new/034c123e4a57.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:25.266Z'
+updated_at: '2025-03-25T22:36:25.266Z'
+brand: dc14bc52-0ea9-467f-a3a1-cbff6957c8ec
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5495
+packages:
+  - 0fb52275-73e0-4d66-9d4d-82c6d1c2a535
+  - 0fd48beb-93f2-4346-8e1f-8eecfad9069b
+  - 16e807c6-2fed-4ff0-a441-87a46ed586aa
+  - 4153f832-a1c2-4347-af6e-bb140c30a640
+  - 70eb7b69-1664-42c6-a4f0-0f026a82beda
+  - f3e468d8-ef4e-4b98-a9ad-15164bd0498b
+secondary_material_types: []
+opentag_uuid: c02df9ce-4536-5b1e-a2ad-9a0092c86542

@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/6dcc54223e55.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: a9e5c85f-690a-470e-8916-de99331e56b3
+slug: cpe-hg100-red-hood-transparent
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: CPE HG100 "Red Hood Transparent"
+abbreviation: null
+url: null
+primary_color: 44b73700-3519-4478-9d98-b34d0233223e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  CPE HG100 is a modified PETG material developed for technical prints. You can rely on easy 3D printing, high quality, excellent lamination, perfect details, and high precision.
+
+   High-technical durable long-life material
+   Great impact resistance (no break)
+   Easy printing as PLA
+   High hardness
+   Temperature resistance up to 80 degreesC
+   Chemical resistance against acids, alkalis, alcohols, and hydrocarbon
+thumbnail_url: https://file.myfilamentlist.com/f/new/6dcc54223e55.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:21.769Z'
+updated_at: '2025-03-25T22:31:21.769Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: 27a91e17-7871-4d99-88e5-9d92e84d20b8
+colors:
+  - 205
+packages:
+  - 24f29175-91bd-4a29-a04a-5ccbd6bd4fbc
+  - 569b9c4b-90e3-4583-af81-81ccffc0a4b7
+secondary_material_types: []
+opentag_uuid: dd508ccf-f6d2-5c2d-92e7-c84f5cd47770

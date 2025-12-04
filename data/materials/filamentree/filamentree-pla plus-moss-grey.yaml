@@ -1,0 +1,78 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 591611e3-b3e6-4a82-95e5-bdf80c2ba680
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 298b8c79-56b8-4eb5-8d32-28054ef292c5
+slug: pla-plus-moss-grey
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus Moss Grey
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110481-pla-plus-moss-grey-1kg-5063?category=59#attr=236,2929,237,238,3502,2931,2932,2933,239
+primary_color: a0f98ef3-220a-455e-ad0c-72ff25dc8d01
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |2-
+   PLA Plus Moss Grey combines the rugged durability of PLA Plus with a subdued, earthy grey tone inspired by natural moss and stone. Designed for creators who value understated elegance and functional resilience, this filament produces prints with a versatile, organic aesthetic—perfect for outdoor applications, industrial designs, or projects blending seamlessly into natural or modern environments.
+  Key Benefits:
+
+      Earthy, Neutral Aesthetic: The muted moss grey shade mimics natural textures, ideal for stealthy designs, architectural models, or projects requiring a subtle, professional finish.
+      Enhanced Strength & Durability: PLA Plus offers superior impact resistance and toughness compared to standard PLA, ensuring prints withstand stress, wear, or outdoor conditions.
+      Smooth & Reliable Printing: Minimal warping, excellent layer adhesion, and compatibility with most 3D printers guarantee consistent results for beginners and experts alike.
+      Eco-Friendly Formula: Made from biodegradable, non-toxic materials, aligning with sustainable 3D printing practices.
+
+  Applications:
+
+      Outdoor & Tactical Gear: Craft camouflage accessories, hiking equipment, or protective cases designed for rugged environments.
+      Architectural & Industrial Models: Ideal for urban planning mockups, machinery housings, or terrain replicas with a realistic, industrial look.
+      Home Décor & Furniture: Print minimalist shelves, planters, or modern décor that complements neutral interiors.
+      Functional Prototypes: Durable tool handles, mechanical parts, or ergonomic gadgets requiring both strength and subtlety.
+      Artistic & Nature-Inspired Projects: Create sculptures, dioramas, or abstract art with an organic, earthy vibe.
+
+  Ideal For:
+
+      Projects demanding a balance of discreet aesthetics and mechanical reliability.
+      Outdoor enthusiasts, architects, or designers focused on natural or industrial themes.
+      Eco-conscious creators prioritizing sustainability without compromising performance.
+      Customizing prints with paint, stains, or textures, thanks to its neutral base.
+
+  PLA Plus Moss Grey bridges the gap between raw functionality and refined design, empowering your 3D prints to thrive in both rugged and sophisticated settings. Whether for stealth, structure, or subtle artistry, this filament ensures your creations endure with quiet strength. 
+thumbnail_url: https://file.myfilamentlist.com/new/298b8c79-56b8-4eb5-8d32-28054ef292c5.png
+deleted_at: null
+deleted_by: 35901d6a-3619-448a-aa14-4b0ff321afdf
+created_at: '2025-12-01T09:17:52.172Z'
+updated_at: '2025-12-01T09:17:52.172Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - be3e5b3b-dcb8-4bf5-8bb9-31a41a7cfb95
+secondary_material_types: []
+opentag_uuid: 86f83e92-0bf0-5d16-9af0-cabdeb2cb557

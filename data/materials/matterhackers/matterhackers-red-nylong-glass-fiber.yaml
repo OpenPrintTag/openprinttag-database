@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/79ccb2d70e20.png
+    type: gallery
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: fbe1c5eb-3aa4-48b1-89f7-061f0b3d3ca0
+slug: red-nylong-glass-fiber-4
+brand_slug: matterhackers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Red NylonG Glass Fiber
+abbreviation: null
+url: null
+primary_color: 8b037f8a-83da-4212-922f-40826135a2b8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  NylonG is a glass-fiber reinforced nylon for 3D printing, offering excellent impact-resistance, incredible tensile strength, and great inter-layer adhesion. It retains dimensional accuracy better than standard nylon and absorbs large amounts of kinetic energy, making it ideal for parts that need to withstand repeated shock. The filament creates clean, complex parts in various colors with no post-processing needed and pairs well with Ionic support materials for dual extrusion prints.
+
+      Glass fiber-infused for extra strength and impact resistance
+      Excellent at absorbing large amounts of kinetic energy
+      Produces clean, complex parts with no post-processing needed
+thumbnail_url: https://file.myfilamentlist.com/f/new/79ccb2d70e20.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:35:12.778Z'
+updated_at: '2025-03-25T22:35:12.778Z'
+brand: 2f78f004-49c7-4672-9cd5-32971f28f7ca
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors:
+  - 4075
+packages:
+  - a4c0a378-f865-45cb-a16d-d48132ec0242
+secondary_material_types: []
+opentag_uuid: 4fde463f-6708-52e4-88e7-00283defc751

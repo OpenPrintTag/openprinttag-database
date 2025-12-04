@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/54b17dbb8fd9.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d90a6a8f-ecd8-42b6-8930-40173ad9ac9a
+slug: pla-basic-cmyk-lithocyan-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Basic CMYK lithocyan | RAL 6027
+abbreviation: null
+url: null
+primary_color: f4de8784-1f2d-49d6-bc75-c29e15ada857
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PLA Basic is a high-quality, biodegradable filament designed for easy and reliable 3D printing. Now available in CMYK colors, it offers vibrant and precise hues for creative and technical applications.
+
+      Easy to print - Ideal for beginners and professionals alike
+      Vibrant CMYK colors - Perfectly matched to the CMYK color model
+      High print quality - Produces fine details and smooth surfaces
+      Lithophane-ready - Excellent for printing light-transmitting images 
+
+  What is the CMYK color model and how is it used in 3D printing? 
+
+  The CMYK color model is one of the most important methods for color mixing and is increasingly used in 3D printing. The primary colors cyan, magenta, and yellow enable a wide range of creative possibilities through subtractive color mixing. White enhances this palette by adding brightness and contrast, making it especially useful for lithophanes, where the interplay of light and shadow reveals intricate details.
+
+  The use of CMYK colors in 3D printing unlocks new design possibilities for prototyping, modeling, art projects, and functional components. With precise color reproduction, visually striking and realistic prints can be achieved.
+thumbnail_url: https://file.myfilamentlist.com/f/new/54b17dbb8fd9.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T12:38:52.354Z'
+updated_at: '2025-03-27T12:38:52.354Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3700
+packages:
+  - 230586e0-2e16-4278-abb4-0dfab207b4f5
+secondary_material_types: []
+opentag_uuid: 4df2422a-bc34-5985-9d29-f43213bb3429

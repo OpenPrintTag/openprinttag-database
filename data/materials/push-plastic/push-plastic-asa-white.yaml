@@ -1,0 +1,64 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4caecd790777.png
+    type: gallery
+uuid: d7147700-dd4a-4776-ad51-55cd31d62b34
+slug: asa-white-10
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA White
+abbreviation: null
+url: null
+primary_color: 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  ASA filament made from premium UV-resistant resin
+
+  Printed parts made from this material offer exceptional UV-stability making it a great choice for outdoor applications
+
+  ASA also exhibits excellent mechanical and thermal properties 
+
+  Manufactured in the USA by Push Plastic using premium ASA resin. This material is a great substitute for normal ABS when resistance to outdoor exposure is needed.
+
+  -Manufactured from 100% virgin resin and then spooled onto 750 gram reels, the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/4caecd790777.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T10:04:12.666Z'
+updated_at: '2025-04-30T10:04:12.666Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors:
+  - 7329
+packages:
+  - 2793c050-ec0e-470a-a4a5-121f57b8b719
+  - 5bff43d1-e491-423b-bbee-b4b8734baf91
+  - b796092b-2529-4d08-a192-dc1c9e8c5720
+  - ea2ba6db-260f-43d4-b4c9-8722c5cf7c20
+secondary_material_types: []
+opentag_uuid: 95288b73-b789-5605-8428-79c12f97f217

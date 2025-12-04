@@ -1,0 +1,69 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ab7e755d1ea4.png
+    type: gallery
+tags:
+  - 033050b8-25bb-4f28-aca3-dccc4d8f8efd
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 9181c126-64ef-4edf-b013-324a88ea609e
+slug: rabs-black
+brand_slug: addnorth
+brand_specific_id: null
+class: FFF
+type_id: null
+name: rABS Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+      100% recycled ABS from industrial parts
+      Same mechanical properties as virgin ABS
+      High printability and nice surface finish
+
+  This 100% recycled ABS from industrial parts has the same fine mechanical properties as virgin ABS, with excellent inter-layer adhesion, high printability and a nice surface finish.
+
+  rABS is excellent for printing functional and tough parts, thanks to high wear and impact resistance with a working temperature of up to 100degreesC.
+
+  Relative to other ABS materials it has very good bed adhesion and minimal warping. rABS is also treatable with acetone for a complete smoothing of the surface layers.
+
+  For additional printing advice, check out our cheat sheets for recommended slicer settings in Cura, Simplify 3D and PrusaSlicer.
+
+  rABS together with all our other filaments, are made in Sweden and have a diameter tolerance of 0.025mm.
+
+  rABS is available in 750g spool sizes in 1.75mm and 2.85mm diameter.
+thumbnail_url: https://file.myfilamentlist.com/f/new/ab7e755d1ea4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-01T15:33:06.612Z'
+updated_at: '2025-04-01T15:33:06.612Z'
+brand: 38ee4abc-43b9-4877-aea3-dce8dd731567
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 4797
+packages:
+  - 1e2fcfaf-bd3f-4f25-aeb5-8965e242771c
+secondary_material_types: []
+opentag_uuid: 156a51f5-c656-514f-8294-10bcc0d357dc

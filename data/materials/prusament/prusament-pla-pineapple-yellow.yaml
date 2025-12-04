@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 9dbdd769-453f-4822-968e-bb008d5ba19a
+  hardness_shore_a: null
+  hardness_shore_d: 81
+  fff_material_properties: a1a285b9-4966-4643-b072-dd8967f0090d
+  sla_material_properties: null
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f82d130f4a46.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+certifications:
+  - 2
+uuid: d86ea605-e90a-4f8d-9859-8dc79106d78f
+slug: pla-pineapple-yellow
+brand_slug: prusament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Pineapple Yellow
+abbreviation: null
+url: null
+primary_color: f00291cc-1d99-40f2-bdc5-32b0a0a7180c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: '7.60'
+refractive_index: null
+print_sheet_compatibility: []
+description: |+
+  Prusament PLA is our own in-house made filament. The whole manufacturing process is closely monitored and tested - we guarantee ±0.02mm precision (± 0,03 for blends) and highly-consistent colors. You can inspect parameters of every spool we made at prusament.com.
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/f82d130f4a46.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:03.999Z'
+updated_at: '2025-04-04T11:05:32.071Z'
+brand: 6da76d11-4e01-400c-b6b3-9cc73fa1d580
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 6799
+packages:
+  - 118cd0b8-d1f5-4f89-bb80-c42d7ca42c46
+  - 4d95dc1e-705d-4c0c-ad22-488a7af9b87a
+secondary_material_types: []
+opentag_uuid: 1770caec-fce4-5fb6-8c3b-7b986d98f712

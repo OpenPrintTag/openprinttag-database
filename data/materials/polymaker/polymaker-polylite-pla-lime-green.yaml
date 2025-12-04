@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4ba3d4fbf51d.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: c442d65a-3b4c-4a7d-bf53-c30f850e4182
+slug: polylite-pla-lime-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyLite™ PLA Lime Green
+abbreviation: null
+url: null
+primary_color: 1c82a4c8-bd1f-419c-aafd-6ffbe8cf6c77
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PolyLite™ PLA is a high-quality PLA designed for reliability and ease of printing.
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/4ba3d4fbf51d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:42.327Z'
+updated_at: '2025-03-25T22:34:42.327Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3093
+packages:
+  - 13beae3a-fb2c-4b9f-8805-2f0da2d7cd8a
+  - 1997e5bb-14e2-4008-b0dc-52ec125983aa
+  - 80a15aac-fabc-43ac-ba4c-6444e41b6741
+  - 9a8603f0-1cbe-406f-a05e-ccca88b7bb25
+  - b77a5456-6f8f-4bda-ab36-eb3ca6570330
+  - f27f30da-72c1-4a7c-95e6-10aeed82e676
+secondary_material_types: []
+opentag_uuid: b0131a55-7f86-5c1e-97c1-0ade29e37606

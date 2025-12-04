@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.13000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 896888db-4696-4a3f-93d2-7a71f856069e
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 5db1b6b8-69c5-4940-b63d-a052af9aac09
+slug: pet-g-fx120-clear
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PET-G FX120™ Clear
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pet-g-fx120/
+primary_color: 51a09628-4651-41cf-b737-8460eb45fc86
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Excellent durability, strength and flexibility
+
+  Spectrum PET-G FX120™ is a flexible material, designed especially for engineering applications requiring both the durability of an engineering-class polymer and strength, enabling designers to create rapidly truly functional parts to withstand normal use.
+
+  Parts made of Spectrum PET-G FX120™ filament exhibit high chemical resistance, temperature resistance, and can be steam sterilized. The material is adapted to the use of a high level of cooling rate, which makes it possible to obtain a very high-quality surface and a significant reduction of filament stringing. Spectrum PET-G FX120™ can be printed with increased operating speeds, as compared to other elastomers.
+
+  Spectrum PET-G FX120™ belongs to the group of rigid elastomers. As a result, it can be effectively used on devices with a Bowden filament feeding mechanism, as well as in more and more popular multi-material printers – then it can be perfectly combined with the classic PET-G filament. The additives used in the development of this material significantly increased the maximum operating temperature – even up to 120°C.
+
+  Tip: It is recommended to print using a heated chamber.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 81c3bc6c-7666-4fa4-9baa-0a76437c5ae7
+created_at: '2025-10-14T13:35:04.838Z'
+updated_at: '2025-10-14T13:35:04.838Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 1ec94c92-11fa-5658-84f3-38ad7f241fd5

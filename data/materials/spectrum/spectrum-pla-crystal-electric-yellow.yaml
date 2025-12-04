@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: b24a6bdb-2a67-4081-a506-9395d5e533a6
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+  - 10fdf066-128e-4414-81b5-206d347ce8fd
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: f789b956-1188-4076-bb3c-0134442bbea5
+slug: pla-crystal-electric-yellow
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Crystal Electric Yellow
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pla-crystal/
+primary_color: 82d10fcd-36ab-4e67-8d09-fd9d22ae85e2
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Crystal is an innovative series of filaments designed especially for 3D printing enthusiasts who seek transparent and semi-transparent effects in their projects. Made from highly crystalline PLA, these filaments provide exceptional clarity and aesthetic appeal, which is not achievable with traditional non-transparent PLA filaments. This characteristic makes 3D prints using PLA Crystal visually appealing and suitable for various applications.
+
+  The new PLA Crystal series is distinguished by a nearly 30% increased flow rate, resulting in smoother and more precise 3D printing processes. This allows to create accurate and complex models easily. PLA Crystal also exhibits a temperature resistance of up to 60°C, making it ideal for applications that involve moderate temperatures.
+
+  PLA Crystal filaments are based on biodegradable PLA, and the raw material used for this series is approved for food contact.
+
+  Tip: Depending on the cooling, temperature and printing speed, the final print surface will be semi-transparent or semi-matt.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ba8584a7-d888-4569-bd14-9a2e1d01a0df
+created_at: '2025-09-29T14:53:49.417Z'
+updated_at: '2025-09-29T14:53:49.417Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 9305
+packages:
+  - 1d54d03e-0943-4860-a590-e68027875702
+  - 69550d35-a4e2-4212-82eb-782ca78e9dd2
+secondary_material_types: []
+opentag_uuid: 424d26c4-6fd7-51f9-adf5-057cf90a15e9

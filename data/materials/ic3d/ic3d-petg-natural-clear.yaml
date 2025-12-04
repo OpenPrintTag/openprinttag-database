@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/836698775261.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 10eab347-c1a3-4be9-a96b-6230cedf8adc
+slug: petg-natural-clear
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Natural (Clear)
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  IC3D engineers use PETG for the widest variety of projects because it marries most of the best qualities of ABS and PLA. It combines the ease of use of PLA with more dimensional stability than ABS. This makes it ideal for most large-format, functional print projects, such as molds and manufacturing fixtures.
+thumbnail_url: https://file.myfilamentlist.com/f/new/836698775261.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T15:57:17.461Z'
+updated_at: '2025-04-30T15:57:17.461Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7391
+packages:
+  - 31733a21-5669-4d99-98ef-b2571d0a182d
+  - 333a8c11-3e41-4cec-ad28-cf7f31fb95d7
+  - 3a0b6ebc-7a3e-4d96-8c18-83ccb0b209e5
+  - 50ba279e-3618-4c3e-8ef8-7bf663e81c55
+  - 6d308093-35ae-492f-a487-d7891b8fe4a4
+  - fc57fab1-61ab-4563-ad62-8e48df2aca23
+secondary_material_types: []
+opentag_uuid: 647acf12-45ac-5219-89b3-4f12540ee3dc

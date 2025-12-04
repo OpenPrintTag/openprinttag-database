@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/550924d4aea4.png
+    type: gallery
+uuid: 7779731f-2c38-4cdb-9cca-dfa2c449c96b
+slug: petg-economy-clear
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Economy Clear
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The pro users choice: PETG Economy. It is our go-to filament for functional 3D printing without breaking the bank.  PETG Clear is the latest addition removing all color, but keeping the functionality and amazing neutral look for your professional looking prints!
+
+  With PETG Economy we offer a new standard in high quality PETG filament at an affordable price.  It is the choice for users looking for large volume printing of functional parts without breaking the bank.
+thumbnail_url: https://file.myfilamentlist.com/f/new/550924d4aea4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:53.583Z'
+updated_at: '2025-03-25T22:32:53.583Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 2026
+packages:
+  - 119be4af-21ad-4e33-98a8-c925c1a45278
+  - 1f1a74bb-c3b0-4935-84b7-5cc2eb50e656
+  - 3eb997df-3604-4f99-8fc3-43a52b540655
+  - 689c2d24-3fff-4a87-86ee-07eca851d17f
+  - 9f880823-2df4-4412-8ef5-00c7897da37e
+  - a40e5f77-e91b-4dfb-b4cb-281f080e5f00
+secondary_material_types: []
+opentag_uuid: 0084c270-324e-5451-a1ce-29d7da0de4b9

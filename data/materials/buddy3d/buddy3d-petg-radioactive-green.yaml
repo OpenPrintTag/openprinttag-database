@@ -1,0 +1,67 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.28000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 5cf622dd-d6c8-4f73-b039-9f69bce0c901
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: 41f2336f-c0ac-458e-93d1-35ae345071d1
+  sla_material_properties: null
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  heatbreak_temperature: null
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+  drying_temperature: null
+  drying_time: null
+  min_nozzle_diameter: null
+uuid: 29ed46a8-c660-4564-be50-1f1ff1fc0d24
+slug: petg-radioactive-green
+brand_slug: buddy3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Radioactive Green
+abbreviation: null
+url: https://www.prusa3d.com/product/buddy3d-petg-radioactive-green-1kg/
+primary_color: 70f1f0e7-07fc-4829-9749-c942d7e2042a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: Buddy3D is a high-quality brand that goes through our strict quality control. The Buddy3D filaments are made in the EU and properly certified. All filament spools have perfect winding, beautiful colors, and 0.04 mm precision. We pick the colors and materials that are not covered by Prusament and that are hard to be found anywhere else.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 262d3f01-30f6-46b3-8956-48722455a17a
+created_at: '2025-09-24T07:47:43.116Z'
+updated_at: '2025-09-24T07:47:43.116Z'
+brand: 8ab66d4f-f3a8-43a8-947f-e6357cdc1abe
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 8947
+packages:
+  - 5dd86d85-6612-49be-ad9f-b1b86a0446d7
+secondary_material_types: []
+opentag_uuid: 0b12313e-2783-57dd-a4b7-faa4a207bac7

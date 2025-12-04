@@ -1,0 +1,80 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a0471a22-1df9-469c-a484-ff508ee347f9
+  hardness_shore_a: null
+  hardness_shore_d: 60
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b73c4c71-0a7a-45b4-a62e-20e7a1450c3c
+slug: tpu-hard-white
+brand_slug: devil-design
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU HARD WHITE
+abbreviation: null
+url: https://www.smart3d.cz/en/p/filament-devil-design-tpu-hard-white-1-75-mm-1-kg#
+primary_color: e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Struna pro 3D tisk polského výrobce Devil Design.
+
+  V kartonové krabici najdete materiál vakuově zabalený spolu se silikagelem na pohlcování vlhkosti a dále je přibalena kartička s podoručenými teplotami pro extruder a bed. Krabice s cívkou váží cca 1,4kg
+
+  Struna je namotána na čiré cívce o vnějším průměru 220mm, šířce 70mm a středovém otvoru 52mm.
+
+  Průměr struny 1,75mm ( s tolerancí +/- 0,05mm )
+
+  Popis materiálu:
+
+  Tvrdost : SHORE 60D
+
+  POZOR - u tohoto materiálu uvádí výrobce tvrdost na stupnici SHORE D - konkrétně 60D je po převodu na běžněji ve světě 3D tisku používanou stupnici SHORE A někde okolo 100. Jedná se tedy o spíše tvrdý flex materiál. viz. přiložená "Převodní tabulka mezi tvrdostmi SHORE" ( převzatá z www.merenitvrdosti.cz )
+
+  Flex je pružný a pevný materiál, z kategorie pružných materiálů má největší pevnost a je nejméně pružný. Díky své vyšší pevnosti se hodí pro tisk silentbloků, na které může působit i větší zatížení, zároveň dobře odolává dynamickým nárazům. Ideálně se tento materiál hodí pro tisk objektů s jednodušší geometrií, jako jsou například kryty na telefon nebo jednoduché tlumící prvky.
+
+
+  Použití:
+  Tisk deformovatelných objektů s paměťovým efektem
+  Tisk prvků tlumících nárazy-silentbloky, kryty na telefony
+
+  Výpis hlavních vlastností:
+  Elastický materiál
+  Odolný při dynamickém namáhání
+  Tvarová paměť
+  Malé smršťování při chladnutí- Není nezbytná vyhřívaná podložka nebo komora
+thumbnail_url: https://file.myfilamentlist.com/new/b73c4c71-0a7a-45b4-a62e-20e7a1450c3c.png
+deleted_at: null
+deleted_by: bc841998-cafb-40f0-914a-40d126840c00
+created_at: '2025-11-10T17:44:06.661Z'
+updated_at: '2025-11-10T17:44:06.661Z'
+brand: f1c99216-fa1a-4728-9fb6-72c5a3f8eb51
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 4fbb722e-a8f7-40ca-948a-a808fce788d3
+secondary_material_types: []
+opentag_uuid: 156df7c7-8277-50c8-b2fc-64631e1d177d

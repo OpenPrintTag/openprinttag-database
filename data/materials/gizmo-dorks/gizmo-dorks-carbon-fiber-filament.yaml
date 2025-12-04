@@ -1,0 +1,68 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/49cd32b32d19.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 2d567216-72a2-43e5-8478-ca68a1833dcb
+slug: carbon-fiber-filament
+brand_slug: gizmo-dorks
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Carbon Fiber Filament
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Carbon Fiber Filament
+
+  The Gizmo Dorks carbon fiber filament is a new blend designed specifically for yielding high quality strong parts. The base material of ABS is blended with approximately 20% of high modulus carbon fiber. The addition of carbon fiber into ABS adds increased stiffness and much improved dimensional stability. The light weight carbon fiber is an easy print producing an excellent surface quality finish.
+  Printing Specifications
+
+      Extrusion Temperature: 200 - 220degreesC
+      Bed temperature: 100 - 120degreesC
+      Speed: 50 - 80 mm/s
+      Recommended nozzle size: At least 0.5 mm
+      Wall thickness: 0.8 mm
+      Layer thickness: 0.1 mm
+      Bed preparation: Kapton Tape and/or ABS juice slurry
+thumbnail_url: https://file.myfilamentlist.com/f/new/49cd32b32d19.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:18.416Z'
+updated_at: '2025-03-25T22:31:18.416Z'
+brand: 376091fc-89df-4818-ac2d-1baa009735e6
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 418
+packages:
+  - 300097be-8717-46aa-85a9-4c9a077f0f90
+  - 81fb5338-d823-4bd7-a40b-35c3b234a3cf
+secondary_material_types: []
+opentag_uuid: bb2fd062-8d4e-5afa-b52f-fe988bd3d3c5

@@ -1,0 +1,73 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/ac07a86426f5.png
+    type: gallery
+uuid: 25d03865-4f9b-4f9a-9a07-336f19897fb4
+slug: petg-black-4
+brand_slug: push-plastic
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PETG (Polyethylene Terephthalate Glycol Comonomer) 3D Printing Filament
+
+  Benefits of this material include:
+
+      Great impact resistance
+      Natural color is very clear
+      Excellent chemical resistance for a clear plastic
+      Much stronger and heat resistant than both ABS/PLA
+
+  PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.
+
+  Manufactured in the USA from 100% virgin resin and then spooled onto 1kg reels, then the filament is then vacuum-sealed with desiccant.  
+thumbnail_url: https://file.myfilamentlist.com/f/new/ac07a86426f5.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-30T12:16:40.022Z'
+updated_at: '2025-04-30T12:16:40.022Z'
+brand: 8fe3b3d7-2e19-45f3-b0ce-f0514b82379d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7362
+packages:
+  - 071c1bde-3b7f-4ded-9cd9-f90d2ab3a3d4
+  - 1a3275f2-22bf-4f16-875d-b24df061b7e3
+  - 3c7f2f7a-2c6f-4573-8ab4-aa125ea88ba3
+  - 4fde4f76-a2ed-4824-ab30-dbcfb8377364
+  - 5648b1b5-a030-47c4-9433-59a57318f764
+  - 628ed808-e893-40d1-9bff-bd024061b01f
+  - 7707705d-cd98-49ff-9bfa-b4242bb171e6
+  - 910e3328-1c77-4918-8001-5c6bcee6529d
+  - bb75c10b-ef7f-446b-8061-204bde3c7150
+  - befefed0-b0cb-47ce-be15-4e1d1a85b1f1
+secondary_material_types: []
+opentag_uuid: bcb5af25-a994-5fb5-a1c9-bbd6beebe449

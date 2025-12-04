@@ -1,0 +1,70 @@
+tags:
+  - df5d80f1-cc07-4db1-aef7-19a2fd78d288
+  - 45794af3-8cee-4323-a6c5-40a45fa83008
+uuid: 1f0d0414-ffa5-4307-993f-b4fbcb05e197
+slug: iglide-a350-pf
+brand_slug: igus
+brand_specific_id: null
+class: FFF
+type_id: null
+name: iglide® A350-PF
+abbreviation: iglide® A350-PF
+url: https://www.igus.com/product/iglidur_A350_PF
+primary_color: cac47c60-01a3-4ed7-8c03-428fcd362d8f
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  The food conformity declarations and data sheets for the iglide® A350 can be found in the download area.
+
+  Food-safe high-temperature filament, FDA-compliant
+
+  iglide A350 is an abrasion-resistant, high-temperature filament developed for the food and packaging industry. As such, the raw material is compliant with EU 10/2011 and FDA food contact regulations and has the industry standard blue color. It is temperature-resistant up to 180 °C, fire-retardant according to UL94-V0 and can be sterilized with super-heated steam. Due to its high processing temperature of 340 – 360 °C and a compulsory installation temperature of min. 160 °C, a high-temperature 3D printer is required for processing.
+  The filament is very sensitive to moisture and should be stored in a drying container and actively dried regularly. iglide A350 is available as injection molding material, bar stock and 3D printing material.
+
+  Tip: iglide A350 complies with the fire prevention requirements of the Federal Aviation Administration of the USA (FAA) for aircraft interiors.
+
+  When to use it?
+
+      For applications in the food industry with high application temperatures of up to 180°C
+      From prototype to volume production: iglide A350 is available as 3D printing filament, bar stock, and injection molding material
+
+  When not to use it?
+
+      When high wear resistance at high temperature loads is required
+      If, in addition to high application temperatures, high strength is also required, or complex parts are to be produced (→ iglide RW370)
+      If your existing 3D printer does not have a build chamber heater (→ iglide i151)
+thumbnail_url: https://file.myfilamentlist.com/new/1f0d0414-ffa5-4307-993f-b4fbcb05e197.png
+deleted_at: null
+deleted_by: 86ebe8d6-8ea1-49a9-9984-2e0ed961223c
+created_at: '2025-11-13T16:51:00.587Z'
+updated_at: '2025-11-13T16:51:00.587Z'
+brand: 2edf9afe-5dfa-4e19-87af-8bec2ec283de
+type: null
+colors: []
+packages:
+  - 466dbb2f-578b-4a09-9b75-49cfa813c982
+secondary_material_types: []
+opentag_uuid: 50f1eb67-0f44-5559-b846-c1cd5ce9e7f9

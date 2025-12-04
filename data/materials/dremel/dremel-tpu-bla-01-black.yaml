@@ -1,0 +1,58 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/7b4c5345e890.jpg
+    type: gallery
+uuid: de92bc49-1a20-4827-b38d-a2caa5a0bc3a
+slug: tpu-bla-01-black
+brand_slug: dremel
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU-BLA-01 Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2
+
+      TESTED for improved print quality, reliability and longer filament shelf life
+      DREMEL DIGILAB TPU FILAMENT - is a thermoplastic that combines flexibility, strength and durability
+      RFID ENABLED material detection sets optimized print settings for Dremel DigiLab 3D45 3D printer
+      FITS PERFECTLY inside Dremel 3D45 and compatible with other manufacturers. Prints at 210*C nozzle temperature
+      BEST USAGE for 3D prints that need flexibility, shock absorption and durability
+thumbnail_url: https://file.myfilamentlist.com/f/new/7b4c5345e890.jpg
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:19.898Z'
+updated_at: '2025-03-25T22:36:19.898Z'
+brand: b948b2a9-2cad-4f4a-943d-f42dab64be76
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5120
+packages:
+  - af7c19a2-e262-4904-9191-b87b2a44b668
+secondary_material_types: []
+opentag_uuid: 6b70db08-210e-57a8-b862-00f88278ce38

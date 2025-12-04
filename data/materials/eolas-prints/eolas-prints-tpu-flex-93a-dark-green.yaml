@@ -1,0 +1,63 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.21000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c9fc4377-6b7c-4b04-8686-cd56d83404ba
+  hardness_shore_a: 93
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: b98aae9b-6563-4b73-b8e0-02224cc2fe4c
+slug: tpu-flex-93a-dark-green
+brand_slug: eolas-prints
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU Flex 93A Dark Green
+abbreviation: null
+url: https://eolasprints.com/en-cz/products/tpu-filament?variant=42329778684163
+primary_color: 04dc8526-bb0a-46e8-99e8-c0e9b95add2a
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  TPU Flex 93A combines exceptional flexibility with professional-grade durability in a food-safe formulation. This premium thermoplastic polyurethane filament delivers the perfect balance of elasticity and strength, with a carefully calibrated 93A Shore hardness that ensures optimal performance across diverse applications.
+  Technical Specifications
+
+      Material Composition: Medical-grade thermoplastic polyurethane
+      Shore Hardness: 93A (medium-soft flexibility)
+      Available Diameters: 1.75mm and 2.85mm
+      Certifications: Food contact safe
+      Environmental Profile: Recyclable
+thumbnail_url: https://file.myfilamentlist.com/new/b98aae9b-6563-4b73-b8e0-02224cc2fe4c.png
+deleted_at: null
+deleted_by: 08b34f85-2c54-4838-be9d-1263aeee69ad
+created_at: '2025-11-11T09:52:16.218Z'
+updated_at: '2025-11-11T09:52:16.218Z'
+brand: fbadeada-44b4-4854-86a4-a1b1498ac2af
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 84a33256-135b-4cf6-bc04-3c6e37692373
+  - f622bc95-fb69-414a-8b1b-1e2d036c703e
+secondary_material_types: []
+opentag_uuid: 338a103f-91e6-53f4-9eab-61e06921212a

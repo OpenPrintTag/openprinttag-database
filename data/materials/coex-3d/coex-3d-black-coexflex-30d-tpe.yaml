@@ -1,0 +1,60 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1bf909f36b0e.png
+    type: gallery
+uuid: ab5aefc7-1bd8-437e-936a-c90489f87793
+slug: black-coexflex-30d-tpe
+brand_slug: coex-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Black CoexFlex™ 30D TPE
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  CoexFlexTM 30D TPE is our second most flexible filament in the CoexFlexTM product line.  With great layer adhesion and soft nature, it can be used to create very durable and flexible prints. CoexFlexTM 30D TPE is a TPC (Thermoplastic Copolyester Elastomer), which exception temperature resistance, abrasion resistance, and tensile strength. 
+
+      Excellent layer adhesion
+      Great durability
+      Wide range of hardness options (60A, 30D, 40D, 60D)
+thumbnail_url: https://file.myfilamentlist.com/f/new/1bf909f36b0e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-29T10:53:43.522Z'
+updated_at: '2025-04-29T10:53:59.209Z'
+brand: 68f4f75c-636b-4da4-a6f2-a2950604cd0c
+type: 5beec594-21be-49e1-bbb8-9967cce685fc
+colors:
+  - 7229
+packages:
+  - 0cd32eb4-049f-4b3b-8b84-8a25cf392ae2
+  - 3bb3c14e-3171-44ed-bc4d-91b42ed3b49c
+  - 8b5efcf1-1f9f-46e9-82ec-a021783423c3
+  - a2986d06-1573-4526-b516-41a3dd8aad14
+secondary_material_types: []
+opentag_uuid: 22c32337-3e61-5780-9058-05eaef3db580

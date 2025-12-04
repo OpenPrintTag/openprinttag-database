@@ -1,0 +1,77 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/a8f8e84c5380.png
+    type: gallery
+tags:
+  - e272b26b-5e84-4a88-932e-feb2087bbd5c
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: e5e512cb-5313-4760-877f-17e0192106d8
+slug: volcano-pla
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Volcano PLA
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  Volcano PLA is an industrial grade PLA type of 3D printer filament that is engineered for high 3D printing speeds, high heat resistance, high impact strength, and mechanical properties similar to ABS.
+
+  Unique features
+
+      High heat resistance of ≥ 95° C after annealing
+      Less than 0.3% shrinkage after annealing
+      Roughly 8 times less shrinkage compared to competitor materials available on the market
+      Engineered to have excellent dimensional accuracy before and after annealing
+      Engineered for high printing speeds of > 120mm/s
+      Highly crystalline immediately after extruding resulting in increased stiffness and temperature resistance
+      Superb mechanical properties comparable to ABS
+      Excellent interlayer adhesion
+      Biodegradable
+      Matte surface finish
+thumbnail_url: https://file.myfilamentlist.com/f/new/a8f8e84c5380.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:42.664Z'
+updated_at: '2025-03-25T22:36:42.664Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 5521
+packages:
+  - 08f75e7b-cad6-4950-8dcb-7f362025a706
+  - 0b51e2d6-c813-4bcd-8d7a-4dd9953bb733
+  - 0c185c01-4b02-472b-bdc5-5a6977fb7718
+  - 1a47a00a-5922-41e4-9a66-19aabe21e6c8
+  - 3a8d326a-66b7-4668-8f63-c11035b7548e
+  - 572170c1-4af7-4f73-9410-3ce217545a27
+  - a3c9576d-91a8-4301-b116-41b911818da9
+  - f877858c-0783-4594-a75d-c420f6d06116
+  - f8e524f1-5e21-4d2f-aa76-cfb6a57d1ccd
+  - f8e5b258-97a7-42ea-9bbd-7faa7681cc1d
+secondary_material_types: []
+opentag_uuid: ef7db10c-34a9-523d-9c90-fe51536bed3e

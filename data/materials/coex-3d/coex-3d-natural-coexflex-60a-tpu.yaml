@@ -1,0 +1,56 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/af7807bbec6e.png
+    type: gallery
+uuid: eea34539-a72c-45a0-80a4-f0a9baa1e5bb
+slug: natural-coexflex-60a-tpu
+brand_slug: coex-3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Natural CoexFlex™ 60A TPU
+abbreviation: null
+url: null
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  **60A is very soft and can be challenging to print with.  We recommend a direct drive extruder with a contained filament path (it will squeeze out any gap it can) and a PTFE-lined hot end (it tends to stick to the walls of an all-metal hot end). Seasoning an all-metal hot-end may help.**
+
+  CoexFlexTM 60A TPU is, by far, the most flexible filament on the market. At Shore 60A, it is much softer than Ninjaflex or Filaflex, feels like a rubber band, and produces finished parts that are completely flexible no matter what infill density you use. Highly functional for applications that require stretch, flexibility, or compliance. (NOTE: Only printable with select printers capable of printing this durometer of filament. A direct drive extruder is required.)
+thumbnail_url: https://file.myfilamentlist.com/f/new/af7807bbec6e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-29T11:19:20.938Z'
+updated_at: '2025-04-29T11:19:20.938Z'
+brand: 68f4f75c-636b-4da4-a6f2-a2950604cd0c
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 7235
+packages:
+  - 16f3c63e-764c-4e8a-aee5-345ee50fca6b
+  - c921ebe7-15fa-4a86-8c3e-d21cd84265d1
+secondary_material_types: []
+opentag_uuid: ca0a23b0-4b60-5ab2-a266-5e3009f1b172

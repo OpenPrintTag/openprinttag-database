@@ -1,0 +1,80 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 07e5cd73-295c-4d20-93e7-145ab264c29b
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+uuid: c0a09c9a-9fb1-4b6e-82eb-f4abc04d4daa
+slug: pla-plus-white-aluminum
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Plus White Aluminum
+abbreviation: PLA Plus
+url: https://www.filamentree.eu/shop/30110141-pla-plus-white-aluminum-1kg-4592?category=59#attr=228,2844,229,230,3527,2846,2847,2848,231
+primary_color: 96b97c1c-d766-4428-9e76-98d50146edbb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA Plus White Aluminum is a cutting-edge filament that merges the robustness of PLA Plus with a sleek, metallic-white finish reminiscent of polished aluminum. Designed for creators who value precision and aesthetics, this filament delivers prints with a modern, industrial-chic appearance and enhanced durability. Perfect for functional prototypes, decorative designs, or professional-grade models, it ensures your projects stand out with a refined, frosty metallic glow.
+
+  Key Benefits:
+
+      Metallic-White Elegance: The subtle aluminum-like sheen adds a sophisticated, contemporary edge to prints, ideal for projects demanding minimalist or high-tech aesthetics.
+      Superior Strength & Durability: PLA Plus offers improved impact resistance and toughness compared to standard PLA, making it suitable for parts exposed to stress or frequent handling.
+      Effortless Printing Performance: Low warping, excellent layer adhesion, and compatibility with most 3D printers ensure smooth, reliable results for all skill levels.
+      Eco-Friendly Formula: Made from biodegradable, non-toxic materials, supporting sustainable 3D printing without compromising quality.
+
+  Applications:
+
+      Tech & Automotive Parts: Create sleek housings, drone components, or custom car accessories with a futuristic metallic finish.
+      Home Décor & Furniture: Craft modern vases, lamps, or minimalist décor that blends industrial style with functionality.
+      Functional Prototypes: Ideal for engineering models, tool handles, or mechanical parts requiring a professional, polished look.
+      Architectural Models: Highlight structural details in scale buildings or urban designs with a crisp, metallic-white surface.
+      Cosplay & Props: Design sci-fi armor, robotic elements, or futuristic gadgets with an authentic metallic appearance.
+
+  Ideal For:
+
+      Projects where a modern, industrial aesthetic is essential.
+      Durable prints that balance visual appeal with mechanical reliability.
+      Innovators seeking eco-friendly materials with premium performance.
+      Enhancing prototypes, displays, or consumer products with a high-end metallic finish.
+
+  PLA Plus White Aluminum is the go-to choice for creators aiming to fuse cutting-edge design with unwavering durability. Elevate your 3D prints with a filament that turns concepts into sleek, metallic reality!
+thumbnail_url: https://file.myfilamentlist.com/new/c0a09c9a-9fb1-4b6e-82eb-f4abc04d4daa.png
+deleted_at: null
+deleted_by: f1806b44-95a5-408d-9ab4-5a8d6232a44c
+created_at: '2025-12-01T10:07:29.620Z'
+updated_at: '2025-12-01T10:07:29.620Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - e51722e8-35ff-44a3-90d3-ceec80fce69b
+secondary_material_types: []
+opentag_uuid: 0428a508-8883-5f40-8f65-a1d4e088155f

@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2b0e3a561798.png
+    type: gallery
+uuid: 1614dc85-601e-4b8c-bbb4-14e23f82fb1f
+slug: varioshore-tpu-green
+brand_slug: colorfabb
+brand_specific_id: null
+class: FFF
+type_id: null
+name: varioShore TPU Green
+abbreviation: null
+url: null
+primary_color: a3665155-6618-4a91-9e08-381c8d4cf79c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  We have taken TPU... and made it special by using the same foaming technology we debuted with LW-PLA. Our varioShore TPU has a few main distinctive features: its variable shore hardness, reduced weight and density and soft touch. varioShore TPU allows users to vary the density of the material by adjusting temperature and material throughput (speed & layerheight). At temperatures between 200 and 250C the materials will start to expand to roughly 1.4-1.6 times its original volume, which reduces the density to 0.7 to 0.9 g/cm3. This means the material can be printed at low flow rates (60-70%), to compensate the active foaming, which in return gives very soft printed parts. Between 190-200C the material can be printed without foaming, resulting in different haptics and harder prints compared to foamed samples.
+
+  From shore hardness 92A(unfoamed) to shore 55A (maximum foamed).
+
+  Developed in co-operation with Lubrizol, varioShore TPU is a material ideally suited for printing cosplay parts for instance.
+
+  Please note that color variations may occur. Color will turn lighter when material is at maximum foamed state as opposed to non-foamed state which shows a deeper and richer color.
+
+
+      Light Weight
+      Soft Touch
+      Prosthetics
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/2b0e3a561798.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:36:41.080Z'
+updated_at: '2025-03-25T22:36:41.080Z'
+brand: f3601dbf-c762-47f0-b86f-ffbd8c2d74b6
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 5167
+packages:
+  - 1f80cc44-5b01-4b1f-9145-7a2f2541695a
+  - 61a2e11c-58ca-486e-ba08-2576d76c8d2e
+secondary_material_types: []
+opentag_uuid: 8895ec54-14da-5ff6-a5eb-50e81b4ffdcf

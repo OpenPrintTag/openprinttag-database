@@ -1,0 +1,81 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: ce967f4d-dca6-47bb-b9cd-02b09546c155
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+uuid: f7f6f532-8af1-4207-939e-b50509bed392
+slug: pla-cf-black-5
+brand_slug: filamentree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA-CF Black
+abbreviation: null
+url: https://www.filamentree.eu/shop/30710471-pla-cf-black-1kg-5060?category=62#attr=761,2924,762,763,2923,2925,2928,2926,2927
+primary_color: 9926c9ca-7cee-428a-a704-3295c84f22ad
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  PLA-CF Black combines the ease of printing with PLA and the exceptional strength of carbon fiber, creating a lightweight yet ultra-durable filament for demanding applications. Designed for engineers, makers, and professionals, this carbon fiber-reinforced PLA delivers unmatched rigidity, dimensional stability, and a sleek matte-black finish, perfect for high-performance parts that require precision and resilience.
+
+  Key Benefits:
+
+      Carbon Fiber Reinforcement: 20% carbon fiber infusion boosts stiffness, reduces flex, and enhances wear resistance, ideal for structural components and functional prototypes.
+      Lightweight & Strong: Maintains PLA’s ease of use while offering near-ABS-level strength, perfect for weight-sensitive applications like drones, automotive parts, or robotics.
+      Matte Black Professional Finish: The refined, non-reflective surface adds a stealthy, industrial aesthetic to prints, suitable for professional or consumer-facing products.
+      Dimensional Stability: Minimal warping and superior layer adhesion ensure precise, repeatable prints even for complex geometries.
+      Abrasion Resistance: Withstands friction and mechanical stress, making it ideal for gears, bearings, or moving parts.
+
+  Applications:
+
+      Engineering & Robotics: Durable brackets, motor mounts, or robotic arms requiring stiffness and low weight.
+      Automotive & Aerospace: Lightweight interior components, drone frames, or UAV parts demanding strength-to-weight ratios.
+      Industrial Tooling: Jigs, fixtures, or custom tools that need rigidity and longevity.
+      Consumer Products: High-end tech accessories, camera gear, or sports equipment with a premium finish.
+      Prototyping: Functional prototypes that mimic the performance of production-grade materials.
+
+  Ideal For:
+
+      Engineers and designers prioritizing strength, stiffness, and lightweight performance.
+      Applications where traditional PLA lacks durability, but metal or ABS is impractical.
+      Users seeking a professional, matte-black finish for industrial or consumer products.
+      High-stress environments requiring abrasion resistance and dimensional accuracy.
+
+  PLA-CF Black redefines the limits of desktop 3D printing, merging the accessibility of PLA with the elite performance of carbon fiber. Elevate your projects with a filament built for innovation and endurance. 
+thumbnail_url: https://file.myfilamentlist.com/new/f7f6f532-8af1-4207-939e-b50509bed392.png
+deleted_at: null
+deleted_by: adab8194-cc8e-4cea-80e2-a48ccf04296b
+created_at: '2025-12-01T12:13:06.619Z'
+updated_at: '2025-12-01T12:13:06.619Z'
+brand: 26b63419-fdf4-4b72-89d0-8cb00e813c80
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 8cba0dd5-40df-4e94-8c09-a8088b9fe875
+secondary_material_types: []
+opentag_uuid: c3a955e2-1311-5062-b1b1-62dafded0037

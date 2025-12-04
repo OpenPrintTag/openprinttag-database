@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/2c9b16a5df95.png
+    type: gallery
+tags:
+  - 0019bccd-81c6-4ec0-8988-6b1f44bddf7d
+uuid: 69c06e1d-0604-449b-a7ad-308eeb4eb037
+slug: fiberon-petg-esd-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Fiberon™ PETG-ESD Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Fiberon™ PETG-ESD offers electrostatic discharge (ESD) safety with improved toughness making it a good candidate for applications in electronics industry. 
+
+  (Formerly PolyMax™ PETG-ESD)
+
+  NOTE:  Fiberon™ PETG-ESD is compounded with carbon nano-tubes
+
+
+  -  Printing Requirements
+
+      All-metal hotend 250˚C+ recommended
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/2c9b16a5df95.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:37.885Z'
+updated_at: '2025-03-25T22:31:37.885Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 742
+packages:
+  - 35f07689-6338-4ead-90f5-e20a5dd6c89b
+  - e4977695-a413-432a-84bf-abd88a3c99be
+secondary_material_types: []
+opentag_uuid: 59d82989-d5af-507b-b689-679d4060b13c

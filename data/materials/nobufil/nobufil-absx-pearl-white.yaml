@@ -1,0 +1,82 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8e2c92dc3029.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: 9c9fb6c2-e4ee-4df6-b5d7-3cb3ec6ad846
+slug: absx-pearl-white
+brand_slug: nobufil
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ABSx Pearl White
+abbreviation: null
+url: null
+primary_color: 95e881ff-5692-4670-9cdb-90a55b7e23e5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nobufil's ABS filament is made from recycled plastics. This is production waste that is generated during industrial processing. Through special modification, this material tends to significantly less warping and has a reduced odor formation in contrast to filaments made from conventional ABS. This means that it can also be processed on printers with an open installation space.
+
+   
+
+  The physical properties of Nobufil ABSx include high tensile strength and stiffness. It also exhibits good heat and chemical resistance. Printed parts can be easily reworked afterwards. This makes this material particularly suitable for the production of prototypes, models and small series of technical parts.
+
+   
+
+  - Temperature resistance up to approx. 90degreesC
+
+  - Wide range of colors due to low inherent color
+
+  - Easy to print, even with an open installation space
+
+  - Low odor development
+
+  - High detail accuracy even with complex geometries
+
+   
+
+  Print Settings
+
+  - Print temperature: 260degreesC  10
+
+  - Bed temp: 100degreesC  10
+
+  - Printing surface: textured PEI sheet
+
+  - Fan speed: max 15%
+thumbnail_url: https://file.myfilamentlist.com/f/new/8e2c92dc3029.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-26T21:11:48.057Z'
+updated_at: '2025-03-26T21:11:48.057Z'
+brand: 2628eb85-2bed-43a5-91a3-1d2bd796950a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 6120
+packages:
+  - d992cdaa-155a-4f8b-8391-adcafad0f9b8
+secondary_material_types: []
+opentag_uuid: 192de738-370c-5eed-94b0-1def43b31182

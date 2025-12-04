@@ -1,0 +1,67 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0de54a5fd50e.png
+    type: gallery
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: ce1531a4-af38-468e-924d-316a43312636
+slug: pla-basic-transparent
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Basic transparent
+abbreviation: null
+url: null
+primary_color: 51a09628-4651-41cf-b737-8460eb45fc86
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  PLA is a bio-based material and is one of the most commonly used polymer for 3D printing. It is ideal for a wide range of applications, including prototyping, architecture, modelling and DIY projects. The raw material is approved according to REACH, RoHS and FDA standards. Due to its low melting temperature, PLA Basic is very easy to print and enables the production of impressive end products with a glossy surface. High-speed printing up to 350 mm/s is possible with the material.
+
+      Excellent price-performance ratio
+      Wide range of colours
+      Easy to process
+      Very high print quality
+      Made from renewable raw materials
+      Biodegradable (EN 13432)
+thumbnail_url: https://file.myfilamentlist.com/f/new/0de54a5fd50e.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-27T12:35:59.933Z'
+updated_at: '2025-03-27T12:35:59.933Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3590
+packages:
+  - 30b2c932-2401-4662-9aaa-1aba2e97a55d
+  - 6ae94102-2a28-4a19-aeeb-2dd74e7fdf9d
+  - a256ea74-04f5-4984-ba61-923f9e42a7c0
+  - cfde3a94-7c19-4ba0-8077-c9cd497a0411
+  - d5b77c58-1545-4d46-8f38-6c8db1a5874d
+  - e365372d-a6a2-46df-8e66-dff7f700f050
+secondary_material_types: []
+opentag_uuid: 241d355d-ac96-5400-913b-51c8321d6fab

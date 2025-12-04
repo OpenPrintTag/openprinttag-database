@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/9f31226bac3d.png
+    type: gallery
+uuid: 5218dea0-db7b-441a-b939-4053f2fdd343
+slug: polylite-petg-silver
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: 'PolyLite™ PETG Silver '
+abbreviation: null
+url: null
+primary_color: dc09b020-2315-43d6-9b85-16b8dc7d9768
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  PolyLite™ PETG is an affordable PETG filament with balanced mechanical properties and ease of printing.
+
+
+  -  Printing Requirements
+
+  None! This will print great on any stock 3D printer!
+
+  You will just want to print slower on stock, older style printers.
+thumbnail_url: https://file.myfilamentlist.com/f/new/9f31226bac3d.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:40.254Z'
+updated_at: '2025-03-25T22:34:40.254Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 3199
+packages:
+  - 34d8b191-5c39-48e4-80b2-53832da60ab0
+  - 46565b9e-ad6a-4705-965c-d34fcab5d6c5
+  - 63606285-4f15-4851-abfa-782e3d1231ef
+  - e14d37aa-910d-4092-ab58-91324bdaca6d
+  - e99393f1-dd8c-4c8f-a555-c1df99215635
+  - f4e7d6eb-1f6c-4fc2-ba6a-83cc65e852c7
+secondary_material_types: []
+opentag_uuid: 5453335c-0457-5e19-af74-6fd7f597b6fe

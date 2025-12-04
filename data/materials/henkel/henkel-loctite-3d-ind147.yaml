@@ -1,0 +1,62 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.07000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 8b3042d4-5b7d-4198-b0ef-5a4a3d965f96
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: 787f2aa0-eff2-46a4-bf1b-133504e4af80
+uuid: 2440e273-ee5a-4ccc-9222-62c538514a48
+slug: loctite-3d-ind147
+brand_slug: henkel
+brand_specific_id: null
+class: SLA
+type_id: null
+name: LOCTITE 3D IND147
+abbreviation: null
+url: https://www.loctiteam.com/ind147-hdt230-tough-natural/
+primary_color: 03c035fe-9d97-44fd-9f18-6024c0bcd29e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  Tough resin designed for tooling and molding applications, due to its high temperature resistance withstanding up to 230°C and high stiffness.
+
+
+      High heat deflection temperature, HDT 230°C
+      Tough with good dimensional stability
+      Good surface finish
+thumbnail_url: null
+deleted_at: null
+deleted_by: 10c4255b-d386-4ffb-ad90-1366d2da7ef3
+created_at: '2025-10-03T16:27:15.135Z'
+updated_at: '2025-10-03T16:27:15.135Z'
+brand: 5927d694-01b2-4262-b272-970764723090
+type: bbe36018-f32e-48d2-827e-b0f86460fd59
+colors:
+  - 9488
+packages:
+  - 317b8f99-873c-48e1-9c62-78341c6ea4de
+  - e1d8d13b-bac1-4b7b-9882-accfe2cd2501
+secondary_material_types: []
+opentag_uuid: 511fe83c-3749-5a98-9157-404a86cab67f

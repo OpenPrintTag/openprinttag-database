@@ -1,0 +1,65 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f1c532f9d16f.png
+    type: gallery
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 2e5b671e-86c5-4022-8142-1fec0f4e4e89
+slug: fiberon-pet-cf17-black
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Fiberon™ PET-CF17 Black
+abbreviation: null
+url: null
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Fiberon™ PET-CF17 is a carbon fiber reinforced PET (polyethylene terephthalate) filament. It's the preferred choice for engineering 3D printing composite materials, featuring high modulus, heat resistance, moisture insensitivity, and ease of printing.
+
+
+  -  Printing Requirements
+
+      All-metal hotend 270˚C+
+      Hardened nozzle
+      Annealing post printing
+      You may need a filament dryer depending on the humidity of your environment. Keep dry when not in use. 
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/f1c532f9d16f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:37.838Z'
+updated_at: '2025-03-25T22:31:37.838Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: ee4ab23e-cec2-43fb-ab6a-89844fd604d8
+colors:
+  - 1089
+packages:
+  - 31faa8f7-98b6-43b8-bb01-aade66916745
+  - 7211d892-c673-41b5-8b29-f46091604ae0
+secondary_material_types: []
+opentag_uuid: d1695a8a-9888-5fcd-a244-2b8d618573e7

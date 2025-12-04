@@ -1,0 +1,74 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 3e8167ec-634e-4035-be7f-9c9d0a1e9d4a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 3fffd531-5633-4691-8d6a-0032c4223c8f
+slug: pla-hd-canary-yellow
+brand_slug: winkle
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA HD Canary Yellow
+abbreviation: null
+url: https://winkle.shop/producto/filamento-pla-hd-winkle-175-mm-1-kg-amarillo-canario/
+primary_color: f4789708-80aa-415e-a9c8-a8c1008790b5
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  Precision, strength, and a wide range of unique colors to bring your ideas to life.
+  PLA HD Filament offers great versatility for your 3D printing projects. This 1.75 mm filament is ideal for creating functional parts, 3D prototypes, detailed models, and figures with flawless finishes.
+
+  Available in 300 g, 1 kg, and 5 kg spools, it is perfect for both hobbyists and professionals seeking top performance.
+
+  At Winkle, our PLA HD filament is made with 96% stereochemical purity, ensuring stable, durable, and deformation-free prints. Its 45 MPa tensile strength, low moisture content, and melting temperature of 155 °C make it a safe and efficient choice.
+
+  Applications for 1.75 mm PLA HD Filament:
+
+  Industrial and functional prototypes
+
+  Decorative parts with high detail
+
+  Educational and architectural models
+
+  Custom accessories and practical gadgets
+
+  Small batch production and everyday-use durable objects
+thumbnail_url: https://file.myfilamentlist.com/new/3fffd531-5633-4691-8d6a-0032c4223c8f.png
+deleted_at: null
+deleted_by: 33d47980-d88d-4bcd-a70d-74aae4f15787
+created_at: '2025-11-21T13:12:54.268Z'
+updated_at: '2025-11-21T13:12:54.268Z'
+brand: a72d9990-bc2f-43a1-92cc-33a1f79e1aa5
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 35104f93-925c-4034-b83f-584ea7655594
+  - 9ca5acdb-86b9-4372-a62b-053452f9cf2b
+  - ba159fda-299a-4f79-b184-2868ab248ea7
+secondary_material_types: []
+opentag_uuid: 9b6e62b3-4c6d-5a78-b070-a4093f707e45

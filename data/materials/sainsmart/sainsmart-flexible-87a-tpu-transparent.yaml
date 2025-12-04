@@ -1,0 +1,66 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 360cd8c9-1cad-4e79-b3ca-f87b8d387636
+  hardness_shore_a: 87
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 5c13e982-02da-4733-bae4-e1d2add66947
+slug: flexible-87a-tpu-transparent
+brand_slug: sainsmart
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Flexible 87A TPU Transparent
+abbreviation: null
+url: https://www.sainsmart.com/products/sainsmart-87a-tpu-filament-1-75mm-1kg-transparent?_pos=7&_fid=0b0f09340&_ss=c
+primary_color: 24ba2cef-4188-405b-b707-94296d02c914
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Flexible and Soft: Specially formulated plastic with increased amount of flexibility, with rigid structure. Recommended for printing objects, which will be impacted more than normal ones. 1.75mm diameter,  87A hardness, 1.12 Density(g/cm3).
+
+  TPU (Thermoplastic Polyurethane) is a subclass of thermoplastics which prints strong parts that are also flexible
+
+  Suitable for Direct Extruder The flexible material needs to direct extruder feeding, and there is no gap between the wire feed roller and the extruder, otherwise the flexible material will curl and get stuck between the two, resulting in poor feeding.
+
+  Premium TPU Filament: TPU (Thermoplastic Polyurethane) is a subclass of thermoplastics which prints strong parts that are also flexible. It has high transparency, high mechanical strength, and good properties.
+
+  Impact resistance & wide applicability: Great perfomance in waterproof, cold and UV resistance, good for industrial production, medical applications, industrial arts, personal DIY, etc.
+thumbnail_url: null
+deleted_at: null
+deleted_by: ba500704-6e2c-44a5-88b9-fb1f11c46cc5
+created_at: '2025-09-26T14:15:45.268Z'
+updated_at: '2025-09-26T14:15:45.268Z'
+brand: 51076b2d-f044-4d47-ab56-bbdafd712bfd
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 9178
+packages:
+  - 053cf8a7-09e9-499b-891f-f8500a39a1b6
+secondary_material_types: []
+opentag_uuid: 5a3c5020-d728-5d67-bfe9-560e106e1855

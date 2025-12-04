@@ -1,0 +1,61 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/1a3942e16bd0.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: de06be20-5166-46af-a2a8-e91831ad6819
+slug: abs-sparkling-jungle
+brand_slug: filamentpm
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' ABS - Sparkling Jungle '
+abbreviation: null
+url: null
+primary_color: c59d6aee-d3ca-45ea-b387-17550a7d30bf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  ABS (akrylonitrilbutadienstyren)
+  - more suitable for advanced makers
+  - for both small and large prints
+  - strong and tough material with a high surface hardness
+  - impact and heat resistant (up to 90 degreesC)
+  - acetone-soluble (easy post-processing)
+  - typical smell
+  - thermal contracting (closed chamber recommended)
+thumbnail_url: https://file.myfilamentlist.com/f/new/1a3942e16bd0.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-04-23T10:57:53.151Z'
+updated_at: '2025-04-23T10:57:53.151Z'
+brand: 6bbc69fa-2d9f-470d-b4f5-50cd1623bb6a
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 7090
+packages:
+  - 1c7e6f72-a2d1-4022-8f60-5673159f516f
+secondary_material_types: []
+opentag_uuid: f45bde07-3baa-5082-ad8e-9671b3c1db5d

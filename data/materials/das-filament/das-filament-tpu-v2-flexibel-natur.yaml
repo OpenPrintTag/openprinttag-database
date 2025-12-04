@@ -1,0 +1,75 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 06f581d1-ff4f-4bb8-9559-e268c2cd795d
+  hardness_shore_a: 94
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 33b31bad-c83f-4fe1-be80-65f07c9e55c3
+uuid: 95e7b72f-768a-403f-add5-f2fc00811faa
+slug: tpu-v2-flexibel-natur
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU V2 (flexibel) Natur
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/tpu-1-75-mm/416/tpu-v2-filament-flexibel-1-75-mm-natur-800-g?c=37
+primary_color: 5019134c-2526-4924-9b7c-349278e205eb
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |+
+
+
+  Neue Rezeptur! Version 2: Optimierte Druckbarkeit!
+
+      Material: TPU (Thermoplastisches Polyurethan)
+      Flexibel, Shorehärte 94A
+      UV-Beständig
+      Hydrolysestabilisiert
+      Geruchsneutral
+      Dichte: 1230 Kg/m³
+      Menge: 800 g gewickelt auf Kunststoffspule (Bruttogewicht: 1050 g)
+      Durchmesser von 1,75 mm und 2,85 mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,10 mm)
+      Spulenabmaße: Außen: Ø 200 mm; Aufnahme: Ø 52 mm; Breite: 55 mm
+      Die Drucktemperatur sollte im Bereich 220 °C +-15 °C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Empfehlung: Druckgeschwindigkeit: 20-30 mm/s ; Retract 2 mm
+      Sehr gute Haftung. Ein beheiztes Druckbett ist nicht erforderlich
+      Zudem empfehlen wir ein System mit direct drive Extruder. Nach dem Vorschubritzel sollte das Filament sofort geführt werden, damit ein Verknicken verhindert wird.
+      Farbton: Transparent, reines TPU ohne Farbpigmente
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 640bae84-0691-4e21-a5cc-c7947451f833
+created_at: '2025-10-19T09:56:48.679Z'
+updated_at: '2025-10-19T09:56:48.679Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 87dfcd05-0bd4-48b1-b403-c72c98e4f9df
+secondary_material_types: []
+opentag_uuid: 07285083-a98c-53ac-b1a2-93dc9dcc65a4

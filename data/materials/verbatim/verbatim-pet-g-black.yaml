@@ -1,0 +1,63 @@
+uuid: 261d03b3-ee56-41e1-8b91-253ce33c95ab
+slug: pet-g-black
+brand_slug: verbatim
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PET-G Black
+abbreviation: null
+url: https://www.verbatim-europe.com/en/3d/products/verbatim-pet-g-filament-175-mm-black-55052
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |
+  An easy-to-print filament with high impact strength. This hydrophobic filament has excellent flexibility, prints with almost no warping or shrinkage and is odour neutral. It is an ideal material for mechanics concept modelling, food containers as well as medical objects. As with all Verbatim filaments it is made to high quality control standards and tight tolerances to ensure consistent feeding and stable prints.
+
+  Product Details
+
+      - Polyethylene Terephthalate Glycol (PET-G)
+      - High impact strength
+      - Excellent flexibility
+      - Almost no warping or shrinkage
+      - Hydrophobic (does not absorb water)
+      - Food packaging grade pellets used
+      - Odour neutral
+      - Main applications: concept modelling for mechanics, medical, food containers, transparent objects.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 59c21b4c-6a7f-4902-91a8-6ca697f0edcf
+created_at: '2025-09-25T08:26:53.655Z'
+updated_at: '2025-09-25T08:26:53.655Z'
+brand: cadbd3bc-5108-4ba0-8c83-9a555acbb04f
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 9004
+packages:
+  - 4522fe41-82d2-4b6f-a97c-fb282f78e696
+  - c94bdc8f-4030-4be2-bfcb-06274ec06f90
+secondary_material_types: []
+opentag_uuid: d981db41-ea5b-5c74-b179-38bd919438ca

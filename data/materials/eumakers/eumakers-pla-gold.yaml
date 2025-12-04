@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: 65dc2203-0303-4a43-9d6a-12548ea0194a
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - 8c73fb33-5762-40f0-a23b-f0a937fd4702
+uuid: 7f81624f-4dd1-4cbb-95ef-5f0ec47acfca
+slug: pla-gold-4
+brand_slug: eumakers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PLA Gold
+abbreviation: null
+url: https://www.eumakers.com/pla-filament-color-gold.html
+primary_color: bec83ee9-3db9-42cd-b0ae-d79072f82cff
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  High quality 3D printing PLA filament color Gold.
+
+   
+
+  100% Made in Italy with Solar Energy
+thumbnail_url: https://file.myfilamentlist.com/new/7f81624f-4dd1-4cbb-95ef-5f0ec47acfca.png
+deleted_at: null
+deleted_by: 369ee605-2e02-48b9-8579-e340b4f6e061
+created_at: '2025-11-12T10:07:26.485Z'
+updated_at: '2025-11-12T10:07:26.485Z'
+brand: 67512952-510d-4e4a-bbb9-9aec29122f65
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 4370d073-ff72-4780-8f85-6a03124f4e45
+  - 498b9951-8eb0-4fc3-9bef-b21f707fa99f
+  - 61f28d05-4398-49a2-93a3-86f4b7187ee3
+  - 79833d8b-80ca-4403-8e7c-22dfb7e8f6af
+  - 8bfa0ecd-1aa5-4f44-9ed7-8d453a11c6fa
+secondary_material_types: []
+opentag_uuid: 5f8317a9-cc1f-5de3-84e8-9e9aa1370dac

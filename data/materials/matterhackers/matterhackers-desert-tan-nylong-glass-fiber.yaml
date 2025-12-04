@@ -1,0 +1,62 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/46003d29eda4.png
+    type: gallery
+tags:
+  - c826eca4-8c40-4f07-930e-99a6231c54b9
+  - db61f157-b71c-47dd-97b1-5f9f939c54f5
+uuid: 2f553dbe-e5c7-4c7b-a2d2-a01dca50dff9
+slug: desert-tan-nylong-glass-fiber
+brand_slug: matterhackers
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Desert Tan NylonG Glass Fiber
+abbreviation: null
+url: null
+primary_color: e4ae1f8d-0c9f-4a8d-a2c1-95103c666464
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  NylonG is a glass-fiber reinforced nylon for 3D printing, offering excellent impact-resistance, incredible tensile strength, and great inter-layer adhesion. It retains dimensional accuracy better than standard nylon and absorbs large amounts of kinetic energy, making it ideal for parts that need to withstand repeated shock. The filament creates clean, complex parts in various colors with no post-processing needed and pairs well with Ionic support materials for dual extrusion prints.
+
+      Glass fiber-infused for extra strength and impact resistance
+      Excellent at absorbing large amounts of kinetic energy
+      Produces clean, complex parts with no post-processing needed
+thumbnail_url: https://file.myfilamentlist.com/f/new/46003d29eda4.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:31:22.987Z'
+updated_at: '2025-03-25T22:31:22.987Z'
+brand: 2f78f004-49c7-4672-9cd5-32971f28f7ca
+type: a4312caf-8833-4c65-9a52-a54327107e8d
+colors:
+  - 563
+packages:
+  - 151d0718-8e9c-40f9-9530-17e8232d5f6a
+  - 43e3b7b5-222b-409e-91e6-41be2d918d63
+  - 56d67841-22aa-4597-910b-5662205e522d
+  - 7dcbb93a-86a4-4f70-957f-daa6cdcbe931
+secondary_material_types: []
+opentag_uuid: c38a3f10-37c2-5e06-958b-3cfa75950be5

@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: a31f1870-2128-470b-b3bf-5e1202887486
+  hardness_shore_a: 95
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+tags:
+  - a18bac45-a4ce-4cc8-8a3e-153f6e6a0a6c
+secondary_colors:
+  - b1b5c5fe-a068-4633-bae1-5e2d463ae151
+uuid: 29e85ac7-ffd7-481b-8444-d290ed60fe83
+slug: pale-pink-elixir-tpu-95a
+brand_slug: cookiecad
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Pale Pink Elixir TPU 95A
+abbreviation: null
+url: https://cookiecad.com/products/tpu-pale-pink-elixir-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color: b371a884-905d-4b35-84d4-48ab1574acf3
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  We are really excited to introduce you to Cookiecad TPU95A filament in unique and interesting colors. TPU is a flexible filament and will require different printer settings than PLA, PETG, or ABS. TPU does not work in an AMS unit.
+
+  This is Pale Pink Elixir. It is a soft pink with a blue shimmer.
+
+  It is the same shade as our Pale Pink Elixir PLA. Just note that side by side they will look a little different due to the difference in material properties.
+thumbnail_url: null
+deleted_at: null
+deleted_by: 87484cd6-e3e5-46b1-9db0-814091a63845
+created_at: '2025-10-21T11:34:24.475Z'
+updated_at: '2025-10-21T11:34:24.475Z'
+brand: c3c11afa-4e46-4c6a-a5a9-2388ec4fac28
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - a5211332-51d8-44db-9ac6-251205f93b07
+secondary_material_types: []
+opentag_uuid: a70a105f-87d8-5ff7-9073-2cd3c5921dec

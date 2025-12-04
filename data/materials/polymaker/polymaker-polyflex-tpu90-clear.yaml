@@ -1,0 +1,70 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: c1bf245f-6819-4711-89b7-36b8d0808c39
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+photos:
+  - url: https://file.myfilamentlist.com/f/new/8ffa455233cd.png
+    type: gallery
+tags:
+  - 6191963a-c766-4a72-a52a-a1fe7d88386c
+uuid: 62353630-a56b-4b85-a2f4-3a41e114d4da
+slug: polyflex-tpu90-clear
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PolyFlex™ TPU90 Clear
+abbreviation: null
+url: null
+primary_color: 70242cee-8b9c-4e28-be74-d2b25647048c
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+print_sheet_compatibility: []
+description: |
+  PolyFlex™️ TPU90, created from Covestro's Addigy®️ family, is a thermoplastic polyurethane (TPU) based filament designed to provide great flexibility without compromising on printing speed.
+
+
+  -  Printing Requirements
+
+      Direct extruder with a gear ratio mechanical advantage required.
+      Will be very difficult to print with a small nozzle diameter..
+
+  And that's all!
+
+  If using a stock, older style printer - we would recommend printing VERY slow. Make sure your printer is not setup as Bowden - any large gap between your extruder and hotend will cause printing issues.
+thumbnail_url: https://file.myfilamentlist.com/f/new/8ffa455233cd.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:31.118Z'
+updated_at: '2025-03-25T22:34:31.118Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors:
+  - 3275
+packages:
+  - 47a9e688-6f94-42e7-b6cc-709fcec94578
+  - 8bffe779-1465-4d37-a890-64fc4a484cc1
+secondary_material_types: []
+opentag_uuid: 1f7b4f56-ea10-5135-a4f8-9ed005b70748

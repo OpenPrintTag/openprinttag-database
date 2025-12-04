@@ -1,0 +1,57 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/f23c9cb7b663.png
+    type: gallery
+uuid: 28f46d12-deb3-461d-9854-9f546b4775df
+slug: uv-petg-natural-clear
+brand_slug: ic3d
+brand_specific_id: null
+class: FFF
+type_id: null
+name: UV-PETG Natural (Clear)
+abbreviation: null
+url: null
+primary_color: 662c9f02-441f-4b7d-b551-b55906e971e1
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: Ultraviolet Resistant PETG brings the performance of production grade IC3D PETG into the laboratory and the great outdoors. UV-PETG retains excellent clarity, puncture resistance, and impact toughness even after repeated ultraviolet radiation exposure outdoors or as part of the UV-sterilization process. While the color made fade over time, UV PETG can be expected to maintain its structural qualities and UV-resistance for several years.
+thumbnail_url: https://file.myfilamentlist.com/f/new/f23c9cb7b663.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-05-01T08:29:11.329Z'
+updated_at: '2025-05-01T08:29:11.329Z'
+brand: 3dad85a7-6cf8-43d7-975e-647fc1b0bb2d
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors:
+  - 7412
+packages:
+  - 316a8058-daf7-42c6-b2ff-d0f751cfb561
+  - 69be0d38-8f29-4a61-ac24-5afc58ca1214
+  - 73d3a2c1-0b26-4c03-a18a-08501fad755b
+  - 79f1f0a6-dde7-46af-81af-f67b3b5ebd51
+  - 87a12d07-d0a5-4546-8ffd-fc0ac3fb8dab
+  - f61cd1cb-fc43-4b4c-8c78-759808dac1b9
+secondary_material_types: []
+opentag_uuid: 6989b2e7-cafd-525e-910d-11e18f4a3113

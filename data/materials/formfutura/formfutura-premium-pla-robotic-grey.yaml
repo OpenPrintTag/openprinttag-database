@@ -1,0 +1,74 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/59a95d8f4159.png
+    type: gallery
+tags:
+  - ab14a69d-e52f-4cdc-8e78-c46f5340d181
+uuid: d412f60d-1d55-422d-b1b7-a16d3629b6f1
+slug: premium-pla-robotic-grey
+brand_slug: formfutura
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' Premium PLA Robotic Grey'
+abbreviation: null
+url: null
+primary_color: d64e068e-11f0-4b59-bbd8-f9b8d26ddcf8
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |+
+  Premium PLA is a more pure PLA type of 3D printer filament with higher crystallinity, which makes it the PLA of choice for 3D printing parts with overhangs and for objects where bridging is required.
+
+  Unique features
+
+      Very easy to print
+      Warp-free printing and no deformation after cooling
+      Improved flowing behaviour and inter-layer adhesion
+      Good first layer adhesion to several (un)heated print surfaces
+      Almost odourless processing/printing
+      Biodegradable
+      Available in a variety of semi-translucent colors and opaque black/white
+
+thumbnail_url: https://file.myfilamentlist.com/f/new/59a95d8f4159.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:34:56.878Z'
+updated_at: '2025-03-25T22:34:56.878Z'
+brand: 2e356daa-929e-4884-946c-a365978ed8ff
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors:
+  - 3548
+packages:
+  - 0680ea6c-2111-429b-a755-721f18995fc2
+  - 14f77356-9b33-414c-a5eb-e4b81b5c296e
+  - 328a3049-d897-4d66-80eb-2e11eedff0a2
+  - 4bbef35e-7b2a-4ea4-b477-853361d016f1
+  - 63b66b77-7add-4bb0-b3b7-ac51fa253985
+  - 74d7b353-2e35-40d4-9b19-7aa57f25161a
+  - 9a261ef9-8b36-44d6-b839-d6ac9bfb6ba3
+  - bac22e3d-3e2b-4567-aaf6-58ad99f6b9f1
+  - f4741556-9758-49fb-87d1-a65bc6f9bdbc
+  - fa30d4b0-4340-43ee-a866-111a7044e591
+secondary_material_types: []
+opentag_uuid: 365d8e0e-998b-5cda-b7de-731329194c4d

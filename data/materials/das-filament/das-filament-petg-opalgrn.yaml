@@ -1,0 +1,64 @@
+uuid: 668c3e16-114b-4eeb-8370-cd341f63e3ec
+slug: petg-opalgrn
+brand_slug: das-filament
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PETG Opalgrün
+abbreviation: null
+url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/191/petg-filament-1-75-mm-opalgruen-800-g?c=35
+primary_color: 619dde05-83ae-4bfa-bdf5-99feaee10d49
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2+
+
+
+      Material: PETG (Polyethylenterephthalat Glycol)
+      Temperaturbeständigkeit bis ca. 80°C
+      Geringe Schwindung
+      Gute Möglichkeit zur Nachbearbeitung z.B. Schleifen oder Bohren
+      Geruchsneutral
+      Menge: 800g gewickelt auf Kunststoffspule (Bruttogewicht: 1050g)
+      Durchmesser von 1,75mm und 2,85mm verfügbar und daher kompatibel mit allen gängigen 3D Druckermodellen
+      Konstanter Durchmesser (+-0,05mm)
+      Spulenabmaße: Außen: Ø 200mm; Aufnahme: Ø 52mm; Breite: 55mm
+      Die Drucktemperatur sollte zwischen 210-240°C liegen. Kann je nach Druckermodell und Einstellungen variieren
+      Farbton: entspricht RAL 6026 Opalgrün (geringfügige Abweichung ist möglich)
+
+thumbnail_url: null
+deleted_at: null
+deleted_by: 4fd8be38-809e-4a0b-b954-b272a4ad5f8e
+created_at: '2025-10-19T09:35:33.773Z'
+updated_at: '2025-10-19T09:35:33.773Z'
+brand: fcf66151-cc36-4f73-8658-eac11866e369
+type: 5f869243-9e59-4c4c-9698-d3926ae77712
+colors: []
+packages:
+  - 09be1567-8f00-449a-b5fd-7386fafb1942
+  - 12d923fd-ee01-4d0c-bbf5-263f8e9a1c1f
+secondary_material_types: []
+opentag_uuid: 544f5c88-2860-5cfd-a08e-0e244a979e4c

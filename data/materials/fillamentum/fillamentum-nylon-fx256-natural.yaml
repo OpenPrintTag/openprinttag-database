@@ -1,0 +1,59 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/446ed9a30f3b.png
+    type: gallery
+uuid: a0faa675-38c7-4408-b2af-de756661aaf1
+slug: nylon-fx256-natural
+brand_slug: fillamentum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Nylon FX256 "Natural"
+abbreviation: null
+url: null
+primary_color: 02a93184-2bbb-4aa1-8818-67458224e16e
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Nylon FX256 is an advanced, exceptionally durable, and highly versatile material. With outstanding interlayer adhesion, flexibility in thin layers, and resistance to extreme temperatures and chemicals (including car fluids), it's the ideal choice for tough, functional, and technical 3D prints.
+
+   Exceptional chemical resistance and wear resistance
+   High impact resistance, even at -40 degreesC
+   Heat resistance up to 140 degreesC
+   Lower moisture absorption for better dimensional stability
+   Safe for food contact 
+thumbnail_url: https://file.myfilamentlist.com/f/new/446ed9a30f3b.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:26.855Z'
+updated_at: '2025-03-25T22:32:26.855Z'
+brand: 4153244e-dd9d-4434-946f-503290cb6de1
+type: null
+colors:
+  - 1597
+packages:
+  - 8a449f98-2728-4239-bece-bb661af799cb
+secondary_material_types: []
+opentag_uuid: 4f004708-e211-5216-b7ff-a6b14125b8ea

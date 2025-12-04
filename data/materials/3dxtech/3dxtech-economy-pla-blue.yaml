@@ -1,0 +1,56 @@
+secondary_colors:
+  - f45bf10d-a26d-4b61-ae86-064d1a59b797
+uuid: d990c11e-d057-44b4-a934-3fd9b67a1ba8
+slug: economy-pla-blue
+brand_slug: 3dxtech
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Economy PLA blue
+abbreviation: null
+url: https://www.3dxtech.com/products/economy-pla?variant=52122515243371
+primary_color: null
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |2-
+       Bambu AMS compatible
+      Low shrinkage, warping, and easy printability, PLA prints great on practically any desktop 3D printer
+      Very low odor, perfect for 3D printing in home and office environments
+      Made from plants makes PLA a renewable biopolymer
+      Gorgeous surface quality to make printed parts look beautiful
+      Ideal for printing without a heated bed, no enclosure required 
+thumbnail_url: null
+deleted_at: null
+deleted_by: d5790707-46b0-48d9-a254-35f1cdd531fe
+created_at: '2025-11-04T09:56:54.928Z'
+updated_at: '2025-11-04T09:56:54.928Z'
+brand: e408b453-f989-4a9f-b6cc-ed12b0a36f20
+type: e81f29e2-3ccf-428e-9441-f3d12f571051
+colors: []
+packages:
+  - 0f3d20de-73a5-4e88-9a12-0438c202f829
+secondary_material_types: []
+opentag_uuid: 7fad72b5-a72f-53b7-a789-53528a12451f

@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/0b57d90615c8.png
+    type: gallery
+uuid: 95d0b250-2525-4400-a9a7-054972710cfd
+slug: panchroma-cope-olive-drab-green
+brand_slug: polymaker
+brand_specific_id: null
+class: FFF
+type_id: null
+name: Panchroma™ CoPE Olive Drab Green
+abbreviation: null
+url: null
+primary_color: e8252475-6ed0-4de2-a1e3-f2bf72f0acdf
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  Panchroma™ CoPE is based on a new innovative formula which we developed to improve printability (bridging, overhang), widen the printing temperature window and increase the printing speed up to 400mm/s.
+
+  CoPE is a high-quality copolyester-based material.  In the TDS below - CoPE is called "Regular" - new TDS information with updated names will come soon.
+
+  NOTICE: This new formula may stick too well to a textured PEI plate.  Suggestions are given in the printing requirements below.
+
+  This new formula will also not stick to standard PLA very well, so it is not recommended to combine it with other Panchroma effects in a single print 
+
+
+  -  Printing Requirements
+
+  Not recommended to be printed on textured PEI as this material has an extra high bed adhesion properties and can damage the bed. We recommend using Magigoo Original to help with print release if using a textured PEI plate.
+
+  This will print great on any stock 3D printer and at higher than normal print speeds.
+thumbnail_url: https://file.myfilamentlist.com/f/new/0b57d90615c8.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-25T22:32:32.656Z'
+updated_at: '2025-03-25T22:32:32.656Z'
+brand: 6dc5c23f-4b13-4493-9b06-e93170f05db0
+type: 4fca8d6e-48ab-42e8-bfee-75788e756d52
+colors:
+  - 1502
+packages:
+  - 4165cec3-ecac-4929-83e0-c72e13d85441
+secondary_material_types: []
+opentag_uuid: d00f0478-c642-550b-a1c3-159ee74ad971

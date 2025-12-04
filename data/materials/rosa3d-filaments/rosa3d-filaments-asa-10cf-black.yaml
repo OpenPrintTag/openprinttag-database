@@ -1,0 +1,53 @@
+tags:
+  - 8e227eca-38b9-492d-a001-f4598443013c
+uuid: 5475ce66-21fb-4537-b6f9-535e69fa1f08
+slug: asa-10cf-black
+brand_slug: rosa3d-filaments
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ASA + 10CF Black
+abbreviation: null
+url: https://www.rosa3d.pl/en/filament-3d-asa-plus-10cf-175mm-black-1kg
+primary_color: 3db39c78-de71-4cc8-ac29-fc08fbb9b426
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+photos: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  FILAMENT 3D ASA + 10CF is a high-performance composite material that combines weather-resistant ASA copolymer with 10% carbon fiber content. This blend provides excellent stiffness, dimensional stability, and resistance to UV and outdoor conditions. As a result, it’s ideal for printing large objects intended for outdoor use. Additionally, the carbon fiber helps mask layer lines and gives prints a sleek, matte finish.
+
+  WARNING! Due to the high carbon fiber content, this material is not recommended for use with filament changers such as Bambu Lab AMS.
+thumbnail_url: https://file.myfilamentlist.com/new/5475ce66-21fb-4537-b6f9-535e69fa1f08.png
+deleted_at: null
+deleted_by: a1ae6597-ac1a-48c0-bd37-3233ac17e522
+created_at: '2025-11-16T14:47:39.990Z'
+updated_at: '2025-11-16T14:47:39.990Z'
+brand: f625c3a2-3932-4d77-8711-28eb70945666
+type: c68120d2-55a8-4434-b3f3-a29d75a374c7
+colors: []
+packages:
+  - 505ead56-7153-4771-af38-8904d9d8cbf3
+secondary_material_types: []
+opentag_uuid: 64f53fd7-4f03-5cdc-8156-26bff64e22ce

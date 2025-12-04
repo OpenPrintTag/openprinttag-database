@@ -1,0 +1,66 @@
+photos:
+  - url: https://file.myfilamentlist.com/f/new/4b2f8217f12f.png
+    type: gallery
+tags:
+  - db45c006-2f86-4ae0-9280-4a73592297fa
+uuid: f50b037e-e01d-43eb-bb48-f603a6dd7f43
+slug: durapro-abs-blue-ral
+brand_slug: extrudr
+brand_specific_id: null
+class: FFF
+type_id: null
+name: DuraPro ABS blue | RAL 5003
+abbreviation: null
+url: null
+primary_color: e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+certifications: []
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+print_sheet_compatibility: []
+description: |-
+  DuraPro ABS has been specially developed for industrial applications and is characterised by its high process reliability. It is ideal for the production of mechanically highly stressed components. The material is electrically insulating. DuraPro ABS is optimised for good layer adhesion, thermal stability, better flow properties and low warping. The raw material is approved according to REACH, RoHS and FDA standards.
+
+      For industrial applications
+      Flame retardant according to UL 94 HB
+      Electrically insulating
+      High mechanical strength
+      Low shrinking and warping
+      Excellent layer and bed adhesion
+thumbnail_url: https://file.myfilamentlist.com/f/new/4b2f8217f12f.png
+deleted_at: null
+deleted_by: null
+created_at: '2025-03-28T19:38:37.905Z'
+updated_at: '2025-03-28T19:38:37.905Z'
+brand: b94a0f06-c1f1-4c52-9ec2-2fd66cb2db28
+type: 3440df04-d9b3-46e2-a209-44ee0c326bf9
+colors:
+  - 3598
+packages:
+  - 47e2ef99-6a2c-4d43-80d0-d44134413fd2
+  - 818e9e49-8008-4051-905b-ddd4d550f2cf
+  - b9bb6f9f-494e-4855-ae19-40e3f3268314
+  - c32c2b3d-07cf-4de0-b923-033107867e9e
+  - d514043b-b6ff-4728-a0f5-5482ddd8976b
+  - d5877456-3bf3-4de6-8204-431a8f9f78ba
+secondary_material_types: []
+opentag_uuid: 04bd8097-9c8b-5eaa-a643-8f7b526d5240

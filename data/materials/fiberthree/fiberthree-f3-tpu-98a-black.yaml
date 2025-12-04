@@ -1,0 +1,64 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: null
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: f7c75048-504b-4911-b225-320850baab02
+  hardness_shore_a: 98
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: 8d93c37a-b752-41fa-bd83-c5edf3bf38aa
+slug: f3-tpu-98a-black
+brand_slug: fiberthree
+brand_specific_id: null
+class: FFF
+type_id: null
+name: ' F3 TPU 98A Black'
+abbreviation: null
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |-
+  TPU
+  available in black/ red/ yellow
+  very high impact resistance to dynamic stress
+  moderate water absorption
+  enormous elasticity (Elongation@break 500%)
+  excellent adhesion to print bed
+  exellent thermal stability up to 120°C
+  shining surface (black /red /yellow)
+  good oil & solvent resistance
+  hardness Shore 98 A
+thumbnail_url: null
+deleted_at: null
+deleted_by: b908187c-5ff2-46e3-b612-2f1065e8a769
+created_at: '2025-10-21T15:02:27.446Z'
+updated_at: '2025-10-21T15:02:27.446Z'
+brand: 0cb0eacf-ff26-49e6-a622-78d39891ac92
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - 66c36e9d-08a5-496a-bd3e-a033f62b3951
+secondary_material_types: []
+opentag_uuid: d3d3d96c-0028-5069-9db5-e25c74e479d5

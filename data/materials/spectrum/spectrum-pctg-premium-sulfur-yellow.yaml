@@ -1,0 +1,61 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.27000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: e36c7502-d23e-4d74-a7f3-7a56ce55f121
+  hardness_shore_a: null
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: fae09d5e-908d-4eee-886f-d01676cbb989
+slug: pctg-premium-sulfur-yellow
+brand_slug: spectrum
+brand_specific_id: null
+class: FFF
+type_id: null
+name: PCTG Premium Sulfur Yellow
+abbreviation: null
+url: https://spectrumfilaments.com/en/filament/pctg-premium/
+primary_color: 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+
+
+  Excellent alternative for PET-G
+
+  Spectrum Premium PCTG filament is an excellent alternative to PET-G, which is well-known in the 3D printing world. Belonging to the same material family of copolyesters, PCTG filament offers similar ease of printing as PET-G. A very important advantage of the Premium PCTG filament is its increased impact strength, high dimensional stability and low shrinkage. Spectrum Premium PCTG filament combines the most desirable features of Tough PLA and PET-G. PCTG material has a heat deflection temperature of 76°C, as well as an excellent print surface and higher elasticity. Additional advantages include the high chemical resistance of the printed models.
+  Elements made using Spectrum Premium PCTG transparent colours have higher clarity than their counterparts made using PET-G. This means that it is possible to achieve an effect close to transparency with few external contours.
+
+  A heated build chamber is not required for printing.
+thumbnail_url: null
+deleted_at: null
+deleted_by: dcaffbfe-9e4e-4e4b-89b5-bd2e2ac00539
+created_at: '2025-10-15T11:36:25.273Z'
+updated_at: '2025-10-15T11:36:25.273Z'
+brand: d23306d2-6cfc-4beb-9eda-e002817ee102
+type: 305f5d12-f622-4a1c-8b02-cb06d57c3bbb
+colors: []
+packages: []
+secondary_material_types: []
+opentag_uuid: 56f69f11-e76b-5e5a-b48f-32821bc170f2

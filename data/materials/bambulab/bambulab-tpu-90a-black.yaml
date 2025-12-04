@@ -1,0 +1,73 @@
+properties:
+  nozzle_temperature_min: null
+  nozzle_temperature_max: null
+  nozzle_temperature_default: null
+  bed_temperature_min: null
+  bed_temperature_max: null
+  bed_temperature_default: null
+  max_volumetric_speed: null
+  max_print_speed: null
+  tensile_strength: null
+  elongation_at_break: null
+  youngs_modulus: null
+  glass_transition_temp: null
+  melting_temp: null
+  density: '1.24000'
+  shrinkage: null
+  layer_adhesion: null
+  surface_quality: null
+  uuid: bf8888b0-a279-4c6e-a998-d7d786a37697
+  hardness_shore_a: 90
+  hardness_shore_d: null
+  fff_material_properties: null
+  sla_material_properties: null
+uuid: a86f6295-ebd6-45c3-ab20-650f81493883
+slug: tpu-90a-black
+brand_slug: bambulab
+brand_specific_id: null
+class: FFF
+type_id: null
+name: TPU 90A Black
+abbreviation: null
+url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=54085774541148
+primary_color: 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors: []
+palette_color_alikes: []
+transmission_distance: null
+refractive_index: null
+tags: []
+certifications: []
+photos: []
+print_sheet_compatibility: []
+description: |
+  The softest Bambu TPU has arrived! Designed for exceptional flexibility and resilience, it's ideal for printing parts that require cushioning, such as grips, shock absorbers, and protective cases. Plus, Bambu TPU 90A seamlessly prints with PLA and PETG* through beam interlocking in dual-nozzle printers like Bambu Lab H2D, making the fusion of rigid and soft filaments a reality. Grab your long-awaited model files and start printing today!
+
+  * All Bambu PLA and PETG series support printing with Bambu TPU 90A.
+
+
+
+  Engineered for durability and flexibility, Bambu TPU 85A and 90A are the perfect filaments for shock absorption and soft support, making them ideal for applications like padding, medical braces, and protective gear.
+
+  Bambu TPU 85A – The softest in Bambu's lineup, offering exceptional flexibility and resilience. Perfect for impact-absorbing parts such as protective cases, squishy fidget toys, and soft cushioning elements.
+
+  Bambu TPU 90A – With a higher hardness, it provides greater structural integrity, making it ideal for shoe soles, RC tires, and functional components that require both flexibility and strength.
+
+  Both filaments deliver outstanding wear resistance, ensuring long-lasting performance even after repeated bending—making them the go-to choice for high-demand applications.
+
+  Bambu TPU 90A seamlessly prints with all Bambu PLA and PETG series, allowing you to create prints that combine flexible and rigid filaments through beam interlocking in Bambu Studio. From seat cushions and helmet padding to tool handles and beyond—design freely to achieve the perfect balance of stiffness and softness. Bambu Filaments empower you to expand the functionality of your prints.
+
+  * This function is exclusive to Bambu TPU 90A and compatible dual-nozzle printers like Bambu Lab H2D.
+
+  Bambu TPU 90A Blaze & Frozen achieves a unique soft gradient effect that only occurs once per spool. Specially engineered for printing large-scale, single-piece fashion items like wearables requiring uninterrupted color transitions.
+thumbnail_url: https://file.myfilamentlist.com/new/a86f6295-ebd6-45c3-ab20-650f81493883.png
+deleted_at: null
+deleted_by: c0edc9ed-56f2-4638-bfaf-2e557a124081
+created_at: '2025-11-23T19:08:35.739Z'
+updated_at: '2025-11-23T19:08:35.739Z'
+brand: b0036101-7b7d-444a-8084-5f58c53b1cf2
+type: b3847d78-d583-4560-a806-4a98f9d44aeb
+colors: []
+packages:
+  - d22cfbce-af77-465a-a4e6-f9ec60de86ed
+secondary_material_types: []
+opentag_uuid: acd7965e-69ff-582c-b420-44e2f5cf206f
