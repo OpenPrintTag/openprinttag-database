@@ -1,0 +1,22 @@
+uuid: b48facd6-6d0f-57da-87b1-fd81e8a4dc84
+slug: petg-carbon-fiber-black
+brand_slug: prusament
+name: PETG Carbon Fiber Black
+class: FFF
+type_id: 14
+abbreviation: ''
+transmission_distance: 0.3
+tags:
+- contains-carbon-fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/1a0fe3fe4a93.png
+  type: unspecified
+properties:
+  density: 1.27
+  hardness_shore_d: 77
+  min_print_temperature: 255
+  max_print_temperature: 275
+  preheat_temperature: 170
+  min_bed_temperature: 80
+  max_bed_temperature: 100

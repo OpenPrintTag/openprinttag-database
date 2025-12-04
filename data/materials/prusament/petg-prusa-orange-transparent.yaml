@@ -1,0 +1,24 @@
+uuid: a66cacb3-3c55-5461-ad20-ee4bd75b4a46
+slug: petg-prusa-orange-transparent
+brand_slug: prusament
+name: PETG Prusa Orange Transparent
+class: FFF
+type_id: 14
+abbreviation: ''
+transmission_distance: 44.2
+tags:
+- translucent
+photos:
+- url: https://file.myfilamentlist.com/f/new/aad9b6a490d3.png
+  type: unspecified
+properties:
+  density: 1.27
+  hardness_shore_d: 74
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

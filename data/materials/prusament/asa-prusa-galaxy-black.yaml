@@ -1,0 +1,23 @@
+uuid: f4763f42-cb23-53dd-9df6-12cdd0f66708
+slug: asa-prusa-galaxy-black
+brand_slug: prusament
+name: ASA Prusa Galaxy Black
+class: FFF
+type_id: 28
+abbreviation: ''
+transmission_distance: 0.1
+tags:
+- glitter
+photos:
+- url: https://file.myfilamentlist.com/f/new/9e1234b145a1.png
+  type: unspecified
+properties:
+  density: 1.07
+  hardness_shore_d: 78
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

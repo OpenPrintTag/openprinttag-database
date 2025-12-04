@@ -1,0 +1,17 @@
+uuid: 46761d49-9dbe-5d4e-be21-e47b40671688
+slug: asa-light-blue
+brand_slug: buddy3d
+name: ASA Light Blue
+class: FFF
+type_id: 28
+abbreviation: ''
+url: https://www.prusa3d.com/product/buddy3d-asa-light-blue-750g/
+properties:
+  density: 1.07
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

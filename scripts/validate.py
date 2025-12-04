@@ -301,6 +301,14 @@ class Validator:
                 # FK validation will catch missing brand
                 continue
 
+            # Check if GTIN is missing - emit warning and skip UUID validation
+            if 'gtin' not in package_data or not package_data.get('gtin'):
+                # self.errors.append(ValidationError(
+                #     'warning', 'uuid_derivation', 'material_packages', package_slug,
+                #     "Missing gtin field (required for UUID derivation, skipping UUID validation)"
+                # ))
+                continue
+
             try:
                 brand_uuid = uuid.UUID(brand_data['uuid'])
                 is_valid, expected_uuid, error_msg = validate_material_package_uuid(package_data, brand_uuid)

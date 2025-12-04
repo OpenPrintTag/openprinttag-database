@@ -102,19 +102,29 @@ def fix_material_package_uuids(base_path: Path, loader: DatabaseLoader):
 
     print("Fixing material package UUIDs...")
     fixed_count = 0
+    skipped_count = 0
     for package_slug, package_data in packages.items():
         brand_slug = package_data.get('brand_slug')
         if not brand_slug or brand_slug not in brands:
             continue
 
+        # Skip packages without GTIN
+        gtin = package_data.get('gtin')
+        if not gtin:
+            skipped_count += 1
+            continue
+
         brand_data = brands[brand_slug]
         brand_uuid = generate_brand_uuid(brand_data['name'])
 
-        correct_uuid = generate_material_package_uuid(brand_uuid, package_data['gtin'])
+        correct_uuid = generate_material_package_uuid(brand_uuid, gtin)
         if str(correct_uuid) != package_data.get('uuid'):
             file_path = base_path / 'data' / 'material-packages' / brand_slug / f'{package_slug}.yaml'
             update_uuid_in_file(file_path, package_data['uuid'], str(correct_uuid), package_slug)
             fixed_count += 1
+
+    if skipped_count > 0:
+        print(f"  Skipped {skipped_count} package(s) without GTIN")
 
     if fixed_count == 0:
         print("  No changes needed")

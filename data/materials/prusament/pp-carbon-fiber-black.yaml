@@ -1,0 +1,24 @@
+uuid: 76c83de4-e03b-510b-a364-f25e0b030487
+slug: pp-carbon-fiber-black
+brand_slug: prusament
+name: PP Carbon Fiber Black
+class: FFF
+type_id: 16
+abbreviation: ''
+tags:
+- contains-carbon-fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/a39eb439eef5.png
+  type: unspecified
+properties:
+  density: 0.81
+  hardness_shore_d: 62
+  min_print_temperature: 260
+  max_print_temperature: 280
+  preheat_temperature: 170
+  min_bed_temperature: 65
+  max_bed_temperature: 85
+  chamber_temperature: 50
+  min_chamber_temperature: 40
+  max_chamber_temperature: 90

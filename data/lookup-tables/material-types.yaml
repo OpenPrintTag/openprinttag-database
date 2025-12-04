@@ -1,50 +1,179 @@
 types:
-  - id: 1
-    class: FFF
-    abbreviation: PLA
-    name: "Polylactic Acid"
-    description: "Biodegradable thermoplastic derived from renewable resources like corn starch"
-    default_properties:
-      nozzle_temperature_default: 215
-      bed_temperature_default: 60
-      density: 1.24
-
-  - id: 2
-    class: FFF
-    abbreviation: PETG
-    name: "Polyethylene Terephthalate Glycol"
-    description: "Durable, chemical-resistant thermoplastic with good layer adhesion"
-    default_properties:
-      nozzle_temperature_default: 240
-      bed_temperature_default: 85
-      density: 1.27
-
-  - id: 3
-    class: FFF
-    abbreviation: ASA
-    name: "Acrylonitrile Styrene Acrylate"
-    description: "UV-resistant thermoplastic suitable for outdoor applications"
-    default_properties:
-      nozzle_temperature_default: 260
-      bed_temperature_default: 100
-      density: 1.07
-
-  - id: 4
-    class: FFF
-    abbreviation: ABS
-    name: "Acrylonitrile Butadiene Styrene"
-    description: "Strong thermoplastic with good impact resistance"
-    default_properties:
-      nozzle_temperature_default: 255
-      bed_temperature_default: 100
-      density: 1.04
-
-  - id: 10
-    class: SLA
-    abbreviation: RESIN
-    name: "Standard Resin"
-    description: "UV-curable photopolymer resin for high detail prints"
-    default_properties:
-      exposure_time: 8
-      layer_height: 0.05
-      density: 1.1
+- id: 1
+  class: FFF
+  abbreviation: ''
+  name: PEKK
+- id: 2
+  class: FFF
+  abbreviation: ''
+  name: PPS
+- id: 3
+  class: FFF
+  abbreviation: ''
+  name: CPE
+- id: 4
+  class: FFF
+  abbreviation: ''
+  name: PCTG
+- id: 5
+  class: FFF
+  abbreviation: ''
+  name: ABS
+- id: 6
+  class: FFF
+  abbreviation: ''
+  name: Resin 405
+- id: 7
+  class: FFF
+  abbreviation: ''
+  name: PVDF
+- id: 8
+  class: FFF
+  abbreviation: ''
+  name: PS
+- id: 9
+  class: FFF
+  abbreviation: ''
+  name: PA66
+- id: 10
+  class: FFF
+  abbreviation: ''
+  name: PVC
+- id: 11
+  class: FFF
+  abbreviation: ''
+  name: CPE
+- id: 12
+  class: FFF
+  abbreviation: ''
+  name: PVB
+- id: 13
+  class: FFF
+  abbreviation: ''
+  name: TPE
+- id: 14
+  class: FFF
+  abbreviation: ''
+  name: PETG
+  default_properties: 113f95c5-d66b-48e6-833e-4f4c5331d3aa
+- id: 15
+  class: FFF
+  abbreviation: ''
+  name: PPE
+- id: 16
+  class: FFF
+  abbreviation: ''
+  name: PP
+- id: 17
+  class: FFF
+  abbreviation: ''
+  name: PA612
+- id: 18
+  class: FFF
+  abbreviation: ''
+  name: TPC
+- id: 19
+  class: FFF
+  abbreviation: ''
+  name: PPSU
+- id: 20
+  class: FFF
+  abbreviation: ''
+  name: POM
+- id: 21
+  class: FFF
+  abbreviation: ''
+  name: PA6
+- id: 22
+  class: FFF
+  abbreviation: ''
+  name: PVA
+- id: 23
+  class: FFF
+  abbreviation: ''
+  name: PEBA
+- id: 24
+  class: FFF
+  abbreviation: ''
+  name: PA11
+- id: 25
+  class: FFF
+  abbreviation: ''
+  name: PA12
+- id: 26
+  class: FFF
+  abbreviation: ''
+  name: TPU
+- id: 27
+  class: SLA
+  abbreviation: ''
+  name: Resin
+- id: 28
+  class: FFF
+  abbreviation: ''
+  name: ASA
+- id: 29
+  class: FFF
+  abbreviation: ''
+  name: PCL
+- id: 30
+  class: FFF
+  abbreviation: ''
+  name: PMMA
+- id: 31
+  class: FFF
+  abbreviation: ''
+  name: PSU
+- id: 32
+  class: FFF
+  abbreviation: ''
+  name: PBT
+- id: 33
+  class: FFF
+  abbreviation: ''
+  name: PEEK
+- id: 34
+  class: FFF
+  abbreviation: ''
+  name: PES
+- id: 35
+  class: FFF
+  abbreviation: ''
+  name: HIPS
+- id: 36
+  class: FFF
+  abbreviation: ''
+  name: OBC
+- id: 37
+  class: FFF
+  abbreviation: ''
+  name: PPA
+- id: 38
+  class: FFF
+  abbreviation: ''
+  name: PLA
+  default_properties: fd086362-d845-4858-a701-3f4ee70a04ad
+- id: 39
+  class: FFF
+  abbreviation: ''
+  name: PEI
+- id: 40
+  class: FFF
+  abbreviation: ''
+  name: TPI
+- id: 41
+  class: FFF
+  abbreviation: ''
+  name: PET
+- id: 42
+  class: FFF
+  abbreviation: ''
+  name: PC
+- id: 43
+  class: FFF
+  abbreviation: ''
+  name: PHA
+- id: 44
+  class: FFF
+  abbreviation: ''
+  name: BVOH

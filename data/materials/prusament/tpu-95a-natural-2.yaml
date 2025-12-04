@@ -1,0 +1,20 @@
+uuid: ef64d42f-d3ba-5f5d-9ab3-80c78c5f868b
+slug: tpu-95a-natural-2
+brand_slug: prusament
+name: TPU 95A Natural
+class: FFF
+type_id: 26
+abbreviation: ''
+url: https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/
+tags:
+- without-pigments
+properties:
+  density: 1.25
+  hardness_shore_a: 95
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 170
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  chamber_temperature: 30
+  max_chamber_temperature: 40

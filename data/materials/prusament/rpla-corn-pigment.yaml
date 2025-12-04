@@ -1,0 +1,26 @@
+uuid: 298c51ac-dc7e-5ab4-94b1-616a35ceb170
+slug: rpla-corn-pigment
+brand_slug: prusament
+name: rPLA Corn Pigment
+class: FFF
+type_id: 38
+abbreviation: ''
+transmission_distance: 6.2
+tags:
+- recycled
+- contains-organic-material
+- industrially-compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/205dbb35485e.png
+  type: unspecified
+properties:
+  density: 1.16
+  hardness_shore_d: 86
+  min_print_temperature: 195
+  max_print_temperature: 215
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
