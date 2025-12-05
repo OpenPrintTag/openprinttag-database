@@ -862,6 +862,10 @@ def main():
 	print("  Transforming material packages...")
 	packages_output = {}  # brand_slug -> {package_slug -> package}
 	for package in data.get('material_package', []):
+		# Skip packages without GTIN
+		if not package.get('gtin'):
+			continue
+
 		transformed = transform_material_package(
 			package,
 			brands_map,
