@@ -2,6 +2,14 @@
 
 An open-source, human-readable database of 3D printing materials, filament spools, and slicing profiles.
 
+## Pre-Release Todo
+
+Steps to be completed before release:
+
+1. Remove import script (`scripts/import_from_json.py`)
+2. Remove import script from Makefile
+3. Squash commits
+
 ## Overview
 
 This repository contains a comprehensive catalog of 3D printing materials and related data, stored as YAML files for maximum readability and Git-friendliness. The data is organized to be:
@@ -46,6 +54,7 @@ All entity files use **slugified, human-readable names**:
 - Example: `prusament-pla-galaxy-black.yaml`
 
 Files are organized by brand when applicable:
+
 - `materials/prusa-research/prusament-pla-galaxy-black.yaml`
 - `material-packages/polymaker/polyterra-pla-army-green-1kg-spool.yaml`
 
@@ -58,6 +67,7 @@ Define material manufacturers and their product line information.
 **Location**: `data/brands/{slug}.yaml`
 
 **Key Fields**:
+
 - `uuid`: Unique identifier
 - `slug`: Human-readable identifier
 - `name`: Brand name
@@ -71,6 +81,7 @@ Individual material definitions (e.g., "Prusament PLA Galaxy Black").
 **Location**: `data/materials/{brand-slug}/{material-slug}.yaml`
 
 **Key Fields**:
+
 - `uuid`: Unique identifier
 - `slug`: Human-readable identifier
 - `brand_slug`: Reference to brand
@@ -88,6 +99,7 @@ Physical products (spools, bottles) containing materials.
 **Location**: `data/material-packages/{brand-slug}/{package-slug}.yaml`
 
 **Key Fields**:
+
 - `uuid`: Unique identifier
 - `slug`: Human-readable identifier
 - `gtin`: GTIN/EAN barcode
@@ -103,6 +115,7 @@ Spool and bottle specifications.
 **Location**: `data/material-containers/{slug}.yaml`
 
 **Key Fields**:
+
 - Physical dimensions (diameter, width, height)
 - Weight when empty
 - Capacity (for SLA bottles)
@@ -115,6 +128,7 @@ Printers and accessories (wash/cure stations).
 **Location**: `data/devices/printers/{slug}.yaml` or `data/devices/accessories/{slug}.yaml`
 
 **Key Fields**:
+
 - `type`: Device type (fff_printer, sla_printer, sla_wash_cure)
 - `brand_slug`: Reference to brand
 - Build volume dimensions
@@ -125,9 +139,11 @@ Printers and accessories (wash/cure stations).
 Print profiles for specific printers and materials.
 
 **Generic Profiles**: `data/slicing-profiles/{slicer}/{slug}.yaml`
+
 - Printer + quality level + material type
 
 **Material-Specific Profiles**: `data/material-slicing-profiles/{slug}.yaml`
+
 - Fine-tuned settings for specific material + printer combinations
 
 ### Lookup Tables
@@ -160,6 +176,7 @@ make validate
 ```
 
 The validator checks:
+
 - Required fields presence
 - Field type correctness
 - Foreign key references
@@ -174,13 +191,13 @@ UUIDs in the database follow a deterministic generation scheme using **UUIDv5** 
 
 See `uuid.md` for the complete specification. In summary:
 
-| Entity | Derivation Formula |
-|--------|-------------------|
-| Brand | `Namespace + Brand name (UTF-8)` |
-| Material | `Namespace + Brand UUID (bytes) + Material name (UTF-8)` |
-| Material Package | `Namespace + Brand UUID (bytes) + GTIN (UTF-8)` |
-| Material Package Instance | `Namespace + NFC tag UID (bytes)` |
-| Palette Color | `Namespace + Palette name (UTF-8) + Canonical name (UTF-8)` |
+| Entity                    | Derivation Formula                                          |
+| ------------------------- | ----------------------------------------------------------- |
+| Brand                     | `Namespace + Brand name (UTF-8)`                            |
+| Material                  | `Namespace + Brand UUID (bytes) + Material name (UTF-8)`    |
+| Material Package          | `Namespace + Brand UUID (bytes) + GTIN (UTF-8)`             |
+| Material Package Instance | `Namespace + NFC tag UID (bytes)`                           |
+| Palette Color             | `Namespace + Palette name (UTF-8) + Canonical name (UTF-8)` |
 
 The validation script automatically verifies that all UUIDs match their expected derived values.
 
@@ -255,6 +272,7 @@ The database schema is defined in `schema.yaml` at the repository root. It speci
 The `directus_uuid` field is a temporary back-reference to legacy Directus database entries and will be removed before the first release. This field is optional and only present in data imported from the legacy system.
 
 **Affected entities**:
+
 - brands
 - material_containers
 - devices
@@ -270,6 +288,7 @@ The `directus_uuid` field is a temporary back-reference to legacy Directus datab
 Colors are specified in RGBA hex format: `#rrggbbaa`
 
 Example:
+
 ```yaml
 primary_color:
   rgba: "#1a1a1aff"
@@ -280,6 +299,7 @@ primary_color:
 Entities reference each other using slugs (for human readability) and UUIDs (for database import).
 
 Example:
+
 ```yaml
 material_slug: prusament-pla-galaxy-black
 brand_slug: prusa-research
