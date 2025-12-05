@@ -5,14 +5,24 @@ countries:
   name: Austria
 - code: AU
   name: Australia
+- code: BE
+  name: Belgium
 - code: CA
   name: Canada
 - code: CH
+  name: Switzerland
+- code: CN
   name: China
 - code: CZ
   name: Czech Republic
-- code: GR
+- code: DE
   name: Germany
+- code: ES
+  name: Spain
+- code: FR
+  name: France
+- code: GB
+  name: United Kingdom
 - code: IT
   name: Italy
 - code: NL
@@ -23,13 +33,9 @@ countries:
   name: Poland
 - code: PT
   name: Portugal
+- code: SE
+  name: Sweden
 - code: SK
   name: Slovakia
-- code: SP
-  name: Spain
-- code: SW
-  name: Sweden
-- code: UK
-  name: United Kingdom
 - code: US
   name: United States

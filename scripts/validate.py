@@ -297,6 +297,13 @@ class Validator:
             for entity_key, entity_obj in entity_data.items():
                 for field_name, field_def in fields.items():
                     fk_def = field_def.get('foreign_key')
+
+                    # Check if foreign_key is defined at items level for arrays
+                    if not fk_def and field_def.get('type') == 'array':
+                        items_def = field_def.get('items', {})
+                        if 'foreign_key' in items_def:
+                            fk_def = items_def['foreign_key']
+
                     if not fk_def:
                         continue
 
@@ -318,16 +325,32 @@ class Validator:
                             for item_field_name, item_field_def in field_def.get('items', {}).get('fields', {}).items():
                                 if 'foreign_key' in item_field_def:
                                     item_val = val.get(item_field_name)
-                                    if item_val and item_val not in self.data_cache.get(item_field_def['foreign_key']['entity'], {}):
+                                    item_fk = item_field_def['foreign_key']
+                                    item_target_entity = item_fk['entity']
+                                    item_target_field = item_fk['field']
+                                    item_target_data = self.data_cache.get(item_target_entity, {})
+
+                                    # Check if value exists in target field
+                                    found = any(
+                                        item.get(item_target_field) == item_val
+                                        for item in item_target_data.values()
+                                    )
+                                    if item_val and not found:
                                         self.errors.append(ValidationError(
                                             'error', 'foreign_key_exists', entity_name, entity_key,
-                                            f"Foreign key {field_name}.{item_field_name}={item_val} not found in {item_field_def['foreign_key']['entity']}"
+                                            f"Foreign key {field_name}.{item_field_name}={item_val} not found in {item_target_entity}"
                                         ))
-                        elif val not in target_data:
-                            self.errors.append(ValidationError(
-                                'error', 'foreign_key_exists', entity_name, entity_key,
-                                f"Foreign key {field_name}={val} not found in {target_entity}"
-                            ))
+                        else:
+                            # Check if value exists in target field
+                            found = any(
+                                item.get(target_field) == val
+                                for item in target_data.values()
+                            )
+                            if not found:
+                                self.errors.append(ValidationError(
+                                    'error', 'foreign_key_exists', entity_name, entity_key,
+                                    f"Foreign key {field_name}={val} not found in {target_entity}"
+                                ))
 
     def validate_uuids(self):
         """Validate UUIDs match their derived values according to uuid.md specification"""
