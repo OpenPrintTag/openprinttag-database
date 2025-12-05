@@ -1,0 +1,10 @@
+connectors:
+  - uuid: 56675765-9393-4264-8937-721706a13b61
+    slug: prusa-sla-connector-standard
+    name: "Prusa SLA Standard Connector"
+    description: "Standard bottle connector for Prusa SLA printers (SL1/SL1S)"
+
+  - uuid: 22a16103-5771-4e67-8972-16445254930d
+    slug: generic-bottle-cap-standard
+    name: "Generic Bottle Cap"
+    description: "Standard screw-on bottle cap (no automatic filling)"

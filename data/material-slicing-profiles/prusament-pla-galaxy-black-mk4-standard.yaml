@@ -1,0 +1,60 @@
+id: 1
+slug: prusament-pla-galaxy-black-mk4-standard
+name: "Prusament PLA Galaxy Black - MK4 Standard Quality"
+
+# Print properties specific to this material + printer combo
+print_properties:
+  # Temperatures (°C)
+  nozzle_temperature: 215
+  first_layer_nozzle_temp: 215
+  bed_temperature: 60
+  first_layer_bed_temp: 60
+
+  # Speeds (mm/s)
+  perimeter_speed: 60
+  external_perimeter_speed: 40
+  infill_speed: 120
+  solid_infill_speed: 120
+  top_solid_infill_speed: 50
+  support_speed: 60
+  bridge_speed: 30
+  first_layer_speed: 20
+  travel_speed: 200
+
+  # Acceleration (mm/s²)
+  default_acceleration: 2000
+  perimeter_acceleration: 1500
+  infill_acceleration: 2000
+  bridge_acceleration: 1000
+  first_layer_acceleration: 1000
+
+  # Layer settings
+  layer_height: 0.2
+  first_layer_height: 0.2
+
+  # Cooling (%)
+  fan_speed_min: 0
+  fan_speed_max: 100
+  fan_below_layer_time: 20
+  bridge_fan_speed: 100
+  disable_fan_first_layers: 1
+
+  # Extrusion
+  extrusion_multiplier: 1.0
+
+  # Retraction
+  retraction_length: 3.2
+  retraction_speed: 35
+  deretraction_speed: 35
+  retraction_before_travel: 1.0
+
+  # Advanced
+  seam_position: aligned
+  external_perimeters_first: false
+
+# Match filters (when to use this profile)
+match_filters:
+  material_slug: prusament-pla-galaxy-black
+  printer_slug: prusa-mk4
+  quality_preset: standard
+  nozzle_diameter: 0.4
