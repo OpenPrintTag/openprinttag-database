@@ -5,6 +5,9 @@ name: ABS Thermochromic Green to Yellow
 class: FFF
 type_id: 5
 abbreviation: ''
+colors:
+- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+- 898d53aa-a022-47a2-a5c2-b12dd8868cd6
 tags:
 - temperature-color-change
 - dual-color

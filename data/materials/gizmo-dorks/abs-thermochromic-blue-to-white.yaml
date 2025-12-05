@@ -5,6 +5,9 @@ name: ABS Thermochromic Blue to White
 class: FFF
 type_id: 5
 abbreviation: ''
+colors:
+- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+- aae8da2a-e012-4559-b844-c175dcc28fb4
 tags:
 - temperature-color-change
 - dual-color

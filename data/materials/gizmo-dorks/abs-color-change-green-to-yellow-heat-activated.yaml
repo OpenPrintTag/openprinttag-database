@@ -5,6 +5,9 @@ name: ABS Color Change Green to Yellow (Heat Activated)
 class: FFF
 type_id: 5
 abbreviation: ''
+colors:
+- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+- 64a7801b-8584-4fda-9a51-ed087d9a7060
 tags:
 - temperature-color-change
 - dual-color

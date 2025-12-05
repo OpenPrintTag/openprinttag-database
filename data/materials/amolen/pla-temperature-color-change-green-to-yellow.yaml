@@ -5,6 +5,9 @@ name: PLA Temperature Color Change Green to Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- de8b5008-10c9-4313-b403-d57b95f51999
+- 82d10fcd-36ab-4e67-8d09-fd9d22ae85e2
 tags:
 - temperature-color-change
 - dual-color

@@ -5,6 +5,9 @@ name: PLA Color Change Blue to White (Heat Activated)
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+- 9ff71ced-a991-4871-802b-5d6e03ebbbdb
 tags:
 - temperature-color-change
 - dual-color

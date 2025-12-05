@@ -5,6 +5,8 @@ name: Temperature Color Change PLA Purple to Red
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 54951476-79a3-438c-a799-1ccf1bf37626
 tags:
 - temperature-color-change
 - dual-color

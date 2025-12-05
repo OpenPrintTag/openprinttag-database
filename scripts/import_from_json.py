@@ -122,8 +122,12 @@ def transform_material_type(mt: Dict, type_id: int) -> Dict[str, Any]:
 	
 	if mt.get('description'):
 		result['description'] = mt['description']
-	if mt.get('default_properties'):
-		result['default_properties'] = mt['default_properties']
+	
+	# default_properties must be an object (dict), not a UUID string
+	default_props = mt.get('default_properties')
+	if default_props and isinstance(default_props, dict):
+		result['default_properties'] = default_props
+	# If it's a UUID string or other non-object type, omit it (it's optional)
 	
 	return result
 
@@ -148,12 +152,8 @@ def transform_tag(tag: Dict, tag_id: int, tag_categories_map: Dict[int, Any], ta
 			category_name = category['name']
 	
 	# Also check tag_categories_tags table
-	if not category_name and tag_uuid and tag_uuid in tag_categories_tags_map:
-		category_uuids = tag_categories_tags_map[tag_uuid]
-		if category_uuids:
-			# Find category by UUID (we'd need a categories UUID map, but for now use first)
-			# This is a simplification - you might need to build a proper map
-			pass
+	# Note: This requires tag_categories_uuid_map which should be passed or built globally
+	# For now, we rely on the direct categories field above
 	
 	if category_name:
 		result['category'] = category_name
@@ -206,6 +206,55 @@ def transform_palette_color(color: Dict) -> Dict[str, Any]:
 		result['display_name'] = color['display_name']
 	if color.get('rgba'):
 		result['rgba'] = color['rgba']
+	
+	return result
+
+
+def transform_color(color: Dict) -> Dict[str, Any]:
+	"""Transform a color from JSON to YAML format"""
+	result = {
+		'uuid': color.get('uuid'),
+		'name': color.get('name', ''),
+	}
+	
+	# Calculate rgba from rgba_r, rgba_g, rgba_b, rgba_a
+	rgba_r = color.get('rgba_r')
+	rgba_g = color.get('rgba_g')
+	rgba_b = color.get('rgba_b')
+	rgba_a = color.get('rgba_a', 255)  # Default to 255 if not provided
+	
+	# Convert to integers if they're strings
+	if rgba_r is not None:
+		if isinstance(rgba_r, str):
+			try:
+				rgba_r = int(rgba_r)
+			except (ValueError, TypeError):
+				rgba_r = None
+	if rgba_g is not None:
+		if isinstance(rgba_g, str):
+			try:
+				rgba_g = int(rgba_g)
+			except (ValueError, TypeError):
+				rgba_g = None
+	if rgba_b is not None:
+		if isinstance(rgba_b, str):
+			try:
+				rgba_b = int(rgba_b)
+			except (ValueError, TypeError):
+				rgba_b = None
+	if rgba_a is not None:
+		if isinstance(rgba_a, str):
+			try:
+				rgba_a = int(rgba_a)
+			except (ValueError, TypeError):
+				rgba_a = 255
+	
+	# Format as #rrggbbaa hex string
+	if rgba_r is not None and rgba_g is not None and rgba_b is not None:
+		if rgba_a is None:
+			rgba_a = 255
+		rgba_hex = f"#{rgba_r:02x}{rgba_g:02x}{rgba_b:02x}{rgba_a:02x}"
+		result['rgba'] = rgba_hex
 	
 	return result
 
@@ -286,14 +335,27 @@ def transform_material(
 	if secondary_colors:
 		result['secondary_colors'] = secondary_colors
 	
-	# Material colors (for palette_color_alikes)
+	# Material colors - from materials_colors relationship table
 	material_uuid = material.get('uuid')
+	
+	# Colors lookup table references (by UUID)
+	material_colors_uuids = []
+	# Palette colors (for palette_color_alikes)
 	palette_colors = []
+	
 	if material_uuid and material_uuid in material_colors_map:
 		for color_uuid in material_colors_map[material_uuid]:
 			color = colors_map.get(color_uuid)
-			if color and color.get('palette_color_uuid'):
-				palette_colors.append(color['palette_color_uuid'])
+			if color:
+				# Add to colors array (reference by UUID from colors lookup table)
+				if color.get('uuid'):
+					material_colors_uuids.append(color['uuid'])
+				# Also check for palette color reference
+				if color.get('palette_color_uuid'):
+					palette_colors.append(color['palette_color_uuid'])
+	
+	if material_colors_uuids:
+		result['colors'] = material_colors_uuids
 	if palette_colors:
 		result['palette_color_alikes'] = palette_colors
 	
@@ -320,7 +382,7 @@ def transform_material(
 		if ri is not None:
 			result['refractive_index'] = ri
 	
-	# Tags
+	# Tags - resolve from material_tags relationship table
 	tags = []
 	if material_uuid and material_uuid in material_tags_map:
 		for tag_uuid in material_tags_map[material_uuid]:
@@ -329,6 +391,23 @@ def transform_material(
 				tag_slug = slugify(tag.get('name', ''))
 				if tag_slug:
 					tags.append(tag_slug)
+	
+	# Also check if material has direct tags field (fallback)
+	if not tags and material.get('tags'):
+		for tag_ref in material['tags']:
+			if isinstance(tag_ref, str):
+				# It's a UUID, resolve it
+				tag = resolve_uuid_reference(tag_ref, tags_map)
+				if tag:
+					tag_slug = slugify(tag.get('name', ''))
+					if tag_slug:
+						tags.append(tag_slug)
+			elif isinstance(tag_ref, dict):
+				# It's already a tag object
+				tag_slug = slugify(tag_ref.get('name', ''))
+				if tag_slug:
+					tags.append(tag_slug)
+	
 	if tags:
 		result['tags'] = tags
 	
@@ -555,11 +634,19 @@ def build_relationship_maps(data: Dict) -> Dict[str, Dict[str, List]]:
 		'material_photos': {},  # material_uuid -> [photo_ids]
 	}
 	
-	# Material tags
+	# Material tags - check multiple possible field names
+	material_tags_data = None
 	if 'material_tags' in data:
-		for mt in data['material_tags']:
-			material_uuid = mt.get('material_uuid')
-			tag_uuid = mt.get('tag_uuid')
+		material_tags_data = data['material_tags']
+	elif 'materials_tags' in data:
+		material_tags_data = data['materials_tags']
+	
+	if material_tags_data:
+		for mt in material_tags_data:
+			# Try multiple field name variations
+			material_uuid = mt.get('material_uuid') or mt.get('materials_uuid') or mt.get('material')
+			tag_uuid = mt.get('tag_uuid') or mt.get('tags_uuid') or mt.get('tag')
+			
 			if material_uuid and tag_uuid:
 				if material_uuid not in maps['material_tags']:
 					maps['material_tags'][material_uuid] = []
@@ -686,15 +773,25 @@ def main():
 	tags_output = []
 	tag_id_counter = 1
 	tag_categories_tags_map = {}  # tag_uuid -> [category_uuids]
+	
+	# Build tag categories map by UUID for lookup (used in transform_tag)
+	tag_categories_uuid_map = {}
+	if 'tag_categories' in data:
+		for tc in data['tag_categories']:
+			if tc.get('uuid'):
+				tag_categories_uuid_map[tc['uuid']] = tc
+	
+	# Build tag_categories_tags relationship map
 	if 'tag_categories_tags' in data:
 		for tct in data['tag_categories_tags']:
-			tag_uuid = tct.get('tags_uuid')
-			category_uuid = tct.get('tag_categories_uuid')
+			tag_uuid = tct.get('tags_uuid') or tct.get('tag_uuid')
+			category_uuid = tct.get('tag_categories_uuid') or tct.get('tag_category_uuid')
 			if tag_uuid and category_uuid:
 				if tag_uuid not in tag_categories_tags_map:
 					tag_categories_tags_map[tag_uuid] = []
 				tag_categories_tags_map[tag_uuid].append(category_uuid)
 	
+	# Transform tags
 	for tag in data.get('tags', []):
 		transformed = transform_tag(tag, tag_id_counter, tag_categories_map, tag_categories_tags_map)
 		if transformed:
@@ -725,6 +822,15 @@ def main():
 			transformed = transform_palette_color(color)
 			if transformed:
 				palette_colors_output.append(transformed)
+	
+	# Colors
+	colors_output = []
+	if 'colors' in data:
+		for color in data['colors']:
+			transformed = transform_color(color)
+			if transformed and transformed.get('uuid') and transformed.get('name') and transformed.get('rgba'):
+				colors_output.append(transformed)
+	colors_output.sort(key=lambda x: x.get('name', ''))
 	
 	# Transform materials
 	print("  Transforming materials...")
@@ -811,6 +917,10 @@ def main():
 		with open(lookup_dir / "palette-colors.yaml", 'w') as f:
 			yaml.dump({'colors': palette_colors_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
 	
+	if colors_output:
+		with open(lookup_dir / "colors.yaml", 'w') as f:
+			yaml.dump({'colors': colors_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
+	
 	# Write materials
 	materials_dir = output_dir / "materials"
 	materials_dir.mkdir(parents=True, exist_ok=True)
@@ -848,8 +958,10 @@ def main():
 	print(f"  - Material Containers: {len(containers_output)}")
 	print(f"  - Material Types: {len(material_types_output)}")
 	print(f"  - Tags: {len(tags_output)}")
+	print(f"  - Material-Tag Relationships: {sum(len(tags) for tags in relationship_maps['material_tags'].values())}")
 	print(f"  - Certifications: {len(certifications_output)}")
 	print(f"  - Countries: {len(countries_output)}")
+	print(f"  - Colors: {len(colors_output)}")
 
 
 if __name__ == '__main__':

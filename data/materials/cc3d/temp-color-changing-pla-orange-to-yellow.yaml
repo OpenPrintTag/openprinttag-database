@@ -5,6 +5,9 @@ name: Temp Color Changing PLA Orange to Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- f52c9109-108f-4c4f-9663-0e1a208e9157
+- ae70f6e5-412c-44f7-8b93-20437976ae58
 tags:
 - temperature-color-change
 - dual-color

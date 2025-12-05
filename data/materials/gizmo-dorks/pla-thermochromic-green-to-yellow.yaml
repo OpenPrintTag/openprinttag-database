@@ -5,6 +5,9 @@ name: PLA Thermochromic Green to Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 898d53aa-a022-47a2-a5c2-b12dd8868cd6
+- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
 tags:
 - temperature-color-change
 - dual-color

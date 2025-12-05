@@ -5,6 +5,9 @@ name: ABS Color Change Grey to White (Heat Activated)
 class: FFF
 type_id: 5
 abbreviation: ''
+colors:
+- e06fbbdb-323e-4157-9744-5631c05ce2ad
+- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
 tags:
 - dual-color
 - temperature-color-change

@@ -5,6 +5,9 @@ name: PLA Temperature Color Change Orange to White
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+- ed457b23-9352-4c42-9519-dfbdd40e803e
 tags:
 - temperature-color-change
 - dual-color

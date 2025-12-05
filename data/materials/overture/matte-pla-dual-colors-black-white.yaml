@@ -5,6 +5,9 @@ name: Matte PLA Dual Colors Black-White
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
 tags:
 - matte
 - dual-color

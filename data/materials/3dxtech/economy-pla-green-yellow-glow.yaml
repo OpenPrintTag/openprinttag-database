@@ -5,6 +5,9 @@ name: Economy PLA green-yellow-glow
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 455881e0-0657-44f8-9458-bad0c74bfda9
+- 02a93184-2bbb-4aa1-8818-67458224e16e
 tags:
 - industrially-compostable
 - illuminescent-color-change
