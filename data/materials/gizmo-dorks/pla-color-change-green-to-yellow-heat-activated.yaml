@@ -5,6 +5,9 @@ name: PLA Color Change Green to Yellow (Heat Activated)
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+- 898d53aa-a022-47a2-a5c2-b12dd8868cd6
 tags:
 - dual-color
 - temperature-color-change

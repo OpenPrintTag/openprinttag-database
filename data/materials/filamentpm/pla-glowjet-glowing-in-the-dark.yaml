@@ -5,6 +5,9 @@ name: ' PLA GlowJet - glowing in the dark '
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
+- e50ce36d-9a2c-497a-9d0e-fc482e9f7ca8
 tags:
 - glow-in-the-dark
 - abrasive

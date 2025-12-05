@@ -5,6 +5,9 @@ name: PLA Thermochromic Gray to White
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+- a5b3a080-c269-4dba-b9e4-547547bc6761
 tags:
 - dual-color
 - temperature-color-change

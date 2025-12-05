@@ -42,6 +42,13 @@ validate: setup
 import: setup
 	@echo "Importing data from JSON..."
 	@$(PYTHON) $(SCRIPTS_DIR)/import_from_json.py
+	@echo "✓ Import complete!"
+	@echo "Fix slugs..."
+	@$(PYTHON) $(SCRIPTS_DIR)/fix_slugs.py
+	@echo "✓ Fix slugs complete!"
+	@echo "Fix UUIDs..."
+	@$(PYTHON) $(SCRIPTS_DIR)/fix_uuids.py
+	@echo "✓ Fix UUIDs complete!"
 
 build: setup
 	@echo "Building material database..."

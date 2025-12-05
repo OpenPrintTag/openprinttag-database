@@ -185,6 +185,23 @@ entities:
         type: rgba
         required: false
 
+  colors:
+    directory: "data/lookup-tables"
+    file: "colors.yaml"
+    type: lookup_table
+    root_key: "colors"
+    fields:
+      uuid:
+        type: uuid
+        required: true
+      name:
+        type: string
+        max_length: 255
+        required: true
+      rgba:
+        type: rgba
+        required: true
+
   sla_container_connectors:
     directory: "data/lookup-tables"
     file: "sla-container-connectors.yaml"
@@ -476,6 +493,14 @@ entities:
             rgba:
               type: rgba
               required: true
+        required: false
+      colors:
+        type: array
+        items:
+          type: string
+          foreign_key:
+            entity: colors
+            field: uuid
         required: false
       palette_color_alikes:
         type: array

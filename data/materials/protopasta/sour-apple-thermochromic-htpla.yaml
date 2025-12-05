@@ -5,6 +5,9 @@ name: Sour Apple Thermochromic HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- 73baf610-aea4-46a8-b0d0-ef62bc779438
+- 1d3a26db-574d-45a3-a3ee-5dc8604f7980
 tags:
 - temperature-color-change
 - dual-color

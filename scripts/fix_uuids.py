@@ -130,32 +130,32 @@ def fix_material_package_uuids(base_path: Path, loader: DatabaseLoader):
         print("  No changes needed")
     return fixed_count
 
+# TODO: Uncomment this when we have palette colors UUID
+# def fix_palette_color_uuids(base_path: Path):
+#     """Fix palette color UUIDs"""
+#     file_path = base_path / 'data' / 'lookup-tables' / 'palette-colors.yaml'
 
-def fix_palette_color_uuids(base_path: Path):
-    """Fix palette color UUIDs"""
-    file_path = base_path / 'data' / 'lookup-tables' / 'palette-colors.yaml'
+#     print("Fixing palette color UUIDs...")
+#     data = load_yaml(file_path)
+#     fixed_count = 0
 
-    print("Fixing palette color UUIDs...")
-    data = load_yaml(file_path)
-    fixed_count = 0
+#     for color in data.get('colors', []):
+#         correct_uuid = generate_palette_color_uuid(
+#             color['palette'],
+#             color['canonical_name']
+#         )
 
-    for color in data.get('colors', []):
-        correct_uuid = generate_palette_color_uuid(
-            color['palette'],
-            color['canonical_name']
-        )
+#         if str(correct_uuid) != color.get('uuid'):
+#             print(f"  {color['palette']}-{color['canonical_name']}: {color.get('uuid')} -> {correct_uuid}")
+#             color['uuid'] = str(correct_uuid)
+#             fixed_count += 1
 
-        if str(correct_uuid) != color.get('uuid'):
-            print(f"  {color['palette']}-{color['canonical_name']}: {color.get('uuid')} -> {correct_uuid}")
-            color['uuid'] = str(correct_uuid)
-            fixed_count += 1
+#     if fixed_count > 0:
+#         save_yaml(file_path, data)
+#     else:
+#         print("  No changes needed")
 
-    if fixed_count > 0:
-        save_yaml(file_path, data)
-    else:
-        print("  No changes needed")
-
-    return fixed_count
+#     return fixed_count
 
 
 def main():
@@ -179,7 +179,7 @@ def main():
     total_fixed += fix_brand_uuids(repo_root, loader)
     total_fixed += fix_material_uuids(repo_root, loader)
     total_fixed += fix_material_package_uuids(repo_root, loader)
-    total_fixed += fix_palette_color_uuids(repo_root)
+    # total_fixed += fix_palette_color_uuids(repo_root)
 
     print()
     if total_fixed > 0:

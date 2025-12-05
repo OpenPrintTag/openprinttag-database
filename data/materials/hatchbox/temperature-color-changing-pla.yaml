@@ -5,6 +5,10 @@ name: 'Temperature Color Changing PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
+colors:
+- c7afd4fb-8328-4835-ab17-abeb0fcef577
+- ed457b23-9352-4c42-9519-dfbdd40e803e
+- 1f2c2655-e68c-4d30-9fe6-b2f928021548
 tags:
 - multicolor
 - temperature-color-change

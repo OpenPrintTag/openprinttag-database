@@ -5,6 +5,11 @@ name: TPU Flexible Red Green Purple Orange Translucent Rainbow
 class: FFF
 type_id: 26
 abbreviation: ''
+colors:
+- c0eaefba-6e7a-4316-9244-bff28800827a
+- de8b5008-10c9-4313-b403-d57b95f51999
+- cadfa5c0-8ac1-422c-8d95-a484f5e329b3
+- e3d4e4d5-92a5-440a-9c2d-3fce1b4ae81b
 tags:
 - gradual-color-change
 - translucent
