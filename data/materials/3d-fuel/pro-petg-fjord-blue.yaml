@@ -5,6 +5,8 @@ name: Pro PETG, Fjord Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#386dffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3bd5f5ccff8d.jpg
   type: unspecified

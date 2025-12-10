@@ -5,6 +5,8 @@ name: Machinery Grey rPETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dcb497e17a5a.jpg
   type: unspecified

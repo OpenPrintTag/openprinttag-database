@@ -5,6 +5,8 @@ name: PS Imports PLA Starry Sky Color-Star Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c63dbaff'
 tags:
 - glitter
 - transparent

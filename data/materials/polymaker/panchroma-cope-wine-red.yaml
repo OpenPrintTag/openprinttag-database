@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Wine Red
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#d60212ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b990e1dc4a07.png
   type: unspecified

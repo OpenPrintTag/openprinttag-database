@@ -5,6 +5,8 @@ name: Panchroma™ Luminous PLA Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - glow-in-the-dark
 - abrasive

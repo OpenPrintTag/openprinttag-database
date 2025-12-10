@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-magic-silk-pla-tricolor?variant=51494334857429
-colors:
-- 53bd1262-b96c-469b-ba45-26c3fa54ead1
-- 619dde05-83ae-4bfa-bdf5-99feaee10d49
-- d3db0bab-48c0-48d5-91e7-6a4e3a5dc9f1
+secondary_colors:
+- rgba: '#4921c1ff'
+- rgba: '#008059ff'
+- rgba: '#a000caff'
 tags:
 - silk
 - coextruded

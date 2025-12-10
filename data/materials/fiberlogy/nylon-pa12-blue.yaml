@@ -5,6 +5,8 @@ name: Nylon PA12 blue
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/09538c4dc09a.png
   type: unspecified

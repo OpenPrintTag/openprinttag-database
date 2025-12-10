@@ -5,11 +5,11 @@ name: Fading Rainbow Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- cd7ff4b9-83cd-4737-9355-64b70c843db9
-- 1f74420a-be3a-458d-bc9d-f115d91e9996
-- b373d2fd-33d0-41e4-84ad-83258cb5a9d3
-- 15dc12f5-e076-4091-939d-d5ddd5fee1e1
+secondary_colors:
+- rgba: '#9ef9ffff'
+- rgba: '#dabcc8ff'
+- rgba: '#add8abff'
+- rgba: '#9bcefeff'
 tags:
 - multicolor
 - transparent

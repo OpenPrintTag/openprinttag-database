@@ -5,6 +5,8 @@ name: Gold TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8718e73983de.jpg
   type: unspecified

@@ -5,6 +5,8 @@ name: Too Good to be Blue PLA Shade-Shifting
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#274bb6ff'
 tags:
 - iridescent
 - industrially-compostable

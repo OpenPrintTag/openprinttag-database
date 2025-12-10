@@ -5,6 +5,8 @@ name: Nylon PA12 White
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f5ceeb1c77bf.png
   type: unspecified

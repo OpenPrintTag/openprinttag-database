@@ -5,6 +5,8 @@ name: PLA+ HS (Pro) VOXEL Phantom Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#003287ff'
 tags:
 - industrially-compostable
 photos:

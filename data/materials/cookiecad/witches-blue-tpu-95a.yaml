@@ -6,9 +6,9 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://cookiecad.com/products/tpu-witches-blue-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors:
+- rgba: '#0353baff'
+- rgba: '#6c47b2ff'
 tags:
 - iridescent
 properties:

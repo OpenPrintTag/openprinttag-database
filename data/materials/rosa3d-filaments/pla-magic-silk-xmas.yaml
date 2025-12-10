@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-xmas
-colors:
-- 66942753-4201-436d-bfd7-cc7a52f75f94
-- ce985e3f-efa1-42eb-89ae-20ecb3c06e4f
+secondary_colors:
+- rgba: '#206233ff'
+- rgba: '#e2ff4dff'
 tags:
 - coextruded
 - silk

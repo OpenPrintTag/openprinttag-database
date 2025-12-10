@@ -5,6 +5,8 @@ name: MAX-G PETG Reflex Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3552d0d1eff2.png
   type: unspecified

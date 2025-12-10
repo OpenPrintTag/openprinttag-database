@@ -5,6 +5,8 @@ name: PLA - Envy Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#665a28ff'
 tags:
 - iridescent
 - industrially-compostable

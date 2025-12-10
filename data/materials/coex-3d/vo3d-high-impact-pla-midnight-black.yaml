@@ -5,6 +5,8 @@ name: VO3D High Impact PLA Midnight Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - industrially-compostable
 photos:

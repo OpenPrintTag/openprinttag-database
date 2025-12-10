@@ -5,6 +5,8 @@ name: Cobalt Blue ASA Prime
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#09048eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/38394bd46d68.png
   type: unspecified

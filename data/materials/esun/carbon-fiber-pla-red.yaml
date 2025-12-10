@@ -5,6 +5,8 @@ name: Carbon Fiber PLA Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4f3638ff'
 tags:
 - contains-carbon-fiber
 - matte

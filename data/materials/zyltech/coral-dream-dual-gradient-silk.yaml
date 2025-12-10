@@ -5,9 +5,9 @@ name: Coral Dream Dual Gradient Silk
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3f216a6c-0611-4ad2-8086-8a6fce3a0395
-- e6d37a77-1b24-437f-982c-679432508d68
+secondary_colors:
+- rgba: '#e72f1dff'
+- rgba: '#ff7a33ff'
 tags:
 - silk
 - industrially-compostable

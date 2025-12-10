@@ -5,6 +5,8 @@ name: ' ABS - Marble Dark '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#c3ccd5ff'
 tags:
 - imitates-marble
 - filtration-recomended

@@ -5,6 +5,8 @@ name: PETG grey | RAL 7044
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a49f95ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6889e568b2ee.png
   type: unspecified

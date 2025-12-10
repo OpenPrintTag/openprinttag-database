@@ -5,6 +5,8 @@ name: PLA Matte Moon Gray
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9f9f9fff'
 tags:
 - matte
 - industrially-compostable

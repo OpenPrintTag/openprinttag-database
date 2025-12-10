@@ -5,6 +5,8 @@ name: Turquoise PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#488d94ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/44d3d4b0de7e.png
   type: unspecified

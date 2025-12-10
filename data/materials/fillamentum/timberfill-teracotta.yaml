@@ -5,6 +5,8 @@ name: Timberfill® "Teracotta"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#cd5a2eff'
 tags:
 - contains-wood
 - imitates-wood

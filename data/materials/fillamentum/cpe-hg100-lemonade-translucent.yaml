@@ -5,6 +5,8 @@ name: CPE HG100 "Lemonade Translucent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 tags:
 - transparent
 photos:

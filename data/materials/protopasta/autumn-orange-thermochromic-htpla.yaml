@@ -5,9 +5,9 @@ name: Autumn Orange Thermochromic HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
-- 345b23d5-2467-4253-9530-972965f9993a
+secondary_colors:
+- rgba: '#ffc946ff'
+- rgba: '#ff5f2eff'
 tags:
 - temperature-color-change
 - dual-color

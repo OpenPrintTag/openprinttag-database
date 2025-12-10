@@ -5,6 +5,8 @@ name: PETG Sparkle Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#253f56ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3eb0e85f498b.jpg
   type: unspecified

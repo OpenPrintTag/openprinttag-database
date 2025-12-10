@@ -5,6 +5,8 @@ name: Transparent Yellow ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#fadb24ff'
 tags:
 - translucent
 - filtration-recomended

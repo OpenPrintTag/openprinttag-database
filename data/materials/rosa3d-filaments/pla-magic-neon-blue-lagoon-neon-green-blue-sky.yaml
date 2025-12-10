@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-magic-neon-blue-lagoon-neon-green-plus-blue-sky-1kg
-colors:
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
+secondary_colors:
+- rgba: '#39b9dbff'
+- rgba: '#62e480ff'
 tags:
 - neon
 - coextruded

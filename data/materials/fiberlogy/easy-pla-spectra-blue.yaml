@@ -5,6 +5,8 @@ name: Easy PLA Spectra Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#23668cff'
 tags:
 - iridescent
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA Turquoise Cyan
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#36dbe7ff'
 tags:
 - industrially-compostable
 photos:

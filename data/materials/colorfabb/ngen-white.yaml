@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen White
 class: FFF
 abbreviation: nGen
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4978fe3a82d6.png
   type: unspecified

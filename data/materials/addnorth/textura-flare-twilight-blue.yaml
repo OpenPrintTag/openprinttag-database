@@ -5,6 +5,8 @@ name: Textura™ Flare Twilight Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6c93b5ff'
 tags:
 - matte
 - contains-plant

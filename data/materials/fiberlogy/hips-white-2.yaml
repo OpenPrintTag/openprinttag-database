@@ -5,6 +5,8 @@ name: HIPS White
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - matte
 photos:

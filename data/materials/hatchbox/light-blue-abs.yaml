@@ -5,6 +5,8 @@ name: Light Blue ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#386dffff'
 tags:
 - filtration-recomended
 photos:

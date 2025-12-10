@@ -5,6 +5,8 @@ name: 'PLA-CF Matcha Green '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#363c32ff'
 tags:
 - contains-carbon-fiber
 - abrasive

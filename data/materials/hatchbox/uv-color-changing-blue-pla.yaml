@@ -5,9 +5,9 @@ name: UV Color Changing Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- f179b153-a44c-4d87-b245-a4d231519976
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#617fccff'
 tags:
 - illuminescent-color-change
 - industrially-compostable

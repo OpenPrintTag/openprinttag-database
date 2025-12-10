@@ -5,6 +5,8 @@ name: PLA Extrafill "Vertigo Jade"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#178b9fff'
 tags:
 - glitter
 - industrially-compostable

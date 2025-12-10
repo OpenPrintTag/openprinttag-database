@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/safeguard-pla/
+primary_color:
+  rgba: '#000000ff'
 tags:
 - antibacterial
 - industrially-compostable

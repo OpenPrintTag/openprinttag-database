@@ -5,12 +5,12 @@ name: Silk Rainbow A Cosmic Series Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- 8cb0b93c-a86c-4aa2-adbd-92e497eac93e
-- f50921e1-4192-41d8-91ab-84b8a078a2bb
-- 619dde05-83ae-4bfa-bdf5-99feaee10d49
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#0353baff'
+- rgba: '#f300eaff'
+- rgba: '#ea9e3fff'
+- rgba: '#008059ff'
 tags:
 - silk
 - multicolor

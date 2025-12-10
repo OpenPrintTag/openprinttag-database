@@ -5,6 +5,8 @@ name: PLA RECYCLED Traffic
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e6b535ff'
 tags:
 - recycled
 - industrially-compostable

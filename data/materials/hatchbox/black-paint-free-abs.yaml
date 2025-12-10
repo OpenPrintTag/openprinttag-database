@@ -5,6 +5,8 @@ name: Black Paint Free ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#373737ff'
 tags:
 - filtration-recomended
 photos:

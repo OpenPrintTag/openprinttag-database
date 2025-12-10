@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/abs-gp450/
+primary_color:
+  rgba: '#91c500ff'
 tags:
 - filtration-recomended
 properties:

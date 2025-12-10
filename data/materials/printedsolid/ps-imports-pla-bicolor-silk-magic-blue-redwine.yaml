@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Silk Magic-Blue-Redwine
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- 3fb304ce-6af8-407c-85cd-41c567d640ce
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#ed1536ff'
 tags:
 - silk
 - industrially-compostable

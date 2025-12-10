@@ -5,6 +5,8 @@ name: RepRap Green PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#317c2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/173aa564a7f6.png
   type: unspecified

@@ -5,6 +5,8 @@ name: CPE CF112 Carbon
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#4c4e56ff'
 tags:
 - contains-carbon-fiber
 - abrasive

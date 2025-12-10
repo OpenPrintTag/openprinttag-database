@@ -5,6 +5,8 @@ name: Firefly Green PRO Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c6f666ff'
 tags:
 - transparent
 - industrially-compostable

@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.tectonic-3d.com/products/aura-abs-ec-excellent-color-consistence?variant=50048349208906
+primary_color:
+  rgba: '#ec0000ff'
 tags:
 - filtration-recomended
 properties: {}

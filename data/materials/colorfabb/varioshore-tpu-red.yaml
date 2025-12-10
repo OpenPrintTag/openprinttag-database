@@ -5,6 +5,8 @@ name: varioShore TPU Red
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#bb2e33ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/08232c685b08.png
   type: unspecified

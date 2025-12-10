@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-high-speed/
-colors:
-- 5019134c-2526-4924-9b7c-349278e205eb
-- 99be1304-74de-4a05-bea4-8ef2ab9ee418
+secondary_colors:
+- rgba: '#dfdfd3ff'
+- rgba: '#386dffff'
 tags:
 - satin
 - illuminescent-color-change

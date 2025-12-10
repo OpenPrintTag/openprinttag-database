@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Muted White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#afa198ff'
 tags:
 - matte
 - industrially-compostable

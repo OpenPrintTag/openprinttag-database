@@ -5,9 +5,9 @@ name: Silk PLA Dual Color Green Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c59d6aee-d3ca-45ea-b387-17550a7d30bf
-- bbefd8f2-bd45-47c7-8422-8bdb1ba8694b
+secondary_colors:
+- rgba: '#06924dff'
+- rgba: '#861d2bff'
 tags:
 - silk
 - dual-color

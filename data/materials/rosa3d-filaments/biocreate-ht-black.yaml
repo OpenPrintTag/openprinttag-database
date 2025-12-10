@@ -5,6 +5,8 @@ name: BioCREATE HT Black
 class: FFF
 abbreviation: BioCREATE
 url: https://www.rosa3d.pl/en/filament-3d-refill-biocreate-ht-175mm-black-1kg
+primary_color:
+  rgba: '#000000ff'
 tags:
 - high-temperature
 properties: {}

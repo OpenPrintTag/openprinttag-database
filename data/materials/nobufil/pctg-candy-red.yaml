@@ -5,6 +5,8 @@ name: PCTG Candy Red
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#b7293eff'
 tags:
 - transparent
 photos:

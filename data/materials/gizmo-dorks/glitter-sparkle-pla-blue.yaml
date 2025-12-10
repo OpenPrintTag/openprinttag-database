@@ -5,6 +5,8 @@ name: Glitter Sparkle PLA Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9cd0dbff'
 tags:
 - glitter
 - industrially-compostable

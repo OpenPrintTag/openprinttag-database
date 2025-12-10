@@ -5,6 +5,8 @@ name: Hytrel® 3D4000FL NC010 40D TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/37ae949f1b74.png
   type: unspecified

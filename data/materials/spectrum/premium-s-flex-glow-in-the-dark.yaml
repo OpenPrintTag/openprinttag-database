@@ -5,6 +5,8 @@ name: Premium S-Flex Glow in the Dark
 class: FFF
 abbreviation: S-Flex
 url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color:
+  rgba: '#70fa00ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

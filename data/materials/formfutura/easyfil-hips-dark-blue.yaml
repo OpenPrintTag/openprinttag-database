@@ -5,6 +5,8 @@ name: ' EasyFil HIPS Dark Blue'
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9fc251b642f5.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Pastel Green TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4f4771c9724b.jpg
   type: unspecified

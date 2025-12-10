@@ -5,6 +5,8 @@ name: PETG yellow | RAL 1023
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffd342ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b652d7716f20.png
   type: unspecified

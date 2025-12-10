@@ -5,6 +5,8 @@ name: Panchroma™ Starlight PLA Comet
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#668c80ff'
 tags:
 - glitter
 - industrially-compostable

@@ -6,9 +6,9 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://printwithsmile.cz/gb/pet-g/359-bicolor-metallic-pet-g-175-mm-green-brown-750-g-8594196452054.html?_gl=1*1qteo9k*_up*MQ..*_ga*NzM0MTU1NjYxLjE3NTg3OTc3MjY.*_ga_WJWWDL749C*czE3NTg4NzQyNjckbzMkZzEkdDE3NTg4NzQ0MzckajYwJGwwJGgw
-colors:
-- a3b6206a-8400-4cb7-8808-4ed8f985b4f1
-- ea2725d1-1d39-48aa-b9bc-31f3258f651a
+secondary_colors:
+- rgba: '#705939ff'
+- rgba: '#739549ff'
 tags:
 - iridescent
 - dual-color

@@ -5,6 +5,8 @@ name: 'Panchroma™ Silk PLA Lime '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#91c500ff'
 tags:
 - silk
 - industrially-compostable

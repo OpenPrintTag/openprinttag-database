@@ -5,6 +5,8 @@ name: CPE HG100 "Natural"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - translucent
 photos:

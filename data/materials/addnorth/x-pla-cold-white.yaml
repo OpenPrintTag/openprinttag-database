@@ -5,6 +5,8 @@ name: X-PLA Cold White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 tags:
 - industrially-compostable
 photos:

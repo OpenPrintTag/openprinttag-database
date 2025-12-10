@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/3d-filament-refill-pet-g-mdt-x-ray-dt-blue-1kg
+primary_color:
+  rgba: '#3292b2ff'
 tags:
 - metal-detectable
 properties: {}

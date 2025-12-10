@@ -5,6 +5,8 @@ name: PETG Transparent Sky Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#99b2deff'
 tags:
 - translucent
 photos:

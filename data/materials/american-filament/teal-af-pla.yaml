@@ -5,6 +5,8 @@ name: Teal AF PLA+
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 tags:
 - industrially-compostable
 photos:

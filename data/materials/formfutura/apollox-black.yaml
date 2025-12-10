@@ -5,6 +5,8 @@ name: ' ApolloX Black'
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/70f4362979a2.png
   type: unspecified

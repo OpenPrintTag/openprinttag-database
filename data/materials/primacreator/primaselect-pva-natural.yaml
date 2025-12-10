@@ -5,6 +5,8 @@ name: PrimaSelect PVA Natural
 class: FFF
 type_id: 22
 abbreviation: ''
+primary_color:
+  rgba: '#ddb95dff'
 tags:
 - translucent
 photos:

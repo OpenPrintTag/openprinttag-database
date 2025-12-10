@@ -5,6 +5,8 @@ name: ABS Extrafill "Luminous Orange"
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#f47d59ff'
 tags:
 - filtration-recomended
 photos:

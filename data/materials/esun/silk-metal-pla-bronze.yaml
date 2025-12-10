@@ -5,6 +5,8 @@ name: Silk Metal PLA Bronze
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a79e82ff'
 tags:
 - silk
 - imitates-metal

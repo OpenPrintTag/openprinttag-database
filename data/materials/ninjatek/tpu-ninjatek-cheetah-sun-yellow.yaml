@@ -5,6 +5,8 @@ name: TPU NinjaTek Cheetah - Sun Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffe15bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a02458255d7e.png
   type: unspecified

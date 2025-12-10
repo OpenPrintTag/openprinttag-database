@@ -5,6 +5,8 @@ name: 'PolyFlex™ TPU95 Black '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1b405bd96c18.png
   type: unspecified

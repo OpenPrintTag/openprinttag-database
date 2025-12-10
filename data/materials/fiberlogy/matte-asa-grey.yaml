@@ -5,6 +5,8 @@ name: Matte ASA Grey
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 tags:
 - matte
 photos:

@@ -5,6 +5,8 @@ name: 'PETG Magenta '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c80181ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d7d20f375ef4.jpg
   type: unspecified

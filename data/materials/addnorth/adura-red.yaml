@@ -4,6 +4,8 @@ brand_slug: addnorth
 name: Adura™ Red
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0954c96892e4.png
   type: unspecified

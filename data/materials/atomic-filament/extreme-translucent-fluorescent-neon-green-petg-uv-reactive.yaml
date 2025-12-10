@@ -5,6 +5,8 @@ name: Extreme Translucent Fluorescent Neon Green PETG - UV REACTIVE
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#7fe200ff'
 tags:
 - neon
 - translucent

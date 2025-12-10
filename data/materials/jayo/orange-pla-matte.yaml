@@ -5,6 +5,8 @@ name: Orange PLA Matte
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff8e24ff'
 tags:
 - matte
 - industrially-compostable

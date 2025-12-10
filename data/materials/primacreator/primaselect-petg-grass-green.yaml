@@ -5,6 +5,8 @@ name: PrimaSelect PETG Grass Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#06b100ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4a8ca6f9ed52.png
   type: unspecified

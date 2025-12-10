@@ -5,9 +5,9 @@ name: PLA Orange to Green Gradient
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7ef1015a-0960-4b50-a3c8-614d054fd664
-- 15b48d84-9710-48c4-a449-8fdb8dfdd785
+secondary_colors:
+- rgba: '#fd9106ff'
+- rgba: '#bbdb4bff'
 tags:
 - color-gradient
 - dual-color

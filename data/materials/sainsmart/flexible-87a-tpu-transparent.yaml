@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.sainsmart.com/products/sainsmart-87a-tpu-filament-1-75mm-1kg-transparent?_pos=7&_fid=0b0f09340&_ss=c
+primary_color:
+  rgba: '#efefefff'
 properties:
   hardness_shore_a: 87

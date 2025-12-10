@@ -5,6 +5,8 @@ name: Magenta PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f2306eff'
 tags:
 - neon
 - industrially-compostable

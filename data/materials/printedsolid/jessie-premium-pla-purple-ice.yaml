@@ -5,6 +5,8 @@ name: Jessie Premium PLA Purple Ice
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8846aeff'
 tags:
 - transparent
 - industrially-compostable

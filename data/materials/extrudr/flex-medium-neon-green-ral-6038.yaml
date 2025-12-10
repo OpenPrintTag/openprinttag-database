@@ -5,6 +5,8 @@ name: FLEX Medium neon green | RAL 6038
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#69ee00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d2ddb2ddeef1.png
   type: unspecified

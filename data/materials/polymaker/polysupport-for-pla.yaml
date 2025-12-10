@@ -4,6 +4,8 @@ brand_slug: polymaker
 name: PolySupport™ for PLA
 class: FFF
 abbreviation: PolySupport™
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0b6bc30da078.png
   type: unspecified

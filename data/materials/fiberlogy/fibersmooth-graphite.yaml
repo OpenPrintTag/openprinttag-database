@@ -5,6 +5,8 @@ name: FiberSmooth Graphite
 class: FFF
 type_id: 12
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 tags:
 - ipa-soluble
 photos:

@@ -5,9 +5,9 @@ name: Panchroma™ Gradient Matte PLA Summer
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ed38752d-88e0-4107-a92d-b32e285e321d
-- ab92fe8b-b144-4a69-91c0-b0d2e92f0e49
+secondary_colors:
+- rgba: '#9aee6cff'
+- rgba: '#60ab61ff'
 tags:
 - matte
 - industrially-compostable

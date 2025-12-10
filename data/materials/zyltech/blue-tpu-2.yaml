@@ -5,6 +5,8 @@ name: Blue TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2a303bd74f09.png
   type: unspecified

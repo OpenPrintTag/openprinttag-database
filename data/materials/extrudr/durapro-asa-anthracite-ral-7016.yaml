@@ -5,6 +5,8 @@ name: DuraPro ASA anthracite | RAL 7016
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#26272bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cf44ee6dffca.png
   type: unspecified

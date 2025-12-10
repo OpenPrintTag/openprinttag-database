@@ -5,6 +5,8 @@ name: PLA Blend Royal Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00518fff'
 transmission_distance: 0.8
 tags:
 - silk

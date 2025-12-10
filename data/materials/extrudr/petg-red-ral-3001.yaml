@@ -5,6 +5,8 @@ name: PETG red | RAL 3001
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2fcc5fd84c0a.png
   type: unspecified

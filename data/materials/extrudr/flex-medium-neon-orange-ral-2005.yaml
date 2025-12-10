@@ -5,6 +5,8 @@ name: FLEX Medium neon orange | RAL 2005
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a7945d9465a1.png
   type: unspecified

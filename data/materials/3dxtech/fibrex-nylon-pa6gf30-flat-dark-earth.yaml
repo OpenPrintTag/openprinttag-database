@@ -5,6 +5,8 @@ name: FIBREX™ Nylon PA6+GF30  Flat Dark Earth
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#b38f6eff'
 tags:
 - contains-glass-fiber
 - abrasive

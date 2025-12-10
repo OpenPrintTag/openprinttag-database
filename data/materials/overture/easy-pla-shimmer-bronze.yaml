@@ -5,6 +5,8 @@ name: Easy PLA Shimmer Bronze
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#81ba6dff'
 tags:
 - iridescent
 - industrially-compostable

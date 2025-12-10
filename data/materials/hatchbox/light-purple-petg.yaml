@@ -5,6 +5,8 @@ name: Light Purple PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#8178c8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9facde37badc.jpg
   type: unspecified

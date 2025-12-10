@@ -5,6 +5,8 @@ name: HIPS Purple
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#963877ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9f72e7a3fd91.png
   type: unspecified

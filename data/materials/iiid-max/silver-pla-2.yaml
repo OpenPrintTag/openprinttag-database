@@ -5,6 +5,8 @@ name: Silver PLA+
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - industrially-compostable
 photos:

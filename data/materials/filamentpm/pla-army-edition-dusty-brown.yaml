@@ -5,6 +5,8 @@ name: ' PLA+ Army edition - Dusty Brown '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#dac7a0ff'
 tags:
 - matte
 - industrially-compostable

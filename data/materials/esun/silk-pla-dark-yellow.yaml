@@ -5,6 +5,8 @@ name: 'Silk PLA Dark Yellow '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ea9e3fff'
 tags:
 - silk
 - industrially-compostable

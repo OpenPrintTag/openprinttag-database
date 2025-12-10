@@ -5,6 +5,8 @@ name: ASA Diamond Green
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#26a648ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8538e8ec3a08.jpg
   type: unspecified

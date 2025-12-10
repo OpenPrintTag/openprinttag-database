@@ -5,6 +5,8 @@ name: Metal Filled Copper
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#af784dff'
 tags:
 - contains-metal
 - silk

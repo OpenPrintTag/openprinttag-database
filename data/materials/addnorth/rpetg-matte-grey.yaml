@@ -5,6 +5,8 @@ name: rPETG Matte Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 tags:
 - matte
 - recycled

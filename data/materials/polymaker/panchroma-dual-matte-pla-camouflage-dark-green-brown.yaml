@@ -5,9 +5,9 @@ name: Panchroma™ Dual Matte PLA Camouflage (Dark Green-Brown)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 502c8f93-85d9-4520-bd18-bd9e21aecbdc
-- d1453aac-e082-481e-bb0f-cb8a3f0aa671
+secondary_colors:
+- rgba: '#5a7d5aff'
+- rgba: '#926043ff'
 tags:
 - matte
 - industrially-compostable

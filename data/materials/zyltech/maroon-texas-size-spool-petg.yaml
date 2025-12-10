@@ -5,6 +5,8 @@ name: Maroon Texas Size Spool PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#8a2d40ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/58e4a9acf979.png
   type: unspecified

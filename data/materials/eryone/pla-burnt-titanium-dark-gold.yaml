@@ -5,6 +5,8 @@ name: PLA Burnt Titanium Dark Gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6e5e2fff'
 tags:
 - iridescent
 - industrially-compostable

@@ -5,10 +5,10 @@ name: Silk Rainbow C Macaron Series Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 4a1eddb6-b368-460e-8a70-de3969d74632
-- 9055a8db-e24e-4fbb-804d-902c691bd616
-- 1f148a0c-96df-4073-ab16-f787460191f8
+secondary_colors:
+- rgba: '#40e0d0ff'
+- rgba: '#c80181ff'
+- rgba: '#eeea44ff'
 tags:
 - silk
 - multicolor

@@ -5,6 +5,8 @@ name: PC+PBT Silver Metallic
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/22e3e3508391.png
   type: unspecified

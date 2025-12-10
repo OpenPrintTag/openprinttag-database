@@ -5,6 +5,8 @@ name: LUVOCOM 3F PEEK 9581 Natural
 class: FFF
 type_id: 33
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - low-outgassing
 - without-pigments

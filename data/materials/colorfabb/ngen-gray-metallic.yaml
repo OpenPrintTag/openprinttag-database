@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen Gray Metallic
 class: FFF
 abbreviation: 'nGen '
+primary_color:
+  rgba: '#55555eff'
 tags:
 - contains-metal
 - abrasive

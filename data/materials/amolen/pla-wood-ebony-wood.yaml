@@ -5,6 +5,8 @@ name: PLA Wood Ebony Wood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5e6345ff'
 tags:
 - contains-wood
 - industrially-compostable

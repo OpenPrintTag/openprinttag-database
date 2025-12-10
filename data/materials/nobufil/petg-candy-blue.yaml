@@ -5,6 +5,8 @@ name: PETG Candy Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2c3294ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/641ba1019e06.png
   type: unspecified

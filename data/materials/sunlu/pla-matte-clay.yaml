@@ -5,6 +5,8 @@ name: PLA Matte Clay
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#50483dff'
 tags:
 - matte
 - industrially-compostable

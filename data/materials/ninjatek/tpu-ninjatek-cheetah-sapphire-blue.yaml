@@ -5,6 +5,8 @@ name: TPU NinjaTek Cheetah - Sapphire Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0022ffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/aa06387308e7.png
   type: unspecified

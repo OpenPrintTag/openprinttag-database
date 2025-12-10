@@ -5,6 +5,8 @@ name: BVOH Natural
 class: FFF
 type_id: 44
 abbreviation: ''
+primary_color:
+  rgba: '#eadac2ff'
 tags:
 - water-soluble
 - without-pigments

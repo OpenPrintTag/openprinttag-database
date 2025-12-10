@@ -5,6 +5,8 @@ name: Merlot Red PRO Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#8a2d40ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/df35a10d75aa.png
   type: unspecified

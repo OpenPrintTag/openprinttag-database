@@ -5,6 +5,8 @@ name: PETG Carmine Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#b54230ff'
 transmission_distance: 6.2
 tags:
 - glitter

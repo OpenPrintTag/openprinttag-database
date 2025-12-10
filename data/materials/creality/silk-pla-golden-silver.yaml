@@ -5,9 +5,9 @@ name: Silk PLA Golden-Silver
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 16059413-b47d-4a4e-a689-084e687db667
-- d68afba4-061f-467f-8c14-5406ceadc9d2
+secondary_colors:
+- rgba: '#abacb0ff'
+- rgba: '#f6c500ff'
 tags:
 - dual-color
 - silk

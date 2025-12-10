@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/479/petg-filament-1-75-mm-flammschutz-schwarz-800-g?c=35
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 properties: {}

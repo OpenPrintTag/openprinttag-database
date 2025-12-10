@@ -5,6 +5,8 @@ name: Shallow water (blue)
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#23668cff'
 tags:
 - recycled
 - industrially-compostable

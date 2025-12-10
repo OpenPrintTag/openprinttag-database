@@ -5,9 +5,9 @@ name: Rapid PETG Metallic Green
 class: FFF
 type_id: 14
 abbreviation: ''
-colors:
-- 6b8a2454-8f00-4026-b1c4-a985df8b8ea4
-- 10bdd918-beb4-4035-8626-729569fa6ff4
+secondary_colors:
+- rgba: '#4e7642ff'
+- rgba: '#4f7b57ff'
 tags:
 - silk
 photos:

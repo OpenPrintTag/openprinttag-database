@@ -6,6 +6,8 @@ class: FFF
 type_id: 12
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-pvb-natural-transparent-500g/
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - without-pigments
 - transparent

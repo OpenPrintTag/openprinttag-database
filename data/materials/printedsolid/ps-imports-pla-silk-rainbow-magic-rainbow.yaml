@@ -5,11 +5,11 @@ name: PS Imports PLA Silk Rainbow-Magic Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7dec4335-0c49-4cb3-a35f-e9eef4390735
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- c2356bbb-3e9e-4337-b183-61089cfe9b25
-- 2e97075c-3d57-4c5a-b743-e6442ddae45b
+secondary_colors:
+- rgba: '#77a54bff'
+- rgba: '#0353baff'
+- rgba: '#f4ac23ff'
+- rgba: '#c75072ff'
 tags:
 - silk
 - multicolor

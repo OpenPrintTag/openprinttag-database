@@ -5,6 +5,8 @@ name: PLA PASTEL Vanilla
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ead7b8ff'
 tags:
 - industrially-compostable
 photos:

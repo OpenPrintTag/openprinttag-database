@@ -5,6 +5,8 @@ name: ' EasyFil HIPS Red'
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#d33d3dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1f376d7783cb.png
   type: unspecified

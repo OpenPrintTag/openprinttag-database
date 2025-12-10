@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-starter-glow-in-the-dark-green
-colors:
-- 8f33ad90-428e-4545-a2d1-1c7b95c472db
+primary_color:
+  rgba: '#62e480ff'
+secondary_colors:
+- rgba: '#f9f3e5ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

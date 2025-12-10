@@ -5,6 +5,8 @@ name: PrimaSelect PETG Grey Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4d6383ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b5999718965c.png
   type: unspecified

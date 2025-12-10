@@ -5,6 +5,8 @@ name: Volcano PLA Silver
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#949597ff'
 tags:
 - matte
 - industrially-compostable

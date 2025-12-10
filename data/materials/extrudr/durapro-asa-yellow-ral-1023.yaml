@@ -5,6 +5,8 @@ name: DuraPro ASA yellow | RAL 1023
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#fadb24ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f781ef7afb54.png
   type: unspecified

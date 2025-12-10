@@ -5,9 +5,9 @@ name: 'Silk PLA Two-color Sky Blue+ Purple '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 491c9130-63d7-4434-af37-40385f110ac9
-- 9472b231-0851-409d-98d7-9e10da029851
+secondary_colors:
+- rgba: '#1adafbff'
+- rgba: '#9d00b1ff'
 tags:
 - silk
 - dual-color

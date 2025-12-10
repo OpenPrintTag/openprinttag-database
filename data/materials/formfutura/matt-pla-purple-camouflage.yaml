@@ -5,6 +5,8 @@ name: ' Matt PLA Purple Camouflage'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9d7185ff'
 tags:
 - matte
 - industrially-compostable

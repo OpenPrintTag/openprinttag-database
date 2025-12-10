@@ -5,6 +5,8 @@ name: ' Galaxy PLA Ruby Red'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ad4e38ff'
 tags:
 - glitter
 - industrially-compostable

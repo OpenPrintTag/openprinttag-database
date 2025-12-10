@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-asa-olive-green-850g/
+primary_color:
+  rgba: '#617512ff'
 properties:
   density: 1.07
   hardness_shore_d: 78

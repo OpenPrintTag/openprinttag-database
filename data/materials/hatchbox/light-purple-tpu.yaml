@@ -5,6 +5,8 @@ name: Light Purple TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#8178c8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4d704d89e4aa.jpg
   type: unspecified

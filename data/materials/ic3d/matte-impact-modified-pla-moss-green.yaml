@@ -5,6 +5,8 @@ name: 'Matte Impact Modified PLA Moss Green '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#737282ff'
 tags:
 - matte
 - industrially-compostable

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-stone-sandstone-1kg/
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - imitates-stone
 - industrially-compostable

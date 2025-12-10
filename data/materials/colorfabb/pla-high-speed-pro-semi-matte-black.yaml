@@ -5,6 +5,8 @@ name: PLA High Speed Pro Semi-Matte Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - satin
 - industrially-compostable

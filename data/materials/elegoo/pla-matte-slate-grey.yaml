@@ -5,6 +5,8 @@ name: PLA MATTE Slate Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b2b8b8ff'
 tags:
 - matte
 - industrially-compostable

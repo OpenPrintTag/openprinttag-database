@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/fairy-floss-pink-purple-blue-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
-- 18c01635-c179-4fc8-a14a-55e89356071b
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#ff00a2ff'
+- rgba: '#be2ed6ff'
+- rgba: '#0099e6ff'
 tags:
 - transparent
 - glitter

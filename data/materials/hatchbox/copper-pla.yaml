@@ -5,6 +5,8 @@ name: Copper PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#926e4dff'
 tags:
 - industrially-compostable
 photos:

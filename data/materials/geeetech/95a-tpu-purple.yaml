@@ -5,6 +5,8 @@ name: 95A TPU Purple
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#771b6bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cabfcd464f4f.jpg
   type: unspecified

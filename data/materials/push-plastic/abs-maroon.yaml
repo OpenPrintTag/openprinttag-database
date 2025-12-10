@@ -5,6 +5,8 @@ name: ABS Maroon
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#c75072ff'
 tags:
 - filtration-recomended
 photos:

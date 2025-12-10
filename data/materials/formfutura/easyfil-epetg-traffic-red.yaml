@@ -5,6 +5,8 @@ name: EasyFil ePETG Traffic Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e60000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e350030c73b9.png
   type: unspecified

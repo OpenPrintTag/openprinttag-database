@@ -5,6 +5,8 @@ name: PrimaSelect PLA Sparkle Diamond Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 tags:
 - glitter
 - industrially-compostable

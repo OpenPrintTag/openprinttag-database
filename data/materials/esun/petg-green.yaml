@@ -5,6 +5,8 @@ name: 'PETG Green '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#206233ff'
 tags:
 - transparent
 photos:

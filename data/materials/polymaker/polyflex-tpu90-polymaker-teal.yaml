@@ -5,6 +5,8 @@ name: 'PolyFlex™ TPU90 Polymaker Teal '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/59e60991565a.png
   type: unspecified

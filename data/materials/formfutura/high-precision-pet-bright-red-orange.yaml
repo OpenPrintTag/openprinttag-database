@@ -5,6 +5,8 @@ name: High Precision PET Bright Red Orange
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/10748123152f.png
   type: unspecified

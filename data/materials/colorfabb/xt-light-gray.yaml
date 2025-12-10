@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: XT Light Gray
 class: FFF
 abbreviation: XT
+primary_color:
+  rgba: '#c3ccd5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3f91abb76d54.png
   type: unspecified

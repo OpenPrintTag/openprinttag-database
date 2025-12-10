@@ -5,6 +5,8 @@ name: PETG Urban Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#95908dff'
 transmission_distance: 0.5
 photos:
 - url: https://file.myfilamentlist.com/f/new/339e244577db.png

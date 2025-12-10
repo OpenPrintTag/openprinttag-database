@@ -5,6 +5,8 @@ name: Blue NylonG Glass Fiber
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 tags:
 - contains-glass-fiber
 - abrasive

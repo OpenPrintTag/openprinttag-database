@@ -5,6 +5,8 @@ name: PLA Extrafill "Sky Blue"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0095ffff'
 tags:
 - industrially-compostable
 photos:

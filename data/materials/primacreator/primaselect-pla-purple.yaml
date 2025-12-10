@@ -5,6 +5,8 @@ name: PrimaSelect PLA Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c63dbaff'
 tags:
 - industrially-compostable
 photos:

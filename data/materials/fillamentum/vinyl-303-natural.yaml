@@ -5,6 +5,8 @@ name: Vinyl 303 "Natural"
 class: FFF
 type_id: 10
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dc989c5b7d82.png
   type: unspecified

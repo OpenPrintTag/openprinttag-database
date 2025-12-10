@@ -6,9 +6,9 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://cookiecad.com/products/abs-sunset-elixir-abs-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 3ae2fbf0-e524-4629-8705-0c3bbe5bcfcb
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
+secondary_colors:
+- rgba: '#567bacff'
+- rgba: '#ff00a2ff'
 tags:
 - iridescent
 - gradual-color-change

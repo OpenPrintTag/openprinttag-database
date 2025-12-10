@@ -5,6 +5,8 @@ name: Regulation Gray PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#91a0b6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/383ca43d2749.png
   type: unspecified

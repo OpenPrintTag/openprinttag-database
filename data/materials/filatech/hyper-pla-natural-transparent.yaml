@@ -5,6 +5,8 @@ name: Hyper PLA Natural Transparent
 class: FFF
 abbreviation: Hyper PLA
 url: https://fila-tech.store/product/pla-filament/
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - without-pigments
 - transparent

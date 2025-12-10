@@ -5,6 +5,8 @@ name: PETG Solid Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#737282ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cb36ede53d2c.jpg
   type: unspecified

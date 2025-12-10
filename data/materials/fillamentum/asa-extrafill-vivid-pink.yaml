@@ -5,6 +5,8 @@ name: ASA Extrafill "Vivid Pink"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#da445aff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/390d7fbaa0fb.png
   type: unspecified

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/r-pla/
+primary_color:
+  rgba: '#e72f1dff'
 tags:
 - recycled
 - industrially-compostable

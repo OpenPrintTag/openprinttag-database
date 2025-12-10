@@ -5,6 +5,8 @@ name: 'EasyPrint PLA Bronze '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8c7354ff'
 tags:
 - industrially-compostable
 photos:

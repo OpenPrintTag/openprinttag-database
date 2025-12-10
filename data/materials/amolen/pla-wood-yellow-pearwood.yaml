@@ -5,6 +5,8 @@ name: PLA Wood Yellow Pearwood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a6662eff'
 tags:
 - contains-wood
 - industrially-compostable

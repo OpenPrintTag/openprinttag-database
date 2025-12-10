@@ -5,6 +5,8 @@ name: PLA/PHA Red Transparent
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#c01616ff'
 tags:
 - home-compostable
 - translucent

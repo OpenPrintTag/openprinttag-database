@@ -5,6 +5,8 @@ name: Vivid Orange PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fa04dc67eacb.png
   type: unspecified

@@ -5,6 +5,8 @@ name: varioShore TPU Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2b0e3a561798.png
   type: unspecified

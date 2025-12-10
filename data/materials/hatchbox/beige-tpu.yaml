@@ -5,6 +5,8 @@ name: Beige TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f5dcc5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a1bff279923c.jpg
   type: unspecified

@@ -5,6 +5,8 @@ name: PLA CF Volcanic Rock Gray
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#26272bff'
 tags:
 - contains-carbon-fiber
 - abrasive

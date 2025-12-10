@@ -5,6 +5,8 @@ name: PolyLite™ ASA Dark Grey
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#3b3e3fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/47eb527acb66.png
   type: unspecified

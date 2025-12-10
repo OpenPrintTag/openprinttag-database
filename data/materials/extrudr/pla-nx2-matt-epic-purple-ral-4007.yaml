@@ -5,6 +5,8 @@ name: PLA NX2 MATT epic purple | RAL 4007
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7142a3ff'
 tags:
 - matte
 - industrially-compostable

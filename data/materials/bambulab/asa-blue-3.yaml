@@ -5,6 +5,8 @@ name: 'ASA Blue '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#274bb6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4601a0f4a5dc.png
   type: unspecified

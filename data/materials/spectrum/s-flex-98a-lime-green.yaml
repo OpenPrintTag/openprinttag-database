@@ -5,6 +5,8 @@ name: S-Flex 98A™ Lime Green
 class: FFF
 abbreviation: S-Flex
 url: https://spectrumfilaments.com/en/filament/s-flex-98a/
+primary_color:
+  rgba: '#58c91bff'
 properties:
   density: 1.16
   hardness_shore_a: 98

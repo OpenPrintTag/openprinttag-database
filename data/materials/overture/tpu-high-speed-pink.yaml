@@ -5,6 +5,8 @@ name: 'TPU High Speed Pink '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f092b3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/97e1c610f3d0.jpg
   type: unspecified

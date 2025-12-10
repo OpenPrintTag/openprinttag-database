@@ -5,6 +5,8 @@ name: EasyFlex Tropical Turquoise
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#40e0d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c07d0fe9fef9.png
   type: unspecified

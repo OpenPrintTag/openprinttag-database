@@ -6,5 +6,7 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.prusa3d.com/cs/produkt/prusament-resin-flex80-black-1kg/
+primary_color:
+  rgba: '#595959ff'
 properties:
   density: 1.0

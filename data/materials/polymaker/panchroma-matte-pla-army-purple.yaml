@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Army Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#3f3956ff'
 tags:
 - matte
 - industrially-compostable

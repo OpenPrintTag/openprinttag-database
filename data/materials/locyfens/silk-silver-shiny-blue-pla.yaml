@@ -5,9 +5,9 @@ name: Silk Silver Shiny Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a683c1bf-a838-4373-9462-834e4cce4d64
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors:
+- rgba: '#c9d0d4ff'
+- rgba: '#0353baff'
 tags:
 - silk
 - dual-color

@@ -5,6 +5,8 @@ name: Silk PLA Light Gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffcb47ff'
 tags:
 - silk
 - industrially-compostable

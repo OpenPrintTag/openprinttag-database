@@ -5,6 +5,8 @@ name: CarbonX Nylon 6+CF Black
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

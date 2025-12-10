@@ -5,6 +5,8 @@ name: DuraPro ASA red | RAL 3001
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#d33d3dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/466263760622.png
   type: unspecified

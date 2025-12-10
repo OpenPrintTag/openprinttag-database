@@ -5,6 +5,8 @@ name: PLA Gravity Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9fa4a8ff'
 transmission_distance: 0.7
 tags:
 - industrially-compostable

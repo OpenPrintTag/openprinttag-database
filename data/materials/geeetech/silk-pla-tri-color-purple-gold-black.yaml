@@ -5,10 +5,10 @@ name: Silk PLA Tri Color Purple Gold Black
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- 2a09a345-bfbb-40bb-b2a4-d021c5e50aa0
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors:
+- rgba: '#6c47b2ff'
+- rgba: '#f9e352ff'
+- rgba: '#000000ff'
 tags:
 - silk
 - triple-color

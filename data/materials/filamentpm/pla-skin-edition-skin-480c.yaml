@@ -5,6 +5,8 @@ name: ' PLA+ Skin edition - Skin 480C '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f0ddc2ff'
 tags:
 - industrially-compostable
 photos:

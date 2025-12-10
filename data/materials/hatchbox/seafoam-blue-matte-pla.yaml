@@ -5,6 +5,8 @@ name: Seafoam Blue Matte PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d7ede6ff'
 tags:
 - matte
 - industrially-compostable

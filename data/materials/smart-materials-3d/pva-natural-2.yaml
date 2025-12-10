@@ -5,6 +5,8 @@ name: PVA Natural
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0b73b63dece6.png
   type: unspecified

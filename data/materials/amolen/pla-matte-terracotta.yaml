@@ -5,6 +5,8 @@ name: PLA Matte Terracotta
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b47d6cff'
 tags:
 - matte
 - industrially-compostable

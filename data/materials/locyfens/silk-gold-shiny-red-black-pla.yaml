@@ -5,10 +5,10 @@ name: Silk Gold Shiny Red Black PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
-- 8044aa01-3965-4c15-942f-c4c603c53c9d
-- b33de3b0-9dad-4564-af4f-8ff2a3c8e889
+secondary_colors:
+- rgba: '#ce8d00ff'
+- rgba: '#2c2c2cff'
+- rgba: '#751a39ff'
 tags:
 - silk
 - industrially-compostable

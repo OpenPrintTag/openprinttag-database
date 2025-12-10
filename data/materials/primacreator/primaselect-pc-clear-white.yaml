@@ -5,6 +5,8 @@ name: ' PrimaSelect PC Clear White'
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - transparent
 photos:

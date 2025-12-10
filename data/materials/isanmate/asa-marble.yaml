@@ -5,6 +5,8 @@ name: 'ASA Marble '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#edf0f2ff'
 tags:
 - imitates-marble
 photos:

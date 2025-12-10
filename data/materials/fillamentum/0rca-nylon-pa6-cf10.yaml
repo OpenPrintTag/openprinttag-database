@@ -5,6 +5,8 @@ name: 0rCA® | Nylon PA6 + CF10
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - recycled

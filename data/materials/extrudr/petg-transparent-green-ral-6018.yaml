@@ -5,6 +5,8 @@ name: PETG transparent green | RAL 6018
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 tags:
 - translucent
 photos:

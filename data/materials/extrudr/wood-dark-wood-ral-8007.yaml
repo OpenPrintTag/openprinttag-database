@@ -5,6 +5,8 @@ name: WOOD dark wood | RAL 8007
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6e4325ff'
 tags:
 - contains-wood
 - imitates-wood

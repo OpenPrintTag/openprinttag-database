@@ -5,6 +5,8 @@ name: Silk PLA Coffee
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#877674ff'
 tags:
 - silk
 - industrially-compostable

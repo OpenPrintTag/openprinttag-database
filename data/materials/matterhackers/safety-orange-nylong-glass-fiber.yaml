@@ -5,6 +5,8 @@ name: Safety Orange NylonG Glass Fiber
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - contains-glass-fiber
 - abrasive

@@ -5,6 +5,8 @@ name: Clear PRO Series Ryno
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e4b58306138e.png
   type: unspecified

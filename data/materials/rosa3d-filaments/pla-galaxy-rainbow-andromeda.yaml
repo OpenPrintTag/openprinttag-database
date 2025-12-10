@@ -6,11 +6,11 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-andromeda-175mm-05kg
-colors:
-- 3ae2fbf0-e524-4629-8705-0c3bbe5bcfcb
-- f05c088f-988a-49ff-a578-220293dcf0c7
-- ac4302bd-7b8f-4c5a-9808-ea9a1079d35e
-- 9472b231-0851-409d-98d7-9e10da029851
+secondary_colors:
+- rgba: '#567bacff'
+- rgba: '#6000b0ff'
+- rgba: '#6d102eff'
+- rgba: '#9d00b1ff'
 tags:
 - gradual-color-change
 - glitter

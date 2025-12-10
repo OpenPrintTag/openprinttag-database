@@ -5,6 +5,8 @@ name: PLA Sparkle Crimson Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ac1a17ff'
 tags:
 - glitter
 - industrially-compostable

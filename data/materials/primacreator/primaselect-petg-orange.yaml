@@ -5,6 +5,8 @@ name: PrimaSelect PETG Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff854dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/27c68f3012fb.png
   type: unspecified

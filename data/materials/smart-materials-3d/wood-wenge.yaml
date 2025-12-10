@@ -5,6 +5,8 @@ name: WOOD Wenge
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#332120ff'
 tags:
 - contains-wood
 - industrially-compostable

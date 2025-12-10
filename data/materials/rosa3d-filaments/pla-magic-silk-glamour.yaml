@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magicsilk-glamour
-colors:
-- a683c1bf-a838-4373-9462-834e4cce4d64
-- 33de286b-eb85-4430-8213-cf47b5bac490
+secondary_colors:
+- rgba: '#c9d0d4ff'
+- rgba: '#fcb4adff'
 tags:
 - silk
 - coextruded

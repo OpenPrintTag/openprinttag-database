@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
+primary_color:
+  rgba: '#5a696cff'
 tags:
 - foaming
 - industrially-compostable

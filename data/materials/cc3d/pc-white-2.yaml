@@ -5,6 +5,8 @@ name: PC White
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#f0ebe5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5efde140f465.jpg
   type: unspecified

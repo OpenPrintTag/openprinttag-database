@@ -5,6 +5,8 @@ name: PETG Matte Black
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#303635ff'
 transmission_distance: 0.3
 tags:
 - matte

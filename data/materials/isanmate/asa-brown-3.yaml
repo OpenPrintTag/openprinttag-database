@@ -5,6 +5,8 @@ name: 'ASA Brown '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#a45b27ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/20000c1a40eb.jpg
   type: unspecified

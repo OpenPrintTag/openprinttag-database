@@ -5,6 +5,8 @@ name: PolyLite™ Metallic PLA Pro Gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#aa6500ff'
 tags:
 - imitates-metal
 - industrially-compostable

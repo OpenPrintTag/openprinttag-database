@@ -5,11 +5,11 @@ name: Silk Rainbow PLA (Lilac-Violet)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 45f3ca44-2160-405b-a068-2e53fbd713f9
-- e8ff7b27-96be-4cc7-9966-b6c5762d65df
-- 654233d7-90fa-423b-a2f4-b8086836e289
-- 7e837796-dd6e-4804-b38c-7ac61032dbe5
+secondary_colors:
+- rgba: '#ffc8c9ff'
+- rgba: '#f297daff'
+- rgba: '#d6abffff'
+- rgba: '#a67dffff'
 tags:
 - multicolor
 - silk

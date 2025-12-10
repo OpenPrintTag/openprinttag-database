@@ -5,6 +5,8 @@ name: StoneFil Pottery Clay
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e5b7a0ff'
 tags:
 - contains-stone
 - imitates-stone

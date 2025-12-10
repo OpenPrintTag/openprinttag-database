@@ -5,9 +5,9 @@ name: High Gloss PLA ColorMorph Gold & Silver
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 16059413-b47d-4a4e-a689-084e687db667
-- 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
+secondary_colors:
+- rgba: '#abacb0ff'
+- rgba: '#ce8d00ff'
 tags:
 - industrially-compostable
 - iridescent

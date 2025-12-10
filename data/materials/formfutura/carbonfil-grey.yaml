@@ -5,6 +5,8 @@ name: CarbonFil Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#727376ff'
 tags:
 - contains-carbon-fiber
 - abrasive

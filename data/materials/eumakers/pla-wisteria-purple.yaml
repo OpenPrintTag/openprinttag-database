@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-wisteria-purple.html
+primary_color:
+  rgba: '#c1a7e2ff'
 properties:
   density: 1.24

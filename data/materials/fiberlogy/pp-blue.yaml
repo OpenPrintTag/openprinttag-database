@@ -5,6 +5,8 @@ name: PP Blue
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#0696efff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c7f7310f341c.png
   type: unspecified

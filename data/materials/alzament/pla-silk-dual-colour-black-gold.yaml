@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.alza.cz/EN/alzament-pla-silk-dual-colour-1-kg-black-gold-d12869932.htm
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- d68afba4-061f-467f-8c14-5406ceadc9d2
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#f6c500ff'
 tags:
 - silk
 - dual-color

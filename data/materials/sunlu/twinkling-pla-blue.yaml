@@ -5,6 +5,8 @@ name: Twinkling PLA Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 tags:
 - glitter
 - industrially-compostable

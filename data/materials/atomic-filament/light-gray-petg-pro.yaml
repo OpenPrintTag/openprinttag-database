@@ -5,6 +5,8 @@ name: Light Gray PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#cacacaff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6413cc4ff51a.png
   type: unspecified

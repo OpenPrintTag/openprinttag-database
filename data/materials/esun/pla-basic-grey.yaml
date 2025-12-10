@@ -5,6 +5,8 @@ name: PLA Basic Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4f7bbbff'
 tags:
 - industrially-compostable
 photos:

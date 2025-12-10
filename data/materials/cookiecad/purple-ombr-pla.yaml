@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/purple-ombre-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- 18c01635-c179-4fc8-a14a-55e89356071b
+secondary_colors:
+- rgba: '#6c47b2ff'
+- rgba: '#be2ed6ff'
 tags:
 - gradual-color-change
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PETG Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f1caf93b841e.png
   type: unspecified

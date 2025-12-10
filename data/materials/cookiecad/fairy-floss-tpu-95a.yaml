@@ -6,10 +6,10 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://cookiecad.com/products/tpu-fairy-floss-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- ef775865-43cd-49b7-a744-cb42ec28c606
-- 2bdd032b-7a02-48ee-b5f4-999106b7e17e
-- f45bf10d-a26d-4b61-ae86-064d1a59b797
+secondary_colors:
+- rgba: '#ff72b6ff'
+- rgba: '#b894e2ff'
+- rgba: '#8ed9f9ff'
 tags:
 - transparent
 - glitter

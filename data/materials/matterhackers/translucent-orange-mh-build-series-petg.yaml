@@ -5,6 +5,8 @@ name: Translucent Orange MH Build Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fd9106ff'
 tags:
 - transparent
 photos:

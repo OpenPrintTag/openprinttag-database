@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-meteor-175mm-05kg
-colors:
-- 046af60e-25d0-4af6-a3f2-b8c62829db71
-- cdf37f9c-d618-42d0-93e0-4a2d7331d334
-- 8e641e26-9dd9-4ced-b7b4-c31c85593115
+secondary_colors:
+- rgba: '#292824ff'
+- rgba: '#8e5850ff'
+- rgba: '#5c5b59ff'
 tags:
 - gradual-color-change
 - glitter

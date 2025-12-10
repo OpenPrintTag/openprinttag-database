@@ -5,6 +5,8 @@ name: PETG hellfire red | RAL 3024
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6d11363bc299.png
   type: unspecified

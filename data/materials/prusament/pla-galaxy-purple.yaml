@@ -5,6 +5,8 @@ name: PLA Galaxy Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#453a72ff'
 transmission_distance: 4.7
 tags:
 - glitter

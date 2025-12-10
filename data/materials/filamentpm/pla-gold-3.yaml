@@ -5,6 +5,8 @@ name: ' PLA - Gold '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#af7d00ff'
 tags:
 - industrially-compostable
 photos:

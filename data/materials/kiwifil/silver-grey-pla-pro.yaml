@@ -5,6 +5,8 @@ name: Silver Grey PLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6f727eff'
 tags:
 - silk
 - industrially-compostable

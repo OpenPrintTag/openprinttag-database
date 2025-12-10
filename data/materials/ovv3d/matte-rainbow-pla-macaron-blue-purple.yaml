@@ -5,10 +5,10 @@ name: Matte Rainbow PLA Macaron Blue Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 447d0cf6-23e4-4d4c-9df3-ecf41d5fc4e5
-- eafbed70-f085-46b9-8ad6-63376f886f5a
-- 86000382-513b-4d9c-9959-61ee73ff7ecb
+secondary_colors:
+- rgba: '#bed9ebff'
+- rgba: '#82e3ecff'
+- rgba: '#d3c6ffff'
 tags:
 - matte
 - dual-color

@@ -5,6 +5,8 @@ name: PETG Neon Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e4ff33ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b83f66b3a35b.png
   type: unspecified

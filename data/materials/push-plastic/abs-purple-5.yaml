@@ -5,6 +5,8 @@ name: ABS Purple
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ae00ffff'
 tags:
 - filtration-recomended
 photos:

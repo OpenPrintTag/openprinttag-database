@@ -5,6 +5,8 @@ name: Grey PRO Series Ryno
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2acdf8a055ce.png
   type: unspecified

@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://kingroon.com/products/kingroon-silk-multicolor-pla?variant=46772684259546
-colors:
-- bec83ee9-3db9-42cd-b0ae-d79072f82cff
-- 4f052bdd-314d-42aa-a245-5e216681c9be
-- 5e397e15-2178-4362-8ab6-4ae1f37e091c
+secondary_colors:
+- rgba: '#ddb95dff'
+- rgba: '#3d9441ff'
+- rgba: '#bf7473ff'
 tags:
 - coextruded
 - silk

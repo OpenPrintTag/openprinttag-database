@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3dxtech.com/products/satin-pla
+primary_color:
+  rgba: '#69ebb6ff'
 tags:
 - satin
 properties: {}

@@ -5,6 +5,8 @@ name: PETG Light Brown
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e6d1bdff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/79596b471e1a.jpg
   type: unspecified

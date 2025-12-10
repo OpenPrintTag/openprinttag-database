@@ -5,6 +5,8 @@ name: Candy Apple Golden Pearl PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9e1fc14a1e4b.png
   type: unspecified

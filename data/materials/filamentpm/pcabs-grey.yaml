@@ -5,6 +5,8 @@ name: ' PC/ABS - Grey '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/396cfb5b9404.png
   type: unspecified

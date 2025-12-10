@@ -5,6 +5,8 @@ name: Glow in The Dark Rapid PLA Dark Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f47d59ff'
 tags:
 - glow-in-the-dark
 - abrasive

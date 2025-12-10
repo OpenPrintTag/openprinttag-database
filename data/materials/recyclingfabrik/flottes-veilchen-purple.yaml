@@ -5,6 +5,8 @@ name: Flottes Veilchen (purple)
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e8beddff'
 tags:
 - recycled
 - industrially-compostable

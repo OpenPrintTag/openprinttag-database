@@ -5,6 +5,8 @@ name: PrimaSelect PC (Poly Carbonate) Clear
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - translucent
 photos:

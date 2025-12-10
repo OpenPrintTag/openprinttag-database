@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/tpu-1-75-mm/417/tpu-v2-filament-flexibel-1-75-mm-schwarz-800-g?c=37
+primary_color:
+  rgba: '#000000ff'
 properties:
   hardness_shore_a: 94

@@ -5,6 +5,8 @@ name: FLEX Hard white | RAL 9003
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/62337c4151cb.png
   type: unspecified

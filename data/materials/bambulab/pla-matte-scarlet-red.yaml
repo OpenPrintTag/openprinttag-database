@@ -5,6 +5,8 @@ name: PLA Matte Scarlet Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d33d3dff'
 tags:
 - matte
 - industrially-compostable

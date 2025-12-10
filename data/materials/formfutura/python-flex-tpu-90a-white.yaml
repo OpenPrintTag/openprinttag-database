@@ -5,6 +5,8 @@ name: ' Python Flex TPU 90A White'
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/460f0f4abb24.png
   type: unspecified

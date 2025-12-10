@@ -5,9 +5,9 @@ name: Sterling Wave Texas Twister Series Multi-color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 80616fe9-dfaa-466d-ab13-c72bf52e5fa9
-- 67d7c285-ea25-4067-a943-2dafac19bb10
+secondary_colors:
+- rgba: '#4c5051ff'
+- rgba: '#e0e0dcff'
 tags:
 - silk
 - dual-color

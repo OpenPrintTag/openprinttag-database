@@ -5,6 +5,8 @@ name: TPU 85A Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/99f6b3fc6ad8.png
   type: unspecified

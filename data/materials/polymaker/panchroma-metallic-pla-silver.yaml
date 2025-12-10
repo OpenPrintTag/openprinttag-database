@@ -5,6 +5,8 @@ name: Panchroma™ Metallic PLA Silver
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#959fa1ff'
 tags:
 - glitter
 - imitates-metal

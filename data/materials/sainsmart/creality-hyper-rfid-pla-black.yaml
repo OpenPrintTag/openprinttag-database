@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.sainsmart.com/products/creality-hyper-rfid-pla-filament-1-75mm?_pos=1&_fid=98406c783&_ss=c
+primary_color:
+  rgba: '#000000ff'
 tags:
 - industrially-compostable
 properties: {}

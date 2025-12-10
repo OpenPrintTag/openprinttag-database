@@ -5,9 +5,9 @@ name: Texas Sky Dual Color Silk
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- b630e9d4-6ac5-41dc-a156-7dc02c3a0538
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#fc6d8eff'
 tags:
 - silk
 - dual-color

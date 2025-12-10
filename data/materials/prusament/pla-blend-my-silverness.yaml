@@ -5,6 +5,8 @@ name: PLA Blend My Silverness
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#aeb8c1ff'
 transmission_distance: 1.0
 tags:
 - silk

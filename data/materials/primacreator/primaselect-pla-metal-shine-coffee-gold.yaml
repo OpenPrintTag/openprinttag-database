@@ -5,6 +5,8 @@ name: PrimaSelect PLA Metal-Shine Coffee Gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#935c34ff'
 tags:
 - imitates-metal
 - silk

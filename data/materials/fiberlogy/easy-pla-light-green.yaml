@@ -5,6 +5,8 @@ name: Easy PLA Light Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b3df3aff'
 tags:
 - industrially-compostable
 photos:

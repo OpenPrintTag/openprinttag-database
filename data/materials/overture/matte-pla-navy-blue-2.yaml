@@ -5,6 +5,8 @@ name: Matte PLA Navy Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#122c4dff'
 tags:
 - matte
 - industrially-compostable

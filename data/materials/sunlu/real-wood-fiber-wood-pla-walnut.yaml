@@ -5,6 +5,8 @@ name: 'Real Wood Fiber Wood PLA Walnut '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5b4c49ff'
 tags:
 - contains-wood
 - industrially-compostable

@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Pink '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#fcafc0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d5a5fe79f474.png
   type: unspecified

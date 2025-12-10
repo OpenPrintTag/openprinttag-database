@@ -6,9 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/gray-ombre-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-# - 981fb0bb-bc7d-4b8a-84d5-2aae53fbe540
-- b6de9b4d-6ae2-4b5d-bea5-81e0edbca29f
+secondary_colors:
+- rgba: '#88899dff'
 tags:
 - gradual-color-change
 - industrially-compostable

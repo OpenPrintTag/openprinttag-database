@@ -5,6 +5,8 @@ name: PETG "Neon Orange Transparent"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f97429ff'
 tags:
 - translucent
 photos:

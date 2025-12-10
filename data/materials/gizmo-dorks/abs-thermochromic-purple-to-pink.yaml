@@ -5,9 +5,9 @@ name: ABS Thermochromic Purple to Pink
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 0a165cb6-53d4-4b74-b9d8-8461c26a2554
-- ef775865-43cd-49b7-a744-cb42ec28c606
+secondary_colors:
+- rgba: '#8846aeff'
+- rgba: '#ff72b6ff'
 tags:
 - temperature-color-change
 - dual-color

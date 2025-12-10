@@ -5,6 +5,8 @@ name: PCTG White
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/93c083b9f0f4.png
   type: unspecified

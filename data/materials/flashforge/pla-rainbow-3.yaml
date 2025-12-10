@@ -5,10 +5,10 @@ name: PLA Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 9ff71ced-a991-4871-802b-5d6e03ebbbdb
-- 78a33020-fb35-4108-86d7-c0f74493c7a2
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
+secondary_colors:
+- rgba: '#0378d0ff'
+- rgba: '#d33d3dff'
+- rgba: '#62e480ff'
 tags:
 - color-gradient
 - multicolor

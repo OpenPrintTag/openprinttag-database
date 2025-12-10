@@ -5,12 +5,12 @@ name: PLA Transparent Yellow Green Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- 4b80164f-b954-403b-898f-30f8fb65245b
-- cadfa5c0-8ac1-422c-8d95-a484f5e329b3
-- fb922d46-603b-4b1e-8b32-7cf5a0461f87
-- fb024a12-078b-4466-8b97-ff9f9870fef1
+secondary_colors:
+- rgba: '#00a594ff'
+- rgba: '#00cc00ff'
+- rgba: '#ed2602ff'
+- rgba: '#ffbf00ff'
+- rgba: '#611a1fff'
 tags:
 - multicolor
 - translucent

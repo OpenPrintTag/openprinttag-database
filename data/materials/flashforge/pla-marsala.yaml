@@ -5,6 +5,8 @@ name: 'PLA Marsala '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6e485fff'
 tags:
 - iridescent
 - industrially-compostable

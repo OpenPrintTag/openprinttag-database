@@ -5,6 +5,8 @@ name: Midnight Blue rPETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 tags:
 - recycled
 - transparent

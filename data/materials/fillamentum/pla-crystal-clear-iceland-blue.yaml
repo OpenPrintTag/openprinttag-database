@@ -5,6 +5,8 @@ name: PLA Crystal Clear "Iceland Blue"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#82e3ecff'
 tags:
 - translucent
 - industrially-compostable

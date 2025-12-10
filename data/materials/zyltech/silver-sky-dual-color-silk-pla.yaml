@@ -5,9 +5,9 @@ name: Silver Sky Dual Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3dade77e-bc86-487f-b91a-a6ee710f02b2
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#acb1baff'
+- rgba: '#0099e6ff'
 tags:
 - silk
 - dual-color

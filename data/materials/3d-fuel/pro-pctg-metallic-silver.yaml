@@ -5,6 +5,8 @@ name: Pro PCTG, Metallic Silver
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#a8b0bdff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e98a02eccf30.png
   type: unspecified

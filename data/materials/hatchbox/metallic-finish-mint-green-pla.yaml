@@ -5,6 +5,8 @@ name: Metallic Finish Mint Green PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#98fbcbff'
 tags:
 - silk
 - industrially-compostable

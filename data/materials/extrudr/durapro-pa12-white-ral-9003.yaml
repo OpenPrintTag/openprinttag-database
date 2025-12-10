@@ -5,6 +5,8 @@ name: DuraPro PA12 white | RAL 9003
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/aeb7d96e330b.png
   type: unspecified

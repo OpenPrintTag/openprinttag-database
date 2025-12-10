@@ -5,6 +5,8 @@ name: PLA+ HS (Pro) Fire Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: Panchroma™ Metallic PLA Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#1e2f5aff'
 tags:
 - glitter
 - silk

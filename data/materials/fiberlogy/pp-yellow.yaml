@@ -5,6 +5,8 @@ name: PP Yellow
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9bdd3cd19eb0.png
   type: unspecified

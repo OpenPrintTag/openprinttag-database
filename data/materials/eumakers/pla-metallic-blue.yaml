@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-metallic-blue.html
+primary_color:
+  rgba: '#3375a7ff'
 properties:
   density: 1.24

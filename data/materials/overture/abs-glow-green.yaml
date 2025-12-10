@@ -5,6 +5,8 @@ name: ABS Glow Green
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#4dff64ff'
 tags:
 - glow-in-the-dark
 - abrasive

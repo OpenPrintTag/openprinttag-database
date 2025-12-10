@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: FleX-920 Orange Fresh
 class: FFF
 abbreviation: FleX-920
+primary_color:
+  rgba: '#ff9a14ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/051c0b092855.png
   type: unspecified

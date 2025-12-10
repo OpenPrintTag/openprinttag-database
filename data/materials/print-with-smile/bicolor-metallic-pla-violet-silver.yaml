@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://printwithsmile.cz/gb/pla/357-bicolor-metallic-pla-175-mm-violet-silver-1000-g-8594196450937.html?_gl=1*wjxz2t*_up*MQ..*_ga*NzM0MTU1NjYxLjE3NTg3OTc3MjY.*_ga_WJWWDL749C*czE3NTg3OTc3MjUkbzEkZzEkdDE3NTg3OTc3MzAkajU1JGwwJGgw
-colors:
-- 80ee39f4-889b-4560-aae6-e29ac5d090d9
-- ade8c697-7129-4c52-93b0-da120faaedcc
+secondary_colors:
+- rgba: '#583061ff'
+- rgba: '#55657cff'
 tags:
 - iridescent
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PETG Alu Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a9a8a0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e29756dbc3c7.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Mellow Yellow PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c6f666ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,12 +5,12 @@ name: Rainbow Galaxy Glow in Dark Luminous PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 95e881ff-5692-4670-9cdb-90a55b7e23e5
-- 229535f8-c6a8-4d8b-8115-e3ea5437a723
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- ef775865-43cd-49b7-a744-cb42ec28c606
+secondary_colors:
+- rgba: '#f0ebe5ff'
+- rgba: '#8873c7ff'
+- rgba: '#39b9dbff'
+- rgba: '#0353baff'
+- rgba: '#ff72b6ff'
 tags:
 - glow-in-the-dark
 - multicolor

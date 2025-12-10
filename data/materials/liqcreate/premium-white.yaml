@@ -6,5 +6,7 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.liqcreate.com/product/premium-white/
+primary_color:
+  rgba: '#d6d7d8ff'
 properties:
   density: 1.18

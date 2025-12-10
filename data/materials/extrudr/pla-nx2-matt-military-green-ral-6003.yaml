@@ -5,6 +5,8 @@ name: PLA NX2 MATT military green | RAL 6003
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4c645bff'
 tags:
 - matte
 - industrially-compostable

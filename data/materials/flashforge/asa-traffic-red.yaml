@@ -5,6 +5,8 @@ name: ASA Traffic Red
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d031085fda8a.jpg
   type: unspecified

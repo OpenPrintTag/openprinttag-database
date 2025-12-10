@@ -5,6 +5,8 @@ name: PMMA Filament
 class: FFF
 type_id: 30
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 tags:
 - translucent
 photos:

@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-mistic-tiger
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- c2356bbb-3e9e-4337-b183-61089cfe9b25
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#f4ac23ff'
 tags:
 - coextruded
 - silk

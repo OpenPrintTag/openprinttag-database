@@ -5,6 +5,8 @@ name: Textura™ Matte White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - contains-plant
 - matte

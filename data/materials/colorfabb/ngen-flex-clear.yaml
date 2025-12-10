@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen_FLEX Clear
 class: FFF
 abbreviation: nGen
+primary_color:
+  rgba: '#eadac2ff'
 tags:
 - transparent
 photos:

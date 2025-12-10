@@ -5,6 +5,8 @@ name: Classic Black Flexible TPU-60D
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/485131b65810.png
   type: unspecified

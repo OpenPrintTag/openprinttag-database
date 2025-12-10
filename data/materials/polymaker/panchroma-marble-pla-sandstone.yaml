@@ -5,6 +5,8 @@ name: Panchroma™ Marble PLA Sandstone
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c4c67dff'
 tags:
 - imitates-marble
 - industrially-compostable

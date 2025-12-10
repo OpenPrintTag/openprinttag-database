@@ -5,6 +5,8 @@ name: ASA Jet Black
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#292824ff'
 transmission_distance: 0.4
 photos:
 - url: https://file.myfilamentlist.com/f/new/48ebecdbda2c.png

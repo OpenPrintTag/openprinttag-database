@@ -6,11 +6,11 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-rainbow-silk
-colors:
-- d232c2cd-048c-4873-b6bb-3580e16a5acc
-- e6cc7919-9888-4462-8bc9-6f8fc4fde9e5
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
-- e64c33d7-e322-4442-aa9f-b626e97b1626
+secondary_colors:
+- rgba: '#8d65c7ff'
+- rgba: '#91c2ccff'
+- rgba: '#62e480ff'
+- rgba: '#e4d77eff'
 tags:
 - silk
 - gradual-color-change

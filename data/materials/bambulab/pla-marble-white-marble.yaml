@@ -5,6 +5,8 @@ name: PLA Marble White Marble
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#efefefff'
 tags:
 - imitates-marble
 - industrially-compostable

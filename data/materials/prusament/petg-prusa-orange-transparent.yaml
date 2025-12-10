@@ -5,6 +5,8 @@ name: PETG Prusa Orange Transparent
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f17231ff'
 transmission_distance: 44.2
 tags:
 - translucent

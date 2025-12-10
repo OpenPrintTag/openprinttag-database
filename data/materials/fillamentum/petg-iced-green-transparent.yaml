@@ -5,6 +5,8 @@ name: PETG "Iced Green Transparent"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#178b9fff'
 tags:
 - translucent
 photos:

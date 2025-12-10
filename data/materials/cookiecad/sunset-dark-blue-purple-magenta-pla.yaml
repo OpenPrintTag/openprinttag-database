@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/copy-of-sunrise-pink-orange-yellow-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 57615c8b-b6a5-454c-99a7-16a17fdb8fee
-- f05c088f-988a-49ff-a578-220293dcf0c7
-- 11e591d9-b6ce-4aff-b8bc-a2658a36c33b
+secondary_colors:
+- rgba: '#324485ff'
+- rgba: '#6000b0ff'
+- rgba: '#c90d6eff'
 tags:
 - gradual-color-change
 - industrially-compostable

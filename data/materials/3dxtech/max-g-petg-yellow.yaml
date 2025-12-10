@@ -5,6 +5,8 @@ name: MAX-G PETG Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/964d73eb4bd0.png
   type: unspecified

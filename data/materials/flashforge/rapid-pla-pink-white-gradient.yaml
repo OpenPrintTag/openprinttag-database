@@ -5,9 +5,9 @@ name: Rapid PLA Pink White Gradient
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8017d5c1-0d27-4d36-bc52-79aa5440a671
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors:
+- rgba: '#ff67f5ff'
+- rgba: '#ffffffff'
 tags:
 - color-gradient
 - industrially-compostable

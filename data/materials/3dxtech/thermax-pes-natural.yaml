@@ -5,6 +5,8 @@ name: ThermaX PES Natural
 class: FFF
 type_id: 34
 abbreviation: ''
+primary_color:
+  rgba: '#fadca4ff'
 tags:
 - without-pigments
 photos:

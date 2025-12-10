@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-karmin-red
+primary_color:
+  rgba: '#bf1d2dff'
 tags:
 - glitter
 properties: {}

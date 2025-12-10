@@ -5,6 +5,8 @@ name: PC/ABS Natural
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/63b636bdcc05.png
   type: unspecified

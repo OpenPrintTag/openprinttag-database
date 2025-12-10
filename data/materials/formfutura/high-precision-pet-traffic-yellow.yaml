@@ -5,6 +5,8 @@ name: High Precision PET Traffic Yellow
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/66b752e2561f.png
   type: unspecified

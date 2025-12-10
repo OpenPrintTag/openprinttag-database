@@ -5,9 +5,9 @@ name: 'eStars PLA Luminous Shiny Galaxy Black '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- 66942753-4201-436d-bfd7-cc7a52f75f94
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#206233ff'
 tags:
 - glitter
 - glow-in-the-dark

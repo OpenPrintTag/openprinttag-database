@@ -5,6 +5,8 @@ name: PolyLite™ PETG Gold
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cf7969901492.png
   type: unspecified

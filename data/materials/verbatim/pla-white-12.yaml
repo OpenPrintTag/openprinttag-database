@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.verbatim-europe.com/en/3d/products/verbatim-pla-filament-175mm-1kg-white-55315
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - industrially-compostable
 properties: {}

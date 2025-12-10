@@ -5,6 +5,8 @@ name: FLEX Semisoft white | RAL 9003
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/95a3e6d76f31.png
   type: unspecified

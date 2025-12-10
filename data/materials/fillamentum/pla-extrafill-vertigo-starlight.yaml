@@ -5,6 +5,8 @@ name: PLA Extrafill "Vertigo Starlight"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#393785ff'
 tags:
 - glitter
 - industrially-compostable

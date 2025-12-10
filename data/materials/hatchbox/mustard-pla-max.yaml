@@ -5,6 +5,8 @@ name: Mustard PLA Max
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c3b626ff'
 tags:
 - industrially-compostable
 photos:

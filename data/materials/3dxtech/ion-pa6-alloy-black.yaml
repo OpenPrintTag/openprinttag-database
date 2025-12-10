@@ -5,6 +5,8 @@ name: ION PA6 ALLOY  Black
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a48e78fc55d7.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PrimaSelect PLA Metal-Shine Velvet Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#217165ff'
 tags:
 - silk
 - industrially-compostable

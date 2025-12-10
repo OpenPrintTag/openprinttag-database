@@ -5,6 +5,8 @@ name: Fluorescent PLA Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 tags:
 - neon
 - industrially-compostable

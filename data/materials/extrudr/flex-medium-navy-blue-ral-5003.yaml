@@ -5,6 +5,8 @@ name: FLEX Medium navy blue | RAL 5003
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#005da4ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0af66b34ad13.png
   type: unspecified

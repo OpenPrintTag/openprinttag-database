@@ -5,6 +5,8 @@ name: PETG neon orange | RAL 2005
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/652b26c45586.png
   type: unspecified

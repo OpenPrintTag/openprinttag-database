@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/r-petg/
+primary_color:
+  rgba: '#0078bfff'
 tags:
 - recycled
 properties: {}

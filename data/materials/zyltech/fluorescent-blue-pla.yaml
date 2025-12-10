@@ -5,6 +5,8 @@ name: Fluorescent Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0066d9ff'
 tags:
 - neon
 - industrially-compostable

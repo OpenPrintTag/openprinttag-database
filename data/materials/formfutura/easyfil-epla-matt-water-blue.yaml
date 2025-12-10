@@ -5,6 +5,8 @@ name: EasyFil ePLA Matt Water Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#93cfcbff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Easy PET-G Transparent Light Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#91c500ff'
 tags:
 - translucent
 photos:

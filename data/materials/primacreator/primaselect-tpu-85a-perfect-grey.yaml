@@ -5,6 +5,8 @@ name: PrimaSelect TPU 85A Perfect Grey
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#3b3e3fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/eb24fe76e999.png
   type: unspecified

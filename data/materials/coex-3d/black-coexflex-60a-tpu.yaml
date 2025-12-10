@@ -5,6 +5,8 @@ name: Black CoexFlex™ 60A TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/aa8062298131.png
   type: unspecified

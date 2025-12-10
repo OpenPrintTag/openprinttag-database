@@ -5,6 +5,8 @@ name: PLA Matte Light Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ebff57ff'
 tags:
 - matte
 - industrially-compostable

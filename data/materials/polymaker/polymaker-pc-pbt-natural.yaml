@@ -5,6 +5,8 @@ name: Polymaker PC-PBT Natural
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#eadac2ff'
 tags:
 - without-pigments
 photos:

@@ -5,6 +5,8 @@ name: 'TPU NinjaTek NinjaFlex - Sapphire Blue '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0022ffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/85433a8dbeb3.png
   type: unspecified

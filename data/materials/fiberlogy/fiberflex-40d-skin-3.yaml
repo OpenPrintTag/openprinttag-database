@@ -5,6 +5,8 @@ name: FiberFlex 40D Skin 3
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#b58971ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a83395b6e7aa.png
   type: unspecified

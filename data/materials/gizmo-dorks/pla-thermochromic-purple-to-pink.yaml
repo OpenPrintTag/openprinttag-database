@@ -5,9 +5,9 @@ name: PLA Thermochromic Purple to Pink
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- ef775865-43cd-49b7-a744-cb42ec28c606
+secondary_colors:
+- rgba: '#6c47b2ff'
+- rgba: '#ff72b6ff'
 tags:
 - dual-color
 - temperature-color-change

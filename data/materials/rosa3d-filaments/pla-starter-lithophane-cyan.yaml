@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-starter-lithophane-cyan
+primary_color:
+  rgba: '#0099e6ff'
 tags:
 - lithophane
 properties: {}

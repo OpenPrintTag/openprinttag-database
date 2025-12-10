@@ -5,6 +5,8 @@ name: Orange TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ff7a33ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/08d488207420.jpg
   type: unspecified

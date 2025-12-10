@@ -5,9 +5,9 @@ name: PLA Matte Dual Color Green Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2bdd032b-7a02-48ee-b5f4-999106b7e17e
-- 8291b0a0-0406-42f7-b2cf-ebce0706f490
+secondary_colors:
+- rgba: '#b894e2ff'
+- rgba: '#9aed51ff'
 tags:
 - matte
 - industrially-compostable

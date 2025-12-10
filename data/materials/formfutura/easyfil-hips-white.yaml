@@ -5,6 +5,8 @@ name: ' EasyFil HIPS White'
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d27dc0951fb0.png
   type: unspecified

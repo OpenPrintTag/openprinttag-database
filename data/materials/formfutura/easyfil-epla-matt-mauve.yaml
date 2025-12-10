@@ -5,6 +5,8 @@ name: EasyFil ePLA Matt Mauve
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#decae3ff'
 tags:
 - matte
 - industrially-compostable

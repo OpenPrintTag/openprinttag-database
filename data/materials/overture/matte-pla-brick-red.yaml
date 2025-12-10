@@ -5,6 +5,8 @@ name: Matte PLA Brick Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ec0000ff'
 tags:
 - matte
 - industrially-compostable

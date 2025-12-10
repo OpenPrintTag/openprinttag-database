@@ -5,6 +5,8 @@ name: PETG gold | RAL 1036
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e3b145ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7be44d251c52.png
   type: unspecified

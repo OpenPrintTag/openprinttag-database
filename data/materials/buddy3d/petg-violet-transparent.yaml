@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-petg-violet-transparent-1kg/
+primary_color:
+  rgba: '#e80078ff'
 tags:
 - translucent
 properties:

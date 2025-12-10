@@ -5,6 +5,8 @@ name: PCTG navy blue | RAL 5003
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d3f7e638e854.png
   type: unspecified

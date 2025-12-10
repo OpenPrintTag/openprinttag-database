@@ -5,6 +5,8 @@ name: FiberFlex 30D Graphite
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/39d216821da7.png
   type: unspecified

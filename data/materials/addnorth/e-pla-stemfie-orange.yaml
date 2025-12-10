@@ -5,6 +5,8 @@ name: E-PLA STEMFIE Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff8e24ff'
 tags:
 - neon
 - industrially-compostable

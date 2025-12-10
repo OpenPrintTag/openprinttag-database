@@ -5,6 +5,8 @@ name: 'ABS  Chlorophyll '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 tags:
 - filtration-recomended
 photos:

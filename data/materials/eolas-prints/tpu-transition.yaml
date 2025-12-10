@@ -6,9 +6,9 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://eolasprints.com/en-cz/products/tpu-transition-filament?variant=42324558381315
-colors:
-- 904e485e-c0f3-47e9-be4d-9fc147a8907f
-- 3ae2fbf0-e524-4629-8705-0c3bbe5bcfcb
+secondary_colors:
+- rgba: '#ffcccdff'
+- rgba: '#567bacff'
 properties:
   density: 1.21
   hardness_shore_a: 93

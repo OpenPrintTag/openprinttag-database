@@ -5,6 +5,8 @@ name: Steel-filled Metal Composite PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6f727eff'
 tags:
 - contains-steel
 - contains-metal

@@ -5,9 +5,9 @@ name: Panchroma™ Dual Matte PLA Flamingo (Pink-Red)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 904e485e-c0f3-47e9-be4d-9fc147a8907f
-- 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors:
+- rgba: '#ffcccdff'
+- rgba: '#e20010ff'
 tags:
 - matte
 - industrially-compostable

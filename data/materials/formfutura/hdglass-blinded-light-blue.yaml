@@ -5,6 +5,8 @@ name: HDglass Blinded Light Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 tags:
 - silk
 photos:

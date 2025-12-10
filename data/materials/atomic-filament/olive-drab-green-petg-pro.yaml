@@ -5,6 +5,8 @@ name: Olive Drab Green PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#606935ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7793e2f391a9.png
   type: unspecified

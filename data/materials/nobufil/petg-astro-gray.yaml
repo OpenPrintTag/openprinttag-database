@@ -5,6 +5,8 @@ name: PETG Astro Gray
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#949a9eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/70406b9594a0.png
   type: unspecified

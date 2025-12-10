@@ -5,6 +5,8 @@ name: PETG Tungsten 75%
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#545252ff'
 transmission_distance: 0.3
 tags:
 - contains-tungsten

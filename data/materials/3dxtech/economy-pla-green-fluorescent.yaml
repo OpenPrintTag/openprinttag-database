@@ -5,6 +5,8 @@ name: Economy PLA green-fluorescent
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4dff64ff'
 tags:
 - neon
 - industrially-compostable

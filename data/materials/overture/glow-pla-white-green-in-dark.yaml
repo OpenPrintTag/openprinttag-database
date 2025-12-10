@@ -5,9 +5,9 @@ name: Glow PLA White (Green in Dark)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- e2698625-8666-4ba7-a278-49db768a756c
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#4dff64ff'
 tags:
 - glow-in-the-dark
 - abrasive

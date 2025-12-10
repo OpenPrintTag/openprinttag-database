@@ -5,9 +5,9 @@ name: Rock PETG White
 class: FFF
 type_id: 14
 abbreviation: ''
-colors:
-- b83d8182-ff88-492f-a23f-d99ce3c5703e
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors:
+- rgba: '#edf0f2ff'
+- rgba: '#000000ff'
 tags:
 - imitates-marble
 photos:

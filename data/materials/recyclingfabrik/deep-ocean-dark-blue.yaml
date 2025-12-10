@@ -5,6 +5,8 @@ name: Deep Ocean (Dark Blue)
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#34695aff'
 tags:
 - recycled
 - industrially-compostable

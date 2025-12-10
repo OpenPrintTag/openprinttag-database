@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: FleX-920 Fuchsia
 class: FFF
 abbreviation: FleX-920
+primary_color:
+  rgba: '#cc00e3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7a389848b99a.png
   type: unspecified

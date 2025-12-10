@@ -5,6 +5,8 @@ name: White Rigid TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f3af8432b76c.png
   type: unspecified

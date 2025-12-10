@@ -5,6 +5,8 @@ name: ThermaX PPS Natural
 class: FFF
 type_id: 2
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - without-pigments
 photos:

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-silk-orange-175mm-05kg
+primary_color:
+  rgba: '#ff8e24ff'
 tags:
 - silk
 properties: {}

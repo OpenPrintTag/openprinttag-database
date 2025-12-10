@@ -5,6 +5,8 @@ name: ASA Extrafill "Green Grass"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#91cb67ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b556ed68ddc9.png
   type: unspecified

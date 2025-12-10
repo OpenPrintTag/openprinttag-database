@@ -6,10 +6,12 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://cookiecad.com/products/copy-of-lavender-petg-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- de8b5008-10c9-4313-b403-d57b95f51999
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- cb9a6da4-6b75-440e-a13e-20506678ef08
+primary_color:
+  rgba: '#2a3940ff'
+secondary_colors:
+- rgba: '#11784fff'
+- rgba: '#39b9dbff'
+- rgba: '#c63dbaff'
 tags:
 - iridescent
 properties: {}

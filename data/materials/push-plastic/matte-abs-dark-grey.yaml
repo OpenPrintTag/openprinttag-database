@@ -5,6 +5,8 @@ name: Matte ABS Dark Grey
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 tags:
 - matte
 - filtration-recomended

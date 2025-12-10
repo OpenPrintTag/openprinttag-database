@@ -5,6 +5,8 @@ name: Light Brown rPLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 tags:
 - recycled
 - industrially-compostable

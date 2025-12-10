@@ -5,6 +5,8 @@ name: TPU Bright Pink
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffbdd1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6a4e3faabdbc.jpg
   type: unspecified

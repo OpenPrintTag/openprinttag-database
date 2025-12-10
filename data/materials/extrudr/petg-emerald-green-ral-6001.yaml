@@ -5,6 +5,8 @@ name: PETG emerald green | RAL 6001
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0b6a2fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/62b4c519c87e.png
   type: unspecified

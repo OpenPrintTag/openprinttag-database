@@ -5,9 +5,9 @@ name: Silk Magic PLA Black Green
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- 5bbd2b1f-05dc-444a-8c73-62cac303a97e
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#1d7c6aff'
 tags:
 - iridescent
 - silk

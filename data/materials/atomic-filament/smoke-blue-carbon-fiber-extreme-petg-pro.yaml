@@ -5,6 +5,8 @@ name: Smoke Blue CARBON FIBER Extreme PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4d6383ff'
 tags:
 - contains-carbon-fiber
 - abrasive

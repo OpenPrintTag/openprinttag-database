@@ -5,6 +5,8 @@ name: Pastel Lilac PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6c5bb1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d420f4f57bb8.png
   type: unspecified

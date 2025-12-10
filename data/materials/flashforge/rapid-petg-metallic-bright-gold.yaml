@@ -5,6 +5,8 @@ name: Rapid PETG Metallic Bright Gold
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e3b145ff'
 tags:
 - imitates-metal
 photos:

@@ -5,6 +5,8 @@ name: Economy Glitter PLA cactus-green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0b6a2fff'
 tags:
 - glitter
 - industrially-compostable

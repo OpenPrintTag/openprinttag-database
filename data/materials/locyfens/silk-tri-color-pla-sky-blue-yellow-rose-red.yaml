@@ -5,10 +5,10 @@ name: Silk Tri Color PLA Sky Blue Yellow Rose Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- d4e2a9a8-1033-452d-b4f9-e35c10e44b92
-- eecda309-302b-4cb5-8f7a-da175488c4bb
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
+secondary_colors:
+- rgba: '#5feff9ff'
+- rgba: '#efdc4cff'
+- rgba: '#ff00a2ff'
 tags:
 - silk
 - industrially-compostable

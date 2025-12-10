@@ -5,6 +5,8 @@ name: Green PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#70fa00ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: THERMAX PEKK A Natural
 class: FFF
 type_id: 1
 abbreviation: ''
+primary_color:
+  rgba: '#eadac2ff'
 tags:
 - without-pigments
 - low-outgassing

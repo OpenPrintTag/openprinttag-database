@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-starter-glitter-graphite
+primary_color:
+  rgba: '#3e413fff'
 tags:
 - glitter
 properties: {}

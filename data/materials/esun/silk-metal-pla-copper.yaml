@@ -5,6 +5,8 @@ name: Silk Metal PLA Copper
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d18136ff'
 tags:
 - silk
 - industrially-compostable

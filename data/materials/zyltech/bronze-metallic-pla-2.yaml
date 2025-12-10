@@ -5,6 +5,8 @@ name: Bronze Metallic PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a98c4bff'
 tags:
 - imitates-metal
 - silk

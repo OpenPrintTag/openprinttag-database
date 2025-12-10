@@ -5,10 +5,10 @@ name: 'Silk Candy PLA Red Gold Blue '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 90a85cc8-1736-4480-83a1-00434d403fe2
-- a9294fef-655b-4cef-a8b9-35d5d1622ffa
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors:
+- rgba: '#ffcb47ff'
+- rgba: '#f00c00ff'
+- rgba: '#2e56f1ff'
 tags:
 - silk
 - triple-color

@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Vertigo Grey"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fb6b7d6ba93e.png
   type: unspecified

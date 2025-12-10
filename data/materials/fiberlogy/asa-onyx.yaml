@@ -5,6 +5,8 @@ name: ASA Onyx
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - glitter
 photos:

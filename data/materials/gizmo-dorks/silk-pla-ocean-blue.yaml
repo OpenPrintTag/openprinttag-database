@@ -5,6 +5,8 @@ name: Silk PLA Ocean Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0078bfff'
 tags:
 - silk
 - industrially-compostable

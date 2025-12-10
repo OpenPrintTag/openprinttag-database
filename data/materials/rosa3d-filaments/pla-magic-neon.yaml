@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-magic-neon
-colors:
-- d62ea23d-d53b-470a-bd5a-ee9fa88721b1
-- 6042ddb4-5ca7-4482-b0cd-6fcf65ec0104
+secondary_colors:
+- rgba: '#f8cc00ff'
+- rgba: '#ff4f4dff'
 tags:
 - coextruded
 - neon

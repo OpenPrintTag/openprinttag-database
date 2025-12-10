@@ -5,6 +5,8 @@ name: 'PETG Translucent Gray '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#7f7f7dff'
 tags:
 - transparent
 photos:

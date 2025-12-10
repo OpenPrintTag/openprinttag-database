@@ -5,6 +5,8 @@ name: ' PEI ULTEM 1010 '
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#ea9e3fff'
 tags:
 - low-outgassing
 photos:

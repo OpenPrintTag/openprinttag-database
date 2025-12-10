@@ -5,6 +5,8 @@ name: ABS Yellow
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#f2de00ff'
 tags:
 - filtration-recomended
 photos:

@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Lime '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#dede00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9ec3daaa1942.png
   type: unspecified

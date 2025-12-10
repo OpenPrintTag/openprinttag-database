@@ -5,6 +5,8 @@ name: PET-G Ruby (translucid)
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ca0230ff'
 tags:
 - translucent
 photos:

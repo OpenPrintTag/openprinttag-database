@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-red-wine
+primary_color:
+  rgba: '#c60f3eff'
 tags:
 - glitter
 properties: {}

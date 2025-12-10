@@ -5,6 +5,8 @@ name: PLA Glow-in-the-Dark Glow Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ed2602ff'
 tags:
 - glow-in-the-dark
 - dual-color

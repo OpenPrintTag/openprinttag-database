@@ -5,9 +5,9 @@ name: Silk PLA Gradient Gold to Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
-- 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors:
+- rgba: '#ce8d00ff'
+- rgba: '#e20010ff'
 tags:
 - silk
 - dual-color

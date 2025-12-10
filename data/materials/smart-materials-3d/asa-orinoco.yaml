@@ -5,6 +5,8 @@ name: ASA Orinoco
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#eeea44ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/04dc7c41726a.png
   type: unspecified

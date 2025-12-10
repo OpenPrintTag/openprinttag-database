@@ -5,6 +5,8 @@ name: Army Green ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#5e6345ff'
 tags:
 - filtration-recomended
 photos:

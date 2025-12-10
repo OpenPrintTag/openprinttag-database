@@ -5,6 +5,8 @@ name: 'PLA IRIS  Tanzanite '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#1e606cff'
 tags:
 - iridescent
 - industrially-compostable

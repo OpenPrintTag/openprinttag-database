@@ -5,9 +5,9 @@ name: Panchroma™ Dual Silk PLA Aubergine (Silk Lime / Silk Magenta)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 1c82a4c8-bd1f-419c-aafd-6ffbe8cf6c77
-- 7664001d-f193-4578-91e1-cedd4a646467
+secondary_colors:
+- rgba: '#dede00ff'
+- rgba: '#b1407fff'
 tags:
 - silk
 - industrially-compostable

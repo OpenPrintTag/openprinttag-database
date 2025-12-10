@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-abs-v0-fr-black-25kg
+primary_color:
+  rgba: '#292824ff'
 tags:
 - self-extinguishing
 properties: {}

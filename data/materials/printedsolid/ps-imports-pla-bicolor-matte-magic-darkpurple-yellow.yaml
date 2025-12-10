@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Matte Magic-DarkPurple-Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- efae8549-8440-426e-8bf1-4080ee157fff
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors:
+- rgba: '#0e21aeff'
+- rgba: '#fbe200ff'
 tags:
 - dual-color
 - matte

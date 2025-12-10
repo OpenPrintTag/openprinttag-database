@@ -5,6 +5,8 @@ name: Light Blue MH Build Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#1adafbff'
 tags:
 - industrially-compostable
 photos:

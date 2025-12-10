@@ -5,6 +5,8 @@ name: PS Imports PLA Matte Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ea9e3fff'
 tags:
 - matte
 - industrially-compostable

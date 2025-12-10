@@ -5,6 +5,8 @@ name: Galaxy PLA Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#3a0a8cff'
 tags:
 - iridescent
 - industrially-compostable

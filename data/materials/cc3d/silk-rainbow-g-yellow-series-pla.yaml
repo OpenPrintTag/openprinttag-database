@@ -5,12 +5,12 @@ name: Silk Rainbow G Yellow Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e25b5aae-c815-4e52-84d9-2ae572b61038
-- 455881e0-0657-44f8-9458-bad0c74bfda9
-- bf538d1a-a7ae-4dd0-8eec-538ce73fca4e
-- eecda309-302b-4cb5-8f7a-da175488c4bb
-- 78319a7d-09a4-4d02-ad65-9242adf53586
+secondary_colors:
+- rgba: '#018e63ff'
+- rgba: '#7fe200ff'
+- rgba: '#9a491aff'
+- rgba: '#efdc4cff'
+- rgba: '#36dbe7ff'
 tags:
 - silk
 - industrially-compostable

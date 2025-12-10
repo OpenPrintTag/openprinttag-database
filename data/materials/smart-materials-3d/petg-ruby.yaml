@@ -5,6 +5,8 @@ name: PETG Ruby
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c00000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/91722181da06.png
   type: unspecified

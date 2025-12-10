@@ -5,6 +5,8 @@ name: Indigo Golden Sparkle v3 Translucent PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6c47b2ff'
 tags:
 - glitter
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA Galaxy Silver
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#999aa0ff'
 transmission_distance: 6.4
 tags:
 - glitter

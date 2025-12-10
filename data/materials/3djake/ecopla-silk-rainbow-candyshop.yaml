@@ -6,12 +6,12 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3djake.com/3djake/ecopla-silk-rainbow-candyshop
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- 94cf71ab-dad8-4c95-bbc4-6f32cb7a66b1
-- 9030498f-a251-48cc-a69e-3a99dd7e52bf
-- d232c2cd-048c-4873-b6bb-3580e16a5acc
-- e4fc5556-4f2f-4c3f-a82d-163e353b16ba
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#70a641ff'
+- rgba: '#fd64b3ff'
+- rgba: '#8d65c7ff'
+- rgba: '#ff9a14ff'
 tags:
 - silk
 - gradual-color-change

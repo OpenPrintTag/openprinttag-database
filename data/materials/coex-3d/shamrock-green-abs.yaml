@@ -5,6 +5,8 @@ name: Shamrock Green ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#3d9441ff'
 tags:
 - filtration-recomended
 photos:

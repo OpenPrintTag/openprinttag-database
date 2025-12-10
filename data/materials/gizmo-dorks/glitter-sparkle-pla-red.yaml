@@ -5,6 +5,8 @@ name: Glitter Sparkle PLA Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bf4427ff'
 tags:
 - glitter
 - industrially-compostable

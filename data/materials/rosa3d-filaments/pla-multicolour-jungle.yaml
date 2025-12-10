@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-multicolour-jungle-1
-colors:
-- 4f052bdd-314d-42aa-a245-5e216681c9be
-- 70f1f0e7-07fc-4829-9749-c942d7e2042a
-- 6c8455a5-622b-4a63-bf44-6554b495ab67
+secondary_colors:
+- rgba: '#3d9441ff'
+- rgba: '#70fa00ff'
+- rgba: '#f6fb38ff'
 tags:
 - gradual-color-change
 - silk

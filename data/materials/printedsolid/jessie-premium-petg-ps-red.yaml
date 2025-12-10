@@ -5,6 +5,8 @@ name: Jessie Premium PETG PS Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ec0000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5af6fb21131a.png
   type: unspecified

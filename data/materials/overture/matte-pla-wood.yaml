@@ -5,6 +5,8 @@ name: 'Matte PLA Wood '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#caac78ff'
 tags:
 - matte
 - industrially-compostable

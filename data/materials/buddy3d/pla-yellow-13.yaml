@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-yellow-1kg/
+primary_color:
+  rgba: '#f2de00ff'
 tags:
 - industrially-compostable
 properties:

@@ -5,6 +5,8 @@ name: 'PolyLite™ LW-PLA Black '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4c4e56ff'
 tags:
 - foaming
 - industrially-compostable

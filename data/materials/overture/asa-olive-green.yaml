@@ -5,6 +5,8 @@ name: 'ASA Olive Green '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#857c00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f15b6c5f9de2.jpg
   type: unspecified

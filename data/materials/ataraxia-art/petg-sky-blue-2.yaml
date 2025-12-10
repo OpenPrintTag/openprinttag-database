@@ -5,6 +5,8 @@ name: PETG Sky Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/929ad72b6d57.jpg
   type: unspecified

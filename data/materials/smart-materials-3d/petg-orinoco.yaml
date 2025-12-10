@@ -5,6 +5,8 @@ name: PETG Orinoco
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b36a15f270bf.png
   type: unspecified

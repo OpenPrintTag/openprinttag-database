@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.alza.cz/EN/alzament-pla-silk-dual-colour-1-kg-blue-pink-d12869934.htm
-colors:
-- e88106a6-8c4a-40bb-b08d-d8bc39c71965
-- ef775865-43cd-49b7-a744-cb42ec28c606
+secondary_colors:
+- rgba: '#0078bfff'
+- rgba: '#ff72b6ff'
 tags:
 - silk
 - dual-color

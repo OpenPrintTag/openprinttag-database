@@ -5,6 +5,8 @@ name: Economy PLA chocolate-wine
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5d342cff'
 tags:
 - industrially-compostable
 photos:

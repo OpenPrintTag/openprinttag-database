@@ -5,9 +5,9 @@ name: PLA Basic Gradient Blueberry Bubblegum
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- f1f5572f-fa20-4db3-94c0-e1e9e9c43641
-- 74f6de17-9af7-4db1-88f2-2c7e0a7b4109
+secondary_colors:
+- rgba: '#8cc6e4ff'
+- rgba: '#ae96d4ff'
 tags:
 - industrially-compostable
 - gradual-color-change

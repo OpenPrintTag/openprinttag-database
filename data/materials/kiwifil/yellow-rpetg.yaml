@@ -5,6 +5,8 @@ name: Yellow rPETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#eeea44ff'
 tags:
 - recycled
 photos:

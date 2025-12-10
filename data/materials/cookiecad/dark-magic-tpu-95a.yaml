@@ -6,10 +6,10 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://cookiecad.com/products/tpu-dark-magic-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- c58429fe-d74c-41f0-a19a-f05a04f4d093
-- 94af218b-e279-4485-a934-181baa567445
-- 3ae2fbf0-e524-4629-8705-0c3bbe5bcfcb
+secondary_colors:
+- rgba: '#2a3940ff'
+- rgba: '#02776fff'
+- rgba: '#567bacff'
 tags:
 - iridescent
 properties:

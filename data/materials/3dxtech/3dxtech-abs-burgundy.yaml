@@ -5,6 +5,8 @@ name: 3DXTECH ABS Burgundy
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#aa0101ff'
 tags:
 - filtration-recomended
 photos:

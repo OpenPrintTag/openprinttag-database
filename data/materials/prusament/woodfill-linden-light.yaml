@@ -5,6 +5,8 @@ name: Woodfill Linden Light
 class: FFF
 abbreviation: Woodfill
 url: https://www.prusa3d.com/product/prusament-woodfill-linden-light-1kg/
+primary_color:
+  rgba: '#dfbf9fff'
 tags:
 - contains-wood
 properties:

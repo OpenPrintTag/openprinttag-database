@@ -5,6 +5,8 @@ name: PrimaSelect Luvocom 3F PEEK CF 9676 Black
 class: FFF
 type_id: 33
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

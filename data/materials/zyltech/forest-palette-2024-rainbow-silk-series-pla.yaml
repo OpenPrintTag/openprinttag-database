@@ -5,11 +5,11 @@ name: Forest Palette 2024 Rainbow Silk Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 533da2d4-6827-4be2-96b7-d77cc7504366
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- b6bca73e-c177-481b-b536-bc3fd520ef43
-- 43be8a2e-691a-4f91-9a09-4ce128e58db7
+secondary_colors:
+- rgba: '#67b357ff'
+- rgba: '#39b9dbff'
+- rgba: '#e8bd00ff'
+- rgba: '#bba0daff'
 tags:
 - silk
 - multicolor

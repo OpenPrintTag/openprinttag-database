@@ -5,6 +5,8 @@ name: PLA Marble Red Granite
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ad4e38ff'
 tags:
 - industrially-compostable
 - imitates-stone

@@ -5,6 +5,8 @@ name: PETG Industrial Brown
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#50311eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1ea992724b72.png
   type: unspecified

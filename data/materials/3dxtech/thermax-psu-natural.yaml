@@ -5,6 +5,8 @@ name: ThermaX PSU Natural
 class: FFF
 type_id: 31
 abbreviation: ''
+primary_color:
+  rgba: '#fadca4ff'
 tags:
 - without-pigments
 photos:

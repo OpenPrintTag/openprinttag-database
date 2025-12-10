@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/asa-electrically-conductive/
+primary_color:
+  rgba: '#000000ff'
 tags:
 - conductive
 - contains-carbon-nano-tubes

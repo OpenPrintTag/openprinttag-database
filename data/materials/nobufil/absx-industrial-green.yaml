@@ -5,6 +5,8 @@ name: ABSx Industrial Green
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#1e5a4fff'
 tags:
 - filtration-recomended
 photos:

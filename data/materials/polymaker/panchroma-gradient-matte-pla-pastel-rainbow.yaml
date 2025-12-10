@@ -5,12 +5,12 @@ name: Panchroma™ Gradient Matte PLA Pastel Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 43be8a2e-691a-4f91-9a09-4ce128e58db7
-- 7b580e8f-234c-46bc-9017-51fb050a93bd
-- bc359bc5-22e4-447c-8479-2fcd56997b9a
-- 9cdff3a3-69d8-4cc6-a353-564cdc4d69ae
-- 6f339902-b888-4f17-b9cf-762f48d2e7c1
+secondary_colors:
+- rgba: '#bba0daff'
+- rgba: '#ce92ceff'
+- rgba: '#fef49cff'
+- rgba: '#f2b67aff'
+- rgba: '#95c5d3ff'
 tags:
 - matte
 - industrially-compostable

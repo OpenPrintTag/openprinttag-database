@@ -5,6 +5,8 @@ name: 'PETG Translucent Purple '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#d6abffff'
 tags:
 - translucent
 photos:

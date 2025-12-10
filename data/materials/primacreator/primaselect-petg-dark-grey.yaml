@@ -5,6 +5,8 @@ name: PrimaSelect PETG Dark Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#5a696cff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2d0518c1ef86.png
   type: unspecified

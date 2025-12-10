@@ -5,6 +5,8 @@ name: DigiLab PLA-GRE-01 Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#84d18bff'
 tags:
 - industrially-compostable
 photos:

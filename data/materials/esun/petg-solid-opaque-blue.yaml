@@ -5,6 +5,8 @@ name: PETG Solid Opaque Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#274bb6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a3975c43c458.jpg
   type: unspecified

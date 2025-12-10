@@ -5,6 +5,8 @@ name: EasyFlex Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/de989a00b06b.png
   type: unspecified

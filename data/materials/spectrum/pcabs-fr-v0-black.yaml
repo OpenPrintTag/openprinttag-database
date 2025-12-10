@@ -6,6 +6,8 @@ class: FFF
 type_id: 42
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pc-abs-fr-v0/
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 properties:

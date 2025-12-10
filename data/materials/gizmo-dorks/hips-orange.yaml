@@ -5,6 +5,8 @@ name: HIPS Orange
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#ff8133ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/65814eaa68b6.png
   type: unspecified

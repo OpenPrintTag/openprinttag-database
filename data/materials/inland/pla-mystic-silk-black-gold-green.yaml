@@ -5,10 +5,10 @@ name: PLA Mystic Silk Black-gold-green
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
-- 9129884e-0423-4868-a62b-844bae7e7bec
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#e3b145ff'
+- rgba: '#2d9e59ff'
 tags:
 - silk
 - multicolor

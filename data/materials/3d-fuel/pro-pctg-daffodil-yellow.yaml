@@ -5,6 +5,8 @@ name: Pro PCTG, Daffodil Yellow
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#ffc946ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b2dc43093075.png
   type: unspecified

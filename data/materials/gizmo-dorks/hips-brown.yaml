@@ -5,6 +5,8 @@ name: HIPS Brown
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#935c34ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7014c40a7ec4.png
   type: unspecified

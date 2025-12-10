@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.prusa3d.com/cs/produkt/prusament-petg-prusa-pro-green-1kg/
+primary_color:
+  rgba: '#00fa9aff'
 properties:
   density: 1.27
   hardness_shore_d: 74

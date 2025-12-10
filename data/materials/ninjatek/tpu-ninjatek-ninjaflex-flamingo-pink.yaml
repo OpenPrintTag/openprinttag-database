@@ -5,6 +5,8 @@ name: TPU NinjaTek NinjaFlex - Flamingo Pink
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f06e92ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/457e2b20fd3e.png
   type: unspecified

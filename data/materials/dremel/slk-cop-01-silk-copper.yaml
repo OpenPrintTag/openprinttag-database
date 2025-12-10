@@ -5,6 +5,8 @@ name: SLK-COP-01 Silk Copper
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#be6730ff'
 tags:
 - silk
 - industrially-compostable

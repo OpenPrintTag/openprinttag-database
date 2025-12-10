@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-silk-silver-2
+primary_color:
+  rgba: '#aabccfff'
 tags:
 - silk
 properties: {}

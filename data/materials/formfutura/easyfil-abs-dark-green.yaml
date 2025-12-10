@@ -5,6 +5,8 @@ name: EasyFil ABS Dark Green
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#008059ff'
 tags:
 - filtration-recomended
 photos:

@@ -5,6 +5,8 @@ name: PLA Ruby Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 tags:
 - matte
 - industrially-compostable

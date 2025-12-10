@@ -5,6 +5,8 @@ name: PLA Wood White Oak
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#dbc9adff'
 tags:
 - matte
 - imitates-wood

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/the-filament-pla-cf/
+primary_color:
+  rgba: '#c80181ff'
 tags:
 - contains-carbon-fiber
 - abrasive

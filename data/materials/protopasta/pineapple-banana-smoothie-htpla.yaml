@@ -5,6 +5,8 @@ name: Pineapple Banana Smoothie HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fad61bff'
 tags:
 - imitates-marble
 - high-temperature

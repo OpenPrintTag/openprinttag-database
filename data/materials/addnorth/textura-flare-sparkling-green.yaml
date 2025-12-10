@@ -5,6 +5,8 @@ name: Textura™ Flare Sparkling Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#77a54bff'
 tags:
 - contains-plant
 - matte

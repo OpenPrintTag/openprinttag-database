@@ -5,9 +5,9 @@ name: PLA Color Change Grey to White (Heat Activated)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- dc09b020-2315-43d6-9b85-16b8dc7d9768
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#9fa4a8ff'
 tags:
 - dual-color
 - temperature-color-change

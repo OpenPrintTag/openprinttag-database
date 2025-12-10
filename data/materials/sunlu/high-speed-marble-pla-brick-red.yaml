@@ -5,6 +5,8 @@ name: High Speed Marble PLA Brick Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9c5949ff'
 tags:
 - imitates-marble
 - industrially-compostable

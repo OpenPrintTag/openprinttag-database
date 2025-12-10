@@ -5,6 +5,8 @@ name: ' PETG - Transparent Yellow '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ea9e3fff'
 tags:
 - translucent
 photos:

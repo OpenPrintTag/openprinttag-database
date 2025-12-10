@@ -5,6 +5,8 @@ name: Python Flex TPU 90A Skin Tone ID10
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#3e2617ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9ffcec869a03.png
   type: unspecified

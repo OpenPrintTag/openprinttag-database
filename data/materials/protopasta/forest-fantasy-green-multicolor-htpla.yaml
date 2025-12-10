@@ -5,11 +5,11 @@ name: Forest Fantasy Green Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 898d53aa-a022-47a2-a5c2-b12dd8868cd6
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- a919a6a0-07ca-480d-88b5-b7b522b0c5a8
-- a3665155-6618-4a91-9e08-381c8d4cf79c
+secondary_colors:
+- rgba: '#91c500ff'
+- rgba: '#39b9dbff'
+- rgba: '#15817bff'
+- rgba: '#00a594ff'
 tags:
 - multicolor
 - glitter

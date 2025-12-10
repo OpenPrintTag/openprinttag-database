@@ -5,12 +5,12 @@ name: PS Imports PLA Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- b11c9762-00d7-45e5-8176-9ba8d48825e4
-- 4b1729d8-3c69-476b-87ac-8c38efcf1534
-- ae70f6e5-412c-44f7-8b93-20437976ae58
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors:
+- rgba: '#c7bcf8ff'
+- rgba: '#b645a9ff'
+- rgba: '#ebff57ff'
+- rgba: '#00a594ff'
+- rgba: '#0353baff'
 tags:
 - multicolor
 - industrially-compostable

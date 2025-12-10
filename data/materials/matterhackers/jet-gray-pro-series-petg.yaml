@@ -5,6 +5,8 @@ name: Jet Gray PRO Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8ee617b1075e.png
   type: unspecified

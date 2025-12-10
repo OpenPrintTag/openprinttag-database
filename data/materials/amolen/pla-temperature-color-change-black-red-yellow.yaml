@@ -5,10 +5,10 @@ name: PLA Temperature Color Change Black Red Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- cdebad31-7fd3-419c-93d6-ff2deeb3d0cf
-- a076b79c-5141-4b2e-9630-46c2bcd11381
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#ffe15bff'
+- rgba: '#cb4726ff'
 tags:
 - temperature-color-change
 - industrially-compostable

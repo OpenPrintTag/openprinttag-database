@@ -5,6 +5,8 @@ name: ' TPE 88 RubberJet Flex - Translucent '
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - transparent
 photos:

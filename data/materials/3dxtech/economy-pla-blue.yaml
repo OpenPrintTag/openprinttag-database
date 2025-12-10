@@ -6,6 +6,6 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3dxtech.com/products/economy-pla?variant=52122515243371
-colors:
-- f45bf10d-a26d-4b61-ae86-064d1a59b797
+secondary_colors:
+- rgba: '#8ed9f9ff'
 properties: {}

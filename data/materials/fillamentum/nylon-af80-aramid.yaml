@@ -5,6 +5,8 @@ name: Nylon AF80 Aramid
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - contains-kevlar
 - abrasive

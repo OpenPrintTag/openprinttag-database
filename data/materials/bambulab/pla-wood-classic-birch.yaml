@@ -5,6 +5,8 @@ name: PLA Wood Classic Birch
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ceb378ff'
 tags:
 - imitates-wood
 - matte

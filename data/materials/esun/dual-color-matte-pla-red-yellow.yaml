@@ -5,9 +5,9 @@ name: Dual Color Matte PLA Red Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8b037f8a-83da-4212-922f-40826135a2b8
-- e861b404-aa99-4040-a982-5c5d2f5322d8
+secondary_colors:
+- rgba: '#e03f26ff'
+- rgba: '#fce575ff'
 tags:
 - matte
 - dual-color

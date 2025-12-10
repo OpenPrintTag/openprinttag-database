@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-abs-natural-750g/
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - filtration-recomended
 - without-pigments

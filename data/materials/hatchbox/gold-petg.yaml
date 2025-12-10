@@ -5,6 +5,8 @@ name: Gold PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9acf715d50bb.jpg
   type: unspecified

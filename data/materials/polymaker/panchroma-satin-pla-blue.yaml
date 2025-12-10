@@ -5,6 +5,8 @@ name: 'Panchroma™ Satin PLA Blue '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#006eb6ff'
 tags:
 - satin
 - industrially-compostable

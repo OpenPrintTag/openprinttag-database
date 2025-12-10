@@ -4,6 +4,8 @@ brand_slug: atomic-filament
 name: Black CARBON FIBER Nuclear Nylon v3
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

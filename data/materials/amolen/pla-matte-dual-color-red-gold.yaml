@@ -5,9 +5,9 @@ name: PLA Matte Dual Color Red Gold
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 6f201cc1-f47b-48ea-8f59-d7d341b513d3
-- cadfa5c0-8ac1-422c-8d95-a484f5e329b3
+secondary_colors:
+- rgba: '#dd8131ff'
+- rgba: '#ed2602ff'
 tags:
 - matte
 - industrially-compostable

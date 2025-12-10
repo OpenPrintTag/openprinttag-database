@@ -5,6 +5,8 @@ name: Easy PET-G Onyx
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - glitter
 photos:

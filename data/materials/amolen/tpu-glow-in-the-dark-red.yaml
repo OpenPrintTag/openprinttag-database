@@ -5,6 +5,8 @@ name: TPU Glow-in-the-Dark Red
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ed2602ff'
 tags:
 - glow-in-the-dark
 - abrasive

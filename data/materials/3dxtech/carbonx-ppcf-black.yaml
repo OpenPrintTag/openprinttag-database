@@ -5,6 +5,8 @@ name: CarbonX™ PP+CF Black
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

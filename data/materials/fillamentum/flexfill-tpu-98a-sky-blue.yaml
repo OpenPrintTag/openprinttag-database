@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Sky Blue"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e4f5ef948341.png
   type: unspecified

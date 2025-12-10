@@ -5,6 +5,8 @@ name: 'Silk PLA Silver '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#cacacaff'
 tags:
 - silk
 - industrially-compostable

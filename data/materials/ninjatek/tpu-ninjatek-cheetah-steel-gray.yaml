@@ -5,6 +5,8 @@ name: TPU NinjaTek Cheetah - Steel Gray
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#afaeabff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/034c123e4a57.png
   type: unspecified

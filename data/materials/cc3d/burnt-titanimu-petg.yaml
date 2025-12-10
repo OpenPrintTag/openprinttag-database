@@ -5,6 +5,8 @@ name: Burnt Titanimu PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#26272bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d6d099ed51e9.jpg
   type: unspecified

@@ -5,6 +5,8 @@ name: Jessie Premium PETG Bold Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2ae32af189b7.png
   type: unspecified

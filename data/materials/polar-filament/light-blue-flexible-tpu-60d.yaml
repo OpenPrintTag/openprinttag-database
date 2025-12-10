@@ -5,6 +5,8 @@ name: Light Blue Flexible TPU-60D
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/88819c404fc5.png
   type: unspecified

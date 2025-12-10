@@ -6,9 +6,9 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=46994906841301
-colors:
-- b72c55ab-cfb6-4411-9d20-452ff37f220a
-- e3d4e4d5-92a5-440a-9c2d-3fce1b4ae81b
+secondary_colors:
+- rgba: '#2c365eff'
+- rgba: '#7f068cff'
 tags:
 - iridescent
 properties: {}

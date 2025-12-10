@@ -5,6 +5,8 @@ name: Gray PRO Series TPU (Thermoplastic Polyurethane)
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a799c390d451.png
   type: unspecified

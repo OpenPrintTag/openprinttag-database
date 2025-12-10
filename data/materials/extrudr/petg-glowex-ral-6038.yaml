@@ -5,9 +5,9 @@ name: PETG glowEx | RAL 6038
 class: FFF
 type_id: 14
 abbreviation: ''
-colors:
-- 70242cee-8b9c-4e28-be74-d2b25647048c
-- 8fa7c8a8-33a8-4e15-8762-006bce9dad4f
+secondary_colors:
+- rgba: '#e4e7e5ff'
+- rgba: '#06b100ff'
 tags:
 - glow-in-the-dark
 - abrasive

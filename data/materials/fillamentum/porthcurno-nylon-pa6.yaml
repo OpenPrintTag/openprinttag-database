@@ -5,6 +5,8 @@ name: Porthcurno | Nylon PA6
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 tags:
 - recycled
 - transparent

@@ -5,6 +5,8 @@ name: ASA Silver Metallic
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2db18417f53d.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PLA Carbon Fiber Sapphire Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#09048eff'
 tags:
 - contains-carbon-fiber
 - abrasive

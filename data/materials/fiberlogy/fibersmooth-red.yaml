@@ -5,6 +5,8 @@ name: FiberSmooth Red
 class: FFF
 type_id: 12
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 tags:
 - ipa-soluble
 photos:

@@ -5,6 +5,8 @@ name: Jessie Premium Elixir Electric Lemonade
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c2bd5aff'
 tags:
 - silk
 - industrially-compostable

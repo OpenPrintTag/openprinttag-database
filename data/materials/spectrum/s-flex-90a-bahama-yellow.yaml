@@ -5,6 +5,8 @@ name: S-Flex 90A™ Bahama Yellow
 class: FFF
 abbreviation: S-Flex
 url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color:
+  rgba: '#fadb24ff'
 properties:
   density: 1.22
   hardness_shore_a: 90

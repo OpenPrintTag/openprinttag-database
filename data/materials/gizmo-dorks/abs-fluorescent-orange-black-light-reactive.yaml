@@ -5,6 +5,8 @@ name: ABS Fluorescent Orange (Black Light Reactive)
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 tags:
 - neon
 - filtration-recomended

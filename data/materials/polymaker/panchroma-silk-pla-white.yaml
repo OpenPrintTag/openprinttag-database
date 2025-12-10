@@ -5,6 +5,8 @@ name: 'Panchroma™ Silk PLA White '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e6eaefff'
 tags:
 - silk
 - industrially-compostable

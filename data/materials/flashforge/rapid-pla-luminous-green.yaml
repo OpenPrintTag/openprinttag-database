@@ -5,6 +5,8 @@ name: Rapid PLA Luminous Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#83e665ff'
 tags:
 - glow-in-the-dark
 - abrasive

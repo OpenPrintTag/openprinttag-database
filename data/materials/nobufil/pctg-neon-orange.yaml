@@ -5,6 +5,8 @@ name: PCTG Neon Orange
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ad4ed645064f.png
   type: unspecified

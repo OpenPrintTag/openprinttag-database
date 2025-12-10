@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-ht-winter-white
+primary_color:
+  rgba: '#f5f5f5ff'
 tags:
 - high-temperature
 properties: {}

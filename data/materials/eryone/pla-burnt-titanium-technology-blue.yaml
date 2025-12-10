@@ -5,9 +5,9 @@ name: PLA Burnt Titanium Technology Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 63ad2c7c-6db8-4143-ba46-70dcc11871fe
-- 514e0edd-22a2-4dad-995d-fbc96825d7b6
+secondary_colors:
+- rgba: '#003b80ff'
+- rgba: '#7142a3ff'
 tags:
 - dual-color
 - industrially-compostable

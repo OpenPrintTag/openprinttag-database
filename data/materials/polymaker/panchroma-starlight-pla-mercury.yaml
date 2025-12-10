@@ -5,6 +5,8 @@ name: Panchroma™ Starlight PLA Mercury
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#877674ff'
 tags:
 - glitter
 - industrially-compostable

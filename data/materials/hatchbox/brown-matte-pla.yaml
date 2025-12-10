@@ -5,6 +5,8 @@ name: Brown Matte PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b49c82ff'
 tags:
 - matte
 - industrially-compostable

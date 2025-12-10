@@ -5,6 +5,8 @@ name: PETG "Koala Grey"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#acb1baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b1deb28af8d0.png
   type: unspecified

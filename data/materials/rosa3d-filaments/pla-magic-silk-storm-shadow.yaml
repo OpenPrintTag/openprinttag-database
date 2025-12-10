@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-storm-shadow
-colors:
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- f6c293c8-1db9-434c-9e63-f8878366acb1
-- 493c1f2e-7c71-48c4-9dfb-36df1fe9108d
+secondary_colors:
+- rgba: '#0353baff'
+- rgba: '#24292aff'
+- rgba: '#a8b0bdff'
 tags:
 - silk
 - coextruded

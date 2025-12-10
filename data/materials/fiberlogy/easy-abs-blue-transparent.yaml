@@ -5,6 +5,8 @@ name: Easy ABS Blue Transparent
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#2070cbff'
 tags:
 - translucent
 - filtration-recomended

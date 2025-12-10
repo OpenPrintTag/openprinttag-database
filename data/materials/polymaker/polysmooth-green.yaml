@@ -4,6 +4,8 @@ brand_slug: polymaker
 name: 'PolySmooth™ Green '
 class: FFF
 abbreviation: PolySmooth™
+primary_color:
+  rgba: '#60ab61ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6b7fe71dd26f.png
   type: unspecified

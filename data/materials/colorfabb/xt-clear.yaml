@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: XT Clear
 class: FFF
 abbreviation: XT
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - transparent
 photos:

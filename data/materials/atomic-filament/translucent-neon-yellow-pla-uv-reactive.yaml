@@ -5,6 +5,8 @@ name: Translucent Neon Yellow PLA - UV REACTIVE
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ebff57ff'
 tags:
 - neon
 - industrially-compostable

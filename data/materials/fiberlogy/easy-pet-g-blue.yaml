@@ -5,6 +5,8 @@ name: Easy PET-G Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7690599fad8c.png
   type: unspecified

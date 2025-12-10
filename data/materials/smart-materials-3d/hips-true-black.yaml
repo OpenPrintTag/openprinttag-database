@@ -5,6 +5,8 @@ name: HIPS True black
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/360814e06b1b.png
   type: unspecified

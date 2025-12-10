@@ -5,6 +5,8 @@ name: Lemon Yellow ABS+
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#fadb24ff'
 tags:
 - filtration-recomended
 photos:

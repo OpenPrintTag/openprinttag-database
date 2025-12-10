@@ -5,6 +5,8 @@ name: CPE HT Black
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/18b508a7915c.png
   type: unspecified

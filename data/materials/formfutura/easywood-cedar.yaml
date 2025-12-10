@@ -5,6 +5,8 @@ name: ' EasyWood Cedar'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c37c4fff'
 tags:
 - imitates-wood
 - contains-wood

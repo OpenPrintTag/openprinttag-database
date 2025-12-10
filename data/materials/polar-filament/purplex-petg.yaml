@@ -5,6 +5,8 @@ name: Purplex PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6c47b2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/362a8809dd4e.png
   type: unspecified

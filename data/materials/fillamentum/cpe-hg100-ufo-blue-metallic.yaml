@@ -5,6 +5,8 @@ name: CPE HG100 "UFO Blue Metallic"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#4f7bbbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/930f8750f634.png
   type: unspecified

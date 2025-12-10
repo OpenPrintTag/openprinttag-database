@@ -5,10 +5,10 @@ name: Nebula Silver Silk Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2e97075c-3d57-4c5a-b743-e6442ddae45b
-- 3fb39c58-76a4-4c39-913d-b0fd9b865ba3
-- f179b153-a44c-4d87-b245-a4d231519976
+secondary_colors:
+- rgba: '#c75072ff'
+- rgba: '#a38496ff'
+- rgba: '#617fccff'
 tags:
 - color-gradient
 - silk

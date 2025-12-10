@@ -5,6 +5,8 @@ name: Flexfill PEBA 90A "Red Transparent"
 class: FFF
 type_id: 23
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 tags:
 - translucent
 photos:

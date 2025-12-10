@@ -5,6 +5,8 @@ name: EasyFil ePETG Sky Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5bb9aac673f2.png
   type: unspecified

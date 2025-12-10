@@ -5,6 +5,8 @@ name: EasyFil ePETG Light Ivory
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fff5b5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0aef031eed10.png
   type: unspecified

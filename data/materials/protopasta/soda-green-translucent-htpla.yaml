@@ -5,6 +5,8 @@ name: Soda Green Translucent HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#3d9441ff'
 tags:
 - transparent
 - high-temperature

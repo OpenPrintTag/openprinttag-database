@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pet-g-standard-hs-transparent-red
+primary_color:
+  rgba: '#ec0000ff'
 tags:
 - translucent
 properties: {}

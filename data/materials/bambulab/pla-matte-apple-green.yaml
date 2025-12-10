@@ -5,6 +5,8 @@ name: PLA Matte Apple Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d0e68cff'
 tags:
 - matte
 - industrially-compostable

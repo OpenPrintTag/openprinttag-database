@@ -5,6 +5,8 @@ name: PLA Crystal Clear "Smaragd Green"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 tags:
 - translucent
 - industrially-compostable

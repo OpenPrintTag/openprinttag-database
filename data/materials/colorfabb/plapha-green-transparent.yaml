@@ -5,6 +5,8 @@ name: PLA/PHA Green Transparent
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#267f67ff'
 tags:
 - home-compostable
 - translucent

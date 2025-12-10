@@ -5,6 +5,8 @@ name: Metallic Finish Rust PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#de6300ff'
 tags:
 - silk
 - industrially-compostable

@@ -5,9 +5,9 @@ name: PLA Temperature Color Change Blue to White
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 1b18060d-2433-4948-811c-f46a123c2fbf
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#0022ffff'
 tags:
 - temperature-color-change
 - dual-color

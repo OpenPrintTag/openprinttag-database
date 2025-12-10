@@ -5,6 +5,8 @@ name: ThermaX PEEK Natural
 class: FFF
 type_id: 33
 abbreviation: ''
+primary_color:
+  rgba: '#eadac2ff'
 tags:
 - without-pigments
 - low-outgassing

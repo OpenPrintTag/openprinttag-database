@@ -5,6 +5,8 @@ name: Pro PCTG, Brightest White
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fdcbd97b311c.png
   type: unspecified

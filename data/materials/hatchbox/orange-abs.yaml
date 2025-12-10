@@ -5,6 +5,8 @@ name: Orange ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ff7a33ff'
 tags:
 - filtration-recomended
 photos:

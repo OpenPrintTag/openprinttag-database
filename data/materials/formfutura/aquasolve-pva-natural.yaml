@@ -5,6 +5,8 @@ name: ' AquaSolve – PVA Natural'
 class: FFF
 type_id: 22
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - water-soluble
 - without-pigments

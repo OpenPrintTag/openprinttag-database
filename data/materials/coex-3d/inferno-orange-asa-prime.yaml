@@ -5,6 +5,8 @@ name: Inferno Orange ASA Prime
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#e03f26ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/714b30658255.png
   type: unspecified

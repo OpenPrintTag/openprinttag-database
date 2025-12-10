@@ -5,10 +5,10 @@ name: PLA Wood Tigerwood
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c7e78510-6c40-42e6-89dd-4725be992103
-- 674aadb8-1478-49e1-80bc-bff67686ad6c
-- 259eb69b-6301-4cea-952f-1f65ed91f361
+secondary_colors:
+- rgba: '#8b3a3aff'
+- rgba: '#473229ff'
+- rgba: '#913f1fff'
 tags:
 - contains-wood
 - industrially-compostable

@@ -5,6 +5,8 @@ name: ASA Sky Blue
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#2070cbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e6df74afaf6f.jpg
   type: unspecified

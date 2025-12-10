@@ -5,6 +5,8 @@ name: Easy PET-G Transparent Burgundy
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#861d2bff'
 tags:
 - translucent
 photos:

@@ -5,9 +5,9 @@ name: 'PLA Burnt Titanium Interstellar '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7bcc5b03-bd50-4722-8912-c1d6b6c019d2
-- 3e6d42c4-bb59-4311-8b7d-826db56159f4
+secondary_colors:
+- rgba: '#09048eff'
+- rgba: '#373737ff'
 tags:
 - iridescent
 - industrially-compostable

@@ -5,6 +5,8 @@ name: CPE HT Pure Transparent
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - translucent
 photos:

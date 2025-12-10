@@ -5,6 +5,8 @@ name: Flexfill TPU 92A "Metallic Grey"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7dcc343bff15.png
   type: unspecified

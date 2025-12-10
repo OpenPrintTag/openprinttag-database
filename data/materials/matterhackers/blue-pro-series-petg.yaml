@@ -5,6 +5,8 @@ name: Blue PRO Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4da865c3c1cb.png
   type: unspecified

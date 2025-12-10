@@ -5,6 +5,8 @@ name: PLA Extrafill "Natural"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - industrially-compostable
 photos:

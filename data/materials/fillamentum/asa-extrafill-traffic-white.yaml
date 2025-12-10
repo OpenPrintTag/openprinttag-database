@@ -5,6 +5,8 @@ name: ASA Extrafill "Traffic White"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b42f6afd21e9.png
   type: unspecified

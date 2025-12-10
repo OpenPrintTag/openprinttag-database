@@ -5,6 +5,8 @@ name: PCTG Industrial Teal
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#3292b2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8bf1091e1d6e.png
   type: unspecified

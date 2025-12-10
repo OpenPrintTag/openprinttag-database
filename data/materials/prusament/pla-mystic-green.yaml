@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-premium-pla-mystic-green-1kg-2/
+primary_color:
+  rgba: '#555846ff'
 transmission_distance: 1.0
 tags:
 - iridescent

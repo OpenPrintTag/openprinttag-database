@@ -5,6 +5,8 @@ name: E-PLA Glitz Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#3a0a8cff'
 tags:
 - glitter
 - industrially-compostable

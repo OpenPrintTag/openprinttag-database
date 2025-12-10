@@ -5,6 +5,8 @@ name: ABS Green
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#58c91bff'
 tags:
 - filtration-recomended
 photos:

@@ -5,6 +5,8 @@ name: Metallic Finish Beige PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f5dcc5ff'
 tags:
 - imitates-metal
 - industrially-compostable

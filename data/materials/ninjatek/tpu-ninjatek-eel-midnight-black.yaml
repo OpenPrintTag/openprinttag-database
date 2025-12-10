@@ -5,6 +5,8 @@ name: TPU NinjaTek Eel - Midnight Black
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - conductive
 photos:

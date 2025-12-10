@@ -5,6 +5,8 @@ name: 'PLA Basic Bronze '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6b5f37ff'
 tags:
 - industrially-compostable
 photos:

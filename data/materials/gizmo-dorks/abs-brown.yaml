@@ -5,6 +5,8 @@ name: ABS Brown
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#a45b27ff'
 tags:
 - filtration-recomended
 photos:

@@ -5,8 +5,10 @@ name: Panchroma™ Glow PLA Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 02a93184-2bbb-4aa1-8818-67458224e16e
+primary_color:
+  rgba: '#006eb6ff'
+secondary_colors:
+- rgba: '#f2efe9ff'
 tags:
 - glow-in-the-dark
 - abrasive

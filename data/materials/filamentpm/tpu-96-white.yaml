@@ -5,6 +5,8 @@ name: ' TPU 96 - White '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e6e574aa87a9.png
   type: unspecified

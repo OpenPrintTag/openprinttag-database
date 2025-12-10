@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3djake.com/3djake/ecopla-neon-orange
+primary_color:
+  rgba: '#ff520eff'
 tags:
 - translucent
 properties: {}

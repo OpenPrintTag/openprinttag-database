@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3djake.com/3djake/magicpla-frozen-raspberry
-colors:
-- c7dff6e4-2906-4091-b50b-67b1e8e44e46
-- a683c1bf-a838-4373-9462-834e4cce4d64
+secondary_colors:
+- rgba: '#d5447eff'
+- rgba: '#c9d0d4ff'
 tags:
 - coextruded
 - iridescent

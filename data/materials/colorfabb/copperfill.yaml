@@ -5,6 +5,8 @@ name: 'copperFill '
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#a54830ff'
 tags:
 - contains-copper
 - abrasive

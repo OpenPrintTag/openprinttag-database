@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pet-g-ht100/
+primary_color:
+  rgba: '#ec0000ff'
 tags:
 - high-temperature
 properties:

@@ -5,6 +5,8 @@ name: PLA Medium skin
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e5c7bbff'
 tags:
 - industrially-compostable
 photos:

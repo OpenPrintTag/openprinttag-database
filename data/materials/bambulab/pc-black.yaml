@@ -5,6 +5,8 @@ name: 'PC Black '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - translucent
 photos:

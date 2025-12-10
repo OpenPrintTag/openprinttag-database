@@ -5,11 +5,11 @@ name: Silk PLA Gradient Rainbow Candy
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- f50921e1-4192-41d8-91ab-84b8a078a2bb
-- eda03cd9-a95c-4756-89ea-1985306359f6
-- 5f968022-c2a1-4964-ad04-f786b48afb2a
+secondary_colors:
+- rgba: '#00a594ff'
+- rgba: '#ea9e3fff'
+- rgba: '#e23288ff'
+- rgba: '#4d6383ff'
 tags:
 - silk
 - multicolor

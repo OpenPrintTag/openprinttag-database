@@ -5,6 +5,8 @@ name: PLA Metal Iridium Gold Metallic
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8e8677ff'
 tags:
 - imitates-metal
 - industrially-compostable

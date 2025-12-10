@@ -5,9 +5,9 @@ name: Silk Dual Color Yellow and Green 2 in 1
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors:
+- rgba: '#41a840ff'
+- rgba: '#fbe200ff'
 tags:
 - silk
 - dual-color

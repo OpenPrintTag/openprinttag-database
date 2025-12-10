@@ -5,6 +5,8 @@ name: FLEX Hard CF black | RAL 9017
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

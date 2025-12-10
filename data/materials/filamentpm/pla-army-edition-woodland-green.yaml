@@ -5,6 +5,8 @@ name: ' PLA+ Army edition - Woodland Green '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4c5e46ff'
 tags:
 - matte
 - industrially-compostable

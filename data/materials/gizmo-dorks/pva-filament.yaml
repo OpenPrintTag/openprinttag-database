@@ -5,6 +5,8 @@ name: PVA Filament
 class: FFF
 type_id: 22
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - water-soluble
 photos:

@@ -5,6 +5,8 @@ name: Red TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ed1536ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ad0ce48779b6.jpg
   type: unspecified

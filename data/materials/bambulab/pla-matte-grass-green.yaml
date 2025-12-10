@@ -5,6 +5,8 @@ name: PLA Matte Grass Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#61c680ff'
 tags:
 - matte
 - industrially-compostable

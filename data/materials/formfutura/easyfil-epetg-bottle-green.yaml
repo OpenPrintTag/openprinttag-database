@@ -5,6 +5,8 @@ name: EasyFil ePETG Bottle Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#364429ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/39d51baa7ac9.png
   type: unspecified

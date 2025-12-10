@@ -5,6 +5,8 @@ name: PP Grey
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4f58c6a62ff5.png
   type: unspecified

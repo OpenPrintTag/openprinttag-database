@@ -5,6 +5,8 @@ name: ' PETG - Turquoise Blue '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#36dbe7ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8e651bb16427.png
   type: unspecified

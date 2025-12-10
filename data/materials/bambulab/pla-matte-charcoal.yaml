@@ -5,6 +5,8 @@ name: PLA Matte Charcoal
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#1d1d1dff'
 tags:
 - matte
 - industrially-compostable

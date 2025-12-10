@@ -5,6 +5,8 @@ name: 'PolyLite™ Metallic PLA Pro Bronze '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9a491aff'
 tags:
 - imitates-metal
 - industrially-compostable

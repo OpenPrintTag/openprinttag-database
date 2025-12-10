@@ -5,6 +5,8 @@ name: ASA Extrafill "Traffic Red"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/160d020bb31e.png
   type: unspecified

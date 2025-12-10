@@ -5,6 +5,8 @@ name: 'Creator Special Edition: Hedgehog Makes Galaxy Red'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ec0000ff'
 tags:
 - industrially-compostable
 photos:

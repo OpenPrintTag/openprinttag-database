@@ -5,6 +5,8 @@ name: Tropical Sea Iridescent Translucent PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#40e0d0ff'
 tags:
 - translucent
 - iridescent

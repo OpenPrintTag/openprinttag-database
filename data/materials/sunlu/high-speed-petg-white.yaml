@@ -5,6 +5,8 @@ name: High Speed PETG White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/64b89dd002a9.jpg
   type: unspecified

@@ -5,6 +5,8 @@ name: 95A TPU Orange
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/993304d042cd.jpg
   type: unspecified

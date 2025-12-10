@@ -5,6 +5,8 @@ name: CarbonX HTN+CF Black
 class: FFF
 abbreviation: ''
 url: https://www.3dxtech.com/products/carbonx-htn-cf
+primary_color:
+  rgba: '#000000ff'
 tags:
 - high-temperature
 properties: {}

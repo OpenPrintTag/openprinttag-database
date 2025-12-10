@@ -5,6 +5,8 @@ name: PETG Rust
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a54830ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e06eb3ec9e3f.png
   type: unspecified

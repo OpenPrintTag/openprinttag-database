@@ -5,6 +5,8 @@ name: Turbo PLA Rapid Marble Gray
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ecefedff'
 tags:
 - imitates-marble
 - industrially-compostable

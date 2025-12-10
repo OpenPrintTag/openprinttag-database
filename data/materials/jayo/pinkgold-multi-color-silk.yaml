@@ -5,9 +5,9 @@ name: Pink+Gold Multi-Color SILK
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- f1593eb7-6f6b-4cbb-b914-55824fdf590a
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
+secondary_colors:
+- rgba: '#f092b3ff'
+- rgba: '#e3b145ff'
 tags:
 - silk
 - dual-color

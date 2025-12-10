@@ -5,6 +5,8 @@ name: PLA Marble Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b0b4b5ff'
 transmission_distance: 3.5
 tags:
 - imitates-marble

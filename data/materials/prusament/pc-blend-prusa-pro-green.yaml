@@ -5,6 +5,8 @@ name: PC Blend Prusa Pro Green
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#00fa9aff'
 tags:
 - blend
 photos:

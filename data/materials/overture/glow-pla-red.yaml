@@ -5,8 +5,10 @@ name: Glow PLA Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 72a455ea-cd87-4a2d-b0a1-22d3b9c0e4e5
+primary_color:
+  rgba: '#ff7d7aff'
+secondary_colors:
+- rgba: '#ffb031ff'
 tags:
 - glow-in-the-dark
 - abrasive

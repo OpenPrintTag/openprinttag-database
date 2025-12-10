@@ -5,6 +5,8 @@ name: PLA SILK Burdeos
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#512628ff'
 tags:
 - silk
 - industrially-compostable

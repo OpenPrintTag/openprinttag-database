@@ -5,9 +5,9 @@ name: 'PLA Burnt Titanium Wormhole '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 58c08137-c1d9-4ae8-9e08-6ffa859053fa
-- 619dde05-83ae-4bfa-bdf5-99feaee10d49
+secondary_colors:
+- rgba: '#473c36ff'
+- rgba: '#008059ff'
 tags:
 - iridescent
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Olive Drab Green
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#575b54ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0b57d90615c8.png
   type: unspecified

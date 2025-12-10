@@ -4,6 +4,8 @@ brand_slug: gizmo-dorks
 name: Nylon Natural Clear
 class: FFF
 abbreviation: Nylon
+primary_color:
+  rgba: '#efe8d8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8292c6223edf.png
   type: unspecified

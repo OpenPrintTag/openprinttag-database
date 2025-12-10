@@ -5,6 +5,8 @@ name: PLA Go&Print Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f06e92ff'
 tags:
 - industrially-compostable
 photos:

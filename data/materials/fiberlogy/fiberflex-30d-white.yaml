@@ -5,6 +5,8 @@ name: FiberFlex 30D White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c62b8f24fe49.png
   type: unspecified

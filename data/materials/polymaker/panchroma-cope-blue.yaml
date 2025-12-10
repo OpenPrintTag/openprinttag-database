@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Blue '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#003287ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f370b076d68b.png
   type: unspecified

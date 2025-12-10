@@ -6,6 +6,8 @@ class: FFF
 type_id: 42
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pcpbt-plus-15gf-ht-uv-impact-black-175mm-1kg
+primary_color:
+  rgba: '#292824ff'
 tags:
 - contains-glass-fiber
 - high-temperature

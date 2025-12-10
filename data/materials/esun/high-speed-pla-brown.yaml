@@ -5,6 +5,8 @@ name: High Speed PLA+ Brown
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#926043ff'
 tags:
 - industrially-compostable
 photos:

@@ -4,6 +4,8 @@ brand_slug: 3dxtech
 name: THERMAX HTS2
 class: FFF
 abbreviation: THERMAX HTS2
+primary_color:
+  rgba: '#fadca4ff'
 tags:
 - high-temperature
 - without-pigments

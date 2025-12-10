@@ -5,6 +5,8 @@ name: Caribbean Sea (Blue)
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#005da4ff'
 tags:
 - translucent
 - recycled

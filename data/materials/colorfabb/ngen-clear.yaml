@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen Clear
 class: FFF
 abbreviation: nGen
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - transparent
 photos:

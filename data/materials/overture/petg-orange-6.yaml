@@ -5,6 +5,8 @@ name: 'PETG Orange '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff854dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b096dc07e4ed.jpg
   type: unspecified

@@ -5,9 +5,9 @@ name: Lemonade Breeze Dual Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a83b63a7-7c2f-45be-9624-c5efdef33e87
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#e4ff33ff'
+- rgba: '#0099e6ff'
 tags:
 - silk
 - dual-color

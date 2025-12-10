@@ -5,9 +5,9 @@ name: High Gloss PLA ColorMorph Yellow & Pink
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- 2e1e16ff-cbab-4c35-9918-16c5d9512706
+secondary_colors:
+- rgba: '#fce575ff'
+- rgba: '#f79dbcff'
 tags:
 - iridescent
 - dual-color

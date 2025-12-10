@@ -5,6 +5,8 @@ name: Galactic Purple Translucent Iridescent PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a2918dff'
 tags:
 - industrially-compostable
 - translucent

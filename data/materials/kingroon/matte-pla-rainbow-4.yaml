@@ -6,11 +6,11 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://kingroon.com/products/kingroon-matte-pla?variant=46772533493978
-colors:
-- b1b5c5fe-a068-4633-bae1-5e2d463ae151
-- d232c2cd-048c-4873-b6bb-3580e16a5acc
-- ef775865-43cd-49b7-a744-cb42ec28c606
-- 597049be-cc71-4850-943c-175907ea9a42
+secondary_colors:
+- rgba: '#00e3e2ff'
+- rgba: '#8d65c7ff'
+- rgba: '#ff72b6ff'
+- rgba: '#fadb24ff'
 tags:
 - gradual-color-change
 - matte

@@ -4,6 +4,8 @@ brand_slug: bambulab
 name: 'Support for PLA/PETG Black '
 class: FFF
 abbreviation: BambuSupport
+primary_color:
+  rgba: '#000000ff'
 tags:
 - translucent
 photos:

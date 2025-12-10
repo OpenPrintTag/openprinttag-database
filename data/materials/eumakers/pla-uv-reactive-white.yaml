@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-uv-reactive-filament-color-white.html
-colors:
-- 02a93184-2bbb-4aa1-8818-67458224e16e
+primary_color:
+  rgba: '#0099e6ff'
+secondary_colors:
+- rgba: '#f2efe9ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

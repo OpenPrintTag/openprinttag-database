@@ -5,10 +5,10 @@ name: 'PLA Silk Triple Color (Blue Green Purple) '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- cc5e8d05-336f-4e4f-a8ca-13593338e078
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#84d18bff'
+- rgba: '#6c47b2ff'
+- rgba: '#0099e6ff'
 tags:
 - triple-color
 - silk

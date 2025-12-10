@@ -5,6 +5,8 @@ name: FIBREX™ Nylon PA6+GF30 Metallic Silver
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - contains-glass-fiber
 - abrasive

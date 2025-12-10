@@ -5,6 +5,8 @@ name: FiberFlex 40D Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2c8e9f0db6ea.png
   type: unspecified

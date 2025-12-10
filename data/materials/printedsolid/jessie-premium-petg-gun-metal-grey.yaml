@@ -5,6 +5,8 @@ name: Jessie Premium PETG Gun Metal Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6f727eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/992befad3df7.png
   type: unspecified

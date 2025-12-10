@@ -5,6 +5,8 @@ name: Flexible TPU Red
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ef3df99942aa.png
   type: unspecified

@@ -5,6 +5,8 @@ name: High Speed Upgraded PETG Solid White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7f9b02e97514.jpg
   type: unspecified

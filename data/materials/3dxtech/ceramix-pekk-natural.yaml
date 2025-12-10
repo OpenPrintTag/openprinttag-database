@@ -5,6 +5,8 @@ name: CeramiX PEKK Natural
 class: FFF
 type_id: 1
 abbreviation: ''
+primary_color:
+  rgba: '#b38f6eff'
 tags:
 - contains-ceramic
 - without-pigments

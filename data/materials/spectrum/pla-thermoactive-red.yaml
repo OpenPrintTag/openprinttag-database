@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-thermoactive/
-colors:
-- 24ba2cef-4188-405b-b707-94296d02c914
-- 6042ddb4-5ca7-4482-b0cd-6fcf65ec0104
+secondary_colors:
+- rgba: '#efefefff'
+- rgba: '#ff4f4dff'
 tags:
 - temperature-color-change
 - industrially-compostable

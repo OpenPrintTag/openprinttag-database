@@ -5,6 +5,8 @@ name: PrimaSelect PETG Lake Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f0818ed288e6.png
   type: unspecified

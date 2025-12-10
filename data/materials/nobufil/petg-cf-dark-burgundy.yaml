@@ -5,6 +5,8 @@ name: PETG CF Dark Burgundy
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4b3140ff'
 tags:
 - contains-carbon-fiber
 - abrasive

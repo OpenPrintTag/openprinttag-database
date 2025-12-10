@@ -5,9 +5,9 @@ name: Silk Dual Color PLA Gold & Rose
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 032a2c4d-231f-4525-a843-af3650bd4278
-- 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
+secondary_colors:
+- rgba: '#bb264dff'
+- rgba: '#ce8d00ff'
 tags:
 - silk
 - dual-color

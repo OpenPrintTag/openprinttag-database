@@ -5,6 +5,8 @@ name: High Speed ABS+ Fire Engine Red
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#c01616ff'
 tags:
 - filtration-recomended
 photos:

@@ -5,6 +5,8 @@ name: Luminous PETG Glow in the Dark Red to Glow Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f00c00ff'
 tags:
 - glow-in-the-dark
 - abrasive

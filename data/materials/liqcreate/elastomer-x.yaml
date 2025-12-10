@@ -6,6 +6,8 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.liqcreate.com/product/elastomer-x/
+primary_color:
+  rgba: '#f3f6f4ff'
 properties:
   density: 1.18
   hardness_shore_a: 43

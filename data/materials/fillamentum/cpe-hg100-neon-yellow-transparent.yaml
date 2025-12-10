@@ -5,6 +5,8 @@ name: CPE HG100 "Neon Yellow Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - translucent
 photos:

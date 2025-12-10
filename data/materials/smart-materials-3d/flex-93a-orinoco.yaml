@@ -5,6 +5,8 @@ name: FLEX 93A Orinoco
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ae0d8c4193b8.png
   type: unspecified

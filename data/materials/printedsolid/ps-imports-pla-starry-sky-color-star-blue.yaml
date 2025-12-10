@@ -5,6 +5,8 @@ name: PS Imports PLA Starry Sky Color-Star Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#1e2f5aff'
 tags:
 - glitter
 - transparent

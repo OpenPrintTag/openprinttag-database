@@ -5,6 +5,8 @@ name: rPETG Matte
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - matte
 - recycled

@@ -5,6 +5,8 @@ name: Pro PETG, Clearly Natural
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - translucent
 - without-pigments

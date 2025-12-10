@@ -5,6 +5,8 @@ name: ezPC Polycarbonate  White
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6fdbf4c0a401.png
   type: unspecified

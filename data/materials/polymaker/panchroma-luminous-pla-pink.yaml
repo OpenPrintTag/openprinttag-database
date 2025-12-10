@@ -5,6 +5,8 @@ name: Panchroma™ Luminous PLA Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fc8397ff'
 tags:
 - glow-in-the-dark
 - abrasive

@@ -5,10 +5,10 @@ name: PLA Marble Fossil Gradient
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 9eaf3728-ebd8-496a-8e0e-a45d2adeb563
-- ab56847a-2362-4cba-a592-62fece282398
-- 3d1e6536-e558-482f-8725-6e1af0c90047
+secondary_colors:
+- rgba: '#7b6b57ff'
+- rgba: '#a38777ff'
+- rgba: '#7c594aff'
 tags:
 - imitates-marble
 - industrially-compostable

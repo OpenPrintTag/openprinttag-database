@@ -5,9 +5,9 @@ name: Blue+Green Multi-Color SILK PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- d6d0fa66-38ee-4abd-9dd0-6999fb942f4b
-- bf997e3f-d4ef-4bf1-b24a-ab8aa1b82d37
+secondary_colors:
+- rgba: '#5eb7d4ff'
+- rgba: '#0ccf81ff'
 tags:
 - silk
 - dual-color

@@ -5,6 +5,8 @@ name: High Speed 95A TPU Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/caad5368a9c2.jpg
   type: unspecified

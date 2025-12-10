@@ -5,12 +5,12 @@ name: Rustic Rainbow, rPLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- fca5b87b-e404-4e8f-8501-52d47cd8c1cf
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- 56876fcf-cf87-4e13-b729-c3bcfbcf6de7
-- 4b1729d8-3c69-476b-87ac-8c38efcf1534
-- 81309b1d-3118-486c-b9cc-7cbd2104b5a0
+secondary_colors:
+- rgba: '#61c680ff'
+- rgba: '#0099e6ff'
+- rgba: '#005da4ff'
+- rgba: '#b645a9ff'
+- rgba: '#c6f666ff'
 tags:
 - recycled
 - multicolor

@@ -5,6 +5,8 @@ name: 'Lemon Yellow Matte PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#eeea44ff'
 tags:
 - matte
 - industrially-compostable

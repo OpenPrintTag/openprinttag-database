@@ -5,6 +5,8 @@ name: PETG signal green | RAL 6037
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5c0f75c487a3.png
   type: unspecified

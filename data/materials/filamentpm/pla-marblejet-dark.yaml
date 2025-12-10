@@ -5,6 +5,8 @@ name: ' PLA MarbleJet - Dark '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#acb1baff'
 tags:
 - imitates-marble
 - industrially-compostable

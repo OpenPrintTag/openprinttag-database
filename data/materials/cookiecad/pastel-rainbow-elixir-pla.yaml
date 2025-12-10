@@ -6,12 +6,12 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/pastel-rainbow-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 4f3f67a4-46bf-4d09-980b-662d594f793b
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- acaaa3be-fa4f-44ae-ab7a-e80326378e36
-- f817e94b-8f1b-4139-a8a4-40de0b05be17
-- 03c7f912-ca97-4e2b-9610-e38bea03d859
+secondary_colors:
+- rgba: '#fd9191ff'
+- rgba: '#fce575ff'
+- rgba: '#69ebb6ff'
+- rgba: '#9cd0dbff'
+- rgba: '#c1648eff'
 tags:
 - gradual-color-change
 - iridescent

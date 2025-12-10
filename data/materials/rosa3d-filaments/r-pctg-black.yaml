@@ -6,6 +6,8 @@ class: FFF
 type_id: 4
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-r-pctg-black
+primary_color:
+  rgba: '#292824ff'
 tags:
 - recycled
 properties: {}

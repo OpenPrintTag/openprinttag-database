@@ -5,6 +5,8 @@ name: White PLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PETG magenta | RAL 4010
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c80181ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7be0127a31b9.png
   type: unspecified

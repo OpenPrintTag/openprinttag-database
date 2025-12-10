@@ -5,6 +5,8 @@ name: ASA Iron Grey
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e0408a63a5a2.jpg
   type: unspecified

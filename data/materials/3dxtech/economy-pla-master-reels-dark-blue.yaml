@@ -5,6 +5,8 @@ name: Economy PLA - Master Reels Dark Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#09048eff'
 tags:
 - industrially-compostable
 photos:

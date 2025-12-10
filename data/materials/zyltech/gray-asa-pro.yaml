@@ -5,6 +5,8 @@ name: Gray ASA Pro
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#7f7f7dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c586ba04ceab.png
   type: unspecified

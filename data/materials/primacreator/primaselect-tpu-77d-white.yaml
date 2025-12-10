@@ -5,6 +5,8 @@ name: PrimaSelect TPU 77D White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c2ba89824434.png
   type: unspecified

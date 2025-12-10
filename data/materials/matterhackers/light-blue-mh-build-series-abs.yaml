@@ -5,6 +5,8 @@ name: Light Blue MH Build Series ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#1adafbff'
 tags:
 - filtration-recomended
 photos:

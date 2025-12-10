@@ -5,6 +5,8 @@ name: RAPID PETG Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#26a648ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/48a7f2bc0e22.png
   type: unspecified

@@ -5,6 +5,8 @@ name: High Speed 95A TPU Black
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/de8a0d8d6b51.jpg
   type: unspecified

@@ -4,6 +4,8 @@ brand_slug: push-plastic
 name: Nylon Natural
 class: FFF
 abbreviation: Nylon
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/be88c0a02be8.png
   type: unspecified

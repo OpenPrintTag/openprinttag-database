@@ -5,6 +5,8 @@ name: ThermaX PPSU Natural
 class: FFF
 type_id: 19
 abbreviation: ''
+primary_color:
+  rgba: '#fadca4ff'
 tags:
 - without-pigments
 - low-outgassing

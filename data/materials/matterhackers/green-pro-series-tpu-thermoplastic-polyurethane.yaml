@@ -5,6 +5,8 @@ name: Green PRO Series TPU (Thermoplastic Polyurethane)
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#62e480ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5b57b602af63.png
   type: unspecified

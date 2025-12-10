@@ -5,6 +5,8 @@ name: PolyLite™ Translucent PETG Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 tags:
 - translucent
 photos:

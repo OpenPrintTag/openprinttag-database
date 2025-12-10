@@ -6,6 +6,8 @@ class: FFF
 type_id: 42
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-pc-space-grade-black-850g/
+primary_color:
+  rgba: '#000000ff'
 tags:
 - low-outgassing
 - esd-safe

@@ -5,6 +5,8 @@ name: Translucent Green MH Build Series TPU Flexible
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 tags:
 - transparent
 photos:

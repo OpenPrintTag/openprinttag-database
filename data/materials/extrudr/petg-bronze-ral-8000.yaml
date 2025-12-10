@@ -5,6 +5,8 @@ name: PETG bronze | RAL 8000
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a98c4bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6c20ffdaabcb.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PCTG silver | RAL 9006
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#9fa4a8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/876e26b3c6fd.png
   type: unspecified

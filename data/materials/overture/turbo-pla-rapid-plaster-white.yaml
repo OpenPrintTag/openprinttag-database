@@ -5,6 +5,8 @@ name: Turbo PLA Rapid Plaster White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - industrially-compostable
 photos:

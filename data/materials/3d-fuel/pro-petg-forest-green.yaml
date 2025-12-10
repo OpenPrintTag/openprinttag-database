@@ -5,6 +5,8 @@ name: Pro PETG, Forest Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#267f67ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/81a975580526.jpg
   type: unspecified

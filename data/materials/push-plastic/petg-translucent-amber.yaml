@@ -5,6 +5,8 @@ name: PETG Translucent Amber
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff9a14ff'
 tags:
 - transparent
 photos:

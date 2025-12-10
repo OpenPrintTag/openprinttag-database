@@ -5,6 +5,8 @@ name: PLA Matte Sakura Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffbadeff'
 tags:
 - matte
 - industrially-compostable

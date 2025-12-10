@@ -5,6 +5,8 @@ name: 'Panchroma™ Marble PLA White '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e6eaefff'
 tags:
 - imitates-marble
 - industrially-compostable

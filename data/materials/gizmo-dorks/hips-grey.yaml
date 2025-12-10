@@ -5,6 +5,8 @@ name: HIPS Grey
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dad63dbbfd83.png
   type: unspecified

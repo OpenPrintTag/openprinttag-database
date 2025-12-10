@@ -5,9 +5,9 @@ name: Mango Medley Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3f216a6c-0611-4ad2-8086-8a6fce3a0395
-- 442e51ef-76c7-47e2-ad26-738cb89fe0a5
+secondary_colors:
+- rgba: '#e72f1dff'
+- rgba: '#fa8423ff'
 tags:
 - color-gradient
 - dual-color

@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: FleX-920 Black
 class: FFF
 abbreviation: FleX-920
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d6a6949a8d64.png
   type: unspecified

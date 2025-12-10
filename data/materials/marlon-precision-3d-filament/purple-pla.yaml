@@ -5,6 +5,8 @@ name: Purple PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6711f2ff'
 tags:
 - industrially-compostable
 photos:

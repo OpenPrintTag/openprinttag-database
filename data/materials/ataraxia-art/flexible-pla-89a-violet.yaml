@@ -5,6 +5,8 @@ name: Flexible PLA 89A Violet
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f300eaff'
 tags:
 - industrially-compostable
 photos:

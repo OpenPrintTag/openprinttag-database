@@ -5,6 +5,8 @@ name: 'PolyLite™ Metallic ABS Blue '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#1e2f5aff'
 tags:
 - silk
 - filtration-recomended

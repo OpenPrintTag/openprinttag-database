@@ -5,6 +5,8 @@ name: EasyFlex White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2f8779a30b51.png
   type: unspecified

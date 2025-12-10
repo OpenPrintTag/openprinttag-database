@@ -5,6 +5,8 @@ name: PETG anthracite | RAL 7016
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2c2c2cff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/06a26932cf52.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Flexible 39D TPE Black
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e76b5f9071da.jpg
   type: unspecified

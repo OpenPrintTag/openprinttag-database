@@ -5,6 +5,8 @@ name: PrimaSelect PLA Marble A Touch Of Jade Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d3e5e2ff'
 tags:
 - imitates-marble
 - industrially-compostable

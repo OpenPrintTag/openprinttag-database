@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magicsilk-midnight-city
-colors:
-- 53bd1262-b96c-469b-ba45-26c3fa54ead1
-- fec18c7b-511c-487c-9a4e-a922500ac5b4
+secondary_colors:
+- rgba: '#4921c1ff'
+- rgba: '#ff0066ff'
 tags:
 - coextruded
 - silk

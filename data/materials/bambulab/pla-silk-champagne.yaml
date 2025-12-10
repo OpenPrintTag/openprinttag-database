@@ -5,6 +5,8 @@ name: 'PLA Silk+ Champagne '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e3b899ff'
 tags:
 - silk
 - industrially-compostable

@@ -5,11 +5,11 @@ name: Silk Rainbow F Forest Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 455881e0-0657-44f8-9458-bad0c74bfda9
-- e751fdfe-a8de-4cfc-ad4b-22fb5ba51bb1
-- a919a6a0-07ca-480d-88b5-b7b522b0c5a8
-- a3665155-6618-4a91-9e08-381c8d4cf79c
+secondary_colors:
+- rgba: '#7fe200ff'
+- rgba: '#515234ff'
+- rgba: '#15817bff'
+- rgba: '#00a594ff'
 tags:
 - silk
 - multicolor

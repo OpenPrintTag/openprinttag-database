@@ -5,10 +5,10 @@ name: PLA Mystic Silk Orange Blue Green
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a6b06b3a-047c-4588-b11a-a2fc6a210ea5
-- c758d7b1-413e-431f-8ac1-f7f3bfc3df99
-- 619dde05-83ae-4bfa-bdf5-99feaee10d49
+secondary_colors:
+- rgba: '#ff8133ff'
+- rgba: '#2070cbff'
+- rgba: '#008059ff'
 tags:
 - silk
 - multicolor

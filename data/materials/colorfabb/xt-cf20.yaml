@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: XT-CF20
 class: FFF
 abbreviation: XT
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

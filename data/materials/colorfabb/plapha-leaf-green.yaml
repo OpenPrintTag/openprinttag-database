@@ -5,6 +5,8 @@ name: PLA/PHA Leaf green
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#06924dff'
 tags:
 - home-compostable
 photos:

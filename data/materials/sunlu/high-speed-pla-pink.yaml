@@ -5,6 +5,8 @@ name: High Speed PLA Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f87fb5ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: High Speed PETG Pink
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f297daff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0f822d7e1aa3.jpg
   type: unspecified

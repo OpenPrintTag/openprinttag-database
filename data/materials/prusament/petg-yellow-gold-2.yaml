@@ -5,6 +5,8 @@ name: PETG Yellow Gold
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#9a8524ff'
 transmission_distance: 9.2
 tags:
 - glitter

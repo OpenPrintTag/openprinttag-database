@@ -5,6 +5,8 @@ name: PETG PWalt Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffb031ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c8a28b6f60f9.png
   type: unspecified

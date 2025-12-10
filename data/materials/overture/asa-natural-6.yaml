@@ -5,6 +5,8 @@ name: 'ASA Natural '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/19459f6344e3.jpg
   type: unspecified

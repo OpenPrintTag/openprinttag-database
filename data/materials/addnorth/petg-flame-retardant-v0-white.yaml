@@ -5,6 +5,8 @@ name: PETG Flame Retardant V0 White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - self-extinguishing
 photos:

@@ -5,6 +5,8 @@ name: FIBREX PEI+GF30 Natural
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#fadca4ff'
 tags:
 - contains-glass-fiber
 - without-pigments

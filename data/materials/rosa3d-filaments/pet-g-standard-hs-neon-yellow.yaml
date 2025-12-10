@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-neon-yellow
+primary_color:
+  rgba: '#e4ff33ff'
 tags:
 - neon
 properties: {}

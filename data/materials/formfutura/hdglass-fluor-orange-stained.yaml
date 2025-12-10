@@ -5,6 +5,8 @@ name: HDglass Fluor Orange Stained
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f17231ff'
 tags:
 - silk
 - translucent

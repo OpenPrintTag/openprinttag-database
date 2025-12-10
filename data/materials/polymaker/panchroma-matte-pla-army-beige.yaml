@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Army Beige
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#cca897ff'
 tags:
 - matte
 - industrially-compostable

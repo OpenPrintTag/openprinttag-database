@@ -5,6 +5,8 @@ name: Easy ABS - Pure Transparent
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - translucent
 - filtration-recomended

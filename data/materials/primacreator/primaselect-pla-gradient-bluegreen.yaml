@@ -5,9 +5,9 @@ name: ' PrimaSelect PLA Gradient Blue/Green'
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- aa6781ce-c602-48f0-849d-a1d101ddcfed
-- 39e61712-935a-45f7-bab5-960e42bc8f59
+secondary_colors:
+- rgba: '#488d94ff'
+- rgba: '#32a584ff'
 tags:
 - color-gradient
 - dual-color

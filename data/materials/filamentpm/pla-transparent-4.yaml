@@ -5,6 +5,8 @@ name: ' PLA - Transparent '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f0ebe5ff'
 tags:
 - translucent
 - industrially-compostable

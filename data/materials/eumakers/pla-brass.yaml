@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-brass.html
+primary_color:
+  rgba: '#998d58ff'
 tags:
 - imitates-metal
 - glitter

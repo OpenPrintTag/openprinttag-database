@@ -5,6 +5,8 @@ name: ASA Ruby
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#c00000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b1d6024cd2cb.png
   type: unspecified

@@ -5,6 +5,8 @@ name: 'TPU for AMS Red '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#df3303ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0ec5b5f01793.png
   type: unspecified

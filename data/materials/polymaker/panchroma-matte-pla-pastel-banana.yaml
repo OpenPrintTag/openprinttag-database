@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Pastel Banana
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f5cf6fff'
 tags:
 - matte
 - industrially-compostable

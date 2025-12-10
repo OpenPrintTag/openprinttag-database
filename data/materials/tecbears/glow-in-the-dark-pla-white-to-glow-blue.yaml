@@ -5,9 +5,9 @@ name: Glow in The Dark PLA White to Glow Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 491c9130-63d7-4434-af37-40385f110ac9
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#1adafbff'
 tags:
 - glow-in-the-dark
 - dual-color

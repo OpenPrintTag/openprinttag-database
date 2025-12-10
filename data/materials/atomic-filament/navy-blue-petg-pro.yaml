@@ -5,6 +5,8 @@ name: Navy Blue PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#122c4dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8f747438b87d.png
   type: unspecified

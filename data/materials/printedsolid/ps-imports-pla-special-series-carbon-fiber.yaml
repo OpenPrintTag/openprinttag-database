@@ -5,6 +5,8 @@ name: PS Imports PLA Special Series-Carbon Fiber
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

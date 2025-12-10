@@ -5,6 +5,8 @@ name: White PRO Series ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - filtration-recomended
 photos:

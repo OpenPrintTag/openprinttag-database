@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/asa-x-gf10/
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - contains-glass-fiber
 - abrasive

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-flameguard/
+primary_color:
+  rgba: '#0066d9ff'
 tags:
 - silk
 - self-extinguishing

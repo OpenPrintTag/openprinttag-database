@@ -5,6 +5,8 @@ name: ' Matt PLA Aircraft Grey Camouflage'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8c9099ff'
 tags:
 - matte
 - industrially-compostable

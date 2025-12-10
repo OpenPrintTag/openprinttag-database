@@ -5,6 +5,8 @@ name: PLA NX2 MATT light blue | RAL 5012
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0696efff'
 tags:
 - matte
 - industrially-compostable

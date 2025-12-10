@@ -5,9 +5,9 @@ name: Panchroma™ Dual Silk PLA Sovereign (Gold / Purple)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e4030af7-b905-425e-9f7c-db893396e656
-- 90a85cc8-1736-4480-83a1-00434d403fe2
+secondary_colors:
+- rgba: '#9761b5ff'
+- rgba: '#ffcb47ff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Shimmering Statue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#613b3aff'
 tags:
 - recycled
 - iridescent

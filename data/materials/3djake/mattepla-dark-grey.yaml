@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3djake.com/3djake/mattepla-dark-grey
+primary_color:
+  rgba: '#4a4949ff'
 tags:
 - matte
 properties: {}

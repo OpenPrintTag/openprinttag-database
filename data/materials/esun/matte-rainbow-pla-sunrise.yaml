@@ -5,10 +5,10 @@ name: Matte Rainbow PLA Sunrise
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- f52c9109-108f-4c4f-9663-0e1a208e9157
-- 8b037f8a-83da-4212-922f-40826135a2b8
+secondary_colors:
+- rgba: '#fce575ff'
+- rgba: '#f67405ff'
+- rgba: '#e03f26ff'
 tags:
 - matte
 - industrially-compostable

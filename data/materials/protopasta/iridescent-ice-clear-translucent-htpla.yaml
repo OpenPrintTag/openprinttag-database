@@ -5,6 +5,8 @@ name: Iridescent Ice Clear Translucent HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 tags:
 - transparent
 - high-temperature

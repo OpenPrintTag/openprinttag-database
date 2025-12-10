@@ -5,6 +5,8 @@ name: Cobalt Blue Metallic PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 tags:
 - imitates-metal
 - industrially-compostable

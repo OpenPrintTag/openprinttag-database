@@ -5,6 +5,8 @@ name: PrimaSelect PLA Marble Stardust Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 tags:
 - imitates-marble
 - industrially-compostable

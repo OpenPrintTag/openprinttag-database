@@ -5,6 +5,8 @@ name: Matte ASA Graphite
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 tags:
 - matte
 photos:

@@ -5,11 +5,11 @@ name: Rainbow Upgrade PLA+
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 78319a7d-09a4-4d02-ad65-9242adf53586
-- 3e5b9da4-0d3e-4290-aef2-bdf4f976e3c1
-- e8ff7b27-96be-4cc7-9966-b6c5762d65df
-- 0a165cb6-53d4-4b74-b9d8-8461c26a2554
+secondary_colors:
+- rgba: '#36dbe7ff'
+- rgba: '#f7a7a1ff'
+- rgba: '#f297daff'
+- rgba: '#8846aeff'
 tags:
 - industrially-compostable
 - gradual-color-change

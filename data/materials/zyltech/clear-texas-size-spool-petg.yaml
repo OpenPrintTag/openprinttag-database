@@ -5,6 +5,8 @@ name: Clear Texas Size Spool PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e81f550745c2.png
   type: unspecified

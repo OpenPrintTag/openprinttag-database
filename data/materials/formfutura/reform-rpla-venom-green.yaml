@@ -5,6 +5,8 @@ name: ReForm – rPLA Venom Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9cbf60ff'
 tags:
 - recycled
 - industrially-compostable

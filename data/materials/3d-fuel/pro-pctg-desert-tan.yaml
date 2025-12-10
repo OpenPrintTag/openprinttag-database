@@ -5,6 +5,8 @@ name: Pro PCTG, Desert Tan
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#a79e82ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/700ea5a42a01.png
   type: unspecified

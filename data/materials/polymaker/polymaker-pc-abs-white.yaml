@@ -5,6 +5,8 @@ name: Polymaker PC-ABS White
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c268d576f94c.png
   type: unspecified

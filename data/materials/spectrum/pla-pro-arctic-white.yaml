@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-pro/
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - industrially-compostable
 properties:

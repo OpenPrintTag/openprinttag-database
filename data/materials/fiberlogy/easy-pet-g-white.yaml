@@ -5,6 +5,8 @@ name: Easy PET-G White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9dac1bc5fd59.png
   type: unspecified

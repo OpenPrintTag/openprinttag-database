@@ -5,6 +5,8 @@ name: PETG Bright Magenta
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#db3fa9ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b04cc9e819d9.png
   type: unspecified

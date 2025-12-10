@@ -4,6 +4,8 @@ brand_slug: bambulab
 name: Support for ABS White
 class: FFF
 abbreviation: BambuSupport
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c9c2ad1872fc.png
   type: unspecified

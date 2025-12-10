@@ -5,6 +5,8 @@ name: Bronze-filled Metal Composite HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8c7354ff'
 tags:
 - contains-bronze
 - high-temperature

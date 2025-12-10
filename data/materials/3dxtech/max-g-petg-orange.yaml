@@ -5,6 +5,8 @@ name: MAX-G PETG  Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c45941f25b22.png
   type: unspecified

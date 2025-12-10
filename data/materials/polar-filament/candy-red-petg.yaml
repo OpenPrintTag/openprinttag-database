@@ -5,6 +5,8 @@ name: Candy Red PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#de1619ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ff556b3bdd3c.png
   type: unspecified

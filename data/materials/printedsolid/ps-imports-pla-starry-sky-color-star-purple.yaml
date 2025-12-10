@@ -5,6 +5,8 @@ name: PS Imports PLA Starry Sky Color-Star Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#372b74ff'
 tags:
 - glitter
 - industrially-compostable

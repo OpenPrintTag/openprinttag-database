@@ -5,6 +5,8 @@ name: PrimaSelect Luvocom 3F PAHT CF 9891 Black
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - high-temperature

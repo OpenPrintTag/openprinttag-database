@@ -5,6 +5,8 @@ name: rPLA Corn Pigment
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b37b47ff'
 transmission_distance: 6.2
 tags:
 - recycled

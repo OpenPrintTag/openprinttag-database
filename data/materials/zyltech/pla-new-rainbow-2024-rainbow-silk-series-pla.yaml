@@ -5,11 +5,11 @@ name: PLA New Rainbow 2024 Rainbow Silk Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 74f6de17-9af7-4db1-88f2-2c7e0a7b4109
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- 7d7e613a-9aa1-44bc-b48c-4fbbfb7fd9e3
-- 1f148a0c-96df-4073-ab16-f787460191f8
+secondary_colors:
+- rgba: '#ae96d4ff'
+- rgba: '#39b9dbff'
+- rgba: '#b3df3aff'
+- rgba: '#eeea44ff'
 tags:
 - silk
 - multicolor

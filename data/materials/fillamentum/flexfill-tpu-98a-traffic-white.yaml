@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Traffic White"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8d605b1c9bf2.png
   type: unspecified

@@ -5,9 +5,9 @@ name: PolyLite™ Neon ABS Yellow
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- f36bb080-3d2c-40e0-85b6-73cfc6075c44
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors:
+- rgba: '#f3c102ff'
+- rgba: '#fbe200ff'
 tags:
 - illuminescent-color-change
 - filtration-recomended

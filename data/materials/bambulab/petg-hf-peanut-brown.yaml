@@ -5,6 +5,8 @@ name: PETG HF Peanut Brown
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#be6730ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d0e58d1af12a.png
   type: unspecified

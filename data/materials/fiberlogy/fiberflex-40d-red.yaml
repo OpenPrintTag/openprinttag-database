@@ -5,6 +5,8 @@ name: FiberFlex 40D Red
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dd96effef268.png
   type: unspecified

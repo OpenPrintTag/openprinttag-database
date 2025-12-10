@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-asa-yellow-750g/
+primary_color:
+  rgba: '#f5ec97ff'
 properties:
   density: 1.07
   min_print_temperature: 250

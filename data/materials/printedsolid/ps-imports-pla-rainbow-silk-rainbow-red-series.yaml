@@ -5,12 +5,12 @@ name: PS Imports PLA Rainbow Silk Rainbow-Red Series
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 73baf610-aea4-46a8-b0d0-ef62bc779438
-- ae70f6e5-412c-44f7-8b93-20437976ae58
-- e50ce36d-9a2c-497a-9d0e-fc482e9f7ca8
-- ef775865-43cd-49b7-a744-cb42ec28c606
-- 3fb304ce-6af8-407c-85cd-41c567d640ce
+secondary_colors:
+- rgba: '#1e5a4fff'
+- rgba: '#ebff57ff'
+- rgba: '#95d05cff'
+- rgba: '#ff72b6ff'
+- rgba: '#ed1536ff'
 tags:
 - silk
 - industrially-compostable

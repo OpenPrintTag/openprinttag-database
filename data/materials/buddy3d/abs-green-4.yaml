@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-abs-green-750g/
+primary_color:
+  rgba: '#089a45ff'
 tags:
 - filtration-recomended
 properties: {}

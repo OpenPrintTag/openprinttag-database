@@ -5,6 +5,8 @@ name: Flexfill TPE 90A "Sky Blue"
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/64fabc3ae5d7.png
   type: unspecified

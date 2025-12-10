@@ -5,6 +5,8 @@ name: Flexfill TPE 90A "Signal Red"
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#bf2b2bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5993d7d3ccff.png
   type: unspecified

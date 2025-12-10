@@ -5,6 +5,8 @@ name: PLA Extrafill "Orange Orange"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fa7f1bff'
 tags:
 - industrially-compostable
 photos:

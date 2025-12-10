@@ -5,12 +5,12 @@ name: ' PrimaSelect PLA Gradient  Yellow/Green/Sky Blue/Purple/Rose Red/Kashmir 
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
-- 7dec4335-0c49-4cb3-a35f-e9eef4390735
-- f817e94b-8f1b-4139-a8a4-40de0b05be17
-- e4030af7-b905-425e-9f7c-db893396e656
-- c62d8349-8eee-42dd-9576-a82205a8b919
+secondary_colors:
+- rgba: '#e3b145ff'
+- rgba: '#77a54bff'
+- rgba: '#9cd0dbff'
+- rgba: '#9761b5ff'
+- rgba: '#f06e92ff'
 tags:
 - color-gradient
 - multicolor

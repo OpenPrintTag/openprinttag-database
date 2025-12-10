@@ -4,6 +4,8 @@ brand_slug: fiberlogy
 name: FiberWood White
 class: FFF
 abbreviation: FiberWood
+primary_color:
+  rgba: '#dbc9adff'
 tags:
 - imitates-wood
 - contains-wood

@@ -5,6 +5,8 @@ name: PLA Wood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b38f6eff'
 tags:
 - contains-wood
 - imitates-wood

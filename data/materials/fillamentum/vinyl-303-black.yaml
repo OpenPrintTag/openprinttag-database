@@ -5,6 +5,8 @@ name: Vinyl 303 "Black"
 class: FFF
 type_id: 10
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b13f941ec624.png
   type: unspecified

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-fluorescent-green.html
+primary_color:
+  rgba: '#62e480ff'
 tags:
 - neon
 properties:

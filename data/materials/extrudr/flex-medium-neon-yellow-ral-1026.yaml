@@ -5,6 +5,8 @@ name: FLEX Medium neon yellow | RAL 1026
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/269160f9904c.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Polymaker Teal
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fbdaea9b5e0b.png
   type: unspecified

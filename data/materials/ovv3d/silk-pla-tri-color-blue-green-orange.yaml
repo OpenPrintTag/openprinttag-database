@@ -5,10 +5,10 @@ name: Silk PLA Tri-color Blue Green Orange
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a6b06b3a-047c-4588-b11a-a2fc6a210ea5
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
-- 99be1304-74de-4a05-bea4-8ef2ab9ee418
+secondary_colors:
+- rgba: '#ff8133ff'
+- rgba: '#41a840ff'
+- rgba: '#386dffff'
 tags:
 - triple-color
 - silk

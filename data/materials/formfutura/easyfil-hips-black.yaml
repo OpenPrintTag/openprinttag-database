@@ -5,6 +5,8 @@ name: ' EasyFil HIPS Black'
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cf2585557e2f.png
   type: unspecified

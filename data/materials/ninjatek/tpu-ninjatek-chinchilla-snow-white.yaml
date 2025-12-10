@@ -5,6 +5,8 @@ name: TPU NinjaTek Chinchilla - Snow White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/eac1b6b05549.png
   type: unspecified

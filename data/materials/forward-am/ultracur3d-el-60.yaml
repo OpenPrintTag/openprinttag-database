@@ -6,6 +6,8 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://forward-am.com/material-portfolio/ultracur3d-photopolymers/flexible-elastomeric-line/ultracur3d-el-60/
+primary_color:
+  rgba: '#f3f6f4ff'
 properties:
   density: 1.08
   hardness_shore_a: 75

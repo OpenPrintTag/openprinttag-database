@@ -5,6 +5,8 @@ name: Purple PLA Matte
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ae00ffff'
 tags:
 - matte
 - industrially-compostable

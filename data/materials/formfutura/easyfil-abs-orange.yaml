@@ -5,6 +5,8 @@ name: EasyFil ABS Orange
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ff9c66ff'
 tags:
 - filtration-recomended
 photos:

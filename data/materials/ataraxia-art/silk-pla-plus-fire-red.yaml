@@ -5,9 +5,9 @@ name: Silk PLA Plus Fire Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3f216a6c-0611-4ad2-8086-8a6fce3a0395
-- 29531b03-49ae-4f3e-9993-d9c4a6694fb9
+secondary_colors:
+- rgba: '#e72f1dff'
+- rgba: '#ffd342ff'
 tags:
 - silk
 - industrially-compostable

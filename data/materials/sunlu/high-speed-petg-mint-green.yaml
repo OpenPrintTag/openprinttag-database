@@ -5,6 +5,8 @@ name: High Speed PETG Mint Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6feedbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/172ed8ea0aa5.jpg
   type: unspecified

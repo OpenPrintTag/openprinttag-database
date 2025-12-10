@@ -5,6 +5,8 @@ name: PETG CF Dark Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#5a696cff'
 tags:
 - contains-carbon-fiber
 - abrasive

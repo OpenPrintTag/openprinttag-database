@@ -5,6 +5,8 @@ name: Polar White PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f0ebe5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f364badb0f86.png
   type: unspecified

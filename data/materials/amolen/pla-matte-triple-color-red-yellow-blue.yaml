@@ -5,10 +5,10 @@ name: PLA Matte Triple Color Red Yellow Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7abd308a-476d-4eb2-ae90-5ef22c4db37b
-- cadfa5c0-8ac1-422c-8d95-a484f5e329b3
-- 3496eec2-66ac-411e-81bd-c54ee005aa35
+secondary_colors:
+- rgba: '#fffb00ff'
+- rgba: '#ed2602ff'
+- rgba: '#2c3294ff'
 tags:
 - triple-color
 - matte

@@ -5,9 +5,9 @@ name: Panchroma™ Dual Matte PLA Foggy Purple (Grey-Purple)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e28a4749-344c-4e99-8ece-e693adb546f4
-- e4030af7-b905-425e-9f7c-db893396e656
+secondary_colors:
+- rgba: '#c3ccd5ff'
+- rgba: '#9761b5ff'
 tags:
 - matte
 - industrially-compostable

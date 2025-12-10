@@ -5,9 +5,9 @@ name: ABS Color Change Blue to White (Heat Activated)
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#2e56f1ff'
 tags:
 - dual-color
 - temperature-color-change

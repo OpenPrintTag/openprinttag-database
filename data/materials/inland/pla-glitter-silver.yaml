@@ -5,6 +5,8 @@ name: PLA Glitter Silver
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#cacacaff'
 tags:
 - glitter
 - industrially-compostable

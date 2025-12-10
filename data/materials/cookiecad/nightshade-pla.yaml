@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/nightshade-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 027889b2-61fe-40bc-8569-07e7e274ac69
+primary_color:
+  rgba: '#ff00a2ff'
+secondary_colors:
+- rgba: '#39b9dbff'
 tags:
 - iridescent
 - silk

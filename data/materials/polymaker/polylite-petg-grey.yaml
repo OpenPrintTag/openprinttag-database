@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Grey '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#8c9099ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/432175970254.png
   type: unspecified

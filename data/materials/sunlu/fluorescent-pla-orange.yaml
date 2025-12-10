@@ -5,6 +5,8 @@ name: Fluorescent PLA Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - neon
 - industrially-compostable

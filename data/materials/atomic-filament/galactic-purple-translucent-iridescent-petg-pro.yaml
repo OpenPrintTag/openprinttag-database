@@ -5,6 +5,8 @@ name: Galactic Purple Translucent Iridescent PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a2918dff'
 tags:
 - translucent
 - iridescent

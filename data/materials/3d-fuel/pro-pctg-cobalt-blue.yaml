@@ -5,6 +5,8 @@ name: Pro PCTG, Cobalt Blue
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/267e19f309fa.png
   type: unspecified

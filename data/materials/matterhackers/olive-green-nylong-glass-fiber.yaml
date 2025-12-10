@@ -5,6 +5,8 @@ name: Olive Green NylonG Glass Fiber
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#748c45ff'
 tags:
 - contains-glass-fiber
 - abrasive

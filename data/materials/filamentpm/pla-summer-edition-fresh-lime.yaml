@@ -5,6 +5,8 @@ name: ' PLA+ Summer edition - Fresh lime '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#dede00ff'
 tags:
 - matte
 - industrially-compostable

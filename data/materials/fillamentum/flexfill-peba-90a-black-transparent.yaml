@@ -5,6 +5,8 @@ name: Flexfill PEBA 90A "Black Transparent"
 class: FFF
 type_id: 23
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - translucent
 photos:

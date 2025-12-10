@@ -5,6 +5,8 @@ name: Easy PLA Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7f7f7dff'
 tags:
 - imitates-marble
 - industrially-compostable

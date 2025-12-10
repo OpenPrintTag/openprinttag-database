@@ -5,6 +5,8 @@ name: PolyLite™ ASA Jet Black
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ccbd09f8e930.png
   type: unspecified

@@ -5,6 +5,8 @@ name: FiberFlex 30D Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9b76510b05ec.png
   type: unspecified

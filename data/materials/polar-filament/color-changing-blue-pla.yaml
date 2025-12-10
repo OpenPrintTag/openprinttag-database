@@ -5,9 +5,9 @@ name: Color Changing Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- 95e881ff-5692-4670-9cdb-90a55b7e23e5
+secondary_colors:
+- rgba: '#0353baff'
+- rgba: '#f0ebe5ff'
 tags:
 - industrially-compostable
 photos:

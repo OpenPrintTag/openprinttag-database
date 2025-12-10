@@ -5,6 +5,8 @@ name: Transparent Yellow PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f2de00ff'
 tags:
 - translucent
 - industrially-compostable

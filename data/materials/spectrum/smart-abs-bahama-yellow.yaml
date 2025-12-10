@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/smart-abs/
+primary_color:
+  rgba: '#e8bd00ff'
 tags:
 - filtration-recomended
 properties:

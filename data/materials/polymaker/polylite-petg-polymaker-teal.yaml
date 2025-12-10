@@ -5,6 +5,8 @@ name: PolyLite™ PETG Polymaker Teal
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e3453eb974d3.png
   type: unspecified

@@ -5,6 +5,8 @@ name: WOOD Maple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c6ad74ff'
 tags:
 - contains-wood
 - industrially-compostable

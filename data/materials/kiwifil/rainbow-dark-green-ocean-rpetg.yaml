@@ -5,9 +5,9 @@ name: Rainbow "Dark Green Ocean", rPETG
 class: FFF
 type_id: 14
 abbreviation: ''
-colors:
-- c0825c68-2cea-41d3-ba88-d412b924f76b
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors:
+- rgba: '#67c993ff'
+- rgba: '#0353baff'
 tags:
 - recycled
 - dual-color

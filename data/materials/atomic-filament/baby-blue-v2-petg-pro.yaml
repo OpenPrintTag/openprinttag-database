@@ -5,6 +5,8 @@ name: Baby Blue v2 PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#7abbceff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/921d6076c61f.png
   type: unspecified

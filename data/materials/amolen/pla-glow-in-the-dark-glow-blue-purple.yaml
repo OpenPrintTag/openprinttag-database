@@ -5,6 +5,8 @@ name: PLA Glow-in-the-Dark Glow Blue Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6711f2ff'
 tags:
 - glow-in-the-dark
 - abrasive

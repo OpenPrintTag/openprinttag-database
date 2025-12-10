@@ -5,6 +5,8 @@ name: FLEX Medium hellfire red | RAL 3024
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ce5d4cff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/443489d96e91.png
   type: unspecified

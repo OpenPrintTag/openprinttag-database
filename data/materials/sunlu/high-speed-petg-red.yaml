@@ -5,6 +5,8 @@ name: High Speed PETG Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#d33d3dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9900d665b282.jpg
   type: unspecified

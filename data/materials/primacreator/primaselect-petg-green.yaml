@@ -5,6 +5,8 @@ name: PrimaSelect PETG Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#317c2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c56f3cb12b8a.png
   type: unspecified

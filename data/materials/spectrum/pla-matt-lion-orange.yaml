@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-matt/
+primary_color:
+  rgba: '#fa8423ff'
 tags:
 - matte
 - industrially-compostable

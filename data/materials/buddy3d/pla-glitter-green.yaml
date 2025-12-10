@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-glitter-green-1kg/
+primary_color:
+  rgba: '#089a45ff'
 tags:
 - glitter
 - industrially-compostable

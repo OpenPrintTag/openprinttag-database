@@ -5,6 +5,8 @@ name: ABSx Candy Ice Blue
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#5cadbfff'
 tags:
 - transparent
 - filtration-recomended

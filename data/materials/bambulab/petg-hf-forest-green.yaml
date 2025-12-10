@@ -5,6 +5,8 @@ name: PETG HF Forest Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#3c5415ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/daa62670735b.png
   type: unspecified

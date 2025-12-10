@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: FleX-920 Skin Tone 1
 class: FFF
 abbreviation: FleX-920
+primary_color:
+  rgba: '#f0ddc2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b9309223b674.png
   type: unspecified

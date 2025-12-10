@@ -5,6 +5,8 @@ name: ' PETG - Transparent Violet '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e80078ff'
 tags:
 - translucent
 photos:

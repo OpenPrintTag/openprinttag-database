@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.verbatim-europe.com/en/3d/products/verbatim-abs-filament-175mm-1kg-black-55026
+primary_color:
+  rgba: '#000000ff'
 tags:
 - filtration-recomended
 properties: {}

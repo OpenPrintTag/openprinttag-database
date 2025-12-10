@@ -6,5 +6,7 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/the-filament-petg/
+primary_color:
+  rgba: '#ee8881ff'
 properties:
   density: 1.27

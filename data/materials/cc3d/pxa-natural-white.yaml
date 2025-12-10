@@ -4,6 +4,8 @@ brand_slug: cc3d
 name: PXA Natural White
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e3c48a0e7473.jpg
   type: unspecified

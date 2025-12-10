@@ -5,6 +5,8 @@ name: Dark Cherry Red PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#520b0fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d10fe6d3559e.png
   type: unspecified

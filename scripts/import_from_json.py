@@ -267,12 +267,12 @@ def transform_material(
 	tags_map: Dict[str, Any],
 	certifications_map: Dict[str, Any],
 	colors_map: Dict[str, Any],
+	material_colors_id_to_uuid_map: Dict[int, str],  # materials_colors ID -> color UUID
 	photos_map: Dict[str, Any],
 	material_properties_map: Dict[str, Any],  # properties_uuid -> properties object
 	fff_material_properties_map: Dict[str, Any],  # fff_properties_uuid -> fff properties
 	material_tags_map: Dict[str, List[str]],  # material_uuid -> list of tag UUIDs
 	material_certifications_map: Dict[str, List[str]],  # material_uuid -> list of cert UUIDs
-	material_colors_map: Dict[str, List[str]],  # material_uuid -> list of color UUIDs
 	material_photos_map: Dict[str, List[int]],  # material_uuid -> list of photo IDs
 ) -> Optional[Dict[str, Any]]:
 	"""Transform a material from JSON to YAML format"""
@@ -320,44 +320,39 @@ def transform_material(
 	if material.get('url'):
 		result['url'] = material['url']
 	
-	# Colors
+	# Colors - primary_color and secondary_colors
+	# These reference the colors table which has rgba values
 	if material.get('primary_color'):
 		primary_color = resolve_uuid_reference(material['primary_color'], colors_map)
-		if primary_color and primary_color.get('rgba'):
-			result['primary_color'] = {'rgba': primary_color['rgba']}
+		if primary_color:
+			# Build rgba from color object
+			rgba = primary_color.get('rgba')
+			if rgba:
+				result['primary_color'] = {'rgba': rgba}
 	
 	secondary_colors = []
-	if material.get('secondary_colors'):
-		for color_uuid in material['secondary_colors']:
-			color = resolve_uuid_reference(color_uuid, colors_map)
-			if color and color.get('rgba'):
-				secondary_colors.append({'rgba': color['rgba']})
+	if material.get('secondary_colors') and isinstance(material['secondary_colors'], list):
+		for color_ref in material['secondary_colors']:
+			# secondary_colors can be either UUIDs or IDs from materials_colors table
+			color_uuid = None
+			if isinstance(color_ref, int):
+				# It's an ID from materials_colors table, look it up
+				color_uuid = material_colors_id_to_uuid_map.get(color_ref)
+			elif isinstance(color_ref, str):
+				# It's already a UUID
+				color_uuid = color_ref
+			
+			if color_uuid:
+				color = colors_map.get(color_uuid)
+				if color:
+					rgba = color.get('rgba')
+					if rgba:
+						secondary_colors.append({'rgba': rgba})
 	if secondary_colors:
 		result['secondary_colors'] = secondary_colors
 	
-	# Material colors - from materials_colors relationship table
+	# Get material UUID for relationship lookups
 	material_uuid = material.get('uuid')
-	
-	# Colors lookup table references (by UUID)
-	material_colors_uuids = []
-	# Palette colors (for palette_color_alikes)
-	palette_colors = []
-	
-	if material_uuid and material_uuid in material_colors_map:
-		for color_uuid in material_colors_map[material_uuid]:
-			color = colors_map.get(color_uuid)
-			if color:
-				# Add to colors array (reference by UUID from colors lookup table)
-				if color.get('uuid'):
-					material_colors_uuids.append(color['uuid'])
-				# Also check for palette color reference
-				if color.get('palette_color_uuid'):
-					palette_colors.append(color['palette_color_uuid'])
-	
-	if material_colors_uuids:
-		result['colors'] = material_colors_uuids
-	if palette_colors:
-		result['palette_color_alikes'] = palette_colors
 	
 	# Optical properties - convert to numbers if they're strings
 	if material.get('transmission_distance') is not None:
@@ -630,7 +625,6 @@ def build_relationship_maps(data: Dict) -> Dict[str, Dict[str, List]]:
 	maps = {
 		'material_tags': {},  # material_uuid -> [tag_uuids]
 		'material_certifications': {},  # material_uuid -> [cert_uuids]
-		'material_colors': {},  # material_uuid -> [color_ids]
 		'material_photos': {},  # material_uuid -> [photo_ids]
 	}
 	
@@ -668,16 +662,6 @@ def build_relationship_maps(data: Dict) -> Dict[str, Dict[str, List]]:
 					if material_uuid not in maps['material_certifications']:
 						maps['material_certifications'][material_uuid] = []
 					maps['material_certifications'][material_uuid].append(cert_uuid)
-	
-	# Material colors
-	if 'materials_colors' in data:
-		for mc in data['materials_colors']:
-			material_uuid = mc.get('materials_uuid')
-			color_uuid = mc.get('colors_uuid')
-			if material_uuid and color_uuid:
-				if material_uuid not in maps['material_colors']:
-					maps['material_colors'][material_uuid] = []
-				maps['material_colors'][material_uuid].append(color_uuid)
 	
 	# Material photos
 	if 'material_photos' in data:
@@ -733,7 +717,22 @@ def main():
 			if photo_id:
 				photos_map[photo_id] = mp
 	
-	colors_map = create_uuid_map(data.get('colors', []))
+	# Transform colors first so we have rgba values available
+	colors_map = {}
+	for color in data.get('colors', []):
+		transformed_color = transform_color(color)
+		if transformed_color and transformed_color.get('uuid'):
+			colors_map[transformed_color['uuid']] = transformed_color
+	
+	# Build a map from materials_colors ID to color UUID
+	# This is needed because material.secondary_colors contains IDs from materials_colors table
+	material_colors_id_to_uuid_map = {}
+	if 'materials_colors' in data:
+		for mc in data['materials_colors']:
+			mc_id = mc.get('id')
+			color_uuid = mc.get('colors_uuid')
+			if mc_id and color_uuid:
+				material_colors_id_to_uuid_map[mc_id] = color_uuid
 	
 	# Create material properties maps
 	material_properties_map = create_uuid_map(data.get('material_properties', []))
@@ -844,12 +843,12 @@ def main():
 			tags_map,
 			certifications_map,
 			colors_map,
+			material_colors_id_to_uuid_map,
 			photos_map,
 			material_properties_map,
 			fff_material_properties_map,
 			relationship_maps['material_tags'],
 			relationship_maps['material_certifications'],
-			relationship_maps['material_colors'],
 			relationship_maps['material_photos'],
 		)
 		if transformed and transformed.get('brand_slug') and transformed.get('slug'):
@@ -921,9 +920,8 @@ def main():
 		with open(lookup_dir / "palette-colors.yaml", 'w') as f:
 			yaml.dump({'colors': palette_colors_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
 	
-	if colors_output:
-		with open(lookup_dir / "colors.yaml", 'w') as f:
-			yaml.dump({'colors': colors_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
+	# Note: colors are not written to lookup table as they're stored inline in materials
+	# The colors_map is only used during import to resolve UUIDs to rgba values
 	
 	# Write materials
 	materials_dir = output_dir / "materials"
@@ -955,6 +953,12 @@ def main():
 		with open(file_path, 'w') as f:
 			yaml.dump(container, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
 	
+	# Cleanup: Remove colors.yaml if it exists (colors are stored inline, not in lookup table)
+	colors_file = lookup_dir / "colors.yaml"
+	if colors_file.exists():
+		colors_file.unlink()
+		print(f"\n✓ Cleaned up colors.yaml (colors are stored inline in materials)")
+	
 	print(f"\n✓ Transformation complete! Output: {output_dir}")
 	print(f"  - Brands: {len(brands_output)}")
 	print(f"  - Materials: {sum(len(m) for m in materials_output.values())}")
@@ -962,10 +966,8 @@ def main():
 	print(f"  - Material Containers: {len(containers_output)}")
 	print(f"  - Material Types: {len(material_types_output)}")
 	print(f"  - Tags: {len(tags_output)}")
-	print(f"  - Material-Tag Relationships: {sum(len(tags) for tags in relationship_maps['material_tags'].values())}")
 	print(f"  - Certifications: {len(certifications_output)}")
 	print(f"  - Countries: {len(countries_output)}")
-	print(f"  - Colors: {len(colors_output)}")
 
 
 if __name__ == '__main__':

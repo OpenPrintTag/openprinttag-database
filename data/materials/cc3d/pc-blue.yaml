@@ -5,6 +5,8 @@ name: PC Blue
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/da79963493de.jpg
   type: unspecified

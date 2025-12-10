@@ -5,6 +5,8 @@ name: 'PA6-GF Yellow '
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 tags:
 - contains-glass-fiber
 - abrasive

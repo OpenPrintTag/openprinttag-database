@@ -4,6 +4,8 @@ brand_slug: smart-materials-3d
 name: INNOVATEFIL® PA CF True black
 class: FFF
 abbreviation: PA CF
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

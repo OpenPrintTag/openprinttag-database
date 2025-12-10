@@ -5,6 +5,8 @@ name: PC Green
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#018e63ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/76ff1d7f4fe7.jpg
   type: unspecified

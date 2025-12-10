@@ -5,6 +5,8 @@ name: EasyFil ePETG White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4182826fe14e.png
   type: unspecified

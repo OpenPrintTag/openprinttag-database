@@ -5,6 +5,8 @@ name: Nylon PA12+GF15 Light Green
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#b3df3aff'
 tags:
 - contains-glass-fiber
 - abrasive

@@ -5,6 +5,8 @@ name: 3DXSTAT ESD-PEKK-A Black
 class: FFF
 type_id: 1
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - esd-safe
 - low-outgassing

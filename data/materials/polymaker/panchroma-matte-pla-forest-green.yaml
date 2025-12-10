@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Forest Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#519f61ff'
 tags:
 - matte
 - industrially-compostable

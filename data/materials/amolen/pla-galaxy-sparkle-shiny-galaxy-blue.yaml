@@ -5,6 +5,8 @@ name: PLA Galaxy / Sparkle & Shiny Galaxy Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0095ffff'
 tags:
 - iridescent
 - glitter

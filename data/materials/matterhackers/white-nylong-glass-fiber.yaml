@@ -5,6 +5,8 @@ name: White NylonG Glass Fiber
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#ebe9e4ff'
 tags:
 - contains-glass-fiber
 - abrasive

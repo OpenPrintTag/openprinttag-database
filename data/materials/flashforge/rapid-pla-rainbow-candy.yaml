@@ -5,12 +5,12 @@ name: Rapid PLA Rainbow Candy
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- 1374064f-7e79-4467-9fd7-e3aa150579b7
-- aae9a4b7-c224-4c32-ab77-87fa74d66298
-- eee1b392-28ab-414a-bc18-8f9d09654530
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
+secondary_colors:
+- rgba: '#fce575ff'
+- rgba: '#ff9c66ff'
+- rgba: '#6299dfff'
+- rgba: '#6c5bb1ff'
+- rgba: '#41a840ff'
 tags:
 - industrially-compostable
 photos:

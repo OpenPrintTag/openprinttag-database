@@ -5,6 +5,8 @@ name: ABS Beige
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#e2c077ff'
 tags:
 - filtration-recomended
 photos:

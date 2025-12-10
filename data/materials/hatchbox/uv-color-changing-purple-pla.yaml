@@ -5,9 +5,9 @@ name: UV Color Changing Purple PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- d67082e9-6ca4-44cf-a652-95ebaa21029d
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors:
+- rgba: '#cc52cfff'
+- rgba: '#ffffffff'
 tags:
 - illuminescent-color-change
 - industrially-compostable

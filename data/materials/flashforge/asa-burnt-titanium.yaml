@@ -5,9 +5,9 @@ name: ASA Burnt Titanium
 class: FFF
 type_id: 28
 abbreviation: ''
-colors:
-- c388bd13-94be-4804-be88-181071ee486a
-- a7370c0c-a72d-4da3-a82a-79ffc7577169
+secondary_colors:
+- rgba: '#003287ff'
+- rgba: '#663d7eff'
 tags:
 - iridescent
 photos:

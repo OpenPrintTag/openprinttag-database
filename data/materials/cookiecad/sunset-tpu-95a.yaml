@@ -6,10 +6,10 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://cookiecad.com/products/tpu-sunset-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- d232c2cd-048c-4873-b6bb-3580e16a5acc
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#8d65c7ff'
+- rgba: '#ff00a2ff'
 tags:
 - gradual-color-change
 properties:

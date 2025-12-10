@@ -5,6 +5,8 @@ name: PrimaSelect PLA Pastel Cyan
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c2efe8ff'
 tags:
 - industrially-compostable
 photos:

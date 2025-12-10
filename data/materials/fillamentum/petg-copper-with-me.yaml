@@ -5,6 +5,8 @@ name: PETG "Copper With Me"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ab713eff'
 tags:
 - glitter
 photos:

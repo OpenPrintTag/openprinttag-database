@@ -5,6 +5,8 @@ name: Pro PETG, Harvest Gold
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f6c500ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/976e706f8b38.jpg
   type: unspecified

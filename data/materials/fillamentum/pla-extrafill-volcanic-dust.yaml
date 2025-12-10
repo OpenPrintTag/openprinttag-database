@@ -5,6 +5,8 @@ name: PLA Extrafill "Volcanic Dust"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 tags:
 - imitates-marble
 - industrially-compostable

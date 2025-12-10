@@ -5,6 +5,8 @@ name: Green PRO Series Nylon
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#7cef83ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/102827dbf043.png
   type: unspecified

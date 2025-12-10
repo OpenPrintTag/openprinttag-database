@@ -5,6 +5,8 @@ name: Rapid PLA Luminous Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#82e3ecff'
 tags:
 - glow-in-the-dark
 - abrasive

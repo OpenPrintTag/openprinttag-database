@@ -5,6 +5,8 @@ name: 'PC Orange '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#fa8423ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c313722637d5.jpg
   type: unspecified

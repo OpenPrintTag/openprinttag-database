@@ -4,6 +4,8 @@ brand_slug: fiberlogy
 name: FiberWood Carmine
 class: FFF
 abbreviation: FiberWood
+primary_color:
+  rgba: '#a6464eff'
 tags:
 - contains-wood
 - imitates-wood

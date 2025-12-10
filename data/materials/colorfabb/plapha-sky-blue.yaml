@@ -5,6 +5,8 @@ name: PLA/PHA Sky Blue
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 tags:
 - home-compostable
 photos:

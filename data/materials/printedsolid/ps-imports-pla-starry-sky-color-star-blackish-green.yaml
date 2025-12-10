@@ -5,6 +5,8 @@ name: PS Imports PLA Starry Sky Color-Star Blackish Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#144f3bff'
 tags:
 - glitter
 - industrially-compostable

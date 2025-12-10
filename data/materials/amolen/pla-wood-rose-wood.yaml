@@ -5,6 +5,8 @@ name: PLA Wood Rose Wood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#613b3aff'
 tags:
 - contains-wood
 - industrially-compostable

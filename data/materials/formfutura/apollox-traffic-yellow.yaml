@@ -5,6 +5,8 @@ name: ' ApolloX Traffic Yellow'
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b16e622324e6.png
   type: unspecified

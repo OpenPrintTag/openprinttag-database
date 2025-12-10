@@ -5,6 +5,8 @@ name: Cranberry rPLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c60f3eff'
 tags:
 - recycled
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Easy PET-G Pastel Mint
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#adebb3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6912d53305a4.png
   type: unspecified

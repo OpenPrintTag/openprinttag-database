@@ -5,6 +5,8 @@ name: Red NylonG Glass Fiber
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#e03f26ff'
 tags:
 - contains-glass-fiber
 - abrasive

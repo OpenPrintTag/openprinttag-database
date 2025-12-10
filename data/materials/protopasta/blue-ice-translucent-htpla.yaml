@@ -5,6 +5,8 @@ name: Blue Ice Translucent HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 tags:
 - transparent
 - high-temperature

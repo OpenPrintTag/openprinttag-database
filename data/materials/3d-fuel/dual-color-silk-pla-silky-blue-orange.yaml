@@ -5,9 +5,9 @@ name: Dual-Color Silk PLA+, Silky Blue Orange
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c2356bbb-3e9e-4337-b183-61089cfe9b25
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors:
+- rgba: '#f4ac23ff'
+- rgba: '#2e56f1ff'
 tags:
 - dual-color
 - silk

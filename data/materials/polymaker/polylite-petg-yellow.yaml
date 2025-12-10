@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Yellow '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f3b400ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1393daa5dd58.png
   type: unspecified

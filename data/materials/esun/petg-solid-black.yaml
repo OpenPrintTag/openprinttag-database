@@ -5,6 +5,8 @@ name: PETG Solid Black
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/121ef908e34a.jpg
   type: unspecified

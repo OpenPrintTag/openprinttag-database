@@ -5,6 +5,8 @@ name: PCTG Lime Green
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#9fec41ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/71f612fd5d35.png
   type: unspecified

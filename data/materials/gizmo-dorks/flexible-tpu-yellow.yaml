@@ -5,6 +5,8 @@ name: Flexible TPU Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8b9eb2d97876.png
   type: unspecified

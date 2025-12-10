@@ -5,6 +5,8 @@ name: White MH Build Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/bcc90ec4af00.png
   type: unspecified

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-silk-ultra-violet-1kg/
+primary_color:
+  rgba: '#7769bcff'
 tags:
 - silk
 - industrially-compostable

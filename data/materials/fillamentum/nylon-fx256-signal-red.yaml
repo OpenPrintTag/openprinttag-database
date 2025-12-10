@@ -4,6 +4,8 @@ brand_slug: fillamentum
 name: Nylon FX256 "Signal Red"
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#aa0101ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/91648cea9a87.png
   type: unspecified

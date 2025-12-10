@@ -5,6 +5,8 @@ name: PLA Prusa Galaxy Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#3d3e3dff'
 transmission_distance: 0.2
 tags:
 - glitter

@@ -5,6 +5,8 @@ name: ABS Dark Red
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#de1619ff'
 tags:
 - filtration-recomended
 photos:

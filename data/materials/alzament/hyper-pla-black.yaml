@@ -4,6 +4,8 @@ brand_slug: alzament
 name: Hyper PLA+ Black
 class: FFF
 abbreviation: PLA+
+primary_color:
+  rgba: '#000000ff'
 tags:
 - industrially-compostable
 properties: {}

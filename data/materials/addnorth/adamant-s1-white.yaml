@@ -5,6 +5,8 @@ name: Adamant S1 White
 class: FFF
 type_id: 7
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/96a00a9f4565.png
   type: unspecified

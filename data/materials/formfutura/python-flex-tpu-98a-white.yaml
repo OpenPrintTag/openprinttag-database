@@ -5,6 +5,8 @@ name: ' Python Flex TPU 98A White'
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/36f28575b28e.png
   type: unspecified

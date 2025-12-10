@@ -5,6 +5,8 @@ name: PLA Extrafill "Melon Yellow"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ea9e3fff'
 tags:
 - industrially-compostable
 photos:

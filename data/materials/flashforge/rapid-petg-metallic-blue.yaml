@@ -5,6 +5,8 @@ name: Rapid PETG Metallic Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#40719aff'
 tags:
 - imitates-metal
 photos:

@@ -5,6 +5,8 @@ name: PETG Terracotta Light
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#b87f6aff'
 transmission_distance: 1.5
 photos:
 - url: https://file.myfilamentlist.com/f/new/2de9f5cca999.png

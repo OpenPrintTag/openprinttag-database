@@ -5,9 +5,9 @@ name: Silk PLA Blue Green
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#41a840ff'
 tags:
 - silk
 - industrially-compostable

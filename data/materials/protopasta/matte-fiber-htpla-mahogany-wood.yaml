@@ -5,6 +5,8 @@ name: Matte Fiber HTPLA - Mahogany Wood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a35a4bff'
 tags:
 - imitates-wood
 - high-temperature

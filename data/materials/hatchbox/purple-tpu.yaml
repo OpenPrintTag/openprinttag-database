@@ -5,6 +5,8 @@ name: Purple TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#b33174ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/22500c8c212b.jpg
   type: unspecified

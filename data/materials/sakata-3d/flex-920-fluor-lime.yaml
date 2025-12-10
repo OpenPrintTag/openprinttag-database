@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: FleX-920 Fluor Lime
 class: FFF
 abbreviation: FleX-920
+primary_color:
+  rgba: '#dede00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5258c5cd4031.png
   type: unspecified

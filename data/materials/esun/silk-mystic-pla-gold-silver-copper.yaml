@@ -5,10 +5,10 @@ name: Silk Mystic PLA Gold Silver Copper
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 10eb9aa5-c8f3-4da6-8cd0-9009c942da46
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
-- a683c1bf-a838-4373-9462-834e4cce4d64
+secondary_colors:
+- rgba: '#641501ff'
+- rgba: '#e3b145ff'
+- rgba: '#c9d0d4ff'
 tags:
 - iridescent
 - triple-color

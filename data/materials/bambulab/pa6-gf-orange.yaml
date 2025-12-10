@@ -5,6 +5,8 @@ name: 'PA6-GF Orange '
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 tags:
 - contains-glass-fiber
 - abrasive

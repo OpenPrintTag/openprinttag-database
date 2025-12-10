@@ -5,6 +5,8 @@ name: PLA Noctua Beige
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e7ceb4ff'
 properties:
   density: 1.24
   hardness_shore_d: 81

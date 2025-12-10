@@ -5,6 +5,8 @@ name: PrimaSelect ABS Dark Red
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 tags:
 - filtration-recomended
 photos:

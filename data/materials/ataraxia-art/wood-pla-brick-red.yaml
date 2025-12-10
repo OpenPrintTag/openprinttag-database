@@ -5,6 +5,8 @@ name: Wood PLA Brick Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b54230ff'
 tags:
 - contains-wood
 - imitates-wood

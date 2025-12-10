@@ -5,6 +5,8 @@ name: PC Blend Natural
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 transmission_distance: 11.3
 tags:
 - blend

@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla-filament-orange-dawn-1-75mm-1kg-2-2lb
-colors:
-- 3a05b491-0f56-4cbc-8e44-ec338f8302c0
-- d62ea23d-d53b-470a-bd5a-ee9fa88721b1
+secondary_colors:
+- rgba: '#c01616ff'
+- rgba: '#f8cc00ff'
 tags:
 - gradual-color-change
 - glitter

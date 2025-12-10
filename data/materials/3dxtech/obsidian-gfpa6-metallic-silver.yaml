@@ -5,6 +5,8 @@ name: OBSIDIAN GF+PA6 Metallic Silver
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - contains-glass-fiber
 - abrasive

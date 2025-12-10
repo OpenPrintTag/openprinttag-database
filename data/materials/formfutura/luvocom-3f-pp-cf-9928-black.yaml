@@ -5,6 +5,8 @@ name: LUVOCOM 3F PP CF 9928 Black
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

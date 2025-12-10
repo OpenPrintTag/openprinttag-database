@@ -5,6 +5,8 @@ name: Standard PLA+, LulzBot® Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 tags:
 - industrially-compostable
 photos:

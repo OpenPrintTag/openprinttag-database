@@ -5,6 +5,8 @@ name: PLA Red Glitter
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a6464eff'
 tags:
 - glitter
 - industrially-compostable

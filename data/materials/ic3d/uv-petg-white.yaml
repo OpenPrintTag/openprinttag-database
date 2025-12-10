@@ -5,6 +5,8 @@ name: UV-PETG White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/edc769aec4e0.png
   type: unspecified

@@ -5,6 +5,8 @@ name: ASA Army Green
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#6e8451ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1573387a5dd9.jpg
   type: unspecified

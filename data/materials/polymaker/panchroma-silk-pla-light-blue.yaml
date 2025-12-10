@@ -5,6 +5,8 @@ name: Panchroma™ Silk PLA Light Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#99f1ffff'
 tags:
 - silk
 - industrially-compostable

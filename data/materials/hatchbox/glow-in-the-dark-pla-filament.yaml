@@ -5,9 +5,9 @@ name: Glow In The Dark PLA Filament
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e1ef474f-f52b-49fb-8154-bd6ea3a62bae
-- 6a224532-a956-4969-9508-63d97eddea22
+secondary_colors:
+- rgba: '#f5f5f4ff'
+- rgba: '#089a45ff'
 tags:
 - glow-in-the-dark
 - abrasive

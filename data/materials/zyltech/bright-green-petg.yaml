@@ -5,6 +5,8 @@ name: Bright Green PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#58c91bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b772912726d4.png
   type: unspecified

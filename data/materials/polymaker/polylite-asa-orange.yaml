@@ -5,6 +5,8 @@ name: 'PolyLite™ ASA Orange '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#f97429ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b182b501e86b.png
   type: unspecified

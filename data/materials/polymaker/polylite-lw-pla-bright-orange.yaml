@@ -5,6 +5,8 @@ name: PolyLite™ LW-PLA Bright Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fa8423ff'
 tags:
 - foaming
 - industrially-compostable

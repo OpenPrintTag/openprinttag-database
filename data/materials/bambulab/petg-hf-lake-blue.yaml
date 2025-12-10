@@ -5,6 +5,8 @@ name: PETG HF Lake Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#386dffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/38b6db6fa8af.png
   type: unspecified

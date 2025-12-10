@@ -5,6 +5,8 @@ name: PLA Jet Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#393c3cff'
 transmission_distance: 0.3
 tags:
 - industrially-compostable

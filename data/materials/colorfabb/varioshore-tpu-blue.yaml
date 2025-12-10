@@ -5,6 +5,8 @@ name: varioShore TPU Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4432500d7619.png
   type: unspecified

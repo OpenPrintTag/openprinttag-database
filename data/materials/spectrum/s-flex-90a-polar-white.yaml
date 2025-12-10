@@ -5,6 +5,8 @@ name: S-Flex 90A™ Polar White
 class: FFF
 abbreviation: S-Flex
 url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color:
+  rgba: '#efefefff'
 properties:
   density: 1.22
   hardness_shore_a: 90

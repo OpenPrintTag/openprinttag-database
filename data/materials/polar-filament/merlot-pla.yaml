@@ -5,6 +5,8 @@ name: Merlot PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#915672ff'
 tags:
 - industrially-compostable
 photos:

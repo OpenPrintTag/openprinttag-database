@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=46310198182101
-colors:
-- d929e496-4eb6-4ee9-be73-0f15a5906230
-- e3d4e4d5-92a5-440a-9c2d-3fce1b4ae81b
+secondary_colors:
+- rgba: '#3b4468ff'
+- rgba: '#7f068cff'
 tags:
 - glitter
 - iridescent

@@ -5,6 +5,8 @@ name: 'TPU for AMS Gray '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#9fa4a8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0a916abfd831.png
   type: unspecified

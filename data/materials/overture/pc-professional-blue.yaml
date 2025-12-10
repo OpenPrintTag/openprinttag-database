@@ -5,6 +5,8 @@ name: 'PC Professional Blue '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/48f856d4d500.jpg
   type: unspecified

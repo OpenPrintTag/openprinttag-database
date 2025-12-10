@@ -5,6 +5,8 @@ name: INNOVATEFIL® PP GF
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#f0ebe5ff'
 tags:
 - contains-glass-fiber
 - abrasive

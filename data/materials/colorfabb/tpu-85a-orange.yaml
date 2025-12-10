@@ -5,6 +5,8 @@ name: TPU 85A Orange
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#e03f26ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c7f0e108f5e1.png
   type: unspecified

@@ -5,6 +5,8 @@ name: allPHA White
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - home-compostable
 photos:

@@ -5,6 +5,8 @@ name: Easy PLA Ruby Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#520b0fff'
 tags:
 - glitter
 - industrially-compostable

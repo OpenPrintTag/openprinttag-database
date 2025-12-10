@@ -5,6 +5,8 @@ name: HIPS Yellow
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b78936c43b6a.png
   type: unspecified

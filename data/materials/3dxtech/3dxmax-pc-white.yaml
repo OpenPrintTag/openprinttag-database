@@ -5,6 +5,8 @@ name: 3DXMAX PC White
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a522cd747056.png
   type: unspecified

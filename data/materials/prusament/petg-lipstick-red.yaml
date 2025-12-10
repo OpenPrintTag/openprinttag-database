@@ -5,6 +5,8 @@ name: PETG Lipstick Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#bb2e33ff'
 transmission_distance: 2.8
 photos:
 - url: https://file.myfilamentlist.com/f/new/8b48861608d7.png

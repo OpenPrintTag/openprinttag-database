@@ -5,6 +5,8 @@ name: PC Blend Jet Black
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#24292aff'
 transmission_distance: 0.4
 tags:
 - blend

@@ -5,6 +5,8 @@ name: PLA/PHA Violet Transparent
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#e80078ff'
 tags:
 - home-compostable
 - translucent

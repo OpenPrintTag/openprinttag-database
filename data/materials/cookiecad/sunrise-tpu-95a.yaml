@@ -6,10 +6,10 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://cookiecad.com/products/tpu-sunrise-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 597049be-cc71-4850-943c-175907ea9a42
-- 442e51ef-76c7-47e2-ad26-738cb89fe0a5
-- a6ec0cfa-8468-4bcf-8bdf-b558a6bc758e
+secondary_colors:
+- rgba: '#fadb24ff'
+- rgba: '#fa8423ff'
+- rgba: '#d85165ff'
 tags:
 - gradual-color-change
 properties:

@@ -5,6 +5,8 @@ name: 'Magic PLA Dark Twinkling Blue '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#005aa2ff'
 tags:
 - glitter
 - iridescent

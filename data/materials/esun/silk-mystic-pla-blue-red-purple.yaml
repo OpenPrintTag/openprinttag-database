@@ -5,10 +5,10 @@ name: Silk Mystic PLA Blue Red Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- efae8549-8440-426e-8bf1-4080ee157fff
-- 3fb304ce-6af8-407c-85cd-41c567d640ce
-- 0a165cb6-53d4-4b74-b9d8-8461c26a2554
+secondary_colors:
+- rgba: '#0e21aeff'
+- rgba: '#ed1536ff'
+- rgba: '#8846aeff'
 tags:
 - iridescent
 - silk

@@ -5,6 +5,8 @@ name: ' PLA - Brown '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5d3b32ff'
 tags:
 - industrially-compostable
 photos:

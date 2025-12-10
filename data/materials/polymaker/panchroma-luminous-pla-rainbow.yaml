@@ -5,12 +5,12 @@ name: 'Panchroma™ Luminous PLA Rainbow '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8017d5c1-0d27-4d36-bc52-79aa5440a671
-- a3307156-f521-4e85-9527-92e5756a1571
-- 8879c456-1d3d-4dab-a232-ae8627ce95b9
-- 15b48d84-9710-48c4-a449-8fdb8dfdd785
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
+secondary_colors:
+- rgba: '#ff67f5ff'
+- rgba: '#7659b5ff'
+- rgba: '#0095ffff'
+- rgba: '#bbdb4bff'
+- rgba: '#fbe200ff'
 tags:
 - multicolor
 - glow-in-the-dark

@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/vanilla-redberry-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 5a211986-a671-47a8-bc55-4e7bdba231d7
+primary_color:
+  rgba: '#eaecf5ff'
+secondary_colors:
+- rgba: '#c60f3eff'
 tags:
 - imitates-marble
 - industrially-compostable

@@ -5,9 +5,9 @@ name: PS Imports PLA Silk Gradient-Purple-Black
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 0eb9f3a1-f2a0-4c77-8854-f1efbe339da1
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors:
+- rgba: '#372b74ff'
+- rgba: '#000000ff'
 tags:
 - silk
 - dual-color

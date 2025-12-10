@@ -5,6 +5,8 @@ name: PLA RECYCLED
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - recycled
 - industrially-compostable

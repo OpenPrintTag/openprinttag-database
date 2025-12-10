@@ -5,6 +5,8 @@ name: CPE HG100 "Red Hood Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#d21b3cff'
 tags:
 - translucent
 photos:

@@ -5,6 +5,8 @@ name: Green TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#089a45ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/bb1181855400.jpg
   type: unspecified

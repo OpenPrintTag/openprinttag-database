@@ -5,6 +5,8 @@ name: Gunmetal Gray AF PCTG
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e50d5d658d84.png
   type: unspecified

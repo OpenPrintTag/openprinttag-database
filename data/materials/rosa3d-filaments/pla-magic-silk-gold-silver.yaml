@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-magic-silk-gold-silver
-colors:
-- 6c8455a5-622b-4a63-bf44-6554b495ab67
-- a683c1bf-a838-4373-9462-834e4cce4d64
+secondary_colors:
+- rgba: '#f6fb38ff'
+- rgba: '#c9d0d4ff'
 tags:
 - coextruded
 - silk

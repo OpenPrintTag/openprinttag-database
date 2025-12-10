@@ -5,6 +5,8 @@ name: TPU NinjaTek Cheetah - Fire Red
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#c00000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/320ce9d33b4a.png
   type: unspecified

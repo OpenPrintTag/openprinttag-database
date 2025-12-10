@@ -5,6 +5,8 @@ name: Sparkly Red PLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#da445aff'
 tags:
 - glitter
 - industrially-compostable

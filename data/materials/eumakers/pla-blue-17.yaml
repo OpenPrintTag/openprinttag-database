@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-blue.html
+primary_color:
+  rgba: '#0085caff'
 properties:
   density: 1.24

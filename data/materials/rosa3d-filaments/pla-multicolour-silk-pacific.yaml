@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-multicolour-silk-pacific
-colors:
-- e88106a6-8c4a-40bb-b08d-d8bc39c71965
-- 3ec9e18d-14d0-4533-9d52-1f42d91a4bd3
-- cac47c60-01a3-4ed7-8c03-428fcd362d8f
+secondary_colors:
+- rgba: '#0078bfff'
+- rgba: '#95b6deff'
+- rgba: '#aabccfff'
 tags:
 - silk
 - gradual-color-change

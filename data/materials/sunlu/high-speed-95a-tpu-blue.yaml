@@ -5,6 +5,8 @@ name: High Speed 95A TPU Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ed6258437de3.jpg
   type: unspecified

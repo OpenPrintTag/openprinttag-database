@@ -5,6 +5,8 @@ name: BioCREATE HT Lavender
 class: FFF
 abbreviation: BioCREATE
 url: https://www.rosa3d.pl/en/filament-3d-refill-biocreate-ht-175mm-lavender-1kg
+primary_color:
+  rgba: '#d9d5eaff'
 tags:
 - high-temperature
 properties: {}

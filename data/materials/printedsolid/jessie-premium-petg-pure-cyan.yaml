@@ -5,6 +5,8 @@ name: Jessie Premium PETG Pure Cyan
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/32e6ba44b074.png
   type: unspecified

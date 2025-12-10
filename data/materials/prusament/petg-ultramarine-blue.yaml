@@ -5,6 +5,8 @@ name: PETG Ultramarine Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2b3b61ff'
 tags:
 - translucent
 photos:

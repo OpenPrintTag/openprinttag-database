@@ -5,6 +5,8 @@ name: High Speed PETG Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#de6300ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/94a122214f53.jpg
   type: unspecified

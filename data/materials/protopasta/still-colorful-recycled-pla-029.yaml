@@ -5,6 +5,8 @@ name: Still Colorful Recycled PLA 029
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#3292b2ff'
 tags:
 - recycled
 - industrially-compostable

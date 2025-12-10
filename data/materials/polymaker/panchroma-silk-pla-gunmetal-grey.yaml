@@ -5,6 +5,8 @@ name: Panchroma™ Silk PLA Gunmetal Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#828e88ff'
 tags:
 - silk
 - industrially-compostable

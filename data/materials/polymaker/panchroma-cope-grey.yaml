@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Grey '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#acb1baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/16d06bad3ae4.png
   type: unspecified

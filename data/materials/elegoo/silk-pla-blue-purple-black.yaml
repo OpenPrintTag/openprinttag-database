@@ -5,10 +5,10 @@ name: Silk PLA Blue Purple Black
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors:
+- rgba: '#0353baff'
+- rgba: '#6c47b2ff'
+- rgba: '#000000ff'
 tags:
 - silk
 - industrially-compostable

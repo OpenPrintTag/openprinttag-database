@@ -5,6 +5,8 @@ name: S-Flex 85A™ Pacific Blue
 class: FFF
 abbreviation: S-Flex
 url: https://spectrumfilaments.com/en/filament/s-flex-85a/
+primary_color:
+  rgba: '#0378d0ff'
 properties:
   density: 1.11
   hardness_shore_a: 85

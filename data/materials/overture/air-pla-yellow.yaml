@@ -5,6 +5,8 @@ name: 'Air PLA Yellow '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f3c102ff'
 tags:
 - industrially-compostable
 photos:

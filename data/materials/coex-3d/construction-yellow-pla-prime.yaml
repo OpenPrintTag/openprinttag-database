@@ -5,6 +5,8 @@ name: Construction Yellow PLA Prime
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9c7320ff'
 tags:
 - industrially-compostable
 photos:

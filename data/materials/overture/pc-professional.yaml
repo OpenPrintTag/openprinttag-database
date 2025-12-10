@@ -5,6 +5,8 @@ name: PC Professional
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/86788b76c3ae.jpg
   type: unspecified

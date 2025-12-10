@@ -5,6 +5,8 @@ name: 'High Speed Upgraded PETG Solid Silver '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3a210da798b1.jpg
   type: unspecified

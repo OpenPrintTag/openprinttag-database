@@ -5,6 +5,8 @@ name: 'ASA Purple '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#8846aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/efe257cdc4d7.jpg
   type: unspecified

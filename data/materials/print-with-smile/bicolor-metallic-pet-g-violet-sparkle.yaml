@@ -6,9 +6,9 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://printwithsmile.cz/gb/pet-g/360-bicolor-metallic-pet-g-175-mm-violet-sparkle-750-g-8594196452047.html?_gl=1*5nwf9h*_up*MQ..*_ga*NzM0MTU1NjYxLjE3NTg3OTc3MjY.*_ga_WJWWDL749C*czE3NTg4NzQyNjckbzMkZzEkdDE3NTg4NzQ0MzckajYwJGwwJGgw
-colors:
-- 84091b41-7985-4770-a233-ab387f3c1b5b
-- a3b6206a-8400-4cb7-8808-4ed8f985b4f1
+secondary_colors:
+- rgba: '#4e486aff'
+- rgba: '#705939ff'
 tags:
 - iridescent
 - coextruded

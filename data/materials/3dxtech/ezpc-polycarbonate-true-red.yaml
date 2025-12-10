@@ -5,6 +5,8 @@ name: ezPC Polycarbonate True Red
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/03d7fd82e3f8.png
   type: unspecified

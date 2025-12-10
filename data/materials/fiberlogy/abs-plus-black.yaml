@@ -5,6 +5,8 @@ name: ABS PLUS Black
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - filtration-recomended
 photos:

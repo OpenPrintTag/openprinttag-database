@@ -5,6 +5,8 @@ name: 'TPU High Speed Orange '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ff8b47ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5f1f5c16927b.jpg
   type: unspecified

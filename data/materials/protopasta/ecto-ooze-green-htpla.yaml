@@ -5,6 +5,8 @@ name: Ecto Ooze Green HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#95d05cff'
 tags:
 - transparent
 - glitter

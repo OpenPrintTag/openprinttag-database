@@ -5,6 +5,8 @@ name: Marble PLA White-Blue Stone
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - imitates-marble
 - industrially-compostable

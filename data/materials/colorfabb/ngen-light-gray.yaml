@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen Light Gray
 class: FFF
 abbreviation: nGen
+primary_color:
+  rgba: '#e0e0dcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9ca4757a9b1f.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PLA 850 Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffc946ff'
 tags:
 - industrially-compostable
 photos:

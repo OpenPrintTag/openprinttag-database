@@ -5,6 +5,8 @@ name: Biodegradable Black PHA
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#1d1d1dff'
 tags:
 - home-compostable
 photos:

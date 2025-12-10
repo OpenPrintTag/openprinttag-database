@@ -5,6 +5,8 @@ name: 'PolyMax™ PC Grey '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#a2aaadff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/45656d88de74.png
   type: unspecified

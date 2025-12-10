@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Pistachio Green"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2452cec41b69.png
   type: unspecified

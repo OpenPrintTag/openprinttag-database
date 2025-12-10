@@ -5,6 +5,8 @@ name: PC+PBT Ultra Blue
 class: FFF
 type_id: 32
 abbreviation: ''
+primary_color:
+  rgba: '#0022ffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b408fba05857.png
   type: unspecified

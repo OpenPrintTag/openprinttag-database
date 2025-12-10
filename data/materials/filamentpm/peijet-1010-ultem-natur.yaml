@@ -5,6 +5,8 @@ name: ' PEIJet 1010 Ultem - Natur '
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#dc9c43ff'
 tags:
 - low-outgassing
 - without-pigments

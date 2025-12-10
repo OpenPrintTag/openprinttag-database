@@ -5,6 +5,8 @@ name: PLA Jade
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#214327ff'
 tags:
 - industrially-compostable
 photos:

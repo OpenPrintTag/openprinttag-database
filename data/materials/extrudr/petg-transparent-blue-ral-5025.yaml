@@ -5,6 +5,8 @@ name: PETG transparent blue | RAL 5025
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#003287ff'
 tags:
 - translucent
 photos:

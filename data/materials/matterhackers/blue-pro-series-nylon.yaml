@@ -5,6 +5,8 @@ name: Blue PRO Series Nylon
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c3b8780e36e9.png
   type: unspecified

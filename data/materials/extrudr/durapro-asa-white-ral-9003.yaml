@@ -5,6 +5,8 @@ name: DuraPro ASA white | RAL 9003
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0458aaf12dff.png
   type: unspecified

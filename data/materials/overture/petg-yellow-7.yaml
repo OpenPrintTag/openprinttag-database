@@ -5,6 +5,8 @@ name: 'PETG Yellow '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffc946ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/15993133c047.jpg
   type: unspecified

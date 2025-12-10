@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Powder Beige"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fec8a4ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c6baebefa383.png
   type: unspecified

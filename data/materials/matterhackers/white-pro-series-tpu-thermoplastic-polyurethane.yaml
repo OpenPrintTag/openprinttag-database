@@ -5,6 +5,8 @@ name: 'White PRO Series TPU (Thermoplastic Polyurethane) '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0539d27a6f6a.png
   type: unspecified

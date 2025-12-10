@@ -5,9 +5,9 @@ name: ABSx Glow in the Dark Blue
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#0099e6ff'
 tags:
 - glow-in-the-dark
 - abrasive

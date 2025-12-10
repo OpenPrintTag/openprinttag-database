@@ -5,6 +5,8 @@ name: High Speed Marble PLA Light Cyan
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d7ede6ff'
 tags:
 - imitates-marble
 - industrially-compostable

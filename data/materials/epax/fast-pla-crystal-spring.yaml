@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla-filament-crystal-spring-1-75mm-1kg-2-2lb
-colors:
-- 6703f9ac-8380-4f19-93a2-fe6ab511392e
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#f5e457ff'
+- rgba: '#0099e6ff'
 tags:
 - gradual-color-change
 - glitter

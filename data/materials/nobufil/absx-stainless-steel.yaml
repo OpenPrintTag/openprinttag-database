@@ -5,6 +5,8 @@ name: 'ABSx Stainless Steel '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 tags:
 - filtration-recomended
 photos:

@@ -5,6 +5,8 @@ name: ' Galaxy PLA Space Grey'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#76797dff'
 tags:
 - glitter
 - industrially-compostable

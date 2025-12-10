@@ -5,6 +5,8 @@ name: 'PrimaSelect TPU 95A '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a5661596163b.png
   type: unspecified

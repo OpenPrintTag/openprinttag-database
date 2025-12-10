@@ -5,6 +5,8 @@ name: PETG-CF Malachite Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 tags:
 - contains-carbon-fiber
 - abrasive

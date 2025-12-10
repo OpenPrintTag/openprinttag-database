@@ -5,6 +5,8 @@ name: Turquoise PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5eb7d4ff'
 tags:
 - industrially-compostable
 photos:

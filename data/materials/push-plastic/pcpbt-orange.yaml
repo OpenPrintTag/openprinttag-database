@@ -5,6 +5,8 @@ name: PC+PBT Orange
 class: FFF
 type_id: 32
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2ad1ffba684e.png
   type: unspecified

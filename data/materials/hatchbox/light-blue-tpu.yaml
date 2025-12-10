@@ -5,6 +5,8 @@ name: Light Blue TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d4f48b3c1c02.jpg
   type: unspecified

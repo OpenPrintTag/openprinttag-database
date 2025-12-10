@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.3djake.com/3djake/tpu-a95-black
+primary_color:
+  rgba: '#292824ff'
 properties:
   hardness_shore_a: 95

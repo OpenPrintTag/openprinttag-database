@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://winkle.shop/producto/filamento-pla-hd-glow-winkle-175-mm-1-kg-verde-alien/
-colors:
-- 1e59f006-188a-4b4a-8f9f-72ecc8b84125
+primary_color:
+  rgba: '#b4e657ff'
+secondary_colors:
+- rgba: '#efeadfff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

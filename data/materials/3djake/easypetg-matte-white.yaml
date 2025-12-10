@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.3djake.com/3djake/easypetg-matte-white
+primary_color:
+  rgba: '#f5f5f5ff'
 tags:
 - matte
 properties: {}

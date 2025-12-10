@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen Red
 class: FFF
 abbreviation: nGen
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9175cff0417e.png
   type: unspecified

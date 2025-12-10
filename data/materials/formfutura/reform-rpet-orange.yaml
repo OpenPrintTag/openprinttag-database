@@ -5,6 +5,8 @@ name: ReForm – rPET Orange
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#ff7a33ff'
 tags:
 - recycled
 photos:

@@ -5,6 +5,8 @@ name: PLA Go&Print Skin Tone 2
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f0ddc2ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: ASA Diamond Red
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#d32e1aff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cb971fe6f813.jpg
   type: unspecified

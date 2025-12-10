@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-vivid-yellow.html
+primary_color:
+  rgba: '#f6eb61ff'
 properties:
   density: 1.24

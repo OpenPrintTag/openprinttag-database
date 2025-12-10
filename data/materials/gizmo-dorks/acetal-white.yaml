@@ -5,6 +5,8 @@ name: Acetal White
 class: FFF
 type_id: 20
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/05265d31b256.png
   type: unspecified

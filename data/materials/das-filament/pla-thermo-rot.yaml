@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/102/pla-filament-1-75-mm-thermo-rot-800-g?c=33
-colors:
-- 0c273995-3e8f-4ea4-a64f-c9db94ea1a49
+primary_color:
+  rgba: '#ec0000ff'
+secondary_colors:
+- rgba: '#ff7d7aff'
 tags:
 - temperature-color-change
 - industrially-compostable

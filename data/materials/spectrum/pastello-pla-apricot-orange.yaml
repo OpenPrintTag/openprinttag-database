@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pastello-pla/
+primary_color:
+  rgba: '#fbd1a7ff'
 tags:
 - satin
 - industrially-compostable

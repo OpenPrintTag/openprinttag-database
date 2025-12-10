@@ -5,6 +5,8 @@ name: PC Yellow
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#fad61bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d66f006698cb.jpg
   type: unspecified

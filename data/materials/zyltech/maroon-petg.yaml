@@ -5,6 +5,8 @@ name: Maroon PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#863938ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5c53453dfe94.png
   type: unspecified

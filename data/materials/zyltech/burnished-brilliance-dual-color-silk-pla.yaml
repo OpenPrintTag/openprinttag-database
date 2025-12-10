@@ -5,9 +5,9 @@ name: Burnished Brilliance Dual Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 80616fe9-dfaa-466d-ab13-c72bf52e5fa9
-- 1f148a0c-96df-4073-ab16-f787460191f8
+secondary_colors:
+- rgba: '#4c5051ff'
+- rgba: '#eeea44ff'
 tags:
 - silk
 - dual-color

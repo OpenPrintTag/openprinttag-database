@@ -5,6 +5,8 @@ name: EasyFlex Medium Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0539803221ff.png
   type: unspecified

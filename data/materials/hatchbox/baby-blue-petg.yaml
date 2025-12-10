@@ -5,6 +5,8 @@ name: Baby Blue PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c6f3fdff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/06473cb5bf6f.jpg
   type: unspecified

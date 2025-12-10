@@ -5,6 +5,8 @@ name: White PRO Series Ryno
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/43e58307a4a7.png
   type: unspecified

@@ -5,6 +5,8 @@ name: FLEX 93A Wisteria
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#7659b5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2dcacb0c235d.png
   type: unspecified

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-pla-blood-red-1kg/
+primary_color:
+  rgba: '#990303ff'
 tags:
 - industrially-compostable
 properties:

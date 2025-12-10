@@ -5,6 +5,8 @@ name: ABSx Astro Blue
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#003b80ff'
 tags:
 - filtration-recomended
 photos:

@@ -5,9 +5,9 @@ name: Silk PLA Dual Color Black Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- 36d619e3-d911-41a0-9f83-7e79536b5d83
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#ab2614ff'
 tags:
 - silk
 - industrially-compostable

@@ -5,11 +5,11 @@ name: 'Silk Rainbow PLA Coral '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
-- eda03cd9-a95c-4756-89ea-1985306359f6
-- eee1b392-28ab-414a-bc18-8f9d09654530
-- eafbed70-f085-46b9-8ad6-63376f886f5a
+secondary_colors:
+- rgba: '#ffc946ff'
+- rgba: '#e23288ff'
+- rgba: '#6c5bb1ff'
+- rgba: '#82e3ecff'
 tags:
 - silk
 - multicolor

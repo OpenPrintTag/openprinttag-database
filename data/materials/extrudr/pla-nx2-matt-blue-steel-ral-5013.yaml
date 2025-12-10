@@ -5,6 +5,8 @@ name: PLA NX2 MATT blue steel | RAL 5013
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#033877ff'
 tags:
 - matte
 - industrially-compostable

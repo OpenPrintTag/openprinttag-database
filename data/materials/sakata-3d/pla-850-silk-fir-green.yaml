@@ -5,6 +5,8 @@ name: PLA 850 Silk Fir Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4d5d4cff'
 tags:
 - industrially-compostable
 - silk

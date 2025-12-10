@@ -5,6 +5,8 @@ name: PLA Blend Pearl White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d0d7d8ff'
 transmission_distance: 5.4
 tags:
 - blend

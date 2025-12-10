@@ -5,6 +5,8 @@ name: 'ABS-GF Yellow '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 tags:
 - contains-glass-fiber
 - abrasive

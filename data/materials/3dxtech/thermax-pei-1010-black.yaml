@@ -5,6 +5,8 @@ name: ThermaX PEI 1010  Black
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - low-outgassing
 photos:

@@ -5,6 +5,8 @@ name: ' Kratos PC Traffic White'
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3e05b01ff9a9.png
   type: unspecified

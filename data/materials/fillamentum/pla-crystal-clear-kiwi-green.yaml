@@ -5,6 +5,8 @@ name: PLA Crystal Clear "Kiwi Green"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 tags:
 - translucent
 - industrially-compostable

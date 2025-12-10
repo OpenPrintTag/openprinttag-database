@@ -5,6 +5,8 @@ name: PETG Mango Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f2b70aff'
 transmission_distance: 2.6
 photos:
 - url: https://file.myfilamentlist.com/f/new/b1816341d2f4.png

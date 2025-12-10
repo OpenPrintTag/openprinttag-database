@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/blue-ombre-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- f45bf10d-a26d-4b61-ae86-064d1a59b797
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#8ed9f9ff'
 tags:
 - iridescent
 - industrially-compostable

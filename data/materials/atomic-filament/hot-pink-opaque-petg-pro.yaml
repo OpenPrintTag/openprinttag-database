@@ -5,6 +5,8 @@ name: Hot Pink Opaque PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e23288ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8713a38a82f2.png
   type: unspecified

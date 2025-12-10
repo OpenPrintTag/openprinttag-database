@@ -5,6 +5,8 @@ name: PrimaSelect ABS Red
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#c00000ff'
 tags:
 - filtration-recomended
 photos:

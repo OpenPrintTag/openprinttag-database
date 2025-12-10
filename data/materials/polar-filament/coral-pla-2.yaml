@@ -5,6 +5,8 @@ name: Coral PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d85165ff'
 tags:
 - industrially-compostable
 photos:

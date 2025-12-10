@@ -5,6 +5,8 @@ name: PETG Economy Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/365fc11bb0e9.png
   type: unspecified

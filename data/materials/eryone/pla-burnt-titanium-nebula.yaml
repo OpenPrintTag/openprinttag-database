@@ -5,10 +5,10 @@ name: 'PLA Burnt Titanium Nebula '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 619dde05-83ae-4bfa-bdf5-99feaee10d49
-- 5c909e5f-c5b6-447f-9f57-5a6d51d2a898
-- 5a2624b4-4e1f-4f64-a1b5-c536ea7b029e
+secondary_colors:
+- rgba: '#008059ff'
+- rgba: '#393785ff'
+- rgba: '#af7d00ff'
 tags:
 - industrially-compostable
 - gradual-color-change

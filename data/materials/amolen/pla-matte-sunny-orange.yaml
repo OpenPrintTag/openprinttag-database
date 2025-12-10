@@ -5,6 +5,8 @@ name: PLA Matte Sunny Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fa7f1bff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: EasyFil ePLA Luminous Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#06b100ff'
 tags:
 - industrially-compostable
 photos:

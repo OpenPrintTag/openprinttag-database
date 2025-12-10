@@ -5,6 +5,8 @@ name: Pro PCTG, Grape Purple
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#6000b0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c676b83dd29a.png
   type: unspecified

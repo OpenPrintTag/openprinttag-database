@@ -5,6 +5,8 @@ name: FLEX 93A Ivory White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8a3bd938db79.png
   type: unspecified

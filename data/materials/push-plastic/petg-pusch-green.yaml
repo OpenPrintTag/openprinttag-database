@@ -5,6 +5,8 @@ name: PETG PUSCH Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2a4552ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/351fa302fa6f.png
   type: unspecified

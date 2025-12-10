@@ -5,9 +5,9 @@ name: Dual Color Matte PLA Purple Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 0a165cb6-53d4-4b74-b9d8-8461c26a2554
-- f36bb080-3d2c-40e0-85b6-73cfc6075c44
+secondary_colors:
+- rgba: '#8846aeff'
+- rgba: '#f3c102ff'
 tags:
 - matte
 - dual-color

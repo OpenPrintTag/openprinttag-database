@@ -5,6 +5,8 @@ name: PC/ABS Black
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8b2ef7ee1b24.png
   type: unspecified

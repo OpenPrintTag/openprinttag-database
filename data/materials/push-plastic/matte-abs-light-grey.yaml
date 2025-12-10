@@ -5,6 +5,8 @@ name: Matte ABS Light Grey
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 tags:
 - matte
 - filtration-recomended

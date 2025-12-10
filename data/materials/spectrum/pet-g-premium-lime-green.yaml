@@ -6,5 +6,7 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pet-g-premium/
+primary_color:
+  rgba: '#b3df3aff'
 properties:
   density: 1.27

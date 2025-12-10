@@ -5,6 +5,8 @@ name: EasyFil ePETG Transparent Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 tags:
 - translucent
 photos:

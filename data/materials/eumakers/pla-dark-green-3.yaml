@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-dark-green.html
+primary_color:
+  rgba: '#2c5234ff'
 properties:
   density: 1.24

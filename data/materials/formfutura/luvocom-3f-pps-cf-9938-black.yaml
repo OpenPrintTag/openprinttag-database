@@ -5,6 +5,8 @@ name: LUVOCOM 3F PPS CF 9938 Black
 class: FFF
 type_id: 2
 abbreviation: ''
+primary_color:
+  rgba: '#373737ff'
 tags:
 - contains-carbon-fiber
 - abrasive

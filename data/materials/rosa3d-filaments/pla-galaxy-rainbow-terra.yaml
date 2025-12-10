@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-terra-175mm-05kg
-colors:
-- 3f0ab8a5-57e7-44a3-99e3-336330808150
-- 9ea53182-3b56-4ee4-b996-8ba04e5511bc
-- de8b5008-10c9-4313-b403-d57b95f51999
+secondary_colors:
+- rgba: '#6e8451ff'
+- rgba: '#a45b27ff'
+- rgba: '#11784fff'
 tags:
 - gradual-color-change
 - glitter

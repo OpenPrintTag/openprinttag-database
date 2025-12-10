@@ -5,6 +5,8 @@ name: HIPS Black
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - limonene-soluble
 photos:

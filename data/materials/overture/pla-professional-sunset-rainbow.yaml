@@ -5,11 +5,11 @@ name: PLA Professional Sunset Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 72a455ea-cd87-4a2d-b0a1-22d3b9c0e4e5
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- 63ad2c7c-6db8-4143-ba46-70dcc11871fe
-- a582a7a7-d354-4206-b028-87d9598d0187
+secondary_colors:
+- rgba: '#ffb031ff'
+- rgba: '#00a594ff'
+- rgba: '#003b80ff'
+- rgba: '#e31a1fff'
 tags:
 - multicolor
 - industrially-compostable

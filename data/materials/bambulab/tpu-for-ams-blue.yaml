@@ -5,6 +5,8 @@ name: 'TPU for AMS Blue '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#6299dfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/49758d878369.png
   type: unspecified

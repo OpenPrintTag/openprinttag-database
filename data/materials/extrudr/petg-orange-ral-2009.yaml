@@ -5,6 +5,8 @@ name: PETG orange | RAL 2009
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/934bbf1f3933.png
   type: unspecified

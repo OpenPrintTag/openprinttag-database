@@ -5,6 +5,8 @@ name: WOOD nature | RAL 1013
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#caac78ff'
 tags:
 - contains-wood
 - imitates-wood

@@ -5,6 +5,8 @@ name: ThermaX TPI Natural
 class: FFF
 type_id: 40
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 tags:
 - without-pigments
 photos:

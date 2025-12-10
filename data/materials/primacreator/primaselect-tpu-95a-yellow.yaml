@@ -5,6 +5,8 @@ name: PrimaSelect TPU 95A Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e9dc5ce281e4.png
   type: unspecified

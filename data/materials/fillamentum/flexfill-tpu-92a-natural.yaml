@@ -5,6 +5,8 @@ name: Flexfill TPU 92A "Natural"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e1ab4a3a3d41.png
   type: unspecified

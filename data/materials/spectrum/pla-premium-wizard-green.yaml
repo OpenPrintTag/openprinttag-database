@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-premium/
-colors:
-- 81d67c46-0f9b-4dd1-b3b6-ec10200bb831
-- b6ce80f3-50ae-472d-816f-53071597fa35
+secondary_colors:
+- rgba: '#616247ff'
+- rgba: '#4f3638ff'
 tags:
 - iridescent
 - industrially-compostable

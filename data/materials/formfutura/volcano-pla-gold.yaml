@@ -5,6 +5,8 @@ name: Volcano PLA Gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 tags:
 - matte
 - industrially-compostable

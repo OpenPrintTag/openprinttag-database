@@ -5,6 +5,8 @@ name: PP Red
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4c8c40079d7a.png
   type: unspecified

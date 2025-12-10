@@ -5,6 +5,8 @@ name: ' TPE 88 RubberJet Flex - Blue '
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7f80c83b028f.png
   type: unspecified

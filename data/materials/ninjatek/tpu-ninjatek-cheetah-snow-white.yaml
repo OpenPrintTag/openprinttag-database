@@ -5,6 +5,8 @@ name: TPU NinjaTek Cheetah - Snow White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0ef324f1d209.png
   type: unspecified

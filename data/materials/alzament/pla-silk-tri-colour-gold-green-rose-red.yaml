@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-gold-green-rose-red-d12869941.htm
-colors:
-- 2d209ab2-db62-40bc-8b0b-3c39e3f75e1c
-- 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
-- 032a2c4d-231f-4525-a843-af3650bd4278
+secondary_colors:
+- rgba: '#f3b400ff'
+- rgba: '#26a648ff'
+- rgba: '#bb264dff'
 tags:
 - silk
 - gradual-color-change

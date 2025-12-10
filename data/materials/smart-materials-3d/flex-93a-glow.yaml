@@ -5,6 +5,8 @@ name: FLEX 93A GLOW
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#efefefff'
 tags:
 - glow-in-the-dark
 - abrasive

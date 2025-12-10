@@ -5,6 +5,8 @@ name: Upgrade PLA+ Coffee
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a47c48ff'
 tags:
 - industrially-compostable
 photos:

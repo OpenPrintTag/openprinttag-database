@@ -5,6 +5,8 @@ name: Standard PLA+, Fire Engine Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: PETG Candy Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#217165ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e21252842491.png
   type: unspecified

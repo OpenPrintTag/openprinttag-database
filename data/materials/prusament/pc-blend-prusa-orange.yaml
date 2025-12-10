@@ -5,6 +5,8 @@ name: PC Blend Prusa Orange
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ea5e1aff'
 transmission_distance: 6.4
 tags:
 - blend
