@@ -5,6 +5,8 @@ name: FIBREX™ Nylon PA6+GF30 White
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - contains-glass-fiber
 - abrasive

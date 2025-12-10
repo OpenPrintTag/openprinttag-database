@@ -5,6 +5,8 @@ name: Polycarbonate White
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4d807c3d0ef4.png
   type: unspecified

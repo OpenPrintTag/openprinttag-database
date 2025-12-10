@@ -5,6 +5,8 @@ name: Firewire FR-PC-ABS Black
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 photos:

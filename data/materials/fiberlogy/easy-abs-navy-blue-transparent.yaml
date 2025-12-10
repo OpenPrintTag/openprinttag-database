@@ -5,6 +5,8 @@ name: Easy ABS Navy Blue Transparent
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#09048eff'
 tags:
 - translucent
 - filtration-recomended

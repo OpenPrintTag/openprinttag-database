@@ -5,6 +5,8 @@ name: ASA Cobalt
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#003b80ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/33091791bc78.png
   type: unspecified

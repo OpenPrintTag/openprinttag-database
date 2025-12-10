@@ -5,6 +5,8 @@ name: PCTG Red
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ff5a9295e895.png
   type: unspecified

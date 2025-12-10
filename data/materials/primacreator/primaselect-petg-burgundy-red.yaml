@@ -5,6 +5,8 @@ name: PrimaSelect PETG Burgundy Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#990303ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/bea4755c7e2b.png
   type: unspecified

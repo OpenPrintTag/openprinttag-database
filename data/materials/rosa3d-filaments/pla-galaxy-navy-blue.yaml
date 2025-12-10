@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-navy-blue
+primary_color:
+  rgba: '#2b3b61ff'
 tags:
 - glitter
 properties: {}

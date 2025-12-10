@@ -5,6 +5,8 @@ name: PETG white | RAL 9003
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/00c4f85a7325.png
   type: unspecified

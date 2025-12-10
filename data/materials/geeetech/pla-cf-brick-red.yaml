@@ -5,6 +5,8 @@ name: 'PLA-CF Brick Red '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#462b2eff'
 tags:
 - contains-carbon-fiber
 - abrasive

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-pink-1kg/
+primary_color:
+  rgba: '#f6abd7ff'
 tags:
 - industrially-compostable
 properties:

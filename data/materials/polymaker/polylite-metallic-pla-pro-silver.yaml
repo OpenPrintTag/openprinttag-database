@@ -5,6 +5,8 @@ name: 'PolyLite™ Metallic PLA Pro Silver '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7a838eff'
 tags:
 - imitates-metal
 - silk

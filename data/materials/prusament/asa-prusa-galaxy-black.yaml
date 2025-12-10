@@ -5,6 +5,8 @@ name: ASA Prusa Galaxy Black
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#3e413fff'
 transmission_distance: 0.1
 tags:
 - glitter

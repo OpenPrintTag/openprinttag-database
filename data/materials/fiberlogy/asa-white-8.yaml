@@ -5,6 +5,8 @@ name: ASA White
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9cba02a6c6b9.png
   type: unspecified

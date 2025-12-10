@@ -5,10 +5,10 @@ name: PS Imports PLA TriColor Silk Magic-Gold-Silver-Copper
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 90a85cc8-1736-4480-83a1-00434d403fe2
-- 493c1f2e-7c71-48c4-9dfb-36df1fe9108d
-- 10eb9aa5-c8f3-4da6-8cd0-9009c942da46
+secondary_colors:
+- rgba: '#ffcb47ff'
+- rgba: '#a8b0bdff'
+- rgba: '#641501ff'
 tags:
 - triple-color
 - silk

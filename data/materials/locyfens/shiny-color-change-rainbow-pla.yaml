@@ -5,10 +5,10 @@ name: Shiny Color Change Rainbow PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- efae8549-8440-426e-8bf1-4080ee157fff
-- 540004ab-bf2b-4d59-91f8-dd94a7df1074
-- a919a6a0-07ca-480d-88b5-b7b522b0c5a8
+secondary_colors:
+- rgba: '#0e21aeff'
+- rgba: '#ae00ffff'
+- rgba: '#15817bff'
 tags:
 - silk
 - multicolor

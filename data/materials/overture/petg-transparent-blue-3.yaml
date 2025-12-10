@@ -5,6 +5,8 @@ name: 'PETG Transparent Blue '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#09048eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cb0a1201807b.jpg
   type: unspecified

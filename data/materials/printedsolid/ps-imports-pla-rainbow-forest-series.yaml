@@ -5,11 +5,11 @@ name: PS Imports PLA Rainbow Forest Series
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e50ce36d-9a2c-497a-9d0e-fc482e9f7ca8
-- 4a1eddb6-b368-460e-8a70-de3969d74632
-- ae70f6e5-412c-44f7-8b93-20437976ae58
-- 3fb39c58-76a4-4c39-913d-b0fd9b865ba3
+secondary_colors:
+- rgba: '#95d05cff'
+- rgba: '#40e0d0ff'
+- rgba: '#ebff57ff'
+- rgba: '#a38496ff'
 tags:
 - multicolor
 - industrially-compostable

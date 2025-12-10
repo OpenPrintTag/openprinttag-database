@@ -5,6 +5,8 @@ name: ASA
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/aabfa856eff2.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Dragonfruit Smoothie HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#da445aff'
 tags:
 - imitates-marble
 - high-temperature

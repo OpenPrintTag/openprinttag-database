@@ -5,6 +5,8 @@ name: CPE HG100 "Grey Mouse Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - translucent
 photos:

@@ -5,6 +5,8 @@ name: 'Silk PLA Violet '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5c50e0ff'
 tags:
 - silk
 - industrially-compostable

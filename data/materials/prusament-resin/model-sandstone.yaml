@@ -6,5 +6,7 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-resin-model-sandstone-1kg/
+primary_color:
+  rgba: '#eea061ff'
 properties:
   density: 1.11

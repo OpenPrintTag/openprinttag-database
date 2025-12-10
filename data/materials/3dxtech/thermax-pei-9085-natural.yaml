@@ -5,6 +5,8 @@ name: ThermaX PEI 9085 Natural
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - without-pigments
 - low-outgassing

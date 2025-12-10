@@ -5,6 +5,8 @@ name: ABS Extrafill "Sky Blue"
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#0095ffff'
 tags:
 - filtration-recomended
 photos:

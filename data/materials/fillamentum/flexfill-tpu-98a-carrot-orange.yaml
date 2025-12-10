@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Carrot Orange"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/75b1fbe67dcc.png
   type: unspecified

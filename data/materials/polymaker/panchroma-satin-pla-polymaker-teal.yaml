@@ -5,6 +5,8 @@ name: Panchroma™ Satin PLA Polymaker Teal
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 tags:
 - satin
 - industrially-compostable

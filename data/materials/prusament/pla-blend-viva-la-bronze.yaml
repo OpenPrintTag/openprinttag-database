@@ -5,6 +5,8 @@ name: PLA Blend Viva La Bronze
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b38e3fff'
 transmission_distance: 1.9
 tags:
 - blend

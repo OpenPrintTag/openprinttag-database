@@ -5,6 +5,8 @@ name: 'Silk PLA Blue '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 tags:
 - silk
 - industrially-compostable

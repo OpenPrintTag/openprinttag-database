@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-multicolour-silk-flower
-colors:
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
-- 895e0329-ea96-420e-8202-83ebe1d8a459
-- d232c2cd-048c-4873-b6bb-3580e16a5acc
+secondary_colors:
+- rgba: '#ff00a2ff'
+- rgba: '#fcafc0ff'
+- rgba: '#8d65c7ff'
 tags:
 - silk
 - gradual-color-change

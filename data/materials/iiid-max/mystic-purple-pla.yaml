@@ -5,6 +5,8 @@ name: Mystic Purple PLA+
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9d00b1ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,12 +5,12 @@ name: PLA Luminous Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e8ff7b27-96be-4cc7-9966-b6c5762d65df
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
-- 7e837796-dd6e-4804-b38c-7ac61032dbe5
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 491c9130-63d7-4434-af37-40385f110ac9
+secondary_colors:
+- rgba: '#f297daff'
+- rgba: '#62e480ff'
+- rgba: '#a67dffff'
+- rgba: '#ffffffff'
+- rgba: '#1adafbff'
 tags:
 - glow-in-the-dark
 - abrasive

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-silk-gold-1kg/
+primary_color:
+  rgba: '#f6c500ff'
 tags:
 - silk
 - industrially-compostable

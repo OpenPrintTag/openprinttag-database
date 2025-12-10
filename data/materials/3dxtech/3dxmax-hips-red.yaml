@@ -5,6 +5,8 @@ name: 3DXMAX HIPS Red
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#aa0101ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fe8d29b324cd.png
   type: unspecified

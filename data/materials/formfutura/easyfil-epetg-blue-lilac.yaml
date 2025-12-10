@@ -5,6 +5,8 @@ name: EasyFil ePETG Blue Lilac
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#71577eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c3b621599cf5.png
   type: unspecified

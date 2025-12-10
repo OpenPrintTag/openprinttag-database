@@ -5,12 +5,12 @@ name: 'Silk Rainbow PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
-- e4030af7-b905-425e-9f7c-db893396e656
-- f4de8784-1f2d-49d6-bc75-c29e15ada857
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
-- ea3cdc31-d220-47a4-b412-974dac0c8c4a
+secondary_colors:
+- rgba: '#ffc946ff'
+- rgba: '#9761b5ff'
+- rgba: '#0696efff'
+- rgba: '#41a840ff'
+- rgba: '#fb6066ff'
 tags:
 - silk
 - industrially-compostable

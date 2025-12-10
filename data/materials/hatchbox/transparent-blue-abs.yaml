@@ -5,6 +5,8 @@ name: Transparent Blue ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 tags:
 - translucent
 - filtration-recomended

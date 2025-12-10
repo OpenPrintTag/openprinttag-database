@@ -5,6 +5,8 @@ name: ABS+ Peak Green
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 tags:
 - filtration-recomended
 photos:

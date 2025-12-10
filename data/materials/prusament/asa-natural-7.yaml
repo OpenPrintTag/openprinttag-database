@@ -5,6 +5,8 @@ name: ASA Natural
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#d6d6cdff'
 transmission_distance: 6.5
 tags:
 - without-pigments

@@ -6,6 +6,8 @@ class: FFF
 type_id: 21
 abbreviation: ''
 url: https://www.fiberthree.com/filaments#F3PC
+primary_color:
+  rgba: '#ac1a17ff'
 tags:
 - contains-glass-fiber
 - abrasive

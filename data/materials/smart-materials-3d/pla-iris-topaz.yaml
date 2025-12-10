@@ -5,6 +5,8 @@ name: PLA IRIS Topaz
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#144f3bff'
 tags:
 - iridescent
 - industrially-compostable

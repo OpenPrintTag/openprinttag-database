@@ -5,6 +5,8 @@ name: Textura™ Flare Velvet Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#983b4eff'
 tags:
 - matte
 - contains-plant

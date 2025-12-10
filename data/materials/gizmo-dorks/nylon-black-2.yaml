@@ -4,6 +4,8 @@ brand_slug: gizmo-dorks
 name: Nylon Black
 class: FFF
 abbreviation: Nylon
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5d3d2c5bde48.png
   type: unspecified

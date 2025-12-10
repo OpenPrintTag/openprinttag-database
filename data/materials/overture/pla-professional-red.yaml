@@ -5,6 +5,8 @@ name: PLA Professional Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff0505ff'
 tags:
 - industrially-compostable
 photos:

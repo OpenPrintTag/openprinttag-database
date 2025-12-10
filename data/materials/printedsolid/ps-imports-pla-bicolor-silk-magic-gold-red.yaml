@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Silk Magic-Gold-Red
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 90a85cc8-1736-4480-83a1-00434d403fe2
-- aab0fd0d-91b5-41f2-9ac3-023976837698
+secondary_colors:
+- rgba: '#ffcb47ff'
+- rgba: '#de1619ff'
 tags:
 - silk
 - industrially-compostable

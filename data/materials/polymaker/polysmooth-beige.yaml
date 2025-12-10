@@ -5,6 +5,8 @@ name: 'PolySmooth™ Beige '
 class: FFF
 type_id: 12
 abbreviation: ''
+primary_color:
+  rgba: '#e2c077ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ea45e8cbac78.png
   type: unspecified

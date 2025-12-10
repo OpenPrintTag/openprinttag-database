@@ -5,6 +5,8 @@ name: TPU 95A Red
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d879a73cd723.png
   type: unspecified

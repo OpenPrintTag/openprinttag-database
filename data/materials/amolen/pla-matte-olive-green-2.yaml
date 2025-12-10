@@ -5,6 +5,8 @@ name: PLA Matte Olive Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#857c00ff'
 tags:
 - matte
 - industrially-compostable

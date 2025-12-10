@@ -5,6 +5,8 @@ name: AmideX Nylon 6-66 Black
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a8172a5b8af6.png
   type: unspecified

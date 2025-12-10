@@ -5,6 +5,8 @@ name: 'EasyFil PLA – Glow in the Dark '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00c26bff'
 tags:
 - glow-in-the-dark
 - abrasive

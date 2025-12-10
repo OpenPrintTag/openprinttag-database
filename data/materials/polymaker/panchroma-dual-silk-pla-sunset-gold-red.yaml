@@ -5,9 +5,9 @@ name: Panchroma™ Dual Silk PLA Sunset (Gold / Red)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- d68afba4-061f-467f-8c14-5406ceadc9d2
-- 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors:
+- rgba: '#f6c500ff'
+- rgba: '#e20010ff'
 tags:
 - silk
 - industrially-compostable

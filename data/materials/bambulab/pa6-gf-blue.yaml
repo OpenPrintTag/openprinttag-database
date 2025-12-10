@@ -5,6 +5,8 @@ name: 'PA6-GF Blue '
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#6299dfff'
 tags:
 - contains-glass-fiber
 - abrasive

@@ -5,6 +5,8 @@ name: ' STYX PA6-GF30 Natural'
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - contains-glass-fiber
 - abrasive

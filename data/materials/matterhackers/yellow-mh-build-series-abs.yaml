@@ -5,6 +5,8 @@ name: Yellow MH Build Series ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - filtration-recomended
 photos:

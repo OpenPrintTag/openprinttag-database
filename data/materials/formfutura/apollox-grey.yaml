@@ -5,6 +5,8 @@ name: ApolloX Grey
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#727376ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/091144e98a72.png
   type: unspecified

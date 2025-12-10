@@ -5,10 +5,10 @@ name: PLA Silk Rainbow Bronze, Teal, Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 424c6c1d-f5cd-4698-a4d5-cab621481a3a
-- 4c90835b-157a-40ee-b459-a1fd4fb686be
-- fa6265aa-feff-4e89-9b03-72d4c7b29247
+secondary_colors:
+- rgba: '#00b4bcff'
+- rgba: '#d8ba64ff'
+- rgba: '#875117ff'
 tags:
 - silk
 - industrially-compostable

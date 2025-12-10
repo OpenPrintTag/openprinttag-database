@@ -5,6 +5,8 @@ name: PLA Lipstick Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bf2b2bff'
 transmission_distance: 3.3
 tags:
 - industrially-compostable

@@ -5,11 +5,10 @@ name: Matte PLA Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 4f3f67a4-46bf-4d09-980b-662d594f793b
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-# - cca6ac4f-e9c1-4eb6-83e9-b1c342ec4eb4
-- bc359bc5-22e4-447c-8479-2fcd56997b9a
+secondary_colors:
+- rgba: '#fd9191ff'
+- rgba: '#00a594ff'
+- rgba: '#fef49cff'
 tags:
 - multicolor
 - matte

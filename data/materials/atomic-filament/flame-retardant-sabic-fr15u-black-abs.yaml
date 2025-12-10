@@ -5,6 +5,8 @@ name: FLAME RETARDANT Sabic FR15U Black ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 - filtration-recomended

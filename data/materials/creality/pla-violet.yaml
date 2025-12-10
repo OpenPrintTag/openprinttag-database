@@ -5,6 +5,8 @@ name: PLA+ Violet
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a048f2ff'
 tags:
 - industrially-compostable
 photos:

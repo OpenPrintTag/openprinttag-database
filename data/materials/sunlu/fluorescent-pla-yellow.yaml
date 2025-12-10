@@ -5,6 +5,8 @@ name: Fluorescent PLA Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - neon
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Galactic Empire Metallic Purple HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6c47b2ff'
 tags:
 - glitter
 - high-temperature

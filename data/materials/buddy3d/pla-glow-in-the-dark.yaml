@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-glow-in-the-dark-1kg/
-colors:
-- 5019134c-2526-4924-9b7c-349278e205eb
-- 70f1f0e7-07fc-4829-9749-c942d7e2042a
+secondary_colors:
+- rgba: '#dfdfd3ff'
+- rgba: '#70fa00ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

@@ -5,6 +5,8 @@ name: PETG Industrial Turquoise
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d4a83ee1f5a2.png
   type: unspecified

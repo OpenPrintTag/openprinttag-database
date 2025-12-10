@@ -5,6 +5,8 @@ name: Python Flex TPU 98A Skin Tone ID2
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f0ddc2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4545e5525f8c.png
   type: unspecified

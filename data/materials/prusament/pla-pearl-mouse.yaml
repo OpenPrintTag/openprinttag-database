@@ -5,6 +5,8 @@ name: PLA Pearl Mouse
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a49d8eff'
 transmission_distance: 2.3
 tags:
 - industrially-compostable

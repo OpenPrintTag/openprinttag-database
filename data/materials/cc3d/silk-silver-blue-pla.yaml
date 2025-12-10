@@ -5,9 +5,9 @@ name: Silk Silver Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 56876fcf-cf87-4e13-b729-c3bcfbcf6de7
-- 493c1f2e-7c71-48c4-9dfb-36df1fe9108d
+secondary_colors:
+- rgba: '#005da4ff'
+- rgba: '#a8b0bdff'
 tags:
 - silk
 - dual-color

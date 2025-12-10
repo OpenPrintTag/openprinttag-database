@@ -6,5 +6,7 @@ class: FFF
 type_id: 13
 abbreviation: ''
 url: https://www.verbatim-europe.com/en/3d/products/verbatim-tefabloc-tpe-175mm-500g-black-55511
+primary_color:
+  rgba: '#000000ff'
 properties:
   hardness_shore_a: 85

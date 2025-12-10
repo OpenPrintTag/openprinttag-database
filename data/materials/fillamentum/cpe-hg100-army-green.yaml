@@ -5,6 +5,8 @@ name: CPE HG100 "Army Green"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#144f3bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6f0c664e2536.png
   type: unspecified

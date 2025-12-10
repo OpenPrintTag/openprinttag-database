@@ -5,6 +5,8 @@ name: Solar Flare PRO Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f27e81ff'
 tags:
 - industrially-compostable
 photos:

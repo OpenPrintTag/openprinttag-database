@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-silk-steel
+primary_color:
+  rgba: '#a8b0bdff'
 tags:
 - silk
 properties: {}

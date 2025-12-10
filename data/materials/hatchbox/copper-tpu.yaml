@@ -5,6 +5,8 @@ name: Copper TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#6e4325ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e26365251c76.jpg
   type: unspecified

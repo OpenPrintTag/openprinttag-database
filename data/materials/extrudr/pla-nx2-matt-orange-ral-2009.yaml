@@ -5,6 +5,8 @@ name: PLA NX2 MATT orange | RAL 2009
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff9a14ff'
 tags:
 - matte
 - industrially-compostable

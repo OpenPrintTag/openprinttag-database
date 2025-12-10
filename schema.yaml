@@ -494,22 +494,6 @@ entities:
               type: rgba
               required: true
         required: false
-      colors:
-        type: array
-        items:
-          type: string
-          foreign_key:
-            entity: colors
-            field: uuid
-        required: false
-      palette_color_alikes:
-        type: array
-        items:
-          type: string
-          foreign_key:
-            entity: palette_colors
-            field: uuid
-        required: false
       transmission_distance:
         type: number
         required: false

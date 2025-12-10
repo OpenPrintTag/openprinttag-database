@@ -5,6 +5,8 @@ name: Pro PCTG, Fire Engine Red
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7dd5434e1cc2.png
   type: unspecified

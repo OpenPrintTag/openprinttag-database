@@ -5,6 +5,8 @@ name: 'PLA Silk+ Pink '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f8b9a6ff'
 tags:
 - silk
 - industrially-compostable

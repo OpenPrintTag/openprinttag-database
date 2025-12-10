@@ -5,6 +5,8 @@ name: ABS Sunset
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - filtration-recomended
 photos:

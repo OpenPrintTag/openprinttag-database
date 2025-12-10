@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-petg-v0-natural-1kg/
+primary_color:
+  rgba: '#dee2daff'
 transmission_distance: 10.4
 tags:
 - self-extinguishing

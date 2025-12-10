@@ -5,6 +5,8 @@ name: PETG Starry Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#142b4bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/88c90ea5c827.jpg
   type: unspecified

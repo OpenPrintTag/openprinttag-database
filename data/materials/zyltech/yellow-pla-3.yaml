@@ -5,6 +5,8 @@ name: Yellow PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - industrially-compostable
 photos:

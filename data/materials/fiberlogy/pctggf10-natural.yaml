@@ -5,6 +5,8 @@ name: PCTG+GF10 Natural
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 tags:
 - contains-glass-fiber
 - abrasive

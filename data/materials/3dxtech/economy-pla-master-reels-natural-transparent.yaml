@@ -5,6 +5,8 @@ name: Economy PLA - Master Reels Natural Transparent
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#eadac2ff'
 tags:
 - transparent
 - without-pigments

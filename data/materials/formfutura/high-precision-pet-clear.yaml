@@ -5,6 +5,8 @@ name: High Precision PET Clear
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - transparent
 photos:

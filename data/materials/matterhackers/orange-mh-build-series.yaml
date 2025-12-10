@@ -5,6 +5,8 @@ name: Orange MH Build Series
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff7a33ff'
 tags:
 - industrially-compostable
 photos:

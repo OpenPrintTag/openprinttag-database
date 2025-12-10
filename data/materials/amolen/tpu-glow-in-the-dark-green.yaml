@@ -5,6 +5,8 @@ name: TPU Glow-in-the-Dark Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 tags:
 - glow-in-the-dark
 - abrasive

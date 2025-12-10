@@ -5,6 +5,8 @@ name: TPU Transparent Clear Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - translucent
 photos:

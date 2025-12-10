@@ -5,6 +5,8 @@ name: R PLA Anthracite
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#26272bff'
 tags:
 - recycled
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PrimaSelect PETG Silver
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e9d7f9be2fe7.png
   type: unspecified

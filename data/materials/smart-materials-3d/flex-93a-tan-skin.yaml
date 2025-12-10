@@ -5,6 +5,8 @@ name: FLEX 93A Tan skin
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#b58971ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a3968f50f0e2.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Panchroma™ Marble PLA Limestone
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e8dfd4ff'
 tags:
 - imitates-marble
 - industrially-compostable

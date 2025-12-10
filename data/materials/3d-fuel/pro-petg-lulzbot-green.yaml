@@ -5,6 +5,8 @@ name: Pro PETG, LulzBot Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1629e84d627f.jpg
   type: unspecified

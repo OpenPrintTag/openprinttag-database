@@ -5,6 +5,8 @@ name: PP Graphite
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f70163fcaa42.png
   type: unspecified

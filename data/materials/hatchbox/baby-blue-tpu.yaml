@@ -5,6 +5,8 @@ name: Baby Blue TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#6feedbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/08a3cd7be14f.jpg
   type: unspecified

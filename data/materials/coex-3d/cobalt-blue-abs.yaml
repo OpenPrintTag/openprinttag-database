@@ -5,6 +5,8 @@ name: Cobalt Blue ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#09048eff'
 tags:
 - filtration-recomended
 photos:

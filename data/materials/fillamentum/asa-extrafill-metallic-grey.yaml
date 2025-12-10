@@ -5,6 +5,8 @@ name: ASA Extrafill "Metallic Grey"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ac23e839208c.png
   type: unspecified

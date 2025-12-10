@@ -5,5 +5,7 @@ name: LOCTITE 3D IND6845
 class: SLA
 type_id: 27
 abbreviation: ''
+primary_color:
+  rgba: '#595959ff'
 properties:
   density: 1.07

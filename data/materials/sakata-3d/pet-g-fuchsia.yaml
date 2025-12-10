@@ -5,6 +5,8 @@ name: PET-G Fuchsia
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f884e2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3cd77d6e4e57.png
   type: unspecified

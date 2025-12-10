@@ -5,9 +5,9 @@ name: PLA Shiny Glitter Black Yellow Green
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- fb922d46-603b-4b1e-8b32-7cf5a0461f87
-- de8b5008-10c9-4313-b403-d57b95f51999
+secondary_colors:
+- rgba: '#ffbf00ff'
+- rgba: '#11784fff'
 tags:
 - glitter
 - dual-color

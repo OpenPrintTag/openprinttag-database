@@ -5,6 +5,8 @@ name: PLA Extrafill "Mukha"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#caac78ff'
 tags:
 - imitates-marble
 - industrially-compostable

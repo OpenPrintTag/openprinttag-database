@@ -5,6 +5,8 @@ name: PrimaSelect PETG Clear White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f0ebe5ff'
 tags:
 - translucent
 photos:

@@ -5,6 +5,8 @@ name: ' TPE 32 RubberJet Flex - Black '
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9c75a83b23ba.png
   type: unspecified

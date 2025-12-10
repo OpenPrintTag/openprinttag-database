@@ -5,6 +5,8 @@ name: 'ASA Green '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#089a45ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/11f215420415.jpg
   type: unspecified

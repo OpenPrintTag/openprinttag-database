@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/abs-kevlar/
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-kevlar
 - abrasive

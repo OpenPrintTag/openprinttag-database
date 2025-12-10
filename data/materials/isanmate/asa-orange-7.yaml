@@ -5,6 +5,8 @@ name: 'ASA Orange '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/67735405220f.jpg
   type: unspecified

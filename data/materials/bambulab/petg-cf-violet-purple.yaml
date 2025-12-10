@@ -5,6 +5,8 @@ name: PETG-CF Violet Purple
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#583061ff'
 tags:
 - contains-carbon-fiber
 - abrasive

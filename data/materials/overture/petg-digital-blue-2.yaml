@@ -5,6 +5,8 @@ name: PETG Digital Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/113b4bba78fb.jpg
   type: unspecified

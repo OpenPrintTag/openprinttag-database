@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Dark Grey
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#50483dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a1b650803718.png
   type: unspecified

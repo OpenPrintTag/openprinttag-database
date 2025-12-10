@@ -5,9 +5,9 @@ name: PLA Temperature Color Change Red to White
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a2a4e094-f414-4ead-a522-96a42ed5e9b8
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors:
+- rgba: '#e24749ff'
+- rgba: '#ffffffff'
 tags:
 - temperature-color-change
 - industrially-compostable

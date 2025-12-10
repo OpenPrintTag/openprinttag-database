@@ -5,6 +5,8 @@ name: varioShore TPU Black
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8b4ef3efe5b0.png
   type: unspecified

@@ -5,6 +5,8 @@ name: ASA Extrafill "Grey Blue"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#4d6383ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a63bc59fe67a.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Blue Glow in the Dark MH Build Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#99fffaff'
 tags:
 - glow-in-the-dark
 - abrasive

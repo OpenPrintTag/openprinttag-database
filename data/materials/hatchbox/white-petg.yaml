@@ -5,6 +5,8 @@ name: White PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9e3fe3b272ab.jpg
   type: unspecified

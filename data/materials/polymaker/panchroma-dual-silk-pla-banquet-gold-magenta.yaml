@@ -5,9 +5,9 @@ name: Panchroma™ Dual Silk PLA Banquet (Gold / Magenta)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 90a85cc8-1736-4480-83a1-00434d403fe2
-- 9fb40439-2d08-4c1d-8956-d75e60566707
+secondary_colors:
+- rgba: '#ffcb47ff'
+- rgba: '#f2306eff'
 tags:
 - silk
 - industrially-compostable

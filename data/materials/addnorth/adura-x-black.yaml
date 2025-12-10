@@ -4,6 +4,8 @@ brand_slug: addnorth
 name: Adura™ X Black
 class: FFF
 abbreviation: Adura™ X
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

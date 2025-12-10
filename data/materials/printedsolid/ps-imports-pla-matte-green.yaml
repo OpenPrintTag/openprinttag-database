@@ -5,6 +5,8 @@ name: PS Imports PLA Matte Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#206233ff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA Tan skin
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ab713eff'
 tags:
 - industrially-compostable
 photos:

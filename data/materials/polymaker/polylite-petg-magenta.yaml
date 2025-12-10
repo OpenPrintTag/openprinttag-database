@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Magenta '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f2306eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e3de4d153edb.png
   type: unspecified

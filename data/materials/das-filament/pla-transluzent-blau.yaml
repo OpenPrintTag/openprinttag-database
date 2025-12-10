@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/128/pla-filament-1-75-mm-transluzent-blau-800-g?c=33
+primary_color:
+  rgba: '#0078bfff'
 tags:
 - transparent
 - industrially-compostable

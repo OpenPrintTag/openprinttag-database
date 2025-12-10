@@ -5,6 +5,8 @@ name: High Precision PET Ultramarine Blue
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7f0611d59ee4.png
   type: unspecified

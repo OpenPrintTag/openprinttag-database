@@ -5,6 +5,8 @@ name: Clear MH Build Series TPU Flexible
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/03239049debd.png
   type: unspecified

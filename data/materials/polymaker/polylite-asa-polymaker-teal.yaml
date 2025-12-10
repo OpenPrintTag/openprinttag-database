@@ -5,6 +5,8 @@ name: PolyLite™ ASA Polymaker Teal
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/223c3d638c1a.png
   type: unspecified

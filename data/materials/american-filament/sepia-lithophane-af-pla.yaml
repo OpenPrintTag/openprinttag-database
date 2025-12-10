@@ -5,6 +5,8 @@ name: Sepia Lithophane AF PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d8ba64ff'
 tags:
 - lithophane
 - industrially-compostable

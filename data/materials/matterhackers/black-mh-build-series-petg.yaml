@@ -5,6 +5,8 @@ name: Black MH Build Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9b33fee9be02.png
   type: unspecified

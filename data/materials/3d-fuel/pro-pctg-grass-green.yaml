@@ -5,6 +5,8 @@ name: Pro PCTG, Grass Green
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#62e480ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2fc3798d75af.png
   type: unspecified

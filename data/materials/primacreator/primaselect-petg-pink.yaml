@@ -5,6 +5,8 @@ name: PrimaSelect PETG Pink
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fc8397ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4246a984c29a.png
   type: unspecified

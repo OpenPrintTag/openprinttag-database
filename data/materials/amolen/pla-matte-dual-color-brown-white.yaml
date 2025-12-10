@@ -5,9 +5,9 @@ name: PLA Matte Dual Color Brown White
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 908f6f1d-5cbb-4fa9-9f6d-d84f6e517804
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#c37c4fff'
 tags:
 - matte
 - industrially-compostable

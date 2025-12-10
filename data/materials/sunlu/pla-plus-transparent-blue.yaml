@@ -5,6 +5,8 @@ name: PLA Plus Transparent Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#274bb6ff'
 tags:
 - translucent
 - industrially-compostable

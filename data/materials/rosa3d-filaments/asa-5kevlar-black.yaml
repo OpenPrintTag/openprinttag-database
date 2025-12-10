@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-asa-plus-5kevlar-175mm-black-05kg
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-kevlar
 properties: {}

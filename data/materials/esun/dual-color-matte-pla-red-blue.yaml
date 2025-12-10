@@ -5,9 +5,9 @@ name: Dual Color Matte PLA Red Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
-- 0e45363a-67e6-4025-b0fe-2666f205908a
+secondary_colors:
+- rgba: '#2e56f1ff'
+- rgba: '#e20010ff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: 'ASA Red  '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#e60000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dd25cace3dd1.jpg
   type: unspecified

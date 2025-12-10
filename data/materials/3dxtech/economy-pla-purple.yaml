@@ -5,6 +5,8 @@ name: Economy PLA purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a67dffff'
 tags:
 - industrially-compostable
 photos:

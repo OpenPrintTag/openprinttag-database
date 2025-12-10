@@ -5,11 +5,11 @@ name: PLA Galaxy / Sparkle & Shiny Galaxy-Red Yellow Green Blue Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- de8b5008-10c9-4313-b403-d57b95f51999
-- ed457b23-9352-4c42-9519-dfbdd40e803e
-- c7e78510-6c40-42e6-89dd-4725be992103
-- 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors:
+- rgba: '#11784fff'
+- rgba: '#ff8400ff'
+- rgba: '#8b3a3aff'
+- rgba: '#0095ffff'
 tags:
 - glitter
 - silk

@@ -5,6 +5,8 @@ name: PETG Natural
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/52db1ea3329c.png
   type: unspecified

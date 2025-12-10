@@ -5,6 +5,8 @@ name: Gecko Green [Translucent] PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#98fbcbff'
 tags:
 - transparent
 - industrially-compostable

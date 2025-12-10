@@ -5,6 +5,8 @@ name: Easy PET-G Transparent Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e03f26ff'
 tags:
 - translucent
 photos:

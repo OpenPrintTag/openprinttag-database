@@ -5,6 +5,8 @@ name: Iron-filled Metal Composite PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - paramagnetic
 - contains-iron

@@ -5,6 +5,8 @@ name: Easy PLA Inox Steel
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - industrially-compostable
 photos:

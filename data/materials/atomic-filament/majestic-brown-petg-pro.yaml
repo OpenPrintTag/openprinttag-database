@@ -5,6 +5,8 @@ name: Majestic Brown PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#503529ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7dabee486306.png
   type: unspecified

@@ -5,6 +5,8 @@ name: 3DXMAX® ASA Dark Grey
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#3b3e3fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1cba9bc14a77.png
   type: unspecified

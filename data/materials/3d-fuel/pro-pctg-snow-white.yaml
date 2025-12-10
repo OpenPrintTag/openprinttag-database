@@ -5,6 +5,8 @@ name: Pro PCTG, Snow White
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/60942aefefe0.png
   type: unspecified

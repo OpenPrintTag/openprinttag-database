@@ -5,6 +5,8 @@ name: ' PPJet (polypropylene) - Natur '
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/78ac9f371cf0.png
   type: unspecified

@@ -5,6 +5,8 @@ name: EasyWood Willow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d8ba64ff'
 tags:
 - contains-wood
 - imitates-wood

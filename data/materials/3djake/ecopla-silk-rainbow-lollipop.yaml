@@ -6,13 +6,13 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3djake.com/3djake/ecopla-silk-rainbow-lollipop
-colors:
-- 94cf71ab-dad8-4c95-bbc4-6f32cb7a66b1
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- a3307156-f521-4e85-9527-92e5756a1571
-- 9030498f-a251-48cc-a69e-3a99dd7e52bf
-- 4def6b66-bdde-40d1-b49b-bcb15828c7ac
-- 6703f9ac-8380-4f19-93a2-fe6ab511392e
+secondary_colors:
+- rgba: '#70a641ff'
+- rgba: '#39b9dbff'
+- rgba: '#7659b5ff'
+- rgba: '#fd64b3ff'
+- rgba: '#d02f37ff'
+- rgba: '#f5e457ff'
 tags:
 - silk
 - gradual-color-change

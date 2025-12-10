@@ -5,6 +5,8 @@ name: Pro PCTG, LulzBot Green
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f1eb94f505cb.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Transparent Orange PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff7a33ff'
 tags:
 - translucent
 - industrially-compostable

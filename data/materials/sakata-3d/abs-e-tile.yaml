@@ -5,6 +5,8 @@ name: ABS-E TILE
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#a54830ff'
 tags:
 - filtration-recomended
 photos:

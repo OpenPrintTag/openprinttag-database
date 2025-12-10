@@ -5,10 +5,10 @@ name: Matte PLA Tri-Color Macaron
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- cd7ff4b9-83cd-4737-9355-64b70c843db9
-- 0f588cae-d4e5-47c8-8adc-52b6c10c8369
+secondary_colors:
+- rgba: '#fce575ff'
+- rgba: '#9ef9ffff'
+- rgba: '#f6abd7ff'
 tags:
 - triple-color
 - matte

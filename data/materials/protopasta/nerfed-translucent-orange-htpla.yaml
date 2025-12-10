@@ -5,6 +5,8 @@ name: Nerfed Translucent Orange HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff9a14ff'
 tags:
 - transparent
 - high-temperature

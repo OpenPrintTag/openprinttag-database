@@ -6,8 +6,10 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://cookiecad.com/products/tpu-pale-blue-elixir-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
+primary_color:
+  rgba: '#39b9dbff'
+secondary_colors:
+- rgba: '#62e480ff'
 tags:
 - iridescent
 properties:

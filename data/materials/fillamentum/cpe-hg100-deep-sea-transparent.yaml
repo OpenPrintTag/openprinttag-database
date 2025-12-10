@@ -5,6 +5,8 @@ name: CPE HG100 "Deep Sea Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 tags:
 - translucent
 photos:

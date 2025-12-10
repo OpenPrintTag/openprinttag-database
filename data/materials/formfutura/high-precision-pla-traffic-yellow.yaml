@@ -5,6 +5,8 @@ name: High Precision PLA Traffic Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,9 +5,9 @@ name: Silk PLA Dual Colors Magenta-Gold
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7664001d-f193-4578-91e1-cedd4a646467
-- d68afba4-061f-467f-8c14-5406ceadc9d2
+secondary_colors:
+- rgba: '#b1407fff'
+- rgba: '#f6c500ff'
 tags:
 - silk
 - dual-color

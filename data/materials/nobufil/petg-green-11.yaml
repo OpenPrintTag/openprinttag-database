@@ -5,6 +5,8 @@ name: PETG Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#317c2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/89256e23b11e.png
   type: unspecified

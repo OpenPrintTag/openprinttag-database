@@ -5,6 +5,8 @@ name: PrimaSelect ABS Dark Grey
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#55657cff'
 tags:
 - filtration-recomended
 photos:

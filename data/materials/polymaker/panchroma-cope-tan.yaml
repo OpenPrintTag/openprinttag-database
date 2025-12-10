@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Tan
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#a79e82ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f98a7b6652cd.png
   type: unspecified

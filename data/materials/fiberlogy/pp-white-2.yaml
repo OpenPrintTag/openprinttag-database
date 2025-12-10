@@ -5,6 +5,8 @@ name: PP White
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/870a7bfe4797.png
   type: unspecified

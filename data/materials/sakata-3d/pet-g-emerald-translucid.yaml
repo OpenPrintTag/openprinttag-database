@@ -5,6 +5,8 @@ name: PET-G Emerald (translucid)
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#06b100ff'
 tags:
 - translucent
 photos:

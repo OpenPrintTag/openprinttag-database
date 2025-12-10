@@ -5,6 +5,8 @@ name: Easy PLA True Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0078bfff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: Light Marble PLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e0e0dcff'
 tags:
 - imitates-marble
 - silk

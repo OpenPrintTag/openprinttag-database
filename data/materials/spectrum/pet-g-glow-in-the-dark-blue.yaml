@@ -6,8 +6,10 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pet-g-glow/
-colors:
-- 5019134c-2526-4924-9b7c-349278e205eb
+primary_color:
+  rgba: '#00e3e2ff'
+secondary_colors:
+- rgba: '#dfdfd3ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

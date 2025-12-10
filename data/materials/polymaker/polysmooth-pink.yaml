@@ -4,6 +4,8 @@ brand_slug: polymaker
 name: 'PolySmooth™ Pink '
 class: FFF
 abbreviation: PolySmooth™
+primary_color:
+  rgba: '#f4a0b1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f7432b490997.png
   type: unspecified

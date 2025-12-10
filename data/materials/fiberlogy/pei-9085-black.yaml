@@ -5,6 +5,8 @@ name: PEI 9085 Black
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - low-outgassing
 photos:

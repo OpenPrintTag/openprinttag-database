@@ -5,6 +5,8 @@ name: EasyFil ePETG Grey Aluminium
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#949a9eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/68eb960ecc0b.png
   type: unspecified

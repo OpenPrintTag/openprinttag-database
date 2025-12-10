@@ -5,6 +5,8 @@ name: PETG Lucent Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/72184245c10a.png
   type: unspecified

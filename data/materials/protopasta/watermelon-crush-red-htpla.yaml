@@ -5,6 +5,8 @@ name: Watermelon Crush Red HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e24749ff'
 tags:
 - high-temperature
 - industrially-compostable

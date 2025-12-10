@@ -5,6 +5,8 @@ name: PC Blend Carbon Fiber Black
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#262727ff'
 transmission_distance: 0.1
 tags:
 - contains-carbon-fiber

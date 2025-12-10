@@ -5,6 +5,8 @@ name: TPU NinjaTek NinjaFlex - Snow White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1e4fed1e199a.png
   type: unspecified

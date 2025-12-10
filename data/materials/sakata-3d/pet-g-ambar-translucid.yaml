@@ -5,6 +5,8 @@ name: PET-G Ambar (translucid)
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffbf00ff'
 tags:
 - translucent
 photos:

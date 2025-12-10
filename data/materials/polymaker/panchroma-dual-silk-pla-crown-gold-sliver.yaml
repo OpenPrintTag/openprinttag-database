@@ -5,9 +5,9 @@ name: Panchroma™ Dual Silk PLA Crown (Gold / Sliver)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 63275794-29f7-4bea-8bea-7acdd60f989a
-- d68afba4-061f-467f-8c14-5406ceadc9d2
+secondary_colors:
+- rgba: '#cacacaff'
+- rgba: '#f6c500ff'
 tags:
 - silk
 - industrially-compostable

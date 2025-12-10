@@ -5,6 +5,8 @@ name: 'Real Wood Fiber Wood PLA Cherry '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bf8c81ff'
 tags:
 - contains-wood
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Electric Lime PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#9aed51ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/98e7ef06540e.jpg
   type: unspecified

@@ -5,6 +5,8 @@ name: Economy Glitter PLA metallic-orange-brown
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#be6730ff'
 tags:
 - glitter
 - industrially-compostable

@@ -5,6 +5,8 @@ name: ' EasyFil PLA Luminous Yellow'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e4ff33ff'
 tags:
 - industrially-compostable
 photos:

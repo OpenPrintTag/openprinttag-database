@@ -5,6 +5,8 @@ name: TPU Digital Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d659d275082a.jpg
   type: unspecified

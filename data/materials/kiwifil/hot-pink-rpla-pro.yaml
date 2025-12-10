@@ -5,6 +5,8 @@ name: Hot Pink rPLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f884e2ff'
 tags:
 - recycled
 - industrially-compostable

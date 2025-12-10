@@ -5,6 +5,8 @@ name: PLA 850 Chocolate
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7c594aff'
 tags:
 - industrially-compostable
 photos:

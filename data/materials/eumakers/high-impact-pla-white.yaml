@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/high-impact-pla-filament-color-white.html
+primary_color:
+  rgba: '#efefefff'
 properties:
   density: 1.3

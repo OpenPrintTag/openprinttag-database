@@ -5,6 +5,8 @@ name: PETG "Neon Yellow Transparent"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ebff57ff'
 tags:
 - translucent
 photos:

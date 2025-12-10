@@ -5,9 +5,9 @@ name: PLA Burnt Titanium
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 1b594e7b-ec1b-48b4-9567-8b4a2a181a89
-- 3288be0c-7f1d-48fc-85a9-6799507e2be1
+secondary_colors:
+- rgba: '#492972ff'
+- rgba: '#0e304fff'
 tags:
 - iridescent
 - industrially-compostable

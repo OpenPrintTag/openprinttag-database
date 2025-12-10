@@ -5,6 +5,8 @@ name: Red PRO Series ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 tags:
 - filtration-recomended
 photos:

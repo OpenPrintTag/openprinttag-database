@@ -5,6 +5,8 @@ name: Easy PET-G Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8432afb2123e.png
   type: unspecified

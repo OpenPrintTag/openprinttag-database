@@ -5,6 +5,8 @@ name: Galactic Blue Translucent Iridescent PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#565670ff'
 tags:
 - iridescent
 - industrially-compostable

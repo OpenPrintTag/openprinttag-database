@@ -5,6 +5,8 @@ name: Matte PLA Light Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#afdeb9ff'
 tags:
 - matte
 - industrially-compostable

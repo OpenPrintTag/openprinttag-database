@@ -6,10 +6,10 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-magic-army-green-beige-bronze-1kg
-colors:
-- 3f0ab8a5-57e7-44a3-99e3-336330808150
-- a3a2c9cb-59c8-418a-8dad-b301656dc134
-- 33ef8be2-9cae-4e86-9283-7c89d0dba799
+secondary_colors:
+- rgba: '#6e8451ff'
+- rgba: '#8c7354ff'
+- rgba: '#d4b6a3ff'
 tags:
 - coextruded
 properties: {}

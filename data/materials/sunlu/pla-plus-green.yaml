@@ -5,6 +5,8 @@ name: PLA Plus Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5aeb90ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: 3DXTECH ABS Natural
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - without-pigments
 - filtration-recomended

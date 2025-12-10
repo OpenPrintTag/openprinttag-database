@@ -5,6 +5,8 @@ name: EasyFil ePLA Matte Lemon Cream
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d8cf8cff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: 95A TPU Pink
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#e23288ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1b7e4abd68aa.jpg
   type: unspecified

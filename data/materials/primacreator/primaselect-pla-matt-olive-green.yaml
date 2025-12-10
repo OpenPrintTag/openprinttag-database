@@ -5,6 +5,8 @@ name: PrimaSelect PLA Matt Olive Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#606935ff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Royal Blue PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#436176ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a74f5b8c24a3.png
   type: unspecified

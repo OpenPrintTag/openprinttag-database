@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-silk-red-175mm-05kg
+primary_color:
+  rgba: '#ec0000ff'
 tags:
 - silk
 properties: {}

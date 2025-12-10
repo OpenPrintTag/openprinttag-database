@@ -5,11 +5,11 @@ name: PLA Glow-in-the-Dark Glow Rainbow 5m
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8017d5c1-0d27-4d36-bc52-79aa5440a671
-- 540004ab-bf2b-4d59-91f8-dd94a7df1074
-- 491c9130-63d7-4434-af37-40385f110ac9
-- 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors:
+- rgba: '#ff67f5ff'
+- rgba: '#ae00ffff'
+- rgba: '#1adafbff'
+- rgba: '#0095ffff'
 tags:
 - multicolor
 - glow-in-the-dark

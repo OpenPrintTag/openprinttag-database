@@ -5,6 +5,8 @@ name: Red MH Build Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e03f26ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d7a5e03f5f6a.png
   type: unspecified

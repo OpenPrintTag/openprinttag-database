@@ -5,9 +5,9 @@ name: Special Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 24eabfe4-75bb-4179-89f1-97e838b4cd18
-- b630e9d4-6ac5-41dc-a156-7dc02c3a0538
+secondary_colors:
+- rgba: '#436176ff'
+- rgba: '#fc6d8eff'
 tags:
 - recycled
 - industrially-compostable

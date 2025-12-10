@@ -5,6 +5,8 @@ name: Brown Texas Size Spool PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#724e3dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c2e4b3da7835.png
   type: unspecified

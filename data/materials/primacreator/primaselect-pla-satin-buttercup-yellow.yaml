@@ -5,6 +5,8 @@ name: PrimaSelect PLA Satin Buttercup Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - satin
 - industrially-compostable

@@ -5,6 +5,8 @@ name: ABS Gold
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#e3b145ff'
 tags:
 - filtration-recomended
 photos:

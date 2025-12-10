@@ -6,6 +6,8 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/
+primary_color:
+  rgba: '#232323ff'
 properties:
   density: 1.25
   hardness_shore_a: 95

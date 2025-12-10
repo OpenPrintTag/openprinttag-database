@@ -5,6 +5,8 @@ name: 3DXMAX® ASA  Flat Dark Earth
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#7b6b57ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3ecc9c561549.png
   type: unspecified

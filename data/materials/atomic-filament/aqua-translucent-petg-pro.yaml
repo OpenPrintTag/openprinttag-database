@@ -5,6 +5,8 @@ name: Aqua Translucent PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#36dbe7ff'
 tags:
 - translucent
 photos:

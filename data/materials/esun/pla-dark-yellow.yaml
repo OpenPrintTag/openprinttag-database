@@ -5,6 +5,8 @@ name: PLA+ Dark Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f3b400ff'
 tags:
 - industrially-compostable
 photos:

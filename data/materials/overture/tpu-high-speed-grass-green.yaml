@@ -5,6 +5,8 @@ name: TPU High Speed Grass Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#61c680ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/12d03a53ced4.jpg
   type: unspecified

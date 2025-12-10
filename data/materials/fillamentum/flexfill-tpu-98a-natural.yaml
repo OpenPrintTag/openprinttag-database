@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Natural"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - translucent
 photos:

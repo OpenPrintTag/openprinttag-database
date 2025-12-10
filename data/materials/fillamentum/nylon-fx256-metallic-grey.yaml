@@ -4,6 +4,8 @@ brand_slug: fillamentum
 name: Nylon FX256 "Metallic Grey"
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c2161106f1e7.png
   type: unspecified

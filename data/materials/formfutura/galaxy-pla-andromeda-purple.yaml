@@ -5,6 +5,8 @@ name: 'Galaxy PLA Andromeda Purple '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9f6979ff'
 tags:
 - glitter
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA NX2 MATT emerald green | RAL 6001
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: ApolloX White
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d6df37a657a9.png
   type: unspecified

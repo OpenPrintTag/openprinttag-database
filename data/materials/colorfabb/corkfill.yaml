@@ -5,6 +5,8 @@ name: 'corkFill '
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#774b3fff'
 tags:
 - contains-cork
 - foaming

@@ -6,6 +6,8 @@ class: FFF
 type_id: 21
 abbreviation: ''
 url: https://www.fiberthree.com/filaments#F3PC
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - transparent
 - biocompatible

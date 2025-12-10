@@ -5,6 +5,8 @@ name: Pro PCTG, Metallic Gold
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#e3b145ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/651a4b854803.png
   type: unspecified

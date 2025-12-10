@@ -6,11 +6,11 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magic-vintage-glass
-colors:
-- 6fd3ca85-ce2a-4384-8a71-40d657dde949
-- f50921e1-4192-41d8-91ab-84b8a078a2bb
-- 53bd1262-b96c-469b-ba45-26c3fa54ead1
-- 3f0ab8a5-57e7-44a3-99e3-336330808150
+secondary_colors:
+- rgba: '#d55d8cff'
+- rgba: '#ea9e3fff'
+- rgba: '#4921c1ff'
+- rgba: '#6e8451ff'
 tags:
 - coextruded
 - translucent

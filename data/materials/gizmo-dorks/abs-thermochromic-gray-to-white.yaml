@@ -5,9 +5,9 @@ name: 'ABS Thermochromic Gray to White '
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- db4734b2-f24e-4532-9119-8d01c2ca43bc
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#55555eff'
 tags:
 - dual-color
 - temperature-color-change

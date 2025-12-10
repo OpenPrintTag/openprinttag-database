@@ -5,6 +5,8 @@ name: PETG Lime Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#7fe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c5949c16aede.png
   type: unspecified

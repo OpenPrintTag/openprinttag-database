@@ -5,6 +5,8 @@ name: PP Orange
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#ff8133ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/89929ccd0302.png
   type: unspecified

@@ -5,6 +5,8 @@ name: High Speed PLA+ Peak Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#83e665ff'
 tags:
 - industrially-compostable
 photos:

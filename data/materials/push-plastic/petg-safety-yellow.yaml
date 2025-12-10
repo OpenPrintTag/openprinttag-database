@@ -5,6 +5,8 @@ name: PETG Safety Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#eeea44ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d857235a46ef.png
   type: unspecified

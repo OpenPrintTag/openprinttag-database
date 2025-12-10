@@ -5,6 +5,8 @@ name: Shamrock Green ASA Prime
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e3ae9de7157c.png
   type: unspecified

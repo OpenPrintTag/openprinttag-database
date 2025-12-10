@@ -5,6 +5,8 @@ name: Neon Yellow UV Reactive Opaque PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 tags:
 - neon
 photos:

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://kingroon.com/products/kingroon-pla-carbon-fiber-basic-3d-printer-filament
+primary_color:
+  rgba: '#292824ff'
 tags:
 - contains-carbon-fiber
 properties: {}

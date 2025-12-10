@@ -5,6 +5,8 @@ name: Easy PET-G Silver
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#cacacaff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f7f8d1865232.png
   type: unspecified

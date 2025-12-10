@@ -5,6 +5,8 @@ name: PETG Carbon Fiber Black
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#3b353aff'
 transmission_distance: 0.3
 tags:
 - contains-carbon-fiber

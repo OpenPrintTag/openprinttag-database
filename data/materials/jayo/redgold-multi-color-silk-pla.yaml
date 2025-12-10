@@ -5,8 +5,8 @@ name: Red+Gold Multi-Color SILK PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 90a85cc8-1736-4480-83a1-00434d403fe2
+secondary_colors:
+- rgba: '#ffcb47ff'
 tags:
 - silk
 - dual-color

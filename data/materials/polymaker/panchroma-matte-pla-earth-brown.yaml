@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Earth Brown
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7c594aff'
 tags:
 - matte
 - industrially-compostable

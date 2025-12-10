@@ -5,11 +5,11 @@ name: PS Imports PLA Silk Rainbow Candy Series
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- b1628b95-b8f5-4d68-af73-86f6eb02d97a
-- e6d37a77-1b24-437f-982c-679432508d68
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#db3fa9ff'
+- rgba: '#ff7a33ff'
+- rgba: '#62e480ff'
+- rgba: '#0099e6ff'
 tags:
 - silk
 - multicolor

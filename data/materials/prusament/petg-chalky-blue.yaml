@@ -5,6 +5,8 @@ name: PETG Chalky Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6f9aaaff'
 transmission_distance: 0.6
 photos:
 - url: https://file.myfilamentlist.com/f/new/312126f651c7.png

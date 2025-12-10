@@ -5,6 +5,8 @@ name: CPE HG100 "Neon Pink Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#f54053ff'
 tags:
 - translucent
 photos:

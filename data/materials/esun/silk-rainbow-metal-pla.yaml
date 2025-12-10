@@ -5,12 +5,12 @@ name: Silk Rainbow Metal PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a6b06b3a-047c-4588-b11a-a2fc6a210ea5
-- 7d1ffb05-99ae-405b-82db-6b2ab7f8d9af
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- 443b920c-1095-491f-a838-daa3857552f1
-- 78310003-cca4-4eb5-9a86-c778af38288e
+secondary_colors:
+- rgba: '#ff8133ff'
+- rgba: '#9cbf60ff'
+- rgba: '#fce575ff'
+- rgba: '#bb6d48ff'
+- rgba: '#5fbcddff'
 tags:
 - silk
 - gradual-color-change

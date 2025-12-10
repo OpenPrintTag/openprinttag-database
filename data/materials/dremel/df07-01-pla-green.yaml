@@ -5,6 +5,8 @@ name: DF07-01 PLA Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#06924dff'
 tags:
 - industrially-compostable
 photos:

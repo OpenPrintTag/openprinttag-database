@@ -5,6 +5,8 @@ name: Orange MH Build Series ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ff8e24ff'
 tags:
 - filtration-recomended
 photos:

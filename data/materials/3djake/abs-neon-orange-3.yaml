@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.3djake.com/3djake/abs-neon-orange
+primary_color:
+  rgba: '#f55928ff'
 tags:
 - neon
 properties: {}

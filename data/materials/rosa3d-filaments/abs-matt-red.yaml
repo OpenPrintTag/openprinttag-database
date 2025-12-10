@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-abs-plus-matt-red
+primary_color:
+  rgba: '#de1619ff'
 tags:
 - matte
 properties: {}

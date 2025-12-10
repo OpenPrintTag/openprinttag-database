@@ -5,6 +5,8 @@ name: Iridescent Orange Translucent PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - industrially-compostable
 - translucent

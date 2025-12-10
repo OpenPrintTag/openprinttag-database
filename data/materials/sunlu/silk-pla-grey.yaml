@@ -5,6 +5,8 @@ name: 'Silk PLA Grey '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#949a9eff'
 tags:
 - silk
 - industrially-compostable

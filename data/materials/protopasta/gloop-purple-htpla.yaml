@@ -5,6 +5,8 @@ name: Gloop! Purple HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#663d7eff'
 tags:
 - glitter
 - transparent

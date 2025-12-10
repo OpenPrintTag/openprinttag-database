@@ -5,6 +5,8 @@ name: PCTG Stainless Steel
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#616469ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/040f72928579.png
   type: unspecified

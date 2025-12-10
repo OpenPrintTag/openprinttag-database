@@ -6,6 +6,8 @@ class: FFF
 type_id: 12
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-pvb-smoky-black-transparent-500g/
+primary_color:
+  rgba: '#7b7b7bff'
 tags:
 - transparent
 - ipa-soluble

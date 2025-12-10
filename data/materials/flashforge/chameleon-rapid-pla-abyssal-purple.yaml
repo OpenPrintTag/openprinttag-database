@@ -5,9 +5,9 @@ name: Chameleon Rapid PLA Abyssal Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c6ff5ea0-9d51-4c8e-8805-572a9978b398
-- a7370c0c-a72d-4da3-a82a-79ffc7577169
+secondary_colors:
+- rgba: '#332120ff'
+- rgba: '#663d7eff'
 tags:
 - iridescent
 - dual-color

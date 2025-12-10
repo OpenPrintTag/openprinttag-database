@@ -5,6 +5,8 @@ name: 'PA6-GF Lime '
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 tags:
 - contains-glass-fiber
 - abrasive

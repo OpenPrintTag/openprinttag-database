@@ -5,6 +5,8 @@ name: 'PETG HF Cream '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f6dfb7ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8f053f2f22e7.png
   type: unspecified

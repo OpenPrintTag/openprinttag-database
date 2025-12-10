@@ -5,6 +5,8 @@ name: Easy PET-G Graphite
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9e5e7d0731f1.png
   type: unspecified

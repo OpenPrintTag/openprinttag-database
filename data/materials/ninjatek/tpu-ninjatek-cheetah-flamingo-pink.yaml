@@ -5,6 +5,8 @@ name: TPU NinjaTek Cheetah - Flamingo Pink
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f06e92ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d96efd65d953.png
   type: unspecified

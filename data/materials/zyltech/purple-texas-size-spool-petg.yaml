@@ -5,6 +5,8 @@ name: Purple Texas Size Spool PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#7142a3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b7f581957df9.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PLA Blend Ms. Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e34a94ff'
 transmission_distance: 4.1
 tags:
 - blend

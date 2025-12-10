@@ -5,5 +5,7 @@ name: PLA Pro Pure White
 class: FFF
 abbreviation: PLA Pro
 url: https://www.filamentree.eu/shop/30210031-pla-pro-pure-white-1kg-4606?category=60#attr=749,2955,750,751,3540,3541,2958,2959,752
+primary_color:
+  rgba: '#ffffffff'
 properties:
   density: 1.24

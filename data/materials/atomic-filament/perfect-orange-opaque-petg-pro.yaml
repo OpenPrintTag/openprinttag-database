@@ -5,6 +5,8 @@ name: Perfect Orange Opaque PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff5f2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e88d067dc983.png
   type: unspecified

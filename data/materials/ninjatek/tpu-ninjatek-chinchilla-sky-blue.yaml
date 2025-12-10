@@ -5,6 +5,8 @@ name: TPU NinjaTek Chinchilla - Sky Blue
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/280fcaf79a7d.png
   type: unspecified

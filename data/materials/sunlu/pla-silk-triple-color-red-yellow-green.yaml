@@ -5,10 +5,10 @@ name: 'PLA Silk Triple Color (Red Yellow Green) '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
-- c3f32b49-5bf0-4737-af29-e5870e00da55
-- 7f884112-6ce0-4a09-bccc-019bbcb59b97
+secondary_colors:
+- rgba: '#ffc946ff'
+- rgba: '#6feedbff'
+- rgba: '#eb0075ff'
 tags:
 - silk
 - triple-color

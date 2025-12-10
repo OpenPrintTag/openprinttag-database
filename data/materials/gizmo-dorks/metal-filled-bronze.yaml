@@ -5,6 +5,8 @@ name: Metal Filled Bronze
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a98c4bff'
 tags:
 - contains-metal
 - imitates-metal

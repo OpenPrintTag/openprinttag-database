@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-matte-dark-grey.html
+primary_color:
+  rgba: '#595959ff'
 tags:
 - matte
 properties:

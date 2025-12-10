@@ -5,6 +5,8 @@ name: Matte PLA Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4d6383ff'
 tags:
 - matte
 - industrially-compostable

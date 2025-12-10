@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Blue '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#003287ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3b40acca83a3.png
   type: unspecified

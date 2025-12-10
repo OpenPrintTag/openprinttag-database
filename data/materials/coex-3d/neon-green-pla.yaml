@@ -5,6 +5,8 @@ name: Neon Green PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#69ee00ff'
 tags:
 - industrially-compostable
 photos:

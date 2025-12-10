@@ -5,6 +5,8 @@ name: 'Silky Red MH Build Series PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 tags:
 - silk
 - industrially-compostable

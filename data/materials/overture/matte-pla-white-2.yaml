@@ -5,6 +5,8 @@ name: 'Matte PLA White '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e6dedeff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: FiberFlex 30D Light Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#b3df3aff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c28db9831372.png
   type: unspecified

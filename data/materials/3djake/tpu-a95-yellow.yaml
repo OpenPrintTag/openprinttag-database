@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.3djake.com/3djake/tpu-a95-yellow
+primary_color:
+  rgba: '#f8cc00ff'
 properties:
   hardness_shore_a: 95

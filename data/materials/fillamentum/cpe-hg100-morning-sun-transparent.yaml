@@ -5,6 +5,8 @@ name: CPE HG100 "Morning Sun Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#e3b145ff'
 tags:
 - translucent
 photos:

@@ -5,6 +5,8 @@ name: Pro PCTG, Midnight Black
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0faa37616fce.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Savannah Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffe15bff'
 tags:
 - matte
 - industrially-compostable

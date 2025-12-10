@@ -5,6 +5,8 @@ name: 'PolyMax™ PC White '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/316702a3f176.png
   type: unspecified

@@ -5,6 +5,8 @@ name: TPU NinjaTek NinjaFlex - Grass Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b7189f501450.png
   type: unspecified

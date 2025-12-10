@@ -5,6 +5,8 @@ name: PETG Neon Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a6ec5fff'
 transmission_distance: 75.0
 tags:
 - translucent

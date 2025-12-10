@@ -5,6 +5,8 @@ name: FLEX 93A Pale skin
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f0ddc2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/12228db36ddb.png
   type: unspecified

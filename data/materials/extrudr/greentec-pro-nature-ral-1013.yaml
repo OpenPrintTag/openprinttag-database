@@ -5,6 +5,8 @@ name: GreenTEC Pro nature | RAL 1013
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - satin
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Yellow AF Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#efdc4cff'
 tags:
 - silk
 - industrially-compostable

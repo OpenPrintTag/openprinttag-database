@@ -5,6 +5,8 @@ name: EasyFlex Light Grey
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b286fa3657f7.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PLA Azure Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0082adff'
 transmission_distance: 5.5
 tags:
 - industrially-compostable

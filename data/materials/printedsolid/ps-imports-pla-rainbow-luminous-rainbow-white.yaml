@@ -5,12 +5,12 @@ name: PS Imports PLA Rainbow Luminous Rainbow-White
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ae70f6e5-412c-44f7-8b93-20437976ae58
-- bf997e3f-d4ef-4bf1-b24a-ab8aa1b82d37
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- f1593eb7-6f6b-4cbb-b914-55824fdf590a
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors:
+- rgba: '#ebff57ff'
+- rgba: '#0ccf81ff'
+- rgba: '#39b9dbff'
+- rgba: '#f092b3ff'
+- rgba: '#ffffffff'
 tags:
 - multicolor
 - transparent

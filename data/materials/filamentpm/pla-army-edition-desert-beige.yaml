@@ -5,6 +5,8 @@ name: ' PLA+ Army edition - Desert Beige '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e9cb9bff'
 tags:
 - industrially-compostable
 photos:

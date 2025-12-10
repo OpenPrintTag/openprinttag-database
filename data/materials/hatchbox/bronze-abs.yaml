@@ -5,6 +5,8 @@ name: Bronze ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#a18d5aff'
 tags:
 - filtration-recomended
 photos:

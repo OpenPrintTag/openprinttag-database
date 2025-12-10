@@ -4,6 +4,8 @@ brand_slug: esun
 name: Carbon Fiber Filled Nylon Black
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

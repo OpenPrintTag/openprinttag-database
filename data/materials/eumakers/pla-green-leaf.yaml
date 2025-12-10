@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-green-leaf.html
+primary_color:
+  rgba: '#78be20ff'
 properties:
   density: 1.24

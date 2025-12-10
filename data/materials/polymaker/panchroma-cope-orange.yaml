@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Orange '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#f97429ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/82ae9e7f2e44.png
   type: unspecified

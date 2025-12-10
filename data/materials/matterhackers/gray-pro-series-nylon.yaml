@@ -5,6 +5,8 @@ name: Gray PRO Series Nylon
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e6d834515721.png
   type: unspecified

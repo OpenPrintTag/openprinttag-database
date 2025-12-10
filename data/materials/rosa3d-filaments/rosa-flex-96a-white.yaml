@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-white-175mm-1kg
+primary_color:
+  rgba: '#f5f5f5ff'
 properties:
   hardness_shore_a: 96

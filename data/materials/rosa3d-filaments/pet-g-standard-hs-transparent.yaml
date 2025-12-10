@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-transparent
+primary_color:
+  rgba: '#eaecf5ff'
 tags:
 - translucent
 properties: {}

@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.sainsmart.com/products/neon-green-cyberpunk-color-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=8&_fid=0b0f09340&_ss=c
+primary_color:
+  rgba: '#4dff64ff'
 properties:
   hardness_shore_a: 95

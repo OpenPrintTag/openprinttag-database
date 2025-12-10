@@ -5,6 +5,8 @@ name: Nylon PA12 Inox
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#acb1baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1c6eba089aa3.png
   type: unspecified

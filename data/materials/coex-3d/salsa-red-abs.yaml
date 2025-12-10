@@ -5,6 +5,8 @@ name: Salsa Red ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#e60000ff'
 tags:
 - filtration-recomended
 photos:

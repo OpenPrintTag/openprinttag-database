@@ -5,6 +5,8 @@ name: PCTG red | RAL 3001
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/949a6dc5e571.png
   type: unspecified

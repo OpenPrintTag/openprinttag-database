@@ -5,6 +5,8 @@ name: PLA Basic Fire Engine Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d33d3dff'
 tags:
 - industrially-compostable
 photos:

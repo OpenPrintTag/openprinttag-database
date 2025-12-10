@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.rosa3d.pl/en/3d-filament-refill-pet-g-standard-neon-green-glow-in-the-dark-uv-glow-1kg
+primary_color:
+  rgba: '#00ff6fff'
 tags:
 - glow-in-the-dark
 properties: {}

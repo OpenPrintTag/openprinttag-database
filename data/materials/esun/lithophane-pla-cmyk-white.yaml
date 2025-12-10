@@ -5,6 +5,8 @@ name: Lithophane PLA+ CMYK White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - industrially-compostable
 photos:

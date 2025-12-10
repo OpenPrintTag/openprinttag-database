@@ -5,6 +5,8 @@ name: 'High Speed Upgraded PETG Solid Green '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#018e63ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d37552c8d36b.jpg
   type: unspecified

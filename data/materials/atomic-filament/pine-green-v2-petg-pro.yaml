@@ -5,6 +5,8 @@ name: Pine Green v2 PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#214327ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/da11f0cda8fe.png
   type: unspecified

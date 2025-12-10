@@ -5,6 +5,8 @@ name: ReForm – rPET Red
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 tags:
 - recycled
 photos:

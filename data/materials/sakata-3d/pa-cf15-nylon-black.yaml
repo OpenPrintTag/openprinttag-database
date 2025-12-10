@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: PA-CF15 NYLON Black
 class: FFF
 abbreviation: PA-CF15
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

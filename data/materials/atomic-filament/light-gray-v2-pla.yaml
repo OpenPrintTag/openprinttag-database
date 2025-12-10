@@ -5,6 +5,8 @@ name: Light Gray v2 PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#afaeabff'
 tags:
 - industrially-compostable
 photos:

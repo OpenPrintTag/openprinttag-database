@@ -5,6 +5,8 @@ name: rPLA Risotto Pigment
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ccc9c0ff'
 transmission_distance: 11.0
 tags:
 - recycled

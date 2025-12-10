@@ -5,6 +5,8 @@ name: EasyFil ePLA Matt Vanilla White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ead7b8ff'
 tags:
 - matte
 - industrially-compostable

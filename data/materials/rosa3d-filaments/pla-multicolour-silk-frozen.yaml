@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-multicolour-silk-frozen
-colors:
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- 6c74cf71-b852-47f6-b8c0-775fb93f3d69
-- 412279bf-af5d-428d-87de-0157024d2389
+secondary_colors:
+- rgba: '#39b9dbff'
+- rgba: '#c6f3fdff'
+- rgba: '#0066d9ff'
 tags:
 - silk
 - gradual-color-change

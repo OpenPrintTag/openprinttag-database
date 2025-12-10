@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-asa-red-750g/
+primary_color:
+  rgba: '#ff4f4dff'
 properties:
   density: 1.07
   min_print_temperature: 250

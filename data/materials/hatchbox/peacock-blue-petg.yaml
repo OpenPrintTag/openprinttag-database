@@ -5,6 +5,8 @@ name: Peacock Blue PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/22ee547191d7.jpg
   type: unspecified

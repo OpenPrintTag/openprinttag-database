@@ -4,6 +4,8 @@ brand_slug: polymaker
 name: 'PolySmooth™ Polymaker Teal '
 class: FFF
 abbreviation: PolySmooth™
+primary_color:
+  rgba: '#00b4bcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/57d4cbc82d77.png
   type: unspecified

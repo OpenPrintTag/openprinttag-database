@@ -5,6 +5,8 @@ name: Flexfill TPE 90A "Natural"
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/17e6ab745d10.png
   type: unspecified

@@ -5,6 +5,8 @@ name: FibreX PEEK+GF20 Natural
 class: FFF
 type_id: 33
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - contains-glass-fiber
 - without-pigments

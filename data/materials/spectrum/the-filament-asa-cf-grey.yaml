@@ -6,6 +6,8 @@ class: FFF
 type_id: 28
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/the-filament-asa-cf/
+primary_color:
+  rgba: '#4d6383ff'
 tags:
 - contains-carbon-fiber
 - abrasive

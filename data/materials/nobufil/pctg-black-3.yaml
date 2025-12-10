@@ -5,6 +5,8 @@ name: PCTG Black
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e13a05854062.png
   type: unspecified

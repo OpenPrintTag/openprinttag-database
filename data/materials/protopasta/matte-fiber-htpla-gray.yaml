@@ -5,6 +5,8 @@ name: Matte Fiber HTPLA - Gray
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#949a9eff'
 tags:
 - matte
 - contains-plant

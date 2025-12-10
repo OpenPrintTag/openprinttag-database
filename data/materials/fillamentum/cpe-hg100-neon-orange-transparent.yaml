@@ -5,6 +5,8 @@ name: CPE HG100 "Neon Orange Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - translucent
 photos:

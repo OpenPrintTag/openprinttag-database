@@ -5,6 +5,8 @@ name: 'ABS-GF White '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - contains-glass-fiber
 - abrasive

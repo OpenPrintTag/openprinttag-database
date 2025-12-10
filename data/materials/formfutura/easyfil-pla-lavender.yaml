@@ -5,6 +5,8 @@ name: ' EasyFil PLA Lavender'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b894e2ff'
 tags:
 - industrially-compostable
 photos:

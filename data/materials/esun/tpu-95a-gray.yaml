@@ -5,6 +5,8 @@ name: TPU 95A Gray
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8bb00e98eaa1.jpg
   type: unspecified

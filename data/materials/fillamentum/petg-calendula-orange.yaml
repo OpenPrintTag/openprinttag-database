@@ -5,6 +5,8 @@ name: PETG "Calendula Orange"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff8400ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e71b75c3c0c0.png
   type: unspecified

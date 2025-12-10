@@ -5,6 +5,8 @@ name: PLA Glitter Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#583061ff'
 tags:
 - glitter
 - industrially-compostable

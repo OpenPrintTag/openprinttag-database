@@ -5,6 +5,8 @@ name: Easy PET-G Pastel Lilac
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#d6abffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ab0d3c60754e.png
   type: unspecified

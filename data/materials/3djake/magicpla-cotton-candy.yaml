@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.3djake.com/3djake/magicpla-cotton-candy
-colors:
-- c7dff6e4-2906-4091-b50b-67b1e8e44e46
-- b4596c89-8750-4b39-979e-db9f0a8f91fd
+secondary_colors:
+- rgba: '#d5447eff'
+- rgba: '#a78403ff'
 tags:
 - coextruded
 - iridescent

@@ -5,6 +5,8 @@ name: Recycled PETG Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e60000ff'
 tags:
 - recycled
 photos:

@@ -5,6 +5,8 @@ name: Nylon PA12 Light Green
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#b3df3aff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a047d45a8868.png
   type: unspecified

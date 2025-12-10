@@ -5,6 +5,8 @@ name: PrimaSelect PLA Sparkle Night Sky Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#282d42ff'
 tags:
 - glitter
 - industrially-compostable

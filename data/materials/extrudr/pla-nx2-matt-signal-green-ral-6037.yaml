@@ -5,6 +5,8 @@ name: PLA NX2 MATT signal green | RAL 6037
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7cef83ff'
 tags:
 - matte
 - industrially-compostable

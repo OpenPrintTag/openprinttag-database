@@ -4,6 +4,8 @@ brand_slug: bambulab
 name: Support for PA/PET
 class: FFF
 abbreviation: BambuSupport
+primary_color:
+  rgba: '#91c500ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fce9ec2eadd0.png
   type: unspecified

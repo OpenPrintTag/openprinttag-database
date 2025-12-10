@@ -5,12 +5,12 @@ name: Multicolor Fast Color Change PLA Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- 82d10fcd-36ab-4e67-8d09-fd9d22ae85e2
-- a9294fef-655b-4cef-a8b9-35d5d1622ffa
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#00a594ff'
+- rgba: '#fbf942ff'
+- rgba: '#f00c00ff'
+- rgba: '#41a840ff'
+- rgba: '#0099e6ff'
 tags:
 - multicolor
 - industrially-compostable

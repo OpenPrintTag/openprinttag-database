@@ -5,5 +5,7 @@ name: GreenyPro Dark Grey
 class: FFF
 abbreviation: GreenyPro
 url: https://spectrumfilaments.com/en/filament/greenypro/
+primary_color:
+  rgba: '#5a696cff'
 properties:
   density: 1.34

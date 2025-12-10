@@ -5,6 +5,8 @@ name: Jessie Premium PLA Red Ice
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ed1536ff'
 tags:
 - industrially-compostable
 - translucent

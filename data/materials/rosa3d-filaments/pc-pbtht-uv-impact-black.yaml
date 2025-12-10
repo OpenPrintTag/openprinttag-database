@@ -6,6 +6,8 @@ class: FFF
 type_id: 42
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pc-pbtht-uv-impact-black-1kg
+primary_color:
+  rgba: '#292824ff'
 tags:
 - high-temperature
 properties: {}

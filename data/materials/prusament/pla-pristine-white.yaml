@@ -5,6 +5,8 @@ name: PLA Pristine White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e6eaefff'
 transmission_distance: 5.1
 tags:
 - industrially-compostable

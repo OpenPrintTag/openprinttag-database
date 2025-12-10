@@ -5,6 +5,8 @@ name: PA11 Carbon Fiber Black
 class: FFF
 type_id: 24
 abbreviation: ''
+primary_color:
+  rgba: '#292929ff'
 tags:
 - contains-carbon-fiber
 - abrasive

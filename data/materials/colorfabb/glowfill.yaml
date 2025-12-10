@@ -5,8 +5,10 @@ name: glowFill
 class: FFF
 type_id: 43
 abbreviation: ''
-colors:
-- e3f63886-1c8f-4f4e-9f85-8dd53387ecbf
+primary_color:
+  rgba: '#62e480ff'
+secondary_colors:
+- rgba: '#f5f5f5ff'
 tags:
 - glow-in-the-dark
 - abrasive

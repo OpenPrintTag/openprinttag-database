@@ -5,6 +5,8 @@ name: PLA Extrafill "Vertigo Galaxy"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#515234ff'
 tags:
 - glitter
 - industrially-compostable

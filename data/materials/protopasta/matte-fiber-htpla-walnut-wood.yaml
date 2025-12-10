@@ -5,6 +5,8 @@ name: Matte Fiber HTPLA - Walnut Wood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6a5346ff'
 tags:
 - matte
 - imitates-wood

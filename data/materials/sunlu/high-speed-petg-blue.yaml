@@ -5,6 +5,8 @@ name: High Speed PETG Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#274bb6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c9b433b2a719.jpg
   type: unspecified

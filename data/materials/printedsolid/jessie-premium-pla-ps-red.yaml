@@ -5,6 +5,8 @@ name: Jessie Premium PLA PS Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e31a1fff'
 tags:
 - industrially-compostable
 photos:

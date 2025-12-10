@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-abs-plus-matt-juicy-orange
+primary_color:
+  rgba: '#ff520eff'
 tags:
 - matte
 properties: {}

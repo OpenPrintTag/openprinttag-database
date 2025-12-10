@@ -5,12 +5,12 @@ name: 'Silk PLA Rainbow '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- d232c2cd-048c-4873-b6bb-3580e16a5acc
-- f2057dca-5cbc-48e6-911d-093219c0b541
-- 29531b03-49ae-4f3e-9993-d9c4a6694fb9
-- 8fa7c8a8-33a8-4e15-8762-006bce9dad4f
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#8d65c7ff'
+- rgba: '#fc8397ff'
+- rgba: '#ffd342ff'
+- rgba: '#06b100ff'
 tags:
 - silk
 - multicolor

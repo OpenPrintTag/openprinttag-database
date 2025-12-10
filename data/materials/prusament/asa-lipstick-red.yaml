@@ -5,6 +5,8 @@ name: ASA Lipstick Red
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#d02f37ff'
 transmission_distance: 2.0
 photos:
 - url: https://file.myfilamentlist.com/f/new/4a61136c27d2.png

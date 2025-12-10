@@ -5,6 +5,8 @@ name: EasyFil ABS Light Blue
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 tags:
 - filtration-recomended
 photos:

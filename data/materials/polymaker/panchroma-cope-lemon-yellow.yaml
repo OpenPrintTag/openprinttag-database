@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Lemon Yellow
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#fadb24ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0551f23cad82.png
   type: unspecified

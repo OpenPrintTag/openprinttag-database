@@ -5,6 +5,8 @@ name: PLA-CF Dusty Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#795b65ff'
 tags:
 - contains-carbon-fiber
 - abrasive

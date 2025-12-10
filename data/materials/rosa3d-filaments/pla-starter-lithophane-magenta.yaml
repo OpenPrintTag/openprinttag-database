@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-starter-lithophane-magenta
+primary_color:
+  rgba: '#ff0066ff'
 tags:
 - lithophane
 properties: {}

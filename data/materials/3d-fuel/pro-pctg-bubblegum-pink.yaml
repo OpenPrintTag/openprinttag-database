@@ -5,6 +5,8 @@ name: Pro PCTG, Bubblegum Pink
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#f4a0b1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a880f9aaa83f.png
   type: unspecified

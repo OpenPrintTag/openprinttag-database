@@ -5,9 +5,9 @@ name: Rainbow "Sparkly Purple Galaxy", rPLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 73cea3ac-baa8-407a-8992-de0427a347ae
-- a50756ea-3390-42aa-a9a1-3673245360c5
+secondary_colors:
+- rgba: '#033877ff'
+- rgba: '#771b6bff'
 tags:
 - glitter
 - recycled

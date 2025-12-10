@@ -5,6 +5,8 @@ name: PETG-CF Grass Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4e7642ff'
 tags:
 - contains-carbon-fiber
 - abrasive

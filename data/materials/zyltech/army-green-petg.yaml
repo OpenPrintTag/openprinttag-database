@@ -5,6 +5,8 @@ name: Army Green PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#515234ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c2df9d3c28a5.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PLA Galaxy Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#42663aff'
 transmission_distance: 3.2
 tags:
 - glitter

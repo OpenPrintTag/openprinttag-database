@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-petg-sky-blue-1kg-nfc/
+primary_color:
+  rgba: '#346ce3ff'
 properties:
   density: 1.27
   hardness_shore_d: 74

@@ -5,6 +5,8 @@ name: Nylon PA12 Yellow
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c3c450fdf2d7.png
   type: unspecified

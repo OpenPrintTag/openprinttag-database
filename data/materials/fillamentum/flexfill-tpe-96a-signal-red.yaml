@@ -5,6 +5,8 @@ name: Flexfill TPE 96A "Signal Red"
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#bf1d2dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/85df4213025d.png
   type: unspecified

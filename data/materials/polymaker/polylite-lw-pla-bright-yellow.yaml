@@ -5,6 +5,8 @@ name: PolyLite™ LW-PLA Bright Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fad61bff'
 tags:
 - foaming
 - industrially-compostable

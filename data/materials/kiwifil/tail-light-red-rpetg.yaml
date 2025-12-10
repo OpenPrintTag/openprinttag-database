@@ -5,6 +5,8 @@ name: '"Tail Light Red" rPETG'
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#d21b3cff'
 tags:
 - recycled
 - transparent

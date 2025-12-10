@@ -5,6 +5,8 @@ name: Galaxy PLA Gemini Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5a6a92ff'
 tags:
 - glitter
 - industrially-compostable

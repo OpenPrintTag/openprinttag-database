@@ -5,6 +5,8 @@ name: PETG silver | RAL 9006
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a8b0bdff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/600f6ad7f299.png
   type: unspecified

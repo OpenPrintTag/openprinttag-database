@@ -5,6 +5,8 @@ name: PLA Matte Ash Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#727376ff'
 tags:
 - matte
 - industrially-compostable

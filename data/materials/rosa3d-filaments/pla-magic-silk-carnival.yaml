@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-carnival-300g
-colors:
-- 82d10fcd-36ab-4e67-8d09-fd9d22ae85e2
-- 412279bf-af5d-428d-87de-0157024d2389
-- c1069797-6ad5-4f2e-975e-1b2e860067ef
+secondary_colors:
+- rgba: '#fbf942ff'
+- rgba: '#0066d9ff'
+- rgba: '#ce0058ff'
 tags:
 - coextruded
 - silk

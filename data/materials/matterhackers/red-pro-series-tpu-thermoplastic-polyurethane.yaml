@@ -5,6 +5,8 @@ name: Red PRO Series TPU (Thermoplastic Polyurethane)
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ff2c29ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9b68e1516ea1.png
   type: unspecified

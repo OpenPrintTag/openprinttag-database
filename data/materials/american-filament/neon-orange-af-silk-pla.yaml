@@ -5,6 +5,8 @@ name: Neon Orange AF Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f6a25cff'
 tags:
 - silk
 - industrially-compostable

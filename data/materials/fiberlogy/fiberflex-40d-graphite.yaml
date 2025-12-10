@@ -5,6 +5,8 @@ name: FiberFlex 40D Graphite
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0022c168e250.png
   type: unspecified

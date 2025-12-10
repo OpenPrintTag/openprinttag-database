@@ -5,6 +5,8 @@ name: Rapid PLA Luminous Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f5e457ff'
 tags:
 - glow-in-the-dark
 - abrasive

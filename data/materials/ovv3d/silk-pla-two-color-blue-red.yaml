@@ -5,9 +5,9 @@ name: 'Silk PLA  Two-color Blue Red '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3fb304ce-6af8-407c-85cd-41c567d640ce
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors:
+- rgba: '#ed1536ff'
+- rgba: '#2e56f1ff'
 tags:
 - silk
 - industrially-compostable

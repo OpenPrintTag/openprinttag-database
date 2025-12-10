@@ -5,6 +5,8 @@ name: Minty Green PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#adebb3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2393d9754b81.png
   type: unspecified

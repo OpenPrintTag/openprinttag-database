@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Blue Transparent"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#0095ffff'
 tags:
 - translucent
 photos:

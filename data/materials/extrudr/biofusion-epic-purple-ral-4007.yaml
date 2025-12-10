@@ -5,6 +5,8 @@ name: BioFusion epic purple | RAL 4007
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6000b0ff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: HDglass Blinded Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#df3303ff'
 tags:
 - silk
 photos:

@@ -5,6 +5,8 @@ name: DuraPro ABS metallic | RAL 9023
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#63646bff'
 tags:
 - filtration-recomended
 photos:

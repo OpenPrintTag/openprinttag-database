@@ -5,6 +5,8 @@ name: Polished PLA White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - ipa-soluble
 - industrially-compostable

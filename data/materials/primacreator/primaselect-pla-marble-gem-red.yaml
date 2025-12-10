@@ -5,6 +5,8 @@ name: PrimaSelect PLA Marble Gem Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#cd5a2eff'
 tags:
 - imitates-marble
 - industrially-compostable

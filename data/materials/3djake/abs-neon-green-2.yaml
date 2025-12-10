@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.3djake.com/3djake/abs-neon-green-1
+primary_color:
+  rgba: '#00fa9aff'
 tags:
 - neon
 properties: {}

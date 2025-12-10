@@ -5,6 +5,8 @@ name: Metallic Finish Copper PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bf8c81ff'
 tags:
 - imitates-metal
 - industrially-compostable

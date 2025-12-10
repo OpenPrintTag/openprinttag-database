@@ -5,6 +5,8 @@ name: Midnight Purple TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#492972ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/69f7a41fcb71.jpg
   type: unspecified

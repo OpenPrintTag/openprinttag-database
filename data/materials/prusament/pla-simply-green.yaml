@@ -5,6 +5,8 @@ name: PLA Simply Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#70a641ff'
 transmission_distance: 3.0
 tags:
 - industrially-compostable

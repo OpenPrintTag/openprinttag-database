@@ -5,6 +5,8 @@ name: HIPS Green
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2ac9ba3d9862.png
   type: unspecified

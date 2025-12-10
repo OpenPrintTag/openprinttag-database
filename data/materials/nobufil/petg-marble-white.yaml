@@ -5,6 +5,8 @@ name: PETG Marble White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#edf0f2ff'
 tags:
 - imitates-marble
 photos:

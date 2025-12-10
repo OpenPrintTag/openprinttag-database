@@ -5,6 +5,8 @@ name: DuraPro ABS blue | RAL 5003
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 tags:
 - filtration-recomended
 photos:

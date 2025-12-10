@@ -5,6 +5,8 @@ name: ThermaX PPE+PS
 class: FFF
 type_id: 15
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 photos:

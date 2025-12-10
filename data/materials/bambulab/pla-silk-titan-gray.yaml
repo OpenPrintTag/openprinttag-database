@@ -5,6 +5,8 @@ name: PLA Silk+ Titan Gray
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#63646bff'
 tags:
 - silk
 - industrially-compostable

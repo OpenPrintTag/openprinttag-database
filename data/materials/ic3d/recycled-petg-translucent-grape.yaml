@@ -5,6 +5,8 @@ name: Recycled PETG Translucent Grape
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#663d7eff'
 tags:
 - recycled
 - transparent

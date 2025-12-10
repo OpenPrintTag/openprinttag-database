@@ -5,6 +5,8 @@ name: PLA-CF Burgundy Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#983b4eff'
 tags:
 - contains-carbon-fiber
 - abrasive

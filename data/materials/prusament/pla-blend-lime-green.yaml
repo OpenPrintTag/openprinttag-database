@@ -5,6 +5,8 @@ name: PLA Blend Lime Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a7b853ff'
 transmission_distance: 3.5
 tags:
 - silk

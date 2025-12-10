@@ -5,6 +5,8 @@ name: PLA+ Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fc8397ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: PLA Basic CMYK lithomagenta | RAL 4010
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c75072ff'
 tags:
 - industrially-compostable
 photos:

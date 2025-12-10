@@ -5,6 +5,8 @@ name: Easy PLA Alien Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#244852ff'
 tags:
 - glitter
 - industrially-compostable

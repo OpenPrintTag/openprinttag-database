@@ -6,6 +6,8 @@ class: FFF
 type_id: 18
 abbreviation: ''
 url: https://www.tectonic-3d.com/products/anasa-tpc-l80a?variant=49892537106762
+primary_color:
+  rgba: '#000000ff'
 properties:
   hardness_shore_a: 80
   hardness_shore_d: 34

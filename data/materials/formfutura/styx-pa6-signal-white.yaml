@@ -5,6 +5,8 @@ name: ' STYX PA6 Signal White'
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#e6eaefff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/799c6a8b1f5e.png
   type: unspecified

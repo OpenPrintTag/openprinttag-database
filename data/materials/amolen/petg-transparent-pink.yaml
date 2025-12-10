@@ -5,6 +5,8 @@ name: PETG Transparent Pink
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f2a3b7ff'
 tags:
 - translucent
 photos:

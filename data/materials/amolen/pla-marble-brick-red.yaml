@@ -5,6 +5,8 @@ name: PLA Marble Brick Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ed2602ff'
 tags:
 - imitates-marble
 - industrially-compostable

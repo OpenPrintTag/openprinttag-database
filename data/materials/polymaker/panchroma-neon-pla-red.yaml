@@ -5,6 +5,8 @@ name: Panchroma™ Neon PLA Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff4f4dff'
 tags:
 - neon
 - industrially-compostable

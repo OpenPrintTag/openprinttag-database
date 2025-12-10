@@ -5,6 +5,8 @@ name: 'PETG Pink '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f79dbcff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dd78f008eadd.jpg
   type: unspecified

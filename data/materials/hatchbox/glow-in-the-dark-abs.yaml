@@ -5,9 +5,9 @@ name: Glow in the Dark ABS
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 4f052bdd-314d-42aa-a245-5e216681c9be
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
+secondary_colors:
+- rgba: '#3d9441ff'
+- rgba: '#ffffffff'
 tags:
 - glow-in-the-dark
 - abrasive

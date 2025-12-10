@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-starter-lithophane-yellow
+primary_color:
+  rgba: '#f6fb38ff'
 tags:
 - lithophane
 properties: {}

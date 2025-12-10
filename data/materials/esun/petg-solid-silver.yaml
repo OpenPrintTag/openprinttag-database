@@ -5,6 +5,8 @@ name: PETG Solid Silver
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f32507e9ff17.jpg
   type: unspecified

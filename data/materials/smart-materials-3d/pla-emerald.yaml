@@ -5,6 +5,8 @@ name: PLA Emerald
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#40e0d0ff'
 tags:
 - industrially-compostable
 photos:

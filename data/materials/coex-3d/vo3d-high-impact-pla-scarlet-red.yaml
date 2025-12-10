@@ -5,6 +5,8 @@ name: VO3D High Impact PLA Scarlet Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e60000ff'
 tags:
 - industrially-compostable
 photos:

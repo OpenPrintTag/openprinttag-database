@@ -5,10 +5,10 @@ name: Silk PLA Blue Green Orange
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- 4f052bdd-314d-42aa-a245-5e216681c9be
-- 442e51ef-76c7-47e2-ad26-738cb89fe0a5
+secondary_colors:
+- rgba: '#0353baff'
+- rgba: '#3d9441ff'
+- rgba: '#fa8423ff'
 tags:
 - silk
 - industrially-compostable

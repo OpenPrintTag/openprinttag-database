@@ -5,6 +5,8 @@ name: Neon Green AF Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#62e480ff'
 tags:
 - silk
 - industrially-compostable

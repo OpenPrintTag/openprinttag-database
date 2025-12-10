@@ -5,6 +5,8 @@ name: Tough Pro PLA+, Fluorescent Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff8133ff'
 tags:
 - neon
 - industrially-compostable

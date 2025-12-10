@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Silk Magic PurpleRed-DarkGreen
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 73baf610-aea4-46a8-b0d0-ef62bc779438
-- 9055a8db-e24e-4fbb-804d-902c691bd616
+secondary_colors:
+- rgba: '#1e5a4fff'
+- rgba: '#c80181ff'
 tags:
 - silk
 - dual-color

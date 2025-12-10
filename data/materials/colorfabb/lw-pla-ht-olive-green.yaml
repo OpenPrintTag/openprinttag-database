@@ -5,6 +5,8 @@ name: LW-PLA-HT Olive Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4d5d4cff'
 tags:
 - foaming
 - industrially-compostable

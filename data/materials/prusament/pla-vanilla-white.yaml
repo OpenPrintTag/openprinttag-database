@@ -5,6 +5,8 @@ name: PLA Vanilla White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d9d4c6ff'
 transmission_distance: 7.1
 tags:
 - industrially-compostable

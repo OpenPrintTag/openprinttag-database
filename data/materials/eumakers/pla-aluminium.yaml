@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-aluminium.html
+primary_color:
+  rgba: '#d6d7d8ff'
 tags:
 - imitates-metal
 properties:

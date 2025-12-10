@@ -5,6 +5,8 @@ name: CPE HG100 "Vertigo Grey"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d8246f4058a3.png
   type: unspecified

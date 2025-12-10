@@ -5,6 +5,8 @@ name: Sunshine Yellow PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#efdc4cff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ce9cb1442762.png
   type: unspecified

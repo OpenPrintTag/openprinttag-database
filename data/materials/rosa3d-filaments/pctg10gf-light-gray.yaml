@@ -6,6 +6,8 @@ class: FFF
 type_id: 4
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pctg-plus-10gf-light-gray
+primary_color:
+  rgba: '#ecefedff'
 tags:
 - contains-glass-fiber
 properties: {}

@@ -5,6 +5,8 @@ name: Panchroma™ Luminous PLA Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0095ffff'
 tags:
 - glow-in-the-dark
 - abrasive

@@ -5,6 +5,8 @@ name: 'Amethyst Purple AF Silk PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8d65c7ff'
 tags:
 - silk
 - industrially-compostable

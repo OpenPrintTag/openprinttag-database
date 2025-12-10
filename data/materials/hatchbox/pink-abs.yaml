@@ -5,6 +5,8 @@ name: Pink ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#eb0075ff'
 tags:
 - filtration-recomended
 photos:

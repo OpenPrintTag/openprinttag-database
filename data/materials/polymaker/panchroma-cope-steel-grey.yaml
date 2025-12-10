@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Steel Grey
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#616469ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2695d3fe3cd8.png
   type: unspecified

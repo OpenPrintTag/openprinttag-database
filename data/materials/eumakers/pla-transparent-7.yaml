@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-transparent.html
+primary_color:
+  rgba: '#f2ece9ff'
 tags:
 - transparent
 properties:

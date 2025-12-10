@@ -5,6 +5,8 @@ name: ABS Lavender
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#5c50e0ff'
 tags:
 - filtration-recomended
 photos:

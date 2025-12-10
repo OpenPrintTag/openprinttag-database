@@ -5,6 +5,8 @@ name: ' StoneFil Concrete'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b6b9bdff'
 tags:
 - contains-stone
 - industrially-compostable

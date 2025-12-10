@@ -5,6 +5,8 @@ name: PLA 850 Fluor Orange Fresh
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff9a14ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: PLA 3D870
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: ASA Signal White
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#e3dfd9ff'
 transmission_distance: 2.4
 photos:
 - url: https://file.myfilamentlist.com/f/new/cf0f57f80912.png

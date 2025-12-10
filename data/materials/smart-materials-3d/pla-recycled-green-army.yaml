@@ -5,6 +5,8 @@ name: PLA RECYCLED Green Army
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#008059ff'
 tags:
 - recycled
 - industrially-compostable

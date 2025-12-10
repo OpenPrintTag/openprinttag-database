@@ -5,6 +5,8 @@ name: HS PLA Clear Burgundy
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#861d2bff'
 tags:
 - transparent
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PETG Economy Light Gray
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c3ccd5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b3add2640804.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Fluorescent Translucent Neon Hot Pink PLA - UV REACTIVE
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 tags:
 - neon
 - industrially-compostable

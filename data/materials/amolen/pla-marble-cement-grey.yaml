@@ -5,6 +5,8 @@ name: PLA Marble Cement Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5c5b59ff'
 tags:
 - imitates-marble
 - industrially-compostable

@@ -5,9 +5,9 @@ name: Luminous PETG Glow in the Dark White to Glow Blue
 class: FFF
 type_id: 14
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- 8879c456-1d3d-4dab-a232-ae8627ce95b9
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#0095ffff'
 tags:
 - glow-in-the-dark
 - abrasive

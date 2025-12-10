@@ -5,6 +5,8 @@ name: ' PLA - Metallic Green '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#144f3bff'
 tags:
 - silk
 - industrially-compostable

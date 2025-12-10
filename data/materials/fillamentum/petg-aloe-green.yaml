@@ -5,6 +5,8 @@ name: PETG "Aloe Green"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/838aaa1550c9.png
   type: unspecified

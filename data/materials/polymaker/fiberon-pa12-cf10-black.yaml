@@ -5,6 +5,8 @@ name: Fiberon™ PA12-CF10 Black
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

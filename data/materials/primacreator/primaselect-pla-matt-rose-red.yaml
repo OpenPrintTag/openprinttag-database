@@ -5,6 +5,8 @@ name: PrimaSelect PLA Matt Rose Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ac1a17ff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: ASA Diamond Blue
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#324485ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2261e584c243.jpg
   type: unspecified

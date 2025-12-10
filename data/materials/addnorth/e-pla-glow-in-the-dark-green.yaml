@@ -5,9 +5,9 @@ name: E-PLA Glow in the Dark Green
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 575dd47a-0d56-4da5-93bf-8b9cdd3fceed
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
+secondary_colors:
+- rgba: '#f1e6b2ff'
+- rgba: '#41a840ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

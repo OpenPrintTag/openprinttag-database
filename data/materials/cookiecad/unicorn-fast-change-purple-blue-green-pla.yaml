@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/copy-of-mermaid-fast-change-purple-blue-green-pla-filament-1-75mm-1kg?Size=500g
-colors:
-- cb9a6da4-6b75-440e-a13e-20506678ef08
-- f45bf10d-a26d-4b61-ae86-064d1a59b797
-- acaaa3be-fa4f-44ae-ab7a-e80326378e36
+secondary_colors:
+- rgba: '#c63dbaff'
+- rgba: '#8ed9f9ff'
+- rgba: '#69ebb6ff'
 tags:
 - gradual-color-change
 - industrially-compostable

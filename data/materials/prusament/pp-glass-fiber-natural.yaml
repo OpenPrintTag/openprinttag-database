@@ -6,6 +6,8 @@ class: FFF
 type_id: 16
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-pp-glass-fiber-natural-850g/
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - contains-glass-fiber
 - without-pigments

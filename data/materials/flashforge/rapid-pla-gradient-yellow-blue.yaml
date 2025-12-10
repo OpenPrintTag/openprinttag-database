@@ -5,9 +5,9 @@ name: Rapid PLA Gradient Yellow & Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- 1228391c-4f08-4921-97da-f93441de8119
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#e4e46dff'
 tags:
 - color-gradient
 - dual-color

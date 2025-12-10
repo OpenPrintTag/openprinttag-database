@@ -5,6 +5,8 @@ name: 'TPU 95A HF Black '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b57cd55a4e60.png
   type: unspecified

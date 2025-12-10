@@ -5,6 +5,8 @@ name: DuraPro ASA blue | RAL 5003
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3fa216cde37a.png
   type: unspecified

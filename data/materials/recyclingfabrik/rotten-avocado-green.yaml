@@ -5,6 +5,8 @@ name: Rotten Avocado (Green)
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#606935ff'
 tags:
 - recycled
 - industrially-compostable

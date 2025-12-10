@@ -5,6 +5,8 @@ name: PrimaSelect PEI Ultem 9085 Natural
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 tags:
 - low-outgassing
 photos:

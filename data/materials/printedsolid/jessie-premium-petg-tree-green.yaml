@@ -5,6 +5,8 @@ name: Jessie Premium PETG Tree Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#3d9441ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/11a95571fde7.png
   type: unspecified

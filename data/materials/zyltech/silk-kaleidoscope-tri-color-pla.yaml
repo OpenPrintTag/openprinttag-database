@@ -5,10 +5,10 @@ name: Silk Kaleidoscope Tri-Color PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3d173e32-a27f-4054-bad2-2d8a9235a7d8
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- 284fb973-4370-49dd-82fc-d173a2431245
+secondary_colors:
+- rgba: '#02a76bff'
+- rgba: '#0353baff'
+- rgba: '#f87fb5ff'
 tags:
 - silk
 - triple-color

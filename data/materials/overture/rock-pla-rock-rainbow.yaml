@@ -5,11 +5,11 @@ name: Rock PLA Rock Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- f36bb080-3d2c-40e0-85b6-73cfc6075c44
-- 6d8c6053-f305-4fdc-a643-2f63bd2b0b7d
-- a9294fef-655b-4cef-a8b9-35d5d1622ffa
+secondary_colors:
+- rgba: '#00a594ff'
+- rgba: '#f3c102ff'
+- rgba: '#519f61ff'
+- rgba: '#f00c00ff'
 tags:
 - multicolor
 - industrially-compostable

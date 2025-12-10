@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/the-filament-petg-cf/
+primary_color:
+  rgba: '#3292b2ff'
 tags:
 - contains-carbon-fiber
 - abrasive

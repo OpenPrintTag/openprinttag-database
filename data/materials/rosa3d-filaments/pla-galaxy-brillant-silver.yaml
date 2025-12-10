@@ -6,8 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-brillant-silver
-colors:
-- 34858f17-cf15-4608-a030-d5485ba57954
+secondary_colors:
+- rgba: '#c5c5bfff'
 tags:
 - glitter
 properties: {}

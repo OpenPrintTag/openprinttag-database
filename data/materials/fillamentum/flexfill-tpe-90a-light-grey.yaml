@@ -5,6 +5,8 @@ name: Flexfill TPE 90A "Light Grey"
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/be7ed10b1d28.png
   type: unspecified

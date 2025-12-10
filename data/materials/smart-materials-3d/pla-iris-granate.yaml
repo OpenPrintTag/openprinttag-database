@@ -5,6 +5,8 @@ name: PLA IRIS Granate
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5d4546ff'
 tags:
 - iridescent
 - industrially-compostable

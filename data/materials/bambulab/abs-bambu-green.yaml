@@ -5,6 +5,8 @@ name: ABS Bambu Green
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#26a648ff'
 tags:
 - filtration-recomended
 photos:

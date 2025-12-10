@@ -5,6 +5,8 @@ name: 3DXMAX® ASA Yellow
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f47cb58ac365.png
   type: unspecified

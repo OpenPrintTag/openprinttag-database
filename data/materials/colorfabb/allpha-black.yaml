@@ -5,6 +5,8 @@ name: allPHA Black
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - home-compostable
 photos:

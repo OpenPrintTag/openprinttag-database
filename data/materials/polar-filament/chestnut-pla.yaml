@@ -5,6 +5,8 @@ name: Chestnut PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 tags:
 - industrially-compostable
 photos:

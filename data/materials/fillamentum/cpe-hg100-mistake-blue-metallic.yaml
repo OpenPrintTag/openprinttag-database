@@ -5,6 +5,8 @@ name: CPE HG100 "Mistake Blue Metallic"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d33390829cd2.png
   type: unspecified

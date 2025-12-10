@@ -5,6 +5,8 @@ name: PrimaSelect PLA Toxic Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7cef83ff'
 tags:
 - industrially-compostable
 photos:

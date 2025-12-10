@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Silver '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#9fa4a8ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9f31226bac3d.png
   type: unspecified

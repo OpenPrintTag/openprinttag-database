@@ -5,12 +5,12 @@ name: ' PrimaSelect PLA Gradient Gold/Deep Green/Deep Blue/Blue Purple/Copper/Re
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
-- 9b4f1638-a90b-42b7-a35e-f9065f04b0af
-- a919a6a0-07ca-480d-88b5-b7b522b0c5a8
-- 5af5d34f-8c34-4305-b39b-ba2dd7f839e0
-- c4c23fee-755c-45b3-845b-9d3b81e3aa1e
+secondary_colors:
+- rgba: '#e3b145ff'
+- rgba: '#3c5415ff'
+- rgba: '#15817bff'
+- rgba: '#5c50e0ff'
+- rgba: '#a54830ff'
 tags:
 - industrially-compostable
 - gradual-color-change

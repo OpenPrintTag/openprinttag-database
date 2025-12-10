@@ -5,6 +5,8 @@ name: Cobalt Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 tags:
 - industrially-compostable
 photos:

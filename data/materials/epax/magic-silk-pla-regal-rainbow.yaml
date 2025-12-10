@@ -6,16 +6,16 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-magic-silk-pla-tricolor?variant=51195699888341
-colors:
-- c837d94d-d78c-48c8-8383-622c4d5d0b03
-- a919a6a0-07ca-480d-88b5-b7b522b0c5a8
-- 8f812af3-1504-45e3-9d43-43d5b276f35c
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- c7dff6e4-2906-4091-b50b-67b1e8e44e46
-- 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
-- 1d3a26db-574d-45a3-a3ee-5dc8604f7980
-- d213ea54-daa4-4dfa-afb3-7c08c0f53c8a
+secondary_colors:
+- rgba: '#1e22aaff'
+- rgba: '#15817bff'
+- rgba: '#ec0000ff'
+- rgba: '#ff00a2ff'
+- rgba: '#6c47b2ff'
+- rgba: '#d5447eff'
+- rgba: '#26a648ff'
+- rgba: '#c4dc00ff'
+- rgba: '#a6884cff'
 tags:
 - silk
 - gradual-color-change

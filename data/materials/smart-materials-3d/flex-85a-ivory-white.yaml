@@ -5,6 +5,8 @@ name: FLEX 85A Ivory White
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/939a6ef4b837.png
   type: unspecified

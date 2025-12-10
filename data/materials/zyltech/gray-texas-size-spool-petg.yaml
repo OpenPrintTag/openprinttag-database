@@ -5,6 +5,8 @@ name: Gray Texas Size Spool PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#a9a8a0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/818637fa72cb.png
   type: unspecified

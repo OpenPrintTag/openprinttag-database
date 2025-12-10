@@ -5,6 +5,8 @@ name: 'woodFill '
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#f5dcc5ff'
 tags:
 - contains-wood
 - home-compostable

@@ -5,6 +5,8 @@ name: Dark Yellow TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffb031ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/14ebbed2288a.jpg
   type: unspecified

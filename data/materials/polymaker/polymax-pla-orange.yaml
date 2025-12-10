@@ -5,6 +5,8 @@ name: 'PolyMax™ PLA Orange '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff8e24ff'
 tags:
 - industrially-compostable
 photos:

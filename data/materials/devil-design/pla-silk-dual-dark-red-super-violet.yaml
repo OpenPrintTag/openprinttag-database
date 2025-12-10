@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-dual-dark-red-super-violet-1-75-mm-1-kg
-colors:
-- 11a158c3-db48-442f-ad1c-4f82d1c2b5a0
-- aae8da2a-e012-4559-b844-c175dcc28fb4
+secondary_colors:
+- rgba: '#cc393fff'
+- rgba: '#274bb6ff'
 tags:
 - silk
 - coextruded

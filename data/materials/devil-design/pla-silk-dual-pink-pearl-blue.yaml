@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-dual-pink-pearl-blue-1-75-mm-1-kg
-colors:
-- 412279bf-af5d-428d-87de-0157024d2389
-- c99b8df4-7534-45b8-8d29-f16086a4d75b
+secondary_colors:
+- rgba: '#0066d9ff'
+- rgba: '#e34a94ff'
 tags:
 - silk
 - coextruded

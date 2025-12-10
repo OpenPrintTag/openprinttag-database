@@ -5,6 +5,8 @@ name: TPU 95A Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8852ee0dbb5f.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Panchroma™ CoPE Cold White
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4ef71fd3d9ba.png
   type: unspecified

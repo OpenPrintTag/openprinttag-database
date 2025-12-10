@@ -5,6 +5,8 @@ name: Pro PCTG, Ocean Blue
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/45fcf03f671c.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PETG Ocean Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#194c55ff'
 transmission_distance: 3.0
 photos:
 - url: https://file.myfilamentlist.com/f/new/6ab58ee59090.png

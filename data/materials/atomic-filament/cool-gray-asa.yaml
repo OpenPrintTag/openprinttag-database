@@ -5,6 +5,8 @@ name: Cool Gray ASA
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#26272bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4a72b087fd2b.png
   type: unspecified

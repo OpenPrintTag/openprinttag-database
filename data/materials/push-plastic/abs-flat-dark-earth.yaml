@@ -5,6 +5,8 @@ name: ABS Flat Dark Earth
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#90785eff'
 tags:
 - filtration-recomended
 photos:

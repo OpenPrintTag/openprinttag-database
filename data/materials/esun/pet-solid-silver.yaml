@@ -5,6 +5,8 @@ name: PET Solid Silver
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e4102f753447.jpg
   type: unspecified

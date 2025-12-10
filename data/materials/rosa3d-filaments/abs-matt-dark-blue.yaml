@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-abs-plus-matt-dark-blue-1kg
+primary_color:
+  rgba: '#4921c1ff'
 tags:
 - matte
 properties: {}

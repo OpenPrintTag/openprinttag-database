@@ -5,6 +5,8 @@ name: PrimaSelect PLA Carbon Dark Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#165158ff'
 tags:
 - contains-carbon-fiber
 - abrasive

@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Silk Magic-Silver-DarkBlue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 493c1f2e-7c71-48c4-9dfb-36df1fe9108d
-- efae8549-8440-426e-8bf1-4080ee157fff
+secondary_colors:
+- rgba: '#a8b0bdff'
+- rgba: '#0e21aeff'
 tags:
 - dual-color
 - silk

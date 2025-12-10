@@ -5,6 +5,8 @@ name: PrimaSelect PLA Flame Retardant White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - self-extinguishing
 - industrially-compostable

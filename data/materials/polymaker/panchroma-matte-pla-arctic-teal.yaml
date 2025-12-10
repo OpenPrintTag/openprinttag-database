@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Arctic Teal
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#75c8ceff'
 tags:
 - matte
 - industrially-compostable

@@ -5,10 +5,10 @@ name: 'Silk PLA Tri-color Red Blue Yellow '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
-- 8b037f8a-83da-4212-922f-40826135a2b8
+secondary_colors:
+- rgba: '#fbe200ff'
+- rgba: '#2e56f1ff'
+- rgba: '#e03f26ff'
 tags:
 - triple-color
 - silk

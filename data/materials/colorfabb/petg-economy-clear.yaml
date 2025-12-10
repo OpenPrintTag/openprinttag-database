@@ -5,6 +5,8 @@ name: PETG Economy Clear
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/550924d4aea4.png
   type: unspecified

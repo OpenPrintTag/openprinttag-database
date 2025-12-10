@@ -5,9 +5,9 @@ name: Chameleon PLA Nebula Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- 0a165cb6-53d4-4b74-b9d8-8461c26a2554
+secondary_colors:
+- rgba: '#6c47b2ff'
+- rgba: '#8846aeff'
 tags:
 - iridescent
 - glitter

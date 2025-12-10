@@ -5,6 +5,8 @@ name: 'PolyMax™ PC-FR Black '
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/910273b6b12b.png
   type: unspecified

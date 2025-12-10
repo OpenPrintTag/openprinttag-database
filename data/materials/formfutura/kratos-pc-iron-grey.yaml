@@ -5,6 +5,8 @@ name: ' Kratos PC Iron Grey'
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/67f0e7f254e0.png
   type: unspecified

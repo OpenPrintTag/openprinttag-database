@@ -5,6 +5,8 @@ name: Transparent Red ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#ed1536ff'
 tags:
 - translucent
 - filtration-recomended

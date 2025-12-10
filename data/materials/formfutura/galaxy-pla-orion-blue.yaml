@@ -5,6 +5,8 @@ name: ' Galaxy PLA Orion Blue'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#626d9bff'
 tags:
 - glitter
 - industrially-compostable

@@ -4,6 +4,8 @@ brand_slug: addnorth
 name: Adura™ Cold White
 class: FFF
 abbreviation: Adura™
+primary_color:
+  rgba: '#eaecf5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fd000c208c00.png
   type: unspecified

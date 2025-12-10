@@ -5,6 +5,8 @@ name: PETG military green | RAL 6003
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#515234ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d0a90f4bafd2.png
   type: unspecified

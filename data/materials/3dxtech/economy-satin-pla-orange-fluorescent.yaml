@@ -5,6 +5,8 @@ name: Economy Satin PLA  orange-fluorescent
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f47d59ff'
 tags:
 - satin
 - neon

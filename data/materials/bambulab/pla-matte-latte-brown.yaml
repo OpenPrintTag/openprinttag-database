@@ -5,6 +5,8 @@ name: PLA Matte Latte Brown
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b38f6eff'
 tags:
 - matte
 - industrially-compostable

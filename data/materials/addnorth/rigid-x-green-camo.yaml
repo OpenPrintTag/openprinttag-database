@@ -5,6 +5,8 @@ name: Rigid X Green Camo
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4d5d4cff'
 tags:
 - contains-carbon-fiber
 - abrasive

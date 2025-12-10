@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/96/pla-filament-1-75-mm-neonorange-800-g?c=33
+primary_color:
+  rgba: '#ff7a33ff'
 tags:
 - industrially-compostable
 properties: {}

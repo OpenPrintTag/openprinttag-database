@@ -5,6 +5,8 @@ name: PCTG Blue
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#0378d0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b590a35d66ae.png
   type: unspecified

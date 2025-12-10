@@ -5,6 +5,8 @@ name: TPU High Speed Gray
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#949a9eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d73833dd986f.jpg
   type: unspecified

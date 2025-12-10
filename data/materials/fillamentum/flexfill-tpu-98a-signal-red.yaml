@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Signal Red"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#df3303ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fa30dd952cf1.png
   type: unspecified

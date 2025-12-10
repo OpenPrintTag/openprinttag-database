@@ -5,6 +5,8 @@ name: White CoexFlex™ 60A TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/63b919b1c751.png
   type: unspecified

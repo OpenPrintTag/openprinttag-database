@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Pastel Watermelon
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ee366aff'
 tags:
 - matte
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA+ Haze Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6393ddff'
 tags:
 - industrially-compostable
 photos:

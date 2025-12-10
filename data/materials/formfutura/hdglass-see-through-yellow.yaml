@@ -5,6 +5,8 @@ name: HDglass See Through Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f3b400ff'
 tags:
 - translucent
 - silk

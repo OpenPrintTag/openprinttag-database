@@ -5,12 +5,12 @@ name: PETG Basic Multicolor Rainbow
 class: FFF
 type_id: 14
 abbreviation: ''
-colors:
-- 4b80164f-b954-403b-898f-30f8fb65245b
-- 69e0155a-0ff7-4325-bde4-1fb0225c502b
-- fb922d46-603b-4b1e-8b32-7cf5a0461f87
-- c0eaefba-6e7a-4316-9244-bff28800827a
-- bac11d23-72c3-48bb-b282-1b1e09d8b04d
+secondary_colors:
+- rgba: '#00cc00ff'
+- rgba: '#6802bcff'
+- rgba: '#ffbf00ff'
+- rgba: '#fa7f1bff'
+- rgba: '#b7293eff'
 tags:
 - multicolor
 photos:

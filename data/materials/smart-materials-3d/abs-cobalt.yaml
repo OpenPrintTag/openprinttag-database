@@ -5,6 +5,8 @@ name: ABS Cobalt
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#183681ff'
 tags:
 - filtration-recomended
 photos:

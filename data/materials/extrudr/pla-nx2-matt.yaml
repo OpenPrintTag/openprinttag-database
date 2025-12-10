@@ -5,6 +5,8 @@ name: PLA NX2 MATT
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e4ff33ff'
 tags:
 - matte
 - industrially-compostable

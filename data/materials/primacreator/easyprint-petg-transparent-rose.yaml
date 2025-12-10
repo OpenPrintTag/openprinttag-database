@@ -5,6 +5,8 @@ name: EasyPrint PETG Transparent Rose
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#bb264dff'
 tags:
 - translucent
 photos:

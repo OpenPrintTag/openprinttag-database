@@ -5,6 +5,8 @@ name: Nylon CF15 Carbon
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#565459ff'
 tags:
 - contains-carbon-fiber
 - abrasive

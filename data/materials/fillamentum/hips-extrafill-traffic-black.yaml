@@ -5,6 +5,8 @@ name: HIPS Extrafill "Traffic Black"
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d8af96c527f3.png
   type: unspecified

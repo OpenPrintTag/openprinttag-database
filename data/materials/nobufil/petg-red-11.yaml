@@ -5,6 +5,8 @@ name: PETG Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#de1619ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9b0a4e0dc712.png
   type: unspecified

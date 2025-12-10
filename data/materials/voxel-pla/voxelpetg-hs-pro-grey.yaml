@@ -5,6 +5,8 @@ name: VOXELPETG+ HS (Pro) Grey
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#9db6d4ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0e552bb2e95d.png
   type: unspecified

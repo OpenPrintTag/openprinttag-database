@@ -5,6 +5,8 @@ name: 'Pastel Green ABS '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#bbdb4bff'
 tags:
 - filtration-recomended
 photos:

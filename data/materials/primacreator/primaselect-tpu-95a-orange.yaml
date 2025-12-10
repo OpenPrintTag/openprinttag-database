@@ -5,6 +5,8 @@ name: ' PrimaSelect TPU 95A Orange'
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4abb07c7df42.png
   type: unspecified

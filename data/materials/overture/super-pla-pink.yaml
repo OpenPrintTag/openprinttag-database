@@ -5,6 +5,8 @@ name: 'Super PLA+ Pink '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff5786ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: Silk PLA+, Silky Royal Navy Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0696efff'
 tags:
 - silk
 - industrially-compostable

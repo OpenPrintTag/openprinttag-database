@@ -5,9 +5,9 @@ name: Partly Sunny Yellow Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
-- 1f148a0c-96df-4073-ab16-f787460191f8
+secondary_colors:
+- rgba: '#fbe200ff'
+- rgba: '#eeea44ff'
 tags:
 - color-gradient
 - high-temperature

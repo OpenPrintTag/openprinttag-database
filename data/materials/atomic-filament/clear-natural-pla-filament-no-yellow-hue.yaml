@@ -5,6 +5,8 @@ name: Clear / Natural PLA Filament " NO YELLOW HUE"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e4e7e5ff'
 tags:
 - transparent
 - industrially-compostable

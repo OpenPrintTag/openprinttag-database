@@ -5,6 +5,8 @@ name: Upgrade ABS Blue
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 tags:
 - filtration-recomended
 photos:

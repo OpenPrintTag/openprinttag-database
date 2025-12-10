@@ -5,6 +5,8 @@ name: PLActive Apple Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#739549ff'
 tags:
 - contains-copper
 - antibacterial

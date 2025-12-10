@@ -5,6 +5,8 @@ name: Cool Gray TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#a9a8a0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/4714f4825b11.jpg
   type: unspecified

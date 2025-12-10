@@ -5,6 +5,8 @@ name: PLA Glow-in-the-Dark Glow Starry Sky Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 tags:
 - glow-in-the-dark
 - glitter

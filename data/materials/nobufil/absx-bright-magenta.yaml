@@ -5,6 +5,8 @@ name: ABSx Bright Magenta
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#c80181ff'
 tags:
 - filtration-recomended
 photos:

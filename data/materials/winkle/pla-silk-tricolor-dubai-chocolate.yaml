@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://winkle.shop/producto/filamento-pla-silk-tricolor-winkle/?_gl=1*kjee92*_up*MQ..*_ga*OTA5NDgwNjY3LjE3NjM3MjEzNzY.*_ga_M0M6Z9TMJ5*czE3NjM3NjUxNTQkbzMkZzEkdDE3NjM3NjY4ODEkajYwJGwwJGgxMDM2MjI5NDYx
-colors:
-- 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
-- d68afba4-061f-467f-8c14-5406ceadc9d2
-- 9ea53182-3b56-4ee4-b996-8ba04e5511bc
+secondary_colors:
+- rgba: '#26a648ff'
+- rgba: '#f6c500ff'
+- rgba: '#a45b27ff'
 tags:
 - silk
 - coextruded

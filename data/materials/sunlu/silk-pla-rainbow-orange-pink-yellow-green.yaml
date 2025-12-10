@@ -5,11 +5,11 @@ name: 'Silk PLA+ Rainbow (Orange-Pink-Yellow-Green) '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 63a03759-ed60-4ec6-a09e-9fd072fac8d2
-- 01900bb9-b61f-4e7c-9172-235fb1815b36
-- bc359bc5-22e4-447c-8479-2fcd56997b9a
-- 7103b267-e29e-4793-9fff-6fabfb0a18b3
+secondary_colors:
+- rgba: '#cafbe6ff'
+- rgba: '#f5b797ff'
+- rgba: '#fef49cff'
+- rgba: '#ffe6fdff'
 tags:
 - multicolor
 - silk

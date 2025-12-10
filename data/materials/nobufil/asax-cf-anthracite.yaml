@@ -5,6 +5,8 @@ name: ASAx CF Anthracite
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 tags:
 - contains-carbon-fiber
 - abrasive

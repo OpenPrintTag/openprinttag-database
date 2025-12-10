@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Lavender Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8a68b5ff'
 tags:
 - matte
 - industrially-compostable

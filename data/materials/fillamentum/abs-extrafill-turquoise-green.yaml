@@ -5,6 +5,8 @@ name: ABS Extrafill "Turquoise Green"
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#267f67ff'
 tags:
 - filtration-recomended
 photos:

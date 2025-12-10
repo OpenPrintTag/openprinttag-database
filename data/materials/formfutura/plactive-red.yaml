@@ -5,6 +5,8 @@ name: PLActive Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 tags:
 - contains-copper
 - antibacterial

@@ -5,6 +5,8 @@ name: PETG Basic Black
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/923ea410-03c8-4d2c-942b-0cef7fcbf557/5c9cf681c99a.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Royal Blue PLA pro
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#2070cbff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA 850 Silk Clover
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4e7642ff'
 tags:
 - industrially-compostable
 - silk

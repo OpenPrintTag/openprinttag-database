@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-mistic-green
-colors:
-- 4f052bdd-314d-42aa-a245-5e216681c9be
-- 9821064a-8549-43f8-99b9-42270e8d552e
+secondary_colors:
+- rgba: '#3d9441ff'
+- rgba: '#545252ff'
 tags:
 - coextruded
 - silk

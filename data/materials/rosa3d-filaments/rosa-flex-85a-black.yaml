@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-85a-black
+primary_color:
+  rgba: '#292824ff'
 properties:
   hardness_shore_a: 85

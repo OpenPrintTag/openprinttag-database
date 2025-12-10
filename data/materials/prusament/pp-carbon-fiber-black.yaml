@@ -5,6 +5,8 @@ name: PP Carbon Fiber Black
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#292929ff'
 tags:
 - contains-carbon-fiber
 - abrasive

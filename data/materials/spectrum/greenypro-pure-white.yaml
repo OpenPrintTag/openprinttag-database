@@ -5,5 +5,7 @@ name: GreenyPro Pure White
 class: FFF
 abbreviation: GreenyPro
 url: https://spectrumfilaments.com/en/filament/greenypro/
+primary_color:
+  rgba: '#efefefff'
 properties:
   density: 1.34

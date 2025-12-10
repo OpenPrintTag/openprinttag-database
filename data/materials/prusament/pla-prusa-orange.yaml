@@ -5,6 +5,8 @@ name: PLA Prusa Orange
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fe6e32ff'
 transmission_distance: 6.6
 tags:
 - industrially-compostable

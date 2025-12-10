@@ -5,6 +5,8 @@ name: PETG Grass Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#61c680ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e22affb86379.jpg
   type: unspecified

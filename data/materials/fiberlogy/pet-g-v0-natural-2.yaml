@@ -5,6 +5,8 @@ name: PET-G V0 Natural
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 tags:
 - self-extinguishing
 photos:

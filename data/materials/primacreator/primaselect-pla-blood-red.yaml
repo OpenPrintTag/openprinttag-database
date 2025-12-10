@@ -5,6 +5,8 @@ name: PrimaSelect PLA Blood Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#990303ff'
 tags:
 - industrially-compostable
 photos:

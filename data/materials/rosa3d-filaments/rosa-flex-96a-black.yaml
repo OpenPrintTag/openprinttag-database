@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-black
+primary_color:
+  rgba: '#000000ff'
 properties:
   hardness_shore_a: 96

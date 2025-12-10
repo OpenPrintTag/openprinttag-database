@@ -5,6 +5,8 @@ name: Stardust Silver Glitter PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 tags:
 - glitter
 - silk

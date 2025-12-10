@@ -5,12 +5,12 @@ name: Candy Skies 2024 Rainbow Silk Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- ce9caeb2-16c7-4a34-9669-d0ed8ab459e0
-- 7dec4335-0c49-4cb3-a35f-e9eef4390735
-- f2057dca-5cbc-48e6-911d-093219c0b541
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors:
+- rgba: '#0099e6ff'
+- rgba: '#fad61bff'
+- rgba: '#77a54bff'
+- rgba: '#fc8397ff'
+- rgba: '#6c47b2ff'
 tags:
 - silk
 - multicolor

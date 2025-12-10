@@ -5,6 +5,8 @@ name: PETG neon green | RAL 6038
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#9fec41ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/00f67c414725.png
   type: unspecified

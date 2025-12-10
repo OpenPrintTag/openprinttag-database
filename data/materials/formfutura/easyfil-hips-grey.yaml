@@ -5,6 +5,8 @@ name: ' EasyFil HIPS Grey'
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#727376ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/da087b6ed48a.png
   type: unspecified

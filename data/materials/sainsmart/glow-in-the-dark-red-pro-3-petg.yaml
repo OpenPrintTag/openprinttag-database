@@ -6,9 +6,9 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.sainsmart.com/products/glow-in-the-dark-red-petg?_pos=3&_fid=78605fd0c&_ss=c
-colors:
-- 3f216a6c-0611-4ad2-8086-8a6fce3a0395
-- 0c273995-3e8f-4ea4-a64f-c9db94ea1a49
+secondary_colors:
+- rgba: '#e72f1dff'
+- rgba: '#ff7d7aff'
 tags:
 - glow-in-the-dark
 - abrasive

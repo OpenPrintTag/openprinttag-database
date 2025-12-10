@@ -5,6 +5,8 @@ name: Silver MH Build Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7f232fe429e0.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Silk Antique Gold PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#aca078ff'
 tags:
 - silk
 - industrially-compostable

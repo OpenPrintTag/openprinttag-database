@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen Light Blue
 class: FFF
 abbreviation: 'nGen '
+primary_color:
+  rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f8397b68cbdf.png
   type: unspecified

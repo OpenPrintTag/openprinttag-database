@@ -5,6 +5,8 @@ name: PETG Jet Black
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#292b2bff'
 transmission_distance: 0.3
 photos:
 - url: https://file.myfilamentlist.com/f/new/61a934493c20.png

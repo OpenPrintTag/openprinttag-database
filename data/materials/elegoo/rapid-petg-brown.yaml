@@ -5,6 +5,8 @@ name: RAPID PETG Brown
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#9f563eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/988502b54078.png
   type: unspecified

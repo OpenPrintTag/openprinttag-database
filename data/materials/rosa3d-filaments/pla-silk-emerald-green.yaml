@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-silk-emerald-green
+primary_color:
+  rgba: '#00935cff'
 tags:
 - silk
 properties: {}

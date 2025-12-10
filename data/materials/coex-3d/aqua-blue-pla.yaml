@@ -5,6 +5,8 @@ name: Aqua Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 tags:
 - industrially-compostable
 photos:

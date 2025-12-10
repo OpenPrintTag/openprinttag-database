@@ -5,6 +5,8 @@ name: True Gold v2 PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/328e46c48eb0.png
   type: unspecified

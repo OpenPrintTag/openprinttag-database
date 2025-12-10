@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/pink-ombre-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 93df95b5-4ade-4372-9f27-83a63546c3d5
-- 614a83c1-d1a8-4cfd-879b-a203a2c94f9b
+secondary_colors:
+- rgba: '#f09bb5ff'
+- rgba: '#ff5786ff'
 tags:
 - gradual-color-change
 - industrially-compostable

@@ -5,6 +5,8 @@ name: EasyFil ePLA Traffic Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#358b49ff'
 tags:
 - industrially-compostable
 photos:

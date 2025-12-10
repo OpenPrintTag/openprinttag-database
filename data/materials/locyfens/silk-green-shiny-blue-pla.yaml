@@ -5,9 +5,9 @@ name: Silk Green Shiny Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors:
+- rgba: '#00a594ff'
+- rgba: '#0353baff'
 tags:
 - silk
 - dual-color

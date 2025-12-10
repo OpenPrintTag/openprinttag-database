@@ -5,10 +5,10 @@ name: Tropical Breeze Tri-Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ab92fe8b-b144-4a69-91c0-b0d2e92f0e49
-- 1df69de5-c633-43bd-9138-c90c9bcc1089
-- 9ff71ced-a991-4871-802b-5d6e03ebbbdb
+secondary_colors:
+- rgba: '#60ab61ff'
+- rgba: '#f6a25cff'
+- rgba: '#0378d0ff'
 tags:
 - silk
 - triple-color

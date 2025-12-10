@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Purple '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6c5bb1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f16083a7dcac.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PETG Signal White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e5e0e3ff'
 transmission_distance: 3.4
 photos:
 - url: https://file.myfilamentlist.com/f/new/65d12dbcfe4d.png

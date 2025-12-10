@@ -5,6 +5,8 @@ name: PLA Glow-in-the-Dark Glow White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - glow-in-the-dark
 - abrasive

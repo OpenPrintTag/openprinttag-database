@@ -5,6 +5,8 @@ name: ' FlexiFil TPC 40D White'
 class: FFF
 type_id: 18
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cf2247443414.png
   type: unspecified

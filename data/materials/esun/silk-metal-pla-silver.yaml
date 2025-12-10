@@ -5,6 +5,8 @@ name: Silk Metal PLA Silver
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c9d0d4ff'
 tags:
 - silk
 - imitates-metal

@@ -5,6 +5,8 @@ name: 'ABS-GF Gray '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#bac4c4ff'
 tags:
 - contains-glass-fiber
 - abrasive

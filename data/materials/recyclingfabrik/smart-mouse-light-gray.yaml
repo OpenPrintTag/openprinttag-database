@@ -5,6 +5,8 @@ name: Smart Mouse (Light Gray)
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#afaeabff'
 tags:
 - recycled
 - industrially-compostable

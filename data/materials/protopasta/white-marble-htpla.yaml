@@ -5,6 +5,8 @@ name: White Marble HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#edf0f2ff'
 tags:
 - imitates-marble
 - high-temperature

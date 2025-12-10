@@ -5,6 +5,8 @@ name: Filafetti Confetti Frosting HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e3e0d3ff'
 tags:
 - glitter
 - high-temperature

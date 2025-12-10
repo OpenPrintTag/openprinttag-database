@@ -5,6 +5,8 @@ name: ASA Inox
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#bcbfc2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ae6a649139ef.png
   type: unspecified

@@ -5,6 +5,8 @@ name: ' TPU 95A White'
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9b04e5feeedb.jpg
   type: unspecified

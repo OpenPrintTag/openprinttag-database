@@ -5,6 +5,8 @@ name: ASA Prusa Orange
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#f55928ff'
 transmission_distance: 4.4
 photos:
 - url: https://file.myfilamentlist.com/f/new/5f1964bf97ca.png

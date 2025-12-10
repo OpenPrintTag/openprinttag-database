@@ -5,11 +5,11 @@ name: 'PLA Rainbow (Red-Pink-Green-Yellow) '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- cc5e8d05-336f-4e4f-a8ca-13593338e078
-- d165776d-a6c5-4d62-a8a6-3b13eff2f1d5
-- 78a33020-fb35-4108-86d7-c0f74493c7a2
-- 7abd308a-476d-4eb2-ae90-5ef22c4db37b
+secondary_colors:
+- rgba: '#84d18bff'
+- rgba: '#ffbadeff'
+- rgba: '#d33d3dff'
+- rgba: '#fffb00ff'
 tags:
 - industrially-compostable
 photos:

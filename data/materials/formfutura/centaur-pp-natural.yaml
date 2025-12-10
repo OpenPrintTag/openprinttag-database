@@ -5,6 +5,8 @@ name: ' Centaur PP Natural'
 class: FFF
 type_id: 16
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 tags:
 - contains-carbon-fiber
 - abrasive

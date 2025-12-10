@@ -5,6 +5,8 @@ name: CPE HG100 "Iced Green Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#39b9dbff'
 tags:
 - translucent
 photos:

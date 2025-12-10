@@ -5,6 +5,8 @@ name: 'PolyLite™ ASA Yellow '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ffd342ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/40b7f2a3b6f4.png
   type: unspecified

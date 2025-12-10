@@ -5,6 +5,8 @@ name: ASA Bluish-Grey
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#4d6383ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9e086b9670f7.jpg
   type: unspecified

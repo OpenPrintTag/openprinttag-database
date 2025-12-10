@@ -5,6 +5,8 @@ name: 'PLA Galaxy Nebulae '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#444a62ff'
 tags:
 - glitter
 - industrially-compostable

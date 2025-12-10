@@ -5,6 +5,8 @@ name: CPE HG100 "Black Soul"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/15a379e0da6b.png
   type: unspecified

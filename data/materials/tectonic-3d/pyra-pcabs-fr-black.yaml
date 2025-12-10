@@ -5,6 +5,8 @@ name: PYRA PC/ABS FR Black
 class: FFF
 abbreviation: ' '
 url: https://www.tectonic-3d.com/products/tennet?variant=48839516389706
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 properties: {}

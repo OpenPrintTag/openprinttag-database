@@ -5,6 +5,8 @@ name: ' High Gloss PLA Bronze'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8c7547ff'
 tags:
 - silk
 - industrially-compostable

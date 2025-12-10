@@ -5,10 +5,10 @@ name: 'Luminous PLA Multicolor '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7b580e8f-234c-46bc-9017-51fb050a93bd
-- dc17f6b9-57bf-4a66-95f0-a2db42fd9d15
-- 43be8a2e-691a-4f91-9a09-4ce128e58db7
+secondary_colors:
+- rgba: '#ce92ceff'
+- rgba: '#9dbd8bff'
+- rgba: '#bba0daff'
 tags:
 - glow-in-the-dark
 - abrasive

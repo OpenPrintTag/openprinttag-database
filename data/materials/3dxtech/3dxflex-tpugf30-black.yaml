@@ -5,6 +5,8 @@ name: 3DXFLEX TPU+GF30 Black
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-glass-fiber
 - abrasive

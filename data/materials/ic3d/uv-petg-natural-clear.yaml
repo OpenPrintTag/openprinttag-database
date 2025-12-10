@@ -5,6 +5,8 @@ name: UV-PETG Natural (Clear)
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f23c9cb7b663.png
   type: unspecified

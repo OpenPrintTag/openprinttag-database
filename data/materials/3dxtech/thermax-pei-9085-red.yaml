@@ -5,6 +5,8 @@ name: ThermaX PEI 9085 Red
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#c01616ff'
 tags:
 - low-outgassing
 photos:

@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-yellow-ochre.html
+primary_color:
+  rgba: '#e4d77eff'
 properties:
   density: 1.24

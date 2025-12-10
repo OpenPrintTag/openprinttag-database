@@ -4,6 +4,8 @@ brand_slug: coex-3d
 name: Black CoexNylex™ Unfilled Nylon
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e2baf369c672.png
   type: unspecified

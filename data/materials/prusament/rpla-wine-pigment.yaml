@@ -5,6 +5,8 @@ name: rPLA Wine Pigment
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#5e4940ff'
 transmission_distance: 2.8
 tags:
 - recycled

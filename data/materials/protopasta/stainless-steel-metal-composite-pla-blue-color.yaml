@@ -5,6 +5,8 @@ name: Stainless Steel Metal Composite PLA - Blue color
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#23668cff'
 tags:
 - contains-metal
 - abrasive

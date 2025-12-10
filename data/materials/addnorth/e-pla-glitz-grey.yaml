@@ -5,6 +5,8 @@ name: E-PLA Glitz Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#45444aff'
 tags:
 - glitter
 - industrially-compostable

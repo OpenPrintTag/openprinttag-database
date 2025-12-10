@@ -5,6 +5,8 @@ name: PrimaSelect TPU 85A Natural
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9e4eb4b24fb8.png
   type: unspecified

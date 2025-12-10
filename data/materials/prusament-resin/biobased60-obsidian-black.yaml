@@ -6,6 +6,8 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-resin-biobased60-obsidian-black-1kg/
+primary_color:
+  rgba: '#232323ff'
 tags:
 - bio-based
 properties:

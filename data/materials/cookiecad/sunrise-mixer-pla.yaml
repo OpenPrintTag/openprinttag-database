@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/sunrise-mixer-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 7f884112-6ce0-4a09-bccc-019bbcb59b97
-- b6bca73e-c177-481b-b536-bc3fd520ef43
+secondary_colors:
+- rgba: '#eb0075ff'
+- rgba: '#e8bd00ff'
 tags:
 - coextruded
 - industrially-compostable

@@ -5,6 +5,8 @@ name: 'EasyPrint PLA Green '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#11784fff'
 tags:
 - industrially-compostable
 photos:

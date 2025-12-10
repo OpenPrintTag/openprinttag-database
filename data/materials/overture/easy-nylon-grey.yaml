@@ -4,6 +4,8 @@ brand_slug: overture
 name: 'Easy Nylon Grey '
 class: FFF
 abbreviation: Easy Nylon
+primary_color:
+  rgba: '#3b3e3fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2971aa07c875.jpg
   type: unspecified

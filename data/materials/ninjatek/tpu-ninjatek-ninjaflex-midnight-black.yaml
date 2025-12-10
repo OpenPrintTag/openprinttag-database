@@ -5,6 +5,8 @@ name: TPU NinjaTek NinjaFlex - Midnight Black
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/57e083dff9ec.png
   type: unspecified

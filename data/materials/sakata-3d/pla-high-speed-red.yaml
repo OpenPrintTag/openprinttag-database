@@ -5,6 +5,8 @@ name: PLA High Speed Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e0493eff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: 'PolyLite™ ASA White '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/76c410bc5eeb.png
   type: unspecified

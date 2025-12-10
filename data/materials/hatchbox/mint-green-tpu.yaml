@@ -5,6 +5,8 @@ name: Mint Green TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#98fbcbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7ae1152cbb62.jpg
   type: unspecified

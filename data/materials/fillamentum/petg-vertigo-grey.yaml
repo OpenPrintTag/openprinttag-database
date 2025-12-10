@@ -5,6 +5,8 @@ name: PETG "Vertigo Grey"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ae88bdfd3938.png
   type: unspecified

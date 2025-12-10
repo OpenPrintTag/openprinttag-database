@@ -5,10 +5,10 @@ name: Coinage Metals Tri-Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 67d7c285-ea25-4067-a943-2dafac19bb10
-- 748bf13d-d272-40c4-896d-5535af4553ad
-- 1374064f-7e79-4467-9fd7-e3aa150579b7
+secondary_colors:
+- rgba: '#e0e0dcff'
+- rgba: '#724e3dff'
+- rgba: '#ff9c66ff'
 tags:
 - silk
 - industrially-compostable

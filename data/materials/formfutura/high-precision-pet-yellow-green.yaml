@@ -5,6 +5,8 @@ name: High Precision PET Yellow Green
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#06b100ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7e52609ecf4d.png
   type: unspecified

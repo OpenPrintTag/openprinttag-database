@@ -5,12 +5,12 @@ name: Glow in The Dark Rapid PLA Rainbow Melody
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 01900bb9-b61f-4e7c-9172-235fb1815b36
-- e3363aa8-459c-427a-9b6b-f1f723bc4a55
-- dc17f6b9-57bf-4a66-95f0-a2db42fd9d15
-- 447d0cf6-23e4-4d4c-9df3-ecf41d5fc4e5
-- e861b404-aa99-4040-a982-5c5d2f5322d8
+secondary_colors:
+- rgba: '#f5b797ff'
+- rgba: '#f4d9deff'
+- rgba: '#9dbd8bff'
+- rgba: '#bed9ebff'
+- rgba: '#fce575ff'
 tags:
 - industrially-compostable
 - glow-in-the-dark

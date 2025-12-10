@@ -5,6 +5,8 @@ name: Bright White Opaque PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0642abc06b0b.png
   type: unspecified

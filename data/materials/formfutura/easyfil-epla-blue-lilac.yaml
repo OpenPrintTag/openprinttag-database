@@ -5,6 +5,8 @@ name: EasyFil ePLA Blue Lilac
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#71577eff'
 tags:
 - industrially-compostable
 photos:

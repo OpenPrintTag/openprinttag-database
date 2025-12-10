@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-pla-stone-marble-grey-1kg/
+primary_color:
+  rgba: '#c3ccd5ff'
 tags:
 - imitates-marble
 - industrially-compostable

@@ -5,6 +5,8 @@ name: Easy PET-G Scarlet
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c83df4a3dd09.png
   type: unspecified

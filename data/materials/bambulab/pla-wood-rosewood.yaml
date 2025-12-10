@@ -5,6 +5,8 @@ name: 'PLA Wood Rosewood '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#68453bff'
 tags:
 - imitates-wood
 - matte

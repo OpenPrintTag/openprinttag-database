@@ -5,6 +5,8 @@ name: S-Flex Carbon
 class: FFF
 abbreviation: S-Flex
 url: https://spectrumfilaments.com/en/filament/s-flex-carbon/
+primary_color:
+  rgba: '#595959ff'
 tags:
 - contains-carbon-fiber
 - esd-safe

@@ -5,6 +5,8 @@ name: 'Glow PLA Orange '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff9c66ff'
 tags:
 - glow-in-the-dark
 - abrasive

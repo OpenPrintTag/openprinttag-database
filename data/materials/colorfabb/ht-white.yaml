@@ -5,6 +5,8 @@ name: HT White
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1252e692491d.png
   type: unspecified

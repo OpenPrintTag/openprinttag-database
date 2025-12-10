@@ -4,6 +4,8 @@ brand_slug: eumakers
 name: PA Nylon Glass Fiber Black
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#292824ff'
 tags:
 - contains-glass-fiber
 properties:

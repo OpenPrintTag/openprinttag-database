@@ -5,6 +5,8 @@ name: Economy Glitter PLA gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d0bd93ff'
 tags:
 - glitter
 - industrially-compostable

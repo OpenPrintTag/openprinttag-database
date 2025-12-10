@@ -5,6 +5,8 @@ name: PETG purple | RAL 4008
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#b33174ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f593d05a0806.png
   type: unspecified

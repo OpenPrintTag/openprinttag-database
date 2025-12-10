@@ -6,6 +6,8 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.liqcreate.com/product/esd/
+primary_color:
+  rgba: '#595959ff'
 tags:
 - esd-safe
 properties:

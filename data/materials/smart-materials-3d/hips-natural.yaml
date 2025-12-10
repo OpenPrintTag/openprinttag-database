@@ -5,6 +5,8 @@ name: HIPS Natural
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c56414ccbcba.png
   type: unspecified

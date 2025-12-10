@@ -5,6 +5,8 @@ name: High Precision PET SKy Blue
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#2070cbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/abe4084ec1c8.png
   type: unspecified

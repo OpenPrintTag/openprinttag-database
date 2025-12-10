@@ -5,6 +5,8 @@ name: PETG Brown Coffee
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c37c4fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f58b9b1758f7.jpg
   type: unspecified

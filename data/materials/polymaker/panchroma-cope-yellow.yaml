@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Yellow '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/645c24087422.png
   type: unspecified

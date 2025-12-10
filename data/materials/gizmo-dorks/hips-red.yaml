@@ -5,6 +5,8 @@ name: HIPS Red
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#c01616ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a48dd6490b04.png
   type: unspecified

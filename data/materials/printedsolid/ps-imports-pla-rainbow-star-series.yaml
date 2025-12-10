@@ -5,11 +5,11 @@ name: PS Imports PLA Rainbow Star Series
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
-- b1628b95-b8f5-4d68-af73-86f6eb02d97a
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
+secondary_colors:
+- rgba: '#41a840ff'
+- rgba: '#db3fa9ff'
+- rgba: '#fbe200ff'
+- rgba: '#0099e6ff'
 tags:
 - multicolor
 - glitter

@@ -5,12 +5,12 @@ name: Technicolor Twist 2024 Rainbow Silk Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c323ee49-ce9a-43ee-a36c-11be96822c5e
-- ffac55c4-8216-492e-867c-41f23d78b44f
-- eecda309-302b-4cb5-8f7a-da175488c4bb
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- 229535f8-c6a8-4d8b-8115-e3ea5437a723
+secondary_colors:
+- rgba: '#9fec41ff'
+- rgba: '#be6730ff'
+- rgba: '#efdc4cff'
+- rgba: '#39b9dbff'
+- rgba: '#8873c7ff'
 tags:
 - silk
 - multicolor

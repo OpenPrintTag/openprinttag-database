@@ -4,6 +4,8 @@ brand_slug: filamentpm
 name: ' PA-CFJet - Black '
 class: FFF
 abbreviation: PA-CF
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

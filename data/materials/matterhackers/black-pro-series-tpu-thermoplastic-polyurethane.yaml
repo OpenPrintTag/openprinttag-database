@@ -5,6 +5,8 @@ name: Black PRO Series TPU (Thermoplastic Polyurethane)
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/38aff7ce1645.png
   type: unspecified

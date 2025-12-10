@@ -5,9 +5,9 @@ name: PLA Silk Dual Color (Green Purple)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 270e5a4a-01e7-4ce2-980b-34d46b05fb16
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
+secondary_colors:
+- rgba: '#adebb3ff'
+- rgba: '#6c47b2ff'
 tags:
 - silk
 - dual-color

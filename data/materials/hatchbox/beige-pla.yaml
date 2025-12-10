@@ -5,6 +5,8 @@ name: 'Beige PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e9d1c1ff'
 tags:
 - industrially-compostable
 photos:

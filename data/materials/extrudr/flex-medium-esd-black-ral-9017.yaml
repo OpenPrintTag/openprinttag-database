@@ -5,6 +5,8 @@ name: FLEX Medium ESD black | RAL 9017
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - esd-safe
 photos:

@@ -5,6 +5,8 @@ name: PLA Extrafill "Traffic Purple"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b1407fff'
 tags:
 - industrially-compostable
 photos:

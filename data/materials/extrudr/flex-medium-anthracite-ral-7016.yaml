@@ -5,6 +5,8 @@ name: FLEX Medium anthracite | RAL 7016
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a5c00bbf5f97.png
   type: unspecified

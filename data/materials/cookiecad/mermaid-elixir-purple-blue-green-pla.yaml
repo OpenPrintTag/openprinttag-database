@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/mermaid-elixir-puple-blue-green-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 18c01635-c179-4fc8-a14a-55e89356071b
-- 78319a7d-09a4-4d02-ad65-9242adf53586
-- 270e5a4a-01e7-4ce2-980b-34d46b05fb16
+secondary_colors:
+- rgba: '#be2ed6ff'
+- rgba: '#36dbe7ff'
+- rgba: '#adebb3ff'
 tags:
 - iridescent
 - silk

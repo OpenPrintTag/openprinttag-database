@@ -5,6 +5,8 @@ name: PETG "Melon Yellow"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f3b400ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/21feaa10bd2f.png
   type: unspecified

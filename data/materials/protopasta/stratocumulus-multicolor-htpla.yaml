@@ -5,10 +5,10 @@ name: Stratocumulus Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a683c1bf-a838-4373-9462-834e4cce4d64
-- 39db6382-0a70-4f97-a81e-aefee585ff63
-- 027889b2-61fe-40bc-8569-07e7e274ac69
+secondary_colors:
+- rgba: '#c9d0d4ff'
+- rgba: '#d7ede6ff'
+- rgba: '#39b9dbff'
 tags:
 - glitter
 - transparent

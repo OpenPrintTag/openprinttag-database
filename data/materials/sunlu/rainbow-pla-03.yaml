@@ -5,11 +5,11 @@ name: Rainbow PLA 03
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 93e5dc53-9de8-4dc6-9ca0-235489bcb13d
-- e3363aa8-459c-427a-9b6b-f1f723bc4a55
-- 7bf76913-9f53-409f-a62d-e0eca5dc136f
-- 74f6de17-9af7-4db1-88f2-2c7e0a7b4109
+secondary_colors:
+- rgba: '#6c47b2ff'
+- rgba: '#f4d9deff'
+- rgba: '#f4a0b1ff'
+- rgba: '#ae96d4ff'
 tags:
 - industrially-compostable
 - gradual-color-change

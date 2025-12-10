@@ -5,6 +5,8 @@ name: Rapid PLA Marble Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bed9ebff'
 tags:
 - imitates-marble
 - industrially-compostable

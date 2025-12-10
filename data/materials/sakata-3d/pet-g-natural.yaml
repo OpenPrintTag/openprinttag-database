@@ -5,6 +5,8 @@ name: PET-G Natural
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - transparent
 - without-pigments

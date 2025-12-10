@@ -5,6 +5,8 @@ name: CARBONX PEKK-A+CF15 Black
 class: FFF
 type_id: 1
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - contains-carbon-fiber
 - abrasive

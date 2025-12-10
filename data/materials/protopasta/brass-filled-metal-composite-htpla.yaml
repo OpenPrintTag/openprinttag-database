@@ -5,6 +5,8 @@ name: Brass-filled Metal Composite HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a6884cff'
 tags:
 - contains-brass
 - high-temperature

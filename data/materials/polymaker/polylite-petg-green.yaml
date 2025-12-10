@@ -5,6 +5,8 @@ name: PolyLite™ PETG Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#60ab61ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b2c71ca1ce2d.png
   type: unspecified

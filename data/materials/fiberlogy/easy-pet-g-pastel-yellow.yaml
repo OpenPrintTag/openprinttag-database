@@ -5,6 +5,8 @@ name: Easy PET-G Pastel Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fce575ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9beb16fc5fea.png
   type: unspecified

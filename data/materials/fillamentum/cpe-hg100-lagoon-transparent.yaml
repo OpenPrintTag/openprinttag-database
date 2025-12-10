@@ -5,6 +5,8 @@ name: CPE HG100 "Lagoon Transparent"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 tags:
 - translucent
 photos:

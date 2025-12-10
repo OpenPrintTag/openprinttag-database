@@ -5,6 +5,8 @@ name: TPU 85A Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/743ae1236e79.png
   type: unspecified

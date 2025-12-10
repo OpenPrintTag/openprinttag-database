@@ -5,6 +5,8 @@ name: Woodfill Chocolate Brown
 class: FFF
 abbreviation: Woodfill
 url: https://www.prusa3d.com/product/prusament-woodfill-chocolate-brown-1kg/
+primary_color:
+  rgba: '#543c27ff'
 tags:
 - contains-wood
 properties:

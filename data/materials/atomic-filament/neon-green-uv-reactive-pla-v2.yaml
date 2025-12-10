@@ -5,6 +5,8 @@ name: Neon Green UV Reactive PLA v2
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#83e665ff'
 tags:
 - neon
 - industrially-compostable

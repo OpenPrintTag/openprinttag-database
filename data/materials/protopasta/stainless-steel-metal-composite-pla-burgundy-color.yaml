@@ -5,6 +5,8 @@ name: Stainless Steel Metal Composite PLA - Burgundy color
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#863938ff'
 tags:
 - contains-metal
 - abrasive

@@ -5,6 +5,8 @@ name: CPE HG100 "Caramel Brown Metallic"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#be6730ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d8fa947f0c02.png
   type: unspecified

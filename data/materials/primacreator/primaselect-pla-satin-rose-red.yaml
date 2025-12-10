@@ -5,6 +5,8 @@ name: PrimaSelect PLA Satin Rose Red
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bf7473ff'
 tags:
 - satin
 - industrially-compostable

@@ -5,6 +5,8 @@ name: 'ABS Azure '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#0696efff'
 tags:
 - filtration-recomended
 photos:

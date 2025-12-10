@@ -5,6 +5,8 @@ name: WearX Wear Resistant Nylon Filament Black
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/6eb09f3fedb6.png
   type: unspecified

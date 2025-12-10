@@ -5,6 +5,8 @@ name: 'Super PLA+ Green '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0ccf81ff'
 tags:
 - industrially-compostable
 photos:

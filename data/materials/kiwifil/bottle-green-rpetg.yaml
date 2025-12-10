@@ -5,6 +5,8 @@ name: Bottle Green rPETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#214327ff'
 tags:
 - recycled
 - transparent

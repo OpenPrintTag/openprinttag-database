@@ -5,10 +5,10 @@ name: Sunny Indigo Tri-Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 78310003-cca4-4eb5-9a86-c778af38288e
-- 229535f8-c6a8-4d8b-8115-e3ea5437a723
-- 1f148a0c-96df-4073-ab16-f787460191f8
+secondary_colors:
+- rgba: '#5fbcddff'
+- rgba: '#8873c7ff'
+- rgba: '#eeea44ff'
 tags:
 - silk
 - triple-color

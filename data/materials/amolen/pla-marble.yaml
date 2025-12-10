@@ -5,9 +5,9 @@ name: 'PLA Marble '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e28a4749-344c-4e99-8ece-e693adb546f4
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors:
+- rgba: '#c3ccd5ff'
+- rgba: '#000000ff'
 tags:
 - imitates-marble
 - industrially-compostable

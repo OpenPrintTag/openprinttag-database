@@ -5,6 +5,8 @@ name: ' TPU NinjaTek Chinchilla - Midnight Black'
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/dc87b580c06f.png
   type: unspecified

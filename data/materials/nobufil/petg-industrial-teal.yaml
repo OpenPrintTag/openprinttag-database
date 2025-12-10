@@ -5,6 +5,8 @@ name: PETG Industrial Teal
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#3292b2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3517ca9f8fb7.png
   type: unspecified

@@ -5,6 +5,8 @@ name: High Speed 95A TPU Orange
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fc44f4261560.jpg
   type: unspecified

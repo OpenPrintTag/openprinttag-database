@@ -5,6 +5,8 @@ name: PLA+ Bone White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ccb2a1ff'
 tags:
 - industrially-compostable
 photos:

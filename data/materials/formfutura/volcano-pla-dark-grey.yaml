@@ -5,6 +5,8 @@ name: Volcano PLA Dark Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 tags:
 - matte
 - industrially-compostable

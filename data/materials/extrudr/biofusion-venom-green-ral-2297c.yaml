@@ -5,6 +5,8 @@ name: BioFusion venom green | RAL 2297C
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#91c500ff'
 tags:
 - silk
 - industrially-compostable

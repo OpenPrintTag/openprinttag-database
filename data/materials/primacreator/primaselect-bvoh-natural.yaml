@@ -5,6 +5,8 @@ name: PrimaSelect BVOH Natural
 class: FFF
 type_id: 44
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a7574757b945.png
   type: unspecified

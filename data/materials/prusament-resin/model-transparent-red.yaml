@@ -6,6 +6,8 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-resin-model-transparent-red-1kg/
+primary_color:
+  rgba: '#d21b31ff'
 tags:
 - transparent
 properties:

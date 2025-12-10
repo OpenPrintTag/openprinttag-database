@@ -4,6 +4,8 @@ brand_slug: sakata-3d
 name: FleX-920 Camel
 class: FFF
 abbreviation: FleX-920
+primary_color:
+  rgba: '#c6ad74ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/31f9cbe75557.png
   type: unspecified

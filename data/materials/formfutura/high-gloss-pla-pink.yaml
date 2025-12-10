@@ -5,6 +5,8 @@ name: ' High Gloss PLA Pink'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff67f5ff'
 tags:
 - silk
 - industrially-compostable

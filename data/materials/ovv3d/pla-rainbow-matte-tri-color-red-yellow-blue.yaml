@@ -5,10 +5,10 @@ name: PLA Rainbow Matte Tri-Color Red Yellow Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- f4de8784-1f2d-49d6-bc75-c29e15ada857
-- 7648d4a1-766f-4fe0-84f5-71c6f3fb5456
-- ea3cdc31-d220-47a4-b412-974dac0c8c4a
+secondary_colors:
+- rgba: '#0696efff'
+- rgba: '#fbe200ff'
+- rgba: '#fb6066ff'
 tags:
 - matte
 - industrially-compostable

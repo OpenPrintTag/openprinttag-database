@@ -5,6 +5,8 @@ name: PLA 850 Silk Gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ce8d00ff'
 tags:
 - industrially-compostable
 - silk

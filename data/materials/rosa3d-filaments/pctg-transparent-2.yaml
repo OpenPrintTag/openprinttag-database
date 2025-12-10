@@ -6,6 +6,8 @@ class: FFF
 type_id: 4
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pctg-transparent
+primary_color:
+  rgba: '#f5f5f5ff'
 tags:
 - transparent
 properties: {}

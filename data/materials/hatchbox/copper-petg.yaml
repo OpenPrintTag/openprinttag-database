@@ -5,6 +5,8 @@ name: Copper PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#af784dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1410968d15be.jpg
   type: unspecified

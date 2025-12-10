@@ -5,6 +5,8 @@ name: Pro PETG, Snow White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#efefefff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b41eac384da0.jpg
   type: unspecified

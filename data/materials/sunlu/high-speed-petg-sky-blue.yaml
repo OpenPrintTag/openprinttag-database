@@ -5,6 +5,8 @@ name: High Speed PETG Sky Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0696efff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/eef5a4a7aa13.jpg
   type: unspecified

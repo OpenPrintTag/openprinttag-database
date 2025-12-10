@@ -5,6 +5,8 @@ name: BioCREATE HT Light Gray
 class: FFF
 abbreviation: BioCREATE
 url: https://www.rosa3d.pl/en/filament-3d-refill-biocreate-ht-175mm-light-gray-1kg
+primary_color:
+  rgba: '#ecefedff'
 tags:
 - high-temperature
 properties: {}

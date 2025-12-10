@@ -5,9 +5,9 @@ name: PolyLite™ Neon ABS Magenta
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 8cb0b93c-a86c-4aa2-adbd-92e497eac93e
-- 3fb304ce-6af8-407c-85cd-41c567d640ce
+secondary_colors:
+- rgba: '#f300eaff'
+- rgba: '#ed1536ff'
 tags:
 - illuminescent-color-change
 - filtration-recomended

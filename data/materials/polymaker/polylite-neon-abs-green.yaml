@@ -5,9 +5,9 @@ name: PolyLite™ Neon ABS Green
 class: FFF
 type_id: 5
 abbreviation: ''
-colors:
-- 94cc9144-ec83-458c-a699-f65b9dcffda5
-- c3f32b49-5bf0-4737-af29-e5870e00da55
+secondary_colors:
+- rgba: '#7cef83ff'
+- rgba: '#6feedbff'
 tags:
 - illuminescent-color-change
 - filtration-recomended

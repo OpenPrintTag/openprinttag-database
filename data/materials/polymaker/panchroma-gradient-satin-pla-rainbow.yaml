@@ -5,11 +5,11 @@ name: Panchroma™ Gradient Satin PLA Rainbow
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 50d61abe-9af2-4b00-b0c8-087eeb6b2e71
-- 01900bb9-b61f-4e7c-9172-235fb1815b36
-- 7b580e8f-234c-46bc-9017-51fb050a93bd
-- cd7ff4b9-83cd-4737-9355-64b70c843db9
+secondary_colors:
+- rgba: '#f5cf6fff'
+- rgba: '#f5b797ff'
+- rgba: '#ce92ceff'
+- rgba: '#9ef9ffff'
 tags:
 - satin
 - industrially-compostable

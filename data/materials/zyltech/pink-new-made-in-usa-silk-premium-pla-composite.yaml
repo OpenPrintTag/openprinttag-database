@@ -5,6 +5,8 @@ name: Pink New Made In USA Silk Premium PLA Composite
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffbdd1ff'
 tags:
 - silk
 - industrially-compostable

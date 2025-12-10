@@ -5,6 +5,8 @@ name: FiberSmooth Black
 class: FFF
 type_id: 12
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - ipa-soluble
 photos:

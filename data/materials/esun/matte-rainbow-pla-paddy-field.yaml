@@ -5,9 +5,9 @@ name: Matte Rainbow PLA Paddy Field
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e861b404-aa99-4040-a982-5c5d2f5322d8
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
+secondary_colors:
+- rgba: '#fce575ff'
+- rgba: '#62e480ff'
 tags:
 - matte
 - dual-color

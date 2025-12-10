@@ -5,6 +5,8 @@ name: Second to None Silver HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a8b0bdff'
 tags:
 - glitter
 - high-temperature

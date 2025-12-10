@@ -5,6 +5,8 @@ name: White MH Build Series TPU Flexible
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2e607b73e5e7.png
   type: unspecified

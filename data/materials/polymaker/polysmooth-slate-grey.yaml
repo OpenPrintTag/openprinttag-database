@@ -4,6 +4,8 @@ brand_slug: polymaker
 name: PolySmooth™ Slate Grey
 class: FFF
 abbreviation: PolySmooth™
+primary_color:
+  rgba: '#91c2ccff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ba81a3d19548.png
   type: unspecified

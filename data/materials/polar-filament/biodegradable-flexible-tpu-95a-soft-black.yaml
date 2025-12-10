@@ -5,6 +5,8 @@ name: 'Biodegradable Flexible TPU-95A (soft) - Black '
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d01c328ffde4.png
   type: unspecified

@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Pink '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f09bb5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/13903fc33c3b.png
   type: unspecified

@@ -5,6 +5,8 @@ name: EasyWood Ebony
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#50483dff'
 tags:
 - contains-wood
 - industrially-compostable

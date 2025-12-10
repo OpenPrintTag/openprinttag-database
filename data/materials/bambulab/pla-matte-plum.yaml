@@ -5,6 +5,8 @@ name: PLA Matte Plum
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#b13566ff'
 tags:
 - matte
 - industrially-compostable

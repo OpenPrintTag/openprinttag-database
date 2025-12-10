@@ -5,6 +5,8 @@ name: Yellow Texas Size Spool PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b0440c175bc2.png
   type: unspecified

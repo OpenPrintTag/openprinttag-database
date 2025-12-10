@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Matte Magic-Sapphire-BlackishGreen
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- efae8549-8440-426e-8bf1-4080ee157fff
-- 372aeebc-7868-4a28-a87e-0fd476f3d93a
+secondary_colors:
+- rgba: '#0e21aeff'
+- rgba: '#144f3bff'
 tags:
 - matte
 - dual-color

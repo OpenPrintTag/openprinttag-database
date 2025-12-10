@@ -5,6 +5,8 @@ name: HIPS Pink
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#e23288ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/39b1628eddb9.png
   type: unspecified

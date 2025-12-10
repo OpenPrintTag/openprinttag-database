@@ -5,6 +5,8 @@ name: PETG "Greedy Dragon"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#aa0101ff'
 tags:
 - glitter
 photos:

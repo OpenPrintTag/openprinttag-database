@@ -5,6 +5,8 @@ name: Metallic Silver ASA Prime
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#9fa4a8ff'
 tags:
 - silk
 - imitates-metal

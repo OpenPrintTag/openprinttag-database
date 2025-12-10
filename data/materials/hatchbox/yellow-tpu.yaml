@@ -5,6 +5,8 @@ name: Yellow TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a33906972c80.jpg
   type: unspecified

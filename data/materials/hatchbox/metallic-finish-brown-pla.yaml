@@ -5,6 +5,8 @@ name: Metallic Finish Brown PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c06341ff'
 tags:
 - silk
 - industrially-compostable

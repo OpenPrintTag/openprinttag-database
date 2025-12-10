@@ -5,9 +5,9 @@ name: Tiger's Eye Dual Gradient Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66ba6765-a82e-4dfd-8c1c-a6569092bf6f
-- 146c00ab-9069-485b-886b-31d42e23e7d4
+secondary_colors:
+- rgba: '#1d1d1dff'
+- rgba: '#833f4dff'
 tags:
 - silk
 - industrially-compostable

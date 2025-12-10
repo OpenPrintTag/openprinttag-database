@@ -6,5 +6,7 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-resin-flex-gingiva-mask-1kg/
+primary_color:
+  rgba: '#db7f80ff'
 properties:
   density: 1.114

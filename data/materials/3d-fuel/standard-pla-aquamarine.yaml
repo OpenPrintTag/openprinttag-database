@@ -5,6 +5,8 @@ name: Standard PLA+, Aquamarine
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9ef9ffff'
 tags:
 - industrially-compostable
 photos:

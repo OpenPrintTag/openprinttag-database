@@ -5,6 +5,8 @@ name: PLA Pineapple Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#efd00bff'
 transmission_distance: 7.6
 tags:
 - industrially-compostable

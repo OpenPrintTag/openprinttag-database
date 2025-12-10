@@ -5,6 +5,8 @@ name: FLEX 77A True black
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/20d358d69779.png
   type: unspecified

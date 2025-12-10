@@ -5,6 +5,8 @@ name: Black MH Build Series TPU Flexible
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f33f94886ebf.png
   type: unspecified

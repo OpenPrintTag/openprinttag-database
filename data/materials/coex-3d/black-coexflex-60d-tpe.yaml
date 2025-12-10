@@ -5,6 +5,8 @@ name: Black CoexFlex™ 60D TPE
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/cff5821e5b14.png
   type: unspecified

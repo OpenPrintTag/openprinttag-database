@@ -5,6 +5,8 @@ name: PLA Extrafill "Peppered Mustard"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#dc9c43ff'
 tags:
 - imitates-marble
 - industrially-compostable

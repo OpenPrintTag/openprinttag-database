@@ -6,5 +6,7 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-rosa-tpu-hardtech-plus-83d-impact-abrasive-uv-h2o-microbe-resistant-gray-1kg
+primary_color:
+  rgba: '#808080ff'
 properties:
   hardness_shore_d: 83

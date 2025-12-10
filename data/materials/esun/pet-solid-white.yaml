@@ -5,6 +5,8 @@ name: PET Solid White
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ed4ea2e8f335.jpg
   type: unspecified

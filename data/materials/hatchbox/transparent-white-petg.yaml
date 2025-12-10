@@ -5,6 +5,8 @@ name: Transparent White PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e6eaefff'
 tags:
 - translucent
 photos:

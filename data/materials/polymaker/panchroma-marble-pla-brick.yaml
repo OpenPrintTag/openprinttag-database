@@ -5,6 +5,8 @@ name: Panchroma™ Marble PLA Brick
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d47460ff'
 tags:
 - imitates-marble
 - industrially-compostable

@@ -6,12 +6,12 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.sainsmart.com/products/multicolor-translucent-rainbow-1-75mm-pro-3-petg-filament-1kg?_pos=5&_fid=78605fd0c&_ss=c
-colors:
-- 3f216a6c-0611-4ad2-8086-8a6fce3a0395
-- e4fc5556-4f2f-4c3f-a82d-163e353b16ba
-- 597049be-cc71-4850-943c-175907ea9a42
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
-- de8b5008-10c9-4313-b403-d57b95f51999
+secondary_colors:
+- rgba: '#e72f1dff'
+- rgba: '#ff9a14ff'
+- rgba: '#fadb24ff'
+- rgba: '#62e480ff'
+- rgba: '#11784fff'
 tags:
 - translucent
 - gradual-color-change

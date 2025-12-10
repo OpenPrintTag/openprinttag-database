@@ -5,6 +5,8 @@ name: 'Translucen PETG Grass Green '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 tags:
 - translucent
 photos:

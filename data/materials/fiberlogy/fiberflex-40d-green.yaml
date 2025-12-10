@@ -5,6 +5,8 @@ name: FiberFlex 40D Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#58c91bff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/782f8b295eef.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Cool Gray PLA Pro+
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a9a8a0ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: PLA Glitter Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fb6066ff'
 tags:
 - glitter
 - industrially-compostable

@@ -5,6 +5,8 @@ name: DigiLab PETG-TRA-01 Translucent
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - transparent
 photos:

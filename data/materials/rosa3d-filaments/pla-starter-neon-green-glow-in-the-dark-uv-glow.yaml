@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-starter-neon-green-glow-in-the-dark-uv-glow-05kg
+primary_color:
+  rgba: '#70fa00ff'
 tags:
 - glow-in-the-dark
 - neon

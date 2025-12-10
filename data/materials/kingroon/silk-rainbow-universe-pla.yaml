@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://kingroon.com/products/kingroon-silk-rainbow-pla0123?variant=46828887245018
-colors:
-- e3d4e4d5-92a5-440a-9c2d-3fce1b4ae81b
-- 73baf610-aea4-46a8-b0d0-ef62bc779438
-- c837d94d-d78c-48c8-8383-622c4d5d0b03
+secondary_colors:
+- rgba: '#7f068cff'
+- rgba: '#1e5a4fff'
+- rgba: '#1e22aaff'
 tags:
 - silk
 - gradual-color-change

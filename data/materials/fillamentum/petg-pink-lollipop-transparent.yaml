@@ -5,6 +5,8 @@ name: PETG "Pink Lollipop Transparent"
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c80181ff'
 tags:
 - translucent
 photos:

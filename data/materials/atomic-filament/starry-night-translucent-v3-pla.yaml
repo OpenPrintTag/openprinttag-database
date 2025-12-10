@@ -5,6 +5,8 @@ name: Starry Night Translucent v3 PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 tags:
 - industrially-compostable
 - translucent

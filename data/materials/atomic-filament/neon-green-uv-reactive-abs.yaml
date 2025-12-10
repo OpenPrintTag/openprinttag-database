@@ -5,6 +5,8 @@ name: Neon Green UV Reactive ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#58c91bff'
 tags:
 - neon
 - filtration-recomended

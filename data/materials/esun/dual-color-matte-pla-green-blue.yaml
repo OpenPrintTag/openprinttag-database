@@ -5,9 +5,9 @@ name: Dual Color Matte PLA Green Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 619dde05-83ae-4bfa-bdf5-99feaee10d49
-- 34290be6-1668-4f4e-a0d0-e1b9d98ce51f
+secondary_colors:
+- rgba: '#008059ff'
+- rgba: '#2e56f1ff'
 tags:
 - matte
 - dual-color

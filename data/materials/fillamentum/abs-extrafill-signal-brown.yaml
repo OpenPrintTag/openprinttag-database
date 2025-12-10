@@ -5,6 +5,8 @@ name: ABS Extrafill "Signal Brown"
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#a6662eff'
 tags:
 - filtration-recomended
 photos:

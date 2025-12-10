@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Beige '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#d8ba64ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5ddf5a65c990.png
   type: unspecified

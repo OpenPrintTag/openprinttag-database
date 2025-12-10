@@ -5,6 +5,8 @@ name: ' Premium PLA C.C.Transparent'
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 tags:
 - translucent
 - industrially-compostable

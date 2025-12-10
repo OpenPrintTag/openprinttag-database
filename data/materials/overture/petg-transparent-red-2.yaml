@@ -5,6 +5,8 @@ name: PETG Transparent Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#b7293eff'
 tags:
 - translucent
 photos:

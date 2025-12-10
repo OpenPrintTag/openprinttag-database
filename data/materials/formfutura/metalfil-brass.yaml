@@ -5,6 +5,8 @@ name: MetalFil – Brass
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#998d58ff'
 tags:
 - contains-metal
 - abrasive

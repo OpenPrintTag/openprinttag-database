@@ -5,6 +5,8 @@ name: Panchroma™ Starlight PLA Meteor
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#706a47ff'
 tags:
 - iridescent
 - industrially-compostable

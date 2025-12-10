@@ -5,6 +5,8 @@ name: DuraPro ASA emerald green | RAL 6001
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#317c2eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f7a5a842374d.png
   type: unspecified

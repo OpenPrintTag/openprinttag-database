@@ -6,8 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-modre-svitici-ve-tme-1-75-mm-0-33-kg
-colors:
-- 1e59f006-188a-4b4a-8f9f-72ecc8b84125
+primary_color:
+  rgba: '#0099e6ff'
+secondary_colors:
+- rgba: '#efeadfff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

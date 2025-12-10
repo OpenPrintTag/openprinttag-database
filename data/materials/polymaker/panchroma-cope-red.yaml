@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Red '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e4ab36045751.png
   type: unspecified

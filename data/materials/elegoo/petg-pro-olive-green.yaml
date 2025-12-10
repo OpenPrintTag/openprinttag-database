@@ -5,6 +5,8 @@ name: PETG PRO Olive Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#3c5415ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/90ab6850fe98.png
   type: unspecified

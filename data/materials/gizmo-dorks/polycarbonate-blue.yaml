@@ -5,6 +5,8 @@ name: Polycarbonate Blue
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 tags:
 - transparent
 photos:

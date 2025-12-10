@@ -5,6 +5,8 @@ name: PrimaSelect PLA Matt Carbon Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#26272bff'
 tags:
 - matte
 - industrially-compostable

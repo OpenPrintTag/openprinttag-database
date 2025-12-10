@@ -5,6 +5,8 @@ name: 'PETG Beige '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fec8a4ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f7f5b0ada1d8.jpg
   type: unspecified

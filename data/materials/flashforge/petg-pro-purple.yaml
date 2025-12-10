@@ -5,6 +5,8 @@ name: PETG Pro Purple
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#663d7eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0c36779ad24b.jpg
   type: unspecified

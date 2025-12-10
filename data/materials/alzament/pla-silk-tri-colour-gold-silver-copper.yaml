@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-gold-silver-copper-d12869943.htm
-colors:
-- 2d209ab2-db62-40bc-8b0b-3c39e3f75e1c
-- cac47c60-01a3-4ed7-8c03-428fcd362d8f
-- 484d3d25-3bff-4523-bbee-3124b45be5e5
+secondary_colors:
+- rgba: '#f3b400ff'
+- rgba: '#aabccfff'
+- rgba: '#c06341ff'
 tags:
 - silk
 - gradual-color-change

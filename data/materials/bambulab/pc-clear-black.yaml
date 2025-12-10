@@ -5,6 +5,8 @@ name: PC Clear Black
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#5a5e60ff'
 tags:
 - translucent
 photos:

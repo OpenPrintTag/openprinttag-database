@@ -5,6 +5,8 @@ name: Metallic Finish Light Blue PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9cc7e6ff'
 tags:
 - silk
 - industrially-compostable

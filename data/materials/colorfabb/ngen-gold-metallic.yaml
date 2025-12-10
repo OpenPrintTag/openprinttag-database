@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: nGen Gold Metallic
 class: FFF
 abbreviation: nGen
+primary_color:
+  rgba: '#e3b145ff'
 tags:
 - silk
 - imitates-metal

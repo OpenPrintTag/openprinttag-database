@@ -5,6 +5,8 @@ name: 3DXMAX® ASA Reflex Blue
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5c09c1624b5c.png
   type: unspecified

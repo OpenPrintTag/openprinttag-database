@@ -5,6 +5,8 @@ name: 'Stone Red PLA '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c00000ff'
 tags:
 - imitates-marble
 - industrially-compostable

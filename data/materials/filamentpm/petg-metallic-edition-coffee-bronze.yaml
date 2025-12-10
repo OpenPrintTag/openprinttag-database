@@ -5,6 +5,8 @@ name: ' PETG metallic edition - Coffee Bronze '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6b5f37ff'
 tags:
 - imitates-metal
 - silk

@@ -5,6 +5,8 @@ name: Easy ABS - Transparent Burgundy
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#861d2bff'
 tags:
 - translucent
 - filtration-recomended

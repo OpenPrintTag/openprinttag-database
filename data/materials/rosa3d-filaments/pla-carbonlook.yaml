@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-carbonlook
+primary_color:
+  rgba: '#292824ff'
 tags:
 - contains-carbon-fiber
 properties: {}

@@ -5,6 +5,8 @@ name: 'Panchroma™ CoPE Purple '
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#6c5bb1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2176163626ca.png
   type: unspecified

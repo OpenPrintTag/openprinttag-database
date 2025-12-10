@@ -5,6 +5,8 @@ name: PrimaSelect PVA HT (High Temp) Natural
 class: FFF
 type_id: 1
 abbreviation: ''
+primary_color:
+  rgba: '#f1e6b2ff'
 tags:
 - water-soluble
 - low-outgassing

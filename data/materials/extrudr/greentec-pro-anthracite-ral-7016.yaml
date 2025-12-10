@@ -5,6 +5,8 @@ name: GreenTEC Pro anthracite | RAL 7016
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#55555eff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: Luminous PETG Glow in the Dark Yellow to Glow Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e4ff33ff'
 tags:
 - glow-in-the-dark
 - abrasive

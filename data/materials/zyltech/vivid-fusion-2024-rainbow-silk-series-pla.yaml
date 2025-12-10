@@ -5,12 +5,12 @@ name: Vivid Fusion 2024 Rainbow Silk Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 81b6959c-e011-4961-8c36-ca3797d0ff30
-- b630e9d4-6ac5-41dc-a156-7dc02c3a0538
-- ec23d495-05f9-48df-956b-7ed397e692cc
-- e50ce36d-9a2c-497a-9d0e-fc482e9f7ca8
-- 229535f8-c6a8-4d8b-8115-e3ea5437a723
+secondary_colors:
+- rgba: '#4f7bbbff'
+- rgba: '#fc6d8eff'
+- rgba: '#ff8b47ff'
+- rgba: '#95d05cff'
+- rgba: '#8873c7ff'
 tags:
 - silk
 - multicolor

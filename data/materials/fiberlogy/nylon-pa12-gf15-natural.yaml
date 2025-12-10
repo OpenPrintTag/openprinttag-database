@@ -5,6 +5,8 @@ name: Nylon PA12 + GF15 Natural
 class: FFF
 type_id: 25
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 tags:
 - contains-glass-fiber
 - abrasive

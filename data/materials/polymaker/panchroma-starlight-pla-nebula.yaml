@@ -5,6 +5,8 @@ name: Panchroma™ Starlight PLA Nebula
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a36a96ff'
 tags:
 - iridescent
 - industrially-compostable

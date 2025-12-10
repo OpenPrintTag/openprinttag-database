@@ -5,10 +5,10 @@ name: PLA Galaxy / Sparkle & Shiny Galaxy-Blue Purple Fuchsia
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 7bcc5b03-bd50-4722-8912-c1d6b6c019d2
-- 69e0155a-0ff7-4325-bde4-1fb0225c502b
-- e3d4e4d5-92a5-440a-9c2d-3fce1b4ae81b
+secondary_colors:
+- rgba: '#09048eff'
+- rgba: '#6802bcff'
+- rgba: '#7f068cff'
 tags:
 - multicolor
 - glitter

@@ -5,6 +5,8 @@ name: Glow in The Dark PETG Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#1adafbff'
 tags:
 - glow-in-the-dark
 - abrasive

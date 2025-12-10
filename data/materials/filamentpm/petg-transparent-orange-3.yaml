@@ -5,6 +5,8 @@ name: ' PETG - Transparent Orange '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#de6300ff'
 tags:
 - translucent
 photos:

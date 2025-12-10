@@ -5,6 +5,8 @@ name: BioCREATE HT Reseda Green
 class: FFF
 abbreviation: BioCREATE
 url: https://www.rosa3d.pl/en/filament-3d-refill-biocreate-ht-175mm-reseda-green-1kg
+primary_color:
+  rgba: '#add7abff'
 tags:
 - high-temperature
 properties: {}

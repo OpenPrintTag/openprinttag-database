@@ -5,6 +5,8 @@ name: EasyFil ePLA White Aluminium
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bfc3c2ff'
 tags:
 - industrially-compostable
 photos:

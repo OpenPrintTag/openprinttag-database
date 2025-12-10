@@ -5,6 +5,8 @@ name: High Speed 95A TPU Yellow
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#fffb00ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/98694d2b3acb.jpg
   type: unspecified

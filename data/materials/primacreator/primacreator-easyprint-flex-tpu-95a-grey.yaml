@@ -5,6 +5,8 @@ name: PrimaCreator™ EasyPrint FLEX TPU 95A Grey
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#7f7f7dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5c7b20f40a39.png
   type: unspecified

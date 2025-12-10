@@ -5,6 +5,8 @@ name: Chameleon Coastline PLA Shade-Shifting
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#488d94ff'
 tags:
 - iridescent
 - industrially-compostable

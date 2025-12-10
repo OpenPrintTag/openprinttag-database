@@ -5,6 +5,8 @@ name: Mysterious Abyss v2 Pearl PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#224c5dff'
 tags:
 - glitter
 - industrially-compostable

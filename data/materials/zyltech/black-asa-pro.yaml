@@ -5,6 +5,8 @@ name: Black ASA Pro
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/a6af3df58626.png
   type: unspecified

@@ -5,6 +5,8 @@ name: PETG transparent red | RAL 3003
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 tags:
 - translucent
 photos:

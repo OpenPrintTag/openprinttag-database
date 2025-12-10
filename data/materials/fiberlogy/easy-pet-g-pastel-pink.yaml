@@ -5,6 +5,8 @@ name: Easy PET-G Pastel Pink
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffcccdff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d32a147bee25.png
   type: unspecified

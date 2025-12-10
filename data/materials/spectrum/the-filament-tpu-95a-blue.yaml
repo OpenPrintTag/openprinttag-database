@@ -6,6 +6,8 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/the-filament-tpu-95a/
+primary_color:
+  rgba: '#0353baff'
 properties:
   density: 1.21
   hardness_shore_a: 95

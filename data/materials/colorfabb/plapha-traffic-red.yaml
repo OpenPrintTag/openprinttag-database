@@ -5,6 +5,8 @@ name: PLA/PHA Traffic Red
 class: FFF
 type_id: 43
 abbreviation: ''
+primary_color:
+  rgba: '#b81b0eff'
 tags:
 - home-compostable
 photos:

@@ -5,6 +5,8 @@ name: Standard PLA+, Flat Dark Earth
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ba8960ff'
 tags:
 - industrially-compostable
 photos:

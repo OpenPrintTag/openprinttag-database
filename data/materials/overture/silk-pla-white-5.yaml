@@ -5,6 +5,8 @@ name: Silk PLA White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ddd4caff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA-CF Midnight Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#282d42ff'
 tags:
 - contains-carbon-fiber
 - abrasive

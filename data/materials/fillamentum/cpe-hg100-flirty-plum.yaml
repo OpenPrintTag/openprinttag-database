@@ -5,6 +5,8 @@ name: CPE HG100 "Flirty Plum"
 class: FFF
 type_id: 3
 abbreviation: ''
+primary_color:
+  rgba: '#c75072ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7bef8a041a12.png
   type: unspecified

@@ -6,5 +6,7 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-resin-model-bright-cyan-1kg/
+primary_color:
+  rgba: '#0079a7ff'
 properties:
   density: 1.11

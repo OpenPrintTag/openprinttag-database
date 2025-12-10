@@ -5,6 +5,8 @@ name: Timberfill® "Light Wood Tone"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f1d7b8ff'
 tags:
 - imitates-wood
 - contains-wood

@@ -5,6 +5,8 @@ name: Economy Glitter PLA lemon-gold
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#90903bff'
 tags:
 - glitter
 - industrially-compostable

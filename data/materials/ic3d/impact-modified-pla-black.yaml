@@ -5,6 +5,8 @@ name: Impact Modified PLA Black
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - industrially-compostable
 photos:

@@ -5,6 +5,8 @@ name: Timberfill® "Charcoal"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 tags:
 - contains-wood
 - imitates-wood

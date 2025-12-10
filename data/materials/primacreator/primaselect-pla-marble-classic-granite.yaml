@@ -5,6 +5,8 @@ name: PrimaSelect PLA Marble Classic Granite
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e0e0dcff'
 tags:
 - imitates-marble
 - industrially-compostable

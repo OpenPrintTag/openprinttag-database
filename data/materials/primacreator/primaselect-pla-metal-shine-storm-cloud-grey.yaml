@@ -5,6 +5,8 @@ name: PrimaSelect PLA Metal-Shine Storm Cloud Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#436176ff'
 tags:
 - silk
 - imitates-metal

@@ -5,6 +5,8 @@ name: 'PolyLite™ PETG Red '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e20010ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0f8b9926f133.png
   type: unspecified

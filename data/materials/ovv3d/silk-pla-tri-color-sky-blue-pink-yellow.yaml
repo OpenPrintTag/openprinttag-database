@@ -5,10 +5,10 @@ name: 'Silk PLA Tri-color Sky Blue & Pink & Yellow '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 8bb4de2e-6470-400b-9997-5d3a1e7e55f1
-- d4e2a9a8-1033-452d-b4f9-e35c10e44b92
-- c62d8349-8eee-42dd-9576-a82205a8b919
+secondary_colors:
+- rgba: '#ffc946ff'
+- rgba: '#5feff9ff'
+- rgba: '#f06e92ff'
 tags:
 - silk
 - triple-color

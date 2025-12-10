@@ -5,6 +5,8 @@ name: StoneFil Granite
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#acb1baff'
 tags:
 - contains-stone
 - industrially-compostable

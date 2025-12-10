@@ -5,6 +5,8 @@ name: RAPID PETG Yellow
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/3c5959d3c72d.png
   type: unspecified

@@ -5,6 +5,8 @@ name: Polycarbonate Transparent
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#efe8d8ff'
 tags:
 - translucent
 photos:

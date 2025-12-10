@@ -5,6 +5,8 @@ name: 'Translucent Green MH Build Series PETG '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#00cc00ff'
 tags:
 - transparent
 photos:

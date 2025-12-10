@@ -5,9 +5,9 @@ name: Shadow Blade Dual Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- 3dade77e-bc86-487f-b91a-a6ee710f02b2
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#acb1baff'
 tags:
 - silk
 - dual-color

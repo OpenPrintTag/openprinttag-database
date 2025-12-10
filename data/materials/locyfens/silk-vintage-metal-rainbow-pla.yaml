@@ -5,10 +5,10 @@ name: Silk Vintage Metal Rainbow PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 3ec1c049-7d7d-45d4-a060-9c2f1b0889f0
-- c8c2345c-65ca-43de-824d-8d6b40b2de5e
-- d5585610-c30e-48e6-9c11-20a14afcf06f
+secondary_colors:
+- rgba: '#ce8d00ff'
+- rgba: '#81ba6dff'
+- rgba: '#af784dff'
 tags:
 - silk
 - multicolor

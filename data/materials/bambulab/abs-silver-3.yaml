@@ -5,6 +5,8 @@ name: 'ABS Silver '
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#9fa4a8ff'
 tags:
 - filtration-recomended
 photos:

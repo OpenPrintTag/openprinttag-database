@@ -5,6 +5,8 @@ name: EasyFil ePLA Matt Mint Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#adebb3ff'
 tags:
 - matte
 - industrially-compostable

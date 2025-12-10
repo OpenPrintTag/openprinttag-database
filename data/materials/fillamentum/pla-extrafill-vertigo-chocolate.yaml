@@ -5,6 +5,8 @@ name: PLA Extrafill "Vertigo Chocolate"
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6e4325ff'
 tags:
 - glitter
 - industrially-compostable

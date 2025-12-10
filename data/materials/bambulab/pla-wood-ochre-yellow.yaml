@@ -5,6 +5,8 @@ name: PLA Wood Ochre Yellow
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ea9e3fff'
 tags:
 - imitates-wood
 - matte

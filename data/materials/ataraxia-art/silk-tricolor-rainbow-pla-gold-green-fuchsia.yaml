@@ -5,10 +5,10 @@ name: Silk Tricolor Rainbow PLA Gold Green Fuchsia
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
-- 9129884e-0423-4868-a62b-844bae7e7bec
-- 9055a8db-e24e-4fbb-804d-902c691bd616
+secondary_colors:
+- rgba: '#e3b145ff'
+- rgba: '#2d9e59ff'
+- rgba: '#c80181ff'
 tags:
 - silk
 - triple-color

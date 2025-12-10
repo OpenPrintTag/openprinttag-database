@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-petg-shimmering-violet-1kg/
+primary_color:
+  rgba: '#1d1991ff'
 tags:
 - glitter
 - translucent

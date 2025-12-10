@@ -5,6 +5,8 @@ name: PLA-CF Iris Purple
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7142a3ff'
 tags:
 - contains-carbon-fiber
 - abrasive

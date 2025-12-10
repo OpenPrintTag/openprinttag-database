@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-grey.html
+primary_color:
+  rgba: '#9c9d9dff'
 properties:
   density: 1.24

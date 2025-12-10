@@ -6,5 +6,7 @@ class: SLA
 type_id: 27
 abbreviation: ''
 url: https://www.altana.com/cubic-ink/resins.html
+primary_color:
+  rgba: '#595959ff'
 properties:
   density: 1.11

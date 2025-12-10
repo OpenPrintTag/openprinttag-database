@@ -5,6 +5,8 @@ name: '"Powertool Green" rPETG'
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#e4ff33ff'
 tags:
 - recycled
 photos:

@@ -5,6 +5,8 @@ name: Flexfill PEBA 90A "Blue Transparent"
 class: FFF
 type_id: 23
 abbreviation: ''
+primary_color:
+  rgba: '#2c3294ff'
 tags:
 - translucent
 photos:

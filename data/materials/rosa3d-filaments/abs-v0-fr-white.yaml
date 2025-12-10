@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-abs-v0-fr-white
+primary_color:
+  rgba: '#f5f5f5ff'
 tags:
 - self-extinguishing
 properties: {}

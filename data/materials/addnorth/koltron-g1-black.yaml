@@ -4,6 +4,8 @@ brand_slug: addnorth
 name: Koltron G1 Black
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - conductive
 - self-extinguishing

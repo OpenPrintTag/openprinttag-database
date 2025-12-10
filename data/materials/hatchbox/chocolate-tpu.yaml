@@ -5,6 +5,8 @@ name: Chocolate TPU
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#281612ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0205d716f7a7.jpg
   type: unspecified

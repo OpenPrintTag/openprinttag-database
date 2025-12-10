@@ -5,6 +5,8 @@ name: BioFil – PCL Natural
 class: FFF
 type_id: 29
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 tags:
 - without-pigments
 - home-compostable

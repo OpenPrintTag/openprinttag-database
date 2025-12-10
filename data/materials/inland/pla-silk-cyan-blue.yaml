@@ -5,6 +5,8 @@ name: 'PLA Silk Cyan Blue '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#08abfbff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PETG Pearl White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#eaecf5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8770860e02a1.png
   type: unspecified

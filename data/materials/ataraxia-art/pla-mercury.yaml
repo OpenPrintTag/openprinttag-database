@@ -5,6 +5,8 @@ name: PLA Mercury
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#6299dfff'
 tags:
 - iridescent
 - industrially-compostable

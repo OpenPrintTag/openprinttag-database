@@ -5,6 +5,8 @@ name: PLA Cherry Wood
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#81615dff'
 tags:
 - contains-wood
 - imitates-wood

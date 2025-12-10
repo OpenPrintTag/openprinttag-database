@@ -5,10 +5,10 @@ name: PS Imports PLA Shiny Gradient-Red-Purple-Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e5ed4ede-599b-4976-bce5-f72c5de2e83f
-- 514e0edd-22a2-4dad-995d-fbc96825d7b6
-- 73cea3ac-baa8-407a-8992-de0427a347ae
+secondary_colors:
+- rgba: '#ac1a17ff'
+- rgba: '#7142a3ff'
+- rgba: '#033877ff'
 tags:
 - glitter
 - silk

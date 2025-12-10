@@ -6,5 +6,7 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.eumakers.com/pla-filament-color-brown.html
+primary_color:
+  rgba: '#d18136ff'
 properties:
   density: 1.24

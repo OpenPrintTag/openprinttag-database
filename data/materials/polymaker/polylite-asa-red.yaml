@@ -5,6 +5,8 @@ name: 'PolyLite™ ASA Red '
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8d7c15830eda.png
   type: unspecified

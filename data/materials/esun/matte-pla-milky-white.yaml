@@ -5,6 +5,8 @@ name: Matte PLA Milky White
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#efefefff'
 tags:
 - matte
 - industrially-compostable

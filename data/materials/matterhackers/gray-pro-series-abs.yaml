@@ -5,6 +5,8 @@ name: Gray PRO Series ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#abacb0ff'
 tags:
 - filtration-recomended
 photos:

@@ -6,8 +6,10 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.3djake.com/3djake/easypetg-glow
-colors:
-- 1e59f006-188a-4b4a-8f9f-72ecc8b84125
+primary_color:
+  rgba: '#62e480ff'
+secondary_colors:
+- rgba: '#efeadfff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change

@@ -5,6 +5,8 @@ name: Iced Amethyst PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#645b6eff'
 tags:
 - industrially-compostable
 photos:

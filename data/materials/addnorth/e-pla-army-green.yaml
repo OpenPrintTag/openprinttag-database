@@ -5,6 +5,8 @@ name: E-PLA Army Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#99a45fff'
 tags:
 - industrially-compostable
 photos:

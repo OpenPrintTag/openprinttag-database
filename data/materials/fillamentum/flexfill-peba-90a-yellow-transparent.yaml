@@ -5,6 +5,8 @@ name: Flexfill PEBA 90A "Yellow Transparent"
 class: FFF
 type_id: 23
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 tags:
 - translucent
 photos:

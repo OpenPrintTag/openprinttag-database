@@ -5,6 +5,8 @@ name: Army Green AF PCTG
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#515234ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f08c9df5bd66.png
   type: unspecified

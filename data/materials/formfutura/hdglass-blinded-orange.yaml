@@ -5,6 +5,8 @@ name: HDglass Blinded Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#f67405ff'
 tags:
 - silk
 photos:

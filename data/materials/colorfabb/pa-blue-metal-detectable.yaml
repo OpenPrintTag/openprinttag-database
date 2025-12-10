@@ -4,6 +4,8 @@ brand_slug: colorfabb
 name: PA Blue Metal Detectable
 class: FFF
 abbreviation: PA
+primary_color:
+  rgba: '#003b80ff'
 tags:
 - metal-detectable
 - contains-metal

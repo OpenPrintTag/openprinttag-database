@@ -5,6 +5,8 @@ name: Black CoexFlex™ 30D TPE
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1bf909f36b0e.png
   type: unspecified

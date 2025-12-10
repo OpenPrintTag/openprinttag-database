@@ -5,6 +5,8 @@ name: PETG Prusa Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#eb5405ff'
 transmission_distance: 6.2
 photos:
 - url: https://file.myfilamentlist.com/f/new/11f580fd2fad.png

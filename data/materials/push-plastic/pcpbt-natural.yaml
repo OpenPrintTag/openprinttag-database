@@ -5,6 +5,8 @@ name: PC+PBT Natural
 class: FFF
 type_id: 32
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9abfc2b4da1d.png
   type: unspecified

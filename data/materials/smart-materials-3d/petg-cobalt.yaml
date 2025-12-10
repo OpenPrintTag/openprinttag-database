@@ -5,6 +5,8 @@ name: PETG Cobalt
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#1e2f5aff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5f3af6927684.png
   type: unspecified

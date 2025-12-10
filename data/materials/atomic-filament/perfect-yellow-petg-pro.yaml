@@ -5,6 +5,8 @@ name: Perfect Yellow PETG PRO
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7171eb4221cc.png
   type: unspecified

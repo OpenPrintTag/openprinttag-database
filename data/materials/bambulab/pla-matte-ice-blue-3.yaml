@@ -5,6 +5,8 @@ name: PLA Matte Ice Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#8ed9f9ff'
 tags:
 - matte
 - industrially-compostable

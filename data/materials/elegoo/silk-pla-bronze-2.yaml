@@ -5,6 +5,8 @@ name: Silk PLA Bronze
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#a45b27ff'
 tags:
 - silk
 - industrially-compostable

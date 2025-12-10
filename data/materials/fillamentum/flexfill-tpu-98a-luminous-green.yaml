@@ -5,6 +5,8 @@ name: Flexfill TPU 98A "Luminous Green"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#62e480ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/830f87b15b2e.png
   type: unspecified

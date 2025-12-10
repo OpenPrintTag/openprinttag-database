@@ -5,10 +5,10 @@ name: PS Imports PLA TriColor Silk Magic-DarkRed-Green-Blue
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ca4f7e38-b23a-4f66-895d-8a91befb4ab7
-- 9ff71ced-a991-4871-802b-5d6e03ebbbdb
-- 5a211986-a671-47a8-bc55-4e7bdba231d7
+secondary_colors:
+- rgba: '#41a840ff'
+- rgba: '#0378d0ff'
+- rgba: '#c60f3eff'
 tags:
 - triple-color
 - silk

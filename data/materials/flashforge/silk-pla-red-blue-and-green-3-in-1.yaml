@@ -5,10 +5,10 @@ name: 'Silk PLA Red, Blue and Green 3 in 1 '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- c0825c68-2cea-41d3-ba88-d412b924f76b
-- 9797298d-1ac3-4f3f-b7dd-61fc848ceb70
-- 78a33020-fb35-4108-86d7-c0f74493c7a2
+secondary_colors:
+- rgba: '#67c993ff'
+- rgba: '#006eb6ff'
+- rgba: '#d33d3dff'
 tags:
 - silk
 - triple-color

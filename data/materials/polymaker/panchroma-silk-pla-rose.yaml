@@ -5,6 +5,8 @@ name: 'Panchroma™ Silk PLA Rose '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ff0078ff'
 tags:
 - silk
 - industrially-compostable

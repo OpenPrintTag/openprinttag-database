@@ -5,6 +5,8 @@ name: Silky Gold MH Build Series PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f6c500ff'
 tags:
 - silk
 - industrially-compostable

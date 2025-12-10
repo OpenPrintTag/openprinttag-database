@@ -5,6 +5,8 @@ name: OBSIDIAN GF+PA6 Red
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#b7293eff'
 tags:
 - contains-glass-fiber
 - abrasive

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/7/pla-filament-1-75-mm-sonnengelb-800-g?c=33
+primary_color:
+  rgba: '#fadb24ff'
 tags:
 - industrially-compostable
 properties: {}

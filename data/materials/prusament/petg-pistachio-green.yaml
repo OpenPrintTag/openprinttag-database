@@ -5,6 +5,8 @@ name: PETG Pistachio Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#93a683ff'
 transmission_distance: 0.9
 photos:
 - url: https://file.myfilamentlist.com/f/new/6cf2f78b000b.png

@@ -5,10 +5,10 @@ name: Nebula Rainbow Multicolor HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 62501316-b03c-4458-bab4-6cabd72b3242
-- d7ab972e-719b-44ae-a83c-5e3a8d861204
-- 2be7efb7-82da-4860-9d4e-984f8a1afcde
+secondary_colors:
+- rgba: '#4e6a84ff'
+- rgba: '#7c5577ff'
+- rgba: '#7b4d64ff'
 tags:
 - transparent
 - glitter

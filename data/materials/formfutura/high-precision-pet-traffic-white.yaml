@@ -5,6 +5,8 @@ name: High Precision PET Traffic White
 class: FFF
 type_id: 41
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/fa6c35a76dd1.png
   type: unspecified

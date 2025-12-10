@@ -6,12 +6,12 @@ class: FFF
 type_id: 26
 abbreviation: ''
 url: https://epax3d.com/collections/epax-filaments/products/epax-tpu-filament-1-75mm-1kg-2-2lb?variant=50516360069333
-colors:
-- 59a8cf67-5708-4589-909b-d806ac2d2a79
-- 307e4cc5-b36f-4d48-aa1c-db8eb780968a
-- 72a455ea-cd87-4a2d-b0a1-22d3b9c0e4e5
-- a3307156-f521-4e85-9527-92e5756a1571
-- 4381170c-2748-4efb-882c-d76941d58f3a
+secondary_colors:
+- rgba: '#62e480ff'
+- rgba: '#ff00a2ff'
+- rgba: '#ffb031ff'
+- rgba: '#7659b5ff'
+- rgba: '#00bfb3ff'
 tags:
 - translucent
 - gradual-color-change

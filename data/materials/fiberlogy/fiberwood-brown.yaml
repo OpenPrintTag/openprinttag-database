@@ -4,6 +4,8 @@ brand_slug: fiberlogy
 name: FiberWood Brown
 class: FFF
 abbreviation: FiberWood
+primary_color:
+  rgba: '#503529ff'
 tags:
 - imitates-wood
 - contains-wood

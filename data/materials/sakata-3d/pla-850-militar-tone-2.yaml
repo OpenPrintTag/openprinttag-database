@@ -5,6 +5,8 @@ name: PLA 850 Militar Tone 2
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#90903bff'
 tags:
 - industrially-compostable
 photos:

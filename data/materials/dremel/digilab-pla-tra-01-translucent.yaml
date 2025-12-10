@@ -5,6 +5,8 @@ name: DigiLab PLA-TRA-01 Translucent
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 tags:
 - transparent
 - industrially-compostable

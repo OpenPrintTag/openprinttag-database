@@ -5,6 +5,8 @@ name: Midnight Purple PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#7142a3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/260ab1c5266a.jpg
   type: unspecified

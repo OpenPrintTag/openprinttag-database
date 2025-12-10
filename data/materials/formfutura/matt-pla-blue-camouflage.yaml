@@ -5,6 +5,8 @@ name: Matt PLA Blue Camouflage
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#1e606cff'
 tags:
 - matte
 - industrially-compostable

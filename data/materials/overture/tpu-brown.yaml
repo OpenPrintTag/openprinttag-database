@@ -5,6 +5,8 @@ name: TPU Brown
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#d2a273ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/45f92b68ebc7.png
   type: unspecified

@@ -5,6 +5,8 @@ name: FiberFlex 30D Burgundy
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#98282fff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/728d12d04050.png
   type: unspecified

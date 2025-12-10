@@ -5,6 +5,8 @@ name: PC/ABS Natural
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 tags:
 - filtration-recomended
 photos:

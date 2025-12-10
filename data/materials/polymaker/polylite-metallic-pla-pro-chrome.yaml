@@ -5,6 +5,8 @@ name: PolyLite™ Metallic PLA Pro Chrome
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#545f67ff'
 tags:
 - imitates-metal
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA Basic Bright Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#d0ed03ff'
 tags:
 - industrially-compostable
 photos:

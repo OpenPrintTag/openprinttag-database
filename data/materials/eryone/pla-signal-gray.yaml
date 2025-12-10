@@ -5,6 +5,8 @@ name: PLA Signal Gray
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7f7f7dff'
 tags:
 - industrially-compostable
 photos:

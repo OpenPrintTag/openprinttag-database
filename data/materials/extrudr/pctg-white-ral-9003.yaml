@@ -5,6 +5,8 @@ name: PCTG white | RAL 9003
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/209e3acea56a.png
   type: unspecified

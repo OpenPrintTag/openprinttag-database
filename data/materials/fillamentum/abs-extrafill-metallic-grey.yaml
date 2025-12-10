@@ -5,6 +5,8 @@ name: ABS Extrafill "Metallic Grey"
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#acb1baff'
 tags:
 - filtration-recomended
 photos:

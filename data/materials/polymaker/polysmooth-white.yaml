@@ -4,6 +4,8 @@ brand_slug: polymaker
 name: 'PolySmooth™ White '
 class: FFF
 abbreviation: PolySmooth™
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5bee34a86209.png
   type: unspecified

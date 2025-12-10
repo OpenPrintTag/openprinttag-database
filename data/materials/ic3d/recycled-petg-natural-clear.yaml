@@ -5,6 +5,8 @@ name: Recycled PETG Natural (Clear)
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#d9d8deff'
 tags:
 - recycled
 - translucent

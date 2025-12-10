@@ -5,6 +5,8 @@ name: Blue PRO Series TPU (Thermoplastic Polyurethane)
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d6314a8c4a2b.png
   type: unspecified

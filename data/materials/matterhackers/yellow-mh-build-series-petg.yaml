@@ -5,6 +5,8 @@ name: Yellow MH Build Series PETG
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#fbe200ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/606f49a59de5.png
   type: unspecified

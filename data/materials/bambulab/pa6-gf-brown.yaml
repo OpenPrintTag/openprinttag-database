@@ -5,6 +5,8 @@ name: 'PA6-GF Brown '
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#b38f6eff'
 tags:
 - contains-glass-fiber
 - abrasive

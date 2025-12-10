@@ -5,6 +5,8 @@ name: ABSx Marble White
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#edf0f2ff'
 tags:
 - imitates-marble
 - filtration-recomended

@@ -5,6 +5,8 @@ name: HIPS Extrafill "Natural"
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 tags:
 - matte
 photos:

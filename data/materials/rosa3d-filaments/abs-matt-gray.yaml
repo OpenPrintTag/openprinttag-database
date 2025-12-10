@@ -6,6 +6,8 @@ class: FFF
 type_id: 5
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-abs-plus-matt-gray
+primary_color:
+  rgba: '#5c5b59ff'
 tags:
 - matte
 properties: {}

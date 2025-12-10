@@ -5,6 +5,8 @@ name: Red PRO Series Nylon
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#d32e1aff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/784ea7b3dc66.png
   type: unspecified

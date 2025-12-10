@@ -5,6 +5,8 @@ name: PrimaSelect NylonPower PA 6/66 Natural
 class: FFF
 type_id: 21
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9d2b76a2d913.png
   type: unspecified

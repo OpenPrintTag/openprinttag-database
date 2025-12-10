@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/pla-nature/
+primary_color:
+  rgba: '#efe8d8ff'
 tags:
 - contains-algae
 - satin

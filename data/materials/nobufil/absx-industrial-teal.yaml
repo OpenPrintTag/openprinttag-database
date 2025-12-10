@@ -5,6 +5,8 @@ name: ABSx Industrial Teal
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#3292b2ff'
 tags:
 - filtration-recomended
 photos:

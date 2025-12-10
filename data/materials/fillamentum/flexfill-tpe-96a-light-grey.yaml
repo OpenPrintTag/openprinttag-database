@@ -5,6 +5,8 @@ name: Flexfill TPE 96A "Light Grey"
 class: FFF
 type_id: 13
 abbreviation: ''
+primary_color:
+  rgba: '#c3ccd5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c094345eb323.png
   type: unspecified

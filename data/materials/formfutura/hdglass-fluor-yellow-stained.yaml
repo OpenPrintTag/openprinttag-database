@@ -5,6 +5,8 @@ name: HDglass Fluor Yellow Stained
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#c6f666ff'
 tags:
 - silk
 - translucent

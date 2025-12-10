@@ -5,6 +5,8 @@ name: Easy PLA Skin
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e5c7bbff'
 tags:
 - industrially-compostable
 photos:

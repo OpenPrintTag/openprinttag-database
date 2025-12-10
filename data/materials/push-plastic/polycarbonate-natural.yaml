@@ -5,6 +5,8 @@ name: Polycarbonate Natural
 class: FFF
 type_id: 42
 abbreviation: ''
+primary_color:
+  rgba: '#dfdfd3ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f1bdaf7d7e91.png
   type: unspecified

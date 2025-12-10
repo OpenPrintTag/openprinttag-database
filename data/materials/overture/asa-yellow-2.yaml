@@ -5,6 +5,8 @@ name: ASA Yellow
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#eeea44ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/e69629a52e29.jpg
   type: unspecified

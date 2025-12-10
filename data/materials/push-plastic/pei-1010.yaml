@@ -5,6 +5,8 @@ name: PEI 1010
 class: FFF
 type_id: 39
 abbreviation: ''
+primary_color:
+  rgba: '#e6b535ff'
 tags:
 - low-outgassing
 photos:

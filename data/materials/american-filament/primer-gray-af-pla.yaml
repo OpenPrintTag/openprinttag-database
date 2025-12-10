@@ -5,6 +5,8 @@ name: Primer Gray AF PLA+
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e0e0dcff'
 tags:
 - industrially-compostable
 photos:

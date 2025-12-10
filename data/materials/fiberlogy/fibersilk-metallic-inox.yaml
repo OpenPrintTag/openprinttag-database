@@ -5,6 +5,8 @@ name: FiberSilk Metallic Inox
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#bcbfc2ff'
 tags:
 - silk
 - industrially-compostable

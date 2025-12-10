@@ -5,6 +5,8 @@ name: BioWOOD
 class: FFF
 abbreviation: BioWOOD
 url: https://www.rosa3d.pl/en/filament-3d-biowood-1kg
+primary_color:
+  rgba: '#ba8960ff'
 tags:
 - contains-wood
 properties: {}

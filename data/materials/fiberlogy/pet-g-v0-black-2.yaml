@@ -5,6 +5,8 @@ name: PET-G V0 Black
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - self-extinguishing
 photos:

@@ -5,6 +5,8 @@ name: Rapid PETG White
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/af20920b14a3.jpg
   type: unspecified

@@ -5,6 +5,8 @@ name: 'Jessie Premium PETG White '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ffffffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/bb0ce7e35c68.png
   type: unspecified

@@ -5,9 +5,9 @@ name: Chameleon Gradient Rapid PLA Blue & Pink
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 284fb973-4370-49dd-82fc-d173a2431245
-- 5af5d34f-8c34-4305-b39b-ba2dd7f839e0
+secondary_colors:
+- rgba: '#f87fb5ff'
+- rgba: '#5c50e0ff'
 tags:
 - color-gradient
 - iridescent

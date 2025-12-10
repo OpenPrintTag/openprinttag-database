@@ -5,6 +5,8 @@ name: HS PLA Clear Light Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#58c91bff'
 tags:
 - transparent
 - industrially-compostable

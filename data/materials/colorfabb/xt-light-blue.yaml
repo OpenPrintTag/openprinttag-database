@@ -5,6 +5,8 @@ name: XT Light Blue
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#386dffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ec23d9dbb202.png
   type: unspecified

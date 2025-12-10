@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Sakura Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#e0a8bbff'
 tags:
 - matte
 - industrially-compostable

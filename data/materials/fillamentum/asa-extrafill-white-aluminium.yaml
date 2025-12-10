@@ -5,6 +5,8 @@ name: ASA Extrafill "White Aluminium"
 class: FFF
 type_id: 28
 abbreviation: ''
+primary_color:
+  rgba: '#bfc3c2ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/5f97df91be93.png
   type: unspecified

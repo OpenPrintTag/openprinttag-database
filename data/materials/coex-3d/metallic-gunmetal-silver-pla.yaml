@@ -5,6 +5,8 @@ name: Metallic Gunmetal Silver PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#4c5051ff'
 tags:
 - imitates-metal
 - silk

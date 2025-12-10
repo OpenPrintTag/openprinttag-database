@@ -5,6 +5,8 @@ name: PETG Ultra Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#0022ffff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/affd77b54378.png
   type: unspecified

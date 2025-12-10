@@ -5,6 +5,8 @@ name: Translucent Blood Red PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#932721ff'
 tags:
 - industrially-compostable
 - translucent

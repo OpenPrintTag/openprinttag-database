@@ -5,6 +5,8 @@ name: PETG Jungle Green
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#007249ff'
 transmission_distance: 0.5
 photos:
 - url: https://file.myfilamentlist.com/f/new/b0854136d230.png

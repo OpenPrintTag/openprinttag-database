@@ -5,6 +5,8 @@ name: MAX-G PETG  Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#aa0101ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/044c6d60dd74.png
   type: unspecified

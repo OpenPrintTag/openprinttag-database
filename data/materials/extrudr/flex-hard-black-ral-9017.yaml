@@ -5,6 +5,8 @@ name: FLEX Hard black | RAL 9017
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/431a1a049e6c.png
   type: unspecified

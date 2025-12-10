@@ -5,9 +5,9 @@ name: Aqua Serenity Dual Color Silk PLA
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
-- de8b5008-10c9-4313-b403-d57b95f51999
+secondary_colors:
+- rgba: '#0353baff'
+- rgba: '#11784fff'
 tags:
 - silk
 - dual-color

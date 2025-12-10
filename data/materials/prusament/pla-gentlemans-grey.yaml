@@ -5,6 +5,8 @@ name: PLA Gentleman's Grey
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#354047ff'
 transmission_distance: 0.3
 tags:
 - industrially-compostable

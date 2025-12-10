@@ -5,6 +5,8 @@ name: Silk PLA Skin
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#fec8a4ff'
 tags:
 - silk
 - industrially-compostable

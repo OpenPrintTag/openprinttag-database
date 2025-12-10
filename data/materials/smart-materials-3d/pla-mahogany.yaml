@@ -5,6 +5,8 @@ name: PLA Mahogany
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c65e0aff'
 tags:
 - industrially-compostable
 photos:

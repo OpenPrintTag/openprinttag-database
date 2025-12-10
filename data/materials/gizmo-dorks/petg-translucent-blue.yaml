@@ -5,6 +5,8 @@ name: PETG Translucent Blue
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#2e56f1ff'
 tags:
 - transparent
 photos:

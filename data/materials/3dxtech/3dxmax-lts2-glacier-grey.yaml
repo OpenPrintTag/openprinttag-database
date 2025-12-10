@@ -4,6 +4,8 @@ brand_slug: 3dxtech
 name: 3DXMAX LTS2 Glacier Grey
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#c3ccd5ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d71d2391317e.png
   type: unspecified

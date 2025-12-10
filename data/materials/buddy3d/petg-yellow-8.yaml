@@ -6,6 +6,8 @@ class: FFF
 type_id: 14
 abbreviation: ''
 url: https://www.prusa3d.com/product/buddy3d-petg-yellow-1kg/
+primary_color:
+  rgba: '#f2de00ff'
 properties:
   density: 1.28
   min_print_temperature: 240

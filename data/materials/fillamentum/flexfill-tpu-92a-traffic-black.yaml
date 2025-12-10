@@ -5,6 +5,8 @@ name: Flexfill TPU 92A "Traffic Black"
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/7ec7702e59c6.png
   type: unspecified

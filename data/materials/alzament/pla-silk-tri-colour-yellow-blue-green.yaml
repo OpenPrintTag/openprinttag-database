@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-yellow-blue-green-d12869940.htm
-colors:
-- 82d10fcd-36ab-4e67-8d09-fd9d22ae85e2
-- 2c3aef30-41c3-492d-ab84-8862af4cd79b
-- 3c681fd5-5b69-4f88-a2c5-356ad6c9fbe8
+secondary_colors:
+- rgba: '#fbf942ff'
+- rgba: '#0099e6ff'
+- rgba: '#26a648ff'
 tags:
 - silk
 - gradual-color-change

@@ -5,6 +5,8 @@ name: Panchroma™ Matte PLA Lotus Pink
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f19dcdff'
 tags:
 - matte
 - industrially-compostable

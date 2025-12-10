@@ -5,9 +5,9 @@ name: Panchroma™ Dual Silk PLA Jadeite (Green / Chrome)
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- a3665155-6618-4a91-9e08-381c8d4cf79c
-- 4bc32566-a0d7-458a-810c-bf3117ee6de8
+secondary_colors:
+- rgba: '#00a594ff'
+- rgba: '#545f67ff'
 tags:
 - silk
 - industrially-compostable

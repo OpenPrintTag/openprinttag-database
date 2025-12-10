@@ -5,6 +5,8 @@ name: Transparent Black ABS
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#373737ff'
 tags:
 - translucent
 - filtration-recomended

@@ -5,6 +5,8 @@ name: HIPS Natural white
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#f5f5f4ff'
 tags:
 - limonene-soluble
 - without-pigments

@@ -6,6 +6,8 @@ class: FFF
 type_id: 12
 abbreviation: ''
 url: https://www.prusa3d.com/product/prusament-pvb-bright-green-transparent-500g/
+primary_color:
+  rgba: '#51cc00ff'
 tags:
 - transparent
 - ipa-soluble

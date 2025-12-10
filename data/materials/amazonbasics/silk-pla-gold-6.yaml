@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.amazon.com/AmazonBasics-Printer-Filament-1-75mm-Spool/dp/B08896J53G?ref_=ast_sto_dp&th=1
+primary_color:
+  rgba: '#ddb95dff'
 tags:
 - silk
 - industrially-compostable

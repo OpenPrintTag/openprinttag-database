@@ -5,6 +5,8 @@ name: ABS Neon Yellow
 class: FFF
 type_id: 5
 abbreviation: ''
+primary_color:
+  rgba: '#f3b400ff'
 tags:
 - filtration-recomended
 photos:

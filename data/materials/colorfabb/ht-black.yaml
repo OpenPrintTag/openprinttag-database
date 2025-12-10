@@ -5,6 +5,8 @@ name: HT Black
 class: FFF
 type_id: 11
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/c25a3deede14.png
   type: unspecified

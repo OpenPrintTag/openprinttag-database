@@ -5,6 +5,8 @@ name: EasyFlex Green
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/ce64e69d0c16.png
   type: unspecified

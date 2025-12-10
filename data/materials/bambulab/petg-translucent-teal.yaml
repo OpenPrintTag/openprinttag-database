@@ -5,6 +5,8 @@ name: 'PETG Translucent Teal '
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#00b4bcff'
 tags:
 - translucent
 photos:

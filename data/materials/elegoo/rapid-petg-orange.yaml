@@ -5,6 +5,8 @@ name: RAPID PETG Orange
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#ff8e24ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2ae33283959c.png
   type: unspecified

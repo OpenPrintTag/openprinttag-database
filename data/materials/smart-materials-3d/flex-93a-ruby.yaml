@@ -5,6 +5,8 @@ name: FLEX 93A Ruby
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#e72f1dff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/2f38ce0b2a9b.png
   type: unspecified

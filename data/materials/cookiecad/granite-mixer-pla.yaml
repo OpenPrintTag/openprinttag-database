@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://cookiecad.com/products/granite-mixer-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
-colors:
-- 6309bc7c-5076-482a-8de0-93903d672d42
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
+secondary_colors:
+- rgba: '#eaecf5ff'
+- rgba: '#000000ff'
 tags:
 - coextruded
 - industrially-compostable

@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-violet
+primary_color:
+  rgba: '#9d00b1ff'
 tags:
 - glitter
 properties: {}

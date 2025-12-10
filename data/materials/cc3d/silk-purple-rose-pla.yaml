@@ -5,6 +5,8 @@ name: Silk Purple Rose PLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#c63dbaff'
 tags:
 - silk
 - industrially-compostable

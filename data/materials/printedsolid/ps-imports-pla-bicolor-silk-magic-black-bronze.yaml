@@ -5,9 +5,9 @@ name: PS Imports PLA Bicolor Silk Magic-Black-Bronze
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 61b825e8-a175-4c4d-81d5-cfc34ce4fd37
-- f915ae79-8b9d-447b-b113-23f6a5455f7e
+secondary_colors:
+- rgba: '#000000ff'
+- rgba: '#99a45fff'
 tags:
 - dual-color
 - silk

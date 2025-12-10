@@ -5,6 +5,8 @@ name: PLA Go&Print Light Blue
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#99f1ffff'
 tags:
 - industrially-compostable
 photos:

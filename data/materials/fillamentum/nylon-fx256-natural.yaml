@@ -4,6 +4,8 @@ brand_slug: fillamentum
 name: Nylon FX256 "Natural"
 class: FFF
 abbreviation: ''
+primary_color:
+  rgba: '#f2efe9ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/446ed9a30f3b.png
   type: unspecified

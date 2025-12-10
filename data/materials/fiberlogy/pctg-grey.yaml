@@ -5,6 +5,8 @@ name: PCTG Grey
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#c5c5bfff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/550295ad2960.png
   type: unspecified

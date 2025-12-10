@@ -5,6 +5,8 @@ name: Black HIPS
 class: FFF
 type_id: 35
 abbreviation: ''
+primary_color:
+  rgba: '#000000ff'
 tags:
 - matte
 photos:

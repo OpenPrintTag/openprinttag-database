@@ -6,6 +6,8 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://spectrumfilaments.com/en/filament/silk-pla/
+primary_color:
+  rgba: '#e8e8e6ff'
 tags:
 - silk
 - industrially-compostable

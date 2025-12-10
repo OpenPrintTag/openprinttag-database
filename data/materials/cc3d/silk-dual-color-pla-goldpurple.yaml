@@ -5,9 +5,9 @@ name: Silk Dual Color PLA Gold/Purple
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 90a85cc8-1736-4480-83a1-00434d403fe2
-- 0a165cb6-53d4-4b74-b9d8-8461c26a2554
+secondary_colors:
+- rgba: '#ffcb47ff'
+- rgba: '#8846aeff'
 tags:
 - silk
 - dual-color

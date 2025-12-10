@@ -5,6 +5,8 @@ name: Blue New Made In USA Silk Premium PLA Composite
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 tags:
 - silk
 - industrially-compostable

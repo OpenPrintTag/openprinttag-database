@@ -5,6 +5,8 @@ name: Silk PLA Teal
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#00a594ff'
 tags:
 - silk
 - industrially-compostable

@@ -5,6 +5,8 @@ name: TPU Glow-in-the-Dark Orange
 class: FFF
 type_id: 26
 abbreviation: ''
+primary_color:
+  rgba: '#ff9100ff'
 tags:
 - glow-in-the-dark
 - abrasive

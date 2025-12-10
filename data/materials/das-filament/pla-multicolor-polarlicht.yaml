@@ -6,10 +6,10 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/367/pla-filament-1-75-mm-multicolor-polarlicht-800-g?c=33
-colors:
-- e17dc81c-ca0a-4487-b681-2211202c5eb0
-- 027889b2-61fe-40bc-8569-07e7e274ac69
-- e10e5d92-77ac-491f-b6e8-dd3feedfdd54
+secondary_colors:
+- rgba: '#97d7d0ff'
+- rgba: '#39b9dbff'
+- rgba: '#0353baff'
 tags:
 - multicolor
 - gradual-color-change

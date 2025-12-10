@@ -6,9 +6,9 @@ class: FFF
 type_id: 38
 abbreviation: ''
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-magic-silk-dragon-fruit
-colors:
-- 70f1f0e7-07fc-4829-9749-c942d7e2042a
-- fec18c7b-511c-487c-9a4e-a922500ac5b4
+secondary_colors:
+- rgba: '#70fa00ff'
+- rgba: '#ff0066ff'
 tags:
 - silk
 - coextruded

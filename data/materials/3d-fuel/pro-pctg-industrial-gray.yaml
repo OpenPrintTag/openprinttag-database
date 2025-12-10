@@ -5,6 +5,8 @@ name: Pro PCTG, Industrial Gray
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#91a0b6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/9d2da752cf04.png
   type: unspecified

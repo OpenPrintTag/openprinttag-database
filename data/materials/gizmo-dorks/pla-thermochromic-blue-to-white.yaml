@@ -5,9 +5,9 @@ name: 'PLA Thermochromic Blue to White '
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- 66fedae0-8687-45fd-bcd3-1fb388ee78ee
-- e88106a6-8c4a-40bb-b08d-d8bc39c71965
+secondary_colors:
+- rgba: '#ffffffff'
+- rgba: '#0078bfff'
 tags:
 - temperature-color-change
 - industrially-compostable

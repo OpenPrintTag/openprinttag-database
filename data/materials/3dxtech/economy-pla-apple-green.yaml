@@ -5,6 +5,8 @@ name: Economy PLA apple-green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#9aed51ff'
 tags:
 - industrially-compostable
 photos:

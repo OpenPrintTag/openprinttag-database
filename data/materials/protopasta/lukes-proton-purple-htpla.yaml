@@ -5,6 +5,8 @@ name: Luke's Proton Purple HTPLA
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#7b4d64ff'
 tags:
 - glitter
 - high-temperature

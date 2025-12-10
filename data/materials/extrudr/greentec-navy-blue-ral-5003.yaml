@@ -5,6 +5,8 @@ name: GreenTEC navy blue | RAL 5003
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0e21aeff'
 tags:
 - matte
 - industrially-compostable

@@ -5,9 +5,9 @@ name: Silk Magic PLA Red Gold
 class: FFF
 type_id: 38
 abbreviation: ''
-colors:
-- ea3cdc31-d220-47a4-b412-974dac0c8c4a
-- c53a1e07-0cb5-4fad-aa2e-183fbfa5e54d
+secondary_colors:
+- rgba: '#fb6066ff'
+- rgba: '#e3b145ff'
 tags:
 - iridescent
 - silk

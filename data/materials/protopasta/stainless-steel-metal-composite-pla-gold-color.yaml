@@ -5,6 +5,8 @@ name: Stainless Steel Metal Composite PLA - Gold color
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#aca078ff'
 tags:
 - contains-metal
 - abrasive

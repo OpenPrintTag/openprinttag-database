@@ -5,6 +5,8 @@ name: PETG-CF Titan Gray
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#3b3e3fff'
 tags:
 - contains-carbon-fiber
 - abrasive

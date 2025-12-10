@@ -5,6 +5,8 @@ name: Marble PLA White Rock Stone
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#f5f5f4ff'
 tags:
 - imitates-marble
 - industrially-compostable

@@ -5,6 +5,8 @@ name: PLA Carbon Fiber Green
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#656d60ff'
 tags:
 - contains-carbon-fiber
 - abrasive

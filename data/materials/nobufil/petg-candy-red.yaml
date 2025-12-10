@@ -5,6 +5,8 @@ name: PETG Candy Red
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#aa0101ff'
 tags:
 - transparent
 photos:

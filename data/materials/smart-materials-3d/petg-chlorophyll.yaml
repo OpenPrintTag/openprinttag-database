@@ -5,6 +5,8 @@ name: PETG Chlorophyll
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#41a840ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/b9bea2c97ed8.png
   type: unspecified

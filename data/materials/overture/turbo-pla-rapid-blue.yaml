@@ -5,6 +5,8 @@ name: 'Turbo PLA Rapid Blue '
 class: FFF
 type_id: 38
 abbreviation: ''
+primary_color:
+  rgba: '#0353baff'
 tags:
 - industrially-compostable
 photos:

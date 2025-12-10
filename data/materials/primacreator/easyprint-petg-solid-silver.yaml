@@ -5,6 +5,8 @@ name: EasyPrint PETG Solid Silver
 class: FFF
 type_id: 14
 abbreviation: ''
+primary_color:
+  rgba: '#6a6c6eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1696dae8a9b2.png
   type: unspecified

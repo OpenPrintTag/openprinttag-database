@@ -5,6 +5,8 @@ name: Pro PCTG, Metallic Copper
 class: FFF
 type_id: 4
 abbreviation: ''
+primary_color:
+  rgba: '#a54830ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/33db145264ac.png
   type: unspecified
