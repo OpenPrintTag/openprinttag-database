@@ -9,6 +9,7 @@ Steps to be completed before release:
 1. Remove import script (`scripts/import_from_json.py`)
 2. Remove import script from Makefile
 3. Squash commits
+4. Chose and provide info about licence in ui-editor folder 
 
 ## Overview
 
