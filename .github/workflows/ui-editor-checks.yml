@@ -1,0 +1,71 @@
+name: UI Editor Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-typecheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for changes in ui-editor
+        id: check-changes
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            ui-editor:
+              - 'ui-editor/**'
+
+      - name: Setup Node.js
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Get pnpm store directory
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Setup pnpm cache
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        working-directory: ./ui-editor
+        run: pnpm install --frozen-lockfile
+
+      - name: Run ESLint
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        working-directory: ./ui-editor
+        run: pnpm lint
+
+      - name: Run TypeScript check
+        if: steps.check-changes.outputs.ui-editor == 'true'
+        working-directory: ./ui-editor
+        run: pnpm typecheck

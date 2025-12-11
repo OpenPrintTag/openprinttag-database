@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+}
+
+@layer theme {
+  :root, :host {
+    /* Prusa Research Color Palette - Based on CORE One website */
+    /* Primary Orange - Prusa Orange */
+    --prusa-orange: #ff6b35;
+    --prusa-orange-light: #ff8a5b;
+    --prusa-orange-dark: #e55a2b;
+    --prusa-orange-50: #fff4f0;
+    --prusa-orange-100: #ffe4d6;
+    --prusa-orange-200: #ffc9ad;
+    --prusa-orange-300: #ffa680;
+    --prusa-orange-400: #ff8a5b;
+    --prusa-orange-500: #ff6b35;
+    --prusa-orange-600: #e55a2b;
+    --prusa-orange-700: #cc4a21;
+    --prusa-orange-800: #b33a17;
+    --prusa-orange-900: #9a2a0d;
+
+    /* Neutral Grays - Prusa Gray Scale */
+    --prusa-gray: #2c3e50;
+    --prusa-gray-light: #34495e;
+    --prusa-gray-dark: #1a252f;
+    --prusa-gray-50: #f8f9fa;
+    --prusa-gray-100: #e9ecef;
+    --prusa-gray-200: #dee2e6;
+    --prusa-gray-300: #ced4da;
+    --prusa-gray-400: #adb5bd;
+    --prusa-gray-500: #6c757d;
+    --prusa-gray-600: #495057;
+    --prusa-gray-700: #343a40;
+    --prusa-gray-800: #212529;
+    --prusa-gray-900: #1a252f;
+
+    /* Accent Blue - Prusa Blue */
+    --prusa-blue: #3498db;
+    --prusa-blue-light: #5dade2;
+    --prusa-blue-dark: #2980b9;
+    --prusa-blue-50: #ebf3fd;
+    --prusa-blue-100: #d6e7fa;
+    --prusa-blue-200: #b3d4f7;
+    --prusa-blue-300: #80b8f0;
+    --prusa-blue-400: #4d9ce8;
+    --prusa-blue-500: #3498db;
+    --prusa-blue-600: #2980b9;
+    --prusa-blue-700: #1f5f8b;
+    --prusa-blue-800: #154360;
+    --prusa-blue-900: #0b2c3f;
+
+    /* Additional Prusa Colors from CORE One */
+    --prusa-success: #28a745;
+    --prusa-warning: #ffc107;
+    --prusa-danger: #dc3545;
+    --prusa-info: #17a2b8;
+
+    /* Background and Surface Colors */
+    --prusa-bg-primary: #ffffff;
+    --prusa-bg-secondary: #f8f9fa;
+    --prusa-bg-tertiary: #e9ecef;
+    --prusa-surface: #ffffff;
+    --prusa-surface-elevated: #ffffff;
+
+    /* Text Colors */
+    --prusa-text-primary: #212529;
+    --prusa-text-secondary: #6c757d;
+    --prusa-text-muted: #adb5bd;
+    --prusa-text-inverse: #ffffff;
+
+    /* Border Colors */
+    --prusa-border-light: #dee2e6;
+    --prusa-border-medium: #ced4da;
+    --prusa-border-dark: #adb5bd;
+
+    @variant dark {
+      /* Dark mode overrides - Prusa Dark Theme */
+      --color-gray-50: #0a0a0a;
+      --color-gray-100: #1a1a1a;
+      --color-gray-200: #2a2a2a;
+      --color-gray-300: #3a3a3a;
+      --color-gray-400: #4a4a4a;
+      --color-gray-500: #6a6a6a;
+      --color-gray-600: #8a8a8a;
+      --color-gray-700: #aaaaaa;
+      --color-gray-800: #cccccc;
+      --color-gray-900: #eeeeee;
+
+      --color-orange-50: #2d1b0f;
+      --color-orange-100: #4a2c1a;
+      --color-orange-200: #6d3d25;
+      --color-orange-300: #8f4e30;
+      --color-orange-400: #b15f3b;
+      --color-orange-500: #d37046;
+      --color-orange-600: #f58151;
+      --color-orange-700: #ff9262;
+      --color-orange-800: #ffa373;
+      --color-orange-900: #ffb484;
+
+      --color-blue-50: #0a1a2e;
+      --color-blue-100: #1a2a3e;
+      --color-blue-200: #2a3a4e;
+      --color-blue-300: #3a4a5e;
+      --color-blue-400: #4a5a6e;
+      --color-blue-500: #5a6a7e;
+      --color-blue-600: #6a7a8e;
+      --color-blue-700: #7a8a9e;
+      --color-blue-800: #8a9aae;
+      --color-blue-900: #9aaabe;
+
+      /* Dark mode background and surface colors */
+      --prusa-bg-primary: #0a0a0a;
+      --prusa-bg-secondary: #1a1a1a;
+      --prusa-bg-tertiary: #2a2a2a;
+      --prusa-surface: #1a1a1a;
+      --prusa-surface-elevated: #2a2a2a;
+
+      /* Dark mode text colors */
+      --prusa-text-primary: #ffffff;
+      --prusa-text-secondary: #cccccc;
+      --prusa-text-muted: #aaaaaa;
+      --prusa-text-inverse: #000000;
+
+      /* Dark mode border colors */
+      --prusa-border-light: #3a3a3a;
+      --prusa-border-medium: #4a4a4a;
+      --prusa-border-dark: #5a5a5a;
+    }
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300;
+  }
+
+  .btn-outline {
+    @apply border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform;
+  }
+
+  .card {
+    @apply bg-white dark:bg-black rounded-2xl shadow-xl border border-orange-200/30 dark:border-orange-500/30 p-8 hover:shadow-2xl transition-all duration-300 transform ;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-orange-50 via-white to-orange-100 dark:from-black dark:via-black dark:to-black;
+  }
+
+  .hero-gradient {
+    @apply bg-gradient-to-br from-white via-orange-50 to-orange-100 dark:from-black dark:via-black dark:to-black;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-orange-500 to-orange-500 dark:from-orange-500 dark:to-orange-600 bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply bg-white/80 dark:bg-black/80 backdrop-blur-sm border border-orange-200/30 dark:border-orange-500/30;
+  }
+
+  .glass-no-border {
+    @apply bg-white/80 dark:bg-black/80 backdrop-blur-sm;
+  }
+
+  .feature-card {
+    @apply bg-white/80 dark:bg-black dark:shadow-2xl dark:shadow-black/50 backdrop-blur-sm;
+  }
+
+  .feature-card-red {
+    @apply bg-white/80 dark:bg-black dark:shadow-2xl dark:shadow-black/50 backdrop-blur-sm;
+  }
+
+  .feature-card-blue {
+    @apply bg-white/80 dark:bg-black dark:shadow-2xl dark:shadow-black/50 backdrop-blur-sm;
+  }
+
+  .feature-card-green {
+    @apply bg-white/80 dark:bg-black dark:shadow-2xl dark:shadow-black/50 backdrop-blur-sm;
+  }
+
+  .feature-card-purple {
+    @apply bg-white/80 dark:bg-black dark:shadow-2xl dark:shadow-black/50 backdrop-blur-sm;
+  }
+
+  .feature-card-orange {
+    @apply bg-white/80 dark:bg-black dark:shadow-2xl dark:shadow-black/50 backdrop-blur-sm;
+  }
+
+  .floating {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  .pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+@layer components {
+    .page {
+        /* Unified page paddings and width */
+        @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6;
+    }
+    .btn {
+        /* Primary button uses Prusa Orange variables instead of blue */
+        @apply inline-flex items-center gap-1 rounded-md px-3 py-1.5 text-sm font-medium text-white shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+        background-color: var(--prusa-orange-600, var(--prusa-orange));
+        /* Hover state */
+        &:hover { background-color: var(--prusa-orange-700, #cc4a21); }
+        /* Focus ring in orange */
+        --tw-ring-color: var(--prusa-orange-500, var(--prusa-orange));
+    }
+    .btn-secondary {
+        /* Secondary button: neutral surface with orange focus */
+        @apply inline-flex items-center gap-1 rounded-md bg-white px-3 py-1.5 text-sm font-medium text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+    }
+    .card {
+        @apply rounded-lg border border-gray-200 bg-white shadow-sm;
+    }
+    .card-header {
+        @apply px-4 py-3 border-b border-gray-200 text-sm font-semibold text-gray-700;
+    }
+    .card-body {
+        @apply p-4;
+    }
+    .badge {
+        @apply inline-flex items-center rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 ring-1 ring-inset ring-gray-200;
+    }
+
+    /* Active state helper for list items/links using Prusa orange variables */
+    .active-soft {
+        @apply font-medium;
+        background-color: var(--prusa-orange-50);
+        color: var(--prusa-orange-700);
+    }
+
+    /* Link styled with Prusa orange */
+    .link-orange {
+        color: var(--prusa-orange-600, var(--prusa-orange));
+    }
+    .link-orange:hover { text-decoration: underline; }
+    .link-orange:focus-visible {
+        outline: 2px solid var(--prusa-orange-500, var(--prusa-orange));
+        outline-offset: 2px;
+    }
+
+    /* Form controls used across editors */
+    .input {
+        @apply w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+        --tw-ring-color: var(--prusa-orange-500, var(--prusa-orange));
+    }
+    .select {
+        @apply w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+        --tw-ring-color: var(--prusa-orange-500, var(--prusa-orange));
+    }
+    .textarea {
+        @apply w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+        --tw-ring-color: var(--prusa-orange-500, var(--prusa-orange));
+    }
+    .checkbox {
+        @apply h-4 w-4 rounded border border-gray-300 focus-visible:outline-none focus-visible:ring-2;
+        /* Use accent-color for checkbox checkmark using Prusa Orange */
+        accent-color: var(--prusa-orange-600, var(--prusa-orange));
+        --tw-ring-color: var(--prusa-orange-500, var(--prusa-orange));
+    }
+}

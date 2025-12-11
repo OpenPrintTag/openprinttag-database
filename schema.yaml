@@ -167,7 +167,7 @@ entities:
     root_key: "colors"
     fields:
       uuid:
-        type: string
+        type: uuid
         required: true
       palette:
         type: enum
