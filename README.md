@@ -9,7 +9,15 @@ Steps to be completed before release:
 1. Remove import script (`scripts/import_from_json.py`)
 2. Remove import script from Makefile
 3. Squash commits
-4. Chose and provide info about licence in ui-editor folder 
+4. Chose and provide info about licence in ui-editor folder
+5. Remove POC folders (no data from Directus, not ARCH compliant):
+   - `data/devices/accessories/`
+   - `data/devices/printers/`
+   - `data/print-sheet-types/`
+   - `data/slicing-profiles/`
+   - `data/material-slicing-profiles/`
+6. Remove POC lookup table:
+   - `data/lookup-tables/sla-container-connectors.yaml`
 
 ## Overview
 
