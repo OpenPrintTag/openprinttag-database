@@ -2,6 +2,7 @@ import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
 import React from 'react';
 
 import { SidebarSearch } from '~/components/SidebarSearch';
+import { PageLoader } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 import { useSidebarSearch } from '~/hooks/useSidebarSearch';
 import { slugifyName } from '~/utils/slug';
@@ -40,9 +41,7 @@ function PrintSheetTypesList() {
       <div className="mb-3 flex items-end justify-between gap-3">
         <h2 className="text-2xl font-bold">Print Sheet Types</h2>
       </div>
-      {loading && !data ? (
-        <div className="text-gray-600">Loading print sheet types…</div>
-      ) : null}
+      {loading && !data && <PageLoader />}
       {error ? <div className="text-red-700">Error: {error}</div> : null}
 
       {/* Small screens: toggleable sidebar */}

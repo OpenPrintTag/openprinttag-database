@@ -3,6 +3,7 @@ import React from 'react';
 
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { PageLoader } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 import { useUpdatePrinter } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
@@ -42,8 +43,7 @@ function RouteComponent() {
   const fields: Record<string, SchemaField> | null =
     (entitySchema?.fields as Record<string, SchemaField> | undefined) ?? null;
 
-  if (loading && !data)
-    return <div className="text-gray-600">Loading printer…</div>;
+  if (loading && !data) return <PageLoader />;
   if (error) return <div className="text-red-700">Error: {error}</div>;
   if (!data) return null;
 

@@ -4,6 +4,7 @@ import React from 'react';
 
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { PageLoader } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 import { useUpdateContainer } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
@@ -35,8 +36,7 @@ const RouteComponent = () => {
     return ent?.fields ?? null;
   }, [schema]);
 
-  if (loading && !data)
-    return <div className="text-gray-600">Loading container…</div>;
+  if (loading && !data) return <PageLoader />;
   if (error) return <div className="text-red-700">Error: {error}</div>;
   if (!data) return null;
 

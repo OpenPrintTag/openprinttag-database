@@ -27,3 +27,4 @@ export {
 } from './sheet';
 export { Skeleton } from './skeleton';
 export { Tabs, TabsContent, TabsList, TabsTrigger } from './tabs';
+export { Loader, PageLoader, InlineLoader, OverlayLoader } from './loader';
