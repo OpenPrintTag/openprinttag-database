@@ -80,6 +80,19 @@ export async function writeNestedByBrand(
   );
 }
 
+export async function deleteNestedByBrand(
+  entityDirName: string,
+  brandId: string,
+  id: string,
+) {
+  const mod = await import('~/server/data/fs');
+  return mod.deleteNestedByBrand(
+    entityDirName as any,
+    brandId as any,
+    id as any,
+  );
+}
+
 export async function readLookupTableItem(table: string, id: string) {
   const mod = await import('~/server/data/fs');
   return mod.readLookupTableItem(table as any, id as any);

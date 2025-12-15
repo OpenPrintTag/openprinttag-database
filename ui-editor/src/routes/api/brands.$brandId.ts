@@ -25,10 +25,27 @@ export const Route = createFileRoute('/api/brands/$brandId')({
         console.info(`PUT /api/brands/${id} @`, request.url);
         const body = await parseJsonSafe(request);
         if (!body.ok) return body.response;
-        const result = await writeEntity('brands', id, body.value);
+
+        const payload = body.value as any;
+
+        // Read existing data to check if name changed
+        const existing = await readEntity('brands', id);
+        if (existing && typeof existing === 'object' && 'name' in existing) {
+          const existingBrand = existing as Brand;
+          // If name changed, regenerate UUID
+          if (payload.name && payload.name !== existingBrand.name) {
+            const { generateBrandUuid } = await import('~/server/uuid-utils');
+            payload.uuid = generateBrandUuid(payload.name);
+          } else if (!payload.uuid && existingBrand.uuid) {
+            // Preserve existing UUID if not provided
+            payload.uuid = existingBrand.uuid;
+          }
+        }
+
+        const result = await writeEntity('brands', id, payload);
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
-        return json({ ok: true });
+        return json(payload);
       },
     },
   },
