@@ -14,7 +14,6 @@ function EnumIndex() {
   const tables = data?.tables ?? [];
   const [searchQuery, setSearchQuery] = React.useState('');
 
-  // Filter tables
   const filteredTables = React.useMemo(() => {
     if (!searchQuery.trim()) return tables;
     const query = searchQuery.trim().toLowerCase();
@@ -26,7 +25,6 @@ function EnumIndex() {
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
-      {/* Header Section */}
       <div className="space-y-2">
         <h1 className="text-3xl font-bold text-gray-900">Lookup Tables</h1>
         <p className="text-gray-600">
@@ -34,7 +32,6 @@ function EnumIndex() {
         </p>
       </div>
 
-      {/* Background Loading Indicator */}
       {loading && data && (
         <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
           <Loader2 className="h-4 w-4 animate-spin" />
@@ -42,7 +39,6 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Search Bar */}
       <div className="relative">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
           <Search
@@ -75,7 +71,6 @@ function EnumIndex() {
         )}
       </div>
 
-      {/* Results Info */}
       {searchQuery && (
         <div className="text-sm text-gray-600">
           Found <span className="font-semibold">{filteredTables.length}</span>{' '}
@@ -83,7 +78,6 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Loading State */}
       {loading && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 8 }).map((_, i) => (
@@ -97,7 +91,6 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Error State */}
       {!loading && error && (
         <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
           <div className="text-sm font-medium text-red-900">
@@ -107,7 +100,6 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Empty State */}
       {!loading && !error && data && tables.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
           <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
@@ -122,7 +114,6 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Tables Grid */}
       {!loading && !error && filteredTables.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {filteredTables.map((table) => {

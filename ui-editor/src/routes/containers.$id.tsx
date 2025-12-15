@@ -44,7 +44,6 @@ const RouteComponent = () => {
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
-      {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm text-gray-600">
         <Link
           to="/containers"
@@ -55,7 +54,6 @@ const RouteComponent = () => {
         </Link>
       </div>
 
-      {/* Container Header */}
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div className="flex-1">
           <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
@@ -115,7 +113,6 @@ const RouteComponent = () => {
                     try {
                       setForm(JSON.parse(txt));
                     } catch {
-                      // ignore until valid JSON
                     }
                   }}
                 />

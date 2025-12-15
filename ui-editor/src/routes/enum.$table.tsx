@@ -19,12 +19,13 @@ export const Route = createFileRoute('/enum/$table')({
   component: EnumTableList,
 });
 
+type SortOption = 'name-asc' | 'name-desc';
+
 function EnumTableList() {
   const { table } = Route.useParams();
   const navigate = useNavigate();
   const matches = useMatches();
 
-  // Check if there's an active child route (item detail)
   const hasChildRoute = matches.some((match) =>
     match.routeId.includes('/enum/$table/$id'),
   );
@@ -37,7 +38,6 @@ function EnumTableList() {
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
 
-  // Debounce search
   React.useEffect(() => {
     const timer = window.setTimeout(() => {
       setDebouncedSearch(searchQuery.trim());
@@ -45,11 +45,9 @@ function EnumTableList() {
     return () => window.clearTimeout(timer);
   }, [searchQuery]);
 
-  // Filter items
   const processedItems = React.useMemo(() => {
     let result = [...items];
 
-    // Filter by search query
     if (debouncedSearch) {
       const query = debouncedSearch.toLowerCase();
       result = result.filter((it) => {
@@ -68,7 +66,6 @@ function EnumTableList() {
       });
     }
 
-    // Sort by name A-Z
     result.sort((a, b) => {
       const nameA = String(a?.name ?? a?.slug ?? a?.id ?? '');
       const nameB = String(b?.name ?? b?.slug ?? b?.id ?? '');
@@ -82,7 +79,6 @@ function EnumTableList() {
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
-      {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm text-gray-600">
         <Link
           to="/enum"
@@ -93,7 +89,6 @@ function EnumTableList() {
         </Link>
       </div>
 
-      {/* Header Section */}
       <div className="space-y-2">
         <h1 className="text-3xl font-bold text-gray-900">{tableLabel}</h1>
         <p className="text-gray-600">
@@ -101,7 +96,6 @@ function EnumTableList() {
         </p>
       </div>
 
-      {/* Background Loading Indicator */}
       {loading && data && (
         <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
           <Loader2 className="h-4 w-4 animate-spin" />
@@ -109,7 +103,6 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Search Bar */}
       <div className="relative">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
           <Search
@@ -142,7 +135,6 @@ function EnumTableList() {
         )}
       </div>
 
-      {/* Results Info */}
       {debouncedSearch && (
         <div className="text-sm text-gray-600">
           Found <span className="font-semibold">{processedItems.length}</span>{' '}
@@ -150,7 +142,6 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Loading State */}
       {loading && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {Array.from({ length: 12 }).map((_, i) => (
@@ -164,7 +155,6 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Error State */}
       {!loading && error && (
         <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
           <div className="text-sm font-medium text-red-900">
@@ -174,7 +164,6 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Empty State - No Items */}
       {!loading && !error && data && items.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
           <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
@@ -189,7 +178,6 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Empty State - No Search Results */}
       {!loading &&
         !error &&
         data &&
@@ -217,7 +205,6 @@ function EnumTableList() {
           </div>
         )}
 
-      {/* Items Grid */}
       {!loading && !error && processedItems.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {processedItems.map((it, idx) => {
@@ -260,7 +247,6 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Item Detail Sheet */}
       <Sheet
         open={hasChildRoute}
         onOpenChange={(open) => {

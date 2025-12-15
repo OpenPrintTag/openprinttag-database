@@ -39,7 +39,6 @@ function RouteComponent() {
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
 
-  // Debounce search
   React.useEffect(() => {
     const timer = window.setTimeout(() => {
       setDebouncedSearch(searchQuery.trim());
@@ -47,11 +46,9 @@ function RouteComponent() {
     return () => window.clearTimeout(timer);
   }, [searchQuery]);
 
-  // Filter containers
   const processedContainers = React.useMemo(() => {
     let result = [...containers];
 
-    // Filter by search query
     if (debouncedSearch) {
       const query = debouncedSearch.toLowerCase();
       result = result.filter((container) => {
@@ -68,7 +65,6 @@ function RouteComponent() {
       });
     }
 
-    // Sort by name A-Z
     result.sort((a, b) => {
       const nameA = String(a.name ?? '');
       const nameB = String(b.name ?? '');
@@ -80,7 +76,6 @@ function RouteComponent() {
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
-      {/* Header Section */}
       <div className="space-y-2">
         <h1 className="text-3xl font-bold text-gray-900">
           Material Containers
@@ -91,7 +86,6 @@ function RouteComponent() {
         </p>
       </div>
 
-      {/* Background Loading Indicator - shown when refreshing with existing data */}
       {loading && data && (
         <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
           <Loader2 className="h-4 w-4 animate-spin" />
@@ -99,7 +93,6 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Search Bar */}
       <div className="relative">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
           <Search
@@ -132,7 +125,6 @@ function RouteComponent() {
         )}
       </div>
 
-      {/* Results Info */}
       {debouncedSearch && (
         <div className="text-sm text-gray-600">
           Found{' '}
@@ -141,7 +133,6 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Loading State */}
       {loading && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 12 }).map((_, i) => (
@@ -155,7 +146,6 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Error State */}
       {!loading && error && (
         <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
           <div className="text-sm font-medium text-red-900">
@@ -165,7 +155,6 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Empty State - No Containers */}
       {!loading && !error && data && containers.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
           <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
@@ -180,7 +169,6 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Empty State - No Search Results */}
       {!loading &&
         !error &&
         data &&
@@ -208,7 +196,6 @@ function RouteComponent() {
           </div>
         )}
 
-      {/* Containers Grid */}
       {!loading && !error && processedContainers.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {processedContainers.map((container) => {
@@ -248,7 +235,6 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Container Detail Sheet */}
       <Sheet
         open={!!containerId}
         onOpenChange={(open) => {
@@ -270,7 +256,6 @@ function RouteComponent() {
   );
 }
 
-// Container Detail Component
 function ContainerDetail({ containerId }: { containerId: string }) {
   const { data, error, loading } = useApi<Container>(
     () => `/api/containers/${containerId}`,
@@ -302,7 +287,6 @@ function ContainerDetail({ containerId }: { containerId: string }) {
 
   return (
     <div className="space-y-6">
-      {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm text-gray-600">
         <Link
           to="/containers"
@@ -313,7 +297,6 @@ function ContainerDetail({ containerId }: { containerId: string }) {
         </Link>
       </div>
 
-      {/* Header */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h4 className="text-2xl font-bold tracking-tight">{title}</h4>
@@ -335,7 +318,6 @@ function ContainerDetail({ containerId }: { containerId: string }) {
         )}
       </div>
 
-      {/* Container Details */}
       {editing && fields ? (
         <div className="card">
           <div className="card-header">Edit Container</div>
