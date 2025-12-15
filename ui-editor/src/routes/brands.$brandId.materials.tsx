@@ -1,6 +1,12 @@
-import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
+import {
+  createFileRoute,
+  Link,
+  Outlet,
+  useNavigate,
+} from '@tanstack/react-router';
 import React from 'react';
 
+import { MaterialSheet } from '~/components/material-sheet';
 import { SidebarSearch } from '~/components/SidebarSearch';
 import {
   type ColorsById,
@@ -12,11 +18,24 @@ import type { Material } from '~/types/material';
 
 export const Route = createFileRoute('/brands/$brandId/materials')({
   component: MaterialsByBrandComponent,
+  beforeLoad: () => {
+    // Redirect to brand page
+    throw new Error('Redirecting...');
+  },
 });
 
 function MaterialsByBrandComponent() {
   const { brandId } = Route.useParams();
-  const { data, error, loading } = useApi<Material[]>(
+  const navigate = useNavigate();
+
+  React.useEffect(() => {
+    // Redirect to brand page
+    navigate({
+      to: '/brands/$brandId',
+      params: { brandId },
+    });
+  }, [brandId, navigate]);
+  const { data, error, loading, refetch } = useApi<Material[]>(
     () => `/api/brands/${brandId}/materials`,
     undefined,
     [brandId],
@@ -36,6 +55,7 @@ function MaterialsByBrandComponent() {
     return byId;
   }, [colorsQuery.data]);
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
+  const [sheetOpen, setSheetOpen] = React.useState(false);
   const { query, setQuery, debounced } = useSidebarSearch('q');
 
   const materials = data ?? [];
@@ -64,14 +84,29 @@ function MaterialsByBrandComponent() {
     <div className="mt-4">
       <div className="mb-3 flex items-end justify-between gap-3">
         <h5 className="text-lg font-semibold">Materials for this brand</h5>
-        <Link
-          to="/brands/$brandId"
-          params={{ brandId }}
-          className="btn-secondary"
-        >
-          Back to brand
-        </Link>
+        <div className="flex gap-2">
+          <button onClick={() => setSheetOpen(true)} className="btn">
+            + New Material
+          </button>
+          <Link
+            to="/brands/$brandId"
+            params={{ brandId }}
+            className="btn-secondary"
+          >
+            Back to brand
+          </Link>
+        </div>
       </div>
+
+      <MaterialSheet
+        open={sheetOpen}
+        onOpenChange={setSheetOpen}
+        brandId={brandId}
+        mode="create"
+        onSuccess={() => {
+          refetch();
+        }}
+      />
 
       {/* Small screens: toggleable sidebar */}
       <div className="mb-2 md:hidden">

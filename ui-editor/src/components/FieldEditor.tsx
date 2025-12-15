@@ -15,11 +15,13 @@ export const FieldEditor = ({
   field,
   value,
   onChange,
+  disabled = false,
 }: {
   label: string;
   field: SchemaField;
   value: unknown;
   onChange: (val: unknown) => void;
+  disabled?: boolean;
 }) => {
   const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
   const type = field.type;
@@ -50,7 +52,7 @@ export const FieldEditor = ({
           className="select"
           value={stringValue}
           onChange={(e) => onChange(e.target.value || null)}
-          disabled={relOptions.loading || !!relOptions.error}
+          disabled={disabled || relOptions.loading || !!relOptions.error}
         >
           <option value="" disabled>
             {relOptions.loading ? 'Loading…' : 'Select…'}
@@ -113,7 +115,7 @@ export const FieldEditor = ({
           options={aopts.options}
           value={arr}
           onChange={onChange}
-          disabled={aopts.loading || !!aopts.error}
+          disabled={disabled || aopts.loading || !!aopts.error}
           placeholder={aopts.loading ? 'Loading…' : 'Select items...'}
           searchPlaceholder="Search..."
         />
@@ -129,22 +131,24 @@ export const FieldEditor = ({
   ) {
     const stringValue = typeof value === 'string' ? value : '';
     const isUuid = type === 'uuid';
+    const isDisabled = disabled || isUuid;
+    const displayLabel = isDisabled ? `${label} (read-only)` : label;
     return (
       <FormField
-        label={isUuid ? `${label} (read-only)` : label}
+        label={displayLabel}
         htmlFor={inputId}
         required={field.required}
       >
         <input
           id={inputId}
-          className={`input ${isUuid ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
+          className={`input ${isDisabled ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
           type="text"
           value={stringValue}
           maxLength={field.max_length}
           onChange={(e) => onChange(e.target.value)}
-          disabled={isUuid}
-          aria-disabled={isUuid}
-          title={isUuid ? 'This field is not editable' : undefined}
+          disabled={isDisabled}
+          aria-disabled={isDisabled}
+          title={isDisabled ? 'This field is not editable' : undefined}
         />
       </FormField>
     );
@@ -159,6 +163,7 @@ export const FieldEditor = ({
           className="input"
           type="number"
           value={numberValue}
+          disabled={disabled}
           onChange={(e) => {
             if (e.target.value === '') {
               onChange(null);
@@ -181,6 +186,7 @@ export const FieldEditor = ({
           type="checkbox"
           className="checkbox"
           checked={!!value}
+          disabled={disabled}
           onChange={(e) => onChange(e.target.checked)}
         />
       </FormField>
@@ -195,6 +201,7 @@ export const FieldEditor = ({
           id={inputId}
           className="select"
           value={enumValue}
+          disabled={disabled}
           onChange={(e) => onChange(e.target.value)}
         >
           <option value="" disabled>
@@ -225,6 +232,7 @@ export const FieldEditor = ({
             type="text"
             placeholder="Comma separated"
             value={arr.join(', ')}
+            disabled={disabled}
             onChange={(e) =>
               onChange(
                 e.target.value
@@ -312,6 +320,7 @@ export const FieldEditor = ({
         className="input"
         type="text"
         value={fallbackValue}
+        disabled={disabled}
         onChange={(e) => onChange(e.target.value)}
       />
     </FormField>

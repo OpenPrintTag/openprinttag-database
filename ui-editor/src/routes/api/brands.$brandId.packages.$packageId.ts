@@ -1,6 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
+import {
+  deleteNestedByBrand,
+  jsonError,
+  parseJsonSafe,
+  readNestedByBrand,
+  writeNestedByBrand,
+} from '~/server/http';
+
 export const Route = createFileRoute(
   '/api/brands/$brandId/packages/$packageId',
 )({
@@ -8,44 +16,87 @@ export const Route = createFileRoute(
     middleware: [],
     handlers: {
       GET: async ({ params, request }) => {
+        const { brandId, packageId } = params;
         console.info(
-          'GET /api/brands/:brandId/packages/:packageId @',
+          `GET /api/brands/${brandId}/packages/${packageId} @`,
           request.url,
         );
-        const { readSingleNestedByBrand } = await import('~/server/data/fs');
-        const data = await readSingleNestedByBrand(
+        const result = await readNestedByBrand(
           'material-packages',
-          params.brandId,
-          params.packageId,
+          brandId,
+          packageId,
         );
-        if ('error' in (data as { error?: string; status?: number })) {
-          const err = data as any;
-          return json({ error: err.error }, { status: err.status ?? 500 });
-        }
-        return json(data);
+        const errRes = jsonError(result, 404);
+        if (errRes) return errRes;
+        return json(result);
       },
       PUT: async ({ params, request }) => {
+        const { brandId, packageId } = params;
         console.info(
-          'PUT /api/brands/:brandId/packages/:packageId @',
+          `PUT /api/brands/${brandId}/packages/${packageId} @`,
           request.url,
         );
-        try {
-          const payload = await request.json();
-          const { writeNestedByBrand } = await import('~/server/data/fs');
-          const result = await writeNestedByBrand(
-            'material-packages',
-            params.brandId,
-            params.packageId,
-            payload,
-          );
-          if ((result as { error?: string; status?: number })?.error) {
-            const err = result as any;
-            return json({ error: err.error }, { status: err.status ?? 500 });
+        const body = await parseJsonSafe(request);
+        if (!body.ok) return body.response;
+
+        const payload = body.value as any;
+
+        // Read existing data to check if gtin changed
+        const existing = await readNestedByBrand(
+          'material-packages',
+          brandId,
+          packageId,
+        );
+        if (existing && typeof existing === 'object' && 'gtin' in existing) {
+          const existingPackage = existing as any;
+          // If gtin changed, regenerate UUID
+          if (payload.gtin && payload.gtin !== existingPackage.gtin) {
+            // Get brand UUID to generate package UUID
+            const { readSingleEntity } = await import('~/server/http');
+            const brand = await readSingleEntity('brands', brandId);
+            if (
+              brand &&
+              typeof brand === 'object' &&
+              'uuid' in brand &&
+              brand.uuid
+            ) {
+              const { generateMaterialPackageUuid } =
+                await import('~/server/uuid-utils');
+              payload.uuid = generateMaterialPackageUuid(
+                brand.uuid as string,
+                payload.gtin,
+              );
+            }
+          } else if (!payload.uuid && existingPackage.uuid) {
+            // Preserve existing UUID if not provided
+            payload.uuid = existingPackage.uuid;
           }
-          return json({ ok: true });
-        } catch (_err: any) {
-          return json({ error: 'Invalid request body' }, { status: 400 });
         }
+
+        const result = await writeNestedByBrand(
+          'material-packages',
+          brandId,
+          packageId,
+          payload,
+        );
+        const errRes = jsonError(result, 500);
+        if (errRes) return errRes;
+        return json(payload);
+      },
+      DELETE: async ({ params, request }) => {
+        const { brandId, packageId } = params;
+        console.info(
+          `DELETE /api/brands/${brandId}/packages/${packageId} @`,
+          request.url,
+        );
+        const result = await deleteNestedByBrand(
+          'material-packages',
+          brandId,
+          packageId,
+        );
+        const errRes = jsonError(result, 500);
+        if (errRes) return errRes;
+        return json({ ok: true });
       },
     },
   },

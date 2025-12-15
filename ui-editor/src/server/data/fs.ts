@@ -540,6 +540,49 @@ export async function writeNestedByBrand(
   return { error: `${entityDirName} item not found for brand`, status: 404 };
 }
 
+export async function deleteNestedByBrand(
+  entityDirName: string,
+  brandId: string,
+  id: string,
+): Promise<{ ok: true } | { error: string; status?: number }> {
+  const brandDir = await findBrandDirForNestedEntity(entityDirName, brandId);
+  if (!brandDir)
+    return { error: `${entityDirName} brand directory not found`, status: 500 };
+  let fileNames: string[] = [];
+  try {
+    fileNames = await fs.readdir(brandDir);
+  } catch (_err) {
+    return {
+      error: `Failed to read ${entityDirName} brand directory`,
+      status: 500,
+    };
+  }
+  const yamlFiles = fileNames.filter((f) => /\.(ya?ml)$/i.test(f));
+  const idStr = String(id);
+  for (const file of yamlFiles) {
+    const fullPath = path.join(brandDir, file);
+    try {
+      const content = await fs.readFile(fullPath, 'utf8');
+      const obj = await parseYaml(content);
+      const fileStem = file.replace(/\.(ya?ml)$/i, '');
+      const nameSlug = slugifyName(obj?.name);
+      const match =
+        obj &&
+        (String(obj.uuid) === idStr ||
+          obj.slug === idStr ||
+          fileStem === idStr ||
+          nameSlug === idStr);
+      if (match) {
+        await fs.unlink(fullPath);
+        return { ok: true };
+      }
+    } catch (_err) {
+      // continue
+    }
+  }
+  return { error: `${entityDirName} item not found for brand`, status: 404 };
+}
+
 // --- Lookup table helpers (single YAML file with an array under a top-level key) ---
 export async function readLookupTable(
   tableName: string,
@@ -586,7 +629,7 @@ export async function readLookupTableItem(
 }
 
 // Write helpers for lookup tables
-async function stringifyYaml(obj: any): Promise<string> {
+export async function stringifyYaml(obj: any): Promise<string> {
   try {
     const mod = (await import('yaml').catch(() => null as any)) as any;
     if (mod && typeof mod.stringify === 'function') {

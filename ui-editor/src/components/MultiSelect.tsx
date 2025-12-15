@@ -1,4 +1,7 @@
+import { ChevronDown, X } from 'lucide-react';
 import React, { useMemo, useState } from 'react';
+
+import { Badge } from '~/components/ui/badge';
 
 interface MultiSelectOption {
   value: string | number;
@@ -77,36 +80,30 @@ export const MultiSelect = ({
         aria-expanded={isOpen}
         aria-haspopup="listbox"
       >
-        <div className="flex flex-1 flex-wrap gap-1 overflow-hidden">
+        <div className="flex flex-1 flex-wrap gap-1.5 overflow-hidden">
           {selectedOptions.length > 0 ? (
             selectedOptions.map((opt) => (
-              <span
-                key={String(opt.value)}
-                className="inline-flex items-center gap-1 rounded-md bg-orange-100 px-2 py-0.5 text-xs font-medium text-orange-800 ring-1 ring-orange-200"
-              >
-                {opt.label}
-                <button
-                  type="button"
-                  onClick={(e) => handleRemove(String(opt.value), e)}
-                  className="ml-0.5 rounded hover:bg-orange-200 focus:outline-none"
-                  aria-label={`Remove ${opt.label}`}
-                  tabIndex={-1}
-                >
-                  <svg
-                    className="h-3 w-3"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
+              <Badge key={String(opt.value)} variant="secondary">
+                <div className="inline-flex items-center gap-1">
+                  {opt.label}
+                  <span
+                    role="button"
+                    onClick={(e) => handleRemove(String(opt.value), e)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        handleRemove(String(opt.value), e as any);
+                      }
+                    }}
+                    className="ml-1 cursor-pointer rounded hover:bg-[hsl(var(--secondary)/.6)] focus:outline-none"
+                    aria-label={`Remove ${opt.label}`}
+                    tabIndex={-1}
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                </button>
-              </span>
+                    <X className="h-3 w-3" />
+                  </span>
+                </div>
+              </Badge>
             ))
           ) : (
             <span className="text-gray-400">{placeholder}</span>
@@ -114,43 +111,28 @@ export const MultiSelect = ({
         </div>
         <div className="flex shrink-0 items-center gap-1">
           {selectedOptions.length > 0 && (
-            <button
-              type="button"
+            <span
+              role="button"
               onClick={handleClearAll}
-              className="rounded p-0.5 hover:bg-gray-100 focus:outline-none"
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleClearAll(e as any);
+                }
+              }}
+              className="cursor-pointer rounded p-0.5 hover:bg-gray-100 focus:outline-none"
               aria-label="Clear all"
               tabIndex={-1}
             >
-              <svg
-                className="h-4 w-4 text-gray-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
+              <X className="h-4 w-4 text-gray-500" />
+            </span>
           )}
-          <svg
+          <ChevronDown
             className={`h-4 w-4 text-gray-500 transition-transform ${
               isOpen ? 'rotate-180' : ''
             }`}
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
+          />
         </div>
       </button>
 
@@ -187,8 +169,8 @@ export const MultiSelect = ({
                         key={String(opt.value)}
                         role="option"
                         aria-selected={isSelected}
-                        className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 ${
-                          isSelected ? 'bg-orange-50' : ''
+                        className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-[hsl(var(--accent))] ${
+                          isSelected ? 'bg-[hsl(var(--accent)/.5)]' : ''
                         }`}
                         onClick={() => handleToggle(String(opt.value))}
                       >
