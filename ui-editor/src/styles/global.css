@@ -1,5 +1,152 @@
 @import 'tailwindcss';
 
+@theme {
+  --animate-in: enter 150ms ease-out;
+  --animate-out: exit 150ms ease-in;
+  --animate-accordion-down: accordion-down 200ms ease-out;
+  --animate-accordion-up: accordion-up 200ms ease-out;
+
+  @keyframes enter {
+    from {
+      opacity: var(--tw-enter-opacity, 1);
+      transform: translate3d(
+          var(--tw-enter-translate-x, 0),
+          var(--tw-enter-translate-y, 0),
+          0
+        )
+        scale3d(
+          var(--tw-enter-scale, 1),
+          var(--tw-enter-scale, 1),
+          var(--tw-enter-scale, 1)
+        )
+        rotate(var(--tw-enter-rotate, 0));
+    }
+  }
+
+  @keyframes exit {
+    to {
+      opacity: var(--tw-exit-opacity, 1);
+      transform: translate3d(
+          var(--tw-exit-translate-x, 0),
+          var(--tw-exit-translate-y, 0),
+          0
+        )
+        scale3d(
+          var(--tw-exit-scale, 1),
+          var(--tw-exit-scale, 1),
+          var(--tw-exit-scale, 1)
+        )
+        rotate(var(--tw-exit-rotate, 0));
+    }
+  }
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+@utility fade-in-* {
+  --tw-enter-opacity: calc(--modifier(integer) * 1%);
+}
+
+@utility fade-out-* {
+  --tw-exit-opacity: calc(--modifier(integer) * 1%);
+}
+
+@utility zoom-in-* {
+  --tw-enter-scale: calc(--modifier(integer) * 1%);
+}
+
+@utility zoom-out-* {
+  --tw-exit-scale: calc(--modifier(integer) * 1%);
+}
+
+@utility spin-in-* {
+  --tw-enter-rotate: --modifier(integer) * 1deg;
+}
+
+@utility spin-out-* {
+  --tw-exit-rotate: --modifier(integer) * 1deg;
+}
+
+@utility slide-in-from-top-* {
+  --tw-enter-translate-y: calc(--modifier(integer) * -0.25rem);
+}
+
+@utility slide-in-from-bottom-* {
+  --tw-enter-translate-y: calc(--modifier(integer) * 0.25rem);
+}
+
+@utility slide-in-from-left-* {
+  --tw-enter-translate-x: calc(--modifier(integer) * -0.25rem);
+}
+
+@utility slide-in-from-right-* {
+  --tw-enter-translate-x: calc(--modifier(integer) * 0.25rem);
+}
+
+@utility slide-out-to-top-* {
+  --tw-exit-translate-y: calc(--modifier(integer) * -0.25rem);
+}
+
+@utility slide-out-to-bottom-* {
+  --tw-exit-translate-y: calc(--modifier(integer) * 0.25rem);
+}
+
+@utility slide-out-to-left-* {
+  --tw-exit-translate-x: calc(--modifier(integer) * -0.25rem);
+}
+
+@utility slide-out-to-right-* {
+  --tw-exit-translate-x: calc(--modifier(integer) * 0.25rem);
+}
+
+@utility slide-in-from-top {
+  --tw-enter-translate-y: -100%;
+}
+
+@utility slide-in-from-bottom {
+  --tw-enter-translate-y: 100%;
+}
+
+@utility slide-in-from-left {
+  --tw-enter-translate-x: -100%;
+}
+
+@utility slide-in-from-right {
+  --tw-enter-translate-x: 100%;
+}
+
+@utility slide-out-to-top {
+  --tw-exit-translate-y: -100%;
+}
+
+@utility slide-out-to-bottom {
+  --tw-exit-translate-y: 100%;
+}
+
+@utility slide-out-to-left {
+  --tw-exit-translate-x: -100%;
+}
+
+@utility slide-out-to-right {
+  --tw-exit-translate-x: 100%;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
