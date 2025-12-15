@@ -126,7 +126,7 @@ function EnumTableList() {
           <button
             type="button"
             aria-label="Clear search"
-            className="absolute top-1/2 right-3 -translate-y-1/2 rounded-full p-1.5 transition-all hover:scale-110"
+            className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer rounded-full p-1.5 transition-all hover:scale-110"
             style={{ color: 'hsl(var(--muted-foreground))' }}
             onClick={() => setSearchQuery('')}
           >
@@ -198,7 +198,7 @@ function EnumTableList() {
             <Button
               variant="outline"
               onClick={() => setSearchQuery('')}
-              className="mt-4"
+              className="mt-4 cursor-pointer"
             >
               Clear search
             </Button>
@@ -225,7 +225,7 @@ function EnumTableList() {
                 to="/enum/$table/$id"
                 params={{ table, id: itemId }}
               >
-                <button className="group block w-full rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md">
+                <button className="group block w-full cursor-pointer rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md">
                   <div className="mb-2 flex items-start justify-between gap-2">
                     <div className="flex-1 truncate text-sm font-semibold text-gray-900 group-hover:text-orange-600">
                       {name}
