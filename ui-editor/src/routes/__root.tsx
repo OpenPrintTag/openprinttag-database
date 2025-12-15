@@ -18,7 +18,7 @@ import { seo } from '~/utils/seo';
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 1000 * 60 * 5, // 5 minutes
+      staleTime: 1000 * 60 * 5,
       refetchOnWindowFocus: false,
       retry: 1,
     },
@@ -88,7 +88,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body style={{ backgroundColor: 'hsl(var(--background))' }}>
         <QueryClientProvider client={queryClient}>
-          {/* Navigation Bar */}
           <nav
             className="sticky top-0 z-50 border-b shadow-sm"
             style={{
@@ -139,7 +138,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
               </div>
             </div>
           </nav>
-          {/* Main Content */}
           <div className="min-h-screen">{children}</div>
           <ReactQueryDevtools
             initialIsOpen={false}

@@ -11,14 +11,23 @@ export const Route = createFileRoute('/brands/')({
   component: RouteComponent,
 });
 
+const getBrandInitials = (name: string): string => {
+  if (!name) return '?';
+  const words = name.trim().split(/\s+/);
+  if (words.length === 1) {
+    return words[0].substring(0, 2).toUpperCase();
+  }
+  return (words[0][0] + words[1][0]).toUpperCase();
+};
+
+type SortOption = 'name-asc' | 'name-desc' | 'materials-desc' | 'packages-desc';
+
 function RouteComponent() {
-  // Load brands without counts first (fast)
   const { data, error, loading } = useApi<Brand[]>('/api/brands/basic');
   const brands = data ?? [];
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
 
-  // Debounce search
   React.useEffect(() => {
     const timer = window.setTimeout(() => {
       setDebouncedSearch(searchQuery.trim());
@@ -26,11 +35,9 @@ function RouteComponent() {
     return () => window.clearTimeout(timer);
   }, [searchQuery]);
 
-  // Filter brands
   const processedBrands = React.useMemo(() => {
     let result = [...brands];
 
-    // Filter by search query
     if (debouncedSearch) {
       const query = debouncedSearch.toLowerCase();
       result = result.filter((brand) => {
@@ -47,7 +54,6 @@ function RouteComponent() {
       });
     }
 
-    // Sort by name A-Z
     result.sort((a, b) => (a.name ?? '').localeCompare(b.name ?? ''));
 
     return result;
@@ -55,7 +61,6 @@ function RouteComponent() {
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-8 p-6">
-      {/* Header Section */}
       <div className="space-y-3">
         <h1
           className="text-4xl font-bold tracking-tight"
@@ -71,7 +76,6 @@ function RouteComponent() {
         </p>
       </div>
 
-      {/* Search Bar */}
       <div className="relative">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
           <Search
@@ -103,7 +107,6 @@ function RouteComponent() {
           </button>
         )}
       </div>
-      {/* Results Info */}
       {debouncedSearch && (
         <div
           className="text-sm"
@@ -126,9 +129,7 @@ function RouteComponent() {
           brands
         </div>
       )}
-      {/* Loading State */}
       {loading && !data && <BrandCardGridSkeleton count={12} />}
-      {/* Error State */}
       {!loading && error && (
         <div className="rounded-2xl border-2 border-red-200 bg-red-50 p-8 text-center shadow-md">
           <div className="text-base font-semibold text-red-900">
@@ -137,7 +138,6 @@ function RouteComponent() {
           <div className="mt-2 text-sm text-red-700">{error}</div>
         </div>
       )}
-      {/* Empty State - No Brands */}
       {!loading && !error && data && brands.length === 0 && (
         <div
           className="flex flex-col items-center justify-center rounded-2xl border-2 border-dashed p-16 text-center shadow-sm"
@@ -169,7 +169,6 @@ function RouteComponent() {
           </p>
         </div>
       )}
-      {/* Empty State - No Search Results */}
       {!loading &&
         !error &&
         data &&
@@ -219,7 +218,6 @@ function RouteComponent() {
             </button>
           </div>
         )}
-      {/* Brands Grid */}
       {!loading && !error && processedBrands.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {processedBrands.map((brand) => (

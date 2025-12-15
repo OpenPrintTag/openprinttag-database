@@ -9,7 +9,6 @@ export const Route = createFileRoute('/api/brands')({
     handlers: {
       GET: async ({ request }) => {
         console.info('GET /api/brands @', request.url);
-        // Avoid importing Node modules in the client bundle: dynamic import inside handler
         const {
           readAllEntities,
           readMaterialsByBrand,
@@ -25,14 +24,11 @@ export const Route = createFileRoute('/api/brands')({
           return json({ error: data.error }, { status: data.status ?? 500 });
         }
 
-        // Enrich brands with material and package counts
         const enrichedBrands: Brand[] = await Promise.all(
           data.map(async ({ __file, ...brand }) => {
-            // Get brand identifiers for lookup
             const brandId =
               slugifyName(brand.name) || brand.slug || brand.uuid || brand.id;
 
-            // Count materials
             let materialCount = 0;
             try {
               if (brandId) {
@@ -42,14 +38,12 @@ export const Route = createFileRoute('/api/brands')({
                 }
               }
             } catch (_error) {
-              // Ignore errors, keep count as 0
               console.warn(
                 `Failed to count materials for brand ${brandId}:`,
                 _error,
               );
             }
 
-            // Count packages
             let packageCount = 0;
             try {
               if (brandId) {
@@ -62,7 +56,6 @@ export const Route = createFileRoute('/api/brands')({
                 }
               }
             } catch (_error) {
-              // Ignore errors, keep count as 0
               console.warn(
                 `Failed to count packages for brand ${brandId}:`,
                 _error,
