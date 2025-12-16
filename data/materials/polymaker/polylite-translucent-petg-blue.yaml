@@ -3,12 +3,12 @@ slug: polylite-translucent-petg-blue
 brand_slug: polymaker
 name: PolyLite™ Translucent PETG Blue
 class: FFF
-type_id: 14
-abbreviation: ''
+type_id: 13
+abbreviation: PETG
 primary_color:
   rgba: '#003287ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/34673b82cf96.png
   type: unspecified

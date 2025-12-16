@@ -3,16 +3,15 @@ slug: silk-pla-rainbow-waltz
 brand_slug: flashforge
 name: Silk PLA Rainbow Waltz
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#4e486aff'
 - rgba: '#d33d3dff'
 tags:
 - silk
-- color-gradient
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/6d056f3380da.jpg
   type: unspecified

@@ -3,8 +3,8 @@ slug: tpu-95a-glass-purple
 brand_slug: esun
 name: TPU 95A Glass Purple
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#c63dbaff'
 tags:
@@ -12,4 +12,5 @@ tags:
 photos:
 - url: https://file.myfilamentlist.com/f/new/be73dd99e25d.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

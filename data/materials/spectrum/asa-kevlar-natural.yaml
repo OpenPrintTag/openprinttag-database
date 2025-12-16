@@ -3,13 +3,14 @@ slug: asa-kevlar-natural
 brand_slug: spectrum
 name: ASA Kevlar Natural
 class: FFF
-type_id: 28
-abbreviation: ''
+type_id: 27
+abbreviation: ASA
 url: https://spectrumfilaments.com/en/filament/asa-kevlar/
 primary_color:
   rgba: '#f1e6b2ff'
 tags:
 - contains-kevlar
 - abrasive
+- without-pigments
 properties:
   density: 1.07

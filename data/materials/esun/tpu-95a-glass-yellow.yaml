@@ -3,8 +3,8 @@ slug: tpu-95a-glass-yellow
 brand_slug: esun
 name: TPU 95A Glass Yellow
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#ebff57ff'
 tags:
@@ -12,4 +12,5 @@ tags:
 photos:
 - url: https://file.myfilamentlist.com/f/new/6bc0e92f48ab.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

@@ -3,17 +3,17 @@ slug: silk-mystic-pla-red-green-blue
 brand_slug: esun
 name: Silk Mystic PLA Red Green Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#206233ff'
-- rgba: '#d1006fff'
 - rgba: '#386dffff'
+- rgba: '#e34a94ff'
 tags:
-- triple-color
 - silk
 - iridescent
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/f1783e5cd6c1.jpg
   type: unspecified

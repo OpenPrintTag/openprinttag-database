@@ -3,15 +3,16 @@ slug: pla-burnt-titanium-nebula
 brand_slug: eryone
 name: 'PLA Burnt Titanium Nebula '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#008059ff'
-- rgba: '#393785ff'
 - rgba: '#af7d00ff'
+- rgba: '#003b80ff'
 tags:
 - industrially-compostable
 - gradual-color-change
+- iridescent
 photos:
 - url: https://file.myfilamentlist.com/f/new/61655008e4d0.jpg
   type: unspecified

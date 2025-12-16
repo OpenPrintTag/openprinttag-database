@@ -3,14 +3,15 @@ slug: silk-pla-yellow-blue
 brand_slug: creality
 name: Silk PLA Yellow-Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#006eb6ff'
 - rgba: '#fbf942ff'
+- rgba: '#0078bfff'
 tags:
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/be1697ca34a1.jpg
   type: unspecified

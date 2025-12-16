@@ -3,13 +3,13 @@ slug: panchroma-translucent-pla-grey
 brand_slug: polymaker
 name: 'Panchroma™ Translucent PLA Grey  '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#9f9f9fff'
 tags:
-- transparent
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/99300494328a.png
   type: unspecified

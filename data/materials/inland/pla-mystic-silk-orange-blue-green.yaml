@@ -3,16 +3,16 @@ slug: pla-mystic-silk-orange-blue-green
 brand_slug: inland
 name: PLA Mystic Silk Orange Blue Green
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff8133ff'
-- rgba: '#2070cbff'
 - rgba: '#008059ff'
+- rgba: '#0378d0ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/158badefa36a.jpg
   type: unspecified

@@ -3,15 +3,15 @@ slug: matte-rainbow-pla-paddy-field
 brand_slug: esun
 name: Matte Rainbow PLA Paddy Field
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fce575ff'
 - rgba: '#62e480ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/4509f2643007.jpg
   type: unspecified

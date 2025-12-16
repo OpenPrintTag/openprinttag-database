@@ -3,8 +3,8 @@ slug: pla-glitter-fast-color-change-rainbow
 brand_slug: ataraxia-art
 name: 'PLA Glitter Fast Color Change Rainbow '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#41a840ff'
 - rgba: '#c6f666ff'
@@ -13,8 +13,8 @@ secondary_colors:
 - rgba: '#0353baff'
 tags:
 - glitter
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/c4e8c69b1c24.jpg
   type: unspecified

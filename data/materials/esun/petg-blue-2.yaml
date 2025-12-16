@@ -3,12 +3,12 @@ slug: petg-blue-2
 brand_slug: esun
 name: 'PETG Blue '
 class: FFF
-type_id: 14
-abbreviation: ''
+type_id: 13
+abbreviation: PETG
 primary_color:
-  rgba: '#274bb6ff'
+  rgba: '#0353baff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/21e28cd4fa18.jpg
   type: unspecified

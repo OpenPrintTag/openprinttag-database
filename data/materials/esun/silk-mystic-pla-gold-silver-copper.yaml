@@ -3,17 +3,17 @@ slug: silk-mystic-pla-gold-silver-copper
 brand_slug: esun
 name: Silk Mystic PLA Gold Silver Copper
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#641501ff'
 - rgba: '#e3b145ff'
 - rgba: '#c9d0d4ff'
+- rgba: '#863938ff'
 tags:
 - iridescent
-- triple-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/34b8c0aaf839.jpg
   type: unspecified

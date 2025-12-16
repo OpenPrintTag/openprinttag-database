@@ -3,16 +3,15 @@ slug: seafoam-green-multicolor-htpla
 brand_slug: protopasta
 name: Seafoam Green Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#40e0d0ff'
 - rgba: '#32a584ff'
 tags:
-- dual-color
-- color-gradient
 - high-temperature
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/2cc868e812b5.png
   type: unspecified

@@ -3,12 +3,13 @@ slug: petg-natural-2
 brand_slug: esun
 name: PETG Natural
 class: FFF
-type_id: 14
-abbreviation: ''
+type_id: 13
+abbreviation: PETG
 primary_color:
   rgba: '#d9d8deff'
 tags:
 - transparent
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/d56b45180b80.jpg
   type: unspecified

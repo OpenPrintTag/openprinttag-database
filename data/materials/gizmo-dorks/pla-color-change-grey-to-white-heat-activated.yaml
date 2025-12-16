@@ -3,13 +3,12 @@ slug: pla-color-change-grey-to-white-heat-activated
 brand_slug: gizmo-dorks
 name: PLA Color Change Grey to White (Heat Activated)
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffffffff'
 - rgba: '#9fa4a8ff'
 tags:
-- dual-color
 - temperature-color-change
 - industrially-compostable
 photos:

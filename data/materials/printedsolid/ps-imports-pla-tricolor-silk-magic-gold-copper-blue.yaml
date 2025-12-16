@@ -3,12 +3,12 @@ slug: ps-imports-pla-tricolor-silk-magic-gold-copper-blue
 brand_slug: printedsolid
 name: PS Imports PLA TriColor Silk Magic-Gold-Copper-Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffcb47ff'
-- rgba: '#a54830ff'
 - rgba: '#0353baff'
+- rgba: '#904029ff'
 tags:
 - silk
 - industrially-compostable

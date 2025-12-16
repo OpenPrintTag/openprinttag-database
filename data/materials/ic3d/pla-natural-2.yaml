@@ -3,12 +3,13 @@ slug: pla-natural-2
 brand_slug: ic3d
 name: PLA Natural
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#fadca4ff'
 tags:
 - industrially-compostable
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/5fb2e3276a55.png
   type: unspecified

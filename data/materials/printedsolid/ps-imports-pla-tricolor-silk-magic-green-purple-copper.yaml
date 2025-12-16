@@ -3,16 +3,16 @@ slug: ps-imports-pla-tricolor-silk-magic-green-purple-copper
 brand_slug: printedsolid
 name: PS Imports PLA TriColor Silk Magic-Green-Purple-Copper
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#11784fff'
 - rgba: '#6c47b2ff'
 - rgba: '#641501ff'
 tags:
-- triple-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/17ba3eca334f.png
   type: unspecified

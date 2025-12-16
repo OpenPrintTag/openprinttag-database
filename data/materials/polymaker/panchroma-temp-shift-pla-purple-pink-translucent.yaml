@@ -3,8 +3,8 @@ slug: panchroma-temp-shift-pla-purple-pink-translucent
 brand_slug: polymaker
 name: Panchroma™ Temp Shift PLA Purple-Pink-Translucent
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff5786ff'
 - rgba: '#9761b5ff'
@@ -12,6 +12,8 @@ secondary_colors:
 tags:
 - temperature-color-change
 - industrially-compostable
+- translucent
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/06f401c74196.png
   type: unspecified

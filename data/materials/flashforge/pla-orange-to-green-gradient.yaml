@@ -3,15 +3,14 @@ slug: pla-orange-to-green-gradient
 brand_slug: flashforge
 name: PLA Orange to Green Gradient
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fd9106ff'
 - rgba: '#bbdb4bff'
 tags:
-- color-gradient
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/b2fbbe7e13d6.jpg
   type: unspecified

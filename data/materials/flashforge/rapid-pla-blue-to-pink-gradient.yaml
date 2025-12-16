@@ -3,14 +3,14 @@ slug: rapid-pla-blue-to-pink-gradient
 brand_slug: flashforge
 name: Rapid PLA Blue to Pink Gradient
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#006eb6ff'
 - rgba: '#cc52cfff'
+- rgba: '#0078bfff'
 tags:
-- color-gradient
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/343e3011080c.jpg
   type: unspecified

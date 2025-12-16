@@ -3,8 +3,8 @@ slug: ps-imports-pla-rainbow-luminous-rainbow-colorful
 brand_slug: printedsolid
 name: PS Imports PLA Rainbow Luminous Rainbow-Colorful
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#40e0d0ff'
 - rgba: '#cf4042ff'
@@ -13,6 +13,8 @@ secondary_colors:
 - rgba: '#6c47b2ff'
 tags:
 - industrially-compostable
+- glow-in-the-dark
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/ccb34879ef56.png
   type: unspecified

@@ -3,15 +3,15 @@ slug: silk-dual-color-pla-bright-blue-green
 brand_slug: flashforge
 name: Silk Dual Color PLA Bright Blue & Green
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0378d0ff'
 - rgba: '#1d7c6aff'
 tags:
-- dual-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/4441ffaf9dae.jpg
   type: unspecified

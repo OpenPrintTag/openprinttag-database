@@ -3,8 +3,8 @@ slug: rainbow-galaxy-glow-in-dark-luminous-pla
 brand_slug: zyltech
 name: Rainbow Galaxy Glow in Dark Luminous PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#f0ebe5ff'
 - rgba: '#8873c7ff'
@@ -13,9 +13,10 @@ secondary_colors:
 - rgba: '#ff72b6ff'
 tags:
 - glow-in-the-dark
-- multicolor
 - abrasive
 - industrially-compostable
+- gradual-color-change
+- illuminescent-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/529a0e0e5e73.png
   type: unspecified

@@ -3,16 +3,16 @@ slug: fairy-floss-tpu-95a
 brand_slug: cookiecad
 name: Fairy Floss TPU 95A
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 url: https://cookiecad.com/products/tpu-fairy-floss-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
 - rgba: '#ff72b6ff'
 - rgba: '#b894e2ff'
 - rgba: '#8ed9f9ff'
 tags:
-- transparent
 - glitter
 - gradual-color-change
+- translucent
 properties:
   hardness_shore_a: 95

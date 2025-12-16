@@ -1,18 +1,18 @@
-uuid: e516969f-1105-50bc-9d5e-cc43ed9f0a8a
+uuid: 06476f48-69ec-5c1b-bccc-655cbbd60e50
 slug: pla-silk-triple-color-black-gold-purple
 brand_slug: sunlu
-name: 'PLA Silk Triple Color (Black Gold Purple) '
+name: PLA Silk Triple Color (Black Gold Purple)
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#000000ff'
 - rgba: '#6c47b2ff'
 - rgba: '#ffcb47ff'
 tags:
-- triple-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/8446963ceb8a.jpg
   type: unspecified

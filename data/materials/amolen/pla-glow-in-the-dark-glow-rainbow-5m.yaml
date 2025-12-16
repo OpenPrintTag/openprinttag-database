@@ -3,18 +3,18 @@ slug: pla-glow-in-the-dark-glow-rainbow-5m
 brand_slug: amolen
 name: PLA Glow-in-the-Dark Glow Rainbow 5m
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff67f5ff'
 - rgba: '#ae00ffff'
 - rgba: '#1adafbff'
 - rgba: '#0095ffff'
 tags:
-- multicolor
 - glow-in-the-dark
 - abrasive
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/114b9338-df0e-4e76-8536-0d2d491f7673/c1e9df1b0575.png
   type: unspecified

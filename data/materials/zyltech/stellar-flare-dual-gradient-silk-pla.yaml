@@ -3,15 +3,15 @@ slug: stellar-flare-dual-gradient-silk-pla
 brand_slug: zyltech
 name: Stellar Flare Dual Gradient Silk PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#15817bff'
-- rgba: '#0696efff'
+- rgba: '#0099e6ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/b638af5afd38.png
   type: unspecified

@@ -3,11 +3,11 @@ slug: asa-light-blue
 brand_slug: buddy3d
 name: ASA Light Blue
 class: FFF
-type_id: 28
-abbreviation: ''
+type_id: 27
+abbreviation: ASA
 url: https://www.prusa3d.com/product/buddy3d-asa-light-blue-750g/
 primary_color:
-  rgba: '#0696efff'
+  rgba: '#0099e6ff'
 properties:
   density: 1.07
   min_print_temperature: 250

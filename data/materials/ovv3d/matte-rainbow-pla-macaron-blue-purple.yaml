@@ -3,16 +3,16 @@ slug: matte-rainbow-pla-macaron-blue-purple
 brand_slug: ovv3d
 name: Matte Rainbow PLA Macaron Blue Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#bed9ebff'
-- rgba: '#82e3ecff'
 - rgba: '#d3c6ffff'
+- rgba: '#9be0e5ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/fa84cc0b8274.jpg
   type: unspecified

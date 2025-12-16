@@ -3,16 +3,16 @@ slug: pla-uv-reactive-transparent
 brand_slug: eumakers
 name: PLA UV Reactive Transparent
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 url: https://www.eumakers.com/pla-uv-reactive-filament-color-transparent.html
 primary_color:
-  rgba: '#0696efff'
+  rgba: '#0099e6ff'
 secondary_colors:
 - rgba: '#f9f3e5ff'
 tags:
 - glow-in-the-dark
 - illuminescent-color-change
-- transparent
+- translucent
 properties:
   density: 1.24

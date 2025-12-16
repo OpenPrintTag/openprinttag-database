@@ -3,17 +3,16 @@ slug: pla-matte-triple-color-pink-cyan-chartreuse
 brand_slug: amolen
 name: PLA Matte Triple Color Pink Cyan Chartreuse
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#dbfc00ff'
 - rgba: '#ffbadeff'
 - rgba: '#9ae0ddff'
 tags:
 - matte
-- multicolor
-- triple-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/e032c1f1-2c51-4127-81ce-244534b57e35/68b838d88581.png
   type: unspecified

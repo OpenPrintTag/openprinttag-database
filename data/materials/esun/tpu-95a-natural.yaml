@@ -3,12 +3,13 @@ slug: tpu-95a-natural
 brand_slug: esun
 name: TPU 95A Natural
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#d9d8deff'
 tags:
 - transparent
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/6e2477017dcd.jpg
   type: unspecified

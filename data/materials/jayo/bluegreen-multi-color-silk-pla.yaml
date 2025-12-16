@@ -3,15 +3,15 @@ slug: bluegreen-multi-color-silk-pla
 brand_slug: jayo
 name: Blue+Green Multi-Color SILK PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#5eb7d4ff'
 - rgba: '#0ccf81ff'
+- rgba: '#5fbcddff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/af8eccce15df.png
   type: unspecified

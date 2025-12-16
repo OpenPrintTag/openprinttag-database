@@ -3,15 +3,15 @@ slug: silk-pla-gold-and-rose-2-in-1
 brand_slug: flashforge
 name: Silk PLA Gold and Rose 2 in 1
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffcb47ff'
-- rgba: '#f06e92ff'
+- rgba: '#c75072ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/f508a8863587.jpg
   type: unspecified

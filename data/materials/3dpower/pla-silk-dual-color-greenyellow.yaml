@@ -1,0 +1,16 @@
+uuid: ae9f9f41-2271-5802-a90b-8809d7e93b4d
+slug: pla-silk-dual-color-greenyellow
+brand_slug: 3dpower
+name: PLA SILK Dual Color Green&Yellow
+class: FFF
+type_id: 37
+abbreviation: PLA
+url: https://3dpower-filament.com/en/products/filament-3dpower-pla-silk-dual-color-1-75mm-green-yellow-1kg-197.html
+secondary_colors:
+- rgba: '#fffc6aff'
+- rgba: '#26a648ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24

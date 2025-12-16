@@ -3,15 +3,14 @@ slug: pla-multicolor-polarlicht
 brand_slug: das-filament
 name: PLA Multicolor Polarlicht
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/367/pla-filament-1-75-mm-multicolor-polarlicht-800-g?c=33
 secondary_colors:
 - rgba: '#97d7d0ff'
 - rgba: '#39b9dbff'
 - rgba: '#0353baff'
 tags:
-- multicolor
 - gradual-color-change
 - industrially-compostable
 properties: {}

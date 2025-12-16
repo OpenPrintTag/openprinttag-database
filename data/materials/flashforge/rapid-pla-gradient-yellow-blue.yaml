@@ -3,15 +3,14 @@ slug: rapid-pla-gradient-yellow-blue
 brand_slug: flashforge
 name: Rapid PLA Gradient Yellow & Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0099e6ff'
 - rgba: '#e4e46dff'
 tags:
-- color-gradient
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/05178f88ebda.jpg
   type: unspecified

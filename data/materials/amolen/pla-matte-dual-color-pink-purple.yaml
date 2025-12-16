@@ -3,12 +3,15 @@ slug: pla-matte-dual-color-pink-purple
 brand_slug: amolen
 name: PLA Matte Dual Color Pink Purple
 class: FFF
-type_id: 38
-abbreviation: ''
-primary_color:
-  rgba: '#ae00ffff'
+type_id: 37
+abbreviation: PLA
+secondary_colors:
+- rgba: '#a000caff'
+- rgba: '#fd64b3ff'
 tags:
 - industrially-compostable
+- coextruded
+- matte
 photos:
 - url: https://file.myfilamentlist.com/filaments/new/2.2LB
   type: unspecified

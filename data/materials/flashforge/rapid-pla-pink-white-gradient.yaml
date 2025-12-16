@@ -3,14 +3,14 @@ slug: rapid-pla-pink-white-gradient
 brand_slug: flashforge
 name: Rapid PLA Pink White Gradient
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff67f5ff'
 - rgba: '#ffffffff'
 tags:
-- color-gradient
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/05008f69a623.jpg
   type: unspecified

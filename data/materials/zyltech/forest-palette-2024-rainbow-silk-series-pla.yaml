@@ -3,8 +3,8 @@ slug: forest-palette-2024-rainbow-silk-series-pla
 brand_slug: zyltech
 name: Forest Palette 2024 Rainbow Silk Series PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#67b357ff'
 - rgba: '#39b9dbff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#bba0daff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/b0cccc28d52d.png
   type: unspecified

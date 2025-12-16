@@ -3,16 +3,16 @@ slug: silk-candy-pla-red-gold-blue-2
 brand_slug: cc3d
 name: Silk Candy PLA Red Gold Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c01616ff'
 - rgba: '#f6c500ff'
 - rgba: '#0353baff'
 tags:
 - silk
-- triple-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/50e9268c7189.jpg
   type: unspecified

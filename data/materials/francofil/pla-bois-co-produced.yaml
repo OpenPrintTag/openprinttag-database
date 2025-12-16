@@ -1,0 +1,14 @@
+uuid: efa2e02c-b961-5c63-ba90-47a112452442
+slug: pla-bois-co-produced
+brand_slug: francofil
+name: PLA Bois - Co-produced
+class: FFF
+type_id: 37
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-bois/
+primary_color:
+  rgba: '#dc9c43ff'
+tags:
+- contains-wood
+properties:
+  density: 1.24

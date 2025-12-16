@@ -3,16 +3,16 @@ slug: matte-pla-tri-color-macaron
 brand_slug: ovv3d
 name: Matte PLA Tri-Color Macaron
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fce575ff'
 - rgba: '#9ef9ffff'
 - rgba: '#f6abd7ff'
 tags:
-- triple-color
 - matte
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/f88c32fb1159.jpg
   type: unspecified

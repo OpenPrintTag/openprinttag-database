@@ -3,13 +3,14 @@ slug: rock-pla-sedimentary-rock
 brand_slug: overture
 name: Rock PLA Sedimentary Rock
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#935c34ff'
 tags:
 - industrially-compostable
 - gradual-color-change
+- imitates-stone
 photos:
 - url: https://file.myfilamentlist.com/f/new/b6ec8e68cebf.jpg
   type: unspecified

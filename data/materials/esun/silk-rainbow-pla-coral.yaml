@@ -3,8 +3,8 @@ slug: silk-rainbow-pla-coral
 brand_slug: esun
 name: 'Silk Rainbow PLA Coral '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffc946ff'
 - rgba: '#e23288ff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#82e3ecff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/3f54997b49aa.jpg
   type: unspecified

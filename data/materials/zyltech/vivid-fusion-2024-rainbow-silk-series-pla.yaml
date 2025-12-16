@@ -3,8 +3,8 @@ slug: vivid-fusion-2024-rainbow-silk-series-pla
 brand_slug: zyltech
 name: Vivid Fusion 2024 Rainbow Silk Series PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#4f7bbbff'
 - rgba: '#fc6d8eff'
@@ -13,8 +13,8 @@ secondary_colors:
 - rgba: '#8873c7ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/98b0c9fc30da.png
   type: unspecified

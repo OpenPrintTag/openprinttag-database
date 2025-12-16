@@ -3,16 +3,16 @@ slug: silk-pla-dreamy-trio
 brand_slug: flashforge
 name: Silk PLA Dreamy Trio
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#84d18bff'
 - rgba: '#5fbcddff'
 - rgba: '#a67dffff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/e0d593487f5a.jpg
   type: unspecified

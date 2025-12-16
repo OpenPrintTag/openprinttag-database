@@ -3,17 +3,16 @@ slug: pla-matte-triple-color-red-yellow-blue
 brand_slug: amolen
 name: PLA Matte Triple Color Red Yellow Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fffb00ff'
 - rgba: '#ed2602ff'
 - rgba: '#2c3294ff'
 tags:
-- triple-color
 - matte
-- multicolor
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/46ba301d-5b7d-453d-be50-2660528d6172/49860c5dd4ba.png
   type: unspecified

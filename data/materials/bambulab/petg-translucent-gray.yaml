@@ -3,12 +3,12 @@ slug: petg-translucent-gray
 brand_slug: bambulab
 name: 'PETG Translucent Gray '
 class: FFF
-type_id: 14
-abbreviation: ''
+type_id: 13
+abbreviation: PETG
 primary_color:
-  rgba: '#7f7f7dff'
+  rgba: '#808080ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/7d77b131193e.png
   type: unspecified

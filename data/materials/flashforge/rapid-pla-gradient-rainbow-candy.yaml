@@ -3,17 +3,16 @@ slug: rapid-pla-gradient-rainbow-candy
 brand_slug: flashforge
 name: Rapid PLA Gradient Rainbow Candy
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#f3b400ff'
 - rgba: '#6c47b2ff'
 - rgba: '#00a594ff'
 - rgba: '#f87fb5ff'
 tags:
-- color-gradient
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/abb21ab8f15c.jpg
   type: unspecified

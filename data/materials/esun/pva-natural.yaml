@@ -3,12 +3,13 @@ slug: pva-natural
 brand_slug: esun
 name: PVA Natural
 class: FFF
-type_id: 22
-abbreviation: ''
+type_id: 21
+abbreviation: PVA
 primary_color:
   rgba: '#eadac2ff'
 tags:
 - water-soluble
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/d09574060c83.jpg
   type: unspecified

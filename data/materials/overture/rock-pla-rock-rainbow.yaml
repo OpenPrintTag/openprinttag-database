@@ -3,16 +3,16 @@ slug: rock-pla-rock-rainbow
 brand_slug: overture
 name: Rock PLA Rock Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#00a594ff'
 - rgba: '#f3c102ff'
 - rgba: '#519f61ff'
 - rgba: '#f00c00ff'
 tags:
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/63f281e7a10c.jpg
   type: unspecified

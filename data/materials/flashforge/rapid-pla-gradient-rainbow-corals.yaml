@@ -3,16 +3,15 @@ slug: rapid-pla-gradient-rainbow-corals
 brand_slug: flashforge
 name: Rapid PLA Gradient Rainbow Corals
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c6f666ff'
 - rgba: '#fce575ff'
 - rgba: '#f67405ff'
 tags:
-- color-gradient
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/91a776755180.jpg
   type: unspecified

@@ -3,8 +3,8 @@ slug: panchroma-luminous-pla-rainbow
 brand_slug: polymaker
 name: 'Panchroma™ Luminous PLA Rainbow '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff67f5ff'
 - rgba: '#7659b5ff'
@@ -12,10 +12,10 @@ secondary_colors:
 - rgba: '#bbdb4bff'
 - rgba: '#fbe200ff'
 tags:
-- multicolor
 - glow-in-the-dark
 - abrasive
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/0f4b5a23d3d9.png
   type: unspecified

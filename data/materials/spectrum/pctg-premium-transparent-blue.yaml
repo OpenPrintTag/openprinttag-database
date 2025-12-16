@@ -3,12 +3,12 @@ slug: pctg-premium-transparent-blue
 brand_slug: spectrum
 name: PCTG Premium Transparent Blue
 class: FFF
-type_id: 4
-abbreviation: ''
+type_id: 3
+abbreviation: PCTG
 url: https://spectrumfilaments.com/en/filament/pctg-premium/
 primary_color:
   rgba: '#0066d9ff'
 tags:
-- transparent
+- translucent
 properties:
   density: 1.27

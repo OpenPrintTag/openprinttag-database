@@ -3,16 +3,16 @@ slug: silk-pla-tri-color-blue-purple-black
 brand_slug: geeetech
 name: Silk PLA Tri Color Blue Purple Black
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#000000ff'
 - rgba: '#8846aeff'
-- rgba: '#274bb6ff'
+- rgba: '#0353baff'
 tags:
-- triple-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/b3ab1a849aff.jpg
   type: unspecified

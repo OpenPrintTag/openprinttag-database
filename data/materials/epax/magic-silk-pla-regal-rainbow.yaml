@@ -3,11 +3,10 @@ slug: magic-silk-pla-regal-rainbow
 brand_slug: epax
 name: Magic Silk PLA Regal Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-magic-silk-pla-tricolor?variant=51195699888341
 secondary_colors:
-- rgba: '#1e22aaff'
 - rgba: '#15817bff'
 - rgba: '#ec0000ff'
 - rgba: '#ff00a2ff'
@@ -15,7 +14,8 @@ secondary_colors:
 - rgba: '#d5447eff'
 - rgba: '#26a648ff'
 - rgba: '#c4dc00ff'
-- rgba: '#a6884cff'
+- rgba: '#0e21aeff'
+- rgba: '#c0894dff'
 tags:
 - silk
 - gradual-color-change

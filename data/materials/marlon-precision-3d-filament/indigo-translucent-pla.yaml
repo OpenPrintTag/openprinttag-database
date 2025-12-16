@@ -3,13 +3,13 @@ slug: indigo-translucent-pla
 brand_slug: marlon-precision-3d-filament
 name: 'Indigo [Translucent] PLA '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#09048eff'
 tags:
-- transparent
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/c75fa62ee2c4.png
   type: unspecified

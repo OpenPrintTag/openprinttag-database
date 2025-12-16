@@ -3,15 +3,15 @@ slug: silk-dual-color-pla-pink-yellow
 brand_slug: flashforge
 name: Silk Dual Color PLA Pink & Yellow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ea9e3fff'
 - rgba: '#ff72b6ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/55183e44eb98.jpg
   type: unspecified

@@ -3,16 +3,16 @@ slug: silk-rainbow-pla-cyan-magenta-blue
 brand_slug: sunlu
 name: 'Silk Rainbow PLA (Cyan-Magenta-Blue) '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#08abfbff'
 - rgba: '#00cc00ff'
 - rgba: '#f87fb5ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/b2ada818acde.jpg
   type: unspecified

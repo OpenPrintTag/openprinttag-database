@@ -3,14 +3,15 @@ slug: silk-dual-color-blackred-pla
 brand_slug: cc3d
 name: Silk Dual Color Black/Red PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#000000ff'
+- rgba: '#da445aff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/cea5c1333709.jpg
   type: unspecified

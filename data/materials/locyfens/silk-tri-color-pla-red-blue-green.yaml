@@ -3,16 +3,16 @@ slug: silk-tri-color-pla-red-blue-green
 brand_slug: locyfens
 name: Silk Tri-color PLA Red Blue Green
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c80181ff'
 - rgba: '#0099e6ff'
 - rgba: '#41a840ff'
 tags:
 - silk
-- triple-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/ef384fd3c34a.jpg
   type: unspecified

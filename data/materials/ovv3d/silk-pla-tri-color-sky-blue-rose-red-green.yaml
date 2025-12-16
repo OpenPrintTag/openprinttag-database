@@ -3,16 +3,16 @@ slug: silk-pla-tri-color-sky-blue-rose-red-green
 brand_slug: ovv3d
 name: 'Silk PLA Tri-color Sky Blue & Rose Red & Green '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#5feff9ff'
 - rgba: '#62e480ff'
 - rgba: '#e23288ff'
 tags:
-- triple-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/af78561d85b2.jpg
   type: unspecified

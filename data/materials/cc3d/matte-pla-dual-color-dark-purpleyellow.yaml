@@ -3,15 +3,15 @@ slug: matte-pla-dual-color-dark-purpleyellow
 brand_slug: cc3d
 name: Matte PLA Dual Color Dark Purple/Yellow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#7142a3ff'
 - rgba: '#eeea44ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/181010d5f4bc.jpg
   type: unspecified

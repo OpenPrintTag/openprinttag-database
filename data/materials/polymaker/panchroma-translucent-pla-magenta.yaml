@@ -3,13 +3,13 @@ slug: panchroma-translucent-pla-magenta
 brand_slug: polymaker
 name: 'Panchroma™ Translucent PLA Magenta '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#f2306eff'
 tags:
-- transparent
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/2acef85fc490.png
   type: unspecified

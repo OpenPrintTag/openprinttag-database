@@ -3,16 +3,16 @@ slug: pla-professional-sunset-rainbow
 brand_slug: overture
 name: PLA Professional Sunset Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffb031ff'
 - rgba: '#00a594ff'
-- rgba: '#003b80ff'
 - rgba: '#e31a1fff'
+- rgba: '#0353baff'
 tags:
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/239b31c87c9a.jpg
   type: unspecified

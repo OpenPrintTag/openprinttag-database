@@ -3,19 +3,17 @@ slug: nebula-silver-silk-multicolor-htpla
 brand_slug: protopasta
 name: Nebula Silver Silk Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c75072ff'
 - rgba: '#a38496ff'
-- rgba: '#617fccff'
+- rgba: '#0078bfff'
 tags:
-- color-gradient
-- silk
-- multicolor
 - high-temperature
 - silk
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/30a632bfb9af.png
   type: unspecified

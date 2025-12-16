@@ -3,11 +3,12 @@ slug: tpu-95a-gray
 brand_slug: esun
 name: TPU 95A Gray
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
-  rgba: '#55555eff'
+  rgba: '#7a838eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/8bb00e98eaa1.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

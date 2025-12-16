@@ -3,16 +3,16 @@ slug: rainbow-pla
 brand_slug: geeetech
 name: Rainbow PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fd9106ff'
 - rgba: '#6299dfff'
 - rgba: '#7ab352ff'
 - rgba: '#fce575ff'
 tags:
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/3068cb7e7179.jpg
   type: unspecified

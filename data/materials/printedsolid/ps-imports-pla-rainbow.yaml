@@ -3,8 +3,8 @@ slug: ps-imports-pla-rainbow
 brand_slug: printedsolid
 name: PS Imports PLA Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c7bcf8ff'
 - rgba: '#b645a9ff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#00a594ff'
 - rgba: '#0353baff'
 tags:
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/ffc8f7872b85.png
   type: unspecified

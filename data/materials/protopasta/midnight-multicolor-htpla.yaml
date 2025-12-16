@@ -3,8 +3,8 @@ slug: midnight-multicolor-htpla
 brand_slug: protopasta
 name: Midnight Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#818fa0ff'
 - rgba: '#005da4ff'
@@ -12,9 +12,10 @@ secondary_colors:
 - rgba: '#0099e6ff'
 - rgba: '#003b80ff'
 tags:
-- multicolor
 - high-temperature
 - industrially-compostable
+- gradual-color-change
+- glitter
 photos:
 - url: https://file.myfilamentlist.com/f/new/4b7ea9794315.png
   type: unspecified

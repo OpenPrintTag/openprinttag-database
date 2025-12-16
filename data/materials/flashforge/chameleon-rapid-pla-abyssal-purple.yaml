@@ -3,15 +3,15 @@ slug: chameleon-rapid-pla-abyssal-purple
 brand_slug: flashforge
 name: Chameleon Rapid PLA Abyssal Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#332120ff'
 - rgba: '#663d7eff'
 tags:
 - iridescent
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/1689b888ec99.jpg
   type: unspecified

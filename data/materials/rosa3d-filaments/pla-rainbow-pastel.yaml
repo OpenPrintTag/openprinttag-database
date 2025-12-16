@@ -3,14 +3,14 @@ slug: pla-rainbow-pastel
 brand_slug: rosa3d-filaments
 name: PLA Rainbow Pastel
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-rainbow-pastel
 secondary_colors:
 - rgba: '#fbd1a7ff'
-- rgba: '#82e3ecff'
 - rgba: '#fce575ff'
 - rgba: '#dabcc8ff'
+- rgba: '#9be0e5ff'
 tags:
 - gradual-color-change
 properties: {}

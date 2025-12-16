@@ -3,15 +3,15 @@ slug: partly-sunny-yellow-multicolor-htpla
 brand_slug: protopasta
 name: Partly Sunny Yellow Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fbe200ff'
 - rgba: '#eeea44ff'
 tags:
-- color-gradient
 - high-temperature
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/9746e9e8f749.png
   type: unspecified
