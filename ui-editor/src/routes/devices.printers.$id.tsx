@@ -4,6 +4,7 @@ import React from 'react';
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useApi } from '~/hooks/useApi';
+import { useUpdatePrinter } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 
 type Printer = Record<string, unknown>;
@@ -14,7 +15,7 @@ export const Route = createFileRoute('/devices/printers/$id')({
 
 function RouteComponent() {
   const { id } = Route.useParams();
-  const { data, error, loading, refetch } = useApi<Printer>(
+  const { data, error, loading } = useApi<Printer>(
     () => `/api/devices/printers/${id}`,
     undefined,
     [id],
@@ -24,6 +25,8 @@ function RouteComponent() {
 
   const schema = useSchema();
   const [form, setForm] = React.useState<any | null>(null);
+
+  const updatePrinterMutation = useUpdatePrinter(id);
 
   React.useEffect(() => {
     if (data && !editing) setForm(data);
@@ -102,18 +105,17 @@ function RouteComponent() {
             <div className="flex gap-2">
               <button
                 className="btn"
-                onClick={() =>
-                  savePrinter({
-                    id,
-                    form,
-                    onDone: () => {
-                      setEditing(false);
-                      refetch();
-                    },
-                  })
-                }
+                onClick={async () => {
+                  try {
+                    await updatePrinterMutation.mutateAsync({ data: form });
+                    setEditing(false);
+                  } catch (err: any) {
+                    alert(err?.message ?? 'Save failed');
+                  }
+                }}
+                disabled={updatePrinterMutation.isPending}
               >
-                Save
+                {updatePrinterMutation.isPending ? 'Saving...' : 'Save'}
               </button>
               <button
                 className="btn-secondary"
@@ -121,6 +123,7 @@ function RouteComponent() {
                   setForm(data);
                   setEditing(false);
                 }}
+                disabled={updatePrinterMutation.isPending}
               >
                 Cancel
               </button>
@@ -130,31 +133,4 @@ function RouteComponent() {
       )}
     </div>
   );
-}
-
-async function savePrinter({
-  id,
-  form,
-  onDone,
-}: {
-  id: string;
-  form: any;
-  onDone: () => void;
-}) {
-  try {
-    const res = await fetch(`/api/devices/printers/${id}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form),
-    });
-    if (!res.ok) {
-      const txt = await res.text().catch(() => '');
-      throw new Error(
-        `Save failed: HTTP ${res.status}${txt ? `: ${txt}` : ''}`,
-      );
-    }
-    onDone();
-  } catch (err: any) {
-    alert(err?.message ?? 'Save failed');
-  }
 }

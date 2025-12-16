@@ -1,9 +1,11 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
+import { ChevronRight, Pencil } from 'lucide-react';
 import React from 'react';
 
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useApi } from '~/hooks/useApi';
+import { useUpdateContainer } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 import { safeStringify } from '~/utils/format';
 
@@ -11,7 +13,7 @@ type Container = Record<string, unknown>;
 
 const RouteComponent = () => {
   const { id } = Route.useParams();
-  const { data, error, loading, refetch } = useApi<Container>(
+  const { data, error, loading } = useApi<Container>(
     () => `/api/containers/${id}`,
     undefined,
     [id],
@@ -20,6 +22,8 @@ const RouteComponent = () => {
 
   const [editing, setEditing] = React.useState(false);
   const [form, setForm] = React.useState<any | null>(null);
+
+  const updateContainerMutation = useUpdateContainer(id);
 
   React.useEffect(() => {
     if (data && !editing) setForm(data);
@@ -39,24 +43,34 @@ const RouteComponent = () => {
   const title = String(data?.name ?? data?.slug ?? id);
 
   return (
-    <div className="space-y-4">
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <h4 className="text-2xl font-bold tracking-tight">{title}</h4>
-          {data.slug ? (
-            <div className="text-sm text-gray-500">{String(data.slug)}</div>
-          ) : null}
+    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+      {/* Breadcrumb */}
+      <div className="flex items-center gap-2 text-sm text-gray-600">
+        <Link
+          to="/containers"
+          className="flex items-center gap-1 transition-colors hover:text-blue-600"
+        >
+          <ChevronRight className="h-4 w-4 rotate-180" />
+          <span>All Containers</span>
+        </Link>
+      </div>
+
+      {/* Container Header */}
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div className="flex-1">
+          <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
+          {Boolean(data.slug) && (
+            <p className="mt-1 text-base text-gray-600">{String(data.slug)}</p>
+          )}
         </div>
-        <div className="flex gap-2">
-          <Link to="/containers" className="btn-secondary">
-            Back to Containers
-          </Link>
+        <div className="flex flex-wrap gap-2">
           <button
-            className="btn"
+            className="btn-secondary inline-flex items-center gap-2"
             onClick={() => setEditing((v) => !v)}
             disabled={!schema}
           >
-            {editing ? 'Cancel' : 'Edit'}
+            <Pencil className="h-4 w-4" />
+            {editing ? 'Cancel Edit' : 'Edit Container'}
           </button>
         </div>
       </div>
@@ -110,18 +124,17 @@ const RouteComponent = () => {
             <div className="flex gap-2">
               <button
                 className="btn"
-                onClick={() =>
-                  saveContainer({
-                    id,
-                    form,
-                    onDone: () => {
-                      setEditing(false);
-                      refetch();
-                    },
-                  })
-                }
+                onClick={async () => {
+                  try {
+                    await updateContainerMutation.mutateAsync({ data: form });
+                    setEditing(false);
+                  } catch (err: any) {
+                    alert(err?.message ?? 'Save failed');
+                  }
+                }}
+                disabled={updateContainerMutation.isPending}
               >
-                Save
+                {updateContainerMutation.isPending ? 'Saving...' : 'Save'}
               </button>
               <button
                 className="btn-secondary"
@@ -129,6 +142,7 @@ const RouteComponent = () => {
                   setForm(data);
                   setEditing(false);
                 }}
+                disabled={updateContainerMutation.isPending}
               >
                 Cancel
               </button>
@@ -143,30 +157,3 @@ const RouteComponent = () => {
 export const Route = createFileRoute('/containers/$id')({
   component: RouteComponent,
 });
-
-const saveContainer = async ({
-  id,
-  form,
-  onDone,
-}: {
-  id: string;
-  form: any;
-  onDone: () => void;
-}) => {
-  try {
-    const res = await fetch(`/api/containers/${id}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form),
-    });
-    if (!res.ok) {
-      const txt = await res.text().catch(() => '');
-      throw new Error(
-        `Save failed: HTTP ${res.status}${txt ? `: ${txt}` : ''}`,
-      );
-    }
-    onDone();
-  } catch (err: any) {
-    alert(err?.message ?? 'Save failed');
-  }
-};

@@ -2,11 +2,13 @@ import React from 'react';
 
 import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
+import { useUpdateBrand } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 
 import { BrandSheetEditView } from './BrandSheetEditView';
 import { BrandSheetFooter } from './BrandSheetFooter';
 import { BrandSheetHeader } from './BrandSheetHeader';
+import { useBrandLookupData } from './hooks';
 import { BrandReadView } from './sections/BrandReadView';
 import type { Brand, BrandSheetProps } from './types';
 
@@ -19,10 +21,13 @@ export const BrandSheet = ({
   onEdit,
 }: BrandSheetProps) => {
   const schema = useSchema();
+  const { countriesOptions } = useBrandLookupData();
   const [form, setForm] = React.useState<Partial<Brand>>({});
-  const [saving, setSaving] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
+
+  const brandId = String(brand?.slug || brand?.uuid || brand?.id || '');
+  const updateBrandMutation = useUpdateBrand(brandId);
 
   React.useEffect(() => {
     setIsReadOnly(readOnly);
@@ -55,50 +60,21 @@ export const BrandSheet = ({
       return;
     }
 
-    setSaving(true);
+    if (!brandId) {
+      setError('Brand ID not found');
+      return;
+    }
+
     setError(null);
 
     try {
-      const brandId = brand?.slug || brand?.uuid || brand?.id;
-      if (!brandId) {
-        throw new Error('Brand ID not found');
-      }
-
-      const res = await fetch(`/api/brands/${brandId}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      });
-
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(
-          data.error || `Failed to save brand: HTTP ${res.status}`,
-        );
-      }
-
-      const savedData = await res.json().catch(() => form);
-
-      // Fetch fresh data from server to ensure we have the latest
-      try {
-        const refreshRes = await fetch(`/api/brands/${brandId}`);
-        if (refreshRes.ok) {
-          const freshData = await refreshRes.json();
-          setForm(freshData);
-        } else {
-          setForm(savedData);
-        }
-      } catch {
-        setForm(savedData);
-      }
-
+      const savedData = await updateBrandMutation.mutateAsync({ data: form });
+      setForm(savedData || form);
       setIsReadOnly(true);
       onSuccess?.();
     } catch (err: unknown) {
       const error = err as Error;
       setError(error?.message || 'Failed to save brand');
-    } finally {
-      setSaving(false);
     }
   };
 
@@ -126,6 +102,7 @@ export const BrandSheet = ({
             form={form}
             onFieldChange={handleFieldChange}
             schema={schema}
+            countriesOptions={countriesOptions}
           />
         )}
 
@@ -133,8 +110,10 @@ export const BrandSheet = ({
           readOnly={isReadOnly}
           onEdit={handleEdit}
           onSave={handleSave}
-          saving={saving}
-          disabled={saving || !schema || !form.name?.trim()}
+          saving={updateBrandMutation.isPending}
+          disabled={
+            updateBrandMutation.isPending || !schema || !form.name?.trim()
+          }
         />
       </SheetContent>
     </Sheet>

@@ -1,4 +1,6 @@
 /// <reference types="vite/client" />
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import {
   createRootRoute,
   HeadContent,
@@ -12,6 +14,16 @@ import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NotFound } from '~/components/NotFound';
 import appCss from '~/styles/global.css?url';
 import { seo } from '~/utils/seo';
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      refetchOnWindowFocus: false,
+      retry: 1,
+    },
+  },
+});
 
 export const Route = createRootRoute({
   head: () => ({
@@ -74,41 +86,67 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
-        <div className="flex gap-4 border-b bg-gray-50 p-3 text-lg">
-          <Link
-            to="/brands"
-            activeProps={{
-              className: 'font-bold',
+      <body style={{ backgroundColor: 'hsl(var(--background))' }}>
+        <QueryClientProvider client={queryClient}>
+          {/* Navigation Bar */}
+          <nav
+            className="sticky top-0 z-50 border-b shadow-sm"
+            style={{
+              backgroundColor: 'hsl(var(--card))',
+              borderColor: 'hsl(var(--border))',
             }}
           >
-            Brands
-          </Link>
-          <Link to="/containers" activeProps={{ className: 'font-bold' }}>
-            Containers
-          </Link>
-          {/*<Link to="/devices/printers" activeProps={{ className: 'font-bold' }}>
-            Printers
-          </Link>
-          <Link
-            to="/devices/accessories"
-            activeProps={{ className: 'font-bold' }}
-          >
-            Accessories
-          </Link>
-          <Link
-            to="/print-sheet-types"
-            activeProps={{ className: 'font-bold' }}
-          >
-            Print Sheet Types
-          </Link>*/}
-          <Link to="/enum" activeProps={{ className: 'font-bold' }}>
-            Enum
-          </Link>
-        </div>
-        <hr />
-        <div className="page">{children}</div>
-        <TanStackRouterDevtools position="bottom-right" />
+            <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+              <div className="flex items-center gap-8">
+                <Link to="/brands" className="flex items-center gap-3">
+                  <img src="/logo.svg" alt="Prusa Logo" className="h-8" />
+                </Link>
+                <div className="flex items-center gap-6">
+                  <Link
+                    to="/brands"
+                    activeProps={{
+                      className: 'font-semibold',
+                      style: { color: 'hsl(var(--primary))' },
+                    }}
+                    className="text-base transition-colors hover:opacity-80"
+                    style={{ color: 'hsl(var(--foreground))' }}
+                  >
+                    Brands
+                  </Link>
+                  <Link
+                    to="/containers"
+                    activeProps={{
+                      className: 'font-semibold',
+                      style: { color: 'hsl(var(--primary))' },
+                    }}
+                    className="text-base transition-colors hover:opacity-80"
+                    style={{ color: 'hsl(var(--foreground))' }}
+                  >
+                    Containers
+                  </Link>
+                  <Link
+                    to="/enum"
+                    activeProps={{
+                      className: 'font-semibold',
+                      style: { color: 'hsl(var(--primary))' },
+                    }}
+                    className="text-base transition-colors hover:opacity-80"
+                    style={{ color: 'hsl(var(--foreground))' }}
+                  >
+                    Enum
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </nav>
+          {/* Main Content */}
+          <div className="min-h-screen">{children}</div>
+          <ReactQueryDevtools
+            initialIsOpen={false}
+            buttonPosition="bottom-left"
+          />
+          <TanStackRouterDevtools position="bottom-right" />
+        </QueryClientProvider>
         <Scripts />
       </body>
     </html>

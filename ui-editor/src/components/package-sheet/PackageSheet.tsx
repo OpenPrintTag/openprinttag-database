@@ -2,6 +2,11 @@ import React from 'react';
 
 import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
+import {
+  useCreatePackage,
+  useDeletePackage,
+  useUpdatePackage,
+} from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 
 import { PackageSheetEditView } from './PackageSheetEditView';
@@ -25,11 +30,14 @@ export const PackageSheet = ({
     material_slug: '',
     container_slug: '',
   });
-  const [saving, setSaving] = React.useState(false);
-  const [deleting, setDeleting] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
   const [currentMode, setCurrentMode] = React.useState(mode);
+
+  const packageId = String(pkg?.slug || pkg?.uuid || pkg?.id || '');
+  const createPackageMutation = useCreatePackage(brandId);
+  const updatePackageMutation = useUpdatePackage(brandId, packageId);
+  const deletePackageMutation = useDeletePackage(brandId, packageId);
 
   React.useEffect(() => {
     setIsReadOnly(readOnly);
@@ -69,69 +77,27 @@ export const PackageSheet = ({
       return;
     }
 
-    setSaving(true);
     setError(null);
 
     try {
-      let res: Response;
+      let savedData: any;
 
       if (currentMode === 'create') {
-        res = await fetch(`/api/brands/${brandId}/packages/new`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(form),
-        });
+        savedData = await createPackageMutation.mutateAsync({ data: form });
       } else {
-        const packageId = pkg?.slug || pkg?.uuid || pkg?.id;
         if (!packageId) {
           throw new Error('Package ID not found');
         }
-
-        res = await fetch(`/api/brands/${brandId}/packages/${packageId}`, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(form),
-        });
+        savedData = await updatePackageMutation.mutateAsync({ data: form });
       }
 
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(
-          data.error || `Failed to ${currentMode} package: HTTP ${res.status}`,
-        );
-      }
-
-      const savedData = await res.json().catch(() => form);
-
-      // Fetch fresh data from server to ensure we have the latest
-      const packageId =
-        savedData?.slug || savedData?.uuid || savedData?.id || form?.slug;
-      if (packageId) {
-        try {
-          const refreshRes = await fetch(
-            `/api/brands/${brandId}/packages/${packageId}`,
-          );
-          if (refreshRes.ok) {
-            const freshData = await refreshRes.json();
-            setForm(freshData);
-          } else {
-            setForm(savedData);
-          }
-        } catch {
-          setForm(savedData);
-        }
-      } else {
-        setForm(savedData);
-      }
-
+      setForm(savedData || form);
       setIsReadOnly(true);
       setCurrentMode('edit');
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
       setError(error?.message || `Failed to ${currentMode} package`);
-    } finally {
-      setSaving(false);
     }
   };
 
@@ -145,33 +111,20 @@ export const PackageSheet = ({
       return;
     }
 
-    setDeleting(true);
     setError(null);
 
     try {
-      const packageId = pkg?.slug || pkg?.uuid || pkg?.id;
       if (!packageId) {
         throw new Error('Package ID not found');
       }
 
-      const res = await fetch(`/api/brands/${brandId}/packages/${packageId}`, {
-        method: 'DELETE',
-      });
-
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(
-          data.error || `Failed to delete package: HTTP ${res.status}`,
-        );
-      }
+      await deletePackageMutation.mutateAsync();
 
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
       setError(error?.message || 'Failed to delete package');
-    } finally {
-      setDeleting(false);
     }
   };
 
@@ -211,10 +164,18 @@ export const PackageSheet = ({
           onEdit={handleEdit}
           onSave={handleSave}
           onDelete={handleDelete}
-          saving={saving}
-          deleting={deleting}
+          saving={
+            createPackageMutation.isPending || updatePackageMutation.isPending
+          }
+          deleting={deletePackageMutation.isPending}
           mode={currentMode}
-          disabled={saving || !schema || !form.material_slug?.trim()}
+          disabled={
+            createPackageMutation.isPending ||
+            updatePackageMutation.isPending ||
+            deletePackageMutation.isPending ||
+            !schema ||
+            !form.material_slug?.trim()
+          }
         />
       </SheetContent>
     </Sheet>

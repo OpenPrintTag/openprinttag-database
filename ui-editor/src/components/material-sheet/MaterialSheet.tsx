@@ -2,6 +2,11 @@ import React from 'react';
 
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { useApi } from '~/hooks/useApi';
+import {
+  useCreateMaterial,
+  useDeleteMaterial,
+  useUpdateMaterial,
+} from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 import { slugifyName } from '~/utils/slug';
 
@@ -34,8 +39,6 @@ export const MaterialSheet = ({
     min_bed_temperature: null,
     max_bed_temperature: null,
   });
-  const [saving, setSaving] = React.useState(false);
-  const [deleting, setDeleting] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
   const [currentMode, setCurrentMode] = React.useState(mode);
@@ -45,6 +48,13 @@ export const MaterialSheet = ({
 
   const { tagsOptions, certificationsOptions, materialTypesOptions } =
     useMaterialLookupData();
+
+  const materialId = String(
+    material?.slug || material?.uuid || material?.id || '',
+  );
+  const createMaterialMutation = useCreateMaterial(brandId);
+  const updateMaterialMutation = useUpdateMaterial(brandId, materialId);
+  const deleteMaterialMutation = useDeleteMaterial(brandId, materialId);
 
   // Fetch brand data to get brand_slug
   const { data: brandData } = useApi<any>(
@@ -110,73 +120,28 @@ export const MaterialSheet = ({
       return;
     }
 
-    setSaving(true);
     setError(null);
 
     try {
-      let res: Response;
+      let savedData: any;
 
       if (currentMode === 'create') {
-        res = await fetch(`/api/brands/${brandId}/materials/new`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(form),
-        });
+        savedData = await createMaterialMutation.mutateAsync({ data: form });
       } else {
-        const materialId = material?.slug || material?.uuid || material?.id;
         if (!materialId) {
           throw new Error('Material ID not found');
         }
-
-        res = await fetch(`/api/brands/${brandId}/materials/${materialId}`, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(form),
-        });
+        savedData = await updateMaterialMutation.mutateAsync({ data: form });
       }
 
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(
-          data.error || `Failed to ${currentMode} material: HTTP ${res.status}`,
-        );
-      }
-
-      const savedData = await res.json().catch(() => form);
-
-      // Fetch fresh data from server to ensure we have the latest
-      const materialId =
-        savedData?.slug || savedData?.uuid || savedData?.id || form?.slug;
-      if (materialId) {
-        try {
-          const refreshRes = await fetch(
-            `/api/brands/${brandId}/materials/${materialId}`,
-          );
-          if (refreshRes.ok) {
-            const freshData = await refreshRes.json();
-            setForm(freshData);
-            setInitialSlug(freshData.slug);
-          } else {
-            setForm(savedData);
-            setInitialSlug(savedData.slug);
-          }
-        } catch {
-          setForm(savedData);
-          setInitialSlug(savedData.slug);
-        }
-      } else {
-        setForm(savedData);
-        setInitialSlug(savedData.slug);
-      }
-
+      setForm(savedData || form);
+      setInitialSlug(savedData?.slug || form.slug);
       setIsReadOnly(true);
       setCurrentMode('edit');
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
       setError(error?.message || `Failed to ${currentMode} material`);
-    } finally {
-      setSaving(false);
     }
   };
 
@@ -190,36 +155,20 @@ export const MaterialSheet = ({
       return;
     }
 
-    setDeleting(true);
     setError(null);
 
     try {
-      const materialId = material?.slug || material?.uuid || material?.id;
       if (!materialId) {
         throw new Error('Material ID not found');
       }
 
-      const res = await fetch(
-        `/api/brands/${brandId}/materials/${materialId}`,
-        {
-          method: 'DELETE',
-        },
-      );
-
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(
-          data.error || `Failed to delete material: HTTP ${res.status}`,
-        );
-      }
+      await deleteMaterialMutation.mutateAsync();
 
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
       setError(error?.message || 'Failed to delete material');
-    } finally {
-      setDeleting(false);
     }
   };
 
@@ -268,10 +217,19 @@ export const MaterialSheet = ({
           onEdit={handleEdit}
           onSave={handleSave}
           onDelete={handleDelete}
-          saving={saving}
-          deleting={deleting}
+          saving={
+            createMaterialMutation.isPending || updateMaterialMutation.isPending
+          }
+          deleting={deleteMaterialMutation.isPending}
           mode={currentMode}
-          disabled={saving || !schema || !form.name?.trim() || !form.class}
+          disabled={
+            createMaterialMutation.isPending ||
+            updateMaterialMutation.isPending ||
+            deleteMaterialMutation.isPending ||
+            !schema ||
+            !form.name?.trim() ||
+            !form.class
+          }
         />
       </SheetContent>
     </Sheet>
