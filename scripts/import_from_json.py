@@ -16,9 +16,10 @@ The script will:
     1. Load db-export.json from the repository root
     2. Transform entities according to schema.yaml
     3. Generate slugs from names
-    4. Resolve UUID references to slugs
-    5. Assign sequential IDs to material_types and tags
-    6. Write YAML files to data/ directory structure
+    4. Generate UUIDs deterministically (UUIDv5) according to specification
+    5. Resolve UUID references to slugs
+    6. Assign sequential IDs to material_types and tags
+    7. Write YAML files to data/ directory structure
 
 Output structure:
     data/
@@ -27,6 +28,10 @@ Output structure:
     ├── material-packages/{brand-slug}/
     ├── material-containers/
     └── lookup-tables/
+
+Note:
+    UUIDs are now generated deterministically during import, so the
+    fix-uuids step is no longer required.
 """
 
 import json
@@ -35,6 +40,12 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 import yaml
+
+from uuid_utils import (
+	generate_brand_uuid,
+	generate_material_uuid,
+	generate_material_package_uuid,
+)
 
 
 def slugify(text: str) -> str:
@@ -80,10 +91,11 @@ def resolve_uuid_reference(uuid_val: Any, uuid_map: Dict[str, Any], field: str =
 
 def transform_brand(brand: Dict, countries_map: Dict[str, Any]) -> Dict[str, Any]:
 	"""Transform a brand from JSON to YAML format"""
+	brand_name = brand.get('name', '')
 	result = {
-		'uuid': brand.get('uuid'),
-		'slug': slugify(brand.get('name', '')),
-		'name': brand.get('name', ''),
+		'uuid': str(generate_brand_uuid(brand_name)),
+		'slug': slugify(brand_name),
+		'name': brand_name,
 	}
 	
 	# Keywords
@@ -205,7 +217,7 @@ def transform_palette_color(color: Dict) -> Dict[str, Any]:
 	if color.get('display_name'):
 		result['display_name'] = color['display_name']
 	if color.get('rgba'):
-		result['rgba'] = color['rgba']
+		result['color_rgba'] = color['rgba']
 	
 	return result
 
@@ -254,7 +266,7 @@ def transform_color(color: Dict) -> Dict[str, Any]:
 		if rgba_a is None:
 			rgba_a = 255
 		rgba_hex = f"#{rgba_r:02x}{rgba_g:02x}{rgba_b:02x}{rgba_a:02x}"
-		result['rgba'] = rgba_hex
+		result['color_rgba'] = rgba_hex
 	
 	return result
 
@@ -274,19 +286,26 @@ def transform_material(
 	material_tags_map: Dict[str, List[str]],  # material_uuid -> list of tag UUIDs
 	material_certifications_map: Dict[str, List[str]],  # material_uuid -> list of cert UUIDs
 	material_photos_map: Dict[str, List[int]],  # material_uuid -> list of photo IDs
+	valid_tag_names: set,  # Valid tag names from OpenPrintTag
+	tag_warnings: List[str],  # List to collect warnings
 ) -> Optional[Dict[str, Any]]:
 	"""Transform a material from JSON to YAML format"""
 	brand = resolve_uuid_reference(material.get('brand'), brands_map)
 	if not brand:
 		return None
-	
-	brand_slug = slugify(brand.get('name', ''))
+
+	brand_name = brand.get('name', '')
+	brand_slug = slugify(brand_name)
 	material_name = material.get('name', '')
-	
+
+	# Generate UUID deterministically from brand UUID + material name
+	brand_uuid = generate_brand_uuid(brand_name)
+	material_uuid = generate_material_uuid(brand_uuid, material_name)
+
 	result = {
-		'uuid': material.get('uuid'),
-		'slug': slugify(material_name),
-		'brand_slug': brand_slug,
+		'uuid': str(material_uuid),
+		'slug': slugify(f"{brand_slug}-{material_name}"),
+		'brand': {'slug': brand_slug},
 		'name': material_name,
 		'class': material.get('class', 'FFF'),
 	}
@@ -325,10 +344,10 @@ def transform_material(
 	if material.get('primary_color'):
 		primary_color = resolve_uuid_reference(material['primary_color'], colors_map)
 		if primary_color:
-			# Build rgba from color object
-			rgba = primary_color.get('rgba')
-			if rgba:
-				result['primary_color'] = {'rgba': rgba}
+			# Build color_rgba from color object
+			color_rgba = primary_color.get('color_rgba')
+			if color_rgba:
+				result['primary_color'] = {'color_rgba': color_rgba}
 	
 	secondary_colors = []
 	if material.get('secondary_colors') and isinstance(material['secondary_colors'], list):
@@ -345,9 +364,9 @@ def transform_material(
 			if color_uuid:
 				color = colors_map.get(color_uuid)
 				if color:
-					rgba = color.get('rgba')
-					if rgba:
-						secondary_colors.append({'rgba': rgba})
+					color_rgba = color.get('color_rgba')
+					if color_rgba:
+						secondary_colors.append({'color_rgba': color_rgba})
 	if secondary_colors:
 		result['secondary_colors'] = secondary_colors
 	
@@ -378,31 +397,64 @@ def transform_material(
 			result['refractive_index'] = ri
 	
 	# Tags - resolve from material_tags relationship table
+	# Tags to be transformed to 'contains_organic_material'
+	organic_material_tags = {
+		'contains_distillery_waste',
+		'contains_hemp',
+		'contains_linen',
+		'contains_mineral',
+		'contains_olive_bones',
+		'contains_plant',
+	}
+
 	tags = []
+	raw_tags = []  # Collect raw tag names for validation
+
 	if material_uuid and material_uuid in material_tags_map:
 		for tag_uuid in material_tags_map[material_uuid]:
 			tag = resolve_uuid_reference(tag_uuid, tags_map)
 			if tag:
-				tag_slug = slugify(tag.get('name', ''))
+				tag_slug = tag.get('name', '')
 				if tag_slug:
-					tags.append(tag_slug)
-	
+					raw_tags.append(tag_slug)
+
 	# Also check if material has direct tags field (fallback)
-	if not tags and material.get('tags'):
+	if not raw_tags and material.get('tags'):
 		for tag_ref in material['tags']:
 			if isinstance(tag_ref, str):
 				# It's a UUID, resolve it
 				tag = resolve_uuid_reference(tag_ref, tags_map)
 				if tag:
-					tag_slug = slugify(tag.get('name', ''))
+					tag_slug = tag.get('name', '')
 					if tag_slug:
-						tags.append(tag_slug)
+						raw_tags.append(tag_slug)
 			elif isinstance(tag_ref, dict):
 				# It's already a tag object
-				tag_slug = slugify(tag_ref.get('name', ''))
+				tag_slug = tag_ref.get('name', '')
 				if tag_slug:
-					tags.append(tag_slug)
-	
+					raw_tags.append(tag_slug)
+
+	# Validate and transform tags
+	has_organic_material = False
+	for tag_name in raw_tags:
+		# Check if tag should be transformed to contains_organic_material
+		if tag_name in organic_material_tags:
+			has_organic_material = True
+			tag_warnings.append(f"Material '{material_name}': transformed tag '{tag_name}' → 'contains_organic_material'")
+			continue
+
+		# Check if tag is valid according to OpenPrintTag
+		if tag_name not in valid_tag_names:
+			tag_warnings.append(f"Material '{material_name}': dropped invalid tag '{tag_name}' (not in OpenPrintTag)")
+			continue
+
+		# Tag is valid, add it
+		tags.append(tag_name)
+
+	# Add contains_organic_material if any organic tags were found
+	if has_organic_material:
+		tags.append('contains_organic_material')
+
 	if tags:
 		result['tags'] = tags
 	
@@ -498,42 +550,73 @@ def transform_material_package(
 	materials_map: Dict[str, Any],
 	containers_map: Dict[str, Any],
 	fff_packages_map: Dict[str, Any],
-) -> Optional[Dict[str, Any]]:
+) -> tuple[Optional[Dict[str, Any]], Optional[str]]:
 	"""Transform a material package from JSON to YAML format"""
 	brand = None
 	material = None
-	
+
 	# Get brand from material
 	if package.get('material_uuid'):
 		material = materials_map.get(package['material_uuid'])
 		if material and material.get('brand'):
 			brand = brands_map.get(material['brand'])
-	
+
 	if not brand or not material:
-		return None
-	
-	brand_slug = slugify(brand.get('name', ''))
-	material_slug = slugify(material.get('name', ''))
-	
+		return None, None
+
+	brand_name = brand.get('name', '')
+	brand_slug = slugify(brand_name)
+	material_name = material.get('name', '')
+	material_slug = slugify(f"{brand_slug}-{material_name}")
+
 	# Get FFF package details
 	fff_package = None
 	if package.get('fff_material_package'):
 		fff_package_uuid = package['fff_material_package']
 		fff_package = fff_packages_map.get(fff_package_uuid)
-	
+
+	# Generate UUID deterministically from brand UUID + GTIN
+	gtin = package.get('gtin')
+	brand_uuid = generate_brand_uuid(brand_name)
+	package_uuid = generate_material_package_uuid(brand_uuid, gtin) if gtin else None
+
 	result = {
-		'uuid': package.get('uuid'),
+		'uuid': str(package_uuid) if package_uuid else package.get('uuid'),  # fallback to original if no GTIN
 		'slug': slugify(f"{material_slug}-{package.get('nominal_netto_full_weight', '1kg')}-spool"),
 		'class': material.get('class', 'FFF'),
-		'brand_slug': brand_slug,
-		'material_slug': material_slug,
+		'brand': {'slug': brand_slug},
+		'material': {'slug': material_slug},
 		'nominal_netto_full_weight': package.get('nominal_netto_full_weight', 1000),
 	}
 	
 	if package.get('brand_specific_id'):
 		result['brand_specific_id'] = package['brand_specific_id']
+
+	# Convert GTIN to number - if it fails, return None to skip this package
 	if package.get('gtin'):
-		result['gtin'] = str(package['gtin'])
+		gtin_value = package['gtin']
+		try:
+			# Try to convert to integer
+			if isinstance(gtin_value, str):
+				gtin_value = int(gtin_value)
+			elif not isinstance(gtin_value, int):
+				# If it's not a string or int, it's invalid
+				# Build entity identifier for warning
+				package_uuid = package.get('uuid', 'unknown')
+				material_name = material.get('name', '')
+				weight = package.get('nominal_netto_full_weight', '1kg')
+				entity_identifier = f"{material_name} {weight} [{package_uuid}]"
+				return None, f"Material Package {entity_identifier}: invalid GTIN type"
+			result['gtin'] = gtin_value
+		except (ValueError, TypeError):
+			# Invalid GTIN - skip this package
+			# Build entity identifier for warning
+			package_uuid = package.get('uuid', 'unknown')
+			material_name = material.get('name', '')
+			weight = package.get('nominal_netto_full_weight', '1kg')
+			entity_identifier = f"{material_name} {weight} [{package_uuid}]"
+			return None, f"Material Package {entity_identifier}: invalid GTIN value (conversion failed)"
+
 	if package.get('url'):
 		result['url'] = package['url']
 	
@@ -543,7 +626,7 @@ def transform_material_package(
 		if container:
 			container_slug = slugify(container.get('name', ''))
 			if container_slug:
-				result['container_slug'] = container_slug
+				result['container'] = {'slug': container_slug}
 	
 	# FFF-specific fields
 	if fff_package:
@@ -568,8 +651,17 @@ def transform_material_package(
 				result['filament_diameter_tolerance'] = int(tolerance)
 		if fff_package.get('nominal_full_length'):
 			result['nominal_full_length'] = fff_package['nominal_full_length']
-	
-	return result
+
+	# Check for required filament_diameter field - skip package if missing
+	if 'filament_diameter' not in result:
+		# Build entity identifier for warning
+		package_uuid = package.get('uuid', 'unknown')
+		material_name = material.get('name', '')
+		weight = package.get('nominal_netto_full_weight', '1kg')
+		entity_identifier = f"{material_name} {weight} [{package_uuid}]"
+		return None, f"Material Package {entity_identifier}: missing filament_diameter in transformed result"
+
+	return result, None
 
 
 def transform_material_container(
@@ -588,9 +680,9 @@ def transform_material_container(
 		'name': container.get('name', ''),
 		'class': container.get('class', 'FFF'),
 	}
-	
+
 	if brand:
-		result['brand_slug'] = slugify(brand.get('name', ''))
+		result['brand'] = {'slug': slugify(brand.get('name', ''))}
 	if container.get('brand_specific_id'):
 		result['brand_specific_id'] = container['brand_specific_id']
 	
@@ -690,7 +782,42 @@ def main():
 	print(f"Loading {json_file}...")
 	with open(json_file, 'r') as f:
 		data = json.load(f)
-	
+
+	# Load OpenPrintTag material tags for validation
+	openprinttag_tags_file = repo_root / "openprinttag" / "data" / "material_tags.yaml"
+	if not openprinttag_tags_file.exists():
+		print(f"Error: OpenPrintTag material tags file not found at {openprinttag_tags_file}")
+		sys.exit(1)
+
+	print(f"Loading OpenPrintTag material tags from {openprinttag_tags_file}...")
+	with open(openprinttag_tags_file, 'r') as f:
+		openprinttag_tags = yaml.safe_load(f)
+
+	valid_tag_names = set()
+	if openprinttag_tags:
+		for tag in openprinttag_tags:
+			if tag.get('name'):
+				valid_tag_names.add(tag['name'])
+	print(f"  Loaded {len(valid_tag_names)} valid tag names from OpenPrintTag")
+
+	# Load OpenPrintTag material types for ID mapping
+	openprinttag_types_file = repo_root / "openprinttag" / "data" / "material_types.yaml"
+	if not openprinttag_types_file.exists():
+		print(f"Error: OpenPrintTag material types file not found at {openprinttag_types_file}")
+		sys.exit(1)
+
+	print(f"Loading OpenPrintTag material types from {openprinttag_types_file}...")
+	with open(openprinttag_types_file, 'r') as f:
+		openprinttag_types = yaml.safe_load(f)
+
+	# Create abbreviation -> key mapping from OpenPrintTag
+	openprinttag_abbreviation_to_key = {}
+	if openprinttag_types:
+		for mt in openprinttag_types:
+			if mt.get('abbreviation') and 'key' in mt:
+				openprinttag_abbreviation_to_key[mt['abbreviation']] = mt['key']
+	print(f"  Loaded {len(openprinttag_abbreviation_to_key)} material type abbreviations from OpenPrintTag")
+
 	print("Building lookup maps...")
 	# Create UUID maps for quick lookup
 	brands_map = create_uuid_map(data.get('brands', []))
@@ -742,7 +869,7 @@ def main():
 	relationship_maps = build_relationship_maps(data)
 	
 	print("Transforming data...")
-	
+
 	# Transform brands
 	print("  Transforming brands...")
 	brands_output = {}
@@ -750,90 +877,31 @@ def main():
 		transformed = transform_brand(brand, countries_map)
 		if transformed and transformed.get('slug'):
 			brands_output[transformed['slug']] = transformed
-	
-	# Transform lookup tables
-	print("  Transforming lookup tables...")
-	
-	# Material types - assign sequential IDs
-	material_types_output = []
+
+	# Build material types UUID to ID mapping using OpenPrintTag keys
 	material_types_uuid_to_id = {}  # Map UUID to assigned ID
-	type_id_counter = 1
+	unmapped_types = []
 	for mt in data.get('material_types', []):
 		mt_uuid = mt.get('uuid')
-		if mt_uuid:
-			material_types_uuid_to_id[mt_uuid] = type_id_counter
-			transformed = transform_material_type(mt, type_id_counter)
-			if transformed:
-				material_types_output.append(transformed)
-				type_id_counter += 1
-	material_types_output.sort(key=lambda x: x.get('id', 0))
+		mt_abbreviation = mt.get('abbreviation')
+		if mt_uuid and mt_abbreviation:
+			# Look up the ID from OpenPrintTag based on abbreviation
+			openprinttag_key = openprinttag_abbreviation_to_key.get(mt_abbreviation)
+			if openprinttag_key is not None:
+				material_types_uuid_to_id[mt_uuid] = openprinttag_key
+			else:
+				unmapped_types.append(f"{mt_abbreviation} ({mt.get('name', 'unknown')})")
+
+	if unmapped_types:
+		print(f"  ⚠ Warning: {len(unmapped_types)} material type(s) not found in OpenPrintTag:")
+		for mt_name in unmapped_types:
+			print(f"    - {mt_name}")
 	
-	# Tags - assign sequential IDs and build tag_categories_tags map
-	tags_output = []
-	tag_id_counter = 1
-	tag_categories_tags_map = {}  # tag_uuid -> [category_uuids]
-	
-	# Build tag categories map by UUID for lookup (used in transform_tag)
-	tag_categories_uuid_map = {}
-	if 'tag_categories' in data:
-		for tc in data['tag_categories']:
-			if tc.get('uuid'):
-				tag_categories_uuid_map[tc['uuid']] = tc
-	
-	# Build tag_categories_tags relationship map
-	if 'tag_categories_tags' in data:
-		for tct in data['tag_categories_tags']:
-			tag_uuid = tct.get('tags_uuid') or tct.get('tag_uuid')
-			category_uuid = tct.get('tag_categories_uuid') or tct.get('tag_category_uuid')
-			if tag_uuid and category_uuid:
-				if tag_uuid not in tag_categories_tags_map:
-					tag_categories_tags_map[tag_uuid] = []
-				tag_categories_tags_map[tag_uuid].append(category_uuid)
-	
-	# Transform tags
-	for tag in data.get('tags', []):
-		transformed = transform_tag(tag, tag_id_counter, tag_categories_map, tag_categories_tags_map)
-		if transformed:
-			tags_output.append(transformed)
-			tag_id_counter += 1
-	tags_output.sort(key=lambda x: x.get('id', 0) or 0)
-	
-	# Certifications
-	certifications_output = []
-	for cert in data.get('certifications', []):
-		transformed = transform_certification(cert)
-		if transformed:
-			certifications_output.append(transformed)
-	certifications_output.sort(key=lambda x: x.get('id', 0) or 0)
-	
-	# Countries
-	countries_output = []
-	for country in data.get('countries', []):
-		transformed = transform_country(country)
-		if transformed:
-			countries_output.append(transformed)
-	countries_output.sort(key=lambda x: x.get('code', ''))
-	
-	# Palette colors
-	palette_colors_output = []
-	if 'ral_colors' in data:
-		for color in data['ral_colors']:
-			transformed = transform_palette_color(color)
-			if transformed:
-				palette_colors_output.append(transformed)
-	
-	# Colors
-	colors_output = []
-	if 'colors' in data:
-		for color in data['colors']:
-			transformed = transform_color(color)
-			if transformed and transformed.get('uuid') and transformed.get('name') and transformed.get('rgba'):
-				colors_output.append(transformed)
-	colors_output.sort(key=lambda x: x.get('name', ''))
 	
 	# Transform materials
 	print("  Transforming materials...")
 	materials_output = {}  # brand_slug -> {material_slug -> material}
+	tag_warnings = []  # Collect tag transformation and validation warnings
 	for material in data.get('materials', []):
 		transformed = transform_material(
 			material,
@@ -850,9 +918,11 @@ def main():
 			relationship_maps['material_tags'],
 			relationship_maps['material_certifications'],
 			relationship_maps['material_photos'],
+			valid_tag_names,
+			tag_warnings,
 		)
-		if transformed and transformed.get('brand_slug') and transformed.get('slug'):
-			brand_slug = transformed['brand_slug']
+		if transformed and transformed.get('brand') and transformed.get('slug'):
+			brand_slug = transformed['brand']['slug']
 			if brand_slug not in materials_output:
 				materials_output[brand_slug] = {}
 			materials_output[brand_slug][transformed['slug']] = transformed
@@ -860,20 +930,88 @@ def main():
 	# Transform material packages
 	print("  Transforming material packages...")
 	packages_output = {}  # brand_slug -> {package_slug -> package}
+	warning_count = 0
 	for package in data.get('material_package', []):
-		# Skip packages without GTIN
-		if not package.get('gtin'):
+		# Validate package before transformation
+		skip_reason = None
+		entity_identifier = None
+		material = None
+
+		# Check material reference
+		if not package.get('material_uuid'):
+			skip_reason = "missing material reference"
+		else:
+			material = materials_map.get(package['material_uuid'])
+			if not material:
+				skip_reason = "invalid material reference"
+
+		# Check brand reference
+		if not skip_reason and material:
+			if not material.get('brand'):
+				skip_reason = "missing brand reference"
+			else:
+				brand = brands_map.get(material['brand'])
+				if not brand:
+					skip_reason = "invalid brand reference"
+
+		# Check GTIN presence and validity
+		if not skip_reason:
+			gtin_value = package.get('gtin')
+			if not gtin_value:
+				skip_reason = "missing GTIN"
+			else:
+				try:
+					if isinstance(gtin_value, str):
+						int(gtin_value)
+					elif not isinstance(gtin_value, int):
+						skip_reason = "invalid GTIN value"
+				except (ValueError, TypeError):
+					skip_reason = "invalid GTIN value"
+
+		# Check filament_diameter
+		if not skip_reason:
+			fff_package_uuid = package.get('fff_material_package')
+			fff_package = fff_packages_map.get(fff_package_uuid) if fff_package_uuid else None
+			if not fff_package:
+				skip_reason = "missing fff_material_package reference"
+			elif not fff_package.get('filament_diameter'):
+				# Include the actual value for debugging
+				actual_value = fff_package.get('filament_diameter', 'not present')
+				skip_reason = f"missing filament_diameter field (value: {actual_value})"
+
+		# If validation failed, log and skip
+		if skip_reason:
+			warning_count += 1
+
+			# Build entity identifier for logging (include both name and UUID)
+			package_uuid = package.get('uuid', 'unknown')
+			if material:
+				material_name = material.get('name', '')
+				weight = package.get('nominal_netto_full_weight', '1kg')
+				entity_identifier = f"{material_name} {weight} [{package_uuid}]"
+			else:
+				entity_identifier = f"[{package_uuid}]"
+
+			print(f"    ⚠ Material Package {entity_identifier} was omitted from the import. Reason: {skip_reason}")
 			continue
 
-		transformed = transform_material_package(
+		# Validation passed - transform and add to output
+		transformed, warning = transform_material_package(
 			package,
 			brands_map,
 			materials_map,
 			containers_map,
 			fff_packages_map,
 		)
-		if transformed and transformed.get('brand_slug') and transformed.get('slug'):
-			brand_slug = transformed['brand_slug']
+
+		# Check if transform returned a warning
+		if warning:
+			warning_count += 1
+			print(f"    ⚠ {warning}")
+			continue
+
+		if transformed and transformed.get('brand') and transformed.get('slug'):
+			brand_slug = transformed['brand']['slug']
 			if brand_slug not in packages_output:
 				packages_output[brand_slug] = {}
 			packages_output[brand_slug][transformed['slug']] = transformed
@@ -899,29 +1037,6 @@ def main():
 		file_path = brands_dir / f"{slug}.yaml"
 		with open(file_path, 'w') as f:
 			yaml.dump(brand, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	# Write lookup tables
-	lookup_dir = output_dir / "lookup-tables"
-	lookup_dir.mkdir(parents=True, exist_ok=True)
-	
-	with open(lookup_dir / "material-types.yaml", 'w') as f:
-		yaml.dump({'types': material_types_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	with open(lookup_dir / "material-tags.yaml", 'w') as f:
-		yaml.dump({'tags': tags_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	with open(lookup_dir / "material-certifications.yaml", 'w') as f:
-		yaml.dump({'certifications': certifications_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	with open(lookup_dir / "countries.yaml", 'w') as f:
-		yaml.dump({'countries': countries_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	if palette_colors_output:
-		with open(lookup_dir / "palette-colors.yaml", 'w') as f:
-			yaml.dump({'colors': palette_colors_output}, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	# Note: colors are not written to lookup table as they're stored inline in materials
-	# The colors_map is only used during import to resolve UUIDs to rgba values
 	
 	# Write materials
 	materials_dir = output_dir / "materials"
@@ -952,22 +1067,21 @@ def main():
 		file_path = containers_dir / f"{slug}.yaml"
 		with open(file_path, 'w') as f:
 			yaml.dump(container, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-	
-	# Cleanup: Remove colors.yaml if it exists (colors are stored inline, not in lookup table)
-	colors_file = lookup_dir / "colors.yaml"
-	if colors_file.exists():
-		colors_file.unlink()
-		print(f"\n✓ Cleaned up colors.yaml (colors are stored inline in materials)")
-	
+
 	print(f"\n✓ Transformation complete! Output: {output_dir}")
 	print(f"  - Brands: {len(brands_output)}")
 	print(f"  - Materials: {sum(len(m) for m in materials_output.values())}")
 	print(f"  - Material Packages: {sum(len(p) for p in packages_output.values())}")
 	print(f"  - Material Containers: {len(containers_output)}")
-	print(f"  - Material Types: {len(material_types_output)}")
-	print(f"  - Tags: {len(tags_output)}")
-	print(f"  - Certifications: {len(certifications_output)}")
-	print(f"  - Countries: {len(countries_output)}")
+
+	# Print tag warnings
+	if tag_warnings:
+		print(f"\n⚠ Tag transformation and validation warnings ({len(tag_warnings)} total):")
+		for warning in tag_warnings:
+			print(f"    ⚠ {warning}")
+
+	if warning_count > 0:
+		print(f"\n⚠ Total package warnings: {warning_count}")
 
 
 if __name__ == '__main__':
