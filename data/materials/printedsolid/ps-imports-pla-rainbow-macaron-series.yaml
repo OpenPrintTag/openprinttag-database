@@ -3,8 +3,8 @@ slug: ps-imports-pla-rainbow-macaron-series
 brand_slug: printedsolid
 name: PS Imports PLA Rainbow Macaron Series
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fbe200ff'
 - rgba: '#d0e68cff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#c75072ff'
 - rgba: '#39b9dbff'
 tags:
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/4ed73f0ebc51.png
   type: unspecified

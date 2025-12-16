@@ -3,17 +3,17 @@ slug: silk-pla-rainbow-4
 brand_slug: flashforge
 name: Silk PLA Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#a67dffff'
 - rgba: '#d33d3dff'
-- rgba: '#bed9ebff'
 - rgba: '#9cbf60ff'
+- rgba: '#99b2deff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/5da67b66fb95.jpg
   type: unspecified

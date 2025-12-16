@@ -3,14 +3,14 @@ slug: pla-crystal-blue-horizon
 brand_slug: spectrum
 name: PLA Crystal Blue Horizon
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-crystal/
 primary_color:
   rgba: '#0099e6ff'
 tags:
-- transparent
 - silk
 - industrially-compostable
+- translucent
 properties:
   density: 1.24

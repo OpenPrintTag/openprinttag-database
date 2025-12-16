@@ -3,10 +3,10 @@ slug: silk-pla-blue-6
 brand_slug: flashforge
 name: Silk PLA Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
-  rgba: '#393785ff'
+  rgba: '#2c3294ff'
 tags:
 - silk
 - industrially-compostable

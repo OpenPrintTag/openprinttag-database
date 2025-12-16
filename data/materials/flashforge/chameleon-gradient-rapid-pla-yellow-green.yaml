@@ -3,15 +3,14 @@ slug: chameleon-gradient-rapid-pla-yellow-green
 brand_slug: flashforge
 name: Chameleon Gradient Rapid PLA Yellow & Green
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fbe200ff'
 - rgba: '#41a840ff'
 tags:
-- color-gradient
-- iridescent
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/d64b1d24f294.jpg
   type: unspecified

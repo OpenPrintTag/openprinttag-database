@@ -3,15 +3,15 @@ slug: ps-imports-pla-bicolor-silk-magic-blue-yellow
 brand_slug: printedsolid
 name: PS Imports PLA Bicolor Silk Magic-Blue-Yellow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0099e6ff'
 - rgba: '#ebff57ff'
 tags:
-- dual-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/9527f9a41a5d.png
   type: unspecified

@@ -3,15 +3,15 @@ slug: silk-pla-dual-colors-gold-silver
 brand_slug: overture
 name: Silk PLA Dual Colors Gold-Silver
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#f6c500ff'
 - rgba: '#c9d0d4ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/58b469070007.jpg
   type: unspecified

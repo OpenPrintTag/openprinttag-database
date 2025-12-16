@@ -3,8 +3,8 @@ slug: matte-pla-rainbow
 brand_slug: esun
 name: 'Matte PLA Rainbow '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fce575ff'
 - rgba: '#eadac2ff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#f4d9deff'
 tags:
 - matte
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/0781ff6e9ccf.jpg
   type: unspecified

@@ -3,8 +3,8 @@ slug: flexible-pla-89a-pink
 brand_slug: ataraxia-art
 name: Flexible PLA 89A Pink
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#fc6d8eff'
 tags:
@@ -12,4 +12,5 @@ tags:
 photos:
 - url: https://file.myfilamentlist.com/f/new/c1eb3feb6596.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 98

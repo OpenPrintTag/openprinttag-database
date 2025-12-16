@@ -3,8 +3,8 @@ slug: pla-new-rainbow-2024-rainbow-silk-series-pla
 brand_slug: zyltech
 name: PLA New Rainbow 2024 Rainbow Silk Series PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ae96d4ff'
 - rgba: '#39b9dbff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#eeea44ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/6e5957c07eff.png
   type: unspecified

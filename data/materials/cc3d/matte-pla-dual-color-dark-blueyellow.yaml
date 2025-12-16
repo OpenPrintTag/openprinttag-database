@@ -3,15 +3,15 @@ slug: matte-pla-dual-color-dark-blueyellow
 brand_slug: cc3d
 name: Matte PLA Dual Color Dark Blue/Yellow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0378d0ff'
 - rgba: '#eeea44ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/9e807bae9073.jpg
   type: unspecified

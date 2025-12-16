@@ -3,15 +3,15 @@ slug: matte-pla-dual-color-bluerose
 brand_slug: cc3d
 name: Matte PLA Dual Color Blue/Rose
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0066d9ff'
 - rgba: '#f300eaff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/64b8180131bc.jpg
   type: unspecified

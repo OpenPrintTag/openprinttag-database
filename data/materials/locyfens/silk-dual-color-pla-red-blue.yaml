@@ -3,15 +3,15 @@ slug: silk-dual-color-pla-red-blue
 brand_slug: locyfens
 name: Silk Dual Color PLA Red Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c80181ff'
-- rgba: '#0353baff'
+- rgba: '#0066d9ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/3e05e88e8694.jpg
   type: unspecified

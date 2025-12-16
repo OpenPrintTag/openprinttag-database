@@ -3,10 +3,10 @@ slug: woodfill
 brand_slug: colorfabb
 name: 'woodFill '
 class: FFF
-type_id: 43
-abbreviation: ''
+type_id: 42
+abbreviation: PHA
 primary_color:
-  rgba: '#f5dcc5ff'
+  rgba: '#f0ddc2ff'
 tags:
 - contains-wood
 - home-compostable

@@ -3,14 +3,14 @@ slug: aqua-ice-translucent-htpla
 brand_slug: protopasta
 name: Aqua Ice Translucent HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
-  rgba: '#40e0d0ff'
+  rgba: '#00b4bcff'
 tags:
-- transparent
 - high-temperature
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/6faa7e9ff93c.png
   type: unspecified

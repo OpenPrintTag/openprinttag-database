@@ -3,8 +3,8 @@ slug: 95a-tpu-red
 brand_slug: geeetech
 name: 95A TPU Red
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#fc496dff'
 tags:
@@ -12,4 +12,5 @@ tags:
 photos:
 - url: https://file.myfilamentlist.com/f/new/5a7797a79a11.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

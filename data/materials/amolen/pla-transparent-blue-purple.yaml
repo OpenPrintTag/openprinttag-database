@@ -3,15 +3,15 @@ slug: pla-transparent-blue-purple
 brand_slug: amolen
 name: PLA Transparent Blue Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#0095ffff'
 - rgba: '#ae00ffff'
+- rgba: '#0353baff'
 tags:
 - translucent
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/79f0aa49-ed6b-47f0-9dd5-6245d318b137/2d5919a4366d.png
   type: unspecified

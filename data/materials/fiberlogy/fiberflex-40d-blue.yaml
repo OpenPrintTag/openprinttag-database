@@ -3,11 +3,12 @@ slug: fiberflex-40d-blue
 brand_slug: fiberlogy
 name: FiberFlex 40D Blue
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#0099e6ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/83f02efde766.png
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_d: 40

@@ -3,14 +3,15 @@ slug: pla-burnt-titanium-technology-blue
 brand_slug: eryone
 name: PLA Burnt Titanium Technology Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#003b80ff'
 - rgba: '#7142a3ff'
 tags:
-- dual-color
 - industrially-compostable
+- coextruded
+- iridescent
 photos:
 - url: https://file.myfilamentlist.com/f/new/de234623d2a8.jpg
   type: unspecified

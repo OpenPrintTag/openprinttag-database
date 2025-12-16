@@ -3,12 +3,13 @@ slug: innovatefil-peek-natural
 brand_slug: smart-materials-3d
 name: INNOVATEFIL® PEEK Natural
 class: FFF
-type_id: 33
-abbreviation: ''
+type_id: 32
+abbreviation: PEEK
 primary_color:
   rgba: '#afa198ff'
 tags:
 - low-outgassing
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/1cb92198750e.png
   type: unspecified

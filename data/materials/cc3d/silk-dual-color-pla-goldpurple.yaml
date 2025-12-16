@@ -3,15 +3,15 @@ slug: silk-dual-color-pla-goldpurple
 brand_slug: cc3d
 name: Silk Dual Color PLA Gold/Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffcb47ff'
 - rgba: '#8846aeff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/235d36b9b4b5.jpg
   type: unspecified

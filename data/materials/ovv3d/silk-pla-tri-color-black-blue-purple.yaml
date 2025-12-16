@@ -1,18 +1,18 @@
-uuid: ab7d9376-c993-5845-9960-3e32f0612548
+uuid: 1a209c51-4486-50f2-8f2d-6e89b9f475fe
 slug: silk-pla-tri-color-black-blue-purple
 brand_slug: ovv3d
-name: 'Silk PLA Tri-color Black Blue Purple '
+name: Silk PLA Tri-color Black Blue Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#000000ff'
 - rgba: '#8846aeff'
 - rgba: '#2e56f1ff'
 tags:
-- triple-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/017768668ff7.jpg
   type: unspecified

@@ -3,11 +3,12 @@ slug: fiberflex-40d-pink
 brand_slug: fiberlogy
 name: FiberFlex 40D Pink
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#c90d6eff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/f188fc95f534.png
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_d: 40

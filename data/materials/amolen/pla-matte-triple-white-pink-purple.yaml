@@ -3,17 +3,16 @@ slug: pla-matte-triple-white-pink-purple
 brand_slug: amolen
 name: PLA Matte Triple White Pink Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffffffff'
 - rgba: '#ffbadeff'
 - rgba: '#c170faff'
 tags:
-- multicolor
 - matte
-- triple-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/36c67281-44c0-4686-bde3-5ea8d7db5da6/b1ef12b2e2b7.png
   type: unspecified

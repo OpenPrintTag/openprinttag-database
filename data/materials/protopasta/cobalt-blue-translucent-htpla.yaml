@@ -3,14 +3,14 @@ slug: cobalt-blue-translucent-htpla
 brand_slug: protopasta
 name: Cobalt Blue Translucent HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#0353baff'
 tags:
-- transparent
 - high-temperature
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/29b1b04637cc.png
   type: unspecified

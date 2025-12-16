@@ -3,8 +3,8 @@ slug: ps-imports-pla-rainbow-luminous-rainbow-white
 brand_slug: printedsolid
 name: PS Imports PLA Rainbow Luminous Rainbow-White
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ebff57ff'
 - rgba: '#0ccf81ff'
@@ -12,9 +12,9 @@ secondary_colors:
 - rgba: '#f092b3ff'
 - rgba: '#ffffffff'
 tags:
-- multicolor
-- transparent
 - industrially-compostable
+- gradual-color-change
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/815e0d28c480.png
   type: unspecified

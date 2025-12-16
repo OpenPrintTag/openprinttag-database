@@ -3,14 +3,13 @@ slug: pla-temperature-color-change-blue-to-white
 brand_slug: amolen
 name: PLA Temperature Color Change Blue to White
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffffffff'
-- rgba: '#0022ffff'
+- rgba: '#2e56f1ff'
 tags:
 - temperature-color-change
-- dual-color
 - industrially-compostable
 photos:
 - url: https://file.myfilamentlist.com/f/30631894-9fe3-4402-94d5-bb79d171aabe/f267b6c4ec06.png

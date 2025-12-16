@@ -3,13 +3,13 @@ slug: keystone-blue-translucent-pla
 brand_slug: marlon-precision-3d-filament
 name: Keystone Blue [Translucent] PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#2c3294ff'
 tags:
-- transparent
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/7f13ac971d87.png
   type: unspecified

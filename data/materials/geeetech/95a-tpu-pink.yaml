@@ -3,11 +3,12 @@ slug: 95a-tpu-pink
 brand_slug: geeetech
 name: 95A TPU Pink
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
-  rgba: '#e23288ff'
+  rgba: '#ff0078ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/1b7e4abd68aa.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

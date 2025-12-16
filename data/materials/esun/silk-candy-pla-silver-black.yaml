@@ -3,15 +3,15 @@ slug: silk-candy-pla-silver-black
 brand_slug: esun
 name: 'Silk Candy PLA Silver Black '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c9d0d4ff'
 - rgba: '#000000ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/ec7fcadccab7.jpg
   type: unspecified

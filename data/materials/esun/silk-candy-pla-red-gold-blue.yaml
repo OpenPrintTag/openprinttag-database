@@ -3,16 +3,16 @@ slug: silk-candy-pla-red-gold-blue
 brand_slug: esun
 name: 'Silk Candy PLA Red Gold Blue '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffcb47ff'
 - rgba: '#f00c00ff'
 - rgba: '#2e56f1ff'
 tags:
 - silk
-- triple-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/67d7a5ea87d3.jpg
   type: unspecified

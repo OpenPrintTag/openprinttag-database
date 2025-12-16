@@ -3,8 +3,8 @@ slug: silk-rainbow-d-blue-series-pla
 brand_slug: cc3d
 name: Silk Rainbow D Blue Series PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#6c47b2ff'
 - rgba: '#0353baff'
@@ -13,8 +13,8 @@ secondary_colors:
 - rgba: '#c80181ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/6babfede76b5.jpg
   type: unspecified

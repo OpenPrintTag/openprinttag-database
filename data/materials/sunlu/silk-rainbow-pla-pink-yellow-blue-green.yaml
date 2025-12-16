@@ -3,8 +3,8 @@ slug: silk-rainbow-pla-pink-yellow-blue-green
 brand_slug: sunlu
 name: 'Silk Rainbow PLA (Pink-Yellow-Blue-Green) '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#84d18bff'
 - rgba: '#82e3ecff'
@@ -13,8 +13,8 @@ secondary_colors:
 - rgba: '#a67dffff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/d544f1c007a0.jpg
   type: unspecified

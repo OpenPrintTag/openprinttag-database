@@ -3,8 +3,8 @@ slug: ps-imports-pla-silk-rainbow-candy-series
 brand_slug: printedsolid
 name: PS Imports PLA Silk Rainbow Candy Series
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#db3fa9ff'
 - rgba: '#ff7a33ff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#0099e6ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/122bce0eb6d4.png
   type: unspecified

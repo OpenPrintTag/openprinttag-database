@@ -3,13 +3,13 @@ slug: silk-rainbow-pla-universe
 brand_slug: esun
 name: 'Silk Rainbow PLA Universe '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#206233ff'
 - rgba: '#2e56f1ff'
-- rgba: '#8d5d4fff'
 - rgba: '#8846aeff'
+- rgba: '#8e5850ff'
 tags:
 - silk
 - industrially-compostable

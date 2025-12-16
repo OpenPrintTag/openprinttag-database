@@ -3,11 +3,12 @@ slug: tpu95a-red
 brand_slug: creality
 name: TPU95A Red
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#df3303ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/40cc5ed4209f.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

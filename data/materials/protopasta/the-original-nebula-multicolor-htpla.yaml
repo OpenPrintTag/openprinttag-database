@@ -3,18 +3,18 @@ slug: the-original-nebula-multicolor-htpla
 brand_slug: protopasta
 name: The Original Nebula Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0353baff'
 - rgba: '#0099e6ff'
 - rgba: '#6c47b2ff'
 - rgba: '#c80181ff'
 tags:
-- multicolor
 - glitter
 - high-temperature
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/423fc93d3de2.png
   type: unspecified

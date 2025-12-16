@@ -3,16 +3,16 @@ slug: high-gloss-pla-colormorph-blue-green
 brand_slug: formfutura
 name: High Gloss PLA ColorMorph Blue & Green
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#008059ff'
-- rgba: '#005aa2ff'
+- rgba: '#005da4ff'
 tags:
 - iridescent
-- dual-color
 - silk
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/c69ccd862fe0.png
   type: unspecified

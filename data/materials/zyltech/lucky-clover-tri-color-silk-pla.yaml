@@ -3,16 +3,16 @@ slug: lucky-clover-tri-color-silk-pla
 brand_slug: zyltech
 name: Lucky Clover Tri-Color Silk PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#f1e6b2ff'
 - rgba: '#c3ccd5ff'
 - rgba: '#519f61ff'
+- rgba: '#fbe9b8ff'
 tags:
 - silk
-- triple-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/35b464aee6e8.png
   type: unspecified

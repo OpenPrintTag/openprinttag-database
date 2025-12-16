@@ -3,18 +3,17 @@ slug: rapid-pla-gradient-summer-reverie
 brand_slug: flashforge
 name: Rapid PLA Gradient Summer Reverie
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#bed9ebff'
 - rgba: '#f297daff'
 - rgba: '#f67405ff'
 - rgba: '#fbe200ff'
 - rgba: '#9cbf60ff'
+- rgba: '#8ed9f9ff'
 tags:
-- multicolor
-- color-gradient
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/bc90439ff515.jpg
   type: unspecified

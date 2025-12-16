@@ -3,8 +3,8 @@ slug: ps-imports-pla-silk-rainbow-universe-series
 brand_slug: printedsolid
 name: PS Imports PLA Silk Rainbow Universe Series
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#1e5a4fff'
 - rgba: '#183681ff'
@@ -12,8 +12,8 @@ secondary_colors:
 - rgba: '#f092b3ff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/f353bfc0d53c.png
   type: unspecified

@@ -3,13 +3,15 @@ slug: tpu-95a-natural-clear
 brand_slug: esun
 name: TPU 95A Natural Clear
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#e4e7e5ff'
 tags:
-- translucent
+- transparent
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/39b20a0ad63d.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

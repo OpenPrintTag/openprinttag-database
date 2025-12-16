@@ -3,15 +3,15 @@ slug: silk-dual-color-pla-red-green
 brand_slug: cc3d
 name: Silk Dual Color PLA Red Green
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#c4376dff'
 - rgba: '#3d9441ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/fda2142630aa.jpg
   type: unspecified

@@ -3,16 +3,16 @@ slug: temperature-color-changing-pla
 brand_slug: hatchbox
 name: 'Temperature Color Changing PLA '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#d1006fff'
 - rgba: '#ff8400ff'
 - rgba: '#906482ff'
+- rgba: '#f2306eff'
 tags:
-- multicolor
 - temperature-color-change
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/7c706ffbc68e.jpg
   type: unspecified

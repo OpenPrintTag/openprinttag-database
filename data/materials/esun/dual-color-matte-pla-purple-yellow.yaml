@@ -3,15 +3,15 @@ slug: dual-color-matte-pla-purple-yellow
 brand_slug: esun
 name: Dual Color Matte PLA Purple Yellow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#8846aeff'
 - rgba: '#f3c102ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/a09215b2ed9c.jpg
   type: unspecified

@@ -3,15 +3,15 @@ slug: partly-cloudy-blue-multicolor-htpla
 brand_slug: protopasta
 name: Partly Cloudy Blue Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#0378d0ff'
 - rgba: '#39b9dbff'
 tags:
-- color-gradient
 - high-temperature
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/b04b36a8091d.png
   type: unspecified

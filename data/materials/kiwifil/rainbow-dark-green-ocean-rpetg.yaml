@@ -3,14 +3,14 @@ slug: rainbow-dark-green-ocean-rpetg
 brand_slug: kiwifil
 name: Rainbow "Dark Green Ocean", rPETG
 class: FFF
-type_id: 14
-abbreviation: ''
+type_id: 13
+abbreviation: PETG
 secondary_colors:
 - rgba: '#67c993ff'
 - rgba: '#0353baff'
 tags:
 - recycled
-- dual-color
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/013b74fcca9f.jpg
   type: unspecified

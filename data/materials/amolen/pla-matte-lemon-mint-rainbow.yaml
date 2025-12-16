@@ -3,17 +3,16 @@ slug: pla-matte-lemon-mint-rainbow
 brand_slug: amolen
 name: PLA Matte Lemon Mint Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fffb00ff'
 - rgba: '#98fbcbff'
 - rgba: '#adebb3ff'
 tags:
 - matte
-- multicolor
-- triple-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/0d009679-75df-4e60-b6e0-a394d99ee986/2e2149b336ee.png
   type: unspecified

@@ -3,16 +3,16 @@ slug: pla-rainbow
 brand_slug: creality
 name: PLA Rainbow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff8b47ff'
 - rgba: '#771b6bff'
 - rgba: '#00a594ff'
 - rgba: '#f5e457ff'
 tags:
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/0c41c90f4baa.jpg
   type: unspecified

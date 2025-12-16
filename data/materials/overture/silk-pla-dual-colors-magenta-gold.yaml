@@ -3,15 +3,15 @@ slug: silk-pla-dual-colors-magenta-gold
 brand_slug: overture
 name: Silk PLA Dual Colors Magenta-Gold
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#b1407fff'
 - rgba: '#f6c500ff'
+- rgba: '#e23288ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/c02cb256b2ed.jpg
   type: unspecified

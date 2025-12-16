@@ -1,177 +1,173 @@
 types:
 - id: 1
   class: FFF
-  abbreviation: ''
-  name: PEKK
+  abbreviation: PEKK
+  name: Polyetherketoneketone
 - id: 2
   class: FFF
-  abbreviation: ''
-  name: PPS
+  abbreviation: PPS
+  name: Polyphenylene Sulfide
 - id: 3
   class: FFF
-  abbreviation: ''
-  name: CPE
+  abbreviation: PCTG
+  name: Polycyclohexylene Dimethylene Terephthalate Glycol
 - id: 4
   class: FFF
-  abbreviation: ''
-  name: PCTG
+  abbreviation: ABS
+  name: Acrylonitrile Butadiene Styrene
 - id: 5
   class: FFF
   abbreviation: ''
-  name: ABS
+  name: Resin 405
 - id: 6
   class: FFF
-  abbreviation: ''
-  name: Resin 405
+  abbreviation: PVDF
+  name: Polyvinylidene Fluoride
 - id: 7
   class: FFF
-  abbreviation: ''
-  name: PVDF
+  abbreviation: PS
+  name: Polystyrene
 - id: 8
   class: FFF
-  abbreviation: ''
-  name: PS
+  abbreviation: PA66
+  name: Polyamide 66
 - id: 9
   class: FFF
-  abbreviation: ''
-  name: PA66
+  abbreviation: PVC
+  name: Polyvinyl Chloride
 - id: 10
   class: FFF
-  abbreviation: ''
-  name: PVC
+  abbreviation: CPE
+  name: Co-Polyester
 - id: 11
   class: FFF
-  abbreviation: ''
-  name: CPE
+  abbreviation: PVB
+  name: Polyvinyl Butyral
 - id: 12
   class: FFF
-  abbreviation: ''
-  name: PVB
+  abbreviation: TPE
+  name: Thermoplastic Elastomer
 - id: 13
   class: FFF
-  abbreviation: ''
-  name: TPE
+  abbreviation: PETG
+  name: Polyethylene Terephthalate Glycol-modified
 - id: 14
   class: FFF
-  abbreviation: ''
-  name: PETG
+  abbreviation: PPE
+  name: Polyphenylene Ether
 - id: 15
   class: FFF
-  abbreviation: ''
-  name: PPE
+  abbreviation: PP
+  name: Polypropylene
 - id: 16
   class: FFF
-  abbreviation: ''
-  name: PP
+  abbreviation: PA612
+  name: Polyamide 612
 - id: 17
   class: FFF
-  abbreviation: ''
-  name: PA612
+  abbreviation: TPC
+  name: Thermoplastic Copolyester
 - id: 18
   class: FFF
-  abbreviation: ''
-  name: TPC
+  abbreviation: PPSU
+  name: Polyphenylsulfone
 - id: 19
   class: FFF
-  abbreviation: ''
-  name: PPSU
+  abbreviation: POM
+  name: Polyoxymethylene
 - id: 20
   class: FFF
-  abbreviation: ''
-  name: POM
+  abbreviation: PA6
+  name: Polyamide 6
 - id: 21
   class: FFF
-  abbreviation: ''
-  name: PA6
+  abbreviation: PVA
+  name: Polyvinyl Alcohol
 - id: 22
   class: FFF
   abbreviation: ''
-  name: PVA
+  name: Polyether Block Amide
 - id: 23
   class: FFF
-  abbreviation: ''
-  name: PEBA
+  abbreviation: PA11
+  name: Polyamide 11
 - id: 24
   class: FFF
-  abbreviation: ''
-  name: PA11
+  abbreviation: PA12
+  name: Polyamide 12
 - id: 25
   class: FFF
-  abbreviation: ''
-  name: PA12
+  abbreviation: TPU
+  name: Thermoplastic polyurethane
 - id: 26
-  class: FFF
-  abbreviation: ''
-  name: TPU
-- id: 27
   class: SLA
   abbreviation: ''
   name: Resin
+- id: 27
+  class: FFF
+  abbreviation: ASA
+  name: Acrylonitrile Styrene Acrylate
 - id: 28
   class: FFF
-  abbreviation: ''
-  name: ASA
+  abbreviation: PCL
+  name: Polycaprolactone
 - id: 29
   class: FFF
-  abbreviation: ''
-  name: PCL
+  abbreviation: PMMA
+  name: Polymethyl Methacrylate
 - id: 30
   class: FFF
-  abbreviation: ''
-  name: PMMA
+  abbreviation: PSU
+  name: Polysulfone
 - id: 31
   class: FFF
-  abbreviation: ''
-  name: PSU
+  abbreviation: PBT
+  name: Polybutylene Terephthalate
 - id: 32
   class: FFF
-  abbreviation: ''
-  name: PBT
+  abbreviation: PEEK
+  name: Polyether Ether Ketone
 - id: 33
   class: FFF
-  abbreviation: ''
-  name: PEEK
+  abbreviation: PES
+  name: Polyethersulfone
 - id: 34
   class: FFF
-  abbreviation: ''
-  name: PES
+  abbreviation: HIPS
+  name: High Impact Polystyrene
 - id: 35
   class: FFF
-  abbreviation: ''
-  name: HIPS
+  abbreviation: OBC
+  name: Olefin Block Copolymer
 - id: 36
   class: FFF
-  abbreviation: ''
-  name: OBC
+  abbreviation: PPA
+  name: Polyphthalamide
 - id: 37
   class: FFF
-  abbreviation: ''
-  name: PPA
+  abbreviation: PLA
+  name: Polylactic Acid
 - id: 38
   class: FFF
-  abbreviation: ''
-  name: PLA
+  abbreviation: PEI
+  name: Polyetherimide
 - id: 39
   class: FFF
-  abbreviation: ''
-  name: PEI
+  abbreviation: TPI
+  name: Thermoplastic Polyimide
 - id: 40
   class: FFF
-  abbreviation: ''
-  name: TPI
+  abbreviation: PET
+  name: Polyethylene Terephthalate
 - id: 41
   class: FFF
-  abbreviation: ''
-  name: PET
+  abbreviation: PC
+  name: Polycarbonate
 - id: 42
   class: FFF
-  abbreviation: ''
-  name: PC
+  abbreviation: PHA
+  name: Polyhydroxyalkanoate
 - id: 43
   class: FFF
-  abbreviation: ''
-  name: PHA
-- id: 44
-  class: FFF
-  abbreviation: ''
-  name: BVOH
+  abbreviation: BVOH
+  name: Butenediol Vinyl Alcohol Copolymer

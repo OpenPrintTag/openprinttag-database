@@ -3,11 +3,12 @@ slug: high-speed-95a-tpu-pink
 brand_slug: sunlu
 name: High Speed 95A TPU Pink
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#f06e92ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/d499a4fdca77.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

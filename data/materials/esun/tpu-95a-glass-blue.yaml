@@ -3,8 +3,8 @@ slug: tpu-95a-glass-blue
 brand_slug: esun
 name: TPU 95A Glass Blue
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#2e56f1ff'
 tags:
@@ -12,4 +12,5 @@ tags:
 photos:
 - url: https://file.myfilamentlist.com/f/new/fc0d82ce3306.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

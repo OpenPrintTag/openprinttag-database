@@ -3,14 +3,13 @@ slug: chameleon-rapid-pla-burnt-titanium
 brand_slug: flashforge
 name: Chameleon Rapid PLA Burnt Titanium
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#663d7eff'
 - rgba: '#003287ff'
 tags:
 - iridescent
-- dual-color
 - industrially-compostable
 photos:
 - url: https://file.myfilamentlist.com/f/new/4311aa218573.jpg

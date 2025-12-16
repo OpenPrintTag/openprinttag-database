@@ -3,15 +3,15 @@ slug: chameleon-rapid-pla-nebula-purple
 brand_slug: flashforge
 name: Chameleon Rapid PLA Nebula Purple
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#663d7eff'
-- rgba: '#2e56f1ff'
+- rgba: '#09048eff'
 tags:
 - iridescent
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/ad2c89d344db.jpg
   type: unspecified

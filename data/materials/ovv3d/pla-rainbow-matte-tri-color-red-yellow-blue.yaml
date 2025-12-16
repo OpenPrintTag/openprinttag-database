@@ -3,12 +3,12 @@ slug: pla-rainbow-matte-tri-color-red-yellow-blue
 brand_slug: ovv3d
 name: PLA Rainbow Matte Tri-Color Red Yellow Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#0696efff'
 - rgba: '#fbe200ff'
 - rgba: '#fb6066ff'
+- rgba: '#0099e6ff'
 tags:
 - matte
 - industrially-compostable

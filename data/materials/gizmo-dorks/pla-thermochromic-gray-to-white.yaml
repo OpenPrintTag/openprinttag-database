@@ -3,13 +3,12 @@ slug: pla-thermochromic-gray-to-white
 brand_slug: gizmo-dorks
 name: PLA Thermochromic Gray to White
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffffffff'
-- rgba: '#7f7f7dff'
+- rgba: '#808080ff'
 tags:
-- dual-color
 - temperature-color-change
 - industrially-compostable
 photos:

@@ -3,11 +3,12 @@ slug: fiberflex-40d-skin-1
 brand_slug: fiberlogy
 name: FiberFlex 40D Skin 1
 class: FFF
-type_id: 26
-abbreviation: ''
+type_id: 25
+abbreviation: TPU
 primary_color:
   rgba: '#e5c7bbff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/61c3aa4cc6dc.png
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_d: 40

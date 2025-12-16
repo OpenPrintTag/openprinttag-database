@@ -81,170 +81,155 @@ tags:
   slug: transparent
   name: transparent
 - id: 28
-  slug: support
-  name: Support
-- id: 29
   slug: contains-bronze
   name: contains_bronze
-- id: 30
+- id: 29
   slug: radiation-shielding
   name: radiation_shielding
-- id: 31
+- id: 30
   slug: contains-wax
   name: contains_wax
-- id: 32
+- id: 31
   slug: gradual-color-change
   name: gradual_color_change
-- id: 33
+- id: 32
   slug: imitates-marble
   name: imitates_marble
-- id: 34
+- id: 33
   slug: contains-boron-carbide
   name: contains_boron_carbide
-- id: 35
+- id: 34
   slug: contains-tungsten
   name: contains_tungsten
-- id: 36
-  slug: cast
-  name: Cast
-- id: 37
+- id: 35
   slug: illuminescent-color-change
   name: illuminescent_color_change
-- id: 38
+- id: 36
   slug: imitates-wood
   name: imitates_wood
-- id: 39
+- id: 37
   slug: water-soluble
   name: water_soluble
-- id: 40
+- id: 38
   slug: imitates-metal
   name: imitates_metal
-- id: 41
-  slug: triple-color
-  name: triple_color
-- id: 42
+- id: 39
   slug: contains-carbon-fiber
   name: contains_carbon_fiber
-- id: 43
+- id: 40
   slug: contains-steel
   name: contains_steel
-- id: 44
+- id: 41
   slug: contains-linen
   name: contains_linen
-- id: 45
+- id: 42
   slug: contains-stone
   name: contains_stone
-- id: 46
+- id: 43
   slug: conductive
   name: conductive
-- id: 47
+- id: 44
   slug: ipa-soluble
   name: ipa_soluble
-- id: 48
+- id: 45
   slug: contains-copper
   name: contains_copper
-- id: 49
+- id: 46
   slug: temperature-color-change
   name: temperature_color_change
-- id: 50
+- id: 47
   slug: iridescent
   name: iridescent
-- id: 51
-  slug: color-gradient
-  name: Color Gradient
-- id: 52
+- id: 48
   slug: industrially-compostable
   name: industrially_compostable
-- id: 53
+- id: 49
   slug: contains-silver
   name: contains_silver
-- id: 54
+- id: 50
   slug: air-purifier
   name: air_purifier
-- id: 55
+- id: 51
   slug: contains-aluminium
   name: contains_aluminium
-- id: 56
+- id: 52
   slug: traceable-authenticity
   name: traceable_authenticity
-- id: 57
+- id: 53
   slug: bio-based
   name: bio_based
-- id: 58
+- id: 54
   slug: biocompatible
   name: biocompatible
-- id: 59
+- id: 55
   slug: pearlescent
   name: pearlescent
-- id: 60
+- id: 56
   slug: contains-mineral
   name: contains_mineral
-- id: 61
+- id: 57
   slug: contains-glass-fiber
   name: contains_glass_fiber
-- id: 62
+- id: 58
   slug: antibacterial
   name: antibacterial
-- id: 63
+- id: 59
   slug: dual-color
   name: dual_color
-- id: 64
+- id: 60
   slug: imitates-stone
   name: imitates_stone
-- id: 65
+- id: 61
   slug: low-outgassing
   name: low_outgassing
-- id: 66
+- id: 62
   slug: paramagnetic
   name: paramagnetic
-- id: 67
+- id: 63
   slug: contains-algae
   name: contains_algae
-- id: 68
-  slug: medical-aplication
-  name: Medical aplication
-- id: 69
+- id: 64
   slug: contains-ptfe
   name: contains_ptfe
-- id: 70
+- id: 65
   slug: contains-spirulina
   name: contains_spirulina
-- id: 71
+- id: 66
   slug: filtration-recomended
   name: filtration_recomended
-- id: 72
+- id: 67
   slug: abrasive
   name: abrasive
-- id: 73
+- id: 68
   slug: high-temperature
   name: high_temperature
-- id: 74
+- id: 69
   slug: matte
   name: matte
-- id: 75
+- id: 70
   slug: contains-wood
   name: contains_wood
-- id: 76
+- id: 71
   slug: contains-olive-bones
   name: contains_olive_bones
-- id: 77
+- id: 72
   slug: glitter
   name: glitter
-- id: 78
+- id: 73
   slug: multicolor
   name: multicolor
-- id: 79
+- id: 74
   slug: contains-distillery-waste
   name: contains_distillery_waste
-- id: 80
+- id: 75
   slug: neon
   name: neon
-- id: 81
+- id: 76
   slug: contains-ceramic
   name: contains_ceramic
-- id: 82
+- id: 77
   slug: lithophane
   name: lithophane
-- id: 83
+- id: 78
   slug: foaming
   name: foaming

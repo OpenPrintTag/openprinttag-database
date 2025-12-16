@@ -3,19 +3,17 @@ slug: stratocumulus-multicolor-htpla
 brand_slug: protopasta
 name: Stratocumulus Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#c9d0d4ff'
 - rgba: '#d7ede6ff'
 - rgba: '#39b9dbff'
+- rgba: '#c3ccd5ff'
 tags:
 - glitter
-- transparent
-- multicolor
-- color-gradient
 - high-temperature
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/e0db054ffd54.png
   type: unspecified

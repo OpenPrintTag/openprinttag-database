@@ -3,13 +3,14 @@ slug: panchroma-starlight-pla-mercury
 brand_slug: polymaker
 name: Panchroma™ Starlight PLA Mercury
 class: FFF
-type_id: 38
-abbreviation: ''
-primary_color:
-  rgba: '#877674ff'
+type_id: 37
+abbreviation: PLA
+secondary_colors:
+- rgba: '#94a7b7ff'
 tags:
 - glitter
 - industrially-compostable
+- iridescent
 photos:
 - url: https://file.myfilamentlist.com/f/new/42e893785990.png
   type: unspecified

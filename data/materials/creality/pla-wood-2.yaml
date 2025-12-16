@@ -3,12 +3,13 @@ slug: pla-wood-2
 brand_slug: creality
 name: 'PLA Wood '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#caac78ff'
 tags:
 - industrially-compostable
+- imitates-wood
 photos:
 - url: https://file.myfilamentlist.com/f/new/ac1bcbcf1725.jpg
   type: unspecified

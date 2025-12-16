@@ -3,14 +3,14 @@ slug: blue-ice-translucent-htpla
 brand_slug: protopasta
 name: Blue Ice Translucent HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#39b9dbff'
 tags:
-- transparent
 - high-temperature
 - industrially-compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/30321a970d56.png
   type: unspecified

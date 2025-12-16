@@ -3,15 +3,15 @@ slug: golden-halo-dual-color-silk-pla
 brand_slug: zyltech
 name: Golden Halo Dual Color Silk PLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#fadca4ff'
 - rgba: '#acb1baff'
+- rgba: '#f7d979ff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/f7ce32b7d21c.png
   type: unspecified

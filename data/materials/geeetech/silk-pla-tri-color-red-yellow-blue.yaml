@@ -3,16 +3,15 @@ slug: silk-pla-tri-color-red-yellow-blue
 brand_slug: geeetech
 name: 'Silk PLA Tri-Color Red Yellow Blue '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#274bb6ff'
 - rgba: '#e03f26ff'
 - rgba: '#fbe200ff'
+- rgba: '#0e21aeff'
 tags:
 - silk
 - coextruded
-- triple-color
 - industrially-compostable
 photos:
 - url: https://file.myfilamentlist.com/f/new/d8ab03802485.jpg

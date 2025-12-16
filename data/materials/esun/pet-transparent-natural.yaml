@@ -3,12 +3,13 @@ slug: pet-transparent-natural
 brand_slug: esun
 name: PET Transparent Natural
 class: FFF
-type_id: 41
-abbreviation: ''
+type_id: 40
+abbreviation: PET
 primary_color:
   rgba: '#d9d8deff'
 tags:
-- translucent
+- transparent
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/ff3c29edfd2c.jpg
   type: unspecified

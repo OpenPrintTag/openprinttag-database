@@ -3,14 +3,14 @@ slug: silk-rainbow-pla
 brand_slug: geeetech
 name: 'Silk Rainbow PLA '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffc946ff'
 - rgba: '#9761b5ff'
-- rgba: '#0696efff'
 - rgba: '#41a840ff'
 - rgba: '#fb6066ff'
+- rgba: '#0099e6ff'
 tags:
 - silk
 - industrially-compostable

@@ -3,16 +3,16 @@ slug: silk-magic-pla-green-blue
 brand_slug: esun
 name: Silk Magic PLA Green Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#274bb6ff'
 - rgba: '#4e7642ff'
+- rgba: '#0353baff'
 tags:
 - silk
 - iridescent
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/e2dbca52b2cf.jpg
   type: unspecified

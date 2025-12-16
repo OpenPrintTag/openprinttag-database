@@ -3,16 +3,16 @@ slug: silk-pla-red-blue-and-green-3-in-1
 brand_slug: flashforge
 name: 'Silk PLA Red, Blue and Green 3 in 1 '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#67c993ff'
-- rgba: '#006eb6ff'
 - rgba: '#d33d3dff'
+- rgba: '#0078bfff'
 tags:
 - silk
-- triple-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/bb6bf9614c3f.jpg
   type: unspecified

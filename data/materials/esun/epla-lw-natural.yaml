@@ -3,13 +3,14 @@ slug: epla-lw-natural
 brand_slug: esun
 name: ePLA-LW Natural
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 primary_color:
   rgba: '#f2efe9ff'
 tags:
 - foaming
 - industrially-compostable
+- without-pigments
 photos:
 - url: https://file.myfilamentlist.com/f/new/d0dd431d3ca5.jpg
   type: unspecified

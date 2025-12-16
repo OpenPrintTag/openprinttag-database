@@ -3,8 +3,8 @@ slug: silk-rainbow-pla-2
 brand_slug: ovv3d
 name: 'Silk Rainbow PLA '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#fce575ff'
 - rgba: '#7ab352ff'
@@ -13,8 +13,8 @@ secondary_colors:
 - rgba: '#a67dffff'
 tags:
 - silk
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/5f5a2dcf0b47.jpg
   type: unspecified

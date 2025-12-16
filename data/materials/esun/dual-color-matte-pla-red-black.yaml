@@ -3,15 +3,15 @@ slug: dual-color-matte-pla-red-black
 brand_slug: esun
 name: 'Dual Color Matte PLA Red Black '
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#e20010ff'
 - rgba: '#000000ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/57891364d2c4.jpg
   type: unspecified

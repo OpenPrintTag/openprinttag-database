@@ -3,15 +3,15 @@ slug: matte-pla-dual-colors-light-blue-yellow
 brand_slug: overture
 name: Matte PLA Dual Colors Light Blue-Yellow
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#99f1ffff'
 - rgba: '#eeea44ff'
+- rgba: '#82e3ecff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/18e6f41f32bb.jpg
   type: unspecified

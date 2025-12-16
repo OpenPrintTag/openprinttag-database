@@ -3,15 +3,15 @@ slug: scarlet-symphony-multicolor-htpla
 brand_slug: protopasta
 name: Scarlet Symphony Multicolor HTPLA
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ff5786ff'
 - rgba: '#f09bb5ff'
 tags:
-- color-gradient
 - high-temperature
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/a9e1e5fabc41.png
   type: unspecified

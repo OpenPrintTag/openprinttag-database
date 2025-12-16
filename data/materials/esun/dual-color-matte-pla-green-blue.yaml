@@ -3,15 +3,15 @@ slug: dual-color-matte-pla-green-blue
 brand_slug: esun
 name: Dual Color Matte PLA Green Blue
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#008059ff'
-- rgba: '#2e56f1ff'
+- rgba: '#005da4ff'
 tags:
 - matte
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/342916ab71b9.jpg
   type: unspecified

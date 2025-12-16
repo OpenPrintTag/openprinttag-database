@@ -3,14 +3,16 @@ slug: luminous-petg-glow-in-the-dark-white-to-glow-blue
 brand_slug: sunlu
 name: Luminous PETG Glow in the Dark White to Glow Blue
 class: FFF
-type_id: 14
-abbreviation: ''
+type_id: 13
+abbreviation: PETG
+primary_color:
+  rgba: '#1adafbff'
 secondary_colors:
-- rgba: '#ffffffff'
-- rgba: '#0095ffff'
+- rgba: '#f5f5f5ff'
 tags:
 - glow-in-the-dark
 - abrasive
+- illuminescent-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/68081a6892a7.jpg
   type: unspecified

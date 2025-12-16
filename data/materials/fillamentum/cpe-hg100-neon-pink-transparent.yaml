@@ -3,12 +3,13 @@ slug: cpe-hg100-neon-pink-transparent
 brand_slug: fillamentum
 name: CPE HG100 "Neon Pink Transparent"
 class: FFF
-type_id: 3
-abbreviation: ''
+type_id: 10
+abbreviation: CPE
 primary_color:
   rgba: '#f54053ff'
 tags:
 - translucent
+- neon
 photos:
 - url: https://file.myfilamentlist.com/f/new/03c7808a31ac.png
   type: unspecified

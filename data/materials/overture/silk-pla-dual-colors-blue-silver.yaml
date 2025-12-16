@@ -3,15 +3,14 @@ slug: silk-pla-dual-colors-blue-silver
 brand_slug: overture
 name: Silk PLA Dual Colors Blue-Silver
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
-- rgba: '#c9d0d4ff'
 - rgba: '#0095ffff'
 tags:
 - silk
-- dual-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/30cf204f9279.jpg
   type: unspecified

@@ -3,15 +3,14 @@ slug: primaselect-pla-gradient-bluewhite
 brand_slug: primacreator
 name: ' PrimaSelect PLA Gradient Blue/White'
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#ffffffff'
-- rgba: '#99fffaff'
+- rgba: '#9ae0ddff'
 tags:
-- color-gradient
-- dual-color
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/994b5ef185e2.png
   type: unspecified

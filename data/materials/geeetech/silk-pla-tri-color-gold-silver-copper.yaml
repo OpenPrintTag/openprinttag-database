@@ -3,16 +3,16 @@ slug: silk-pla-tri-color-gold-silver-copper
 brand_slug: geeetech
 name: Silk PLA Tri-Color Gold Silver Copper
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#abacb0ff'
 - rgba: '#e3b145ff'
-- rgba: '#be6730ff'
+- rgba: '#c9774bff'
 tags:
 - silk
-- triple-color
 - industrially-compostable
+- coextruded
 photos:
 - url: https://file.myfilamentlist.com/f/new/5f4f1025eb1f.jpg
   type: unspecified

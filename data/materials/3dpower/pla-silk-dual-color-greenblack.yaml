@@ -1,0 +1,16 @@
+uuid: a9e6715b-79cc-597a-9347-1a20ca35d1c8
+slug: pla-silk-dual-color-greenblack
+brand_slug: 3dpower
+name: PLA SILK Dual Color Green&Black
+class: FFF
+type_id: 37
+abbreviation: PLA
+url: https://3dpower-filament.com/en/products/filament-3dpower-pla-silk-dual-color-1-75mm-green-black-1kg-185.html
+secondary_colors:
+- rgba: '#232323ff'
+- rgba: '#26a648ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24

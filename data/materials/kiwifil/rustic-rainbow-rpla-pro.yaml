@@ -3,8 +3,8 @@ slug: rustic-rainbow-rpla-pro
 brand_slug: kiwifil
 name: Rustic Rainbow, rPLA pro
 class: FFF
-type_id: 38
-abbreviation: ''
+type_id: 37
+abbreviation: PLA
 secondary_colors:
 - rgba: '#61c680ff'
 - rgba: '#0099e6ff'
@@ -13,8 +13,8 @@ secondary_colors:
 - rgba: '#c6f666ff'
 tags:
 - recycled
-- multicolor
 - industrially-compostable
+- gradual-color-change
 photos:
 - url: https://file.myfilamentlist.com/f/new/fde566f6c778.jpg
   type: unspecified
