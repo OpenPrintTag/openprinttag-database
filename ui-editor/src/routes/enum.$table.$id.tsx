@@ -4,6 +4,7 @@ import React from 'react';
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useApi } from '~/hooks/useApi';
+import { useUpdateEnumItem } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 import { safeStringify } from '~/utils/format';
 
@@ -20,7 +21,7 @@ export const formatEnumLabel = (s: string): string => {
 
 function EnumItemDetail() {
   const { table, id } = Route.useParams();
-  const { data, error, loading, refetch } = useApi<any>(
+  const { data, error, loading } = useApi<any>(
     () => `/api/enum/${table}/${id}`,
     undefined,
     [table, id],
@@ -29,6 +30,8 @@ function EnumItemDetail() {
 
   const [editing, setEditing] = React.useState(false);
   const [form, setForm] = React.useState<any | null>(null);
+
+  const updateEnumItemMutation = useUpdateEnumItem(table, id);
 
   React.useEffect(() => {
     if (data && !editing) setForm(data);
@@ -129,19 +132,17 @@ function EnumItemDetail() {
             <div className="flex gap-2">
               <button
                 className="btn"
-                onClick={() =>
-                  handleSave({
-                    table,
-                    id,
-                    form,
-                    onDone: () => {
-                      setEditing(false);
-                      refetch();
-                    },
-                  })
-                }
+                onClick={async () => {
+                  try {
+                    await updateEnumItemMutation.mutateAsync({ data: form });
+                    setEditing(false);
+                  } catch (err: any) {
+                    alert(err?.message ?? 'Save failed');
+                  }
+                }}
+                disabled={updateEnumItemMutation.isPending}
               >
-                Save
+                {updateEnumItemMutation.isPending ? 'Saving...' : 'Save'}
               </button>
               <button
                 className="btn-secondary"
@@ -149,6 +150,7 @@ function EnumItemDetail() {
                   setForm(data);
                   setEditing(false);
                 }}
+                disabled={updateEnumItemMutation.isPending}
               >
                 Cancel
               </button>
@@ -163,32 +165,3 @@ function EnumItemDetail() {
 export const Route = createFileRoute('/enum/$table/$id')({
   component: EnumItemDetail,
 });
-
-const handleSave = async ({
-  table,
-  id,
-  form,
-  onDone,
-}: {
-  table: string;
-  id: string;
-  form: any;
-  onDone: () => void;
-}) => {
-  try {
-    const res = await fetch(`/api/enum/${table}/${id}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form),
-    });
-    if (!res.ok) {
-      const txt = await res.text().catch(() => '');
-      throw new Error(
-        `Save failed: HTTP ${res.status}${txt ? `: ${txt}` : ''}`,
-      );
-    }
-    onDone();
-  } catch (err: any) {
-    alert(err?.message ?? 'Save failed');
-  }
-};

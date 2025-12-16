@@ -4,6 +4,7 @@ import React from 'react';
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useApi } from '~/hooks/useApi';
+import { useUpdateSheetType } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 
 type SheetType = Record<string, unknown>;
@@ -14,7 +15,7 @@ export const Route = createFileRoute('/print-sheet-types/$slug')({
 
 function RouteComponent() {
   const { slug } = Route.useParams();
-  const { data, error, loading, refetch } = useApi<SheetType>(
+  const { data, error, loading } = useApi<SheetType>(
     () => `/api/print-sheet-types/${slug}`,
     undefined,
     [slug],
@@ -24,6 +25,8 @@ function RouteComponent() {
 
   const schema = useSchema();
   const [form, setForm] = React.useState<any | null>(null);
+
+  const updateSheetTypeMutation = useUpdateSheetType(slug);
 
   React.useEffect(() => {
     if (data && !editing) setForm(data);
@@ -105,18 +108,17 @@ function RouteComponent() {
             <div className="flex gap-2">
               <button
                 className="btn"
-                onClick={() =>
-                  saveSheetType({
-                    slug,
-                    form,
-                    onDone: () => {
-                      setEditing(false);
-                      refetch();
-                    },
-                  })
-                }
+                onClick={async () => {
+                  try {
+                    await updateSheetTypeMutation.mutateAsync({ data: form });
+                    setEditing(false);
+                  } catch (err: any) {
+                    alert(err?.message ?? 'Save failed');
+                  }
+                }}
+                disabled={updateSheetTypeMutation.isPending}
               >
-                Save
+                {updateSheetTypeMutation.isPending ? 'Saving...' : 'Save'}
               </button>
               <button
                 className="btn-secondary"
@@ -124,6 +126,7 @@ function RouteComponent() {
                   setForm(data);
                   setEditing(false);
                 }}
+                disabled={updateSheetTypeMutation.isPending}
               >
                 Cancel
               </button>
@@ -133,31 +136,4 @@ function RouteComponent() {
       )}
     </div>
   );
-}
-
-async function saveSheetType({
-  slug,
-  form,
-  onDone,
-}: {
-  slug: string;
-  form: any;
-  onDone: () => void;
-}) {
-  try {
-    const res = await fetch(`/api/print-sheet-types/${slug}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form),
-    });
-    if (!res.ok) {
-      const txt = await res.text().catch(() => '');
-      throw new Error(
-        `Save failed: HTTP ${res.status}${txt ? `: ${txt}` : ''}`,
-      );
-    }
-    onDone();
-  } catch (err: any) {
-    alert(err?.message ?? 'Save failed');
-  }
 }

@@ -16,6 +16,8 @@ import { Route as ContainersRouteImport } from './routes/containers'
 import { Route as BrandsRouteImport } from './routes/brands'
 import { Route as AccessoriesRouteImport } from './routes/accessories'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as EnumIndexRouteImport } from './routes/enum.index'
+import { Route as ContainersIndexRouteImport } from './routes/containers.index'
 import { Route as BrandsIndexRouteImport } from './routes/brands.index'
 import { Route as PrintersIdRouteImport } from './routes/printers.$id'
 import { Route as PrintSheetTypesTypeIdRouteImport } from './routes/print-sheet-types.$typeId'
@@ -38,7 +40,6 @@ import { Route as EnumTableIdRouteImport } from './routes/enum.$table.$id'
 import { Route as DevicesPrintersPrinterIdRouteImport } from './routes/devices.printers.$printerId'
 import { Route as DevicesPrintersIdRouteImport } from './routes/devices.printers.$id'
 import { Route as DevicesAccessoriesIdRouteImport } from './routes/devices.accessories.$id'
-import { Route as BrandsBrandIdMaterialsRouteImport } from './routes/brands.$brandId.materials'
 import { Route as ApiPrintSheetTypesTypeIdRouteImport } from './routes/api/print-sheet-types.$typeId'
 import { Route as ApiPrintSheetTypesSlugRouteImport } from './routes/api/print-sheet-types.$slug'
 import { Route as ApiMaterialsMaterialIdRouteImport } from './routes/api/materials.$materialId'
@@ -47,8 +48,8 @@ import { Route as ApiDevicesPrintersRouteImport } from './routes/api/devices.pri
 import { Route as ApiDevicesAccessoriesRouteImport } from './routes/api/devices.accessories'
 import { Route as ApiContainersIdRouteImport } from './routes/api/containers.$id'
 import { Route as ApiContainersContainerIdRouteImport } from './routes/api/containers.$containerId'
+import { Route as ApiBrandsBasicRouteImport } from './routes/api/brands.basic'
 import { Route as ApiBrandsBrandIdRouteImport } from './routes/api/brands.$brandId'
-import { Route as BrandsBrandIdMaterialsIndexRouteImport } from './routes/brands.$brandId.materials.index'
 import { Route as BrandsBrandIdMaterialsMaterialIdRouteImport } from './routes/brands.$brandId.materials.$materialId'
 import { Route as ApiEnumTableIdRouteImport } from './routes/api/enum.$table.$id'
 import { Route as ApiDevicesPrintersPrinterIdRouteImport } from './routes/api/devices.printers.$printerId'
@@ -57,6 +58,7 @@ import { Route as ApiDevicesAccessoriesIdRouteImport } from './routes/api/device
 import { Route as ApiDevicesAccessoriesAccessoryIdRouteImport } from './routes/api/devices.accessories.$accessoryId'
 import { Route as ApiBrandsBrandIdPackagesRouteImport } from './routes/api/brands.$brandId.packages'
 import { Route as ApiBrandsBrandIdMaterialsRouteImport } from './routes/api/brands.$brandId.materials'
+import { Route as ApiBrandsBrandIdCountsRouteImport } from './routes/api/brands.$brandId.counts'
 import { Route as ApiBrandsBrandIdPackagesNewRouteImport } from './routes/api/brands.$brandId.packages.new'
 import { Route as ApiBrandsBrandIdPackagesPackageIdRouteImport } from './routes/api/brands.$brandId.packages.$packageId'
 import { Route as ApiBrandsBrandIdMaterialsNewRouteImport } from './routes/api/brands.$brandId.materials.new'
@@ -96,6 +98,16 @@ const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
+} as any)
+const EnumIndexRoute = EnumIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => EnumRoute,
+} as any)
+const ContainersIndexRoute = ContainersIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => ContainersRoute,
 } as any)
 const BrandsIndexRoute = BrandsIndexRouteImport.update({
   id: '/',
@@ -208,11 +220,6 @@ const DevicesAccessoriesIdRoute = DevicesAccessoriesIdRouteImport.update({
   path: '/$id',
   getParentRoute: () => DevicesAccessoriesRoute,
 } as any)
-const BrandsBrandIdMaterialsRoute = BrandsBrandIdMaterialsRouteImport.update({
-  id: '/materials',
-  path: '/materials',
-  getParentRoute: () => BrandsBrandIdRoute,
-} as any)
 const ApiPrintSheetTypesTypeIdRoute =
   ApiPrintSheetTypesTypeIdRouteImport.update({
     id: '/$typeId',
@@ -255,22 +262,21 @@ const ApiContainersContainerIdRoute =
     path: '/$containerId',
     getParentRoute: () => ApiContainersRoute,
   } as any)
+const ApiBrandsBasicRoute = ApiBrandsBasicRouteImport.update({
+  id: '/basic',
+  path: '/basic',
+  getParentRoute: () => ApiBrandsRoute,
+} as any)
 const ApiBrandsBrandIdRoute = ApiBrandsBrandIdRouteImport.update({
   id: '/$brandId',
   path: '/$brandId',
   getParentRoute: () => ApiBrandsRoute,
 } as any)
-const BrandsBrandIdMaterialsIndexRoute =
-  BrandsBrandIdMaterialsIndexRouteImport.update({
-    id: '/',
-    path: '/',
-    getParentRoute: () => BrandsBrandIdMaterialsRoute,
-  } as any)
 const BrandsBrandIdMaterialsMaterialIdRoute =
   BrandsBrandIdMaterialsMaterialIdRouteImport.update({
-    id: '/$materialId',
-    path: '/$materialId',
-    getParentRoute: () => BrandsBrandIdMaterialsRoute,
+    id: '/materials/$materialId',
+    path: '/materials/$materialId',
+    getParentRoute: () => BrandsBrandIdRoute,
   } as any)
 const ApiEnumTableIdRoute = ApiEnumTableIdRouteImport.update({
   id: '/$id',
@@ -311,6 +317,11 @@ const ApiBrandsBrandIdMaterialsRoute =
     path: '/materials',
     getParentRoute: () => ApiBrandsBrandIdRoute,
   } as any)
+const ApiBrandsBrandIdCountsRoute = ApiBrandsBrandIdCountsRouteImport.update({
+  id: '/counts',
+  path: '/counts',
+  getParentRoute: () => ApiBrandsBrandIdRoute,
+} as any)
 const ApiBrandsBrandIdPackagesNewRoute =
   ApiBrandsBrandIdPackagesNewRouteImport.update({
     id: '/new',
@@ -362,7 +373,10 @@ export interface FileRoutesByFullPath {
   '/print-sheet-types/$typeId': typeof PrintSheetTypesTypeIdRoute
   '/printers/$id': typeof PrintersIdRoute
   '/brands/': typeof BrandsIndexRoute
+  '/containers/': typeof ContainersIndexRoute
+  '/enum/': typeof EnumIndexRoute
   '/api/brands/$brandId': typeof ApiBrandsBrandIdRouteWithChildren
+  '/api/brands/basic': typeof ApiBrandsBasicRoute
   '/api/containers/$containerId': typeof ApiContainersContainerIdRoute
   '/api/containers/$id': typeof ApiContainersIdRoute
   '/api/devices/accessories': typeof ApiDevicesAccessoriesRouteWithChildren
@@ -371,11 +385,11 @@ export interface FileRoutesByFullPath {
   '/api/materials/$materialId': typeof ApiMaterialsMaterialIdRoute
   '/api/print-sheet-types/$slug': typeof ApiPrintSheetTypesSlugRoute
   '/api/print-sheet-types/$typeId': typeof ApiPrintSheetTypesTypeIdRoute
-  '/brands/$brandId/materials': typeof BrandsBrandIdMaterialsRouteWithChildren
   '/devices/accessories/$id': typeof DevicesAccessoriesIdRoute
   '/devices/printers/$id': typeof DevicesPrintersIdRoute
   '/devices/printers/$printerId': typeof DevicesPrintersPrinterIdRoute
   '/enum/$table/$id': typeof EnumTableIdRoute
+  '/api/brands/$brandId/counts': typeof ApiBrandsBrandIdCountsRoute
   '/api/brands/$brandId/materials': typeof ApiBrandsBrandIdMaterialsRouteWithChildren
   '/api/brands/$brandId/packages': typeof ApiBrandsBrandIdPackagesRouteWithChildren
   '/api/devices/accessories/$accessoryId': typeof ApiDevicesAccessoriesAccessoryIdRoute
@@ -384,7 +398,6 @@ export interface FileRoutesByFullPath {
   '/api/devices/printers/$printerId': typeof ApiDevicesPrintersPrinterIdRoute
   '/api/enum/$table/$id': typeof ApiEnumTableIdRoute
   '/brands/$brandId/materials/$materialId': typeof BrandsBrandIdMaterialsMaterialIdRoute
-  '/brands/$brandId/materials/': typeof BrandsBrandIdMaterialsIndexRoute
   '/api/brands/$brandId/materials/$materialId': typeof ApiBrandsBrandIdMaterialsMaterialIdRoute
   '/api/brands/$brandId/materials/new': typeof ApiBrandsBrandIdMaterialsNewRoute
   '/api/brands/$brandId/packages/$packageId': typeof ApiBrandsBrandIdPackagesPackageIdRoute
@@ -393,8 +406,6 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/accessories': typeof AccessoriesRouteWithChildren
-  '/containers': typeof ContainersRouteWithChildren
-  '/enum': typeof EnumRouteWithChildren
   '/print-sheet-types': typeof PrintSheetTypesRouteWithChildren
   '/printers': typeof PrintersRouteWithChildren
   '/accessories/$id': typeof AccessoriesIdRoute
@@ -415,7 +426,10 @@ export interface FileRoutesByTo {
   '/print-sheet-types/$typeId': typeof PrintSheetTypesTypeIdRoute
   '/printers/$id': typeof PrintersIdRoute
   '/brands': typeof BrandsIndexRoute
+  '/containers': typeof ContainersIndexRoute
+  '/enum': typeof EnumIndexRoute
   '/api/brands/$brandId': typeof ApiBrandsBrandIdRouteWithChildren
+  '/api/brands/basic': typeof ApiBrandsBasicRoute
   '/api/containers/$containerId': typeof ApiContainersContainerIdRoute
   '/api/containers/$id': typeof ApiContainersIdRoute
   '/api/devices/accessories': typeof ApiDevicesAccessoriesRouteWithChildren
@@ -428,6 +442,7 @@ export interface FileRoutesByTo {
   '/devices/printers/$id': typeof DevicesPrintersIdRoute
   '/devices/printers/$printerId': typeof DevicesPrintersPrinterIdRoute
   '/enum/$table/$id': typeof EnumTableIdRoute
+  '/api/brands/$brandId/counts': typeof ApiBrandsBrandIdCountsRoute
   '/api/brands/$brandId/materials': typeof ApiBrandsBrandIdMaterialsRouteWithChildren
   '/api/brands/$brandId/packages': typeof ApiBrandsBrandIdPackagesRouteWithChildren
   '/api/devices/accessories/$accessoryId': typeof ApiDevicesAccessoriesAccessoryIdRoute
@@ -436,7 +451,6 @@ export interface FileRoutesByTo {
   '/api/devices/printers/$printerId': typeof ApiDevicesPrintersPrinterIdRoute
   '/api/enum/$table/$id': typeof ApiEnumTableIdRoute
   '/brands/$brandId/materials/$materialId': typeof BrandsBrandIdMaterialsMaterialIdRoute
-  '/brands/$brandId/materials': typeof BrandsBrandIdMaterialsIndexRoute
   '/api/brands/$brandId/materials/$materialId': typeof ApiBrandsBrandIdMaterialsMaterialIdRoute
   '/api/brands/$brandId/materials/new': typeof ApiBrandsBrandIdMaterialsNewRoute
   '/api/brands/$brandId/packages/$packageId': typeof ApiBrandsBrandIdPackagesPackageIdRoute
@@ -469,7 +483,10 @@ export interface FileRoutesById {
   '/print-sheet-types/$typeId': typeof PrintSheetTypesTypeIdRoute
   '/printers/$id': typeof PrintersIdRoute
   '/brands/': typeof BrandsIndexRoute
+  '/containers/': typeof ContainersIndexRoute
+  '/enum/': typeof EnumIndexRoute
   '/api/brands/$brandId': typeof ApiBrandsBrandIdRouteWithChildren
+  '/api/brands/basic': typeof ApiBrandsBasicRoute
   '/api/containers/$containerId': typeof ApiContainersContainerIdRoute
   '/api/containers/$id': typeof ApiContainersIdRoute
   '/api/devices/accessories': typeof ApiDevicesAccessoriesRouteWithChildren
@@ -478,11 +495,11 @@ export interface FileRoutesById {
   '/api/materials/$materialId': typeof ApiMaterialsMaterialIdRoute
   '/api/print-sheet-types/$slug': typeof ApiPrintSheetTypesSlugRoute
   '/api/print-sheet-types/$typeId': typeof ApiPrintSheetTypesTypeIdRoute
-  '/brands/$brandId/materials': typeof BrandsBrandIdMaterialsRouteWithChildren
   '/devices/accessories/$id': typeof DevicesAccessoriesIdRoute
   '/devices/printers/$id': typeof DevicesPrintersIdRoute
   '/devices/printers/$printerId': typeof DevicesPrintersPrinterIdRoute
   '/enum/$table/$id': typeof EnumTableIdRoute
+  '/api/brands/$brandId/counts': typeof ApiBrandsBrandIdCountsRoute
   '/api/brands/$brandId/materials': typeof ApiBrandsBrandIdMaterialsRouteWithChildren
   '/api/brands/$brandId/packages': typeof ApiBrandsBrandIdPackagesRouteWithChildren
   '/api/devices/accessories/$accessoryId': typeof ApiDevicesAccessoriesAccessoryIdRoute
@@ -491,7 +508,6 @@ export interface FileRoutesById {
   '/api/devices/printers/$printerId': typeof ApiDevicesPrintersPrinterIdRoute
   '/api/enum/$table/$id': typeof ApiEnumTableIdRoute
   '/brands/$brandId/materials/$materialId': typeof BrandsBrandIdMaterialsMaterialIdRoute
-  '/brands/$brandId/materials/': typeof BrandsBrandIdMaterialsIndexRoute
   '/api/brands/$brandId/materials/$materialId': typeof ApiBrandsBrandIdMaterialsMaterialIdRoute
   '/api/brands/$brandId/materials/new': typeof ApiBrandsBrandIdMaterialsNewRoute
   '/api/brands/$brandId/packages/$packageId': typeof ApiBrandsBrandIdPackagesPackageIdRoute
@@ -525,7 +541,10 @@ export interface FileRouteTypes {
     | '/print-sheet-types/$typeId'
     | '/printers/$id'
     | '/brands/'
+    | '/containers/'
+    | '/enum/'
     | '/api/brands/$brandId'
+    | '/api/brands/basic'
     | '/api/containers/$containerId'
     | '/api/containers/$id'
     | '/api/devices/accessories'
@@ -534,11 +553,11 @@ export interface FileRouteTypes {
     | '/api/materials/$materialId'
     | '/api/print-sheet-types/$slug'
     | '/api/print-sheet-types/$typeId'
-    | '/brands/$brandId/materials'
     | '/devices/accessories/$id'
     | '/devices/printers/$id'
     | '/devices/printers/$printerId'
     | '/enum/$table/$id'
+    | '/api/brands/$brandId/counts'
     | '/api/brands/$brandId/materials'
     | '/api/brands/$brandId/packages'
     | '/api/devices/accessories/$accessoryId'
@@ -547,7 +566,6 @@ export interface FileRouteTypes {
     | '/api/devices/printers/$printerId'
     | '/api/enum/$table/$id'
     | '/brands/$brandId/materials/$materialId'
-    | '/brands/$brandId/materials/'
     | '/api/brands/$brandId/materials/$materialId'
     | '/api/brands/$brandId/materials/new'
     | '/api/brands/$brandId/packages/$packageId'
@@ -556,8 +574,6 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/accessories'
-    | '/containers'
-    | '/enum'
     | '/print-sheet-types'
     | '/printers'
     | '/accessories/$id'
@@ -578,7 +594,10 @@ export interface FileRouteTypes {
     | '/print-sheet-types/$typeId'
     | '/printers/$id'
     | '/brands'
+    | '/containers'
+    | '/enum'
     | '/api/brands/$brandId'
+    | '/api/brands/basic'
     | '/api/containers/$containerId'
     | '/api/containers/$id'
     | '/api/devices/accessories'
@@ -591,6 +610,7 @@ export interface FileRouteTypes {
     | '/devices/printers/$id'
     | '/devices/printers/$printerId'
     | '/enum/$table/$id'
+    | '/api/brands/$brandId/counts'
     | '/api/brands/$brandId/materials'
     | '/api/brands/$brandId/packages'
     | '/api/devices/accessories/$accessoryId'
@@ -599,7 +619,6 @@ export interface FileRouteTypes {
     | '/api/devices/printers/$printerId'
     | '/api/enum/$table/$id'
     | '/brands/$brandId/materials/$materialId'
-    | '/brands/$brandId/materials'
     | '/api/brands/$brandId/materials/$materialId'
     | '/api/brands/$brandId/materials/new'
     | '/api/brands/$brandId/packages/$packageId'
@@ -631,7 +650,10 @@ export interface FileRouteTypes {
     | '/print-sheet-types/$typeId'
     | '/printers/$id'
     | '/brands/'
+    | '/containers/'
+    | '/enum/'
     | '/api/brands/$brandId'
+    | '/api/brands/basic'
     | '/api/containers/$containerId'
     | '/api/containers/$id'
     | '/api/devices/accessories'
@@ -640,11 +662,11 @@ export interface FileRouteTypes {
     | '/api/materials/$materialId'
     | '/api/print-sheet-types/$slug'
     | '/api/print-sheet-types/$typeId'
-    | '/brands/$brandId/materials'
     | '/devices/accessories/$id'
     | '/devices/printers/$id'
     | '/devices/printers/$printerId'
     | '/enum/$table/$id'
+    | '/api/brands/$brandId/counts'
     | '/api/brands/$brandId/materials'
     | '/api/brands/$brandId/packages'
     | '/api/devices/accessories/$accessoryId'
@@ -653,7 +675,6 @@ export interface FileRouteTypes {
     | '/api/devices/printers/$printerId'
     | '/api/enum/$table/$id'
     | '/brands/$brandId/materials/$materialId'
-    | '/brands/$brandId/materials/'
     | '/api/brands/$brandId/materials/$materialId'
     | '/api/brands/$brandId/materials/new'
     | '/api/brands/$brandId/packages/$packageId'
@@ -732,6 +753,20 @@ declare module '@tanstack/react-router' {
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/enum/': {
+      id: '/enum/'
+      path: '/'
+      fullPath: '/enum/'
+      preLoaderRoute: typeof EnumIndexRouteImport
+      parentRoute: typeof EnumRoute
+    }
+    '/containers/': {
+      id: '/containers/'
+      path: '/'
+      fullPath: '/containers/'
+      preLoaderRoute: typeof ContainersIndexRouteImport
+      parentRoute: typeof ContainersRoute
     }
     '/brands/': {
       id: '/brands/'
@@ -887,13 +922,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DevicesAccessoriesIdRouteImport
       parentRoute: typeof DevicesAccessoriesRoute
     }
-    '/brands/$brandId/materials': {
-      id: '/brands/$brandId/materials'
-      path: '/materials'
-      fullPath: '/brands/$brandId/materials'
-      preLoaderRoute: typeof BrandsBrandIdMaterialsRouteImport
-      parentRoute: typeof BrandsBrandIdRoute
-    }
     '/api/print-sheet-types/$typeId': {
       id: '/api/print-sheet-types/$typeId'
       path: '/$typeId'
@@ -950,6 +978,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiContainersContainerIdRouteImport
       parentRoute: typeof ApiContainersRoute
     }
+    '/api/brands/basic': {
+      id: '/api/brands/basic'
+      path: '/basic'
+      fullPath: '/api/brands/basic'
+      preLoaderRoute: typeof ApiBrandsBasicRouteImport
+      parentRoute: typeof ApiBrandsRoute
+    }
     '/api/brands/$brandId': {
       id: '/api/brands/$brandId'
       path: '/$brandId'
@@ -957,19 +992,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiBrandsBrandIdRouteImport
       parentRoute: typeof ApiBrandsRoute
     }
-    '/brands/$brandId/materials/': {
-      id: '/brands/$brandId/materials/'
-      path: '/'
-      fullPath: '/brands/$brandId/materials/'
-      preLoaderRoute: typeof BrandsBrandIdMaterialsIndexRouteImport
-      parentRoute: typeof BrandsBrandIdMaterialsRoute
-    }
     '/brands/$brandId/materials/$materialId': {
       id: '/brands/$brandId/materials/$materialId'
-      path: '/$materialId'
+      path: '/materials/$materialId'
       fullPath: '/brands/$brandId/materials/$materialId'
       preLoaderRoute: typeof BrandsBrandIdMaterialsMaterialIdRouteImport
-      parentRoute: typeof BrandsBrandIdMaterialsRoute
+      parentRoute: typeof BrandsBrandIdRoute
     }
     '/api/enum/$table/$id': {
       id: '/api/enum/$table/$id'
@@ -1020,6 +1048,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiBrandsBrandIdMaterialsRouteImport
       parentRoute: typeof ApiBrandsBrandIdRoute
     }
+    '/api/brands/$brandId/counts': {
+      id: '/api/brands/$brandId/counts'
+      path: '/counts'
+      fullPath: '/api/brands/$brandId/counts'
+      preLoaderRoute: typeof ApiBrandsBrandIdCountsRouteImport
+      parentRoute: typeof ApiBrandsBrandIdRoute
+    }
     '/api/brands/$brandId/packages/new': {
       id: '/api/brands/$brandId/packages/new'
       path: '/new'
@@ -1063,29 +1098,12 @@ const AccessoriesRouteWithChildren = AccessoriesRoute._addFileChildren(
   AccessoriesRouteChildren,
 )
 
-interface BrandsBrandIdMaterialsRouteChildren {
-  BrandsBrandIdMaterialsMaterialIdRoute: typeof BrandsBrandIdMaterialsMaterialIdRoute
-  BrandsBrandIdMaterialsIndexRoute: typeof BrandsBrandIdMaterialsIndexRoute
-}
-
-const BrandsBrandIdMaterialsRouteChildren: BrandsBrandIdMaterialsRouteChildren =
-  {
-    BrandsBrandIdMaterialsMaterialIdRoute:
-      BrandsBrandIdMaterialsMaterialIdRoute,
-    BrandsBrandIdMaterialsIndexRoute: BrandsBrandIdMaterialsIndexRoute,
-  }
-
-const BrandsBrandIdMaterialsRouteWithChildren =
-  BrandsBrandIdMaterialsRoute._addFileChildren(
-    BrandsBrandIdMaterialsRouteChildren,
-  )
-
 interface BrandsBrandIdRouteChildren {
-  BrandsBrandIdMaterialsRoute: typeof BrandsBrandIdMaterialsRouteWithChildren
+  BrandsBrandIdMaterialsMaterialIdRoute: typeof BrandsBrandIdMaterialsMaterialIdRoute
 }
 
 const BrandsBrandIdRouteChildren: BrandsBrandIdRouteChildren = {
-  BrandsBrandIdMaterialsRoute: BrandsBrandIdMaterialsRouteWithChildren,
+  BrandsBrandIdMaterialsMaterialIdRoute: BrandsBrandIdMaterialsMaterialIdRoute,
 }
 
 const BrandsBrandIdRouteWithChildren = BrandsBrandIdRoute._addFileChildren(
@@ -1107,10 +1125,12 @@ const BrandsRouteWithChildren =
 
 interface ContainersRouteChildren {
   ContainersIdRoute: typeof ContainersIdRoute
+  ContainersIndexRoute: typeof ContainersIndexRoute
 }
 
 const ContainersRouteChildren: ContainersRouteChildren = {
   ContainersIdRoute: ContainersIdRoute,
+  ContainersIndexRoute: ContainersIndexRoute,
 }
 
 const ContainersRouteWithChildren = ContainersRoute._addFileChildren(
@@ -1131,10 +1151,12 @@ const EnumTableRouteWithChildren = EnumTableRoute._addFileChildren(
 
 interface EnumRouteChildren {
   EnumTableRoute: typeof EnumTableRouteWithChildren
+  EnumIndexRoute: typeof EnumIndexRoute
 }
 
 const EnumRouteChildren: EnumRouteChildren = {
   EnumTableRoute: EnumTableRouteWithChildren,
+  EnumIndexRoute: EnumIndexRoute,
 }
 
 const EnumRouteWithChildren = EnumRoute._addFileChildren(EnumRouteChildren)
@@ -1200,11 +1222,13 @@ const ApiBrandsBrandIdPackagesRouteWithChildren =
   )
 
 interface ApiBrandsBrandIdRouteChildren {
+  ApiBrandsBrandIdCountsRoute: typeof ApiBrandsBrandIdCountsRoute
   ApiBrandsBrandIdMaterialsRoute: typeof ApiBrandsBrandIdMaterialsRouteWithChildren
   ApiBrandsBrandIdPackagesRoute: typeof ApiBrandsBrandIdPackagesRouteWithChildren
 }
 
 const ApiBrandsBrandIdRouteChildren: ApiBrandsBrandIdRouteChildren = {
+  ApiBrandsBrandIdCountsRoute: ApiBrandsBrandIdCountsRoute,
   ApiBrandsBrandIdMaterialsRoute: ApiBrandsBrandIdMaterialsRouteWithChildren,
   ApiBrandsBrandIdPackagesRoute: ApiBrandsBrandIdPackagesRouteWithChildren,
 }
@@ -1214,10 +1238,12 @@ const ApiBrandsBrandIdRouteWithChildren =
 
 interface ApiBrandsRouteChildren {
   ApiBrandsBrandIdRoute: typeof ApiBrandsBrandIdRouteWithChildren
+  ApiBrandsBasicRoute: typeof ApiBrandsBasicRoute
 }
 
 const ApiBrandsRouteChildren: ApiBrandsRouteChildren = {
   ApiBrandsBrandIdRoute: ApiBrandsBrandIdRouteWithChildren,
+  ApiBrandsBasicRoute: ApiBrandsBasicRoute,
 }
 
 const ApiBrandsRouteWithChildren = ApiBrandsRoute._addFileChildren(

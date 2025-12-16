@@ -1,7 +1,9 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { useMemo } from 'react';
 
 /**
  * Generic JSON-fetching hook for browser-side requests to server API routes.
+ * Now powered by TanStack Query for better caching and state management.
  *
  * Usage:
  *   const { data, error, loading, refetch } = useApi<User[]>('/api/users')
@@ -12,59 +14,36 @@ export function useApi<T = unknown>(
   init?: RequestInit,
   deps: React.DependencyList = [],
 ) {
-  const [data, setData] = useState<T | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
-  const abortRef = useRef<AbortController | null>(null);
-
   const url = useMemo(
     () => (typeof input === 'function' ? input() : input),
-    deps,
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [input, ...deps],
   );
 
-  const doFetch = useCallback(async () => {
-    if (typeof window === 'undefined') {
-      // SSR: do nothing, keep initial state
-      return;
-    }
-    // Abort any in-flight request
-    abortRef.current?.abort();
-    const controller = new AbortController();
-    abortRef.current = controller;
-
-    setLoading(true);
-    setError(null);
-    try {
+  const query = useQuery({
+    queryKey: [url, init],
+    queryFn: async ({ signal }) => {
       const res = await fetch(url, {
         ...(init || {}),
-        signal: controller.signal,
+        signal,
       });
+
       if (!res.ok) {
         const text = await safeText(res);
         throw new Error(`HTTP ${res.status}${text ? `: ${text}` : ''}`);
       }
-      const json = (await res.json()) as T;
-      setData(json);
-    } catch (err: unknown) {
-      if (err instanceof Error && err.name === 'AbortError') return;
-      setError(err instanceof Error ? err.message : 'Request failed');
-    } finally {
-      setLoading(false);
-    }
-  }, [url, init]);
 
-  useEffect(() => {
-    doFetch();
-    return () => {
-      abortRef.current?.abort();
-    };
-  }, [doFetch]);
+      return (await res.json()) as T;
+    },
+    enabled: typeof window !== 'undefined', // Only run in browser
+  });
 
-  const refetch = useCallback(() => {
-    doFetch();
-  }, [doFetch]);
-
-  return { data, error, loading, refetch };
+  return {
+    data: query.data ?? null,
+    error: query.error ? String(query.error) : null,
+    loading: query.isLoading || query.isFetching,
+    refetch: query.refetch,
+  };
 }
 
 async function safeText(res: Response) {
