@@ -33,4 +33,5 @@ export interface Brand extends Record<string, unknown> {
   // Computed fields (enriched at API level)
   material_count?: number;
   package_count?: number;
+  container_count?: number;
 }
