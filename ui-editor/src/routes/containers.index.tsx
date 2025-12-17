@@ -16,6 +16,7 @@ import { Button, Sheet, SheetContent } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 import { useUpdateContainer } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import type { Brand } from '~/types/brand';
 import { slugifyName } from '~/utils/slug';
 
 type Container = Record<string, unknown>;
@@ -34,10 +35,23 @@ export const Route = createFileRoute('/containers/')({
 function RouteComponent() {
   const { data, error, loading } = useApi<Container[]>('/api/containers');
   const containers = data ?? [];
+  const { data: brandsData } = useApi<Brand[]>('/api/brands');
+  const brands = brandsData ?? [];
   const { containerId } = Route.useSearch();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
+
+  // Create a map of brand_slug to brand name for quick lookup
+  const brandMap = React.useMemo(() => {
+    const map: Record<string, string> = {};
+    brands.forEach((brand) => {
+      if (brand.slug) {
+        map[brand.slug] = brand.name;
+      }
+    });
+    return map;
+  }, [brands]);
 
   // Debounce search
   React.useEffect(() => {
@@ -219,6 +233,8 @@ function RouteComponent() {
               slugifyName(String(container.name ?? '')) ||
               '';
             const name = String(container.name ?? id);
+            const brandSlug = container.brand_slug as string | undefined;
+            const brandName = brandSlug ? brandMap[brandSlug] : undefined;
 
             return (
               <button
@@ -237,11 +253,18 @@ function RouteComponent() {
                   </div>
                   <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
                 </div>
-                {(container as any).capacity && (
-                  <div className="mt-2 inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
-                    Capacity: {String((container as any).capacity)}
-                  </div>
-                )}
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {brandName && (
+                    <div className="inline-flex items-center rounded-full bg-orange-100 px-2 py-0.5 text-xs font-medium text-orange-700">
+                      {brandName}
+                    </div>
+                  )}
+                  {(container as any).capacity && (
+                    <div className="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+                      Capacity: {String((container as any).capacity)}
+                    </div>
+                  )}
+                </div>
               </button>
             );
           })}
@@ -283,6 +306,13 @@ function ContainerDetail({ containerId }: { containerId: string }) {
 
   const updateContainerMutation = useUpdateContainer(containerId);
 
+  const brandSlug = data?.brand_slug as string | undefined;
+  const { data: brandData } = useApi<Brand>(
+    brandSlug ? () => `/api/brands/${brandSlug}` : '',
+    undefined,
+    [brandSlug],
+  );
+
   React.useEffect(() => {
     if (data && !editing) setForm(data);
   }, [data, editing]);
@@ -311,6 +341,18 @@ function ContainerDetail({ containerId }: { containerId: string }) {
           <ChevronLeft className="h-4 w-4" />
           All Containers
         </Link>
+        {brandSlug && (
+          <>
+            <ChevronRight className="h-4 w-4" />
+            <Link
+              to="/brands/$brandId"
+              params={{ brandId: brandSlug }}
+              className="flex items-center gap-1 transition-colors hover:text-orange-600"
+            >
+              {brandData?.name ?? brandSlug}
+            </Link>
+          </>
+        )}
       </div>
 
       {/* Header */}
@@ -320,6 +362,18 @@ function ContainerDetail({ containerId }: { containerId: string }) {
           {data.slug ? (
             <div className="text-sm text-gray-500">{String(data.slug)}</div>
           ) : null}
+          {brandSlug && (
+            <div className="mt-2">
+              <span className="text-sm text-gray-500">Brand: </span>
+              <Link
+                to="/brands/$brandId"
+                params={{ brandId: brandSlug }}
+                className="text-sm font-medium text-orange-600 transition-colors hover:text-orange-700 hover:underline"
+              >
+                {brandData?.name ?? brandSlug}
+              </Link>
+            </div>
+          )}
         </div>
         {fields && (
           <div className="flex gap-2">

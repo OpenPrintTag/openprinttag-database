@@ -7,6 +7,7 @@ import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useApi } from '~/hooks/useApi';
 import { useUpdateContainer } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import type { Brand } from '~/types/brand';
 import { safeStringify } from '~/utils/format';
 
 type Container = Record<string, unknown>;
@@ -24,6 +25,13 @@ const RouteComponent = () => {
   const [form, setForm] = React.useState<any | null>(null);
 
   const updateContainerMutation = useUpdateContainer(id);
+
+  const brandSlug = data?.brand_slug as string | undefined;
+  const { data: brandData } = useApi<Brand>(
+    brandSlug ? () => `/api/brands/${brandSlug}` : '',
+    undefined,
+    [brandSlug],
+  );
 
   React.useEffect(() => {
     if (data && !editing) setForm(data);
@@ -53,6 +61,18 @@ const RouteComponent = () => {
           <ChevronRight className="h-4 w-4 rotate-180" />
           <span>All Containers</span>
         </Link>
+        {brandSlug && (
+          <>
+            <ChevronRight className="h-4 w-4" />
+            <Link
+              to="/brands/$brandId"
+              params={{ brandId: brandSlug }}
+              className="flex items-center gap-1 transition-colors hover:text-orange-600"
+            >
+              {brandData?.name ?? brandSlug}
+            </Link>
+          </>
+        )}
       </div>
 
       {/* Container Header */}
@@ -61,6 +81,18 @@ const RouteComponent = () => {
           <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
           {Boolean(data.slug) && (
             <p className="mt-1 text-base text-gray-600">{String(data.slug)}</p>
+          )}
+          {brandSlug && (
+            <div className="mt-2">
+              <span className="text-sm text-gray-500">Brand: </span>
+              <Link
+                to="/brands/$brandId"
+                params={{ brandId: brandSlug }}
+                className="text-sm font-medium text-orange-600 transition-colors hover:text-orange-700 hover:underline"
+              >
+                {brandData?.name ?? brandSlug}
+              </Link>
+            </div>
           )}
         </div>
         <div className="flex flex-wrap gap-2">
