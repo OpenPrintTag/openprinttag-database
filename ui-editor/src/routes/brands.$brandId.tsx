@@ -10,6 +10,7 @@ import {
   Box,
   ChevronRight,
   Package,
+  Package2,
   Pencil,
   Search,
   X,
@@ -37,8 +38,9 @@ type BrandSearch = {
   materialMode?: 'view' | 'edit' | 'create';
   packageId?: string;
   packageMode?: 'view' | 'edit' | 'create';
+  containerId?: string;
   editBrand?: boolean;
-  tab?: 'materials' | 'packages';
+  tab?: 'materials' | 'packages' | 'containers';
 };
 
 const RouteComponent = () => {
@@ -110,11 +112,13 @@ const RouteComponent = () => {
     [brandId],
   );
 
+  const containersQuery = useApi<any[]>('/api/containers', undefined, []);
+
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
-  const [activeTab, setActiveTab] = React.useState<'materials' | 'packages'>(
-    search.tab || 'materials',
-  );
+  const [activeTab, setActiveTab] = React.useState<
+    'materials' | 'packages' | 'containers'
+  >(search.tab || 'materials');
 
   // Control material sheet via URL
   const isMaterialSheetOpen = !!materialId || materialMode === 'create';
@@ -197,13 +201,31 @@ const RouteComponent = () => {
     });
   }, [packagesQuery.data, packagesQuery.error, debouncedSearch]);
 
+  const filteredContainers = React.useMemo(() => {
+    if (!containersQuery.data) return [];
+    // Filter by brand_slug
+    const brandContainers = containersQuery.data.filter(
+      (c: any) => c.brand_slug === brandId,
+    );
+    const query = debouncedSearch.toLowerCase();
+    if (!query) return brandContainers;
+    return brandContainers.filter((c: any) => {
+      const name = String(c.name ?? '').toLowerCase();
+      const slug = String(c.slug ?? '').toLowerCase();
+      const uuid = String(c.uuid ?? '').toLowerCase();
+      return (
+        name.includes(query) || slug.includes(query) || uuid.includes(query)
+      );
+    });
+  }, [containersQuery.data, brandId, debouncedSearch]);
+
   const handleTabChange = (value: string) => {
-    setActiveTab(value as 'materials' | 'packages');
+    setActiveTab(value as 'materials' | 'packages' | 'containers');
     setSearchQuery('');
     navigate({
       to: '/brands/$brandId',
       params: { brandId },
-      search: { tab: value as 'materials' | 'packages' },
+      search: { tab: value as 'materials' | 'packages' | 'containers' },
     });
   };
 
@@ -303,19 +325,36 @@ const RouteComponent = () => {
                   </span>
                 )}
               </TabsTrigger>
+              <TabsTrigger
+                value="containers"
+                className="flex items-center gap-2"
+              >
+                <Package2 className="h-4 w-4" />
+                <span>Containers</span>
+                {containersQuery.loading ? (
+                  <CountBadgeSkeleton />
+                ) : (
+                  <span className="ml-1 rounded-full bg-orange-100 px-1.5 py-0.5 text-xs font-semibold text-orange-700">
+                    {filteredContainers.length}
+                  </span>
+                )}
+              </TabsTrigger>
             </TabsList>
 
             <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <button
-                onClick={() =>
-                  activeTab === 'materials'
-                    ? openMaterialSheet('create')
-                    : openPackageSheet('create')
-                }
-                className="btn"
-              >
-                + New {activeTab === 'materials' ? 'Material' : 'Package'}
-              </button>
+              {activeTab !== 'containers' && (
+                <button
+                  onClick={() =>
+                    activeTab === 'materials'
+                      ? openMaterialSheet('create')
+                      : openPackageSheet('create')
+                  }
+                  className="btn"
+                >
+                  + New {activeTab === 'materials' ? 'Material' : 'Package'}
+                </button>
+              )}
+              {activeTab === 'containers' && <div />}
               <div className="relative w-full sm:w-auto sm:min-w-[320px]">
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
                   <Search
@@ -574,6 +613,108 @@ const RouteComponent = () => {
                   </div>
                 )}
             </TabsContent>
+
+            <TabsContent value="containers">
+              {containersQuery.loading && !containersQuery.data && (
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {Array.from({ length: 8 }).map((_, i) => (
+                    <div
+                      key={i}
+                      className="relative h-24 overflow-hidden rounded-lg border border-gray-200 bg-gray-100"
+                    >
+                      <div className="absolute inset-0 -translate-x-full animate-[shimmer_2s_infinite] bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100"></div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {containersQuery.error && (
+                <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
+                  <AlertCircle className="mx-auto mb-2 h-10 w-10 text-red-400" />
+                  <div className="text-sm font-medium text-red-900">
+                    Error loading containers
+                  </div>
+                  <div className="mt-1 text-xs text-red-700">
+                    {containersQuery.error}
+                  </div>
+                </div>
+              )}
+
+              {containersQuery.data &&
+                filteredContainers.length === 0 &&
+                !containersQuery.loading &&
+                !debouncedSearch && (
+                  <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
+                    <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-gray-200">
+                      <Package2 className="h-8 w-8 text-gray-500" />
+                    </div>
+                    <div className="mb-1 text-base font-semibold text-gray-900">
+                      No containers yet
+                    </div>
+                    <p className="mb-4 text-sm text-gray-500">
+                      This brand doesn&apos;t have any containers in the
+                      database.
+                    </p>
+                  </div>
+                )}
+
+              {filteredContainers.length > 0 && (
+                <>
+                  {debouncedSearch && (
+                    <p className="mb-4 text-sm text-gray-600">
+                      Found {filteredContainers.length} of{' '}
+                      {
+                        containersQuery.data?.filter(
+                          (c: any) => c.brand_slug === brandId,
+                        ).length
+                      }{' '}
+                      containers
+                    </p>
+                  )}
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    {filteredContainers.map((c: any) => {
+                      const containerId = String(c.slug || c.uuid || c.id);
+                      const name = String(c.name ?? containerId);
+                      return (
+                        <Link
+                          key={containerId}
+                          to="/containers/$id"
+                          params={{ id: containerId }}
+                          className="group block rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md"
+                        >
+                          <div className="mb-2 flex items-start justify-between gap-2">
+                            <div className="flex-1 text-sm font-semibold text-gray-900 group-hover:text-orange-600">
+                              {name}
+                            </div>
+                            <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
+                          </div>
+                          {c.class && (
+                            <div className="mt-2 inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+                              {String(c.class)}
+                            </div>
+                          )}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
+
+              {containersQuery.data &&
+                filteredContainers.length === 0 &&
+                debouncedSearch && (
+                  <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-8 text-center">
+                    <Search className="mb-3 h-12 w-12 text-gray-400" />
+                    <div className="mb-1 text-sm font-medium text-gray-900">
+                      No containers found
+                    </div>
+                    <p className="text-xs text-gray-500">
+                      No results matching &ldquo;{debouncedSearch}&rdquo;. Try a
+                      different search term.
+                    </p>
+                  </div>
+                )}
+            </TabsContent>
           </Tabs>
         </div>
       )}
@@ -634,8 +775,10 @@ export const Route = createFileRoute('/brands/$brandId')({
         (search.materialMode as 'view' | 'edit' | 'create') || 'view',
       packageId: search.packageId as string | undefined,
       packageMode: (search.packageMode as 'view' | 'edit' | 'create') || 'view',
+      containerId: search.containerId as string | undefined,
       editBrand: search.editBrand === true || search.editBrand === 'true',
-      tab: (search.tab as 'materials' | 'packages') || 'materials',
+      tab:
+        (search.tab as 'materials' | 'packages' | 'containers') || 'materials',
     };
   },
 });

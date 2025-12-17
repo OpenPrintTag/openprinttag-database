@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { Link } from '@tanstack/react-router';
-import { Box, ChevronRight, Package } from 'lucide-react';
+import { Box, ChevronRight, Package, Package2 } from 'lucide-react';
 import React from 'react';
 
 import { CountBadgeSkeleton } from '~/components/skeletons';
@@ -15,6 +15,7 @@ interface BrandCounts {
   brandId: string;
   material_count: number;
   package_count: number;
+  container_count: number;
 }
 
 export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
@@ -36,6 +37,7 @@ export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
 
   const materialCount = counts?.material_count ?? 0;
   const packageCount = counts?.package_count ?? 0;
+  const containerCount = counts?.container_count ?? 0;
   const isLoadingCounts = !counts;
 
   return (
@@ -57,6 +59,7 @@ export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
             <>
               <CountBadgeSkeleton />
               <CountBadgeSkeleton />
+              <CountBadgeSkeleton />
             </>
           ) : (
             <>
@@ -67,6 +70,11 @@ export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
               <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
                 <Package className="h-3 w-3" />
                 {packageCount} {packageCount === 1 ? 'package' : 'packages'}
+              </div>
+              <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+                <Package2 className="h-3 w-3" />
+                {containerCount}{' '}
+                {containerCount === 1 ? 'container' : 'containers'}
               </div>
             </>
           )}
