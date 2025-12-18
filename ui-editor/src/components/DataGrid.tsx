@@ -144,5 +144,3 @@ const FieldRow = ({
     </div>
   );
 };
-
-export default DataGrid;

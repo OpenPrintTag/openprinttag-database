@@ -222,30 +222,6 @@ export async function readMaterialsByBrand(
   return results;
 }
 
-export async function readSingleMaterialByBrand(
-  brandId: string,
-  materialId: string,
-): Promise<any | { error: string; status?: number }> {
-  const all = await readMaterialsByBrand(brandId);
-  if (!Array.isArray(all)) return all;
-  const match = all.find((e) => {
-    const fileStem =
-      typeof e.__file === 'string'
-        ? e.__file.replace(/\.(ya?ml)$/i, '')
-        : undefined;
-    const nameSlug = slugifyName(e.name);
-    return (
-      e.uuid === materialId ||
-      e.slug === materialId ||
-      fileStem === materialId ||
-      nameSlug === materialId
-    );
-  });
-  if (!match) return { error: `material not found`, status: 404 };
-  const { __file, __brand, ...rest } = match;
-  return rest;
-}
-
 export async function readAllMaterialsAcrossBrands(
   opts: ReadOptions = {},
 ): Promise<any[] | { error: string; status?: number }> {
@@ -746,27 +722,4 @@ export async function listLookupTables(): Promise<
   } catch (_err) {
     return { error: 'Failed to list lookup tables', status: 500 };
   }
-}
-
-export async function readSingleMaterialAcrossBrands(
-  materialId: string,
-): Promise<any | { error: string; status?: number }> {
-  const all = await readAllMaterialsAcrossBrands();
-  if (!Array.isArray(all)) return all;
-  const match = all.find((e) => {
-    const fileStem =
-      typeof e.__file === 'string'
-        ? e.__file.replace(/\.(ya?ml)$/i, '')
-        : undefined;
-    const nameSlug = slugifyName(e.name);
-    return (
-      e.uuid === materialId ||
-      e.slug === materialId ||
-      fileStem === materialId ||
-      nameSlug === materialId
-    );
-  });
-  if (!match) return { error: 'material not found', status: 404 };
-  const { __file, __brand, ...rest } = match;
-  return rest;
 }
