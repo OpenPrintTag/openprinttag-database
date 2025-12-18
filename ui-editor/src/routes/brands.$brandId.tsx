@@ -18,6 +18,7 @@ import {
 import React from 'react';
 
 import { BrandSheet } from '~/components/brand-sheet';
+import { ContainerSheet } from '~/components/container-sheet';
 import { DataGrid } from '~/components/DataGrid';
 import { MaterialSheet } from '~/components/material-sheet';
 import { PackageSheet } from '~/components/package-sheet';
@@ -39,6 +40,7 @@ type BrandSearch = {
   packageId?: string;
   packageMode?: 'view' | 'edit' | 'create';
   containerId?: string;
+  containerMode?: 'view' | 'edit' | 'create';
   editBrand?: boolean;
   tab?: 'materials' | 'packages' | 'containers';
 };
@@ -101,6 +103,15 @@ const RouteComponent = () => {
     [brandId, packageId],
   );
 
+  // Load container data if containerId is in URL
+  const containerId = search.containerId;
+  const containerMode = search.containerMode || 'view';
+  const { data: containerData, refetch: refetchContainer } = useApi<any>(
+    containerId ? `/api/containers/${containerId}` : '',
+    undefined,
+    [containerId],
+  );
+
   const materialsQuery = useApi<any[]>(
     () => `/api/brands/${brandId}/materials`,
     undefined,
@@ -119,6 +130,16 @@ const RouteComponent = () => {
   const [activeTab, setActiveTab] = React.useState<
     'materials' | 'packages' | 'containers'
   >(search.tab || 'materials');
+
+  const getNewEntityLabel = () => {
+    if (activeTab === 'materials') {
+      return 'Material';
+    }
+    if (activeTab === 'packages') {
+      return 'Package';
+    }
+    return 'Container';
+  };
 
   // Control material sheet via URL
   const isMaterialSheetOpen = !!materialId || materialMode === 'create';
@@ -159,6 +180,24 @@ const RouteComponent = () => {
         packageMode: mode,
         tab: 'packages',
       },
+    });
+  };
+
+  const openContainerSheet = (
+    mode: 'create' | 'edit' | 'view',
+    container?: any,
+  ) => {
+    navigate({
+      to: '/brands/$brandId',
+      params: { brandId },
+      search: {
+        ...search,
+        containerId: container?.slug || container?.uuid || undefined,
+        containerMode: mode,
+        tab: 'containers',
+      },
+      replace: true,
+      resetScroll: false,
     });
   };
 
@@ -342,19 +381,20 @@ const RouteComponent = () => {
             </TabsList>
 
             <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              {activeTab !== 'containers' && (
-                <button
-                  onClick={() =>
-                    activeTab === 'materials'
-                      ? openMaterialSheet('create')
-                      : openPackageSheet('create')
+              <button
+                onClick={() => {
+                  if (activeTab === 'materials') {
+                    openMaterialSheet('create');
+                  } else if (activeTab === 'packages') {
+                    openPackageSheet('create');
+                  } else {
+                    openContainerSheet('create');
                   }
-                  className="btn"
-                >
-                  + New {activeTab === 'materials' ? 'Material' : 'Package'}
-                </button>
-              )}
-              {activeTab === 'containers' && <div />}
+                }}
+                className="btn"
+              >
+                + New {getNewEntityLabel()}
+              </button>
               <div className="relative w-full sm:w-auto sm:min-w-[320px]">
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
                   <Search
@@ -676,11 +716,10 @@ const RouteComponent = () => {
                       const containerId = String(c.slug || c.uuid || c.id);
                       const name = String(c.name ?? containerId);
                       return (
-                        <Link
+                        <button
                           key={containerId}
-                          to="/containers/$id"
-                          params={{ id: containerId }}
-                          className="group block rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md"
+                          onClick={() => openContainerSheet('view', c)}
+                          className="group block w-full cursor-pointer rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md"
                         >
                           <div className="mb-2 flex items-start justify-between gap-2">
                             <div className="flex-1 text-sm font-semibold text-gray-900 group-hover:text-orange-600">
@@ -693,7 +732,7 @@ const RouteComponent = () => {
                               {String(c.class)}
                             </div>
                           )}
-                        </Link>
+                        </button>
                       );
                     })}
                   </div>
@@ -761,6 +800,31 @@ const RouteComponent = () => {
         onEdit={() => openPackageSheet('edit', packageData)}
       />
 
+      <ContainerSheet
+        open={!!containerId || containerMode === 'create'}
+        onOpenChange={(open) => {
+          if (!open) {
+            navigate({
+              to: '/brands/$brandId',
+              params: { brandId },
+              search: { tab: 'containers' },
+              replace: true,
+              resetScroll: false,
+            });
+          }
+        }}
+        container={containerMode !== 'create' ? containerData : undefined}
+        mode={containerMode === 'create' ? 'create' : 'edit'}
+        onSuccess={() => {
+          containersQuery.refetch();
+          if (containerMode === 'edit') {
+            refetchContainer();
+          }
+        }}
+        readOnly={containerMode === 'view' || containerMode === undefined}
+        onEdit={() => openContainerSheet('edit', containerData)}
+      />
+
       <Outlet />
     </div>
   );
@@ -776,6 +840,8 @@ export const Route = createFileRoute('/brands/$brandId')({
       packageId: search.packageId as string | undefined,
       packageMode: (search.packageMode as 'view' | 'edit' | 'create') || 'view',
       containerId: search.containerId as string | undefined,
+      containerMode:
+        (search.containerMode as 'view' | 'edit' | 'create') || 'view',
       editBrand: search.editBrand === true || search.editBrand === 'true',
       tab:
         (search.tab as 'materials' | 'packages' | 'containers') || 'materials',

@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
 import {
+  deleteSingleEntity as deleteEntity,
   jsonError,
   parseJsonSafe,
   readSingleEntity as readEntity,
@@ -28,6 +29,13 @@ export const Route = createFileRoute('/api/containers/$id')({
           params.id,
           body.value,
         );
+        const errRes = jsonError(result, 500);
+        if (errRes) return errRes;
+        return json({ ok: true });
+      },
+      DELETE: async ({ params, request }) => {
+        console.info('DELETE /api/containers/:id @', request.url);
+        const result = await deleteEntity('material-containers', params.id);
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
         return json({ ok: true });

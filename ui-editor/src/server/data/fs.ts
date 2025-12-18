@@ -495,6 +495,45 @@ export async function writeSingleEntity(
   return { error: `${entityDirName} item not found`, status: 404 };
 }
 
+export async function deleteSingleEntity(
+  entityDirName: string,
+  id: string,
+): Promise<{ ok: true } | { error: string; status?: number }> {
+  const dir = await findEntityDir(entityDirName);
+  if (!dir)
+    return { error: `${entityDirName} directory not found`, status: 500 };
+  let fileNames: string[] = [];
+  try {
+    fileNames = await fs.readdir(dir);
+  } catch (_err) {
+    return { error: `Failed to read ${entityDirName} directory`, status: 500 };
+  }
+  const yamlFiles = fileNames.filter((f) => /\.(ya?ml)$/i.test(f));
+  const idStr = String(id);
+  for (const file of yamlFiles) {
+    const fullPath = path.join(dir, file);
+    try {
+      const content = await fs.readFile(fullPath, 'utf8');
+      const obj = await parseYaml(content);
+      const fileStem = file.replace(/\.(ya?ml)$/i, '');
+      const nameSlug = slugifyName(obj?.name);
+      const match =
+        obj &&
+        (String(obj.uuid) === idStr ||
+          obj.slug === idStr ||
+          fileStem === idStr ||
+          nameSlug === idStr);
+      if (match) {
+        await fs.unlink(fullPath);
+        return { ok: true };
+      }
+    } catch (_err) {
+      // continue scanning other files
+    }
+  }
+  return { error: `${entityDirName} item not found`, status: 404 };
+}
+
 export async function writeNestedByBrand(
   entityDirName: string,
   brandId: string,

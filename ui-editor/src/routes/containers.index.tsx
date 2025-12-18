@@ -1,21 +1,10 @@
-import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
-import {
-  ChevronLeft,
-  ChevronRight,
-  Loader2,
-  Package2,
-  Pencil,
-  Search,
-  X,
-} from 'lucide-react';
+import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { ChevronRight, Loader2, Package2, Plus, Search, X } from 'lucide-react';
 import React from 'react';
 
-import { DataGrid } from '~/components/DataGrid';
-import { FieldEditor } from '~/components/SchemaFields';
-import { Button, Sheet, SheetContent } from '~/components/ui';
+import { ContainerSheet } from '~/components/container-sheet';
+import { Button } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
-import { useUpdateContainer } from '~/hooks/useMutations';
-import { useSchema } from '~/hooks/useSchema';
 import type { Brand } from '~/types/brand';
 import { slugifyName } from '~/utils/slug';
 
@@ -25,9 +14,10 @@ export const Route = createFileRoute('/containers/')({
   component: RouteComponent,
   validateSearch: (
     search: Record<string, unknown>,
-  ): { containerId?: string } => {
+  ): { containerId?: string; mode?: string } => {
     return {
       containerId: search.containerId as string | undefined,
+      mode: search.mode as string | undefined,
     };
   },
 });
@@ -37,10 +27,40 @@ function RouteComponent() {
   const containers = data ?? [];
   const { data: brandsData } = useApi<Brand[]>('/api/brands');
   const brands = brandsData ?? [];
-  const { containerId } = Route.useSearch();
+  const { containerId, mode } = Route.useSearch();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
+
+  let containerMode: 'create' | 'edit' | 'view' | null = null;
+  if (mode === 'create') {
+    containerMode = 'create';
+  } else if (mode === 'edit') {
+    containerMode = 'edit';
+  } else if (containerId) {
+    containerMode = 'view';
+  }
+
+  const handleOpenContainerSheet = (
+    sheetMode: 'create' | 'edit' | 'view',
+    id?: string,
+  ) => {
+    let search: { mode?: string; containerId?: string } = {};
+    if (sheetMode === 'create') {
+      search = { mode: 'create' };
+    } else if (sheetMode === 'edit') {
+      search = { containerId: id, mode: 'edit' };
+    } else {
+      search = { containerId: id };
+    }
+
+    navigate({
+      to: '/containers',
+      search,
+      replace: true,
+      resetScroll: false,
+    });
+  };
 
   // Create a map of brand_slug to brand name for quick lookup
   const brandMap = React.useMemo(() => {
@@ -95,14 +115,23 @@ function RouteComponent() {
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
       {/* Header Section */}
-      <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-gray-900">
-          Material Containers
-        </h1>
-        <p className="text-gray-600">
-          Browse and manage {containers.length} material containers in the
-          database
-        </p>
+      <div className="flex items-start justify-between gap-4">
+        <div className="space-y-2">
+          <h1 className="text-3xl font-bold text-gray-900">
+            Material Containers
+          </h1>
+          <p className="text-gray-600">
+            Browse and manage {containers.length} material containers in the
+            database
+          </p>
+        </div>
+        <button
+          onClick={() => handleOpenContainerSheet('create')}
+          className="btn flex items-center gap-2"
+        >
+          <Plus className="h-4 w-4" />
+          New Container
+        </button>
       </div>
 
       {/* Background Loading Indicator - shown when refreshing with existing data */}
@@ -239,12 +268,7 @@ function RouteComponent() {
             return (
               <button
                 key={String(id)}
-                onClick={() => {
-                  navigate({
-                    to: '/containers',
-                    search: { containerId: String(id) },
-                  });
-                }}
+                onClick={() => handleOpenContainerSheet('view', String(id))}
                 className="group block w-full cursor-pointer rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md"
               >
                 <div className="mb-2 flex items-start justify-between gap-2">
@@ -271,9 +295,9 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Container Detail Sheet */}
-      <Sheet
-        open={!!containerId}
+      {/* Container Sheet */}
+      <ContainerSheet
+        open={!!containerMode}
         onOpenChange={(open) => {
           if (!open) {
             navigate({
@@ -284,160 +308,33 @@ function RouteComponent() {
             });
           }
         }}
-      >
-        <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-          {containerId ? <ContainerDetail containerId={containerId} /> : null}
-        </SheetContent>
-      </Sheet>
-    </div>
-  );
-}
-
-// Container Detail Component
-function ContainerDetail({ containerId }: { containerId: string }) {
-  const { data, error, loading } = useApi<Container>(
-    () => `/api/containers/${containerId}`,
-    undefined,
-    [containerId],
-  );
-  const schema = useSchema();
-  const [editing, setEditing] = React.useState(false);
-  const [form, setForm] = React.useState<any | null>(null);
-
-  const updateContainerMutation = useUpdateContainer(containerId);
-
-  const brandSlug = data?.brand_slug as string | undefined;
-  const { data: brandData } = useApi<Brand>(
-    brandSlug ? () => `/api/brands/${brandSlug}` : '',
-    undefined,
-    [brandSlug],
-  );
-
-  React.useEffect(() => {
-    if (data && !editing) setForm(data);
-  }, [data, editing]);
-
-  const fields = React.useMemo(() => {
-    if (!schema || typeof schema !== 'object') return null;
-    const ent = (schema.entities ?? {}).material_containers;
-    return ent?.fields ?? null;
-  }, [schema]);
-
-  if (loading && !data)
-    return <div className="text-gray-600">Loading container…</div>;
-  if (error) return <div className="text-red-700">Error: {error}</div>;
-  if (!data) return null;
-
-  const title = String(data?.name ?? data?.slug ?? containerId);
-
-  return (
-    <div className="space-y-6">
-      {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm text-gray-600">
-        <Link
-          to="/containers"
-          className="flex items-center gap-1 transition-colors hover:text-blue-600"
-        >
-          <ChevronLeft className="h-4 w-4" />
-          All Containers
-        </Link>
-        {brandSlug && (
-          <>
-            <ChevronRight className="h-4 w-4" />
-            <Link
-              to="/brands/$brandId"
-              params={{ brandId: brandSlug }}
-              className="flex items-center gap-1 transition-colors hover:text-orange-600"
-            >
-              {brandData?.name ?? brandSlug}
-            </Link>
-          </>
-        )}
-      </div>
-
-      {/* Header */}
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <h4 className="text-2xl font-bold tracking-tight">{title}</h4>
-          {data.slug ? (
-            <div className="text-sm text-gray-500">{String(data.slug)}</div>
-          ) : null}
-          {brandSlug && (
-            <div className="mt-2">
-              <span className="text-sm text-gray-500">Brand: </span>
-              <Link
-                to="/brands/$brandId"
-                params={{ brandId: brandSlug }}
-                className="text-sm font-medium text-orange-600 transition-colors hover:text-orange-700 hover:underline"
-              >
-                {brandData?.name ?? brandSlug}
-              </Link>
-            </div>
-          )}
-        </div>
-        {fields && (
-          <div className="flex gap-2">
-            <button
-              type="button"
-              onClick={() => setEditing(!editing)}
-              className="flex cursor-pointer items-center gap-2 rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50"
-            >
-              <Pencil className="h-4 w-4" />
-              {editing ? 'Cancel' : 'Edit Container'}
-            </button>
-          </div>
-        )}
-      </div>
-
-      {/* Container Details */}
-      {editing && fields ? (
-        <div className="card">
-          <div className="card-header">Edit Container</div>
-          <div className="card-body space-y-4">
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {Object.entries(fields).map(([key, field]) => (
-                <FieldEditor
-                  key={key}
-                  label={key}
-                  field={field as any}
-                  value={form?.[key]}
-                  onChange={(val) =>
-                    setForm((f: any) => ({ ...(f ?? {}), [key]: val }))
-                  }
-                />
-              ))}
-            </div>
-            <div className="flex gap-2">
-              <button
-                className="btn cursor-pointer"
-                onClick={async () => {
-                  try {
-                    await updateContainerMutation.mutateAsync({ data: form });
-                    setEditing(false);
-                  } catch (err: any) {
-                    alert(err?.message ?? 'Save failed');
-                  }
-                }}
-                disabled={updateContainerMutation.isPending}
-              >
-                {updateContainerMutation.isPending ? 'Saving...' : 'Save'}
-              </button>
-              <button
-                className="btn-secondary cursor-pointer"
-                onClick={() => {
-                  setForm(data);
-                  setEditing(false);
-                }}
-                disabled={updateContainerMutation.isPending}
-              >
-                Cancel
-              </button>
-            </div>
-          </div>
-        </div>
-      ) : (
-        <DataGrid title="Container details" data={data} />
-      )}
+        container={
+          (containerMode === 'view' || containerMode === 'edit') && containerId
+            ? containers.find(
+                (c) =>
+                  c.slug === containerId ||
+                  c.uuid === containerId ||
+                  slugifyName(String(c.name ?? '')) === containerId,
+              )
+            : undefined
+        }
+        mode={containerMode === 'create' ? 'create' : 'edit'}
+        onSuccess={() => {
+          // Refetch is automatic via React Query invalidation
+          if (containerMode === 'create') {
+            navigate({
+              to: '/containers',
+              search: {},
+              replace: true,
+            });
+          }
+        }}
+        readOnly={containerMode === 'view'}
+        onEdit={() => {
+          // Switch to edit mode - keep the same container open
+          handleOpenContainerSheet('edit', containerId);
+        }}
+      />
     </div>
   );
 }

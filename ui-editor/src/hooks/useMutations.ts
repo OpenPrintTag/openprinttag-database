@@ -181,6 +181,16 @@ export const useDeletePackage = (brandId: string, packageId: string) => {
 };
 
 /**
+ * Hook for creating a container
+ */
+export const useCreateContainer = () => {
+  return useEntityMutation<any, { data: any }>(() => `/api/containers/new`, {
+    method: 'POST',
+    invalidateQueries: ['/api/containers'],
+  });
+};
+
+/**
  * Hook for updating a container
  */
 export const useUpdateContainer = (containerId: string) => {
@@ -191,6 +201,16 @@ export const useUpdateContainer = (containerId: string) => {
       invalidateQueries: ['/api/containers', `/api/containers/${containerId}`],
     },
   );
+};
+
+/**
+ * Hook for deleting a container
+ */
+export const useDeleteContainer = (containerId: string) => {
+  return useEntityMutation<any, void>(() => `/api/containers/${containerId}`, {
+    method: 'DELETE',
+    invalidateQueries: ['/api/containers'],
+  });
 };
 
 /**
