@@ -141,6 +141,7 @@ function EnumTableList() {
       <div className="flex items-center gap-2 text-sm text-gray-600">
         <Link
           to="/enum"
+          resetScroll={false}
           className="flex items-center gap-1 transition-colors hover:text-purple-600"
         >
           <ChevronRight className="h-4 w-4 rotate-180" />
@@ -301,6 +302,7 @@ function EnumTableList() {
                 key={itemId}
                 to="/enum/$table/$id"
                 params={{ table, id: itemId }}
+                resetScroll={false}
               >
                 <button className="group block w-full rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md">
                   <div className="mb-2 flex items-start justify-between gap-2">
@@ -395,7 +397,11 @@ function EnumTableList() {
         open={hasChildRoute}
         onOpenChange={(open) => {
           if (!open) {
-            navigate({ to: '/enum/$table', params: { table } });
+            navigate({
+              to: '/enum/$table',
+              params: { table },
+              resetScroll: false,
+            });
           }
         }}
       >

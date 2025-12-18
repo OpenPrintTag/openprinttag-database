@@ -82,6 +82,7 @@ const RouteComponent = () => {
       to: '/brands/$brandId',
       params: { brandId },
       search: { editBrand: true },
+      resetScroll: false,
     });
   };
 
@@ -168,6 +169,7 @@ const RouteComponent = () => {
         materialMode: mode,
         tab: 'materials',
       },
+      resetScroll: false,
     });
   };
 
@@ -180,6 +182,7 @@ const RouteComponent = () => {
         packageMode: mode,
         tab: 'packages',
       },
+      resetScroll: false,
     });
   };
 
@@ -265,6 +268,7 @@ const RouteComponent = () => {
       to: '/brands/$brandId',
       params: { brandId },
       search: { tab: value as 'materials' | 'packages' | 'containers' },
+      resetScroll: false,
     });
   };
 

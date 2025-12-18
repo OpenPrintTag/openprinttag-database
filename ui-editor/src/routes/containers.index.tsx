@@ -1,5 +1,7 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { ChevronRight, Loader2, Package2, Plus, Search, X } from 'lucide-react';
+import { PageHeader } from '~/components/PageHeader';
+
 import React from 'react';
 
 import { ContainerSheet } from '~/components/container-sheet';
@@ -116,15 +118,10 @@ function RouteComponent() {
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
       {/* Header Section */}
       <div className="flex items-start justify-between gap-4">
-        <div className="space-y-2">
-          <h1 className="text-3xl font-bold text-gray-900">
-            Material Containers
-          </h1>
-          <p className="text-gray-600">
-            Browse and manage {containers.length} material containers in the
-            database
-          </p>
-        </div>
+          <PageHeader
+              title="Material Containers"
+              description={`Browse and manage ${containers.length} material containers in the database`}
+          />
         <button
           onClick={() => handleOpenContainerSheet('create')}
           className="btn flex items-center gap-2"
@@ -143,37 +140,11 @@ function RouteComponent() {
       )}
 
       {/* Search Bar */}
-      <div className="relative">
-        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
-          <Search
-            className="h-5 w-5"
-            style={{ color: 'hsl(var(--muted-foreground))' }}
-          />
-        </div>
-        <input
-          type="text"
-          className="w-full rounded-xl border py-3.5 pr-12 pl-12 text-base shadow-sm transition-all focus-visible:ring-2 focus-visible:ring-offset-0 focus-visible:outline-none"
-          style={{
-            backgroundColor: 'hsl(var(--card))',
-            color: 'hsl(var(--foreground))',
-            borderColor: 'hsl(var(--border))',
-          }}
-          placeholder="Search containers by name, slug, or description..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-        {searchQuery && (
-          <button
-            type="button"
-            aria-label="Clear search"
-            className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer rounded-full p-1.5 transition-all hover:scale-110"
-            style={{ color: 'hsl(var(--muted-foreground))' }}
-            onClick={() => setSearchQuery('')}
-          >
-            <X className="h-5 w-5" />
-          </button>
-        )}
-      </div>
+      <SearchBar
+        value={searchQuery}
+        onChange={setSearchQuery}
+        placeholder="Search containers by name, slug, or description..."
+      />
 
       {/* Results Info */}
       {debouncedSearch && (
