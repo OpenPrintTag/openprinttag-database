@@ -1,30 +1,39 @@
 import { SheetClose, SheetFooter } from '~/components/ui/sheet';
 
-interface PackageSheetFooterProps {
+interface EntitySheetFooterProps {
+  mode?: 'create' | 'edit';
   readOnly: boolean;
   onEdit?: () => void;
   onSave?: () => void;
   onDelete?: () => void;
   saving: boolean;
-  deleting: boolean;
-  mode: 'create' | 'edit';
+  deleting?: boolean;
   disabled: boolean;
+  entityName?: string;
 }
 
-export const PackageSheetFooter = ({
+export const EntitySheetFooter = ({
+  mode = 'edit',
   readOnly,
   onEdit,
   onSave,
   onDelete,
   saving,
-  deleting,
-  mode,
+  deleting = false,
   disabled,
-}: PackageSheetFooterProps) => {
+  entityName = 'Item',
+}: EntitySheetFooterProps) => {
   const showDelete = readOnly && mode === 'edit' && onDelete;
 
+  const getSaveButtonText = () => {
+    if (saving) {
+      return mode === 'create' ? 'Creating...' : 'Saving...';
+    }
+    return mode === 'create' ? `Create ${entityName}` : 'Save Changes';
+  };
+
   return (
-    <SheetFooter className="mt-6">
+    <SheetFooter>
       <div className="flex w-full items-center justify-between gap-2">
         <div className="flex gap-2">
           {showDelete && (
@@ -56,12 +65,7 @@ export const PackageSheetFooter = ({
               disabled={disabled}
               type="button"
             >
-              {(() => {
-                if (saving) {
-                  return mode === 'create' ? 'Creating...' : 'Saving...';
-                }
-                return mode === 'create' ? 'Create Package' : 'Save Changes';
-              })()}
+              {getSaveButtonText()}
             </button>
           )}
         </div>

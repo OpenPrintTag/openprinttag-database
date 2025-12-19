@@ -1,7 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { Link } from '@tanstack/react-router';
 import { Box, ChevronRight, Package, Package2 } from 'lucide-react';
-import React from 'react';
 
 import { CountBadgeSkeleton } from '~/components/skeletons';
 import type { Brand } from '~/types/brand';
@@ -18,10 +17,9 @@ interface BrandCounts {
   container_count: number;
 }
 
-export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
+export const BrandCard = ({ brand }: BrandCardProps) => {
   const id = slugifyName(brand.name) || brand.slug || brand.uuid;
 
-  // Fetch counts for this specific brand
   const { data: counts } = useQuery({
     queryKey: [`/api/brands/${id}/counts`],
     queryFn: async () => {
@@ -31,7 +29,7 @@ export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
       }
       return (await res.json()) as BrandCounts;
     },
-    staleTime: 1000 * 60 * 5, // 5 minutes
+    staleTime: 1000 * 60 * 5,
     enabled: typeof window !== 'undefined' && !!id,
   });
 

@@ -1,9 +1,6 @@
-export const humanize = (k: string): string =>
-  k
-    .replace(/[-_]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .replace(/\b\w/g, (c) => c.toUpperCase());
+import { capitalCase } from 'change-case';
+
+export const humanize = (k: string): string => capitalCase(k);
 
 export const isPrimitive = (val: unknown): boolean =>
   typeof val === 'string' ||

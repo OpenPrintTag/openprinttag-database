@@ -1,19 +1,9 @@
-import React from 'react';
-
-import { PackageCardSkeleton } from './PackageCardSkeleton';
+import { CardGridSkeleton } from '~/shared/components/card-skeleton';
 
 interface PackageCardGridSkeletonProps {
   count?: number;
 }
 
-export const PackageCardGridSkeleton: React.FC<
-  PackageCardGridSkeletonProps
-> = ({ count = 8 }) => {
-  return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {[...Array(count)].map((_, i) => (
-        <PackageCardSkeleton key={i} />
-      ))}
-    </div>
-  );
-};
+export const PackageCardGridSkeleton = ({
+  count = 12,
+}: PackageCardGridSkeletonProps) => <CardGridSkeleton count={count} />;

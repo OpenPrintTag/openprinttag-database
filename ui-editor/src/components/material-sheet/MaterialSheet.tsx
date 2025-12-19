@@ -1,4 +1,4 @@
-import React from 'react';
+import { useMemo } from 'react';
 
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { useApi } from '~/hooks/useApi';
@@ -8,12 +8,15 @@ import {
   useUpdateMaterial,
 } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import {
+  EntitySheetFooter,
+  EntitySheetHeader,
+  useEntitySheet,
+} from '~/shared/components/entity-sheet';
 import { slugifyName } from '~/utils/slug';
 
 import { useMaterialLookupData } from './hooks';
 import { MaterialSheetEditView } from './MaterialSheetEditView';
-import { MaterialSheetFooter } from './MaterialSheetFooter';
-import { MaterialSheetHeader } from './MaterialSheetHeader';
 import { MaterialSheetReadView } from './MaterialSheetReadView';
 import type { Material, MaterialSheetProps } from './types';
 
@@ -28,58 +31,20 @@ export const MaterialSheet = ({
   onEdit,
 }: MaterialSheetProps) => {
   const schema = useSchema();
-  const [form, setForm] = React.useState<Material>({
-    name: '',
-    type: '',
-    manufacturer_material_code: '',
-    density: null,
-    glass_transition_temperature: null,
-    min_print_temperature: null,
-    max_print_temperature: null,
-    min_bed_temperature: null,
-    max_bed_temperature: null,
-  });
-  const [error, setError] = React.useState<string | null>(null);
-  const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
-  const [currentMode, setCurrentMode] = React.useState(mode);
-  const [initialSlug, setInitialSlug] = React.useState<string | undefined>(
-    undefined,
-  );
-
   const { tagsOptions, certificationsOptions, materialTypesOptions } =
     useMaterialLookupData();
 
-  const materialId = String(
-    material?.slug || material?.uuid || material?.id || '',
-  );
-  const createMaterialMutation = useCreateMaterial(brandId);
-  const updateMaterialMutation = useUpdateMaterial(brandId, materialId);
-  const deleteMaterialMutation = useDeleteMaterial(brandId, materialId);
-
-  // Fetch brand data to get brand_slug
   const { data: brandData } = useApi<any>(
     () => `/api/brands/${brandId}`,
     undefined,
     [brandId],
   );
 
-  React.useEffect(() => {
-    setIsReadOnly(readOnly);
-  }, [readOnly]);
-
-  React.useEffect(() => {
-    setCurrentMode(mode);
-  }, [mode]);
-
-  React.useEffect(() => {
-    if (material && mode === 'edit') {
-      setForm(material);
-      setInitialSlug(material.slug);
-    } else if (mode === 'create' && brandData) {
-      // Initialize with brand_slug from brand data
+  const initialForm = useMemo(() => {
+    if (mode === 'create' && brandData) {
       const brandSlug =
         brandData.slug || slugifyName(brandData.name) || brandId;
-      setForm({
+      return {
         name: '',
         slug: '',
         brand_slug: brandSlug,
@@ -92,23 +57,51 @@ export const MaterialSheet = ({
         secondary_colors: [],
         photos: [],
         properties: {},
-      });
-      setInitialSlug(undefined);
+      };
     }
-  }, [material, mode, open, brandData, brandId]);
+    return {
+      name: '',
+      type: '',
+      manufacturer_material_code: '',
+      density: null,
+      glass_transition_temperature: null,
+      min_print_temperature: null,
+      max_print_temperature: null,
+      min_bed_temperature: null,
+      max_bed_temperature: null,
+    };
+  }, [mode, brandData, brandId]);
 
-  const fields = React.useMemo(() => {
+  const {
+    form,
+    error,
+    setError,
+    isReadOnly,
+    setIsReadOnly,
+    currentMode,
+    setCurrentMode,
+    handleFieldChange,
+    handleEdit: onEditInternal,
+  } = useEntitySheet<Material>({
+    entity: material,
+    open,
+    mode,
+    readOnly,
+    initialForm,
+  });
+
+  const materialId = String(
+    material?.slug || material?.uuid || material?.id || '',
+  );
+  const createMaterialMutation = useCreateMaterial(brandId);
+  const updateMaterialMutation = useUpdateMaterial(brandId, materialId);
+  const deleteMaterialMutation = useDeleteMaterial(brandId, materialId);
+
+  const fields = useMemo(() => {
     if (!schema || typeof schema !== 'object') return null;
     const ent = (schema.entities ?? {}).materials;
     return ent?.fields ?? null;
   }, [schema]);
-
-  const handleFieldChange = (key: string, value: unknown) => {
-    setForm((f) => ({
-      ...(f ?? {}),
-      [key]: value,
-    }));
-  };
 
   const handleSave = async () => {
     if (!form.name?.trim()) {
@@ -123,19 +116,15 @@ export const MaterialSheet = ({
     setError(null);
 
     try {
-      let savedData: any;
-
       if (currentMode === 'create') {
-        savedData = await createMaterialMutation.mutateAsync({ data: form });
+        await createMaterialMutation.mutateAsync({ data: form });
       } else {
         if (!materialId) {
           throw new Error('Material ID not found');
         }
-        savedData = await updateMaterialMutation.mutateAsync({ data: form });
+        await updateMaterialMutation.mutateAsync({ data: form });
       }
 
-      setForm(savedData || form);
-      setInitialSlug(savedData?.slug || form.slug);
       setIsReadOnly(true);
       setCurrentMode('edit');
       onSuccess?.();
@@ -151,9 +140,7 @@ export const MaterialSheet = ({
       `Are you sure you want to delete ${materialName}? This action cannot be undone.`,
     );
 
-    if (!confirmed) {
-      return;
-    }
+    if (!confirmed) return;
 
     setError(null);
 
@@ -163,7 +150,6 @@ export const MaterialSheet = ({
       }
 
       await deleteMaterialMutation.mutateAsync();
-
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
@@ -172,18 +158,19 @@ export const MaterialSheet = ({
     }
   };
 
-  const handleEdit = () => {
-    setIsReadOnly(false);
+  const handleEditClick = () => {
+    onEditInternal();
     onEdit?.();
   };
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-        <MaterialSheetHeader
+        <EntitySheetHeader
           mode={currentMode}
           readOnly={isReadOnly}
-          material={form}
+          entity={form}
+          entityName="Material"
         />
 
         {error && (
@@ -208,20 +195,20 @@ export const MaterialSheet = ({
             certificationsOptions={certificationsOptions}
             schema={schema}
             mode={currentMode}
-            initialSlug={initialSlug}
+            initialSlug={material?.slug}
           />
         )}
 
-        <MaterialSheetFooter
+        <EntitySheetFooter
+          mode={currentMode}
           readOnly={isReadOnly}
-          onEdit={handleEdit}
+          onEdit={handleEditClick}
           onSave={handleSave}
           onDelete={handleDelete}
           saving={
             createMaterialMutation.isPending || updateMaterialMutation.isPending
           }
           deleting={deleteMaterialMutation.isPending}
-          mode={currentMode}
           disabled={
             createMaterialMutation.isPending ||
             updateMaterialMutation.isPending ||
@@ -230,6 +217,7 @@ export const MaterialSheet = ({
             !form.name?.trim() ||
             !form.class
           }
+          entityName="Material"
         />
       </SheetContent>
     </Sheet>
