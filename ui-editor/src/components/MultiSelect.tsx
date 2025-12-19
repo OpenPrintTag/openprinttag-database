@@ -1,5 +1,5 @@
 import { ChevronDown, X } from 'lucide-react';
-import React, { useMemo, useState } from 'react';
+import { type MouseEvent, useMemo, useState } from 'react';
 
 import { Badge } from '~/components/ui/badge';
 
@@ -42,9 +42,10 @@ export const MultiSelect = ({
     );
   }, [options, searchQuery]);
 
-  const selectedOptions = useMemo(() => {
-    return options.filter((opt) => selectedValues.has(String(opt.value)));
-  }, [options, selectedValues]);
+  const selectedOptions = useMemo(
+    () => options.filter((opt) => selectedValues.has(String(opt.value))),
+    [options, selectedValues],
+  );
 
   const handleToggle = (optionValue: string) => {
     const newSelected = new Set(selectedValues);
@@ -56,14 +57,14 @@ export const MultiSelect = ({
     onChange(Array.from(newSelected));
   };
 
-  const handleRemove = (optionValue: string, e: React.MouseEvent) => {
+  const handleRemove = (optionValue: string, e: MouseEvent) => {
     e.stopPropagation();
     const newSelected = new Set(selectedValues);
     newSelected.delete(optionValue);
     onChange(Array.from(newSelected));
   };
 
-  const handleClearAll = (e: React.MouseEvent) => {
+  const handleClearAll = (e: MouseEvent) => {
     e.stopPropagation();
     onChange([]);
   };

@@ -1,4 +1,4 @@
-import React from 'react';
+import { useMemo } from 'react';
 
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { useApi } from '~/hooks/useApi';
@@ -8,11 +8,14 @@ import {
   useUpdateContainer,
 } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import {
+  EntitySheetFooter,
+  EntitySheetHeader,
+  useEntitySheet,
+} from '~/shared/components/entity-sheet';
 import { slugifyName } from '~/utils/slug';
 
 import { ContainerSheetEditView } from './ContainerSheetEditView';
-import { ContainerSheetFooter } from './ContainerSheetFooter';
-import { ContainerSheetHeader } from './ContainerSheetHeader';
 import { ContainerSheetReadView } from './ContainerSheetReadView';
 import type { Container, ContainerSheetProps } from './types';
 
@@ -26,68 +29,57 @@ export const ContainerSheet = ({
   onEdit,
 }: ContainerSheetProps) => {
   const schema = useSchema();
-  const [form, setForm] = React.useState<Container>({
-    name: '',
-    class: 'FFF',
+
+  // Memoize initialForm to prevent unnecessary re-renders
+  const initialForm = useMemo(
+    (): Partial<Container> => ({ name: '', class: 'FFF' }),
+    [],
+  );
+
+  const {
+    form,
+    error,
+    setError,
+    isReadOnly,
+    setIsReadOnly,
+    currentMode,
+    setCurrentMode,
+    handleFieldChange: baseHandleFieldChange,
+    handleEdit: onEditInternal,
+  } = useEntitySheet<Container>({
+    entity: cont,
+    open,
+    mode,
+    readOnly,
+    initialForm,
   });
-  const [error, setError] = React.useState<string | null>(null);
-  const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
-  const [currentMode, setCurrentMode] = React.useState(mode);
 
   const containerId = String(cont?.slug || cont?.uuid || cont?.id || '');
   const createContainerMutation = useCreateContainer();
   const updateContainerMutation = useUpdateContainer(containerId);
   const deleteContainerMutation = useDeleteContainer(containerId);
 
-  React.useEffect(() => {
-    setIsReadOnly(readOnly);
-  }, [readOnly]);
-
-  React.useEffect(() => {
-    setCurrentMode(mode);
-  }, [mode]);
-
-  React.useEffect(() => {
-    if (cont && mode === 'edit') {
-      setForm(cont);
-    } else if (mode === 'create') {
-      setForm({
-        name: '',
-        class: 'FFF',
-      });
-    }
-  }, [cont, mode, open]);
-
-  // Load all brands for brand_slug dropdown
   const { data: brandsData } = useApi<any[]>('/api/brands');
   const brands = brandsData ?? [];
 
-  // Load SLA connectors for connector_slug dropdown
   const { data: connectorsData } = useApi<any[]>(
     '/api/enum/sla-container-connectors',
   );
   const connectors = connectorsData ?? [];
 
-  // Get brand name for display
-  const brandName = React.useMemo(() => {
+  const brandName = useMemo(() => {
     if (!form?.brand_slug) return undefined;
     const brand = brands.find((b) => b.slug === form.brand_slug);
     return brand?.name;
   }, [form?.brand_slug, brands]);
 
   const handleFieldChange = (key: string, value: unknown) => {
-    const newForm = {
-      ...(form ?? {}),
-      [key]: value,
-    };
+    baseHandleFieldChange(key, value);
 
-    // Auto-generate slug from name
     if (key === 'name' && typeof value === 'string') {
       const generatedSlug = slugifyName(value);
-      newForm.slug = generatedSlug || '';
+      baseHandleFieldChange('slug', generatedSlug || '');
     }
-
-    setForm(newForm);
   };
 
   const handleSave = async () => {
@@ -106,17 +98,15 @@ export const ContainerSheet = ({
     try {
       if (currentMode === 'create') {
         await createContainerMutation.mutateAsync({ data: form });
-        onSuccess?.();
       } else {
         if (!containerId) {
           throw new Error('Container ID not found');
         }
         await updateContainerMutation.mutateAsync({ data: form });
-        // Keep the form data and switch to read-only mode
         setIsReadOnly(true);
         setCurrentMode('edit');
-        onSuccess?.();
       }
+      onSuccess?.();
     } catch (err) {
       const error = err as Error;
       setError(error?.message || `Failed to ${currentMode} container`);
@@ -129,9 +119,7 @@ export const ContainerSheet = ({
       `Are you sure you want to delete ${containerName}? This action cannot be undone.`,
     );
 
-    if (!confirmed) {
-      return;
-    }
+    if (!confirmed) return;
 
     setError(null);
 
@@ -141,7 +129,6 @@ export const ContainerSheet = ({
       }
 
       await deleteContainerMutation.mutateAsync();
-
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
@@ -150,18 +137,19 @@ export const ContainerSheet = ({
     }
   };
 
-  const handleEdit = () => {
-    setIsReadOnly(false);
+  const handleEditClick = () => {
+    onEditInternal();
     onEdit?.();
   };
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-        <ContainerSheetHeader
+        <EntitySheetHeader
           mode={currentMode}
           readOnly={isReadOnly}
-          container={form}
+          entity={form}
+          entityName="Container"
         />
 
         {error && (
@@ -181,9 +169,10 @@ export const ContainerSheet = ({
           />
         )}
 
-        <ContainerSheetFooter
+        <EntitySheetFooter
+          mode={currentMode}
           readOnly={isReadOnly}
-          onEdit={handleEdit}
+          onEdit={handleEditClick}
           onSave={handleSave}
           onDelete={handleDelete}
           saving={
@@ -191,7 +180,6 @@ export const ContainerSheet = ({
             updateContainerMutation.isPending
           }
           deleting={deleteContainerMutation.isPending}
-          mode={currentMode}
           disabled={
             createContainerMutation.isPending ||
             updateContainerMutation.isPending ||
@@ -200,6 +188,7 @@ export const ContainerSheet = ({
             !form.name?.trim() ||
             !form.class
           }
+          entityName="Container"
         />
       </SheetContent>
     </Sheet>

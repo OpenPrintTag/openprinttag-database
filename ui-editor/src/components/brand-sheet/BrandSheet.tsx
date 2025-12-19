@@ -1,13 +1,16 @@
-import React from 'react';
+import { useMemo } from 'react';
 
 import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { useUpdateBrand } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import {
+  EntitySheetFooter,
+  EntitySheetHeader,
+  useEntitySheet,
+} from '~/shared/components/entity-sheet';
 
 import { BrandSheetEditView } from './BrandSheetEditView';
-import { BrandSheetFooter } from './BrandSheetFooter';
-import { BrandSheetHeader } from './BrandSheetHeader';
 import { useBrandLookupData } from './hooks';
 import { BrandReadView } from './sections/BrandReadView';
 import type { Brand, BrandSheetProps } from './types';
@@ -22,37 +25,36 @@ export const BrandSheet = ({
 }: BrandSheetProps) => {
   const schema = useSchema();
   const { countriesOptions } = useBrandLookupData();
-  const [form, setForm] = React.useState<Partial<Brand>>({});
-  const [error, setError] = React.useState<string | null>(null);
-  const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
+
+  // Memoize initialForm to prevent unnecessary re-renders
+  const initialForm = useMemo(() => ({}), []);
+
+  const {
+    form,
+    error,
+    setError,
+    isReadOnly,
+    setIsReadOnly,
+    handleFieldChange,
+    handleEdit: onEditInternal,
+  } = useEntitySheet<Brand>({
+    entity: brand,
+    open,
+    mode: 'edit',
+    readOnly,
+    initialForm,
+  });
 
   const brandId = String(brand?.slug || brand?.uuid || brand?.id || '');
   const updateBrandMutation = useUpdateBrand(brandId);
 
-  React.useEffect(() => {
-    setIsReadOnly(readOnly);
-  }, [readOnly]);
-
-  React.useEffect(() => {
-    if (brand) {
-      setForm(brand);
-    }
-  }, [brand, open]);
-
-  const fields = React.useMemo(() => {
+  const fields = useMemo(() => {
     if (!schema || typeof schema !== 'object') return undefined;
     const ent = (schema.entities ?? {}).brands;
     return (ent?.fields ?? undefined) as
       | Record<string, SchemaField>
       | undefined;
   }, [schema]);
-
-  const handleFieldChange = (key: string, value: unknown) => {
-    setForm((f: Partial<Brand>) => ({
-      ...(f ?? {}),
-      [key]: value,
-    }));
-  };
 
   const handleSave = async () => {
     if (!form.name?.trim()) {
@@ -68,8 +70,7 @@ export const BrandSheet = ({
     setError(null);
 
     try {
-      const savedData = await updateBrandMutation.mutateAsync({ data: form });
-      setForm(savedData || form);
+      await updateBrandMutation.mutateAsync({ data: form });
       setIsReadOnly(true);
       onSuccess?.();
     } catch (err: unknown) {
@@ -78,15 +79,19 @@ export const BrandSheet = ({
     }
   };
 
-  const handleEdit = () => {
-    setIsReadOnly(false);
+  const handleEditClick = () => {
+    onEditInternal();
     onEdit?.();
   };
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-        <BrandSheetHeader readOnly={isReadOnly} brand={form as Brand} />
+        <EntitySheetHeader
+          readOnly={isReadOnly}
+          entity={form as Brand}
+          entityName="Brand"
+        />
 
         {error && (
           <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
@@ -106,14 +111,15 @@ export const BrandSheet = ({
           />
         )}
 
-        <BrandSheetFooter
+        <EntitySheetFooter
           readOnly={isReadOnly}
-          onEdit={handleEdit}
+          onEdit={handleEditClick}
           onSave={handleSave}
           saving={updateBrandMutation.isPending}
           disabled={
             updateBrandMutation.isPending || !schema || !form.name?.trim()
           }
+          entityName="Brand"
         />
       </SheetContent>
     </Sheet>

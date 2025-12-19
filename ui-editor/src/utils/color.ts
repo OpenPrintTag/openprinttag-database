@@ -1,32 +1,35 @@
+import tinycolor from 'tinycolor2';
+
 export const parseHexRgba = (
   hex: string,
 ): { r: number; g: number; b: number; a: number } | null => {
   if (typeof hex !== 'string') return null;
-  const h = hex.trim().replace(/^#/, '');
-  if (!(h.length === 6 || h.length === 8)) return null;
-  const r = parseInt(h.slice(0, 2), 16);
-  const g = parseInt(h.slice(2, 4), 16);
-  const b = parseInt(h.slice(4, 6), 16);
-  const a = h.length === 8 ? parseInt(h.slice(6, 8), 16) : 255;
-  if ([r, g, b, a].some((n) => Number.isNaN(n))) return null;
-  return { r, g, b, a };
+  const color = tinycolor(hex);
+  if (!color.isValid()) return null;
+  const rgba = color.toRgb();
+  return { r: rgba.r, g: rgba.g, b: rgba.b, a: Math.round(rgba.a * 255) };
 };
 
 export const hexToCssRgba = (hex: string): string | null => {
-  const p = parseHexRgba(hex);
-  if (!p) return null;
-  const alpha = Math.round((p.a / 255) * 100) / 100;
-  return `rgba(${p.r}, ${p.g}, ${p.b}, ${alpha})`;
+  const color = tinycolor(hex);
+  return color.isValid() ? color.toRgbString() : null;
 };
 
 export const hexToRgbText = (hex: string): string => {
-  const p = parseHexRgba(hex);
-  if (!p) return String(hex);
-  return `${p.r}, ${p.g}, ${p.b}`;
+  const color = tinycolor(hex);
+  if (!color.isValid()) return String(hex);
+  const rgb = color.toRgb();
+  return `${rgb.r}, ${rgb.g}, ${rgb.b}`;
 };
 
-export const isHexColor = (s: unknown): boolean =>
-  typeof s === 'string' && /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(s);
+export const isHexColor = (s: unknown): boolean => {
+  if (typeof s !== 'string') return false;
+  const color = tinycolor(s);
+  return (
+    color.isValid() &&
+    /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(s)
+  );
+};
 
 type ColorObject = {
   rgba?: unknown;
@@ -43,8 +46,13 @@ export const extractColorHex = (v: unknown): string | null => {
     if (isHexColor(obj.hex)) return obj.hex as string;
     if (Array.isArray(obj.rgb) && obj.rgb.length >= 3) {
       const [r, g, b, a] = obj.rgb;
-      const alpha = typeof a === 'number' ? a : 1;
-      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+      const color = tinycolor({
+        r: Number(r),
+        g: Number(g),
+        b: Number(b),
+        a: typeof a === 'number' ? a : 1,
+      });
+      return color.toRgbString();
     }
   }
   return null;

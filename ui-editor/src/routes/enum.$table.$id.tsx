@@ -1,6 +1,7 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { capitalCase } from 'change-case';
 import { Trash2 } from 'lucide-react';
-import React from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
@@ -12,16 +13,10 @@ import { safeStringify } from '~/utils/format';
 
 export const formatEnumLabel = (s: string): string => {
   if (!s) return s;
-  return s
-    .replace(/[-_]+/g, ' ')
-    .trim()
-    .split(' ')
-    .filter(Boolean)
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ');
+  return capitalCase(s);
 };
 
-function EnumItemDetail() {
+const EnumItemDetail = () => {
   const { table, id } = Route.useParams();
   const navigate = useNavigate();
   const { data, error, loading } = useApi<any>(
@@ -31,8 +26,8 @@ function EnumItemDetail() {
   );
   const schema = useSchema();
 
-  const [editing, setEditing] = React.useState(false);
-  const [form, setForm] = React.useState<any | null>(null);
+  const [editing, setEditing] = useState(false);
+  const [form, setForm] = useState<any | null>(null);
 
   const updateEnumItemMutation = useUpdateEnumItem(table, id);
   const deleteEnumItemMutation = useDeleteEnumItem(table, id);
@@ -54,11 +49,11 @@ function EnumItemDetail() {
     }
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (data && !editing) setForm(data);
   }, [data, editing]);
 
-  const entitySchema = React.useMemo(() => {
+  const entitySchema = useMemo(() => {
     if (!schema || typeof schema !== 'object') return null;
     const entities = schema.entities ?? {};
     const keys = Object.keys(entities);
@@ -91,10 +86,17 @@ function EnumItemDetail() {
         {!editing && (
           <div className="flex gap-2">
             <Button
+              onClick={() => setEditing(true)}
+              disabled={!schema}
+              className="bg-orange-600 text-white hover:bg-orange-700"
+            >
+              Edit
+            </Button>
+            <Button
               variant="destructive"
               onClick={handleDelete}
               disabled={deleteEnumItemMutation.isPending}
-              className="flex items-center gap-2 text-white"
+              className="bg-red-600 text-white hover:bg-red-700"
             >
               <Trash2 className="h-4 w-4" />
               {deleteEnumItemMutation.isPending ? 'Deleting...' : 'Delete'}
@@ -107,19 +109,10 @@ function EnumItemDetail() {
         <>
           <DataGrid
             data={data}
-            title={`Details`}
+            title="Details"
             fields={fields as Record<string, SchemaField> | undefined}
             primaryKeys={['id', 'uuid', 'slug', 'name']}
           />
-          <div className="flex justify-end">
-            <Button
-              onClick={() => setEditing(true)}
-              disabled={!schema}
-              className="bg-orange-600 text-white hover:bg-orange-700"
-            >
-              Edit
-            </Button>
-          </div>
         </>
       ) : (
         <div className="card">
@@ -154,9 +147,7 @@ function EnumItemDetail() {
                       const txt = e.target.value;
                       try {
                         setForm(JSON.parse(txt));
-                      } catch {
-                        // ignore until valid JSON
-                      }
+                      } catch {}
                     }}
                   />
                 </div>
@@ -176,8 +167,26 @@ function EnumItemDetail() {
               <Button
                 onClick={async () => {
                   try {
+                    // Detect if the ID field has changed
+                    const oldId = id;
+                    const newId = form?.code || form?.slug || form?.id || oldId;
+
                     await updateEnumItemMutation.mutateAsync({ data: form });
+
+                    // Exit editing mode first
                     setEditing(false);
+
+                    // If the ID changed, redirect to the new URL
+                    if (
+                      String(newId).toLowerCase() !==
+                      String(oldId).toLowerCase()
+                    ) {
+                      navigate({
+                        to: '/enum/$table/$id',
+                        params: { table, id: String(newId) },
+                        replace: true,
+                      });
+                    }
                   } catch (err: any) {
                     alert(err?.message ?? 'Save failed');
                   }
@@ -193,7 +202,7 @@ function EnumItemDetail() {
       )}
     </div>
   );
-}
+};
 
 export const Route = createFileRoute('/enum/$table/$id')({
   component: EnumItemDetail,

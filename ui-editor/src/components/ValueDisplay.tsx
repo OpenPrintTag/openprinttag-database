@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Badge } from '~/components/ui';
 import { ColorSwatch } from '~/components/ui/color-swatch';
 import { extractColorHex, hexToRgbText } from '~/utils/color';
@@ -12,20 +10,17 @@ type ColorItem = {
   name?: string;
 };
 
-export const ValueDisplay = ({
-  value,
-  field,
-  colors,
-}: {
+interface ValueDisplayProps {
   value: unknown;
   field?: SchemaField;
   colors?: Record<string, ColorItem> | null;
-}) => {
-  // Handle undefined/null
-  if (value === undefined || value === null)
-    return <span className="text-gray-400">—</span>;
+}
 
-  // Colors via lookup table: single or array of uuids referencing `colors` table
+export const ValueDisplay = ({ value, field, colors }: ValueDisplayProps) => {
+  if (value === undefined || value === null) {
+    return <span className="text-gray-400">—</span>;
+  }
+
   const singleColorsFk = field?.foreign_key?.entity === 'colors';
   const arrayColorsFk =
     field?.type === 'array' && field?.items?.foreign_key?.entity === 'colors';
@@ -61,7 +56,7 @@ export const ValueDisplay = ({
             item && typeof item === 'object' && 'name' in item
               ? item.name
               : null;
-          if (rgba && typeof rgba === 'string')
+          if (rgba && typeof rgba === 'string') {
             return (
               <ColorSwatch
                 key={key}
@@ -70,6 +65,7 @@ export const ValueDisplay = ({
                 title={String(name ?? id)}
               />
             );
+          }
           return (
             <span key={key} className="text-xs text-gray-500">
               {String(id)}
@@ -80,12 +76,10 @@ export const ValueDisplay = ({
     );
   }
 
-  // Raw rgba fields
   if (field?.type === 'rgba' && typeof value === 'string') {
     return <ColorSwatch rgbaHex={value} label={hexToRgbText(value)} />;
   }
 
-  // Object with rgba property
   if (
     field?.type === 'object' &&
     field?.fields?.rgba?.type === 'rgba' &&
@@ -99,7 +93,6 @@ export const ValueDisplay = ({
     }
   }
 
-  // Array of objects with rgba
   if (
     field?.type === 'array' &&
     field?.items?.type === 'object' &&
@@ -110,10 +103,11 @@ export const ValueDisplay = ({
       <div className="flex flex-wrap gap-1">
         {value.map((it, idx) => {
           const hex = it?.rgba;
-          if (typeof hex === 'string')
+          if (typeof hex === 'string') {
             return (
               <ColorSwatch key={idx} rgbaHex={hex} label={hexToRgbText(hex)} />
             );
+          }
           return (
             <span key={idx} className="text-xs text-gray-500">
               —
@@ -124,7 +118,6 @@ export const ValueDisplay = ({
     );
   }
 
-  // Photos: array of objects with url
   const looksLikePhotos =
     Array.isArray(value) &&
     field?.type === 'array' &&
@@ -157,7 +150,6 @@ export const ValueDisplay = ({
     );
   }
 
-  // URL fields
   if (field?.type === 'url' || isValidUrl(String(value))) {
     return (
       <a
@@ -171,10 +163,8 @@ export const ValueDisplay = ({
     );
   }
 
-  // Primitive values
   if (isPrimitive(value)) return <span>{String(value)}</span>;
 
-  // Array of primitives -> badges
   if (Array.isArray(value)) {
     if (value.length === 0) return <span className="text-gray-400">[]</span>;
     const allPrim = value.every(isPrimitive);
@@ -187,7 +177,6 @@ export const ValueDisplay = ({
         </div>
       );
     }
-    // Try rendering as color swatches
     const swatches = value.map(extractColorHex).filter(Boolean) as string[];
     if (swatches.length > 0) {
       return (
@@ -204,7 +193,6 @@ export const ValueDisplay = ({
         </div>
       );
     }
-    // Generic array fallback
     return (
       <pre className="max-h-56 overflow-auto rounded-md bg-gray-50 p-2 text-[11px] leading-4">
         {safeStringify(value)}
@@ -212,11 +200,9 @@ export const ValueDisplay = ({
     );
   }
 
-  // Plain object
   const isPlainObject =
     value && typeof value === 'object' && !Array.isArray(value);
   if (isPlainObject) {
-    // Try to render color-like objects
     const hex = extractColorHex(value);
     if (hex) {
       return (
@@ -232,7 +218,6 @@ export const ValueDisplay = ({
       );
     }
 
-    // Generic object rendering
     const entries = Object.entries(value as Record<string, any>);
     if (entries.length === 0)
       return <span className="text-gray-400">{'{ }'}</span>;
@@ -258,7 +243,6 @@ export const ValueDisplay = ({
     );
   }
 
-  // Generic fallback
   return (
     <pre className="max-h-56 overflow-auto rounded-md bg-gray-50 p-2 text-[11px] leading-4">
       {safeStringify(value)}

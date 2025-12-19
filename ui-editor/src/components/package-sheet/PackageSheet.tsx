@@ -1,4 +1,4 @@
-import React from 'react';
+import { useMemo } from 'react';
 
 import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
@@ -8,10 +8,13 @@ import {
   useUpdatePackage,
 } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import {
+  EntitySheetFooter,
+  EntitySheetHeader,
+  useEntitySheet,
+} from '~/shared/components/entity-sheet';
 
 import { PackageSheetEditView } from './PackageSheetEditView';
-import { PackageSheetFooter } from './PackageSheetFooter';
-import { PackageSheetHeader } from './PackageSheetHeader';
 import { PackageSheetReadView } from './PackageSheetReadView';
 import type { Package, PackageSheetProps } from './types';
 
@@ -26,50 +29,41 @@ export const PackageSheet = ({
   onEdit,
 }: PackageSheetProps) => {
   const schema = useSchema();
-  const [form, setForm] = React.useState<Package>({
-    material_slug: '',
-    container_slug: '',
+
+  // Memoize initialForm to prevent unnecessary re-renders
+  const initialForm = useMemo(
+    () => ({ material_slug: '', container_slug: '' }),
+    [],
+  );
+
+  const {
+    form,
+    error,
+    setError,
+    isReadOnly,
+    setIsReadOnly,
+    currentMode,
+    setCurrentMode,
+    handleFieldChange,
+    handleEdit: onEditInternal,
+  } = useEntitySheet<Package>({
+    entity: pkg,
+    open,
+    mode,
+    readOnly,
+    initialForm,
   });
-  const [error, setError] = React.useState<string | null>(null);
-  const [isReadOnly, setIsReadOnly] = React.useState(readOnly);
-  const [currentMode, setCurrentMode] = React.useState(mode);
 
   const packageId = String(pkg?.slug || pkg?.uuid || pkg?.id || '');
   const createPackageMutation = useCreatePackage(brandId);
   const updatePackageMutation = useUpdatePackage(brandId, packageId);
   const deletePackageMutation = useDeletePackage(brandId, packageId);
 
-  React.useEffect(() => {
-    setIsReadOnly(readOnly);
-  }, [readOnly]);
-
-  React.useEffect(() => {
-    setCurrentMode(mode);
-  }, [mode]);
-
-  React.useEffect(() => {
-    if (pkg && mode === 'edit') {
-      setForm(pkg);
-    } else if (mode === 'create') {
-      setForm({
-        material_slug: '',
-        container_slug: '',
-      });
-    }
-  }, [pkg, mode, open]);
-
-  const fields = React.useMemo(() => {
+  const fields = useMemo(() => {
     if (!schema || typeof schema !== 'object') return null;
     const ent = (schema.entities ?? {}).material_packages;
     return (ent?.fields ?? null) as Record<string, SchemaField> | null;
   }, [schema]);
-
-  const handleFieldChange = (key: string, value: unknown) => {
-    setForm((f) => ({
-      ...(f ?? {}),
-      [key]: value,
-    }));
-  };
 
   const handleSave = async () => {
     if (!form.material_slug?.trim()) {
@@ -80,18 +74,15 @@ export const PackageSheet = ({
     setError(null);
 
     try {
-      let savedData: any;
-
       if (currentMode === 'create') {
-        savedData = await createPackageMutation.mutateAsync({ data: form });
+        await createPackageMutation.mutateAsync({ data: form });
       } else {
         if (!packageId) {
           throw new Error('Package ID not found');
         }
-        savedData = await updatePackageMutation.mutateAsync({ data: form });
+        await updatePackageMutation.mutateAsync({ data: form });
       }
 
-      setForm(savedData || form);
       setIsReadOnly(true);
       setCurrentMode('edit');
       onSuccess?.();
@@ -107,9 +98,7 @@ export const PackageSheet = ({
       `Are you sure you want to delete ${packageName}? This action cannot be undone.`,
     );
 
-    if (!confirmed) {
-      return;
-    }
+    if (!confirmed) return;
 
     setError(null);
 
@@ -119,7 +108,6 @@ export const PackageSheet = ({
       }
 
       await deletePackageMutation.mutateAsync();
-
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
@@ -128,18 +116,19 @@ export const PackageSheet = ({
     }
   };
 
-  const handleEdit = () => {
-    setIsReadOnly(false);
+  const handleEditClick = () => {
+    onEditInternal();
     onEdit?.();
   };
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-        <PackageSheetHeader
+        <EntitySheetHeader
           mode={currentMode}
           readOnly={isReadOnly}
-          package={form}
+          entity={form}
+          entityName="Package"
         />
 
         {error && (
@@ -159,16 +148,16 @@ export const PackageSheet = ({
           />
         )}
 
-        <PackageSheetFooter
+        <EntitySheetFooter
+          mode={currentMode}
           readOnly={isReadOnly}
-          onEdit={handleEdit}
+          onEdit={handleEditClick}
           onSave={handleSave}
           onDelete={handleDelete}
           saving={
             createPackageMutation.isPending || updatePackageMutation.isPending
           }
           deleting={deletePackageMutation.isPending}
-          mode={currentMode}
           disabled={
             createPackageMutation.isPending ||
             updatePackageMutation.isPending ||
@@ -176,6 +165,7 @@ export const PackageSheet = ({
             !schema ||
             !form.material_slug?.trim()
           }
+          entityName="Package"
         />
       </SheetContent>
     </Sheet>

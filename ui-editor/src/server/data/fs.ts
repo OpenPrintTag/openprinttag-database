@@ -682,11 +682,12 @@ export async function writeLookupTableItem(
   if (!arrayKey) return { error: 'Lookup table items not found', status: 500 };
   const items: any[] = (data as any)[arrayKey] as any[];
 
-  const idStr = String(id);
+  const idStr = String(id).toLowerCase();
   const idx = items.findIndex((it) => {
     const nameSlug = slugifyName((it as any)?.name);
     return (
       String((it as any)?.id) === idStr ||
+      (it as any)?.code?.toLowerCase() === idStr ||
       (it as any)?.slug === idStr ||
       nameSlug === idStr
     );
