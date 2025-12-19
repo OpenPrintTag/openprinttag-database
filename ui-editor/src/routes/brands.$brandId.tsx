@@ -11,7 +11,6 @@ import {
   ChevronRight,
   Package,
   Package2,
-  Pencil,
   Search,
   X,
 } from 'lucide-react';
@@ -32,6 +31,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 import { useSchema } from '~/hooks/useSchema';
+import { EditButton } from '~/shared/components/action-buttons';
 import type { Brand } from '~/types/brand';
 
 type BrandSearch = {
@@ -303,14 +303,9 @@ const RouteComponent = () => {
           )}
         </div>
         <div className="flex flex-wrap gap-2">
-          <button
-            className="btn-secondary inline-flex items-center gap-2"
-            onClick={openBrandEdit}
-            disabled={!schema}
-          >
-            <Pencil className="h-4 w-4" />
+          <EditButton onClick={openBrandEdit} disabled={!schema}>
             Edit Brand
-          </button>
+          </EditButton>
         </div>
       </div>
 

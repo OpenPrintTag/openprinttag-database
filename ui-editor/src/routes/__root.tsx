@@ -9,6 +9,7 @@ import {
 } from '@tanstack/react-router';
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import * as React from 'react';
+import { Toaster } from 'sonner';
 
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NotFound } from '~/components/NotFound';
@@ -141,6 +142,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           </nav>
           {/* Main Content */}
           <div className="min-h-screen">{children}</div>
+          <Toaster position="top-right" richColors />
           <ReactQueryDevtools
             initialIsOpen={false}
             buttonPosition="bottom-left"
