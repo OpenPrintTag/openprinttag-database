@@ -1,0 +1,27 @@
+uuid: 1a68e95d-f9a2-5c10-98dc-6bf732d0d6ec
+slug: prusament-petg-yellow-gold
+brand:
+  slug: prusament
+name: PETG Yellow Gold
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9a8524ff'
+transmission_distance: 9.2
+tags:
+- glitter
+photos:
+- url: https://file.myfilamentlist.com/f/new/ff293b245f25.png
+  type: unspecified
+properties:
+  density: 1.27
+  hardness_shore_d: 74
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

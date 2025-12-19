@@ -1,0 +1,16 @@
+uuid: 62f08a60-8172-5ab7-bdc9-3b7fe5100337
+slug: spectrum-the-filament-petg-cf-red
+brand:
+  slug: spectrum
+name: The Filament PETG CF Red
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://spectrumfilaments.com/en/filament/the-filament-petg-cf/
+primary_color:
+  color_rgba: '#641501ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  density: 1.27

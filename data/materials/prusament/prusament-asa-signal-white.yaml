@@ -1,0 +1,24 @@
+uuid: 32990aa5-22b8-5762-90b5-ef27f80e0705
+slug: prusament-asa-signal-white
+brand:
+  slug: prusament
+name: ASA Signal White
+class: FFF
+type_id: 4
+abbreviation: ASA
+primary_color:
+  color_rgba: '#e3dfd9ff'
+transmission_distance: 2.4
+photos:
+- url: https://file.myfilamentlist.com/f/new/cf0f57f80912.png
+  type: unspecified
+properties:
+  density: 1.07
+  hardness_shore_d: 78
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

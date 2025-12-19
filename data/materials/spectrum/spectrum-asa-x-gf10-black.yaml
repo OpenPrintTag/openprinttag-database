@@ -1,0 +1,16 @@
+uuid: c3cb3324-3b92-57d7-ae01-fe95347bad74
+slug: spectrum-asa-x-gf10-black
+brand:
+  slug: spectrum
+name: ASA-X GF10 Black
+class: FFF
+type_id: 4
+abbreviation: ASA
+url: https://spectrumfilaments.com/en/filament/asa-x-gf10/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_glass_fiber
+- abrasive
+properties:
+  density: 1.11

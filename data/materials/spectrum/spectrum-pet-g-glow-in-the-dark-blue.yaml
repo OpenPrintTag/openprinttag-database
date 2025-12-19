@@ -1,0 +1,19 @@
+uuid: bf6f8813-3358-59dc-93f5-13a62380c14b
+slug: spectrum-pet-g-glow-in-the-dark-blue
+brand:
+  slug: spectrum
+name: PET-G Glow in the Dark Blue
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://spectrumfilaments.com/en/filament/pet-g-glow/
+primary_color:
+  color_rgba: '#00e3e2ff'
+secondary_colors:
+- color_rgba: '#dfdfd3ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- abrasive
+properties:
+  density: 1.27

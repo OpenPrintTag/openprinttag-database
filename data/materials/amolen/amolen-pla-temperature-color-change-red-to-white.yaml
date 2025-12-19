@@ -1,0 +1,17 @@
+uuid: e309b86c-43fe-58ce-b424-4524ac3defa9
+slug: amolen-pla-temperature-color-change-red-to-white
+brand:
+  slug: amolen
+name: PLA Temperature Color Change Red to White
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#e24749ff'
+- color_rgba: '#ffffffff'
+tags:
+- temperature_color_change
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/65dfac62-3848-4d0e-8ad3-0ea558508faf/7664381597a1.png
+  type: unspecified
+properties: {}

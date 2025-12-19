@@ -1,0 +1,16 @@
+uuid: c9ee7aca-6742-541a-a494-e066bcd7fef4
+slug: fiberthree-f3-pa-gf-pro
+brand:
+  slug: fiberthree
+name: F3 PA-GF Pro
+class: FFF
+type_id: 8
+abbreviation: PA6
+url: https://www.fiberthree.com/filaments#F3PC
+primary_color:
+  color_rgba: '#f2efe9ff'
+tags:
+- contains_glass_fiber
+- abrasive
+properties:
+  density: 1.27

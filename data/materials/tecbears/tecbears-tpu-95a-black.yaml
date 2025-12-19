@@ -1,0 +1,15 @@
+uuid: 32f84bcc-9e0e-5b59-ab36-31a2893beb67
+slug: tecbears-tpu-95a-black
+brand:
+  slug: tecbears
+name: 'TPU 95A Black '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/93791ea73000.jpg
+  type: unspecified
+properties:
+  hardness_shore_a: 95

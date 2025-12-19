@@ -1,0 +1,17 @@
+uuid: 1ed3d871-742e-5188-80ee-e825d0a8f25a
+slug: flashforge-pla-blue-to-pink-gradient
+brand:
+  slug: flashforge
+name: PLA Blue to Pink Gradient
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#4f7bbbff'
+- color_rgba: '#bb5152ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/649d9d5fd374.jpg
+  type: unspecified
+properties: {}

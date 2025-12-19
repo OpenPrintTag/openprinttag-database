@@ -1,0 +1,17 @@
+uuid: 8839ba50-dbe8-57a9-9e13-3d417233bd37
+slug: protopasta-carbon-fiber-petg
+brand:
+  slug: protopasta
+name: Carbon Fiber PETG
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/b0cfe8faa0a6.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 043ebea1-f619-5023-9801-f07d844cde8d
+slug: gizmo-dorks-abs-color-change-blue-to-white-heat-activated
+brand:
+  slug: gizmo-dorks
+name: ABS Color Change Blue to White (Heat Activated)
+class: FFF
+type_id: 3
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#ffffffff'
+- color_rgba: '#2e56f1ff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/bbb78c5c1a80.png
+  type: unspecified
+properties: {}

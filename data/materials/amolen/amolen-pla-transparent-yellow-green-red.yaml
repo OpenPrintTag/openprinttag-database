@@ -1,0 +1,21 @@
+uuid: ffeb793e-fa3e-5db9-9832-0e163a3cdfd2
+slug: amolen-pla-transparent-yellow-green-red
+brand:
+  slug: amolen
+name: PLA Transparent Yellow Green Red
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#00a594ff'
+- color_rgba: '#00cc00ff'
+- color_rgba: '#ed2602ff'
+- color_rgba: '#ffbf00ff'
+- color_rgba: '#611a1fff'
+tags:
+- translucent
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/bd331bf7-2fd4-496b-95eb-5b5309131e07/002812630332.png
+  type: unspecified
+properties: {}

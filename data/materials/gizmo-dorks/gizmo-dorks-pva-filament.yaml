@@ -1,0 +1,16 @@
+uuid: 8e780e53-87e4-5a1e-a3ce-e3119795f5c0
+slug: gizmo-dorks-pva-filament
+brand:
+  slug: gizmo-dorks
+name: PVA Filament
+class: FFF
+type_id: 20
+abbreviation: PVA
+primary_color:
+  color_rgba: '#f1e6b2ff'
+tags:
+- water_soluble
+photos:
+- url: https://file.myfilamentlist.com/f/new/d52178702481.png
+  type: unspecified
+properties: {}

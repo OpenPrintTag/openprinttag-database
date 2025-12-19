@@ -1,0 +1,21 @@
+uuid: 15583167-b21e-51c9-b729-44b16ffe3575
+slug: amolen-tpu-flexible-blue-green-orange-translucent-rainbow
+brand:
+  slug: amolen
+name: TPU Flexible Blue Green Orange Translucent Rainbow
+class: FFF
+type_id: 2
+abbreviation: TPU
+secondary_colors:
+- color_rgba: '#1adafbff'
+- color_rgba: '#ff8400ff'
+- color_rgba: '#9aed51ff'
+tags:
+- translucent
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/8bd2724d-1257-4b75-967a-7a8e738d5a1b/78e47d4322fb.png
+  type: unspecified
+properties:
+  density: 1.19
+  hardness_shore_a: 95

@@ -1,0 +1,18 @@
+uuid: 3e6e53a5-0dc7-5a81-9811-b98ee0b943a1
+slug: rosa3d-filaments-rosa-flex-96a-glow-in-the-dark-green
+brand:
+  slug: rosa3d-filaments
+name: ROSA-Flex 96A Glow in the Dark Green
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-glow-in-the-dark-green
+primary_color:
+  color_rgba: '#62e480ff'
+secondary_colors:
+- color_rgba: '#f9f3e5ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties:
+  hardness_shore_a: 96

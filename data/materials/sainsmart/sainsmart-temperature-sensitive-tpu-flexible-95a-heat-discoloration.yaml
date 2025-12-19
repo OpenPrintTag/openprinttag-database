@@ -1,0 +1,16 @@
+uuid: 0a4407e8-e861-5c1c-a918-9f1428126ec9
+slug: sainsmart-temperature-sensitive-tpu-flexible-95a-heat-discoloration
+brand:
+  slug: sainsmart
+name: Temperature Sensitive TPU Flexible 95A Heat Discoloration
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://www.sainsmart.com/products/sainsmart-temperature-sensitive-tpu-flexible-filament-95a-1-75mm-1kg-heat-discoloration-high-speed-printing?_pos=6&_fid=0b0f09340&_ss=c
+secondary_colors:
+- color_rgba: '#f5ec97ff'
+- color_rgba: '#ff854dff'
+tags:
+- temperature_color_change
+properties:
+  hardness_shore_a: 95

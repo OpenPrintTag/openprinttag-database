@@ -1,0 +1,26 @@
+uuid: f7bf0baf-0419-51ee-89ec-f6fc6020f7b6
+slug: prusament-pla-azure-blue
+brand:
+  slug: prusament
+name: PLA Azure Blue
+class: FFF
+abbreviation: ''
+primary_color:
+  color_rgba: '#0082adff'
+transmission_distance: 5.5
+tags:
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/1b1e4c32def6.png
+  type: unspecified
+properties:
+  density: 1.24
+  hardness_shore_d: 81
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40

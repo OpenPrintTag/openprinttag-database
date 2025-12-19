@@ -1,0 +1,26 @@
+uuid: e63036cd-2c4b-5c91-9d72-1d27a3d39c08
+slug: prusament-pc-blend-urban-grey
+brand:
+  slug: prusament
+name: PC Blend Urban Grey
+class: FFF
+type_id: 5
+abbreviation: PC
+primary_color:
+  color_rgba: '#999596ff'
+transmission_distance: 0.5
+tags:
+- blend
+photos:
+- url: https://file.myfilamentlist.com/f/new/36640d67581b.png
+  type: unspecified
+properties:
+  density: 1.22
+  hardness_shore_d: 79
+  min_print_temperature: 265
+  max_print_temperature: 285
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 60

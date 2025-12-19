@@ -1,0 +1,17 @@
+uuid: b82d3a58-daf1-51c0-b51d-bf1b13bcfd3d
+slug: formfutura-carbonfil-green
+brand:
+  slug: formfutura
+name: CarbonFil Green
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#5e6345ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/d4fa66c78286.png
+  type: unspecified
+properties: {}

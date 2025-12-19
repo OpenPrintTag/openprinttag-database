@@ -1,0 +1,16 @@
+uuid: 6f7f315c-5865-5d49-a059-50bcb17a04ee
+slug: spectrum-the-filament-petg-cf-grey
+brand:
+  slug: spectrum
+name: The Filament PETG CF Grey
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://spectrumfilaments.com/en/filament/the-filament-petg-cf/
+primary_color:
+  color_rgba: '#a2aaadff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  density: 1.27

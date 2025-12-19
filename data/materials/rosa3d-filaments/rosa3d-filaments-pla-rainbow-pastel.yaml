@@ -1,0 +1,16 @@
+uuid: ddd5c7f2-0200-5d07-aa9b-6de8a9a60d78
+slug: rosa3d-filaments-pla-rainbow-pastel
+brand:
+  slug: rosa3d-filaments
+name: PLA Rainbow Pastel
+class: FFF
+abbreviation: ''
+url: https://www.rosa3d.pl/en/filament-3d-refill-pla-rainbow-pastel
+secondary_colors:
+- color_rgba: '#fbd1a7ff'
+- color_rgba: '#fce575ff'
+- color_rgba: '#dabcc8ff'
+- color_rgba: '#9be0e5ff'
+tags:
+- gradual_color_change
+properties: {}

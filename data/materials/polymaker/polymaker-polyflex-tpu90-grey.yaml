@@ -1,0 +1,15 @@
+uuid: ead7852d-edc8-5962-a96b-229051689195
+slug: polymaker-polyflex-tpu90-grey
+brand:
+  slug: polymaker
+name: 'PolyFlex™ TPU90 Grey '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#a2aaadff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/746f00ada01b.png
+  type: unspecified
+properties:
+  hardness_shore_a: 90

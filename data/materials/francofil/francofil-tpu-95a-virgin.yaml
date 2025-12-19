@@ -1,0 +1,17 @@
+uuid: 346efa81-68a1-5121-bb6c-1a85a087f1e1
+slug: francofil-tpu-95a-virgin
+brand:
+  slug: francofil
+name: TPU 95A Virgin
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://francofil.fr/en/product/filament-tpu-95a-vierge/
+primary_color:
+  color_rgba: '#dfdfd3ff'
+tags:
+- transparent
+- without_pigments
+properties:
+  density: 1.21
+  hardness_shore_a: 95

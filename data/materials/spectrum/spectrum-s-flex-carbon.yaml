@@ -1,0 +1,17 @@
+uuid: c471ed7f-4303-5e08-84c1-bf2b5d45904f
+slug: spectrum-s-flex-carbon
+brand:
+  slug: spectrum
+name: S-Flex Carbon
+class: FFF
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-carbon/
+primary_color:
+  color_rgba: '#595959ff'
+tags:
+- contains_carbon_fiber
+- esd_safe
+- abrasive
+properties:
+  density: 1.22
+  hardness_shore_a: 90

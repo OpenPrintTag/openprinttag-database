@@ -1,0 +1,21 @@
+uuid: 5e6dbaed-6ffe-549c-a7f3-ae083faef0c2
+slug: geeetech-silk-rainbow-pla
+brand:
+  slug: geeetech
+name: 'Silk Rainbow PLA '
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#ffc946ff'
+- color_rgba: '#9761b5ff'
+- color_rgba: '#41a840ff'
+- color_rgba: '#fb6066ff'
+- color_rgba: '#0099e6ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/40e84a72f3b2.jpg
+  type: unspecified
+properties: {}

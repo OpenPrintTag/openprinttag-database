@@ -1,0 +1,19 @@
+uuid: 0f4b1513-b5f1-5e2c-8449-5c189fbe4cce
+slug: creality-pla-rainbow
+brand:
+  slug: creality
+name: PLA Rainbow
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#ff8b47ff'
+- color_rgba: '#771b6bff'
+- color_rgba: '#00a594ff'
+- color_rgba: '#f5e457ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/0c41c90f4baa.jpg
+  type: unspecified
+properties: {}

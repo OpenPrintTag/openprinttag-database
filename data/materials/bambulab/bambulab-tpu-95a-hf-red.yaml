@@ -1,0 +1,15 @@
+uuid: ad7d1766-588b-54c5-b6c6-ed402d6e15a6
+slug: bambulab-tpu-95a-hf-red
+brand:
+  slug: bambulab
+name: 'TPU 95A HF Red '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#df3303ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/13cb6771f5e4.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

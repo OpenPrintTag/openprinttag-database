@@ -1,0 +1,19 @@
+uuid: 2deeb669-7dcc-588b-90bc-3ca0b6f59b34
+slug: sunlu-pla-rainbow-red-cyan-blue-purple
+brand:
+  slug: sunlu
+name: 'PLA Rainbow (Red-Cyan-Blue-Purple) '
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#df3303ff'
+- color_rgba: '#9761b5ff'
+- color_rgba: '#2e56f1ff'
+- color_rgba: '#32ffffff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/ceca1fd379c6.jpg
+  type: unspecified
+properties: {}

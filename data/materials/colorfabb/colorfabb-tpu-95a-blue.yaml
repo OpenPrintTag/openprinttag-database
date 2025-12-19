@@ -1,0 +1,15 @@
+uuid: 6535c7a4-eabb-54b6-9f4b-a4a1f3881634
+slug: colorfabb-tpu-95a-blue
+brand:
+  slug: colorfabb
+name: TPU 95A Blue
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#0e21aeff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/d01ecbc8277b.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

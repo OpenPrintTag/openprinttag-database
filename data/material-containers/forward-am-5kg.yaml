@@ -2,4 +2,5 @@ uuid: 8fcfbf16-46a5-4881-89a9-830e856d7db5
 slug: forward-am-5kg
 name: Forward AM 5kg
 class: FFF
-brand_slug: forward-am
+brand:
+  slug: forward-am

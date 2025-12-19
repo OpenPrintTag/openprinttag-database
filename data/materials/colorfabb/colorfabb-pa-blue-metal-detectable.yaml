@@ -1,0 +1,16 @@
+uuid: 5a40c88f-6ab4-579c-8a1a-d63e86e82284
+slug: colorfabb-pa-blue-metal-detectable
+brand:
+  slug: colorfabb
+name: PA Blue Metal Detectable
+class: FFF
+abbreviation: PA
+primary_color:
+  color_rgba: '#003b80ff'
+tags:
+- contains_metal
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/65d69dc10899.png
+  type: unspecified
+properties: {}

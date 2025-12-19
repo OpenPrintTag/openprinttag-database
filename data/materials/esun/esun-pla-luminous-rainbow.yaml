@@ -1,0 +1,21 @@
+uuid: 1deedfb1-51a3-5b07-9533-6d8a06a4ff23
+slug: esun-pla-luminous-rainbow
+brand:
+  slug: esun
+name: PLA Luminous Rainbow
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#f297daff'
+- color_rgba: '#62e480ff'
+- color_rgba: '#a67dffff'
+- color_rgba: '#ffffffff'
+- color_rgba: '#1adafbff'
+tags:
+- glow_in_the_dark
+- abrasive
+- industrially_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/d46e4e722bff.jpg
+  type: unspecified
+properties: {}

@@ -1,0 +1,17 @@
+uuid: d4c998f5-58a5-5fc8-92e5-1f0af21c4167
+slug: bambulab-pa6-gf-yellow
+brand:
+  slug: bambulab
+name: 'PA6-GF Yellow '
+class: FFF
+type_id: 8
+abbreviation: PA6
+primary_color:
+  color_rgba: '#fbe200ff'
+tags:
+- contains_glass_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/bb3e095cf01f.png
+  type: unspecified
+properties: {}

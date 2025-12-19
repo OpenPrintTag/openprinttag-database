@@ -1,0 +1,21 @@
+uuid: 2744efb3-aacb-52eb-aae9-c062531a6fd0
+slug: overture-abs-glow-green
+brand:
+  slug: overture
+name: ABS Glow Green
+class: FFF
+type_id: 3
+abbreviation: ABS
+primary_color:
+  color_rgba: '#4dff64ff'
+secondary_colors:
+- color_rgba: '#f5f5f5ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- filtration_recommended
+- illuminescent_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/ae1a7176abb5.jpg
+  type: unspecified
+properties: {}

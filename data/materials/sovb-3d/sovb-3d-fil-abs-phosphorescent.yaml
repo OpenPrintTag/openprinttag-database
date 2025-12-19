@@ -1,0 +1,17 @@
+uuid: d77567c5-1784-56cc-b971-97bfbba9eb70
+slug: sovb-3d-fil-abs-phosphorescent
+brand:
+  slug: sovb-3d
+name: Fil ABS Phosphorescent
+class: FFF
+type_id: 3
+abbreviation: ABS
+url: https://www.sovb3d.fr/abs-175mm-standard-1kg/25-fil-abs-phosphorescent-175mm-1kg.html
+primary_color:
+  color_rgba: '#70fa00ff'
+secondary_colors:
+- color_rgba: '#efeadfff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties: {}

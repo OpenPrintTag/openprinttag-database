@@ -1,0 +1,16 @@
+uuid: 06cb5caa-90a2-5370-a138-126fb5dc803e
+slug: flashforge-rapid-petg-natural
+brand:
+  slug: flashforge
+name: Rapid PETG Natural
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f2efe9ff'
+tags:
+- without_pigments
+photos:
+- url: https://file.myfilamentlist.com/f/new/8c8ae9560d88.jpg
+  type: unspecified
+properties: {}

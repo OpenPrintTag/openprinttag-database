@@ -1,0 +1,15 @@
+uuid: 62e9364d-958c-5ee1-bc71-a3ac74324a2b
+slug: colorfabb-tpu-85a-white
+brand:
+  slug: colorfabb
+name: TPU 85A White
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/e1ebdffbb0f0.png
+  type: unspecified
+properties:
+  hardness_shore_a: 85

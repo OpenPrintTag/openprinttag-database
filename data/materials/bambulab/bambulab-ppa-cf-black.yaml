@@ -1,0 +1,17 @@
+uuid: baa6b0ed-ec90-5e55-a50f-9f95a6587cb7
+slug: bambulab-ppa-cf-black
+brand:
+  slug: bambulab
+name: 'PPA-CF Black '
+class: FFF
+type_id: 30
+abbreviation: PPA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/6ee79831382c.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,15 @@
+uuid: 4b8e7ff6-eecf-5cc8-b054-659c16af830d
+slug: polymaker-polyflex-tpu95-orange
+brand:
+  slug: polymaker
+name: 'PolyFlex™ TPU95 Orange '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f97429ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/448b062a16dd.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

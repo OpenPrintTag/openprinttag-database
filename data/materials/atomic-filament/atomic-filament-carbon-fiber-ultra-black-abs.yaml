@@ -1,0 +1,18 @@
+uuid: f86042e6-3e2e-5245-922b-bdc4115a7010
+slug: atomic-filament-carbon-fiber-ultra-black-abs
+brand:
+  slug: atomic-filament
+name: Carbon Fiber Ultra Black ABS
+class: FFF
+type_id: 3
+abbreviation: ABS
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/243067b19868.png
+  type: unspecified
+properties: {}

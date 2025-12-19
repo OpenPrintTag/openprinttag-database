@@ -1,0 +1,21 @@
+uuid: e89acb11-9c28-5ad1-82ad-8c5f6c11170c
+slug: printedsolid-ps-imports-pla-rainbow-silk-rainbow-red-series
+brand:
+  slug: printedsolid
+name: PS Imports PLA Rainbow Silk Rainbow-Red Series
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#1e5a4fff'
+- color_rgba: '#ebff57ff'
+- color_rgba: '#95d05cff'
+- color_rgba: '#ff72b6ff'
+- color_rgba: '#ed1536ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/0f9c31b57f6f.png
+  type: unspecified
+properties: {}

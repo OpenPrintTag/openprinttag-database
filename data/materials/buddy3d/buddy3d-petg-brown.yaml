@@ -1,0 +1,21 @@
+uuid: 8bde8d5e-bd79-5902-888c-e897b0047f63
+slug: buddy3d-petg-brown
+brand:
+  slug: buddy3d
+name: PETG Brown
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://www.prusa3d.com/product/buddy3d-petg-brown-1kg/
+primary_color:
+  color_rgba: '#694d3fff'
+properties:
+  density: 1.28
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

@@ -1,0 +1,17 @@
+uuid: 830d2da6-0f51-5541-a79f-0dae000f8244
+slug: bambulab-pa6-gf-white
+brand:
+  slug: bambulab
+name: 'PA6-GF White '
+class: FFF
+type_id: 8
+abbreviation: PA6
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- contains_glass_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/47067fbbcec4.png
+  type: unspecified
+properties: {}

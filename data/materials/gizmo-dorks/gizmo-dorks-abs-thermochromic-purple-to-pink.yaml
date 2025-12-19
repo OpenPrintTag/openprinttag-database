@@ -1,0 +1,18 @@
+uuid: 868067d1-bee8-56e9-9c31-7668db2e4e52
+slug: gizmo-dorks-abs-thermochromic-purple-to-pink
+brand:
+  slug: gizmo-dorks
+name: ABS Thermochromic Purple to Pink
+class: FFF
+type_id: 3
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#8846aeff'
+- color_rgba: '#ff72b6ff'
+tags:
+- temperature_color_change
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/351dba9769bc.png
+  type: unspecified
+properties: {}

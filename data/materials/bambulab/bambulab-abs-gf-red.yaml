@@ -1,0 +1,18 @@
+uuid: dd26386d-699b-5c6d-9147-7abb9658a3ea
+slug: bambulab-abs-gf-red
+brand:
+  slug: bambulab
+name: 'ABS-GF Red '
+class: FFF
+type_id: 3
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f00c00ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/8c5c19825ed2.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,17 @@
+uuid: 62dd1b0c-dcfc-58a8-963f-5c7a1a7a8ace
+slug: sunlu-pa6-cf-black
+brand:
+  slug: sunlu
+name: PA6-CF Black
+class: FFF
+type_id: 8
+abbreviation: PA6
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/578e70eddb5a.jpg
+  type: unspecified
+properties: {}

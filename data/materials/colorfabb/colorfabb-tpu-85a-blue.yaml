@@ -1,0 +1,15 @@
+uuid: 5e11c5b0-8560-52ec-8f81-85d664e36526
+slug: colorfabb-tpu-85a-blue
+brand:
+  slug: colorfabb
+name: TPU 85A Blue
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#0e21aeff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/99f6b3fc6ad8.png
+  type: unspecified
+properties:
+  hardness_shore_a: 85

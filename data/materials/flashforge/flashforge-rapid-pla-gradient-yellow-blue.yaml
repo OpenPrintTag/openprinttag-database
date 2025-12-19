@@ -1,0 +1,17 @@
+uuid: 19683303-f520-5c14-ae40-d3b89f42a940
+slug: flashforge-rapid-pla-gradient-yellow-blue
+brand:
+  slug: flashforge
+name: Rapid PLA Gradient Yellow & Blue
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#0099e6ff'
+- color_rgba: '#e4e46dff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/05178f88ebda.jpg
+  type: unspecified
+properties: {}

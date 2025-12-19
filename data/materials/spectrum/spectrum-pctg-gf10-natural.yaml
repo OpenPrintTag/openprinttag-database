@@ -1,0 +1,16 @@
+uuid: 11e192b2-32ec-5c0a-a8e2-f3049fbfeeff
+slug: spectrum-pctg-gf10-natural
+brand:
+  slug: spectrum
+name: PCTG GF10 Natural
+class: FFF
+type_id: 6
+abbreviation: PCTG
+url: https://spectrumfilaments.com/en/filament/pctg-gf10/
+primary_color:
+  color_rgba: '#dfdfd3ff'
+tags:
+- contains_glass_fiber
+- abrasive
+properties:
+  density: 1.31
