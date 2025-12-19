@@ -46,6 +46,7 @@ import { Route as ApiMaterialsMaterialIdRouteImport } from './routes/api/materia
 import { Route as ApiEnumTableRouteImport } from './routes/api/enum.$table'
 import { Route as ApiDevicesPrintersRouteImport } from './routes/api/devices.printers'
 import { Route as ApiDevicesAccessoriesRouteImport } from './routes/api/devices.accessories'
+import { Route as ApiContainersNewRouteImport } from './routes/api/containers.new'
 import { Route as ApiContainersIdRouteImport } from './routes/api/containers.$id'
 import { Route as ApiContainersContainerIdRouteImport } from './routes/api/containers.$containerId'
 import { Route as ApiBrandsBasicRouteImport } from './routes/api/brands.basic'
@@ -251,6 +252,11 @@ const ApiDevicesAccessoriesRoute = ApiDevicesAccessoriesRouteImport.update({
   path: '/api/devices/accessories',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiContainersNewRoute = ApiContainersNewRouteImport.update({
+  id: '/new',
+  path: '/new',
+  getParentRoute: () => ApiContainersRoute,
+} as any)
 const ApiContainersIdRoute = ApiContainersIdRouteImport.update({
   id: '/$id',
   path: '/$id',
@@ -379,6 +385,7 @@ export interface FileRoutesByFullPath {
   '/api/brands/basic': typeof ApiBrandsBasicRoute
   '/api/containers/$containerId': typeof ApiContainersContainerIdRoute
   '/api/containers/$id': typeof ApiContainersIdRoute
+  '/api/containers/new': typeof ApiContainersNewRoute
   '/api/devices/accessories': typeof ApiDevicesAccessoriesRouteWithChildren
   '/api/devices/printers': typeof ApiDevicesPrintersRouteWithChildren
   '/api/enum/$table': typeof ApiEnumTableRouteWithChildren
@@ -432,6 +439,7 @@ export interface FileRoutesByTo {
   '/api/brands/basic': typeof ApiBrandsBasicRoute
   '/api/containers/$containerId': typeof ApiContainersContainerIdRoute
   '/api/containers/$id': typeof ApiContainersIdRoute
+  '/api/containers/new': typeof ApiContainersNewRoute
   '/api/devices/accessories': typeof ApiDevicesAccessoriesRouteWithChildren
   '/api/devices/printers': typeof ApiDevicesPrintersRouteWithChildren
   '/api/enum/$table': typeof ApiEnumTableRouteWithChildren
@@ -489,6 +497,7 @@ export interface FileRoutesById {
   '/api/brands/basic': typeof ApiBrandsBasicRoute
   '/api/containers/$containerId': typeof ApiContainersContainerIdRoute
   '/api/containers/$id': typeof ApiContainersIdRoute
+  '/api/containers/new': typeof ApiContainersNewRoute
   '/api/devices/accessories': typeof ApiDevicesAccessoriesRouteWithChildren
   '/api/devices/printers': typeof ApiDevicesPrintersRouteWithChildren
   '/api/enum/$table': typeof ApiEnumTableRouteWithChildren
@@ -547,6 +556,7 @@ export interface FileRouteTypes {
     | '/api/brands/basic'
     | '/api/containers/$containerId'
     | '/api/containers/$id'
+    | '/api/containers/new'
     | '/api/devices/accessories'
     | '/api/devices/printers'
     | '/api/enum/$table'
@@ -600,6 +610,7 @@ export interface FileRouteTypes {
     | '/api/brands/basic'
     | '/api/containers/$containerId'
     | '/api/containers/$id'
+    | '/api/containers/new'
     | '/api/devices/accessories'
     | '/api/devices/printers'
     | '/api/enum/$table'
@@ -656,6 +667,7 @@ export interface FileRouteTypes {
     | '/api/brands/basic'
     | '/api/containers/$containerId'
     | '/api/containers/$id'
+    | '/api/containers/new'
     | '/api/devices/accessories'
     | '/api/devices/printers'
     | '/api/enum/$table'
@@ -964,6 +976,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiDevicesAccessoriesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/containers/new': {
+      id: '/api/containers/new'
+      path: '/new'
+      fullPath: '/api/containers/new'
+      preLoaderRoute: typeof ApiContainersNewRouteImport
+      parentRoute: typeof ApiContainersRoute
+    }
     '/api/containers/$id': {
       id: '/api/containers/$id'
       path: '/$id'
@@ -1253,11 +1272,13 @@ const ApiBrandsRouteWithChildren = ApiBrandsRoute._addFileChildren(
 interface ApiContainersRouteChildren {
   ApiContainersContainerIdRoute: typeof ApiContainersContainerIdRoute
   ApiContainersIdRoute: typeof ApiContainersIdRoute
+  ApiContainersNewRoute: typeof ApiContainersNewRoute
 }
 
 const ApiContainersRouteChildren: ApiContainersRouteChildren = {
   ApiContainersContainerIdRoute: ApiContainersContainerIdRoute,
   ApiContainersIdRoute: ApiContainersIdRoute,
+  ApiContainersNewRoute: ApiContainersNewRoute,
 }
 
 const ApiContainersRouteWithChildren = ApiContainersRoute._addFileChildren(

@@ -52,6 +52,11 @@ export async function writeSingleEntity(
   return mod.writeSingleEntity(entity as any, id as any, payload as any);
 }
 
+export async function deleteSingleEntity(entity: string, id: string) {
+  const mod = await import('~/server/data/fs');
+  return mod.deleteSingleEntity(entity as any, id as any);
+}
+
 export async function readNestedByBrand(
   entityDirName: string,
   brandId: string,

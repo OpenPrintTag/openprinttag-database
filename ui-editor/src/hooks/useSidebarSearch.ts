@@ -67,5 +67,3 @@ export function useSidebarSearch(param: string = 'q', initial: string = '') {
     debounced,
   };
 }
-
-export default useSidebarSearch;

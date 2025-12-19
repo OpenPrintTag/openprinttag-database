@@ -42,5 +42,3 @@ export function SidebarSearch({
     </div>
   );
 }
-
-export default SidebarSearch;
