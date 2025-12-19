@@ -708,6 +708,119 @@ export async function writeLookupTableItem(
   }
 }
 
+export async function createLookupTableItem(
+  tableName: string,
+  newValue: any,
+): Promise<{ ok: true; id: string } | { error: string; status?: number }> {
+  const dir = await findEntityDir('lookup-tables');
+  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
+  const filePath = path.join(dir, `${tableName}.yaml`);
+  let data: any;
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    data = await parseYaml(content);
+  } catch (_err) {
+    return { error: 'Lookup table not found', status: 404 };
+  }
+  if (!data || typeof data !== 'object')
+    return { error: 'Invalid lookup table file', status: 500 };
+  const arrayKey = Object.keys(data).find((k) =>
+    Array.isArray((data as any)[k]),
+  );
+  if (!arrayKey) return { error: 'Lookup table items not found', status: 500 };
+  const items: any[] = (data as any)[arrayKey] as any[];
+
+  // Check if existing items have numeric IDs
+  const hasNumericIds = items.some(
+    (item) => item?.id !== undefined && !isNaN(Number(item.id)),
+  );
+
+  let newItem: any;
+  let resultId: string;
+
+  if (hasNumericIds) {
+    // Generate a new ID based on existing IDs
+    const maxId = items.reduce((max, item) => {
+      const itemId = Number(item?.id);
+      return !isNaN(itemId) && itemId > max ? itemId : max;
+    }, 0);
+    const newId = maxId + 1;
+    newItem = { id: newId, ...newValue };
+    resultId = String(newId);
+  } else {
+    // Don't add an ID field - use existing structure
+    newItem = { ...newValue };
+    // Try to determine the ID from the new value
+    resultId =
+      String(
+        newValue?.code ?? newValue?.slug ?? newValue?.name ?? '',
+      ).toLowerCase() || String(items.length);
+  }
+
+  // Add to items array
+  items.push(newItem);
+
+  // Write back to disk
+  const payload = { [arrayKey]: items };
+  try {
+    const yamlStr = await stringifyYaml(payload);
+    await fs.writeFile(filePath, yamlStr, 'utf8');
+    return { ok: true, id: resultId };
+  } catch (err) {
+    console.error('Failed to create lookup table item:', err);
+    return { error: 'Failed to create lookup table item', status: 500 };
+  }
+}
+
+export async function deleteLookupTableItem(
+  tableName: string,
+  id: string | number,
+): Promise<{ ok: true } | { error: string; status?: number }> {
+  const dir = await findEntityDir('lookup-tables');
+  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
+  const filePath = path.join(dir, `${tableName}.yaml`);
+  let data: any;
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    data = await parseYaml(content);
+  } catch (_err) {
+    return { error: 'Lookup table not found', status: 404 };
+  }
+  if (!data || typeof data !== 'object')
+    return { error: 'Invalid lookup table file', status: 500 };
+  const arrayKey = Object.keys(data).find((k) =>
+    Array.isArray((data as any)[k]),
+  );
+  if (!arrayKey) return { error: 'Lookup table items not found', status: 500 };
+  const items: any[] = (data as any)[arrayKey] as any[];
+
+  const idStr = String(id).toLowerCase();
+  const idx = items.findIndex((it) => {
+    const nameSlug = slugifyName((it as any)?.name);
+    return (
+      String((it as any)?.id) === idStr ||
+      (it as any)?.code?.toLowerCase() === idStr ||
+      (it as any)?.slug === idStr ||
+      nameSlug === idStr
+    );
+  });
+  if (idx === -1) return { error: 'Lookup item not found', status: 404 };
+
+  // Remove the item from the array
+  items.splice(idx, 1);
+
+  // Write back to disk
+  const payload = { [arrayKey]: items };
+  try {
+    const yamlStr = await stringifyYaml(payload);
+    await fs.writeFile(filePath, yamlStr, 'utf8');
+    return { ok: true };
+  } catch (err) {
+    console.error('Failed to delete lookup table item:', err);
+    return { error: 'Failed to delete lookup table item', status: 500 };
+  }
+}
+
 export async function listLookupTables(): Promise<
   string[] | { error: string; status?: number }
 > {

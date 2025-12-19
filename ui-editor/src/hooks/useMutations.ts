@@ -214,6 +214,16 @@ export const useDeleteContainer = (containerId: string) => {
 };
 
 /**
+ * Hook for creating an enum table item
+ */
+export const useCreateEnumItem = (table: string) => {
+  return useEntityMutation<any, { data: any }>(() => `/api/enum/${table}`, {
+    method: 'POST',
+    invalidateQueries: [`/api/enum/${table}`],
+  });
+};
+
+/**
  * Hook for updating an enum table item
  */
 export const useUpdateEnumItem = (table: string, id: string) => {
@@ -224,6 +234,16 @@ export const useUpdateEnumItem = (table: string, id: string) => {
       invalidateQueries: [`/api/enum/${table}`, `/api/enum/${table}/${id}`],
     },
   );
+};
+
+/**
+ * Hook for deleting an enum table item
+ */
+export const useDeleteEnumItem = (table: string, id: string) => {
+  return useEntityMutation<any, void>(() => `/api/enum/${table}/${id}`, {
+    method: 'DELETE',
+    invalidateQueries: [`/api/enum/${table}`],
+  });
 };
 
 /**
