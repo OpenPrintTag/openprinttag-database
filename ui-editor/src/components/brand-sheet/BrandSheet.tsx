@@ -1,7 +1,9 @@
 import { useMemo } from 'react';
+import { toast } from 'sonner';
 
 import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
+import { TOAST_MESSAGES } from '~/constants/messages';
 import { useUpdateBrand } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 import {
@@ -58,12 +60,12 @@ export const BrandSheet = ({
 
   const handleSave = async () => {
     if (!form.name?.trim()) {
-      setError('Brand name is required');
+      setError(TOAST_MESSAGES.VALIDATION.BRAND_NAME_REQUIRED);
       return;
     }
 
     if (!brandId) {
-      setError('Brand ID not found');
+      setError(TOAST_MESSAGES.VALIDATION.BRAND_ID_NOT_FOUND);
       return;
     }
 
@@ -72,10 +74,14 @@ export const BrandSheet = ({
     try {
       await updateBrandMutation.mutateAsync({ data: form });
       setIsReadOnly(true);
+      toast.success(TOAST_MESSAGES.SUCCESS.BRAND_UPDATED);
       onSuccess?.();
     } catch (err: unknown) {
       const error = err as Error;
-      setError(error?.message || 'Failed to save brand');
+      const errorMessage =
+        error?.message || TOAST_MESSAGES.ERROR.BRAND_SAVE_FAILED;
+      setError(errorMessage);
+      toast.error(errorMessage);
     }
   };
 

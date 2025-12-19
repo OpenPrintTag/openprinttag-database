@@ -1,4 +1,11 @@
+import { Button } from '~/components/ui';
 import { SheetClose, SheetFooter } from '~/components/ui/sheet';
+import {
+  CreateButton,
+  DeleteButton,
+  EditButton,
+  SaveButton,
+} from '~/shared/components/action-buttons';
 
 interface EntitySheetFooterProps {
   mode?: 'create' | 'edit';
@@ -25,51 +32,46 @@ export const EntitySheetFooter = ({
 }: EntitySheetFooterProps) => {
   const showDelete = readOnly && mode === 'edit' && onDelete;
 
-  const getSaveButtonText = () => {
-    if (saving) {
-      return mode === 'create' ? 'Creating...' : 'Saving...';
-    }
-    return mode === 'create' ? `Create ${entityName}` : 'Save Changes';
-  };
-
   return (
     <SheetFooter>
-      <div className="flex w-full items-center justify-between gap-2">
-        <div className="flex gap-2">
-          {showDelete && (
-            <button
-              className="btn-secondary border-red-200 bg-red-50 text-red-700 hover:border-red-300 hover:bg-red-100"
-              onClick={onDelete}
-              disabled={deleting}
-              type="button"
-            >
-              {deleting ? 'Deleting...' : 'Delete'}
-            </button>
-          )}
-        </div>
+      {readOnly ? (
+        <div className="flex w-full items-center justify-between gap-3">
+          <div>
+            {showDelete && (
+              <DeleteButton onClick={onDelete!} loading={deleting} />
+            )}
+          </div>
 
-        <div className="flex gap-2">
+          <div className="flex gap-3">
+            <SheetClose asChild>
+              <Button variant="outline" type="button">
+                Close
+              </Button>
+            </SheetClose>
+            <EditButton onClick={onEdit!} />
+          </div>
+        </div>
+      ) : (
+        <div className="flex w-full items-center justify-end gap-3">
           <SheetClose asChild>
-            <button className="btn-secondary" type="button">
-              {readOnly ? 'Close' : 'Cancel'}
-            </button>
+            <Button variant="outline" type="button">
+              Cancel
+            </Button>
           </SheetClose>
-          {readOnly ? (
-            <button className="btn" onClick={onEdit} type="button">
-              Edit
-            </button>
-          ) : (
-            <button
-              className="btn"
-              onClick={onSave}
+          {mode === 'create' ? (
+            <CreateButton
+              onClick={onSave!}
               disabled={disabled}
-              type="button"
-            >
-              {getSaveButtonText()}
-            </button>
+              loading={saving}
+              entityName={entityName}
+            />
+          ) : (
+            <SaveButton onClick={onSave!} disabled={disabled} loading={saving}>
+              Save Changes
+            </SaveButton>
           )}
         </div>
-      </div>
+      )}
     </SheetFooter>
   );
 };

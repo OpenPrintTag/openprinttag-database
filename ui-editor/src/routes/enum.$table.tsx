@@ -7,6 +7,7 @@ import {
 } from '@tanstack/react-router';
 import { ChevronRight, Database, Loader2, Plus, Search, X } from 'lucide-react';
 import React from 'react';
+import { toast } from 'sonner';
 
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import {
@@ -19,6 +20,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from '~/components/ui';
+import { TOAST_MESSAGES } from '~/constants/messages';
 import { useApi } from '~/hooks/useApi';
 import { useCreateEnumItem } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
@@ -121,12 +123,15 @@ function EnumTableList() {
       });
       setIsAddDialogOpen(false);
       setNewItemForm({});
+      toast.success(TOAST_MESSAGES.SUCCESS.ITEM_CREATED);
       // Navigate to the newly created item if we have an ID
       if (result?.id) {
         navigate({ to: '/enum/$table/$id', params: { table, id: result.id } });
       }
     } catch (err: any) {
-      alert(err?.message ?? 'Failed to create item');
+      const errorMessage =
+        err?.message ?? TOAST_MESSAGES.ERROR.ITEM_CREATE_FAILED;
+      toast.error(errorMessage);
     }
   };
 

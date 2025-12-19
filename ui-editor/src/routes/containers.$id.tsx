@@ -1,12 +1,16 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
-import { ChevronRight, Pencil } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import React from 'react';
+import { toast } from 'sonner';
 
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { Button } from '~/components/ui';
+import { TOAST_MESSAGES } from '~/constants/messages';
 import { useApi } from '~/hooks/useApi';
 import { useUpdateContainer } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import { EditButton, SaveButton } from '~/shared/components/action-buttons';
 import type { Brand } from '~/types/brand';
 import { safeStringify } from '~/utils/format';
 
@@ -96,14 +100,21 @@ const RouteComponent = () => {
           )}
         </div>
         <div className="flex flex-wrap gap-2">
-          <button
-            className="btn-secondary inline-flex items-center gap-2"
-            onClick={() => setEditing((v) => !v)}
-            disabled={!schema}
-          >
-            <Pencil className="h-4 w-4" />
-            {editing ? 'Cancel Edit' : 'Edit Container'}
-          </button>
+          {!editing ? (
+            <EditButton onClick={() => setEditing(true)} disabled={!schema}>
+              Edit Container
+            </EditButton>
+          ) : (
+            <Button
+              variant="outline"
+              onClick={() => {
+                setForm(data);
+                setEditing(false);
+              }}
+            >
+              Cancel Edit
+            </Button>
+          )}
         </div>
       </div>
 
@@ -153,23 +164,9 @@ const RouteComponent = () => {
                 />
               </>
             )}
-            <div className="flex gap-2">
-              <button
-                className="btn"
-                onClick={async () => {
-                  try {
-                    await updateContainerMutation.mutateAsync({ data: form });
-                    setEditing(false);
-                  } catch (err: any) {
-                    alert(err?.message ?? 'Save failed');
-                  }
-                }}
-                disabled={updateContainerMutation.isPending}
-              >
-                {updateContainerMutation.isPending ? 'Saving...' : 'Save'}
-              </button>
-              <button
-                className="btn-secondary"
+            <div className="flex items-center justify-end gap-3">
+              <Button
+                variant="outline"
                 onClick={() => {
                   setForm(data);
                   setEditing(false);
@@ -177,7 +174,21 @@ const RouteComponent = () => {
                 disabled={updateContainerMutation.isPending}
               >
                 Cancel
-              </button>
+              </Button>
+              <SaveButton
+                onClick={async () => {
+                  try {
+                    await updateContainerMutation.mutateAsync({ data: form });
+                    setEditing(false);
+                    toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
+                  } catch (err: any) {
+                    const errorMessage =
+                      err?.message ?? TOAST_MESSAGES.ERROR.SAVE_FAILED;
+                    toast.error(errorMessage);
+                  }
+                }}
+                loading={updateContainerMutation.isPending}
+              />
             </div>
           </div>
         </div>

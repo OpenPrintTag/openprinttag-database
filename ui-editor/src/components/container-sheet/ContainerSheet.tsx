@@ -1,7 +1,10 @@
 import { useMemo } from 'react';
+import { toast } from 'sonner';
 
 import { Sheet, SheetContent } from '~/components/ui/sheet';
+import { DIALOG_MESSAGES, TOAST_MESSAGES } from '~/constants/messages';
 import { useApi } from '~/hooks/useApi';
+import { useConfirmDialog } from '~/hooks/useConfirmDialog';
 import {
   useCreateContainer,
   useDeleteContainer,
@@ -29,6 +32,7 @@ export const ContainerSheet = ({
   onEdit,
 }: ContainerSheetProps) => {
   const schema = useSchema();
+  const { confirm, ConfirmDialog } = useConfirmDialog();
 
   // Memoize initialForm to prevent unnecessary re-renders
   const initialForm = useMemo(
@@ -84,12 +88,12 @@ export const ContainerSheet = ({
 
   const handleSave = async () => {
     if (!form.name?.trim()) {
-      setError('Container name is required');
+      setError(TOAST_MESSAGES.VALIDATION.CONTAINER_NAME_REQUIRED);
       return;
     }
 
     if (!form.class) {
-      setError('Container class is required');
+      setError(TOAST_MESSAGES.VALIDATION.CONTAINER_CLASS_REQUIRED);
       return;
     }
 
@@ -98,26 +102,38 @@ export const ContainerSheet = ({
     try {
       if (currentMode === 'create') {
         await createContainerMutation.mutateAsync({ data: form });
+        toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_CREATED);
       } else {
         if (!containerId) {
-          throw new Error('Container ID not found');
+          throw new Error(TOAST_MESSAGES.VALIDATION.CONTAINER_ID_NOT_FOUND);
         }
         await updateContainerMutation.mutateAsync({ data: form });
         setIsReadOnly(true);
         setCurrentMode('edit');
+        toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
       }
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
-      setError(error?.message || `Failed to ${currentMode} container`);
+      const errorMessage =
+        error?.message ||
+        (currentMode === 'create'
+          ? TOAST_MESSAGES.ERROR.CONTAINER_CREATE_FAILED
+          : TOAST_MESSAGES.ERROR.CONTAINER_UPDATE_FAILED);
+      setError(errorMessage);
+      toast.error(errorMessage);
     }
   };
 
   const handleDelete = async () => {
     const containerName = cont?.name || cont?.slug || 'this container';
-    const confirmed = window.confirm(
-      `Are you sure you want to delete ${containerName}? This action cannot be undone.`,
-    );
+    const confirmed = await confirm({
+      title: DIALOG_MESSAGES.DELETE.CONTAINER.TITLE,
+      description: DIALOG_MESSAGES.DELETE.CONTAINER.DESCRIPTION(containerName),
+      confirmText: DIALOG_MESSAGES.BUTTON_TEXT.DELETE,
+      cancelText: DIALOG_MESSAGES.BUTTON_TEXT.CANCEL,
+      variant: 'destructive',
+    });
 
     if (!confirmed) return;
 
@@ -125,15 +141,19 @@ export const ContainerSheet = ({
 
     try {
       if (!containerId) {
-        throw new Error('Container ID not found');
+        throw new Error(TOAST_MESSAGES.VALIDATION.CONTAINER_ID_NOT_FOUND);
       }
 
       await deleteContainerMutation.mutateAsync();
+      toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_DELETED);
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
-      setError(error?.message || 'Failed to delete container');
+      const errorMessage =
+        error?.message || TOAST_MESSAGES.ERROR.CONTAINER_DELETE_FAILED;
+      setError(errorMessage);
+      toast.error(errorMessage);
     }
   };
 
@@ -143,54 +163,57 @@ export const ContainerSheet = ({
   };
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-        <EntitySheetHeader
-          mode={currentMode}
-          readOnly={isReadOnly}
-          entity={form}
-          entityName="Container"
-        />
-
-        {error && (
-          <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
-            {error}
-          </div>
-        )}
-
-        {isReadOnly ? (
-          <ContainerSheetReadView container={form} brandName={brandName} />
-        ) : (
-          <ContainerSheetEditView
-            form={form}
-            onFieldChange={handleFieldChange}
-            brands={brands}
-            connectors={connectors}
+    <>
+      <ConfirmDialog />
+      <Sheet open={open} onOpenChange={onOpenChange}>
+        <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
+          <EntitySheetHeader
+            mode={currentMode}
+            readOnly={isReadOnly}
+            entity={form}
+            entityName="Container"
           />
-        )}
 
-        <EntitySheetFooter
-          mode={currentMode}
-          readOnly={isReadOnly}
-          onEdit={handleEditClick}
-          onSave={handleSave}
-          onDelete={handleDelete}
-          saving={
-            createContainerMutation.isPending ||
-            updateContainerMutation.isPending
-          }
-          deleting={deleteContainerMutation.isPending}
-          disabled={
-            createContainerMutation.isPending ||
-            updateContainerMutation.isPending ||
-            deleteContainerMutation.isPending ||
-            !schema ||
-            !form.name?.trim() ||
-            !form.class
-          }
-          entityName="Container"
-        />
-      </SheetContent>
-    </Sheet>
+          {error && (
+            <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+              {error}
+            </div>
+          )}
+
+          {isReadOnly ? (
+            <ContainerSheetReadView container={form} brandName={brandName} />
+          ) : (
+            <ContainerSheetEditView
+              form={form}
+              onFieldChange={handleFieldChange}
+              brands={brands}
+              connectors={connectors}
+            />
+          )}
+
+          <EntitySheetFooter
+            mode={currentMode}
+            readOnly={isReadOnly}
+            onEdit={handleEditClick}
+            onSave={handleSave}
+            onDelete={handleDelete}
+            saving={
+              createContainerMutation.isPending ||
+              updateContainerMutation.isPending
+            }
+            deleting={deleteContainerMutation.isPending}
+            disabled={
+              createContainerMutation.isPending ||
+              updateContainerMutation.isPending ||
+              deleteContainerMutation.isPending ||
+              !schema ||
+              !form.name?.trim() ||
+              !form.class
+            }
+            entityName="Container"
+          />
+        </SheetContent>
+      </Sheet>
+    </>
   );
 };

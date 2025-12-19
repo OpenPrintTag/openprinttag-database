@@ -1,7 +1,10 @@
 import { useMemo } from 'react';
+import { toast } from 'sonner';
 
 import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
+import { DIALOG_MESSAGES, TOAST_MESSAGES } from '~/constants/messages';
+import { useConfirmDialog } from '~/hooks/useConfirmDialog';
 import {
   useCreatePackage,
   useDeletePackage,
@@ -29,6 +32,7 @@ export const PackageSheet = ({
   onEdit,
 }: PackageSheetProps) => {
   const schema = useSchema();
+  const { confirm, ConfirmDialog } = useConfirmDialog();
 
   // Memoize initialForm to prevent unnecessary re-renders
   const initialForm = useMemo(
@@ -67,7 +71,7 @@ export const PackageSheet = ({
 
   const handleSave = async () => {
     if (!form.material_slug?.trim()) {
-      setError('Material slug is required');
+      setError(TOAST_MESSAGES.VALIDATION.PACKAGE_MATERIAL_SLUG_REQUIRED);
       return;
     }
 
@@ -76,11 +80,13 @@ export const PackageSheet = ({
     try {
       if (currentMode === 'create') {
         await createPackageMutation.mutateAsync({ data: form });
+        toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_CREATED);
       } else {
         if (!packageId) {
-          throw new Error('Package ID not found');
+          throw new Error(TOAST_MESSAGES.VALIDATION.PACKAGE_ID_NOT_FOUND);
         }
         await updatePackageMutation.mutateAsync({ data: form });
+        toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_UPDATED);
       }
 
       setIsReadOnly(true);
@@ -88,15 +94,25 @@ export const PackageSheet = ({
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
-      setError(error?.message || `Failed to ${currentMode} package`);
+      const errorMessage =
+        error?.message ||
+        (currentMode === 'create'
+          ? TOAST_MESSAGES.ERROR.PACKAGE_CREATE_FAILED
+          : TOAST_MESSAGES.ERROR.PACKAGE_UPDATE_FAILED);
+      setError(errorMessage);
+      toast.error(errorMessage);
     }
   };
 
   const handleDelete = async () => {
     const packageName = pkg?.name || pkg?.slug || 'this package';
-    const confirmed = window.confirm(
-      `Are you sure you want to delete ${packageName}? This action cannot be undone.`,
-    );
+    const confirmed = await confirm({
+      title: DIALOG_MESSAGES.DELETE.PACKAGE.TITLE,
+      description: DIALOG_MESSAGES.DELETE.PACKAGE.DESCRIPTION(packageName),
+      confirmText: DIALOG_MESSAGES.BUTTON_TEXT.DELETE,
+      cancelText: DIALOG_MESSAGES.BUTTON_TEXT.CANCEL,
+      variant: 'destructive',
+    });
 
     if (!confirmed) return;
 
@@ -104,15 +120,19 @@ export const PackageSheet = ({
 
     try {
       if (!packageId) {
-        throw new Error('Package ID not found');
+        throw new Error(TOAST_MESSAGES.VALIDATION.PACKAGE_ID_NOT_FOUND);
       }
 
       await deletePackageMutation.mutateAsync();
+      toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_DELETED);
       onOpenChange(false);
       onSuccess?.();
     } catch (err) {
       const error = err as Error;
-      setError(error?.message || 'Failed to delete package');
+      const errorMessage =
+        error?.message || TOAST_MESSAGES.ERROR.PACKAGE_DELETE_FAILED;
+      setError(errorMessage);
+      toast.error(errorMessage);
     }
   };
 
@@ -122,52 +142,55 @@ export const PackageSheet = ({
   };
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-        <EntitySheetHeader
-          mode={currentMode}
-          readOnly={isReadOnly}
-          entity={form}
-          entityName="Package"
-        />
-
-        {error && (
-          <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
-            {error}
-          </div>
-        )}
-
-        {isReadOnly ? (
-          <PackageSheetReadView package={form} fields={fields} />
-        ) : (
-          <PackageSheetEditView
-            fields={fields}
-            form={form}
-            onFieldChange={handleFieldChange}
-            schema={schema}
+    <>
+      <ConfirmDialog />
+      <Sheet open={open} onOpenChange={onOpenChange}>
+        <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
+          <EntitySheetHeader
+            mode={currentMode}
+            readOnly={isReadOnly}
+            entity={form}
+            entityName="Package"
           />
-        )}
 
-        <EntitySheetFooter
-          mode={currentMode}
-          readOnly={isReadOnly}
-          onEdit={handleEditClick}
-          onSave={handleSave}
-          onDelete={handleDelete}
-          saving={
-            createPackageMutation.isPending || updatePackageMutation.isPending
-          }
-          deleting={deletePackageMutation.isPending}
-          disabled={
-            createPackageMutation.isPending ||
-            updatePackageMutation.isPending ||
-            deletePackageMutation.isPending ||
-            !schema ||
-            !form.material_slug?.trim()
-          }
-          entityName="Package"
-        />
-      </SheetContent>
-    </Sheet>
+          {error && (
+            <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+              {error}
+            </div>
+          )}
+
+          {isReadOnly ? (
+            <PackageSheetReadView package={form} fields={fields} />
+          ) : (
+            <PackageSheetEditView
+              fields={fields}
+              form={form}
+              onFieldChange={handleFieldChange}
+              schema={schema}
+            />
+          )}
+
+          <EntitySheetFooter
+            mode={currentMode}
+            readOnly={isReadOnly}
+            onEdit={handleEditClick}
+            onSave={handleSave}
+            onDelete={handleDelete}
+            saving={
+              createPackageMutation.isPending || updatePackageMutation.isPending
+            }
+            deleting={deletePackageMutation.isPending}
+            disabled={
+              createPackageMutation.isPending ||
+              updatePackageMutation.isPending ||
+              deletePackageMutation.isPending ||
+              !schema ||
+              !form.material_slug?.trim()
+            }
+            entityName="Package"
+          />
+        </SheetContent>
+      </Sheet>
+    </>
   );
 };
