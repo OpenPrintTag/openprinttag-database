@@ -105,7 +105,8 @@ export const PackageSheet = ({
   };
 
   const handleDelete = async () => {
-    const packageName = pkg?.name || pkg?.slug || 'this package';
+    const packageName: string =
+      (pkg?.name as string) || pkg?.slug || 'this package';
     const confirmed = await confirm({
       title: DIALOG_MESSAGES.DELETE.PACKAGE.TITLE,
       description: DIALOG_MESSAGES.DELETE.PACKAGE.DESCRIPTION(packageName),
