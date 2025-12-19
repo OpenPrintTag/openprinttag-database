@@ -1,6 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
+import {
+  createLookupTableItem as createItem,
+  jsonError,
+  parseJsonSafe,
+} from '~/server/http';
+
 export const Route = createFileRoute('/api/enum/$table')({
   server: {
     middleware: [],
@@ -14,6 +20,15 @@ export const Route = createFileRoute('/api/enum/$table')({
           return json({ error: err.error }, { status: err.status ?? 500 });
         }
         return json(data);
+      },
+      POST: async ({ params, request }) => {
+        console.info('POST /api/enum/:table @', request.url);
+        const body = await parseJsonSafe(request);
+        if (!body.ok) return body.response;
+        const result = await createItem(params.table, body.value);
+        const errRes = jsonError(result, 500);
+        if (errRes) return errRes;
+        return json(result);
       },
     },
   },

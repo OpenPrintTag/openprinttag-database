@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
 import {
+  deleteLookupTableItem as deleteItem,
   jsonError,
   parseJsonSafe,
   readLookupTableItem as readItem,
@@ -24,6 +25,13 @@ export const Route = createFileRoute('/api/enum/$table/$id')({
         const body = await parseJsonSafe(request);
         if (!body.ok) return body.response;
         const result = await writeItem(params.table, params.id, body.value);
+        const errRes = jsonError(result, 500);
+        if (errRes) return errRes;
+        return json({ ok: true });
+      },
+      DELETE: async ({ params, request }) => {
+        console.info('DELETE /api/enum/:table/:id @', request.url);
+        const result = await deleteItem(params.table, params.id);
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
         return json({ ok: true });

@@ -1,10 +1,12 @@
-import { createFileRoute, Link } from '@tanstack/react-router';
+import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { Trash2 } from 'lucide-react';
 import React from 'react';
 
 import { DataGrid } from '~/components/DataGrid';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { Button } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
-import { useUpdateEnumItem } from '~/hooks/useMutations';
+import { useDeleteEnumItem, useUpdateEnumItem } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 import { safeStringify } from '~/utils/format';
 
@@ -21,6 +23,7 @@ export const formatEnumLabel = (s: string): string => {
 
 function EnumItemDetail() {
   const { table, id } = Route.useParams();
+  const navigate = useNavigate();
   const { data, error, loading } = useApi<any>(
     () => `/api/enum/${table}/${id}`,
     undefined,
@@ -32,6 +35,24 @@ function EnumItemDetail() {
   const [form, setForm] = React.useState<any | null>(null);
 
   const updateEnumItemMutation = useUpdateEnumItem(table, id);
+  const deleteEnumItemMutation = useDeleteEnumItem(table, id);
+
+  const handleDelete = async () => {
+    if (
+      !confirm(
+        'Are you sure you want to delete this item? This action cannot be undone.',
+      )
+    ) {
+      return;
+    }
+
+    try {
+      await deleteEnumItemMutation.mutateAsync();
+      navigate({ to: '/enum/$table', params: { table } });
+    } catch (err: any) {
+      alert(err?.message ?? 'Delete failed');
+    }
+  };
 
   React.useEffect(() => {
     if (data && !editing) setForm(data);
@@ -67,27 +88,39 @@ function EnumItemDetail() {
         <div>
           <h4 className="text-2xl font-bold tracking-tight">{title}</h4>
         </div>
-        <div className="flex gap-2">
-          <Link to="/enum/$table" params={{ table }} className="btn-secondary">
-            Back to {table}
-          </Link>
-          <button
-            className="btn"
-            onClick={() => setEditing((v) => !v)}
-            disabled={!schema}
-          >
-            {editing ? 'Cancel' : 'Edit'}
-          </button>
-        </div>
+        {!editing && (
+          <div className="flex gap-2">
+            <Button
+              variant="destructive"
+              onClick={handleDelete}
+              disabled={deleteEnumItemMutation.isPending}
+              className="flex items-center gap-2 text-white"
+            >
+              <Trash2 className="h-4 w-4" />
+              {deleteEnumItemMutation.isPending ? 'Deleting...' : 'Delete'}
+            </Button>
+          </div>
+        )}
       </div>
 
       {!editing ? (
-        <DataGrid
-          data={data}
-          title={`Details`}
-          fields={fields as Record<string, SchemaField> | undefined}
-          primaryKeys={['id', 'uuid', 'slug', 'name']}
-        />
+        <>
+          <DataGrid
+            data={data}
+            title={`Details`}
+            fields={fields as Record<string, SchemaField> | undefined}
+            primaryKeys={['id', 'uuid', 'slug', 'name']}
+          />
+          <div className="flex justify-end">
+            <Button
+              onClick={() => setEditing(true)}
+              disabled={!schema}
+              className="bg-orange-600 text-white hover:bg-orange-700"
+            >
+              Edit
+            </Button>
+          </div>
+        </>
       ) : (
         <div className="card">
           <div className="card-header">Edit</div>
@@ -129,9 +162,18 @@ function EnumItemDetail() {
                 </div>
               </>
             )}
-            <div className="flex gap-2">
-              <button
-                className="btn"
+            <div className="flex justify-end gap-3">
+              <Button
+                variant="outline"
+                onClick={() => {
+                  setForm(data);
+                  setEditing(false);
+                }}
+                disabled={updateEnumItemMutation.isPending}
+              >
+                Cancel
+              </Button>
+              <Button
                 onClick={async () => {
                   try {
                     await updateEnumItemMutation.mutateAsync({ data: form });
@@ -141,19 +183,10 @@ function EnumItemDetail() {
                   }
                 }}
                 disabled={updateEnumItemMutation.isPending}
+                className="bg-orange-600 text-white hover:bg-orange-700"
               >
                 {updateEnumItemMutation.isPending ? 'Saving...' : 'Save'}
-              </button>
-              <button
-                className="btn-secondary"
-                onClick={() => {
-                  setForm(data);
-                  setEditing(false);
-                }}
-                disabled={updateEnumItemMutation.isPending}
-              >
-                Cancel
-              </button>
+              </Button>
             </div>
           </div>
         </div>
