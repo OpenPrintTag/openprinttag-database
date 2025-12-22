@@ -2,7 +2,8 @@ uuid: 47ba2158-1b8e-4592-872f-82b7a31654f3
 slug: new-prusament-spool-2kg
 name: New Prusament Spool 2kg
 class: FFF
-brand_slug: prusament
+brand:
+  slug: prusament
 hole_diameter: 51
 inner_diameter: 101
 outer_diameter: 200

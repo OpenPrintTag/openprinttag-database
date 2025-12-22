@@ -1,0 +1,17 @@
+uuid: 7c0907ae-c7e1-5037-bb1b-de4b29044592
+slug: colorfabb-woodfill
+brand:
+  slug: colorfabb
+name: 'woodFill '
+class: FFF
+type_id: 15
+abbreviation: PHA
+primary_color:
+  color_rgba: '#f0ddc2ff'
+tags:
+- contains_wood
+- home_compostable
+photos:
+- url: https://file.myfilamentlist.com/f/new/8259da46422f.png
+  type: unspecified
+properties: {}

@@ -1,0 +1,15 @@
+uuid: 1f498ce7-e984-5cb5-9e2f-203e266bf8c6
+slug: colorfabb-tpu-95a-red
+brand:
+  slug: colorfabb
+name: TPU 95A Red
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e20010ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/d879a73cd723.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

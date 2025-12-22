@@ -1,0 +1,16 @@
+uuid: 06557124-5798-5f61-be9a-72c1a61037ae
+slug: spectrum-pctg-cf10-black
+brand:
+  slug: spectrum
+name: PCTG CF10 Black
+class: FFF
+type_id: 6
+abbreviation: PCTG
+url: https://spectrumfilaments.com/en/filament/pctg-cf10/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  density: 1.28

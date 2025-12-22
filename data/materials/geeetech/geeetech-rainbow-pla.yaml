@@ -1,0 +1,19 @@
+uuid: 7b4a1a79-1a19-5e10-9f0e-b4f2d44ea3c7
+slug: geeetech-rainbow-pla
+brand:
+  slug: geeetech
+name: Rainbow PLA
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#fd9106ff'
+- color_rgba: '#6299dfff'
+- color_rgba: '#7ab352ff'
+- color_rgba: '#fce575ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/3068cb7e7179.jpg
+  type: unspecified
+properties: {}

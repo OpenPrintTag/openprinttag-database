@@ -1,0 +1,17 @@
+uuid: 501723f5-6b5c-5602-9b73-6e71a9ed7915
+slug: spectrum-abs-kevlar-black
+brand:
+  slug: spectrum
+name: ABS Kevlar Black
+class: FFF
+type_id: 3
+abbreviation: ABS
+url: https://spectrumfilaments.com/en/filament/abs-kevlar/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_kevlar
+- abrasive
+- filtration_recommended
+properties:
+  density: 1.05

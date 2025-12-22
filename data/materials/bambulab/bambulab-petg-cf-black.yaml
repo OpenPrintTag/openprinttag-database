@@ -1,0 +1,17 @@
+uuid: 2d611109-7ad8-540b-8a17-e882528ef23b
+slug: bambulab-petg-cf-black
+brand:
+  slug: bambulab
+name: 'PETG-CF Black '
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/644ac98977aa.png
+  type: unspecified
+properties: {}

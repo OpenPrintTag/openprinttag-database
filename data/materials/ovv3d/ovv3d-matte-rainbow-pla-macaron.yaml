@@ -1,0 +1,21 @@
+uuid: 04c834f2-ece3-5c1f-9697-f301be1dc7f2
+slug: ovv3d-matte-rainbow-pla-macaron
+brand:
+  slug: ovv3d
+name: Matte Rainbow PLA Macaron
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#bbdb4bff'
+- color_rgba: '#91cb67ff'
+- color_rgba: '#d3c6ffff'
+- color_rgba: '#f6abd7ff'
+- color_rgba: '#9be0e5ff'
+tags:
+- matte
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/27c1fa0640e2.jpg
+  type: unspecified
+properties: {}

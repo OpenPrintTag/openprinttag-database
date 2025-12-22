@@ -1,0 +1,15 @@
+uuid: 8cb34be6-4628-5ae2-9dfb-dc2df5d70151
+slug: colorfabb-tpu-95a-green
+brand:
+  slug: colorfabb
+name: TPU 95A Green
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#00cc00ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/8852ee0dbb5f.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

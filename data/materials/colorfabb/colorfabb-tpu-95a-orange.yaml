@@ -1,0 +1,15 @@
+uuid: ad8ac86f-2533-5506-bb69-617c7424058e
+slug: colorfabb-tpu-95a-orange
+brand:
+  slug: colorfabb
+name: TPU 95A Orange
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f67405ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/8559a3661c54.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

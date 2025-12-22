@@ -1,0 +1,17 @@
+uuid: b4ca0c8c-dacf-50c5-bfb9-f81a305e6522
+slug: flashforge-chameleon-gradient-rapid-pla-yellow-green
+brand:
+  slug: flashforge
+name: Chameleon Gradient Rapid PLA Yellow & Green
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#fbe200ff'
+- color_rgba: '#41a840ff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/d64b1d24f294.jpg
+  type: unspecified
+properties: {}

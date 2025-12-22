@@ -1,0 +1,16 @@
+uuid: 4ea9442b-2a79-5af3-9971-e863c12d83d2
+slug: flashforge-rapid-petg-metallic-bright-gold
+brand:
+  slug: flashforge
+name: Rapid PETG Metallic Bright Gold
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e3b145ff'
+tags:
+- imitates_metal
+photos:
+- url: https://file.myfilamentlist.com/f/new/5d1d970c0580.jpg
+  type: unspecified
+properties: {}

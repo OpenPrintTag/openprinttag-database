@@ -1,0 +1,20 @@
+uuid: bdc0187f-136d-5dee-8205-fbe9ca1b1d28
+slug: tecbears-glow-in-the-dark-petg-white-to-glow-blue
+brand:
+  slug: tecbears
+name: Glow in The Dark PETG White to Glow Blue
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#1adafbff'
+secondary_colors:
+- color_rgba: '#ffffffff'
+tags:
+- glow_in_the_dark
+- abrasive
+- illuminescent_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/a3b399b6f6e9.jpg
+  type: unspecified
+properties: {}

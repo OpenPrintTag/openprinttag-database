@@ -1,0 +1,15 @@
+uuid: ff423ccf-71ab-5486-a58e-d9b5fbf852d9
+slug: colorfabb-tpu-85a-red
+brand:
+  slug: colorfabb
+name: TPU 85A Red
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e20010ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/6577752677a2.png
+  type: unspecified
+properties:
+  hardness_shore_a: 85

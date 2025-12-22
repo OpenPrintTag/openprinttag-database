@@ -1,0 +1,14 @@
+uuid: 6b34ba34-dd3f-5601-a528-d9e9c98c7353
+slug: spectrum-the-filament-tpu-95a-green
+brand:
+  slug: spectrum
+name: The Filament TPU 95A Green
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://spectrumfilaments.com/en/filament/the-filament-tpu-95a/
+primary_color:
+  color_rgba: '#62e480ff'
+properties:
+  density: 1.21
+  hardness_shore_a: 95

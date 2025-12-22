@@ -1,0 +1,21 @@
+uuid: d6cc23c6-f218-560d-987b-752ac72c12be
+slug: colorfabb-glowfill
+brand:
+  slug: colorfabb
+name: glowFill
+class: FFF
+type_id: 15
+abbreviation: PHA
+primary_color:
+  color_rgba: '#62e480ff'
+secondary_colors:
+- color_rgba: '#f5f5f5ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- home_compostable
+- illuminescent_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/5303c074f404.png
+  type: unspecified
+properties: {}

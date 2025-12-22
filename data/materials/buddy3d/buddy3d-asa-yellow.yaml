@@ -1,0 +1,20 @@
+uuid: 0be5087e-143e-5d42-8418-15c9fee50e3d
+slug: buddy3d-asa-yellow
+brand:
+  slug: buddy3d
+name: ASA Yellow
+class: FFF
+type_id: 4
+abbreviation: ASA
+url: https://www.prusa3d.com/product/buddy3d-asa-yellow-750g/
+primary_color:
+  color_rgba: '#f5ec97ff'
+properties:
+  density: 1.07
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55

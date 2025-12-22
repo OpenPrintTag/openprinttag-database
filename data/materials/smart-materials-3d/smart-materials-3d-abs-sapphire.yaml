@@ -1,0 +1,16 @@
+uuid: c820a64d-4bc6-5fe4-8d6e-704d118b3f5a
+slug: smart-materials-3d-abs-sapphire
+brand:
+  slug: smart-materials-3d
+name: ABS Sapphire
+class: FFF
+type_id: 3
+abbreviation: ABS
+primary_color:
+  color_rgba: '#0099e6ff'
+tags:
+- filtration_recommended
+photos:
+- url: https://file.myfilamentlist.com/f/new/d8f335f717dc.png
+  type: unspecified
+properties: {}

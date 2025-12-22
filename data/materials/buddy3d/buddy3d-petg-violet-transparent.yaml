@@ -1,0 +1,23 @@
+uuid: ca2ee482-7f5f-5110-8b03-2255574d9a56
+slug: buddy3d-petg-violet-transparent
+brand:
+  slug: buddy3d
+name: PETG Violet Transparent
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://www.prusa3d.com/product/buddy3d-petg-violet-transparent-1kg/
+primary_color:
+  color_rgba: '#e80078ff'
+tags:
+- translucent
+properties:
+  density: 1.28
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

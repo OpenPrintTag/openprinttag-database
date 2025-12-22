@@ -1,0 +1,14 @@
+uuid: 2aca6be6-c6cc-5512-b35b-779c77418cdf
+slug: spectrum-the-filament-tpu-95a-black
+brand:
+  slug: spectrum
+name: The Filament TPU 95A Black
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://spectrumfilaments.com/en/filament/the-filament-tpu-95a/
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.21
+  hardness_shore_a: 95

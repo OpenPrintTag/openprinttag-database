@@ -1,0 +1,16 @@
+uuid: ba91b9b2-2e1d-54d4-92d2-fc5134dccc5d
+slug: spectrum-pet-g-carbon
+brand:
+  slug: spectrum
+name: PET-G Carbon
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://spectrumfilaments.com/en/filament/pet-g-carbon/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  density: 1.32

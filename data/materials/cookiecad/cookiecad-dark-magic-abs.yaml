@@ -1,0 +1,19 @@
+uuid: 2f7f113b-2582-502c-bca3-064caeeeee16
+slug: cookiecad-dark-magic-abs
+brand:
+  slug: cookiecad
+name: Dark Magic ABS
+class: FFF
+type_id: 3
+abbreviation: ABS
+url: https://cookiecad.com/products/copy-of-petg-dark-magic-petg-filament-1-75mm-1kg?Quantity=1+kg+spool
+primary_color:
+  color_rgba: '#2a3940ff'
+secondary_colors:
+- color_rgba: '#00e3e2ff'
+- color_rgba: '#c63dbaff'
+- color_rgba: '#62e480ff'
+tags:
+- iridescent
+- filtration_recommended
+properties: {}

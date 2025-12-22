@@ -2,4 +2,5 @@ uuid: 55a0bdfe-e221-4c88-b4e5-48e52dde46fa
 slug: prusament-1kg
 name: Prusament 1kg
 class: FFF
-brand_slug: prusament-resin
+brand:
+  slug: prusament-resin

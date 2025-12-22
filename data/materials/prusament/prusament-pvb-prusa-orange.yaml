@@ -1,0 +1,22 @@
+uuid: a7939bd0-f92e-5d33-9c30-2683a61b0c6d
+slug: prusament-pvb-prusa-orange
+brand:
+  slug: prusament
+name: PVB Prusa Orange
+class: FFF
+type_id: 19
+abbreviation: PVB
+url: https://www.prusa3d.com/product/prusament-pvb-prusa-orange-transparent-500g/
+primary_color:
+  color_rgba: '#ff6600ff'
+tags:
+- transparent
+- ipa_soluble
+properties:
+  density: 1.1
+  hardness_shore_d: 77
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 60
+  max_bed_temperature: 80

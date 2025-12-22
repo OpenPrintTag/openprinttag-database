@@ -1,0 +1,15 @@
+uuid: b59c1823-82a4-56f3-b36d-76108aadd35b
+slug: tecbears-tpu-95a-white
+brand:
+  slug: tecbears
+name: 'TPU 95A White '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/5474bff30ddc.jpg
+  type: unspecified
+properties:
+  hardness_shore_a: 95

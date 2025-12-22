@@ -18,6 +18,7 @@ Steps to be completed before release:
    - `data/material-slicing-profiles/`
 6. Remove POC lookup table:
    - `data/lookup-tables/sla-container-connectors.yaml`
+7. Remove `fix_uuids` and `fix_slugs` scripts
 
 ## Overview
 

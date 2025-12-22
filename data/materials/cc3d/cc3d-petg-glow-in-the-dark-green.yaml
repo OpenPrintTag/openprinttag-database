@@ -1,0 +1,20 @@
+uuid: 80c1ae73-4c71-5190-8839-240ace06da4c
+slug: cc3d-petg-glow-in-the-dark-green
+brand:
+  slug: cc3d
+name: PETG Glow in The Dark Green
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0ccf81ff'
+secondary_colors:
+- color_rgba: '#bfc3c2ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- illuminescent_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/7b4c2059c9d6.jpg
+  type: unspecified
+properties: {}

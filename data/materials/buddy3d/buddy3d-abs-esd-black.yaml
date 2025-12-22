@@ -1,0 +1,16 @@
+uuid: 9200c6f2-8112-5eab-b738-da90f77290d3
+slug: buddy3d-abs-esd-black
+brand:
+  slug: buddy3d
+name: ABS ESD Black
+class: FFF
+type_id: 3
+abbreviation: ABS
+url: https://www.prusa3d.com/product/buddy3d-abs-esd-black-750g/
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+- filtration_recommended
+properties:
+  density: 1.12

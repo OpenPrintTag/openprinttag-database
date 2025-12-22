@@ -2,4 +2,5 @@ uuid: 945748e4-b6ad-4d41-b38c-8c73c575d8f8
 slug: loctite-3d-1kg
 name: Loctite 3D 1kg
 class: FFF
-brand_slug: henkel
+brand:
+  slug: henkel

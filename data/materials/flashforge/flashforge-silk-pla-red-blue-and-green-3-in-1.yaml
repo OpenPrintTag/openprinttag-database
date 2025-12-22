@@ -1,0 +1,19 @@
+uuid: d191f79c-f8d4-5ec5-9063-2cf4ea52e8e9
+slug: flashforge-silk-pla-red-blue-and-green-3-in-1
+brand:
+  slug: flashforge
+name: 'Silk PLA Red, Blue and Green 3 in 1 '
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#67c993ff'
+- color_rgba: '#d33d3dff'
+- color_rgba: '#0078bfff'
+tags:
+- silk
+- industrially_compostable
+- coextruded
+photos:
+- url: https://file.myfilamentlist.com/f/new/bb6bf9614c3f.jpg
+  type: unspecified
+properties: {}

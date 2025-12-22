@@ -2,4 +2,5 @@ uuid: 81ee7e4d-526c-4574-b7b7-59218bfb386a
 slug: altana-1kg
 name: Altana 1kg
 class: FFF
-brand_slug: altana
+brand:
+  slug: altana

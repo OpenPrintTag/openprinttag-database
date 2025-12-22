@@ -1,0 +1,17 @@
+uuid: e6dfa0ed-bf15-5a31-a9e2-44197e5cfa9c
+slug: flashforge-petg-cf-black
+brand:
+  slug: flashforge
+name: PETG-CF Black
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/92d0e08c348b.jpg
+  type: unspecified
+properties: {}

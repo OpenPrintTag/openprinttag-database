@@ -1,0 +1,19 @@
+uuid: 6b4c9d4c-e447-50d1-b290-bbfb5f252047
+slug: printedsolid-ps-imports-pla-tricolor-silk-magic-gold-copper-purple
+brand:
+  slug: printedsolid
+name: PS Imports PLA TriColor Silk Magic-Gold-Copper-Purple
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#ffcb47ff'
+- color_rgba: '#863938ff'
+- color_rgba: '#6c47b2ff'
+tags:
+- silk
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/8a43f81f01ca.png
+  type: unspecified
+properties: {}

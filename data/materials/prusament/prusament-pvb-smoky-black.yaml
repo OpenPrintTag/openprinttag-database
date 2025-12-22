@@ -1,0 +1,22 @@
+uuid: 160e2147-eda1-50f0-9fc9-2727fd0cf1fe
+slug: prusament-pvb-smoky-black
+brand:
+  slug: prusament
+name: PVB Smoky Black
+class: FFF
+type_id: 19
+abbreviation: PVB
+url: https://www.prusa3d.com/product/prusament-pvb-smoky-black-transparent-500g/
+primary_color:
+  color_rgba: '#7b7b7bff'
+tags:
+- transparent
+- ipa_soluble
+properties:
+  density: 1.1
+  hardness_shore_d: 77
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 60
+  max_bed_temperature: 80

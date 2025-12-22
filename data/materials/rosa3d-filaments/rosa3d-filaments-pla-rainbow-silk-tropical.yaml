@@ -1,0 +1,18 @@
+uuid: 3c89c4e8-b171-56af-87cd-ed25191222b9
+slug: rosa3d-filaments-pla-rainbow-silk-tropical
+brand:
+  slug: rosa3d-filaments
+name: PLA Rainbow Silk Tropical
+class: FFF
+abbreviation: ''
+url: https://www.rosa3d.pl/en/filament-3d-pla-rainbow-silk-tropical-1
+secondary_colors:
+- color_rgba: '#e8bd00ff'
+- color_rgba: '#0085caff'
+- color_rgba: '#6c47b2ff'
+- color_rgba: '#963877ff'
+- color_rgba: '#ce5d4cff'
+tags:
+- silk
+- gradual_color_change
+properties: {}

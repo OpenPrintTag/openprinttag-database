@@ -1,0 +1,21 @@
+uuid: 561e5cd7-153a-505f-b468-f7586f8cd364
+slug: prusament-tpu-95a-jet-black
+brand:
+  slug: prusament
+name: TPU 95A Jet Black
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/
+primary_color:
+  color_rgba: '#232323ff'
+properties:
+  density: 1.25
+  hardness_shore_a: 95
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 170
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  chamber_temperature: 30
+  max_chamber_temperature: 40

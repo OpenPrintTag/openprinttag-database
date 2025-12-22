@@ -1,0 +1,17 @@
+uuid: 74fe6f32-c235-5d29-8053-cc39e9c48595
+slug: bambulab-pet-cf-black
+brand:
+  slug: bambulab
+name: 'PET-CF Black '
+class: FFF
+type_id: 16
+abbreviation: PET
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: https://file.myfilamentlist.com/f/new/460bd885fc8a.png
+  type: unspecified
+properties: {}

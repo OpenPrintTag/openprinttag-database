@@ -1,0 +1,25 @@
+uuid: 8ebd0e67-844e-572a-88cc-d8f5edf5a561
+slug: prusament-petg-lipstick-red
+brand:
+  slug: prusament
+name: PETG Lipstick Red
+class: FFF
+type_id: 1
+abbreviation: PETG
+primary_color:
+  color_rgba: '#bb2e33ff'
+transmission_distance: 2.8
+photos:
+- url: https://file.myfilamentlist.com/f/new/8b48861608d7.png
+  type: unspecified
+properties:
+  density: 1.27
+  hardness_shore_d: 74
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60

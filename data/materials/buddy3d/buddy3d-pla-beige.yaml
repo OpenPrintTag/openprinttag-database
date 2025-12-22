@@ -1,0 +1,22 @@
+uuid: ba28a82e-8e33-539f-a084-183f71d3fcc1
+slug: buddy3d-pla-beige
+brand:
+  slug: buddy3d
+name: PLA Beige
+class: FFF
+abbreviation: ''
+url: https://www.prusa3d.com/product/buddy3d-pla-beige-1kg/
+primary_color:
+  color_rgba: '#e9d1c1ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40

@@ -1,0 +1,15 @@
+uuid: c0b3fba3-7900-5c2a-b55b-69b180238cb6
+slug: polymaker-polyflex-tpu95-yellow
+brand:
+  slug: polymaker
+name: 'PolyFlex™ TPU95 Yellow '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f3c102ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/b6e446538dcb.png
+  type: unspecified
+properties:
+  hardness_shore_a: 95

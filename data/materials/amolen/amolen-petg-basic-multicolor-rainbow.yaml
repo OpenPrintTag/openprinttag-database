@@ -1,0 +1,20 @@
+uuid: 52f949e4-84e0-5bf1-9c47-06d76eac8afe
+slug: amolen-petg-basic-multicolor-rainbow
+brand:
+  slug: amolen
+name: PETG Basic Multicolor Rainbow
+class: FFF
+type_id: 1
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#00cc00ff'
+- color_rgba: '#6802bcff'
+- color_rgba: '#ffbf00ff'
+- color_rgba: '#fa7f1bff'
+- color_rgba: '#b7293eff'
+tags:
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/6d2fed3c-6443-4102-8ffd-77c7c13ac595/185d292b6f21.png
+  type: unspecified
+properties: {}

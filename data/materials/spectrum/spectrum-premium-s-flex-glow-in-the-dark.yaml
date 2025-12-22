@@ -1,0 +1,17 @@
+uuid: 44d997cb-bdf2-54fd-be78-3575e2fae5f7
+slug: spectrum-premium-s-flex-glow-in-the-dark
+brand:
+  slug: spectrum
+name: Premium S-Flex Glow in the Dark
+class: FFF
+abbreviation: S-Flex
+url: https://spectrumfilaments.com/en/filament/s-flex-90a/
+primary_color:
+  color_rgba: '#70fa00ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- abrasive
+properties:
+  density: 1.22
+  hardness_shore_a: 90

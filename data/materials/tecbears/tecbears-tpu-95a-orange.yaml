@@ -1,0 +1,15 @@
+uuid: 66fdf0e1-14cf-5f36-8eea-205a298c7409
+slug: tecbears-tpu-95a-orange
+brand:
+  slug: tecbears
+name: 'TPU 95A Orange '
+class: FFF
+type_id: 2
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f67405ff'
+photos:
+- url: https://file.myfilamentlist.com/f/new/410b94c473de.jpg
+  type: unspecified
+properties:
+  hardness_shore_a: 95

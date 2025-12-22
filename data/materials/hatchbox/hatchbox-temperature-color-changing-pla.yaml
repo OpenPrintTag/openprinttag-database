@@ -1,0 +1,19 @@
+uuid: 4ea5bf1c-9a5b-5519-83a7-8040893865dc
+slug: hatchbox-temperature-color-changing-pla
+brand:
+  slug: hatchbox
+name: 'Temperature Color Changing PLA '
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#ff8400ff'
+- color_rgba: '#906482ff'
+- color_rgba: '#f2306eff'
+tags:
+- temperature_color_change
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/7c706ffbc68e.jpg
+  type: unspecified
+properties: {}

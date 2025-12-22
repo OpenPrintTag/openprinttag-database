@@ -1,0 +1,19 @@
+uuid: 3338054b-77af-5d7a-a93c-43dc7274eae6
+slug: primacreator-easyprint-pla-rainbow
+brand:
+  slug: primacreator
+name: 'EasyPrint PLA Rainbow '
+class: FFF
+abbreviation: ''
+secondary_colors:
+- color_rgba: '#ce5d4cff'
+- color_rgba: '#f5cf6fff'
+- color_rgba: '#9dbd8bff'
+- color_rgba: '#9ef9ffff'
+tags:
+- industrially_compostable
+- gradual_color_change
+photos:
+- url: https://file.myfilamentlist.com/f/new/1688bc2e339d.png
+  type: unspecified
+properties: {}

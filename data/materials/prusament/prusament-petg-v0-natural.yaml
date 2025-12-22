@@ -1,0 +1,23 @@
+uuid: 11181d77-a6fa-59dc-81a4-21e31d8106e3
+slug: prusament-petg-v0-natural
+brand:
+  slug: prusament
+name: PETG V0 Natural
+class: FFF
+type_id: 1
+abbreviation: PETG
+url: https://www.prusa3d.com/product/prusament-petg-v0-natural-1kg/
+primary_color:
+  color_rgba: '#dee2daff'
+transmission_distance: 10.4
+tags:
+- self_extinguishing
+- without_pigments
+properties:
+  density: 1.27
+  hardness_shore_d: 79
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
