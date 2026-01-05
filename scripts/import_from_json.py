@@ -18,8 +18,9 @@ The script will:
     3. Generate slugs from names
     4. Generate UUIDs deterministically (UUIDv5) according to specification
     5. Resolve UUID references to slugs
-    6. Assign sequential IDs to material_types and tags
-    7. Write YAML files to data/ directory structure
+    6. Map material types and certifications to OpenPrintTag IDs
+    7. Validate tags against OpenPrintTag schema
+    8. Write YAML files to data/ directory structure
 
 Output structure:
     data/
@@ -123,105 +124,6 @@ def transform_brand(brand: Dict, countries_map: Dict[str, Any]) -> Dict[str, Any
 	return result
 
 
-def transform_material_type(mt: Dict, type_id: int) -> Dict[str, Any]:
-	"""Transform a material type from JSON to YAML format"""
-	result = {
-		'id': type_id,
-		'class': mt.get('class', 'FFF'),
-		'abbreviation': mt.get('abbreviation') or '',
-		'name': mt.get('name', ''),
-	}
-	
-	if mt.get('description'):
-		result['description'] = mt['description']
-	
-	# default_properties must be an object (dict), not a UUID string
-	default_props = mt.get('default_properties')
-	if default_props and isinstance(default_props, dict):
-		result['default_properties'] = default_props
-	# If it's a UUID string or other non-object type, omit it (it's optional)
-	
-	return result
-
-
-def transform_tag(tag: Dict, tag_id: int, tag_categories_map: Dict[int, Any], tag_categories_tags_map: Dict[str, List[str]]) -> Dict[str, Any]:
-	"""Transform a tag from JSON to YAML format"""
-	result = {
-		'id': tag_id,
-		'slug': slugify(tag.get('name', '')),
-		'name': tag.get('name', ''),
-	}
-	
-	# Category - check both direct categories field and tag_categories_tags table
-	tag_uuid = tag.get('uuid')
-	category_name = None
-	
-	# First check direct categories field
-	if tag.get('categories'):
-		category_id = tag['categories'][0] if isinstance(tag['categories'], list) else tag['categories']
-		category = tag_categories_map.get(category_id)
-		if category and category.get('name'):
-			category_name = category['name']
-	
-	# Also check tag_categories_tags table
-	# Note: This requires tag_categories_uuid_map which should be passed or built globally
-	# For now, we rely on the direct categories field above
-	
-	if category_name:
-		result['category'] = category_name
-	
-	if tag.get('description'):
-		result['description'] = tag['description']
-	
-	# Implies and hints (resolve to slugs)
-	if tag.get('implies'):
-		result['implies'] = [slugify(t.get('name', '')) if isinstance(t, dict) else slugify(str(t)) for t in tag['implies']]
-	if tag.get('hints'):
-		result['hints'] = [slugify(t.get('name', '')) if isinstance(t, dict) else slugify(str(t)) for t in tag['hints']]
-	
-	return result
-
-
-def transform_certification(cert: Dict) -> Dict[str, Any]:
-	"""Transform a certification from JSON to YAML format"""
-	result = {
-		'id': cert.get('id'),
-		'slug': slugify(cert.get('name', '')),
-		'name': cert.get('name', ''),
-	}
-	
-	if cert.get('display_name'):
-		result['display_name'] = cert['display_name']
-	if cert.get('description'):
-		result['description'] = cert['description']
-	
-	return result
-
-
-def transform_country(country: Dict) -> Dict[str, Any]:
-	"""Transform a country from JSON to YAML format"""
-	return {
-		'code': country.get('code', ''),
-		'name': country.get('name', ''),
-	}
-
-
-def transform_palette_color(color: Dict) -> Dict[str, Any]:
-	"""Transform a palette color from JSON to YAML format"""
-	result = {
-		'uuid': color.get('uuid'),
-		'palette': color.get('palette', 'pantone').lower(),
-		'canonical_name': color.get('canonical_name', ''),
-	}
-	
-	if color.get('display_name'):
-		result['display_name'] = color['display_name']
-	if color.get('rgba'):
-		result['color_rgba'] = color['rgba']
-	
-	return result
-
-
 def transform_color(color: Dict) -> Dict[str, Any]:
 	"""Transform a color from JSON to YAML format"""
 	result = {
@@ -278,16 +180,18 @@ def transform_material(
 	material_types_uuid_to_id: Dict[str, int],  # UUID -> ID mapping
 	tags_map: Dict[str, Any],
 	certifications_map: Dict[str, Any],
+	certification_name_to_id: Dict[str, int],  # certification name -> ID mapping from OpenPrintTag
 	colors_map: Dict[str, Any],
 	material_colors_id_to_uuid_map: Dict[int, str],  # materials_colors ID -> color UUID
 	photos_map: Dict[str, Any],
 	material_properties_map: Dict[str, Any],  # properties_uuid -> properties object
 	fff_material_properties_map: Dict[str, Any],  # fff_properties_uuid -> fff properties
 	material_tags_map: Dict[str, List[str]],  # material_uuid -> list of tag UUIDs
-	material_certifications_map: Dict[str, List[str]],  # material_uuid -> list of cert UUIDs
+	material_certifications_map: Dict[str, List[int]],  # material_uuid -> list of cert IDs
 	material_photos_map: Dict[str, List[int]],  # material_uuid -> list of photo IDs
 	valid_tag_names: set,  # Valid tag names from OpenPrintTag
 	tag_warnings: List[str],  # List to collect warnings
+	certification_warnings: List[str],  # List to collect certification warnings
 ) -> Optional[Dict[str, Any]]:
 	"""Transform a material from JSON to YAML format"""
 	brand = resolve_uuid_reference(material.get('brand'), brands_map)
@@ -458,17 +362,33 @@ def transform_material(
 	if tags:
 		result['tags'] = tags
 	
-	# Certifications
-	certifications = []
+	# Certifications - resolve to IDs from OpenPrintTag
+	certification_ids = []
 	if material_uuid and material_uuid in material_certifications_map:
-		for cert_uuid in material_certifications_map[material_uuid]:
-			cert = resolve_uuid_reference(cert_uuid, certifications_map)
+		for cert_id in material_certifications_map[material_uuid]:
+			# Look up certification by ID
+			cert = certifications_map.get(cert_id)
 			if cert:
-				cert_slug = slugify(cert.get('name', ''))
-				if cert_slug:
-					certifications.append(cert_slug)
-	if certifications:
-		result['certifications'] = certifications
+				cert_name = cert.get('name', '')
+				# Try to map to OpenPrintTag certification ID
+				# First try slugified name (most common)
+				cert_slug = slugify(cert_name)
+				openprinttag_cert_id = certification_name_to_id.get(cert_slug)
+
+				# If not found, try original name as fallback
+				if openprinttag_cert_id is None and cert_name:
+					openprinttag_cert_id = certification_name_to_id.get(cert_name)
+
+				if openprinttag_cert_id is not None:
+					certification_ids.append(openprinttag_cert_id)
+				else:
+					# Log warning if certification not found in OpenPrintTag
+					certification_warnings.append(
+						f"Material '{material_name}': dropped certification '{cert_name}' "
+						f"(slug: '{cert_slug}') - not found in OpenPrintTag"
+					)
+	if certification_ids:
+		result['certification_ids'] = certification_ids
 	
 	# Photos
 	photos = []
@@ -716,7 +636,7 @@ def build_relationship_maps(data: Dict) -> Dict[str, Dict[str, List]]:
 	"""Build maps for many-to-many relationships"""
 	maps = {
 		'material_tags': {},  # material_uuid -> [tag_uuids]
-		'material_certifications': {},  # material_uuid -> [cert_uuids]
+		'material_certifications': {},  # material_uuid -> [cert_ids]
 		'material_photos': {},  # material_uuid -> [photo_ids]
 	}
 	
@@ -744,16 +664,10 @@ def build_relationship_maps(data: Dict) -> Dict[str, Dict[str, List]]:
 			material_uuid = mc.get('materials_uuid')
 			cert_id = mc.get('certifications_id')
 			if material_uuid and cert_id:
-				# Find certification by ID
-				cert_uuid = None
-				for cert in data.get('certifications', []):
-					if cert.get('id') == cert_id:
-						cert_uuid = cert.get('uuid')
-						break
-				if cert_uuid:
-					if material_uuid not in maps['material_certifications']:
-						maps['material_certifications'][material_uuid] = []
-					maps['material_certifications'][material_uuid].append(cert_uuid)
+				# Store the certification ID directly (certifications use IDs, not UUIDs)
+				if material_uuid not in maps['material_certifications']:
+					maps['material_certifications'][material_uuid] = []
+				maps['material_certifications'][material_uuid].append(cert_id)
 	
 	# Material photos
 	if 'material_photos' in data:
@@ -818,13 +732,56 @@ def main():
 				openprinttag_abbreviation_to_key[mt['abbreviation']] = mt['key']
 	print(f"  Loaded {len(openprinttag_abbreviation_to_key)} material type abbreviations from OpenPrintTag")
 
+	# Load OpenPrintTag certifications for ID mapping
+	openprinttag_certifications_file = repo_root / "openprinttag" / "data" / "material_certifications.yaml"
+	if not openprinttag_certifications_file.exists():
+		print(f"Error: OpenPrintTag material certifications file not found at {openprinttag_certifications_file}")
+		sys.exit(1)
+
+	print(f"Loading OpenPrintTag material certifications from {openprinttag_certifications_file}...")
+	with open(openprinttag_certifications_file, 'r') as f:
+		openprinttag_certifications = yaml.safe_load(f)
+
+	# Create name -> key mapping from OpenPrintTag
+	# Map both 'name' and 'display_name' fields to handle different formats
+	openprinttag_certification_name_to_key = {}
+	if openprinttag_certifications:
+		for cert in openprinttag_certifications:
+			if 'key' in cert:
+				# Map by name (e.g., "ul_94_v0")
+				if cert.get('name'):
+					openprinttag_certification_name_to_key[cert['name']] = cert['key']
+				# Also map by display_name (e.g., "UL 94 V0")
+				if cert.get('display_name'):
+					openprinttag_certification_name_to_key[cert['display_name']] = cert['key']
+					# Also add slugified version of display_name
+					openprinttag_certification_name_to_key[slugify(cert['display_name'])] = cert['key']
+
+	# Manual mappings for certifications with naming mismatches
+	# Maps database certification slugs to OpenPrintTag certification names
+	manual_cert_mappings = {
+		'ul94-v0': 'ul_94_v0',  # Database has "UL94 V0", OpenPrintTag has "ul_94_v0"
+	}
+
+	# Apply manual mappings
+	for db_slug, opt_name in manual_cert_mappings.items():
+		if opt_name in openprinttag_certification_name_to_key:
+			openprinttag_certification_name_to_key[db_slug] = openprinttag_certification_name_to_key[opt_name]
+
+	print(f"  Loaded {len(openprinttag_certifications)} certifications from OpenPrintTag ({len(openprinttag_certification_name_to_key)} name mappings)")
+
 	print("Building lookup maps...")
 	# Create UUID maps for quick lookup
 	brands_map = create_uuid_map(data.get('brands', []))
 	materials_map = create_uuid_map(data.get('materials', []))
 	material_types_map = create_uuid_map(data.get('material_types', []))
 	tags_map = create_uuid_map(data.get('tags', []))
-	certifications_map = create_uuid_map(data.get('certifications', []))
+	# Certifications use 'id' instead of 'uuid'
+	certifications_map = {}
+	for cert in data.get('certifications', []):
+		cert_id = cert.get('id')
+		if cert_id:
+			certifications_map[cert_id] = cert
 	countries_map = create_uuid_map(data.get('countries', []))
 	containers_map = create_uuid_map(data.get('material_container', []))
 	fff_containers_map = create_uuid_map(data.get('fff_material_container', []))
@@ -902,6 +859,7 @@ def main():
 	print("  Transforming materials...")
 	materials_output = {}  # brand_slug -> {material_slug -> material}
 	tag_warnings = []  # Collect tag transformation and validation warnings
+	certification_warnings = []  # Collect certification warnings
 	for material in data.get('materials', []):
 		transformed = transform_material(
 			material,
@@ -910,6 +868,7 @@ def main():
 			material_types_uuid_to_id,
 			tags_map,
 			certifications_map,
+			openprinttag_certification_name_to_key,
 			colors_map,
 			material_colors_id_to_uuid_map,
 			photos_map,
@@ -920,6 +879,7 @@ def main():
 			relationship_maps['material_photos'],
 			valid_tag_names,
 			tag_warnings,
+			certification_warnings,
 		)
 		if transformed and transformed.get('brand') and transformed.get('slug'):
 			brand_slug = transformed['brand']['slug']
@@ -1078,6 +1038,12 @@ def main():
 	if tag_warnings:
 		print(f"\n⚠ Tag transformation and validation warnings ({len(tag_warnings)} total):")
 		for warning in tag_warnings:
+			print(f"    ⚠ {warning}")
+
+	# Print certification warnings
+	if certification_warnings:
+		print(f"\n⚠ Certification warnings ({len(certification_warnings)} total):")
+		for warning in certification_warnings:
 			print(f"    ⚠ {warning}")
 
 	if warning_count > 0:

@@ -12,6 +12,8 @@ primary_color:
 transmission_distance: 0.3
 tags:
 - self_extinguishing
+certification_ids:
+- 1
 properties:
   density: 1.27
   hardness_shore_d: 79
