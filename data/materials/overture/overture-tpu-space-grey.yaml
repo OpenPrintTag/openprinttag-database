@@ -6,7 +6,10 @@ name: TPU Space grey
 class: FFF
 type_id: 2
 abbreviation: TPU
+primary_color:
+  color_rgba: '#5a5e60ff'
 photos:
 - url: https://file.myfilamentlist.com/f/new/0e429fb34a3a.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

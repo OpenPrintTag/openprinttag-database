@@ -1,0 +1,17 @@
+uuid: 58020a44-f00d-57f3-9fca-57bf7f2dff98
+slug: overture-tpu-high-speed-luminous-pink
+brand:
+  slug: overture
+name: TPU High Speed Luminous Pink
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://overture3d.com/products/overture-high-speed-tpu-3d-printer-filament-1-75mm?variant=46971914682622
+primary_color:
+  color_rgba: '#e65fe2ff'
+secondary_colors:
+- color_rgba: '#eaecf5ff'
+tags:
+- illuminescent_color_change
+properties:
+  hardness_shore_a: 95

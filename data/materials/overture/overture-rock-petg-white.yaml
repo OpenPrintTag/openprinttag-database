@@ -6,12 +6,9 @@ name: Rock PETG White
 class: FFF
 type_id: 1
 abbreviation: PETG
-secondary_colors:
-- color_rgba: '#edf0f2ff'
-- color_rgba: '#000000ff'
+url: https://overture3d.com/products/overture-rock-petg-3d-printer-filament-1-75mm
+primary_color:
+  color_rgba: '#edf0f2ff'
 tags:
 - imitates_marble
-photos:
-- url: https://file.myfilamentlist.com/f/new/0661d5028c6e.jpg
-  type: unspecified
 properties: {}

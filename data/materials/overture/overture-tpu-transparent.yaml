@@ -9,8 +9,9 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#f5f5f4ff'
 tags:
-- translucent
+- transparent
 photos:
 - url: https://file.myfilamentlist.com/f/new/cfe9a9174c21.jpg
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_a: 95

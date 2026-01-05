@@ -1,0 +1,18 @@
+uuid: 30f5acb3-670b-53bb-9951-cbb3e8f94048
+slug: overture-tpu-high-speed-luminous-blue
+brand:
+  slug: overture
+name: TPU High Speed Luminous Blue
+class: FFF
+type_id: 2
+abbreviation: TPU
+url: https://overture3d.com/products/overture-high-speed-tpu-3d-printer-filament-1-75mm?variant=46971914879230
+primary_color:
+  color_rgba: '#0099e6ff'
+secondary_colors:
+- color_rgba: '#e4e7e5ff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+properties:
+  hardness_shore_a: 95
