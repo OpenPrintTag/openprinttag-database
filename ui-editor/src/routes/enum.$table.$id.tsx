@@ -102,7 +102,6 @@ const EnumItemDetail = () => {
             params={{ table }}
             resetScroll={false}
             className="flex items-center gap-1 transition-colors hover:text-purple-600"
-
           >
             <ChevronRight className="h-4 w-4 rotate-180" />
             <span>Back to {formatEnumLabel(table)}</span>

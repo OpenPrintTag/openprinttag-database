@@ -1,10 +1,10 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
-import { ChevronRight, Loader2, Package2, Plus, Search, X } from 'lucide-react';
-import { PageHeader } from '~/components/PageHeader';
-
+import { ChevronRight, Loader2, Package2, Plus, Search } from 'lucide-react';
 import React from 'react';
 
 import { ContainerSheet } from '~/components/container-sheet';
+import { PageHeader } from '~/components/PageHeader';
+import { SearchBar } from '~/components/SearchBar';
 import { Button } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 import type { Brand } from '~/types/brand';
@@ -118,10 +118,10 @@ function RouteComponent() {
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
       {/* Header Section */}
       <div className="flex items-start justify-between gap-4">
-          <PageHeader
-              title="Material Containers"
-              description={`Browse and manage ${containers.length} material containers in the database`}
-          />
+        <PageHeader
+          title="Material Containers"
+          description={`Browse and manage ${containers.length} material containers in the database`}
+        />
         <button
           onClick={() => handleOpenContainerSheet('create')}
           className="btn flex items-center gap-2"
