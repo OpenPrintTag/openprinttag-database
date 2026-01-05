@@ -53,6 +53,7 @@ class JsonSchemaValidator:
         'materials': [
             (['brand', 'slug'], 'brands', 'slug', False),
             (['type_id'], 'material-types', 'key', False),
+            (['certification_ids'], 'material-certifications', 'key', True),
         ],
         'material-packages': [
             (['brand', 'slug'], 'brands', 'slug', False),
@@ -212,6 +213,25 @@ class JsonSchemaValidator:
                 # Use the key as the cache key for lookups
                 self.data_cache['material-types'][material_type['key']] = material_type
 
+    def load_material_certifications(self) -> None:
+        """Load material certifications from openprinttag/data/material_certifications.yaml"""
+        material_certifications_file = self.openprinttag_data_dir / "material_certifications.yaml"
+
+        if not material_certifications_file.exists():
+            print(f"  Warning: Material certifications file not found at {material_certifications_file}")
+            return
+
+        data = self.load_yaml_file(material_certifications_file)
+        if data is None or not isinstance(data, list):
+            return
+
+        # Store material certifications indexed by their 'key' field
+        self.data_cache['material-certifications'] = {}
+        for certification in data:
+            if isinstance(certification, dict) and 'key' in certification:
+                # Use the key as the cache key for lookups
+                self.data_cache['material-certifications'][certification['key']] = certification
+
     def get_nested_value(self, data: Dict[str, Any], path: List[str]) -> Any:
         """Get a nested value from a dictionary using a path"""
         value = data
@@ -347,6 +367,7 @@ class JsonSchemaValidator:
 
         print("\nLoading reference data...")
         self.load_material_types()
+        self.load_material_certifications()
 
         print("\nValidating foreign key references...")
         self.validate_foreign_keys()
