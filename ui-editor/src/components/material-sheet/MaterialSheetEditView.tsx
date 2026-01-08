@@ -1,3 +1,5 @@
+import type { EntityFields } from '~/components/field-types';
+
 import { AdditionalInformationEditSection } from './sections/AdditionalInformationEditSection';
 import { BasicInformationEditSection } from './sections/BasicInformationEditSection';
 import { ClassificationEditSection } from './sections/ClassificationEditSection';
@@ -9,7 +11,7 @@ import { VisualPropertiesEditSection } from './sections/VisualPropertiesEditSect
 import type { Material } from './types';
 
 interface MaterialSheetEditViewProps {
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
   schema: unknown;

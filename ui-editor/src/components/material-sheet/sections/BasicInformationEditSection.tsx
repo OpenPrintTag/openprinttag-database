@@ -1,12 +1,13 @@
 import { useEffect } from 'react';
 
+import type { EntityFields } from '~/components/field-types';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { slugifyName } from '~/utils/slug';
 
 import type { Material } from '../types';
 
 interface BasicInformationEditSectionProps {
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
   mode?: 'create' | 'edit';

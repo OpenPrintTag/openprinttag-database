@@ -1,22 +1,30 @@
 import React, { useEffect, useState } from 'react';
 
-import { hexToCssRgba } from '~/utils/color';
 import { safeStringify } from '~/utils/format';
 
 import { FormField } from './FormField';
 
 type ColorValue = { rgba?: string; color_rgba?: string } | null;
 
+const VALID_HEX_PATTERN = /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/;
+
 export const ColorPicker = ({
   label,
   value,
   onChange,
   required,
+  hideLabel = false,
+  showColorInput = false,
+  actions,
+  allowInvalidInput = true,
 }: {
   label: string;
   value: unknown;
   onChange: (val: ColorValue) => void;
   required?: boolean;
+  hideLabel?: boolean;
+  actions?: React.ReactNode;
+  allowInvalidInput?: boolean;
 }) => {
   const valueObj =
     value && typeof value === 'object'
@@ -33,46 +41,48 @@ export const ColorPicker = ({
   }, [currentHex]);
 
   const handleColorChange = (newHex: string) => {
+    if (!allowInvalidInput && newHex && !VALID_HEX_PATTERN.test(newHex)) {
+      return;
+    }
+
     setHex(newHex);
-    if (newHex && /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(newHex)) {
+
+    if (newHex && VALID_HEX_PATTERN.test(newHex)) {
       onChange({ rgba: newHex, color_rgba: newHex });
     } else if (!newHex) {
       onChange(null);
     }
   };
 
-  const bgColor =
-    hex && /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(hex)
-      ? (hexToCssRgba(hex) ?? '#ccc')
-      : '#ccc';
+  const colorInputValue = hex || '#000000';
+
+  const content = (
+    <div className="flex items-center gap-3">
+      <input
+        type="color"
+        value={colorInputValue.slice(0, 7)}
+        onChange={(e) => handleColorChange(e.target.value)}
+        className="h-10 w-20 cursor-pointer rounded border border-gray-300"
+      />
+      <input
+        type="text"
+        className="input font-mono text-sm"
+        placeholder="#RRGGBB or #RRGGBBAA"
+        value={hex}
+        onChange={(e) => handleColorChange(e.target.value)}
+        pattern="^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$"
+      />
+      {actions}
+    </div>
+  );
+
+  if (hideLabel) {
+    return content;
+  }
 
   return (
     <FormField label={label} required={required}>
-      <div className="flex items-center gap-3">
-        <div className="relative">
-          <input
-            type="color"
-            value={hex || '#000000'}
-            onChange={(e) => handleColorChange(e.target.value)}
-            className="h-10 w-20 cursor-pointer rounded border border-gray-300"
-          />
-        </div>
-        <input
-          type="text"
-          className="input font-mono text-sm"
-          placeholder="#RRGGBB or #RRGGBBAA"
-          value={hex}
-          onChange={(e) => handleColorChange(e.target.value)}
-          pattern="^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$"
-        />
-        {hex && /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(hex) ? (
-          <div
-            className="h-10 w-10 rounded border border-gray-300"
-            style={{ background: bgColor }}
-            title={hex}
-          />
-        ) : null}
-      </div>
+      {content}
     </FormField>
   );
 };
@@ -114,46 +124,30 @@ export const ColorArrayPicker = ({
     onChange(newColors.length > 0 ? newColors : null);
   };
 
-  const handleColorChange = (index: number, newHex: string) => {
-    const newColors = [...localColors];
-    if (/^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(newHex)) {
-      newColors[index] = { rgba: newHex, color_rgba: newHex };
-      setLocalColors(newColors);
-      onChange(newColors);
+  const handleColorChange = (index: number, newColor: ColorValue) => {
+    if (!newColor) {
+      return;
     }
+
+    const newColors = [...localColors];
+    newColors[index] = newColor;
+    setLocalColors(newColors);
+    onChange(newColors);
   };
 
   return (
     <FormField label={label} required={required}>
       <div className="space-y-2">
-        {localColors.map((color, index) => {
-          const hex = color?.rgba || color?.color_rgba || '#000000';
-          const bgColor = /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(hex)
-            ? (hexToCssRgba(hex) ?? '#ccc')
-            : '#ccc';
-          return (
-            <div key={index} className="flex items-center gap-3">
-              <div className="relative">
-                <input
-                  type="color"
-                  value={hex}
-                  onChange={(e) => handleColorChange(index, e.target.value)}
-                  className="h-10 w-20 cursor-pointer rounded border border-gray-300"
-                />
-              </div>
-              <input
-                type="text"
-                className="input flex-1 font-mono text-sm"
-                placeholder="#RRGGBB or #RRGGBBAA"
-                value={hex}
-                onChange={(e) => handleColorChange(index, e.target.value)}
-                pattern="^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$"
-              />
-              <div
-                className="h-10 w-10 shrink-0 rounded border border-gray-300"
-                style={{ background: bgColor }}
-                title={hex}
-              />
+        {localColors.map((color, index) => (
+          <ColorPicker
+            key={index}
+            label={`${label}-${index}`}
+            value={color}
+            onChange={(val) => handleColorChange(index, val)}
+            required={required}
+            hideLabel
+            allowInvalidInput={false}
+            actions={
               <button
                 type="button"
                 onClick={() => handleRemoveColor(index)}
@@ -162,9 +156,9 @@ export const ColorArrayPicker = ({
               >
                 Remove
               </button>
-            </div>
-          );
-        })}
+            }
+          />
+        ))}
         <button
           type="button"
           onClick={handleAddColor}

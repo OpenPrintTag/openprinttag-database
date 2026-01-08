@@ -1,11 +1,10 @@
 import { DataGrid } from '~/components/DataGrid';
-import type { SchemaField } from '~/components/field-types';
 
 import type { Material } from '../types';
 
 interface TagsCertificationsReadSectionProps {
   material?: Material;
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
 }
 
 export const TagsCertificationsReadSection = ({
@@ -20,9 +19,9 @@ export const TagsCertificationsReadSection = ({
     <DataGrid
       data={material}
       title="Classification & Certifications"
-      fields={fields as Record<string, SchemaField> | undefined}
+      fields={fields}
       primaryKeys={['tags', 'certifications']}
-      excludeKeys={Object.keys(material).filter(
+      excludeKeys={Object.keys(fields).filter(
         (k) => k !== 'tags' && k !== 'certifications',
       )}
       entity="material"

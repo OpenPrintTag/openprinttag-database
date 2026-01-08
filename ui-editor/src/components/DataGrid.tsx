@@ -1,12 +1,12 @@
 import { useColorsLookup } from '~/context/ColorsLookupContext';
 
-import type { SchemaField } from './field-types';
+import type { EntityFields, SchemaField } from './field-types';
 import { ValueDisplay } from './ValueDisplay';
 
 export interface DataGridProps<T = Record<string, unknown>> {
   data: T;
   title?: string;
-  fields?: Record<string, SchemaField>;
+  fields?: EntityFields;
   primaryKeys?: string[];
   excludeKeys?: string[];
   entity?: string;

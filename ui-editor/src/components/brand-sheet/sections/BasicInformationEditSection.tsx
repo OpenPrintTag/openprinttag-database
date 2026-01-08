@@ -1,9 +1,10 @@
+import type { EntityFields } from '~/components/field-types';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
 import type { Brand } from '../types';
 
 interface BasicInformationEditSectionProps {
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
   form: Partial<Brand>;
   onFieldChange: (key: string, value: unknown) => void;
 }
@@ -28,6 +29,7 @@ export const BasicInformationEditSection = ({
                 label={key}
                 field={fields[key] as SchemaField}
                 value={form?.[key]}
+                disabled={true}
                 onChange={(val) => onFieldChange(key, val)}
               />
             );

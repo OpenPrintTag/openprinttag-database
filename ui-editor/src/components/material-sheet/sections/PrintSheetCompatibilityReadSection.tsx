@@ -5,7 +5,7 @@ import type { Material } from '../types';
 
 interface PrintSheetCompatibilityReadSectionProps {
   material?: Material;
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
 }
 
 export const PrintSheetCompatibilityReadSection = ({
@@ -22,7 +22,7 @@ export const PrintSheetCompatibilityReadSection = ({
       title="Print Sheet Compatibility"
       fields={fields as Record<string, SchemaField> | undefined}
       primaryKeys={['print_sheet_compatibility']}
-      excludeKeys={Object.keys(material).filter(
+      excludeKeys={Object.keys(fields).filter(
         (k) => k !== 'print_sheet_compatibility',
       )}
       entity="material"

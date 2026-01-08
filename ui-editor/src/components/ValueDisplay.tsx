@@ -40,6 +40,14 @@ export const ValueDisplay = ({
   const arrayRelation = useLookupRelation(entity, field?.items, label);
   const enumSource = resolveEnumSource(field, label);
 
+  const renderColorSwatches = (colors: string[]) => (
+    <div className="flex flex-wrap items-center gap-2">
+      {colors.map((c, i) => (
+        <ColorSwatch key={i} rgbaHex={c} label={hexToRgbText(c)} title={c} />
+      ))}
+    </div>
+  );
+
   const renderLookupLink = (table: string, val: unknown) => {
     const textLabel =
       typeof val === 'object' ? bestLabelFromItem(val) : String(val);
@@ -262,19 +270,7 @@ export const ValueDisplay = ({
     ? (value.map(extractColorHex).filter(Boolean) as string[])
     : [];
   if (swatches.length > 0) {
-    return (
-      <div className="flex flex-wrap items-center gap-2">
-        {swatches.map((c, i) => (
-          <div key={i} className="flex items-center gap-2">
-            <div
-              className="h-6 w-6 rounded-md border ring-1 ring-gray-200"
-              style={{ background: c as any }}
-            />
-            <code className="text-xs text-gray-700">{c}</code>
-          </div>
-        ))}
-      </div>
-    );
+    return renderColorSwatches(swatches);
   }
 
   const isPlainObject =
@@ -282,17 +278,7 @@ export const ValueDisplay = ({
   if (isPlainObject) {
     const hex = extractColorHex(value);
     if (hex) {
-      return (
-        <div className="flex items-center gap-3">
-          <div
-            className="h-8 w-8 rounded-md border ring-1 ring-gray-200"
-            style={{ background: hex as any }}
-          />
-          <div className="min-w-0 flex-1">
-            <div className="text-xs text-gray-700">{hex}</div>
-          </div>
-        </div>
-      );
+      return renderColorSwatches([hex]);
     }
 
     const entries = Object.entries(value as Record<string, any>);

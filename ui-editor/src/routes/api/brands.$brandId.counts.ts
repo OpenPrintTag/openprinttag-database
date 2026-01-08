@@ -47,31 +47,10 @@ export const Route = createFileRoute('/api/brands/$brandId/counts')({
           );
         }
 
-        // Count containers
-        let containerCount = 0;
-        try {
-          const containers = await readAllEntities('material-containers', {
-            validate: (obj) =>
-              !!obj && (!!obj.slug || !!obj.uuid || !!obj.name),
-          });
-          if (Array.isArray(containers)) {
-            containerCount = containers.filter(
-              (c: any) => c.brand_slug === brandId,
-            ).length;
-          }
-        } catch (_error) {
-          // Ignore errors, keep count as 0
-          console.warn(
-            `Failed to count containers for brand ${brandId}:`,
-            _error,
-          );
-        }
-
         return json({
           brandId,
           material_count: materialCount,
           package_count: packageCount,
-          container_count: containerCount,
         });
       },
     },

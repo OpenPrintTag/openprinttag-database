@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-import type { SchemaField } from '~/components/field-types';
+import type { EntityFields, SchemaField } from '~/components/field-types';
 
 type JsonValue =
   | string
@@ -105,7 +105,7 @@ export const useSchema = (
   entity: string,
 ): {
   schema: SchemaData;
-  fields: Record<string, SchemaField> | undefined;
+  fields: EntityFields;
 } => {
   const [schema, setSchema] = useState<SchemaData>(
     __schemaCache[entity] || null,
@@ -118,17 +118,10 @@ export const useSchema = (
 
   const fields = useMemo(() => {
     if (!schema || typeof schema !== 'object') return undefined;
-    return (schema as any).properties as
-      | Record<string, SchemaField>
-      | undefined;
+    return (schema as any).properties;
   }, [schema]);
 
   return { schema, fields };
-};
-
-export const stripYamlExt = (file: string | undefined): string | null => {
-  if (!file) return null;
-  return file.replace(/\.(ya?ml)$/i, '');
 };
 
 type ItemWithLabel = {

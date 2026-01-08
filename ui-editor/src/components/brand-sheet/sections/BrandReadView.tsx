@@ -1,11 +1,11 @@
 import { DataGrid } from '~/components/DataGrid';
-import type { SchemaField } from '~/components/SchemaFields';
+import { EntityFields } from '~/components/field-types';
 
 import type { Brand } from '../types';
 
 interface BrandReadViewProps {
   brand?: Brand;
-  fields: Record<string, SchemaField> | undefined;
+  fields: EntityFields;
 }
 
 export const BrandReadView = ({ brand, fields }: BrandReadViewProps) => {

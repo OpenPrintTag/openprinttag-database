@@ -21,7 +21,6 @@ import { ContainerSheet } from '~/components/container-sheet';
 import { DataGrid } from '~/components/DataGrid';
 import { MaterialSheet } from '~/components/material-sheet';
 import { PackageSheet } from '~/components/package-sheet';
-import { type SchemaField } from '~/components/SchemaFields';
 import {
   BrandDetailSkeleton,
   CountBadgeSkeleton,
@@ -339,7 +338,7 @@ const RouteComponent = () => {
       <DataGrid
         data={data}
         title="Brand details"
-        fields={fields as Record<string, SchemaField> | undefined}
+        fields={fields}
         primaryKeys={['uuid', 'slug', 'name']}
       />
 
@@ -383,20 +382,6 @@ const RouteComponent = () => {
                     {packagesQuery.error && packagesQuery.error.includes('404')
                       ? 0
                       : (packagesQuery.data?.length ?? 0)}
-                  </span>
-                )}
-              </TabsTrigger>
-              <TabsTrigger
-                value="containers"
-                className="flex items-center gap-2"
-              >
-                <Package2 className="h-4 w-4" />
-                <span>Containers</span>
-                {containersQuery.loading ? (
-                  <CountBadgeSkeleton />
-                ) : (
-                  <span className="ml-1 rounded-full bg-orange-100 px-1.5 py-0.5 text-xs font-semibold text-orange-700">
-                    {filteredContainers.length}
                   </span>
                 )}
               </TabsTrigger>

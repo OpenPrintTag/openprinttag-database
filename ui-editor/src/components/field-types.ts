@@ -27,3 +27,5 @@ export type SchemaField = {
     field: string;
   };
 };
+
+export type EntityFields = Record<string, SchemaField>;

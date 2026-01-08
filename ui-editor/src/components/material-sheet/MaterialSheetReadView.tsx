@@ -1,3 +1,5 @@
+import { EntityFields } from '~/components/field-types';
+
 import { BasicInformationReadSection } from './sections/BasicInformationReadSection';
 import { PhotosReadSection } from './sections/PhotosReadSection';
 import { PrintSheetCompatibilityReadSection } from './sections/PrintSheetCompatibilityReadSection';
@@ -9,7 +11,7 @@ import type { Material } from './types';
 
 interface MaterialSheetReadViewProps {
   material?: Material;
-  fields: Record<string, unknown> | undefined;
+  fields: EntityFields;
 }
 
 export const MaterialSheetReadView = ({
@@ -18,16 +20,13 @@ export const MaterialSheetReadView = ({
 }: MaterialSheetReadViewProps) => {
   return (
     <div className="my-6 space-y-6">
-      <BasicInformationReadSection
-        material={material}
-        fields={fields as Record<string, any> | undefined}
-      />
+      <BasicInformationReadSection material={material} fields={fields} />
       <VisualPropertiesReadSection material={material} fields={fields} />
       <TagsCertificationsReadSection material={material} fields={fields} />
-      <PhotosReadSection material={material} />
-      <PropertiesReadSection material={material} />
+      <PhotosReadSection material={material} fields={fields} />
+      <PropertiesReadSection material={material} fields={fields} />
       <PrintSheetCompatibilityReadSection material={material} fields={fields} />
-      <SystemInformationReadSection material={material} />
+      <SystemInformationReadSection material={material} fields={fields} />
     </div>
   );
 };

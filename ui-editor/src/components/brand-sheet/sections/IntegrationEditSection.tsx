@@ -1,9 +1,10 @@
+import type { EntityFields } from '~/components/field-types';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
 import type { Brand } from '../types';
 
 interface IntegrationEditSectionProps {
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
   form: Partial<Brand>;
   onFieldChange: (key: string, value: unknown) => void;
 }

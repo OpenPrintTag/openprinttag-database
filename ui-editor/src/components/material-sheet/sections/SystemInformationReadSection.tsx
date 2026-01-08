@@ -1,15 +1,18 @@
 import { DataGrid } from '~/components/DataGrid';
+import { EntityFields } from '~/components/field-types';
 
 import type { Material } from '../types';
 
 interface SystemInformationReadSectionProps {
   material?: Material;
+  fields?: EntityFields;
 }
 
 export const SystemInformationReadSection = ({
   material,
+  fields,
 }: SystemInformationReadSectionProps) => {
-  if (!material?.uuid) {
+  if (!fields || !material?.uuid) {
     return null;
   }
 
@@ -18,7 +21,7 @@ export const SystemInformationReadSection = ({
       data={material}
       title="System Information"
       primaryKeys={['uuid']}
-      excludeKeys={Object.keys(material).filter((k) => k !== 'uuid')}
+      excludeKeys={Object.keys(fields).filter((k) => k !== 'uuid')}
       entity="material"
     />
   );

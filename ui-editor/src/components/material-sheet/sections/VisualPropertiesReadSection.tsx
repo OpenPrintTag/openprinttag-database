@@ -1,11 +1,11 @@
 import { DataGrid } from '~/components/DataGrid';
-import type { SchemaField } from '~/components/field-types';
+import { EntityFields } from '~/components/field-types';
 
 import type { Material } from '../types';
 
 interface VisualPropertiesReadSectionProps {
   material?: Material;
-  fields: Record<string, unknown> | undefined;
+  fields: EntityFields;
 }
 
 export const VisualPropertiesReadSection = ({
@@ -25,14 +25,14 @@ export const VisualPropertiesReadSection = ({
     <DataGrid
       data={material}
       title="Visual Properties"
-      fields={fields as Record<string, SchemaField> | undefined}
+      fields={fields}
       primaryKeys={[
         'primary_color',
         'secondary_colors',
         'transmission_distance',
         'refractive_index',
       ]}
-      excludeKeys={Object.keys(material).filter(
+      excludeKeys={Object.keys(fields).filter(
         (k) =>
           ![
             'primary_color',

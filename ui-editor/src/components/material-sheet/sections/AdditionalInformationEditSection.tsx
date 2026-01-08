@@ -1,9 +1,10 @@
+import type { EntityFields } from '~/components/field-types';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
 import type { Material } from '../types';
 
 interface AdditionalInformationEditSectionProps {
-  fields: Record<string, unknown> | undefined;
+  fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
 }

@@ -33,6 +33,7 @@ export const isHexColor = (s: unknown): boolean => {
 
 type ColorObject = {
   rgba?: unknown;
+  color_rgba?: unknown;
   hex?: unknown;
   rgb?: unknown[];
 };
@@ -42,6 +43,7 @@ export const extractColorHex = (v: unknown): string | null => {
   if (typeof v === 'string' && isHexColor(v)) return v;
   if (typeof v === 'object' && v !== null) {
     const obj = v as ColorObject;
+    if (isHexColor(obj.color_rgba)) return obj.color_rgba as string;
     if (isHexColor(obj.rgba)) return obj.rgba as string;
     if (isHexColor(obj.hex)) return obj.hex as string;
     if (Array.isArray(obj.rgb) && obj.rgb.length >= 3) {

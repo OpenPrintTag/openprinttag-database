@@ -1,13 +1,18 @@
 import { DataGrid } from '~/components/DataGrid';
+import { EntityFields } from '~/components/field-types';
 
 import type { Material } from '../types';
 
 interface PhotosReadSectionProps {
   material?: Material;
+  fields?: EntityFields;
 }
 
-export const PhotosReadSection = ({ material }: PhotosReadSectionProps) => {
-  if (!material?.photos || material.photos.length === 0) {
+export const PhotosReadSection = ({
+  material,
+  fields,
+}: PhotosReadSectionProps) => {
+  if (!fields || !material?.photos || material.photos.length === 0) {
     return null;
   }
 
@@ -16,7 +21,7 @@ export const PhotosReadSection = ({ material }: PhotosReadSectionProps) => {
       data={material}
       title="Photos"
       primaryKeys={['photos']}
-      excludeKeys={Object.keys(material).filter((k) => k !== 'photos')}
+      excludeKeys={Object.keys(fields).filter((k) => k !== 'photos')}
       entity="material"
     />
   );

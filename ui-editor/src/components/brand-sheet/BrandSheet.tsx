@@ -98,10 +98,9 @@ export const BrandSheet = ({
           <BrandReadView brand={form as Brand} fields={fields} />
         ) : (
           <BrandSheetEditView
-            fields={fields as Record<string, unknown> | undefined}
+            fields={fields}
             form={form}
             onFieldChange={handleFieldChange}
-            schema={schema}
           />
         )}
 
