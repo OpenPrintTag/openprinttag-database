@@ -2,7 +2,7 @@ export interface Container {
   uuid?: string;
   slug?: string;
   class?: 'FFF' | 'SLA';
-  brand_slug?: string;
+  brand?: string | { slug: string; name?: string };
   brand_specific_id?: string;
   name?: string;
   volumetric_capacity?: number;
@@ -13,7 +13,6 @@ export interface Container {
   width?: number;
   length?: number;
   height?: number;
-  connector_slug?: string;
   [key: string]: unknown;
 }
 

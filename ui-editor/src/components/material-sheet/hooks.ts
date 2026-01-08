@@ -1,47 +1,35 @@
 import React from 'react';
 
-import { useApi } from '~/hooks/useApi';
+import { useEnum } from '~/hooks/useEnum';
 
-import type { LookupData, SelectOption } from './types';
+import type { SelectOption } from './types';
 
 export const useMaterialLookupData = () => {
-  const { data: tagsData } = useApi<LookupData>(
-    '/api/enum/material-tags',
-    undefined,
-    [],
-  );
-  const { data: certificationsData } = useApi<LookupData>(
-    '/api/enum/material-certifications',
-    undefined,
-    [],
-  );
-  const { data: materialTypesData } = useApi<LookupData>(
-    '/api/enum/material-types',
-    undefined,
-    [],
-  );
+  const { data: tagsData } = useEnum('material_tags');
+  const { data: certificationsData } = useEnum('material_certifications');
+  const { data: materialTypesData } = useEnum('material_types');
 
   const tagsOptions = React.useMemo<SelectOption[]>(() => {
     if (!tagsData?.items) return [];
     return tagsData.items.map((item) => ({
-      value: String(item.slug || item.id),
-      label: String(item.name || item.slug || item.id),
+      value: String(item.slug || item.key || item.name),
+      label: String(item.name || item.slug || item.key),
     }));
   }, [tagsData]);
 
   const certificationsOptions = React.useMemo<SelectOption[]>(() => {
     if (!certificationsData?.items) return [];
     return certificationsData.items.map((item) => ({
-      value: String(item.slug || item.id),
-      label: String(item.name || item.slug || item.id),
+      value: String(item.display_name || item.key || item.name),
+      label: String(item.name || item.display_name || item.key),
     }));
   }, [certificationsData]);
 
   const materialTypesOptions = React.useMemo<SelectOption[]>(() => {
     if (!materialTypesData?.items) return [];
     return materialTypesData.items.map((item) => ({
-      value: String(item.id),
-      label: String(item.name || item.abbreviation || item.id),
+      value: String(item.key),
+      label: String(item.name || item.abbreviation || item.key),
     }));
   }, [materialTypesData]);
 
@@ -49,6 +37,9 @@ export const useMaterialLookupData = () => {
     tagsOptions,
     certificationsOptions,
     materialTypesOptions,
+    tagsData,
+    certificationsData,
+    materialTypesData,
   };
 };
 

@@ -13,9 +13,9 @@ export const useBrandLookupData = () => {
 
   const countriesOptions = React.useMemo<SelectOption[]>(() => {
     if (!countriesData?.items) return [];
-    return countriesData.items.map((item) => ({
-      value: String(item.code || item.id),
-      label: String(item.name || item.code || item.id),
+    return countriesData.items.map((item: any) => ({
+      value: String(item.key),
+      label: String(item.name || item.key),
     }));
   }, [countriesData]);
 

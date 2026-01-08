@@ -35,12 +35,18 @@ export const PackageSheetEditView = ({
             // Skip UUID fields (both uuid and deprecated directus_uuid)
             if (key === 'uuid' || key === 'directus_uuid') return null;
 
+            const value = form?.[key];
+            const rawValue =
+              typeof value === 'object' && value !== null && 'slug' in value
+                ? (value as any).slug
+                : value;
+
             return (
               <FieldEditor
                 key={key}
                 label={key}
                 field={field as SchemaField}
-                value={form?.[key]}
+                value={rawValue}
                 onChange={(val) => onFieldChange(key, val)}
               />
             );

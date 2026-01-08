@@ -3,7 +3,7 @@ import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import type { Material } from '../types';
 
 interface AdditionalInformationEditSectionProps {
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
 }
@@ -12,10 +12,10 @@ const EXCLUDED_FIELDS = [
   'uuid',
   'name',
   'slug',
-  'brand_slug',
+  'brand',
   'brand_specific_id',
   'class',
-  'type_id',
+  'type',
   'abbreviation',
   'url',
   'primary_color',

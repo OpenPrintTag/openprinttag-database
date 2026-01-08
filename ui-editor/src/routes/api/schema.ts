@@ -5,41 +5,35 @@ export const Route = createFileRoute('/api/schema')({
   server: {
     middleware: [],
     handlers: {
-      GET: async () => {
+      GET: async ({ request }) => {
         try {
           const fs = await import('node:fs/promises');
           const path = await import('node:path');
-          const yamlMod = (await import('yaml').catch(
-            () => null as any,
-          )) as any;
-          // Try multiple candidate locations to be robust regardless of cwd
-          const candidates = [
-            path.resolve(process.cwd(), 'schema.yaml'),
-            path.resolve(process.cwd(), '..', 'schema.yaml'),
-          ];
+          const url = new URL(request.url);
+          const entity = url.searchParams.get('entity');
 
-          let content: string | null = null;
-          for (const p of candidates) {
-            try {
-              content = await fs.readFile(p, 'utf8');
-              break;
-            } catch {
-              // try next
-            }
+          if (!entity) {
+            return json({ error: 'Entity name is required' }, { status: 400 });
           }
-          if (!content) {
-            return json({ error: 'Schema not found' }, { status: 404 });
+
+          const schemaPath = path.resolve(
+            process.cwd(),
+            '../openprinttag/schema',
+            `${entity}.schema.json`,
+          );
+
+          try {
+            const content = await fs.readFile(schemaPath, 'utf8');
+            const data = JSON.parse(content);
+            return json(data);
+          } catch (_err) {
+            return json(
+              { error: `Schema for entity "${entity}" not found` },
+              { status: 404 },
+            );
           }
-          const data =
-            yamlMod && typeof yamlMod.parse === 'function'
-              ? yamlMod.parse(content)
-              : null;
-          if (!data) {
-            return json({ error: 'Failed to parse schema' }, { status: 500 });
-          }
-          return json(data);
         } catch (_err) {
-          return json({ error: 'Schema not found' }, { status: 404 });
+          return json({ error: 'Internal server error' }, { status: 500 });
         }
       },
     },

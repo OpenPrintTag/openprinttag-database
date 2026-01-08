@@ -97,27 +97,3 @@ export async function deleteNestedByBrand(
     id as any,
   );
 }
-
-export async function readLookupTableItem(table: string, id: string) {
-  const mod = await import('~/server/data/fs');
-  return mod.readLookupTableItem(table as any, id as any);
-}
-
-export async function writeLookupTableItem(
-  table: string,
-  id: string,
-  payload: unknown,
-) {
-  const mod = await import('~/server/data/fs');
-  return mod.writeLookupTableItem(table as any, id as any, payload as any);
-}
-
-export async function createLookupTableItem(table: string, payload: unknown) {
-  const mod = await import('~/server/data/fs');
-  return mod.createLookupTableItem(table as any, payload as any);
-}
-
-export async function deleteLookupTableItem(table: string, id: string) {
-  const mod = await import('~/server/data/fs');
-  return mod.deleteLookupTableItem(table as any, id as any);
-}

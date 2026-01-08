@@ -14,7 +14,7 @@ import {
   Search,
   X,
 } from 'lucide-react';
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import { BrandSheet } from '~/components/brand-sheet';
 import { ContainerSheet } from '~/components/container-sheet';
@@ -30,6 +30,7 @@ import {
 } from '~/components/skeletons';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
+import { useEnum } from '~/hooks/useEnum';
 import { useSchema } from '~/hooks/useSchema';
 import { EditButton } from '~/shared/components/action-buttons';
 import type { Brand } from '~/types/brand';
@@ -61,7 +62,7 @@ const RouteComponent = () => {
     location.pathname.includes('/materials') ||
     location.pathname.includes('/packages');
 
-  const schema = useSchema();
+  const { schema, fields } = useSchema('brand');
 
   // Brand edit state from URL
   const isBrandEditOpen = search.editBrand || false;
@@ -124,13 +125,41 @@ const RouteComponent = () => {
     [brandId],
   );
 
-  const containersQuery = useApi<any[]>('/api/containers', undefined, []);
+  const {
+    data: containersData,
+    loading: containersLoading,
+    error: containersError,
+    refetch: refetchContainers,
+  } = useEnum('containers');
+  const { data: tagsData } = useEnum('material_tags');
+
+  const containersQuery = useMemo(() => {
+    return {
+      data: containersData?.items ?? [],
+      loading: containersLoading,
+      error: containersError,
+      refetch: refetchContainers,
+    };
+  }, [containersData, containersLoading, containersError, refetchContainers]);
 
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
   const [activeTab, setActiveTab] = React.useState<
     'materials' | 'packages' | 'containers'
   >(search.tab || 'materials');
+  const tagLabelMap = useMemo(() => {
+    const map: Record<string, string> = {};
+    const items = tagsData?.items ?? [];
+    for (const item of items as any[]) {
+      if (!item || typeof item !== 'object') continue;
+      const key = (item as any).name;
+      if (!key) continue;
+      map[key] = String(
+        (item as any).display_name ?? (item as any).slug ?? key,
+      );
+    }
+    return map;
+  }, [tagsData]);
 
   const getNewEntityLabel = () => {
     if (activeTab === 'materials') {
@@ -271,12 +300,6 @@ const RouteComponent = () => {
       resetScroll: false,
     });
   };
-
-  const fields = React.useMemo(() => {
-    if (!schema || typeof schema !== 'object') return null;
-    const ent = (schema.entities ?? {}).brands;
-    return ent?.fields ?? null;
-  }, [schema]);
 
   if (loading && !data) {
     return <BrandDetailSkeleton />;
@@ -488,7 +511,8 @@ const RouteComponent = () => {
                         const tags = Array.isArray((m as any).tags)
                           ? (m as any).tags
                           : [];
-                        const primaryColor = (m as any).primary_color?.rgba;
+                        const primaryColor = (m as any).primary_color
+                          ?.color_rgba;
                         return (
                           <button
                             key={matId}
@@ -530,7 +554,7 @@ const RouteComponent = () => {
                                     key={idx}
                                     className="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700"
                                   >
-                                    {String(tag)}
+                                    {tagLabelMap[String(tag)] ?? String(tag)}
                                   </div>
                                 ))}
                               {tags.length > 3 && (

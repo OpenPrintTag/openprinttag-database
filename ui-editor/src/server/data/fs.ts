@@ -27,6 +27,8 @@ export async function findEntityDir(entity: string): Promise<string | null> {
   const candidates = [
     path.resolve(process.cwd(), 'data', entity),
     path.resolve(process.cwd(), '..', 'data', entity),
+    path.resolve(process.cwd(), 'openprinttag', entity),
+    path.resolve(process.cwd(), '..', 'openprinttag', entity),
   ];
 
   for (const p of candidates) {
@@ -598,52 +600,15 @@ export async function deleteNestedByBrand(
   return { error: `${entityDirName} item not found for brand`, status: 404 };
 }
 
-// --- Lookup table helpers (single YAML file with an array under a top-level key) ---
-export async function readLookupTable(
-  tableName: string,
-): Promise<
-  { items: any[]; meta: { key: string } } | { error: string; status?: number }
-> {
-  const dir = await findEntityDir('lookup-tables');
-  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
-  const filePath = path.join(dir, `${tableName}.yaml`);
-  try {
-    const content = await fs.readFile(filePath, 'utf8');
-    const data = await parseYaml(content);
-    if (!data || typeof data !== 'object')
-      return { error: 'Invalid lookup table file', status: 500 };
-    // Find the first array property
-    const key = Object.keys(data).find((k) => Array.isArray((data as any)[k]));
-    if (!key) return { error: 'Lookup table items not found', status: 500 };
-    const items = (data as any)[key] as any[];
-    return { items, meta: { key } };
-  } catch (_err) {
-    return { error: 'Lookup table not found', status: 404 };
-  }
-}
+const NEW_ENUMS = [
+  'material_certifications',
+  'material_tags',
+  'material_types',
+  'material_tag_categories',
+  'material_photo_types',
+  'brand_link_pattern_types',
+];
 
-export async function readLookupTableItem(
-  tableName: string,
-  id: string | number,
-): Promise<any | { error: string; status?: number }> {
-  const res = await readLookupTable(tableName);
-  if ('error' in res) return res;
-  const { items } = res;
-  const idStr = String(id).toLowerCase();
-  const match = items.find((it) => {
-    const nameSlug = slugifyName((it as any)?.name);
-    return (
-      String((it as any)?.id) === idStr ||
-      (it as any)?.code?.toLowerCase() === idStr ||
-      (it as any)?.slug === idStr ||
-      nameSlug === idStr
-    );
-  });
-  if (!match) return { error: 'Lookup item not found', status: 404 };
-  return match;
-}
-
-// Write helpers for lookup tables
 export async function stringifyYaml(obj: any): Promise<string> {
   try {
     const mod = (await import('yaml').catch(() => null as any)) as any;
@@ -659,181 +624,39 @@ export async function stringifyYaml(obj: any): Promise<string> {
   return header + JSON.stringify(obj, null, 2) + '\n';
 }
 
-export async function writeLookupTableItem(
+// --- Lookup table helpers (single YAML file with an array under a top-level key) ---
+export async function readLookupTable(
   tableName: string,
-  id: string | number,
-  newValue: any,
-): Promise<{ ok: true } | { error: string; status?: number }> {
-  const dir = await findEntityDir('lookup-tables');
-  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
-  const filePath = path.join(dir, `${tableName}.yaml`);
-  let data: any;
-  try {
-    const content = await fs.readFile(filePath, 'utf8');
-    data = await parseYaml(content);
-  } catch (_err) {
-    return { error: 'Lookup table not found', status: 404 };
-  }
-  if (!data || typeof data !== 'object')
-    return { error: 'Invalid lookup table file', status: 500 };
-  const arrayKey = Object.keys(data).find((k) =>
-    Array.isArray((data as any)[k]),
-  );
-  if (!arrayKey) return { error: 'Lookup table items not found', status: 500 };
-  const items: any[] = (data as any)[arrayKey] as any[];
-
-  const idStr = String(id).toLowerCase();
-  const idx = items.findIndex((it) => {
-    const nameSlug = slugifyName((it as any)?.name);
-    return (
-      String((it as any)?.id) === idStr ||
-      (it as any)?.code?.toLowerCase() === idStr ||
-      (it as any)?.slug === idStr ||
-      nameSlug === idStr
+): Promise<
+  { items: any[]; meta: { key: string } } | { error: string; status?: number }
+> {
+  if (NEW_ENUMS.includes(tableName)) {
+    const filePath = path.join(
+      process.cwd(),
+      '../openprinttag/data',
+      `${tableName}.yaml`,
     );
-  });
-  if (idx === -1) return { error: 'Lookup item not found', status: 404 };
-
-  // Preserve original ordering; replace the item
-  items[idx] = newValue;
-
-  // Write back to disk
-  const payload = { [arrayKey]: items };
-  try {
-    const yamlStr = await stringifyYaml(payload);
-    await fs.writeFile(filePath, yamlStr, 'utf8');
-    return { ok: true };
-  } catch (err) {
-    console.error('Failed to write lookup table item:', err);
-    return { error: 'Failed to write lookup table item', status: 500 };
-  }
-}
-
-export async function createLookupTableItem(
-  tableName: string,
-  newValue: any,
-): Promise<{ ok: true; id: string } | { error: string; status?: number }> {
-  const dir = await findEntityDir('lookup-tables');
-  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
-  const filePath = path.join(dir, `${tableName}.yaml`);
-  let data: any;
-  try {
-    const content = await fs.readFile(filePath, 'utf8');
-    data = await parseYaml(content);
-  } catch (_err) {
-    return { error: 'Lookup table not found', status: 404 };
-  }
-  if (!data || typeof data !== 'object')
-    return { error: 'Invalid lookup table file', status: 500 };
-  const arrayKey = Object.keys(data).find((k) =>
-    Array.isArray((data as any)[k]),
-  );
-  if (!arrayKey) return { error: 'Lookup table items not found', status: 500 };
-  const items: any[] = (data as any)[arrayKey] as any[];
-
-  // Check if existing items have numeric IDs
-  const hasNumericIds = items.some(
-    (item) => item?.id !== undefined && !isNaN(Number(item.id)),
-  );
-
-  let newItem: any;
-  let resultId: string;
-
-  if (hasNumericIds) {
-    // Generate a new ID based on existing IDs
-    const maxId = items.reduce((max, item) => {
-      const itemId = Number(item?.id);
-      return !isNaN(itemId) && itemId > max ? itemId : max;
-    }, 0);
-    const newId = maxId + 1;
-    newItem = { id: newId, ...newValue };
-    resultId = String(newId);
-  } else {
-    // Don't add an ID field - use existing structure
-    newItem = { ...newValue };
-    // Try to determine the ID from the new value
-    resultId =
-      String(
-        newValue?.code ?? newValue?.slug ?? newValue?.name ?? '',
-      ).toLowerCase() || String(items.length);
+    try {
+      const content = await fs.readFile(filePath, 'utf8');
+      const data = await parseYaml(content);
+      if (!Array.isArray(data)) {
+        return {
+          error: 'Invalid lookup table file (expected array)',
+          status: 500,
+        };
+      }
+      return { items: data, meta: { key: 'items' } };
+    } catch (_err) {
+      return { error: 'Lookup table not found', status: 404 };
+    }
   }
 
-  // Add to items array
-  items.push(newItem);
-
-  // Write back to disk
-  const payload = { [arrayKey]: items };
-  try {
-    const yamlStr = await stringifyYaml(payload);
-    await fs.writeFile(filePath, yamlStr, 'utf8');
-    return { ok: true, id: resultId };
-  } catch (err) {
-    console.error('Failed to create lookup table item:', err);
-    return { error: 'Failed to create lookup table item', status: 500 };
-  }
-}
-
-export async function deleteLookupTableItem(
-  tableName: string,
-  id: string | number,
-): Promise<{ ok: true } | { error: string; status?: number }> {
-  const dir = await findEntityDir('lookup-tables');
-  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
-  const filePath = path.join(dir, `${tableName}.yaml`);
-  let data: any;
-  try {
-    const content = await fs.readFile(filePath, 'utf8');
-    data = await parseYaml(content);
-  } catch (_err) {
-    return { error: 'Lookup table not found', status: 404 };
-  }
-  if (!data || typeof data !== 'object')
-    return { error: 'Invalid lookup table file', status: 500 };
-  const arrayKey = Object.keys(data).find((k) =>
-    Array.isArray((data as any)[k]),
-  );
-  if (!arrayKey) return { error: 'Lookup table items not found', status: 500 };
-  const items: any[] = (data as any)[arrayKey] as any[];
-
-  const idStr = String(id).toLowerCase();
-  const idx = items.findIndex((it) => {
-    const nameSlug = slugifyName((it as any)?.name);
-    return (
-      String((it as any)?.id) === idStr ||
-      (it as any)?.code?.toLowerCase() === idStr ||
-      (it as any)?.slug === idStr ||
-      nameSlug === idStr
-    );
-  });
-  if (idx === -1) return { error: 'Lookup item not found', status: 404 };
-
-  // Remove the item from the array
-  items.splice(idx, 1);
-
-  // Write back to disk
-  const payload = { [arrayKey]: items };
-  try {
-    const yamlStr = await stringifyYaml(payload);
-    await fs.writeFile(filePath, yamlStr, 'utf8');
-    return { ok: true };
-  } catch (err) {
-    console.error('Failed to delete lookup table item:', err);
-    return { error: 'Failed to delete lookup table item', status: 500 };
-  }
+  return { error: 'Lookup table not found', status: 404 };
 }
 
 export async function listLookupTables(): Promise<
   string[] | { error: string; status?: number }
 > {
-  const dir = await findEntityDir('lookup-tables');
-  if (!dir) return { error: 'lookup-tables directory not found', status: 500 };
-  try {
-    const files = await fs.readdir(dir);
-    return files
-      .filter((f) => /\.ya?ml$/i.test(f))
-      .map((f) => f.replace(/\.ya?ml$/i, ''))
-      .sort((a, b) => a.localeCompare(b));
-  } catch (_err) {
-    return { error: 'Failed to list lookup tables', status: 500 };
-  }
+  const files: string[] = [...NEW_ENUMS, 'countries'];
+  return files.sort((a, b) => a.localeCompare(b));
 }

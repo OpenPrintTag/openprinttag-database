@@ -35,7 +35,7 @@ export function useApi<T = unknown>(
 
       return (await res.json()) as T;
     },
-    enabled: typeof window !== 'undefined', // Only run in browser
+    enabled: typeof window !== 'undefined' && !!url, // Only run in browser when URL is available
   });
 
   return {

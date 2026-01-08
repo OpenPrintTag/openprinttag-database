@@ -6,7 +6,7 @@ import { BrandCard } from '~/components/BrandCard';
 import { PageHeader } from '~/components/PageHeader';
 import { SearchBar } from '~/components/SearchBar';
 import { BrandCardGridSkeleton } from '~/components/skeletons';
-import { useApi } from '~/hooks/useApi';
+import { useEnum } from '~/hooks/useEnum';
 import type { Brand } from '~/types/brand';
 
 export const Route = createFileRoute('/brands/')({
@@ -14,9 +14,14 @@ export const Route = createFileRoute('/brands/')({
 });
 
 function RouteComponent() {
-  // Load brands without counts first (fast)
-  const { data, error, loading } = useApi<Brand[]>('/api/brands/basic');
-  const brands = data ?? [];
+  const {
+    data: enums,
+    loading,
+    error,
+  } = useEnum('brands', {
+    variant: 'basic',
+  });
+  const brands = (enums?.items as Brand[]) ?? [];
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
 
@@ -93,9 +98,9 @@ function RouteComponent() {
         </div>
       )}
       {/* Loading State */}
-      {loading && !data && <BrandCardGridSkeleton count={12} />}
+      {loading && brands.length === 0 && <BrandCardGridSkeleton count={12} />}
       {/* Error State */}
-      {!loading && error && (
+      {!loading && error && brands.length === 0 && (
         <div className="rounded-2xl border-2 border-red-200 bg-red-50 p-8 text-center shadow-md">
           <div className="text-base font-semibold text-red-900">
             Error loading brands
@@ -104,7 +109,7 @@ function RouteComponent() {
         </div>
       )}
       {/* Empty State - No Brands */}
-      {!loading && !error && data && brands.length === 0 && (
+      {!loading && !error && brands.length === 0 && (
         <div
           className="flex flex-col items-center justify-center rounded-2xl border-2 border-dashed p-16 text-center shadow-sm"
           style={{
@@ -138,7 +143,6 @@ function RouteComponent() {
       {/* Empty State - No Search Results */}
       {!loading &&
         !error &&
-        data &&
         brands.length > 0 &&
         processedBrands.length === 0 &&
         debouncedSearch && (

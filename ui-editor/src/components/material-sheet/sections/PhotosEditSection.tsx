@@ -1,9 +1,9 @@
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
-import type { Material, PhotoItem } from '../types';
+import type { Material } from '../types';
 
 interface PhotosEditSectionProps {
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
 }
@@ -23,9 +23,7 @@ export const PhotosEditSection = ({
           label="photos"
           field={fields.photos as SchemaField}
           value={form?.photos}
-          onChange={(val) =>
-            onFieldChange('photos', val as (string | PhotoItem)[])
-          }
+          onChange={(val) => onFieldChange('photos', val)}
         />
       </div>
     </div>

@@ -5,27 +5,25 @@ import { PropertiesReadSection } from './sections/PropertiesReadSection';
 import { SystemInformationReadSection } from './sections/SystemInformationReadSection';
 import { TagsCertificationsReadSection } from './sections/TagsCertificationsReadSection';
 import { VisualPropertiesReadSection } from './sections/VisualPropertiesReadSection';
-import type { Material, SelectOption } from './types';
+import type { Material } from './types';
 
 interface MaterialSheetReadViewProps {
   material?: Material;
-  materialTypesOptions: SelectOption[];
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
 }
 
 export const MaterialSheetReadView = ({
   material,
-  materialTypesOptions,
   fields,
 }: MaterialSheetReadViewProps) => {
   return (
     <div className="my-6 space-y-6">
       <BasicInformationReadSection
         material={material}
-        materialTypesOptions={materialTypesOptions}
+        fields={fields as Record<string, any> | undefined}
       />
       <VisualPropertiesReadSection material={material} fields={fields} />
-      <TagsCertificationsReadSection material={material} />
+      <TagsCertificationsReadSection material={material} fields={fields} />
       <PhotosReadSection material={material} />
       <PropertiesReadSection material={material} />
       <PrintSheetCompatibilityReadSection material={material} fields={fields} />

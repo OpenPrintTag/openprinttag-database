@@ -6,7 +6,7 @@ import { ContainerSheet } from '~/components/container-sheet';
 import { PageHeader } from '~/components/PageHeader';
 import { SearchBar } from '~/components/SearchBar';
 import { Button } from '~/components/ui';
-import { useApi } from '~/hooks/useApi';
+import { useEnum } from '~/hooks/useEnum';
 import type { Brand } from '~/types/brand';
 import { slugifyName } from '~/utils/slug';
 
@@ -25,10 +25,17 @@ export const Route = createFileRoute('/containers/')({
 });
 
 function RouteComponent() {
-  const { data, error, loading } = useApi<Container[]>('/api/containers');
-  const containers = data ?? [];
-  const { data: brandsData } = useApi<Brand[]>('/api/brands');
-  const brands = brandsData ?? [];
+  const {
+    data: containersData,
+    loading: containersLoading,
+    error: containersError,
+  } = useEnum('containers');
+  const { data: brandsData } = useEnum('brands', { variant: 'basic' });
+
+  const containers = (containersData?.items as Container[]) ?? [];
+  const brands = (brandsData?.items as Brand[]) ?? [];
+  const loading = containersLoading;
+  const error = containersError;
   const { containerId, mode } = Route.useSearch();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = React.useState('');
@@ -132,7 +139,7 @@ function RouteComponent() {
       </div>
 
       {/* Background Loading Indicator - shown when refreshing with existing data */}
-      {loading && data && (
+      {loading && containers.length > 0 && (
         <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
           <Loader2 className="h-4 w-4 animate-spin" />
           <span>Updating containers...</span>
@@ -156,7 +163,7 @@ function RouteComponent() {
       )}
 
       {/* Loading State */}
-      {loading && (
+      {loading && containers.length === 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 12 }).map((_, i) => (
             <div
@@ -170,7 +177,7 @@ function RouteComponent() {
       )}
 
       {/* Error State */}
-      {!loading && error && (
+      {!loading && error && containers.length === 0 && (
         <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
           <div className="text-sm font-medium text-red-900">
             Error loading containers
@@ -180,7 +187,7 @@ function RouteComponent() {
       )}
 
       {/* Empty State - No Containers */}
-      {!loading && !error && data && containers.length === 0 && (
+      {!loading && !error && containers.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
           <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
             <Package2 className="h-10 w-10 text-gray-500" />
@@ -197,7 +204,6 @@ function RouteComponent() {
       {/* Empty State - No Search Results */}
       {!loading &&
         !error &&
-        data &&
         containers.length > 0 &&
         processedContainers.length === 0 &&
         debouncedSearch && (

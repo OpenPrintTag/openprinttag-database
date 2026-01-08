@@ -1,5 +1,6 @@
-import { useQuery } from '@tanstack/react-query';
+import { useMemo } from 'react';
 
+import { useEnum } from './useEnum';
 import { bestLabelFromItem } from './useSchema';
 
 type Option = { value: string | number; label: string };
@@ -8,56 +9,48 @@ export const useEnumOptions = (
   table: string | null,
   valueField: string | null,
 ): { loading: boolean; error: string | null; options: Option[] } => {
-  const cacheKey = table ? `${table}::${valueField ?? ''}` : '';
+  const variant =
+    table === 'brands' ? { variant: 'basic' as const } : undefined;
+  const { data: payload, loading, error } = useEnum(table, variant);
 
-  const query = useQuery({
-    queryKey: [`/api/enum/${table}`, cacheKey],
-    queryFn: async () => {
-      if (!table || !valueField) {
-        return [];
-      }
+  const options = useMemo(() => {
+    if (!table || !valueField || !payload) {
+      return [];
+    }
+    const items = Array.isArray(payload?.items) ? payload.items : [];
 
-      const res = await fetch(`/api/enum/${table}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const opts: Option[] = items
+      .map((it) => {
+        if (!it || typeof it !== 'object') return null;
+        const item = it as Record<string, unknown>;
+        const value = item[valueField];
+        const label = bestLabelFromItem(it);
+        if (value === undefined || value === null) {
+          return null;
+        }
+        return { value: value as string | number, label: String(label) };
+      })
+      .filter(Boolean) as Option[];
 
-      const payload = (await res.json()) as { items?: unknown[] };
-      const items = Array.isArray(payload?.items) ? payload.items : [];
+    if (opts.length > 0) return opts;
 
-      const opts: Option[] = items
-        .map((it) => {
-          if (!it || typeof it !== 'object') return null;
-          const item = it as Record<string, unknown>;
-          const value = item[valueField];
-          const label = bestLabelFromItem(it);
-          if (value === undefined || value === null) return null;
-          return { value: value as string | number, label: String(label) };
-        })
-        .filter(Boolean) as Option[];
-
-      const finalOpts =
-        opts.length > 0
-          ? opts
-          : (items
-              .map((it) => {
-                if (!it || typeof it !== 'object') return null;
-                const item = it as Record<string, unknown>;
-                const value = item.slug ?? item.code ?? item.id;
-                if (value == null) return null;
-                return {
-                  value: value as string | number,
-                  label: bestLabelFromItem(it),
-                };
-              })
-              .filter(Boolean) as Option[]);
-
-      return finalOpts;
-    },
-    enabled: !!table && !!valueField && typeof window !== 'undefined',
-  });
+    return items
+      .map((it) => {
+        if (!it || typeof it !== 'object') return null;
+        const item = it as Record<string, unknown>;
+        const value = item.slug ?? item.code ?? item.id;
+        if (value == null) return null;
+        return {
+          value: value as string | number,
+          label: bestLabelFromItem(it),
+        };
+      })
+      .filter(Boolean) as Option[];
+  }, [payload, table, valueField]);
 
   return {
-    loading: query.isLoading || query.isFetching,
-    error: query.error ? String(query.error) : null,
-    options: query.data ?? [],
+    loading,
+    error,
+    options,
   };
 };

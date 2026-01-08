@@ -3,8 +3,8 @@ import { toast } from 'sonner';
 
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { DIALOG_MESSAGES, TOAST_MESSAGES } from '~/constants/messages';
-import { useApi } from '~/hooks/useApi';
 import { useConfirmDialog } from '~/hooks/useConfirmDialog';
+import { useEnum } from '~/hooks/useEnum';
 import {
   useCreateContainer,
   useDeleteContainer,
@@ -31,7 +31,7 @@ export const ContainerSheet = ({
   readOnly = false,
   onEdit,
 }: ContainerSheetProps) => {
-  const schema = useSchema();
+  const { fields } = useSchema('material_container');
   const { confirm, ConfirmDialog } = useConfirmDialog();
 
   // Memoize initialForm to prevent unnecessary re-renders
@@ -63,19 +63,21 @@ export const ContainerSheet = ({
   const updateContainerMutation = useUpdateContainer(containerId);
   const deleteContainerMutation = useDeleteContainer(containerId);
 
-  const { data: brandsData } = useApi<any[]>('/api/brands');
-  const brands = brandsData ?? [];
+  const { data: enums } = useEnum('brands', { variant: 'basic' });
+  const brands = useMemo(() => enums?.items ?? [], [enums]);
 
-  const { data: connectorsData } = useApi<any[]>(
-    '/api/enum/sla-container-connectors',
-  );
-  const connectors = connectorsData ?? [];
+  const enrichedContainer = useMemo(() => {
+    if (!form) return form;
+    const enriched = { ...form };
+    const brandSlug =
+      typeof enriched.brand === 'object' ? enriched.brand.slug : enriched.brand;
 
-  const brandName = useMemo(() => {
-    if (!form?.brand_slug) return undefined;
-    const brand = brands.find((b) => b.slug === form.brand_slug);
-    return brand?.name;
-  }, [form?.brand_slug, brands]);
+    if (brands.length > 0 && brandSlug) {
+      const foundBrand = brands.find((b) => b.slug === brandSlug);
+      if (foundBrand) enriched.brand = foundBrand;
+    }
+    return enriched;
+  }, [form, brands]);
 
   const handleFieldChange = (key: string, value: unknown) => {
     baseHandleFieldChange(key, value);
@@ -87,12 +89,17 @@ export const ContainerSheet = ({
   };
 
   const handleSave = async () => {
-    if (!form.name?.trim()) {
+    const rawForm = { ...form };
+    if (typeof rawForm.brand === 'object' && rawForm.brand !== null) {
+      rawForm.brand = (rawForm.brand as any).slug;
+    }
+
+    if (!rawForm.name?.trim()) {
       setError(TOAST_MESSAGES.VALIDATION.CONTAINER_NAME_REQUIRED);
       return;
     }
 
-    if (!form.class) {
+    if (!rawForm.class) {
       setError(TOAST_MESSAGES.VALIDATION.CONTAINER_CLASS_REQUIRED);
       return;
     }
@@ -101,13 +108,13 @@ export const ContainerSheet = ({
 
     try {
       if (currentMode === 'create') {
-        await createContainerMutation.mutateAsync({ data: form });
+        await createContainerMutation.mutateAsync({ data: rawForm });
         toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_CREATED);
       } else {
         if (!containerId) {
           throw new Error(TOAST_MESSAGES.VALIDATION.CONTAINER_ID_NOT_FOUND);
         }
-        await updateContainerMutation.mutateAsync({ data: form });
+        await updateContainerMutation.mutateAsync({ data: rawForm });
         setIsReadOnly(true);
         setCurrentMode('edit');
         toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
@@ -181,13 +188,15 @@ export const ContainerSheet = ({
           )}
 
           {isReadOnly ? (
-            <ContainerSheetReadView container={form} brandName={brandName} />
+            <ContainerSheetReadView
+              container={enrichedContainer as Container}
+              fields={fields}
+            />
           ) : (
             <ContainerSheetEditView
-              form={form}
+              form={enrichedContainer as Container}
               onFieldChange={handleFieldChange}
-              brands={brands}
-              connectors={connectors}
+              fields={fields}
             />
           )}
 
@@ -206,7 +215,7 @@ export const ContainerSheet = ({
               createContainerMutation.isPending ||
               updateContainerMutation.isPending ||
               deleteContainerMutation.isPending ||
-              !schema ||
+              !fields ||
               !form.name?.trim() ||
               !form.class
             }

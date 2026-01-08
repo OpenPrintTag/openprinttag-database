@@ -3,8 +3,8 @@ import { toast } from 'sonner';
 
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { DIALOG_MESSAGES, TOAST_MESSAGES } from '~/constants/messages';
-import { useApi } from '~/hooks/useApi';
 import { useConfirmDialog } from '~/hooks/useConfirmDialog';
+import { useEnum } from '~/hooks/useEnum';
 import {
   useCreateMaterial,
   useDeleteMaterial,
@@ -33,16 +33,17 @@ export const MaterialSheet = ({
   readOnly = false,
   onEdit,
 }: MaterialSheetProps) => {
-  const schema = useSchema();
+  const { schema, fields } = useSchema('material');
   const { confirm, ConfirmDialog } = useConfirmDialog();
-  const { tagsOptions, certificationsOptions, materialTypesOptions } =
+  const { tagsData, certificationsData, materialTypesData } =
     useMaterialLookupData();
 
-  const { data: brandData } = useApi<any>(
-    () => `/api/brands/${brandId}`,
-    undefined,
-    [brandId],
-  );
+  const { data: brandsData } = useEnum('brands', { variant: 'basic' });
+  const brandData = useMemo(() => {
+    return brandsData?.items?.find(
+      (b) => b.slug === brandId || b.uuid === brandId,
+    );
+  }, [brandsData, brandId]);
 
   const initialForm = useMemo(() => {
     if (mode === 'create' && brandData) {
@@ -51,9 +52,9 @@ export const MaterialSheet = ({
       return {
         name: '',
         slug: '',
-        brand_slug: brandSlug,
+        brand: brandSlug,
         class: '',
-        type_id: undefined,
+        type: undefined,
         abbreviation: '',
         tags: [],
         certifications: [],
@@ -65,14 +66,10 @@ export const MaterialSheet = ({
     }
     return {
       name: '',
+      class: '',
       type: '',
-      manufacturer_material_code: '',
-      density: null,
-      glass_transition_temperature: null,
-      min_print_temperature: null,
-      max_print_temperature: null,
-      min_bed_temperature: null,
-      max_bed_temperature: null,
+      brand: brandId,
+      abbreviation: '',
     };
   }, [mode, brandData, brandId]);
 
@@ -94,6 +91,57 @@ export const MaterialSheet = ({
     initialForm,
   });
 
+  const enrichedMaterial = useMemo(() => {
+    if (!form) return form;
+    const enriched = { ...form };
+
+    // Brand enrichment
+    if (brandData && enriched.brand === brandId) {
+      enriched.brand = brandData;
+    }
+
+    // Material Type enrichment
+    if (materialTypesData?.items && enriched.type) {
+      const found = materialTypesData.items.find(
+        (it) => String(it.key) === String(enriched.type),
+      );
+      if (found) enriched.type = found as any;
+    }
+
+    // Tags enrichment
+    if (tagsData?.items && Array.isArray(enriched.tags)) {
+      enriched.tags = enriched.tags.map((tagSlug) => {
+        const found = tagsData.items.find(
+          (it) =>
+            it.slug === tagSlug || it.key === tagSlug || it.name === tagSlug,
+        );
+        return (found || tagSlug) as any;
+      });
+    }
+
+    // Certifications enrichment
+    if (certificationsData?.items && Array.isArray(enriched.certifications)) {
+      enriched.certifications = enriched.certifications.map((certKey) => {
+        const found = certificationsData.items.find(
+          (it) =>
+            it.name === certKey ||
+            it.display_name === certKey ||
+            String(it.key) === String(certKey),
+        );
+        return found || certKey;
+      });
+    }
+
+    return enriched;
+  }, [
+    form,
+    brandData,
+    brandId,
+    materialTypesData,
+    tagsData,
+    certificationsData,
+  ]);
+
   const materialId = String(
     material?.slug || material?.uuid || material?.id || '',
   );
@@ -101,18 +149,32 @@ export const MaterialSheet = ({
   const updateMaterialMutation = useUpdateMaterial(brandId, materialId);
   const deleteMaterialMutation = useDeleteMaterial(brandId, materialId);
 
-  const fields = useMemo(() => {
-    if (!schema || typeof schema !== 'object') return null;
-    const ent = (schema.entities ?? {}).materials;
-    return ent?.fields ?? null;
-  }, [schema]);
-
   const handleSave = async () => {
-    if (!form.name?.trim()) {
+    const rawForm = { ...form };
+    if (typeof rawForm.brand === 'object' && rawForm.brand !== null) {
+      rawForm.brand = (rawForm.brand as any).slug;
+    }
+    if (typeof rawForm.type === 'object' && rawForm.type !== null) {
+      rawForm.type = (rawForm.type as any).key;
+    }
+    if (Array.isArray(rawForm.tags)) {
+      rawForm.tags = rawForm.tags.map((t: any) =>
+        typeof t === 'object' && t !== null ? t.name || t.slug || t.key : t,
+      );
+    }
+    if (Array.isArray(rawForm.certifications)) {
+      rawForm.certifications = rawForm.certifications.map((c: any) =>
+        typeof c === 'object' && c !== null
+          ? c.name || c.display_name || c.key
+          : c,
+      );
+    }
+
+    if (!rawForm.name?.trim()) {
       setError(TOAST_MESSAGES.VALIDATION.MATERIAL_NAME_REQUIRED);
       return;
     }
-    if (!form.class) {
+    if (!rawForm.class) {
       setError(TOAST_MESSAGES.VALIDATION.MATERIAL_CLASS_REQUIRED);
       return;
     }
@@ -121,13 +183,13 @@ export const MaterialSheet = ({
 
     try {
       if (currentMode === 'create') {
-        await createMaterialMutation.mutateAsync({ data: form });
+        await createMaterialMutation.mutateAsync({ data: rawForm });
         toast.success(TOAST_MESSAGES.SUCCESS.MATERIAL_CREATED);
       } else {
         if (!materialId) {
           throw new Error(TOAST_MESSAGES.VALIDATION.MATERIAL_ID_NOT_FOUND);
         }
-        await updateMaterialMutation.mutateAsync({ data: form });
+        await updateMaterialMutation.mutateAsync({ data: rawForm });
         toast.success(TOAST_MESSAGES.SUCCESS.MATERIAL_UPDATED);
       }
 
@@ -203,18 +265,14 @@ export const MaterialSheet = ({
 
           {isReadOnly ? (
             <MaterialSheetReadView
-              material={form}
-              materialTypesOptions={materialTypesOptions}
+              material={enrichedMaterial}
               fields={fields}
             />
           ) : (
             <MaterialSheetEditView
               fields={fields}
-              form={form}
+              form={enrichedMaterial as Material}
               onFieldChange={handleFieldChange}
-              materialTypesOptions={materialTypesOptions}
-              tagsOptions={tagsOptions}
-              certificationsOptions={certificationsOptions}
               schema={schema}
               mode={currentMode}
               initialSlug={material?.slug}

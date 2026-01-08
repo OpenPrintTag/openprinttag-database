@@ -3,7 +3,7 @@ import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import type { Material } from '../types';
 
 interface PropertiesEditSectionProps {
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
 }
@@ -23,9 +23,7 @@ export const PropertiesEditSection = ({
           label="properties"
           field={fields.properties as SchemaField}
           value={form?.properties}
-          onChange={(val) =>
-            onFieldChange('properties', val as Record<string, unknown>)
-          }
+          onChange={(val) => onFieldChange('properties', val)}
         />
       </div>
     </div>

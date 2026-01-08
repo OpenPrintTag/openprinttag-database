@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { FormField } from '~/components/FormField';
+import { useEnumOptions } from '~/hooks/useEnumOptions';
 import { humanize } from '~/utils/format';
 
 interface PhotoItem {
@@ -28,6 +29,7 @@ export const PhotosEditor = ({
   onChange,
   required,
 }: PhotosEditorProps) => {
+  const { options, loading } = useEnumOptions('material_photo_types', 'slug');
   const photos: PhotoItem[] = Array.isArray(value) ? value : [];
   const [localPhotos, setLocalPhotos] = useState<PhotoItem[]>(photos);
 
@@ -128,12 +130,19 @@ export const PhotosEditor = ({
                         onChange={(e) =>
                           handleUpdate(index, 'type', e.target.value)
                         }
+                        disabled={loading}
                       >
-                        {PHOTO_TYPES.map((type) => (
-                          <option key={type} value={type}>
-                            {humanize(type)}
-                          </option>
-                        ))}
+                        {options.length > 0
+                          ? options.map((opt) => (
+                              <option key={opt.value} value={opt.value}>
+                                {opt.label}
+                              </option>
+                            ))
+                          : PHOTO_TYPES.map((type) => (
+                              <option key={type} value={type}>
+                                {humanize(type)}
+                              </option>
+                            ))}
                       </select>
                     </div>
                   </div>

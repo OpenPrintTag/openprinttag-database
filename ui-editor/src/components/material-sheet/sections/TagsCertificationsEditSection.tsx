@@ -1,59 +1,39 @@
-import { MultiSelect } from '~/components/MultiSelect';
+import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
-import type { Material, SelectOption } from '../types';
+import type { Material } from '../types';
 
 interface TagsCertificationsEditSectionProps {
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
-  tagsOptions: SelectOption[];
-  certificationsOptions: SelectOption[];
 }
 
 export const TagsCertificationsEditSection = ({
+  fields,
   form,
   onFieldChange,
-  tagsOptions,
-  certificationsOptions,
 }: TagsCertificationsEditSectionProps) => {
+  if (!fields) return null;
+
   return (
     <div className="card">
       <div className="card-header">Tags & Certifications</div>
       <div className="card-body">
         <div className="space-y-4">
-          <div>
-            <label
-              htmlFor="tags-select"
-              className="mb-2 block text-xs font-medium tracking-wide text-gray-500 uppercase"
-            >
-              Tags
-            </label>
-            <MultiSelect
-              id="tags-select"
-              options={tagsOptions}
-              value={form?.tags || []}
-              onChange={(tags) => onFieldChange('tags', tags)}
-              placeholder="Select tags..."
-              searchPlaceholder="Search tags..."
-            />
-          </div>
-          <div>
-            <label
-              htmlFor="certifications-select"
-              className="mb-2 block text-xs font-medium tracking-wide text-gray-500 uppercase"
-            >
-              Certifications
-            </label>
-            <MultiSelect
-              id="certifications-select"
-              options={certificationsOptions}
-              value={form?.certifications || []}
-              onChange={(certifications) =>
-                onFieldChange('certifications', certifications)
-              }
-              placeholder="Select certifications..."
-              searchPlaceholder="Search certifications..."
-            />
-          </div>
+          {['tags', 'certifications'].map((key) => {
+            if (!fields[key]) return null;
+
+            return (
+              <FieldEditor
+                key={key}
+                label={key}
+                field={fields[key] as SchemaField}
+                value={form?.[key]}
+                onChange={(val) => onFieldChange(key, val)}
+                entity="material"
+              />
+            );
+          })}
         </div>
       </div>
     </div>

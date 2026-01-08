@@ -1,5 +1,5 @@
 import { ChevronDown, X } from 'lucide-react';
-import { type MouseEvent, useMemo, useState } from 'react';
+import { type MouseEvent, useEffect, useMemo, useRef, useState } from 'react';
 
 import { Badge } from '~/components/ui/badge';
 
@@ -29,6 +29,28 @@ export const MultiSelect = ({
 }: MultiSelectProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside as any);
+      document.addEventListener('touchstart', handleClickOutside as any);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside as any);
+      document.removeEventListener('touchstart', handleClickOutside as any);
+    };
+  }, [isOpen]);
 
   const selectedValues = useMemo(() => new Set(value), [value]);
 
@@ -70,7 +92,7 @@ export const MultiSelect = ({
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full" ref={containerRef}>
       {/* Trigger button */}
       <button
         type="button"
@@ -139,70 +161,63 @@ export const MultiSelect = ({
 
       {/* Dropdown */}
       {isOpen && !disabled && (
-        <>
-          <div
-            className="fixed inset-0 z-10"
-            onClick={() => setIsOpen(false)}
-            aria-hidden="true"
-          />
-          <div className="absolute z-20 mt-1 w-full rounded-md border border-gray-300 bg-white shadow-lg">
-            {/* Search input */}
-            <div className="border-b border-gray-200 p-2">
-              <input
-                type="text"
-                className="input w-full"
-                placeholder={searchPlaceholder}
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                onClick={(e) => e.stopPropagation()}
-                autoFocus
-              />
-            </div>
+        <div className="absolute z-20 mt-1 w-full rounded-md border border-gray-300 bg-white shadow-lg">
+          {/* Search input */}
+          <div className="border-b border-gray-200 p-2">
+            <input
+              type="text"
+              className="input w-full"
+              placeholder={searchPlaceholder}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              autoFocus
+            />
+          </div>
 
-            {/* Options list */}
-            <div className="max-h-60 overflow-auto">
-              {filteredOptions.length > 0 ? (
-                <ul className="py-1" role="listbox" aria-multiselectable="true">
-                  {filteredOptions.map((opt) => {
-                    const isSelected = selectedValues.has(String(opt.value));
-                    return (
-                      <li
-                        key={String(opt.value)}
-                        role="option"
-                        aria-selected={isSelected}
-                        className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-[hsl(var(--accent))] ${
-                          isSelected ? 'bg-[hsl(var(--accent)/.5)]' : ''
-                        }`}
-                        onClick={() => handleToggle(String(opt.value))}
-                      >
-                        <input
-                          type="checkbox"
-                          className="checkbox"
-                          checked={isSelected}
-                          onChange={() => handleToggle(String(opt.value))}
-                          onClick={(e) => e.stopPropagation()}
-                          tabIndex={-1}
-                        />
-                        <span className="flex-1">{opt.label}</span>
-                      </li>
-                    );
-                  })}
-                </ul>
-              ) : (
-                <div className="px-3 py-4 text-center text-sm text-gray-500">
-                  No options found
-                </div>
-              )}
-            </div>
-
-            {/* Footer with count */}
-            {selectedOptions.length > 0 && (
-              <div className="border-t border-gray-200 px-3 py-2 text-xs text-gray-600">
-                {selectedOptions.length} selected
+          {/* Options list */}
+          <div className="max-h-60 overflow-auto">
+            {filteredOptions.length > 0 ? (
+              <ul className="py-1" role="listbox" aria-multiselectable="true">
+                {filteredOptions.map((opt) => {
+                  const isSelected = selectedValues.has(String(opt.value));
+                  return (
+                    <li
+                      key={String(opt.value)}
+                      role="option"
+                      aria-selected={isSelected}
+                      className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-[hsl(var(--accent))] ${
+                        isSelected ? 'bg-[hsl(var(--accent)/.5)]' : ''
+                      }`}
+                      onClick={() => handleToggle(String(opt.value))}
+                    >
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        checked={isSelected}
+                        onChange={() => handleToggle(String(opt.value))}
+                        onClick={(e) => e.stopPropagation()}
+                        tabIndex={-1}
+                      />
+                      <span className="flex-1">{opt.label}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : (
+              <div className="px-3 py-4 text-center text-sm text-gray-500">
+                No options found
               </div>
             )}
           </div>
-        </>
+
+          {/* Footer with count */}
+          {selectedOptions.length > 0 && (
+            <div className="border-t border-gray-200 px-3 py-2 text-xs text-gray-600">
+              {selectedOptions.length} selected
+            </div>
+          )}
+        </div>
       )}
     </div>
   );

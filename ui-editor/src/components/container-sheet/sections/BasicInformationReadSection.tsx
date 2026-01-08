@@ -1,6 +1,8 @@
 import { Link } from '@tanstack/react-router';
 import { ExternalLink } from 'lucide-react';
 
+import { bestLabelFromItem } from '~/hooks/useSchema';
+
 import type { Container } from '../types';
 
 interface BasicInformationReadSectionProps {
@@ -14,8 +16,17 @@ export const BasicInformationReadSection = ({
 }: BasicInformationReadSectionProps) => {
   const formatValue = (value: unknown): string => {
     if (value === null || value === undefined) return '-';
+    if (typeof value === 'object') return bestLabelFromItem(value);
     return String(value);
   };
+
+  let brandSlug: string | undefined = undefined;
+  if (container?.brand) {
+    brandSlug =
+      typeof container.brand === 'object'
+        ? container.brand.slug
+        : container.brand;
+  }
 
   return (
     <div className="rounded-lg border border-gray-200 bg-white p-6">
@@ -47,16 +58,20 @@ export const BasicInformationReadSection = ({
             {formatValue(container?.uuid)}
           </div>
         </div>
-        {container?.brand_slug && (
+        {brandSlug && (
           <div>
             <div className="text-sm font-medium text-gray-700">Brand</div>
             <div className="mt-1 text-sm">
               <Link
                 to="/brands/$brandId"
-                params={{ brandId: container.brand_slug }}
+                params={{ brandId: brandSlug }}
                 className="inline-flex items-center gap-1 text-orange-600 transition-colors hover:text-orange-700 hover:underline"
               >
-                {brandName || container.brand_slug}
+                {brandName ||
+                  (typeof container?.brand === 'object'
+                    ? bestLabelFromItem(container.brand)
+                    : container?.brand) ||
+                  '-'}
                 <ExternalLink className="h-3 w-3" />
               </Link>
             </div>

@@ -1,33 +1,16 @@
-import {
-  createFileRoute,
-  Link,
-  Outlet,
-  useMatches,
-  useNavigate,
-} from '@tanstack/react-router';
-import { ChevronRight, Database, Loader2, Plus, Search, X } from 'lucide-react';
+import { createFileRoute, Link } from '@tanstack/react-router';
+import { capitalCase } from 'change-case';
+import { ChevronRight, Database, Loader2, Search, X } from 'lucide-react';
 import React from 'react';
-import { toast } from 'sonner';
 
-import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
-import {
-  Button,
-  Card,
-  CardContent,
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-} from '~/components/ui';
-import { TOAST_MESSAGES } from '~/constants/messages';
 import { useApi } from '~/hooks/useApi';
-import { useCreateEnumItem } from '~/hooks/useMutations';
-import { useSchema } from '~/hooks/useSchema';
-import { formatEnumLabel } from '~/routes/enum.$table.$id';
-import { slugifyName } from '~/utils/slug';
 
 type TableResponse = { items: any[]; meta: { key: string } };
+
+export const formatEnumLabel = (s: string): string => {
+  if (!s) return s;
+  return capitalCase(s);
+};
 
 export const Route = createFileRoute('/enum/$table')({
   component: EnumTableList,
@@ -35,13 +18,7 @@ export const Route = createFileRoute('/enum/$table')({
 
 function EnumTableList() {
   const { table } = Route.useParams();
-  const navigate = useNavigate();
-  const matches = useMatches();
 
-  // Check if there's an active child route (item detail)
-  const hasChildRoute = matches.some((match) =>
-    match.routeId.includes('/enum/$table/$id'),
-  );
   const { data, error, loading } = useApi<TableResponse>(
     () => `/api/enum/${table}`,
     undefined,
@@ -50,11 +27,6 @@ function EnumTableList() {
   const items = data?.items ?? [];
   const [searchQuery, setSearchQuery] = React.useState('');
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
-  const [isAddDialogOpen, setIsAddDialogOpen] = React.useState(false);
-  const [newItemForm, setNewItemForm] = React.useState<any>({});
-
-  const schema = useSchema();
-  const createEnumItemMutation = useCreateEnumItem(table);
 
   // Debounce search
   React.useEffect(() => {
@@ -99,42 +71,6 @@ function EnumTableList() {
 
   const tableLabel = formatEnumLabel(table);
 
-  const entitySchema = React.useMemo(() => {
-    if (!schema || typeof schema !== 'object') return null;
-    const entities = schema.entities ?? {};
-    const keys = Object.keys(entities);
-    for (const key of keys) {
-      const ent = entities[key];
-      if (ent?.type === 'lookup_table' && typeof ent?.file === 'string') {
-        const file = String(ent.file);
-        if (file.replace(/\.ya?ml$/i, '') === table) return ent;
-      }
-    }
-    return null;
-  }, [schema, table]);
-
-  const fields: Record<string, SchemaField> | null =
-    (entitySchema?.fields as Record<string, SchemaField> | undefined) ?? null;
-
-  const handleCreateItem = async () => {
-    try {
-      const result = await createEnumItemMutation.mutateAsync({
-        data: newItemForm,
-      });
-      setIsAddDialogOpen(false);
-      setNewItemForm({});
-      toast.success(TOAST_MESSAGES.SUCCESS.ITEM_CREATED);
-      // Navigate to the newly created item if we have an ID
-      if (result?.id) {
-        navigate({ to: '/enum/$table/$id', params: { table, id: result.id } });
-      }
-    } catch (err: any) {
-      const errorMessage =
-        err?.message ?? TOAST_MESSAGES.ERROR.ITEM_CREATE_FAILED;
-      toast.error(errorMessage);
-    }
-  };
-
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
       {/* Breadcrumb */}
@@ -154,16 +90,9 @@ function EnumTableList() {
         <div className="space-y-2">
           <h1 className="text-3xl font-bold text-gray-900">{tableLabel}</h1>
           <p className="text-gray-600">
-            Browse and manage {items.length} items in this lookup table
+            Browse {items.length} items in this lookup table
           </p>
         </div>
-        <Button
-          onClick={() => setIsAddDialogOpen(true)}
-          className="flex items-center gap-2 bg-orange-600 text-white hover:bg-orange-700"
-        >
-          <Plus className="h-4 w-4" />
-          Add Item
-        </Button>
       </div>
 
       {/* Background Loading Indicator */}
@@ -272,13 +201,12 @@ function EnumTableList() {
               No items matching &ldquo;{debouncedSearch}&rdquo;. Try a different
               search term.
             </p>
-            <Button
-              variant="outline"
+            <button
               onClick={() => setSearchQuery('')}
-              className="mt-4"
+              className="mt-4 text-sm text-purple-600 hover:underline"
             >
               Clear search
-            </Button>
+            </button>
           </div>
         )}
 
@@ -286,129 +214,35 @@ function EnumTableList() {
       {!loading && !error && processedItems.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {processedItems.map((it, idx) => {
-            const nameStr = String(it?.name ?? '');
             const itemId = String(
-              it?.code ??
-                it?.id ??
-                it?.slug ??
-                it?.uuid ??
-                (slugifyName(nameStr) || idx),
+              it?.code ?? it?.id ?? it?.slug ?? it?.uuid ?? idx,
             );
             const name = String(it?.name ?? it?.slug ?? itemId);
             const code = it?.code ? String(it.code) : null;
 
             return (
-              <Link
+              <div
                 key={itemId}
-                to="/enum/$table/$id"
-                params={{ table, id: itemId }}
-                resetScroll={false}
+                className="group block w-full rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all"
               >
-                <button className="group block w-full rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all hover:border-orange-300 hover:shadow-md">
-                  <div className="mb-2 flex items-start justify-between gap-2">
-                    <div className="flex-1 truncate text-sm font-semibold text-gray-900 group-hover:text-orange-600">
-                      {name}
-                    </div>
-                    <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
+                <div className="mb-2 flex items-start justify-between gap-2">
+                  <div className="flex-1 truncate text-sm font-semibold text-gray-900">
+                    {name}
                   </div>
-                  {code && (
-                    <div className="truncate text-xs text-gray-500">{code}</div>
-                  )}
-                  {it?.category && (
-                    <div className="mt-2 inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
-                      {String(it.category)}
-                    </div>
-                  )}
-                </button>
-              </Link>
+                </div>
+                {code && (
+                  <div className="truncate text-xs text-gray-500">{code}</div>
+                )}
+                {it?.category && (
+                  <div className="mt-2 inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+                    {String(it.category)}
+                  </div>
+                )}
+              </div>
             );
           })}
         </div>
       )}
-
-      {/* Add Item Dialog */}
-      <Sheet open={isAddDialogOpen} onOpenChange={setIsAddDialogOpen}>
-        <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-          <SheetHeader className="pb-6">
-            <SheetTitle className="text-2xl">Add New Item</SheetTitle>
-            <SheetDescription className="text-base">
-              Create a new item in the {tableLabel} lookup table
-            </SheetDescription>
-          </SheetHeader>
-
-          <div className="space-y-6">
-            {fields ? (
-              <Card className="bg-white">
-                <CardContent className="pt-6">
-                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                    {Object.entries(fields)
-                      .filter(([key]) => key !== 'id')
-                      .map(([key, field]) => (
-                        <FieldEditor
-                          key={key}
-                          label={key}
-                          field={field as SchemaField}
-                          value={newItemForm?.[key]}
-                          onChange={(val) =>
-                            setNewItemForm((f: any) => ({
-                              ...(f ?? {}),
-                              [key]: val,
-                            }))
-                          }
-                        />
-                      ))}
-                  </div>
-                </CardContent>
-              </Card>
-            ) : (
-              <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
-                Schema for this lookup table was not found. Please add the
-                required fields manually.
-              </div>
-            )}
-
-            <div className="flex justify-end gap-3 pt-6">
-              <Button
-                variant="outline"
-                onClick={() => {
-                  setIsAddDialogOpen(false);
-                  setNewItemForm({});
-                }}
-                disabled={createEnumItemMutation.isPending}
-              >
-                Cancel
-              </Button>
-              <Button
-                onClick={handleCreateItem}
-                disabled={createEnumItemMutation.isPending}
-                className="bg-orange-600 text-white hover:bg-orange-700"
-              >
-                {createEnumItemMutation.isPending
-                  ? 'Creating...'
-                  : 'Create Item'}
-              </Button>
-            </div>
-          </div>
-        </SheetContent>
-      </Sheet>
-
-      {/* Item Detail Sheet */}
-      <Sheet
-        open={hasChildRoute}
-        onOpenChange={(open) => {
-          if (!open) {
-            navigate({
-              to: '/enum/$table',
-              params: { table },
-              resetScroll: false,
-            });
-          }
-        }}
-      >
-        <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
-          <Outlet />
-        </SheetContent>
-      </Sheet>
     </div>
   );
 }

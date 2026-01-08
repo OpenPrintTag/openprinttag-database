@@ -3,11 +3,11 @@ export interface Package {
   directus_uuid?: string;
   slug?: string;
   class?: 'FFF' | 'SLA';
-  brand_slug?: string;
+  brand?: string | { slug: string; name?: string };
   brand_specific_id?: string;
   gtin?: string;
-  material_slug?: string;
-  container_slug?: string;
+  material?: string | { slug: string; name?: string };
+  container?: string | { slug: string; name?: string };
   url?: string;
   nominal_netto_full_weight?: number;
   filament_diameter?: number;

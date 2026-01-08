@@ -1,7 +1,6 @@
 import { useMemo } from 'react';
 import { toast } from 'sonner';
 
-import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { TOAST_MESSAGES } from '~/constants/messages';
 import { useUpdateBrand } from '~/hooks/useMutations';
@@ -13,7 +12,6 @@ import {
 } from '~/shared/components/entity-sheet';
 
 import { BrandSheetEditView } from './BrandSheetEditView';
-import { useBrandLookupData } from './hooks';
 import { BrandReadView } from './sections/BrandReadView';
 import type { Brand, BrandSheetProps } from './types';
 
@@ -25,8 +23,7 @@ export const BrandSheet = ({
   readOnly = false,
   onEdit,
 }: BrandSheetProps) => {
-  const schema = useSchema();
-  const { countriesOptions } = useBrandLookupData();
+  const { schema, fields } = useSchema('brand');
 
   // Memoize initialForm to prevent unnecessary re-renders
   const initialForm = useMemo(() => ({}), []);
@@ -49,14 +46,6 @@ export const BrandSheet = ({
 
   const brandId = String(brand?.slug || brand?.uuid || brand?.id || '');
   const updateBrandMutation = useUpdateBrand(brandId);
-
-  const fields = useMemo(() => {
-    if (!schema || typeof schema !== 'object') return undefined;
-    const ent = (schema.entities ?? {}).brands;
-    return (ent?.fields ?? undefined) as
-      | Record<string, SchemaField>
-      | undefined;
-  }, [schema]);
 
   const handleSave = async () => {
     if (!form.name?.trim()) {
@@ -113,7 +102,6 @@ export const BrandSheet = ({
             form={form}
             onFieldChange={handleFieldChange}
             schema={schema}
-            countriesOptions={countriesOptions}
           />
         )}
 

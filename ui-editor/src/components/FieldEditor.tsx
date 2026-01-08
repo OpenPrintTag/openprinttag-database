@@ -1,7 +1,11 @@
 import React, { useMemo } from 'react';
 
 import { useEnumOptions } from '~/hooks/useEnumOptions';
-import { useLookupRelation } from '~/hooks/useSchema';
+import {
+  enumValueFieldForTable,
+  resolveEnumSource,
+  useLookupRelation,
+} from '~/hooks/useSchema';
 
 import { ColorArrayPicker, ColorPicker, JsonEditor } from './field-editors';
 import type { SchemaField } from './field-types';
@@ -10,43 +14,65 @@ import { MultiSelect } from './MultiSelect';
 import { PhotosEditor } from './PhotosEditor';
 import { PropertiesEditor } from './PropertiesEditor';
 
+const extractValue = (val: unknown, valueField: string): string => {
+  if (typeof val === 'object' && val !== null) {
+    return String(
+      (val as any)[valueField] ??
+        (val as any).slug ??
+        (val as any).key ??
+        (val as any).id ??
+        '',
+    );
+  }
+  return String(val ?? '');
+};
+
 export const FieldEditor = ({
   label,
   field,
   value,
   onChange,
   disabled = false,
+  entity = 'brand',
 }: {
   label: string;
   field: SchemaField;
   value: unknown;
   onChange: (val: unknown) => void;
   disabled?: boolean;
+  entity?: string;
 }) => {
   const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
   const type = field.type;
 
-  const fk = field.foreign_key;
-  const relation = useLookupRelation(fk);
+  const relation = useLookupRelation(entity, field, label);
   const relOptions = useEnumOptions(
     relation?.table ?? null,
     relation?.valueField ?? null,
   );
 
+  const arelation = useLookupRelation(entity, field.items, label);
+  const aopts = useEnumOptions(
+    arelation?.table ?? null,
+    arelation?.valueField ?? null,
+  );
+
+  const enumSource = resolveEnumSource(field, label);
+  const enumValueField = enumValueFieldForTable(enumSource.table);
+  const enumOptions = useEnumOptions(enumSource.table, enumValueField);
+
+  // Helper for common wrapper
+  const Wrapper = ({ children }: { children: React.ReactNode }) => (
+    <FormField label={label} htmlFor={inputId} required={field.required}>
+      {children}
+    </FormField>
+  );
+
   // Single-value foreign key → dropdown
-  if (
-    fk &&
-    relation?.isLookup &&
-    relation?.table &&
-    relation?.valueField &&
-    type !== 'array'
-  ) {
-    const stringValue =
-      typeof value === 'string' || typeof value === 'number'
-        ? String(value)
-        : '';
+  if (relation?.isLookup && relation.table && type !== 'array') {
+    const stringValue = extractValue(value, relation.valueField || 'slug');
     return (
-      <FormField label={label} htmlFor={inputId} required={field.required}>
+      <Wrapper>
         <select
           id={inputId}
           className="select"
@@ -63,30 +89,24 @@ export const FieldEditor = ({
             </option>
           ))}
         </select>
-        {relOptions.error ? (
+        {relOptions.error && (
           <div className="mt-1 text-[11px] text-amber-700">
-            Failed to load options; using text input fallback above.
+            Failed to load options.
           </div>
-        ) : null}
-      </FormField>
+        )}
+      </Wrapper>
     );
   }
 
   // Array of foreign keys → multi-select
-  if (type === 'array' && field.items?.foreign_key) {
-    const afk = field.items.foreign_key;
-    const arelation = useLookupRelation(afk);
-    const aopts = useEnumOptions(
-      arelation?.table ?? null,
-      arelation?.valueField ?? null,
-    );
+  if (type === 'array' && arelation?.isLookup && arelation.table) {
     const arr: string[] = Array.isArray(value)
-      ? value.map((v: any) => String(v))
+      ? value.map((v) => extractValue(v, arelation.valueField || 'id'))
       : [];
 
     if (aopts.error) {
       return (
-        <FormField label={label} htmlFor={inputId} required={field.required}>
+        <Wrapper>
           <div className="mt-1 text-[11px] text-amber-700">
             Failed to load options; using comma separated fallback below.
           </div>
@@ -104,22 +124,22 @@ export const FieldEditor = ({
               )
             }
           />
-        </FormField>
+        </Wrapper>
       );
     }
 
     return (
-      <FormField label={label} htmlFor={inputId} required={field.required}>
+      <Wrapper>
         <MultiSelect
           id={inputId}
           options={aopts.options}
           value={arr}
           onChange={onChange}
-          disabled={disabled || aopts.loading || !!aopts.error}
+          disabled={disabled || aopts.loading}
           placeholder={aopts.loading ? 'Loading…' : 'Select items...'}
           searchPlaceholder="Search..."
         />
-      </FormField>
+      </Wrapper>
     );
   }
 
@@ -132,10 +152,9 @@ export const FieldEditor = ({
     const stringValue = typeof value === 'string' ? value : '';
     const isUuid = type === 'uuid';
     const isDisabled = disabled || isUuid;
-    const displayLabel = isDisabled ? `${label} (read-only)` : label;
     return (
       <FormField
-        label={displayLabel}
+        label={isDisabled ? `${label} (read-only)` : label}
         htmlFor={inputId}
         required={field.required}
       >
@@ -144,10 +163,8 @@ export const FieldEditor = ({
           className={`input ${isDisabled ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
           type="text"
           value={stringValue}
-          maxLength={field.max_length}
           onChange={(e) => onChange(e.target.value)}
           disabled={isDisabled}
-          aria-disabled={isDisabled}
           title={isDisabled ? 'This field is not editable' : undefined}
         />
       </FormField>
@@ -157,7 +174,7 @@ export const FieldEditor = ({
   if (type === 'integer' || type === 'number') {
     const numberValue = typeof value === 'number' ? value : '';
     return (
-      <FormField label={label} htmlFor={inputId} required={field.required}>
+      <Wrapper>
         <input
           id={inputId}
           className="input"
@@ -167,20 +184,22 @@ export const FieldEditor = ({
           onChange={(e) => {
             if (e.target.value === '') {
               onChange(null);
-            } else if (type === 'integer') {
-              onChange(parseInt(e.target.value, 10));
             } else {
-              onChange(parseFloat(e.target.value));
+              const val =
+                type === 'integer'
+                  ? parseInt(e.target.value, 10)
+                  : parseFloat(e.target.value);
+              onChange(isNaN(val) ? null : val);
             }
           }}
         />
-      </FormField>
+      </Wrapper>
     );
   }
 
   if (type === 'boolean') {
     return (
-      <FormField label={label} htmlFor={inputId} required={field.required}>
+      <Wrapper>
         <input
           id={inputId}
           type="checkbox"
@@ -189,43 +208,91 @@ export const FieldEditor = ({
           disabled={disabled}
           onChange={(e) => onChange(e.target.checked)}
         />
-      </FormField>
+      </Wrapper>
     );
   }
 
-  if (type === 'enum' && Array.isArray(field.values)) {
-    const enumValue = typeof value === 'string' ? value : '';
+  if (enumSource.isEnum) {
+    const inlineValues = enumSource.enumValues ?? [];
+    const options =
+      enumOptions.options.length > 0
+        ? enumOptions.options
+        : inlineValues.map((v) => ({ value: String(v), label: String(v) }));
+
+    if (enumSource.isArray) {
+      const arr: string[] = Array.isArray(value)
+        ? value.map((v: any) => String(v))
+        : [];
+
+      return (
+        <Wrapper>
+          {enumSource.table && enumOptions.error && (
+            <div className="mt-1 text-[11px] text-amber-700">
+              Failed to load options; showing inline values if available.
+            </div>
+          )}
+          <MultiSelect
+            id={inputId}
+            options={options}
+            value={arr}
+            onChange={onChange}
+            disabled={
+              disabled || (enumSource.table ? enumOptions.loading : false)
+            }
+            placeholder={
+              enumSource.table && enumOptions.loading
+                ? 'Loading…'
+                : 'Select items...'
+            }
+            searchPlaceholder="Search..."
+          />
+        </Wrapper>
+      );
+    }
+
+    const enumValue =
+      typeof value === 'string' || typeof value === 'number'
+        ? String(value)
+        : '';
     return (
-      <FormField label={label} htmlFor={inputId} required={field.required}>
+      <Wrapper>
         <select
           id={inputId}
           className="select"
           value={enumValue}
-          disabled={disabled}
+          disabled={
+            disabled || (enumSource.table ? enumOptions.loading : false)
+          }
           onChange={(e) => onChange(e.target.value)}
         >
           <option value="" disabled>
-            {'Select…'}
+            {enumSource.table && enumOptions.loading ? 'Loading…' : 'Select…'}
           </option>
-          {field.values.map((v) => (
-            <option key={v} value={v}>
-              {v}
+          {options.map((opt) => (
+            <option key={String(opt.value)} value={String(opt.value)}>
+              {opt.label}
             </option>
           ))}
         </select>
-      </FormField>
+        {enumSource.table && enumOptions.error && (
+          <div className="mt-1 text-[11px] text-amber-700">
+            Failed to load options; using inline values if present.
+          </div>
+        )}
+      </Wrapper>
     );
   }
 
   if (type === 'array') {
     const itemType = field.items?.type;
     const isPrimitiveItem =
-      !itemType || ['string', 'slug', 'uuid'].includes(itemType);
+      !itemType || ['string', 'slug', 'uuid'].includes(itemType as string);
 
-    if (isPrimitiveItem) {
+    // If it's a primitive array but NOT a lookup and NOT an enum, use comma separated input
+    if (isPrimitiveItem && !arelation?.isLookup && !field.items?.enum) {
       const arr: string[] = Array.isArray(value) ? value : [];
       return (
-        <FormField label={label} htmlFor={inputId} required={field.required}>
+        <Wrapper>
           <input
             id={inputId}
             className="input"
@@ -242,7 +309,7 @@ export const FieldEditor = ({
               )
             }
           />
-        </FormField>
+        </Wrapper>
       );
     }
 
@@ -250,7 +317,7 @@ export const FieldEditor = ({
     if (
       label === 'secondary_colors' &&
       field.items?.type === 'object' &&
-      field.items?.fields?.rgba?.type === 'rgba'
+      (field.items?.properties?.color_rgba || field.items?.fields?.rgba)
     ) {
       return (
         <ColorArrayPicker
@@ -266,8 +333,10 @@ export const FieldEditor = ({
     if (
       label === 'photos' &&
       field.items?.type === 'object' &&
-      field.items?.fields?.url?.type === 'url' &&
-      field.items?.fields?.type?.type === 'enum'
+      (field.items?.properties?.url ||
+        field.items?.fields?.url?.type === 'url') &&
+      (field.items?.properties?.type ||
+        field.items?.fields?.type?.type === 'enum')
     ) {
       return (
         <PhotosEditor
@@ -284,7 +353,10 @@ export const FieldEditor = ({
 
   if (type === 'object') {
     // Special handling for primary_color
-    if (label === 'primary_color' && field.fields?.rgba?.type === 'rgba') {
+    if (
+      label === 'primary_color' &&
+      (field.properties?.color_rgba || field.fields?.rgba)
+    ) {
       return (
         <ColorPicker
           label={label}
@@ -296,7 +368,7 @@ export const FieldEditor = ({
     }
 
     // Special handling for properties
-    if (label === 'properties' && !field.fields) {
+    if (label === 'properties' && !field.properties && !field.fields) {
       return (
         <PropertiesEditor
           label={label}

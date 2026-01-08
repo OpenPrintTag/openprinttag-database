@@ -63,9 +63,12 @@ export const BasicInformationEditSection = ({
             Brand
           </label>
           <select
-            value={String(form.brand_slug || '')}
+            value={String(
+              (typeof form.brand === 'object' ? form.brand.slug : form.brand) ||
+                '',
+            )}
             onChange={(e) =>
-              onFieldChange('brand_slug', e.target.value || undefined)
+              onFieldChange('brand', e.target.value || undefined)
             }
             className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-orange-500 focus:ring-orange-500 focus:outline-none"
           >

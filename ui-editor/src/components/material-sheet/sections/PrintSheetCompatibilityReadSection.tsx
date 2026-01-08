@@ -1,11 +1,11 @@
-import type { SchemaField } from '~/components/SchemaFields';
-import { ValueDisplay } from '~/components/ValueDisplay';
+import { DataGrid } from '~/components/DataGrid';
+import type { SchemaField } from '~/components/field-types';
 
 import type { Material } from '../types';
 
 interface PrintSheetCompatibilityReadSectionProps {
   material?: Material;
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
 }
 
 export const PrintSheetCompatibilityReadSection = ({
@@ -17,14 +17,15 @@ export const PrintSheetCompatibilityReadSection = ({
   }
 
   return (
-    <div className="card">
-      <div className="card-header">Print Sheet Compatibility</div>
-      <div className="card-body">
-        <ValueDisplay
-          value={material.print_sheet_compatibility}
-          field={fields?.print_sheet_compatibility as SchemaField | undefined}
-        />
-      </div>
-    </div>
+    <DataGrid
+      data={material}
+      title="Print Sheet Compatibility"
+      fields={fields as Record<string, SchemaField> | undefined}
+      primaryKeys={['print_sheet_compatibility']}
+      excludeKeys={Object.keys(material).filter(
+        (k) => k !== 'print_sheet_compatibility',
+      )}
+      entity="material"
+    />
   );
 };

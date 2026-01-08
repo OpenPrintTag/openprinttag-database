@@ -29,7 +29,7 @@ export interface Brand extends Record<string, unknown> {
   material_package_url_template?: string;
   material_package_instance_url_template?: string;
   link_patterns?: LinkPattern[];
-  countries?: CountryCode[];
+  countries_of_origin?: CountryCode[];
   // Computed fields (enriched at API level)
   material_count?: number;
   package_count?: number;

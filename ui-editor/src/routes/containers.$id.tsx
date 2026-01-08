@@ -23,7 +23,7 @@ const RouteComponent = () => {
     undefined,
     [id],
   );
-  const schema = useSchema();
+  const { schema, fields } = useSchema('material_container');
 
   const [editing, setEditing] = React.useState(false);
   const [form, setForm] = React.useState<any | null>(null);
@@ -40,12 +40,6 @@ const RouteComponent = () => {
   React.useEffect(() => {
     if (data && !editing) setForm(data);
   }, [data, editing]);
-
-  const fields = React.useMemo(() => {
-    if (!schema || typeof schema !== 'object') return null;
-    const ent = (schema.entities ?? {}).material_containers;
-    return ent?.fields ?? null;
-  }, [schema]);
 
   if (loading && !data)
     return <div className="text-gray-600">Loading container…</div>;

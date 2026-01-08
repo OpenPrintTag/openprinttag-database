@@ -1,10 +1,11 @@
 import { useMemo } from 'react';
 import { toast } from 'sonner';
 
-import type { SchemaField } from '~/components/SchemaFields';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { DIALOG_MESSAGES, TOAST_MESSAGES } from '~/constants/messages';
+import { useApi } from '~/hooks/useApi';
 import { useConfirmDialog } from '~/hooks/useConfirmDialog';
+import { useEnum } from '~/hooks/useEnum';
 import {
   useCreatePackage,
   useDeletePackage,
@@ -31,14 +32,17 @@ export const PackageSheet = ({
   readOnly = false,
   onEdit,
 }: PackageSheetProps) => {
-  const schema = useSchema();
+  const { schema, fields } = useSchema('material_package');
   const { confirm, ConfirmDialog } = useConfirmDialog();
 
   // Memoize initialForm to prevent unnecessary re-renders
-  const initialForm = useMemo(
-    () => ({ material_slug: '', container_slug: '' }),
-    [],
+  const initialForm = useMemo(() => ({ material: '', container: '' }), []);
+
+  const { data: materialsData } = useApi<any[]>(
+    `/api/brands/${brandId}/materials`,
   );
+  const { data: enums } = useEnum('containers');
+  const containersData = useMemo(() => enums?.items ?? [], [enums]);
 
   const {
     form,
@@ -58,19 +62,51 @@ export const PackageSheet = ({
     initialForm,
   });
 
+  const enrichedPackage = useMemo(() => {
+    if (!form) return form;
+    const enriched = { ...form };
+
+    if (materialsData && enriched.material) {
+      const materialSlug =
+        typeof enriched.material === 'object'
+          ? (enriched.material as any).slug
+          : enriched.material;
+      const found = (materialsData as any[]).find(
+        (m: any) => m.slug === materialSlug,
+      );
+      if (found) enriched.material = found;
+    }
+
+    if (containersData && enriched.container) {
+      const containerSlug =
+        typeof enriched.container === 'object'
+          ? (enriched.container as any).slug
+          : enriched.container;
+      const found = (containersData as any[]).find(
+        (c: any) => c.slug === containerSlug,
+      );
+      if (found) enriched.container = found;
+    }
+
+    return enriched;
+  }, [form, materialsData, containersData]);
+
   const packageId = String(pkg?.slug || pkg?.uuid || pkg?.id || '');
   const createPackageMutation = useCreatePackage(brandId);
   const updatePackageMutation = useUpdatePackage(brandId, packageId);
   const deletePackageMutation = useDeletePackage(brandId, packageId);
 
-  const fields = useMemo(() => {
-    if (!schema || typeof schema !== 'object') return null;
-    const ent = (schema.entities ?? {}).material_packages;
-    return (ent?.fields ?? null) as Record<string, SchemaField> | null;
-  }, [schema]);
-
   const handleSave = async () => {
-    if (!form.material_slug?.trim()) {
+    const rawForm = { ...form };
+    if (typeof rawForm.material === 'object' && rawForm.material !== null) {
+      rawForm.material = (rawForm.material as any).slug;
+    }
+    if (typeof rawForm.container === 'object' && rawForm.container !== null) {
+      rawForm.container = (rawForm.container as any).slug;
+    }
+
+    const materialValue = rawForm.material as string | undefined;
+    if (!materialValue?.trim()) {
       setError(TOAST_MESSAGES.VALIDATION.PACKAGE_MATERIAL_SLUG_REQUIRED);
       return;
     }
@@ -79,13 +115,13 @@ export const PackageSheet = ({
 
     try {
       if (currentMode === 'create') {
-        await createPackageMutation.mutateAsync({ data: form });
+        await createPackageMutation.mutateAsync({ data: rawForm });
         toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_CREATED);
       } else {
         if (!packageId) {
           throw new Error(TOAST_MESSAGES.VALIDATION.PACKAGE_ID_NOT_FOUND);
         }
-        await updatePackageMutation.mutateAsync({ data: form });
+        await updatePackageMutation.mutateAsync({ data: rawForm });
         toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_UPDATED);
       }
 
@@ -161,11 +197,14 @@ export const PackageSheet = ({
           )}
 
           {isReadOnly ? (
-            <PackageSheetReadView package={form} fields={fields} />
+            <PackageSheetReadView
+              package={enrichedPackage as Package}
+              fields={(fields as any) || null}
+            />
           ) : (
             <PackageSheetEditView
-              fields={fields}
-              form={form}
+              fields={(fields as any) || null}
+              form={enrichedPackage as Package}
               onFieldChange={handleFieldChange}
               schema={schema}
             />
@@ -186,7 +225,11 @@ export const PackageSheet = ({
               updatePackageMutation.isPending ||
               deletePackageMutation.isPending ||
               !schema ||
-              !form.material_slug?.trim()
+              !(
+                typeof form.material === 'object'
+                  ? form.material.slug
+                  : form.material
+              )?.trim()
             }
             entityName="Package"
           />

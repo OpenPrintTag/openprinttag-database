@@ -6,15 +6,12 @@ import { PrintSheetCompatibilityEditSection } from './sections/PrintSheetCompati
 import { PropertiesEditSection } from './sections/PropertiesEditSection';
 import { TagsCertificationsEditSection } from './sections/TagsCertificationsEditSection';
 import { VisualPropertiesEditSection } from './sections/VisualPropertiesEditSection';
-import type { Material, SelectOption } from './types';
+import type { Material } from './types';
 
 interface MaterialSheetEditViewProps {
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
-  materialTypesOptions: SelectOption[];
-  tagsOptions: SelectOption[];
-  certificationsOptions: SelectOption[];
   schema: unknown;
   mode?: 'create' | 'edit';
   initialSlug?: string;
@@ -24,9 +21,6 @@ export const MaterialSheetEditView = ({
   fields,
   form,
   onFieldChange,
-  materialTypesOptions,
-  tagsOptions,
-  certificationsOptions,
   schema,
   mode = 'edit',
   initialSlug,
@@ -49,7 +43,6 @@ export const MaterialSheetEditView = ({
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
-            materialTypesOptions={materialTypesOptions}
           />
           <VisualPropertiesEditSection
             fields={fields}
@@ -57,10 +50,9 @@ export const MaterialSheetEditView = ({
             onFieldChange={onFieldChange}
           />
           <TagsCertificationsEditSection
+            fields={fields}
             form={form}
             onFieldChange={onFieldChange}
-            tagsOptions={tagsOptions}
-            certificationsOptions={certificationsOptions}
           />
           <PhotosEditSection
             fields={fields}

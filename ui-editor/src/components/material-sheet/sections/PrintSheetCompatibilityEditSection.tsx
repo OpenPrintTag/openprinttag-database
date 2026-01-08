@@ -3,7 +3,7 @@ import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import type { Material } from '../types';
 
 interface PrintSheetCompatibilityEditSectionProps {
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
 }

@@ -12,13 +12,12 @@ const EXCLUDED_FIELDS = [
   'uuid',
   'name',
   'slug',
-  'directus_uuid',
   'material_url_template',
   'material_package_url_template',
   'material_package_instance_url_template',
   'keywords',
   'link_patterns',
-  'countries',
+  'countries_of_origin',
 ];
 
 export const AdditionalInformationEditSection = ({

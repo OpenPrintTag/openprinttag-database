@@ -6,7 +6,7 @@ import { slugifyName } from '~/utils/slug';
 import type { Material } from '../types';
 
 interface BasicInformationEditSectionProps {
-  fields: Record<string, unknown> | null;
+  fields: Record<string, unknown> | undefined;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
   mode?: 'create' | 'edit';
@@ -42,11 +42,11 @@ export const BasicInformationEditSection = ({
       <div className="card-header">Basic Information</div>
       <div className="card-body">
         <div className="grid gap-4 sm:grid-cols-2">
-          {['name', 'slug', 'brand_slug', 'brand_specific_id'].map((key) => {
+          {['name', 'slug', 'brand', 'brand_specific_id'].map((key) => {
             if (!fields[key]) return null;
 
-            // slug and brand_slug should be disabled
-            const isDisabled = key === 'slug' || key === 'brand_slug';
+            // slug and brand should be disabled
+            const isDisabled = key === 'slug' || key === 'brand';
 
             return (
               <FieldEditor
@@ -56,6 +56,7 @@ export const BasicInformationEditSection = ({
                 value={form?.[key]}
                 onChange={(val) => onFieldChange(key, val)}
                 disabled={isDisabled}
+                entity="material"
               />
             );
           })}

@@ -16,7 +16,7 @@ export const IntegrationEditSection = ({
   if (!fields) return null;
 
   const hasIntegrationFields =
-    fields.directus_uuid ||
+    fields.uuid ||
     fields.material_url_template ||
     fields.material_package_url_template ||
     fields.material_package_instance_url_template;
@@ -29,7 +29,7 @@ export const IntegrationEditSection = ({
       <div className="card-body">
         <div className="grid gap-4 sm:grid-cols-2">
           {[
-            'directus_uuid',
+            'uuid',
             'material_url_template',
             'material_package_url_template',
             'material_package_instance_url_template',

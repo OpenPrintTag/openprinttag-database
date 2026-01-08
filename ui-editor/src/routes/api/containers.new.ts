@@ -113,8 +113,6 @@ export const Route = createFileRoute('/api/containers/new')({
             newContainer.length = payload.length;
           if (payload.height !== undefined && payload.height !== null)
             newContainer.height = payload.height;
-          if (payload.connector_slug)
-            newContainer.connector_slug = payload.connector_slug;
 
           // Write the new container file
           const yamlModule = await import('yaml');

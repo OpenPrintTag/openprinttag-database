@@ -1,7 +1,8 @@
 export interface LookupItem {
-  id: string | number;
+  key: string | number;
   slug?: string;
   name?: string;
+  display_name?: string;
   abbreviation?: string;
 }
 
@@ -23,13 +24,17 @@ export interface Material {
   uuid?: string;
   slug?: string;
   name?: string;
-  type_id?: string | number;
+  brand?: string;
+  brand_specific_id?: string;
+  type?: string;
   class?: string;
-  primary_color?: string;
-  secondary_colors?: string[];
+  abbreviation?: string;
+  url?: string;
+  primary_color?: { color_rgba: string } | string;
+  secondary_colors?: ({ color_rgba: string } | string)[];
   tags?: string[];
-  certifications?: string[];
-  photos?: (string | PhotoItem)[];
+  certifications?: any[];
+  photos?: any[];
   properties?: Record<string, unknown>;
   [key: string]: unknown;
 }

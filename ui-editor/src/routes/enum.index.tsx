@@ -4,16 +4,15 @@ import React from 'react';
 
 import { PageHeader } from '~/components/PageHeader';
 import { SearchBar } from '~/components/SearchBar';
-import { useApi } from '~/hooks/useApi';
-import { formatEnumLabel } from '~/routes/enum.$table.$id';
+import { useEnumList } from '~/hooks/useEnum';
+import { formatEnumLabel } from '~/routes/enum.$table';
 
 export const Route = createFileRoute('/enum/')({
   component: EnumIndex,
 });
 
 function EnumIndex() {
-  const { data, error, loading } = useApi<{ tables: string[] }>('/api/enum');
-  const tables = data?.tables ?? [];
+  const { tables, loading, error } = useEnumList();
   const [searchQuery, setSearchQuery] = React.useState('');
 
   // Filter tables
@@ -35,7 +34,7 @@ function EnumIndex() {
       />
 
       {/* Background Loading Indicator */}
-      {loading && data && (
+      {loading && tables.length > 0 && (
         <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
           <Loader2 className="h-4 w-4 animate-spin" />
           <span>Updating tables...</span>
@@ -72,7 +71,7 @@ function EnumIndex() {
       )}
 
       {/* Error State */}
-      {!loading && error && (
+      {!loading && error && tables.length === 0 && (
         <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
           <div className="text-sm font-medium text-red-900">
             Error loading tables
@@ -82,7 +81,7 @@ function EnumIndex() {
       )}
 
       {/* Empty State */}
-      {!loading && !error && data && tables.length === 0 && (
+      {!loading && !error && tables.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
           <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
             <Database className="h-10 w-10 text-gray-500" />

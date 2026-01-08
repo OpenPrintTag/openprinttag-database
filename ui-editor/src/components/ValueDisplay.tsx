@@ -1,5 +1,12 @@
+import { Link } from '@tanstack/react-router';
+
 import { Badge } from '~/components/ui';
 import { ColorSwatch } from '~/components/ui/color-swatch';
+import {
+  bestLabelFromItem,
+  resolveEnumSource,
+  useLookupRelation,
+} from '~/hooks/useSchema';
 import { extractColorHex, hexToRgbText } from '~/utils/color';
 import { isPrimitive, isValidUrl, safeStringify } from '~/utils/format';
 
@@ -14,66 +21,159 @@ interface ValueDisplayProps {
   value: unknown;
   field?: SchemaField;
   colors?: Record<string, ColorItem> | null;
+  entity?: string;
+  label?: string;
 }
 
-export const ValueDisplay = ({ value, field, colors }: ValueDisplayProps) => {
+export const ValueDisplay = ({
+  value,
+  field,
+  colors,
+  entity = 'brand',
+  label,
+}: ValueDisplayProps) => {
   if (value === undefined || value === null) {
     return <span className="text-gray-400">—</span>;
   }
 
-  const singleColorsFk = field?.foreign_key?.entity === 'colors';
-  const arrayColorsFk =
-    field?.type === 'array' && field?.items?.foreign_key?.entity === 'colors';
+  const relation = useLookupRelation(entity, field, label);
+  const arrayRelation = useLookupRelation(entity, field?.items, label);
+  const enumSource = resolveEnumSource(field, label);
 
-  if (singleColorsFk && typeof value === 'string') {
-    const item = colors?.[String(value)];
-    const rgba =
-      item && typeof item === 'object' && 'rgba' in item ? item.rgba : null;
-    if (rgba && typeof rgba === 'string') {
-      const name =
-        item && typeof item === 'object' && 'name' in item ? item.name : null;
+  const renderLookupLink = (table: string, val: unknown) => {
+    const textLabel =
+      typeof val === 'object' ? bestLabelFromItem(val) : String(val);
+    const key =
+      typeof val === 'object'
+        ? (val as any).slug || (val as any).key || textLabel
+        : textLabel;
+
+    // Special handling for colors if we have them
+    if (table === 'colors') {
+      const item = colors?.[String(key)];
+      const rgba =
+        item && typeof item === 'object' && 'rgba' in item ? item.rgba : null;
+      if (rgba && typeof rgba === 'string') {
+        const name =
+          item && typeof item === 'object' && 'name' in item ? item.name : null;
+        return (
+          <ColorSwatch
+            rgbaHex={rgba}
+            label={hexToRgbText(rgba)}
+            title={String(name ?? key)}
+          />
+        );
+      }
+    }
+
+    // If it's a known lookup table, we link to the enum editor
+    const ENUM_TABLES = [
+      'material_certifications',
+      'material_tags',
+      'material_types',
+      'material_tag_categories',
+      'material_photo_types',
+      'brand_link_pattern_types',
+      'countries',
+    ];
+
+    if (ENUM_TABLES.includes(table) && table !== 'countries') {
+      let badgeClass = '';
+      if (table === 'material_certifications') {
+        badgeClass = 'bg-green-100 text-green-800 hover:bg-green-200';
+      } else if (table === 'material_tags') {
+        badgeClass = 'bg-blue-100 text-blue-800 hover:bg-blue-200';
+      }
+
       return (
-        <ColorSwatch
-          rgbaHex={rgba}
-          label={hexToRgbText(rgba)}
-          title={String(name ?? value)}
-        />
+        <Link
+          key={String(key)}
+          to="/enum/$table"
+          params={{ table }}
+          className="no-underline"
+        >
+          <Badge className={badgeClass}>{textLabel}</Badge>
+        </Link>
+      );
+    }
+
+    return <Badge key={String(key)}>{textLabel}</Badge>;
+  };
+
+  if (field?.type === 'array' && Array.isArray(value)) {
+    if (arrayRelation?.isLookup && arrayRelation.table) {
+      if (value.length === 0) return <span className="text-gray-400">[]</span>;
+      return (
+        <div className="flex flex-wrap gap-1">
+          {value.map((v, i) => (
+            <span key={i}>{renderLookupLink(arrayRelation.table!, v)}</span>
+          ))}
+        </div>
+      );
+    }
+
+    if (enumSource.isEnum && enumSource.isArray) {
+      if (value.length === 0) return <span className="text-gray-400">[]</span>;
+      return (
+        <div className="flex flex-wrap gap-1">
+          {value.map((v, i) => {
+            const textLabel =
+              typeof v === 'object' && v !== null
+                ? bestLabelFromItem(v)
+                : String(v);
+            return <Badge key={i}>{textLabel}</Badge>;
+          })}
+        </div>
       );
     }
   }
 
-  if (arrayColorsFk && Array.isArray(value)) {
+  if (enumSource.isEnum && !enumSource.isArray) {
+    const textLabel =
+      typeof value === 'object' && value !== null
+        ? bestLabelFromItem(value)
+        : String(value);
+    return <Badge>{textLabel}</Badge>;
+  }
+
+  if (
+    label?.toLowerCase().includes('tag') ||
+    label?.toLowerCase().includes('certification')
+  ) {
+    const isCertification = label?.toLowerCase().includes('cert');
+    if (Array.isArray(value)) {
+      return (
+        <div className="flex flex-wrap gap-1">
+          {value.map((v, i) => (
+            <Badge
+              key={i}
+              className={
+                isCertification
+                  ? 'bg-green-100 text-green-800 hover:bg-green-200'
+                  : 'bg-blue-100 text-blue-800 hover:bg-blue-200'
+              }
+            >
+              {String(v)}
+            </Badge>
+          ))}
+        </div>
+      );
+    }
     return (
-      <div className="flex flex-wrap gap-1">
-        {value.map((id, idx) => {
-          const item = colors?.[String(id)];
-          const key = `${String(id)}_${idx}`;
-          const rgba =
-            item && typeof item === 'object' && 'rgba' in item
-              ? item.rgba
-              : null;
-          const name =
-            item && typeof item === 'object' && 'name' in item
-              ? item.name
-              : null;
-          if (rgba && typeof rgba === 'string') {
-            return (
-              <ColorSwatch
-                key={key}
-                rgbaHex={rgba}
-                label={hexToRgbText(rgba)}
-                title={String(name ?? id)}
-              />
-            );
-          }
-          return (
-            <span key={key} className="text-xs text-gray-500">
-              {String(id)}
-            </span>
-          );
-        })}
-      </div>
+      <Badge
+        className={
+          isCertification
+            ? 'bg-green-100 text-green-800 hover:bg-green-200'
+            : 'bg-blue-100 text-blue-800 hover:bg-blue-200'
+        }
+      >
+        {String(value)}
+      </Badge>
     );
+  }
+
+  if (relation?.isLookup && relation.table) {
+    return renderLookupLink(relation.table, value);
   }
 
   if (field?.type === 'rgba' && typeof value === 'string') {
@@ -82,47 +182,27 @@ export const ValueDisplay = ({ value, field, colors }: ValueDisplayProps) => {
 
   if (
     field?.type === 'object' &&
-    field?.fields?.rgba?.type === 'rgba' &&
+    (field?.properties?.color_rgba || field?.properties?.rgba) &&
     value &&
-    typeof value === 'object' &&
-    'rgba' in value
+    typeof value === 'object'
   ) {
-    const rgba = (value as { rgba?: unknown }).rgba;
+    const rgba = (value as any).color_rgba || (value as any).rgba;
     if (typeof rgba === 'string') {
       return <ColorSwatch rgbaHex={rgba} label={hexToRgbText(rgba)} />;
     }
   }
 
-  if (
-    field?.type === 'array' &&
-    field?.items?.type === 'object' &&
-    field?.items?.fields?.rgba?.type === 'rgba' &&
-    Array.isArray(value)
-  ) {
-    return (
-      <div className="flex flex-wrap gap-1">
-        {value.map((it, idx) => {
-          const hex = it?.rgba;
-          if (typeof hex === 'string') {
-            return (
-              <ColorSwatch key={idx} rgbaHex={hex} label={hexToRgbText(hex)} />
-            );
-          }
-          return (
-            <span key={idx} className="text-xs text-gray-500">
-              —
-            </span>
-          );
-        })}
-      </div>
-    );
-  }
-
   const looksLikePhotos =
     Array.isArray(value) &&
-    field?.type === 'array' &&
-    field?.items?.type === 'object' &&
-    !!field?.items?.fields?.url;
+    (field?.type === 'array' || (!field && value.length > 0)) &&
+    (field?.items?.type === 'object' || !field) &&
+    (field?.items?.properties?.url ||
+      (field?.items as any)?.fields?.url ||
+      (value.length > 0 &&
+        typeof value[0] === 'object' &&
+        value[0] !== null &&
+        'url' in (value[0] as object))) &&
+    (value as any[]).every((p) => typeof p === 'object' && p !== null);
 
   if (looksLikePhotos) {
     const photos = (value as any[]).filter((p) => p && p.url);
@@ -130,20 +210,33 @@ export const ValueDisplay = ({ value, field, colors }: ValueDisplayProps) => {
     return (
       <div className="flex flex-wrap gap-3">
         {photos.map((p, idx) => (
-          <div key={idx} className="w-28">
-            <div className="aspect-square w-28 overflow-hidden rounded border border-gray-200 bg-gray-50">
-              <img
-                src={String(p.url)}
-                alt={String(p.type ?? 'photo')}
-                className="h-full w-full object-cover"
-              />
+          <div key={idx} className="flex flex-col gap-1">
+            <div className="relative aspect-square w-28 overflow-hidden rounded border border-gray-200 bg-gray-50 shadow-sm transition-shadow hover:shadow-md">
+              <a
+                href={String(p.url)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block h-full w-full"
+              >
+                <img
+                  src={String(p.url)}
+                  alt={String(p.type ?? 'photo')}
+                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src =
+                      'https://placehold.co/400x400?text=Error';
+                  }}
+                />
+              </a>
             </div>
-            <div
-              className="mt-1 truncate text-[11px] text-gray-600"
-              title={String(p.type ?? 'photo')}
-            >
-              {String(p.type ?? 'photo')}
-            </div>
+            {p.type && (
+              <div
+                className="w-28 truncate text-center text-[10px] font-medium tracking-tight text-gray-500 uppercase"
+                title={String(p.type)}
+              >
+                {String(p.type)}
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -165,38 +258,22 @@ export const ValueDisplay = ({ value, field, colors }: ValueDisplayProps) => {
 
   if (isPrimitive(value)) return <span>{String(value)}</span>;
 
-  if (Array.isArray(value)) {
-    if (value.length === 0) return <span className="text-gray-400">[]</span>;
-    const allPrim = value.every(isPrimitive);
-    if (allPrim) {
-      return (
-        <div className="flex flex-wrap gap-1">
-          {value.map((v, i) => (
-            <Badge key={i}>{String(v)}</Badge>
-          ))}
-        </div>
-      );
-    }
-    const swatches = value.map(extractColorHex).filter(Boolean) as string[];
-    if (swatches.length > 0) {
-      return (
-        <div className="flex flex-wrap items-center gap-2">
-          {swatches.map((c, i) => (
-            <div key={i} className="flex items-center gap-2">
-              <div
-                className="h-6 w-6 rounded-md border ring-1 ring-gray-200"
-                style={{ background: c as any }}
-              />
-              <code className="text-xs text-gray-700">{c}</code>
-            </div>
-          ))}
-        </div>
-      );
-    }
+  const swatches = Array.isArray(value)
+    ? (value.map(extractColorHex).filter(Boolean) as string[])
+    : [];
+  if (swatches.length > 0) {
     return (
-      <pre className="max-h-56 overflow-auto rounded-md bg-gray-50 p-2 text-[11px] leading-4">
-        {safeStringify(value)}
-      </pre>
+      <div className="flex flex-wrap items-center gap-2">
+        {swatches.map((c, i) => (
+          <div key={i} className="flex items-center gap-2">
+            <div
+              className="h-6 w-6 rounded-md border ring-1 ring-gray-200"
+              style={{ background: c as any }}
+            />
+            <code className="text-xs text-gray-700">{c}</code>
+          </div>
+        ))}
+      </div>
     );
   }
 
@@ -229,13 +306,7 @@ export const ValueDisplay = ({ value, field, colors }: ValueDisplayProps) => {
               {k}
             </dt>
             <dd className="text-sm break-words text-gray-900">
-              {isPrimitive(v) ? (
-                String(v)
-              ) : (
-                <pre className="max-h-40 overflow-auto rounded bg-gray-50 p-2 text-[11px] leading-4">
-                  {safeStringify(v)}
-                </pre>
-              )}
+              <ValueDisplay value={v} colors={colors} />
             </dd>
           </div>
         ))}

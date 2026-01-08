@@ -5,7 +5,7 @@ import { safeStringify } from '~/utils/format';
 
 import { FormField } from './FormField';
 
-type ColorValue = { rgba: string } | null;
+type ColorValue = { rgba?: string; color_rgba?: string } | null;
 
 export const ColorPicker = ({
   label,
@@ -19,8 +19,13 @@ export const ColorPicker = ({
   required?: boolean;
 }) => {
   const valueObj =
-    value && typeof value === 'object' ? (value as { rgba?: string }) : null;
-  const currentHex = valueObj?.rgba || '';
+    value && typeof value === 'object'
+      ? (value as { rgba?: string; color_rgba?: string })
+      : null;
+  const currentHex =
+    valueObj?.rgba ||
+    valueObj?.color_rgba ||
+    (typeof value === 'string' ? value : '');
   const [hex, setHex] = useState(currentHex);
 
   useEffect(() => {
@@ -30,7 +35,7 @@ export const ColorPicker = ({
   const handleColorChange = (newHex: string) => {
     setHex(newHex);
     if (newHex && /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(newHex)) {
-      onChange({ rgba: newHex });
+      onChange({ rgba: newHex, color_rgba: newHex });
     } else if (!newHex) {
       onChange(null);
     }
@@ -83,7 +88,11 @@ export const ColorArrayPicker = ({
   onChange: (val: ColorValue[] | null) => void;
   required?: boolean;
 }) => {
-  const colors: Array<{ rgba: string }> = Array.isArray(value) ? value : [];
+  const colors: Array<{ rgba?: string; color_rgba?: string }> = Array.isArray(
+    value,
+  )
+    ? value
+    : [];
   const [localColors, setLocalColors] = useState(colors);
 
   useEffect(() => {
@@ -91,7 +100,10 @@ export const ColorArrayPicker = ({
   }, [value]);
 
   const handleAddColor = () => {
-    const newColors = [...localColors, { rgba: '#000000' }];
+    const newColors = [
+      ...localColors,
+      { rgba: '#000000', color_rgba: '#000000' },
+    ];
     setLocalColors(newColors);
     onChange(newColors);
   };
@@ -105,7 +117,7 @@ export const ColorArrayPicker = ({
   const handleColorChange = (index: number, newHex: string) => {
     const newColors = [...localColors];
     if (/^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(newHex)) {
-      newColors[index] = { rgba: newHex };
+      newColors[index] = { rgba: newHex, color_rgba: newHex };
       setLocalColors(newColors);
       onChange(newColors);
     }
@@ -115,7 +127,7 @@ export const ColorArrayPicker = ({
     <FormField label={label} required={required}>
       <div className="space-y-2">
         {localColors.map((color, index) => {
-          const hex = color?.rgba || '#000000';
+          const hex = color?.rgba || color?.color_rgba || '#000000';
           const bgColor = /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(hex)
             ? (hexToCssRgba(hex) ?? '#ccc')
             : '#ccc';

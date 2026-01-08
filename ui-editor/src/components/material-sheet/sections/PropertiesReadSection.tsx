@@ -1,3 +1,5 @@
+import { DataGrid } from '~/components/DataGrid';
+
 import type { Material } from '../types';
 
 interface PropertiesReadSectionProps {
@@ -12,22 +14,12 @@ export const PropertiesReadSection = ({
   }
 
   return (
-    <div className="card">
-      <div className="card-header">Material Properties</div>
-      <div className="card-body">
-        <div className="grid gap-4 sm:grid-cols-2">
-          {Object.entries(material.properties).map(([key, value]) => (
-            <div key={key}>
-              <dt className="text-xs font-medium tracking-wide text-gray-500 uppercase">
-                {key.replace(/_/g, ' ')}
-              </dt>
-              <dd className="mt-1 text-sm text-gray-900">
-                {String(value || '—')}
-              </dd>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+    <DataGrid
+      data={material}
+      title="Material Properties"
+      primaryKeys={['properties']}
+      excludeKeys={Object.keys(material).filter((k) => k !== 'properties')}
+      entity="material"
+    />
   );
 };
