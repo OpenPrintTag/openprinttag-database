@@ -1,14 +1,14 @@
 import { useMemo } from 'react';
 
+import { dedupeOptions, type SelectOption } from '~/utils/options';
+
 import { useEnum } from './useEnum';
 import { bestLabelFromItem } from './useSchema';
-
-type Option = { value: string | number; label: string };
 
 export const useEnumOptions = (
   table: string | null,
   valueField: string | null,
-): { loading: boolean; error: string | null; options: Option[] } => {
+): { loading: boolean; error: string | null; options: SelectOption[] } => {
   const variant =
     table === 'brands' ? { variant: 'basic' as const } : undefined;
   const { data: payload, loading, error } = useEnum(table, variant);
@@ -19,7 +19,7 @@ export const useEnumOptions = (
     }
     const items = Array.isArray(payload?.items) ? payload.items : [];
 
-    const opts: Option[] = items
+    const opts: SelectOption[] = items
       .map((it) => {
         if (!it || typeof it !== 'object') return null;
         const item = it as Record<string, unknown>;
@@ -30,22 +30,24 @@ export const useEnumOptions = (
         }
         return { value: value as string | number, label: String(label) };
       })
-      .filter(Boolean) as Option[];
+      .filter(Boolean) as SelectOption[];
 
-    if (opts.length > 0) return opts;
+    if (opts.length > 0) return dedupeOptions(opts);
 
-    return items
-      .map((it) => {
-        if (!it || typeof it !== 'object') return null;
-        const item = it as Record<string, unknown>;
-        const value = item.slug ?? item.code ?? item.id;
-        if (value == null) return null;
-        return {
-          value: value as string | number,
-          label: bestLabelFromItem(it),
-        };
-      })
-      .filter(Boolean) as Option[];
+    return dedupeOptions(
+      items
+        .map((it) => {
+          if (!it || typeof it !== 'object') return null;
+          const item = it as Record<string, unknown>;
+          const value = item.slug ?? item.code ?? item.id;
+          if (value == null) return null;
+          return {
+            value: value as string | number,
+            label: bestLabelFromItem(it),
+          };
+        })
+        .filter(Boolean) as SelectOption[],
+    );
   }, [payload, table, valueField]);
 
   return {

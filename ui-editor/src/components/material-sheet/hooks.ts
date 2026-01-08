@@ -42,8 +42,3 @@ export const useMaterialLookupData = () => {
     materialTypesData,
   };
 };
-
-export const classOptions = [
-  { value: 'FFF', label: 'FFF' },
-  { value: 'SLA', label: 'SLA' },
-];

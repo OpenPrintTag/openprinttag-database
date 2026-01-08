@@ -206,7 +206,6 @@ export const PackageSheet = ({
               fields={(fields as any) || null}
               form={enrichedPackage as Package}
               onFieldChange={handleFieldChange}
-              schema={schema}
             />
           )}
 

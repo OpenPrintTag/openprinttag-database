@@ -15,13 +15,6 @@ export const hexToCssRgba = (hex: string): string | null => {
   return color.isValid() ? color.toRgbString() : null;
 };
 
-export const hexToRgbText = (hex: string): string => {
-  const color = tinycolor(hex);
-  if (!color.isValid()) return String(hex);
-  const rgb = color.toRgb();
-  return `${rgb.r}, ${rgb.g}, ${rgb.b}`;
-};
-
 export const isHexColor = (s: unknown): boolean => {
   if (typeof s !== 'string') return false;
   const color = tinycolor(s);

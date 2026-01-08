@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { DataGrid } from '~/components/DataGrid';
 import type { SchemaField } from '~/components/SchemaFields';
 
@@ -24,7 +22,7 @@ export const PackageSheetReadView = ({
   }
 
   return (
-    <div className="mt-6 space-y-6">
+    <div className="my-6 space-y-6">
       <DataGrid
         title="Package Information"
         fields={fields ? (fields as Record<string, SchemaField>) : undefined}

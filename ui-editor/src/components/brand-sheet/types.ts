@@ -10,12 +10,3 @@ export interface BrandSheetProps {
   readOnly?: boolean;
   onEdit?: () => void;
 }
-
-export interface LookupData {
-  items: Array<Record<string, unknown>>;
-}
-
-export interface SelectOption {
-  value: string | number;
-  label: string;
-}

@@ -1,16 +1,30 @@
 import { Link } from '@tanstack/react-router';
+import { useMemo } from 'react';
 
 import { Badge } from '~/components/ui';
 import { ColorSwatch } from '~/components/ui/color-swatch';
+import { useEnum } from '~/hooks/useEnum';
 import {
   bestLabelFromItem,
   resolveEnumSource,
   useLookupRelation,
 } from '~/hooks/useSchema';
-import { extractColorHex, hexToRgbText } from '~/utils/color';
+import { extractColorHex } from '~/utils/color';
 import { isPrimitive, isValidUrl, safeStringify } from '~/utils/format';
 
 import type { SchemaField } from './field-types';
+
+// Badge style constants
+const BADGE_STYLES = {
+  certification: 'bg-green-100 text-green-800 hover:bg-green-200',
+  tag: 'bg-blue-100 text-blue-800 hover:bg-blue-200',
+} as const;
+
+const getBadgeStyleForTable = (table: string): string => {
+  if (table === 'material_certifications') return BADGE_STYLES.certification;
+  if (table === 'material_tags') return BADGE_STYLES.tag;
+  return '';
+};
 
 type ColorItem = {
   rgba?: string;
@@ -32,6 +46,15 @@ export const ValueDisplay = ({
   entity = 'brand',
   label,
 }: ValueDisplayProps) => {
+  // Load countries enum for resolving country codes to names
+  const { data: countriesData } = useEnum('countries');
+  const countriesMap = useMemo(() => {
+    if (!countriesData?.items) return new Map<string, string>();
+    return new Map(
+      countriesData.items.map((item) => [String(item.key), String(item.name)]),
+    );
+  }, [countriesData]);
+
   if (value === undefined || value === null) {
     return <span className="text-gray-400">—</span>;
   }
@@ -43,7 +66,7 @@ export const ValueDisplay = ({
   const renderColorSwatches = (colors: string[]) => (
     <div className="flex flex-wrap items-center gap-2">
       {colors.map((c, i) => (
-        <ColorSwatch key={i} rgbaHex={c} label={hexToRgbText(c)} title={c} />
+        <ColorSwatch key={i} rgbaHex={c} label={c} title={c} />
       ))}
     </div>
   );
@@ -67,11 +90,17 @@ export const ValueDisplay = ({
         return (
           <ColorSwatch
             rgbaHex={rgba}
-            label={hexToRgbText(rgba)}
+            label={rgba}
             title={String(name ?? key)}
           />
         );
       }
+    }
+
+    // Special handling for countries - resolve key to name
+    if (table === 'countries') {
+      const countryName = countriesMap.get(String(key)) || textLabel;
+      return <Badge key={String(key)}>{countryName}</Badge>;
     }
 
     // If it's a known lookup table, we link to the enum editor
@@ -86,13 +115,6 @@ export const ValueDisplay = ({
     ];
 
     if (ENUM_TABLES.includes(table) && table !== 'countries') {
-      let badgeClass = '';
-      if (table === 'material_certifications') {
-        badgeClass = 'bg-green-100 text-green-800 hover:bg-green-200';
-      } else if (table === 'material_tags') {
-        badgeClass = 'bg-blue-100 text-blue-800 hover:bg-blue-200';
-      }
-
       return (
         <Link
           key={String(key)}
@@ -100,7 +122,7 @@ export const ValueDisplay = ({
           params={{ table }}
           className="no-underline"
         >
-          <Badge className={badgeClass}>{textLabel}</Badge>
+          <Badge className={getBadgeStyleForTable(table)}>{textLabel}</Badge>
         </Link>
       );
     }
@@ -148,36 +170,21 @@ export const ValueDisplay = ({
     label?.toLowerCase().includes('tag') ||
     label?.toLowerCase().includes('certification')
   ) {
-    const isCertification = label?.toLowerCase().includes('cert');
+    const badgeStyle = label?.toLowerCase().includes('cert')
+      ? BADGE_STYLES.certification
+      : BADGE_STYLES.tag;
     if (Array.isArray(value)) {
       return (
         <div className="flex flex-wrap gap-1">
           {value.map((v, i) => (
-            <Badge
-              key={i}
-              className={
-                isCertification
-                  ? 'bg-green-100 text-green-800 hover:bg-green-200'
-                  : 'bg-blue-100 text-blue-800 hover:bg-blue-200'
-              }
-            >
+            <Badge key={i} className={badgeStyle}>
               {String(v)}
             </Badge>
           ))}
         </div>
       );
     }
-    return (
-      <Badge
-        className={
-          isCertification
-            ? 'bg-green-100 text-green-800 hover:bg-green-200'
-            : 'bg-blue-100 text-blue-800 hover:bg-blue-200'
-        }
-      >
-        {String(value)}
-      </Badge>
-    );
+    return <Badge className={badgeStyle}>{String(value)}</Badge>;
   }
 
   if (relation?.isLookup && relation.table) {
@@ -185,7 +192,7 @@ export const ValueDisplay = ({
   }
 
   if (field?.type === 'rgba' && typeof value === 'string') {
-    return <ColorSwatch rgbaHex={value} label={hexToRgbText(value)} />;
+    return <ColorSwatch rgbaHex={value} label={value} />;
   }
 
   if (
@@ -196,7 +203,7 @@ export const ValueDisplay = ({
   ) {
     const rgba = (value as any).color_rgba || (value as any).rgba;
     if (typeof rgba === 'string') {
-      return <ColorSwatch rgbaHex={rgba} label={hexToRgbText(rgba)} />;
+      return <ColorSwatch rgbaHex={rgba} label={rgba} />;
     }
   }
 
@@ -271,6 +278,25 @@ export const ValueDisplay = ({
     : [];
   if (swatches.length > 0) {
     return renderColorSwatches(swatches);
+  }
+
+  // Handle simple arrays of primitives (like keywords)
+  if (Array.isArray(value)) {
+    const primitiveItems = value.filter(
+      (v) => typeof v === 'string' || typeof v === 'number',
+    );
+    if (primitiveItems.length === value.length && value.length > 0) {
+      return (
+        <div className="flex flex-wrap gap-1">
+          {value.map((v, i) => (
+            <Badge key={i}>{String(v)}</Badge>
+          ))}
+        </div>
+      );
+    }
+    if (value.length === 0) {
+      return <span className="text-gray-400">[]</span>;
+    }
   }
 
   const isPlainObject =
