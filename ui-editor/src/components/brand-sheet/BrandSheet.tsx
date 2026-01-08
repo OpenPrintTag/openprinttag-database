@@ -100,6 +100,7 @@ export const BrandSheet = ({
           <BrandSheetEditView
             fields={fields}
             form={form}
+            schema={schema}
             onFieldChange={handleFieldChange}
           />
         )}

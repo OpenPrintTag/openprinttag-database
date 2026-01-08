@@ -14,7 +14,6 @@ export const ColorPicker = ({
   onChange,
   required,
   hideLabel = false,
-  showColorInput = false,
   actions,
   allowInvalidInput = true,
 }: {

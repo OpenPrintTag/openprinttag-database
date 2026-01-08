@@ -1,3 +1,5 @@
+import { EnumItem } from '~/hooks/useEnum';
+
 export interface LookupItem {
   key: string | number;
   slug?: string;
@@ -24,7 +26,7 @@ export interface Material {
   uuid?: string;
   slug?: string;
   name?: string;
-  brand?: string;
+  brand?: string | EnumItem;
   brand_specific_id?: string;
   type?: string;
   class?: string;

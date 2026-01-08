@@ -12,7 +12,11 @@ export const PropertiesReadSection = ({
   material,
   fields,
 }: PropertiesReadSectionProps) => {
-  if (!material?.properties || Object.keys(material.properties).length === 0) {
+  if (
+    !fields ||
+    !material?.properties ||
+    Object.keys(material.properties).length === 0
+  ) {
     return null;
   }
 

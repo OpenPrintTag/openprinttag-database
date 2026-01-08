@@ -63,7 +63,7 @@ export const FieldEditor = ({
 
   // Helper for common wrapper
   const Wrapper = ({ children }: { children: React.ReactNode }) => (
-    <FormField label={label} htmlFor={inputId} required={field.required}>
+    <FormField label={label} htmlFor={inputId} required={!!field.required}>
       {children}
     </FormField>
   );
@@ -156,7 +156,7 @@ export const FieldEditor = ({
       <FormField
         label={isDisabled ? `${label} (read-only)` : label}
         htmlFor={inputId}
-        required={field.required}
+        required={!!field.required}
       >
         <input
           id={inputId}
@@ -324,7 +324,7 @@ export const FieldEditor = ({
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={!!field.required}
         />
       );
     }
@@ -343,7 +343,7 @@ export const FieldEditor = ({
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={!!field.required}
         />
       );
     }
@@ -362,7 +362,7 @@ export const FieldEditor = ({
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={!!field.required}
         />
       );
     }
@@ -374,7 +374,7 @@ export const FieldEditor = ({
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={!!field.required}
         />
       );
     }
@@ -386,7 +386,7 @@ export const FieldEditor = ({
   const fallbackValue =
     typeof value === 'string' || typeof value === 'number' ? String(value) : '';
   return (
-    <FormField label={label} htmlFor={inputId} required={field.required}>
+    <FormField label={label} htmlFor={inputId} required={!!field.required}>
       <input
         id={inputId}
         className="input"

@@ -42,7 +42,7 @@ export const ContainerSheetEditView = ({
               return (
                 <FieldEditor
                   key={key}
-                  label={field.label ?? key}
+                  label={field.title ?? key}
                   field={field}
                   value={rawValue}
                   onChange={(val) => onFieldChange(key, val)}

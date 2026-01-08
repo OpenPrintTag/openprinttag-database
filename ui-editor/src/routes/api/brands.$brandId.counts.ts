@@ -8,11 +8,8 @@ export const Route = createFileRoute('/api/brands/$brandId/counts')({
       GET: async ({ params }) => {
         const { brandId } = params;
 
-        const {
-          readMaterialsByBrand,
-          readNestedEntitiesByBrand,
-          readAllEntities,
-        } = await import('~/server/data/fs');
+        const { readMaterialsByBrand, readNestedEntitiesByBrand } =
+          await import('~/server/data/fs');
 
         // Count materials
         let materialCount = 0;

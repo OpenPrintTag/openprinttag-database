@@ -1,5 +1,5 @@
 import { DataGrid } from '~/components/DataGrid';
-import type { SchemaField } from '~/components/field-types';
+import type { EntityFields } from '~/components/field-types';
 
 import type { Material } from '../types';
 
@@ -12,7 +12,7 @@ export const PrintSheetCompatibilityReadSection = ({
   material,
   fields,
 }: PrintSheetCompatibilityReadSectionProps) => {
-  if (!material?.print_sheet_compatibility) {
+  if (!fields || !material?.print_sheet_compatibility) {
     return null;
   }
 
@@ -20,7 +20,7 @@ export const PrintSheetCompatibilityReadSection = ({
     <DataGrid
       data={material}
       title="Print Sheet Compatibility"
-      fields={fields as Record<string, SchemaField> | undefined}
+      fields={fields}
       primaryKeys={['print_sheet_compatibility']}
       excludeKeys={Object.keys(fields).filter(
         (k) => k !== 'print_sheet_compatibility',

@@ -1,4 +1,5 @@
 import { DataGrid } from '~/components/DataGrid';
+import { EntityFields } from '~/components/field-types';
 
 import type { Material } from '../types';
 
@@ -11,7 +12,10 @@ export const TagsCertificationsReadSection = ({
   material,
   fields,
 }: TagsCertificationsReadSectionProps) => {
-  if (!material?.tags?.length && !material?.certifications?.length) {
+  if (
+    !fields ||
+    (!material?.tags?.length && !material?.certifications?.length)
+  ) {
     return null;
   }
 
