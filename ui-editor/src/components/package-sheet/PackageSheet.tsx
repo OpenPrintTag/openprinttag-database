@@ -107,7 +107,7 @@ export const PackageSheet = ({
 
     const materialValue = rawForm.material as string | undefined;
     if (!materialValue?.trim()) {
-      setError(TOAST_MESSAGES.VALIDATION.PACKAGE_MATERIAL_SLUG_REQUIRED);
+      setError(TOAST_MESSAGES.VALIDATION.PACKAGE_MATERIAL_REQUIRED);
       return;
     }
 

@@ -1,12 +1,12 @@
 import { DataGrid } from '~/components/DataGrid';
-import type { SchemaField } from '~/components/SchemaFields';
+import { EntityFields } from '~/components/field-types';
 
 import { SystemInformationReadSection } from './sections/SystemInformationReadSection';
 import type { Package } from './types';
 
 interface PackageSheetReadViewProps {
   package?: Package;
-  fields: Record<string, SchemaField> | null;
+  fields: EntityFields;
 }
 
 export const PackageSheetReadView = ({
@@ -25,8 +25,9 @@ export const PackageSheetReadView = ({
     <div className="my-6 space-y-6">
       <DataGrid
         title="Package Information"
-        fields={fields ? (fields as Record<string, SchemaField>) : undefined}
+        fields={fields}
         data={pkg}
+        entity="package"
         primaryKeys={['uuid', 'slug', 'name']}
         excludeKeys={['directus_uuid']}
       />

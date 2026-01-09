@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 interface UseEntitySheetOptions<T> {
   entity?: T;
@@ -52,9 +52,9 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
     prevOpenRef.current = open;
   }, [entity, mode, open, stableInitialForm]);
 
-  const handleFieldChange = (key: string, value: unknown) => {
+  const handleFieldChange = useCallback((key: string, value: unknown) => {
     setForm((prev) => ({ ...prev, [key]: value }));
-  };
+  }, []);
 
   const handleEdit = () => {
     setIsReadOnly(false);

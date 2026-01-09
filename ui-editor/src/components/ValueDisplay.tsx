@@ -6,9 +6,11 @@ import { ColorSwatch } from '~/components/ui/color-swatch';
 import { useEnum } from '~/hooks/useEnum';
 import {
   bestLabelFromItem,
+  DATA_ENUM_TABLES,
   resolveEnumSource,
   useLookupRelation,
 } from '~/hooks/useSchema';
+import { extractEnumLabel, extractEnumValue } from '~/hooks/useSchemaMetadata';
 import { extractColorHex } from '~/utils/color';
 import { isPrimitive, isValidUrl, safeStringify } from '~/utils/format';
 
@@ -51,17 +53,20 @@ export const ValueDisplay = ({
   const countriesMap = useMemo(() => {
     if (!countriesData?.items) return new Map<string, string>();
     return new Map(
-      countriesData.items.map((item) => [String(item.key), String(item.name)]),
+      countriesData.items.map((item) => [
+        extractEnumValue(item, 'countries', undefined),
+        extractEnumLabel(item, 'countries', undefined),
+      ]),
     );
   }, [countriesData]);
-
-  if (value === undefined || value === null) {
-    return <span className="text-gray-400">—</span>;
-  }
 
   const relation = useLookupRelation(entity, field, label);
   const arrayRelation = useLookupRelation(entity, field?.items, label);
   const enumSource = resolveEnumSource(field, label);
+
+  if (value === undefined || value === null) {
+    return <span className="text-gray-400">—</span>;
+  }
 
   const renderColorSwatches = (colors: string[]) => (
     <div className="flex flex-wrap items-center gap-2">
@@ -73,10 +78,12 @@ export const ValueDisplay = ({
 
   const renderLookupLink = (table: string, val: unknown) => {
     const textLabel =
-      typeof val === 'object' ? bestLabelFromItem(val) : String(val);
+      typeof val === 'object'
+        ? extractEnumLabel(val as Record<string, unknown>, table, undefined)
+        : String(val);
     const key =
       typeof val === 'object'
-        ? (val as any).slug || (val as any).key || textLabel
+        ? extractEnumValue(val as Record<string, unknown>, table, undefined)
         : textLabel;
 
     // Special handling for colors if we have them
@@ -104,17 +111,8 @@ export const ValueDisplay = ({
     }
 
     // If it's a known lookup table, we link to the enum editor
-    const ENUM_TABLES = [
-      'material_certifications',
-      'material_tags',
-      'material_types',
-      'material_tag_categories',
-      'material_photo_types',
-      'brand_link_pattern_types',
-      'countries',
-    ];
-
-    if (ENUM_TABLES.includes(table) && table !== 'countries') {
+    // Use imported DATA_ENUM_TABLES instead of hardcoded list
+    if (DATA_ENUM_TABLES.includes(table) && table !== 'countries') {
       return (
         <Link
           key={String(key)}

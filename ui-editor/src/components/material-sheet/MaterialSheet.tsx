@@ -11,6 +11,7 @@ import {
   useUpdateMaterial,
 } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
+import { ENUM_METADATA } from '~/server/data/schema-metadata';
 import {
   EntitySheetFooter,
   EntitySheetHeader,
@@ -100,35 +101,35 @@ export const MaterialSheet = ({
       enriched.brand = brandData;
     }
 
-    // Material Type enrichment
+    // Material Type enrichment - use metadata valueField for matching
     if (materialTypesData?.items && enriched.type) {
+      const typeValueField =
+        ENUM_METADATA.material_types?.valueField || 'abbreviation';
       const found = materialTypesData.items.find(
-        (it) => String(it.key) === String(enriched.type),
+        (it) => String(it[typeValueField]) === String(enriched.type),
       );
       if (found) enriched.type = found as any;
     }
 
-    // Tags enrichment
+    // Tags enrichment - use metadata valueField for matching
     if (tagsData?.items && Array.isArray(enriched.tags)) {
-      enriched.tags = enriched.tags.map((tagSlug) => {
+      const tagValueField = ENUM_METADATA.material_tags?.valueField || 'name';
+      enriched.tags = enriched.tags.map((tagValue) => {
         const found = tagsData.items.find(
-          (it) =>
-            it.slug === tagSlug || it.key === tagSlug || it.name === tagSlug,
+          (it) => it[tagValueField] === tagValue,
         );
-        return (found || tagSlug) as any;
+        return (found || tagValue) as any;
       });
     }
-
-    // Certifications enrichment
+    // Certifications enrichment - use metadata valueField for matching
     if (certificationsData?.items && Array.isArray(enriched.certifications)) {
-      enriched.certifications = enriched.certifications.map((certKey) => {
+      const certValueField =
+        ENUM_METADATA.material_certifications?.valueField || 'name';
+      enriched.certifications = enriched.certifications.map((certValue) => {
         const found = certificationsData.items.find(
-          (it) =>
-            it.name === certKey ||
-            it.display_name === certKey ||
-            String(it.key) === String(certKey),
+          (it) => it[certValueField] === certValue,
         );
-        return found || certKey;
+        return found || certValue;
       });
     }
 
@@ -154,19 +155,23 @@ export const MaterialSheet = ({
     if (typeof rawForm.brand === 'object' && rawForm.brand !== null) {
       rawForm.brand = (rawForm.brand as any).slug;
     }
+    // Extract values using metadata valueField
     if (typeof rawForm.type === 'object' && rawForm.type !== null) {
-      rawForm.type = (rawForm.type as any).key;
+      const typeValueField =
+        ENUM_METADATA.material_types?.valueField || 'abbreviation';
+      rawForm.type = (rawForm.type as any)[typeValueField];
     }
     if (Array.isArray(rawForm.tags)) {
+      const tagValueField = ENUM_METADATA.material_tags?.valueField || 'name';
       rawForm.tags = rawForm.tags.map((t: any) =>
-        typeof t === 'object' && t !== null ? t.name || t.slug || t.key : t,
+        typeof t === 'object' && t !== null ? t[tagValueField] : t,
       );
     }
     if (Array.isArray(rawForm.certifications)) {
+      const certValueField =
+        ENUM_METADATA.material_certifications?.valueField || 'name';
       rawForm.certifications = rawForm.certifications.map((c: any) =>
-        typeof c === 'object' && c !== null
-          ? c.name || c.display_name || c.key
-          : c,
+        typeof c === 'object' && c !== null ? c[certValueField] : c,
       );
     }
 

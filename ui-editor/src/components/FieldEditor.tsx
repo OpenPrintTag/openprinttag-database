@@ -1,15 +1,9 @@
-import React, { useMemo } from 'react';
+import React, { memo, useMemo } from 'react';
 
-import { useEnumOptions } from '~/hooks/useEnumOptions';
-import {
-  enumValueFieldForTable,
-  resolveEnumSource,
-  useLookupRelation,
-} from '~/hooks/useSchema';
-import { dedupeOptions, type SelectOption } from '~/utils/options';
+import { useFieldOptions } from '~/hooks/useFieldOptions';
 
 import { ColorArrayPicker, ColorPicker, JsonEditor } from './field-editors';
-import type { SchemaField } from './field-types';
+import type { SchemaField, SelectOption } from './field-types';
 import { FormField } from './FormField';
 import { MultiSelect } from './MultiSelect';
 import { PhotosEditor } from './PhotosEditor';
@@ -33,10 +27,14 @@ interface WrapperProps {
 }
 
 // Utility functions
+/**
+ * Extract value from an item using the specified field.
+ * No guessing - uses explicit valueField from metadata.
+ */
 const extractValue = (val: unknown, valueField: string): string => {
   if (val && typeof val === 'object') {
     const obj = val as Record<string, unknown>;
-    return String(obj[valueField] ?? obj.slug ?? obj.key ?? obj.id ?? '');
+    return String(obj[valueField] ?? '');
   }
   return String(val ?? '');
 };
@@ -206,252 +204,157 @@ const renderMultiSelect = (
   );
 };
 
-const renderEnumField = (
-  inputId: string,
-  value: unknown,
-  options: SelectOption[],
-  isArray: boolean,
-  loading: boolean,
-  error: string | null,
-  hasTable: boolean,
-  disabled: boolean,
-  onChange: (val: unknown) => void,
-): React.ReactNode => {
-  if (isArray) {
-    const arr: string[] = Array.isArray(value) ? value.map(String) : [];
-    return (
-      <>
-        {hasTable && error && (
-          <ErrorMessage message="Failed to load options; showing inline values if available." />
-        )}
-        <MultiSelect
-          id={inputId}
-          options={options}
-          value={arr}
-          onChange={onChange}
-          disabled={disabled || (hasTable && loading)}
-          placeholder={hasTable && loading ? 'Loading…' : 'Select items...'}
-          searchPlaceholder="Search..."
-        />
-      </>
-    );
-  }
-
-  const enumValue = toStringValue(value);
-  return (
-    <>
-      <SelectDropdown
-        id={inputId}
-        value={enumValue}
-        options={options}
-        onChange={onChange}
-        disabled={disabled || (hasTable && loading)}
-        loading={hasTable && loading}
-      />
-      {hasTable && error && (
-        <ErrorMessage message="Failed to load options; using inline values if present." />
-      )}
-    </>
-  );
-};
-
 // Main component
-export const FieldEditor: React.FC<FieldEditorProps> = ({
-  label,
-  field,
-  value,
-  onChange,
-  disabled = false,
-  entity = 'brand',
-}) => {
-  const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
-  const type = field.type;
-  const isRequired = !!field.required;
+export const FieldEditor: React.FC<FieldEditorProps> = memo(
+  ({
+    label,
+    field,
+    value,
+    onChange,
+    disabled = false,
+    entity: _entity = 'brand',
+  }) => {
+    const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
+    const type = field.type;
+    const isRequired = !!field.required;
 
-  // Hooks for relation lookups
-  const relation = useLookupRelation(entity, field, label);
-  const relOptions = useEnumOptions(
-    relation?.table ?? null,
-    relation?.valueField ?? null,
-  );
+    // Unified field options hook - handles relations, enums, and inline values
+    const fieldOptions = useFieldOptions(label, field);
 
-  const arrayRelation = useLookupRelation(entity, field.items, label);
-  const arrayOptions = useEnumOptions(
-    arrayRelation?.table ?? null,
-    arrayRelation?.valueField ?? null,
-  );
+    // Field with options (relation or enum) - single value
+    if (fieldOptions.hasOptions && !fieldOptions.isArray && type !== 'array') {
+      return (
+        <FieldWrapper label={label} inputId={inputId} required={isRequired}>
+          {renderForeignKeySelect(
+            inputId,
+            value,
+            fieldOptions.valueField ?? 'name',
+            fieldOptions.options,
+            fieldOptions.loading,
+            fieldOptions.error,
+            disabled,
+            onChange,
+          )}
+        </FieldWrapper>
+      );
+    }
 
-  // Enum resolution
-  const enumSource = resolveEnumSource(field, label);
-  const enumValueField = enumValueFieldForTable(enumSource.table);
-  const enumOptions = useEnumOptions(enumSource.table, enumValueField);
+    // Field with options (relation or enum) - array value
+    if (fieldOptions.hasOptions && (fieldOptions.isArray || type === 'array')) {
+      return (
+        <FieldWrapper label={label} inputId={inputId} required={isRequired}>
+          {renderMultiSelect(
+            inputId,
+            value,
+            fieldOptions.valueField ?? 'name',
+            fieldOptions.options,
+            fieldOptions.loading,
+            fieldOptions.error,
+            disabled,
+            onChange,
+          )}
+        </FieldWrapper>
+      );
+    }
 
-  // Wrapper helper
-  const Wrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-    <FieldWrapper label={label} inputId={inputId} required={isRequired}>
-      {children}
-    </FieldWrapper>
-  );
+    // String types (string, slug, uuid, rgba)
+    if (
+      type === 'string' ||
+      type === 'slug' ||
+      type === 'uuid' ||
+      type === 'rgba'
+    ) {
+      const stringValue = typeof value === 'string' ? value : '';
+      const isReadOnly = disabled || type === 'uuid';
 
-  // Single-value foreign key → dropdown
-  if (relation?.isLookup && relation.table && type !== 'array') {
+      return (
+        <FormField
+          label={isReadOnly ? `${label} (read-only)` : label}
+          htmlFor={inputId}
+          required={isRequired}
+        >
+          <input
+            id={inputId}
+            className={`input ${isReadOnly ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
+            type="text"
+            value={stringValue}
+            onChange={(e) => onChange(e.target.value)}
+            disabled={isReadOnly}
+            title={isReadOnly ? 'This field is not editable' : undefined}
+          />
+        </FormField>
+      );
+    }
+
+    // Number types (integer, number)
+    if (type === 'integer' || type === 'number') {
+      const numberValue = typeof value === 'number' ? value : '';
+      return (
+        <FieldWrapper label={label} inputId={inputId} required={isRequired}>
+          <input
+            id={inputId}
+            className="input"
+            type="number"
+            value={numberValue}
+            disabled={disabled}
+            onChange={(e) => {
+              if (e.target.value === '') {
+                onChange(null);
+                return;
+              }
+              const parsed =
+                type === 'integer'
+                  ? parseInt(e.target.value, 10)
+                  : parseFloat(e.target.value);
+              onChange(isNaN(parsed) ? null : parsed);
+            }}
+          />
+        </FieldWrapper>
+      );
+    }
+
+    // Boolean type
+    if (type === 'boolean') {
+      return (
+        <FieldWrapper label={label} inputId={inputId} required={isRequired}>
+          <input
+            id={inputId}
+            type="checkbox"
+            className="checkbox"
+            checked={!!value}
+            disabled={disabled}
+            onChange={(e) => onChange(e.target.checked)}
+          />
+        </FieldWrapper>
+      );
+    }
+
+    // Array type
+    if (type === 'array') {
+      return renderArrayField(label, field, value, onChange, disabled, inputId);
+    }
+
+    // Object type
+    if (type === 'object') {
+      return renderObjectField(label, field, value, onChange);
+    }
+
+    // Default fallback: string input
+    const fallbackValue = toStringValue(value);
     return (
-      <Wrapper>
-        {renderForeignKeySelect(
-          inputId,
-          value,
-          relation.valueField || 'slug',
-          relOptions.options,
-          relOptions.loading,
-          relOptions.error,
-          disabled,
-          onChange,
-        )}
-      </Wrapper>
-    );
-  }
-
-  // Array of foreign keys → multi-select
-  if (type === 'array' && arrayRelation?.isLookup && arrayRelation.table) {
-    return (
-      <Wrapper>
-        {renderMultiSelect(
-          inputId,
-          value,
-          arrayRelation.valueField || 'id',
-          arrayOptions.options,
-          arrayOptions.loading,
-          arrayOptions.error,
-          disabled,
-          onChange,
-        )}
-      </Wrapper>
-    );
-  }
-
-  // Enum fields (single or array)
-  if (enumSource.isEnum) {
-    const inlineValues = enumSource.enumValues ?? [];
-    const options = dedupeOptions(
-      enumOptions.options.length > 0
-        ? enumOptions.options
-        : inlineValues.map((v) => ({ value: String(v), label: String(v) })),
-    );
-
-    return (
-      <Wrapper>
-        {renderEnumField(
-          inputId,
-          value,
-          options,
-          enumSource.isArray,
-          enumOptions.loading,
-          enumOptions.error,
-          !!enumSource.table,
-          disabled,
-          onChange,
-        )}
-      </Wrapper>
-    );
-  }
-
-  // String types (string, slug, uuid, rgba)
-  if (
-    type === 'string' ||
-    type === 'slug' ||
-    type === 'uuid' ||
-    type === 'rgba'
-  ) {
-    const stringValue = typeof value === 'string' ? value : '';
-    const isReadOnly = disabled || type === 'uuid';
-
-    return (
-      <FormField
-        label={isReadOnly ? `${label} (read-only)` : label}
-        htmlFor={inputId}
-        required={isRequired}
-      >
-        <input
-          id={inputId}
-          className={`input ${isReadOnly ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
-          type="text"
-          value={stringValue}
-          onChange={(e) => onChange(e.target.value)}
-          disabled={isReadOnly}
-          title={isReadOnly ? 'This field is not editable' : undefined}
-        />
-      </FormField>
-    );
-  }
-
-  // Number types (integer, number)
-  if (type === 'integer' || type === 'number') {
-    const numberValue = typeof value === 'number' ? value : '';
-    return (
-      <Wrapper>
+      <FormField label={label} htmlFor={inputId} required={isRequired}>
         <input
           id={inputId}
           className="input"
-          type="number"
-          value={numberValue}
+          type="text"
+          value={fallbackValue}
           disabled={disabled}
-          onChange={(e) => {
-            if (e.target.value === '') {
-              onChange(null);
-              return;
-            }
-            const parsed =
-              type === 'integer'
-                ? parseInt(e.target.value, 10)
-                : parseFloat(e.target.value);
-            onChange(isNaN(parsed) ? null : parsed);
-          }}
+          onChange={(e) => onChange(e.target.value)}
         />
-      </Wrapper>
+      </FormField>
     );
-  }
-
-  // Boolean type
-  if (type === 'boolean') {
-    return (
-      <Wrapper>
-        <input
-          id={inputId}
-          type="checkbox"
-          className="checkbox"
-          checked={!!value}
-          disabled={disabled}
-          onChange={(e) => onChange(e.target.checked)}
-        />
-      </Wrapper>
-    );
-  }
-
-  // Array type
-  if (type === 'array') {
-    return renderArrayField(label, field, value, onChange, disabled, inputId);
-  }
-
-  // Object type
-  if (type === 'object') {
-    return renderObjectField(label, field, value, onChange);
-  }
-
-  // Default fallback: string input
-  const fallbackValue = toStringValue(value);
-  return (
-    <FormField label={label} htmlFor={inputId} required={isRequired}>
-      <input
-        id={inputId}
-        className="input"
-        type="text"
-        value={fallbackValue}
-        disabled={disabled}
-        onChange={(e) => onChange(e.target.value)}
-      />
-    </FormField>
-  );
-};
+  },
+);
 
 // Array field renderer
 const renderArrayField = (

@@ -1,37 +1,33 @@
 import React from 'react';
 
+import { SelectOption } from '~/components/field-types';
 import { useEnum } from '~/hooks/useEnum';
-
-import type { SelectOption } from './types';
+import { enumToOptions, useSchemaMetadata } from '~/hooks/useSchemaMetadata';
 
 export const useMaterialLookupData = () => {
   const { data: tagsData } = useEnum('material_tags');
   const { data: certificationsData } = useEnum('material_certifications');
   const { data: materialTypesData } = useEnum('material_types');
+  const { data: metadata } = useSchemaMetadata();
 
   const tagsOptions = React.useMemo<SelectOption[]>(() => {
     if (!tagsData?.items) return [];
-    return tagsData.items.map((item) => ({
-      value: String(item.slug || item.key || item.name),
-      label: String(item.name || item.slug || item.key),
-    }));
-  }, [tagsData]);
+    return enumToOptions(tagsData.items, 'material_tags', metadata);
+  }, [tagsData, metadata]);
 
   const certificationsOptions = React.useMemo<SelectOption[]>(() => {
     if (!certificationsData?.items) return [];
-    return certificationsData.items.map((item) => ({
-      value: String(item.display_name || item.key || item.name),
-      label: String(item.name || item.display_name || item.key),
-    }));
-  }, [certificationsData]);
+    return enumToOptions(
+      certificationsData.items,
+      'material_certifications',
+      metadata,
+    );
+  }, [certificationsData, metadata]);
 
   const materialTypesOptions = React.useMemo<SelectOption[]>(() => {
     if (!materialTypesData?.items) return [];
-    return materialTypesData.items.map((item) => ({
-      value: String(item.key),
-      label: String(item.name || item.abbreviation || item.key),
-    }));
-  }, [materialTypesData]);
+    return enumToOptions(materialTypesData.items, 'material_types', metadata);
+  }, [materialTypesData, metadata]);
 
   return {
     tagsOptions,

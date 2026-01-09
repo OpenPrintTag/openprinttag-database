@@ -39,7 +39,7 @@ export const TOAST_MESSAGES = {
     MATERIAL_NAME_REQUIRED: 'Material name is required',
     MATERIAL_CLASS_REQUIRED: 'Material class is required',
     MATERIAL_ID_NOT_FOUND: 'Material ID not found',
-    PACKAGE_MATERIAL_SLUG_REQUIRED: 'Material slug is required',
+    PACKAGE_MATERIAL_REQUIRED: 'Material is required',
     PACKAGE_ID_NOT_FOUND: 'Package ID not found',
     BRAND_NAME_REQUIRED: 'Brand name is required',
     BRAND_ID_NOT_FOUND: 'Brand ID not found',

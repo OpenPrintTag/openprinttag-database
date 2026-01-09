@@ -20,8 +20,9 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
         const payload = body.value as any;
 
         // Validate required fields
-        if (!payload.material_slug) {
-          return json({ error: 'Material slug is required' }, { status: 400 });
+        // The schema uses 'material' field which can be a UUID or slug reference
+        if (!payload.material && !payload.material_slug) {
+          return json({ error: 'Material is required' }, { status: 400 });
         }
 
         try {
@@ -58,25 +59,28 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
             );
           }
 
-          // Find the brand's material-packages directory
+          // Find the brand's material-packages directory (create if it doesn't exist)
           const brandDir = await findBrandDirForNestedEntity(
             'material-packages',
             brandId,
+            true, // createIfMissing
           );
           if (!brandDir) {
             return json(
               {
-                error: `Material packages directory for brand '${brandId}' not found`,
+                error: `Could not find or create material packages directory for brand '${brandId}'`,
               },
-              { status: 404 },
+              { status: 500 },
             );
           }
 
-          // Generate filename - using material_slug and container weight/type
-          const materialSlug = payload.material_slug;
-          const containerSlug = payload.container_slug || 'unknown';
+          // Generate filename - using material and container references
+          // material and container can be UUIDs or slugs
+          const materialRef = payload.material || payload.material_slug;
+          const containerRef =
+            payload.container || payload.container_slug || 'unknown';
           const slug =
-            payload.slug || `${materialSlug}-${containerSlug}`.toLowerCase();
+            payload.slug || `${materialRef}-${containerRef}`.toLowerCase();
           const fileName = `${slug}.yaml`;
           const filePath = path.join(brandDir, fileName);
 
@@ -93,13 +97,14 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
 
           // Generate UUIDv5 for the new package
           // Using GTIN if available, otherwise generate from material+container
-          const gtin = payload.gtin || `${materialSlug}-${containerSlug}`;
+          const gtin = payload.gtin || `${materialRef}-${containerRef}`;
           const uuid = generateMaterialPackageUuid(brand.uuid, gtin);
 
           // Extract brand_slug from the brand
           const brandSlug = brand.slug || slugifyName(brand.name) || brandId;
 
           // Create new package with proper field ordering
+          // Use schema field names: 'material' and 'container' (not _slug variants)
           const newPackage = {
             uuid,
             slug,
@@ -107,8 +112,8 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
             class: payload.class || 'FFF',
             brand_specific_id: payload.brand_specific_id || undefined,
             gtin: payload.gtin || undefined,
-            container_slug: payload.container_slug || undefined,
-            material_slug: payload.material_slug,
+            container: payload.container || payload.container_slug || undefined,
+            material: payload.material || payload.material_slug,
             url: payload.url || undefined,
             nominal_netto_full_weight:
               payload.nominal_netto_full_weight || null,

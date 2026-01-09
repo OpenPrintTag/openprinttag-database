@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 
 import type { EntityFields, SchemaField } from '~/components/field-types';
+import {
+  ENUM_METADATA,
+  FIELD_ENUM_MAP,
+  FIELD_RELATION_MAP,
+} from '~/server/data/schema-metadata';
 
 type JsonValue =
   | string
@@ -15,46 +20,42 @@ type SchemaData = Record<string, JsonValue> | null;
 const __schemaCache: Record<string, SchemaData> = {};
 const __schemaPromises: Record<string, Promise<SchemaData> | undefined> = {};
 
-export const DATA_ENUM_TABLES = [
-  'material_certifications',
-  'material_tags',
-  'material_types',
-  'material_tag_categories',
-  'material_photo_types',
-  'brand_link_pattern_types',
-  'countries',
-];
+/** List of known enum tables */
+export const DATA_ENUM_TABLES = Object.keys(ENUM_METADATA);
 
 const normalizeType = (type?: string | string[]): string[] => {
   if (!type) return [];
   return Array.isArray(type) ? type : [type];
 };
 
-const guessEnumTable = (
-  field: SchemaField | undefined,
-  fieldName?: string,
-): string | null => {
-  const label = (fieldName || field?.title || '').toLowerCase();
-  if (!label) return null;
-
-  if (label.includes('tag')) return 'material_tags';
-  if (label.includes('certification')) return 'material_certifications';
-  if (label === 'type' || label.includes('material type'))
-    return 'material_types';
-  if (label.includes('photo') && label.includes('type'))
-    return 'material_photo_types';
-  if (label.includes('link') && label.includes('pattern'))
-    return 'brand_link_pattern_types';
-  if (label.includes('country')) return 'countries';
-  return null;
+/**
+ * Get the enum table for a field using explicit metadata.
+ */
+const getEnumTableForField = (fieldName?: string): string | null => {
+  if (!fieldName) return null;
+  return FIELD_ENUM_MAP[fieldName] ?? null;
 };
 
+/**
+ * Get the value field for an enum table using explicit metadata.
+ */
 export const enumValueFieldForTable = (
   table: string | null | undefined,
 ): string | null => {
   if (!table) return null;
-  if (table === 'material_types' || table === 'countries') return 'key';
-  return 'name';
+  const meta = ENUM_METADATA[table];
+  return meta?.valueField ?? null;
+};
+
+/**
+ * Get the label field for an enum table using explicit metadata.
+ */
+export const enumLabelFieldForTable = (
+  table: string | null | undefined,
+): string | null => {
+  if (!table) return null;
+  const meta = ENUM_METADATA[table];
+  return meta?.labelField ?? null;
 };
 
 export const resolveEnumSource = (
@@ -71,13 +72,8 @@ export const resolveEnumSource = (
   const hasInlineEnum = Array.isArray(enumField?.enum);
   const enumValues = hasInlineEnum ? enumField?.enum : undefined;
 
-  let table = guessEnumTable(enumField ?? field, fieldName);
-  if (enumField?.title && !table) {
-    table = guessEnumTable(enumField, enumField.title);
-  }
-  if (table && !DATA_ENUM_TABLES.includes(table)) {
-    table = null;
-  }
+  // Use explicit metadata instead of guessing
+  const table = getEnumTableForField(fieldName);
 
   return {
     isEnum: hasInlineEnum || !!table,
@@ -124,134 +120,98 @@ export const useSchema = (
   return { schema, fields };
 };
 
-type ItemWithLabel = {
-  display_name?: string;
-  name?: string;
-  canonical_name?: string;
-  slug?: string;
-  code?: string;
-  id?: string | number;
-};
-
-export const bestLabelFromItem = (it: unknown): string => {
+/**
+ * Extract the best label from an item using metadata when available.
+ * Falls back to common field patterns if no metadata context is provided.
+ */
+export const bestLabelFromItem = (it: unknown, tableName?: string): string => {
   if (!it || typeof it !== 'object') return '';
-  const item = it as ItemWithLabel;
-  return (
+  const item = it as Record<string, unknown>;
+
+  // Use metadata if table name is provided
+  if (tableName) {
+    const enumMeta = ENUM_METADATA[tableName];
+    if (enumMeta) {
+      return String(
+        item[enumMeta.labelField] ?? item[enumMeta.valueField] ?? '',
+      );
+    }
+  }
+
+  // Fallback for unknown items
+  return String(
     item.display_name ??
-    item.name ??
-    item.canonical_name ??
-    item.slug ??
-    item.code ??
-    String(item.id ?? '')
+      item.name ??
+      item.canonical_name ??
+      item.slug ??
+      item.code ??
+      item.id ??
+      '',
   );
 };
 
-// No ForeignKey type needed anymore as we use SchemaField directly
-
-const resolveSchemaRef = (
-  field: SchemaField,
-): { entity: string; field: string } | null => {
-  if (field.$ref === 'slug_reference.schema.json')
-    return { entity: '', field: 'slug' };
-  if (field.$ref === 'uuid_reference.schema.json')
-    return { entity: '', field: 'uuid' };
-  if (field.$ref === 'brand.schema.json')
-    return { entity: 'brand', field: 'slug' };
-  if (field.$ref === 'material.schema.json')
-    return { entity: 'material', field: 'slug' };
-  if (field.$ref === 'material_container.schema.json')
-    return { entity: 'material_container', field: 'slug' };
-  if (field.$ref === 'fff_material_container.schema.json')
-    return { entity: 'fff_material_container', field: 'slug' };
-  if (field.$ref === 'sla_material_container.schema.json')
-    return { entity: 'sla_material_container', field: 'slug' };
-  if (field.$ref === 'material_color.schema.json')
-    return { entity: 'colors', field: 'slug' };
-  return null;
-};
-
+/**
+ * Look up relation metadata for a field.
+ * Uses explicit metadata from FIELD_RELATION_MAP and FIELD_ENUM_MAP.
+ * No longer relies on oneOf/$ref parsing from JSON schemas.
+ */
 export const useLookupRelation = (
-  entity: string,
+  _entity: string,
   field: SchemaField | undefined,
   fieldName?: string,
 ): {
   isLookup: boolean;
   table: string | null;
   valueField: string | null;
+  labelField: string | null;
 } | null => {
   if (!field) return null;
 
-  let fk = field.foreign_key;
-
-  // Try to resolve from oneOf (common pattern in our schemas for references)
-  if (!fk && field.oneOf) {
-    for (const option of field.oneOf) {
-      const resolved = resolveSchemaRef(option);
-      if (resolved) {
-        if (resolved.entity) {
-          fk = resolved;
-          break;
-        } else if (resolved.field) {
-          // If we found a slug/uuid ref but don't have an entity yet, keep looking for the entity ref in the same oneOf
-          const entityRef = field.oneOf.find(
-            (opt) => opt.$ref && !opt.$ref.includes('reference'),
-          );
-          if (entityRef) {
-            const resolvedEntity = resolveSchemaRef(entityRef);
-            if (resolvedEntity) {
-              fk = { entity: resolvedEntity.entity, field: resolved.field };
-              break;
-            }
-          }
-        }
-      }
-    }
+  // Check if this field has explicit relation metadata
+  if (fieldName && FIELD_RELATION_MAP[fieldName]) {
+    const rel = FIELD_RELATION_MAP[fieldName];
+    return {
+      isLookup: true,
+      table: rel.entity,
+      valueField: rel.valueField,
+      labelField: rel.labelField,
+    };
   }
 
-  if (!fk) {
-    // Fallback for fields that are known lookups but not explicitly marked in schema yet
-    const label = (fieldName || field.title || '').toLowerCase();
-    if (label === 'countries_of_origin')
-      return { isLookup: true, table: 'countries', valueField: 'key' };
-    if (label === 'tags')
-      return { isLookup: true, table: 'material_tags', valueField: 'name' };
-    if (label === 'certifications')
-      return {
-        isLookup: true,
-        table: 'material_certifications',
-        valueField: 'name',
-      };
-    if (label === 'type')
-      return { isLookup: true, table: 'material_types', valueField: 'key' };
-    return null;
+  // Check if this is an enum field
+  if (fieldName && FIELD_ENUM_MAP[fieldName]) {
+    const enumTable = FIELD_ENUM_MAP[fieldName];
+    const enumMeta = ENUM_METADATA[enumTable];
+    return {
+      isLookup: true,
+      table: enumTable,
+      valueField: enumMeta?.valueField ?? 'name',
+      labelField: enumMeta?.labelField ?? 'display_name',
+    };
   }
 
-  let table = fk.entity;
-  let valueField = fk.field || 'slug';
+  // Check for foreign_key in schema (explicit metadata)
+  const fk = field.foreign_key;
+  if (!fk) return null;
 
-  // Map entity names to table names if they differ
-  if (table === 'brand') table = 'brands';
-  if (table === 'material') table = 'materials';
-  if (table === 'material_container') table = 'containers';
-  if (table === 'fff_material_container') table = 'containers';
-  if (table === 'sla_material_container') table = 'containers';
-  if (table === 'material_package') table = 'packages';
-  if (table === 'fff_material_package') table = 'packages';
-  if (table === 'sla_material_package') table = 'packages';
+  const table = fk.entity;
+  const valueField = fk.field || 'slug';
 
-  // Special case for countries
-  if (table === 'countries_of_origin') {
-    table = 'countries';
-  }
-
-  // Handle enums that are in the new openprinttag/data folder
-  if (DATA_ENUM_TABLES.includes(table)) {
-    valueField = enumValueFieldForTable(table) ?? valueField;
+  // Check if this is an enum table
+  const enumMeta = ENUM_METADATA[table];
+  if (enumMeta) {
+    return {
+      isLookup: true,
+      table,
+      valueField: enumMeta.valueField,
+      labelField: enumMeta.labelField,
+    };
   }
 
   return {
     isLookup: true,
     table,
     valueField,
+    labelField: 'name',
   };
 };

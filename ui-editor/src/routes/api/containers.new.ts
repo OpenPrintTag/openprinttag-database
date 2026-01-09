@@ -35,11 +35,16 @@ export const Route = createFileRoute('/api/containers/new')({
             await import('~/server/data/fs');
           const { v4: uuidv4 } = await import('uuid');
 
-          // Find the material-containers directory
-          const containersDir = await findEntityDir('material-containers');
+          // Find the material-containers directory (create if it doesn't exist)
+          const containersDir = await findEntityDir(
+            'material-containers',
+            true,
+          );
           if (!containersDir) {
             return json(
-              { error: 'Material containers directory not found' },
+              {
+                error: 'Could not find or create material containers directory',
+              },
               { status: 500 },
             );
           }

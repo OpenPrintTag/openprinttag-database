@@ -17,6 +17,7 @@ export function useEnum(table: string | null, options?: UseEnumOptions) {
     url = options?.variant === 'basic' ? '/api/brands/basic' : '/api/brands';
   }
   if (table === 'containers') url = '/api/containers';
+  if (table === 'materials') url = '/api/materials';
 
   const { data, loading, error, refetch } = useApi<EnumTable | EnumItem[]>(
     () => url,

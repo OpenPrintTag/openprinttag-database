@@ -1,10 +1,5 @@
 import { EnumItem } from '~/hooks/useEnum';
 
-export interface SelectOption {
-  value: string;
-  label: string;
-}
-
 export interface Material {
   uuid?: string;
   slug?: string;

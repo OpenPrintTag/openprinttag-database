@@ -64,15 +64,18 @@ export const Route = createFileRoute('/api/brands/$brandId/materials/new')({
             );
           }
 
-          // Find the brand's materials directory
+          // Find the brand's materials directory (create if it doesn't exist)
           const brandDir = await findBrandDirForNestedEntity(
             'materials',
             brandId,
+            true, // createIfMissing
           );
           if (!brandDir) {
             return json(
-              { error: `Materials directory for brand '${brandId}' not found` },
-              { status: 404 },
+              {
+                error: `Could not find or create materials directory for brand '${brandId}'`,
+              },
+              { status: 500 },
             );
           }
 

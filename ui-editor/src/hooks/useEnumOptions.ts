@@ -1,9 +1,15 @@
 import { useMemo } from 'react';
 
-import { dedupeOptions, type SelectOption } from '~/utils/options';
+import { SelectOption } from '~/components/field-types';
+import {
+  extractEntityLabel,
+  extractEnumLabel,
+} from '~/server/data/schema-metadata';
 
 import { useEnum } from './useEnum';
-import { bestLabelFromItem } from './useSchema';
+
+// Entity tables that are not enums
+const ENTITY_TABLES = ['brands', 'materials', 'containers', 'packages'];
 
 export const useEnumOptions = (
   table: string | null,
@@ -18,13 +24,17 @@ export const useEnumOptions = (
       return [];
     }
     const items = Array.isArray(payload?.items) ? payload.items : [];
+    const isEntity = ENTITY_TABLES.includes(table);
 
     const opts: SelectOption[] = items
       .map((it) => {
         if (!it || typeof it !== 'object') return null;
         const item = it as Record<string, unknown>;
         const value = item[valueField];
-        const label = bestLabelFromItem(it);
+        // Use metadata-based label extraction
+        const label = isEntity
+          ? extractEntityLabel(item, table)
+          : extractEnumLabel(item, table);
         if (value === undefined || value === null) {
           return null;
         }
@@ -32,22 +42,7 @@ export const useEnumOptions = (
       })
       .filter(Boolean) as SelectOption[];
 
-    if (opts.length > 0) return dedupeOptions(opts);
-
-    return dedupeOptions(
-      items
-        .map((it) => {
-          if (!it || typeof it !== 'object') return null;
-          const item = it as Record<string, unknown>;
-          const value = item.slug ?? item.code ?? item.id;
-          if (value == null) return null;
-          return {
-            value: value as string | number,
-            label: bestLabelFromItem(it),
-          };
-        })
-        .filter(Boolean) as SelectOption[],
-    );
+    return opts;
   }, [payload, table, valueField]);
 
   return {

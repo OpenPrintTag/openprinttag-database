@@ -1,3 +1,5 @@
+import { memo, useCallback, useMemo } from 'react';
+
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
 import type { Package } from './types';
@@ -8,11 +10,51 @@ interface PackageSheetEditViewProps {
   onFieldChange: (key: string, value: unknown) => void;
 }
 
+interface FieldItemProps {
+  fieldKey: string;
+  field: SchemaField;
+  value: unknown;
+  onFieldChange: (key: string, value: unknown) => void;
+  disabled: boolean;
+}
+
+const FieldItem = memo(
+  ({ fieldKey, field, value, onFieldChange, disabled }: FieldItemProps) => {
+    const rawValue =
+      typeof value === 'object' && value !== null && 'slug' in value
+        ? (value as { slug: string }).slug
+        : value;
+
+    const handleChange = useCallback(
+      (val: unknown) => onFieldChange(fieldKey, val),
+      [fieldKey, onFieldChange],
+    );
+
+    return (
+      <FieldEditor
+        label={field.title ?? fieldKey}
+        field={field}
+        value={rawValue}
+        onChange={handleChange}
+        disabled={disabled}
+        entity="material_package"
+      />
+    );
+  },
+);
+
+FieldItem.displayName = 'FieldItem';
+
 export const PackageSheetEditView = ({
   fields,
   form,
   onFieldChange,
 }: PackageSheetEditViewProps) => {
+  const fieldEntries = useMemo(
+    () => (fields ? Object.entries(fields) : []),
+    [fields],
+  );
+
   if (!fields) {
     return (
       <div className="mt-6 rounded-md border border-amber-200 bg-amber-50 p-4 text-sm text-amber-700">
@@ -27,28 +69,18 @@ export const PackageSheetEditView = ({
         <div className="card-header">Package Information</div>
         <div className="card-body">
           <div className="grid gap-4 sm:grid-cols-2">
-            {Object.entries(fields).map(([key, field]) => {
-              // Skip UUID fields (both uuid and deprecated directus_uuid)
-              if (key === 'uuid' || key === 'directus_uuid') return null;
-
-              const value = form?.[key];
-              const rawValue =
-                typeof value === 'object' && value !== null && 'slug' in value
-                  ? (value as any).slug
-                  : value;
-
+            {fieldEntries.map(([key, field]) => {
               const isReadonlySlug = key === 'slug' && field.type === 'slug';
               const isUuid = field.type === 'uuid';
 
               return (
-                <FieldEditor
+                <FieldItem
                   key={key}
-                  label={field.title ?? key}
+                  fieldKey={key}
                   field={field as SchemaField}
-                  value={rawValue}
-                  onChange={(val) => onFieldChange(key, val)}
+                  value={form?.[key]}
+                  onFieldChange={onFieldChange}
                   disabled={isReadonlySlug || isUuid}
-                  entity="material_package"
                 />
               );
             })}

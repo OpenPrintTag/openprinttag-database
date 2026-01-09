@@ -22,8 +22,29 @@ export function slugifyName(input: string | null | undefined): string | null {
   }
 }
 
+// Utility: locate the data directory
+export async function findDataDir(): Promise<string | null> {
+  const candidates = [
+    path.resolve(process.cwd(), 'data'),
+    path.resolve(process.cwd(), '..', 'data'),
+  ];
+
+  for (const p of candidates) {
+    try {
+      const stat = await fs.stat(p);
+      if (stat.isDirectory()) return p;
+    } catch {
+      // ignore and continue
+    }
+  }
+  return null;
+}
+
 // Utility: locate an entity directory like data/{entity}
-export async function findEntityDir(entity: string): Promise<string | null> {
+export async function findEntityDir(
+  entity: string,
+  createIfMissing = false,
+): Promise<string | null> {
   const candidates = [
     path.resolve(process.cwd(), 'data', entity),
     path.resolve(process.cwd(), '..', 'data', entity),
@@ -39,6 +60,17 @@ export async function findEntityDir(entity: string): Promise<string | null> {
       // ignore and continue
     }
   }
+
+  // Directory not found - create it if requested
+  if (createIfMissing) {
+    const dataDir = await findDataDir();
+    if (dataDir) {
+      const newDir = path.join(dataDir, entity);
+      await fs.mkdir(newDir, { recursive: true });
+      return newDir;
+    }
+  }
+
   return null;
 }
 
@@ -270,10 +302,49 @@ async function findNestedParentDir(
 export async function findBrandDirForNestedEntity(
   entityDirName: string,
   brandId: string,
+  createIfMissing = false,
 ): Promise<string | null> {
   const root = await findNestedParentDir(entityDirName);
-  if (!root) return null;
+  if (!root) {
+    // If root doesn't exist and we should create, create it first
+    if (createIfMissing) {
+      const dataDir = await findDataDir();
+      if (dataDir) {
+        const newRoot = path.join(dataDir, entityDirName);
+        await fs.mkdir(newRoot, { recursive: true });
+        // Now find the brand and create its directory
+        const brands = await readAllEntities('brands');
+        if (Array.isArray(brands)) {
+          const match = brands.find((b) => {
+            const fileStem =
+              typeof b.__file === 'string'
+                ? b.__file.replace(/\.(ya?ml)$/i, '')
+                : undefined;
+            const nameSlug = slugifyName(b.name);
+            return (
+              b.uuid === brandId ||
+              b.slug === brandId ||
+              fileStem === brandId ||
+              nameSlug === brandId
+            );
+          });
+          if (match) {
+            const dirName = match.slug || slugifyName(match.name) || brandId;
+            const brandDir = path.join(newRoot, dirName);
+            await fs.mkdir(brandDir, { recursive: true });
+            return brandDir;
+          }
+        }
+        // Fallback: use brandId as directory name
+        const brandDir = path.join(newRoot, brandId);
+        await fs.mkdir(brandDir, { recursive: true });
+        return brandDir;
+      }
+    }
+    return null;
+  }
   const candidates: string[] = [brandId];
+  let matchedBrand: any = null;
   try {
     const brands = await readAllEntities('brands');
     if (Array.isArray(brands)) {
@@ -291,6 +362,7 @@ export async function findBrandDirForNestedEntity(
         );
       });
       if (match) {
+        matchedBrand = match;
         const nameSlug = slugifyName(match.name);
         if (nameSlug && !candidates.includes(nameSlug))
           candidates.push(nameSlug);
@@ -307,6 +379,14 @@ export async function findBrandDirForNestedEntity(
       const stat = await fs.stat(p);
       if (stat.isDirectory()) return p;
     } catch {}
+  }
+  // Directory not found - create it if requested
+  if (createIfMissing) {
+    const dirName =
+      matchedBrand?.slug || slugifyName(matchedBrand?.name) || brandId;
+    const brandDir = path.join(root, dirName);
+    await fs.mkdir(brandDir, { recursive: true });
+    return brandDir;
   }
   return null;
 }
