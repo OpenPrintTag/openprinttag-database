@@ -53,6 +53,8 @@ const extractHexFromValue = (value: unknown): string => {
 
 const isValidHex = (hex: string): boolean => VALID_HEX_PATTERN.test(hex);
 
+const wrapValue = (hex: string): ColorValue => ({ rgba: hex, color_rgba: hex });
+
 // Extract RGB (6-char) and alpha from hex string
 const parseHexWithAlpha = (hex: string): { rgb: string; alpha: number } => {
   if (!hex || hex.length < 7) {
@@ -95,14 +97,12 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
 
   const handleColorChange = useCallback(
     (newHex: string) => {
-      if (!allowInvalidInput && newHex && !isValidHex(newHex)) {
-        return;
-      }
+      if (!allowInvalidInput && newHex && !isValidHex(newHex)) return;
 
       setHex(newHex);
 
       if (newHex && isValidHex(newHex)) {
-        onChange({ rgba: newHex, color_rgba: newHex });
+        onChange(wrapValue(newHex));
       } else if (!newHex) {
         onChange(null);
       }
@@ -111,18 +111,12 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
   );
 
   const handleRgbChange = useCallback(
-    (newRgb: string) => {
-      const newHex = combineRgbAlpha(newRgb, alpha);
-      handleColorChange(newHex);
-    },
+    (newRgb: string) => handleColorChange(combineRgbAlpha(newRgb, alpha)),
     [alpha, handleColorChange],
   );
 
   const handleAlphaChange = useCallback(
-    (newAlpha: number) => {
-      const newHex = combineRgbAlpha(rgb, newAlpha);
-      handleColorChange(newHex);
-    },
+    (newAlpha: number) => handleColorChange(combineRgbAlpha(rgb, newAlpha)),
     [rgb, handleColorChange],
   );
 
@@ -160,9 +154,7 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
     </div>
   );
 
-  if (hideLabel) {
-    return content;
-  }
+  if (hideLabel) return content;
 
   return (
     <FormField label={label} required={required}>
@@ -177,73 +169,48 @@ export const ColorArrayPicker: React.FC<ColorArrayPickerProps> = ({
   onChange,
   required,
 }) => {
-  const normalizeColors = useCallback(
-    (val: unknown): ColorValue[] => (Array.isArray(val) ? val : []),
-    [],
-  );
+  const colors: ColorValue[] = Array.isArray(value) ? value : [];
 
-  const [localColors, setLocalColors] = useState(() => normalizeColors(value));
+  const updateColors = (newColors: ColorValue[]) => {
+    onChange(newColors.length > 0 ? newColors : null);
+  };
 
-  useEffect(() => {
-    setLocalColors(normalizeColors(value));
-  }, [value, normalizeColors]);
+  const handleAdd = () => updateColors([...colors, { ...DEFAULT_COLOR }]);
 
-  const handleAddColor = useCallback(() => {
-    const newColors = [...localColors, { ...DEFAULT_COLOR }];
-    setLocalColors(newColors);
-    onChange(newColors);
-  }, [localColors, onChange]);
+  const handleRemove = (index: number) =>
+    updateColors(colors.filter((_, i) => i !== index));
 
-  const handleRemoveColor = useCallback(
-    (index: number) => {
-      const newColors = localColors.filter((_, i) => i !== index);
-      setLocalColors(newColors);
-      onChange(newColors.length > 0 ? newColors : null);
-    },
-    [localColors, onChange],
-  );
-
-  const handleColorChange = useCallback(
-    (index: number, newColor: ColorValue | null) => {
-      if (!newColor) return;
-
-      const newColors = [...localColors];
-      newColors[index] = newColor;
-      setLocalColors(newColors);
-      onChange(newColors);
-    },
-    [localColors, onChange],
-  );
+  const handleUpdate = (index: number, newColor: ColorValue | null) => {
+    if (!newColor) return;
+    const newColors = [...colors];
+    newColors[index] = newColor;
+    updateColors(newColors);
+  };
 
   return (
     <FormField label={label} required={required}>
       <div className="space-y-2">
-        {localColors.map((color, index) => (
+        {colors.map((color, index) => (
           <ColorPicker
             key={index}
             label={`${label}-${index}`}
             value={color}
-            onChange={(val) => handleColorChange(index, val)}
+            onChange={(val) => handleUpdate(index, val)}
             required={required}
             hideLabel
             allowInvalidInput={false}
             actions={
               <button
                 type="button"
-                onClick={() => handleRemoveColor(index)}
+                onClick={() => handleRemove(index)}
                 className="btn-secondary text-red-600 hover:text-red-800"
-                aria-label="Remove color"
               >
                 Remove
               </button>
             }
           />
         ))}
-        <button
-          type="button"
-          onClick={handleAddColor}
-          className="btn-secondary"
-        >
+        <button type="button" onClick={handleAdd} className="btn-secondary">
           Add Color
         </button>
       </div>

@@ -13,6 +13,7 @@ interface BasicInformationEditSectionProps {
   onFieldChange: (key: string, value: unknown) => void;
   mode?: 'create' | 'edit';
   initialSlug?: string;
+  brandId?: string;
 }
 
 export const BasicInformationEditSection = ({
@@ -21,6 +22,7 @@ export const BasicInformationEditSection = ({
   onFieldChange,
   mode = 'edit',
   initialSlug,
+  brandId,
 }: BasicInformationEditSectionProps) => {
   // Auto-generate slug from name continuously for new materials
   // Only regenerate if we're in create mode OR if the slug hasn't been manually set
@@ -59,7 +61,7 @@ export const BasicInformationEditSection = ({
                 value={rawValue}
                 onChange={(val) => onFieldChange(key, val)}
                 disabled={isDisabled}
-                entity="material"
+                brandId={brandId}
               />
             );
           })}

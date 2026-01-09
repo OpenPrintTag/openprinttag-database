@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
-import type { Material } from '~/types/material';
+import { Material } from '~/components/material-sheet';
 
 export const Route = createFileRoute('/api/materials')({
   server: {

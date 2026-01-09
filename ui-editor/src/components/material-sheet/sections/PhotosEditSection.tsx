@@ -7,12 +7,14 @@ interface PhotosEditSectionProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
+  brandId?: string;
 }
 
 export const PhotosEditSection = ({
   fields,
   form,
   onFieldChange,
+  brandId,
 }: PhotosEditSectionProps) => {
   if (!fields || !fields.photos) return null;
 
@@ -25,6 +27,7 @@ export const PhotosEditSection = ({
           field={fields.photos as SchemaField}
           value={form?.photos}
           onChange={(val) => onFieldChange('photos', val)}
+          brandId={brandId}
         />
       </div>
     </div>

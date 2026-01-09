@@ -1,4 +1,4 @@
-import { DataGrid } from '~/components/DataGrid';
+import { FieldRow } from '~/components/DataGrid';
 import { EntityFields } from '~/components/field-types';
 
 import type { Material } from '../types';
@@ -20,13 +20,15 @@ export const PropertiesReadSection = ({
     return null;
   }
 
+  const field = fields?.properties;
+  const value = material?.properties;
+
   return (
-    <DataGrid
-      data={material}
-      title="Material Properties"
-      primaryKeys={['properties']}
-      excludeKeys={Object.keys(fields).filter((k) => k !== 'properties')}
-      entity="material"
-    />
+    <div className="card">
+      <div className="card-header">Material Properties</div>
+      <div className="card-body">
+        <FieldRow value={value} field={field} entity="material" label="" />
+      </div>
+    </div>
   );
 };

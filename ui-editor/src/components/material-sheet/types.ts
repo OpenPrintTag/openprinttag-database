@@ -4,7 +4,7 @@ export interface Material {
   uuid?: string;
   slug?: string;
   name?: string;
-  brand?: string | EnumItem;
+  brand?: EnumItem;
   brand_specific_id?: string;
   type?: string;
   class?: string;
@@ -24,6 +24,8 @@ export interface MaterialSheetProps {
   onOpenChange: (open: boolean) => void;
   brandId: string;
   material?: Material;
+  brandPackages?: unknown[];
+  onAddPackage?: () => void;
   onSuccess?: () => void;
   mode: 'create' | 'edit';
   readOnly?: boolean;

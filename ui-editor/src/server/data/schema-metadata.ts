@@ -26,6 +26,8 @@ export interface RelationMetadata {
   labelField: string;
   /** Whether this is an array relation */
   isArray?: boolean;
+  /** The target entity route in app */
+  route?: string;
 }
 
 /**
@@ -34,6 +36,10 @@ export interface RelationMetadata {
 export const ENUM_METADATA: Record<string, EnumMetadata> = {
   brand_link_pattern_types: {
     valueField: 'name',
+    labelField: 'name',
+  },
+  countries: {
+    valueField: 'key',
     labelField: 'name',
   },
   material_certifications: {
@@ -120,7 +126,7 @@ export const FIELD_ENUM_MAP: Record<string, string> = {
   photo_type: 'material_photo_types',
 };
 
-/**
+/*
  * Field-to-relation mapping for known relation fields.
  */
 export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
@@ -128,21 +134,25 @@ export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
     entity: 'brands',
     valueField: 'slug',
     labelField: 'name',
+    route: '/brands/$brandId',
   },
   material: {
     entity: 'materials',
     valueField: 'slug',
     labelField: 'name',
+    route: '/brands/$brandId',
   },
   container: {
     entity: 'containers',
     valueField: 'slug',
     labelField: 'name',
+    route: '/brands/$brandId',
   },
   package: {
     entity: 'packages',
     valueField: 'slug',
     labelField: 'name',
+    route: '/containers/$containerId',
   },
 };
 
@@ -167,36 +177,6 @@ export function getEntityMetadata(
 }
 
 /**
- * Get the enum table name for a field.
- */
-export function getFieldEnumTable(fieldName: string): string | null {
-  return FIELD_ENUM_MAP[fieldName] ?? null;
-}
-
-/**
- * Get relation metadata for a field.
- */
-export function getFieldRelation(fieldName: string): RelationMetadata | null {
-  return FIELD_RELATION_MAP[fieldName] ?? null;
-}
-
-/**
- * Extract value from an enum item using metadata.
- */
-export function extractEnumValue(
-  item: Record<string, unknown>,
-  tableName: string,
-): string {
-  const meta = getEnumMetadata(tableName);
-  if (!meta) {
-    // Fallback for unknown enums - should not happen if metadata is complete
-    console.warn(`Unknown enum table: ${tableName}`);
-    return String(item.name ?? item.key ?? item.id ?? '');
-  }
-  return String(item[meta.valueField] ?? '');
-}
-
-/**
  * Extract label from an enum item using metadata.
  */
 export function extractEnumLabel(
@@ -212,21 +192,6 @@ export function extractEnumLabel(
 }
 
 /**
- * Extract value from an entity using metadata.
- */
-export function extractEntityValue(
-  item: Record<string, unknown>,
-  entityName: string,
-): string {
-  const meta = getEntityMetadata(entityName);
-  if (!meta) {
-    console.warn(`Unknown entity: ${entityName}`);
-    return String(item.slug ?? item.uuid ?? item.id ?? '');
-  }
-  return String(item[meta.primaryKey] ?? '');
-}
-
-/**
  * Extract label from an entity using metadata.
  */
 export function extractEntityLabel(
@@ -239,30 +204,4 @@ export function extractEntityLabel(
     return String(item.name ?? item.display_name ?? '');
   }
   return String(item[meta.displayField] ?? item[meta.primaryKey] ?? '');
-}
-
-/**
- * Convert enum items to options array.
- */
-export function enumToOptions(
-  items: Record<string, unknown>[],
-  tableName: string,
-): Array<{ value: string; label: string }> {
-  return items.map((item) => ({
-    value: extractEnumValue(item, tableName),
-    label: extractEnumLabel(item, tableName),
-  }));
-}
-
-/**
- * Convert entity items to options array.
- */
-export function entityToOptions(
-  items: Record<string, unknown>[],
-  entityName: string,
-): Array<{ value: string; label: string }> {
-  return items.map((item) => ({
-    value: extractEntityValue(item, entityName),
-    label: extractEntityLabel(item, entityName),
-  }));
 }

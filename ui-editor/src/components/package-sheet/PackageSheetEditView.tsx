@@ -1,6 +1,7 @@
-import { memo, useCallback, useMemo } from 'react';
+import { memo, useCallback } from 'react';
 
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { SchemaData } from '~/hooks/useSchema';
 import { extractFieldValue } from '~/utils/field';
 
 import type { Package } from './types';
@@ -8,6 +9,8 @@ import type { Package } from './types';
 interface PackageSheetEditViewProps {
   fields: Record<string, SchemaField> | null;
   form: Package;
+  brandId: string;
+  schema?: SchemaData;
   onFieldChange: (key: string, value: unknown) => void;
 }
 
@@ -17,10 +20,18 @@ interface FieldItemProps {
   value: unknown;
   onFieldChange: (key: string, value: unknown) => void;
   disabled: boolean;
+  brandId: string;
 }
 
 const FieldItem = memo(
-  ({ fieldKey, field, value, onFieldChange, disabled }: FieldItemProps) => {
+  ({
+    fieldKey,
+    field,
+    value,
+    onFieldChange,
+    disabled,
+    brandId,
+  }: FieldItemProps) => {
     const rawValue = extractFieldValue(fieldKey, value);
 
     const handleChange = useCallback(
@@ -35,7 +46,7 @@ const FieldItem = memo(
         value={rawValue}
         onChange={handleChange}
         disabled={disabled}
-        entity="material_package"
+        brandId={brandId}
       />
     );
   },
@@ -46,45 +57,40 @@ FieldItem.displayName = 'FieldItem';
 export const PackageSheetEditView = ({
   fields,
   form,
+  schema,
+  brandId,
   onFieldChange,
 }: PackageSheetEditViewProps) => {
-  const fieldEntries = useMemo(
-    () => (fields ? Object.entries(fields) : []),
-    [fields],
-  );
-
-  if (!fields) {
-    return (
-      <div className="mt-6 rounded-md border border-amber-200 bg-amber-50 p-4 text-sm text-amber-700">
-        Schema for packages not loaded. Cannot edit package.
-      </div>
-    );
-  }
-
   return (
     <div className="my-6 space-y-6">
-      <div className="card">
-        <div className="card-header">Package Information</div>
-        <div className="card-body">
-          <div className="grid gap-4 sm:grid-cols-2">
-            {fieldEntries.map(([key, field]) => {
-              const isReadonlySlug = key === 'slug' && field.type === 'slug';
-              const isUuid = field.type === 'uuid';
+      {!schema && (
+        <div className="text-sm text-amber-700">Loading schema...</div>
+      )}
+      {fields && (
+        <div className="card">
+          <div className="card-header">Package Information</div>
+          <div className="card-body">
+            <div className="grid gap-4 sm:grid-cols-2">
+              {Object.entries(fields).map(([key, field]) => {
+                const isReadonlySlug = key === 'slug' && field.type === 'slug';
+                const isUuid = field.type === 'uuid';
 
-              return (
-                <FieldItem
-                  key={key}
-                  fieldKey={key}
-                  field={field as SchemaField}
-                  value={form?.[key]}
-                  onFieldChange={onFieldChange}
-                  disabled={isReadonlySlug || isUuid}
-                />
-              );
-            })}
+                return (
+                  <FieldItem
+                    brandId={brandId}
+                    key={key}
+                    fieldKey={key}
+                    field={field as SchemaField}
+                    value={form?.[key]}
+                    onFieldChange={onFieldChange}
+                    disabled={isReadonlySlug || isUuid}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

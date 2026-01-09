@@ -16,8 +16,7 @@ export const MetadataEditSection = ({
 }: MetadataEditSectionProps) => {
   if (!fields) return null;
 
-  const hasMetadataFields =
-    fields.keywords || fields.link_patterns || fields.countries_of_origin;
+  const hasMetadataFields = fields.keywords || fields.link_patterns;
 
   if (!hasMetadataFields) return null;
 
@@ -26,14 +25,6 @@ export const MetadataEditSection = ({
       <div className="card-header">Metadata</div>
       <div className="card-body">
         <div className="space-y-4">
-          {Boolean(fields.countries_of_origin) && (
-            <FieldEditor
-              label="countries_of_origin"
-              field={fields.countries_of_origin as SchemaField}
-              value={form?.countries_of_origin}
-              onChange={(val) => onFieldChange('countries_of_origin', val)}
-            />
-          )}
           {['keywords', 'link_patterns'].map((key) => {
             if (!fields[key]) return null;
             return (

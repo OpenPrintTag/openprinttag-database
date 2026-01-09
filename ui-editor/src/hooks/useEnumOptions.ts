@@ -15,9 +15,7 @@ export const useEnumOptions = (
   table: string | null,
   valueField: string | null,
 ): { loading: boolean; error: string | null; options: SelectOption[] } => {
-  const variant =
-    table === 'brands' ? { variant: 'basic' as const } : undefined;
-  const { data: payload, loading, error } = useEnum(table, variant);
+  const { data: payload, loading, error } = useEnum(table);
 
   const options = useMemo(() => {
     if (!table || !valueField || !payload) {

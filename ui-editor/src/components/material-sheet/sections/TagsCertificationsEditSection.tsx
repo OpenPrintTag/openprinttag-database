@@ -7,12 +7,14 @@ interface TagsCertificationsEditSectionProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
+  brandId?: string;
 }
 
 export const TagsCertificationsEditSection = ({
   fields,
   form,
   onFieldChange,
+  brandId,
 }: TagsCertificationsEditSectionProps) => {
   if (!fields) return null;
 
@@ -31,7 +33,7 @@ export const TagsCertificationsEditSection = ({
                 field={fields[key] as SchemaField}
                 value={form?.[key]}
                 onChange={(val) => onFieldChange(key, val)}
-                entity="material"
+                brandId={brandId}
               />
             );
           })}

@@ -7,12 +7,14 @@ interface PropertiesEditSectionProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
+  brandId?: string;
 }
 
 export const PropertiesEditSection = ({
   fields,
   form,
   onFieldChange,
+  brandId,
 }: PropertiesEditSectionProps) => {
   if (!fields || !fields.properties) return null;
 
@@ -25,6 +27,7 @@ export const PropertiesEditSection = ({
           field={fields.properties as SchemaField}
           value={form?.properties}
           onChange={(val) => onFieldChange('properties', val)}
+          brandId={brandId}
         />
       </div>
     </div>

@@ -7,11 +7,13 @@ import type { Package } from './types';
 interface PackageSheetReadViewProps {
   package?: Package;
   fields: EntityFields;
+  brandId: string;
 }
 
 export const PackageSheetReadView = ({
   package: pkg,
   fields,
+  brandId,
 }: PackageSheetReadViewProps) => {
   if (!pkg) {
     return (
@@ -27,6 +29,7 @@ export const PackageSheetReadView = ({
         title="Package Information"
         fields={fields}
         data={pkg}
+        brandId={brandId}
         entity="package"
         primaryKeys={['uuid', 'slug', 'name']}
         excludeKeys={['directus_uuid']}

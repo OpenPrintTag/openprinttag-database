@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
-import type { Brand } from '~/types/brand';
+import { Brand } from '~/components/brand-sheet/types';
 
 export const Route = createFileRoute('/api/brands')({
   server: {

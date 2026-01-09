@@ -111,17 +111,14 @@ export const Route = createFileRoute('/api/brands/$brandId/materials/new')({
           // Generate UUIDv5 for the new material
           const uuid = generateMaterialUuid(brand.uuid, payload.name);
 
-          // Extract brand_slug from the brand
-          const brandSlug = brand.slug || slugifyName(brand.name) || brandId;
-
           // Create new material with proper field ordering
           const newMaterial = {
             uuid,
             slug,
-            brand_slug: brandSlug,
+            brand: { slug: brandId },
             name: payload.name,
             class: payload.class || undefined,
-            type_id: payload.type_id || undefined,
+            type: payload.type || undefined,
             abbreviation: payload.abbreviation || '',
             primary_color: payload.primary_color || undefined,
             photos: payload.photos || [],

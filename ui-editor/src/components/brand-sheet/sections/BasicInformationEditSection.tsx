@@ -21,7 +21,7 @@ export const BasicInformationEditSection = ({
       <div className="card-header">Basic Information</div>
       <div className="card-body">
         <div className="grid gap-4 sm:grid-cols-2">
-          {['name', 'slug'].map((key) => {
+          {['name', 'slug', 'uuid', 'countries_of_origin'].map((key) => {
             if (!fields[key]) return null;
             return (
               <FieldEditor
@@ -29,7 +29,7 @@ export const BasicInformationEditSection = ({
                 label={key}
                 field={fields[key] as SchemaField}
                 value={form?.[key]}
-                disabled={true}
+                disabled={key !== 'countries_of_origin'}
                 onChange={(val) => onFieldChange(key, val)}
               />
             );

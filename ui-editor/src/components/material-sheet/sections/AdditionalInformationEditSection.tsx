@@ -7,6 +7,7 @@ interface AdditionalInformationEditSectionProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
+  brandId?: string;
 }
 
 const EXCLUDED_FIELDS = [
@@ -34,6 +35,7 @@ export const AdditionalInformationEditSection = ({
   fields,
   form,
   onFieldChange,
+  brandId,
 }: AdditionalInformationEditSectionProps) => {
   if (!fields) return null;
 
@@ -58,6 +60,7 @@ export const AdditionalInformationEditSection = ({
                 field={field as SchemaField}
                 value={form?.[key]}
                 onChange={(val) => onFieldChange(key, val)}
+                brandId={brandId}
               />
             );
           })}

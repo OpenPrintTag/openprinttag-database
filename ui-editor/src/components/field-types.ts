@@ -1,6 +1,7 @@
 export type SchemaField = {
   type?: string | string[];
   title?: string;
+  entity?: string;
   description?: string;
   required?: string[] | boolean;
   properties?: Record<string, SchemaField>;

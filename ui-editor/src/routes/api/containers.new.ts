@@ -84,7 +84,6 @@ export const Route = createFileRoute('/api/containers/new')({
           };
 
           // Add optional fields if provided
-          if (payload.brand_slug) newContainer.brand_slug = payload.brand_slug;
           if (payload.brand_specific_id)
             newContainer.brand_specific_id = payload.brand_specific_id;
           if (

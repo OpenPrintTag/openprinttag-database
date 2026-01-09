@@ -30,7 +30,6 @@ export const IntegrationEditSection = ({
       <div className="card-body">
         <div className="grid gap-4 sm:grid-cols-2">
           {[
-            'uuid',
             'material_url_template',
             'material_package_url_template',
             'material_package_instance_url_template',

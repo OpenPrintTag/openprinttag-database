@@ -1,3 +1,4 @@
+import { useMatch } from '@tanstack/react-router';
 import { useMemo } from 'react';
 
 import type { SchemaField, SelectOption } from '~/components/field-types';
@@ -41,7 +42,11 @@ export interface FieldOptionsResult {
 export function useFieldOptions(
   fieldName: string,
   field: SchemaField | undefined,
+  brandId?: string,
 ): FieldOptionsResult {
+  const match = useMatch({ from: '/brands/$brandId', shouldThrow: false });
+  const resolvedBrandId = brandId ?? match?.params?.brandId;
+
   // Determine if this is an array field
   const isArray = field?.type === 'array';
   const itemField = isArray ? field?.items : field;
@@ -72,8 +77,7 @@ export function useFieldOptions(
   }
 
   // Fetch data from the table
-  const variant =
-    table === 'brands' ? { variant: 'basic' as const } : undefined;
+  const variant = resolvedBrandId ? { brandId: resolvedBrandId } : undefined;
   const { data: payload, loading, error } = useEnum(table, variant);
 
   // Build options

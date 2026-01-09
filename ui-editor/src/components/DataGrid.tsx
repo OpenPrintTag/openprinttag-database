@@ -1,5 +1,3 @@
-import { useColorsLookup } from '~/context/ColorsLookupContext';
-
 import type { EntityFields, SchemaField } from './field-types';
 import { ValueDisplay } from './ValueDisplay';
 
@@ -10,6 +8,7 @@ export interface DataGridProps<T = Record<string, unknown>> {
   primaryKeys?: string[];
   excludeKeys?: string[];
   entity?: string;
+  brandId?: string;
 }
 
 export const DataGrid = <
@@ -22,8 +21,6 @@ export const DataGrid = <
   excludeKeys = [],
   entity = 'brand',
 }: DataGridProps<T>) => {
-  const colors = useColorsLookup();
-
   const allKeys = fields
     ? Object.keys(fields).filter((k) => !excludeKeys.includes(k))
     : Object.keys(data ?? {}).filter((k) => !excludeKeys.includes(k));
@@ -49,7 +46,6 @@ export const DataGrid = <
                 label={key}
                 value={value}
                 field={field}
-                colors={colors}
                 entity={entity}
               />
             );
@@ -77,7 +73,6 @@ export const FieldRow = ({
   label,
   value,
   field,
-  colors,
   entity = 'brand',
 }: FieldRowProps) => {
   return (
@@ -89,7 +84,6 @@ export const FieldRow = ({
         <ValueDisplay
           value={value}
           field={field}
-          colors={colors}
           entity={entity}
           label={label}
         />

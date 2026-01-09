@@ -7,12 +7,14 @@ interface ContainerSheetEditViewProps {
   form: Container;
   onFieldChange: (key: string, value: unknown) => void;
   fields: Record<string, SchemaField> | undefined;
+  brandId?: string;
 }
 
 export const ContainerSheetEditView = ({
   form,
   onFieldChange,
   fields,
+  brandId,
 }: ContainerSheetEditViewProps) => {
   if (!fields) {
     return (
@@ -29,23 +31,22 @@ export const ContainerSheetEditView = ({
         <div className="card-body">
           <div className="grid gap-4 sm:grid-cols-2">
             {Object.entries(fields).map(([key, field]) => {
-              if (key === 'directus_uuid') return null;
+              if (!fields[key]) return null;
 
-              const value = form?.[key];
-              const rawValue = extractFieldValue(key, value);
-
-              const isReadonlySlug = key === 'slug' && field.type === 'slug';
-              const isUuid = field.type === 'uuid' || key === 'uuid';
+              // slug and brand should be disabled
+              const isDisabled =
+                key === 'slug' || (key === 'brand' && !!brandId);
+              const rawValue = extractFieldValue(key, form?.[key]);
 
               return (
                 <FieldEditor
                   key={key}
-                  label={field.title ?? key}
+                  label={key}
                   field={field}
                   value={rawValue}
                   onChange={(val) => onFieldChange(key, val)}
-                  disabled={isReadonlySlug || isUuid}
-                  entity="material_container"
+                  disabled={isDisabled}
+                  brandId={brandId}
                 />
               );
             })}

@@ -2,8 +2,8 @@ import { useQuery } from '@tanstack/react-query';
 import { Link } from '@tanstack/react-router';
 import { Box, ChevronRight, Package } from 'lucide-react';
 
+import { Brand } from '~/components/brand-sheet/types';
 import { CountBadgeSkeleton } from '~/components/skeletons';
-import type { Brand } from '~/types/brand';
 import { slugifyName } from '~/utils/slug';
 
 interface BrandCardProps {
@@ -20,6 +20,7 @@ interface BrandCounts {
 export const BrandCard = ({ brand }: BrandCardProps) => {
   const id = slugifyName(brand.name) || brand.slug || brand.uuid;
 
+  // TODO: useApi
   const { data: counts } = useQuery({
     queryKey: [`/api/brands/${id}/counts`],
     queryFn: async () => {
@@ -35,6 +36,7 @@ export const BrandCard = ({ brand }: BrandCardProps) => {
 
   const materialCount = counts?.material_count ?? 0;
   const packageCount = counts?.package_count ?? 0;
+  const containerCount = counts?.container_count ?? 0;
   const isLoadingCounts = !counts;
 
   return (
@@ -56,6 +58,7 @@ export const BrandCard = ({ brand }: BrandCardProps) => {
             <>
               <CountBadgeSkeleton />
               <CountBadgeSkeleton />
+              <CountBadgeSkeleton />
             </>
           ) : (
             <>
@@ -66,6 +69,11 @@ export const BrandCard = ({ brand }: BrandCardProps) => {
               <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
                 <Package className="h-3 w-3" />
                 {packageCount} {packageCount === 1 ? 'package' : 'packages'}
+              </div>
+              <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+                <Package className="h-3 w-3" />
+                {containerCount}{' '}
+                {containerCount === 1 ? 'container' : 'containers'}
               </div>
             </>
           )}

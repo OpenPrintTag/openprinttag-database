@@ -99,16 +99,12 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
           // Using GTIN if available, otherwise generate from material+container
           const gtin = payload.gtin || `${materialRef}-${containerRef}`;
           const uuid = generateMaterialPackageUuid(brand.uuid, gtin);
-
-          // Extract brand_slug from the brand
-          const brandSlug = brand.slug || slugifyName(brand.name) || brandId;
-
           // Create new package with proper field ordering
           // Use schema field names: 'material' and 'container' (not _slug variants)
           const newPackage = {
             uuid,
             slug,
-            brand_slug: brandSlug,
+            brand: { slug: brandId },
             class: payload.class || 'FFF',
             brand_specific_id: payload.brand_specific_id || undefined,
             gtin: payload.gtin || undefined,

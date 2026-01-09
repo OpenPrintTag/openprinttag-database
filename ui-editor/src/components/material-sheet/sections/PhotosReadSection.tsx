@@ -19,6 +19,7 @@ export const PhotosReadSection = ({
   return (
     <DataGrid
       data={material}
+      fields={fields}
       title="Photos"
       primaryKeys={['photos']}
       excludeKeys={Object.keys(fields).filter((k) => k !== 'photos')}
