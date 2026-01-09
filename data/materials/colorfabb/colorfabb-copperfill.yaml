@@ -1,10 +1,10 @@
-uuid: 24861f6c-da41-5b35-a0ef-309c94b6a281
+uuid: e403e7bd-1480-5c32-a61c-0ec4ab813da8
 slug: colorfabb-copperfill
 brand:
   slug: colorfabb
-name: 'copperFill '
+name: copperFill
 class: FFF
-type_id: 15
+type: PHA
 abbreviation: PHA
 primary_color:
   color_rgba: '#904029ff'

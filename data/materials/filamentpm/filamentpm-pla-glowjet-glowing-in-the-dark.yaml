@@ -1,10 +1,11 @@
-uuid: a19deefa-2b81-51e4-92c5-9b2af36d2ff1
+uuid: a314acb2-86c2-56d7-a355-10a93d436ce4
 slug: filamentpm-pla-glowjet-glowing-in-the-dark
 brand:
   slug: filamentpm
-name: ' PLA GlowJet - glowing in the dark '
+name: PLA GlowJet - glowing in the dark
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f1e6b2ff'
 - color_rgba: '#95d05cff'

@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Chocolate
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6e4325ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/cc29d98cb5e4.jpg
   type: unspecified

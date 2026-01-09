@@ -1,10 +1,10 @@
-uuid: 0959ed23-0692-57ff-b269-638dbe2d4ea2
+uuid: 0032bee7-19fc-5b72-998c-0ceee59d157a
 slug: overture-asa-red
 brand:
   slug: overture
-name: 'ASA Red  '
+name: ASA Red
 class: FFF
-type_id: 4
+type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#e60000ff'

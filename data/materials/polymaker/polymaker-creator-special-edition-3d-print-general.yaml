@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: 'Creator Special Edition: 3D Print General'
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c3c199ff'
 tags:

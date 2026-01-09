@@ -4,12 +4,12 @@ brand:
   slug: matterhackers
 name: Translucent Green MH Build Series TPU Flexible
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#00cc00ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/654d2e582838.png
   type: unspecified

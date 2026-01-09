@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Glow in The Dark Rapid PLA Dark Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#8a68b5ff'
 tags:

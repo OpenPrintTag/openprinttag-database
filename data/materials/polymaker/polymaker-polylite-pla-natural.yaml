@@ -1,10 +1,11 @@
-uuid: 56d2907d-9d8c-5c39-8506-d992a03d8b37
+uuid: aa5316e6-beaf-54b4-b8ee-35843d85768c
 slug: polymaker-polylite-pla-natural
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Natural '
+name: PolyLite™ PLA Natural
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:

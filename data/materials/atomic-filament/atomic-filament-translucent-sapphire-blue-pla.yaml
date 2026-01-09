@@ -1,10 +1,11 @@
-uuid: 08a619a6-e129-526c-aef9-b1ad375ab188
+uuid: e300edac-0699-555d-9314-008430d11287
 slug: atomic-filament-translucent-sapphire-blue-pla
 brand:
   slug: atomic-filament
-name: 'Translucent Sapphire Blue PLA '
+name: Translucent Sapphire Blue PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0022ffff'
 tags:

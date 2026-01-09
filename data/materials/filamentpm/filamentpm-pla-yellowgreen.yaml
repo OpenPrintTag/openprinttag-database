@@ -1,10 +1,11 @@
-uuid: e764c242-08cb-5edb-8fe0-b89000c2d8a7
+uuid: a6b91f35-ac31-57a4-b5a8-6fdb68e5a0af
 slug: filamentpm-pla-yellowgreen
 brand:
   slug: filamentpm
-name: ' PLA - Yellowgreen '
+name: PLA - Yellowgreen
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#9aed51ff'
 tags:

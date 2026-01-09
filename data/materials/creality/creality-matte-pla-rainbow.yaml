@@ -1,10 +1,11 @@
-uuid: f02abf75-57c4-5c89-baa7-ff79187be62d
+uuid: a095ccbc-47c3-5e9a-85b7-2e99a4dcc387
 slug: creality-matte-pla-rainbow
 brand:
   slug: creality
-name: 'Matte PLA Rainbow '
+name: Matte PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fce575ff'
 - color_rgba: '#f4d9deff'

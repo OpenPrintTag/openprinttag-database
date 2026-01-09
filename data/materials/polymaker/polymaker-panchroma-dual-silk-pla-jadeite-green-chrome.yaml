@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Silk PLA Jadeite (Green / Chrome)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#00a594ff'
 - color_rgba: '#545f67ff'

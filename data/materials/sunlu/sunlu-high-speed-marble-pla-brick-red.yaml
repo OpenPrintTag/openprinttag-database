@@ -4,12 +4,14 @@ brand:
   slug: sunlu
 name: High Speed Marble PLA Brick Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#9c5949ff'
 tags:
 - imitates_marble
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/36b778a3944b.jpg
   type: unspecified

@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: rPLA Corn Pigment
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b37b47ff'
 transmission_distance: 6.2

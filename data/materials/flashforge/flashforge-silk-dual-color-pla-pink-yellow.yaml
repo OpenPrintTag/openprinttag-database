@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk Dual Color PLA Pink & Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ea9e3fff'
 - color_rgba: '#ff72b6ff'

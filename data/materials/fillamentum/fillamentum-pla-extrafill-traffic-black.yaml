@@ -1,10 +1,11 @@
-uuid: 01640c52-3240-527c-b4dd-6d0457bebf53
+uuid: edbe94b9-cf1f-5fca-96eb-913ada5a6528
 slug: fillamentum-pla-extrafill-traffic-black
 brand:
   slug: fillamentum
-name: 'PLA Extrafill "Traffic Black" '
+name: PLA Extrafill "Traffic Black"
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

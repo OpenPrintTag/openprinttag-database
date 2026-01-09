@@ -4,13 +4,14 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Starry Sky Color-Star Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c63dbaff'
 tags:
 - glitter
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/d2fe8c9b5ff4.png
   type: unspecified

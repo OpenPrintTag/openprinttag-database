@@ -4,12 +4,14 @@ brand:
   slug: fiberlogy
 name: HS PLA Clear Navy Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#09048eff'
 tags:
 - industrially_compostable
 - translucent
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/21cb03c96a7a.png
   type: unspecified

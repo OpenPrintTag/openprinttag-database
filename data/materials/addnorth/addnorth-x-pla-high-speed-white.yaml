@@ -4,11 +4,13 @@ brand:
   slug: addnorth
 name: X-PLA High Speed White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/1b966bcd0bbb.png
   type: unspecified

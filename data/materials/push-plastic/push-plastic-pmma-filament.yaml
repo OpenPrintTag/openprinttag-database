@@ -4,7 +4,7 @@ brand:
   slug: push-plastic
 name: PMMA Filament
 class: FFF
-type_id: 33
+type: PMMA
 abbreviation: PMMA
 primary_color:
   color_rgba: '#d9d8deff'

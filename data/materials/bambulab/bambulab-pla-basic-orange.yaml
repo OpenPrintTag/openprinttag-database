@@ -1,10 +1,11 @@
-uuid: c852464d-1803-5bf0-af43-6cba849f0e36
+uuid: 90018d8c-d1e4-5221-aad5-fe006edbeb82
 slug: bambulab-pla-basic-orange
 brand:
   slug: bambulab
-name: 'PLA Basic Orange '
+name: PLA Basic Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f67405ff'
 tags:

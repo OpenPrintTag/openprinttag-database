@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Pearl White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#d0d7d8ff'
 transmission_distance: 5.4

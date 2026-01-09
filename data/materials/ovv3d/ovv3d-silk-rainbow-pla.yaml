@@ -1,10 +1,11 @@
-uuid: 2d429656-6eea-5d0a-bbe7-cd572ce4d4da
+uuid: a0cb93a3-378d-5649-b6dc-dc85e8fc4d40
 slug: ovv3d-silk-rainbow-pla
 brand:
   slug: ovv3d
-name: 'Silk Rainbow PLA '
+name: Silk Rainbow PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fce575ff'
 - color_rgba: '#7ab352ff'

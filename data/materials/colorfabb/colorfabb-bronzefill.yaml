@@ -1,10 +1,10 @@
-uuid: e0cb4089-937c-5637-b5b4-5702c06f0f47
+uuid: 30e8cb0d-621e-5aac-8e13-0b1295715f80
 slug: colorfabb-bronzefill
 brand:
   slug: colorfabb
-name: 'bronzeFill '
+name: bronzeFill
 class: FFF
-type_id: 15
+type: PHA
 abbreviation: PHA
 primary_color:
   color_rgba: '#95846fff'

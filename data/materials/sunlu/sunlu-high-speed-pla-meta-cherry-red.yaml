@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Cherry Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fb6066ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/d759f9f1ee0a.jpg
   type: unspecified

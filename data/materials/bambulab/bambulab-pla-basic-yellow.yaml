@@ -1,10 +1,11 @@
-uuid: 0a3da67a-2be6-5ee9-9430-0176a70dc6d7
+uuid: ce7bcc2e-1caa-56ce-aaa4-c75d599ea549
 slug: bambulab-pla-basic-yellow
 brand:
   slug: bambulab
-name: 'PLA Basic Yellow '
+name: PLA Basic Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fffb00ff'
 tags:

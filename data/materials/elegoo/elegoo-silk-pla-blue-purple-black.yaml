@@ -4,7 +4,8 @@ brand:
   slug: elegoo
 name: Silk PLA Blue Purple Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0353baff'
 - color_rgba: '#6c47b2ff'

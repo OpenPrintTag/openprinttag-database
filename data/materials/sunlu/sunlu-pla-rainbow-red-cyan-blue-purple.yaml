@@ -1,10 +1,11 @@
-uuid: 2deeb669-7dcc-588b-90bc-3ca0b6f59b34
+uuid: a8d642aa-8ff4-5fa8-b8ab-1eff371821cf
 slug: sunlu-pla-rainbow-red-cyan-blue-purple
 brand:
   slug: sunlu
-name: 'PLA Rainbow (Red-Cyan-Blue-Purple) '
+name: PLA Rainbow (Red-Cyan-Blue-Purple)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#df3303ff'
 - color_rgba: '#9761b5ff'

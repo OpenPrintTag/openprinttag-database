@@ -4,7 +4,8 @@ brand:
   slug: geeetech
 name: Silk PLA Dual Color Black Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#000000ff'
 - color_rgba: '#ab2614ff'

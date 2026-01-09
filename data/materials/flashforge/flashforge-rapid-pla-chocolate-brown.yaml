@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Rapid PLA Chocolate Brown
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#503529ff'
 tags:

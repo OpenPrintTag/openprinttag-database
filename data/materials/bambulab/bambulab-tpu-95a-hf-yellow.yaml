@@ -1,10 +1,10 @@
-uuid: ce645338-965c-5b3a-b2ec-de8c7b5acf70
+uuid: 417bfd6e-f359-550f-96d1-e40e05ed6bf1
 slug: bambulab-tpu-95a-hf-yellow
 brand:
   slug: bambulab
-name: 'TPU 95A HF Yellow '
+name: TPU 95A HF Yellow
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#fffb00ff'

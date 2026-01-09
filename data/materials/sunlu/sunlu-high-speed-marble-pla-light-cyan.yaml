@@ -4,12 +4,14 @@ brand:
   slug: sunlu
 name: High Speed Marble PLA Light Cyan
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#d7ede6ff'
 tags:
 - imitates_marble
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/8cbd4fe061ad.jpg
   type: unspecified

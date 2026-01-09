@@ -1,10 +1,11 @@
-uuid: d0c76f03-9302-5987-a8c2-84461600e137
+uuid: d291a5d6-1be2-5016-b7dd-589d5ef69329
 slug: elegoo-pla-cf-black
 brand:
   slug: elegoo
-name: 'PLA-CF Black '
+name: PLA-CF Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

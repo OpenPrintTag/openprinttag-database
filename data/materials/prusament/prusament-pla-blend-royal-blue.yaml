@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Royal Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#00518fff'
 transmission_distance: 0.8

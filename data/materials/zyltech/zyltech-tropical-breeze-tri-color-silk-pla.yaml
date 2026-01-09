@@ -4,7 +4,8 @@ brand:
   slug: zyltech
 name: Tropical Breeze Tri-Color Silk PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#60ab61ff'
 - color_rgba: '#f6a25cff'

@@ -1,10 +1,11 @@
-uuid: 890cecfc-73f2-595a-a1aa-7f2300bd0c86
+uuid: 89c081f4-b1be-5abb-95e8-cdf7fcf766df
 slug: bambulab-pla-glow-blue
 brand:
   slug: bambulab
-name: 'PLA Glow Blue '
+name: PLA Glow Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#8cc6e4ff'
 - color_rgba: '#36dbe7ff'

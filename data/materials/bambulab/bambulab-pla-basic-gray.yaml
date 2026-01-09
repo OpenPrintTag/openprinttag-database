@@ -1,10 +1,11 @@
-uuid: 6027e530-7455-5b30-ac01-aa4610ce1eff
+uuid: b95e80b2-7b98-5822-8766-a6087ed8dd4f
 slug: bambulab-pla-basic-gray
 brand:
   slug: bambulab
-name: 'PLA Basic Gray '
+name: PLA Basic Gray
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#a9a8a0ff'
 tags:

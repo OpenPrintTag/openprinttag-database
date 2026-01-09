@@ -4,7 +4,8 @@ brand:
   slug: spectrum
 name: PLA High Speed Neon Transparent
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 secondary_colors:
 - color_rgba: '#dfdfd3ff'
@@ -13,5 +14,6 @@ tags:
 - illuminescent_color_change
 - industrially_compostable
 - neon
+- high_speed
 properties:
   density: 1.24

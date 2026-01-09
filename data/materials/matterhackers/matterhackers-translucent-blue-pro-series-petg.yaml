@@ -4,12 +4,12 @@ brand:
   slug: matterhackers
 name: Translucent Blue PRO Series PETG
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#0e21aeff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/0cc2f218d9c2.png
   type: unspecified

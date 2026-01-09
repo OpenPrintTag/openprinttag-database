@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Matte Triple Color Pink Cyan Chartreuse
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#dbfc00ff'
 - color_rgba: '#ffbadeff'

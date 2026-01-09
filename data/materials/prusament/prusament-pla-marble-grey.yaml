@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Marble Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b0b4b5ff'
 transmission_distance: 3.5

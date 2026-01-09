@@ -1,10 +1,11 @@
-uuid: 5a424a19-c20a-5b26-aee7-8510f1fda2bd
+uuid: a32ef9e8-b423-53e0-9784-0b7fc2343a71
 slug: filamentpm-pla-grey
 brand:
   slug: filamentpm
-name: ' PLA+ Grey '
+name: PLA+ Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6f727eff'
 tags:

@@ -4,12 +4,13 @@ brand:
   slug: matterhackers
 name: Translucent Blue PRO Series PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#2e56f1ff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/b5f5f0ea7a60.png
   type: unspecified

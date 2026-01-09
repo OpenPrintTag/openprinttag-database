@@ -4,11 +4,13 @@ brand:
   slug: epax
 name: Fast PLA+ Cosmic Plum (Galaxy Shimmer)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=49677906280661
 secondary_colors:
 - color_rgba: '#d5447eff'
 - color_rgba: '#da445aff'
 tags:
 - iridescent
+- high_speed
 properties: {}

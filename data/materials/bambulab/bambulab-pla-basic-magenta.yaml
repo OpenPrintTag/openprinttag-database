@@ -1,10 +1,11 @@
-uuid: ee2e7a5f-5bd6-56ae-b55f-fc3436a71d30
+uuid: 8a64a451-dcdc-5b6f-a173-7e4a5202e2a2
 slug: bambulab-pla-basic-magenta
 brand:
   slug: bambulab
-name: 'PLA Basic Magenta '
+name: PLA Basic Magenta
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c80181ff'
 tags:

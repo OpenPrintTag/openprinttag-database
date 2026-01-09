@@ -1,10 +1,11 @@
-uuid: 734c9c2b-1fec-50f1-9206-d648f4e3428a
+uuid: 069c8555-4da2-5dd0-b5a3-eee3b4169916
 slug: amolen-pla-marble
 brand:
   slug: amolen
-name: 'PLA Marble '
+name: PLA Marble
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c3ccd5ff'
 tags:

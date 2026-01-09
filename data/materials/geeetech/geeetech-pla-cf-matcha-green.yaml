@@ -1,10 +1,11 @@
-uuid: 5f6ad20c-ae03-5902-a20e-736b52b23cb2
+uuid: 6d0717b1-e704-5b5b-8d42-25eae8bba7ac
 slug: geeetech-pla-cf-matcha-green
 brand:
   slug: geeetech
-name: 'PLA-CF Matcha Green '
+name: PLA-CF Matcha Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#363c32ff'
 tags:

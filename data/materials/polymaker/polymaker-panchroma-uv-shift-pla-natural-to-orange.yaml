@@ -1,10 +1,11 @@
-uuid: c10549db-30fb-5185-bb85-937e9bfa26e0
+uuid: a28dcd2c-5b3c-54c1-a4ab-2d2852050709
 slug: polymaker-panchroma-uv-shift-pla-natural-to-orange
 brand:
   slug: polymaker
-name: 'Panchroma™ UV Shift PLA Natural to Orange '
+name: Panchroma™ UV Shift PLA Natural to Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f6a25cff'
 - color_rgba: '#f2efe9ff'

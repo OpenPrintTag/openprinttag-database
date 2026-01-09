@@ -4,11 +4,13 @@ brand:
   slug: ataraxia-art
 name: Turbo High Speed PLA Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e72f1dff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/e1ace77439c1.jpg
   type: unspecified

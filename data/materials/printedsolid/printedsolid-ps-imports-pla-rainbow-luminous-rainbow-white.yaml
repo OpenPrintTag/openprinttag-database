@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Rainbow Luminous Rainbow-White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ebff57ff'
 - color_rgba: '#0ccf81ff'

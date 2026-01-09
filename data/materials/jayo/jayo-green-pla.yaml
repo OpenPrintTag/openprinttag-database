@@ -1,10 +1,11 @@
-uuid: a7e75a02-f984-5be6-a412-c12e1c2a4867
+uuid: 13943d63-ff9e-538d-a484-f42c957396c2
 slug: jayo-green-pla
 brand:
   slug: jayo
-name: 'Green PLA+ '
+name: Green PLA+
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#70fa00ff'
 tags:

@@ -4,9 +4,11 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Signal Blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-signal-blue-1kg
 primary_color:
   color_rgba: '#4921c1ff'
+tags:
+- high_speed
 properties: {}

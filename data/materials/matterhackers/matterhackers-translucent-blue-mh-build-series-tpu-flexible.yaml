@@ -1,15 +1,15 @@
-uuid: 7306b154-6aa1-5841-888a-c47e6afc8521
+uuid: 604e3e0c-fdc0-5a11-9b44-0ab83847f6d6
 slug: matterhackers-translucent-blue-mh-build-series-tpu-flexible
 brand:
   slug: matterhackers
-name: 'Translucent Blue MH Build Series TPU Flexible '
+name: Translucent Blue MH Build Series TPU Flexible
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#0e21aeff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/09770618ffd3.png
   type: unspecified

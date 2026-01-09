@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Pastel Mint
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50963861045461
 primary_color:
   color_rgba: '#00e1c5ff'
+tags:
+- high_speed
 properties: {}

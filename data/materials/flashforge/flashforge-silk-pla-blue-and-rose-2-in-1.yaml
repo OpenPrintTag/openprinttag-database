@@ -1,10 +1,11 @@
-uuid: c81753d6-6a8b-588a-9490-4202862e95a5
+uuid: f522e5c6-be88-5d24-b9c1-a96201462386
 slug: flashforge-silk-pla-blue-and-rose-2-in-1
 brand:
   slug: flashforge
-name: 'Silk PLA Blue and Rose 2 in 1 '
+name: Silk PLA Blue and Rose 2 in 1
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#003287ff'
 - color_rgba: '#c63dbaff'

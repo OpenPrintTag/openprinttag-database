@@ -4,12 +4,14 @@ brand:
   slug: fiberlogy
 name: HS PLA Clear Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0e21aeff'
 tags:
-- transparent
 - industrially_compostable
+- high_speed
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/42beddadd852.png
   type: unspecified

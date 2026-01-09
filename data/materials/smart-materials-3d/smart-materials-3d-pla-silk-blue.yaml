@@ -1,10 +1,11 @@
-uuid: 4d247714-125a-5cad-82b7-b7b8db7c2205
+uuid: 6a58a5cd-0a7a-5beb-a941-c16c598c8f85
 slug: smart-materials-3d-pla-silk-blue
 brand:
   slug: smart-materials-3d
-name: 'PLA Silk Blue '
+name: PLA Silk Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#2b3b61ff'
 tags:

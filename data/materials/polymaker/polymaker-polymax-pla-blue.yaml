@@ -1,10 +1,11 @@
-uuid: a3368bb7-64ee-501e-9862-ad8f8d18dc98
+uuid: 6ac0ed58-734c-5bef-b85a-1d007af954bb
 slug: polymaker-polymax-pla-blue
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Blue '
+name: PolyMax™ PLA Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0e21aeff'
 tags:

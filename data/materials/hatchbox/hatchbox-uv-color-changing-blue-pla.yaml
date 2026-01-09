@@ -4,7 +4,8 @@ brand:
   slug: hatchbox
 name: UV Color Changing Blue PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffffffff'
 - color_rgba: '#617fccff'

@@ -4,13 +4,14 @@ brand:
   slug: kiwifil
 name: Sparkly Pink PLA pro
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff72b6ff'
 tags:
 - glitter
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/f9aeaeb8b573.jpg
   type: unspecified

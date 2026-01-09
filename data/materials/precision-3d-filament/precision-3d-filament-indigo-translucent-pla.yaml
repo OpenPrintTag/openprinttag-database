@@ -1,10 +1,11 @@
-uuid: edb0994c-3ee3-5e9d-96de-e183e50cd138
+uuid: ecb44540-7592-5d75-9efc-06d1c761a636
 slug: precision-3d-filament-indigo-translucent-pla
 brand:
   slug: precision-3d-filament
-name: 'Indigo [Translucent] PLA '
+name: Indigo [Translucent] PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#09048eff'
 tags:

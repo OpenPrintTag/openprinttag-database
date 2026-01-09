@@ -1,10 +1,11 @@
-uuid: 2d6b6c55-148d-54c4-9627-804848540a1c
+uuid: e9b21daf-f7b8-5399-b9cf-8d11a4824c21
 slug: smart-materials-3d-pla-silver-glitter
 brand:
   slug: smart-materials-3d
-name: 'PLA Silver Glitter '
+name: PLA Silver Glitter
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#abacb0ff'
 tags:

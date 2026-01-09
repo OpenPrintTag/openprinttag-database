@@ -4,7 +4,8 @@ brand:
   slug: cc3d
 name: Temperature Color Change PLA Purple to Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#963877ff'
 tags:

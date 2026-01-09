@@ -1,10 +1,11 @@
-uuid: c6124260-13aa-5166-8b82-c8489fd6eaf7
+uuid: 9b694e8b-462e-50ec-9d93-be090c24a3a8
 slug: geeetech-pla-green
 brand:
   slug: geeetech
-name: 'PLA Green '
+name: PLA Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#06b100ff'
 tags:

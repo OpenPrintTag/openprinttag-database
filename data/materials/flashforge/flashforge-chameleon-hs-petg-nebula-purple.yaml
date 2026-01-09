@@ -4,13 +4,14 @@ brand:
   slug: flashforge
 name: Chameleon HS PETG Nebula Purple
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 secondary_colors:
 - color_rgba: '#7142a3ff'
 - color_rgba: '#2c3294ff'
 tags:
 - iridescent
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/eecf005d91bd.jpg
   type: unspecified

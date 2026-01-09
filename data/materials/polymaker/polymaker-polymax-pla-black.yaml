@@ -1,10 +1,11 @@
-uuid: 95d6e38b-6553-5735-acc9-eb3a440c69b7
+uuid: a1ba1050-8aee-5fdd-86e6-c115a32db22f
 slug: polymaker-polymax-pla-black
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Black '
+name: PolyMax™ PLA Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

@@ -1,15 +1,15 @@
-uuid: d532387d-3c32-5d0f-b7ec-dbe6a81ba3c3
+uuid: 49a3bbdc-bc2f-56aa-882d-b0cb34dde634
 slug: bambulab-petg-translucent-orange
 brand:
   slug: bambulab
-name: 'PETG Translucent Orange '
+name: PETG Translucent Orange
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#fd9106ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/e7315faf255d.png
   type: unspecified

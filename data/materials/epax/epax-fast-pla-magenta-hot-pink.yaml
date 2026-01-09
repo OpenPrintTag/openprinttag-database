@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Magenta (Hot Pink)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50474632839381
 primary_color:
   color_rgba: '#ff00a2ff'
+tags:
+- high_speed
 properties: {}

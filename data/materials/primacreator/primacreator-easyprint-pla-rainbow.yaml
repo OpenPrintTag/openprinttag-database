@@ -1,10 +1,11 @@
-uuid: 3338054b-77af-5d7a-a93c-43dc7274eae6
+uuid: bdf7e263-441e-5be6-a016-c25ad67f2eff
 slug: primacreator-easyprint-pla-rainbow
 brand:
   slug: primacreator
-name: 'EasyPrint PLA Rainbow '
+name: EasyPrint PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ce5d4cff'
 - color_rgba: '#f5cf6fff'

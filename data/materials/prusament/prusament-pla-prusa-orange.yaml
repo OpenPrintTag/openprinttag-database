@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Prusa Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fe6e32ff'
 transmission_distance: 6.6

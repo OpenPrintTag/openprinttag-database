@@ -1,10 +1,11 @@
-uuid: d0624b3a-ec31-5278-8813-a640b079de8e
+uuid: c65023d8-a523-573e-8456-5c86162c4af8
 slug: polymaker-polymax-pla-red
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Red '
+name: PolyMax™ PLA Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e72f1dff'
 tags:

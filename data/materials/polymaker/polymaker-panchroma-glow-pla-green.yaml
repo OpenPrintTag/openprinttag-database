@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Glow PLA Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#089a45ff'
 secondary_colors:

@@ -4,7 +4,8 @@ brand:
   slug: rosa3d-filaments
 name: PLA Magic Neon
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.rosa3d.pl/en/filament-3d-refill-pla-magic-neon
 secondary_colors:
 - color_rgba: '#f8cc00ff'

@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Pineapple Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#efd00bff'
 transmission_distance: 7.6

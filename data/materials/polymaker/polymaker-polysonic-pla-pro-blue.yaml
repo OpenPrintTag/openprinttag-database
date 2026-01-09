@@ -1,10 +1,11 @@
-uuid: d79234db-99b7-5e0e-bb09-247be6d80fb2
+uuid: df1399ff-d33c-575d-9624-35ca164cf4dc
 slug: polymaker-polysonic-pla-pro-blue
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Pro Blue '
+name: PolySonic™ PLA Pro Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#2c3294ff'
 tags:

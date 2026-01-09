@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Sky Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#39b9dbff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/8e9fffd8e936.jpg
   type: unspecified

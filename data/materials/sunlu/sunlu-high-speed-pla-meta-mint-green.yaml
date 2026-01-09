@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Mint Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#00a594ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/dff6d271fb27.jpg
   type: unspecified

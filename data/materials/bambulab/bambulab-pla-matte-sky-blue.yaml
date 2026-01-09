@@ -1,10 +1,11 @@
-uuid: 1ef785dd-7314-5f46-a80c-aba7191d2d7a
+uuid: 35219c92-0dc0-5ce5-9859-8e29d0037c77
 slug: bambulab-pla-matte-sky-blue
 brand:
   slug: bambulab
-name: 'PLA Matte Sky Blue '
+name: PLA Matte Sky Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#abd5f3ff'
 tags:

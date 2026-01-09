@@ -4,12 +4,13 @@ brand:
   slug: overture
 name: TPU High Speed Translucent Red
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#c00000ff'
 tags:
 - translucent
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/81c8216fefe8.jpg
   type: unspecified

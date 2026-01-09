@@ -4,11 +4,13 @@ brand:
   slug: sainsmart
 name: GT-3 High Speed Matte PLA Rose Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.sainsmart.com/products/gt-3-pla?variant=40676091985999
 primary_color:
   color_rgba: '#ff2c29ff'
 tags:
 - matte
 - industrially_compostable
+- high_speed
 properties: {}

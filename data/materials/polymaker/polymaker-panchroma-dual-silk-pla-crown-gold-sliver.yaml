@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Silk PLA Crown (Gold / Sliver)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#cacacaff'
 - color_rgba: '#f6c500ff'

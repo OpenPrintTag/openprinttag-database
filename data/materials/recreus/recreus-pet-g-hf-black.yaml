@@ -1,12 +1,14 @@
-uuid: 6d71b42d-a414-57b4-a565-0aa00f813ae7
+uuid: c7efbb1d-db09-5d7b-80b9-f7cc63082e1a
 slug: recreus-pet-g-hf-black
 brand:
   slug: recreus
-name: ' PET-G HF Black'
+name: PET-G HF Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://recreus.com/en/products/pet-g
 primary_color:
   color_rgba: '#292929ff'
+tags:
+- high_speed
 properties: {}

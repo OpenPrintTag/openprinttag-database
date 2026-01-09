@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Gentleman's Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#354047ff'
 transmission_distance: 0.3

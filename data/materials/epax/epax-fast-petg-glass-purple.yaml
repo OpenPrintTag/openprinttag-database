@@ -4,11 +4,12 @@ brand:
   slug: epax
 name: Fast PETG Glass Purple
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=47037026795733
 primary_color:
   color_rgba: '#6c47b2ff'
 tags:
 - translucent
+- high_speed
 properties: {}

@@ -1,10 +1,11 @@
-uuid: abae74a5-68d3-5403-8fbd-8c7653da3485
+uuid: 4d59e47f-28db-5c1e-82ca-65dff0cf6540
 slug: sunlu-pla-silk-triple-color-red-yellow-blue
 brand:
   slug: sunlu
-name: 'PLA Silk Triple Color (Red Yellow Blue) '
+name: PLA Silk Triple Color (Red Yellow Blue)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ea9e3fff'
 - color_rgba: '#eb0075ff'

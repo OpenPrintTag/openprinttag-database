@@ -4,10 +4,12 @@ brand:
   slug: sunlu
 name: High Speed PETG Red
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#d33d3dff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/9900d665b282.jpg
   type: unspecified

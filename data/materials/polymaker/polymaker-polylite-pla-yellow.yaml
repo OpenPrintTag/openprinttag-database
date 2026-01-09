@@ -1,10 +1,11 @@
-uuid: c1aa68a8-14a1-5d2d-92c1-dcbc2f04c98b
+uuid: 8bb9a389-69e1-5ab8-ab9f-7b4981677572
 slug: polymaker-polylite-pla-yellow
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Yellow '
+name: PolyLite™ PLA Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f3b400ff'
 tags:

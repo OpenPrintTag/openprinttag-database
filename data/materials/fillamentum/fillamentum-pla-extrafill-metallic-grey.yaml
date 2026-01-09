@@ -1,10 +1,11 @@
-uuid: 373abec5-5428-5236-a5a5-e68333d3d480
+uuid: be109803-a1da-558d-b355-f973121b09cd
 slug: fillamentum-pla-extrafill-metallic-grey
 brand:
   slug: fillamentum
-name: 'PLA Extrafill "Metallic Grey" '
+name: PLA Extrafill "Metallic Grey"
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c5c5bfff'
 tags:

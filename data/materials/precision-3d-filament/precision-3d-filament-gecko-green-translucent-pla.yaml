@@ -4,12 +4,13 @@ brand:
   slug: precision-3d-filament
 name: Gecko Green [Translucent] PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#98fbcbff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/faf87f6b8747.png
   type: unspecified

@@ -4,7 +4,8 @@ brand:
   slug: ataraxia-art
 name: Matte Macaron Fast Color Change PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f5cf6fff'
 - color_rgba: '#fd9191ff'

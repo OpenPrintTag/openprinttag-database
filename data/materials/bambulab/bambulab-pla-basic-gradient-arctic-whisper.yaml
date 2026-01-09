@@ -4,7 +4,8 @@ brand:
   slug: bambulab
 name: PLA Basic Gradient Arctic Whisper
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#5fbcddff'
 - color_rgba: '#a5d6d5ff'

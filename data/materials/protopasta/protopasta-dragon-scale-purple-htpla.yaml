@@ -4,13 +4,14 @@ brand:
   slug: protopasta
 name: Dragon Scale Purple HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#8873c7ff'
 tags:
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/52d5fadbb820.png
   type: unspecified

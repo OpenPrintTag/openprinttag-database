@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA TriColor Silk Magic-Blue-Yellow-Fuchsia
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0353baff'
 - color_rgba: '#fbf942ff'

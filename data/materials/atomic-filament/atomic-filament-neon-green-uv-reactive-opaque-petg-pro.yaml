@@ -4,7 +4,7 @@ brand:
   slug: atomic-filament
 name: Neon Green UV Reactive Opaque PETG PRO
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#00cc00ff'

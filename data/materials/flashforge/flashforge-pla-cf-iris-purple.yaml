@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: PLA-CF Iris Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#663d7eff'
 tags:

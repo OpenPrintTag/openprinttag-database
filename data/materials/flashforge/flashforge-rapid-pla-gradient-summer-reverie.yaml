@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Rapid PLA Gradient Summer Reverie
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f297daff'
 - color_rgba: '#f67405ff'

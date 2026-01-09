@@ -4,7 +4,8 @@ brand:
   slug: formfutura
 name: High Gloss PLA ColorMorph Yellow & Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fce575ff'
 - color_rgba: '#f79dbcff'

@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Lipstick Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#bf2b2bff'
 transmission_distance: 3.3

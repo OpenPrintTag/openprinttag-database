@@ -1,10 +1,11 @@
-uuid: 83be6219-9bfb-5396-8af2-07944b8a023c
+uuid: bcad684b-24e7-5c74-939a-d41703b35e57
 slug: polymaker-polylite-metallic-pla-pro-bronze
 brand:
   slug: polymaker
-name: 'PolyLite™ Metallic PLA Pro Bronze '
+name: PolyLite™ Metallic PLA Pro Bronze
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b5522bff'
 tags:

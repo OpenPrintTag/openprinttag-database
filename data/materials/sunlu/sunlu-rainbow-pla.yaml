@@ -1,10 +1,11 @@
-uuid: 6c6dbf83-5d86-5407-8a20-31e5ad675adc
+uuid: 6fc2c32f-5284-5b9e-a7b9-9cb58b135c8f
 slug: sunlu-rainbow-pla
 brand:
   slug: sunlu
-name: 'Rainbow PLA '
+name: Rainbow PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#e03f26ff'
 - color_rgba: '#488d94ff'

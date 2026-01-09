@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Lime Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#a7b853ff'
 transmission_distance: 3.5

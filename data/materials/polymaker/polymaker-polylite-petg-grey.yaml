@@ -1,10 +1,10 @@
-uuid: f71e06f8-f364-5d5a-a032-0a5853c58140
+uuid: c3fd501f-5fc3-5aff-b0c4-6170aace6ff0
 slug: polymaker-polylite-petg-grey
 brand:
   slug: polymaker
-name: 'PolyLite™ PETG Grey '
+name: PolyLite™ PETG Grey
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#b1b3c5ff'

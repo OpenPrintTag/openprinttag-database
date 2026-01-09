@@ -4,10 +4,12 @@ brand:
   slug: voxel-pla
 name: VOXELPETG+ HS (Pro) Blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#2e56f1ff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/769f18cd0392.png
   type: unspecified

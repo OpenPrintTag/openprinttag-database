@@ -1,10 +1,11 @@
-uuid: 72f22be6-0b2e-5299-b218-bf0412ebd65b
+uuid: c5008e88-af5f-5905-afcf-d443c76b6676
 slug: filamentpm-pla-marblejet-dark
 brand:
   slug: filamentpm
-name: ' PLA MarbleJet - Dark '
+name: PLA MarbleJet - Dark
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#acb1baff'
 tags:

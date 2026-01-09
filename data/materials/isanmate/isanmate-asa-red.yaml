@@ -1,10 +1,10 @@
-uuid: 37354373-08ac-5918-9248-6079692ffe68
+uuid: 31dcc98f-1e6a-5e55-a9c5-446ffeaf1260
 slug: isanmate-asa-red
 brand:
   slug: isanmate
-name: 'ASA Red '
+name: ASA Red
 class: FFF
-type_id: 4
+type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#de1619ff'

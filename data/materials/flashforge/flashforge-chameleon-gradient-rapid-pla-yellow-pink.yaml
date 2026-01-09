@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Chameleon Gradient Rapid PLA Yellow & Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fb6066ff'
 - color_rgba: '#fbe200ff'

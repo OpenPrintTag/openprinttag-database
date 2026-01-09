@@ -4,10 +4,12 @@ brand:
   slug: sainsmart
 name: GT-3 High-Speed 95A Flexible TPU Purple
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 url: https://www.sainsmart.com/products/gt-3-flexible-tpu?variant=42202493091919
 primary_color:
   color_rgba: '#c63dbaff'
+tags:
+- high_speed
 properties:
   hardness_shore_a: 95

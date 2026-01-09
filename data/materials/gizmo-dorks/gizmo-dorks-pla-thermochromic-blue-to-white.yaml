@@ -1,10 +1,11 @@
-uuid: 57d16fcd-5e94-5e52-8ea4-4c67017c3e9f
+uuid: bf0ca48c-1189-5280-bdc1-b49b790619ba
 slug: gizmo-dorks-pla-thermochromic-blue-to-white
 brand:
   slug: gizmo-dorks
-name: 'PLA Thermochromic Blue to White '
+name: PLA Thermochromic Blue to White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffffffff'
 - color_rgba: '#0078bfff'

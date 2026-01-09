@@ -4,8 +4,11 @@ brand:
   slug: phrozen
 name: High-Speed PLA Gray
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://global.phrozen3d.com/products/high-speed-pla?variant=48313507086619
 primary_color:
   color_rgba: '#b2b8b8ff'
+tags:
+- high_speed
 properties: {}

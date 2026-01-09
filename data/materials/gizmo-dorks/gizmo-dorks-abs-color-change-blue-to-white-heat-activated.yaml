@@ -4,7 +4,7 @@ brand:
   slug: gizmo-dorks
 name: ABS Color Change Blue to White (Heat Activated)
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 secondary_colors:
 - color_rgba: '#ffffffff'

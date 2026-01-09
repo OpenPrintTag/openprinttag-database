@@ -1,10 +1,11 @@
-uuid: 0405fdfa-19de-500d-a5d0-1d4cf16161b2
+uuid: b7ef2904-fa3c-5afb-bd94-e8c94f20b6b8
 slug: filamentpm-pla-brown
 brand:
   slug: filamentpm
-name: ' PLA - Brown '
+name: PLA - Brown
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#5d3b32ff'
 tags:

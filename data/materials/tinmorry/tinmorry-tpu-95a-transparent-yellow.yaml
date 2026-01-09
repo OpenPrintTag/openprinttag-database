@@ -4,12 +4,12 @@ brand:
   slug: tinmorry
 name: TPU 95A Transparent Yellow
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 url: https://tinmorry.net/en-eu/products/filament-tpu-1-75-mm-tinmorry-3d-printing-materials-tpu-filament-for-fdm-3d-printer-1-kg-1-spool-transparent-yellow?variant=45788479291551
 primary_color:
   color_rgba: '#fffb00ff'
 tags:
-- transparent
+- translucent
 properties:
   hardness_shore_a: 95

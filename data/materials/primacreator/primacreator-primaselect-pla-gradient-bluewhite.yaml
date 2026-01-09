@@ -1,10 +1,11 @@
-uuid: 7d901856-1781-5e71-bc85-3f29b261c753
+uuid: b3fbd0a0-dc4a-5e32-a5b5-67eaad3438c0
 slug: primacreator-primaselect-pla-gradient-bluewhite
 brand:
   slug: primacreator
-name: ' PrimaSelect PLA Gradient Blue/White'
+name: PrimaSelect PLA Gradient Blue/White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffffffff'
 - color_rgba: '#9ae0ddff'

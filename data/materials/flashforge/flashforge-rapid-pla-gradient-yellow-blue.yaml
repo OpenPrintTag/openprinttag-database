@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Rapid PLA Gradient Yellow & Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0099e6ff'
 - color_rgba: '#e4e46dff'

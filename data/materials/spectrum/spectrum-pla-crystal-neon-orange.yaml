@@ -4,14 +4,15 @@ brand:
   slug: spectrum
 name: PLA Crystal Neon Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-crystal/
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
-- transparent
 - silk
 - industrially_compostable
 - neon
+- translucent
 properties:
   density: 1.24

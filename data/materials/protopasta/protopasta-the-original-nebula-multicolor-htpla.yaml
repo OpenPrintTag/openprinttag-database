@@ -4,7 +4,8 @@ brand:
   slug: protopasta
 name: The Original Nebula Multicolor HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0353baff'
 - color_rgba: '#0099e6ff'

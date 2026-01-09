@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk PLA Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#2c3294ff'
 tags:

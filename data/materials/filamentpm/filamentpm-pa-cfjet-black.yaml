@@ -1,9 +1,10 @@
-uuid: 461852f8-1734-55cf-b142-f012b2571c06
+uuid: 032641f2-abd8-5161-b010-663cdfc7661d
 slug: filamentpm-pa-cfjet-black
 brand:
   slug: filamentpm
-name: ' PA-CFJet - Black '
+name: PA-CFJet - Black
 class: FFF
+type: PA12
 abbreviation: PA-CF
 primary_color:
   color_rgba: '#000000ff'

@@ -4,7 +4,8 @@ brand:
   slug: polar-filament
 name: Merlot PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#915672ff'
 tags:

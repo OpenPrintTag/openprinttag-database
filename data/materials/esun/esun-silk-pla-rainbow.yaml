@@ -4,7 +4,8 @@ brand:
   slug: esun
 name: Silk PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fbe200ff'
 - color_rgba: '#d18136ff'

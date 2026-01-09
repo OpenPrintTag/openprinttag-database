@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk PLA Ranbow Candy
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ff72b6ff'
 - color_rgba: '#ea9e3fff'

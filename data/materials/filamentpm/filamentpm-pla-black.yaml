@@ -1,10 +1,11 @@
-uuid: 28d6a228-08eb-5e0d-9f72-96b8c7506a42
+uuid: 156b4bd1-2944-5dc2-a7ee-58d753a2e845
 slug: filamentpm-pla-black
 brand:
   slug: filamentpm
-name: ' PLA+ Black '
+name: PLA+ Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

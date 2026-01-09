@@ -1,10 +1,11 @@
-uuid: 0a1c0753-c4fe-5639-b4d5-0499f6fd8e9c
+uuid: 56ab601e-f6fc-5251-97be-ec4739f69df7
 slug: polymaker-polysonic-pla-pro-grey
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Pro Grey '
+name: PolySonic™ PLA Pro Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#959fa1ff'
 tags:

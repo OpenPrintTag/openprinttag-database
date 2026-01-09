@@ -4,7 +4,8 @@ brand:
   slug: inland
 name: PLA Dual Color Silk Lime Green to Magenta
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#dede00ff'
 - color_rgba: '#c80181ff'

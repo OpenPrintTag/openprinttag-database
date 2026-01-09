@@ -1,10 +1,11 @@
-uuid: bd490683-f46b-5891-a771-922d5b129643
+uuid: d1f3bd86-eeee-5993-84f4-2a2cf5317d9f
 slug: bambulab-pla-basic-cyan
 brand:
   slug: bambulab
-name: 'PLA Basic Cyan '
+name: PLA Basic Cyan
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#08abfbff'
 tags:

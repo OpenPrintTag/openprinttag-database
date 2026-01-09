@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Transparent Blue Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ae00ffff'
 - color_rgba: '#0353baff'

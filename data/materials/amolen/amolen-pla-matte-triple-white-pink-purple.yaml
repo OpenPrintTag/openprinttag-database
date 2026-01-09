@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Matte Triple White Pink Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffffffff'
 - color_rgba: '#ffbadeff'

@@ -1,10 +1,11 @@
-uuid: d8e0b6ff-623d-56f1-8082-fc3980521a5d
+uuid: 1d9aa68f-1e07-5a30-b145-f8310daada36
 slug: hatchbox-wood-pla-filament
 brand:
   slug: hatchbox
-name: 'Wood PLA Filament '
+name: Wood PLA Filament
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c69581ff'
 tags:

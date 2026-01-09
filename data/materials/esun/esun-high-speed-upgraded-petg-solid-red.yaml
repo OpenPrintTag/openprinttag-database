@@ -4,10 +4,12 @@ brand:
   slug: esun
 name: High Speed Upgraded PETG Solid Red
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e72f1dff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/e8507d4784c5.jpg
   type: unspecified

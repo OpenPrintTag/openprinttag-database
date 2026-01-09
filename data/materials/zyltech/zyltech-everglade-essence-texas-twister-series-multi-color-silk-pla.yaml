@@ -4,7 +4,8 @@ brand:
   slug: zyltech
 name: Everglade Essence Texas Twister Series Multi-color Silk PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#06b100ff'
 - color_rgba: '#0099e6ff'

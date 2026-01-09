@@ -1,10 +1,11 @@
-uuid: f9ebcd06-bdbb-5e64-8e96-71ae86d126ae
+uuid: 983b964e-7727-5cd0-8de6-7db3dc180334
 slug: recreus-pla-purifier
 brand:
   slug: recreus
-name: ' PLA Purifier'
+name: PLA Purifier
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://recreus.com/en/products/pla-purifier
 primary_color:
   color_rgba: '#dbd8d1ff'

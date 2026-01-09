@@ -4,7 +4,8 @@ brand:
   slug: sunlu
 name: Temperature Color Change PLA Orange to White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f67405ff'
 - color_rgba: '#ffffffff'

@@ -1,10 +1,11 @@
-uuid: 2c483fc0-a865-58e9-a5a6-a7e8b54e0ddd
+uuid: 841511e8-d6d7-57ed-af92-89eed1159958
 slug: polymaker-polylite-pla-pro-magenta
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Pro Magenta '
+name: PolyLite™ PLA Pro Magenta
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f2306eff'
 tags:

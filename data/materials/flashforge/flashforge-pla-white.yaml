@@ -1,10 +1,11 @@
-uuid: 056b9bbf-d9d0-52fa-b7e0-99819e6b13af
+uuid: 0cc32e30-e07c-504c-84cb-cdda6679997b
 slug: flashforge-pla-white
 brand:
   slug: flashforge
-name: 'PLA White '
+name: PLA White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

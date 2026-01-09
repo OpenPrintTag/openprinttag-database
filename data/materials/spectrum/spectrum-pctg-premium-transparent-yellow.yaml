@@ -4,12 +4,12 @@ brand:
   slug: spectrum
 name: PCTG Premium Transparent Yellow
 class: FFF
-type_id: 6
+type: PCTG
 abbreviation: PCTG
 url: https://spectrumfilaments.com/en/filament/pctg-premium/
 primary_color:
   color_rgba: '#fadb24ff'
 tags:
-- transparent
+- translucent
 properties:
   density: 1.27

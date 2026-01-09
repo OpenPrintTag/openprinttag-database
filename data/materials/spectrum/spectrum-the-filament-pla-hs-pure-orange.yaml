@@ -4,11 +4,13 @@ brand:
   slug: spectrum
 name: The Filament PLA HS Pure Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/the-filament-pla-hs/
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
 - industrially_compostable
+- high_speed
 properties:
   density: 1.22

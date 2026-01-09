@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Rapid PLA Luminous Melody
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#62e480ff'
 - color_rgba: '#fce575ff'

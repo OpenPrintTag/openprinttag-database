@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Pearl Mouse
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#a49d8eff'
 transmission_distance: 2.3

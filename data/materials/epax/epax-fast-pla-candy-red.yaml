@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Candy Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50474632511701
 primary_color:
   color_rgba: '#e31a1fff'
+tags:
+- high_speed
 properties: {}

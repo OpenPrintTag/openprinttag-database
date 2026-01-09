@@ -4,11 +4,12 @@ brand:
   slug: sainsmart
 name: GT-3 High Speed PETG Glossy White
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.sainsmart.com/products/gt-3-glossy-petg-filament?_pos=1&_fid=78605fd0c&_ss=c
 primary_color:
   color_rgba: '#ffffffff'
 tags:
 - silk
+- high_speed
 properties: {}

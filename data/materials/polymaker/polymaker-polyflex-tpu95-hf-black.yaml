@@ -1,13 +1,15 @@
-uuid: 69793c1d-b6cc-515b-87e5-aa46cfddd036
+uuid: 48a92904-a444-5431-b5c0-c351dcadf59a
 slug: polymaker-polyflex-tpu95-hf-black
 brand:
   slug: polymaker
-name: 'PolyFlex™ TPU95-HF Black '
+name: PolyFlex™ TPU95-HF Black
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#000000ff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/c90f10d2cfd7.png
   type: unspecified

@@ -1,10 +1,10 @@
-uuid: c3763e01-919b-5a81-9d60-f08cc2bf015c
+uuid: 28dcf5ba-aab5-5b54-b292-5b3610577b9b
 slug: polymaker-polymide-copa-black
 brand:
   slug: polymaker
-name: 'PolyMide™ CoPA Black '
+name: PolyMide™ CoPA Black
 class: FFF
-type_id: 8
+type: PA6
 abbreviation: PA6
 primary_color:
   color_rgba: '#000000ff'

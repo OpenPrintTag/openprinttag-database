@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Oh My Gold
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ce9f2eff'
 transmission_distance: 4.1

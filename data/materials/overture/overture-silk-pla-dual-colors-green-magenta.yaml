@@ -4,7 +4,8 @@ brand:
   slug: overture
 name: Silk PLA Dual Colors Green-Magenta
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#9aed51ff'
 - color_rgba: '#e23288ff'

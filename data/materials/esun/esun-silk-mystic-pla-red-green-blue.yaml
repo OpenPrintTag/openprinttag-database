@@ -4,7 +4,8 @@ brand:
   slug: esun
 name: Silk Mystic PLA Red Green Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#206233ff'
 - color_rgba: '#386dffff'

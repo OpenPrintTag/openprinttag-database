@@ -4,7 +4,8 @@ brand:
   slug: overture
 name: Matte PLA Brick Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ec0000ff'
 tags:

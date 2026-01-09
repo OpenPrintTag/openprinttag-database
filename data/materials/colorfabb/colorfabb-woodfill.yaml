@@ -1,10 +1,10 @@
-uuid: 7c0907ae-c7e1-5037-bb1b-de4b29044592
+uuid: 32892a72-6057-5830-a8f7-d6a71b518e31
 slug: colorfabb-woodfill
 brand:
   slug: colorfabb
-name: 'woodFill '
+name: woodFill
 class: FFF
-type_id: 15
+type: PHA
 abbreviation: PHA
 primary_color:
   color_rgba: '#f0ddc2ff'

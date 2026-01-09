@@ -4,7 +4,8 @@ brand:
   slug: inland
 name: PLA Mystic Silk Copper-purple-green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#1d7c6aff'
 - color_rgba: '#6c47b2ff'

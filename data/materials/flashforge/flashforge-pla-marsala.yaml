@@ -1,10 +1,11 @@
-uuid: 7e84bed2-2dca-5e6b-9267-de05c71d7d20
+uuid: c1ad95c4-25b2-541f-a87c-166003a80b5e
 slug: flashforge-pla-marsala
 brand:
   slug: flashforge
-name: 'PLA Marsala '
+name: PLA Marsala
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6e485fff'
 tags:

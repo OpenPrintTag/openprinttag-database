@@ -4,7 +4,8 @@ brand:
   slug: locyfens
 name: Silk Dual Color PLA Pink and Sky Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fc8397ff'
 - color_rgba: '#5feff9ff'

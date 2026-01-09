@@ -4,7 +4,8 @@ brand:
   slug: colorfabb
 name: PLA Economy Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e20010ff'
 tags:

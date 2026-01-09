@@ -1,10 +1,11 @@
-uuid: 5e6dbaed-6ffe-549c-a7f3-ae083faef0c2
+uuid: 6ab01d26-8164-52e2-9ac7-9344590185c5
 slug: geeetech-silk-rainbow-pla
 brand:
   slug: geeetech
-name: 'Silk Rainbow PLA '
+name: Silk Rainbow PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffc946ff'
 - color_rgba: '#9761b5ff'

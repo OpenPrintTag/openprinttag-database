@@ -1,10 +1,11 @@
-uuid: f2615f7c-f783-5f95-84d2-a7da0f2ca906
+uuid: fbc9230f-689f-5100-b1bb-01280fd4433b
 slug: polymaker-polysonic-pla-black
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Black '
+name: PolySonic™ PLA Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

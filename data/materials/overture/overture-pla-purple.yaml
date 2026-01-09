@@ -1,10 +1,11 @@
-uuid: a30c67dd-7236-5afe-bec8-1ad570736b0c
+uuid: 6365d69b-157e-588c-a9f1-5839a0f1077e
 slug: overture-pla-purple
 brand:
   slug: overture
-name: 'PLA Purple '
+name: PLA Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6c47b2ff'
 tags:

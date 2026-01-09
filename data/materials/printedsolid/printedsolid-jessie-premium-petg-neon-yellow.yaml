@@ -1,10 +1,10 @@
-uuid: 76501f9e-956b-5f43-a443-eb97832f2e8d
+uuid: 79b0cb59-98bc-5b73-a577-7d7084226b55
 slug: printedsolid-jessie-premium-petg-neon-yellow
 brand:
   slug: printedsolid
-name: Jessie Premium PETG  Neon Yellow
+name: Jessie Premium PETG Neon Yellow
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e4ff33ff'

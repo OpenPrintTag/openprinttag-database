@@ -4,7 +4,8 @@ brand:
   slug: coex-3d
 name: Glow in the Dark Green PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#06b100ff'
 - color_rgba: '#f0ebe5ff'

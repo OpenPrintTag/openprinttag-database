@@ -1,10 +1,11 @@
-uuid: 081d07f4-08f3-5341-bff9-2bae73d2523a
+uuid: 9182ff31-2e49-5cef-834e-3dffe36265ce
 slug: smart-materials-3d-pla-pale-skin
 brand:
   slug: smart-materials-3d
-name: 'PLA Pale skin '
+name: PLA Pale skin
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f0ddc2ff'
 tags:

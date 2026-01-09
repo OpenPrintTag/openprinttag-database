@@ -4,11 +4,13 @@ brand:
   slug: primacreator
 name: PrimaValue PLA+ High Speed White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/51187ae74cb8.png
   type: unspecified

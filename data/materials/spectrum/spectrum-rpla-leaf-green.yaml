@@ -1,10 +1,11 @@
-uuid: 65a6eb66-e90d-501b-8802-356b9abc4690
+uuid: b48fbe6f-53bb-5ba0-803d-af8282e9c8a1
 slug: spectrum-rpla-leaf-green
 brand:
   slug: spectrum
-name: 'rPLA Leaf Green '
+name: rPLA Leaf Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/r-pla/
 primary_color:
   color_rgba: '#3d9441ff'

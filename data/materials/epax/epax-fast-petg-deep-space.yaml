@@ -4,7 +4,7 @@ brand:
   slug: epax
 name: Fast PETG Deep Space
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=46994906841301
 secondary_colors:
@@ -12,4 +12,5 @@ secondary_colors:
 - color_rgba: '#7f068cff'
 tags:
 - iridescent
+- high_speed
 properties: {}

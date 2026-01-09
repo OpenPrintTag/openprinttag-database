@@ -1,14 +1,16 @@
-uuid: f75137df-7769-5aed-80eb-e9ee2dc4cc28
+uuid: f3a5012a-b4c3-5ce2-871f-b0446b6bb24d
 slug: sunlu-high-speed-pla-meta-lemon-yellow
 brand:
   slug: sunlu
-name: 'High Speed PLA Meta Lemon Yellow '
+name: High Speed PLA Meta Lemon Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fce575ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/00c1c04a9880.jpg
   type: unspecified

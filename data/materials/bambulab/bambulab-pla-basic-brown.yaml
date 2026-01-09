@@ -1,10 +1,11 @@
-uuid: e8ee0335-27d7-50db-aa77-dacca6ead2f1
+uuid: 460ffe2f-1b43-5a7c-9b55-2d41c7a1f151
 slug: bambulab-pla-basic-brown
 brand:
   slug: bambulab
-name: 'PLA Basic Brown '
+name: PLA Basic Brown
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#a54830ff'
 tags:

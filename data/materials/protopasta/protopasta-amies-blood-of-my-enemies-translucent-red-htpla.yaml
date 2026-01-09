@@ -4,13 +4,14 @@ brand:
   slug: protopasta
 name: Amie's "Blood of My Enemies" Translucent Red HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ad0028ff'
 tags:
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/ab9c73082bee.png
   type: unspecified

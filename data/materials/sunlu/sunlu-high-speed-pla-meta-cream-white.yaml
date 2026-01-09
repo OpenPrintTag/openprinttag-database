@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Cream White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#efe8d8ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/6219e37960a9.jpg
   type: unspecified

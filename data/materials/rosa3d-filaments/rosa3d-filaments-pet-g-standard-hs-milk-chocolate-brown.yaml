@@ -4,9 +4,11 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Milk Chocolate Brown
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-milk-chocolate-brown-175mm-1kg
 primary_color:
   color_rgba: '#7e4f4aff'
+tags:
+- high_speed
 properties: {}

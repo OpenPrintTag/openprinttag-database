@@ -1,10 +1,11 @@
-uuid: 68484a5c-726d-5838-bd58-9191ff9fac6e
+uuid: 2a69f52a-b038-5214-9f0b-a80b9c725cd0
 slug: inland-pla-silk-gold
 brand:
   slug: inland
-name: 'PLA Silk Gold '
+name: PLA Silk Gold
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e3b145ff'
 tags:

@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Azure Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0082adff'
 transmission_distance: 5.5

@@ -4,7 +4,8 @@ brand:
   slug: hatchbox
 name: Glow In The Dark PLA Filament
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f5f5f4ff'
 - color_rgba: '#089a45ff'

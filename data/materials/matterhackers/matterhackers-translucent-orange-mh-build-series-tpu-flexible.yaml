@@ -4,12 +4,12 @@ brand:
   slug: matterhackers
 name: Translucent Orange MH Build Series TPU Flexible
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#f67405ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/6d82406b8392.png
   type: unspecified
