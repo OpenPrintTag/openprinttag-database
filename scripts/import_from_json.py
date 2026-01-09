@@ -115,11 +115,11 @@ def transform_brand(brand: Dict, countries_map: Dict[str, Any]) -> Dict[str, Any
 	if brand.get('link_patterns'):
 		result['link_patterns'] = brand['link_patterns']
 	
-	# Countries
+	# Countries of origin
 	if brand.get('country_uuid'):
 		country = countries_map.get(brand['country_uuid'])
 		if country and country.get('code'):
-			result['countries'] = [country['code']]
+			result['countries_of_origin'] = [country['code']]
 	
 	return result
 
@@ -177,10 +177,9 @@ def transform_material(
 	material: Dict,
 	brands_map: Dict[str, Any],
 	material_types_map: Dict[str, Any],
-	material_types_uuid_to_id: Dict[str, int],  # UUID -> ID mapping
 	tags_map: Dict[str, Any],
 	certifications_map: Dict[str, Any],
-	certification_name_to_id: Dict[str, int],  # certification name -> ID mapping from OpenPrintTag
+	certification_name_mapping: Dict[str, str],  # certification name/slug -> OpenPrintTag name mapping
 	colors_map: Dict[str, Any],
 	material_colors_id_to_uuid_map: Dict[int, str],  # materials_colors ID -> color UUID
 	photos_map: Dict[str, Any],
@@ -190,8 +189,10 @@ def transform_material(
 	material_certifications_map: Dict[str, List[int]],  # material_uuid -> list of cert IDs
 	material_photos_map: Dict[str, List[int]],  # material_uuid -> list of photo IDs
 	valid_tag_names: set,  # Valid tag names from OpenPrintTag
+	valid_type_abbreviations: set,  # Valid type abbreviations from OpenPrintTag
 	tag_warnings: List[str],  # List to collect warnings
 	certification_warnings: List[str],  # List to collect certification warnings
+	type_warnings: List[str],  # List to collect type validation warnings
 ) -> Optional[Dict[str, Any]]:
 	"""Transform a material from JSON to YAML format"""
 	brand = resolve_uuid_reference(material.get('brand'), brands_map)
@@ -216,26 +217,27 @@ def transform_material(
 	
 	if material.get('brand_specific_id'):
 		result['brand_specific_id'] = material['brand_specific_id']
-	
-	# Type - check both direct type field and material_material_types table
-	type_id = None
-	abbreviation = ''
-	
-	# First try to use material's own abbreviation if available
-	if material.get('abbreviation'):
-		abbreviation = material['abbreviation']
-	
-	# If not available, try to get from material type
-	if not abbreviation and material.get('type'):
+
+	# Type - get abbreviation from material_types table and validate against OpenPrintTag
+	material_type_abbrev = None
+	if material.get('type'):
 		mt_uuid = material['type']
 		mt = resolve_uuid_reference(mt_uuid, material_types_map)
-		if mt:
-			# Look up ID from the uuid_to_id map
-			type_id = material_types_uuid_to_id.get(mt_uuid)
-			if type_id:
-				result['type_id'] = type_id
-				abbreviation = mt.get('abbreviation') or ''
-	
+		if mt and mt.get('abbreviation'):
+			material_type_abbrev = mt['abbreviation']
+			# Validate type against OpenPrintTag
+			if material_type_abbrev not in valid_type_abbreviations:
+				type_warnings.append(f"Material '{material_name}': invalid type '{material_type_abbrev}' (not in OpenPrintTag) - skipping material")
+				return None
+			result['type'] = material_type_abbrev
+
+	# Abbreviation - use material's own abbreviation if available, otherwise use type's abbreviation
+	abbreviation = ''
+	if material.get('abbreviation'):
+		abbreviation = material['abbreviation']
+	elif material_type_abbrev:
+		abbreviation = material_type_abbrev
+
 	# Always set abbreviation (required field) - use empty string if not found
 	result['abbreviation'] = abbreviation
 	
@@ -362,33 +364,52 @@ def transform_material(
 	if tags:
 		result['tags'] = tags
 	
-	# Certifications - resolve to IDs from OpenPrintTag
-	certification_ids = []
+	# Certifications - resolve to names from OpenPrintTag
+	certifications = []
 	if material_uuid and material_uuid in material_certifications_map:
 		for cert_id in material_certifications_map[material_uuid]:
 			# Look up certification by ID
 			cert = certifications_map.get(cert_id)
 			if cert:
 				cert_name = cert.get('name', '')
-				# Try to map to OpenPrintTag certification ID
-				# First try slugified name (most common)
-				cert_slug = slugify(cert_name)
-				openprinttag_cert_id = certification_name_to_id.get(cert_slug)
 
-				# If not found, try original name as fallback
-				if openprinttag_cert_id is None and cert_name:
-					openprinttag_cert_id = certification_name_to_id.get(cert_name)
+				# Strip common prefixes like "Certificate - " before processing
+				cert_name_cleaned = cert_name
+				if cert_name.startswith('Certificate - '):
+					cert_name_cleaned = cert_name[len('Certificate - '):]
 
-				if openprinttag_cert_id is not None:
-					certification_ids.append(openprinttag_cert_id)
+				# Try to map to OpenPrintTag certification name
+				# First try slugified cleaned name
+				cert_slug = slugify(cert_name_cleaned)
+				openprinttag_cert_name = certification_name_mapping.get(cert_slug)
+
+				# If not found, try slugified cleaned name with hyphens replaced by underscores
+				if openprinttag_cert_name is None:
+					cert_slug_underscore = cert_slug.replace('-', '_')
+					openprinttag_cert_name = certification_name_mapping.get(cert_slug_underscore)
+
+				# If not found, try original cleaned name as fallback
+				if openprinttag_cert_name is None and cert_name_cleaned:
+					openprinttag_cert_name = certification_name_mapping.get(cert_name_cleaned)
+
+				# If still not found, try with original name (including prefix)
+				if openprinttag_cert_name is None:
+					cert_slug_original = slugify(cert_name)
+					openprinttag_cert_name = certification_name_mapping.get(cert_slug_original)
+
+				if openprinttag_cert_name is None and cert_name:
+					openprinttag_cert_name = certification_name_mapping.get(cert_name)
+
+				if openprinttag_cert_name is not None:
+					certifications.append(openprinttag_cert_name)
 				else:
 					# Log warning if certification not found in OpenPrintTag
 					certification_warnings.append(
 						f"Material '{material_name}': dropped certification '{cert_name}' "
-						f"(slug: '{cert_slug}') - not found in OpenPrintTag"
+						f"(cleaned: '{cert_name_cleaned}', slug: '{cert_slug}') - not found in OpenPrintTag"
 					)
-	if certification_ids:
-		result['certification_ids'] = certification_ids
+	if certifications:
+		result['certifications'] = certifications
 	
 	# Photos
 	photos = []
@@ -470,7 +491,7 @@ def transform_material_package(
 	materials_map: Dict[str, Any],
 	containers_map: Dict[str, Any],
 	fff_packages_map: Dict[str, Any],
-) -> tuple[Optional[Dict[str, Any]], Optional[str]]:
+) -> tuple[Optional[Dict[str, Any]], Optional[str], Optional[str]]:
 	"""Transform a material package from JSON to YAML format"""
 	brand = None
 	material = None
@@ -482,7 +503,7 @@ def transform_material_package(
 			brand = brands_map.get(material['brand'])
 
 	if not brand or not material:
-		return None, None
+		return None, None, None
 
 	brand_name = brand.get('name', '')
 	brand_slug = slugify(brand_name)
@@ -504,7 +525,6 @@ def transform_material_package(
 		'uuid': str(package_uuid) if package_uuid else package.get('uuid'),  # fallback to original if no GTIN
 		'slug': slugify(f"{material_slug}-{package.get('nominal_netto_full_weight', '1kg')}-spool"),
 		'class': material.get('class', 'FFF'),
-		'brand': {'slug': brand_slug},
 		'material': {'slug': material_slug},
 		'nominal_netto_full_weight': package.get('nominal_netto_full_weight', 1000),
 	}
@@ -526,7 +546,7 @@ def transform_material_package(
 				material_name = material.get('name', '')
 				weight = package.get('nominal_netto_full_weight', '1kg')
 				entity_identifier = f"{material_name} {weight} [{package_uuid}]"
-				return None, f"Material Package {entity_identifier}: invalid GTIN type"
+				return None, None, f"Material Package {entity_identifier}: invalid GTIN type"
 			result['gtin'] = gtin_value
 		except (ValueError, TypeError):
 			# Invalid GTIN - skip this package
@@ -535,7 +555,7 @@ def transform_material_package(
 			material_name = material.get('name', '')
 			weight = package.get('nominal_netto_full_weight', '1kg')
 			entity_identifier = f"{material_name} {weight} [{package_uuid}]"
-			return None, f"Material Package {entity_identifier}: invalid GTIN value (conversion failed)"
+			return None, None, f"Material Package {entity_identifier}: invalid GTIN value (conversion failed)"
 
 	if package.get('url'):
 		result['url'] = package['url']
@@ -579,9 +599,9 @@ def transform_material_package(
 		material_name = material.get('name', '')
 		weight = package.get('nominal_netto_full_weight', '1kg')
 		entity_identifier = f"{material_name} {weight} [{package_uuid}]"
-		return None, f"Material Package {entity_identifier}: missing filament_diameter in transformed result"
+		return None, None, f"Material Package {entity_identifier}: missing filament_diameter in transformed result"
 
-	return result, None
+	return result, brand_slug, None
 
 
 def transform_material_container(
@@ -714,7 +734,7 @@ def main():
 				valid_tag_names.add(tag['name'])
 	print(f"  Loaded {len(valid_tag_names)} valid tag names from OpenPrintTag")
 
-	# Load OpenPrintTag material types for ID mapping
+	# Load OpenPrintTag material types for validation
 	openprinttag_types_file = repo_root / "openprinttag" / "data" / "material_types.yaml"
 	if not openprinttag_types_file.exists():
 		print(f"Error: OpenPrintTag material types file not found at {openprinttag_types_file}")
@@ -724,13 +744,12 @@ def main():
 	with open(openprinttag_types_file, 'r') as f:
 		openprinttag_types = yaml.safe_load(f)
 
-	# Create abbreviation -> key mapping from OpenPrintTag
-	openprinttag_abbreviation_to_key = {}
+	valid_type_abbreviations = set()
 	if openprinttag_types:
 		for mt in openprinttag_types:
-			if mt.get('abbreviation') and 'key' in mt:
-				openprinttag_abbreviation_to_key[mt['abbreviation']] = mt['key']
-	print(f"  Loaded {len(openprinttag_abbreviation_to_key)} material type abbreviations from OpenPrintTag")
+			if mt.get('abbreviation'):
+				valid_type_abbreviations.add(mt['abbreviation'])
+	print(f"  Loaded {len(valid_type_abbreviations)} valid type abbreviations from OpenPrintTag")
 
 	# Load OpenPrintTag certifications for ID mapping
 	openprinttag_certifications_file = repo_root / "openprinttag" / "data" / "material_certifications.yaml"
@@ -742,33 +761,35 @@ def main():
 	with open(openprinttag_certifications_file, 'r') as f:
 		openprinttag_certifications = yaml.safe_load(f)
 
-	# Create name -> key mapping from OpenPrintTag
-	# Map both 'name' and 'display_name' fields to handle different formats
-	openprinttag_certification_name_to_key = {}
+	# Create a set of valid certification names from OpenPrintTag
+	valid_certification_names = set()
+	# Also create a mapping from database cert names/slugs to OpenPrintTag names
+	certification_name_mapping = {}
 	if openprinttag_certifications:
 		for cert in openprinttag_certifications:
-			if 'key' in cert:
-				# Map by name (e.g., "ul_94_v0")
-				if cert.get('name'):
-					openprinttag_certification_name_to_key[cert['name']] = cert['key']
-				# Also map by display_name (e.g., "UL 94 V0")
+			cert_name = cert.get('name')
+			if cert_name:
+				valid_certification_names.add(cert_name)
+				# Map by name itself
+				certification_name_mapping[cert_name] = cert_name
+				# Also map by display_name (e.g., "UL 94 V0" -> "ul_94_v0")
 				if cert.get('display_name'):
-					openprinttag_certification_name_to_key[cert['display_name']] = cert['key']
+					certification_name_mapping[cert['display_name']] = cert_name
 					# Also add slugified version of display_name
-					openprinttag_certification_name_to_key[slugify(cert['display_name'])] = cert['key']
+					certification_name_mapping[slugify(cert['display_name'])] = cert_name
 
 	# Manual mappings for certifications with naming mismatches
-	# Maps database certification slugs to OpenPrintTag certification names
+	# Maps database certification slugs/names to OpenPrintTag certification names
 	manual_cert_mappings = {
 		'ul94-v0': 'ul_94_v0',  # Database has "UL94 V0", OpenPrintTag has "ul_94_v0"
 	}
 
 	# Apply manual mappings
 	for db_slug, opt_name in manual_cert_mappings.items():
-		if opt_name in openprinttag_certification_name_to_key:
-			openprinttag_certification_name_to_key[db_slug] = openprinttag_certification_name_to_key[opt_name]
+		if opt_name in valid_certification_names:
+			certification_name_mapping[db_slug] = opt_name
 
-	print(f"  Loaded {len(openprinttag_certifications)} certifications from OpenPrintTag ({len(openprinttag_certification_name_to_key)} name mappings)")
+	print(f"  Loaded {len(openprinttag_certifications)} certifications from OpenPrintTag ({len(certification_name_mapping)} name mappings)")
 
 	print("Building lookup maps...")
 	# Create UUID maps for quick lookup
@@ -835,40 +856,20 @@ def main():
 		if transformed and transformed.get('slug'):
 			brands_output[transformed['slug']] = transformed
 
-	# Build material types UUID to ID mapping using OpenPrintTag keys
-	material_types_uuid_to_id = {}  # Map UUID to assigned ID
-	unmapped_types = []
-	for mt in data.get('material_types', []):
-		mt_uuid = mt.get('uuid')
-		mt_abbreviation = mt.get('abbreviation')
-		if mt_uuid and mt_abbreviation:
-			# Look up the ID from OpenPrintTag based on abbreviation
-			openprinttag_key = openprinttag_abbreviation_to_key.get(mt_abbreviation)
-			if openprinttag_key is not None:
-				material_types_uuid_to_id[mt_uuid] = openprinttag_key
-			else:
-				unmapped_types.append(f"{mt_abbreviation} ({mt.get('name', 'unknown')})")
-
-	if unmapped_types:
-		print(f"  ⚠ Warning: {len(unmapped_types)} material type(s) not found in OpenPrintTag:")
-		for mt_name in unmapped_types:
-			print(f"    - {mt_name}")
-	
-	
 	# Transform materials
 	print("  Transforming materials...")
 	materials_output = {}  # brand_slug -> {material_slug -> material}
 	tag_warnings = []  # Collect tag transformation and validation warnings
 	certification_warnings = []  # Collect certification warnings
+	type_warnings = []  # Collect type validation warnings
 	for material in data.get('materials', []):
 		transformed = transform_material(
 			material,
 			brands_map,
 			material_types_map,
-			material_types_uuid_to_id,
 			tags_map,
 			certifications_map,
-			openprinttag_certification_name_to_key,
+			certification_name_mapping,
 			colors_map,
 			material_colors_id_to_uuid_map,
 			photos_map,
@@ -878,8 +879,10 @@ def main():
 			relationship_maps['material_certifications'],
 			relationship_maps['material_photos'],
 			valid_tag_names,
+			valid_type_abbreviations,
 			tag_warnings,
 			certification_warnings,
+			type_warnings,
 		)
 		if transformed and transformed.get('brand') and transformed.get('slug'):
 			brand_slug = transformed['brand']['slug']
@@ -956,7 +959,7 @@ def main():
 			continue
 
 		# Validation passed - transform and add to output
-		transformed, warning = transform_material_package(
+		transformed, brand_slug, warning = transform_material_package(
 			package,
 			brands_map,
 			materials_map,
@@ -970,8 +973,8 @@ def main():
 			print(f"    ⚠ {warning}")
 			continue
 
-		if transformed and transformed.get('brand') and transformed.get('slug'):
-			brand_slug = transformed['brand']['slug']
+		if transformed and brand_slug and transformed.get('slug'):
+			# Use the brand_slug returned from transform for directory organization
 			if brand_slug not in packages_output:
 				packages_output[brand_slug] = {}
 			packages_output[brand_slug][transformed['slug']] = transformed
@@ -1044,6 +1047,12 @@ def main():
 	if certification_warnings:
 		print(f"\n⚠ Certification warnings ({len(certification_warnings)} total):")
 		for warning in certification_warnings:
+			print(f"    ⚠ {warning}")
+
+	# Print type validation warnings
+	if type_warnings:
+		print(f"\n⚠ Type validation warnings ({len(type_warnings)} total):")
+		for warning in type_warnings:
 			print(f"    ⚠ {warning}")
 
 	if warning_count > 0:
