@@ -1,6 +1,7 @@
 import { memo, useCallback, useMemo } from 'react';
 
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { extractFieldValue } from '~/utils/field';
 
 import type { Package } from './types';
 
@@ -20,10 +21,7 @@ interface FieldItemProps {
 
 const FieldItem = memo(
   ({ fieldKey, field, value, onFieldChange, disabled }: FieldItemProps) => {
-    const rawValue =
-      typeof value === 'object' && value !== null && 'slug' in value
-        ? (value as { slug: string }).slug
-        : value;
+    const rawValue = extractFieldValue(fieldKey, value);
 
     const handleChange = useCallback(
       (val: unknown) => onFieldChange(fieldKey, val),

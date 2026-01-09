@@ -29,4 +29,6 @@ export type EntityFields = Record<string, SchemaField>;
 export type SelectOption = {
   label: string;
   value?: string | number;
+  /** Original object data for relation fields */
+  data?: Record<string, unknown>;
 };

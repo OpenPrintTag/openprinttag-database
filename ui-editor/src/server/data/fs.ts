@@ -693,10 +693,15 @@ export async function stringifyYaml(obj: any): Promise<string> {
   try {
     const mod = (await import('yaml').catch(() => null as any)) as any;
     if (mod && typeof mod.stringify === 'function') {
-      return mod.stringify(obj);
+      return mod.stringify(obj, {
+        defaultKeyType: 'PLAIN',
+        singleQuote: true,
+        indentSeq: false,
+      });
     }
-  } catch {
+  } catch (e) {
     // ignore
+    console.error(e);
   }
   // Very naive fallback to JSON with a header comment indicating YAML fallback
   const header =

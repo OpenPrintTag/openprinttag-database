@@ -102,7 +102,11 @@ export function useFieldOptions(
           ? extractEntityLabel(itemObj, table)
           : extractEnumLabel(itemObj, table);
 
-        result.push({ value: value as string | number, label: String(label) });
+        result.push({
+          value: value as string | number,
+          label: String(label),
+          data: isEntity ? itemObj : undefined,
+        });
       }
       return result;
     }
@@ -132,14 +136,5 @@ export function useFieldOptions(
   };
 }
 
-/**
- * Extract value from an item using the specified field.
- * No guessing - uses explicit valueField from metadata.
- */
-export function extractValue(val: unknown, valueField: string): string {
-  if (val && typeof val === 'object') {
-    const obj = val as Record<string, unknown>;
-    return String(obj[valueField] ?? '');
-  }
-  return String(val ?? '');
-}
+// Re-export extractValue from utils for backwards compatibility
+export { extractValue } from '~/utils/field';

@@ -74,6 +74,10 @@ export const Route = createFileRoute(
           }
         }
 
+        if (typeof payload.brand === 'string') {
+          payload.brand = { slug: payload.brand };
+        }
+
         const result = await writeNestedByBrand(
           'materials',
           brandId,

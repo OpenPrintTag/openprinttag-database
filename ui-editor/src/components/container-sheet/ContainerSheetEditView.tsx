@@ -1,4 +1,5 @@
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { extractFieldValue } from '~/utils/field';
 
 import type { Container } from './types';
 
@@ -31,10 +32,7 @@ export const ContainerSheetEditView = ({
               if (key === 'directus_uuid') return null;
 
               const value = form?.[key];
-              const rawValue =
-                typeof value === 'object' && value !== null && 'slug' in value
-                  ? (value as any).slug
-                  : value;
+              const rawValue = extractFieldValue(key, value);
 
               const isReadonlySlug = key === 'slug' && field.type === 'slug';
               const isUuid = field.type === 'uuid' || key === 'uuid';

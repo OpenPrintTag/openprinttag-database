@@ -17,6 +17,7 @@ import {
   EntitySheetHeader,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
+import { prepareFormForSave } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';
 
 import { useMaterialLookupData } from './hooks';
@@ -151,50 +152,29 @@ export const MaterialSheet = ({
   const deleteMaterialMutation = useDeleteMaterial(brandId, materialId);
 
   const handleSave = async () => {
-    const rawForm = { ...form };
-    if (typeof rawForm.brand === 'object' && rawForm.brand !== null) {
-      rawForm.brand = (rawForm.brand as any).slug;
-    }
-    // Extract values using metadata valueField
-    if (typeof rawForm.type === 'object' && rawForm.type !== null) {
-      const typeValueField =
-        ENUM_METADATA.material_types?.valueField || 'abbreviation';
-      rawForm.type = (rawForm.type as any)[typeValueField];
-    }
-    if (Array.isArray(rawForm.tags)) {
-      const tagValueField = ENUM_METADATA.material_tags?.valueField || 'name';
-      rawForm.tags = rawForm.tags.map((t: any) =>
-        typeof t === 'object' && t !== null ? t[tagValueField] : t,
-      );
-    }
-    if (Array.isArray(rawForm.certifications)) {
-      const certValueField =
-        ENUM_METADATA.material_certifications?.valueField || 'name';
-      rawForm.certifications = rawForm.certifications.map((c: any) =>
-        typeof c === 'object' && c !== null ? c[certValueField] : c,
-      );
-    }
-
-    if (!rawForm.name?.trim()) {
+    if (!form.name?.trim()) {
       setError(TOAST_MESSAGES.VALIDATION.MATERIAL_NAME_REQUIRED);
       return;
     }
-    if (!rawForm.class) {
+    if (!form.class) {
       setError(TOAST_MESSAGES.VALIDATION.MATERIAL_CLASS_REQUIRED);
       return;
     }
 
     setError(null);
 
+    // Strip enriched data from relation fields before saving
+    const dataToSave = prepareFormForSave(form);
+
     try {
       if (currentMode === 'create') {
-        await createMaterialMutation.mutateAsync({ data: rawForm });
+        await createMaterialMutation.mutateAsync({ data: dataToSave });
         toast.success(TOAST_MESSAGES.SUCCESS.MATERIAL_CREATED);
       } else {
         if (!materialId) {
           throw new Error(TOAST_MESSAGES.VALIDATION.MATERIAL_ID_NOT_FOUND);
         }
-        await updateMaterialMutation.mutateAsync({ data: rawForm });
+        await updateMaterialMutation.mutateAsync({ data: dataToSave });
         toast.success(TOAST_MESSAGES.SUCCESS.MATERIAL_UPDATED);
       }
 

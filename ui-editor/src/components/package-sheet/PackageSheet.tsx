@@ -17,6 +17,7 @@ import {
   EntitySheetHeader,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
+import { prepareFormForSave } from '~/utils/field';
 
 import { PackageSheetEditView } from './PackageSheetEditView';
 import { PackageSheetReadView } from './PackageSheetReadView';
@@ -97,15 +98,10 @@ export const PackageSheet = ({
   const deletePackageMutation = useDeletePackage(brandId, packageId);
 
   const handleSave = async () => {
-    const rawForm = { ...form };
-    if (typeof rawForm.material === 'object' && rawForm.material !== null) {
-      rawForm.material = (rawForm.material as any).slug;
-    }
-    if (typeof rawForm.container === 'object' && rawForm.container !== null) {
-      rawForm.container = (rawForm.container as any).slug;
-    }
-
-    const materialValue = rawForm.material as string | undefined;
+    const materialValue =
+      typeof form.material === 'object'
+        ? (form.material as any)?.slug
+        : form.material;
     if (!materialValue?.trim()) {
       setError(TOAST_MESSAGES.VALIDATION.PACKAGE_MATERIAL_REQUIRED);
       return;
@@ -113,15 +109,18 @@ export const PackageSheet = ({
 
     setError(null);
 
+    // Strip enriched data from relation fields before saving
+    const dataToSave = prepareFormForSave(form);
+
     try {
       if (currentMode === 'create') {
-        await createPackageMutation.mutateAsync({ data: rawForm });
+        await createPackageMutation.mutateAsync({ data: dataToSave });
         toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_CREATED);
       } else {
         if (!packageId) {
           throw new Error(TOAST_MESSAGES.VALIDATION.PACKAGE_ID_NOT_FOUND);
         }
-        await updatePackageMutation.mutateAsync({ data: rawForm });
+        await updatePackageMutation.mutateAsync({ data: dataToSave });
         toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_UPDATED);
       }
 

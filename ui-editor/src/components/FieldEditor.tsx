@@ -1,6 +1,7 @@
 import React, { memo, useMemo } from 'react';
 
 import { useFieldOptions } from '~/hooks/useFieldOptions';
+import { extractValue } from '~/utils/field';
 
 import { ColorArrayPicker, ColorPicker, JsonEditor } from './field-editors';
 import type { SchemaField, SelectOption } from './field-types';
@@ -25,19 +26,6 @@ interface WrapperProps {
   required: boolean;
   children: React.ReactNode;
 }
-
-// Utility functions
-/**
- * Extract value from an item using the specified field.
- * No guessing - uses explicit valueField from metadata.
- */
-const extractValue = (val: unknown, valueField: string): string => {
-  if (val && typeof val === 'object') {
-    const obj = val as Record<string, unknown>;
-    return String(obj[valueField] ?? '');
-  }
-  return String(val ?? '');
-};
 
 const parseCommaSeparated = (input: string): string[] =>
   input
@@ -155,7 +143,21 @@ const renderForeignKeySelect = (
         id={inputId}
         value={stringValue}
         options={options}
-        onChange={(val) => onChange(val || null)}
+        onChange={(val) => {
+          if (!val) {
+            onChange(null);
+            return;
+          }
+          // Find the option and return the full object if available
+          const selectedOption = options.find(
+            (opt) => String(opt.value) === val,
+          );
+          if (selectedOption?.data) {
+            onChange(selectedOption.data);
+          } else {
+            onChange(val);
+          }
+        }}
         disabled={disabled || loading || !!error}
         loading={loading}
       />
@@ -191,12 +193,28 @@ const renderMultiSelect = (
     );
   }
 
+  // Check if any option has data (entity relation)
+  const hasEntityData = options.some((opt) => opt.data);
+
+  const handleChange = (selectedValues: string[]) => {
+    if (hasEntityData) {
+      // Map selected values back to full objects
+      const selectedObjects = selectedValues.map((val) => {
+        const opt = options.find((o) => String(o.value) === val);
+        return opt?.data ?? val;
+      });
+      onChange(selectedObjects);
+    } else {
+      onChange(selectedValues);
+    }
+  };
+
   return (
     <MultiSelect
       id={inputId}
       options={options}
       value={arr}
-      onChange={onChange}
+      onChange={handleChange}
       disabled={disabled || loading}
       placeholder={loading ? 'Loading…' : 'Select items...'}
       searchPlaceholder="Search..."

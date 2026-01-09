@@ -131,7 +131,7 @@ export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
   },
   material: {
     entity: 'materials',
-    valueField: 'uuid',
+    valueField: 'slug',
     labelField: 'name',
   },
   container: {
@@ -141,7 +141,7 @@ export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
   },
   package: {
     entity: 'packages',
-    valueField: 'uuid',
+    valueField: 'slug',
     labelField: 'name',
   },
 };

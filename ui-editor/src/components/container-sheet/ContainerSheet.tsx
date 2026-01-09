@@ -16,6 +16,7 @@ import {
   EntitySheetHeader,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
+import { prepareFormForSave } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';
 
 import { ContainerSheetEditView } from './ContainerSheetEditView';
@@ -89,32 +90,30 @@ export const ContainerSheet = ({
   };
 
   const handleSave = async () => {
-    const rawForm = { ...form };
-    if (typeof rawForm.brand === 'object' && rawForm.brand !== null) {
-      rawForm.brand = (rawForm.brand as any).slug;
-    }
-
-    if (!rawForm.name?.trim()) {
+    if (!form.name?.trim()) {
       setError(TOAST_MESSAGES.VALIDATION.CONTAINER_NAME_REQUIRED);
       return;
     }
 
-    if (!rawForm.class) {
+    if (!form.class) {
       setError(TOAST_MESSAGES.VALIDATION.CONTAINER_CLASS_REQUIRED);
       return;
     }
 
     setError(null);
 
+    // Strip enriched data from relation fields before saving
+    const dataToSave = prepareFormForSave(form);
+
     try {
       if (currentMode === 'create') {
-        await createContainerMutation.mutateAsync({ data: rawForm });
+        await createContainerMutation.mutateAsync({ data: dataToSave });
         toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_CREATED);
       } else {
         if (!containerId) {
           throw new Error(TOAST_MESSAGES.VALIDATION.CONTAINER_ID_NOT_FOUND);
         }
-        await updateContainerMutation.mutateAsync({ data: rawForm });
+        await updateContainerMutation.mutateAsync({ data: dataToSave });
         setIsReadOnly(true);
         setCurrentMode('edit');
         toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
