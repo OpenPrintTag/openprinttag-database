@@ -4,12 +4,13 @@ brand:
   slug: gizmo-dorks
 name: PLA Pink (Translucent)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff72b6ff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/3b9c7bef05f6.png
   type: unspecified

@@ -4,11 +4,13 @@ brand:
   slug: colorfabb
 name: PLA High Speed Pro Sky blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0078bfff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/4f3ba4cad74f.png
   type: unspecified

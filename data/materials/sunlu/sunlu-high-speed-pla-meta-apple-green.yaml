@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Apple Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#84d18bff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/21d12fecf619.jpg
   type: unspecified

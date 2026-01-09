@@ -1,10 +1,11 @@
-uuid: 4b1cf128-f6a3-57aa-8699-73aa92c83d9b
+uuid: ef0a0ffa-f804-5802-8293-3172505d654c
 slug: polymaker-panchroma-silk-pla-lime
 brand:
   slug: polymaker
-name: 'Panchroma™ Silk PLA Lime '
+name: Panchroma™ Silk PLA Lime
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#91c500ff'
 tags:

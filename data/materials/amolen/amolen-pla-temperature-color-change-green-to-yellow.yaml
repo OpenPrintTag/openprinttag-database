@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Temperature Color Change Green to Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#11784fff'
 - color_rgba: '#fbf942ff'

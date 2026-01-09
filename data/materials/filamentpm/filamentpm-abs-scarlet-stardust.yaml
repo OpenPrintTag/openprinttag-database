@@ -1,10 +1,10 @@
-uuid: 281a286a-6003-531b-8fc7-b705c44c547c
+uuid: 1ecbc1bd-19d2-5018-a0d6-6b27fa26fda6
 slug: filamentpm-abs-scarlet-stardust
 brand:
   slug: filamentpm
-name: ' ABS - Scarlet Stardust '
+name: ABS - Scarlet Stardust
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#c00000ff'

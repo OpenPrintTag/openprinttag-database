@@ -4,12 +4,14 @@ brand:
   slug: spectrum
 name: PLA High Speed Iceland Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 primary_color:
   color_rgba: '#6ac4cdff'
 tags:
 - transparent
 - industrially_compostable
+- high_speed
 properties:
   density: 1.24

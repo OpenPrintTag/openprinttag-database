@@ -1,10 +1,10 @@
-uuid: f601760d-11a0-5b24-8d49-5e7574e008d0
+uuid: d7fa0692-fd71-5e8b-8120-fe97435e1a85
 slug: bambulab-petg-hf-blue
 brand:
   slug: bambulab
-name: 'PETG HF Blue '
+name: PETG HF Blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#003287ff'

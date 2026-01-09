@@ -4,11 +4,13 @@ brand:
   slug: prusament
 name: PETG Lipstick Red
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#bb2e33ff'
 transmission_distance: 2.8
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/8b48861608d7.png
   type: unspecified

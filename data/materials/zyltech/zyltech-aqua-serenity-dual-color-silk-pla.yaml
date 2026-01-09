@@ -4,7 +4,8 @@ brand:
   slug: zyltech
 name: Aqua Serenity Dual Color Silk PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0353baff'
 - color_rgba: '#11784fff'

@@ -4,7 +4,8 @@ brand:
   slug: geeetech
 name: Silk PLA Tri-Color Orange Blue Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#7ab352ff'
 - color_rgba: '#2e56f1ff'

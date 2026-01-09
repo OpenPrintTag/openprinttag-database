@@ -1,10 +1,11 @@
-uuid: 31db3c39-323a-5fa1-86b3-d049c6e9f39d
+uuid: 2b317d5d-4b9e-516a-85fc-cb3f16c8a416
 slug: formfutura-easyfil-pla-red
 brand:
   slug: formfutura
-name: ' EasyFil PLA Red'
+name: EasyFil PLA Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff0505ff'
 tags:

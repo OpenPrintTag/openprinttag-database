@@ -4,13 +4,16 @@ brand:
   slug: prusament
 name: PLA Prusa Galaxy Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#3d3e3dff'
 transmission_distance: 0.2
 tags:
 - glitter
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/8e14e44127bf.png
   type: unspecified

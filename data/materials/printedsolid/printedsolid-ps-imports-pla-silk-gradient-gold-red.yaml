@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Silk Gradient-Gold-Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffcb47ff'
 - color_rgba: '#e72f1dff'

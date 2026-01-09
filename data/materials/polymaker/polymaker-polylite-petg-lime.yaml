@@ -1,10 +1,10 @@
-uuid: f06d4ba4-0905-5c07-bdb2-2082913a67ed
+uuid: be7e380b-e19f-5c4e-ba33-21028b8073d3
 slug: polymaker-polylite-petg-lime
 brand:
   slug: polymaker
-name: 'PolyLite™ PETG Lime '
+name: PolyLite™ PETG Lime
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#dede00ff'

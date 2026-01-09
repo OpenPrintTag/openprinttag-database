@@ -4,7 +4,8 @@ brand:
   slug: precision-3d-filament
 name: Powder Blue PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#a5d6d5ff'
 tags:

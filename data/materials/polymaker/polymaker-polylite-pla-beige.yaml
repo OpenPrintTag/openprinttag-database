@@ -1,10 +1,11 @@
-uuid: 6b409149-a6d6-53f6-a2e2-3e560e814d7a
+uuid: 9b23a46a-86c4-5f87-8e22-5df659cb796d
 slug: polymaker-polylite-pla-beige
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Beige '
+name: PolyLite™ PLA Beige
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#d8cf8cff'
 tags:

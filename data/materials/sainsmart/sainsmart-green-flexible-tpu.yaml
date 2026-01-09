@@ -4,12 +4,12 @@ brand:
   slug: sainsmart
 name: Green, Flexible TPU
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 url: https://www.sainsmart.com/products/green-flexible-tpu-filament-1-75mm-0-8kg-1-76lb?_pos=24&_fid=bf8833f30&_ss=c
 primary_color:
   color_rgba: '#4dff64ff'
 tags:
-- transparent
+- translucent
 properties:
   hardness_shore_a: 95

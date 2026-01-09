@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0378d0ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/4a86024c004b.jpg
   type: unspecified

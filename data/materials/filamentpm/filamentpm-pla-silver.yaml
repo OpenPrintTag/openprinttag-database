@@ -1,10 +1,11 @@
-uuid: 02b80972-28f3-5508-9bcd-3e73725cd8fd
+uuid: a4e8cd69-4f45-5de4-b2ae-72dc7df56450
 slug: filamentpm-pla-silver
 brand:
   slug: filamentpm
-name: ' PLA - Silver '
+name: PLA - Silver
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#949597ff'
 tags:

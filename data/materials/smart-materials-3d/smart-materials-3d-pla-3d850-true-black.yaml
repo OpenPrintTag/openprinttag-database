@@ -1,10 +1,11 @@
-uuid: 138d8125-b11e-512e-850d-47be1deecb1f
+uuid: 6e8cb1f5-ce93-5db6-8368-d4170b757ba1
 slug: smart-materials-3d-pla-3d850-true-black
 brand:
   slug: smart-materials-3d
-name: 'PLA 3D850 True black '
+name: PLA 3D850 True black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

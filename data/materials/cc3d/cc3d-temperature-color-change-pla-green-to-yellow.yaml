@@ -4,7 +4,8 @@ brand:
   slug: cc3d
 name: Temperature Color Change PLA Green to Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ebff57ff'
 - color_rgba: '#0ccf81ff'

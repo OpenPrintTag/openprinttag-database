@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk Dual Color PLA Blue Rose
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#c80181ff'
 - color_rgba: '#0e21aeff'

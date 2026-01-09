@@ -1,10 +1,11 @@
-uuid: 93a97792-6167-59ed-9da0-5b22991d3616
+uuid: 16b87d54-308c-5140-a8d2-5b2f618600ed
 slug: filamentpm-pla-pearl-red
 brand:
   slug: filamentpm
-name: ' PLA - Pearl Red '
+name: PLA - Pearl Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#861d2bff'
 tags:

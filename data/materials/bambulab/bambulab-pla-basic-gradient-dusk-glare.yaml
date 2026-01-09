@@ -1,10 +1,11 @@
-uuid: d13d4927-742a-531f-92e6-4914eaa6cdd9
+uuid: 3d0c77fc-34c9-5661-8139-25fbba9cd818
 slug: bambulab-pla-basic-gradient-dusk-glare
 brand:
   slug: bambulab
-name: 'PLA Basic Gradient Dusk Glare '
+name: PLA Basic Gradient Dusk Glare
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ff8b47ff'
 - color_rgba: '#ff5f2eff'

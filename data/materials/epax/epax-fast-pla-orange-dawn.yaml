@@ -4,7 +4,8 @@ brand:
   slug: epax
 name: Fast PLA+ Orange Dawn
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla-filament-orange-dawn-1-75mm-1kg-2-2lb
 secondary_colors:
 - color_rgba: '#c01616ff'
@@ -12,4 +13,5 @@ secondary_colors:
 tags:
 - gradual_color_change
 - glitter
+- high_speed
 properties: {}

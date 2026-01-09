@@ -1,10 +1,11 @@
-uuid: 9a50935d-03d5-5f88-a824-26dc799e8be8
+uuid: 0de3195e-051c-5ecc-b8d3-e14838eaf50a
 slug: geeetech-pla-bone
 brand:
   slug: geeetech
-name: 'PLA Bone '
+name: PLA Bone
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#eadac2ff'
 tags:

@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Coffee
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#8e7451ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/77ba5b55672b.jpg
   type: unspecified

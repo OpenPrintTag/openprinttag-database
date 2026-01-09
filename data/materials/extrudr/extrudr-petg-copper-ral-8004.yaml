@@ -4,7 +4,7 @@ brand:
   slug: extrudr
 name: PETG copper | RAL 8004
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#845239ff'

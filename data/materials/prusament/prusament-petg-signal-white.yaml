@@ -4,11 +4,13 @@ brand:
   slug: prusament
 name: PETG Signal White
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e5e0e3ff'
 transmission_distance: 3.4
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/65d12dbcfe4d.png
   type: unspecified

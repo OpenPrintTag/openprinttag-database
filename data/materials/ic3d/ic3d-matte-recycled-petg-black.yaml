@@ -1,10 +1,10 @@
-uuid: 62df93ed-9894-558c-811b-8a56e06e082d
+uuid: 809a1ebb-c006-5110-a3e0-a5d19031106c
 slug: ic3d-matte-recycled-petg-black
 brand:
   slug: ic3d
-name: 'Matte Recycled PETG Black '
+name: Matte Recycled PETG Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'

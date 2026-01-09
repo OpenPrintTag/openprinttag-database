@@ -1,10 +1,10 @@
-uuid: 2d611109-7ad8-540b-8a17-e882528ef23b
+uuid: 4f786f76-6c31-512d-ae8e-38e3964a4649
 slug: bambulab-petg-cf-black
 brand:
   slug: bambulab
-name: 'PETG-CF Black '
+name: PETG-CF Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'

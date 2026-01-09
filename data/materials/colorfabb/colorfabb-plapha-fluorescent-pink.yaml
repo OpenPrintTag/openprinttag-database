@@ -1,10 +1,11 @@
-uuid: f9103656-854b-5b07-8af7-d62df91523ca
+uuid: a9550ba2-5e82-582b-a728-99ae164fb908
 slug: colorfabb-plapha-fluorescent-pink
 brand:
   slug: colorfabb
-name: 'PLA/PHA Fluorescent pink '
+name: PLA/PHA Fluorescent pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e23288ff'
 tags:

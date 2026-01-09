@@ -1,10 +1,11 @@
-uuid: bdd1f1a2-0307-5279-8ecd-36ed28c639b9
+uuid: f2d4ea05-388b-572c-b9bb-1d811051d126
 slug: locyfens-silk-pla-rainbow
 brand:
   slug: locyfens
-name: 'Silk PLA Rainbow '
+name: Silk PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0099e6ff'
 - color_rgba: '#8d65c7ff'

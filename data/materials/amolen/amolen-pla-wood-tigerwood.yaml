@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Wood Tigerwood
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#8b3a3aff'
 - color_rgba: '#913f1fff'

@@ -1,10 +1,10 @@
-uuid: 5bccf6d4-e1a6-50c8-9232-272466806136
+uuid: de0bee80-e2a5-5fb0-a8c3-28992b5cfe22
 slug: overture-tpu-red
 brand:
   slug: overture
-name: 'TPU Red '
+name: TPU Red
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e60000ff'

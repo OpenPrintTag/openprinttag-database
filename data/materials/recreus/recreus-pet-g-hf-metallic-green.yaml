@@ -1,12 +1,14 @@
-uuid: 8f4f3846-1c49-52d0-be1b-c772ef8d5d3e
+uuid: d176ed8c-2335-5090-8342-7bcecf77e111
 slug: recreus-pet-g-hf-metallic-green
 brand:
   slug: recreus
-name: ' PET-G HF Metallic green'
+name: PET-G HF Metallic green
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://recreus.com/en/products/pet-g?variant=45921639530755
 primary_color:
   color_rgba: '#b3df3aff'
+tags:
+- high_speed
 properties: {}

@@ -4,12 +4,14 @@ brand:
   slug: sunlu
 name: High Speed Marble PLA Cement Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#acb1baff'
 tags:
 - imitates_marble
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/a8d7d28c7869.jpg
   type: unspecified

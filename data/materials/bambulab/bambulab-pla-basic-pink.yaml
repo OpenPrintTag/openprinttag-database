@@ -1,10 +1,11 @@
-uuid: de0d1039-3670-52b7-9bc5-0cd4aa12123c
+uuid: 3bd4208e-104b-543c-9f32-45705ede6e45
 slug: bambulab-pla-basic-pink
 brand:
   slug: bambulab
-name: 'PLA Basic Pink '
+name: PLA Basic Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fc8397ff'
 tags:

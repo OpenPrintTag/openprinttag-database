@@ -4,11 +4,13 @@ brand:
   slug: colorfabb
 name: PLA High Speed Pro Deep orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff5f2eff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/2eb485b7452c.png
   type: unspecified

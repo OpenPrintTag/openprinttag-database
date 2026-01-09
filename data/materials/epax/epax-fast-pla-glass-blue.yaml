@@ -4,10 +4,12 @@ brand:
   slug: epax
 name: Fast PLA+ Glass Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=51987181109461
 primary_color:
   color_rgba: '#4921c1ff'
 tags:
 - translucent
+- high_speed
 properties: {}

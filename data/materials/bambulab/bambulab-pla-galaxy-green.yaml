@@ -1,10 +1,11 @@
-uuid: ece8ebec-ab8e-5f05-8274-50d0d47a7fb6
+uuid: 353d8320-acff-513a-9f22-4b714e487362
 slug: bambulab-pla-galaxy-green
 brand:
   slug: bambulab
-name: 'PLA Galaxy Green '
+name: PLA Galaxy Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#34695aff'
 tags:

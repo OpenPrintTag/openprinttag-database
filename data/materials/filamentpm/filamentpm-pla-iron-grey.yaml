@@ -1,10 +1,11 @@
-uuid: 6da126f8-bb42-5176-bedb-9bcde4a8e9ce
+uuid: d9a91a02-2b4d-577a-8fc1-d6b7641e11f6
 slug: filamentpm-pla-iron-grey
 brand:
   slug: filamentpm
-name: ' PLA+ Iron Grey '
+name: PLA+ Iron Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#697272ff'
 tags:

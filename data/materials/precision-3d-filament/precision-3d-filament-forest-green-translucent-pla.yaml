@@ -1,15 +1,16 @@
-uuid: cd491885-ecf0-5afe-bad3-d42f6388d57e
+uuid: 15770d0d-f0da-5bd9-9fae-93222423072c
 slug: precision-3d-filament-forest-green-translucent-pla
 brand:
   slug: precision-3d-filament
-name: 'Forest Green [Translucent] PLA '
+name: Forest Green [Translucent] PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#34695aff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/e6f991eda4a1.png
   type: unspecified

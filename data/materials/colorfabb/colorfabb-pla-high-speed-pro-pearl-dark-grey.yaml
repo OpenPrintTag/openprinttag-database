@@ -4,11 +4,13 @@ brand:
   slug: colorfabb
 name: PLA High Speed Pro Pearl dark grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6a6c6eff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/33107681ab6a.png
   type: unspecified

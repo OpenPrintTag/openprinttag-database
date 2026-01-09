@@ -4,13 +4,16 @@ brand:
   slug: prusament
 name: PLA Marble Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b0b4b5ff'
 transmission_distance: 3.5
 tags:
 - imitates_marble
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/d331167b8306.png
   type: unspecified

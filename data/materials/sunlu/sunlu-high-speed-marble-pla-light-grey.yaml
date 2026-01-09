@@ -4,12 +4,14 @@ brand:
   slug: sunlu
 name: High Speed Marble PLA Light Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e0e0dcff'
 tags:
 - imitates_marble
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/6b558ff63527.jpg
   type: unspecified

@@ -4,11 +4,13 @@ brand:
   slug: prusament
 name: PETG Terracotta Light
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#b87f6aff'
 transmission_distance: 1.5
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/2de9f5cca999.png
   type: unspecified

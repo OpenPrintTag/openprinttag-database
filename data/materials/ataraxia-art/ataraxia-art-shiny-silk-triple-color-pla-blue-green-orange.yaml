@@ -4,7 +4,8 @@ brand:
   slug: ataraxia-art
 name: Shiny Silk Triple Color PLA Blue Green Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#2e56f1ff'
 - color_rgba: '#41a840ff'

@@ -1,10 +1,11 @@
-uuid: 4b3aad56-c019-5700-9b09-da7d9001b5b4
+uuid: e5b5bb64-0558-57b8-a35a-2656675e2b8a
 slug: cc3d-pla-max-black
 brand:
   slug: cc3d
-name: 'PLA Max Black '
+name: PLA Max Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

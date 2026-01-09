@@ -1,10 +1,11 @@
-uuid: 4465f511-75cc-574e-821c-4238c69c1809
+uuid: d014b6af-8d42-57df-8bb8-d3e092be5fb0
 slug: overture-super-pla-orange
 brand:
   slug: overture
-name: 'Super PLA+ Orange '
+name: Super PLA+ Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff7a33ff'
 tags:

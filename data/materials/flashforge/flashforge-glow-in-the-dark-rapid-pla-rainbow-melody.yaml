@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Glow in The Dark Rapid PLA Rainbow Melody
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f5b797ff'
 - color_rgba: '#f4d9deff'

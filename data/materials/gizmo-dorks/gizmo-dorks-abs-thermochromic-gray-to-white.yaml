@@ -1,10 +1,10 @@
-uuid: f9639bc5-c08c-5084-a4a8-c37baad4a0f3
+uuid: bcd33c55-f11a-5bab-9e4e-63a076e00df5
 slug: gizmo-dorks-abs-thermochromic-gray-to-white
 brand:
   slug: gizmo-dorks
-name: 'ABS Thermochromic Gray to White '
+name: ABS Thermochromic Gray to White
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 secondary_colors:
 - color_rgba: '#ffffffff'

@@ -4,7 +4,7 @@ brand:
   slug: gizmo-dorks
 name: ABS Thermochromic Green to Yellow
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 secondary_colors:
 - color_rgba: '#fbe200ff'

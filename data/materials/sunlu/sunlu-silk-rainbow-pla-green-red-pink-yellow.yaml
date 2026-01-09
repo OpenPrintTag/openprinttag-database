@@ -4,7 +4,8 @@ brand:
   slug: sunlu
 name: Silk Rainbow PLA (Green-Red-Pink-Yellow)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f47d59ff'
 - color_rgba: '#fbe200ff'

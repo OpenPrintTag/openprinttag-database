@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Matte Dual Color Blue Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#5feff9ff'
 - color_rgba: '#ffc8c9ff'

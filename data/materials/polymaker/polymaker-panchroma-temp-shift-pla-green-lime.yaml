@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Temp Shift PLA Green-Lime
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#83e665ff'
 - color_rgba: '#dede00ff'

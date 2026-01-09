@@ -4,12 +4,14 @@ brand:
   slug: prusament
 name: PETG Ultramarine Blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#2b3b61ff'
 tags:
 - translucent
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/4e1f95dcc0a9.png
   type: unspecified

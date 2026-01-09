@@ -1,10 +1,11 @@
-uuid: 2b6e35bc-76f9-5f3f-9ffc-03887ae3d3f5
+uuid: 5669770e-48a3-510d-979a-73d3750be4e6
 slug: polymaker-polymax-pla-yellow
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Yellow '
+name: PolyMax™ PLA Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f3c102ff'
 tags:

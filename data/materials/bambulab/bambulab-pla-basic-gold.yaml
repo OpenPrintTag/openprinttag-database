@@ -1,10 +1,11 @@
-uuid: 44bcc5dc-7ef1-5965-a7ac-ca663090dcdd
+uuid: 33e719c0-e76e-51ae-bf12-f6731f98b922
 slug: bambulab-pla-basic-gold
 brand:
   slug: bambulab
-name: 'PLA Basic Gold '
+name: PLA Basic Gold
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e3b145ff'
 tags:

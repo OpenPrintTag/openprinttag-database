@@ -1,10 +1,10 @@
-uuid: 4070bc2f-a95e-57f8-83b6-5febf56bfa07
+uuid: 50cb00f0-1377-56ae-af73-f58f79cbd8e2
 slug: filamentpm-repetg
 brand:
   slug: filamentpm
-name: ' RePETG '
+name: RePETG
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'

@@ -4,9 +4,11 @@ brand:
   slug: epax
 name: Fast PETG Solid White
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=50958906097877
 primary_color:
   color_rgba: '#f5f5f5ff'
+tags:
+- high_speed
 properties: {}

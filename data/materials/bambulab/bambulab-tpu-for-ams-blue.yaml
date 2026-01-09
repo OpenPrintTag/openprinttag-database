@@ -1,10 +1,10 @@
-uuid: 6da17c50-8a5d-5ca6-ad29-16d0c10940b4
+uuid: f7a665a5-1f76-59e8-9e1b-2d91b9ab371b
 slug: bambulab-tpu-for-ams-blue
 brand:
   slug: bambulab
-name: 'TPU for AMS Blue '
+name: TPU for AMS Blue
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#6299dfff'

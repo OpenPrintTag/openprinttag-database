@@ -4,13 +4,16 @@ brand:
   slug: prusament
 name: PLA Galaxy Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#453a72ff'
 transmission_distance: 4.7
 tags:
 - glitter
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/38e5bdcb8b5b.png
   type: unspecified

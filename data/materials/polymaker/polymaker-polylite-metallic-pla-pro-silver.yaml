@@ -1,10 +1,11 @@
-uuid: 699f5cd5-60ff-56c5-9590-ce7bf7255055
+uuid: 7ac3687c-a0d2-5311-8c32-a9aed6129e17
 slug: polymaker-polylite-metallic-pla-pro-silver
 brand:
   slug: polymaker
-name: 'PolyLite™ Metallic PLA Pro Silver '
+name: PolyLite™ Metallic PLA Pro Silver
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#a8b0bdff'
 tags:

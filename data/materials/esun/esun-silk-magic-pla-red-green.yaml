@@ -4,7 +4,8 @@ brand:
   slug: esun
 name: Silk Magic PLA Red Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#4e7642ff'
 - color_rgba: '#d33d3dff'

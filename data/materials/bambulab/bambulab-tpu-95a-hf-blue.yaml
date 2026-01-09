@@ -1,10 +1,10 @@
-uuid: 28eeacf2-1778-53ef-bce3-b667fdde6593
+uuid: f0ffb03d-29f1-51e6-b6b2-dccebb095639
 slug: bambulab-tpu-95a-hf-blue
 brand:
   slug: bambulab
-name: 'TPU 95A HF Blue '
+name: TPU 95A HF Blue
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#0099e6ff'

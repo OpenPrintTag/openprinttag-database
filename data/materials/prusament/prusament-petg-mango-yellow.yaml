@@ -4,11 +4,13 @@ brand:
   slug: prusament
 name: PETG Mango Yellow
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#f2b70aff'
 transmission_distance: 2.6
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/b1816341d2f4.png
   type: unspecified

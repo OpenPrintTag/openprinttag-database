@@ -1,10 +1,11 @@
-uuid: 836ea0a7-cc52-5947-bbcf-359a68230221
+uuid: fc497993-ed11-5be0-b4ee-fe8ffdd9c1ab
 slug: bambulab-pla-glow-yellow
 brand:
   slug: bambulab
-name: 'PLA Glow Yellow '
+name: PLA Glow Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#9aee6cff'
 - color_rgba: '#fce575ff'

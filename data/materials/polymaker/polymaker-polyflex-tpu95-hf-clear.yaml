@@ -1,15 +1,16 @@
-uuid: 6a0e0e0f-966d-5493-84ad-dd1195984c98
+uuid: cf28ee9a-841b-53da-a66d-f1fae9af4450
 slug: polymaker-polyflex-tpu95-hf-clear
 brand:
   slug: polymaker
-name: ' PolyFlex™ TPU95-HF Clear'
+name: PolyFlex™ TPU95-HF Clear
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
 - transparent
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/bde3792df62d.png
   type: unspecified

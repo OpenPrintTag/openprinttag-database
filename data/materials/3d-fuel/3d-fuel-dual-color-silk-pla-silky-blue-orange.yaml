@@ -4,7 +4,8 @@ brand:
   slug: 3d-fuel
 name: Dual-Color Silk PLA+, Silky Blue Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f4ac23ff'
 - color_rgba: '#2e56f1ff'

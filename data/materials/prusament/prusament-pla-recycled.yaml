@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Recycled
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.prusa3d.com/product/prusament-pla-recycled-2kg/
 primary_color:
   color_rgba: '#000000ff'

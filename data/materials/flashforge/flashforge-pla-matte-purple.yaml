@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: PLA Matte Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#cac2daff'
 tags:

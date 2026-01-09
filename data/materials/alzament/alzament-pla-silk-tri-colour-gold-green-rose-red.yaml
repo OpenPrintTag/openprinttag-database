@@ -4,7 +4,8 @@ brand:
   slug: alzament
 name: PLA Silk Tri colour Gold-Green-Rose Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-gold-green-rose-red-d12869941.htm
 secondary_colors:
 - color_rgba: '#f3b400ff'
@@ -12,6 +13,6 @@ secondary_colors:
 - color_rgba: '#bb264dff'
 tags:
 - silk
-- gradual_color_change
 - industrially_compostable
+- coextruded
 properties: {}

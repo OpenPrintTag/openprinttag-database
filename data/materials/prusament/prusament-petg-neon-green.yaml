@@ -4,7 +4,7 @@ brand:
   slug: prusament
 name: PETG Neon Green
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#a6ec5fff'
@@ -12,6 +12,8 @@ transmission_distance: 75.0
 tags:
 - translucent
 - neon
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/08acbcdb7277.png
   type: unspecified

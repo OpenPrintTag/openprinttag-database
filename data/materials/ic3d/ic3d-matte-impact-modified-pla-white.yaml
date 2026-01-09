@@ -4,7 +4,8 @@ brand:
   slug: ic3d
 name: Matte Impact Modified PLA White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

@@ -4,11 +4,13 @@ brand:
   slug: sainsmart
 name: GT-3 High Speed Matte PLA Teal Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.sainsmart.com/products/gt-3-pla?variant=40667848638543
 primary_color:
   color_rgba: '#c6f3fdff'
 tags:
 - matte
 - industrially_compostable
+- high_speed
 properties: {}

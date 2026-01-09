@@ -1,10 +1,10 @@
-uuid: f0416bd3-cc8c-54b9-817f-b23dc0ddf678
+uuid: 36eee878-9730-5a54-891f-bc97c7847988
 slug: colorfabb-corkfill
 brand:
   slug: colorfabb
-name: 'corkFill '
+name: corkFill
 class: FFF
-type_id: 15
+type: PHA
 abbreviation: PHA
 primary_color:
   color_rgba: '#774b3fff'

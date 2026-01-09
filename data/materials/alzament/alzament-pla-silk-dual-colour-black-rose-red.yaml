@@ -4,13 +4,14 @@ brand:
   slug: alzament
 name: PLA Silk Dual colour Black-Rose Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-dual-colour-1-kg-black-rose-red-d12869957.htm
 secondary_colors:
 - color_rgba: '#000000ff'
 - color_rgba: '#bb264dff'
 tags:
 - silk
-- gradual_color_change
 - industrially_compostable
+- coextruded
 properties: {}

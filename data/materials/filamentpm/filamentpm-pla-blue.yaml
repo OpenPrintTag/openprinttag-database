@@ -1,10 +1,11 @@
-uuid: 4a5dc4c0-97fd-5998-823d-02eca2443c18
+uuid: ceeba331-b717-5e3d-824d-d1a5cb187f03
 slug: filamentpm-pla-blue
 brand:
   slug: filamentpm
-name: ' PLA - Blue '
+name: PLA - Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0099e6ff'
 tags:

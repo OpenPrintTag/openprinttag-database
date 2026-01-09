@@ -1,10 +1,11 @@
-uuid: 21f9e274-afa0-5233-b6e1-66148bd406c6
+uuid: 1dba9fec-7d56-509d-a677-23f3ae611b3d
 slug: polymaker-panchroma-luminous-pla-rainbow
 brand:
   slug: polymaker
-name: 'Panchroma™ Luminous PLA Rainbow '
+name: Panchroma™ Luminous PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ff67f5ff'
 - color_rgba: '#7659b5ff'

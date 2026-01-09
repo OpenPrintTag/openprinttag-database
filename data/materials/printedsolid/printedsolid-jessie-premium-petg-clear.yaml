@@ -1,10 +1,10 @@
-uuid: 9ebea81d-e17d-5730-a0ed-74a66bacb204
+uuid: be4ee372-4094-5b12-92e1-6d11fa926e11
 slug: printedsolid-jessie-premium-petg-clear
 brand:
   slug: printedsolid
-name: 'Jessie Premium PETG Clear  '
+name: Jessie Premium PETG Clear
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e4e7e5ff'

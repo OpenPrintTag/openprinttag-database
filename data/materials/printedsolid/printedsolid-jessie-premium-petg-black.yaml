@@ -1,10 +1,10 @@
-uuid: 2de6cfc2-30cc-57ab-98ca-726f6f809a66
+uuid: e8d803c9-73f0-5a14-90a7-34c783d76efc
 slug: printedsolid-jessie-premium-petg-black
 brand:
   slug: printedsolid
-name: 'Jessie Premium PETG Black '
+name: Jessie Premium PETG Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'

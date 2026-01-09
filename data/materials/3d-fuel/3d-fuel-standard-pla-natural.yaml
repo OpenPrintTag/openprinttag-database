@@ -4,7 +4,8 @@ brand:
   slug: 3d-fuel
 name: Standard PLA+, Natural
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:

@@ -4,7 +4,8 @@ brand:
   slug: coex-3d
 name: Copper PLA+Silk
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c88582ff'
 tags:

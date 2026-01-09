@@ -1,10 +1,10 @@
-uuid: 0cc20917-277f-538d-962b-8c8a53535ff8
+uuid: cbaea7ee-fdc8-5e5b-b04d-9efa79e10570
 slug: hatchbox-brown-petg
 brand:
   slug: hatchbox
-name: 'Brown PETG '
+name: Brown PETG
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#a54830ff'

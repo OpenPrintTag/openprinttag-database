@@ -1,10 +1,11 @@
-uuid: 1d9b6d8c-ea5c-5b02-b9be-18a780bd43ae
+uuid: 92385415-7e35-5f65-9507-4e93c5eaf694
 slug: colorfabb-plapha-standard-white
 brand:
   slug: colorfabb
-name: 'PLA/PHA Standard white '
+name: PLA/PHA Standard white
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Olive Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6c8c59ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/883578a2e46a.jpg
   type: unspecified

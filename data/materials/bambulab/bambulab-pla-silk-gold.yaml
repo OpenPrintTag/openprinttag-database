@@ -1,10 +1,11 @@
-uuid: 08b51287-c518-5a38-9ffc-30cd1545c92d
+uuid: 10bd1f36-2a49-5a90-9a42-0be26aaf1e26
 slug: bambulab-pla-silk-gold
 brand:
   slug: bambulab
-name: 'PLA Silk+ Gold '
+name: PLA Silk+ Gold
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f6c500ff'
 tags:

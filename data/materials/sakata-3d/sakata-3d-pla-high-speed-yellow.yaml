@@ -4,11 +4,13 @@ brand:
   slug: sakata-3d
 name: PLA High Speed Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fbe200ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/eca53cc57c30.png
   type: unspecified

@@ -4,7 +4,7 @@ brand:
   slug: cookiecad
 name: PETG Fairy Floss
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://cookiecad.com/products/petg-fairy-floss-petg-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
@@ -12,5 +12,5 @@ secondary_colors:
 - color_rgba: '#8d65c7ff'
 tags:
 - glitter
-- transparent
+- translucent
 properties: {}

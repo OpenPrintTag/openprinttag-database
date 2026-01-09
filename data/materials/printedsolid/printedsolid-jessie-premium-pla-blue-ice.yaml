@@ -4,12 +4,13 @@ brand:
   slug: printedsolid
 name: Jessie Premium PLA Blue Ice
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#033877ff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/50a78e2d5afb.png
   type: unspecified

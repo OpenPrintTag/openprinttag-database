@@ -4,7 +4,8 @@ brand:
   slug: elegoo
 name: Silk PLA Green Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#3d9441ff'
 - color_rgba: '#ed1536ff'

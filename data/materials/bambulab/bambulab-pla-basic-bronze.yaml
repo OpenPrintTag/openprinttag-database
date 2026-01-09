@@ -1,10 +1,11 @@
-uuid: fd3dd649-c26c-517b-b455-d0fe3b57d655
+uuid: a651945c-0d1c-5f22-8796-d38fdf7f2dc5
 slug: bambulab-pla-basic-bronze
 brand:
   slug: bambulab
-name: 'PLA Basic Bronze '
+name: PLA Basic Bronze
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#5e4e3aff'
 tags:

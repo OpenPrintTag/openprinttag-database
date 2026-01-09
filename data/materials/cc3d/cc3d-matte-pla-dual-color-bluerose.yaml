@@ -4,7 +4,8 @@ brand:
   slug: cc3d
 name: Matte PLA Dual Color Blue/Rose
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0066d9ff'
 - color_rgba: '#f300eaff'

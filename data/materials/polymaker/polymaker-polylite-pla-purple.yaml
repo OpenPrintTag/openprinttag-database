@@ -1,10 +1,11 @@
-uuid: 9d08e4ba-6e40-583f-a1da-14ea1842379a
+uuid: 3f5a92da-c52c-5a6a-9dbd-71692d0ac25a
 slug: polymaker-polylite-pla-purple
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Purple '
+name: PolyLite™ PLA Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6c47b2ff'
 tags:

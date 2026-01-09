@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f67405ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/beb5dd6c183b.jpg
   type: unspecified

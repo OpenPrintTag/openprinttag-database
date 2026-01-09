@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Pristine White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e6eaefff'
 transmission_distance: 5.1
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/9f439397cd9e.png
   type: unspecified

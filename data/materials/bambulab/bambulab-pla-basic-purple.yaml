@@ -1,10 +1,11 @@
-uuid: 80c5a730-36f8-5825-8a22-522c8f4191a1
+uuid: 2405f364-f054-5db9-a68b-4d63a5e573a5
 slug: bambulab-pla-basic-purple
 brand:
   slug: bambulab
-name: 'PLA Basic Purple '
+name: PLA Basic Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6c47b2ff'
 tags:

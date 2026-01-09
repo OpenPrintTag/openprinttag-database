@@ -1,13 +1,15 @@
-uuid: 853866f0-81bf-55c8-a0dd-fc670ddd043a
+uuid: 704009b0-3860-5d5a-9511-85609336e89a
 slug: esun-high-speed-upgraded-petg-solid-blue
 brand:
   slug: esun
-name: 'High Speed Upgraded PETG Solid Blue '
+name: High Speed Upgraded PETG Solid Blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#2e56f1ff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/75a5b60b60b6.jpg
   type: unspecified

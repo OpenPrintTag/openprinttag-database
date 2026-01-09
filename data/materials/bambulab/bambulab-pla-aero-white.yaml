@@ -1,10 +1,11 @@
-uuid: d34b18c4-aac6-553a-96b0-1bf849a31ce3
+uuid: 4afc9cb8-1b98-5178-a79b-1f82f533990b
 slug: bambulab-pla-aero-white
 brand:
   slug: bambulab
-name: 'PLA Aero White '
+name: PLA Aero White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

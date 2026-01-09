@@ -1,10 +1,11 @@
-uuid: 90430363-4f55-5ce3-8fe8-c0aafe36cfd6
+uuid: e789dc66-eec0-5251-bc95-30a66544c4e8
 slug: bambulab-pla-basic-silver
 brand:
   slug: bambulab
-name: 'PLA Basic Silver '
+name: PLA Basic Silver
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#abacb0ff'
 tags:

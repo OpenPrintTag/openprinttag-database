@@ -1,10 +1,11 @@
-uuid: af861004-5bac-5561-9392-e439c4210fd9
+uuid: a3a92da7-f6de-5c3c-9248-475f6a43c3f6
 slug: esun-pla-basic-light-grey
 brand:
   slug: esun
-name: 'PLA Basic Light Grey '
+name: PLA Basic Light Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#9db6d4ff'
 tags:

@@ -1,10 +1,10 @@
-uuid: 99895ebc-ca3d-5376-8bbb-88303543d851
+uuid: 9f1774f7-9eaa-555a-9189-664b013e508e
 slug: overture-tpu-green
 brand:
   slug: overture
-name: 'TPU Green '
+name: TPU Green
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#06b100ff'

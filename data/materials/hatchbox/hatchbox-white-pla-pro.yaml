@@ -1,10 +1,11 @@
-uuid: a8139bd5-ac36-509a-a84f-68edf9717146
+uuid: 65e6fb11-f05d-5d3c-bf82-6d1ab84c6223
 slug: hatchbox-white-pla-pro
 brand:
   slug: hatchbox
-name: 'White PLA Pro '
+name: White PLA Pro
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Dark Chocolate Brown
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50474633035989
 primary_color:
   color_rgba: '#503529ff'
+tags:
+- high_speed
 properties: {}

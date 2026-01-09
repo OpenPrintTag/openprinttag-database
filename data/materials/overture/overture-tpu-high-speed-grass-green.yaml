@@ -4,10 +4,12 @@ brand:
   slug: overture
 name: TPU High Speed Grass Green
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#61c680ff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/12d03a53ced4.jpg
   type: unspecified

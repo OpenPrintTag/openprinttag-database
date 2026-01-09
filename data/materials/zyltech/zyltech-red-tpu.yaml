@@ -1,10 +1,10 @@
-uuid: 932799c0-d837-59ab-a901-6abb5939fde9
+uuid: 62417568-3fda-5a18-bf90-1d03741ef134
 slug: zyltech-red-tpu
 brand:
   slug: zyltech
-name: 'Red TPU '
+name: Red TPU
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e72f1dff'

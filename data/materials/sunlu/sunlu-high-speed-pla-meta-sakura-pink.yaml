@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Sakura Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f4a0b1ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/0bfd5b9be26a.jpg
   type: unspecified

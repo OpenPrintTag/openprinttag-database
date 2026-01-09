@@ -4,13 +4,14 @@ brand:
   slug: protopasta
 name: Bobbi's Purple Iris HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#7142a3ff'
 tags:
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/5508f74ae5d0.png
   type: unspecified

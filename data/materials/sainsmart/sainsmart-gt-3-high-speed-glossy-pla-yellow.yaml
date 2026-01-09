@@ -4,11 +4,13 @@ brand:
   slug: sainsmart
 name: GT-3 High Speed Glossy PLA+ Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.sainsmart.com/products/gt-3-glossy-pla-filament?_pos=1&_fid=abfb10a46&_ss=c
 primary_color:
   color_rgba: '#e8bd00ff'
 tags:
 - silk
 - industrially_compostable
+- high_speed
 properties: {}

@@ -4,7 +4,7 @@ brand:
   slug: atomic-filament
 name: Light Gray PETG PRO
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#c5c7c4ff'

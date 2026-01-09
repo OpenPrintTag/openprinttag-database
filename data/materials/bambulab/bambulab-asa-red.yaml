@@ -1,10 +1,10 @@
-uuid: 723a32ca-190b-506a-b91c-67804fb7ddd5
+uuid: 5ba74219-ea55-5c87-be23-13523cf57030
 slug: bambulab-asa-red
 brand:
   slug: bambulab
-name: 'ASA Red '
+name: ASA Red
 class: FFF
-type_id: 4
+type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#d33d3dff'

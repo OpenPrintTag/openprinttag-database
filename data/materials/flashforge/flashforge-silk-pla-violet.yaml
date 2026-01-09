@@ -1,10 +1,11 @@
-uuid: c93500fa-289c-5916-a75b-9676484aef6c
+uuid: 0fe25bc7-af3a-5aab-a421-54e020ce9a42
 slug: flashforge-silk-pla-violet
 brand:
   slug: flashforge
-name: 'Silk PLA Violet '
+name: Silk PLA Violet
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#5c50e0ff'
 tags:

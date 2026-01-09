@@ -1,10 +1,11 @@
-uuid: 4e4dc8a0-5b38-56ce-ab22-2c257b8691b0
+uuid: 4e3a3d78-36d3-58a2-b03e-b82c6e2a140c
 slug: ovv3d-silk-pla-two-color-sky-blue-purple
 brand:
   slug: ovv3d
-name: 'Silk PLA Two-color Sky Blue+ Purple '
+name: Silk PLA Two-color Sky Blue+ Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#1adafbff'
 - color_rgba: '#9d00b1ff'

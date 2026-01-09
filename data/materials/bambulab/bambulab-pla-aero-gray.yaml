@@ -1,10 +1,11 @@
-uuid: 3bc84bae-8e72-5f0e-bcf9-c43f9d26023d
+uuid: 548c3e9b-3b3b-56a3-a1b7-de1f2f2dd20b
 slug: bambulab-pla-aero-gray
 brand:
   slug: bambulab
-name: 'PLA Aero Gray '
+name: PLA Aero Gray
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c3ccd5ff'
 tags:

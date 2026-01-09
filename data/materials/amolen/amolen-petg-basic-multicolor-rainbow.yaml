@@ -4,7 +4,7 @@ brand:
   slug: amolen
 name: PETG Basic Multicolor Rainbow
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 secondary_colors:
 - color_rgba: '#00cc00ff'

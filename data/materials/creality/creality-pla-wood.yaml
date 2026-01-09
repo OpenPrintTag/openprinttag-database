@@ -1,10 +1,11 @@
-uuid: 16942f48-c92d-5f0a-aa24-203a7fff3a00
+uuid: e6967365-4d37-57c1-9d8d-2483a7c103b8
 slug: creality-pla-wood
 brand:
   slug: creality
-name: 'PLA Wood '
+name: PLA Wood
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#caac78ff'
 tags:

@@ -1,13 +1,15 @@
-uuid: 64faa894-14c0-5195-b0d4-af8085a57f77
+uuid: 81b0af30-4ba7-5946-bdff-27ca578534b4
 slug: esun-high-speed-upgraded-petg-solid-green
 brand:
   slug: esun
-name: 'High Speed Upgraded PETG Solid Green '
+name: High Speed Upgraded PETG Solid Green
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#018e63ff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/d37552c8d36b.jpg
   type: unspecified

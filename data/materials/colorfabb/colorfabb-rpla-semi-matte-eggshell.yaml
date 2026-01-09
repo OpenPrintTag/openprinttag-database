@@ -4,7 +4,8 @@ brand:
   slug: colorfabb
 name: rPLA-Semi-matte-Eggshell
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#eadac2ff'
 tags:

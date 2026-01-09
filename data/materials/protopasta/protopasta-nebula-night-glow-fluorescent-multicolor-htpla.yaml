@@ -4,7 +4,8 @@ brand:
   slug: protopasta
 name: Nebula Night Glow Fluorescent Multicolor HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#a38496ff'
 - color_rgba: '#0353baff'

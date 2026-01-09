@@ -1,10 +1,10 @@
-uuid: 9c6ce974-98c4-5145-a3b0-8f07457c3cd7
+uuid: 94609d35-ad26-52c1-8ade-264e6777a2ed
 slug: colorfabb-ht-clear
 brand:
   slug: colorfabb
-name: 'HT Clear '
+name: HT Clear
 class: FFF
-type_id: 12
+type: CPE
 abbreviation: CPE
 primary_color:
   color_rgba: '#e4e7e5ff'

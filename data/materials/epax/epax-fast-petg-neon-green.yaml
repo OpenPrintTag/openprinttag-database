@@ -4,11 +4,12 @@ brand:
   slug: epax
 name: Fast PETG Neon Green
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=52129257783509
 primary_color:
   color_rgba: '#70fa00ff'
 tags:
 - neon
+- high_speed
 properties: {}

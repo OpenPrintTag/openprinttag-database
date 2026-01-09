@@ -4,13 +4,15 @@ brand:
   slug: prusament
 name: PETG Prusa Orange Transparent
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#f17231ff'
 transmission_distance: 44.2
 tags:
 - translucent
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/aad9b6a490d3.png
   type: unspecified

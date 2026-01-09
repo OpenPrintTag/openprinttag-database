@@ -1,10 +1,11 @@
-uuid: 60f67cc1-0664-5ed0-b33f-ae388bf53899
+uuid: 8380d925-6b33-51c1-a32d-ffa839271135
 slug: hatchbox-transparent-white-pla
 brand:
   slug: hatchbox
-name: 'Transparent White PLA '
+name: Transparent White PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

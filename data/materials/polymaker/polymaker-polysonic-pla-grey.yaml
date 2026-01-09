@@ -1,10 +1,11 @@
-uuid: aff8bb3b-dac5-5064-a92e-dad89ad77876
+uuid: 7d946f79-684d-55a5-a421-2365fe2ec475
 slug: polymaker-polysonic-pla-grey
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Grey '
+name: PolySonic™ PLA Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#959fa1ff'
 tags:

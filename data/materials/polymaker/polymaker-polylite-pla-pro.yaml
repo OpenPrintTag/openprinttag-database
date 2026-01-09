@@ -1,10 +1,11 @@
-uuid: 5985ac18-ea5e-5e55-8f2d-1c3d5a872b9c
+uuid: f2d171d7-df35-590b-810a-ca733bb78e7e
 slug: polymaker-polylite-pla-pro
 brand:
   slug: polymaker
-name: ' PolyLite™ PLA Pro'
+name: PolyLite™ PLA Pro
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

@@ -4,7 +4,8 @@ brand:
   slug: alzament
 name: PLA Silk Tri colour Gold-Silver-Copper
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-gold-silver-copper-d12869943.htm
 secondary_colors:
 - color_rgba: '#f3b400ff'
@@ -12,6 +13,6 @@ secondary_colors:
 - color_rgba: '#c06341ff'
 tags:
 - silk
-- gradual_color_change
 - industrially_compostable
+- coextruded
 properties: {}

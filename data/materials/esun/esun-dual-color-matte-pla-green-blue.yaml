@@ -4,7 +4,8 @@ brand:
   slug: esun
 name: Dual Color Matte PLA Green Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#008059ff'
 - color_rgba: '#005da4ff'

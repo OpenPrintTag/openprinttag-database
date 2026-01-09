@@ -1,10 +1,10 @@
-uuid: b5dac96f-1e45-556d-b5a6-393a02913c2e
+uuid: 66e72b74-e5a1-5b6b-bbd3-0545d799e10c
 slug: jayo-red-petg
 brand:
   slug: jayo
-name: 'Red PETG '
+name: Red PETG
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e60000ff'

@@ -4,13 +4,16 @@ brand:
   slug: prusament
 name: PLA Galaxy Silver
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#999aa0ff'
 transmission_distance: 6.4
 tags:
 - glitter
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/9cec34433529.png
   type: unspecified

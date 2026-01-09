@@ -1,10 +1,11 @@
-uuid: 909b21b0-0029-5688-9bb4-c4e162e7df43
+uuid: 751c5d6f-144f-5c88-a1be-b5b93f1d95a6
 slug: tecbears-pla-red
 brand:
   slug: tecbears
-name: 'PLA Red '
+name: PLA Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e72f1dff'
 tags:

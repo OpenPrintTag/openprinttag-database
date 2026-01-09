@@ -4,13 +4,14 @@ brand:
   slug: protopasta
 name: Summertime Green HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#62e480ff'
 tags:
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/3338ad8796a5.png
   type: unspecified

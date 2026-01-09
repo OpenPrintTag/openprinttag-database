@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Bicolor Silk Magic-Gold-RoseRed
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ffcb47ff'
 - color_rgba: '#c90d6eff'

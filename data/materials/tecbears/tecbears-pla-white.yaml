@@ -1,10 +1,11 @@
-uuid: af04d8f9-2796-5cf7-8424-700065cacd9e
+uuid: 671bfb51-0ee0-5ea9-9682-3d3f124b68fb
 slug: tecbears-pla-white
 brand:
   slug: tecbears
-name: 'PLA White '
+name: PLA White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

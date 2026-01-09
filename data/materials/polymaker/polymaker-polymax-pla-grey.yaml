@@ -1,10 +1,11 @@
-uuid: f7cfc9bf-0b50-51f0-bf1d-c2f47a05848d
+uuid: 1fa12754-9e51-55dc-b74d-d5d9285d9b33
 slug: polymaker-polymax-pla-grey
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Grey '
+name: PolyMax™ PLA Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#acb1baff'
 tags:

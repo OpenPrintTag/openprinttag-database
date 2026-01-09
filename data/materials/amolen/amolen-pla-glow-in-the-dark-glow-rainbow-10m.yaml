@@ -4,7 +4,8 @@ brand:
   slug: amolen
 name: PLA Glow-in-the-Dark Glow Rainbow 10m
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0095ffff'
 - color_rgba: '#ff67f5ff'

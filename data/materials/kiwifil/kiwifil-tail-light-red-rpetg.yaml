@@ -4,13 +4,13 @@ brand:
   slug: kiwifil
 name: '"Tail Light Red" rPETG'
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#d21b3cff'
 tags:
 - recycled
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/86a05cfac7fa.jpg
   type: unspecified

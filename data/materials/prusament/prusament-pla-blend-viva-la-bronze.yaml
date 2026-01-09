@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Viva La Bronze
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b38e3fff'
 transmission_distance: 1.9
@@ -12,6 +13,8 @@ tags:
 - blend
 - silk
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/89db62971208.png
   type: unspecified

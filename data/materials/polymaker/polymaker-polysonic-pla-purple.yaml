@@ -1,10 +1,11 @@
-uuid: c65300b5-5163-5619-b100-3b1f13808dfb
+uuid: a3c92b00-7432-52f4-a897-4a25f80d0dd8
 slug: polymaker-polysonic-pla-purple
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Purple '
+name: PolySonic™ PLA Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6c5bb1ff'
 tags:

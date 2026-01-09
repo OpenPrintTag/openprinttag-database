@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk PLA Gradient Metal Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#abacb0ff'
 - color_rgba: '#ffcb47ff'

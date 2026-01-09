@@ -4,11 +4,12 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Glitter Brillant Silver
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-glitter-brillant-silver
 primary_color:
   color_rgba: '#9f9f9fff'
 tags:
 - glitter
+- high_speed
 properties: {}

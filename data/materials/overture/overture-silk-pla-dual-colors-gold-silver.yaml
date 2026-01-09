@@ -4,7 +4,8 @@ brand:
   slug: overture
 name: Silk PLA Dual Colors Gold-Silver
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f6c500ff'
 - color_rgba: '#c9d0d4ff'

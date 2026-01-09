@@ -4,14 +4,15 @@ brand:
   slug: protopasta
 name: Gold Dust Translucent HTPLA with Gold Glitter
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
-  color_rgba: '#e3b145ff'
+  color_rgba: '#ddb95dff'
 tags:
 - glitter
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/411e3de65d32.png
   type: unspecified

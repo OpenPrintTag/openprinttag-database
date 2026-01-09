@@ -4,7 +4,8 @@ brand:
   slug: geeetech
 name: Silk PLA Tri Color Purple Gold Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#6c47b2ff'
 - color_rgba: '#f9e352ff'

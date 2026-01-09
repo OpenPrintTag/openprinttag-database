@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Gradient Matte PLA Pastel Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#bba0daff'
 - color_rgba: '#ce92ceff'

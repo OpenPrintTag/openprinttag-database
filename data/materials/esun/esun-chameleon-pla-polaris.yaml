@@ -4,7 +4,8 @@ brand:
   slug: esun
 name: Chameleon PLA Polaris
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#15817bff'
 - color_rgba: '#8846aeff'

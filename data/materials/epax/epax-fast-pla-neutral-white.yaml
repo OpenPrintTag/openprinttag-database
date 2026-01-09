@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Neutral White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50474632970453
 primary_color:
   color_rgba: '#f5f5f5ff'
+tags:
+- high_speed
 properties: {}

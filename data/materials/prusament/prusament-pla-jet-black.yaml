@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Jet Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#393c3cff'
 transmission_distance: 0.3
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/filaments/new/pasted-image-1740828297742.png
   type: unspecified

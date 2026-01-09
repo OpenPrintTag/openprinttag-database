@@ -1,10 +1,10 @@
-uuid: 30de1bc3-9e35-5782-a579-5d80b63d1211
+uuid: 5f79c9bd-e541-5471-b261-cc7556ae2866
 slug: flashforge-abs-red
 brand:
   slug: flashforge
-name: 'ABS Red '
+name: ABS Red
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#e20010ff'

@@ -4,11 +4,13 @@ brand:
   slug: spectrum
 name: PLA High Speed Grass Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 primary_color:
   color_rgba: '#26a648ff'
 tags:
 - industrially_compostable
+- high_speed
 properties:
   density: 1.24

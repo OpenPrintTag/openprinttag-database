@@ -1,10 +1,11 @@
-uuid: 5baa0a4b-2075-5288-ac29-a31a28442b31
+uuid: 9e3998b1-9e1e-5900-a431-3b7ec948592f
 slug: polymaker-polysonic-pla-polymaker-teal
 brand:
   slug: polymaker
-name: PolySonic™ PLA  Polymaker Teal
+name: PolySonic™ PLA Polymaker Teal
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#32cabdff'
 tags:

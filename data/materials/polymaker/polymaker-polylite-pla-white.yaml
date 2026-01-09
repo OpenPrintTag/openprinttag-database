@@ -1,10 +1,11 @@
-uuid: 1c5022af-18f8-5cbb-9440-4bd834ef5469
+uuid: e361efd6-891c-5952-8d05-eabc6d8971c0
 slug: polymaker-polylite-pla-white
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA White '
+name: PolyLite™ PLA White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e2dedbff'
 tags:

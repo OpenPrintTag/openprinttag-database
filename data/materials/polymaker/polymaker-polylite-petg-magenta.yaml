@@ -1,10 +1,10 @@
-uuid: 7bee3619-73bd-56d4-9909-90ef00ff3b68
+uuid: ae5b74d6-ec44-5f12-9b95-7b5db5daeb7a
 slug: polymaker-polylite-petg-magenta
 brand:
   slug: polymaker
-name: 'PolyLite™ PETG Magenta '
+name: PolyLite™ PETG Magenta
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#eb0075ff'

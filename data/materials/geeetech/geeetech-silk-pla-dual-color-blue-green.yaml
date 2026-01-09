@@ -1,10 +1,11 @@
-uuid: 7fd32b54-8bd1-564f-bbd4-361a26c06900
+uuid: 985a8de1-08ba-5a6e-a37f-92dad54cc205
 slug: geeetech-silk-pla-dual-color-blue-green
 brand:
   slug: geeetech
-name: 'Silk PLA Dual Color Blue Green '
+name: Silk PLA Dual Color Blue Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#2e56f1ff'
 - color_rgba: '#089a45ff'

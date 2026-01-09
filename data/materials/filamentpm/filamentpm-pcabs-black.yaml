@@ -1,10 +1,10 @@
-uuid: 2a6a3d71-b023-59e4-a35d-83e361c5c950
+uuid: 566ca6b9-ce04-5b7f-aed5-95ed4049e401
 slug: filamentpm-pcabs-black
 brand:
   slug: filamentpm
-name: ' PC/ABS - Black '
+name: PC/ABS - Black
 class: FFF
-type_id: 5
+type: PC
 abbreviation: PC
 primary_color:
   color_rgba: '#000000ff'

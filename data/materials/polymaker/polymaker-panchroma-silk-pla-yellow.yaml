@@ -1,10 +1,11 @@
-uuid: 96107b58-4deb-5f38-bc74-2c396eeab157
+uuid: db25d42d-5b3f-50ca-8e8c-6d665d117216
 slug: polymaker-panchroma-silk-pla-yellow
 brand:
   slug: polymaker
-name: 'Panchroma™ Silk PLA Yellow '
+name: Panchroma™ Silk PLA Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fffb00ff'
 tags:

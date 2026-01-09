@@ -1,10 +1,11 @@
-uuid: 217425c9-72fb-5947-810e-a4f3f493c3e7
+uuid: 1ae31c65-3d7f-573f-9ed2-759dece543ca
 slug: filamentpm-pla-metallic-green
 brand:
   slug: filamentpm
-name: ' PLA - Metallic Green '
+name: PLA - Metallic Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#144f3bff'
 tags:

@@ -1,10 +1,11 @@
-uuid: 3ea2345e-781a-5315-bc72-c6fdb7688975
+uuid: 5f7f1965-87c0-5089-ad18-4151b8f7ec8c
 slug: esun-matte-pla-deep-black
 brand:
   slug: esun
-name: 'Matte PLA Deep Black '
+name: Matte PLA Deep Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

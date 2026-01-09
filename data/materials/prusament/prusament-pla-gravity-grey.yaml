@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Gravity Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#9fa4a8ff'
 transmission_distance: 0.7
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/01b71bffa286.png
   type: unspecified

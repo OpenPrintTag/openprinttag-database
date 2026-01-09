@@ -4,7 +4,7 @@ brand:
   slug: prusament
 name: PETG Carmine Red
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#b54230ff'
@@ -12,6 +12,8 @@ transmission_distance: 6.2
 tags:
 - glitter
 - translucent
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/bf13d4377889.png
   type: unspecified

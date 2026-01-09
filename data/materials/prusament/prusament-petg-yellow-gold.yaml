@@ -4,13 +4,15 @@ brand:
   slug: prusament
 name: PETG Yellow Gold
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#9a8524ff'
 transmission_distance: 9.2
 tags:
 - glitter
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/ff293b245f25.png
   type: unspecified

@@ -1,10 +1,11 @@
-uuid: a351173e-3b16-5bbb-be9f-32d342a6e5fb
+uuid: 9c0f694d-2349-5582-ae4b-1bd30be7a447
 slug: geeetech-luminous-pla-multicolor
 brand:
   slug: geeetech
-name: 'Luminous PLA Multicolor '
+name: Luminous PLA Multicolor
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ce92ceff'
 - color_rgba: '#9dbd8bff'

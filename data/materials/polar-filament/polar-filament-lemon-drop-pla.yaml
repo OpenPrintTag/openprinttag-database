@@ -4,12 +4,13 @@ brand:
   slug: polar-filament
 name: Lemon Drop PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#eeea44ff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/4736e5082552.png
   type: unspecified

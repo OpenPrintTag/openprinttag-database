@@ -4,12 +4,13 @@ brand:
   slug: sunlu
 name: High Speed 95A TPU Clear
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
 - transparent
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/c2b67322b366.jpg
   type: unspecified

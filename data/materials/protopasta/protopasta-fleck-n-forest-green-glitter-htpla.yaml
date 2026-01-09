@@ -4,14 +4,15 @@ brand:
   slug: protopasta
 name: Fleck 'n Forest Green Glitter HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#1e5a4fff'
 tags:
 - glitter
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/c3bcb9bf9a7a.png
   type: unspecified

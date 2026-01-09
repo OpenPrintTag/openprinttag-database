@@ -1,10 +1,11 @@
-uuid: b97b1632-b718-5182-b7c3-ac9cd1f98ff4
+uuid: 7a2e12a0-6dde-51d4-8ef3-4e0239ee550d
 slug: esun-marble-pla
 brand:
   slug: esun
-name: 'Marble PLA '
+name: Marble PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c3ccd5ff'
 tags:

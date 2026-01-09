@@ -1,10 +1,11 @@
-uuid: 6d8832d5-ddd3-50e6-bf0e-d49130e5df8d
+uuid: 258c1bab-8951-5690-bd21-fbcd3a059461
 slug: polymaker-panchroma-translucent-pla-magenta
 brand:
   slug: polymaker
-name: 'Panchroma™ Translucent PLA Magenta '
+name: Panchroma™ Translucent PLA Magenta
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f2306eff'
 tags:

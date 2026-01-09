@@ -4,7 +4,8 @@ brand:
   slug: buddy3d
 name: PLA Glow in the dark
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.prusa3d.com/product/buddy3d-pla-glow-in-the-dark-1kg/
 secondary_colors:
 - color_rgba: '#dfdfd3ff'

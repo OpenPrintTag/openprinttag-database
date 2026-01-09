@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Pearl White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#d0d7d8ff'
 transmission_distance: 5.4
@@ -12,6 +13,8 @@ tags:
 - blend
 - silk
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/70f0b43a3186.png
   type: unspecified

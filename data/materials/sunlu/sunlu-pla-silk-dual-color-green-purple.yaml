@@ -4,7 +4,8 @@ brand:
   slug: sunlu
 name: PLA Silk Dual Color (Green Purple)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#adebb3ff'
 - color_rgba: '#6c47b2ff'
