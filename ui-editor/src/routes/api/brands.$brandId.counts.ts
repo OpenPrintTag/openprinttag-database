@@ -8,13 +8,15 @@ export const Route = createFileRoute('/api/brands/$brandId/counts')({
       GET: async ({ params }) => {
         const { brandId } = params;
 
-        const { readMaterialsByBrand, readNestedEntitiesByBrand } =
-          await import('~/server/data/fs');
+        const { countNestedEntitiesByBrand } = await import('~/server/data/fs');
 
         // Count materials
         let materialCount = 0;
         try {
-          const materials = await readMaterialsByBrand(brandId);
+          const materials = await countNestedEntitiesByBrand(
+            'materials',
+            brandId,
+          );
           if (Array.isArray(materials)) {
             materialCount = materials.length;
           }
@@ -29,7 +31,7 @@ export const Route = createFileRoute('/api/brands/$brandId/counts')({
         // Count packages
         let packageCount = 0;
         try {
-          const packages = await readNestedEntitiesByBrand(
+          const packages = await countNestedEntitiesByBrand(
             'material-packages',
             brandId,
           );

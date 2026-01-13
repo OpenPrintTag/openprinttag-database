@@ -6,8 +6,8 @@ import { Brand } from '~/components/brand-sheet/types';
 import { BrandCard } from '~/components/BrandCard';
 import { PageHeader } from '~/components/PageHeader';
 import { SearchBar } from '~/components/SearchBar';
-import { BrandCardGridSkeleton } from '~/components/skeletons';
 import { useEnum } from '~/hooks/useEnum';
+import { CardGridSkeleton } from '~/shared/components/card-skeleton';
 
 export const Route = createFileRoute('/brands/')({
   component: RouteComponent,
@@ -92,7 +92,7 @@ function RouteComponent() {
         </div>
       )}
       {/* Loading State */}
-      {loading && brands.length === 0 && <BrandCardGridSkeleton count={12} />}
+      {loading && brands.length === 0 && <CardGridSkeleton count={12} />}
       {/* Error State */}
       {!loading && error && brands.length === 0 && (
         <div className="rounded-2xl border-2 border-red-200 bg-red-50 p-8 text-center shadow-md">

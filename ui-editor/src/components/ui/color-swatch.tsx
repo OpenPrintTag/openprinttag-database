@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { hexToCssRgba, parseHexRgba } from '~/utils/color';
+import { hexToCssRgba } from '~/utils/color';
 
 export const ColorSwatch = ({
   rgbaHex,
@@ -12,12 +12,6 @@ export const ColorSwatch = ({
   title?: string;
 }) => {
   const bg = hexToCssRgba(rgbaHex) ?? '#ccc';
-  const p = parseHexRgba(rgbaHex);
-  let _contrast = '#000';
-  if (p) {
-    const luminance = p.r * 0.299 + p.g * 0.587 + p.b * 0.114;
-    _contrast = luminance > 186 ? '#000' : '#fff';
-  }
 
   return (
     <span

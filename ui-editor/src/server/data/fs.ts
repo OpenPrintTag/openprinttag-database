@@ -107,288 +107,166 @@ export interface ReadOptions {
   validate?: (obj: any) => boolean;
 }
 
+/**
+ * INTERNAL HELPERS
+ */
+
+async function getEntityFiles(
+  dir: string,
+  opts: ReadOptions = {},
+): Promise<any[]> {
+  try {
+    const fileNames = await fs.readdir(dir);
+    const yamlFiles = fileNames.filter(
+      (f) => /\.ya?ml$/i.test(f) && (!opts.fileFilter || opts.fileFilter(f)),
+    );
+
+    const results: any[] = [];
+    for (const file of yamlFiles) {
+      try {
+        const fullPath = path.join(dir, file);
+        const content = await fs.readFile(fullPath, 'utf8');
+        const parsed = await parseYaml(content);
+        if (opts.validate && !opts.validate(parsed)) continue;
+        results.push({ __file: file, ...parsed });
+      } catch (err) {
+        console.warn(`Failed to parse file ${file} in ${dir}:`, err);
+      }
+    }
+    return results;
+  } catch (_err) {
+    return [];
+  }
+}
+
+function matchesId(entity: any, id: string): boolean {
+  if (!entity || !id) return false;
+  const fileStem =
+    typeof entity.__file === 'string'
+      ? entity.__file.replace(/\.(ya?ml)$/i, '')
+      : undefined;
+  const nameSlug = slugifyName(entity.name);
+  return (
+    entity.slug === id ||
+    fileStem === id ||
+    nameSlug === id ||
+    String(entity.uuid) === id
+  );
+}
+
+async function findBrandDir(
+  brandId: string,
+  entityDirName: string,
+  createIfMissing = false,
+): Promise<string | null> {
+  const root = await findEntityDir(entityDirName, createIfMissing);
+  if (!root) return null;
+
+  // Try exact brandId folder first (it is common that brandId IS already the slug)
+  const p = path.join(root, brandId);
+  try {
+    const stat = await fs.stat(p);
+    if (stat.isDirectory()) return p;
+  } catch {}
+
+  // Try to find the brand slug if brandId is name or uuid
+  // Avoid reading all brands if we can just read the single brand by ID
+  const brand = await readSingleEntity('brands', brandId);
+
+  if (brand && !('error' in brand)) {
+    const slug = brand.slug || slugifyName(brand.name);
+    if (slug) {
+      const slugPath = path.join(root, slug);
+      try {
+        const stat = await fs.stat(slugPath);
+        if (stat.isDirectory()) return slugPath;
+      } catch {}
+      if (createIfMissing) {
+        await fs.mkdir(slugPath, { recursive: true });
+        return slugPath;
+      }
+    }
+  }
+
+  if (createIfMissing) {
+    await fs.mkdir(p, { recursive: true });
+    return p;
+  }
+  return null;
+}
+
 export async function readAllEntities(
   entity: string,
   opts: ReadOptions = {},
 ): Promise<any[] | { error: string; status?: number }> {
   const dir = await findEntityDir(entity);
   if (!dir) return { error: `${entity} directory not found`, status: 500 };
+  return await getEntityFiles(dir, opts);
+}
 
-  let fileNames: string[] = [];
+export async function countEntities(entity: string): Promise<number> {
+  const dir = await findEntityDir(entity);
+  if (!dir) return 0;
   try {
-    fileNames = await fs.readdir(dir);
-  } catch (err) {
-    console.error(`Failed to read ${entity} directory:`, err);
-    return { error: `Failed to read ${entity} directory`, status: 500 };
+    const files = await fs.readdir(dir);
+    return files.filter((f) => /\.ya?ml$/i.test(f)).length;
+  } catch {
+    return 0;
   }
-
-  const yamlFiles = fileNames
-    .filter((f) => /\.ya?ml$/i.test(f))
-    .filter((f) => (opts.fileFilter ? opts.fileFilter(f) : true));
-
-  const results: any[] = [];
-  for (const file of yamlFiles) {
-    const fullPath = path.join(dir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const parsed = await parseYaml(content);
-      if (opts.validate && !opts.validate(parsed)) {
-        continue;
-      }
-      // Attach meta info that can be useful for lookups
-      results.push({ __file: file, ...parsed });
-    } catch (err) {
-      console.warn(`Failed to parse ${entity} file:`, file, err);
-    }
-  }
-
-  return results;
 }
 
 export async function readSingleEntity(
   entity: string,
   id: string,
 ): Promise<any | { error: string; status?: number }> {
-  const all = await readAllEntities(entity);
-  if (!Array.isArray(all)) return all;
-  // id can be uuid, slug or file stem
-  const match = all.find((e) => {
-    const fileStem =
-      typeof e.__file === 'string'
-        ? e.__file.replace(/\.(ya?ml)$/i, '')
-        : undefined;
-    const nameSlug = slugifyName(e.name);
-    return e.uuid === id || e.slug === id || fileStem === id || nameSlug === id;
-  });
+  const dir = await findEntityDir(entity);
+  if (!dir) return { error: `${entity} directory not found`, status: 500 };
+
+  // Try direct file access first
+  const file = await findEntityFile(dir, id);
+  if (file) {
+    try {
+      const content = await fs.readFile(file.path, 'utf8');
+      const parsed = await parseYaml(content);
+      // If parsed successfully, we return it.
+      // We don't need matchesId here because we found the file by its slug.
+      return parsed;
+    } catch {
+      // ignore and fall back
+    }
+  }
+
+  // Fallback to reading all and matching (for cases where id might be name or uuid)
+  const all = await getEntityFiles(dir);
+  const match = all.find((e) => matchesId(e, id));
   if (!match) return { error: `${entity.slice(0, -1)} not found`, status: 404 };
   const { __file, ...rest } = match;
   return rest;
 }
 
 // --- Materials nested by brand helpers ---
-// The materials are organized under data/materials/{brandId}/*.yml
-// brandId is typically the brand slug, but we'll accept any provided id and look for a matching subfolder name.
-
-export async function findMaterialsBrandDir(
-  brandId: string,
-): Promise<string | null> {
-  const materialsRoot = await findEntityDir('materials');
-  if (!materialsRoot) return null;
-  // Candidate brand folder names to try: exact brandId
-  const candidates: string[] = [brandId];
-  // Also try the kebab-case of the brand name if we can resolve the brand by id
-  try {
-    const brands = await readAllEntities('brands');
-    if (Array.isArray(brands)) {
-      const match = brands.find((b) => {
-        const fileStem =
-          typeof b.__file === 'string'
-            ? b.__file.replace(/\.(ya?ml)$/i, '')
-            : undefined;
-        const nameSlug = slugifyName(b.name);
-        return (
-          b.uuid === brandId ||
-          b.slug === brandId ||
-          fileStem === brandId ||
-          nameSlug === brandId
-        );
-      });
-      if (match) {
-        const nameSlug = slugifyName(match.name);
-        if (nameSlug && !candidates.includes(nameSlug))
-          candidates.push(nameSlug);
-        // Also consider slug if defined
-        if (match.slug && !candidates.includes(match.slug))
-          candidates.push(match.slug);
-      }
-    }
-  } catch {
-    // ignore lookup failures
-  }
-  for (const cand of candidates) {
-    const p = path.join(materialsRoot, cand);
-    try {
-      const stat = await fs.stat(p);
-      if (stat.isDirectory()) return p;
-    } catch {
-      // continue
-    }
-  }
-  return null;
-}
 
 export async function readMaterialsByBrand(
   brandId: string,
   opts: ReadOptions = {},
 ): Promise<any[] | { error: string; status?: number }> {
-  const dir = await findMaterialsBrandDir(brandId);
-  if (!dir)
-    return { error: `materials for brand '${brandId}' not found`, status: 404 };
-
-  let fileNames: string[] = [];
-  try {
-    fileNames = await fs.readdir(dir);
-  } catch (err) {
-    console.error(`Failed to read materials dir for brand ${brandId}:`, err);
-    return { error: `Failed to read materials for brand`, status: 500 };
-  }
-
-  const yamlFiles = fileNames
-    .filter((f) => /\.(ya?ml)$/i.test(f))
-    .filter((f) => (opts.fileFilter ? opts.fileFilter(f) : true));
-
-  const results: any[] = [];
-  for (const file of yamlFiles) {
-    const fullPath = path.join(dir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const parsed = await parseYaml(content);
-      if (opts.validate && !opts.validate(parsed)) continue;
-      results.push({ __file: file, __brand: brandId, ...parsed });
-    } catch (err) {
-      console.warn(
-        `Failed to parse material file for brand ${brandId}:`,
-        file,
-        err,
-      );
-    }
-  }
-  return results;
+  return readNestedEntitiesByBrand('materials', brandId, opts);
 }
 
 export async function readAllMaterialsAcrossBrands(
   opts: ReadOptions = {},
 ): Promise<any[] | { error: string; status?: number }> {
-  const materialsRoot = await findEntityDir('materials');
-  if (!materialsRoot)
-    return { error: `materials directory not found`, status: 500 };
-
-  let brandDirs: string[] = [];
-  try {
-    const entries = await fs.readdir(materialsRoot);
-    brandDirs = entries;
-  } catch (err) {
-    console.error('Failed to read materials root directory:', err);
-    return { error: 'Failed to read materials directory', status: 500 };
-  }
-
-  const all: any[] = [];
-  for (const brandFolder of brandDirs) {
-    const brandPath = path.join(materialsRoot, brandFolder);
-    try {
-      const st = await fs.stat(brandPath);
-      if (!st.isDirectory()) continue;
-    } catch {
-      continue;
-    }
-    const items = await readMaterialsByBrand(brandFolder, opts);
-    if (Array.isArray(items)) {
-      all.push(...items);
-    }
-  }
-  return all;
+  return readAllNestedAcrossBrands('materials', opts);
 }
 
-// --- Generic helpers for brand-nested entities (e.g., material-packages) ---
-// These mirror the materials helpers but work for any entity directory whose
-// structure is: data/{entityDir}/{brandId}/*.yml
-
-async function findNestedParentDir(
-  entityDirName: string,
-): Promise<string | null> {
-  return await findEntityDir(entityDirName);
-}
+// --- Generic helpers for brand-nested entities ---
 
 export async function findBrandDirForNestedEntity(
   entityDirName: string,
   brandId: string,
   createIfMissing = false,
 ): Promise<string | null> {
-  const root = await findNestedParentDir(entityDirName);
-  if (!root) {
-    // If root doesn't exist and we should create, create it first
-    if (createIfMissing) {
-      const dataDir = await findDataDir();
-      if (dataDir) {
-        const newRoot = path.join(dataDir, entityDirName);
-        await fs.mkdir(newRoot, { recursive: true });
-        // Now find the brand and create its directory
-        const brands = await readAllEntities('brands');
-        if (Array.isArray(brands)) {
-          const match = brands.find((b) => {
-            const fileStem =
-              typeof b.__file === 'string'
-                ? b.__file.replace(/\.(ya?ml)$/i, '')
-                : undefined;
-            const nameSlug = slugifyName(b.name);
-            return (
-              b.uuid === brandId ||
-              b.slug === brandId ||
-              fileStem === brandId ||
-              nameSlug === brandId
-            );
-          });
-          if (match) {
-            const dirName = match.slug || slugifyName(match.name) || brandId;
-            const brandDir = path.join(newRoot, dirName);
-            await fs.mkdir(brandDir, { recursive: true });
-            return brandDir;
-          }
-        }
-        // Fallback: use brandId as directory name
-        const brandDir = path.join(newRoot, brandId);
-        await fs.mkdir(brandDir, { recursive: true });
-        return brandDir;
-      }
-    }
-    return null;
-  }
-  const candidates: string[] = [brandId];
-  let matchedBrand: any = null;
-  try {
-    const brands = await readAllEntities('brands');
-    if (Array.isArray(brands)) {
-      const match = brands.find((b) => {
-        const fileStem =
-          typeof b.__file === 'string'
-            ? b.__file.replace(/\.(ya?ml)$/i, '')
-            : undefined;
-        const nameSlug = slugifyName(b.name);
-        return (
-          b.uuid === brandId ||
-          b.slug === brandId ||
-          fileStem === brandId ||
-          nameSlug === brandId
-        );
-      });
-      if (match) {
-        matchedBrand = match;
-        const nameSlug = slugifyName(match.name);
-        if (nameSlug && !candidates.includes(nameSlug))
-          candidates.push(nameSlug);
-        if (match.slug && !candidates.includes(match.slug))
-          candidates.push(match.slug);
-      }
-    }
-  } catch {
-    // ignore
-  }
-  for (const cand of candidates) {
-    const p = path.join(root, cand);
-    try {
-      const stat = await fs.stat(p);
-      if (stat.isDirectory()) return p;
-    } catch {}
-  }
-  // Directory not found - create it if requested
-  if (createIfMissing) {
-    const dirName =
-      matchedBrand?.slug || slugifyName(matchedBrand?.name) || brandId;
-    const brandDir = path.join(root, dirName);
-    await fs.mkdir(brandDir, { recursive: true });
-    return brandDir;
-  }
-  return null;
+  return findBrandDir(brandId, entityDirName, createIfMissing);
 }
 
 export async function readNestedEntitiesByBrand(
@@ -402,93 +280,47 @@ export async function readNestedEntitiesByBrand(
       error: `${entityDirName} for brand '${brandId}' not found`,
       status: 404,
     };
-
-  let fileNames: string[] = [];
-  try {
-    fileNames = await fs.readdir(dir);
-  } catch (err) {
-    console.error(
-      `Failed to read ${entityDirName} dir for brand ${brandId}:`,
-      err,
-    );
-    return { error: `Failed to read ${entityDirName} for brand`, status: 500 };
-  }
-
-  const yamlFiles = fileNames
-    .filter((f) => /\.(ya?ml)$/i.test(f))
-    .filter((f) => (opts.fileFilter ? opts.fileFilter(f) : true));
-
-  const results: any[] = [];
-  for (const file of yamlFiles) {
-    const fullPath = path.join(dir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const parsed = await parseYaml(content);
-      if (opts.validate && !opts.validate(parsed)) continue;
-      results.push({ __file: file, __brand: brandId, ...parsed });
-    } catch (err) {
-      console.warn(
-        `Failed to parse ${entityDirName} file for brand ${brandId}:`,
-        file,
-        err,
-      );
-    }
-  }
-  return results;
+  const files = await getEntityFiles(dir, opts);
+  return files.map((f) => ({ ...f, __brand: brandId }));
 }
 
 export async function readAllNestedAcrossBrands(
   entityDirName: string,
   opts: ReadOptions = {},
 ): Promise<any[] | { error: string; status?: number }> {
-  const root = await findNestedParentDir(entityDirName);
+  const root = await findEntityDir(entityDirName);
   if (!root)
     return { error: `${entityDirName} directory not found`, status: 500 };
 
-  let brandDirs: string[] = [];
   try {
-    brandDirs = (await fs.readdir(root)).filter(async (name) => {
-      try {
-        const stat = await fs.stat(path.join(root, name));
-        return stat.isDirectory();
-      } catch {
-        return false as any;
+    const entries = await fs.readdir(root);
+    const results: any[] = [];
+    for (const entry of entries) {
+      const dir = path.join(root, entry);
+      const stat = await fs.stat(dir).catch(() => null);
+      if (stat?.isDirectory()) {
+        const items = await getEntityFiles(dir, opts);
+        results.push(...items.map((f) => ({ ...f, __brand: entry })));
       }
-    }) as any;
-  } catch (err) {
-    console.error(`Failed to read ${entityDirName} root:`, err);
+    }
+    return results;
+  } catch (_err) {
     return { error: `Failed to read ${entityDirName}`, status: 500 };
   }
+}
 
-  const results: any[] = [];
-  for (const brandId of brandDirs) {
-    const dir = path.join(root, brandId);
-    let fileNames: string[] = [];
-    try {
-      fileNames = await fs.readdir(dir);
-    } catch {
-      continue;
-    }
-    const yamlFiles = fileNames
-      .filter((f) => /\.(ya?ml)$/i.test(f))
-      .filter((f) => (opts.fileFilter ? opts.fileFilter(f) : true));
-    for (const file of yamlFiles) {
-      const fullPath = path.join(dir, file);
-      try {
-        const content = await fs.readFile(fullPath, 'utf8');
-        const parsed = await parseYaml(content);
-        if (opts.validate && !opts.validate(parsed)) continue;
-        results.push({ __file: file, __brand: brandId, ...parsed });
-      } catch (err) {
-        console.warn(
-          `Failed to parse ${entityDirName} file for brand ${brandId}:`,
-          file,
-          err,
-        );
-      }
-    }
+export async function countNestedEntitiesByBrand(
+  entityDirName: string,
+  brandId: string,
+): Promise<number> {
+  const dir = await findBrandDirForNestedEntity(entityDirName, brandId);
+  if (!dir) return 0;
+  try {
+    const files = await fs.readdir(dir);
+    return files.filter((f) => /\.ya?ml$/i.test(f)).length;
+  } catch {
+    return 0;
   }
-  return results;
 }
 
 export async function readSingleNestedByBrand(
@@ -496,100 +328,106 @@ export async function readSingleNestedByBrand(
   brandId: string,
   id: string,
 ): Promise<any | { error: string; status?: number }> {
-  const all = await readNestedEntitiesByBrand(entityDirName, brandId);
-  if (!Array.isArray(all)) return all;
-  const match = all.find((e) => {
-    const fileStem =
-      typeof e.__file === 'string'
-        ? e.__file.replace(/\.(ya?ml)$/i, '')
-        : undefined;
-    const nameSlug = slugifyName(e.name);
-    return e.uuid === id || e.slug === id || fileStem === id || nameSlug === id;
-  });
+  const dir = await findBrandDirForNestedEntity(entityDirName, brandId);
+  if (!dir)
+    return {
+      error: `${entityDirName} for brand '${brandId}' not found`,
+      status: 404,
+    };
+
+  // Try direct file access first
+  const file = await findEntityFile(dir, id);
+  if (file) {
+    try {
+      const content = await fs.readFile(file.path, 'utf8');
+      const parsed = await parseYaml(content);
+      return { ...parsed, __brand: brandId };
+    } catch {
+      // ignore and fall back
+    }
+  }
+
+  // Fallback to reading all and matching (for cases where id might be name or uuid)
+  const all = await getEntityFiles(dir);
+  const match = all.find((e) => matchesId(e, id));
   if (!match) return { error: `entity not found`, status: 404 };
-  const { __file, __brand, ...rest } = match;
-  return rest;
+  const { __file, ...rest } = match;
+  return { ...rest, __brand: brandId };
 }
 
-// --- Write helpers for generic entities ---
+// --- Write/Update helpers ---
+
+async function findEntityFile(
+  dir: string,
+  id: string,
+): Promise<{ path: string; ext: string } | null> {
+  for (const ext of ['.yaml', '.yml']) {
+    const fullPath = path.join(dir, `${id}${ext}`);
+    try {
+      await fs.access(fullPath);
+      return { path: fullPath, ext };
+    } catch {
+      // ignore and try next
+    }
+  }
+  return null;
+}
+
+async function updateEntityFile(
+  dir: string,
+  id: string,
+  newValue: any | null,
+): Promise<{ ok: true } | { error: string; status?: number }> {
+  // Try direct file access first
+  const file = await findEntityFile(dir, id);
+  if (file) {
+    try {
+      if (newValue === null) {
+        await fs.unlink(file.path);
+      } else {
+        const yamlStr = await stringifyYaml(newValue);
+        await fs.writeFile(file.path, yamlStr, 'utf8');
+      }
+      return { ok: true };
+    } catch {
+      // ignore and fall back
+    }
+  }
+
+  const files = await getEntityFiles(dir);
+  const match = files.find((f) => matchesId(f, id));
+  if (!match) return { error: `item not found`, status: 404 };
+
+  const fullPath = path.join(dir, match.__file);
+  try {
+    if (newValue === null) {
+      await fs.unlink(fullPath);
+    } else {
+      const yamlStr = await stringifyYaml(newValue);
+      await fs.writeFile(fullPath, yamlStr, 'utf8');
+    }
+    return { ok: true };
+  } catch (_err) {
+    return { error: `Failed to update file`, status: 500 };
+  }
+}
+
 export async function writeSingleEntity(
   entityDirName: string,
   id: string,
   newValue: any,
-): Promise<{ ok: true } | { error: string; status?: number }> {
+) {
   const dir = await findEntityDir(entityDirName);
   if (!dir)
     return { error: `${entityDirName} directory not found`, status: 500 };
-  let fileNames: string[] = [];
-  try {
-    fileNames = await fs.readdir(dir);
-  } catch (_err) {
-    return { error: `Failed to read ${entityDirName} directory`, status: 500 };
-  }
-  const yamlFiles = fileNames.filter((f) => /\.(ya?ml)$/i.test(f));
-  const idStr = String(id);
-  for (const file of yamlFiles) {
-    const fullPath = path.join(dir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const obj = await parseYaml(content);
-      const fileStem = file.replace(/\.(ya?ml)$/i, '');
-      const nameSlug = slugifyName(obj?.name);
-      const match =
-        obj &&
-        (String(obj.uuid) === idStr ||
-          obj.slug === idStr ||
-          fileStem === idStr ||
-          nameSlug === idStr);
-      if (match) {
-        const yamlStr = await stringifyYaml(newValue);
-        await fs.writeFile(fullPath, yamlStr, 'utf8');
-        return { ok: true };
-      }
-    } catch (_err) {
-      // continue scanning other files
-    }
-  }
-  return { error: `${entityDirName} item not found`, status: 404 };
+  return updateEntityFile(dir, id, newValue);
 }
 
-export async function deleteSingleEntity(
-  entityDirName: string,
-  id: string,
-): Promise<{ ok: true } | { error: string; status?: number }> {
+export async function deleteSingleEntity(entityDirName: string, id: string) {
   const dir = await findEntityDir(entityDirName);
   if (!dir)
     return { error: `${entityDirName} directory not found`, status: 500 };
-  let fileNames: string[] = [];
-  try {
-    fileNames = await fs.readdir(dir);
-  } catch (_err) {
-    return { error: `Failed to read ${entityDirName} directory`, status: 500 };
-  }
-  const yamlFiles = fileNames.filter((f) => /\.(ya?ml)$/i.test(f));
-  const idStr = String(id);
-  for (const file of yamlFiles) {
-    const fullPath = path.join(dir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const obj = await parseYaml(content);
-      const fileStem = file.replace(/\.(ya?ml)$/i, '');
-      const nameSlug = slugifyName(obj?.name);
-      const match =
-        obj &&
-        (String(obj.uuid) === idStr ||
-          obj.slug === idStr ||
-          fileStem === idStr ||
-          nameSlug === idStr);
-      if (match) {
-        await fs.unlink(fullPath);
-        return { ok: true };
-      }
-    } catch (_err) {
-      // continue scanning other files
-    }
-  }
-  return { error: `${entityDirName} item not found`, status: 404 };
+  return updateEntityFile(dir, id, null);
 }
 
 export async function writeNestedByBrand(
@@ -597,87 +435,22 @@ export async function writeNestedByBrand(
   brandId: string,
   id: string,
   newValue: any,
-): Promise<{ ok: true } | { error: string; status?: number }> {
-  const brandDir = await findBrandDirForNestedEntity(entityDirName, brandId);
-  if (!brandDir)
+) {
+  const dir = await findBrandDirForNestedEntity(entityDirName, brandId);
+  if (!dir)
     return { error: `${entityDirName} brand directory not found`, status: 500 };
-  let fileNames: string[] = [];
-  try {
-    fileNames = await fs.readdir(brandDir);
-  } catch (_err) {
-    return {
-      error: `Failed to read ${entityDirName} brand directory`,
-      status: 500,
-    };
-  }
-  const yamlFiles = fileNames.filter((f) => /\.(ya?ml)$/i.test(f));
-  const idStr = String(id);
-  for (const file of yamlFiles) {
-    const fullPath = path.join(brandDir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const obj = await parseYaml(content);
-      const fileStem = file.replace(/\.(ya?ml)$/i, '');
-      const nameSlug = slugifyName(obj?.name);
-      const match =
-        obj &&
-        (String(obj.uuid) === idStr ||
-          obj.slug === idStr ||
-          fileStem === idStr ||
-          nameSlug === idStr);
-      if (match) {
-        const yamlStr = await stringifyYaml(newValue);
-        await fs.writeFile(fullPath, yamlStr, 'utf8');
-        return { ok: true };
-      }
-    } catch (_err) {
-      // continue
-    }
-  }
-  return { error: `${entityDirName} item not found for brand`, status: 404 };
+  return updateEntityFile(dir, id, newValue);
 }
 
 export async function deleteNestedByBrand(
   entityDirName: string,
   brandId: string,
   id: string,
-): Promise<{ ok: true } | { error: string; status?: number }> {
-  const brandDir = await findBrandDirForNestedEntity(entityDirName, brandId);
-  if (!brandDir)
+) {
+  const dir = await findBrandDirForNestedEntity(entityDirName, brandId);
+  if (!dir)
     return { error: `${entityDirName} brand directory not found`, status: 500 };
-  let fileNames: string[] = [];
-  try {
-    fileNames = await fs.readdir(brandDir);
-  } catch (_err) {
-    return {
-      error: `Failed to read ${entityDirName} brand directory`,
-      status: 500,
-    };
-  }
-  const yamlFiles = fileNames.filter((f) => /\.(ya?ml)$/i.test(f));
-  const idStr = String(id);
-  for (const file of yamlFiles) {
-    const fullPath = path.join(brandDir, file);
-    try {
-      const content = await fs.readFile(fullPath, 'utf8');
-      const obj = await parseYaml(content);
-      const fileStem = file.replace(/\.(ya?ml)$/i, '');
-      const nameSlug = slugifyName(obj?.name);
-      const match =
-        obj &&
-        (String(obj.uuid) === idStr ||
-          obj.slug === idStr ||
-          fileStem === idStr ||
-          nameSlug === idStr);
-      if (match) {
-        await fs.unlink(fullPath);
-        return { ok: true };
-      }
-    } catch (_err) {
-      // continue
-    }
-  }
-  return { error: `${entityDirName} item not found for brand`, status: 404 };
+  return updateEntityFile(dir, id, null);
 }
 
 const NEW_ENUMS = [
@@ -699,9 +472,8 @@ export async function stringifyYaml(obj: any): Promise<string> {
         indentSeq: false,
       });
     }
-  } catch (e) {
+  } catch (_e) {
     // ignore
-    console.error(e);
   }
   // Very naive fallback to JSON with a header comment indicating YAML fallback
   const header =
