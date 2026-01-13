@@ -4,7 +4,7 @@ brand:
   slug: epax
 name: Fast PETG Nebula Purple
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=50958916681941
 secondary_colors:
@@ -12,4 +12,5 @@ secondary_colors:
 - color_rgba: '#a000caff'
 tags:
 - iridescent
+- high_speed
 properties: {}

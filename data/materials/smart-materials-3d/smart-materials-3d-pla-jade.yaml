@@ -4,7 +4,8 @@ brand:
   slug: smart-materials-3d
 name: PLA Jade
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#214327ff'
 tags:

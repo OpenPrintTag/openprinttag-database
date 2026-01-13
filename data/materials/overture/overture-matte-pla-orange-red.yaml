@@ -4,7 +4,8 @@ brand:
   slug: overture
 name: Matte PLA Orange-Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#e72f1dff'
 - color_rgba: '#ff8e24ff'

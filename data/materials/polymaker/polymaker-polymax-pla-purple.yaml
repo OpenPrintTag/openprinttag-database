@@ -1,10 +1,11 @@
-uuid: 531bffa5-859e-5df7-a859-1de47124c76a
+uuid: 92d958f4-6392-5f03-b516-416b1184a582
 slug: polymaker-polymax-pla-purple
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Purple '
+name: PolyMax™ PLA Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6c47b2ff'
 tags:

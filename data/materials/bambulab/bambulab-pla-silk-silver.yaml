@@ -1,10 +1,11 @@
-uuid: 93eda9ce-b2e1-5aac-a067-deb20db03868
+uuid: b42dd9e8-999b-5eb2-8912-75c76f7a7d28
 slug: bambulab-pla-silk-silver
 brand:
   slug: bambulab
-name: 'PLA Silk+ Silver '
+name: PLA Silk+ Silver
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#abacb0ff'
 tags:

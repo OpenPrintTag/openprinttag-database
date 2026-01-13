@@ -1,10 +1,11 @@
-uuid: 011dc588-ff8e-55d7-8ba6-091a832002a6
+uuid: 372358b8-fe9d-57d6-a6f8-719b92243da3
 slug: polymaker-polylite-lw-pla-wood
 brand:
   slug: polymaker
-name: 'PolyLite™ LW-PLA Wood '
+name: PolyLite™ LW-PLA Wood
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#d2a273ff'
 tags:

@@ -1,10 +1,11 @@
-uuid: d191f79c-f8d4-5ec5-9063-2cf4ea52e8e9
+uuid: 9a44fff9-3dbf-5edd-b56e-bed8edc08999
 slug: flashforge-silk-pla-red-blue-and-green-3-in-1
 brand:
   slug: flashforge
-name: 'Silk PLA Red, Blue and Green 3 in 1 '
+name: Silk PLA Red, Blue and Green 3 in 1
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#67c993ff'
 - color_rgba: '#d33d3dff'

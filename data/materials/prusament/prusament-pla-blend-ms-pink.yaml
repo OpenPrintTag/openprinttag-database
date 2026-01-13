@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: PLA Blend Ms. Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e34a94ff'
 transmission_distance: 4.1
@@ -12,6 +13,8 @@ tags:
 - blend
 - silk
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/3e1ef00ea7dc.png
   type: unspecified

@@ -1,10 +1,11 @@
-uuid: 8cec3613-2302-55bd-9896-9ef680238809
+uuid: 0b98e149-2ce2-5e77-96e2-31e22509c1d4
 slug: ovv3d-silk-pla-two-color-green-purple
 brand:
   slug: ovv3d
-name: 'Silk PLA Two-color Green+ Purple '
+name: Silk PLA Two-color Green+ Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#b645a9ff'
 - color_rgba: '#62e480ff'

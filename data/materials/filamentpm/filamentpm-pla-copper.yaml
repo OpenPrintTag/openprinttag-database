@@ -1,10 +1,11 @@
-uuid: de61b466-9902-572b-a7de-4623733aab3f
+uuid: 764ac26c-dc02-5672-9e17-d581ac8daf8c
 slug: filamentpm-pla-copper
 brand:
   slug: filamentpm
-name: ' PLA - Copper '
+name: PLA - Copper
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f67405ff'
 tags:

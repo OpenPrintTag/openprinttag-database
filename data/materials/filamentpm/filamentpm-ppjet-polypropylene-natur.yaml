@@ -1,10 +1,10 @@
-uuid: c0bedf70-6186-57b2-a773-f94f67ff2fd7
+uuid: 4b8fed01-dace-5575-bcd4-f3a1cde2584e
 slug: filamentpm-ppjet-polypropylene-natur
 brand:
   slug: filamentpm
-name: ' PPJet (polypropylene) - Natur '
+name: PPJet (polypropylene) - Natur
 class: FFF
-type_id: 7
+type: PP
 abbreviation: PP
 primary_color:
   color_rgba: '#d9d8deff'

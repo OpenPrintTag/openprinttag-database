@@ -4,10 +4,12 @@ brand:
   slug: epax
 name: Fast PLA+ Marble
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=49753924370645
 primary_color:
   color_rgba: '#ecefedff'
 tags:
 - imitates_marble
+- high_speed
 properties: {}

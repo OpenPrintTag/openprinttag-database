@@ -4,13 +4,16 @@ brand:
   slug: prusament
 name: PLA Opal Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#065b4aff'
 transmission_distance: 4.0
 tags:
 - glitter
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/4190d36fdbd3.png
   type: unspecified

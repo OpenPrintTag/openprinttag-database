@@ -4,7 +4,8 @@ brand:
   slug: zyltech
 name: Amber Oxide Tri-Color Silk PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#3b3e3fff'
 - color_rgba: '#7e472aff'

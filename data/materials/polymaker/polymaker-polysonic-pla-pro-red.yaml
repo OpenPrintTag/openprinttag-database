@@ -1,10 +1,11 @@
-uuid: d94be52d-cd2a-5b45-a068-20650768e50d
+uuid: 5d4017fa-b257-59d8-a598-8d2a839010d7
 slug: polymaker-polysonic-pla-pro-red
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Pro Red '
+name: PolySonic™ PLA Pro Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e20010ff'
 tags:

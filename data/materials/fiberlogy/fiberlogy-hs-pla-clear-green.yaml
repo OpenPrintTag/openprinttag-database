@@ -4,12 +4,14 @@ brand:
   slug: fiberlogy
 name: HS PLA Clear Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#06b100ff'
 tags:
-- transparent
 - industrially_compostable
+- high_speed
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/b110ebc3422e.png
   type: unspecified

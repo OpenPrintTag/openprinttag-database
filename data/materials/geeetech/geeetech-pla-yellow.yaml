@@ -1,10 +1,11 @@
-uuid: 8113fb4e-11d4-59f2-8b09-7b4eb1d7af8b
+uuid: 5f1d205c-b774-5053-8205-ce8913b32447
 slug: geeetech-pla-yellow
 brand:
   slug: geeetech
-name: 'PLA Yellow '
+name: PLA Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fbe200ff'
 tags:

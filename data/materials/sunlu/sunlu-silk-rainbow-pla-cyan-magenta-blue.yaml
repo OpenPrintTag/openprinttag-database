@@ -1,10 +1,11 @@
-uuid: e5c5e64a-a36d-5f49-bf8c-bfebe371e737
+uuid: 1b0865d9-9d6d-5dc6-97e9-d3bb622f3728
 slug: sunlu-silk-rainbow-pla-cyan-magenta-blue
 brand:
   slug: sunlu
-name: 'Silk Rainbow PLA (Cyan-Magenta-Blue) '
+name: Silk Rainbow PLA (Cyan-Magenta-Blue)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#08abfbff'
 - color_rgba: '#00cc00ff'

@@ -4,11 +4,13 @@ brand:
   slug: voxel-pla
 name: PLA+ HS (Pro) Witch Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#58c91bff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/a89b26a630d5.png
   type: unspecified

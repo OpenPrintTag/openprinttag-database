@@ -4,13 +4,16 @@ brand:
   slug: prusament
 name: PLA Galaxy Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#42663aff'
 transmission_distance: 3.2
 tags:
 - glitter
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/e834f7f9f365.png
   type: unspecified

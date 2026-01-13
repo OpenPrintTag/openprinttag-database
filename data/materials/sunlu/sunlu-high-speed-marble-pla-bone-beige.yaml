@@ -4,12 +4,14 @@ brand:
   slug: sunlu
 name: High Speed Marble PLA Bone Beige
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#efefefff'
 tags:
 - imitates_marble
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/383e9ac40d0e.jpg
   type: unspecified

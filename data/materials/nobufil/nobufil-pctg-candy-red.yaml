@@ -4,12 +4,12 @@ brand:
   slug: nobufil
 name: PCTG Candy Red
 class: FFF
-type_id: 6
+type: PCTG
 abbreviation: PCTG
 primary_color:
   color_rgba: '#b7293eff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/95372fa9ee87.png
   type: unspecified

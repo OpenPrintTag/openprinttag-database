@@ -1,10 +1,11 @@
-uuid: cd0f69cd-b026-5635-9954-df864c6bc649
+uuid: c5f5ad7e-9f7c-59f4-9001-0ee84116b988
 slug: bambulab-pla-basic-black
 brand:
   slug: bambulab
-name: 'PLA Basic Black '
+name: PLA Basic Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

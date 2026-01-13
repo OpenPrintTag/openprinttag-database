@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Galaxy Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#bf1d2dff'
 tags:
 - glitter
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/b8b6ada00f86.png
   type: unspecified

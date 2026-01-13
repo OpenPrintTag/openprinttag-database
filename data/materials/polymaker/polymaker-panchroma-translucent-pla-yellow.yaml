@@ -1,15 +1,16 @@
-uuid: d8ce4cf2-a25c-5e11-9856-d79a24996574
+uuid: 37bd7574-2c59-5a1b-bf89-00ecc4f08649
 slug: polymaker-panchroma-translucent-pla-yellow
 brand:
   slug: polymaker
-name: 'Panchroma™ Translucent PLA Yellow '
+name: Panchroma™ Translucent PLA Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffd342ff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/378f4fa8836a.png
   type: unspecified

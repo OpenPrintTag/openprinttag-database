@@ -1,10 +1,11 @@
-uuid: 3fe26341-a42e-5030-99a1-73eacb51fbcc
+uuid: 3d613fb2-cda0-55ff-9f8a-dd2f236a8eb7
 slug: polymaker-polylite-pla-green
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Green '
+name: PolyLite™ PLA Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#06924dff'
 tags:

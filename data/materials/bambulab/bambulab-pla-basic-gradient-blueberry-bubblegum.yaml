@@ -4,7 +4,8 @@ brand:
   slug: bambulab
 name: PLA Basic Gradient Blueberry Bubblegum
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#8cc6e4ff'
 - color_rgba: '#ae96d4ff'

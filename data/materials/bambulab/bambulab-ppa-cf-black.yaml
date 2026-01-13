@@ -1,10 +1,10 @@
-uuid: baa6b0ed-ec90-5e55-a50f-9f95a6587cb7
+uuid: 106c71fb-35d1-545d-8095-206d8c0c90d2
 slug: bambulab-ppa-cf-black
 brand:
   slug: bambulab
-name: 'PPA-CF Black '
+name: PPA-CF Black
 class: FFF
-type_id: 30
+type: PPA
 abbreviation: PPA
 primary_color:
   color_rgba: '#000000ff'

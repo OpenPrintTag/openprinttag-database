@@ -4,13 +4,15 @@ brand:
   slug: prusament
 name: PETG Matte Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#303635ff'
 transmission_distance: 0.3
 tags:
 - matte
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/28b1b52a49c1.png
   type: unspecified

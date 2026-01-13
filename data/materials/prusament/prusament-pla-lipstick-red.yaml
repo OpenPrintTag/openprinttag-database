@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Lipstick Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#bf2b2bff'
 transmission_distance: 3.3
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/b435c8e2f0d2.png
   type: unspecified

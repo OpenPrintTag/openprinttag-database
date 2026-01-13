@@ -4,9 +4,11 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Pearl Gold
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-pearl-gold
 primary_color:
   color_rgba: '#9a8066ff'
+tags:
+- high_speed
 properties: {}

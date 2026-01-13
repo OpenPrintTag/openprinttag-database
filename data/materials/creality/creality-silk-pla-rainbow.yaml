@@ -1,10 +1,11 @@
-uuid: dcc17e01-6f69-5d5c-bc7d-064df56639e9
+uuid: b970419e-ac66-5bc4-8fe9-89b0f2041e82
 slug: creality-silk-pla-rainbow
 brand:
   slug: creality
-name: 'Silk PLA Rainbow '
+name: Silk PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#8846aeff'
 - color_rgba: '#4e7642ff'

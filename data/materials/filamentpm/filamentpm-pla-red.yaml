@@ -1,10 +1,11 @@
-uuid: 5b23e06c-da6d-5ce6-99d3-0859b8127d31
+uuid: bbbccfad-96ca-52e3-b998-3124fc189d83
 slug: filamentpm-pla-red
 brand:
   slug: filamentpm
-name: ' PLA - Red '
+name: PLA - Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e60000ff'
 tags:

@@ -1,10 +1,11 @@
-uuid: 81ef7d4c-e67e-51db-a481-4cf12954fa6d
+uuid: c10719da-2aca-5bc5-b024-359a4dc6890b
 slug: formfutura-stonefil-concrete
 brand:
   slug: formfutura
-name: ' StoneFil Concrete'
+name: StoneFil Concrete
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b6b9bdff'
 tags:

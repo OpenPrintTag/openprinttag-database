@@ -4,13 +4,13 @@ brand:
   slug: nobufil
 name: ABSx Candy Ice Blue
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#5cadbfff'
 tags:
-- transparent
 - filtration_recommended
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/81166c6bc4c0.png
   type: unspecified

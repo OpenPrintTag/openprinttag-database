@@ -1,10 +1,11 @@
-uuid: 92502595-a96c-5da5-904c-00fcacdb0f78
+uuid: 437d8e86-d2b0-53f9-a1a4-80c9c41e4011
 slug: geeetech-pla
 brand:
   slug: geeetech
-name: 'PLA '
+name: PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#eadac2ff'
 tags:

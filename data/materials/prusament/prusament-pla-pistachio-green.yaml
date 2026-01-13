@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Pistachio Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.prusa3d.com/product/prusament-pla-pistachio-green-1kg/
 primary_color:
   color_rgba: '#93a683ff'
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 properties:
   density: 1.24
   hardness_shore_d: 81

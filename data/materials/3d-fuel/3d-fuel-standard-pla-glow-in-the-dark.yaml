@@ -4,7 +4,8 @@ brand:
   slug: 3d-fuel
 name: Standard PLA+, Glow in the Dark
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 tags:
 - glow_in_the_dark
 - illuminescent_color_change

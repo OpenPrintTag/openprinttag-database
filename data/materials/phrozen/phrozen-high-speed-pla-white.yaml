@@ -4,8 +4,11 @@ brand:
   slug: phrozen
 name: High-Speed PLA White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://global.phrozen3d.com/products/high-speed-pla?variant=48313506988315
 primary_color:
   color_rgba: '#ffffffff'
+tags:
+- high_speed
 properties: {}

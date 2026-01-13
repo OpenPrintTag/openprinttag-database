@@ -1,10 +1,11 @@
-uuid: c40729ae-b711-569e-8d8e-6c7bc7da7fd0
+uuid: 0a3d4a22-7e03-5419-b983-cf9000d3a72e
 slug: polymaker-polylite-pla-black
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Black '
+name: PolyLite™ PLA Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

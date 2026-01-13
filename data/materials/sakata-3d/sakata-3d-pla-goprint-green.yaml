@@ -4,7 +4,8 @@ brand:
   slug: sakata-3d
 name: PLA Go&Print Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#7fe200ff'
 tags:

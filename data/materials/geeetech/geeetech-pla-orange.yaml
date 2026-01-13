@@ -1,10 +1,11 @@
-uuid: 55a7e54f-8cb0-5693-a5bc-38543c9f05ab
+uuid: 66a58ecf-e8e8-59c8-989d-649b9b664ee4
 slug: geeetech-pla-orange
 brand:
   slug: geeetech
-name: 'PLA Orange '
+name: PLA Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff9100ff'
 tags:

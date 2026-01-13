@@ -4,12 +4,13 @@ brand:
   slug: sainsmart
 name: GT-3 High-Speed 95A Flexible TPU Translucent Green
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 url: https://www.sainsmart.com/products/gt-3-flexible-tpu?variant=42261759459407
 primary_color:
   color_rgba: '#4dff64ff'
 tags:
-- transparent
+- translucent
+- high_speed
 properties:
   hardness_shore_a: 95

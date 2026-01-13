@@ -4,7 +4,8 @@ brand:
   slug: creality
 name: PLA Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#40b6e4ff'
 tags:

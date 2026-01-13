@@ -1,10 +1,11 @@
-uuid: 69ad0322-5d8d-5804-8d5d-9c6ce189662a
+uuid: 60dce16e-232c-5ca5-9df1-58247db39514
 slug: polymaker-polysonic-pla-pro-white
 brand:
   slug: polymaker
-name: 'PolySonic™ PLA Pro White '
+name: PolySonic™ PLA Pro White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e2dedbff'
 tags:

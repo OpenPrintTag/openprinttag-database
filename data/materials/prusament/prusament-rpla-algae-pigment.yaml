@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: rPLA Algae Pigment
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#674b42ff'
 transmission_distance: 4.2

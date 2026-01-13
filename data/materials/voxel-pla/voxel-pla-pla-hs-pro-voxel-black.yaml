@@ -4,11 +4,13 @@ brand:
   slug: voxel-pla
 name: PLA+ HS (Pro) Voxel Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/4d4c772093e1.png
   type: unspecified

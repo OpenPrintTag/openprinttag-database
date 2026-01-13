@@ -4,13 +4,14 @@ brand:
   slug: spectrum
 name: PLA Crystal Raspberry Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-crystal/
 primary_color:
   color_rgba: '#ff4f4dff'
 tags:
-- transparent
 - silk
 - industrially_compostable
+- translucent
 properties:
   density: 1.24

@@ -4,12 +4,13 @@ brand:
   slug: printedsolid
 name: Jessie Premium PLA Purple Ice
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#8846aeff'
 tags:
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/cc7f3b53e7c6.png
   type: unspecified

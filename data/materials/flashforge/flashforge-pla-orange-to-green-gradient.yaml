@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: PLA Orange to Green Gradient
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fd9106ff'
 - color_rgba: '#bbdb4bff'

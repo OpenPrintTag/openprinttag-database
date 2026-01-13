@@ -4,12 +4,13 @@ brand:
   slug: esun
 name: High Speed ABS+ Blue
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#0353baff'
 tags:
 - filtration_recommended
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/9bd64231f603.jpg
   type: unspecified

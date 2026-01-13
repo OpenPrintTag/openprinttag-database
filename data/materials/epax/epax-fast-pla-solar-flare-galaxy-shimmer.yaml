@@ -4,11 +4,13 @@ brand:
   slug: epax
 name: Fast PLA+ Solar Flare (Galaxy Shimmer)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=49677895925973
 secondary_colors:
 - color_rgba: '#f07821ff'
 - color_rgba: '#e31a1fff'
 tags:
 - gradual_color_change
+- high_speed
 properties: {}

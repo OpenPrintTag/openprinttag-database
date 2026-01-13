@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=50474632741077
 primary_color:
   color_rgba: '#a000caff'
+tags:
+- high_speed
 properties: {}

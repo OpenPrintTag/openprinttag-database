@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Bicolor Silk Magic-Purple-Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ebff57ff'
 - color_rgba: '#5c50e0ff'

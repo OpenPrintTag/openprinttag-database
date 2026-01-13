@@ -4,11 +4,13 @@ brand:
   slug: voxel-pla
 name: PLA+ HS (Pro) Voxel Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c3ccd5ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/ea2f78cbb3ec.png
   type: unspecified

@@ -1,10 +1,11 @@
-uuid: d29a23c6-0287-5887-b5c1-b1d1b9b52113
+uuid: a68ea9b9-07c3-5e16-b142-c0eb45fda6d3
 slug: overture-silk-pla-copper
 brand:
   slug: overture
-name: 'Silk PLA Copper '
+name: Silk PLA Copper
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c06341ff'
 tags:

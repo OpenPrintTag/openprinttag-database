@@ -4,11 +4,13 @@ brand:
   slug: spectrum
 name: PLA High Speed Arctic White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 primary_color:
   color_rgba: '#ffffffff'
 tags:
 - industrially_compostable
+- high_speed
 properties:
   density: 1.24

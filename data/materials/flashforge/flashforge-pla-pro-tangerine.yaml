@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: PLA PRO Tangerine
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f55928ff'
 tags:

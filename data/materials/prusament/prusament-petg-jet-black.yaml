@@ -4,11 +4,13 @@ brand:
   slug: prusament
 name: PETG Jet Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#292b2bff'
 transmission_distance: 0.3
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/61a934493c20.png
   type: unspecified

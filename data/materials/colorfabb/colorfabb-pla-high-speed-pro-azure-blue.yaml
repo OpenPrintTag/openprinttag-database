@@ -4,11 +4,13 @@ brand:
   slug: colorfabb
 name: PLA High Speed Pro Azure blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#23668cff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/02c764370192.png
   type: unspecified

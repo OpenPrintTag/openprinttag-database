@@ -1,10 +1,11 @@
-uuid: 8af55e3d-bb6a-5df2-a271-fb4ddca5f485
+uuid: 6d99c9ca-93cc-5856-931f-3339da7ba070
 slug: filamentpm-pla-lithophane
 brand:
   slug: filamentpm
-name: ' PLA+ Lithophane '
+name: PLA+ Lithophane
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:

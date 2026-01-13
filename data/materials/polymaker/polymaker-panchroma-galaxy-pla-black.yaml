@@ -1,10 +1,11 @@
-uuid: a65bcd56-818e-5221-baf7-33a29a4b185c
+uuid: db279fe8-b4ac-5a2c-be3d-d7cd00675c2a
 slug: polymaker-panchroma-galaxy-pla-black
 brand:
   slug: polymaker
-name: 'Panchroma™ Galaxy PLA Black '
+name: Panchroma™ Galaxy PLA Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:

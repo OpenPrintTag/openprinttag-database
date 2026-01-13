@@ -4,7 +4,8 @@ brand:
   slug: sunlu
 name: PLA Silk Dual Color (Red Blue)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#5c50e0ff'
 - color_rgba: '#eb0075ff'

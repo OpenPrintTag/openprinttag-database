@@ -1,4 +1,4 @@
-.PHONY: help setup fetch-schemas validate import test
+.PHONY: help setup fetch-schemas validate import clean clean-import test
 
 VENV_DIR := venv
 PYTHON := $(VENV_DIR)/bin/python
@@ -15,6 +15,8 @@ help:
 	@echo "  make fetch-schemas - Fetch JSON schemas for validation"
 	@echo "  make validate      - Validate the material database against schemas"
 	@echo "  make import        - Import data from JSON (generates correct UUIDs)"
+	@echo "  make clean         - Clean the data directory"
+	@echo "  make clean-import  - Clean data directory and import from JSON"
 	@echo "  make test          - Run unit tests"
 	@echo ""
 
@@ -43,6 +45,14 @@ import: setup fetch-schemas
 	@echo "Importing data from JSON..."
 	@$(PYTHON) $(SCRIPTS_DIR)/import_from_json.py
 	@echo "✓ Import complete!"
+
+clean:
+	@echo "Cleaning data directory..."
+	@rm -rf data/brands data/materials data/material-packages data/material-containers data/lookup-tables
+	@echo "✓ Data directory cleaned!"
+
+clean-import: clean import
+	@echo "✓ Clean import complete!"
 
 test: setup
 	@echo "Running unit tests..."

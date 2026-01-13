@@ -4,11 +4,13 @@ brand:
   slug: voxel-pla
 name: PLA+ HS (Pro) Cool White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#efefefff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/47035b416e8b.png
   type: unspecified

@@ -4,11 +4,13 @@ brand:
   slug: tecbears
 name: High Speed PLA Plus Olive Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#4d5d4cff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/558d4a90e2ed.jpg
   type: unspecified

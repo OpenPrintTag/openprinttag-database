@@ -4,7 +4,8 @@ brand:
   slug: ovv3d
 name: Matte PLA Tri-Color Macaron
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fce575ff'
 - color_rgba: '#9ef9ffff'

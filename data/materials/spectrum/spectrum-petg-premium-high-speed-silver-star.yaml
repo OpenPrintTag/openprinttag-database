@@ -4,10 +4,12 @@ brand:
   slug: spectrum
 name: PETG Premium High Speed Silver Star
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://spectrumfilaments.com/en/filament/pet-g-premium-high-speed/
 primary_color:
   color_rgba: '#949597ff'
+tags:
+- high_speed
 properties:
   density: 1.27

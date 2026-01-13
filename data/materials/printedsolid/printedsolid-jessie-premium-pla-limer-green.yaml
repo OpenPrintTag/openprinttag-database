@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: Jessie Premium PLA Limer Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#7fe200ff'
 tags:

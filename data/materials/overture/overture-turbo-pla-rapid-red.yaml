@@ -1,10 +1,11 @@
-uuid: af158b6c-52d8-5531-9864-149702c49136
+uuid: f69f8ce1-5828-5f57-a862-29cd74a1e4ef
 slug: overture-turbo-pla-rapid-red
 brand:
   slug: overture
-name: 'Turbo PLA Rapid Red  '
+name: Turbo PLA Rapid Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f00c00ff'
 tags:

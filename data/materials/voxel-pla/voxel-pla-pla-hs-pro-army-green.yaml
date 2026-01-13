@@ -4,11 +4,13 @@ brand:
   slug: voxel-pla
 name: PLA+ HS (Pro) Army Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#6e8451ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/1b1db25e8e32.png
   type: unspecified

@@ -4,7 +4,8 @@ brand:
   slug: gizmo-dorks
 name: PLA Color Change Purple to Pink (Heat Activated)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#6c47b2ff'
 - color_rgba: '#c80181ff'

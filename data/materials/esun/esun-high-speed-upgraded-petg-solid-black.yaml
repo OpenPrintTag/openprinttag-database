@@ -1,13 +1,15 @@
-uuid: ba397a83-950e-58b9-b9e1-fcd2de41c34b
+uuid: 20c43ed2-09db-5f51-a37a-571a480e07ca
 slug: esun-high-speed-upgraded-petg-solid-black
 brand:
   slug: esun
-name: 'High Speed Upgraded PETG Solid Black '
+name: High Speed Upgraded PETG Solid Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'
+tags:
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/39e04bd609fe.jpg
   type: unspecified

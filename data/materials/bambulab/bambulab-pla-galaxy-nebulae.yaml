@@ -1,10 +1,11 @@
-uuid: deddf70c-7c92-53ea-868e-010aeb69f57a
+uuid: 45352cb2-834d-588f-881d-16a38e13412a
 slug: bambulab-pla-galaxy-nebulae
 brand:
   slug: bambulab
-name: 'PLA Galaxy Nebulae '
+name: PLA Galaxy Nebulae
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#444a62ff'
 tags:

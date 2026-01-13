@@ -4,11 +4,13 @@ brand:
   slug: colorfabb
 name: PLA High Speed Pro Telegrey 2
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#959fa1ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/81f78ab0565a.png
   type: unspecified

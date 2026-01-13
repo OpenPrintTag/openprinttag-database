@@ -4,10 +4,12 @@ brand:
   slug: sainsmart
 name: GT-3 High Speed PLA-Lite White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.sainsmart.com/products/high-speed-pla-lite?_pos=5&_fid=98406c783&_ss=c
 primary_color:
   color_rgba: '#f2efe9ff'
 tags:
 - industrially_compostable
+- high_speed
 properties: {}

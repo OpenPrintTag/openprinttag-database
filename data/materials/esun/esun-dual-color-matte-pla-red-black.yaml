@@ -1,10 +1,11 @@
-uuid: 0dde6351-dca7-5053-b1b6-e564a1449853
+uuid: 0820a9a7-0e72-50de-b4ed-d5298f553494
 slug: esun-dual-color-matte-pla-red-black
 brand:
   slug: esun
-name: 'Dual Color Matte PLA Red Black '
+name: Dual Color Matte PLA Red Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#e20010ff'
 - color_rgba: '#000000ff'

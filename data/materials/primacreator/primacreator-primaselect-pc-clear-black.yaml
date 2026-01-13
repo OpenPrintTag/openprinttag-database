@@ -4,12 +4,12 @@ brand:
   slug: primacreator
 name: PrimaSelect PC Clear Black
 class: FFF
-type_id: 5
+type: PC
 abbreviation: PC
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/3436532ac260.png
   type: unspecified

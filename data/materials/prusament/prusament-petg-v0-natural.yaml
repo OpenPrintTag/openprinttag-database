@@ -4,7 +4,7 @@ brand:
   slug: prusament
 name: PETG V0 Natural
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.prusa3d.com/product/prusament-petg-v0-natural-1kg/
 primary_color:
@@ -13,8 +13,8 @@ transmission_distance: 10.4
 tags:
 - self_extinguishing
 - without_pigments
-certification_ids:
-- 1
+certifications:
+- ul_94_v0
 properties:
   density: 1.27
   hardness_shore_d: 79

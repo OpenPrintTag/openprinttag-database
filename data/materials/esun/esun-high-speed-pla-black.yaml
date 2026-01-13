@@ -4,11 +4,13 @@ brand:
   slug: esun
 name: High Speed PLA+ Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/6908000d472f.jpg
   type: unspecified

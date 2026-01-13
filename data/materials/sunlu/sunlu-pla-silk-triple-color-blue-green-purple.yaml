@@ -1,10 +1,11 @@
-uuid: d72d9189-4b3f-5490-b67b-ae2934350ca3
+uuid: 6688f8a7-0a23-5f15-813c-c4fd56dcc11c
 slug: sunlu-pla-silk-triple-color-blue-green-purple
 brand:
   slug: sunlu
-name: 'PLA Silk Triple Color (Blue Green Purple) '
+name: PLA Silk Triple Color (Blue Green Purple)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#84d18bff'
 - color_rgba: '#6c47b2ff'

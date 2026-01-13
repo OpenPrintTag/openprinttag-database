@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk Dual Color PLA Gold & Rose
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#bb264dff'
 - color_rgba: '#ce8d00ff'

@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Shiny Gradient-Red-Purple-Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ac1a17ff'
 - color_rgba: '#7142a3ff'

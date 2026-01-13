@@ -1,10 +1,11 @@
-uuid: 326626fb-58ec-5f9d-9ac1-e9acdb82395b
+uuid: 175c1b63-5005-56f5-9510-ce672af822f7
 slug: sunlu-pla-silk-triple-color-orange-blue-green
 brand:
   slug: sunlu
-name: 'PLA Silk Triple Color (Orange Blue Green) '
+name: PLA Silk Triple Color (Orange Blue Green)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ff7a33ff'
 - color_rgba: '#2e56f1ff'

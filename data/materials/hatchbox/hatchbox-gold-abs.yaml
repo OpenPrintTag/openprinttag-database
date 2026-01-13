@@ -1,10 +1,10 @@
-uuid: 9a78504e-70e7-571f-aaae-951aa539a2ea
+uuid: 914958fc-e6b2-5275-82ab-103f9c13c2a5
 slug: hatchbox-gold-abs
 brand:
   slug: hatchbox
-name: 'Gold ABS '
+name: Gold ABS
 class: FFF
-type_id: 3
+type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#ce8d00ff'

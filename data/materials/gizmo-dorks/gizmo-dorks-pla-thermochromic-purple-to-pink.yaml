@@ -4,7 +4,8 @@ brand:
   slug: gizmo-dorks
 name: PLA Thermochromic Purple to Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#6c47b2ff'
 - color_rgba: '#ff72b6ff'

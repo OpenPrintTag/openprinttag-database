@@ -4,7 +4,8 @@ brand:
   slug: protopasta
 name: Midnight Multicolor HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#818fa0ff'
 - color_rgba: '#005da4ff'

@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk PLA Blue and Green 2 in 1
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#206233ff'
 - color_rgba: '#003287ff'

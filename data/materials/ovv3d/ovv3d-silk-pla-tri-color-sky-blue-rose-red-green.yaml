@@ -1,10 +1,11 @@
-uuid: b6908991-7e89-5623-ac3f-40d3b2926c0f
+uuid: 77cc5985-efbc-5ec2-a08b-d44c70a11e96
 slug: ovv3d-silk-pla-tri-color-sky-blue-rose-red-green
 brand:
   slug: ovv3d
-name: 'Silk PLA Tri-color Sky Blue & Rose Red & Green '
+name: Silk PLA Tri-color Sky Blue & Rose Red & Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#5feff9ff'
 - color_rgba: '#62e480ff'

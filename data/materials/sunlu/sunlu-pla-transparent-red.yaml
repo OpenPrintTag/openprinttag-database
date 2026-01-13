@@ -1,10 +1,11 @@
-uuid: bb3817a9-4d36-52c1-8cb4-426ecb82b212
+uuid: bb200028-2586-51ad-a6d3-270210405486
 slug: sunlu-pla-transparent-red
 brand:
   slug: sunlu
-name: PLA Transparent  Red
+name: PLA Transparent Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e20010ff'
 tags:

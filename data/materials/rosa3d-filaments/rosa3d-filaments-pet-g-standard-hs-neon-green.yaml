@@ -4,11 +4,12 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Neon Green
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-neon-green-1kg
 primary_color:
   color_rgba: '#8cff96ff'
 tags:
 - neon
+- high_speed
 properties: {}

@@ -4,13 +4,14 @@ brand:
   slug: alzament
 name: PLA Silk Dual colour Black-Purple
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-dual-colour-1-kg-black-purple-d12869938.htm
 secondary_colors:
 - color_rgba: '#000000ff'
 - color_rgba: '#be2ed6ff'
 tags:
 - silk
-- gradual_color_change
 - industrially_compostable
+- coextruded
 properties: {}

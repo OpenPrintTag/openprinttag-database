@@ -4,12 +4,12 @@ brand:
   slug: nobufil
 name: PETG Candy Red
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#aa0101ff'
 tags:
-- transparent
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/45c384fd4236.png
   type: unspecified

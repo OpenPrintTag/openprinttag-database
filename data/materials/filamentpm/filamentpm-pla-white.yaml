@@ -1,10 +1,11 @@
-uuid: 228fa003-ca67-5b1f-bfcd-a75696d37ae9
+uuid: 3e3dbd8c-c6f1-59a1-98ce-71d80f7eb0fc
 slug: filamentpm-pla-white
 brand:
   slug: filamentpm
-name: ' PLA - White '
+name: PLA - White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

@@ -4,7 +4,8 @@ brand:
   slug: prusament
 name: rPLA Wine Pigment
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#5e4940ff'
 transmission_distance: 2.8

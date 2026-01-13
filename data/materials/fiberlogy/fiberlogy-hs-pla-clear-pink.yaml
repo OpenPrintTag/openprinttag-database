@@ -4,12 +4,14 @@ brand:
   slug: fiberlogy
 name: HS PLA Clear Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c60f3eff'
 tags:
 - industrially_compostable
 - translucent
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/a8064ac355ad.png
   type: unspecified

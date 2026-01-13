@@ -1,10 +1,11 @@
-uuid: f8e2936b-936b-5b0b-98eb-41ec834e20d7
+uuid: c8ab1b1f-8d7b-5d16-8a2c-0993c9820528
 slug: filamentpm-pla-gold
 brand:
   slug: filamentpm
-name: ' PLA - Gold '
+name: PLA - Gold
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#af7d00ff'
 tags:

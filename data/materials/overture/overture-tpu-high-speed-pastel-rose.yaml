@@ -4,10 +4,12 @@ brand:
   slug: overture
 name: TPU High Speed Pastel Rose
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 url: https://overture3d.com/products/overture-high-speed-tpu-3d-printer-filament-1-75mm?variant=46971914617086
 primary_color:
   color_rgba: '#cd9f8bff'
+tags:
+- high_speed
 properties:
   hardness_shore_a: 95

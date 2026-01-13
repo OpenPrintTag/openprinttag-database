@@ -1,10 +1,10 @@
-uuid: 514ecfc0-290e-5909-8510-8d051a76c7f0
+uuid: c952f6d1-d383-56f1-b829-199298b6c489
 slug: bambulab-asa-cf-black
 brand:
   slug: bambulab
-name: 'ASA-CF Black '
+name: ASA-CF Black
 class: FFF
-type_id: 4
+type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#000000ff'

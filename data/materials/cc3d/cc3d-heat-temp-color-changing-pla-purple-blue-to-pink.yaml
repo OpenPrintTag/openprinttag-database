@@ -4,7 +4,8 @@ brand:
   slug: cc3d
 name: Heat Temp Color Changing PLA Purple Blue to Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#6c47b2ff'
 - color_rgba: '#f300eaff'

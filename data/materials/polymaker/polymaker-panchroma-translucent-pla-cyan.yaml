@@ -1,10 +1,11 @@
-uuid: e3731d6f-938e-51e6-9259-437a3ee3249e
+uuid: 22eee942-8dfd-5075-b9a4-2bba46d7fe6c
 slug: polymaker-panchroma-translucent-pla-cyan
 brand:
   slug: polymaker
-name: 'Panchroma™ Translucent PLA Cyan '
+name: Panchroma™ Translucent PLA Cyan
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#08abfbff'
 tags:

@@ -4,11 +4,12 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Transparent Red
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-pet-g-standard-hs-transparent-red
 primary_color:
   color_rgba: '#ec0000ff'
 tags:
 - translucent
+- high_speed
 properties: {}

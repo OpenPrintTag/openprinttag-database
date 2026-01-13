@@ -4,9 +4,11 @@ brand:
   slug: epax
 name: Fast PETG Metallic Silver
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-petg?variant=51951724527829
 primary_color:
   color_rgba: '#c5c5bfff'
+tags:
+- high_speed
 properties: {}

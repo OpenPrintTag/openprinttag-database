@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Prusa Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fe6e32ff'
 transmission_distance: 6.6
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/6c3b53738738.png
   type: unspecified

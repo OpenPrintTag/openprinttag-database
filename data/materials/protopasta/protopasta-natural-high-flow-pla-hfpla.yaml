@@ -4,12 +4,14 @@ brand:
   slug: protopasta
 name: Natural High Flow PLA (HFPLA)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:
 - transparent
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/6f3741b8f933.png
   type: unspecified

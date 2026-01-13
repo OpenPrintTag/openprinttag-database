@@ -1,10 +1,11 @@
-uuid: fb96852c-3d84-5b5f-87c7-1e31df423a7d
+uuid: 35eb871f-3b37-5f0f-bb8b-f4e32efa9fdb
 slug: filamentpm-pla-woodjet-natur
 brand:
   slug: filamentpm
-name: ' PLA+ WOODJet - Natur '
+name: PLA+ WOODJet - Natur
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ac8963ff'
 tags:

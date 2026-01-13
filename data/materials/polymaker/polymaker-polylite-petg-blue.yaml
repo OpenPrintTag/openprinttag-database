@@ -1,10 +1,10 @@
-uuid: 85c0fc44-66bd-5156-a8ff-36b7bc520520
+uuid: 15dc27ba-45db-5bb4-a360-3aef81b8fe78
 slug: polymaker-polylite-petg-blue
 brand:
   slug: polymaker
-name: 'PolyLite™ PETG Blue '
+name: PolyLite™ PETG Blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#0e21aeff'

@@ -1,10 +1,11 @@
-uuid: f3be5c1a-7d4b-5b4e-b7e9-37cca5fbc0cd
+uuid: 105b2057-5aea-53bf-aab7-ca2cd5cf6f69
 slug: polymaker-polylite-pla-red
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Red '
+name: PolyLite™ PLA Red
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#e72f1dff'
 tags:

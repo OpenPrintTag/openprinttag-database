@@ -4,12 +4,15 @@ brand:
   slug: prusament
 name: PLA Simply Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#70a641ff'
 transmission_distance: 3.0
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/19fc6d98c471.png
   type: unspecified

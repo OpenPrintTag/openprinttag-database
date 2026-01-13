@@ -4,8 +4,11 @@ brand:
   slug: epax
 name: Fast PLA+ Pale Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla?variant=51987181207765
 primary_color:
   color_rgba: '#d7f988ff'
+tags:
+- high_speed
 properties: {}

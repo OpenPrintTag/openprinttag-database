@@ -4,13 +4,14 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Starry Sky Color-Star Black
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#545252ff'
 tags:
 - glitter
-- transparent
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/550d48fd055f.png
   type: unspecified

@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Matte PLA Shadow Orange (Orange-Black)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f67405ff'
 - color_rgba: '#000000ff'

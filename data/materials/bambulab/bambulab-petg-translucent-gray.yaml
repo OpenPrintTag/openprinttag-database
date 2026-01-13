@@ -1,10 +1,10 @@
-uuid: 2e483e36-1fdc-575a-8e5d-2c8892f7b1db
+uuid: 791713de-b94b-5aa5-a494-f983dd705d2e
 slug: bambulab-petg-translucent-gray
 brand:
   slug: bambulab
-name: 'PETG Translucent Gray '
+name: PETG Translucent Gray
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#808080ff'

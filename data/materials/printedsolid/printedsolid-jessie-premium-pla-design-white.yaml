@@ -1,10 +1,11 @@
-uuid: 51e14e86-d662-58d7-a134-6c38ab6c4e22
+uuid: ccd6f6dc-f3c2-5159-a0fa-090d5269ece8
 slug: printedsolid-jessie-premium-pla-design-white
 brand:
   slug: printedsolid
-name: 'Jessie Premium PLA Design White '
+name: Jessie Premium PLA Design White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#efefefff'
 tags:

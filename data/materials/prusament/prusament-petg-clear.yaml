@@ -4,7 +4,7 @@ brand:
   slug: prusament
 name: PETG Clear
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e4e7e5ff'
@@ -12,6 +12,8 @@ transmission_distance: 100.0
 tags:
 - without_pigments
 - transparent
+certifications:
+- ul_2904
 photos:
 - url: https://file.myfilamentlist.com/f/new/c67969b9ba4c.png
   type: unspecified

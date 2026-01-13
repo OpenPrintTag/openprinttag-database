@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk PLA Gradient Rainbow Candy
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#00a594ff'
 - color_rgba: '#ea9e3fff'

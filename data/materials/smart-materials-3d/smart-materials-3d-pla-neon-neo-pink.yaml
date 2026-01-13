@@ -1,10 +1,11 @@
-uuid: b16bd697-c455-5749-87d9-d2f529d87818
+uuid: fc1da864-d0eb-55df-a15f-3703fd6c0ec5
 slug: smart-materials-3d-pla-neon-neo-pink
 brand:
   slug: smart-materials-3d
-name: 'PLA NEON  Neo Pink '
+name: PLA NEON Neo Pink
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#fb6066ff'
 tags:

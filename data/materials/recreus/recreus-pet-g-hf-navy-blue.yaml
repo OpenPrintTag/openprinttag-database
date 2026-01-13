@@ -1,12 +1,14 @@
-uuid: b3238c97-41d9-53f5-a8f4-de1cb7776ff2
+uuid: bf88c161-1eed-5e8a-a8b7-a5cc66e8ffa1
 slug: recreus-pet-g-hf-navy-blue
 brand:
   slug: recreus
-name: ' PET-G HF Navy blue'
+name: PET-G HF Navy blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://recreus.com/en/products/pet-g?variant=45921639465219
 primary_color:
   color_rgba: '#0e21aeff'
+tags:
+- high_speed
 properties: {}

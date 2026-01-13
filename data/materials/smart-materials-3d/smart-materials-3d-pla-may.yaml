@@ -4,7 +4,8 @@ brand:
   slug: smart-materials-3d
 name: PLA May
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#317c2eff'
 tags:

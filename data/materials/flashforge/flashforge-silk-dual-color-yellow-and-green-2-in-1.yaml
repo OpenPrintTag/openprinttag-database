@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Silk Dual Color Yellow and Green 2 in 1
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#41a840ff'
 - color_rgba: '#fbe200ff'

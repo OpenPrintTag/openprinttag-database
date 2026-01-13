@@ -4,11 +4,12 @@ brand:
   slug: rosa3d-filaments
 name: PET-G Standard HS Light Green Transparent
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-light-green-transparent
 primary_color:
   color_rgba: '#26a648ff'
 tags:
 - translucent
+- high_speed
 properties: {}

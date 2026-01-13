@@ -1,10 +1,11 @@
-uuid: 8bdb0bb5-0314-5d6f-b750-9a0d613c2fbd
+uuid: eb01731e-9375-5b72-b88f-7ee9984d408a
 slug: sunlu-pla-rainbow-red-pink-green-yellow
 brand:
   slug: sunlu
-name: 'PLA Rainbow (Red-Pink-Green-Yellow) '
+name: PLA Rainbow (Red-Pink-Green-Yellow)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#84d18bff'
 - color_rgba: '#ffbadeff'

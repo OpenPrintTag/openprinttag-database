@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: Rapid PLA Gradient Thistle Purple & Ethereal Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#8a68b5ff'
 - color_rgba: '#6299dfff'

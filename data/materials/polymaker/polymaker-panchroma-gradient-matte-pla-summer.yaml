@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Gradient Matte PLA Summer
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#9aee6cff'
 - color_rgba: '#60ab61ff'

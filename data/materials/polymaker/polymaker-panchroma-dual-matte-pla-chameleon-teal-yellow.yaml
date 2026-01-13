@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Matte PLA Chameleon (Teal-Yellow)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fbe200ff'
 - color_rgba: '#75c8ceff'

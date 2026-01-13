@@ -4,7 +4,8 @@ brand:
   slug: zyltech
 name: Sunset Serenade Dual Color Silk PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#e72f1dff'
 - color_rgba: '#ff9a14ff'

@@ -4,7 +4,8 @@ brand:
   slug: epax
 name: Fast PLA+ Crystal Tropical Dream
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://epax3d.com/collections/epax-filaments/products/epax-fast-pla-filament-crystal-tropical-dream-1-75mm-1kg-2-2lb
 secondary_colors:
 - color_rgba: '#f5e457ff'
@@ -16,4 +17,5 @@ tags:
 - translucent
 - glitter
 - gradual_color_change
+- high_speed
 properties: {}

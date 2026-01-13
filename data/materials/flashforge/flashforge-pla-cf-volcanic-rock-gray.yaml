@@ -4,7 +4,8 @@ brand:
   slug: flashforge
 name: PLA CF Volcanic Rock Gray
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#26272bff'
 tags:

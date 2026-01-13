@@ -1,12 +1,14 @@
-uuid: 5134d62e-09d7-51c0-b668-2bee0c2a0b2c
+uuid: be377e5f-dfe1-5617-bc88-dea24aeb8462
 slug: recreus-pet-g-hf-damantium-blue
 brand:
   slug: recreus
-name: ' PET-G HF Damantium blue'
+name: PET-G HF Damantium blue
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://recreus.com/en/products/pet-g?variant=45921640186115
 primary_color:
   color_rgba: '#40719aff'
+tags:
+- high_speed
 properties: {}

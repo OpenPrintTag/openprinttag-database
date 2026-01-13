@@ -1,10 +1,11 @@
-uuid: b8fba949-4392-524e-bd6b-23ed0575bbcb
+uuid: d38536f1-eb8c-5ac2-8651-f495399e0910
 slug: hatchbox-transparent-red-pla
 brand:
   slug: hatchbox
-name: 'Transparent Red PLA '
+name: Transparent Red PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ec0000ff'
 tags:

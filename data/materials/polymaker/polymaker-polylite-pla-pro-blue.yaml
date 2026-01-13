@@ -1,10 +1,11 @@
-uuid: 6e9aca47-67f8-51e1-acad-0f83171f78b5
+uuid: 3dc0049e-09f2-56af-89b0-bdf7ab9c98e7
 slug: polymaker-polylite-pla-pro-blue
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Pro Blue '
+name: PolyLite™ PLA Pro Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0266bbff'
 tags:

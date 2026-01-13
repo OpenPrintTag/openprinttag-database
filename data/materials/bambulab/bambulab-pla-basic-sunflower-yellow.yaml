@@ -1,10 +1,11 @@
-uuid: b4aff79c-2363-52bc-bb60-ca499b437712
+uuid: acd30b73-db0c-5d4a-be94-da191820734b
 slug: bambulab-pla-basic-sunflower-yellow
 brand:
   slug: bambulab
-name: 'PLA Basic Sunflower Yellow '
+name: PLA Basic Sunflower Yellow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffc946ff'
 tags:

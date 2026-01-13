@@ -4,11 +4,13 @@ brand:
   slug: sunlu
 name: High Speed PLA Meta Ice Blue
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#82e3ecff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://file.myfilamentlist.com/f/new/e1be3de5ebc5.jpg
   type: unspecified

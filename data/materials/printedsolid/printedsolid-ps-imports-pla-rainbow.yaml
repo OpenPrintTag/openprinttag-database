@@ -4,7 +4,8 @@ brand:
   slug: printedsolid
 name: PS Imports PLA Rainbow
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#c7bcf8ff'
 - color_rgba: '#b645a9ff'

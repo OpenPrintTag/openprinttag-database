@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Matte PLA Camouflage (Dark Green-Brown)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#5a7d5aff'
 - color_rgba: '#926043ff'

@@ -1,10 +1,11 @@
-uuid: e5881172-66ee-5fc8-9d13-3c7ebae81f32
+uuid: f462b7ec-2bc9-5606-9a8a-5b3a93a03839
 slug: filamentpm-pla-transparent
 brand:
   slug: filamentpm
-name: ' PLA - Transparent '
+name: PLA - Transparent
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f0ebe5ff'
 tags:

@@ -4,7 +4,8 @@ brand:
   slug: smart-materials-3d
 name: PLA 3D850 Natural
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f2efe9ff'
 tags:

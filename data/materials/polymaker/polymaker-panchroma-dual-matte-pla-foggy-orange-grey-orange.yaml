@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Matte PLA Foggy Orange (Grey-Orange)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#f67405ff'
 - color_rgba: '#c3ccd5ff'

@@ -1,10 +1,11 @@
-uuid: 0f970714-805f-542d-9c46-7b225a17fa90
+uuid: 8c40a440-3e82-5702-927c-4a56f2e9f1cb
 slug: hatchbox-natural-pla
 brand:
   slug: hatchbox
-name: 'Natural PLA '
+name: Natural PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:

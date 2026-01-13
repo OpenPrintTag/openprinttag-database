@@ -4,7 +4,8 @@ brand:
   slug: polymaker
 name: Panchroma™ Dual Matte PLA Glacier (Ice-Blue)
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#0095ffff'
 - color_rgba: '#9bcbebff'

@@ -1,10 +1,10 @@
-uuid: dc4fee92-1898-57c6-87ea-e0b9f1508010
+uuid: 1521a65b-30e9-5ba2-bee1-5edb5d629692
 slug: polymaker-polylite-asa-red
 brand:
   slug: polymaker
-name: 'PolyLite™ ASA Red '
+name: PolyLite™ ASA Red
 class: FFF
-type_id: 4
+type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#e72f1dff'

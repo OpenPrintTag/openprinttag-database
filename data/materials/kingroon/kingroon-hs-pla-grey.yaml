@@ -4,8 +4,11 @@ brand:
   slug: kingroon
 name: HS PLA Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 url: https://kingroon.com/products/10kg-hs-pla-high-speed-printer-filament-mixed-color-1-75mm-us-in-stock?variant=46198349168858
 primary_color:
   color_rgba: '#9f9f9fff'
+tags:
+- high_speed
 properties: {}

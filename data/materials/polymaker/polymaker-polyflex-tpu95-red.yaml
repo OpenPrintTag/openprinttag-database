@@ -1,10 +1,10 @@
-uuid: bcc99d17-7853-57cb-851e-ca4ae999071d
+uuid: 20b522a5-f18b-5be5-8928-ff33eda2ceb2
 slug: polymaker-polyflex-tpu95-red
 brand:
   slug: polymaker
-name: 'PolyFlex™ TPU95 Red '
+name: PolyFlex™ TPU95 Red
 class: FFF
-type_id: 2
+type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e20010ff'

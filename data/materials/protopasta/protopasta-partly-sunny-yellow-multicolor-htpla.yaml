@@ -4,7 +4,8 @@ brand:
   slug: protopasta
 name: Partly Sunny Yellow Multicolor HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 secondary_colors:
 - color_rgba: '#fbe200ff'
 - color_rgba: '#eeea44ff'

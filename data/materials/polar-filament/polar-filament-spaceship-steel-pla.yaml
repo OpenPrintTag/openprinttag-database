@@ -4,7 +4,8 @@ brand:
   slug: polar-filament
 name: Spaceship Steel PLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#9f9f9fff'
 tags:

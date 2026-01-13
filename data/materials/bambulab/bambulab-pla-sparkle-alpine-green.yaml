@@ -1,10 +1,11 @@
-uuid: 9e671fc5-8ccb-5bce-a343-c751fa297588
+uuid: 9d2f58d1-b556-5004-9d6d-dd22c0bb8475
 slug: bambulab-pla-sparkle-alpine-green
 brand:
   slug: bambulab
-name: 'PLA Sparkle Alpine Green '
+name: PLA Sparkle Alpine Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#1e5a4fff'
 tags:

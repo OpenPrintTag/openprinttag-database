@@ -1,10 +1,11 @@
-uuid: dd2fa3d6-6886-533e-ae17-24190036c144
+uuid: 0c3d8648-24a0-540e-8ab1-ce50bda85bcc
 slug: polymaker-panchroma-silk-pla-magenta
 brand:
   slug: polymaker
-name: 'Panchroma™ Silk PLA Magenta '
+name: Panchroma™ Silk PLA Magenta
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c80181ff'
 tags:

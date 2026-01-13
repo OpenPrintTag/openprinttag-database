@@ -1,10 +1,11 @@
-uuid: e6e868bb-7e16-5ab6-9736-7dca264ae0e2
+uuid: fd6f5167-d0d6-51f0-be33-13ec4f3dd7cc
 slug: flashforge-rapid-pla-aurora-green
 brand:
   slug: flashforge
-name: 'Rapid PLA Aurora Green '
+name: Rapid PLA Aurora Green
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#1d7c6aff'
 tags:

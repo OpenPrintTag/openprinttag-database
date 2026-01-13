@@ -4,14 +4,15 @@ brand:
   slug: protopasta
 name: Gloop! Purple HTPLA
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#663d7eff'
 tags:
 - glitter
-- transparent
 - high_temperature
 - industrially_compostable
+- translucent
 photos:
 - url: https://file.myfilamentlist.com/f/new/e984c02d2b2e.png
   type: unspecified

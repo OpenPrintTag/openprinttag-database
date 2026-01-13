@@ -4,7 +4,7 @@ brand:
   slug: prusament
 name: PETG V0 Jet Black
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 url: https://www.prusa3d.com/product/prusament-petg-v0-jet-black-1kg/
 primary_color:
@@ -12,8 +12,8 @@ primary_color:
 transmission_distance: 0.3
 tags:
 - self_extinguishing
-certification_ids:
-- 1
+certifications:
+- ul_94_v0
 properties:
   density: 1.27
   hardness_shore_d: 79

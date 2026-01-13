@@ -1,10 +1,11 @@
-uuid: 0e55604e-50c9-5a19-8ec2-3cb920444d27
+uuid: 0240274b-3e71-5be8-8259-bee73bcd0787
 slug: polymaker-polymax-pla-orange
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA Orange '
+name: PolyMax™ PLA Orange
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ff8e24ff'
 tags:

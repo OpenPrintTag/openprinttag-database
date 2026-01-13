@@ -1,15 +1,13 @@
-uuid: 2487b596-5838-5fa7-930d-1e61901fcdf7
+uuid: ea3e67e1-6596-5069-ad3e-f88dc2ad2f47
 slug: esun-petg-green
 brand:
   slug: esun
-name: 'PETG Green '
+name: PETG Green
 class: FFF
-type_id: 1
+type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#206233ff'
-tags:
-- transparent
 photos:
 - url: 'https://file.myfilamentlist.com/filaments/new/61QG8E5G8+L._SX425_.jpg
 

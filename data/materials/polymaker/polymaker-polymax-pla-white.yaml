@@ -1,10 +1,11 @@
-uuid: 7b655d95-1644-5d1c-8d92-592f5daf2a0f
+uuid: 3268bdc2-48f3-5e3c-931c-4f9cf8ba81dd
 slug: polymaker-polymax-pla-white
 brand:
   slug: polymaker
-name: 'PolyMax™ PLA White '
+name: PolyMax™ PLA White
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:

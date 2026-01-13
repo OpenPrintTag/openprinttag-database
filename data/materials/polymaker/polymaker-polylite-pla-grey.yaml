@@ -1,10 +1,11 @@
-uuid: b8ab1b87-856a-51ef-949d-16b7450302fd
+uuid: e431796e-09ac-5af5-980a-05ae0d7889f2
 slug: polymaker-polylite-pla-grey
 brand:
   slug: polymaker
-name: 'PolyLite™ PLA Grey '
+name: PolyLite™ PLA Grey
 class: FFF
-abbreviation: ''
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b1b3c5ff'
 tags:
