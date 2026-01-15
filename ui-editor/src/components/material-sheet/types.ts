@@ -1,30 +1,10 @@
-export interface LookupItem {
-  key: string | number;
-  slug?: string;
-  name?: string;
-  display_name?: string;
-  abbreviation?: string;
-}
-
-export interface LookupData {
-  items: LookupItem[];
-}
-
-export interface SelectOption {
-  value: string;
-  label: string;
-}
-
-export interface PhotoItem {
-  url?: string;
-  caption?: string;
-}
+import { EnumItem } from '~/hooks/useEnum';
 
 export interface Material {
   uuid?: string;
   slug?: string;
   name?: string;
-  brand?: string;
+  brand?: EnumItem;
   brand_specific_id?: string;
   type?: string;
   class?: string;
@@ -44,6 +24,8 @@ export interface MaterialSheetProps {
   onOpenChange: (open: boolean) => void;
   brandId: string;
   material?: Material;
+  brandPackages?: unknown[];
+  onAddPackage?: () => void;
   onSuccess?: () => void;
   mode: 'create' | 'edit';
   readOnly?: boolean;

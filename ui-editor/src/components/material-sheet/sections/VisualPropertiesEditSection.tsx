@@ -1,3 +1,4 @@
+import { EntityFields } from '~/components/field-types';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
 import type { Material } from '../types';
@@ -6,12 +7,14 @@ interface VisualPropertiesEditSectionProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
+  brandId?: string;
 }
 
 export const VisualPropertiesEditSection = ({
   fields,
   form,
   onFieldChange,
+  brandId,
 }: VisualPropertiesEditSectionProps) => {
   if (!fields) return null;
 
@@ -34,6 +37,7 @@ export const VisualPropertiesEditSection = ({
                 field={fields[key] as SchemaField}
                 value={form?.[key]}
                 onChange={(val) => onFieldChange(key, val)}
+                brandId={brandId}
               />
             );
           })}

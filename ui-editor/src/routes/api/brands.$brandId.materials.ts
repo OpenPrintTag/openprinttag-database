@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
-import type { Material } from '~/types/material';
+import { Material } from '~/components/material-sheet';
 
 // GET /api/brands/$brandId/materials
 export const Route = createFileRoute('/api/brands/$brandId/materials')({

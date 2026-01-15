@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 
 import type { EntityFields } from '~/components/field-types';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { extractFieldValue } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';
 
 import type { Material } from '../types';
@@ -12,6 +13,7 @@ interface BasicInformationEditSectionProps {
   onFieldChange: (key: string, value: unknown) => void;
   mode?: 'create' | 'edit';
   initialSlug?: string;
+  brandId?: string;
 }
 
 export const BasicInformationEditSection = ({
@@ -20,6 +22,7 @@ export const BasicInformationEditSection = ({
   onFieldChange,
   mode = 'edit',
   initialSlug,
+  brandId,
 }: BasicInformationEditSectionProps) => {
   // Auto-generate slug from name continuously for new materials
   // Only regenerate if we're in create mode OR if the slug hasn't been manually set
@@ -48,16 +51,17 @@ export const BasicInformationEditSection = ({
 
             // slug and brand should be disabled
             const isDisabled = key === 'slug' || key === 'brand';
+            const rawValue = extractFieldValue(key, form?.[key]);
 
             return (
               <FieldEditor
                 key={key}
                 label={key}
                 field={fields[key] as SchemaField}
-                value={form?.[key]}
+                value={rawValue}
                 onChange={(val) => onFieldChange(key, val)}
                 disabled={isDisabled}
-                entity="material"
+                brandId={brandId}
               />
             );
           })}

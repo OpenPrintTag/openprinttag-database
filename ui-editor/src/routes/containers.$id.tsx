@@ -3,18 +3,16 @@ import { ChevronRight } from 'lucide-react';
 import React from 'react';
 import { toast } from 'sonner';
 
-import { DataGrid } from '~/components/DataGrid';
-import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { Brand } from '~/components/brand-sheet/types';
+import { Container } from '~/components/container-sheet';
+import { ContainerSheetEditView } from '~/components/container-sheet/ContainerSheetEditView';
+import { ContainerSheetReadView } from '~/components/container-sheet/ContainerSheetReadView';
 import { Button } from '~/components/ui';
 import { TOAST_MESSAGES } from '~/constants/messages';
 import { useApi } from '~/hooks/useApi';
 import { useUpdateContainer } from '~/hooks/useMutations';
 import { useSchema } from '~/hooks/useSchema';
 import { EditButton, SaveButton } from '~/shared/components/action-buttons';
-import type { Brand } from '~/types/brand';
-import { safeStringify } from '~/utils/format';
-
-type Container = Record<string, unknown>;
 
 const RouteComponent = () => {
   const { id } = Route.useParams();
@@ -23,14 +21,14 @@ const RouteComponent = () => {
     undefined,
     [id],
   );
-  const { schema, fields } = useSchema('material_container');
+  const { fields } = useSchema('material_container');
 
   const [editing, setEditing] = React.useState(false);
   const [form, setForm] = React.useState<any | null>(null);
 
   const updateContainerMutation = useUpdateContainer(id);
 
-  const brandSlug = data?.brand_slug as string | undefined;
+  const brandSlug = data?.brand?.slug as string | undefined;
   const { data: brandData } = useApi<Brand>(
     brandSlug ? () => `/api/brands/${brandSlug}` : '',
     undefined,
@@ -95,7 +93,7 @@ const RouteComponent = () => {
         </div>
         <div className="flex flex-wrap gap-2">
           {!editing ? (
-            <EditButton onClick={() => setEditing(true)} disabled={!schema}>
+            <EditButton onClick={() => setEditing(true)} disabled={!fields}>
               Edit Container
             </EditButton>
           ) : (
@@ -113,77 +111,42 @@ const RouteComponent = () => {
       </div>
 
       {!editing ? (
-        <DataGrid
-          data={data}
-          title="Container details"
-          fields={fields as Record<string, SchemaField> | undefined}
-          primaryKeys={['uuid', 'slug', 'name']}
-        />
+        <ContainerSheetReadView container={data as any} fields={fields} />
       ) : (
-        <div className="card">
-          <div className="card-header">Edit</div>
-          <div className="card-body space-y-4">
-            {fields ? (
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                {Object.entries(fields).map(([key, field]) => (
-                  <FieldEditor
-                    key={key}
-                    label={key}
-                    field={field as SchemaField}
-                    value={form?.[key]}
-                    onChange={(val) =>
-                      setForm((f: any) => ({ ...(f ?? {}), [key]: val }))
-                    }
-                  />
-                ))}
-              </div>
-            ) : (
-              <>
-                <div className="mb-2 text-sm text-amber-700">
-                  Schema for material_containers not found. You can still edit
-                  the raw JSON below.
-                </div>
-                <textarea
-                  className="textarea w-full font-mono text-xs"
-                  rows={12}
-                  value={safeStringify(form)}
-                  onChange={(e) => {
-                    const txt = e.target.value;
-                    try {
-                      setForm(JSON.parse(txt));
-                    } catch {
-                      // ignore until valid JSON
-                    }
-                  }}
-                />
-              </>
-            )}
-            <div className="flex items-center justify-end gap-3">
-              <Button
-                variant="outline"
-                onClick={() => {
-                  setForm(data);
+        <div className="space-y-4">
+          <ContainerSheetEditView
+            form={form}
+            onFieldChange={(key, val) =>
+              setForm((f: any) => ({ ...(f ?? {}), [key]: val }))
+            }
+            fields={fields}
+          />
+
+          <div className="flex items-center justify-end gap-3">
+            <Button
+              variant="outline"
+              onClick={() => {
+                setForm(data);
+                setEditing(false);
+              }}
+              disabled={updateContainerMutation.isPending}
+            >
+              Cancel
+            </Button>
+            <SaveButton
+              onClick={async () => {
+                try {
+                  await updateContainerMutation.mutateAsync({ data: form });
                   setEditing(false);
-                }}
-                disabled={updateContainerMutation.isPending}
-              >
-                Cancel
-              </Button>
-              <SaveButton
-                onClick={async () => {
-                  try {
-                    await updateContainerMutation.mutateAsync({ data: form });
-                    setEditing(false);
-                    toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
-                  } catch (err: any) {
-                    const errorMessage =
-                      err?.message ?? TOAST_MESSAGES.ERROR.SAVE_FAILED;
-                    toast.error(errorMessage);
-                  }
-                }}
-                loading={updateContainerMutation.isPending}
-              />
-            </div>
+                  toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
+                } catch (err: any) {
+                  const errorMessage =
+                    err?.message ?? TOAST_MESSAGES.ERROR.SAVE_FAILED;
+                  toast.error(errorMessage);
+                }
+              }}
+              loading={updateContainerMutation.isPending}
+            />
           </div>
         </div>
       )}

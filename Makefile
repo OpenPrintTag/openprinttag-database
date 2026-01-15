@@ -14,7 +14,6 @@ help:
 	@echo "Main Commands:"
 	@echo "  make fetch-schemas - Fetch JSON schemas for validation"
 	@echo "  make validate      - Validate the material database against schemas"
-	@echo "  make import        - Import data from JSON (generates correct UUIDs)"
 	@echo "  make clean         - Clean the data directory"
 	@echo "  make clean-import  - Clean data directory and import from JSON"
 	@echo "  make test          - Run unit tests"
@@ -40,11 +39,6 @@ fetch-schemas:
 validate: setup fetch-schemas
 	@echo "Validating material database..."
 	@$(PYTHON) $(SCRIPTS_DIR)/validate_json_schema.py
-
-import: setup fetch-schemas
-	@echo "Importing data from JSON..."
-	@$(PYTHON) $(SCRIPTS_DIR)/import_from_json.py
-	@echo "✓ Import complete!"
 
 clean:
 	@echo "Cleaning data directory..."

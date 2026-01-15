@@ -1,8 +1,10 @@
+import { EnumItem } from '~/hooks/useEnum';
+
 export interface Container {
   uuid?: string;
   slug?: string;
   class?: 'FFF' | 'SLA';
-  brand?: string | { slug: string; name?: string };
+  brand?: { slug: string } | EnumItem;
   brand_specific_id?: string;
   name?: string;
   volumetric_capacity?: number;

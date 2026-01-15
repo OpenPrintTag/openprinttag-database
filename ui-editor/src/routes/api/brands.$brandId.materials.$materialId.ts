@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
+import { Material } from '~/components/material-sheet';
 import {
   deleteNestedByBrand,
   jsonError,
@@ -8,7 +9,6 @@ import {
   readNestedByBrand,
   writeNestedByBrand,
 } from '~/server/http';
-import type { Material } from '~/types/material';
 
 // GET /api/brands/$brandId/materials/$materialId
 export const Route = createFileRoute(
@@ -72,6 +72,10 @@ export const Route = createFileRoute(
             // Preserve existing UUID if not provided
             payload.uuid = existingMaterial.uuid;
           }
+        }
+
+        if (typeof payload.brand === 'string') {
+          payload.brand = { slug: payload.brand };
         }
 
         const result = await writeNestedByBrand(

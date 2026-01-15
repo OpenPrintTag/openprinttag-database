@@ -1,4 +1,5 @@
 import type { EntityFields } from '~/components/field-types';
+import { SchemaData } from '~/hooks/useSchema';
 
 import { AdditionalInformationEditSection } from './sections/AdditionalInformationEditSection';
 import { BasicInformationEditSection } from './sections/BasicInformationEditSection';
@@ -14,9 +15,10 @@ interface MaterialSheetEditViewProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
-  schema: unknown;
+  schema?: SchemaData;
   mode?: 'create' | 'edit';
   initialSlug?: string;
+  brandId?: string;
 }
 
 export const MaterialSheetEditView = ({
@@ -26,6 +28,7 @@ export const MaterialSheetEditView = ({
   schema,
   mode = 'edit',
   initialSlug,
+  brandId,
 }: MaterialSheetEditViewProps) => {
   return (
     <div className="my-6 space-y-6">
@@ -40,41 +43,49 @@ export const MaterialSheetEditView = ({
             onFieldChange={onFieldChange}
             mode={mode}
             initialSlug={initialSlug}
+            brandId={brandId}
           />
           <ClassificationEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
           <VisualPropertiesEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
           <TagsCertificationsEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
           <PhotosEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
           <PropertiesEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
           <PrintSheetCompatibilityEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
           <AdditionalInformationEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}
+            brandId={brandId}
           />
         </>
       )}

@@ -1,16 +1,29 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { ChevronRight, Loader2, Package2, Plus, Search } from 'lucide-react';
 import React from 'react';
+import { toast } from 'sonner';
 
-import { ContainerSheet } from '~/components/container-sheet';
+import { Brand } from '~/components/brand-sheet/types';
+import { Container, ContainerSheet } from '~/components/container-sheet';
+import { ContainerSheetEditView } from '~/components/container-sheet/ContainerSheetEditView';
+import { ContainerSheetReadView } from '~/components/container-sheet/ContainerSheetReadView';
 import { PageHeader } from '~/components/PageHeader';
 import { SearchBar } from '~/components/SearchBar';
 import { Button } from '~/components/ui';
+import { TOAST_MESSAGES } from '~/constants/messages';
 import { useEnum } from '~/hooks/useEnum';
-import type { Brand } from '~/types/brand';
+import {
+  useCreateContainer,
+  useDeleteContainer,
+  useUpdateContainer,
+} from '~/hooks/useMutations';
+import { useSchema } from '~/hooks/useSchema';
+import {
+  EntitySheetFooter,
+  useEntitySheet,
+} from '~/shared/components/entity-sheet';
+import { prepareFormForSave } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';
-
-type Container = Record<string, unknown>;
 
 export const Route = createFileRoute('/containers/')({
   component: RouteComponent,
@@ -29,8 +42,10 @@ function RouteComponent() {
     data: containersData,
     loading: containersLoading,
     error: containersError,
+    refetch,
   } = useEnum('containers');
-  const { data: brandsData } = useEnum('brands', { variant: 'basic' });
+  const { data: brandsData } = useEnum('brands');
+  const { fields } = useSchema('material_container');
 
   const containers = (containersData?.items as Container[]) ?? [];
   const brands = (brandsData?.items as Brand[]) ?? [];
@@ -49,6 +64,110 @@ function RouteComponent() {
   } else if (containerId) {
     containerMode = 'view';
   }
+
+  const selectedContainer = React.useMemo(() => {
+    if ((containerMode === 'view' || containerMode === 'edit') && containerId) {
+      return containers.find(
+        (c) =>
+          c.slug === containerId ||
+          c.uuid === containerId ||
+          slugifyName(String(c.name ?? '')) === containerId,
+      );
+    }
+    return undefined;
+  }, [containerMode, containerId, containers]);
+
+  const initialForm = React.useMemo(
+    (): any => ({ name: '', class: 'FFF' }),
+    [],
+  );
+
+  const {
+    form,
+    error: sheetError,
+    setError: setSheetError,
+    isReadOnly,
+    currentMode,
+    handleFieldChange: baseHandleFieldChange,
+    handleEdit,
+  } = useEntitySheet<Container>({
+    entity: selectedContainer,
+    open: !!containerMode,
+    mode: containerMode === 'create' ? 'create' : 'edit',
+    readOnly: containerMode === 'view',
+    initialForm,
+  });
+
+  const handleFieldChange = (key: string, value: unknown) => {
+    baseHandleFieldChange(key, value);
+    if (key === 'name' && typeof value === 'string') {
+      const generatedSlug = slugifyName(value);
+      baseHandleFieldChange('slug', generatedSlug || '');
+    }
+  };
+
+  const createContainerMutation = useCreateContainer();
+  const updateContainerMutation = useUpdateContainer(
+    String(selectedContainer?.slug || selectedContainer?.uuid || ''),
+  );
+  const deleteContainerMutation = useDeleteContainer(
+    String(selectedContainer?.slug || selectedContainer?.uuid || ''),
+  );
+
+  const handleSave = async () => {
+    if (!form.name?.trim()) {
+      setSheetError(TOAST_MESSAGES.VALIDATION.CONTAINER_NAME_REQUIRED);
+      return;
+    }
+    if (!form.class) {
+      setSheetError(TOAST_MESSAGES.VALIDATION.CONTAINER_CLASS_REQUIRED);
+      return;
+    }
+
+    setSheetError(null);
+    const dataToSave = prepareFormForSave(form);
+
+    try {
+      if (currentMode === 'create') {
+        await createContainerMutation.mutateAsync({ data: dataToSave });
+        toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_CREATED);
+      } else {
+        await updateContainerMutation.mutateAsync({ data: dataToSave });
+        toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
+      }
+      refetch();
+      handleClose();
+    } catch (err: any) {
+      const errorMessage =
+        err?.message ||
+        (currentMode === 'create'
+          ? TOAST_MESSAGES.ERROR.CONTAINER_CREATE_FAILED
+          : TOAST_MESSAGES.ERROR.CONTAINER_UPDATE_FAILED);
+      setSheetError(errorMessage);
+      toast.error(errorMessage);
+    }
+  };
+
+  const handleDelete = async () => {
+    // Basic delete logic for this overview page
+    try {
+      await deleteContainerMutation.mutateAsync();
+      toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_DELETED);
+      refetch();
+      handleClose();
+    } catch {
+      toast.error(TOAST_MESSAGES.ERROR.CONTAINER_DELETE_FAILED);
+    }
+  };
+
+  const handleClose = () => {
+    navigate({
+      to: '/containers',
+      search: {},
+      replace: true,
+      resetScroll: false,
+    });
+  };
 
   const handleOpenContainerSheet = (
     sheetMode: 'create' | 'edit' | 'view',
@@ -276,42 +395,47 @@ function RouteComponent() {
       <ContainerSheet
         open={!!containerMode}
         onOpenChange={(open) => {
-          if (!open) {
-            navigate({
-              to: '/containers',
-              search: {},
-              replace: true,
-              resetScroll: false,
-            });
+          if (!open) handleClose();
+        }}
+        form={form}
+        isReadOnly={isReadOnly}
+        currentMode={currentMode}
+        error={sheetError}
+      >
+        {isReadOnly ? (
+          <ContainerSheetReadView
+            container={selectedContainer as any}
+            fields={fields}
+          />
+        ) : (
+          <ContainerSheetEditView
+            form={form as any}
+            onFieldChange={handleFieldChange}
+            fields={fields}
+          />
+        )}
+        <EntitySheetFooter
+          mode={currentMode}
+          readOnly={isReadOnly}
+          onEdit={handleEdit}
+          onSave={handleSave}
+          onDelete={handleDelete}
+          saving={
+            createContainerMutation.isPending ||
+            updateContainerMutation.isPending
           }
-        }}
-        container={
-          (containerMode === 'view' || containerMode === 'edit') && containerId
-            ? containers.find(
-                (c) =>
-                  c.slug === containerId ||
-                  c.uuid === containerId ||
-                  slugifyName(String(c.name ?? '')) === containerId,
-              )
-            : undefined
-        }
-        mode={containerMode === 'create' ? 'create' : 'edit'}
-        onSuccess={() => {
-          // Refetch is automatic via React Query invalidation
-          if (containerMode === 'create') {
-            navigate({
-              to: '/containers',
-              search: {},
-              replace: true,
-            });
+          deleting={deleteContainerMutation.isPending}
+          disabled={
+            createContainerMutation.isPending ||
+            updateContainerMutation.isPending ||
+            deleteContainerMutation.isPending ||
+            !fields ||
+            !form.name?.trim() ||
+            !form.class
           }
-        }}
-        readOnly={containerMode === 'view'}
-        onEdit={() => {
-          // Switch to edit mode - keep the same container open
-          handleOpenContainerSheet('edit', containerId);
-        }}
-      />
+          entityName="Container"
+        />
+      </ContainerSheet>
     </div>
   );
 }

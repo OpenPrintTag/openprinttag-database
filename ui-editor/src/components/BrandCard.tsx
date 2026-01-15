@@ -1,41 +1,19 @@
-import { useQuery } from '@tanstack/react-query';
 import { Link } from '@tanstack/react-router';
 import { Box, ChevronRight, Package } from 'lucide-react';
 
-import { CountBadgeSkeleton } from '~/components/skeletons';
-import type { Brand } from '~/types/brand';
+import { Brand } from '~/components/brand-sheet/types';
 import { slugifyName } from '~/utils/slug';
 
 interface BrandCardProps {
   brand: Brand;
 }
 
-interface BrandCounts {
-  brandId: string;
-  material_count: number;
-  package_count: number;
-  container_count: number;
-}
-
 export const BrandCard = ({ brand }: BrandCardProps) => {
   const id = slugifyName(brand.name) || brand.slug || brand.uuid;
 
-  const { data: counts } = useQuery({
-    queryKey: [`/api/brands/${id}/counts`],
-    queryFn: async () => {
-      const res = await fetch(`/api/brands/${id}/counts`);
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status}`);
-      }
-      return (await res.json()) as BrandCounts;
-    },
-    staleTime: 1000 * 60 * 5,
-    enabled: typeof window !== 'undefined' && !!id,
-  });
-
-  const materialCount = counts?.material_count ?? 0;
-  const packageCount = counts?.package_count ?? 0;
-  const isLoadingCounts = !counts;
+  const materialCount = brand?.material_count ?? 0;
+  const packageCount = brand?.package_count ?? 0;
+  const containerCount = brand?.container_count ?? 0;
 
   return (
     <Link
@@ -52,23 +30,18 @@ export const BrandCard = ({ brand }: BrandCardProps) => {
           <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
         </div>
         <div className="mt-2 flex flex-wrap gap-2">
-          {isLoadingCounts ? (
-            <>
-              <CountBadgeSkeleton />
-              <CountBadgeSkeleton />
-            </>
-          ) : (
-            <>
-              <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
-                <Box className="h-3 w-3" />
-                {materialCount} {materialCount === 1 ? 'material' : 'materials'}
-              </div>
-              <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
-                <Package className="h-3 w-3" />
-                {packageCount} {packageCount === 1 ? 'package' : 'packages'}
-              </div>
-            </>
-          )}
+          <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <Box className="h-3 w-3" />
+            {materialCount} {materialCount === 1 ? 'material' : 'materials'}
+          </div>
+          <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <Package className="h-3 w-3" />
+            {packageCount} {packageCount === 1 ? 'package' : 'packages'}
+          </div>
+          <div className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <Package className="h-3 w-3" />
+            {containerCount} {containerCount === 1 ? 'container' : 'containers'}
+          </div>
         </div>
       </button>
     </Link>

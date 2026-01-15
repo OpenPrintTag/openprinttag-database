@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react';
 
 import { FormField } from '~/components/FormField';
 
@@ -56,41 +56,30 @@ export const PropertiesEditor = ({
       ? (value as Record<string, PropertyValue>)
       : {};
 
-  const [localProperties, setLocalProperties] = useState<PropertyEntry[]>([]);
-
-  useEffect(() => {
-    const entries = Object.entries(properties);
-    setLocalProperties(
-      entries.map(([key, val]) => ({
-        key,
-        value: val,
-        valueType: detectValueType(val),
-      })),
-    );
-  }, [value]);
-
-  const updateProperties = useCallback(
-    (entries: PropertyEntry[]) => {
-      const props: Record<string, PropertyValue> = {};
-      entries.forEach((entry) => {
-        if (entry.key.trim()) {
-          props[entry.key.trim()] = convertValue(entry.value, entry.valueType);
-        }
-      });
-      onChange(Object.keys(props).length > 0 ? props : null);
-    },
-    [onChange],
+  const entries: PropertyEntry[] = Object.entries(properties).map(
+    ([key, val]) => ({
+      key,
+      value: val,
+      valueType: detectValueType(val),
+    }),
   );
 
+  const updateProperties = (newEntries: PropertyEntry[]) => {
+    const props: Record<string, PropertyValue> = {};
+    newEntries.forEach((entry) => {
+      if (entry.key.trim()) {
+        props[entry.key.trim()] = convertValue(entry.value, entry.valueType);
+      }
+    });
+    onChange(Object.keys(props).length > 0 ? props : null);
+  };
+
   const handleAdd = () => {
-    const newEntry = { key: '', value: '', valueType: 'string' };
-    setLocalProperties([...localProperties, newEntry]);
+    updateProperties([...entries, { key: '', value: '', valueType: 'string' }]);
   };
 
   const handleRemove = (index: number) => {
-    const updated = localProperties.filter((_, i) => i !== index);
-    setLocalProperties(updated);
-    updateProperties(updated);
+    updateProperties(entries.filter((_, i) => i !== index));
   };
 
   const handleUpdate = (
@@ -98,7 +87,7 @@ export const PropertiesEditor = ({
     field: 'key' | 'value' | 'valueType',
     newValue: string | PropertyValue,
   ) => {
-    const updated = [...localProperties];
+    const updated = [...entries];
     if (field === 'valueType') {
       updated[index] = {
         ...updated[index],
@@ -110,7 +99,6 @@ export const PropertiesEditor = ({
     } else {
       updated[index] = { ...updated[index], value: newValue as PropertyValue };
     }
-    setLocalProperties(updated);
     updateProperties(updated);
   };
 
@@ -165,9 +153,9 @@ export const PropertiesEditor = ({
   return (
     <FormField label={label} required={required}>
       <div className="space-y-4">
-        {localProperties.length > 0 ? (
+        {entries.length > 0 ? (
           <div className="space-y-3">
-            {localProperties.map((entry, index) => (
+            {entries.map((entry, index) => (
               <div
                 key={index}
                 className="rounded-md border border-gray-200 bg-white p-3"
@@ -221,7 +209,6 @@ export const PropertiesEditor = ({
                     type="button"
                     onClick={() => handleRemove(index)}
                     className="btn-secondary w-full text-red-600 hover:text-red-800"
-                    aria-label="Remove property"
                   >
                     Remove
                   </button>

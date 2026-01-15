@@ -1,6 +1,5 @@
 import { EntityFields } from '~/components/field-types';
 
-import { AdditionalInformationEditSection } from './sections/AdditionalInformationEditSection';
 import { BasicInformationEditSection } from './sections/BasicInformationEditSection';
 import { IntegrationEditSection } from './sections/IntegrationEditSection';
 import { MetadataEditSection } from './sections/MetadataEditSection';
@@ -33,11 +32,6 @@ export const BrandSheetEditView = ({
             onFieldChange={onFieldChange}
           />
           <MetadataEditSection
-            fields={fields}
-            form={form}
-            onFieldChange={onFieldChange}
-          />
-          <AdditionalInformationEditSection
             fields={fields}
             form={form}
             onFieldChange={onFieldChange}

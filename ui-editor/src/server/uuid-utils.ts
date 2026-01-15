@@ -36,11 +36,13 @@ export const generateMaterialUuid = (
  */
 export const generateMaterialPackageUuid = (
   brandUuid: string,
-  gtin: string,
+  gtin: string | number,
 ): string => {
   // Convert brand UUID to bytes and concatenate with GTIN
   const brandUuidBytes = Buffer.from(brandUuid.replace(/-/g, ''), 'hex');
-  const gtinBytes = Buffer.from(gtin, 'utf8');
+  // Ensure gtin is converted to string (it may come as a number from JSON payload)
+  const gtinStr = String(gtin);
+  const gtinBytes = Buffer.from(gtinStr, 'utf8');
   const combinedData = Buffer.concat([brandUuidBytes, gtinBytes]);
 
   // Convert to latin1 string to match Python's behavior

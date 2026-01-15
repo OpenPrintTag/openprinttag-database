@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import { FormField } from '~/components/FormField';
 import { useEnumOptions } from '~/hooks/useEnumOptions';
@@ -31,26 +31,17 @@ export const PhotosEditor = ({
 }: PhotosEditorProps) => {
   const { options, loading } = useEnumOptions('material_photo_types', 'slug');
   const photos: PhotoItem[] = Array.isArray(value) ? value : [];
-  const [localPhotos, setLocalPhotos] = useState<PhotoItem[]>(photos);
 
-  useEffect(() => {
-    setLocalPhotos(Array.isArray(value) ? value : []);
-  }, [value]);
-
-  const handleAdd = () => {
-    const newPhoto: PhotoItem = {
-      url: '',
-      type: 'unspecified',
-    };
-    const updated = [...localPhotos, newPhoto];
-    setLocalPhotos(updated);
+  const updatePhotos = (updated: PhotoItem[]) => {
     onChange(updated.length > 0 ? updated : null);
   };
 
+  const handleAdd = () => {
+    updatePhotos([...photos, { url: '', type: 'unspecified' }]);
+  };
+
   const handleRemove = (index: number) => {
-    const updated = localPhotos.filter((_, i) => i !== index);
-    setLocalPhotos(updated);
-    onChange(updated.length > 0 ? updated : null);
+    updatePhotos(photos.filter((_, i) => i !== index));
   };
 
   const handleUpdate = (
@@ -58,30 +49,29 @@ export const PhotosEditor = ({
     field: keyof PhotoItem,
     newValue: string,
   ) => {
-    const updated = [...localPhotos];
+    const updated = [...photos];
     updated[index] = { ...updated[index], [field]: newValue };
-    setLocalPhotos(updated);
-    onChange(updated.length > 0 ? updated : null);
+    updatePhotos(updated);
   };
 
   return (
     <FormField label={label} required={required}>
       <div className="space-y-4">
-        {localPhotos.length > 0 ? (
+        {photos.length > 0 ? (
           <div className="space-y-4">
-            {localPhotos.map((photo, index) => (
+            {photos.map((photo, index) => (
               <div
                 key={index}
                 className="rounded-md border border-gray-200 bg-white p-4"
               >
                 <div className="space-y-3">
                   {/* Preview */}
-                  {photo.url ? (
-                    <div>
-                      <label className="mb-1 block text-xs font-medium text-gray-700">
-                        Preview
-                      </label>
-                      <div className="h-32 w-32 overflow-hidden rounded border border-gray-200 bg-gray-50">
+                  <div>
+                    <label className="mb-1 block text-xs font-medium text-gray-700">
+                      Preview
+                    </label>
+                    <div className="flex h-32 w-32 items-center justify-center overflow-hidden rounded border border-gray-200 bg-gray-50 text-xs text-gray-400">
+                      {photo.url ? (
                         <img
                           src={photo.url}
                           alt={`Photo ${index + 1}`}
@@ -91,18 +81,11 @@ export const PhotosEditor = ({
                               'none';
                           }}
                         />
-                      </div>
+                      ) : (
+                        'No image'
+                      )}
                     </div>
-                  ) : (
-                    <div>
-                      <label className="mb-1 block text-xs font-medium text-gray-700">
-                        Preview
-                      </label>
-                      <div className="flex h-32 w-32 items-center justify-center rounded border border-gray-200 bg-gray-50 text-xs text-gray-400">
-                        No image
-                      </div>
-                    </div>
-                  )}
+                  </div>
 
                   {/* Fields */}
                   <div className="space-y-3">
@@ -152,7 +135,6 @@ export const PhotosEditor = ({
                     type="button"
                     onClick={() => handleRemove(index)}
                     className="btn-secondary w-full text-red-600 hover:text-red-800"
-                    aria-label="Remove photo"
                   >
                     Remove
                   </button>

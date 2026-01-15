@@ -8,20 +8,27 @@ export type EnumTable = {
 };
 
 export type UseEnumOptions = {
-  variant?: 'default' | 'basic';
+  brandId?: string;
 };
 
 export function useEnum(table: string | null, options?: UseEnumOptions) {
-  let url = table ? `/api/enum/${table}` : '';
+  let url = table ? `/enum/${table}` : '';
   if (table === 'brands') {
-    url = options?.variant === 'basic' ? '/api/brands/basic' : '/api/brands';
+    url = '/brands/basic';
   }
-  if (table === 'containers') url = '/api/containers';
+  if (table === 'containers') url = '/containers';
+  if (table === 'materials') url = '/materials';
+
+  if (options?.brandId && table === 'materials') {
+    url = `/brands/${options.brandId}${url}`;
+  }
+
+  url = url && `/api${url}`;
 
   const { data, loading, error, refetch } = useApi<EnumTable | EnumItem[]>(
     () => url,
     undefined,
-    [table, options?.variant],
+    [table, url],
   );
 
   // Normalize data format since /api/brands and /api/containers return arrays directly

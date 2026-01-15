@@ -7,12 +7,14 @@ interface ClassificationEditSectionProps {
   fields?: EntityFields;
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
+  brandId?: string;
 }
 
 export const ClassificationEditSection = ({
   fields,
   form,
   onFieldChange,
+  brandId,
 }: ClassificationEditSectionProps) => {
   if (!fields) return null;
 
@@ -31,7 +33,7 @@ export const ClassificationEditSection = ({
                   field={fields[key] as SchemaField}
                   value={form?.[key]}
                   onChange={(val) => onFieldChange(key, val)}
-                  entity="material"
+                  brandId={brandId}
                 />
               </div>
             );

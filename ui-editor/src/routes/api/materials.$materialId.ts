@@ -1,8 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
+import { Material } from '~/components/material-sheet';
 import { jsonError, readSingleEntity as readEntity } from '~/server/http';
-import type { Material } from '~/types/material';
 
 export const Route = createFileRoute('/api/materials/$materialId')({
   server: {

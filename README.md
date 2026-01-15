@@ -1,8 +1,3 @@
-> ### BEFORE_PUBLISHING
-> - Remove import scripts from Directus db
-> - Document the role of the UI editor in this repo
-> - Squash commits
-
 # OpenPrintTag Material Database
 
 An open-source material database for 3D printing, maintained by the community as part of the [OpenPrintTag](https://openprinttag.org) initiative.
@@ -26,6 +21,7 @@ All data strictly adheres to the format defined by the [OpenPrintTag Architectur
 - **Community-Driven**: Open to contributions from manufacturers, users, and developers
 - **Validated**: Strict schema validation against OpenPrintTag standards
 - **Tech-Agnostic**: Can be imported into any database system or application
+- **UI Editor**: Built-in editor for easy data management and contributions
 
 ## Data Structure
 
@@ -118,14 +114,6 @@ The validator checks:
 - UUID format and derivation
 - Pattern matching (GTINs, URLs, etc.)
 
-### Import Data
-
-Import data from JSON format (generates correct UUIDs):
-
-```bash
-make import
-```
-
 ### Run Tests
 
 Execute unit tests:
@@ -144,13 +132,13 @@ make help
 
 ## Workflow
 
-The typical workflow for working with the database:
+The typical workflow for contributing to the database:
 
 1. **Setup**: `make setup` - Install dependencies (first time only)
 2. **Fetch schemas**: `make fetch-schemas` - Download latest OpenPrintTag schemas
-3. **Validate**: `make validate` - Ensure data integrity before making changes
-4. **Make changes**: Edit YAML files in the `data/` directory
-5. **Validate again**: `make validate` - Verify your changes
+3. **Launch UI Editor**: Run `cd ui-editor && pnpm install && pnpm dev` to start the editor
+4. **Make changes**: Use the UI editor to add or update materials, brands, and other entities
+5. **Validate**: `make validate` - Verify your changes against the schema
 6. **Test**: `make test` - Run unit tests
 7. **Commit**: Create a pull request with your changes
 
@@ -174,30 +162,31 @@ We welcome contributions from the community! Whether you're a material manufactu
 
 ### How to Contribute
 
-Detailed contributing guidelines will be published soon. For now:
+We recommend using the built-in UI editor for all contributions. It ensures that your changes are correctly formatted and follow the schema requirements.
 
 1. Fork the repository
 2. Create a feature branch
-3. Add or update YAML files in the `data/` directory
-4. Run `make validate` to ensure your changes conform to the schema
-5. Submit a pull request
-6. Ensure your pull request passes the automated validation GitHub Action hook
+3. Launch the UI editor:
+   ```bash
+   cd ui-editor
+   pnpm install
+   pnpm dev
+   ```
+4. Use the editor to add or update information
+5. Run `make validate` to ensure your changes conform to the schema
+6. Submit a pull request
+7. Ensure your pull request passes the automated validation GitHub Action hook
 
-### Adding a New Material
+### Adding New Entities
 
-1. Ensure the brand exists in `data/brands/` (or create it)
-2. Create a material file: `data/materials/{brand-slug}/{material-slug}.yaml`
-3. Optionally add material packages: `data/material-packages/{brand-slug}/{package-slug}.yaml`
-4. Run `make validate` to verify
-5. Submit a pull request
+Whether you are adding a new material, brand, or container, the process is now simplified through the UI editor:
 
-### Adding a New Brand
-
-1. Create a brand file: `data/brands/{brand-slug}.yaml`
-2. Create brand subdirectories in `materials/` and `material-packages/` as needed
-3. Add materials and packages
-4. Run `make validate` to verify
-5. Submit a pull request
+1. Open the UI editor (`pnpm dev` in the `ui-editor` directory)
+2. Use the "Create" or "Add" buttons to add a new Brand, Material, or Package
+3. Fill in the required fields; the editor will guide you based on the schema
+4. Save your changes - the editor will automatically update the corresponding YAML files in the `data/` directory and generate UUIDs
+5. Run `make validate` to verify everything is correct
+6. Submit a pull request
 
 ## License
 

@@ -32,8 +32,7 @@ export const ContainerSheetReadView = ({
         data={container}
         fields={fields}
         primaryKeys={['uuid', 'slug', 'name', 'class']}
-        excludeKeys={['directus_uuid']}
-        entity="material_container"
+        entity="container"
       />
     </div>
   );

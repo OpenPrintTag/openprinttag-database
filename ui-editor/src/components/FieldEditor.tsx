@@ -1,400 +1,274 @@
-import React, { useMemo } from 'react';
+import React, { memo, useMemo } from 'react';
 
-import { useEnumOptions } from '~/hooks/useEnumOptions';
-import {
-  enumValueFieldForTable,
-  resolveEnumSource,
-  useLookupRelation,
-} from '~/hooks/useSchema';
+import { useFieldOptions } from '~/hooks/useFieldOptions';
+import { extractValue } from '~/utils/field';
 
 import { ColorArrayPicker, ColorPicker, JsonEditor } from './field-editors';
 import type { SchemaField } from './field-types';
 import { FormField } from './FormField';
+import { LinkPatternEditor } from './LinkPatternEditor';
 import { MultiSelect } from './MultiSelect';
 import { PhotosEditor } from './PhotosEditor';
 import { PropertiesEditor } from './PropertiesEditor';
 
-const extractValue = (val: unknown, valueField: string): string => {
-  if (typeof val === 'object' && val !== null) {
-    return String(
-      (val as any)[valueField] ??
-        (val as any).slug ??
-        (val as any).key ??
-        (val as any).id ??
-        '',
-    );
-  }
-  return String(val ?? '');
-};
-
-export const FieldEditor = ({
-  label,
-  field,
-  value,
-  onChange,
-  disabled = false,
-  entity = 'brand',
-}: {
+// Types
+interface FieldEditorProps {
   label: string;
   field: SchemaField;
   value: unknown;
   onChange: (val: unknown) => void;
   disabled?: boolean;
-  entity?: string;
-}) => {
-  const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
-  const type = field.type;
+  brandId?: string;
+}
 
-  const relation = useLookupRelation(entity, field, label);
-  const relOptions = useEnumOptions(
-    relation?.table ?? null,
-    relation?.valueField ?? null,
+const parseCommaSeparated = (input: string): string[] =>
+  input
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+const CommaSeparatedInput: React.FC<{
+  id?: string;
+  value: string[];
+  onChange: (val: string[]) => void;
+  disabled?: boolean;
+}> = ({ id, value, onChange, disabled }) => {
+  const [localValue, setLocalValue] = React.useState(() => value.join(', '));
+
+  React.useEffect(() => {
+    setLocalValue(value.join(', '));
+  }, [value]);
+
+  return (
+    <input
+      id={id}
+      className="input"
+      type="text"
+      placeholder="Comma separated"
+      value={localValue}
+      disabled={disabled}
+      onChange={(e) => setLocalValue(e.target.value)}
+      onBlur={() => onChange(parseCommaSeparated(localValue))}
+    />
   );
+};
 
-  const arelation = useLookupRelation(entity, field.items, label);
-  const aopts = useEnumOptions(
-    arelation?.table ?? null,
-    arelation?.valueField ?? null,
-  );
+export const FieldEditor: React.FC<FieldEditorProps> = memo(
+  ({ label, field, value, onChange, disabled = false, brandId }) => {
+    const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
+    const isRequired = !!field.required;
+    const fieldOptions = useFieldOptions(label, field, brandId);
+    const isReadOnly = disabled || field.type === 'uuid';
+    const realLabel = isReadOnly ? `${label} (read-only)` : label;
 
-  const enumSource = resolveEnumSource(field, label);
-  const enumValueField = enumValueFieldForTable(enumSource.table);
-  const enumOptions = useEnumOptions(enumSource.table, enumValueField);
+    // 1. Relations & Enums
+    if (fieldOptions.hasOptions) {
+      const valueField = fieldOptions.valueField ?? 'name';
+      if (fieldOptions.isArray || field.type === 'array') {
+        const arr = Array.isArray(value)
+          ? value.map((v) => extractValue(v, valueField))
+          : [];
+        return (
+          <FormField label={realLabel} htmlFor={inputId} required={isRequired}>
+            <MultiSelect
+              id={inputId}
+              options={fieldOptions.options}
+              value={arr}
+              onChange={(vals) =>
+                onChange(
+                  vals.map(
+                    (v) =>
+                      fieldOptions.options.find((o) => String(o.value) === v)
+                        ?.data ?? v,
+                  ),
+                )
+              }
+              disabled={disabled || fieldOptions.loading}
+              placeholder={
+                fieldOptions.loading ? 'Loading…' : 'Select items...'
+              }
+            />
+          </FormField>
+        );
+      }
 
-  // Helper for common wrapper
-  const Wrapper = ({ children }: { children: React.ReactNode }) => (
-    <FormField label={label} htmlFor={inputId} required={field.required}>
-      {children}
-    </FormField>
-  );
-
-  // Single-value foreign key → dropdown
-  if (relation?.isLookup && relation.table && type !== 'array') {
-    const stringValue = extractValue(value, relation.valueField || 'slug');
-    return (
-      <Wrapper>
-        <select
-          id={inputId}
-          className="select"
-          value={stringValue}
-          onChange={(e) => onChange(e.target.value || null)}
-          disabled={disabled || relOptions.loading || !!relOptions.error}
-        >
-          <option value="" disabled>
-            {relOptions.loading ? 'Loading…' : 'Select…'}
-          </option>
-          {relOptions.options.map((opt) => (
-            <option key={opt.value} value={String(opt.value)}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-        {relOptions.error && (
-          <div className="mt-1 text-[11px] text-amber-700">
-            Failed to load options.
-          </div>
-        )}
-      </Wrapper>
-    );
-  }
-
-  // Array of foreign keys → multi-select
-  if (type === 'array' && arelation?.isLookup && arelation.table) {
-    const arr: string[] = Array.isArray(value)
-      ? value.map((v) => extractValue(v, arelation.valueField || 'id'))
-      : [];
-
-    if (aopts.error) {
       return (
-        <Wrapper>
-          <div className="mt-1 text-[11px] text-amber-700">
-            Failed to load options; using comma separated fallback below.
-          </div>
-          <input
-            className="input mt-2"
-            type="text"
-            placeholder="Comma separated"
-            value={arr.join(', ')}
-            onChange={(e) =>
-              onChange(
-                e.target.value
-                  .split(',')
-                  .map((s) => s.trim())
-                  .filter(Boolean),
-              )
-            }
-          />
-        </Wrapper>
+        <FormField label={realLabel} htmlFor={inputId} required={isRequired}>
+          <select
+            id={inputId}
+            className="select"
+            value={extractValue(value, valueField)}
+            onChange={(e) => {
+              const val = e.target.value;
+              const opt = fieldOptions.options.find(
+                (o) => String(o.value) === val,
+              );
+              onChange((opt?.data ?? val) || null);
+            }}
+            disabled={disabled || fieldOptions.loading}
+          >
+            <option value="" disabled>
+              {fieldOptions.loading ? 'Loading…' : 'Select…'}
+            </option>
+            {fieldOptions.options.map((opt) => (
+              <option key={String(opt.value)} value={String(opt.value)}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        </FormField>
       );
     }
 
-    return (
-      <Wrapper>
-        <MultiSelect
-          id={inputId}
-          options={aopts.options}
-          value={arr}
+    // 2. Special Types (Colors, Photos, Properties)
+    if (field.title === 'MaterialColor' || label === 'primary_color') {
+      return (
+        <ColorPicker
+          label={label}
+          value={value}
           onChange={onChange}
-          disabled={disabled || aopts.loading}
-          placeholder={aopts.loading ? 'Loading…' : 'Select items...'}
-          searchPlaceholder="Search..."
+          required={isRequired}
         />
-      </Wrapper>
-    );
-  }
-
-  if (
-    type === 'string' ||
-    type === 'slug' ||
-    type === 'uuid' ||
-    type === 'rgba'
-  ) {
-    const stringValue = typeof value === 'string' ? value : '';
-    const isUuid = type === 'uuid';
-    const isDisabled = disabled || isUuid;
-    return (
-      <FormField
-        label={isDisabled ? `${label} (read-only)` : label}
-        htmlFor={inputId}
-        required={field.required}
-      >
-        <input
-          id={inputId}
-          className={`input ${isDisabled ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
-          type="text"
-          value={stringValue}
-          onChange={(e) => onChange(e.target.value)}
-          disabled={isDisabled}
-          title={isDisabled ? 'This field is not editable' : undefined}
-        />
-      </FormField>
-    );
-  }
-
-  if (type === 'integer' || type === 'number') {
-    const numberValue = typeof value === 'number' ? value : '';
-    return (
-      <Wrapper>
-        <input
-          id={inputId}
-          className="input"
-          type="number"
-          value={numberValue}
-          disabled={disabled}
-          onChange={(e) => {
-            if (e.target.value === '') {
-              onChange(null);
-            } else {
-              const val =
-                type === 'integer'
-                  ? parseInt(e.target.value, 10)
-                  : parseFloat(e.target.value);
-              onChange(isNaN(val) ? null : val);
-            }
-          }}
-        />
-      </Wrapper>
-    );
-  }
-
-  if (type === 'boolean') {
-    return (
-      <Wrapper>
-        <input
-          id={inputId}
-          type="checkbox"
-          className="checkbox"
-          checked={!!value}
-          disabled={disabled}
-          onChange={(e) => onChange(e.target.checked)}
-        />
-      </Wrapper>
-    );
-  }
-
-  if (enumSource.isEnum) {
-    const inlineValues = enumSource.enumValues ?? [];
-    const options =
-      enumOptions.options.length > 0
-        ? enumOptions.options
-        : inlineValues.map((v) => ({ value: String(v), label: String(v) }));
-
-    if (enumSource.isArray) {
-      const arr: string[] = Array.isArray(value)
-        ? value.map((v: any) => String(v))
-        : [];
-
-      return (
-        <Wrapper>
-          {enumSource.table && enumOptions.error && (
-            <div className="mt-1 text-[11px] text-amber-700">
-              Failed to load options; showing inline values if available.
-            </div>
-          )}
-          <MultiSelect
-            id={inputId}
-            options={options}
-            value={arr}
-            onChange={onChange}
-            disabled={
-              disabled || (enumSource.table ? enumOptions.loading : false)
-            }
-            placeholder={
-              enumSource.table && enumOptions.loading
-                ? 'Loading…'
-                : 'Select items...'
-            }
-            searchPlaceholder="Search..."
-          />
-        </Wrapper>
       );
     }
 
-    const enumValue =
-      typeof value === 'string' || typeof value === 'number'
-        ? String(value)
-        : '';
-    return (
-      <Wrapper>
-        <select
-          id={inputId}
-          className="select"
-          value={enumValue}
-          disabled={
-            disabled || (enumSource.table ? enumOptions.loading : false)
-          }
-          onChange={(e) => onChange(e.target.value)}
-        >
-          <option value="" disabled>
-            {enumSource.table && enumOptions.loading ? 'Loading…' : 'Select…'}
-          </option>
-          {options.map((opt) => (
-            <option key={String(opt.value)} value={String(opt.value)}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-        {enumSource.table && enumOptions.error && (
-          <div className="mt-1 text-[11px] text-amber-700">
-            Failed to load options; using inline values if present.
-          </div>
-        )}
-      </Wrapper>
-    );
-  }
-
-  if (type === 'array') {
-    const itemType = field.items?.type;
-    const isPrimitiveItem =
-      !itemType || ['string', 'slug', 'uuid'].includes(itemType as string);
-
-    // If it's a primitive array but NOT a lookup and NOT an enum, use comma separated input
-    if (isPrimitiveItem && !arelation?.isLookup && !field.items?.enum) {
-      const arr: string[] = Array.isArray(value) ? value : [];
-      return (
-        <Wrapper>
-          <input
-            id={inputId}
-            className="input"
-            type="text"
-            placeholder="Comma separated"
-            value={arr.join(', ')}
-            disabled={disabled}
-            onChange={(e) =>
-              onChange(
-                e.target.value
-                  .split(',')
-                  .map((s) => s.trim())
-                  .filter(Boolean),
-              )
-            }
-          />
-        </Wrapper>
-      );
-    }
-
-    // Special handling for secondary_colors
     if (
-      label === 'secondary_colors' &&
-      field.items?.type === 'object' &&
-      (field.items?.properties?.color_rgba || field.items?.fields?.rgba)
+      field.type === 'array' &&
+      (field.items?.title === 'MaterialColor' || label === 'secondary_colors')
     ) {
       return (
         <ColorArrayPicker
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={isRequired}
         />
       );
     }
 
-    // Special handling for photos
     if (
-      label === 'photos' &&
-      field.items?.type === 'object' &&
-      (field.items?.properties?.url ||
-        field.items?.fields?.url?.type === 'url') &&
-      (field.items?.properties?.type ||
-        field.items?.fields?.type?.type === 'enum')
+      field.type === 'array' &&
+      (field.items?.title === 'MaterialPhoto' || label === 'photos')
     ) {
       return (
         <PhotosEditor
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={isRequired}
         />
       );
     }
 
-    return <JsonEditor label={label} value={value} onChange={onChange} />;
-  }
-
-  if (type === 'object') {
-    // Special handling for primary_color
     if (
-      label === 'primary_color' &&
-      (field.properties?.color_rgba || field.fields?.rgba)
+      field.type === 'array' &&
+      (field.items?.title === 'LinkPatterns' || label === 'link_patterns')
     ) {
       return (
-        <ColorPicker
+        <LinkPatternEditor
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={isRequired}
         />
       );
     }
 
-    // Special handling for properties
     if (label === 'properties' && !field.properties && !field.fields) {
       return (
         <PropertiesEditor
           label={label}
           value={value}
           onChange={onChange}
-          required={field.required}
+          required={isRequired}
         />
       );
     }
 
-    return <JsonEditor label={label} value={value} onChange={onChange} />;
-  }
+    // 3. Primitive Types
+    switch (field.type) {
+      case 'boolean':
+        return (
+          <FormField label={label} htmlFor={inputId} required={isRequired}>
+            <input
+              id={inputId}
+              type="checkbox"
+              className="checkbox"
+              checked={!!value}
+              disabled={disabled}
+              onChange={(e) => onChange(e.target.checked)}
+            />
+          </FormField>
+        );
 
-  // Default fallback: string input
-  const fallbackValue =
-    typeof value === 'string' || typeof value === 'number' ? String(value) : '';
-  return (
-    <FormField label={label} htmlFor={inputId} required={field.required}>
-      <input
-        id={inputId}
-        className="input"
-        type="text"
-        value={fallbackValue}
-        disabled={disabled}
-        onChange={(e) => onChange(e.target.value)}
-      />
-    </FormField>
-  );
-};
+      case 'integer':
+      case 'number':
+        return (
+          <FormField label={label} htmlFor={inputId} required={isRequired}>
+            <input
+              id={inputId}
+              className="input"
+              type="number"
+              value={typeof value === 'number' ? value : ''}
+              disabled={disabled}
+              onChange={(e) => {
+                const val = e.target.value;
+                if (val === '') return onChange(null);
+                const parsed =
+                  field.type === 'integer'
+                    ? parseInt(val, 10)
+                    : parseFloat(val);
+                onChange(isNaN(parsed) ? null : parsed);
+              }}
+            />
+          </FormField>
+        );
+
+      case 'array': {
+        const itemType = field.items?.type;
+        if (
+          !itemType ||
+          ['string', 'slug', 'uuid'].includes(itemType as string)
+        ) {
+          return (
+            <FormField
+              label={realLabel}
+              htmlFor={inputId}
+              required={isRequired}
+            >
+              <CommaSeparatedInput
+                id={inputId}
+                value={Array.isArray(value) ? value : []}
+                onChange={onChange}
+                disabled={disabled}
+              />
+            </FormField>
+          );
+        }
+        return <JsonEditor label={label} value={value} onChange={onChange} />;
+      }
+
+      case 'object':
+        return <JsonEditor label={label} value={value} onChange={onChange} />;
+
+      case 'uuid':
+      case 'slug':
+      case 'string':
+      case 'rgba':
+      default: {
+        return (
+          <FormField label={realLabel} htmlFor={inputId} required={isRequired}>
+            <input
+              id={inputId}
+              className={`input ${isReadOnly ? 'cursor-not-allowed bg-gray-50 text-gray-500' : ''}`}
+              type="text"
+              value={typeof value === 'string' ? value : ''}
+              onChange={(e) => onChange(e.target.value)}
+              disabled={isReadOnly}
+            />
+          </FormField>
+        );
+      }
+    }
+  },
+);
