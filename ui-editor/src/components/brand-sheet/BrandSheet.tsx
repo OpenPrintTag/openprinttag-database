@@ -81,7 +81,7 @@ export const BrandSheet = ({
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent className="w-full overflow-y-auto sm:max-w-2xl">
+      <SheetContent size="large" className="overflow-y-auto">
         <EntitySheetHeader
           readOnly={isReadOnly}
           entity={form as Brand}
