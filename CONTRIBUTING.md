@@ -7,9 +7,7 @@ Thank you for your interest in contributing! This guide will walk you through ad
 ## Table of Contents
 
 - [Before You Start](#before-you-start)
-- [How to Add a New Brand](#how-to-add-a-new-brand)
-- [How to Add a New Material](#how-to-add-a-new-material)
-- [How to Edit Existing Data](#how-to-edit-existing-data)
+- [How to Contribute](#how-to-contribute)
 - [How to Submit Your Changes (Pull Request)](#how-to-submit-your-changes-pull-request)
 - [Validation](#validation)
 - [Getting Help](#getting-help)
@@ -17,6 +15,16 @@ Thank you for your interest in contributing! This guide will walk you through ad
 ---
 
 ## Before You Start
+
+### Understand the Architecture
+
+Before contributing, we recommend familiarizing yourself with the [OpenPrintTag Architecture](https://arch.openprinttag.org). This will help you understand:
+
+- The data structure and relationships between entities
+- Required and optional fields for each entity type
+- Allowed values for enums and fields
+- UUID derivation rules
+- Naming conventions and best practices
 
 ### Choose Your Method
 
@@ -56,31 +64,35 @@ Examples:
 
 ---
 
-## How to Add a New Brand
+## How to Contribute
+
+You can add or edit data (brands, materials, packages, containers) using any of the three methods below. Choose the one that works best for you!
 
 ### Method 1: GitHub Web Editor (Easiest)
 
-1. Go to the [data/brands](https://github.com/OpenPrintTag/openprinttag-database/tree/main/data/brands) folder
-2. Click **"Add file"** → **"Create new file"**
-3. Name it `{brand-slug}.yaml` (e.g., `my-brand.yaml`)
-4. Add the content:
+Best for: Small edits, typo fixes, quick additions
 
-```yaml
-uuid: ""  # Leave empty - will be auto-generated
-slug: my-brand
-name: My Brand
-countries_of_origin:
-- US
-```
+1. Navigate to the relevant folder in the repository:
+   - Brands: `data/brands/`
+   - Materials: `data/materials/{brand-slug}/`
+   - Packages: `data/material-packages/{brand-slug}/`
+   - Containers: `data/material-containers/`
 
-5. Scroll down and click **"Propose new file"**
+2. Click **"Add file"** → **"Create new file"** (or click ✏️ to edit existing files)
+
+3. Name the file `{slug}.yaml` following the naming convention
+
+4. Add the required fields (see [Schema Documentation](https://arch.openprinttag.org) for details)
+
+5. Scroll down and click **"Propose new file"** or **"Propose changes"**
+
 6. Follow the prompts to create a Pull Request
 
-> **Note:** UUIDs are derived using UUIDv5 (SHA1 hash) according to the [OpenPrintTag Architecture UUID specification](https://arch.openprinttag.org/#/uuid). For brands, the UUID is derived from the brand name. You can leave the UUID empty or omit it entirely - it will be auto-generated during validation.
+> **Note:** UUIDs are derived using UUIDv5 (SHA1 hash) according to the [OpenPrintTag Architecture UUID specification](https://arch.openprinttag.org/#/uuid). You can leave UUID fields empty - they will be auto-generated during validation.
 
-### Method 2: UI Editor
+### Method 2: UI Editor (Recommended)
 
-The UI editor can be used to browse and edit existing brands, but new brands must be created using YAML files (see Method 3 below).
+Best for: Adding multiple items, complex changes, visual editing
 
 1. **Clone the repository:**
    ```bash
@@ -96,201 +108,41 @@ The UI editor can be used to browse and edit existing brands, but new brands mus
 
 3. **Open http://localhost:3000** in your browser
 
-4. Use the editor to browse existing brands and edit them, or create the brand file manually (see Method 3).
+4. Use the editor to:
+   - Browse existing brands, materials, packages, and containers
+   - Add new materials, packages, and containers (via the "+ Add" buttons)
+   - Edit existing entries
+   - View allowed values in the **Enum** tab
+
+> **Note:** New brands must be created using YAML files (Method 1 or 3), as the UI editor doesn't support brand creation yet.
 
 ### Method 3: Direct YAML Editing
 
-1. Create a new file at `data/brands/{slug}.yaml`
-2. Add the required fields:
+Best for: Batch changes, scripting, advanced users
 
-```yaml
-uuid: ""  # Leave empty - UUID will be derived from brand name using UUIDv5
-slug: my-brand
-name: My Brand
-countries_of_origin:
-- US
-website: https://example.com  # Optional
-```
+1. Clone the repository and open files in your editor
 
-> **Note:** UUIDs are derived using UUIDv5 (SHA1 hash) according to the [OpenPrintTag Architecture UUID specification](https://arch.openprinttag.org/#/uuid). For brands, the UUID is derived from the brand name. You can leave the UUID empty or omit it entirely - it will be auto-generated during validation.
+2. Create or edit YAML files in the appropriate directories:
+   - Brands: `data/brands/{slug}.yaml`
+   - Materials: `data/materials/{brand-slug}/{material-slug}.yaml`
+   - Packages: `data/material-packages/{brand-slug}/{package-slug}.yaml`
+   - Containers: `data/material-containers/{slug}.yaml`
 
-3. Run validation:
+3. Follow the [OpenPrintTag Architecture schema](https://arch.openprinttag.org) for field requirements
+
+4. Validate your changes:
    ```bash
    make validate
    ```
 
-### Brand Fields Reference
+5. Commit and push your changes (see [How to Submit Your Changes](#how-to-submit-your-changes-pull-request))
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| `uuid` | Yes* | Unique identifier (derived from brand name using UUIDv5 if empty - see [UUID specification](https://arch.openprinttag.org/#/uuid)) |
-| `slug` | Yes | URL-friendly identifier |
-| `name` | Yes | Display name |
-| `countries_of_origin` | Yes | List of ISO 3166-1 alpha-2 country codes |
-| `website` | No | Brand's website URL |
-| `link_patterns` | No | URL patterns for product pages |
+### Important Notes
 
----
-
-## How to Add a New Material
-
-Materials belong to brands. Make sure the brand exists first!
-
-### Method 1: GitHub Web Editor
-
-1. Navigate to `data/materials/{brand-slug}/`
-2. If the folder doesn't exist, create it along with the file
-3. Create a new file named `{material-slug}.yaml`
-4. Add the content:
-
-```yaml
-uuid: ""  # Leave empty - UUID will be derived from brand UUID + material name using UUIDv5
-slug: my-brand-pla-blue
-brand:
-  slug: my-brand
-name: PLA Blue
-class: FFF
-type: PLA
-abbreviation: PLA
-primary_color:
-  color_rgba: '#0066ffff'
-properties:
-  density: 1.24
-  min_print_temperature: 200
-  max_print_temperature: 220
-  min_bed_temperature: 50
-  max_bed_temperature: 60
-```
-
-> **Note:** Material UUIDs are derived from the brand UUID and material name using UUIDv5. See the [UUID specification](https://arch.openprinttag.org/#/uuid) for details.
-
-5. Propose the new file and create a Pull Request
-
-### Method 2: UI Editor (Recommended)
-
-1. Start the editor (see above)
-2. Navigate to **Brands** → Click on the brand
-3. In the **Materials** section, click **"+ Add Material"**
-4. Fill in the form
-5. Click **Save**
-
-### Method 3: Direct YAML Editing
-
-Create `data/materials/{brand-slug}/{material-slug}.yaml`:
-
-```yaml
-uuid: ""
-slug: my-brand-pla-blue
-brand:
-  slug: my-brand
-name: PLA Blue
-class: FFF
-type: PLA
-abbreviation: PLA
-primary_color:
-  color_rgba: '#0066ffff'
-transmission_distance: 6.0  # Optional: light transmission depth
-tags:
-- industrially_compostable  # Optional
-certifications:
-- ul_2904  # Optional
-photos:
-- url: https://example.com/image.jpg
-  type: unspecified
-properties:
-  density: 1.24
-  hardness_shore_d: 75
-  min_print_temperature: 200
-  max_print_temperature: 220
-  preheat_temperature: 170
-  min_bed_temperature: 50
-  max_bed_temperature: 60
-  chamber_temperature: 25
-  min_chamber_temperature: 20
-  max_chamber_temperature: 40
-```
-
-### Material Fields Reference
-
-| Field | Required | Description |
-|-------|----------|-------------|
-| `uuid` | Yes* | Unique identifier (derived from brand UUID + material name using UUIDv5 if empty - see [UUID specification](https://arch.openprinttag.org/#/uuid)) |
-| `slug` | Yes | URL-friendly identifier (usually `{brand}-{type}-{color}`) |
-| `brand.slug` | Yes | Reference to the brand |
-| `name` | Yes | Display name |
-| `class` | Yes | `FFF` for filaments, `SLA` for resins |
-| `type` | Yes | Material type (PLA, PETG, ASA, TPU, etc.) |
-| `abbreviation` | Yes | Short material name |
-| `primary_color.color_rgba` | No | Primary color in `#rrggbbaa` format |
-| `properties` | No | Physical and printing properties |
-| `tags` | No | Special material properties |
-| `certifications` | No | Material certifications |
-
----
-
-## How to Add a Material Package
-
-Packages represent physical products (spools you can buy). They reference a material and container.
-
-### Using the UI Editor
-
-1. Navigate to **Brands** → Click on the brand
-2. In the **Packages** section, click **"+ Add Package"**
-3. Fill in:
-   - **Material:** Select from the brand's materials
-   - **Container:** Select spool type (e.g., "1000g")
-   - **Nominal Weight:** Net material weight in grams
-   - **Filament Diameter:** 1750 (1.75mm) or 2850 (2.85mm)
-   - **GTIN:** Barcode number (optional but helpful!)
-4. Click **Save**
-
-### Direct YAML
-
-Create `data/material-packages/{brand-slug}/{package-slug}.yaml`:
-
-```yaml
-uuid: ""  # Leave empty - UUID will be derived from brand UUID + GTIN using UUIDv5
-slug: my-brand-pla-blue-1000-spool
-class: FFF
-material:
-  slug: my-brand-pla-blue
-nominal_netto_full_weight: 1000
-gtin: "1234567890123"
-container:
-  slug: 1000g
-filament_diameter: 1750
-```
-
-> **Note:** Package UUIDs are derived from the brand UUID and GTIN using UUIDv5. See the [UUID specification](https://arch.openprinttag.org/#/uuid) for details.
-
----
-
-## How to Edit Existing Data
-
-### Quick Edits via GitHub
-
-1. Navigate to the file you want to edit in the GitHub repository
-2. Click the **pencil icon** ✏️ to edit
-3. Make your changes
-4. Scroll down, add a commit message describing your change
-5. Click **"Propose changes"**
-6. Create a Pull Request
-
-### Using the UI Editor
-
-1. Start the editor
-2. Navigate to the entity (brand, material, package)
-3. Click on it to open the detail view
-4. Click **"Edit"** button
-5. Make your changes
-6. Click **"Save"**
-
-### Direct File Editing
-
-1. Open the YAML file in your editor
-2. Make changes
-3. Validate: `make validate`
-4. Commit and push
+- **UUIDs**: Leave UUID fields empty - they will be automatically derived according to the [UUID specification](https://arch.openprinttag.org/#/uuid)
+- **Slugs**: Must be lowercase, hyphen-separated, and unique within their category
+- **Schema**: Always refer to the [OpenPrintTag Architecture documentation](https://arch.openprinttag.org) for current field requirements and allowed values
+- **Validation**: Always run `make validate` before submitting changes
 
 ---
 
@@ -298,9 +150,9 @@ filament_diameter: 1750
 
 ### If You Made Changes on GitHub Web
 
-GitHub automatically guides you through creating a Pull Request after proposing changes.
+GitHub automatically guides you through creating a Pull Request after proposing changes. Just follow the prompts!
 
-### If You Made Local Changes
+### If You Made Local Changes (UI Editor or Direct YAML)
 
 1. **Create a fork** (if you haven't already):
    - Go to the repository on GitHub
@@ -314,34 +166,30 @@ GitHub automatically guides you through creating a Pull Request after proposing 
 
 3. **Create a branch:**
    ```bash
-   git checkout -b add-my-brand
+   git checkout -b add-my-contribution
    ```
 
-4. **Make your changes** using the UI editor or direct editing
+4. **Make your changes** using Method 2 (UI Editor) or Method 3 (Direct YAML)
 
 5. **Validate your changes:**
    ```bash
    make validate
    ```
 
-6. **Commit your changes:**
+6. **Commit and push:**
    ```bash
    git add .
-   git commit -m "Add My Brand with PLA materials"
+   git commit -m "Add/update: describe your changes"
+   git push origin add-my-contribution
    ```
 
-7. **Push to your fork:**
-   ```bash
-   git push origin add-my-brand
-   ```
-
-8. **Create Pull Request:**
+7. **Create Pull Request:**
    - Go to your fork on GitHub
    - Click **"Compare & pull request"**
    - Fill in the description explaining what you added/changed
    - Click **"Create pull request"**
 
-9. **Wait for review:**
+8. **Wait for review:**
    - Automated validation will run
    - Maintainers will review your changes
    - You may be asked to make adjustments
