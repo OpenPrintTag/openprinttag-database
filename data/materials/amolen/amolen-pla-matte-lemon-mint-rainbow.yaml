@@ -6,15 +6,14 @@ name: PLA Matte Lemon Mint Rainbow
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.amolen.com/products/pla-matte-rainbow-filament-1-75mm-1kg-2-2lb?variant=42112112230423
 secondary_colors:
-- color_rgba: '#fffb00ff'
-- color_rgba: '#98fbcbff'
-- color_rgba: '#adebb3ff'
+- color_rgba: '#d9d4c6ff'
+- color_rgba: '#d6ea65ff'
+- color_rgba: '#63c6a3ff'
+- color_rgba: '#9eda7fff'
 tags:
 - matte
-- industrially_compostable
 - gradual_color_change
-photos:
-- url: https://file.myfilamentlist.com/f/0d009679-75df-4e60-b6e0-a394d99ee986/2e2149b336ee.png
-  type: unspecified
-properties: {}
+properties:
+  density: 1.24

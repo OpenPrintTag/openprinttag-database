@@ -6,11 +6,15 @@ name: PLA Matte Pastel Berry Rainbow
 class: FFF
 type: PLA
 abbreviation: PLA
-primary_color:
-  color_rgba: '#81a4d5ff'
+url: https://www.amolen.com/products/pla-matte-rainbow-filament-1-75mm-1kg-2-2lb?variant=42112112754711
+secondary_colors:
+- color_rgba: '#4d99b0ff'
+- color_rgba: '#f5cf6fff'
+- color_rgba: '#f19269ff'
+- color_rgba: '#93b580ff'
+- color_rgba: '#bb1173ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://file.myfilamentlist.com/filaments/new/2.2LB
-  type: unspecified
-properties: {}
+- matte
+- gradual_color_change
+properties:
+  density: 1.24

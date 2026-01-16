@@ -6,9 +6,11 @@ name: PLA Shiny Glitter Black Yellow Green
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.amolen.com/products/pla-shiny-glitter
 secondary_colors:
 - color_rgba: '#ffbf00ff'
 - color_rgba: '#11784fff'
+- color_rgba: '#000000ff'
 tags:
 - glitter
 - silk

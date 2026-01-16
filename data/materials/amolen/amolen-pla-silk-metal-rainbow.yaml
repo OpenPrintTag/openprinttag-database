@@ -1,0 +1,18 @@
+uuid: 18f8b7ef-64c6-5100-acd1-f2a40d7c9078
+slug: amolen-pla-silk-metal-rainbow
+brand:
+  slug: amolen
+name: PLA Silk Metal Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-silk-rainbow?variant=31081938354199
+secondary_colors:
+- color_rgba: '#e78a5aff'
+- color_rgba: '#caac78ff'
+- color_rgba: '#c3c199ff'
+tags:
+- silk
+- gradual_color_change
+properties:
+  density: 1.28

@@ -1,0 +1,18 @@
+uuid: 8646dfe5-f9fd-5aa4-98b5-04f381bb8090
+slug: amolen-pla-matte-rosy-rainbow
+brand:
+  slug: amolen
+name: PLA Matte Rosy Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-matte-rainbow-filament-1-75mm-1kg-2-2lb?variant=43040517324823
+secondary_colors:
+- color_rgba: '#fe0193ff'
+- color_rgba: '#f7a7a1ff'
+- color_rgba: '#fc76a5ff'
+tags:
+- matte
+- gradual_color_change
+properties:
+  density: 1.24

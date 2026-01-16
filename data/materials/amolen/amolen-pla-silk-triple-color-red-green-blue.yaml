@@ -1,0 +1,18 @@
+uuid: 158146eb-13c7-5f8f-b2e0-e6e8a91eb2db
+slug: amolen-pla-silk-triple-color-red-green-blue
+brand:
+  slug: amolen
+name: PLA Silk Triple Color Red Green Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amolen.com/products/pla-silk-triple?variant=40585188999191
+secondary_colors:
+- color_rgba: '#00c26bff'
+- color_rgba: '#f600c7ff'
+- color_rgba: '#4921c1ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.27
