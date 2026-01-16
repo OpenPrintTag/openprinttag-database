@@ -80,73 +80,25 @@ data/
 
 Manufacturers and suppliers of materials.
 
-```yaml
-# data/brands/prusament.yaml
-uuid: ae5ff34e-298e-50c9-8f77-92a97fb30b09
-slug: prusament
-name: Prusament
-countries_of_origin:
-- CZ
-```
+See example: [`data/brands/prusament.yaml`](data/brands/prusament.yaml)
 
 ### Materials
 
 Individual materials with detailed properties.
 
-```yaml
-# data/materials/prusament/prusament-pla-prusa-orange.yaml
-uuid: 261ae7e7-20d9-5969-9ed5-dd82eea29bcf
-slug: prusament-pla-prusa-orange
-brand:
-  slug: prusament
-name: PLA Prusa Orange
-class: FFF
-type: PLA
-abbreviation: PLA
-primary_color:
-  color_rgba: '#fe6e32ff'
-transmission_distance: 6.6
-tags:
-- industrially_compostable
-certifications:
-- ul_2904
-properties:
-  density: 1.24
-  min_print_temperature: 205
-  max_print_temperature: 225
-  min_bed_temperature: 40
-  max_bed_temperature: 60
-```
+See example: [`data/materials/prusament/prusament-asa-jet-black.yaml`](data/materials/prusament/prusament-asa-jet-black.yaml)
 
 ### Material Packages
 
 Physical products you can buy — spools with barcodes.
 
-```yaml
-# data/material-packages/prusament/prusament-pla-prusa-orange-1000-spool.yaml
-uuid: 6b9c7b1d-0ebe-5177-a6a7-4e3aa38d0a3b
-slug: prusament-pla-prusa-orange-1000-spool
-class: FFF
-material:
-  slug: prusament-pla-prusa-orange
-nominal_netto_full_weight: 1000
-gtin: 8594173675292
-container:
-  slug: old-prusament-spool-1kg
-filament_diameter: 1750
-```
+See example: [`data/material-packages/prusament/prusament-pla-prusa-orange-1000-spool.yaml`](data/material-packages/prusament/prusament-pla-prusa-orange-1000-spool.yaml)
 
 ### Material Containers
 
 Spool and container specifications.
 
-```yaml
-# data/material-containers/1000g.yaml
-uuid: 24b4f4e3-3339-452d-964f-6af71695e0cf
-slug: 1000g
-name: 1000g
-class: FFF
-```
+See example: [`data/material-containers/1000g.yaml`](data/material-containers/1000g.yaml)
 
 ---
 
