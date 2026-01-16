@@ -12,6 +12,11 @@ import * as React from 'react';
 import { Toaster } from 'sonner';
 
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
+import {
+  GlobalSearch,
+  GlobalSearchTrigger,
+  useGlobalSearch,
+} from '~/components/GlobalSearch';
 import { NotFound } from '~/components/NotFound';
 import appCss from '~/styles/global.css?url';
 import { seo } from '~/utils/seo';
@@ -89,59 +94,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body style={{ backgroundColor: 'hsl(var(--background))' }}>
         <QueryClientProvider client={queryClient}>
-          {/* Navigation Bar */}
-          <nav
-            className="sticky top-0 z-50 border-b shadow-sm"
-            style={{
-              backgroundColor: 'hsl(var(--card))',
-              borderColor: 'hsl(var(--border))',
-            }}
-          >
-            <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-              <div className="flex items-center gap-8">
-                <Link to="/brands" className="flex items-center gap-3">
-                  <img src="/logo.svg" alt="Prusa Logo" className="h-8" />
-                </Link>
-                <div className="flex items-center gap-6">
-                  <Link
-                    to="/brands"
-                    activeProps={{
-                      className: 'font-semibold',
-                      style: { color: 'hsl(var(--primary))' },
-                    }}
-                    className="text-base transition-colors hover:opacity-80"
-                    style={{ color: 'hsl(var(--foreground))' }}
-                  >
-                    Brands
-                  </Link>
-                  <Link
-                    to="/containers"
-                    activeProps={{
-                      className: 'font-semibold',
-                      style: { color: 'hsl(var(--primary))' },
-                    }}
-                    className="text-base transition-colors hover:opacity-80"
-                    style={{ color: 'hsl(var(--foreground))' }}
-                  >
-                    Containers
-                  </Link>
-                  <Link
-                    to="/enum"
-                    activeProps={{
-                      className: 'font-semibold',
-                      style: { color: 'hsl(var(--primary))' },
-                    }}
-                    className="text-base transition-colors hover:opacity-80"
-                    style={{ color: 'hsl(var(--foreground))' }}
-                  >
-                    Enum
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </nav>
-          {/* Main Content */}
-          <div className="min-h-screen">{children}</div>
+          <AppShell>{children}</AppShell>
           <Toaster position="top-right" richColors />
           <ReactQueryDevtools
             initialIsOpen={false}
@@ -152,5 +105,70 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <Scripts />
       </body>
     </html>
+  );
+}
+
+function AppShell({ children }: { children: React.ReactNode }) {
+  const { isOpen, open, close } = useGlobalSearch();
+
+  return (
+    <>
+      {/* Navigation Bar */}
+      <nav
+        className="sticky top-0 z-50 border-b shadow-sm"
+        style={{
+          backgroundColor: 'hsl(var(--card))',
+          borderColor: 'hsl(var(--border))',
+        }}
+      >
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <div className="flex items-center gap-8">
+            <Link to="/brands" className="flex items-center gap-3">
+              <img src="/logo.svg" alt="Prusa Logo" className="h-8" />
+            </Link>
+            <div className="flex items-center gap-6">
+              <Link
+                to="/brands"
+                activeProps={{
+                  className: 'font-semibold',
+                  style: { color: 'hsl(var(--primary))' },
+                }}
+                className="text-base transition-colors hover:opacity-80"
+                style={{ color: 'hsl(var(--foreground))' }}
+              >
+                Brands
+              </Link>
+              <Link
+                to="/containers"
+                activeProps={{
+                  className: 'font-semibold',
+                  style: { color: 'hsl(var(--primary))' },
+                }}
+                className="text-base transition-colors hover:opacity-80"
+                style={{ color: 'hsl(var(--foreground))' }}
+              >
+                Containers
+              </Link>
+              <Link
+                to="/enum"
+                activeProps={{
+                  className: 'font-semibold',
+                  style: { color: 'hsl(var(--primary))' },
+                }}
+                className="text-base transition-colors hover:opacity-80"
+                style={{ color: 'hsl(var(--foreground))' }}
+              >
+                Enum
+              </Link>
+            </div>
+          </div>
+          <GlobalSearchTrigger onClick={open} />
+        </div>
+      </nav>
+      {/* Main Content */}
+      <div className="min-h-screen">{children}</div>
+      {/* Global Search Modal */}
+      <GlobalSearch isOpen={isOpen} onClose={close} />
+    </>
   );
 }

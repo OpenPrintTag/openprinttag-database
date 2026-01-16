@@ -1,3 +1,7 @@
+// Fallback: eagerly import searchIndex if Vite plugin warmup didn't run
+// (e.g., in production build or if plugin fails)
+import './searchIndex';
+
 import { json } from '@tanstack/react-start';
 
 // Helper to keep response shape consistent across routes without changing logic

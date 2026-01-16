@@ -1,6 +1,6 @@
 import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
-import { Box, ChevronRight, Plus, Search, X } from 'lucide-react';
-import React, { useMemo } from 'react';
+import { Box, ChevronRight, Plus } from 'lucide-react';
+import { useMemo } from 'react';
 
 import { Badge } from '~/components/ui';
 import { useBrandContext } from '~/context/EntityContexts';
@@ -17,9 +17,6 @@ function MaterialsLayout() {
 
   const { data: tagsData } = useEnum('material_tags');
 
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const [debouncedSearch, setDebouncedSearch] = React.useState('');
-
   const tagLabelMap = useMemo(() => {
     const map: Record<string, string> = {};
     const items = tagsData?.items ?? [];
@@ -30,30 +27,11 @@ function MaterialsLayout() {
     return map;
   }, [tagsData]);
 
-  React.useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setDebouncedSearch(searchQuery.trim());
-    }, 250);
-    return () => window.clearTimeout(timer);
-  }, [searchQuery]);
-
-  const filteredMaterials = React.useMemo(() => {
-    if (!materialsData) return [];
-    const query = debouncedSearch.toLowerCase();
-    if (!query) return materialsData;
-    return materialsData.filter((m) => {
-      const name = String(m.name ?? '').toLowerCase();
-      const slug = String(m.slug ?? '').toLowerCase();
-      const uuid = String(m.uuid ?? '').toLowerCase();
-      return (
-        name.includes(query) || slug.includes(query) || uuid.includes(query)
-      );
-    });
-  }, [materialsData, debouncedSearch]);
+  const materials = materialsData ?? [];
 
   return (
     <>
-      <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mb-6 flex items-center justify-between">
         <Link
           to="/brands/$brandId/materials/create"
           params={{ brandId }}
@@ -62,46 +40,31 @@ function MaterialsLayout() {
           <Plus className="h-4 w-4" />
           Add Material
         </Link>
-
-        <div className="relative w-full max-w-xs">
-          <Search className="absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-gray-400" />
-          <input
-            type="text"
-            placeholder="Search materials..."
-            className="w-full rounded-md border border-gray-300 py-2 pr-10 pl-10 text-sm focus:border-orange-500 focus:ring-1 focus:ring-orange-500 focus:outline-none"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              className="absolute top-1/2 right-3 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          )}
-        </div>
+        <span
+          className="text-sm"
+          style={{ color: 'hsl(var(--muted-foreground))' }}
+        >
+          {materials.length} materials • Press ⌘K to search
+        </span>
       </div>
 
       {brandLoading && <CardGridSkeleton count={12} />}
 
-      {!brandLoading && filteredMaterials.length === 0 && (
+      {!brandLoading && materials.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 py-12">
           <Box className="mb-4 h-12 w-12 text-gray-400" />
           <h3 className="text-lg font-medium text-gray-900">
             No materials found
           </h3>
           <p className="mt-1 text-sm text-gray-500">
-            {debouncedSearch
-              ? 'No materials match your search criteria.'
-              : "This brand doesn't have any materials yet."}
+            This brand doesn&apos;t have any materials yet.
           </p>
         </div>
       )}
 
-      {!brandLoading && filteredMaterials.length > 0 && (
+      {!brandLoading && materials.length > 0 && (
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredMaterials.map((material) => {
+          {materials.map((material) => {
             const materialId = material.slug || material.uuid;
             return (
               <Link

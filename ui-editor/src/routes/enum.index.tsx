@@ -1,9 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { ChevronRight, Database, Loader2 } from 'lucide-react';
-import React from 'react';
 
 import { PageHeader } from '~/components/PageHeader';
-import { SearchBar } from '~/components/SearchBar';
 import { useEnumList } from '~/hooks/useEnum';
 import { formatEnumLabel } from '~/routes/enum.$table';
 
@@ -13,24 +11,13 @@ export const Route = createFileRoute('/enum/')({
 
 function EnumIndex() {
   const { tables, loading, error } = useEnumList();
-  const [searchQuery, setSearchQuery] = React.useState('');
-
-  // Filter tables
-  const filteredTables = React.useMemo(() => {
-    if (!searchQuery.trim()) return tables;
-    const query = searchQuery.trim().toLowerCase();
-    return tables.filter((table) => {
-      const label = formatEnumLabel(table).toLowerCase();
-      return label.includes(query) || table.toLowerCase().includes(query);
-    });
-  }, [tables, searchQuery]);
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
       {/* Header Section */}
       <PageHeader
         title="Enums"
-        description={`Browse and manage ${tables.length} enums in the database.`}
+        description={`Browse ${tables.length} enums in the database. Press ⌘K to search.`}
       />
 
       {/* Background Loading Indicator */}
@@ -41,23 +28,8 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Search Bar */}
-      <SearchBar
-        value={searchQuery}
-        onChange={setSearchQuery}
-        placeholder="Search lookup tables..."
-      />
-
-      {/* Results Info */}
-      {searchQuery && (
-        <div className="text-sm text-gray-600">
-          Found <span className="font-semibold">{filteredTables.length}</span>{' '}
-          of <span className="font-semibold">{tables.length}</span> tables
-        </div>
-      )}
-
       {/* Loading State */}
-      {loading && (
+      {loading && tables.length === 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 8 }).map((_, i) => (
             <div
@@ -96,9 +68,9 @@ function EnumIndex() {
       )}
 
       {/* Tables Grid */}
-      {!loading && !error && filteredTables.length > 0 && (
+      {!loading && !error && tables.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredTables.map((table) => {
+          {tables.map((table) => {
             const label = formatEnumLabel(table);
             return (
               <Link

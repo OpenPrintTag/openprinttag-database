@@ -1,6 +1,5 @@
 import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
-import { ChevronRight, Package, Plus, Search, X } from 'lucide-react';
-import React from 'react';
+import { ChevronRight, Package, Plus } from 'lucide-react';
 
 import { useBrandContext } from '~/context/EntityContexts';
 import { CardGridSkeleton } from '~/shared/components/card-skeleton';
@@ -13,33 +12,11 @@ function PackagesLayout() {
   const { brandId } = Route.useParams();
   const { packages: packagesData, loading: brandLoading } = useBrandContext();
 
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const [debouncedSearch, setDebouncedSearch] = React.useState('');
-
-  React.useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setDebouncedSearch(searchQuery.trim());
-    }, 250);
-    return () => window.clearTimeout(timer);
-  }, [searchQuery]);
-
-  const filteredPackages = React.useMemo(() => {
-    if (!packagesData) return [];
-    const query = debouncedSearch.toLowerCase();
-    if (!query) return packagesData;
-    return packagesData.filter((p: any) => {
-      const name = String(p.name ?? '').toLowerCase();
-      const slug = String(p.slug ?? '').toLowerCase();
-      const uuid = String(p.uuid ?? '').toLowerCase();
-      return (
-        name.includes(query) || slug.includes(query) || uuid.includes(query)
-      );
-    });
-  }, [packagesData, debouncedSearch]);
+  const packages = packagesData ?? [];
 
   return (
     <>
-      <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mb-6 flex items-center justify-between">
         <Link
           to="/brands/$brandId/packages/create"
           resetScroll={false}
@@ -49,46 +26,31 @@ function PackagesLayout() {
           <Plus className="h-4 w-4" />
           Add Package
         </Link>
-
-        <div className="relative w-full max-w-xs">
-          <Search className="absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-gray-400" />
-          <input
-            type="text"
-            placeholder="Search packages..."
-            className="w-full rounded-md border border-gray-300 py-2 pr-10 pl-10 text-sm focus:border-orange-500 focus:ring-1 focus:ring-orange-500 focus:outline-none"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              className="absolute top-1/2 right-3 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          )}
-        </div>
+        <span
+          className="text-sm"
+          style={{ color: 'hsl(var(--muted-foreground))' }}
+        >
+          {packages.length} packages • Press ⌘K to search
+        </span>
       </div>
 
       {brandLoading && <CardGridSkeleton count={12} />}
 
-      {!brandLoading && filteredPackages.length === 0 && (
+      {!brandLoading && packages.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 py-12">
           <Package className="mb-4 h-12 w-12 text-gray-400" />
           <h3 className="text-lg font-medium text-gray-900">
             No packages found
           </h3>
           <p className="mt-1 text-sm text-gray-500">
-            {debouncedSearch
-              ? 'No packages match your search criteria.'
-              : "This brand doesn't have any packages yet."}
+            This brand doesn&apos;t have any packages yet.
           </p>
         </div>
       )}
 
-      {!brandLoading && filteredPackages.length > 0 && (
+      {!brandLoading && packages.length > 0 && (
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredPackages.map((pkg) => {
+          {packages.map((pkg) => {
             const packageId = pkg.slug || pkg.uuid;
             return (
               <Link

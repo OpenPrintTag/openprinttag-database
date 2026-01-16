@@ -8,6 +8,7 @@ import {
   readNestedByBrand,
   writeNestedByBrand,
 } from '~/server/http';
+import { invalidateSearchIndex } from '~/server/searchIndex';
 
 export const Route = createFileRoute(
   '/api/brands/$brandId/packages/$packageId',
@@ -81,6 +82,7 @@ export const Route = createFileRoute(
         );
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
+        invalidateSearchIndex();
         return json(payload);
       },
       DELETE: async ({ params, request }) => {
@@ -96,6 +98,7 @@ export const Route = createFileRoute(
         );
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
+        invalidateSearchIndex();
         return json({ ok: true });
       },
     },

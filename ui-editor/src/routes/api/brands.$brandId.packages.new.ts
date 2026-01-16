@@ -5,6 +5,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
 import { parseJsonSafe } from '~/server/http';
+import { invalidateSearchIndex } from '~/server/searchIndex';
 
 // POST /api/brands/$brandId/packages/new
 export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
@@ -131,6 +132,7 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
           const yamlStr = yamlModule.stringify(newPackage);
           await fs.writeFile(filePath, yamlStr, 'utf8');
 
+          invalidateSearchIndex();
           return json({ ok: true, package: newPackage, slug });
         } catch (err: any) {
           console.error('Failed to create package:', err);
