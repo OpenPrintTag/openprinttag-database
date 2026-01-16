@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 // Mock the fs module before importing searchIndex
 vi.mock('~/server/data/fs', () => ({
@@ -8,8 +8,8 @@ vi.mock('~/server/data/fs', () => ({
 }));
 
 // Import after mocking
-import { getSearchIndex, search, invalidateSearchIndex } from './searchIndex';
-import type { SearchResult, SearchFilters } from './searchIndex';
+import type { SearchFilters, SearchResult } from './searchIndex';
+import { invalidateSearchIndex, search } from './searchIndex';
 
 describe('searchIndex', () => {
   beforeEach(() => {
@@ -86,7 +86,9 @@ describe('searchIndex', () => {
       const filters: SearchFilters = { brand: 'prusament' };
       const results = search(mockIndex, 'PLA', filters);
       expect(results.length).toBeGreaterThan(0);
-      expect(results.every((r) => r.brandSlug === 'prusament' || r.type === 'brand')).toBe(true);
+      expect(
+        results.every((r) => r.brandSlug === 'prusament' || r.type === 'brand'),
+      ).toBe(true);
     });
 
     it('should return empty for no matches', () => {
@@ -105,7 +107,9 @@ describe('searchIndex', () => {
     it('should prioritize exact matches over partial', () => {
       const results = search(mockIndex, 'prusament', {});
       // Brand "Prusament" should score higher than materials containing "Prusament"
-      const brandIndex = results.findIndex((r) => r.type === 'brand' && r.slug === 'prusament');
+      const brandIndex = results.findIndex(
+        (r) => r.type === 'brand' && r.slug === 'prusament',
+      );
       expect(brandIndex).toBe(0);
     });
 
@@ -144,14 +148,23 @@ describe('searchIndex', () => {
       const filters: SearchFilters = { types: ['brand', 'container'] };
       const results = search(mockIndex, 'prus', filters);
       expect(results.length).toBeGreaterThan(0);
-      expect(results.every((r) => r.type === 'brand' || r.type === 'container')).toBe(true);
+      expect(
+        results.every((r) => r.type === 'brand' || r.type === 'container'),
+      ).toBe(true);
     });
 
     it('should combine type and brand filters', () => {
-      const filters: SearchFilters = { types: ['material'], brand: 'prusament' };
+      const filters: SearchFilters = {
+        types: ['material'],
+        brand: 'prusament',
+      };
       const results = search(mockIndex, 'pla', filters);
       expect(results.length).toBeGreaterThan(0);
-      expect(results.every((r) => r.type === 'material' && r.brandSlug === 'prusament')).toBe(true);
+      expect(
+        results.every(
+          (r) => r.type === 'material' && r.brandSlug === 'prusament',
+        ),
+      ).toBe(true);
     });
 
     it('should match partial words (prefix match)', () => {
@@ -171,12 +184,18 @@ describe('searchIndex', () => {
     it('should prefer brand matches in global search', () => {
       // When searching without brand filter, brands should rank higher
       const results = search(mockIndex, 'bambu', {});
-      const brandResult = results.find((r) => r.type === 'brand' && r.slug === 'bambulab');
-      const materialResult = results.find((r) => r.type === 'material' && r.brandSlug === 'bambulab');
+      const brandResult = results.find(
+        (r) => r.type === 'brand' && r.slug === 'bambulab',
+      );
+      const materialResult = results.find(
+        (r) => r.type === 'material' && r.brandSlug === 'bambulab',
+      );
 
       expect(brandResult).toBeDefined();
       expect(materialResult).toBeDefined();
-      expect(results.indexOf(brandResult!)).toBeLessThan(results.indexOf(materialResult!));
+      expect(results.indexOf(brandResult!)).toBeLessThan(
+        results.indexOf(materialResult!),
+      );
     });
 
     it('should prefer material name matches when brand filter is active', () => {
@@ -188,7 +207,12 @@ describe('searchIndex', () => {
 
     it('should handle special characters gracefully', () => {
       const indexWithSpecial: SearchResult[] = [
-        { type: 'material', slug: 'test', name: 'PLA+ Pro (Enhanced)', score: 0 },
+        {
+          type: 'material',
+          slug: 'test',
+          name: 'PLA+ Pro (Enhanced)',
+          score: 0,
+        },
       ];
       const results = search(indexWithSpecial, 'pla+ pro', {});
       expect(results.length).toBeGreaterThan(0);
@@ -212,7 +236,9 @@ describe('searchIndex', () => {
       const filters: SearchFilters = { brand: 'bambulab' };
       const results = search(mockIndex, 'pla', filters);
       // Should only find Bambu materials, not Prusament
-      const prusamentResults = results.filter((r) => r.brandSlug === 'prusament');
+      const prusamentResults = results.filter(
+        (r) => r.brandSlug === 'prusament',
+      );
       expect(prusamentResults).toHaveLength(0);
     });
   });
@@ -220,7 +246,14 @@ describe('searchIndex', () => {
   describe('tokenize', () => {
     it('should split on spaces, hyphens, and underscores', () => {
       const results = search(
-        [{ type: 'material', slug: 'test', name: 'PLA-Black_v2 Edition', score: 0 }],
+        [
+          {
+            type: 'material',
+            slug: 'test',
+            name: 'PLA-Black_v2 Edition',
+            score: 0,
+          },
+        ],
         'pla black v2',
         {},
       );
@@ -256,7 +289,14 @@ describe('searchIndex', () => {
 
     it('should handle mixed separators', () => {
       const results = search(
-        [{ type: 'material', slug: 'test', name: 'Galaxy-Black_Edition Pro', score: 0 }],
+        [
+          {
+            type: 'material',
+            slug: 'test',
+            name: 'Galaxy-Black_Edition Pro',
+            score: 0,
+          },
+        ],
         'galaxy black edition pro',
         {},
       );
@@ -301,7 +341,13 @@ describe('searchIndex', () => {
     it('should handle brand filter for non-existent brand', () => {
       const filters: SearchFilters = { brand: 'nonexistent' };
       const mockIndex: SearchResult[] = [
-        { type: 'material', slug: 'mat', name: 'Material', brandSlug: 'other', score: 0 },
+        {
+          type: 'material',
+          slug: 'mat',
+          name: 'Material',
+          brandSlug: 'other',
+          score: 0,
+        },
       ];
       const results = search(mockIndex, 'material', filters);
       expect(results).toHaveLength(0);

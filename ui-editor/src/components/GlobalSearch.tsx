@@ -216,7 +216,12 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
     [navigate, onClose],
   );
 
-  const typeOptions: SearchResultType[] = ['brand', 'material', 'package', 'container'];
+  const typeOptions: SearchResultType[] = [
+    'brand',
+    'material',
+    'package',
+    'container',
+  ];
 
   const filteredBrands = brandSearch
     ? brands.filter(
@@ -265,7 +270,11 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
   const handleInputKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
       // Backspace removes last filter when input is empty
-      if (e.key === 'Backspace' && !query && (filters.types?.length || filters.brand)) {
+      if (
+        e.key === 'Backspace' &&
+        !query &&
+        (filters.types?.length || filters.brand)
+      ) {
         e.preventDefault();
         if (filters.brand) {
           setFilters((prev) => ({ ...prev, brand: undefined }));
@@ -285,7 +294,9 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
       switch (e.key) {
         case 'ArrowDown':
           e.preventDefault();
-          setBrandDropdownIndex((i) => Math.min(i + 1, filteredBrands.length - 1));
+          setBrandDropdownIndex((i) =>
+            Math.min(i + 1, filteredBrands.length - 1),
+          );
           break;
         case 'ArrowUp':
           e.preventDefault();
@@ -553,35 +564,36 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
                   )}
 
                   {!brandsLoading &&
-                    filteredBrands.map((brand, index) => (
-                      <button
-                        key={brand.slug}
-                        onClick={() => selectBrand(brand.slug)}
-                        onMouseEnter={() => setBrandDropdownIndex(index)}
-                        className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
-                        style={{
-                          backgroundColor:
-                            index === brandDropdownIndex
-                              ? 'hsl(var(--muted))'
-                              : filters.brand === brand.slug
-                                ? 'hsl(var(--accent))'
-                                : 'transparent',
-                        }}
-                      >
-                        <span
-                          className="truncate"
-                          style={{ color: 'hsl(var(--foreground))' }}
+                    filteredBrands.map((brand, index) => {
+                      const isHighlighted = index === brandDropdownIndex;
+                      const isSelected = filters.brand === brand.slug;
+                      let bgColor = 'transparent';
+                      if (isHighlighted) bgColor = 'hsl(var(--muted))';
+                      else if (isSelected) bgColor = 'hsl(var(--accent))';
+
+                      return (
+                        <button
+                          key={brand.slug}
+                          onClick={() => selectBrand(brand.slug)}
+                          onMouseEnter={() => setBrandDropdownIndex(index)}
+                          className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+                          style={{ backgroundColor: bgColor }}
                         >
-                          {brand.name}
-                        </span>
-                        <span
-                          className="ml-auto text-xs"
-                          style={{ color: 'hsl(var(--muted-foreground))' }}
-                        >
-                          brand:{brand.slug}
-                        </span>
-                      </button>
-                    ))}
+                          <span
+                            className="truncate"
+                            style={{ color: 'hsl(var(--foreground))' }}
+                          >
+                            {brand.name}
+                          </span>
+                          <span
+                            className="ml-auto text-xs"
+                            style={{ color: 'hsl(var(--muted-foreground))' }}
+                          >
+                            brand:{brand.slug}
+                          </span>
+                        </button>
+                      );
+                    })}
 
                   {!brandsLoading && filteredBrands.length === 0 && (
                     <div
@@ -679,7 +691,9 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
           ref={resultsRef}
           role="listbox"
           aria-label="Search results"
-          aria-activedescendant={results.length > 0 ? `result-${selectedIndex}` : undefined}
+          aria-activedescendant={
+            results.length > 0 ? `result-${selectedIndex}` : undefined
+          }
           className="max-h-[400px] overflow-y-auto"
           style={{ scrollbarWidth: 'thin' }}
         >

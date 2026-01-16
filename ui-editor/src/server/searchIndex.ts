@@ -37,6 +37,12 @@ const INDEX_TTL = 1000 * 60 * 10; // 10 minutes
 export function invalidateSearchIndex(): void {
   searchIndex = null;
   indexBuiltAt = 0;
+
+  // Skip auto-rebuild and logging in test environment
+  if (process.env.NODE_ENV === 'test') {
+    return;
+  }
+
   console.info('Search index invalidated, rebuilding...');
 
   // Trigger immediate rebuild in background
