@@ -1,4 +1,4 @@
-.PHONY: help setup fetch-schemas validate import clean clean-import test editor check-node
+.PHONY: help setup fetch-schemas validate update-stats import clean clean-import test editor check-node
 
 VENV_DIR := venv
 PYTHON := $(VENV_DIR)/bin/python
@@ -16,6 +16,7 @@ help:
 	@echo ""
 	@echo "Main Commands:"
 	@echo "  make fetch-schemas - Fetch JSON schemas for validation"
+	@echo "  make update-stats  - Update statistics in README.md"
 	@echo "  make validate      - Validate the material database against schemas"
 	@echo "  make clean         - Clean the data directory"
 	@echo "  make clean-import  - Clean data directory and import from JSON"
@@ -39,7 +40,11 @@ $(VENV_DIR)/bin/activate:
 fetch-schemas:
 	@bash $(SCRIPTS_DIR)/fetch_schemas.sh
 
-validate: setup fetch-schemas
+update-stats:
+	@echo "Updating statistics in README.md..."
+	@$(PYTHON) $(SCRIPTS_DIR)/update_stats.py
+
+validate: setup fetch-schemas update-stats
 	@echo "Validating material database..."
 	@$(PYTHON) $(SCRIPTS_DIR)/validate_json_schema.py
 
