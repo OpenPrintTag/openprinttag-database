@@ -1,210 +1,233 @@
 # OpenPrintTag Material Database
 
-An open-source material database for 3D printing, maintained by the community as part of the [OpenPrintTag](https://openprinttag.org) initiative.
+An open-source, community-driven database of 3D printing materials, brands, and packaging specifications. Part of the [OpenPrintTag](https://openprinttag.org) initiative.
 
-## Overview
+**[Quick Start](#quick-start)** · **[Data Structure](#data-structure)** · **[Contributing](#contributing)** · **[Detailed Guides](CONTRIBUTING.md)**
 
-This repository contains a comprehensive, community-driven database of 3D printing materials, brands, and packaging information stored in a plain, well-structured YAML format. The database is designed for both personal and commercial use, enabling anyone to:
+---
 
-- Access detailed material specifications and properties
-- Contribute new materials and brands
-- Build applications and services using standardized material data
-- Integrate with OpenPrintTag-compatible systems
+## What is this?
 
-All data strictly adheres to the format defined by the [OpenPrintTag Architecture](https://github.com/OpenPrintTag/openprinttag-architecture). For complete schema documentation, see [arch.openprinttag.org](https://arch.openprinttag.org/#/).
+This repository is a **publicly editable database** of 3D printing materials stored in human-readable YAML files. Think of it as a community wiki for filament specifications, but in a format that machines can also understand.
 
-## Key Features
+**What's inside:**
+- 🏢 **100+ brands** — Material manufacturers from Prusament to Hatchbox
+- 🎨 **10,000+ materials** — PLA, PETG, ASA, TPU and many more with detailed properties
+- 📦 **750+ packages** — Physical products with GTINs/barcodes
+- 🧵 **60+ containers** — Spool specifications and dimensions
 
-- **Open and Accessible**: Free to use for personal and commercial applications
-- **Human-Readable**: YAML format with descriptive naming conventions
-- **Git-Friendly**: One file per entity enables clear diffs and easy reviews
-- **Community-Driven**: Open to contributions from manufacturers, users, and developers
-- **Validated**: Strict schema validation against OpenPrintTag standards
-- **Tech-Agnostic**: Can be imported into any database system or application
-- **UI Editor**: Built-in editor for easy data management and contributions
+All data follows the [OpenPrintTag Architecture](https://arch.openprinttag.org) schema and can be imported into any database or application.
+
+---
+
+## Quick Start
+
+### Option A: Edit directly on GitHub (easiest)
+
+1. Browse to the `data/` folder
+2. Find the file you want to edit (e.g., `data/brands/prusament.yaml`)
+3. Click the pencil icon ✏️ to edit
+4. Make your changes and submit a Pull Request
+
+→ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed step-by-step guides.
+
+### Option B: Use the UI Editor (recommended for larger changes)
+
+```bash
+# Clone the repository
+git clone https://github.com/OpenPrintTag/openprinttag-database.git
+cd openprinttag-database
+
+# Start the editor (auto-installs dependencies)
+make editor
+```
+
+The command checks for Node.js 18+, installs pnpm if needed, and opens the editor at http://localhost:3000.
+
+→ See [ui-editor/README.md](ui-editor/README.md) for more details.
+
+### Option C: Edit YAML files directly
+
+```bash
+# Clone and setup
+git clone https://github.com/OpenPrintTag/openprinttag-database.git
+cd openprinttag-database
+make setup
+
+# Validate your changes
+make validate
+```
+
+---
 
 ## Data Structure
 
 ```
 data/
 ├── brands/                   # Material manufacturers and suppliers
-├── materials/                # Material definitions (organized by brand)
-├── material-packages/        # Physical products (spools, bottles, etc.)
-└── material-containers/      # Container specifications (spool dimensions, etc.)
+│   └── {brand-slug}.yaml
+├── materials/                # Material definitions with properties
+│   └── {brand-slug}/
+│       └── {material-slug}.yaml
+├── material-packages/        # Physical products (spools, bottles)
+│   └── {brand-slug}/
+│       └── {package-slug}.yaml
+└── material-containers/      # Container specs (spool dimensions)
+    └── {container-slug}.yaml
 ```
 
-### Entity Types
+### Brands
 
-#### Brands
-Define material manufacturers and suppliers.
+Manufacturers and suppliers of materials.
 
-**Location**: `data/brands/{slug}.yaml`
+```yaml
+# data/brands/prusament.yaml
+uuid: ae5ff34e-298e-50c9-8f77-92a97fb30b09
+slug: prusament
+name: Prusament
+countries_of_origin:
+- CZ
+```
 
-Example: `data/brands/prusament.yaml`
+### Materials
 
-#### Materials
-Individual material definitions with properties and specifications.
+Individual materials with detailed properties.
 
-**Location**: `data/materials/{brand-slug}/{material-slug}.yaml`
+```yaml
+# data/materials/prusament/prusament-pla-prusa-orange.yaml
+uuid: 261ae7e7-20d9-5969-9ed5-dd82eea29bcf
+slug: prusament-pla-prusa-orange
+brand:
+  slug: prusament
+name: PLA Prusa Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fe6e32ff'
+transmission_distance: 6.6
+tags:
+- industrially_compostable
+certifications:
+- ul_2904
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+```
 
-Example: `data/materials/prusament/prusament-pla-galaxy-black.yaml`
+### Material Packages
 
-#### Material Packages
-Physical products containing materials (spools, bottles, etc.) with GTINs/barcodes.
+Physical products you can buy — spools with barcodes.
 
-**Location**: `data/material-packages/{brand-slug}/{package-slug}.yaml`
+```yaml
+# data/material-packages/prusament/prusament-pla-prusa-orange-1000-spool.yaml
+uuid: 6b9c7b1d-0ebe-5177-a6a7-4e3aa38d0a3b
+slug: prusament-pla-prusa-orange-1000-spool
+class: FFF
+material:
+  slug: prusament-pla-prusa-orange
+nominal_netto_full_weight: 1000
+gtin: 8594173675292
+container:
+  slug: old-prusament-spool-1kg
+filament_diameter: 1750
+```
 
-Example: `data/material-packages/prusament/prusament-pla-galaxy-black-1kg.yaml`
+### Material Containers
 
-#### Material Containers
-Spool and container specifications (dimensions, weight, capacity).
+Spool and container specifications.
 
-**Location**: `data/material-containers/{slug}.yaml`
+```yaml
+# data/material-containers/1000g.yaml
+uuid: 24b4f4e3-3339-452d-964f-6af71695e0cf
+slug: 1000g
+name: 1000g
+class: FFF
+```
 
-Example: `data/material-containers/1000g.yaml`
+---
 
 ## File Naming Convention
 
-All entity files use **slugified, human-readable names**:
-
-- Lowercase alphanumeric characters
+All files use **slugified names**:
+- Lowercase letters
 - Words separated by hyphens
-- Example: `prusament-pla-galaxy-black.yaml`
+- No special characters
 
-## Getting Started
+Example: `prusament-pla-galaxy-black.yaml`
 
-### Prerequisites
+---
 
-- Python 3.12 or higher
-- Git
+## Workflow Overview
 
-### Setup
+### For Contributors
 
-First-time setup to install dependencies:
+1. **Fork** this repository
+2. **Make changes** using the UI editor or directly in YAML
+3. **Validate** your changes with `make validate`
+4. **Submit** a Pull Request
+5. **Wait** for automated validation and review
 
-```bash
-make setup
-```
-
-This creates a Python virtual environment and installs all required dependencies from `pyproject.toml`.
-
-### Fetch Schemas
-
-Before validating or importing data, fetch the latest OpenPrintTag schemas:
+### For Developers
 
 ```bash
-make fetch-schemas
+# Initial setup
+make setup              # Create Python venv and install dependencies
+make fetch-schemas      # Download OpenPrintTag schemas
+
+# Working with data
+make validate           # Validate all data against schemas
+make test               # Run unit tests
+make help               # Show all available commands
 ```
 
-This downloads the schema definitions from the [openprinttag-architecture](https://github.com/OpenPrintTag/openprinttag-architecture) repository at the version specified in `schema_version.conf`.
-
-### Validation
-
-Validate all data files against the OpenPrintTag schema:
-
-```bash
-make validate
-```
-
-The validator checks:
-- Required fields presence
-- Field type correctness
-- Reference integrity (brand_slug, material_slug, etc.)
-- Enum value validity
-- UUID format and derivation
-- Pattern matching (GTINs, URLs, etc.)
-
-### Run Tests
-
-Execute unit tests:
-
-```bash
-make test
-```
-
-### All Commands
-
-See all available commands:
-
-```bash
-make help
-```
-
-## Workflow
-
-The typical workflow for contributing to the database:
-
-1. **Setup**: `make setup` - Install dependencies (first time only)
-2. **Fetch schemas**: `make fetch-schemas` - Download latest OpenPrintTag schemas
-3. **Launch UI Editor**: Run `cd ui-editor && pnpm install && pnpm dev` to start the editor
-4. **Make changes**: Use the UI editor to add or update materials, brands, and other entities
-5. **Validate**: `make validate` - Verify your changes against the schema
-6. **Test**: `make test` - Run unit tests
-7. **Commit**: Create a pull request with your changes
-
-## Schema Dependency
-
-This project directly depends on the [OpenPrintTag Architecture](https://github.com/OpenPrintTag/openprinttag-architecture) repository for schema validation. The specific schema version is configured in `schema_version.conf`:
-
-```bash
-# OpenPrintTag Schema Configuration
-SCHEMA_REPO_URL="https://github.com/OpenPrintTag/openprinttag-architecture.git"
-SCHEMA_COMMIT="f5cce6db9f75ed215de0eb707af87e6596575fdd"
-SCHEMA_SPARSE_PATH="schema/generated/opt_db_schema"
-SCHEMA_TARGET_DIR="./openprinttag"
-```
-
-To update to a newer schema version, modify the `SCHEMA_COMMIT` in this file and run `make fetch-schemas`.
+---
 
 ## Contributing
 
-We welcome contributions from the community! Whether you're a material manufacturer, a 3D printing enthusiast, or a developer, your contributions help make this database more comprehensive and valuable for everyone.
+We welcome contributions! Whether you want to:
 
-### How to Contribute
+- 🆕 **Add a new brand** — Know a manufacturer not in the database?
+- 🎨 **Add materials** — Have specifications for materials we're missing?
+- 🔧 **Fix errors** — Spotted a typo or wrong value?
+- 📷 **Add photos** — Have product images?
 
-We recommend using the built-in UI editor for all contributions. It ensures that your changes are correctly formatted and follow the schema requirements.
+**→ Check out [CONTRIBUTING.md](CONTRIBUTING.md)** for detailed step-by-step guides on:
 
-1. Fork the repository
-2. Create a feature branch
-3. Launch the UI editor:
-   ```bash
-   cd ui-editor
-   pnpm install
-   pnpm dev
-   ```
-4. Use the editor to add or update information
-5. Run `make validate` to ensure your changes conform to the schema
-6. Submit a pull request
-7. Ensure your pull request passes the automated validation GitHub Action hook
+- How to add a new brand
+- How to add a new material
+- How to edit existing data
+- How to submit your changes as a Pull Request
 
-### Adding New Entities
+---
 
-Whether you are adding a new material, brand, or container, the process is now simplified through the UI editor:
+## Schema & Validation
 
-1. Open the UI editor (`pnpm dev` in the `ui-editor` directory)
-2. Use the "Create" or "Add" buttons to add a new Brand, Material, or Package
-3. Fill in the required fields; the editor will guide you based on the schema
-4. Save your changes - the editor will automatically update the corresponding YAML files in the `data/` directory and generate UUIDs
-5. Run `make validate` to verify everything is correct
-6. Submit a pull request
+This database follows the [OpenPrintTag Architecture](https://github.com/OpenPrintTag/openprinttag-architecture) schema. The specific version is configured in `schema_version.conf`.
 
-## License
+**Schema ensures:**
+- Field types are correct
+- Required fields are present
+- UUIDs are properly formatted
+- References (brand_slug, material_slug) are valid
+- Enum values match allowed options
+- GTINs and URLs follow correct patterns
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Copyright 2025 PRUSA RESEARCH A.S.
+---
 
 ## Resources
 
-- **OpenPrintTag Website**: [openprinttag.org](https://openprinttag.org)
-- **Architecture Documentation**: [arch.openprinttag.org](https://arch.openprinttag.org/#/)
-- **Schema Repository**: [github.com/OpenPrintTag/openprinttag-architecture](https://github.com/OpenPrintTag/openprinttag-architecture)
+| Resource | URL |
+|----------|-----|
+| OpenPrintTag Website | [openprinttag.org](https://openprinttag.org) |
+| Architecture Docs | [arch.openprinttag.org](https://arch.openprinttag.org) |
+| Schema Repository | [github.com/OpenPrintTag/openprinttag-architecture](https://github.com/OpenPrintTag/openprinttag-architecture) |
 
-## Community
+---
 
-Join the OpenPrintTag community to discuss materials, schemas, and integration:
+## License
 
-- [OpenPrintTag Website](https://openprinttag.org)
-- [Architecture Documentation](https://arch.openprinttag.org/#/)
-
-For issues and feature requests, please use the GitHub issue tracker.
+MIT License — see [LICENSE](LICENSE) for details.

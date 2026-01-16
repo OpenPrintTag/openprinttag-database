@@ -1,8 +1,10 @@
-.PHONY: help setup fetch-schemas validate import clean clean-import test
+.PHONY: help setup fetch-schemas validate import clean clean-import test editor check-node
 
 VENV_DIR := venv
 PYTHON := $(VENV_DIR)/bin/python
 SCRIPTS_DIR := scripts
+EDITOR_DIR := ui-editor
+NODE_MIN_VERSION := 18
 
 help:
 	@echo "Material Database - Available Commands"
@@ -10,6 +12,7 @@ help:
 	@echo ""
 	@echo "Setup & Environment:"
 	@echo "  make setup         - Set up virtual environment with dependencies"
+	@echo "  make editor        - Launch the UI editor (installs deps if needed)"
 	@echo ""
 	@echo "Main Commands:"
 	@echo "  make fetch-schemas - Fetch JSON schemas for validation"
@@ -52,3 +55,53 @@ test: setup
 	@echo "Running unit tests..."
 	@$(PYTHON) -m unittest discover tests -v
 
+# ============================================================================
+# UI Editor
+# ============================================================================
+
+check-node:
+	@echo "Checking Node.js..."
+	@command -v node >/dev/null 2>&1 || { \
+		echo ""; \
+		echo "ERROR: Node.js is not installed."; \
+		echo ""; \
+		echo "Please install Node.js $(NODE_MIN_VERSION)+ from:"; \
+		echo "  https://nodejs.org/"; \
+		echo ""; \
+		echo "Or use a version manager:"; \
+		echo "  - nvm:  https://github.com/nvm-sh/nvm"; \
+		echo "  - fnm:  https://github.com/Schniz/fnm"; \
+		echo "  - asdf: https://asdf-vm.com/"; \
+		echo ""; \
+		exit 1; \
+	}
+	@NODE_VERSION=$$(node -v | sed 's/v//' | cut -d. -f1); \
+	if [ "$$NODE_VERSION" -lt "$(NODE_MIN_VERSION)" ]; then \
+		echo ""; \
+		echo "ERROR: Node.js version $$(node -v) is too old."; \
+		echo "       Required: v$(NODE_MIN_VERSION).0.0 or higher"; \
+		echo ""; \
+		echo "Please upgrade Node.js from:"; \
+		echo "  https://nodejs.org/"; \
+		echo ""; \
+		exit 1; \
+	fi
+	@echo "✓ Node.js $$(node -v) detected"
+	@echo "Checking pnpm..."
+	@command -v pnpm >/dev/null 2>&1 || { \
+		echo ""; \
+		echo "pnpm is not installed. Installing via corepack..."; \
+		corepack enable 2>/dev/null || npm install -g pnpm; \
+	}
+	@echo "✓ pnpm $$(pnpm -v) detected"
+
+editor: check-node
+	@echo ""
+	@echo "Starting UI Editor..."
+	@echo "====================="
+	@if [ ! -d "$(EDITOR_DIR)/node_modules" ]; then \
+		echo "Installing dependencies (first run)..."; \
+		cd $(EDITOR_DIR) && pnpm install; \
+	fi
+	@echo ""
+	@cd $(EDITOR_DIR) && pnpm dev
