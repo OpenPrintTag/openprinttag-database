@@ -171,27 +171,7 @@ properties:
 1. Start the editor (see above)
 2. Navigate to **Brands** → Click on the brand
 3. In the **Materials** section, click **"+ Add Material"**
-4. Fill in the form:
-
-   **Basic Info:**
-   - **Name:** Material display name (e.g., "PLA Blue")
-   - **Type:** Select from dropdown (PLA, PETG, ASA, etc.)
-   - **Class:** FFF for filaments, SLA for resins
-
-   **Colors:**
-   - Click the color picker to set the primary color
-   - Optionally add secondary colors for multi-color materials
-
-   **Properties:**
-   - **Print Temperature:** Min/max nozzle temperatures
-   - **Bed Temperature:** Min/max bed temperatures
-   - **Density:** Material density in g/cm³
-
-   **Optional:**
-   - **Tags:** Special properties (e.g., industrially_compostable)
-   - **Certifications:** Certifications (e.g., ul_2904)
-   - **Photos:** URLs to product images
-
+4. Fill in the form
 5. Click **Save**
 
 ### Method 3: Direct YAML Editing

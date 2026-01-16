@@ -67,7 +67,7 @@ The editor has three main sections accessible from the top navigation:
    - **Type** — Material type (PLA, PETG, ASA, etc.)
    - **Class** — FFF for filaments, SLA for resins
    - **Colors** — Primary and secondary colors
-   - **Properties** — Print temperatures, density, etc.
+   - **Properties** — Material properties (see schema for available fields)
 5. Click **Save**
 
 The editor creates `data/materials/{brand-slug}/{material-slug}.yaml`.
