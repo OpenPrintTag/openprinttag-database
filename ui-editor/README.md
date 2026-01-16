@@ -87,6 +87,28 @@ The editor creates `data/materials/{brand-slug}/{material-slug}.yaml`.
 
 The editor creates `data/material-packages/{brand-slug}/{package-slug}.yaml`.
 
+### Adding a New Container
+
+Containers can be added in two ways:
+
+**Option 1: From the Containers page**
+1. Navigate to **Containers** in the navigation
+2. Click **"New Container"** button
+3. Fill in container details:
+   - **Name** — Container name (e.g., "1000g")
+   - **Class** — FFF for filaments, SLA for resins
+   - **Dimensions** — Weight, diameters, dimensions (optional)
+4. Click **Save**
+
+**Option 2: From a Brand page**
+1. Navigate to **Brands** → Click on a brand
+2. Find the **Containers** section
+3. Click **"+ Add Container"**
+4. Fill in container details (same as Option 1)
+5. Click **Save**
+
+The editor creates `data/material-containers/{container-slug}.yaml`.
+
 ### Editing Existing Data
 
 1. Navigate to the entity you want to edit
