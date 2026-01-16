@@ -211,10 +211,20 @@ This database follows the [OpenPrintTag Architecture](https://github.com/OpenPri
 **Schema ensures:**
 - Field types are correct
 - Required fields are present
-- UUIDs are properly formatted
+- UUIDs are properly formatted and derived according to the [UUID specification](https://arch.openprinttag.org/#/uuid)
 - References (brand_slug, material_slug) are valid
 - Enum values match allowed options
 - GTINs and URLs follow correct patterns
+
+### UUID Derivation
+
+UUIDs in this database are derived using UUIDv5 (SHA1 hash) according to the [OpenPrintTag Architecture UUID specification](https://arch.openprinttag.org/#/uuid):
+
+- **Brand UUID**: Derived from brand name
+- **Material UUID**: Derived from brand UUID + material name
+- **Package UUID**: Derived from brand UUID + GTIN
+
+When creating new entries, you can leave the `uuid` field empty or omit it entirely - it will be automatically derived during validation.
 
 ---
 

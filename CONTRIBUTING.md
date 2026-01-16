@@ -76,7 +76,7 @@ countries_of_origin:
 5. Scroll down and click **"Propose new file"**
 6. Follow the prompts to create a Pull Request
 
-> **Note:** The UUID will be auto-generated during validation. You can leave it as an empty string or omit it entirely.
+> **Note:** UUIDs are derived using UUIDv5 (SHA1 hash) according to the [OpenPrintTag Architecture UUID specification](https://arch.openprinttag.org/#/uuid). For brands, the UUID is derived from the brand name. You can leave the UUID empty or omit it entirely - it will be auto-generated during validation.
 
 ### Method 2: UI Editor
 
@@ -104,13 +104,15 @@ The UI editor can be used to browse and edit existing brands, but new brands mus
 2. Add the required fields:
 
 ```yaml
-uuid: ""  # Or generate with: python -c "import uuid; print(uuid.uuid4())"
+uuid: ""  # Leave empty - UUID will be derived from brand name using UUIDv5
 slug: my-brand
 name: My Brand
 countries_of_origin:
 - US
 website: https://example.com  # Optional
 ```
+
+> **Note:** UUIDs are derived using UUIDv5 (SHA1 hash) according to the [OpenPrintTag Architecture UUID specification](https://arch.openprinttag.org/#/uuid). For brands, the UUID is derived from the brand name. You can leave the UUID empty or omit it entirely - it will be auto-generated during validation.
 
 3. Run validation:
    ```bash
@@ -121,7 +123,7 @@ website: https://example.com  # Optional
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `uuid` | Yes* | Unique identifier (auto-generated if empty) |
+| `uuid` | Yes* | Unique identifier (derived from brand name using UUIDv5 if empty - see [UUID specification](https://arch.openprinttag.org/#/uuid)) |
 | `slug` | Yes | URL-friendly identifier |
 | `name` | Yes | Display name |
 | `countries_of_origin` | Yes | List of ISO 3166-1 alpha-2 country codes |
@@ -142,7 +144,7 @@ Materials belong to brands. Make sure the brand exists first!
 4. Add the content:
 
 ```yaml
-uuid: ""
+uuid: ""  # Leave empty - UUID will be derived from brand UUID + material name using UUIDv5
 slug: my-brand-pla-blue
 brand:
   slug: my-brand
@@ -159,6 +161,8 @@ properties:
   min_bed_temperature: 50
   max_bed_temperature: 60
 ```
+
+> **Note:** Material UUIDs are derived from the brand UUID and material name using UUIDv5. See the [UUID specification](https://arch.openprinttag.org/#/uuid) for details.
 
 5. Propose the new file and create a Pull Request
 
@@ -230,7 +234,7 @@ properties:
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `uuid` | Yes* | Unique identifier |
+| `uuid` | Yes* | Unique identifier (derived from brand UUID + material name using UUIDv5 if empty - see [UUID specification](https://arch.openprinttag.org/#/uuid)) |
 | `slug` | Yes | URL-friendly identifier (usually `{brand}-{type}-{color}`) |
 | `brand.slug` | Yes | Reference to the brand |
 | `name` | Yes | Display name |
@@ -265,7 +269,7 @@ Packages represent physical products (spools you can buy). They reference a mate
 Create `data/material-packages/{brand-slug}/{package-slug}.yaml`:
 
 ```yaml
-uuid: ""
+uuid: ""  # Leave empty - UUID will be derived from brand UUID + GTIN using UUIDv5
 slug: my-brand-pla-blue-1000-spool
 class: FFF
 material:
@@ -276,6 +280,8 @@ container:
   slug: 1000g
 filament_diameter: 1750
 ```
+
+> **Note:** Package UUIDs are derived from the brand UUID and GTIN using UUIDv5. See the [UUID specification](https://arch.openprinttag.org/#/uuid) for details.
 
 ---
 
@@ -384,7 +390,7 @@ make validate
 | `Missing required field` | Add the missing field to your YAML |
 | `Invalid reference` | Check that the referenced slug exists (e.g., brand.slug) |
 | `Invalid enum value` | Use values from the allowed list (check Enum tab in UI) |
-| `Invalid UUID format` | Leave UUID empty - it will be auto-generated |
+| `Invalid UUID format` | Leave UUID empty - it will be derived according to the [UUID specification](https://arch.openprinttag.org/#/uuid) |
 | `Invalid GTIN` | GTINs must be 8, 12, 13, or 14 digits |
 
 ---
