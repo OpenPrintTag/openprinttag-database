@@ -211,16 +211,6 @@ make fetch-schemas
 make validate
 ```
 
-### Common Validation Errors
-
-| Error | Solution |
-|-------|----------|
-| `Missing required field` | Add the missing field to your YAML |
-| `Invalid reference` | Check that the referenced slug exists (e.g., brand.slug) |
-| `Invalid enum value` | Use values from the allowed list (check Enum tab in UI) |
-| `Invalid UUID format` | Leave UUID empty - it will be derived according to the [UUID specification](https://arch.openprinttag.org/#/uuid) |
-| `Invalid GTIN` | GTINs must be 8, 12, 13, or 14 digits |
-
 ---
 
 ## Getting Help
