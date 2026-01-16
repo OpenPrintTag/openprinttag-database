@@ -57,18 +57,6 @@ The editor has three main sections accessible from the top navigation:
 | **Containers** | View and edit spool/container specifications. |
 | **Enum** | Browse allowed values for fields like material types, tags, and certifications. |
 
-### Adding a New Brand
-
-1. Navigate to **Brands**
-2. Click the **"+ Add Brand"** button
-3. Fill in the required fields:
-   - **Name** — Display name (e.g., "Prusament")
-   - **Slug** — URL-friendly identifier (auto-generated from name)
-   - **Countries of Origin** — Where the brand manufactures
-4. Click **Save**
-
-The editor creates `data/brands/{slug}.yaml` automatically.
-
 ### Adding a New Material
 
 1. Navigate to **Brands** → Click on a brand

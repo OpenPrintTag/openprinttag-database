@@ -78,7 +78,9 @@ countries_of_origin:
 
 > **Note:** The UUID will be auto-generated during validation. You can leave it as an empty string or omit it entirely.
 
-### Method 2: UI Editor (Recommended)
+### Method 2: UI Editor
+
+The UI editor can be used to browse and edit existing brands, but new brands must be created using YAML files (see Method 3 below).
 
 1. **Clone the repository:**
    ```bash
@@ -94,18 +96,7 @@ countries_of_origin:
 
 3. **Open http://localhost:3000** in your browser
 
-4. **Click "Brands"** in the navigation
-
-5. **Click "+ Add Brand"** button
-
-6. **Fill in the form:**
-   - **Name:** Display name of the brand (e.g., "My Brand")
-   - **Slug:** Auto-generated from name, or customize
-   - **Countries of Origin:** Select applicable countries
-
-7. **Click "Save"**
-
-The editor automatically creates `data/brands/my-brand.yaml` with a proper UUID.
+4. Use the editor to browse existing brands and edit them, or create the brand file manually (see Method 3).
 
 ### Method 3: Direct YAML Editing
 
