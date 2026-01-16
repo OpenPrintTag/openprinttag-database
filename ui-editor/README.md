@@ -1,4 +1,4 @@
-# 🖥️ OpenPrintTag Database Editor
+# OpenPrintTag Database Editor
 
 A visual editor for managing the OpenPrintTag Database. Built with TanStack Router, React, and TypeScript.
 
