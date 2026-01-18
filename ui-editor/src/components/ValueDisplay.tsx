@@ -162,7 +162,13 @@ export const ValueDisplay = ({
   const relItems = useEnum(relData?.table ?? null, {
     brandId: match?.params?.brandId,
   });
-  if (!value) return null;
+  if (value === null || value === undefined || value === '') {
+    return <span className="text-gray-400">—</span>;
+  }
+
+  if (Array.isArray(value) && value.length === 0) {
+    return <span className="text-gray-400">—</span>;
+  }
 
   if (relItems.data && relData) {
     const entityRoute = field?.entity && FIELD_RELATION_MAP[field.entity];
