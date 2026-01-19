@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { toast } from 'sonner';
 
+import { StateDisplay } from '~/components/StateDisplay';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { TOAST_MESSAGES } from '~/constants/messages';
 import { useUpdateBrand } from '~/hooks/useMutations';
@@ -44,7 +45,7 @@ export const BrandSheet = ({
     initialForm,
   });
 
-  const brandId = String(brand?.slug || brand?.uuid || brand?.id || '');
+  const brandId = String(brand?.slug);
   const updateBrandMutation = useUpdateBrand(brandId);
 
   const handleSave = async () => {
@@ -88,11 +89,7 @@ export const BrandSheet = ({
           entityName="Brand"
         />
 
-        {error && (
-          <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
-            {error}
-          </div>
-        )}
+        <StateDisplay error={error} />
 
         {isReadOnly ? (
           <BrandReadView brand={form as Brand} fields={fields} />

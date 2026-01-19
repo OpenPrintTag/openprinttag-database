@@ -1,4 +1,4 @@
-import { EntityFields } from '~/components/field-types';
+import { EntityFields } from '~/components/fieldTypes';
 
 import { AssociatedPackagesReadSection } from './sections/AssociatedPackagesReadSection';
 import { BasicInformationReadSection } from './sections/BasicInformationReadSection';

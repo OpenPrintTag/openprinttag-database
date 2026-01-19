@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { SelectOption } from '~/components/field-types';
+import { SelectOption } from '~/components/fieldTypes';
 import {
   extractEntityLabel,
   extractEnumLabel,

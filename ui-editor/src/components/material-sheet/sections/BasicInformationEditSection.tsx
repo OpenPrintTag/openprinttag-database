@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import type { EntityFields } from '~/components/field-types';
+import type { EntityFields } from '~/components/fieldTypes';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { extractFieldValue } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';

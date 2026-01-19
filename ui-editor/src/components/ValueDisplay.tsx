@@ -7,7 +7,7 @@ import { useLookupRelation } from '~/hooks/useSchema';
 import { FIELD_RELATION_MAP } from '~/server/data/schema-metadata';
 import { isPrimitive, isValidUrl } from '~/utils/format';
 
-import type { SchemaField } from './field-types';
+import type { SchemaField } from './fieldTypes';
 
 // Badge style constants
 const BADGE_STYLES = {
@@ -15,7 +15,7 @@ const BADGE_STYLES = {
   tag: 'bg-blue-100 text-blue-800 hover:bg-blue-200',
 } as const;
 
-const getBadgeStyleForTable = (table: string | null): string => {
+export const getBadgeStyleForTable = (table: string | null): string => {
   if (table === 'material_certifications') return BADGE_STYLES.certification;
   if (table === 'material_tags') return BADGE_STYLES.tag;
   return '';
@@ -180,10 +180,15 @@ export const ValueDisplay = ({
         (v: any) =>
           v[relData.valueField] === (value as any)[relData.valueField],
       );
+      const params =
+        field?.entity === 'container'
+          ? { ...match?.params, containerId: val[relData.valueField] }
+          : {};
+
       return (
         <Link
           to={entityRoute.route as any}
-          params={(match?.params as any) || {}}
+          params={params as any}
           className="no-underline"
         >
           <Badge>{val[relData.labelField]}</Badge>

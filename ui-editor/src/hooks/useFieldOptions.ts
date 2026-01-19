@@ -1,7 +1,7 @@
 import { useMatch } from '@tanstack/react-router';
 import { useMemo } from 'react';
 
-import type { SchemaField, SelectOption } from '~/components/field-types';
+import type { SchemaField, SelectOption } from '~/components/fieldTypes';
 import {
   ENUM_METADATA,
   extractEntityLabel,

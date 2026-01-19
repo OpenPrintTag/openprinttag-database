@@ -1,4 +1,4 @@
-import type { EntityFields } from '~/components/field-types';
+import type { EntityFields } from '~/components/fieldTypes';
 import { SchemaData } from '~/hooks/useSchema';
 
 import { AdditionalInformationEditSection } from './sections/AdditionalInformationEditSection';

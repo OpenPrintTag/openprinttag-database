@@ -1,8 +1,9 @@
 import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
 import { ChevronRight, Package, Plus } from 'lucide-react';
 
+import { Badge } from '~/components/ui';
 import { useBrandContext } from '~/context/EntityContexts';
-import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
 import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/$brandId/packages')({
@@ -12,13 +13,18 @@ export const Route = createFileRoute('/brands/$brandId/packages')({
 function PackagesLayout() {
   const isMac = getOS() === 'MacOS';
   const { brandId } = Route.useParams();
-  const { packages: packagesData, loading: brandLoading } = useBrandContext();
+  const {
+    packages: packagesData,
+    loading: brandLoading,
+    materials: materialsData,
+    containers: containersData,
+  } = useBrandContext();
 
   const packages = packagesData ?? [];
 
   return (
     <>
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-4 flex items-center justify-between">
         <Link
           to="/brands/$brandId/packages/create"
           resetScroll={false}
@@ -62,7 +68,7 @@ function PackagesLayout() {
                 params={{ brandId, packageId }}
                 className="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition-all hover:border-orange-300 hover:shadow-md"
               >
-                <div className="p-5">
+                <div className="p-5 pb-2">
                   <h3 className="line-clamp-1 text-lg font-semibold text-gray-900 group-hover:text-orange-600">
                     {pkg.name}
                   </h3>
@@ -71,7 +77,50 @@ function PackagesLayout() {
                       {pkg.slug}
                     </p>
                   )}
+                  {pkg.container?.slug && (
+                    <div className="mt-2 flex items-center gap-1">
+                      <Container className="h-4 w-4" />
+                      <Link
+                        to="/brands/$brandId/containers/$containerId"
+                        params={{
+                          brandId,
+                          containerId: pkg.container.slug,
+                        }}
+                        className="no-underline"
+                      >
+                        <Badge variant="secondary">
+                          {
+                            containersData?.find(
+                              (c) => c.slug === pkg.container?.slug,
+                            ).name
+                          }
+                        </Badge>
+                      </Link>
+                    </div>
+                  )}
+                  {pkg.material?.slug && (
+                    <div className="flex items-center gap-1">
+                      <Box className="h-4 w-4" />
+                      <Link
+                        to="/brands/$brandId/materials/$materialId"
+                        params={{
+                          brandId,
+                          materialId: pkg.material.slug,
+                        }}
+                        className="mt-2 inline-block no-underline"
+                      >
+                        <Badge variant="secondary">
+                          {
+                            materialsData?.find(
+                              (c) => c.slug === pkg.material?.slug,
+                            ).name
+                          }
+                        </Badge>
+                      </Link>
+                    </div>
+                  )}
                 </div>
+
                 <div className="mt-auto border-t border-gray-50 bg-gray-50/50 px-5 py-3 transition-colors group-hover:bg-orange-50/50">
                   <div className="flex items-center justify-between text-xs font-medium text-gray-500 group-hover:text-orange-600">
                     <span>View details</span>

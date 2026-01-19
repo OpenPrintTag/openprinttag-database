@@ -3,7 +3,7 @@ import { ChevronRight, Package, Plus } from 'lucide-react';
 import React from 'react';
 
 import { ContainersContext, useBrandContext } from '~/context/EntityContexts';
-import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
 import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/$brandId/containers')({
@@ -26,7 +26,7 @@ function ContainersLayout() {
 
   return (
     <>
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-4 flex items-center justify-between">
         <Link
           to="/brands/$brandId/containers/create"
           params={{ brandId }}

@@ -2,6 +2,7 @@ import { createFileRoute, Link } from '@tanstack/react-router';
 import { ChevronRight, Database, Loader2 } from 'lucide-react';
 
 import { PageHeader } from '~/components/PageHeader';
+import { StateDisplay } from '~/components/StateDisplay';
 import { useEnumList } from '~/hooks/useEnum';
 import { formatEnumLabel } from '~/routes/enum.$table';
 
@@ -13,7 +14,7 @@ function EnumIndex() {
   const { tables, loading, error } = useEnumList();
 
   return (
-    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+    <div className="w-full space-y-6">
       {/* Header Section */}
       <PageHeader
         title="Enums"
@@ -28,29 +29,7 @@ function EnumIndex() {
         </div>
       )}
 
-      {/* Loading State */}
-      {loading && tables.length === 0 && (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <div
-              key={i}
-              className="relative h-24 overflow-hidden rounded-lg border border-gray-200 bg-gray-100"
-            >
-              <div className="absolute inset-0 -translate-x-full animate-[shimmer_2s_infinite] bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100"></div>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* Error State */}
-      {!loading && error && tables.length === 0 && (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
-          <div className="text-sm font-medium text-red-900">
-            Error loading tables
-          </div>
-          <div className="mt-1 text-xs text-red-700">{error}</div>
-        </div>
-      )}
+      <StateDisplay error={error} loading={loading} />
 
       {/* Empty State */}
       {!loading && !error && tables.length === 0 && (
@@ -86,7 +65,6 @@ function EnumIndex() {
                     </div>
                     <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
                   </div>
-                  <div className="text-xs text-gray-500">{table}</div>
                 </button>
               </Link>
             );

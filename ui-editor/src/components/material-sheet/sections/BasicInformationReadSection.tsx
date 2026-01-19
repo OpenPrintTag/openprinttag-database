@@ -1,5 +1,5 @@
 import { DataGrid } from '~/components/DataGrid';
-import type { SchemaField } from '~/components/field-types';
+import type { SchemaField } from '~/components/fieldTypes';
 
 import type { Material } from '../types';
 

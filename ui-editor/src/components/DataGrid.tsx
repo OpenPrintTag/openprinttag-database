@@ -1,4 +1,4 @@
-import type { EntityFields, SchemaField } from './field-types';
+import type { EntityFields, SchemaField } from './fieldTypes';
 import { ValueDisplay } from './ValueDisplay';
 
 export interface DataGridProps<T = Record<string, unknown>> {

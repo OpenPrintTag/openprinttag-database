@@ -4,7 +4,7 @@ import { useFieldOptions } from '~/hooks/useFieldOptions';
 import { extractValue } from '~/utils/field';
 
 import { ColorArrayPicker, ColorPicker, JsonEditor } from './field-editors';
-import type { SchemaField } from './field-types';
+import type { SchemaField } from './fieldTypes';
 import { FormField } from './FormField';
 import { LinkPatternEditor } from './LinkPatternEditor';
 import { MultiSelect } from './MultiSelect';

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-import type { EntityFields, SchemaField } from '~/components/field-types';
+import type { EntityFields, SchemaField } from '~/components/fieldTypes';
 import {
   ENUM_METADATA,
   FIELD_ENUM_MAP,

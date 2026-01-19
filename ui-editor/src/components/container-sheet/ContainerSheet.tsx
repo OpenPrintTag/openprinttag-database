@@ -1,17 +1,10 @@
 import React from 'react';
 
+import { StateDisplay } from '~/components/StateDisplay';
 import { Sheet, SheetContent } from '~/components/ui/sheet';
 import { EntitySheetHeader } from '~/shared/components/entity-sheet';
 
-interface ContainerSheetLayoutProps {
-  children: React.ReactNode;
-  open: boolean;
-  onOpenChange: (open: boolean) => void;
-  form: any;
-  isReadOnly: boolean;
-  currentMode: 'create' | 'edit';
-  error: string | null;
-}
+import { ContainerSheetProps } from './types';
 
 export const ContainerSheet = ({
   children,
@@ -21,7 +14,7 @@ export const ContainerSheet = ({
   isReadOnly,
   currentMode,
   error,
-}: ContainerSheetLayoutProps) => {
+}: ContainerSheetProps) => {
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent size="large" className="overflow-y-auto">
@@ -32,11 +25,7 @@ export const ContainerSheet = ({
           entityName="Container"
         />
 
-        {error && (
-          <div className="my-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
-            {error}
-          </div>
-        )}
+        <StateDisplay error={error} />
 
         {children}
       </SheetContent>

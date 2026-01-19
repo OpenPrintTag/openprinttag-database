@@ -1,4 +1,4 @@
-export { CreateButton } from './create-button';
-export { DeleteButton } from './delete-button';
-export { EditButton } from './edit-button';
-export { SaveButton } from './save-button';
+export { CreateButton } from './CreateButton';
+export { DeleteButton } from './DeleteButton';
+export { EditButton } from './EditButton';
+export { SaveButton } from './SaveButton';

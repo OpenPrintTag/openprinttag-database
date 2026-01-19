@@ -1,4 +1,4 @@
-import { EntityFields } from '~/components/field-types';
+import { EntityFields } from '~/components/fieldTypes';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 
 import type { Material } from '../types';

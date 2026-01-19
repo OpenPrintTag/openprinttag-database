@@ -1,39 +1,17 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { ChevronRight, Loader2, Package2, Plus } from 'lucide-react';
 import React from 'react';
-import { toast } from 'sonner';
 
 import { Brand } from '~/components/brand-sheet/types';
-import { Container, ContainerSheet } from '~/components/container-sheet';
-import { ContainerSheetEditView } from '~/components/container-sheet/ContainerSheetEditView';
-import { ContainerSheetReadView } from '~/components/container-sheet/ContainerSheetReadView';
+import { Container } from '~/components/container-sheet';
 import { PageHeader } from '~/components/PageHeader';
-import { TOAST_MESSAGES } from '~/constants/messages';
+import { Button } from '~/components/ui';
 import { useEnum } from '~/hooks/useEnum';
-import {
-  useCreateContainer,
-  useDeleteContainer,
-  useUpdateContainer,
-} from '~/hooks/useMutations';
-import { useSchema } from '~/hooks/useSchema';
-import {
-  EntitySheetFooter,
-  useEntitySheet,
-} from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
-import { getOS } from '~/utils/os';
 import { slugifyName } from '~/utils/slug';
+import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/containers/')({
   component: RouteComponent,
-  validateSearch: (
-    search: Record<string, unknown>,
-  ): { containerId?: string; mode?: string } => {
-    return {
-      containerId: search.containerId as string | undefined,
-      mode: search.mode as string | undefined,
-    };
-  },
 });
 
 function RouteComponent() {
@@ -42,149 +20,35 @@ function RouteComponent() {
     data: containersData,
     loading: containersLoading,
     error: containersError,
-    refetch,
   } = useEnum('containers');
   const { data: brandsData } = useEnum('brands');
-  const { fields } = useSchema('material_container');
 
   const containers = (containersData?.items as Container[]) ?? [];
   const brands = (brandsData?.items as Brand[]) ?? [];
   const loading = containersLoading;
   const error = containersError;
-  const { containerId, mode } = Route.useSearch();
   const navigate = useNavigate();
-
-  let containerMode: 'create' | 'edit' | 'view' | null = null;
-  if (mode === 'create') {
-    containerMode = 'create';
-  } else if (mode === 'edit') {
-    containerMode = 'edit';
-  } else if (containerId) {
-    containerMode = 'view';
-  }
-
-  const selectedContainer = React.useMemo(() => {
-    if ((containerMode === 'view' || containerMode === 'edit') && containerId) {
-      return containers.find(
-        (c) =>
-          c.slug === containerId ||
-          c.uuid === containerId ||
-          slugifyName(String(c.name ?? '')) === containerId,
-      );
-    }
-    return undefined;
-  }, [containerMode, containerId, containers]);
-
-  const initialForm = React.useMemo(
-    (): any => ({ name: '', class: 'FFF' }),
-    [],
-  );
-
-  const {
-    form,
-    error: sheetError,
-    setError: setSheetError,
-    isReadOnly,
-    currentMode,
-    handleFieldChange: baseHandleFieldChange,
-    handleEdit,
-  } = useEntitySheet<Container>({
-    entity: selectedContainer,
-    open: !!containerMode,
-    mode: containerMode === 'create' ? 'create' : 'edit',
-    readOnly: containerMode === 'view',
-    initialForm,
-  });
-
-  const handleFieldChange = (key: string, value: unknown) => {
-    baseHandleFieldChange(key, value);
-    if (key === 'name' && typeof value === 'string') {
-      const generatedSlug = slugifyName(value);
-      baseHandleFieldChange('slug', generatedSlug || '');
-    }
-  };
-
-  const createContainerMutation = useCreateContainer();
-  const updateContainerMutation = useUpdateContainer(
-    String(selectedContainer?.slug || selectedContainer?.uuid || ''),
-  );
-  const deleteContainerMutation = useDeleteContainer(
-    String(selectedContainer?.slug || selectedContainer?.uuid || ''),
-  );
-
-  const handleSave = async () => {
-    if (!form.name?.trim()) {
-      setSheetError(TOAST_MESSAGES.VALIDATION.CONTAINER_NAME_REQUIRED);
-      return;
-    }
-    if (!form.class) {
-      setSheetError(TOAST_MESSAGES.VALIDATION.CONTAINER_CLASS_REQUIRED);
-      return;
-    }
-
-    setSheetError(null);
-    const dataToSave = prepareFormForSave(form);
-
-    try {
-      if (currentMode === 'create') {
-        await createContainerMutation.mutateAsync({ data: dataToSave });
-        toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_CREATED);
-      } else {
-        await updateContainerMutation.mutateAsync({ data: dataToSave });
-        toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
-      }
-      refetch();
-      handleClose();
-    } catch (err: any) {
-      const errorMessage =
-        err?.message ||
-        (currentMode === 'create'
-          ? TOAST_MESSAGES.ERROR.CONTAINER_CREATE_FAILED
-          : TOAST_MESSAGES.ERROR.CONTAINER_UPDATE_FAILED);
-      setSheetError(errorMessage);
-      toast.error(errorMessage);
-    }
-  };
-
-  const handleDelete = async () => {
-    try {
-      await deleteContainerMutation.mutateAsync();
-      toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_DELETED);
-      refetch();
-      handleClose();
-    } catch {
-      toast.error(TOAST_MESSAGES.ERROR.CONTAINER_DELETE_FAILED);
-    }
-  };
-
-  const handleClose = () => {
-    navigate({
-      to: '/containers',
-      search: {},
-      replace: true,
-      resetScroll: false,
-    });
-  };
 
   const handleOpenContainerSheet = (
     sheetMode: 'create' | 'edit' | 'view',
     id?: string,
   ) => {
-    let search: { mode?: string; containerId?: string } = {};
-    if (sheetMode === 'create') {
-      search = { mode: 'create' };
-    } else if (sheetMode === 'edit') {
-      search = { containerId: id, mode: 'edit' };
-    } else {
-      search = { containerId: id };
+    if (sheetMode === 'view' || sheetMode === 'edit') {
+      navigate({
+        to: '/containers/$containerId' + (sheetMode === 'edit' ? '/edit' : ''),
+        params: { containerId: id! },
+        resetScroll: false,
+      });
+      return;
     }
 
-    navigate({
-      to: '/containers',
-      search,
-      replace: true,
-      resetScroll: false,
-    });
+    if (sheetMode === 'create') {
+      navigate({
+        to: '/containers/create',
+        resetScroll: false,
+      });
+      return;
+    }
   };
 
   // Create a map of brand_slug to brand name for quick lookup
@@ -208,7 +72,7 @@ function RouteComponent() {
   }, [containers]);
 
   return (
-    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+    <div className="w-full space-y-6">
       {/* Header Section */}
       <div className="flex items-start justify-between gap-4">
         <PageHeader
@@ -314,52 +178,6 @@ function RouteComponent() {
           })}
         </div>
       )}
-
-      {/* Container Sheet */}
-      <ContainerSheet
-        open={!!containerMode}
-        onOpenChange={(open) => {
-          if (!open) handleClose();
-        }}
-        form={form}
-        isReadOnly={isReadOnly}
-        currentMode={currentMode}
-        error={sheetError}
-      >
-        {isReadOnly ? (
-          <ContainerSheetReadView
-            container={selectedContainer as any}
-            fields={fields}
-          />
-        ) : (
-          <ContainerSheetEditView
-            form={form as any}
-            onFieldChange={handleFieldChange}
-            fields={fields}
-          />
-        )}
-        <EntitySheetFooter
-          mode={currentMode}
-          readOnly={isReadOnly}
-          onEdit={handleEdit}
-          onSave={handleSave}
-          onDelete={handleDelete}
-          saving={
-            createContainerMutation.isPending ||
-            updateContainerMutation.isPending
-          }
-          deleting={deleteContainerMutation.isPending}
-          disabled={
-            createContainerMutation.isPending ||
-            updateContainerMutation.isPending ||
-            deleteContainerMutation.isPending ||
-            !fields ||
-            !form.name?.trim() ||
-            !form.class
-          }
-          entityName="Container"
-        />
-      </ContainerSheet>
     </div>
   );
 }

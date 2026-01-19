@@ -5,10 +5,10 @@ import React from 'react';
 import { Brand } from '~/components/brand-sheet/types';
 import { BrandCard } from '~/components/BrandCard';
 import { PageHeader } from '~/components/PageHeader';
+import { StateDisplay } from '~/components/StateDisplay';
 import { useEnum } from '~/hooks/useEnum';
-import { CardGridSkeleton } from '~/shared/components/card-skeleton';
-import { getOS } from '~/utils/os';
 
+import { getOS } from '~/utils/os';
 export const Route = createFileRoute('/brands/')({
   component: RouteComponent,
 });
@@ -27,26 +27,14 @@ function RouteComponent() {
   }, [brands]);
 
   return (
-    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+    <div className="w-full space-y-6">
       {/* Header Section */}
       <PageHeader
         title="Material Brands"
         description={`Browse ${brands.length} material brands in the database. Use ${shortcut} to search.`}
       />
 
-      {/* Loading State */}
-      {loading && brands.length === 0 && <CardGridSkeleton count={12} />}
-
-      {/* Error State */}
-      {!loading && error && brands.length === 0 && (
-        <div className="rounded-2xl border-2 border-red-200 bg-red-50 p-8 text-center shadow-md">
-          <div className="text-base font-semibold text-red-900">
-            Error loading brands
-          </div>
-          <div className="mt-2 text-sm text-red-700">{error}</div>
-        </div>
-      )}
-
+      <StateDisplay error={error} loading={loading && brands.length === 0} />
       {/* Empty State - No Brands */}
       {!loading && !error && brands.length === 0 && (
         <div

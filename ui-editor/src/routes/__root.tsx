@@ -166,7 +166,9 @@ function AppShell({ children }: { children: React.ReactNode }) {
         </div>
       </nav>
       {/* Main Content */}
-      <div className="min-h-screen">{children}</div>
+      <div className="mx-auto min-h-screen w-full max-w-7xl p-6">
+        {children}
+      </div>
       {/* Global Search Modal */}
       <GlobalSearch isOpen={isOpen} onClose={close} />
     </>

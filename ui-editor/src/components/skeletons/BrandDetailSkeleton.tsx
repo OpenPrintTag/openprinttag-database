@@ -2,7 +2,7 @@ import React from 'react';
 
 export const BrandDetailSkeleton: React.FC = () => {
   return (
-    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+    <div className="w-full space-y-6">
       {/* Breadcrumb Skeleton */}
       <div className="flex items-center gap-2">
         <div className="h-5 w-32 animate-pulse rounded bg-gray-200" />

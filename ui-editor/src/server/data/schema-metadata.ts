@@ -146,13 +146,13 @@ export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
     entity: 'containers',
     valueField: 'slug',
     labelField: 'name',
-    route: '/brands/$brandId',
+    route: `/containers/$containerId`,
   },
   package: {
     entity: 'packages',
     valueField: 'slug',
     labelField: 'name',
-    route: '/containers/$containerId',
+    route: '/brands/$brandId',
   },
 };
 

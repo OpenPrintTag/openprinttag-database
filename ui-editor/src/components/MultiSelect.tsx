@@ -1,8 +1,8 @@
 import { ChevronDown, X } from 'lucide-react';
 import { type MouseEvent, useEffect, useMemo, useRef, useState } from 'react';
 
-import { SelectOption } from '~/components/field-types';
-import { Badge } from '~/components/ui/badge';
+import { SelectOption } from '~/components/fieldTypes';
+import { Badge } from '~/components/ui';
 
 interface MultiSelectProps {
   id?: string;

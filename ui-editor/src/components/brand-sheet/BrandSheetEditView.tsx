@@ -1,4 +1,4 @@
-import { EntityFields } from '~/components/field-types';
+import { EntityFields } from '~/components/fieldTypes';
 
 import { BasicInformationEditSection } from './sections/BasicInformationEditSection';
 import { IntegrationEditSection } from './sections/IntegrationEditSection';

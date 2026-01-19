@@ -3,9 +3,10 @@ import { Box, ChevronRight, Plus } from 'lucide-react';
 import { useMemo } from 'react';
 
 import { Badge } from '~/components/ui';
+import { getBadgeStyleForTable } from '~/components/ValueDisplay';
 import { useBrandContext } from '~/context/EntityContexts';
 import { useEnum } from '~/hooks/useEnum';
-import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
 import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/$brandId/materials')({
@@ -33,7 +34,7 @@ function MaterialsLayout() {
 
   return (
     <>
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-4 flex items-center justify-between">
         <Link
           to="/brands/$brandId/materials/create"
           params={{ brandId }}
@@ -79,7 +80,7 @@ function MaterialsLayout() {
               >
                 <div className="p-5 pb-0">
                   <div className="mb-2 flex items-start justify-between">
-                    <h3 className="line-clamp-1 text-lg font-semibold text-gray-900 group-hover:text-orange-600">
+                    <h3 className="text-lg leading-snug font-semibold text-gray-900 group-hover:text-orange-600">
                       {material.name}
                     </h3>
                   </div>
@@ -90,7 +91,10 @@ function MaterialsLayout() {
                   )}
                   <div className="flex flex-wrap gap-1.5">
                     {(material.tags || []).slice(0, 3).map((tag: string) => (
-                      <Badge variant="outline" key={tag}>
+                      <Badge
+                        key={tag}
+                        className={getBadgeStyleForTable('material_tags')}
+                      >
                         {tagLabelMap[tag] || tag}
                       </Badge>
                     ))}

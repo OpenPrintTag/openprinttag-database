@@ -12,6 +12,7 @@ import { BrandSheet } from '~/components/brand-sheet';
 import { Brand } from '~/components/brand-sheet/types';
 import { DataGrid } from '~/components/DataGrid';
 import { BrandDetailSkeleton } from '~/components/skeletons';
+import { StateDisplay } from '~/components/StateDisplay';
 import { Tabs, TabsList, TabsTrigger } from '~/components/ui';
 import { BrandContext } from '~/context/EntityContexts';
 import { useApi } from '~/hooks/useApi';
@@ -85,11 +86,11 @@ const RouteComponent = () => {
     return <BrandDetailSkeleton />;
   }
 
-  if (error) return <div className="text-red-700">Error: {error}</div>;
+  if (error) return <StateDisplay error="asdfasdf" />;
   if (!data) return null;
 
   return (
-    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+    <div className="space-y-3">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm text-gray-600">
         <Link
@@ -149,7 +150,7 @@ const RouteComponent = () => {
           refetchContainers: containersQuery.refetch,
         }}
       >
-        <div className="mt-8">
+        <div className="mt-5">
           <Tabs value={currentTab}>
             <TabsList className="mb-4">
               <TabsTrigger value="materials" asChild>

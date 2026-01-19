@@ -2,7 +2,7 @@ import { Link } from '@tanstack/react-router';
 import { LinkIcon } from 'lucide-react';
 
 import { Badge } from '~/components/ui';
-import { CreateButton } from '~/shared/components/action-buttons/create-button';
+import { CreateButton } from '~/shared/components/action-buttons/CreateButton';
 
 import type { Material } from '../types';
 

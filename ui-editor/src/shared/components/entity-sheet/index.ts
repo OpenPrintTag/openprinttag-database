@@ -1,3 +1,3 @@
-export { EntitySheetFooter } from './sheet-footer';
-export { EntitySheetHeader } from './sheet-header';
-export { useEntitySheet } from './use-entity-sheet';
+export { useEntitySheet } from '../../../hooks/useEntitySheet';
+export { EntitySheetFooter } from './SheetFooter';
+export { EntitySheetHeader } from './SheetHeader';

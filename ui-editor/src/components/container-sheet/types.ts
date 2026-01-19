@@ -19,11 +19,11 @@ export interface Container {
 }
 
 export interface ContainerSheetProps {
+  children: React.ReactNode;
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  container?: Container;
-  onSuccess?: () => void;
-  mode: 'create' | 'edit';
-  readOnly?: boolean;
-  onEdit?: () => void;
+  form: any;
+  isReadOnly: boolean;
+  currentMode: 'create' | 'edit';
+  error: string | null;
 }

@@ -1,8 +1,11 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { capitalCase } from 'change-case';
-import { ChevronRight, Database, Loader2, Search, X } from 'lucide-react';
+import { ChevronRight, Database, Loader2, Search } from 'lucide-react';
 import React from 'react';
 
+import { SearchBar } from '~/components/SearchBar';
+import { StateDisplay } from '~/components/StateDisplay';
+import { Badge } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
 
 type TableResponse = { items: any[]; meta: { key: string } };
@@ -61,8 +64,8 @@ function EnumTableList() {
 
     // Sort by name A-Z
     result.sort((a, b) => {
-      const nameA = String(a?.name ?? a?.slug ?? a?.id ?? '');
-      const nameB = String(b?.name ?? b?.slug ?? b?.id ?? '');
+      const nameA = String(a?.name ?? a?.key ?? a?.id ?? '');
+      const nameB = String(b?.name ?? b?.key ?? b?.id ?? '');
       return nameA.localeCompare(nameB);
     });
 
@@ -72,7 +75,7 @@ function EnumTableList() {
   const tableLabel = formatEnumLabel(table);
 
   return (
-    <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
+    <div className="w-full space-y-6">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm text-gray-600">
         <Link
@@ -104,37 +107,11 @@ function EnumTableList() {
       )}
 
       {/* Search Bar */}
-      <div className="relative">
-        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
-          <Search
-            className="h-5 w-5"
-            style={{ color: 'hsl(var(--muted-foreground))' }}
-          />
-        </div>
-        <input
-          type="text"
-          className="w-full rounded-xl border py-3.5 pr-12 pl-12 text-base shadow-sm transition-all focus-visible:ring-2 focus-visible:ring-offset-0 focus-visible:outline-none"
-          style={{
-            backgroundColor: 'hsl(var(--card))',
-            color: 'hsl(var(--foreground))',
-            borderColor: 'hsl(var(--border))',
-          }}
-          placeholder={`Search ${tableLabel.toLowerCase()}...`}
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-        {searchQuery && (
-          <button
-            type="button"
-            aria-label="Clear search"
-            className="absolute top-1/2 right-3 -translate-y-1/2 rounded-full p-1.5 transition-all hover:scale-110"
-            style={{ color: 'hsl(var(--muted-foreground))' }}
-            onClick={() => setSearchQuery('')}
-          >
-            <X className="h-5 w-5" />
-          </button>
-        )}
-      </div>
+      <SearchBar
+        value={searchQuery}
+        onChange={setSearchQuery}
+        placeholder={`Search ${tableLabel.toLowerCase()}...`}
+      />
 
       {/* Results Info */}
       {debouncedSearch && (
@@ -144,29 +121,7 @@ function EnumTableList() {
         </div>
       )}
 
-      {/* Loading State */}
-      {loading && (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {Array.from({ length: 12 }).map((_, i) => (
-            <div
-              key={i}
-              className="relative h-24 overflow-hidden rounded-lg border border-gray-200 bg-gray-100"
-            >
-              <div className="absolute inset-0 -translate-x-full animate-[shimmer_2s_infinite] bg-linear-to-r from-gray-100 via-gray-200 to-gray-100"></div>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* Error State */}
-      {!loading && error && (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-6 text-center">
-          <div className="text-sm font-medium text-red-900">
-            Error loading items
-          </div>
-          <div className="mt-1 text-xs text-red-700">{error}</div>
-        </div>
-      )}
+      <StateDisplay error={error} loading={loading} />
 
       {/* Empty State - No Items */}
       {!loading && !error && data && items.length === 0 && (
@@ -213,34 +168,43 @@ function EnumTableList() {
       {/* Items Grid */}
       {!loading && !error && processedItems.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {processedItems.map((it, idx) => {
-            const itemId = String(
-              it?.code ?? it?.id ?? it?.slug ?? it?.uuid ?? idx,
-            );
-            const name = String(it?.name ?? it?.slug ?? itemId);
-            const code = it?.code ? String(it.code) : null;
+          {processedItems
+            .sort((a, b) => a.key - b.key)
+            .map((it, idx) => {
+              const itemId = String(
+                it?.key ?? it?.code ?? it?.id ?? it?.abbreviation ?? idx,
+              );
+              const name = String(it?.display_name ?? it?.name ?? itemId);
 
-            return (
-              <div
-                key={itemId}
-                className="group block w-full rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all"
-              >
-                <div className="mb-2 flex items-start justify-between gap-2">
-                  <div className="flex-1 truncate text-sm font-semibold text-gray-900">
-                    {name}
+              return (
+                <div
+                  key={itemId}
+                  className="group flex w-full flex-col justify-between gap-2 rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm transition-all"
+                >
+                  <div>
+                    <div className="text-sm font-semibold text-gray-900">
+                      {name}
+                      <span className="ml-1 text-xs text-gray-500">
+                        ({itemId})
+                      </span>
+                    </div>
+                    {it?.abbreviation && (
+                      <div className="text-sm">{String(it.abbreviation)}</div>
+                    )}
                   </div>
+                  {it?.description && (
+                    <div className="text-xs wrap-break-word text-gray-500">
+                      {String(it.description)}
+                    </div>
+                  )}
+                  {it?.category && (
+                    <div>
+                      <Badge variant="outline">{String(it.category)}</Badge>
+                    </div>
+                  )}
                 </div>
-                {code && (
-                  <div className="truncate text-xs text-gray-500">{code}</div>
-                )}
-                {it?.category && (
-                  <div className="mt-2 inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
-                    {String(it.category)}
-                  </div>
-                )}
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
       )}
     </div>

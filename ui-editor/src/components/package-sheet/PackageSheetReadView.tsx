@@ -1,5 +1,5 @@
 import { DataGrid } from '~/components/DataGrid';
-import { EntityFields } from '~/components/field-types';
+import { EntityFields } from '~/components/fieldTypes';
 
 import { SystemInformationReadSection } from './sections/SystemInformationReadSection';
 import type { Package } from './types';
