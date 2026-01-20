@@ -7,12 +7,15 @@ import { BrandCard } from '~/components/BrandCard';
 import { PageHeader } from '~/components/PageHeader';
 import { useEnum } from '~/hooks/useEnum';
 import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/')({
   component: RouteComponent,
 });
 
 function RouteComponent() {
+  const isMac = getOS() === 'MacOS';
+  const shortcut = isMac ? '⌘K' : 'CTRL+K';
   const { data: enums, loading, error } = useEnum('brands');
   const brands = (enums?.items as Brand[]) ?? [];
 
@@ -28,7 +31,7 @@ function RouteComponent() {
       {/* Header Section */}
       <PageHeader
         title="Material Brands"
-        description={`Browse ${brands.length} material brands in the database. Use ⌘K to search.`}
+        description={`Browse ${brands.length} material brands in the database. Use ${shortcut} to search.`}
       />
 
       {/* Loading State */}

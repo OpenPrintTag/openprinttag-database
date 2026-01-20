@@ -21,6 +21,7 @@ import {
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
 import { prepareFormForSave } from '~/utils/field';
+import { getOS } from '~/utils/os';
 import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/containers/')({
@@ -36,6 +37,7 @@ export const Route = createFileRoute('/containers/')({
 });
 
 function RouteComponent() {
+  const isMac = getOS() === 'MacOS';
   const {
     data: containersData,
     loading: containersLoading,
@@ -211,7 +213,7 @@ function RouteComponent() {
       <div className="flex items-start justify-between gap-4">
         <PageHeader
           title="Material Containers"
-          description={`Browse ${containers.length} material containers. Press ⌘K to search.`}
+          description={`Browse ${containers.length} material containers. Press ${isMac ? '⌘K' : 'CTRL+K'} to search.`}
         />
         <button
           onClick={() => handleOpenContainerSheet('create')}

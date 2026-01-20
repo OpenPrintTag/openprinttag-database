@@ -3,12 +3,14 @@ import { ChevronRight, Package, Plus } from 'lucide-react';
 
 import { useBrandContext } from '~/context/EntityContexts';
 import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/$brandId/packages')({
   component: PackagesLayout,
 });
 
 function PackagesLayout() {
+  const isMac = getOS() === 'MacOS';
   const { brandId } = Route.useParams();
   const { packages: packagesData, loading: brandLoading } = useBrandContext();
 
@@ -30,7 +32,7 @@ function PackagesLayout() {
           className="text-sm"
           style={{ color: 'hsl(var(--muted-foreground))' }}
         >
-          {packages.length} packages • Press ⌘K to search
+          {packages.length} packages • Press {isMac ? '⌘K' : 'CTRL+K'} to search
         </span>
       </div>
 

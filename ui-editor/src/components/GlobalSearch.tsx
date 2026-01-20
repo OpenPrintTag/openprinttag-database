@@ -1,4 +1,4 @@
-import { useNavigate } from '@tanstack/react-router';
+import { useMatch, useNavigate } from '@tanstack/react-router';
 import {
   Building2,
   ChevronDown,
@@ -18,6 +18,7 @@ import type {
   SearchResult,
   SearchResultType,
 } from '~/routes/api/search';
+import { getOS } from '~/utils/os';
 
 const TYPE_ICONS: Record<SearchResultType, React.ReactNode> = {
   brand: <Building2 className="h-4 w-4" />,
@@ -64,6 +65,7 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [filters, setFilters] = useState<SearchFilters>({});
   const [timing, setTiming] = useState<number | null>(null);
+  const match = useMatch({ from: '/brands/$brandId', shouldThrow: false });
 
   // Brand filter state
   const [brands, setBrands] = useState<BrandOption[]>([]);
@@ -85,7 +87,7 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
   useEffect(() => {
     if (isOpen && brands.length === 0) {
       setBrandsLoading(true);
-      fetch('/api/brands')
+      fetch('/api/brands/basic')
         .then((res) => res.json())
         .then((data) => {
           if (Array.isArray(data)) {
@@ -129,7 +131,11 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
       setQuery('');
       setResults([]);
       setSelectedIndex(0);
-      setFilters({});
+      if (match?.params?.brandId) {
+        setFilters({ ...filters, brand: match.params.brandId });
+      } else {
+        setFilters({});
+      }
     }
   }, [isOpen]);
 
@@ -209,7 +215,10 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
           }
           break;
         case 'container':
-          navigate({ to: '/containers/$id', params: { id: result.slug } });
+          navigate({
+            to: '/containers/$id',
+            params: { id: result.slug },
+          });
           break;
       }
     },
@@ -828,6 +837,8 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
 }
 
 export function GlobalSearchTrigger({ onClick }: { onClick: () => void }) {
+  const isMac = getOS() === 'MacOS';
+
   return (
     <button
       onClick={onClick}
@@ -844,7 +855,13 @@ export function GlobalSearchTrigger({ onClick }: { onClick: () => void }) {
         className="ml-2 hidden rounded border px-1.5 py-0.5 font-mono text-[10px] sm:inline-flex"
         style={{ borderColor: 'hsl(var(--border))' }}
       >
-        <Command className="mr-0.5 inline h-3 w-3" />K
+        {isMac ? (
+          <>
+            <Command className="mr-0.5 inline h-3 w-3" />K
+          </>
+        ) : (
+          'CTRL+K'
+        )}
       </kbd>
     </button>
   );

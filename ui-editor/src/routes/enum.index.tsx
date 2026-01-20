@@ -17,7 +17,7 @@ function EnumIndex() {
       {/* Header Section */}
       <PageHeader
         title="Enums"
-        description={`Browse ${tables.length} enums in the database. Press ⌘K to search.`}
+        description={`Browse ${tables.length} enums in the database.`}
       />
 
       {/* Background Loading Indicator */}

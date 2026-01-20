@@ -6,12 +6,14 @@ import { Badge } from '~/components/ui';
 import { useBrandContext } from '~/context/EntityContexts';
 import { useEnum } from '~/hooks/useEnum';
 import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/$brandId/materials')({
   component: MaterialsLayout,
 });
 
 function MaterialsLayout() {
+  const isMac = getOS() === 'MacOS';
   const { brandId } = Route.useParams();
   const { materials: materialsData, loading: brandLoading } = useBrandContext();
 
@@ -44,7 +46,8 @@ function MaterialsLayout() {
           className="text-sm"
           style={{ color: 'hsl(var(--muted-foreground))' }}
         >
-          {materials.length} materials • Press ⌘K to search
+          {materials.length} materials • Press {isMac ? '⌘K' : 'CTRL+K'} to
+          search
         </span>
       </div>
 

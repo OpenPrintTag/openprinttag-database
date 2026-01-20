@@ -4,12 +4,14 @@ import React from 'react';
 
 import { ContainersContext, useBrandContext } from '~/context/EntityContexts';
 import { CardGridSkeleton } from '~/shared/components/card-skeleton';
+import { getOS } from '~/utils/os';
 
 export const Route = createFileRoute('/brands/$brandId/containers')({
   component: ContainersLayout,
 });
 
 function ContainersLayout() {
+  const isMac = getOS() === 'MacOS';
   const { brandId } = Route.useParams();
   const {
     containers: containersList,
@@ -37,7 +39,8 @@ function ContainersLayout() {
           className="text-sm"
           style={{ color: 'hsl(var(--muted-foreground))' }}
         >
-          {filteredContainers.length} containers • Press ⌘K to search
+          {filteredContainers.length} containers • Press{' '}
+          {isMac ? '⌘K' : 'CTRL+K'} to search
         </span>
       </div>
 
