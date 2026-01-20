@@ -27,31 +27,15 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
         }
 
         try {
-          const { findBrandDirForNestedEntity, slugifyName, readAllEntities } =
-            await import('~/server/data/fs');
+          const {
+            findBrandDirForNestedEntity,
+
+            readSingleEntity,
+          } = await import('~/server/data/fs');
           const { generateMaterialPackageUuid } =
             await import('~/server/uuid-utils');
-
-          // Find the brand to get its UUID
-          const brands = await readAllEntities('brands');
-          if (!Array.isArray(brands)) {
-            return json({ error: 'Failed to load brands' }, { status: 500 });
-          }
-
           // Find the brand by ID (could be slug, uuid, or name-based slug)
-          const brand = brands.find((b) => {
-            const fileStem =
-              typeof b.__file === 'string'
-                ? b.__file.replace(/\.(ya?ml)$/i, '')
-                : undefined;
-            const nameSlug = slugifyName(b.name);
-            return (
-              b.uuid === brandId ||
-              b.slug === brandId ||
-              fileStem === brandId ||
-              nameSlug === brandId
-            );
-          });
+          const brand = await readSingleEntity('brands', brandId);
 
           if (!brand || !brand.uuid) {
             return json(
@@ -77,9 +61,9 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
 
           // Generate filename - using material and container references
           // material and container can be UUIDs or slugs
-          const materialRef = payload.material || payload.material_slug;
+          const materialRef = payload.material?.slug || payload.material_slug;
           const containerRef =
-            payload.container || payload.container_slug || 'unknown';
+            payload.container?.slug || payload.container_slug || 'unknown';
           const slug =
             payload.slug || `${materialRef}-${containerRef}`.toLowerCase();
           const fileName = `${slug}.yaml`;

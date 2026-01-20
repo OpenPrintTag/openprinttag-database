@@ -178,11 +178,11 @@ export const ValueDisplay = ({
         : (relItems.data as EnumTable).items;
       const val = items.find(
         (v: any) =>
-          v[relData.valueField] === (value as any)[relData.valueField],
+          v[relData.valueField] === (value as any)?.[relData.valueField],
       );
       const params =
         field?.entity === 'container'
-          ? { ...match?.params, containerId: val[relData.valueField] }
+          ? { ...match?.params, containerId: val?.[relData.valueField] }
           : {};
 
       return (
@@ -191,7 +191,7 @@ export const ValueDisplay = ({
           params={params as any}
           className="no-underline"
         >
-          <Badge>{val[relData.labelField]}</Badge>
+          <Badge>{val?.[relData.labelField]}</Badge>
         </Link>
       );
     }

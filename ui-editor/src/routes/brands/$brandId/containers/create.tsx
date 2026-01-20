@@ -1,6 +1,7 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import React, { useMemo } from 'react';
 import { toast } from 'sonner';
+import { v4 } from 'uuid';
 
 import { Container, ContainerSheet } from '~/components/container-sheet';
 import { ContainerSheetEditView } from '~/components/container-sheet/ContainerSheetEditView';
@@ -24,7 +25,7 @@ function ContainerCreate() {
   const { fields } = useSchema('material_container');
 
   const initialForm = useMemo(
-    (): any => ({ name: '', class: 'FFF', brand: brandId }),
+    (): any => ({ uuid: v4(), name: '', class: 'FFF', brand: brandId }),
     [brandId],
   );
 

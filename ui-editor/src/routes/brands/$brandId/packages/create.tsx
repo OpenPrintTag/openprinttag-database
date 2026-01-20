@@ -32,7 +32,6 @@ function PackageCreate() {
   });
 
   const createPackageMutation = useCreatePackage(brandId);
-
   const handleSave = async () => {
     const materialValue =
       typeof form.material === 'object'
@@ -80,9 +79,8 @@ function PackageCreate() {
       <PackageSheetEditView
         brandId={brandId}
         schema={schema}
-        fields={fields as any}
+        fields={fields}
         form={form as any}
-        //mode="create"
         onFieldChange={handleFieldChange}
       />
       <EntitySheetFooter
