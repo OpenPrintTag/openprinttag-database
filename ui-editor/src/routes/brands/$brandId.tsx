@@ -65,7 +65,7 @@ const RouteComponent = () => {
       navigate({
         to: '/brands/$brandId',
         params: { brandId },
-        search: (prev) => ({ ...prev, editBrand: undefined }),
+        search: (prev: BrandSearch) => ({ ...prev, editBrand: undefined }),
         replace: true,
         resetScroll: false,
       });
@@ -76,7 +76,7 @@ const RouteComponent = () => {
     navigate({
       to: '/brands/$brandId/materials',
       params: { brandId },
-      search: (prev) => ({ ...prev, editBrand: true }),
+      search: (prev: BrandSearch) => ({ ...prev, editBrand: true }),
       resetScroll: false,
     });
   };

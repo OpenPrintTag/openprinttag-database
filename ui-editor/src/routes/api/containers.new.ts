@@ -5,6 +5,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
 import { parseJsonSafe } from '~/server/http';
+import { invalidateSearchIndex } from '~/server/searchIndex';
 
 // POST /api/containers/new
 export const Route = createFileRoute('/api/containers/new')({
@@ -125,6 +126,7 @@ export const Route = createFileRoute('/api/containers/new')({
 
           console.info(`Created container: ${slug}`);
 
+          invalidateSearchIndex();
           return json(newContainer, { status: 201 });
         } catch (err) {
           console.error('Error creating container:', err);

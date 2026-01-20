@@ -19,6 +19,7 @@ import { Route as BrandsIndexRouteImport } from './routes/brands/index'
 import { Route as EnumTableRouteImport } from './routes/enum.$table'
 import { Route as ContainersIdRouteImport } from './routes/containers.$id'
 import { Route as BrandsBrandIdRouteImport } from './routes/brands/$brandId'
+import { Route as ApiSearchRouteImport } from './routes/api/search'
 import { Route as ApiSchemaRouteImport } from './routes/api/schema'
 import { Route as ApiPackagesRouteImport } from './routes/api/packages'
 import { Route as ApiMaterialsRouteImport } from './routes/api/materials'
@@ -105,6 +106,11 @@ const BrandsBrandIdRoute = BrandsBrandIdRouteImport.update({
   id: '/$brandId',
   path: '/$brandId',
   getParentRoute: () => BrandsRoute,
+} as any)
+const ApiSearchRoute = ApiSearchRouteImport.update({
+  id: '/api/search',
+  path: '/api/search',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const ApiSchemaRoute = ApiSchemaRouteImport.update({
   id: '/api/schema',
@@ -317,6 +323,7 @@ export interface FileRoutesByFullPath {
   '/api/materials': typeof ApiMaterialsRouteWithChildren
   '/api/packages': typeof ApiPackagesRoute
   '/api/schema': typeof ApiSchemaRoute
+  '/api/search': typeof ApiSearchRoute
   '/brands/$brandId': typeof BrandsBrandIdRouteWithChildren
   '/containers/$id': typeof ContainersIdRoute
   '/enum/$table': typeof EnumTableRoute
@@ -362,6 +369,7 @@ export interface FileRoutesByTo {
   '/api/materials': typeof ApiMaterialsRouteWithChildren
   '/api/packages': typeof ApiPackagesRoute
   '/api/schema': typeof ApiSchemaRoute
+  '/api/search': typeof ApiSearchRoute
   '/containers/$id': typeof ContainersIdRoute
   '/enum/$table': typeof EnumTableRoute
   '/brands': typeof BrandsIndexRoute
@@ -407,6 +415,7 @@ export interface FileRoutesById {
   '/api/materials': typeof ApiMaterialsRouteWithChildren
   '/api/packages': typeof ApiPackagesRoute
   '/api/schema': typeof ApiSchemaRoute
+  '/api/search': typeof ApiSearchRoute
   '/brands/$brandId': typeof BrandsBrandIdRouteWithChildren
   '/containers/$id': typeof ContainersIdRoute
   '/enum/$table': typeof EnumTableRoute
@@ -457,6 +466,7 @@ export interface FileRouteTypes {
     | '/api/materials'
     | '/api/packages'
     | '/api/schema'
+    | '/api/search'
     | '/brands/$brandId'
     | '/containers/$id'
     | '/enum/$table'
@@ -502,6 +512,7 @@ export interface FileRouteTypes {
     | '/api/materials'
     | '/api/packages'
     | '/api/schema'
+    | '/api/search'
     | '/containers/$id'
     | '/enum/$table'
     | '/brands'
@@ -546,6 +557,7 @@ export interface FileRouteTypes {
     | '/api/materials'
     | '/api/packages'
     | '/api/schema'
+    | '/api/search'
     | '/brands/$brandId'
     | '/containers/$id'
     | '/enum/$table'
@@ -595,6 +607,7 @@ export interface RootRouteChildren {
   ApiMaterialsRoute: typeof ApiMaterialsRouteWithChildren
   ApiPackagesRoute: typeof ApiPackagesRoute
   ApiSchemaRoute: typeof ApiSchemaRoute
+  ApiSearchRoute: typeof ApiSearchRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -668,6 +681,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/brands/$brandId'
       preLoaderRoute: typeof BrandsBrandIdRouteImport
       parentRoute: typeof BrandsRoute
+    }
+    '/api/search': {
+      id: '/api/search'
+      path: '/api/search'
+      fullPath: '/api/search'
+      preLoaderRoute: typeof ApiSearchRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/api/schema': {
       id: '/api/schema'
@@ -1198,6 +1218,7 @@ const rootRouteChildren: RootRouteChildren = {
   ApiMaterialsRoute: ApiMaterialsRouteWithChildren,
   ApiPackagesRoute: ApiPackagesRoute,
   ApiSchemaRoute: ApiSchemaRoute,
+  ApiSearchRoute: ApiSearchRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

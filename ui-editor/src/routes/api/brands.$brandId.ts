@@ -8,6 +8,7 @@ import {
   readSingleEntity as readEntity,
   writeSingleEntity as writeEntity,
 } from '~/server/http';
+import { invalidateSearchIndex } from '~/server/searchIndex';
 
 export const Route = createFileRoute('/api/brands/$brandId')({
   server: {
@@ -45,6 +46,7 @@ export const Route = createFileRoute('/api/brands/$brandId')({
         const result = await writeEntity('brands', id, payload);
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
+        invalidateSearchIndex();
         return json(payload);
       },
     },

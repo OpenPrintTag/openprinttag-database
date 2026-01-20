@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
-import { ChevronRight, Loader2, Package2, Plus, Search } from 'lucide-react';
+import { ChevronRight, Loader2, Package2, Plus } from 'lucide-react';
 import React from 'react';
 import { toast } from 'sonner';
 
@@ -8,8 +8,6 @@ import { Container, ContainerSheet } from '~/components/container-sheet';
 import { ContainerSheetEditView } from '~/components/container-sheet/ContainerSheetEditView';
 import { ContainerSheetReadView } from '~/components/container-sheet/ContainerSheetReadView';
 import { PageHeader } from '~/components/PageHeader';
-import { SearchBar } from '~/components/SearchBar';
-import { Button } from '~/components/ui';
 import { TOAST_MESSAGES } from '~/constants/messages';
 import { useEnum } from '~/hooks/useEnum';
 import {
@@ -23,6 +21,7 @@ import {
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
 import { prepareFormForSave } from '~/utils/field';
+import { getOS } from '~/utils/os';
 import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/containers/')({
@@ -38,6 +37,7 @@ export const Route = createFileRoute('/containers/')({
 });
 
 function RouteComponent() {
+  const isMac = getOS() === 'MacOS';
   const {
     data: containersData,
     loading: containersLoading,
@@ -53,8 +53,6 @@ function RouteComponent() {
   const error = containersError;
   const { containerId, mode } = Route.useSearch();
   const navigate = useNavigate();
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const [debouncedSearch, setDebouncedSearch] = React.useState('');
 
   let containerMode: 'create' | 'edit' | 'view' | null = null;
   if (mode === 'create') {
@@ -149,7 +147,6 @@ function RouteComponent() {
   };
 
   const handleDelete = async () => {
-    // Basic delete logic for this overview page
     try {
       await deleteContainerMutation.mutateAsync();
       toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_DELETED);
@@ -201,44 +198,14 @@ function RouteComponent() {
     return map;
   }, [brands]);
 
-  // Debounce search
-  React.useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setDebouncedSearch(searchQuery.trim());
-    }, 300);
-    return () => window.clearTimeout(timer);
-  }, [searchQuery]);
-
-  // Filter containers
-  const processedContainers = React.useMemo(() => {
-    let result = [...containers];
-
-    // Filter by search query
-    if (debouncedSearch) {
-      const query = debouncedSearch.toLowerCase();
-      result = result.filter((container) => {
-        const name = String(container.name ?? '').toLowerCase();
-        const slug = String(container.slug ?? '').toLowerCase();
-        const description = String(container.description ?? '').toLowerCase();
-        const id = String((container as any).id ?? '').toLowerCase();
-        return (
-          name.includes(query) ||
-          slug.includes(query) ||
-          description.includes(query) ||
-          id.includes(query)
-        );
-      });
-    }
-
-    // Sort by name A-Z
-    result.sort((a, b) => {
+  // Sort containers by name A-Z
+  const sortedContainers = React.useMemo(() => {
+    return [...containers].sort((a, b) => {
       const nameA = String(a.name ?? '');
       const nameB = String(b.name ?? '');
       return nameA.localeCompare(nameB);
     });
-
-    return result;
-  }, [containers, debouncedSearch]);
+  }, [containers]);
 
   return (
     <div className="mx-auto w-full max-w-7xl space-y-6 p-6">
@@ -246,7 +213,7 @@ function RouteComponent() {
       <div className="flex items-start justify-between gap-4">
         <PageHeader
           title="Material Containers"
-          description={`Browse and manage ${containers.length} material containers in the database`}
+          description={`Browse ${containers.length} material containers. Press ${isMac ? '⌘K' : 'CTRL+K'} to search.`}
         />
         <button
           onClick={() => handleOpenContainerSheet('create')}
@@ -257,27 +224,11 @@ function RouteComponent() {
         </button>
       </div>
 
-      {/* Background Loading Indicator - shown when refreshing with existing data */}
+      {/* Background Loading Indicator */}
       {loading && containers.length > 0 && (
         <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
           <Loader2 className="h-4 w-4 animate-spin" />
           <span>Updating containers...</span>
-        </div>
-      )}
-
-      {/* Search Bar */}
-      <SearchBar
-        value={searchQuery}
-        onChange={setSearchQuery}
-        placeholder="Search containers by name, slug, or description..."
-      />
-
-      {/* Results Info */}
-      {debouncedSearch && (
-        <div className="text-sm text-gray-600">
-          Found{' '}
-          <span className="font-semibold">{processedContainers.length}</span> of{' '}
-          <span className="font-semibold">{containers.length}</span> containers
         </div>
       )}
 
@@ -305,7 +256,7 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Empty State - No Containers */}
+      {/* Empty State */}
       {!loading && !error && containers.length === 0 && (
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
           <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
@@ -320,37 +271,10 @@ function RouteComponent() {
         </div>
       )}
 
-      {/* Empty State - No Search Results */}
-      {!loading &&
-        !error &&
-        containers.length > 0 &&
-        processedContainers.length === 0 &&
-        debouncedSearch && (
-          <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
-            <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
-              <Search className="h-10 w-10 text-gray-500" />
-            </div>
-            <h3 className="mb-2 text-lg font-semibold text-gray-900">
-              No results found
-            </h3>
-            <p className="text-sm text-gray-600">
-              No containers matching &ldquo;{debouncedSearch}&rdquo;. Try a
-              different search term.
-            </p>
-            <Button
-              variant="outline"
-              onClick={() => setSearchQuery('')}
-              className="mt-4 cursor-pointer"
-            >
-              Clear search
-            </Button>
-          </div>
-        )}
-
       {/* Containers Grid */}
-      {!loading && !error && processedContainers.length > 0 && (
+      {!loading && !error && sortedContainers.length > 0 && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {processedContainers.map((container) => {
+          {sortedContainers.map((container) => {
             const id =
               (container.slug as string) ||
               (container.uuid as string) ||

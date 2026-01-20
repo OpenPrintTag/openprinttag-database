@@ -5,6 +5,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
 import { parseJsonSafe } from '~/server/http';
+import { invalidateSearchIndex } from '~/server/searchIndex';
 
 // POST /api/brands/$brandId/materials/new
 export const Route = createFileRoute('/api/brands/$brandId/materials/new')({
@@ -137,6 +138,7 @@ export const Route = createFileRoute('/api/brands/$brandId/materials/new')({
           const yamlStr = yamlModule.stringify(newMaterial);
           await fs.writeFile(filePath, yamlStr, 'utf8');
 
+          invalidateSearchIndex();
           return json({ ok: true, material: newMaterial, slug });
         } catch (err: any) {
           console.error('Failed to create material:', err);

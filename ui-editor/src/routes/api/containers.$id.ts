@@ -8,6 +8,7 @@ import {
   readSingleEntity as readEntity,
   writeSingleEntity as writeEntity,
 } from '~/server/http';
+import { invalidateSearchIndex } from '~/server/searchIndex';
 
 export const Route = createFileRoute('/api/containers/$id')({
   server: {
@@ -31,6 +32,7 @@ export const Route = createFileRoute('/api/containers/$id')({
         );
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
+        invalidateSearchIndex();
         return json({ ok: true });
       },
       DELETE: async ({ params, request }) => {
@@ -38,6 +40,7 @@ export const Route = createFileRoute('/api/containers/$id')({
         const result = await deleteEntity('material-containers', params.id);
         const errRes = jsonError(result, 500);
         if (errRes) return errRes;
+        invalidateSearchIndex();
         return json({ ok: true });
       },
     },
