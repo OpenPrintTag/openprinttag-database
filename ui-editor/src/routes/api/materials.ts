@@ -22,7 +22,7 @@ export const Route = createFileRoute('/api/materials')({
           ({ __file, __brand, ...rest }) => ({
             ...(rest as Material),
             // expose brand identifier to build links
-            brandId: __brand as any,
+            brandId: __brand || rest?.brand?.slug,
           }),
         );
         return json(materials);

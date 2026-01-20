@@ -7,7 +7,6 @@ import { BrandCard } from '~/components/BrandCard';
 import { PageHeader } from '~/components/PageHeader';
 import { StateDisplay } from '~/components/StateDisplay';
 import { useEnum } from '~/hooks/useEnum';
-
 import { getOS } from '~/utils/os';
 export const Route = createFileRoute('/brands/')({
   component: RouteComponent,

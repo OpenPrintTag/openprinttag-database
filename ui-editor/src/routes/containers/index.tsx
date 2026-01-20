@@ -5,10 +5,9 @@ import React from 'react';
 import { Brand } from '~/components/brand-sheet/types';
 import { Container } from '~/components/container-sheet';
 import { PageHeader } from '~/components/PageHeader';
-import { Button } from '~/components/ui';
 import { useEnum } from '~/hooks/useEnum';
-import { slugifyName } from '~/utils/slug';
 import { getOS } from '~/utils/os';
+import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/containers/')({
   component: RouteComponent,

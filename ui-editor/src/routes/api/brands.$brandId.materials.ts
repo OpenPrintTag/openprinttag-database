@@ -18,7 +18,7 @@ export const Route = createFileRoute('/api/brands/$brandId/materials')({
           return json({ error: data.error }, { status: data.status ?? 500 });
         }
         const materials: Material[] = data.map(
-          ({ __file, __brand, ...rest }) => rest as Material,
+          ({ __file, ...rest }) => rest as Material,
         );
         return json(materials);
       },

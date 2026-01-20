@@ -167,7 +167,7 @@ async function buildIndex(): Promise<SearchResult[]> {
   });
   if (Array.isArray(materials)) {
     for (const material of materials) {
-      const brandSlug = material.__brand || material.brand?.slug;
+      const brandSlug = material.brand?.slug;
       results.push({
         type: 'material',
         slug: material.slug || material.__file?.replace(/\.ya?ml$/i, ''),
@@ -187,7 +187,7 @@ async function buildIndex(): Promise<SearchResult[]> {
   });
   if (Array.isArray(packages)) {
     for (const pkg of packages) {
-      const brandSlug = pkg.__brand;
+      const brandSlug = pkg.brand?.slug;
       results.push({
         type: 'package',
         slug: pkg.slug || pkg.__file?.replace(/\.ya?ml$/i, ''),

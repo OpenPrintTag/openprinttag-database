@@ -1,9 +1,8 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { capitalCase } from 'change-case';
-import { ChevronRight, Database, Loader2, Search } from 'lucide-react';
+import { ChevronRight, Database } from 'lucide-react';
 import React from 'react';
 
-import { SearchBar } from '~/components/SearchBar';
 import { StateDisplay } from '~/components/StateDisplay';
 import { Badge } from '~/components/ui';
 import { useApi } from '~/hooks/useApi';
@@ -28,39 +27,10 @@ function EnumTableList() {
     [table],
   );
   const items = data?.items ?? [];
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const [debouncedSearch, setDebouncedSearch] = React.useState('');
-
-  // Debounce search
-  React.useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setDebouncedSearch(searchQuery.trim());
-    }, 300);
-    return () => window.clearTimeout(timer);
-  }, [searchQuery]);
 
   // Filter items
   const processedItems = React.useMemo(() => {
-    let result = [...items];
-
-    // Filter by search query
-    if (debouncedSearch) {
-      const query = debouncedSearch.toLowerCase();
-      result = result.filter((it) => {
-        const name = String(it?.name ?? '').toLowerCase();
-        const code = String(it?.code ?? '').toLowerCase();
-        const slug = String(it?.slug ?? '').toLowerCase();
-        const uuid = String(it?.uuid ?? '').toLowerCase();
-        const id = String(it?.id ?? '').toLowerCase();
-        return (
-          name.includes(query) ||
-          code.includes(query) ||
-          slug.includes(query) ||
-          uuid.includes(query) ||
-          id.includes(query)
-        );
-      });
-    }
+    const result = [...items];
 
     // Sort by name A-Z
     result.sort((a, b) => {
@@ -70,7 +40,7 @@ function EnumTableList() {
     });
 
     return result;
-  }, [items, debouncedSearch]);
+  }, [items]);
 
   const tableLabel = formatEnumLabel(table);
 
@@ -98,29 +68,6 @@ function EnumTableList() {
         </div>
       </div>
 
-      {/* Background Loading Indicator */}
-      {loading && data && (
-        <div className="flex items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
-          <Loader2 className="h-4 w-4 animate-spin" />
-          <span>Updating items...</span>
-        </div>
-      )}
-
-      {/* Search Bar */}
-      <SearchBar
-        value={searchQuery}
-        onChange={setSearchQuery}
-        placeholder={`Search ${tableLabel.toLowerCase()}...`}
-      />
-
-      {/* Results Info */}
-      {debouncedSearch && (
-        <div className="text-sm text-gray-600">
-          Found <span className="font-semibold">{processedItems.length}</span>{' '}
-          of <span className="font-semibold">{items.length}</span> items
-        </div>
-      )}
-
       <StateDisplay error={error} loading={loading} />
 
       {/* Empty State - No Items */}
@@ -137,33 +84,6 @@ function EnumTableList() {
           </p>
         </div>
       )}
-
-      {/* Empty State - No Search Results */}
-      {!loading &&
-        !error &&
-        data &&
-        items.length > 0 &&
-        processedItems.length === 0 &&
-        debouncedSearch && (
-          <div className="flex flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
-            <div className="mb-4 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200">
-              <Search className="h-10 w-10 text-gray-500" />
-            </div>
-            <h3 className="mb-2 text-lg font-semibold text-gray-900">
-              No results found
-            </h3>
-            <p className="text-sm text-gray-600">
-              No items matching &ldquo;{debouncedSearch}&rdquo;. Try a different
-              search term.
-            </p>
-            <button
-              onClick={() => setSearchQuery('')}
-              className="mt-4 text-sm text-purple-600 hover:underline"
-            >
-              Clear search
-            </button>
-          </div>
-        )}
 
       {/* Items Grid */}
       {!loading && !error && processedItems.length > 0 && (

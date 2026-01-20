@@ -15,7 +15,10 @@ export const Route = createFileRoute('/api/packages')({
           return json({ error: data.error }, { status: data.status ?? 500 });
         }
         return json(
-          data.map(({ __file, __brand, ...r }) => ({ ...r, brandId: __brand })),
+          data.map(({ __file, __brand, ...r }) => ({
+            ...r,
+            brandId: __brand || r?.brand?.slug,
+          })),
         );
       },
     },

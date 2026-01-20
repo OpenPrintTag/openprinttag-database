@@ -25,7 +25,7 @@ export const Route = createFileRoute('/api/brands/$brandId/packages')({
             },
           );
         }
-        return json(data.map(({ __file, __brand, ...r }) => r));
+        return json(data.map(({ __file, ...r }) => r));
       },
     },
   },

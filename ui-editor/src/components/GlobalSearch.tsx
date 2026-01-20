@@ -132,7 +132,7 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
       setResults([]);
       setSelectedIndex(0);
       if (match?.params?.brandId) {
-        setFilters({ ...filters, brand: match.params.brandId });
+        setFilters((prev) => ({ ...prev, brand: match.params.brandId }));
       } else {
         setFilters({});
       }
@@ -216,8 +216,8 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
           break;
         case 'container':
           navigate({
-            to: '/containers/$id',
-            params: { id: result.slug },
+            to: '/containers/$containerId',
+            params: { containerId: result.slug },
           });
           break;
       }

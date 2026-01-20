@@ -46,11 +46,12 @@ export const BasicInformationEditSection = ({
       <div className="card-header">Basic Information</div>
       <div className="card-body">
         <div className="grid gap-4 sm:grid-cols-2">
-          {['name', 'slug', 'brand', 'brand_specific_id'].map((key) => {
+          {['uuid', 'name', 'slug', 'brand', 'brand_specific_id'].map((key) => {
             if (!fields[key]) return null;
 
             // slug and brand should be disabled
-            const isDisabled = key === 'slug' || key === 'brand';
+            const isDisabled =
+              key === 'slug' || key === 'brand' || key === 'uuid';
             const rawValue = extractFieldValue(key, form?.[key]);
 
             return (

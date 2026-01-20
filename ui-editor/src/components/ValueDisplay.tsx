@@ -227,7 +227,7 @@ export const ValueDisplay = ({
     field.items.type === 'string'
   ) {
     return (
-      <div className="flex flex-row gap-2">
+      <div className="flex flex-row flex-wrap gap-2">
         {value.map((v, i) => (
           <Badge variant="secondary" key={i}>
             {v}
@@ -239,7 +239,7 @@ export const ValueDisplay = ({
 
   if (field?.type === 'array' && Array.isArray(value)) {
     return (
-      <div className="flex flex-row gap-2">
+      <div className="flex flex-row flex-wrap gap-2">
         {value.map((v, i) => (
           <PrimitiveValue field={field.items} key={i} value={v} />
         ))}

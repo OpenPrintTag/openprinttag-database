@@ -73,7 +73,7 @@ export const PackageSheetEditView = ({
             <div className="grid gap-4 sm:grid-cols-2">
               {Object.entries(fields).map(([key, field]) => {
                 const isReadonlySlug = key === 'slug' && field.type === 'slug';
-                const isUuid = field.type === 'uuid';
+                const isUuid = key === 'uuid';
 
                 return (
                   <FieldItem

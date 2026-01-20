@@ -281,7 +281,7 @@ export async function readNestedEntitiesByBrand(
       status: 404,
     };
   const files = await getEntityFiles(dir, opts);
-  return files.map((f) => ({ ...f, __brand: brandId }));
+  return files.map((f) => ({ ...f, brand: { slug: brandId } }));
 }
 
 export async function readAllNestedAcrossBrands(
@@ -300,7 +300,7 @@ export async function readAllNestedAcrossBrands(
       const stat = await fs.stat(dir).catch(() => null);
       if (stat?.isDirectory()) {
         const items = await getEntityFiles(dir, opts);
-        results.push(...items.map((f) => ({ ...f, __brand: entry })));
+        results.push(...items.map((f) => ({ ...f, brand: { slug: entry } })));
       }
     }
     return results;
@@ -341,7 +341,7 @@ export async function readSingleNestedByBrand(
     try {
       const content = await fs.readFile(file.path, 'utf8');
       const parsed = await parseYaml(content);
-      return { ...parsed, __brand: brandId };
+      return { ...parsed, brand: { slug: brandId } };
     } catch {
       // ignore and fall back
     }
@@ -352,7 +352,7 @@ export async function readSingleNestedByBrand(
   const match = all.find((e) => matchesId(e, id));
   if (!match) return { error: `entity not found`, status: 404 };
   const { __file, ...rest } = match;
-  return { ...rest, __brand: brandId };
+  return { ...rest, brand: { slug: brandId } };
 }
 
 // --- Write/Update helpers ---

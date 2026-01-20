@@ -19,9 +19,8 @@ export const BasicInformationReadSection = ({
       data={material}
       title="Basic Information"
       fields={fields as Record<string, SchemaField> | undefined}
-      primaryKeys={['name', 'slug', 'brand', 'brand_specific_id']}
+      primaryKeys={['uuid', 'name', 'slug', 'brand', 'brand_specific_id']}
       excludeKeys={[
-        'uuid',
         'primary_color',
         'secondary_colors',
         'transmission_distance',

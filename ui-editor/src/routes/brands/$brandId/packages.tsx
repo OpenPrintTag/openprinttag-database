@@ -1,5 +1,5 @@
 import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
-import { ChevronRight, Package, Plus } from 'lucide-react';
+import { ChevronRight, Package, Palette, Plus } from 'lucide-react';
 
 import { Badge } from '~/components/ui';
 import { useBrandContext } from '~/context/EntityContexts';
@@ -79,7 +79,7 @@ function PackagesLayout() {
                   )}
                   {pkg.container?.slug && (
                     <div className="mt-2 flex items-center gap-1">
-                      <Container className="h-4 w-4" />
+                      <Package className="h-4 w-4" />
                       <Link
                         to="/brands/$brandId/containers/$containerId"
                         params={{
@@ -100,7 +100,7 @@ function PackagesLayout() {
                   )}
                   {pkg.material?.slug && (
                     <div className="flex items-center gap-1">
-                      <Box className="h-4 w-4" />
+                      <Palette className="h-4 w-4" />
                       <Link
                         to="/brands/$brandId/materials/$materialId"
                         params={{
