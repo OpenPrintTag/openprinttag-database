@@ -13,17 +13,10 @@ export interface EnumMetadata {
   valueField: string;
   /** The field used for display labels (e.g., 'display_name', 'name') */
   labelField: string;
-  /** Optional secondary label field */
-  secondaryLabelField?: string;
+  entity: string;
 }
 
 export interface RelationMetadata {
-  /** The target entity type */
-  entity: string;
-  /** The field used as the stored value/reference */
-  valueField: string;
-  /** The field used for display labels */
-  labelField: string;
   /** Whether this is an array relation */
   isArray?: boolean;
   /** The target entity route in app */
@@ -31,105 +24,53 @@ export interface RelationMetadata {
 }
 
 /**
- * Enum/lookup table metadata with explicit value and label fields.
+ * Field-to-enum mapping for known enum fields with explicit value and label fields.
  */
-export const ENUM_METADATA: Record<string, EnumMetadata> = {
-  brand_link_pattern_types: {
-    valueField: 'name',
+export const FIELD_ENUM_MAP: Record<string, EnumMetadata> = {
+  type: {
+    entity: 'material_types',
+    valueField: 'abbreviation',
     labelField: 'name',
   },
-  countries: {
+  tags: {
+    entity: 'material_tags',
+    valueField: 'name',
+    labelField: 'display_name',
+  },
+  certifications: {
+    entity: 'material_certifications',
+    valueField: 'name',
+    labelField: 'display_name',
+  },
+  countries_of_origin: {
+    entity: 'countries',
     valueField: 'key',
     labelField: 'name',
   },
-  material_certifications: {
+  category: {
+    entity: 'material_tag_categories',
     valueField: 'name',
     labelField: 'display_name',
   },
-  material_photo_types: {
+  photo_type: {
+    entity: 'material_photo_types',
     valueField: 'name',
     labelField: 'name',
   },
-  material_tag_categories: {
+  brand_link_pattern_types: {
+    entity: 'brand_link_pattern_types',
     valueField: 'name',
-    labelField: 'display_name',
-  },
-  material_tags: {
-    valueField: 'name',
-    labelField: 'display_name',
-  },
-  material_types: {
-    valueField: 'abbreviation',
     labelField: 'name',
-    secondaryLabelField: 'abbreviation',
   },
-};
-
-/**
- * Entity metadata with explicit primary key and display fields.
- */
-export const ENTITY_METADATA: Record<
-  string,
-  { primaryKey: string; displayField: string }
-> = {
-  brands: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  brand: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  materials: {
-    primaryKey: 'uuid',
-    displayField: 'name',
-  },
-  material: {
-    primaryKey: 'uuid',
-    displayField: 'name',
-  },
-  material_containers: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  material_container: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  material_packages: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  material_package: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  containers: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-  packages: {
-    primaryKey: 'slug',
-    displayField: 'name',
-  },
-};
-
-/**
- * Field-to-enum mapping for known enum fields.
- */
-export const FIELD_ENUM_MAP: Record<string, string> = {
-  type: 'material_types',
-  tags: 'material_tags',
-  certifications: 'material_certifications',
-  countries_of_origin: 'countries',
-  category: 'material_tag_categories',
-  photo_type: 'material_photo_types',
 };
 
 /*
  * Field-to-relation mapping for known relation fields.
  */
-export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
+export const FIELD_RELATION_MAP: Record<
+  string,
+  RelationMetadata & EnumMetadata
+> = {
   brand: {
     entity: 'brands',
     valueField: 'slug',
@@ -155,53 +96,3 @@ export const FIELD_RELATION_MAP: Record<string, RelationMetadata> = {
     route: '/brands/$brandId',
   },
 };
-
-/**
- * Get enum metadata for a given table name.
- */
-export function getEnumMetadata(tableName: string): EnumMetadata | null {
-  return ENUM_METADATA[tableName] ?? null;
-}
-
-/**
- * Get entity metadata for a given entity name.
- */
-export function getEntityMetadata(
-  entityName: string,
-): { primaryKey: string; displayField: string } | null {
-  return (
-    ENTITY_METADATA[entityName] ??
-    ENTITY_METADATA[entityName.replace(/s$/, '')] ??
-    null
-  );
-}
-
-/**
- * Extract label from an enum item using metadata.
- */
-export function extractEnumLabel(
-  item: Record<string, unknown>,
-  tableName: string,
-): string {
-  const meta = getEnumMetadata(tableName);
-  if (!meta) {
-    console.warn(`Unknown enum table: ${tableName}`);
-    return String(item.display_name ?? item.name ?? item.key ?? '');
-  }
-  return String(item[meta.labelField] ?? item[meta.valueField] ?? '');
-}
-
-/**
- * Extract label from an entity using metadata.
- */
-export function extractEntityLabel(
-  item: Record<string, unknown>,
-  entityName: string,
-): string {
-  const meta = getEntityMetadata(entityName);
-  if (!meta) {
-    console.warn(`Unknown entity: ${entityName}`);
-    return String(item.name ?? item.display_name ?? '');
-  }
-  return String(item[meta.displayField] ?? item[meta.primaryKey] ?? '');
-}

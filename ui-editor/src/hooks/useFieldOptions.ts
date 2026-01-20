@@ -3,17 +3,11 @@ import { useMemo } from 'react';
 
 import type { SchemaField, SelectOption } from '~/components/fieldTypes';
 import {
-  ENUM_METADATA,
-  extractEntityLabel,
-  extractEnumLabel,
   FIELD_ENUM_MAP,
   FIELD_RELATION_MAP,
 } from '~/server/data/schema-metadata';
 
 import { useEnum } from './useEnum';
-
-// Entity tables that are not enums
-const ENTITY_TABLES = ['brands', 'materials', 'containers', 'packages'];
 
 export interface FieldOptionsResult {
   /** Whether this field has options (is a lookup/enum field) */
@@ -37,11 +31,11 @@ export interface FieldOptionsResult {
 /**
  * Unified hook for resolving field options.
  * Handles relations, enums, and inline enum values in a single call.
- * Replaces the need for separate useLookupRelation + useEnumOptions calls.
+ * Replaces the need for separate useLookupRelation calls.
  */
 export function useFieldOptions(
   fieldName: string,
-  field: SchemaField | undefined,
+  field?: SchemaField,
   brandId?: string,
 ): FieldOptionsResult {
   const match = useMatch({ from: '/brands/$brandId', shouldThrow: false });
@@ -51,49 +45,21 @@ export function useFieldOptions(
   const isArray = field?.type === 'array';
   const itemField = isArray ? field?.items : field;
 
-  // Check for explicit relation mapping first
   const relationMeta = FIELD_RELATION_MAP[fieldName];
-
-  // Check for explicit enum mapping
-  const enumTable = FIELD_ENUM_MAP[fieldName];
-
-  // Check for inline enum values
+  const enumMeta = FIELD_ENUM_MAP[fieldName];
   const inlineEnum = itemField?.enum ?? field?.enum;
 
-  // Determine the table to fetch from
-  let table: string | null = null;
-  let valueField: string | null = null;
-  let labelField: string | null = null;
+  const table = relationMeta?.entity ?? enumMeta?.entity;
+  const valueField = relationMeta?.valueField ?? enumMeta?.valueField;
+  const labelField = relationMeta?.labelField ?? enumMeta?.labelField;
 
-  if (relationMeta) {
-    table = relationMeta.entity;
-    valueField = relationMeta.valueField;
-    labelField = relationMeta.labelField;
-  } else if (enumTable) {
-    table = enumTable;
-    const enumMeta = ENUM_METADATA[enumTable];
-    valueField = enumMeta?.valueField ?? 'name';
-    labelField = enumMeta?.labelField ?? 'display_name';
-  }
-
-  // Fetch data from the table
   const variant = resolvedBrandId ? { brandId: resolvedBrandId } : undefined;
   const { data: payload, loading, error } = useEnum(table, variant);
 
-  // Build options
   const options = useMemo(() => {
-    // If we have inline enum values and no table, use those
-    if (inlineEnum && !table) {
-      return inlineEnum.map((v) => ({
-        value: String(v),
-        label: String(v),
-      }));
-    }
-
     // If we have a table with data, build options from it
     if (table && payload?.items) {
       const items = payload.items;
-      const isEntity = ENTITY_TABLES.includes(table);
 
       const result: SelectOption[] = [];
       for (const item of items) {
@@ -102,14 +68,12 @@ export function useFieldOptions(
         const value = valueField ? itemObj[valueField] : null;
         if (value === undefined || value === null) continue;
 
-        const label = isEntity
-          ? extractEntityLabel(itemObj, table)
-          : extractEnumLabel(itemObj, table);
+        const label = labelField ? itemObj[labelField] : value;
 
         result.push({
           value: value as string | number,
           label: String(label),
-          data: isEntity ? itemObj : undefined,
+          data: itemObj,
         });
       }
       return result;
@@ -124,9 +88,9 @@ export function useFieldOptions(
     }
 
     return [];
-  }, [payload, table, valueField, inlineEnum]);
+  }, [payload, table, valueField, labelField, inlineEnum]);
 
-  const hasOptions = !!(relationMeta || enumTable || inlineEnum);
+  const hasOptions = !!(relationMeta || enumMeta || inlineEnum);
 
   return {
     hasOptions,
@@ -140,5 +104,4 @@ export function useFieldOptions(
   };
 }
 
-// Re-export extractValue from utils for backwards compatibility
 export { extractValue } from '~/utils/field';

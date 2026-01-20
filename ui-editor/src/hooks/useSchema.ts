@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 
 import type { EntityFields, SchemaField } from '~/components/fieldTypes';
 import {
-  ENUM_METADATA,
   FIELD_ENUM_MAP,
   FIELD_RELATION_MAP,
 } from '~/server/data/schema-metadata';
@@ -87,13 +86,12 @@ export const useLookupRelation = (
 
   // Check if this is an enum field
   if (fieldName && FIELD_ENUM_MAP[fieldName]) {
-    const enumTable = FIELD_ENUM_MAP[fieldName];
-    const enumMeta = ENUM_METADATA[enumTable];
+    const enumMeta = FIELD_ENUM_MAP[fieldName];
     return {
       isLookup: false,
-      table: enumTable,
-      valueField: enumMeta?.valueField ?? 'name',
-      labelField: enumMeta?.labelField ?? 'display_name',
+      table: enumMeta.entity,
+      valueField: enumMeta.valueField,
+      labelField: enumMeta.labelField,
     };
   }
 
