@@ -62,12 +62,7 @@ The editor has three main sections accessible from the top navigation:
 1. Navigate to **Brands** → Click on a brand
 2. Find the **Materials** section
 3. Click **"+ Add Material"**
-4. Fill in material details:
-   - **Name** — Material name (e.g., "PLA Galaxy Black")
-   - **Type** — Material type (PLA, PETG, ASA, etc.)
-   - **Class** — FFF for filaments, SLA for resins
-   - **Colors** — Primary and secondary colors
-   - **Properties** — Material properties (see schema for available fields)
+4. Fill material details
 5. Click **Save**
 
 The editor creates `data/materials/{brand-slug}/{material-slug}.yaml`.
@@ -77,12 +72,7 @@ The editor creates `data/materials/{brand-slug}/{material-slug}.yaml`.
 1. Navigate to **Brands** → Click on a brand
 2. Find the **Packages** section
 3. Click **"+ Add Package"**
-4. Fill in package details:
-   - **Material** — Select the material this package contains
-   - **Container** — Select the spool type
-   - **Weight** — Net weight in grams
-   - **GTIN** — Barcode number (optional)
-   - **Filament Diameter** — Usually 1750 (1.75mm) or 2850 (2.85mm)
+4. Fill package details
 5. Click **Save**
 
 The editor creates `data/material-packages/{brand-slug}/{package-slug}.yaml`.
@@ -94,17 +84,14 @@ Containers can be added in two ways:
 **Option 1: From the Containers page**
 1. Navigate to **Containers** in the navigation
 2. Click **"New Container"** button
-3. Fill in container details:
-   - **Name** — Container name (e.g., "1000g")
-   - **Class** — FFF for filaments, SLA for resins
-   - **Dimensions** — Weight, diameters, dimensions (optional)
+3. Fill container details
 4. Click **Save**
 
 **Option 2: From a Brand page**
 1. Navigate to **Brands** → Click on a brand
 2. Find the **Containers** section
 3. Click **"+ Add Container"**
-4. Fill in container details (same as Option 1)
+4. Fill container details (same as Option 1)
 5. Click **Save**
 
 The editor creates `data/material-containers/{container-slug}.yaml`.
