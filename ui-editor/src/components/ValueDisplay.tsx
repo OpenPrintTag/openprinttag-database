@@ -5,11 +5,10 @@ import type { EnumTable } from '~/hooks/useEnum';
 import { useEnum } from '~/hooks/useEnum';
 import { useLookupRelation } from '~/hooks/useSchema';
 import { FIELD_RELATION_MAP } from '~/server/data/schema-metadata';
-import { isPrimitive, isValidUrl } from '~/utils/format';
+import { getLocalAssetUrl, isPrimitive, isValidUrl } from '~/utils/format';
 
 import type { SchemaField } from './fieldTypes';
 
-// Badge style constants
 const BADGE_STYLES = {
   certification: 'bg-green-100 text-green-800 hover:bg-green-200',
   tag: 'bg-blue-100 text-blue-800 hover:bg-blue-200',
@@ -86,17 +85,19 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
     }
 
     if (field?.title === 'MaterialPhoto') {
+      const photoUrl = getLocalAssetUrl(String(obj.url));
+
       return (
         <div className="flex flex-col gap-1">
           <div className="relative aspect-square w-28 overflow-hidden rounded border border-gray-200 bg-gray-50 shadow-sm transition-shadow hover:shadow-md">
             <a
-              href={String(obj.url)}
+              href={photoUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="block h-full w-full"
             >
               <img
-                src={String(obj.url)}
+                src={photoUrl}
                 alt={String(obj.type ?? 'photo')}
                 className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                 onError={(e) => {

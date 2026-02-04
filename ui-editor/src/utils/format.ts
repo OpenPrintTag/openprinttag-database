@@ -40,3 +40,22 @@ export const formatBytes = (bytes: number): string => {
 
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 };
+
+/**
+ * Check if URL points to a local asset (uploaded but not yet on CDN)
+ */
+export const isLocalAsset = (url: string): boolean => {
+  return url.startsWith('/tmp/assets/');
+};
+
+/**
+ * Convert local asset path to API URL for display
+ * Local assets are stored at /data/tmp/assets/ but served via /api/assets/
+ */
+export const getLocalAssetUrl = (url: string): string => {
+  if (isLocalAsset(url)) {
+    const filename = url.split('/').pop();
+    return `/api/assets/${filename}`;
+  }
+  return url;
+};

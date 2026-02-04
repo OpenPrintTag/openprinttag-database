@@ -5,7 +5,7 @@ import { FormField } from '~/components/FormField';
 interface ArrayFieldEditorProps<T> {
   label: string;
   value: unknown;
-  onChange: (val: T[] | null) => void;
+  onChange: (val: T[] | undefined) => void;
   required?: boolean;
   emptyMessage: string;
   addButtonLabel: string;
@@ -16,6 +16,7 @@ interface ArrayFieldEditorProps<T> {
     updateItem: (field: keyof T, newValue: any) => void,
     removeItem: () => void,
   ) => ReactNode;
+  onBeforeRemove?: (item: T, index: number) => void | Promise<void>;
 }
 
 export function ArrayFieldEditor<T>({
@@ -27,19 +28,28 @@ export function ArrayFieldEditor<T>({
   addButtonLabel,
   defaultItem,
   renderItem,
+  onBeforeRemove,
 }: ArrayFieldEditorProps<T>) {
   const items: T[] = Array.isArray(value) ? value : [];
 
   const updateItems = (updated: T[]) => {
-    onChange(updated.length > 0 ? updated : null);
+    onChange(updated.length > 0 ? updated : undefined);
   };
 
   const handleAdd = () => {
     updateItems([...items, { ...defaultItem }]);
   };
 
-  const handleRemove = (index: number) => {
-    updateItems(items.filter((_, i) => i !== index));
+  const handleRemove = async (index: number) => {
+    try {
+      if (onBeforeRemove) {
+        await onBeforeRemove(items[index], index);
+      }
+    } catch (err) {
+      console.error('onBeforeRemove failed:', err);
+    } finally {
+      updateItems(items.filter((_, i) => i !== index));
+    }
   };
 
   const handleUpdate = (index: number, field: keyof T, newValue: any) => {
