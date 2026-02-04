@@ -74,6 +74,13 @@ export const Route = createFileRoute(
           }
         }
 
+        // Remove null/undefined values from payload
+        for (const key of Object.keys(payload)) {
+          if (payload[key] === null || payload[key] === undefined) {
+            delete payload[key];
+          }
+        }
+
         const result = await writeNestedByBrand(
           'material-packages',
           brandId,

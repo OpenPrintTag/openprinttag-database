@@ -22,9 +22,10 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
   const [isReadOnly, setIsReadOnly] = useState(readOnly);
   const [currentMode, setCurrentMode] = useState(mode);
 
-  const prevEntityRef = useRef(entity);
+  const prevEntityJsonRef = useRef<string | null>(null);
   const prevModeRef = useRef(mode);
   const prevOpenRef = useRef(open);
+  const prevReadOnlyRef = useRef(readOnly);
 
   useEffect(() => {
     setIsReadOnly(readOnly);
@@ -34,8 +35,22 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
     setCurrentMode(mode);
   }, [mode]);
 
+  // Reset form when switching back to read-only mode (cancel edit)
   useEffect(() => {
-    const entityChanged = prevEntityRef.current !== entity;
+    const wasEditing = prevReadOnlyRef.current === false;
+    const nowReadOnly = readOnly === true;
+
+    if (wasEditing && nowReadOnly && entity) {
+      // User cancelled edit - reset to original data
+      setForm(entity);
+    }
+
+    prevReadOnlyRef.current = readOnly;
+  }, [readOnly, entity]);
+
+  useEffect(() => {
+    const entityJson = entity ? JSON.stringify(entity) : null;
+    const entityChanged = prevEntityJsonRef.current !== entityJson;
     const modeChanged = prevModeRef.current !== mode;
     const openChanged = prevOpenRef.current !== open;
 
@@ -47,7 +62,7 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
       }
     }
 
-    prevEntityRef.current = entity;
+    prevEntityJsonRef.current = entityJson;
     prevModeRef.current = mode;
     prevOpenRef.current = open;
   }, [entity, mode, open, stableInitialForm]);
@@ -60,6 +75,17 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
     setIsReadOnly(false);
   };
 
+  const handleCancelEdit = useCallback(() => {
+    // Reset form to original entity data
+    if (entity) {
+      setForm(entity);
+    } else {
+      setForm(stableInitialForm);
+    }
+    setIsReadOnly(true);
+    setError(null);
+  }, [entity, stableInitialForm]);
+
   return {
     form,
     setForm,
@@ -71,5 +97,6 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
     setCurrentMode,
     handleFieldChange,
     handleEdit,
+    handleCancelEdit,
   };
 };

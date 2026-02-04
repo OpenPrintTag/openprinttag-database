@@ -16,6 +16,7 @@ interface ArrayFieldEditorProps<T> {
     updateItem: (field: keyof T, newValue: any) => void,
     removeItem: () => void,
   ) => ReactNode;
+  onBeforeRemove?: (item: T, index: number) => void | Promise<void>;
 }
 
 export function ArrayFieldEditor<T>({
@@ -27,6 +28,7 @@ export function ArrayFieldEditor<T>({
   addButtonLabel,
   defaultItem,
   renderItem,
+  onBeforeRemove,
 }: ArrayFieldEditorProps<T>) {
   const items: T[] = Array.isArray(value) ? value : [];
 
@@ -39,7 +41,23 @@ export function ArrayFieldEditor<T>({
   };
 
   const handleRemove = (index: number) => {
-    updateItems(items.filter((_, i) => i !== index));
+    const doRemove = () => {
+      updateItems(items.filter((_, i) => i !== index));
+    };
+
+    if (onBeforeRemove) {
+      const result = onBeforeRemove(items[index], index);
+      if (result instanceof Promise) {
+        result.then(doRemove).catch((err) => {
+          console.error('onBeforeRemove failed:', err);
+          doRemove();
+        });
+      } else {
+        doRemove();
+      }
+    } else {
+      doRemove();
+    }
   };
 
   const handleUpdate = (index: number, field: keyof T, newValue: any) => {
