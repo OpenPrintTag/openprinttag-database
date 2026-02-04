@@ -105,7 +105,7 @@ check-node:
 	}
 	@echo "✓ pnpm $$(pnpm -v) detected"
 
-editor: check-node
+editor: check-node fetch-schemas
 	@echo ""
 	@echo "Starting UI Editor..."
 	@echo "====================="
