@@ -4,6 +4,7 @@ import React, { useRef, useState } from 'react';
 import { ArrayFieldEditor } from '~/components/ArrayFieldEditor';
 import type { SelectOption } from '~/components/fieldTypes';
 import { useFieldOptions } from '~/hooks/useFieldOptions';
+import { getLocalAssetUrl, isLocalAsset } from '~/utils/format';
 
 interface PhotoItem {
   url: string;
@@ -13,7 +14,7 @@ interface PhotoItem {
 interface PhotosEditorProps {
   label: string;
   value: unknown;
-  onChange: (val: PhotoItem[] | null) => void;
+  onChange: (val: PhotoItem[] | undefined) => void;
   required?: boolean;
 }
 
@@ -39,20 +40,8 @@ const useUploadImage = () => {
   });
 };
 
-const getPreviewUrl = (url: string): string => {
-  if (url.startsWith('/tmp/assets/')) {
-    const filename = url.split('/').pop();
-    return `/api/assets/${filename}`;
-  }
-  return url;
-};
-
-const isLocalFile = (url: string): boolean => {
-  return url.startsWith('/tmp/assets/');
-};
-
 const deleteLocalAsset = async (url: string): Promise<void> => {
-  if (!isLocalFile(url)) return;
+  if (!isLocalAsset(url)) return;
 
   const filename = url.split('/').pop();
   if (!filename) return;
@@ -143,8 +132,8 @@ const PhotoItemEditor = ({
     fileInputRef.current?.click();
   };
 
-  const photoIsLocal = isLocalFile(photo.url);
-  const previewUrl = photo.url ? getPreviewUrl(photo.url) : '';
+  const photoIsLocal = isLocalAsset(photo.url);
+  const previewUrl = photo.url ? getLocalAssetUrl(photo.url) : '';
 
   return (
     <div className="space-y-3">

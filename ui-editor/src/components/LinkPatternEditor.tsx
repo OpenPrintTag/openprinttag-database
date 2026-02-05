@@ -7,7 +7,7 @@ import { useFieldOptions } from '~/hooks/useFieldOptions';
 interface LinkPatternEditorProps {
   label: string;
   value: unknown;
-  onChange: (val: LinkPattern[] | null) => void;
+  onChange: (val: LinkPattern[] | undefined) => void;
   required?: boolean;
 }
 

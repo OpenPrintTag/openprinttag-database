@@ -5,7 +5,7 @@ import { FormField } from '~/components/FormField';
 interface ArrayFieldEditorProps<T> {
   label: string;
   value: unknown;
-  onChange: (val: T[] | null) => void;
+  onChange: (val: T[] | undefined) => void;
   required?: boolean;
   emptyMessage: string;
   addButtonLabel: string;
@@ -33,30 +33,22 @@ export function ArrayFieldEditor<T>({
   const items: T[] = Array.isArray(value) ? value : [];
 
   const updateItems = (updated: T[]) => {
-    onChange(updated.length > 0 ? updated : null);
+    onChange(updated.length > 0 ? updated : undefined);
   };
 
   const handleAdd = () => {
     updateItems([...items, { ...defaultItem }]);
   };
 
-  const handleRemove = (index: number) => {
-    const doRemove = () => {
-      updateItems(items.filter((_, i) => i !== index));
-    };
-
-    if (onBeforeRemove) {
-      const result = onBeforeRemove(items[index], index);
-      if (result instanceof Promise) {
-        result.then(doRemove).catch((err) => {
-          console.error('onBeforeRemove failed:', err);
-          doRemove();
-        });
-      } else {
-        doRemove();
+  const handleRemove = async (index: number) => {
+    try {
+      if (onBeforeRemove) {
+        await onBeforeRemove(items[index], index);
       }
-    } else {
-      doRemove();
+    } catch (err) {
+      console.error('onBeforeRemove failed:', err);
+    } finally {
+      updateItems(items.filter((_, i) => i !== index));
     }
   };
 

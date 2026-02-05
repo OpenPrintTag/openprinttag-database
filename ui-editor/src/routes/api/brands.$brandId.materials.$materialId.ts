@@ -79,13 +79,6 @@ export const Route = createFileRoute(
           payload.brand = { slug: payload.brand };
         }
 
-        // Remove null/undefined values from payload
-        for (const key of Object.keys(payload)) {
-          if (payload[key] === null || payload[key] === undefined) {
-            delete payload[key];
-          }
-        }
-
         const result = await writeNestedByBrand(
           'materials',
           brandId,

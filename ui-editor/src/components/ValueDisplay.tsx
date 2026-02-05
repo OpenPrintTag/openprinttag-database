@@ -5,17 +5,9 @@ import type { EnumTable } from '~/hooks/useEnum';
 import { useEnum } from '~/hooks/useEnum';
 import { useLookupRelation } from '~/hooks/useSchema';
 import { FIELD_RELATION_MAP } from '~/server/data/schema-metadata';
-import { isPrimitive, isValidUrl } from '~/utils/format';
+import { getLocalAssetUrl, isPrimitive, isValidUrl } from '~/utils/format';
 
 import type { SchemaField } from './fieldTypes';
-
-const getDisplayUrl = (url: string): string => {
-  if (url.startsWith('/tmp/assets/')) {
-    const filename = url.split('/').pop();
-    return `/api/assets/${filename}`;
-  }
-  return url;
-};
 
 const BADGE_STYLES = {
   certification: 'bg-green-100 text-green-800 hover:bg-green-200',
@@ -93,7 +85,7 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
     }
 
     if (field?.title === 'MaterialPhoto') {
-      const photoUrl = getDisplayUrl(String(obj.url));
+      const photoUrl = getLocalAssetUrl(String(obj.url));
 
       return (
         <div className="flex flex-col gap-1">
