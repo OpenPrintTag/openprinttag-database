@@ -12,6 +12,8 @@ dependencies = [
     "PyYAML>=6.0",
     "jsonschema>=4.0.0",
     "referencing>=0.37.0",
+    "requests>=2.31.0",
+    "google-cloud-storage>=2.10.0",
 ]
 
 [tool.setuptools.packages.find]
