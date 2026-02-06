@@ -44,7 +44,7 @@ export const FIELD_ENUM_MAP: Record<string, EnumMetadata> = {
   },
   countries_of_origin: {
     entity: 'countries',
-    valueField: 'key',
+    valueField: 'code',
     labelField: 'name',
   },
   category: {

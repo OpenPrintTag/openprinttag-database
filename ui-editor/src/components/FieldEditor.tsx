@@ -76,11 +76,13 @@ export const FieldEditor: React.FC<FieldEditorProps> = memo(
               value={arr}
               onChange={(vals) =>
                 onChange(
-                  vals.map(
-                    (v) =>
+                  vals.map((v) => {
+                    if (!fieldOptions.isRelation) return v;
+                    return (
                       fieldOptions.options.find((o) => String(o.value) === v)
-                        ?.data ?? v,
-                  ),
+                        ?.data ?? v
+                    );
+                  }),
                 )
               }
               disabled={disabled || fieldOptions.loading}
