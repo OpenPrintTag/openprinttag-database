@@ -22,6 +22,8 @@ export interface FieldOptionsResult {
   isArray: boolean;
   /** The options for select/multiselect */
   options: SelectOption[];
+  /** Whether this is a relation field (saves full object) vs enum (saves plain value) */
+  isRelation: boolean;
   /** Loading state */
   loading: boolean;
   /** Error message if any */
@@ -98,6 +100,7 @@ export function useFieldOptions(
     valueField,
     labelField,
     isArray,
+    isRelation: !!relationMeta,
     options,
     loading: table ? loading : false,
     error: table ? error : null,

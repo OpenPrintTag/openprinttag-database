@@ -460,6 +460,7 @@ const NEW_ENUMS = [
   'material_tag_categories',
   'material_photo_types',
   'brand_link_pattern_types',
+  'countries',
 ];
 
 export async function stringifyYaml(obj: any): Promise<string> {
@@ -514,6 +515,6 @@ export async function readLookupTable(
 export async function listLookupTables(): Promise<
   string[] | { error: string; status?: number }
 > {
-  const files: string[] = [...NEW_ENUMS, 'countries'];
+  const files: string[] = [...NEW_ENUMS];
   return files.sort((a, b) => a.localeCompare(b));
 }
