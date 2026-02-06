@@ -63,6 +63,9 @@ class JsonSchemaValidator:
         'material-containers': [
             (['brand', 'slug'], 'brands', 'slug', False),
         ],
+        'brands': [
+            (['countries_of_origin'], 'countries', 'code', True),
+        ],
     }
 
     def __init__(self, base_path: Path):
@@ -212,6 +215,23 @@ class JsonSchemaValidator:
             if isinstance(material_type, dict) and 'key' in material_type:
                 # Use the key as the cache key for lookups
                 self.data_cache['material-types'][material_type['key']] = material_type
+
+    def load_countries(self) -> None:
+        """Load countries from openprinttag/data/countries.yaml"""
+        countries_file = self.openprinttag_data_dir / "countries.yaml"
+
+        if not countries_file.exists():
+            print(f"  Warning: Countries file not found at {countries_file}")
+            return
+
+        data = self.load_yaml_file(countries_file)
+        if data is None or not isinstance(data, list):
+            return
+
+        self.data_cache['countries'] = {}
+        for country in data:
+            if isinstance(country, dict) and 'code' in country:
+                self.data_cache['countries'][country['code']] = country
 
     def load_material_certifications(self) -> None:
         """Load material certifications from openprinttag/data/material_certifications.yaml"""
@@ -368,6 +388,7 @@ class JsonSchemaValidator:
         print("\nLoading reference data...")
         self.load_material_types()
         self.load_material_certifications()
+        self.load_countries()
 
         print("\nValidating foreign key references...")
         self.validate_foreign_keys()
