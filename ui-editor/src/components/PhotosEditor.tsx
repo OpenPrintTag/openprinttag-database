@@ -135,6 +135,10 @@ const PhotoItemEditor = ({
   const photoIsLocal = isLocalAsset(photo.url);
   const previewUrl = photo.url ? getLocalAssetUrl(photo.url) : '';
 
+  let uploadLabel = 'Upload';
+  if (isUploading) uploadLabel = 'Uploading...';
+  else if (photo.url) uploadLabel = 'Replace';
+
   return (
     <div className="space-y-3">
       <div>
@@ -181,7 +185,7 @@ const PhotoItemEditor = ({
               disabled={isUploading}
               className="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
             >
-              {isUploading ? 'Uploading...' : 'Upload'}
+              {uploadLabel}
             </button>
             <input
               ref={fileInputRef}

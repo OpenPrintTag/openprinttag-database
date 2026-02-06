@@ -137,6 +137,20 @@ Best for: Batch changes, scripting, advanced users
 
 5. Commit and push your changes (see [How to Submit Your Changes](#how-to-submit-your-changes-pull-request))
 
+### Adding Photos
+
+The UI editor supports uploading local images directly. When you upload a photo in the Photos section of a material:
+
+1. The image is saved to `data/tmp/assets/` in the repository
+2. The YAML file references it as `/tmp/assets/{filename}`
+3. When you submit a Pull Request, the uploaded images are included in your changes
+4. After the PR is merged, a CI pipeline uploads the images to cloud storage and replaces the temporary paths with final URLs
+
+**Important:**
+- Only use the UI editor (Method 2) for image uploads — the GitHub Web Editor and direct YAML editing do not support this
+- When you remove a photo in the editor, the file is automatically deleted from `data/tmp/assets/`
+- Commit the `data/tmp/` files along with your YAML changes
+
 ### Important Notes
 
 - **UUIDs**: Leave UUID fields empty - they will be automatically derived according to the [UUID specification](https://arch.openprinttag.org/#/uuid)
@@ -227,7 +241,7 @@ make validate
 **Do:**
 - Use official product names and specifications
 - Include GTIN/barcode numbers when available
-- Add photos from official sources (with proper URLs)
+- Add photos — upload them directly via the UI editor or provide URLs from official sources
 - Test your changes with `make validate`
 - Write clear commit messages
 

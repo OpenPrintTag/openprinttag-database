@@ -74,8 +74,10 @@ data/
 ├── material-packages/        # Physical products (spools, bottles)
 │   └── {brand-slug}/
 │       └── {package-slug}.yaml
-└── material-containers/      # Container specs (spool dimensions)
-    └── {container-slug}.yaml
+├── material-containers/      # Container specs (spool dimensions)
+│   └── {container-slug}.yaml
+└── tmp/
+    └── assets/               # Locally uploaded images (temporary)
 ```
 
 ### Brands
@@ -147,7 +149,7 @@ We welcome contributions! Whether you want to:
 - **Add a new brand** — Know a manufacturer not in the database?
 - **Add materials** — Have specifications for materials we're missing?
 - **Fix errors** — Spotted a typo or wrong value?
-- **Add photos** — Have product images?
+- **Add photos** — Have product images? You can upload them directly in the UI editor
 
 **→ Check out [CONTRIBUTING.md](CONTRIBUTING.md)** for detailed step-by-step guides on:
 
