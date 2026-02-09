@@ -1,0 +1,18 @@
+uuid: 689fa78c-2814-585e-b486-7dccf5b03189
+slug: ziro-3d-tri-color-silk-pla-golden-oasis
+brand:
+  slug: ziro-3d
+name: Tri-color Silk PLA Golden Oasis
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-silk-pla-filament-1-75mm-golden-oasis
+secondary_colors:
+- color_rgba: '#0000b3ff'
+- color_rgba: '#26a648ff'
+- color_rgba: '#e39951ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}

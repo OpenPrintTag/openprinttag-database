@@ -1,0 +1,21 @@
+uuid: 20019251-1709-579b-a5de-96c47b85d1ff
+slug: ziro-3d-gradient-translucent-pla-cristal-series-crystal-prism
+brand:
+  slug: ziro-3d
+name: Gradient Translucent PLA Cristal Series Crystal Prism
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-gradient-translucent-pla-cristal-series-filament-1-75mm-crystal-prism
+secondary_colors:
+- color_rgba: '#005da4ff'
+- color_rgba: '#00d5b2ff'
+- color_rgba: '#e39951ff'
+- color_rgba: '#c4299dff'
+- color_rgba: '#c8102eff'
+- color_rgba: '#8e14b9ff'
+tags:
+- translucent
+- gradual_color_change
+- industrially_compostable
+properties: {}

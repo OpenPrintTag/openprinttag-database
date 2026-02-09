@@ -1,0 +1,19 @@
+uuid: 04defc03-ca99-5816-b2ce-e43f779b0602
+slug: greengate3d-glow-in-the-dark-recycled-pet-g
+brand:
+  slug: greengate3d
+name: 'Glow In The Dark: Recycled PET-G'
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.greengate3d.com/collections/all-filaments/products/glow-in-the-dark-recycled-pet-g-filament
+primary_color:
+  color_rgba: '#00ff6fff'
+secondary_colors:
+- color_rgba: '#f0f1eaff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- recycled
+- abrasive
+properties: {}

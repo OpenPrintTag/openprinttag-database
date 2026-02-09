@@ -4,13 +4,14 @@ brand:
   slug: colorfabb
 name: PLA/PHA Red Transparent
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#c01616ff'
 tags:
 - home_compostable
 - translucent
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-red-transparent/cbe3b3707bbd.png
   type: unspecified

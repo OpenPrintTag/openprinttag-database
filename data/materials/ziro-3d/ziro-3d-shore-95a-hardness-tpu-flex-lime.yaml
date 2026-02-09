@@ -1,0 +1,18 @@
+uuid: c454d3d2-1fde-5f86-9bb4-a28061b1422a
+slug: ziro-3d-shore-95a-hardness-tpu-flex-lime
+brand:
+  slug: ziro-3d
+name: Shore 95A Hardness TPU Flex Lime
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://ziro3d.com/products/ziro-shore-95a-hardness-tpu-filament-1-75mm-flex-lime
+secondary_colors:
+- color_rgba: '#00f12eff'
+- color_rgba: '#00ffffff'
+- color_rgba: '#edfe00ff'
+tags:
+- gradual_color_change
+- translucent
+properties:
+  hardness_shore_a: 95

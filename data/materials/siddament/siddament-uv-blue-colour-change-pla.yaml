@@ -1,0 +1,18 @@
+uuid: f6b53e76-f599-55f4-aa73-159e1ced5ad8
+slug: siddament-uv-blue-colour-change-pla
+brand:
+  slug: siddament
+name: UV Blue Colour Change PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://siddament.com.au/products/blue-colour-change-pla
+primary_color:
+  color_rgba: '#005da4ff'
+secondary_colors:
+- color_rgba: '#dfdadcff'
+tags:
+- illuminescent_color_change
+- neon
+- industrially_compostable
+properties: {}

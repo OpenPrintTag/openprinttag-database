@@ -7,6 +7,8 @@ class: FFF
 type: PLA
 abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-flameguard/
+primary_color:
+  color_rgba: '#d9d9d6ff'
 tags:
 - silk
 - self_extinguishing

@@ -1,0 +1,18 @@
+uuid: 0c3c28c1-3b6a-51b7-85d7-e774a8c04128
+slug: ziro-3d-tri-color-silk-pla-citrus-breeze
+brand:
+  slug: ziro-3d
+name: Tri-color Silk PLA Citrus Breeze
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-silk-pla-filament-1-75mm-citrus-breeze
+secondary_colors:
+- color_rgba: '#f6fb38ff'
+- color_rgba: '#0378d0ff'
+- color_rgba: '#00c424ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}

@@ -1,0 +1,19 @@
+uuid: 6627de3c-6603-5130-8a1c-880f9779e5f0
+slug: ziro-3d-gradient-translucent-pla-cristal-series-crystal-nectar
+brand:
+  slug: ziro-3d
+name: Gradient Translucent PLA Cristal Series Crystal Nectar
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-gradient-translucent-pla-cristal-series-filament-1-75mm-crystal-nectar
+secondary_colors:
+- color_rgba: '#ff6600ff'
+- color_rgba: '#ff0000ff'
+- color_rgba: '#00f03cff'
+- color_rgba: '#e4ff33ff'
+tags:
+- translucent
+- gradual_color_change
+- industrially_compostable
+properties: {}

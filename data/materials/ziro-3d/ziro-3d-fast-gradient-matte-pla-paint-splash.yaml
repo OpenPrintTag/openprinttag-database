@@ -1,0 +1,19 @@
+uuid: 01776fad-c05d-50a4-bb98-ff8abb651cd1
+slug: ziro-3d-fast-gradient-matte-pla-paint-splash
+brand:
+  slug: ziro-3d
+name: Fast Gradient Matte PLA Paint Splash
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-matte-pla-filament-1-75mm-paint-splash
+secondary_colors:
+- color_rgba: '#ff0000ff'
+- color_rgba: '#f67405ff'
+- color_rgba: '#e6f050ff'
+- color_rgba: '#75b9b6ff'
+tags:
+- gradual_color_change
+- matte
+- industrially_compostable
+properties: {}

@@ -1,0 +1,15 @@
+uuid: 72087c6c-91e5-58c3-be53-e24e98cf0e5b
+slug: matter3d-inc-conductive-tpu-cnt-enhanced-esd-safe
+brand:
+  slug: matter3d-inc
+name: Conductive TPU (CNT-Enhanced) – ESD-Safe
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.matter3d.com/products/conductive-tpu-cnt-enhanced-esd-safe-flexible-filament-matter3d
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+properties:
+  hardness_shore_a: 95

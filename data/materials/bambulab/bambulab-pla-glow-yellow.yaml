@@ -6,13 +6,16 @@ name: PLA Glow Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://eu.store.bambulab.com/products/pla-glow?id=47396823662940
+primary_color:
+  color_rgba: '#f8ff80ff'
 secondary_colors:
-- color_rgba: '#9aee6cff'
-- color_rgba: '#fce575ff'
+- color_rgba: '#00f03cff'
 tags:
 - glow_in_the_dark
 - abrasive
 - industrially_compostable
+- illuminescent_color_change
 photos:
 - url: https://files.openprinttag.org/bambulab/bambulab-pla-glow-yellow/920876260d64.png
   type: unspecified

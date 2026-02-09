@@ -4,13 +4,14 @@ brand:
   slug: colorfabb
 name: PLA/PHA Natural
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f1e6b2ff'
 tags:
 - home_compostable
 - without_pigments
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-natural/436156484cc3.png
   type: unspecified

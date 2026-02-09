@@ -6,8 +6,9 @@ name: Glow in the Dark Green PLA
 class: FFF
 type: PLA
 abbreviation: PLA
+primary_color:
+  color_rgba: '#06b100ff'
 secondary_colors:
-- color_rgba: '#06b100ff'
 - color_rgba: '#f0ebe5ff'
 tags:
 - glow_in_the_dark

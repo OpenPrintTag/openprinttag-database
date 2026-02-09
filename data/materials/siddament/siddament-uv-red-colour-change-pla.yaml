@@ -1,0 +1,18 @@
+uuid: 800b3a1c-0537-58cf-af43-6880e84af25c
+slug: siddament-uv-red-colour-change-pla
+brand:
+  slug: siddament
+name: UV Red Colour Change PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://siddament.com.au/products/red-colour-change-pla
+primary_color:
+  color_rgba: '#c4376dff'
+secondary_colors:
+- color_rgba: '#dfdadcff'
+tags:
+- illuminescent_color_change
+- neon
+- industrially_compostable
+properties: {}

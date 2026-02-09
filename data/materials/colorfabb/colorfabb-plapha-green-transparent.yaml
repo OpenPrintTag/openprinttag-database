@@ -4,13 +4,14 @@ brand:
   slug: colorfabb
 name: PLA/PHA Green Transparent
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#267f67ff'
 tags:
 - home_compostable
 - translucent
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-green-transparent/13f35fc5e1af.png
   type: unspecified

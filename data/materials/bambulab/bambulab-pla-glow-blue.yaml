@@ -6,9 +6,8 @@ name: PLA Glow Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-secondary_colors:
-- color_rgba: '#8cc6e4ff'
-- color_rgba: '#36dbe7ff'
+primary_color:
+  color_rgba: '#7ac0e9ff'
 tags:
 - glow_in_the_dark
 - abrasive

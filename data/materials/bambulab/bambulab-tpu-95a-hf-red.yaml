@@ -8,6 +8,8 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#df3303ff'
+tags:
+- high_speed
 photos:
 - url: https://files.openprinttag.org/bambulab/bambulab-tpu-95a-hf-red/13cb6771f5e4.png
   type: unspecified

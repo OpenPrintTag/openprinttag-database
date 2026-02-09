@@ -7,6 +7,8 @@ class: FFF
 type: ABS
 abbreviation: ABS
 url: https://www.sainsmart.com/products/black-white-gray-silver-1-75mm-abs-filament-1-75mm-500g-x-4-pack?_pos=1&_fid=5d9624b22&_ss=c
+primary_color:
+  color_rgba: '#ccccccff'
 tags:
 - filtration_recommended
 properties: {}

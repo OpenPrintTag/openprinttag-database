@@ -8,6 +8,8 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'
+tags:
+- emi_shielding
 photos:
 - url: https://files.openprinttag.org/3dxtech/3dxtech-3dxstat-emi-petg-black/4d5a129b4841.png
   type: unspecified

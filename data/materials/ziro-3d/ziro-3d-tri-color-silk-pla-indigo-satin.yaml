@@ -1,0 +1,18 @@
+uuid: e5071ce2-5a16-511d-838c-27ebb8240f33
+slug: ziro-3d-tri-color-silk-pla-indigo-satin
+brand:
+  slug: ziro-3d
+name: Tri-color Silk PLA Indigo Satin
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-silk-pla-filament-1-75mm-indigo-satin
+secondary_colors:
+- color_rgba: '#480199ff'
+- color_rgba: '#992f9fff'
+- color_rgba: '#1d1d1dff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}

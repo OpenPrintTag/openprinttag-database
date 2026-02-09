@@ -1,0 +1,18 @@
+uuid: f57708b9-7fd8-5525-adda-a27f65822853
+slug: ziro-3d-tri-color-matte-pla-volcano
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Volcano
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-volcano
+secondary_colors:
+- color_rgba: '#f2b70aff'
+- color_rgba: '#aa0101ff'
+- color_rgba: '#0e0e10ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

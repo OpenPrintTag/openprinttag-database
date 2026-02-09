@@ -1,0 +1,17 @@
+uuid: d11059cb-b953-52cc-941a-c30c0a76aade
+slug: ziro-3d-shore-95a-hardness-tpu-flex-nightsky
+brand:
+  slug: ziro-3d
+name: Shore 95A Hardness TPU Flex Nightsky
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://ziro3d.com/products/ziro-shore-95a-hardness-tpu-filament-1-75mm-flex-nightsky
+secondary_colors:
+- color_rgba: '#0047bbff'
+- color_rgba: '#771b6bff'
+- color_rgba: '#cd00d7ff'
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95

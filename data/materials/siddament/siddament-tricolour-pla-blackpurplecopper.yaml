@@ -1,0 +1,17 @@
+uuid: 60a0957e-2149-5d9e-84de-fb4a642db14f
+slug: siddament-tricolour-pla-blackpurplecopper
+brand:
+  slug: siddament
+name: Tricolour PLA Black/Purple/Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://siddament.com.au/products/tricolour-pla-black-purple-copper
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#8a1519ff'
+- color_rgba: '#7f068cff'
+tags:
+- coextruded
+- industrially_compostable
+properties: {}

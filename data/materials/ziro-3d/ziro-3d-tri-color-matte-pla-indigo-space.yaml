@@ -1,0 +1,18 @@
+uuid: 6fa88d9b-d700-5af8-a2a8-123373b0478e
+slug: ziro-3d-tri-color-matte-pla-indigo-space
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Indigo Space
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-indigo-space
+secondary_colors:
+- color_rgba: '#8d078cff'
+- color_rgba: '#63646bff'
+- color_rgba: '#480199ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

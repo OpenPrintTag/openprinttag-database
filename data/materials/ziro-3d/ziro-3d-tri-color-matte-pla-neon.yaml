@@ -1,0 +1,18 @@
+uuid: 2cc62bb4-e4ef-551f-aa6f-b4022b1628ce
+slug: ziro-3d-tri-color-matte-pla-neon
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Neon
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-neon
+secondary_colors:
+- color_rgba: '#4e00f1ff'
+- color_rgba: '#ebff57ff'
+- color_rgba: '#ff2c29ff'
+tags:
+- coextruded
+- matte
+- industrially_compostable
+properties: {}

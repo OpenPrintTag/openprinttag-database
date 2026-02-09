@@ -1,0 +1,19 @@
+uuid: a5bee32f-2cdd-59bf-920d-bc02d09e2057
+slug: ziro-3d-fast-gradient-silk-pla-rainbow
+brand:
+  slug: ziro-3d
+name: Fast Gradient Silk PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-silk-pla-filament-1-75mm-rainbow
+secondary_colors:
+- color_rgba: '#1daf5eff'
+- color_rgba: '#ff512cff'
+- color_rgba: '#5cadbfff'
+- color_rgba: '#921888ff'
+tags:
+- gradual_color_change
+- silk
+- industrially_compostable
+properties: {}

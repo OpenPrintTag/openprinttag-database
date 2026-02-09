@@ -1,0 +1,16 @@
+uuid: 94df031f-6697-5cb2-8d86-178bc27f74f2
+slug: ziro-3d-metal-pla-copper
+brand:
+  slug: ziro-3d
+name: Metal PLA Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-metal-pla-filament-1-75mm-copper
+primary_color:
+  color_rgba: '#a88d5dff'
+tags:
+- contains_metal
+- abrasive
+- industrially_compostable
+properties: {}

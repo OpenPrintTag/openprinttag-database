@@ -1,0 +1,15 @@
+uuid: db254d31-15e4-5619-a042-7c262e77f68e
+slug: matter3d-inc-conductive-pla-esd-pla-cnt
+brand:
+  slug: matter3d-inc
+name: Conductive PLA (ESD) – PLA CNT
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.matter3d.com/products/conductive-pla-electrostatic-discharge
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+- industrially_compostable
+properties: {}

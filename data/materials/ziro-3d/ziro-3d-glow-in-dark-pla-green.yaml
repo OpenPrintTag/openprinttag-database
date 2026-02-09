@@ -1,0 +1,19 @@
+uuid: bc1ce479-0e0d-50f2-ae54-f9e43e8a59a7
+slug: ziro-3d-glow-in-dark-pla-green
+brand:
+  slug: ziro-3d
+name: Glow in Dark PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-glow-in-dark-pla-filament-1-75mm-gid-green
+primary_color:
+  color_rgba: '#00f12eff'
+secondary_colors:
+- color_rgba: '#e5f1eaff'
+tags:
+- glow_in_the_dark
+- illuminescent_color_change
+- abrasive
+- industrially_compostable
+properties: {}

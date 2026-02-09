@@ -11,4 +11,5 @@ primary_color:
 photos:
 - url: https://files.openprinttag.org/coex-3d/coex-3d-white-coexflex-30d-tpe/3ea5c06836d2.png
   type: unspecified
-properties: {}
+properties:
+  hardness_shore_d: 30

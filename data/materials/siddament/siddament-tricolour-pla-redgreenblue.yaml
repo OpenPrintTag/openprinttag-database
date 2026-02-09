@@ -1,0 +1,17 @@
+uuid: 8457a45f-afcd-5e13-b18a-6b0b989ff405
+slug: siddament-tricolour-pla-redgreenblue
+brand:
+  slug: siddament
+name: Tricolour PLA Red/Green/Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://siddament.com.au/products/tricolour-pla-1-75mm-1kg
+secondary_colors:
+- color_rgba: '#38c04eff'
+- color_rgba: '#b02455ff'
+- color_rgba: '#005da4ff'
+tags:
+- coextruded
+- industrially_compostable
+properties: {}

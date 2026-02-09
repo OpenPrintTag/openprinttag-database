@@ -1,0 +1,19 @@
+uuid: 77f12567-ac7a-5935-a3be-2d0e27c0080c
+slug: ziro-3d-shore-95a-hardness-tpu-flex-candy
+brand:
+  slug: ziro-3d
+name: Shore 95A Hardness TPU Flex Candy
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://ziro3d.com/products/ziro-shore-95a-hardness-tpu-filament-1-75mm-flex-candy
+secondary_colors:
+- color_rgba: '#ffbdd1ff'
+- color_rgba: '#94a7b7ff'
+- color_rgba: '#ace7b2ff'
+- color_rgba: '#dde586ff'
+tags:
+- gradual_color_change
+- translucent
+properties:
+  hardness_shore_a: 95

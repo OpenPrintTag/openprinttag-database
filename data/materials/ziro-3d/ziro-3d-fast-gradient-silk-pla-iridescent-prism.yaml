@@ -1,0 +1,20 @@
+uuid: 7a19a4a3-b119-5cb7-860a-add2f43d4b9a
+slug: ziro-3d-fast-gradient-silk-pla-iridescent-prism
+brand:
+  slug: ziro-3d
+name: Fast Gradient Silk PLA Iridescent Prism
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-silk-pla-filament-1-75mm-iridescent-prism
+secondary_colors:
+- color_rgba: '#0266bbff'
+- color_rgba: '#ba06aeff'
+- color_rgba: '#41af66ff'
+- color_rgba: '#f79e74ff'
+- color_rgba: '#fff5b5ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}

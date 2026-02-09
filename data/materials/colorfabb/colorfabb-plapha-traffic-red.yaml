@@ -4,12 +4,13 @@ brand:
   slug: colorfabb
 name: PLA/PHA Traffic Red
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#b81b0eff'
 tags:
 - home_compostable
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-traffic-red/50190577cecd.png
   type: unspecified

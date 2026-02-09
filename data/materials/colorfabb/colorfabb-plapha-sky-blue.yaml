@@ -4,12 +4,13 @@ brand:
   slug: colorfabb
 name: PLA/PHA Sky Blue
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0078bfff'
 tags:
 - home_compostable
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-sky-blue/b1103b0b4501.png
   type: unspecified

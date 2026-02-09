@@ -1,0 +1,20 @@
+uuid: 7cf9a320-d984-5139-a8b5-06ad025f35cf
+slug: ziro-3d-fast-gradient-matte-pla-rainbow-blaze
+brand:
+  slug: ziro-3d
+name: Fast Gradient Matte PLA Rainbow Blaze
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-matte-pla-filament-1-75mm-rainbow-blaze
+secondary_colors:
+- color_rgba: '#e6b535ff'
+- color_rgba: '#ef3340ff'
+- color_rgba: '#ec008cff'
+- color_rgba: '#6c47b2ff'
+- color_rgba: '#60d469ff'
+tags:
+- gradual_color_change
+- matte
+- industrially_compostable
+properties: {}

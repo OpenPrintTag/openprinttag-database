@@ -1,0 +1,15 @@
+uuid: b003083d-079a-5982-8475-e459f14dfb5c
+slug: polymaker-polyflex-tpu90-teal
+brand:
+  slug: polymaker
+name: PolyFlex™ TPU90 Teal
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#00b4bcff'
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polyflex-tpu90-teal/59e60991565a.png
+  type: unspecified
+properties:
+  hardness_shore_a: 90
