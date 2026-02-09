@@ -5,11 +5,11 @@ brand:
 name: PLA PLUS Natural
 class: FFF
 type: PLA
-abbreviation: PLA PLUS
+abbreviation: PLA+
 url: https://filamentworld.de/shop/special-filament/pla-plus-filament/pla-plus-filament-2-85-mm-natur/?compare=117652
 primary_color:
   color_rgba: '#f2ece9ff'
 tags:
-- without_pigments
-- industrially_compostable
+  - without_pigments
+  - industrially_compostable
 properties: {}

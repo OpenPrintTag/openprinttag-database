@@ -5,14 +5,11 @@ brand:
 name: FiberWood Carmine
 class: FFF
 type: PLA
-abbreviation: FiberWood
+abbreviation: Wood
 primary_color:
   color_rgba: '#a6464eff'
-tags:
-- contains_wood
-- imitates_wood
-- industrially_compostable
+tags: [contains_wood, imitates_wood, industrially_compostable]
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberwood-carmine/45b4782a1880.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberwood-carmine/45b4782a1880.png
+    type: unspecified
 properties: {}

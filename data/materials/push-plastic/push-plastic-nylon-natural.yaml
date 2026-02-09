@@ -4,12 +4,12 @@ brand:
   slug: push-plastic
 name: Nylon Natural
 class: FFF
-abbreviation: Nylon
+abbreviation: PA
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:
-- without_pigments
+  - without_pigments
 photos:
-- url: https://files.openprinttag.org/push-plastic/push-plastic-nylon-natural/be88c0a02be8.png
-  type: unspecified
+  - url: https://files.openprinttag.org/push-plastic/push-plastic-nylon-natural/be88c0a02be8.png
+    type: unspecified
 properties: {}

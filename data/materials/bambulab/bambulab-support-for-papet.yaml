@@ -4,10 +4,10 @@ brand:
   slug: bambulab
 name: Support for PA/PET
 class: FFF
-abbreviation: BambuSupport
+abbreviation: Support
 primary_color:
   color_rgba: '#91c500ff'
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-support-for-papet/fce9ec2eadd0.png
-  type: unspecified
+  - url: https://files.openprinttag.org/bambulab/bambulab-support-for-papet/fce9ec2eadd0.png
+    type: unspecified
 properties: {}

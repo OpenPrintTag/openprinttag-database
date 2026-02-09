@@ -4,10 +4,10 @@ brand:
   slug: bambulab
 name: Support for ABS White
 class: FFF
-abbreviation: BambuSupport
+abbreviation: Support
 primary_color:
   color_rgba: '#ffffffff'
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-support-for-abs-white/c9c2ad1872fc.png
-  type: unspecified
+  - url: https://files.openprinttag.org/bambulab/bambulab-support-for-abs-white/c9c2ad1872fc.png
+    type: unspecified
 properties: {}
