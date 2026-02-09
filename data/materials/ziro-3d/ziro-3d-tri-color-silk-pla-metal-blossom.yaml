@@ -1,0 +1,18 @@
+uuid: eff41afc-20f7-5ecd-9cbd-cc038bad286d
+slug: ziro-3d-tri-color-silk-pla-metal-blossom
+brand:
+  slug: ziro-3d
+name: Tri-color Silk PLA Metal Blossom
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-silk-pla-filament-1-75mm-metal-blossom
+secondary_colors:
+- color_rgba: '#ffb100ff'
+- color_rgba: '#00b1b7ff'
+- color_rgba: '#fd3db5ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}

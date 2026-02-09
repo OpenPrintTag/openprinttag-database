@@ -1,0 +1,16 @@
+uuid: 91c632e9-d805-5762-8def-26548678c670
+slug: siddament-dual-colour-pla-blackred
+brand:
+  slug: siddament
+name: Dual Colour PLA Black/Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://siddament.com.au/products/dual-colour-pla-black-red
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#ec0000ff'
+tags:
+- coextruded
+- industrially_compostable
+properties: {}

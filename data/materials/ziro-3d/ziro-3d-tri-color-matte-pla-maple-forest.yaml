@@ -1,0 +1,18 @@
+uuid: 240e3b4d-c196-5a6e-b15b-ae3ab417ea81
+slug: ziro-3d-tri-color-matte-pla-maple-forest
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Maple Forest
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-maple-forest
+secondary_colors:
+- color_rgba: '#63d6d6ff'
+- color_rgba: '#ff0078ff'
+- color_rgba: '#ffb031ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

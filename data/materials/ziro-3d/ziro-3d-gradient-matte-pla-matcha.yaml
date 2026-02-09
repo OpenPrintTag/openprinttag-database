@@ -1,0 +1,19 @@
+uuid: 50141efe-407b-5074-80e5-fef90d8b7bd6
+slug: ziro-3d-gradient-matte-pla-matcha
+brand:
+  slug: ziro-3d
+name: Gradient Matte PLA Matcha
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-gradient-matte-pla-filament-1-75mm-matcha
+secondary_colors:
+- color_rgba: '#b4e721ff'
+- color_rgba: '#90903bff'
+- color_rgba: '#4bb27aff'
+- color_rgba: '#00c424ff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties: {}

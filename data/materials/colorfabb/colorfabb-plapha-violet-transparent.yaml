@@ -4,13 +4,14 @@ brand:
   slug: colorfabb
 name: PLA/PHA Violet Transparent
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#ce0058ff'
 tags:
 - home_compostable
 - translucent
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-violet-transparent/85f6f97bd79d.png
   type: unspecified

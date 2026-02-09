@@ -1,0 +1,21 @@
+uuid: 4051eed2-0d2d-5c56-ab1c-bbca1d838a0a
+slug: ziro-3d-fast-gradient-matte-pla-vibrant-coral
+brand:
+  slug: ziro-3d
+name: Fast Gradient Matte PLA Vibrant Coral
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-matte-pla-filament-1-75mm-vibrant-coral
+secondary_colors:
+- color_rgba: '#0078bfff'
+- color_rgba: '#94c48fff'
+- color_rgba: '#921888ff'
+- color_rgba: '#f87fb5ff'
+- color_rgba: '#efbe7dff'
+- color_rgba: '#d1e068ff'
+tags:
+- gradual_color_change
+- matte
+- industrially_compostable
+properties: {}

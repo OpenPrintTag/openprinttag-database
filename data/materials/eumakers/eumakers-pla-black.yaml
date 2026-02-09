@@ -9,5 +9,7 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-black.html
 primary_color:
   color_rgba: '#000000ff'
+tags:
+- industrially_compostable
 properties:
   density: 1.24

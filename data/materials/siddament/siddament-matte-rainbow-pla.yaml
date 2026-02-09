@@ -1,0 +1,19 @@
+uuid: 2b013a71-0216-51bb-be8e-1cf3205d6e46
+slug: siddament-matte-rainbow-pla
+brand:
+  slug: siddament
+name: Matte Rainbow PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://siddament.com.au/products/matte-rainbow-pla
+secondary_colors:
+- color_rgba: '#f8ff80ff'
+- color_rgba: '#00fe74ff'
+- color_rgba: '#fd3db5ff'
+- color_rgba: '#8cc6e4ff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 5e61db43-673d-512a-86c7-7cea51df7e78
+slug: ziro-3d-tri-color-silk-pla-green-blue-purple
+brand:
+  slug: ziro-3d
+name: Tri-color Silk PLA Green & Blue & Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-silk-pla-filament-1-75mm-green-blue-purple
+secondary_colors:
+- color_rgba: '#3555b7ff'
+- color_rgba: '#c63dbaff'
+- color_rgba: '#d0e68cff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}

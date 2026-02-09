@@ -4,12 +4,13 @@ brand:
   slug: colorfabb
 name: PLA/PHA Ultramarine Blue
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#0e21aeff'
 tags:
 - home_compostable
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-ultramarine-blue/2fce716d4c9d.png
   type: unspecified

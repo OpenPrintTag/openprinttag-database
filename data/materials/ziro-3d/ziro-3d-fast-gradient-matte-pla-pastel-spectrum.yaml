@@ -1,0 +1,19 @@
+uuid: 3a442804-745e-59de-85d9-25c3737d0087
+slug: ziro-3d-fast-gradient-matte-pla-pastel-spectrum
+brand:
+  slug: ziro-3d
+name: Fast Gradient Matte PLA Pastel Spectrum
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-matte-pla-filament-1-75mm-pastel-spectrum
+secondary_colors:
+- color_rgba: '#bed9ebff'
+- color_rgba: '#f0ddbcff'
+- color_rgba: '#a293cfff'
+- color_rgba: '#da9fceff'
+tags:
+- gradual_color_change
+- matte
+- industrially_compostable
+properties: {}

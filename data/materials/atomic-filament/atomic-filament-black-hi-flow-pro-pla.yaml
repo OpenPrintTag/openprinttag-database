@@ -6,10 +6,12 @@ name: Black Hi-Flow Pro PLA
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://atomicfilament.com/products/black-hi-flow-pro-pla-filament
 primary_color:
   color_rgba: '#000000ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://files.openprinttag.org/atomic-filament/atomic-filament-black-hi-flow-pro-pla/1b668dd14ffa.png
   type: unspecified

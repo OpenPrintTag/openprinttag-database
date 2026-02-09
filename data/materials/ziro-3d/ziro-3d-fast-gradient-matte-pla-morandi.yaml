@@ -1,0 +1,19 @@
+uuid: 76990a7e-4e08-5cad-915b-8a0052bd42c4
+slug: ziro-3d-fast-gradient-matte-pla-morandi
+brand:
+  slug: ziro-3d
+name: Fast Gradient Matte PLA Morandi
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-matte-pla-filament-1-75mm-morandi
+secondary_colors:
+- color_rgba: '#e8b0cdff'
+- color_rgba: '#a6c5bfff'
+- color_rgba: '#bf9c87ff'
+- color_rgba: '#e2d9f7ff'
+tags:
+- gradual_color_change
+- matte
+- industrially_compostable
+properties: {}

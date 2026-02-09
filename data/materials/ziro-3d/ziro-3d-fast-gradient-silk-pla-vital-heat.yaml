@@ -1,0 +1,19 @@
+uuid: 1e8ed322-080b-52db-b71b-a5e2869c3a75
+slug: ziro-3d-fast-gradient-silk-pla-vital-heat
+brand:
+  slug: ziro-3d
+name: Fast Gradient Silk PLA Vital Heat
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-fast-gradient-silk-pla-filament-1-75mm-vital-heat
+secondary_colors:
+- color_rgba: '#ff007fff'
+- color_rgba: '#ff9f31ff'
+- color_rgba: '#9ecb86ff'
+- color_rgba: '#e3df83ff'
+tags:
+- gradual_color_change
+- silk
+- industrially_compostable
+properties: {}

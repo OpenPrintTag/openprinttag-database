@@ -1,0 +1,18 @@
+uuid: aa609d7d-1668-5677-99de-60c99d084591
+slug: ziro-3d-tri-color-matte-pla-sunbeam-forest
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Sunbeam Forest
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-sunbeam-forest
+secondary_colors:
+- color_rgba: '#edfe00ff'
+- color_rgba: '#3a00b9ff'
+- color_rgba: '#02b332ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

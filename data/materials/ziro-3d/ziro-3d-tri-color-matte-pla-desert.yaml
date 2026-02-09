@@ -1,0 +1,18 @@
+uuid: 24f0ec0c-4205-56d0-8784-979b49684f28
+slug: ziro-3d-tri-color-matte-pla-desert
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Desert
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-desert
+secondary_colors:
+- color_rgba: '#f7a30aff'
+- color_rgba: '#b8bab8ff'
+- color_rgba: '#df3303ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

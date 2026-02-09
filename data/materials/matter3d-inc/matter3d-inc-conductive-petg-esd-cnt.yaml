@@ -1,0 +1,14 @@
+uuid: 1e4f4501-ac9c-5041-90fb-cb2fbc0152e1
+slug: matter3d-inc-conductive-petg-esd-cnt
+brand:
+  slug: matter3d-inc
+name: Conductive PETG (ESD) – CNT
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.matter3d.com/products/conductive-petg-electrostatic-discharge
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- esd_safe
+properties: {}

@@ -1,0 +1,18 @@
+uuid: 9db07a23-8ad4-58f4-940f-cec9375ca782
+slug: ziro-3d-tri-color-matte-pla-mist
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Mist
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-mist
+secondary_colors:
+- color_rgba: '#f2fecfff'
+- color_rgba: '#32cabdff'
+- color_rgba: '#f7a4bdff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

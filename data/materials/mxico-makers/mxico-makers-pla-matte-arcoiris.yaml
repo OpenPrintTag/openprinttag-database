@@ -1,0 +1,22 @@
+uuid: c7d7b21b-bf36-5d1f-9933-ea5ed8d907fa
+slug: mxico-makers-pla-matte-arcoiris
+brand:
+  slug: mxico-makers
+name: PLA Matte - Arcoiris
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.mexicomakers.com.mx/collections/filamento-mexico-makers/products/filamento-pla-matte-arcoiris-para-impresora-3d
+secondary_colors:
+- color_rgba: '#7cef83ff'
+- color_rgba: '#2fbabcff'
+- color_rgba: '#e7935cff'
+- color_rgba: '#8a68b5ff'
+- color_rgba: '#e25dc0ff'
+- color_rgba: '#d33d3dff'
+- color_rgba: '#e0f261ff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties: {}

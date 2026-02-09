@@ -1,0 +1,18 @@
+uuid: f51aa813-271c-574b-b841-95f15f2b8214
+slug: ziro-3d-tri-color-silk-pla-aurora
+brand:
+  slug: ziro-3d
+name: Tri-color Silk PLA Aurora
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-silk-pla-filament-1-75mm-aurora
+secondary_colors:
+- color_rgba: '#fcff66ff'
+- color_rgba: '#ff0039ff'
+- color_rgba: '#0266bbff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}

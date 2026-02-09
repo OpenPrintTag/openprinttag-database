@@ -1,0 +1,18 @@
+uuid: e7fd9874-4e7a-5bcd-aa58-3f02d3b69169
+slug: ziro-3d-tri-color-matte-pla-purple-sunset
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Purple Sunset
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-purple-sunset
+secondary_colors:
+- color_rgba: '#2941bdff'
+- color_rgba: '#e400beff'
+- color_rgba: '#de6300ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

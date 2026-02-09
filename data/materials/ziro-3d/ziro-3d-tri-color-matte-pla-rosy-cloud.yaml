@@ -1,0 +1,18 @@
+uuid: 02e678c8-0555-5630-90b5-fd27b50d677b
+slug: ziro-3d-tri-color-matte-pla-rosy-cloud
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Rosy Cloud
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-rosy-cloud
+secondary_colors:
+- color_rgba: '#fe00afff'
+- color_rgba: '#dbfc00ff'
+- color_rgba: '#6299dfff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

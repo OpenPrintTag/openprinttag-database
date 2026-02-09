@@ -1,0 +1,18 @@
+uuid: 9ce4c03b-0ca0-521f-8cda-ce03f203725f
+slug: ziro-3d-tri-color-matte-pla-afterglow
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Afterglow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-afterglow
+secondary_colors:
+- color_rgba: '#ea27c2ff'
+- color_rgba: '#fcb712ff'
+- color_rgba: '#ec0000ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

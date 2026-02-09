@@ -1,0 +1,18 @@
+uuid: 6a676bbf-97dc-528e-9682-5b5a817d8775
+slug: ziro-3d-tri-color-matte-pla-shadow
+brand:
+  slug: ziro-3d
+name: Tri-color Matte PLA Shadow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ziro3d.com/products/ziro-tri-color-matte-pla-filament-1-75mm-shadow
+secondary_colors:
+- color_rgba: '#63646bff'
+- color_rgba: '#dad4dcff'
+- color_rgba: '#3b353aff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties: {}

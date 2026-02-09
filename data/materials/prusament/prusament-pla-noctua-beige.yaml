@@ -8,6 +8,8 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#e7ceb4ff'
+tags:
+- industrially_compostable
 properties:
   density: 1.24
   hardness_shore_d: 81

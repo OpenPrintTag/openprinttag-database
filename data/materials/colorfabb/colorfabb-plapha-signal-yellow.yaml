@@ -4,12 +4,13 @@ brand:
   slug: colorfabb
 name: PLA/PHA Signal yellow
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
   color_rgba: '#f3b400ff'
 tags:
 - home_compostable
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-signal-yellow/af8bf2b8c83f.png
   type: unspecified

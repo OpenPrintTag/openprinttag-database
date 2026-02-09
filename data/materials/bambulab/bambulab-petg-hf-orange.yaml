@@ -8,6 +8,8 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#f67405ff'
+tags:
+- high_speed
 photos:
 - url: https://files.openprinttag.org/bambulab/bambulab-petg-hf-orange/50d15a48b1bf.png
   type: unspecified
