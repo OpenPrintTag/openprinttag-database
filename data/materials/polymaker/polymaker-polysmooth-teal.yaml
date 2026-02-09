@@ -4,10 +4,10 @@ brand:
   slug: polymaker
 name: PolySmooth™ Teal
 class: FFF
-abbreviation: PolySmooth™
+abbreviation: PSmooth
 primary_color:
   color_rgba: '#00b4bcff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-teal/57d4cbc82d77.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-teal/57d4cbc82d77.png
+    type: unspecified
 properties: {}

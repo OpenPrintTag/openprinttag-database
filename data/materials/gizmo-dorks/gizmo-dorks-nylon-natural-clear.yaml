@@ -4,11 +4,11 @@ brand:
   slug: gizmo-dorks
 name: Nylon Natural Clear
 class: FFF
-abbreviation: Nylon
+abbreviation: PA
 primary_color:
   color_rgba: '#efe8d8ff'
 tags:
-- without_pigments
+  - without_pigments
 photos:
 - url: https://files.openprinttag.org/gizmo-dorks/gizmo-dorks-nylon-natural-clear/8292c6223edf.png
   type: unspecified

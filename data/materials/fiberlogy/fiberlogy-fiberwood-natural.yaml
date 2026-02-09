@@ -5,14 +5,11 @@ brand:
 name: FiberWood Natural
 class: FFF
 type: PLA
-abbreviation: FiberWood
+abbreviation: Wood
 primary_color:
   color_rgba: '#ba8960ff'
-tags:
-- imitates_wood
-- contains_wood
-- industrially_compostable
+tags: [imitates_wood, contains_wood, industrially_compostable]
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberwood-natural/c425f7217390.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberwood-natural/c425f7217390.png
+    type: unspecified
 properties: {}

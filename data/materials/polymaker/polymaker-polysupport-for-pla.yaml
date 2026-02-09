@@ -4,10 +4,10 @@ brand:
   slug: polymaker
 name: PolySupport™ for PLA
 class: FFF
-abbreviation: PolySupport™
+abbreviation: Support
 primary_color:
   color_rgba: '#ffffffff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polysupport-for-pla/0b6bc30da078.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polysupport-for-pla/0b6bc30da078.png
+    type: unspecified
 properties: {}

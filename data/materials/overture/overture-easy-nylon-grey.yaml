@@ -4,10 +4,10 @@ brand:
   slug: overture
 name: Easy Nylon Grey
 class: FFF
-abbreviation: Easy Nylon
+abbreviation: PA
 primary_color:
   color_rgba: '#3b3e3fff'
 photos:
-- url: https://files.openprinttag.org/overture/overture-easy-nylon-grey/2971aa07c875.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/overture/overture-easy-nylon-grey/2971aa07c875.jpg
+    type: unspecified
 properties: {}

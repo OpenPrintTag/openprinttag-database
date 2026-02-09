@@ -4,12 +4,12 @@ brand:
   slug: bambulab
 name: Support for PLA/PETG Nature
 class: FFF
-abbreviation: BambuSupport
+abbreviation: Support
 primary_color:
   color_rgba: '#6d8166ff'
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-support-for-plapetg-nature/a251d96891c1.png
-  type: unspecified
+  - url: https://files.openprinttag.org/bambulab/bambulab-support-for-plapetg-nature/a251d96891c1.png
+    type: unspecified
 properties: {}

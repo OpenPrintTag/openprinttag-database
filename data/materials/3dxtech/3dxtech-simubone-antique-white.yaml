@@ -4,12 +4,12 @@ brand:
   slug: 3dxtech
 name: SimuBone Antique White
 class: FFF
-abbreviation: SimuBone
+abbreviation: Bone
 primary_color:
   color_rgba: '#e3e0d3ff'
 tags:
-- antibacterial
+  - antibacterial
 photos:
-- url: https://files.openprinttag.org/3dxtech/3dxtech-simubone-antique-white/9814d9c336eb.png
-  type: unspecified
+  - url: https://files.openprinttag.org/3dxtech/3dxtech-simubone-antique-white/9814d9c336eb.png
+    type: unspecified
 properties: {}

@@ -4,10 +4,10 @@ brand:
   slug: polymaker
 name: PolySmooth™ White
 class: FFF
-abbreviation: PolySmooth™
+abbreviation: PSmooth
 primary_color:
   color_rgba: '#ffffffff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-white/5bee34a86209.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-white/5bee34a86209.png
+    type: unspecified
 properties: {}

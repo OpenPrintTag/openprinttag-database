@@ -5,14 +5,11 @@ brand:
 name: FiberWood Brown
 class: FFF
 type: PLA
-abbreviation: FiberWood
+abbreviation: Wood
 primary_color:
   color_rgba: '#503529ff'
-tags:
-- imitates_wood
-- contains_wood
-- industrially_compostable
+tags: [imitates_wood, contains_wood, industrially_compostable]
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberwood-brown/27b4a0fb468c.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberwood-brown/27b4a0fb468c.png
+    type: unspecified
 properties: {}
