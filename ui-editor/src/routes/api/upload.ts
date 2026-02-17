@@ -69,6 +69,16 @@ export const Route = createFileRoute('/api/upload')({
             );
           }
 
+          const brandSlug = formData.get('brandSlug') as string | null;
+          const materialSlug = formData.get('materialSlug') as string | null;
+
+          if (!brandSlug || !materialSlug) {
+            return json(
+              { ok: false, error: 'brandSlug and materialSlug are required' },
+              { status: 400 },
+            );
+          }
+
           const dataDir = await findDataDir();
           if (!dataDir) {
             return json(
@@ -77,7 +87,17 @@ export const Route = createFileRoute('/api/upload')({
             );
           }
 
-          const assetsDir = path.join(dataDir, 'tmp', 'assets');
+          const safeBrandSlug = slugifyName(brandSlug) || 'unknown-brand';
+          const safeMaterialSlug =
+            slugifyName(materialSlug) || 'unknown-material';
+
+          const assetsDir = path.join(
+            dataDir,
+            'tmp',
+            'assets',
+            safeBrandSlug,
+            safeMaterialSlug,
+          );
           await fs.mkdir(assetsDir, { recursive: true });
 
           const baseName = path.basename(originalName, ext);
@@ -97,7 +117,7 @@ export const Route = createFileRoute('/api/upload')({
           const buffer = Buffer.from(arrayBuffer);
           await fs.writeFile(filePath, buffer);
 
-          const relativePath = `/tmp/assets/${fileName}`;
+          const relativePath = `/tmp/assets/${safeBrandSlug}/${safeMaterialSlug}/${fileName}`;
 
           console.info(`Uploaded file: ${relativePath}`);
           return json({ ok: true, path: relativePath });

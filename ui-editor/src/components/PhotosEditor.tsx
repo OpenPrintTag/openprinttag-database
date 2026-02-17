@@ -16,13 +16,27 @@ interface PhotosEditorProps {
   value: unknown;
   onChange: (val: PhotoItem[] | undefined) => void;
   required?: boolean;
+  brandSlug?: string;
+  materialSlug?: string;
+}
+
+interface UploadParams {
+  file: File;
+  brandSlug: string;
+  materialSlug: string;
 }
 
 const useUploadImage = () => {
   return useMutation({
-    mutationFn: async (file: File): Promise<{ path: string }> => {
+    mutationFn: async ({
+      file,
+      brandSlug,
+      materialSlug,
+    }: UploadParams): Promise<{ path: string }> => {
       const formData = new FormData();
       formData.append('file', file);
+      formData.append('brandSlug', brandSlug);
+      formData.append('materialSlug', materialSlug);
 
       const res = await fetch('/api/upload', {
         method: 'POST',
@@ -43,11 +57,11 @@ const useUploadImage = () => {
 const deleteLocalAsset = async (url: string): Promise<void> => {
   if (!isLocalAsset(url)) return;
 
-  const filename = url.split('/').pop();
-  if (!filename) return;
+  const suffix = url.replace('/tmp/assets/', '');
+  if (!suffix) return;
 
   try {
-    await fetch(`/api/assets/${filename}`, { method: 'DELETE' });
+    await fetch(`/api/assets/${suffix}`, { method: 'DELETE' });
   } catch (err) {
     console.error('Failed to delete local asset:', err);
   }
@@ -58,6 +72,8 @@ export const PhotosEditor = ({
   value,
   onChange,
   required,
+  brandSlug,
+  materialSlug,
 }: PhotosEditorProps) => {
   const { options, loading } = useFieldOptions('photo_type');
 
@@ -82,6 +98,8 @@ export const PhotosEditor = ({
           updateItem={updateItem}
           options={options}
           loading={loading}
+          brandSlug={brandSlug}
+          materialSlug={materialSlug}
         />
       )}
     />
@@ -94,6 +112,8 @@ interface PhotoItemEditorProps {
   updateItem: (field: keyof PhotoItem, value: string) => void;
   options: SelectOption[];
   loading: boolean;
+  brandSlug?: string;
+  materialSlug?: string;
 }
 
 const PhotoItemEditor = ({
@@ -102,6 +122,8 @@ const PhotoItemEditor = ({
   updateItem,
   options,
   loading,
+  brandSlug,
+  materialSlug,
 }: PhotoItemEditorProps) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [isUploading, setIsUploading] = useState(false);
@@ -116,7 +138,11 @@ const PhotoItemEditor = ({
     setUploadError(null);
 
     try {
-      const result = await uploadMutation.mutateAsync(file);
+      const result = await uploadMutation.mutateAsync({
+        file,
+        brandSlug: brandSlug || 'unknown-brand',
+        materialSlug: materialSlug || 'unknown-material',
+      });
       updateItem('url', result.path);
     } catch (err: any) {
       setUploadError(err.message || 'Upload failed');

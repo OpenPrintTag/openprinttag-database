@@ -54,6 +54,7 @@ function MaterialEdit() {
         mode="edit"
         initialSlug={material?.slug}
         brandId={brandId}
+        materialSlug={material?.slug || materialId}
       />
       <EntitySheetFooter
         mode="edit"

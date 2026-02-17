@@ -8,6 +8,7 @@ interface PhotosEditSectionProps {
   form: Material;
   onFieldChange: (key: string, value: unknown) => void;
   brandId?: string;
+  materialSlug?: string;
 }
 
 export const PhotosEditSection = ({
@@ -15,6 +16,7 @@ export const PhotosEditSection = ({
   form,
   onFieldChange,
   brandId,
+  materialSlug,
 }: PhotosEditSectionProps) => {
   if (!fields || !fields.photos) return null;
 
@@ -28,6 +30,7 @@ export const PhotosEditSection = ({
           value={form?.photos}
           onChange={(val) => onFieldChange('photos', val)}
           brandId={brandId}
+          materialSlug={materialSlug}
         />
       </div>
     </div>

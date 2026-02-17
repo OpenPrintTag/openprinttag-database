@@ -49,13 +49,13 @@ export const isLocalAsset = (url: string): boolean => {
 };
 
 /**
- * Convert local asset path to API URL for display
- * Local assets are stored at /data/tmp/assets/ but served via /api/assets/
+ * Convert local asset path to API URL for display.
+ * /tmp/assets/{brandSlug}/{materialSlug}/{filename} -> /api/assets/{brandSlug}/{materialSlug}/{filename}
  */
 export const getLocalAssetUrl = (url: string): string => {
   if (isLocalAsset(url)) {
-    const filename = url.split('/').pop();
-    return `/api/assets/${filename}`;
+    const suffix = url.replace('/tmp/assets/', '');
+    return `/api/assets/${suffix}`;
   }
   return url;
 };
