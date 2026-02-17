@@ -19,6 +19,7 @@ interface FieldEditorProps {
   onChange: (val: unknown) => void;
   disabled?: boolean;
   brandId?: string;
+  materialSlug?: string;
 }
 
 const parseCommaSeparated = (input: string): string[] =>
@@ -54,7 +55,15 @@ const CommaSeparatedInput: React.FC<{
 };
 
 export const FieldEditor: React.FC<FieldEditorProps> = memo(
-  ({ label, field, value, onChange, disabled = false, brandId }) => {
+  ({
+    label,
+    field,
+    value,
+    onChange,
+    disabled = false,
+    brandId,
+    materialSlug,
+  }) => {
     const inputId = useMemo(() => `f_${label.replace(/\s+/g, '_')}`, [label]);
     const isRequired = !!field.required;
     const fieldOptions = useFieldOptions(label, field, brandId);
@@ -158,6 +167,8 @@ export const FieldEditor: React.FC<FieldEditorProps> = memo(
           value={value}
           onChange={onChange}
           required={isRequired}
+          brandSlug={brandId}
+          materialSlug={materialSlug}
         />
       );
     }

@@ -115,6 +115,7 @@ function MaterialCreate() {
         schema={schema}
         mode="create"
         brandId={brandId}
+        materialSlug={form.slug || slugifyName(form.name) || undefined}
       />
       <EntitySheetFooter
         mode="create"

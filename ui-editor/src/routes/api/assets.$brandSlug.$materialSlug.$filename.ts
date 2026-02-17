@@ -3,7 +3,7 @@ import path from 'node:path';
 
 import { createFileRoute } from '@tanstack/react-router';
 
-import { findDataDir } from '~/server/data/fs';
+import { findDataDir, slugifyName } from '~/server/data/fs';
 
 const MIME_TYPES: Record<string, string> = {
   '.png': 'image/png',
@@ -12,19 +12,29 @@ const MIME_TYPES: Record<string, string> = {
   '.webp': 'image/webp',
 };
 
-export const Route = createFileRoute('/api/assets/$filename')({
+function isValidSlug(slug: string): boolean {
+  return (
+    !!slug &&
+    !slug.includes('..') &&
+    !slug.includes('/') &&
+    !slug.includes('\\')
+  );
+}
+
+export const Route = createFileRoute(
+  '/api/assets/$brandSlug/$materialSlug/$filename',
+)({
   server: {
     handlers: {
       GET: async ({ params }) => {
-        const { filename } = params;
+        const { brandSlug, materialSlug, filename } = params;
 
         if (
-          !filename ||
-          filename.includes('..') ||
-          filename.includes('/') ||
-          filename.includes('\\')
+          !isValidSlug(brandSlug) ||
+          !isValidSlug(materialSlug) ||
+          !isValidSlug(filename)
         ) {
-          return new Response('Invalid filename', { status: 400 });
+          return new Response('Invalid path parameters', { status: 400 });
         }
 
         const dataDir = await findDataDir();
@@ -32,7 +42,16 @@ export const Route = createFileRoute('/api/assets/$filename')({
           return new Response('Data directory not found', { status: 500 });
         }
 
-        const filePath = path.join(dataDir, 'tmp', 'assets', filename);
+        const safeBrandSlug = slugifyName(brandSlug) ?? brandSlug;
+        const safeMaterialSlug = slugifyName(materialSlug) ?? materialSlug;
+        const filePath = path.join(
+          dataDir,
+          'tmp',
+          'assets',
+          safeBrandSlug,
+          safeMaterialSlug,
+          filename,
+        );
 
         try {
           const buffer = await fs.readFile(filePath);
@@ -55,15 +74,14 @@ export const Route = createFileRoute('/api/assets/$filename')({
       },
 
       DELETE: async ({ params }) => {
-        const { filename } = params;
+        const { brandSlug, materialSlug, filename } = params;
 
         if (
-          !filename ||
-          filename.includes('..') ||
-          filename.includes('/') ||
-          filename.includes('\\')
+          !isValidSlug(brandSlug) ||
+          !isValidSlug(materialSlug) ||
+          !isValidSlug(filename)
         ) {
-          return new Response('Invalid filename', { status: 400 });
+          return new Response('Invalid path parameters', { status: 400 });
         }
 
         const dataDir = await findDataDir();
@@ -71,15 +89,25 @@ export const Route = createFileRoute('/api/assets/$filename')({
           return new Response('Data directory not found', { status: 500 });
         }
 
-        const filePath = path.join(dataDir, 'tmp', 'assets', filename);
+        const safeBrandSlug = slugifyName(brandSlug) ?? brandSlug;
+        const safeMaterialSlug = slugifyName(materialSlug) ?? materialSlug;
+        const filePath = path.join(
+          dataDir,
+          'tmp',
+          'assets',
+          safeBrandSlug,
+          safeMaterialSlug,
+          filename,
+        );
 
         try {
           await fs.unlink(filePath);
-          console.info(`Deleted asset: ${filename}`);
+          console.info(
+            `Deleted asset: ${safeBrandSlug}/${safeMaterialSlug}/${filename}`,
+          );
           return new Response(null, { status: 204 });
         } catch (err) {
           if (err instanceof Error && 'code' in err && err.code === 'ENOENT') {
-            // File already doesn't exist, that's fine
             return new Response(null, { status: 204 });
           }
           console.error('Failed to delete asset:', err);

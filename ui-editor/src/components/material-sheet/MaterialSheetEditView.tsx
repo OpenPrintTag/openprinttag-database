@@ -19,6 +19,7 @@ interface MaterialSheetEditViewProps {
   mode?: 'create' | 'edit';
   initialSlug?: string;
   brandId?: string;
+  materialSlug?: string;
 }
 
 export const MaterialSheetEditView = ({
@@ -29,6 +30,7 @@ export const MaterialSheetEditView = ({
   mode = 'edit',
   initialSlug,
   brandId,
+  materialSlug,
 }: MaterialSheetEditViewProps) => {
   return (
     <div className="my-6 space-y-6">
@@ -68,6 +70,7 @@ export const MaterialSheetEditView = ({
             form={form}
             onFieldChange={onFieldChange}
             brandId={brandId}
+            materialSlug={materialSlug}
           />
           <PropertiesEditSection
             fields={fields}
