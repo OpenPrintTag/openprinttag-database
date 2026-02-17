@@ -21,3 +21,6 @@ properties:
   preheat_temperature: 170
   min_bed_temperature: 60
   max_bed_temperature: 80
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
