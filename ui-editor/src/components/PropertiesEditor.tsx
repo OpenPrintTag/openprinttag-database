@@ -45,41 +45,68 @@ const convertValue = (
   return String(currentValue ?? '');
 };
 
+const deserializeEntries = (value: unknown): PropertyEntry[] => {
+  const properties: Record<string, PropertyValue> =
+    value && typeof value === 'object' && !Array.isArray(value)
+      ? (value as Record<string, PropertyValue>)
+      : {};
+
+  return Object.entries(properties).map(([key, val]) => ({
+    key,
+    value: val,
+    valueType: detectValueType(val),
+  }));
+};
+
+const serializeEntries = (
+  entries: PropertyEntry[],
+): Record<string, PropertyValue> | null => {
+  const props: Record<string, PropertyValue> = {};
+  for (const entry of entries) {
+    const trimmedKey = entry.key.trim();
+    if (trimmedKey) {
+      props[trimmedKey] = convertValue(entry.value, entry.valueType);
+    }
+  }
+  return Object.keys(props).length > 0 ? props : null;
+};
+
 export const PropertiesEditor = ({
   label,
   value,
   onChange,
   required,
 }: PropertiesEditorProps) => {
-  const properties: Record<string, PropertyValue> =
-    value && typeof value === 'object' && !Array.isArray(value)
-      ? (value as Record<string, PropertyValue>)
-      : {};
-
-  const entries: PropertyEntry[] = Object.entries(properties).map(
-    ([key, val]) => ({
-      key,
-      value: val,
-      valueType: detectValueType(val),
-    }),
+  const [entries, setEntries] = React.useState<PropertyEntry[]>(() =>
+    deserializeEntries(value),
   );
+  const lastEmittedRef = React.useRef<string>(JSON.stringify(value ?? null));
 
-  const updateProperties = (newEntries: PropertyEntry[]) => {
-    const props: Record<string, PropertyValue> = {};
-    newEntries.forEach((entry) => {
-      if (entry.key.trim()) {
-        props[entry.key.trim()] = convertValue(entry.value, entry.valueType);
-      }
-    });
-    onChange(Object.keys(props).length > 0 ? props : null);
+  // Only sync from parent when value changes externally (not from our own onChange)
+  React.useEffect(() => {
+    const serialized = JSON.stringify(value ?? null);
+    if (serialized !== lastEmittedRef.current) {
+      lastEmittedRef.current = serialized;
+      setEntries(deserializeEntries(value));
+    }
+  }, [value]);
+
+  const updateEntries = (newEntries: PropertyEntry[]) => {
+    setEntries(newEntries);
+    const serialized = serializeEntries(newEntries);
+    lastEmittedRef.current = JSON.stringify(serialized);
+    onChange(serialized);
   };
 
   const handleAdd = () => {
-    updateProperties([...entries, { key: '', value: '', valueType: 'string' }]);
+    setEntries((prev) => [
+      ...prev,
+      { key: '', value: '', valueType: 'string' },
+    ]);
   };
 
   const handleRemove = (index: number) => {
-    updateProperties(entries.filter((_, i) => i !== index));
+    updateEntries(entries.filter((_, i) => i !== index));
   };
 
   const handleUpdate = (
@@ -99,7 +126,7 @@ export const PropertiesEditor = ({
     } else {
       updated[index] = { ...updated[index], value: newValue as PropertyValue };
     }
-    updateProperties(updated);
+    updateEntries(updated);
   };
 
   const renderValueInput = (

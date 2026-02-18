@@ -4,6 +4,7 @@ import path from 'node:path';
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
+import { stringifyYaml } from '~/server/data/fs';
 import { parseJsonSafe } from '~/server/http';
 import { invalidateSearchIndex } from '~/server/searchIndex';
 
@@ -120,8 +121,7 @@ export const Route = createFileRoute('/api/containers/new')({
             newContainer.height = payload.height;
 
           // Write the new container file
-          const yamlModule = await import('yaml');
-          const yamlStr = yamlModule.stringify(newContainer);
+          const yamlStr = await stringifyYaml(newContainer);
           await fs.writeFile(filePath, yamlStr, 'utf8');
 
           console.info(`Created container: ${slug}`);

@@ -464,22 +464,32 @@ const NEW_ENUMS = [
 ];
 
 export async function stringifyYaml(obj: any): Promise<string> {
+  let result: string;
   try {
     const mod = (await import('yaml').catch(() => null as any)) as any;
     if (mod && typeof mod.stringify === 'function') {
-      return mod.stringify(obj, {
+      result = mod.stringify(obj, {
         defaultKeyType: 'PLAIN',
         singleQuote: true,
         indentSeq: false,
       });
+    } else {
+      // Very naive fallback to JSON with a header comment indicating YAML fallback
+      const header =
+        '# NOTE: YAML library unavailable at runtime, writing JSON-like content as a fallback.\n';
+      result = header + JSON.stringify(obj, null, 2);
     }
   } catch (_e) {
-    // ignore
+    const header =
+      '# NOTE: YAML library unavailable at runtime, writing JSON-like content as a fallback.\n';
+    result = header + JSON.stringify(obj, null, 2);
   }
-  // Very naive fallback to JSON with a header comment indicating YAML fallback
-  const header =
-    '# NOTE: YAML library unavailable at runtime, writing JSON-like content as a fallback.\n';
-  return header + JSON.stringify(obj, null, 2) + '\n';
+
+  // POSIX convention: files should end with a newline
+  if (!result.endsWith('\n')) {
+    result += '\n';
+  }
+  return result;
 }
 
 // --- Lookup table helpers (single YAML file with an array under a top-level key) ---

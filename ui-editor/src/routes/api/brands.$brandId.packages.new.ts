@@ -4,6 +4,7 @@ import path from 'node:path';
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
+import { stringifyYaml } from '~/server/data/fs';
 import { parseJsonSafe } from '~/server/http';
 import { invalidateSearchIndex } from '~/server/searchIndex';
 
@@ -112,8 +113,7 @@ export const Route = createFileRoute('/api/brands/$brandId/packages/new')({
           });
 
           // Write the new package file
-          const yamlModule = await import('yaml');
-          const yamlStr = yamlModule.stringify(newPackage);
+          const yamlStr = await stringifyYaml(newPackage);
           await fs.writeFile(filePath, yamlStr, 'utf8');
 
           invalidateSearchIndex();
