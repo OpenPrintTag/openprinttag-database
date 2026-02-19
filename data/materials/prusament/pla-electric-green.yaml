@@ -1,0 +1,28 @@
+uuid: 893b55d5-f9fa-5f15-8e3a-460ad8999b13
+slug: pla-electric-green
+brand:
+  slug: prusament
+name: PLA Electric Green
+class: FFF
+type:
+  key: 0
+  abbreviation: PLA
+  name: Polylactic Acid
+abbreviation: PLA
+primary_color:
+  rgba: "#9be3bfff"
+  color_rgba: "#9be3bfff"
+photos:
+  - url: /tmp/assets/prusament/pla-electric-green/ce55fca2-4631-44c6-b37c-5d1ab9888f2d.png
+    type: unspecified
+properties:
+  density: 1.24
+  hardness_shore_d: 81
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
