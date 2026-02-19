@@ -20,4 +20,5 @@ properties:
   min_bed_temperature: 55
   max_bed_temperature: 75
   chamber_temperature: 30
+  min_chamber_temperature: 18
   max_chamber_temperature: 40
