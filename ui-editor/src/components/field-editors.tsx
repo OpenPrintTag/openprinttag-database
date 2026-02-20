@@ -6,7 +6,6 @@ import { FormField } from './FormField';
 
 // Types
 interface ColorValue {
-  rgba?: string;
   color_rgba?: string;
 }
 
@@ -37,7 +36,6 @@ interface JsonEditorProps {
 // Constants
 const VALID_HEX_PATTERN = /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/;
 const DEFAULT_COLOR: ColorValue = {
-  rgba: '#000000ff',
   color_rgba: '#000000ff',
 };
 
@@ -45,15 +43,15 @@ const DEFAULT_COLOR: ColorValue = {
 const extractHexFromValue = (value: unknown): string => {
   if (typeof value === 'string') return value;
   if (value && typeof value === 'object') {
-    const obj = value as ColorValue;
-    return obj.rgba || obj.color_rgba || '';
+    const obj = value as Record<string, string>;
+    return obj.color_rgba || obj.rgba || '';
   }
   return '';
 };
 
 const isValidHex = (hex: string): boolean => VALID_HEX_PATTERN.test(hex);
 
-const wrapValue = (hex: string): ColorValue => ({ rgba: hex, color_rgba: hex });
+const wrapValue = (hex: string): ColorValue => ({ color_rgba: hex });
 
 // Extract RGB (6-char) and alpha from hex string
 const parseHexWithAlpha = (hex: string): { rgb: string; alpha: number } => {
@@ -172,7 +170,7 @@ export const ColorArrayPicker: React.FC<ColorArrayPickerProps> = ({
   const colors: ColorValue[] = Array.isArray(value) ? value : [];
 
   const updateColors = (newColors: ColorValue[]) => {
-    onChange(newColors.length > 0 ? newColors : null);
+    onChange(newColors);
   };
 
   const handleAdd = () => updateColors([...colors, { ...DEFAULT_COLOR }]);
