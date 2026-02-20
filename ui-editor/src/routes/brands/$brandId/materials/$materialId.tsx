@@ -9,7 +9,6 @@ import { useApi } from '~/hooks/useApi';
 import { useConfirmDialog } from '~/hooks/useConfirmDialog';
 import { useDeleteMaterial, useUpdateMaterial } from '~/hooks/useMutations';
 import { useEntitySheet } from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
 
 export const Route = createFileRoute('/brands/$brandId/materials/$materialId')({
   component: MaterialLayout,
@@ -61,10 +60,9 @@ function MaterialLayout() {
     }
 
     setError(null);
-    const dataToSave = prepareFormForSave(form);
 
     try {
-      await updateMaterialMutation.mutateAsync({ data: dataToSave });
+      await updateMaterialMutation.mutateAsync({ data: form });
       toast.success(TOAST_MESSAGES.SUCCESS.MATERIAL_UPDATED);
       setIsReadOnly(true);
       refetchMaterial();

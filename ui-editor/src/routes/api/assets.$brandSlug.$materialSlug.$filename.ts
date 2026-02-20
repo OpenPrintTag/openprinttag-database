@@ -3,7 +3,8 @@ import path from 'node:path';
 
 import { createFileRoute } from '@tanstack/react-router';
 
-import { findDataDir, slugifyName } from '~/server/data/fs';
+import { findDataDir } from '~/server/data/fs';
+import { slugifyName } from '~/utils/slug';
 
 const MIME_TYPES: Record<string, string> = {
   '.png': 'image/png',

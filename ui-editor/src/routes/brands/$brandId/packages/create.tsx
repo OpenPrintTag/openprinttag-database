@@ -11,7 +11,6 @@ import {
   EntitySheetFooter,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
 
 export const Route = createFileRoute('/brands/$brandId/packages/create')({
   component: PackageCreate,
@@ -43,12 +42,18 @@ function PackageCreate() {
     }
 
     setError(null);
-    const dataToSave = prepareFormForSave(form);
 
     try {
-      await createPackageMutation.mutateAsync({ data: dataToSave });
+      const result = await createPackageMutation.mutateAsync({ data: form });
       toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_CREATED);
-      handleClose();
+      if (result && typeof result === 'object' && 'slug' in result) {
+        navigate({
+          to: '/brands/$brandId/packages/$packageId',
+          params: { brandId, packageId: result.slug as string },
+        });
+      } else {
+        handleClose();
+      }
     } catch (err) {
       const error = err as Error;
       const errorMessage =

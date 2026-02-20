@@ -1,26 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-// Utility: normalize a human-readable name into a kebab-case slug
-export function slugifyName(input: string | null | undefined): string | null {
-  if (!input) return null;
-  try {
-    const withNoDiacritics = input
-      .normalize('NFKD')
-      .replace(/[\u0300-\u036f]/g, ''); // remove combining marks
-    return withNoDiacritics
-      .toLowerCase()
-      .trim()
-      .replace(/[^a-z0-9\s-]/g, '') // drop punctuation
-      .replace(/[\s_]+/g, '-')
-      .replace(/-+/g, '-');
-  } catch {
-    return input
-      .toLowerCase()
-      .replace(/[\s_]+/g, '-')
-      .replace(/-+/g, '-');
-  }
-}
+import { slugifyName } from '~/utils/slug';
 
 // Utility: locate the data directory
 export async function findDataDir(): Promise<string | null> {
@@ -189,8 +170,12 @@ async function findBrandDir(
   }
 
   if (createIfMissing) {
-    await fs.mkdir(p, { recursive: true });
-    return p;
+    try {
+      await fs.mkdir(p, { recursive: true });
+      return p;
+    } catch {
+      return null;
+    }
   }
   return null;
 }
@@ -377,6 +362,7 @@ async function updateEntityFile(
   dir: string,
   id: string,
   newValue: any | null,
+  createIfMissing = false,
 ): Promise<{ ok: true } | { error: string; status?: number }> {
   // Try direct file access first
   const file = await findEntityFile(dir, id);
@@ -396,7 +382,19 @@ async function updateEntityFile(
 
   const files = await getEntityFiles(dir);
   const match = files.find((f) => matchesId(f, id));
-  if (!match) return { error: `item not found`, status: 404 };
+  if (!match) {
+    if (createIfMissing && newValue !== null) {
+      const fullPath = path.join(dir, `${id}.yaml`);
+      try {
+        const yamlStr = await stringifyYaml(newValue);
+        await fs.writeFile(fullPath, yamlStr, 'utf8');
+        return { ok: true };
+      } catch (_err) {
+        return { error: `Failed to create file`, status: 500 };
+      }
+    }
+    return { error: `item not found`, status: 404 };
+  }
 
   const fullPath = path.join(dir, match.__file);
   try {
@@ -416,11 +414,12 @@ export async function writeSingleEntity(
   entityDirName: string,
   id: string,
   newValue: any,
+  createIfMissing = false,
 ) {
-  const dir = await findEntityDir(entityDirName);
+  const dir = await findEntityDir(entityDirName, createIfMissing);
   if (!dir)
     return { error: `${entityDirName} directory not found`, status: 500 };
-  return updateEntityFile(dir, id, newValue);
+  return updateEntityFile(dir, id, newValue, createIfMissing);
 }
 
 export async function deleteSingleEntity(entityDirName: string, id: string) {
@@ -435,11 +434,16 @@ export async function writeNestedByBrand(
   brandId: string,
   id: string,
   newValue: any,
+  createIfMissing = false,
 ) {
-  const dir = await findBrandDirForNestedEntity(entityDirName, brandId);
+  const dir = await findBrandDirForNestedEntity(
+    entityDirName,
+    brandId,
+    createIfMissing,
+  );
   if (!dir)
     return { error: `${entityDirName} brand directory not found`, status: 500 };
-  return updateEntityFile(dir, id, newValue);
+  return updateEntityFile(dir, id, newValue, createIfMissing);
 }
 
 export async function deleteNestedByBrand(

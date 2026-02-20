@@ -86,11 +86,14 @@ export const FieldEditor: React.FC<FieldEditorProps> = memo(
               onChange={(vals) =>
                 onChange(
                   vals.map((v) => {
-                    if (!fieldOptions.isRelation) return v;
-                    return (
-                      fieldOptions.options.find((o) => String(o.value) === v)
-                        ?.data ?? v
+                    const opt = fieldOptions.options.find(
+                      (o) => String(o.value) === v,
                     );
+                    if (fieldOptions.isRelation) {
+                      const valueField = fieldOptions.valueField ?? 'name';
+                      return { [valueField]: v };
+                    }
+                    return opt?.value ?? v;
                   }),
                 )
               }
@@ -114,7 +117,12 @@ export const FieldEditor: React.FC<FieldEditorProps> = memo(
               const opt = fieldOptions.options.find(
                 (o) => String(o.value) === val,
               );
-              onChange((opt?.data ?? val) || null);
+              if (fieldOptions.isRelation) {
+                const valueField = fieldOptions.valueField ?? 'name';
+                onChange(val ? { [valueField]: val } : null);
+              } else {
+                onChange(opt?.value || null);
+              }
             }}
             disabled={disabled || fieldOptions.loading}
           >

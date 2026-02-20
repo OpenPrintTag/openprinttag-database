@@ -1,5 +1,7 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
+import { prepareFormForSave } from '~/utils/field';
+
 /**
  * Generic mutation hook for creating, updating, or deleting entities
  */
@@ -20,10 +22,21 @@ export const useEntityMutation = <TData = unknown, TVariables = unknown>(
   return useMutation({
     mutationFn: async (variables: TVariables) => {
       const url = getUrl(variables);
+
+      let payload =
+        variables && typeof variables === 'object' && 'data' in variables
+          ? (variables as any).data
+          : variables;
+      if (
+        options.method !== 'DELETE' &&
+        payload &&
+        typeof payload === 'object'
+      ) {
+        payload = prepareFormForSave(payload);
+      }
+
       const body =
-        options.method !== 'DELETE'
-          ? JSON.stringify((variables as any).data || variables)
-          : undefined;
+        options.method !== 'DELETE' ? JSON.stringify(payload) : undefined;
 
       const res = await fetch(url, {
         method: options.method,
