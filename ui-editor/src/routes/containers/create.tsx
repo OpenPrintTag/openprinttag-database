@@ -12,7 +12,6 @@ import {
   EntitySheetFooter,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/containers/create')({
@@ -61,12 +60,18 @@ function ContainerCreate() {
     }
 
     setError(null);
-    const dataToSave = prepareFormForSave(form);
 
     try {
-      await createContainerMutation.mutateAsync({ data: dataToSave });
+      const result = await createContainerMutation.mutateAsync({ data: form });
       toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_CREATED);
-      handleClose();
+      if (result && typeof result === 'object' && 'slug' in result) {
+        navigate({
+          to: '/containers/$containerId',
+          params: { containerId: result.slug as string },
+        });
+      } else {
+        handleClose();
+      }
     } catch (err) {
       const error = err as Error;
       const errorMessage =

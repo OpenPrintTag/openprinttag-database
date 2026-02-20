@@ -4,7 +4,8 @@ import path from 'node:path';
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
-import { findDataDir, slugifyName } from '~/server/data/fs';
+import { findDataDir } from '~/server/data/fs';
+import { slugifyName } from '~/utils/slug';
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
 const ALLOWED_MIME_TYPES = ['image/png', 'image/jpeg', 'image/webp'];

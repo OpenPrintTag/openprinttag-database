@@ -14,8 +14,9 @@ export const Route = createFileRoute('/api/brands')({
           readAllEntities,
           readMaterialsByBrand,
           readNestedEntitiesByBrand,
-          slugifyName,
         } = await import('~/server/data/fs');
+
+        const { slugifyName } = await import('~/utils/slug');
 
         const data = await readAllEntities('brands', {
           validate: (obj) => !!obj && (!!obj.name || !!obj.uuid),

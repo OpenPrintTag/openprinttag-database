@@ -1,14 +1,17 @@
-import { FIELD_RELATION_MAP } from '~/server/data/schema-metadata';
+import {
+  FIELD_ENUM_MAP,
+  FIELD_RELATION_MAP,
+} from '~/server/data/schema-metadata';
 
 /**
- * Extract raw value from a field using FIELD_RELATION_MAP metadata.
- * For relation fields, extracts the valueField (e.g., slug) from the object.
- * For non-relation fields, returns the value as-is.
+ * Extract raw value from a field using FIELD_RELATION_MAP or FIELD_ENUM_MAP metadata.
+ * For relation and enum fields, extracts the valueField (e.g., slug, code, abbreviation) from the object.
+ * For non-mapped fields, returns the value as-is.
  */
 export const extractFieldValue = (key: string, value: unknown): unknown => {
-  const relationMeta = FIELD_RELATION_MAP[key];
-  if (relationMeta && typeof value === 'object' && value !== null) {
-    const valueField = relationMeta.valueField;
+  const meta = FIELD_RELATION_MAP[key] ?? FIELD_ENUM_MAP[key];
+  if (meta && typeof value === 'object' && value !== null) {
+    const valueField = meta.valueField;
     return (value as Record<string, unknown>)[valueField] ?? value;
   }
   return value;
@@ -33,26 +36,12 @@ export const extractValue = (val: unknown, valueField: string): string => {
  */
 export const stripRelationToSlug = (key: string, value: unknown): unknown => {
   const relationMeta = FIELD_RELATION_MAP[key];
-  if (!relationMeta) return value;
+  if (!relationMeta || value === null || value === undefined) return value;
 
-  // Handle null/undefined
-  if (value === null || value === undefined) return value;
-
-  // Handle object with enriched data
-  if (typeof value === 'object') {
-    const obj = value as Record<string, unknown>;
-    const slugValue = obj[relationMeta.valueField];
-    if (slugValue !== undefined) {
-      return { [relationMeta.valueField]: slugValue };
-    }
-  }
-
-  // Handle string value (already just the slug string)
-  if (typeof value === 'string') {
-    return { [relationMeta.valueField]: value };
-  }
-
-  return value;
+  const rawValue = extractFieldValue(key, value);
+  return rawValue !== undefined && rawValue !== null
+    ? { [relationMeta.valueField]: rawValue }
+    : value;
 };
 
 /**
@@ -67,6 +56,8 @@ export const prepareFormForSave = <T extends Record<string, unknown>>(
   for (const key of Object.keys(result)) {
     if (FIELD_RELATION_MAP[key]) {
       result[key] = stripRelationToSlug(key, result[key]);
+    } else if (FIELD_ENUM_MAP[key]) {
+      result[key] = extractFieldValue(key, result[key]);
     }
   }
 

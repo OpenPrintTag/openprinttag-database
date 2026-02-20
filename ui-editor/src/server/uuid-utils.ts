@@ -20,14 +20,13 @@ export const generateMaterialUuid = (
   brandUuid: string,
   materialName: string,
 ): string => {
-  // Convert brand UUID to bytes and concatenate with material name
+  // Build the exact byte sequence: Brand::uuid (16 bytes) + Material::name (utf8)
   const brandUuidBytes = Buffer.from(brandUuid.replace(/-/g, ''), 'hex');
   const materialNameBytes = Buffer.from(materialName, 'utf8');
-  const combinedData = Buffer.concat([brandUuidBytes, materialNameBytes]);
+  const nameBytes = Buffer.concat([brandUuidBytes, materialNameBytes]);
 
-  // Convert to latin1 string to match Python's behavior
-  const combinedString = combinedData.toString('latin1');
-  return uuidv5(combinedString, NAMESPACE_MATERIAL);
+  // Pass bytes directly to uuidv5 to match Python's implementation
+  return uuidv5(nameBytes, NAMESPACE_MATERIAL);
 };
 
 /**
@@ -38,14 +37,12 @@ export const generateMaterialPackageUuid = (
   brandUuid: string,
   gtin: string | number,
 ): string => {
-  // Convert brand UUID to bytes and concatenate with GTIN
+  // Build the exact byte sequence: Brand::uuid (16 bytes) + MaterialPackage::gtin (utf8)
   const brandUuidBytes = Buffer.from(brandUuid.replace(/-/g, ''), 'hex');
-  // Ensure gtin is converted to string (it may come as a number from JSON payload)
   const gtinStr = String(gtin);
   const gtinBytes = Buffer.from(gtinStr, 'utf8');
-  const combinedData = Buffer.concat([brandUuidBytes, gtinBytes]);
+  const nameBytes = Buffer.concat([brandUuidBytes, gtinBytes]);
 
-  // Convert to latin1 string to match Python's behavior
-  const combinedString = combinedData.toString('latin1');
-  return uuidv5(combinedString, NAMESPACE_MATERIAL_PACKAGE);
+  // Pass bytes directly to uuidv5 to match Python's implementation
+  return uuidv5(nameBytes, NAMESPACE_MATERIAL_PACKAGE);
 };

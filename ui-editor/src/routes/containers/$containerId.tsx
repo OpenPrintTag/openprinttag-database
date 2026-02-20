@@ -9,7 +9,6 @@ import { useApi } from '~/hooks/useApi';
 import { useConfirmDialog } from '~/hooks/useConfirmDialog';
 import { useDeleteContainer, useUpdateContainer } from '~/hooks/useMutations';
 import { useEntitySheet } from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
 
 export const Route = createFileRoute('/containers/$containerId')({
   component: ContainerLayout,
@@ -57,10 +56,9 @@ function ContainerLayout() {
     }
 
     setError(null);
-    const dataToSave = prepareFormForSave(form);
 
     try {
-      await updateContainerMutation.mutateAsync({ data: dataToSave });
+      await updateContainerMutation.mutateAsync({ data: form });
       toast.success(TOAST_MESSAGES.SUCCESS.CONTAINER_UPDATED);
       setIsReadOnly(true);
       refetchContainer();

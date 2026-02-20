@@ -9,7 +9,6 @@ import { useApi } from '~/hooks/useApi';
 import { useConfirmDialog } from '~/hooks/useConfirmDialog';
 import { useDeletePackage, useUpdatePackage } from '~/hooks/useMutations';
 import { useEntitySheet } from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
 
 export const Route = createFileRoute('/brands/$brandId/packages/$packageId')({
   component: PackageLayout,
@@ -60,10 +59,9 @@ function PackageLayout() {
     }
 
     setError(null);
-    const dataToSave = prepareFormForSave(form);
 
     try {
-      await updatePackageMutation.mutateAsync({ data: dataToSave });
+      await updatePackageMutation.mutateAsync({ data: form });
       toast.success(TOAST_MESSAGES.SUCCESS.PACKAGE_UPDATED);
       setIsReadOnly(true);
     } catch (err) {

@@ -12,7 +12,6 @@ import {
   EntitySheetFooter,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
-import { prepareFormForSave } from '~/utils/field';
 import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/brands/$brandId/materials/create')({
@@ -75,12 +74,18 @@ function MaterialCreate() {
     }
 
     setError(null);
-    const dataToSave = prepareFormForSave(form);
 
     try {
-      await createMaterialMutation.mutateAsync({ data: dataToSave });
+      const result = await createMaterialMutation.mutateAsync({ data: form });
       toast.success(TOAST_MESSAGES.SUCCESS.MATERIAL_CREATED);
-      handleClose();
+      if (result && typeof result === 'object' && 'slug' in result) {
+        navigate({
+          to: '/brands/$brandId/materials/$materialId',
+          params: { brandId, materialId: result.slug as string },
+        });
+      } else {
+        handleClose();
+      }
     } catch (err) {
       const error = err as Error;
       const errorMessage =
