@@ -9,9 +9,9 @@ from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
 import sys
 
-# Add parent directory to path to import migrate
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from migrate import MaterialImageMigration
+# Add scripts directory to path
+sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+from migrate_images import MaterialImageMigration
 
 
 class TestMigrateIdempotency(unittest.TestCase):
@@ -39,7 +39,7 @@ class TestMigrateIdempotency(unittest.TestCase):
             "name": "Test Material",
             "photos": [
                 {
-                    "url": "https://file.openprinttag.org/test-brand/test-material/image.jpg",
+                    "url": "https://files.openprinttag.org/test-brand/test-material/image.jpg",
                     "type": "unspecified"
                 }
             ]
@@ -49,7 +49,7 @@ class TestMigrateIdempotency(unittest.TestCase):
             yaml.dump(material_data, f)
         
         # Mock GCS client to avoid real connection
-        with patch('migrate.storage.Client') as mock_storage:
+        with patch('migrate_images.storage.Client') as mock_storage:
             mock_client = MagicMock()
             mock_storage.return_value = mock_client
             mock_bucket = MagicMock()
@@ -93,8 +93,8 @@ class TestMigrateIdempotency(unittest.TestCase):
             yaml.dump(material_data, f)
         
         # Mock GCS client and requests
-        with patch('migrate.storage.Client') as mock_storage, \
-             patch('migrate.requests.get') as mock_get:
+        with patch('migrate_images.storage.Client') as mock_storage, \
+             patch('migrate_images.requests.get') as mock_get:
             
             # Setup GCS mocks
             mock_client = MagicMock()
@@ -138,7 +138,7 @@ class TestMigrateIdempotency(unittest.TestCase):
             "name": "Test Material",
             "photos": [
                 {
-                    "url": "https://file.openprinttag.org/test-brand/test-material/image1.jpg",
+                    "url": "https://files.openprinttag.org/test-brand/test-material/image1.jpg",
                     "type": "unspecified"
                 },
                 {
@@ -152,8 +152,8 @@ class TestMigrateIdempotency(unittest.TestCase):
             yaml.dump(material_data, f)
         
         # Mock GCS client and requests
-        with patch('migrate.storage.Client') as mock_storage, \
-             patch('migrate.requests.get') as mock_get:
+        with patch('migrate_images.storage.Client') as mock_storage, \
+             patch('migrate_images.requests.get') as mock_get:
             
             # Setup GCS mocks
             mock_client = MagicMock()
@@ -201,7 +201,7 @@ class TestMigrateIdempotency(unittest.TestCase):
             yaml.dump(material_data, f)
         
         # Mock GCS client
-        with patch('migrate.storage.Client') as mock_storage:
+        with patch('migrate_images.storage.Client') as mock_storage:
             mock_client = MagicMock()
             mock_storage.return_value = mock_client
             mock_bucket = MagicMock()
