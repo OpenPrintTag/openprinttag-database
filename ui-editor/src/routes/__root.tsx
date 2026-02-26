@@ -14,7 +14,7 @@ import {
   GlobalSearch,
   GlobalSearchTrigger,
   useGlobalSearch,
-} from '~/components/GlobalSearch';
+} from '~/components/global-search';
 import { NotFound } from '~/components/NotFound';
 import appCss from '~/styles/global.css?url';
 import { seo } from '~/utils/seo';
