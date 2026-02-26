@@ -1,13 +1,11 @@
 /// <reference types="vite/client" />
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import {
   createRootRoute,
   HeadContent,
   Link,
   Scripts,
 } from '@tanstack/react-router';
-import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import * as React from 'react';
 import { Toaster } from 'sonner';
 
@@ -96,11 +94,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <QueryClientProvider client={queryClient}>
           <AppShell>{children}</AppShell>
           <Toaster position="top-right" richColors />
-          <ReactQueryDevtools
-            initialIsOpen={false}
-            buttonPosition="bottom-left"
-          />
-          <TanStackRouterDevtools position="bottom-right" />
         </QueryClientProvider>
         <Scripts />
       </body>
