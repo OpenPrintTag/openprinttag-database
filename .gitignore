@@ -6,6 +6,10 @@ __pycache__/
 openprinttag/
 db-export.json
 
+# Allow local image cache used by migrate-images.py
+!data/tmp/
+!data/tmp/**
+
 # Python build artifacts
 *.egg-info/
 *.egg
