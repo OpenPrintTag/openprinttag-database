@@ -78,6 +78,14 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: migrate images to GCS and remove temporary assets [skip ci]"
-            git pull --rebase
-            git push
+            n=0
+            until git pull --rebase && git push; do
+              n=$((n+1))
+              if [ $n -ge 3 ]; then
+                echo "Push failed after 3 attempts"
+                exit 1
+              fi
+              echo "Retry $n/3..."
+              sleep 5
+            done
           fi
