@@ -1,0 +1,17 @@
+name: PLA Army green
+slug: pla-army-green
+brand:
+  slug: generic
+class: FFF
+type: PLA
+abbreviation: ''
+tags: []
+certifications: []
+primary_color:
+  color_rgba: '#1f6b20ff'
+secondary_colors: []
+photos:
+- url: /tmp/assets/generic/pla-army-green/20260205110600.jpg
+  type: unspecified
+properties: {}
+uuid: c6753d1b-4618-505a-aa5a-0676e55e9545
