@@ -13,6 +13,8 @@ on:
 jobs:
   migrate-images:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -48,13 +50,17 @@ jobs:
             --no-dry-run \
             --base-ref HEAD~1
 
-      - name: Remove temporary assets and commit (push to main)
+      - name: Commit updated YAMLs and remove temporary assets (push to main)
         if: github.event_name == 'push'
         run: |
-          if [ -d data/tmp ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git rm -rf --ignore-unmatch data/tmp/
-            git commit -m "chore: remove temporary assets after image migration [skip ci]" || echo "Nothing to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm -rf --ignore-unmatch data/tmp/
+          git add -u data/materials/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: migrate images to GCS and remove temporary assets [skip ci]"
+            git pull --rebase
             git push
           fi
