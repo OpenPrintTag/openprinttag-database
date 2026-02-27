@@ -67,7 +67,7 @@ jobs:
             --no-dry-run \
             --base-ref HEAD~1
 
-      - name: Commit updated YAMLs and remove temporary assets (push to main)
+      - name: Amend commit – update YAMLs and remove tmp assets (push to main)
         if: github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
@@ -75,11 +75,11 @@ jobs:
           git rm -rf --ignore-unmatch data/tmp/
           git add -u data/materials/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes to amend"
           else
-            git commit -m "chore: migrate images to GCS and remove temporary assets [skip ci]"
+            git commit --amend --no-edit
             n=0
-            until git pull --rebase && git push; do
+            until git push --force-with-lease; do
               n=$((n+1))
               if [ $n -ge 3 ]; then
                 echo "Push failed after 3 attempts"
