@@ -2,7 +2,7 @@ name: Update Data Manifest
 
 on:
   push:
-    branches: [main]
+    branches: [main-test]
     paths:
       - 'data/**'
       - '!data/manifest.yaml'
