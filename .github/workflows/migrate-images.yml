@@ -13,6 +13,8 @@ on:
 jobs:
   migrate-images:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -38,6 +40,13 @@ jobs:
             --dry-run \
             --base-ref origin/${{ github.base_ref }}
 
+      - name: Dry run – show orphaned images to delete (PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/delete_images.py \
+            --dry-run \
+            --base-ref origin/${{ github.base_ref }}
+
       - name: Migrate images (push to main)
         if: github.event_name == 'push'
         env:
@@ -48,13 +57,27 @@ jobs:
             --no-dry-run \
             --base-ref HEAD~1
 
-      - name: Remove temporary assets and commit (push to main)
+      - name: Delete orphaned images from GCS (push to main)
+        if: github.event_name == 'push'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcs-credentials.json
+        run: |
+          echo '${{ secrets.GCS_CREDENTIALS_JSON }}' > /tmp/gcs-credentials.json
+          python scripts/delete_images.py \
+            --no-dry-run \
+            --base-ref HEAD~1
+
+      - name: Commit updated YAMLs and remove temporary assets (push to main)
         if: github.event_name == 'push'
         run: |
-          if [ -d data/tmp ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git rm -rf --ignore-unmatch data/tmp/
-            git commit -m "chore: remove temporary assets after image migration [skip ci]" || echo "Nothing to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm -rf --ignore-unmatch data/tmp/
+          git add -u data/materials/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: migrate images to GCS and remove temporary assets [skip ci]"
+            git pull --rebase
             git push
           fi
