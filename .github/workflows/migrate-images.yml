@@ -1,0 +1,84 @@
+name: Migrate Material Images
+
+on:
+  pull_request:
+    branches: [main-test]
+    paths:
+      - 'data/materials/**'
+  push:
+    branches: [main-test]
+    paths:
+      - 'data/materials/**'
+
+jobs:
+  migrate-images:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Dry run – show changed material files (PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/migrate_images.py \
+            --dry-run \
+            --base-ref origin/${{ github.base_ref }}
+
+      - name: Dry run – show orphaned images to delete (PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/delete_images.py \
+            --dry-run \
+            --base-ref origin/${{ github.base_ref }}
+
+      - name: Migrate images (push to main)
+        if: github.event_name == 'push'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcs-credentials.json
+        run: |
+          echo '${{ secrets.GCS_CREDENTIALS_JSON }}' > /tmp/gcs-credentials.json
+          python scripts/migrate_images.py \
+            --no-dry-run \
+            --base-ref HEAD~1
+
+      - name: Delete orphaned images from GCS (push to main)
+        if: github.event_name == 'push'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcs-credentials.json
+        run: |
+          echo '${{ secrets.GCS_CREDENTIALS_JSON }}' > /tmp/gcs-credentials.json
+          python scripts/delete_images.py \
+            --no-dry-run \
+            --base-ref HEAD~1
+
+      - name: Amend commit – update YAMLs and remove tmp assets (push to main)
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm -rf --ignore-unmatch data/tmp/
+          git add -u data/materials/
+          if git diff --staged --quiet; then
+            echo "No changes to amend"
+          else
+            git commit --amend --no-edit
+            # Fetch updates the stale remote-tracking ref so --force-with-lease works in Actions
+            git fetch origin main
+            git push --force-with-lease
+          fi
