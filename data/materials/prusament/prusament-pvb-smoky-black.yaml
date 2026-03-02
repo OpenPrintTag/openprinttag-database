@@ -23,3 +23,6 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+photos:
+  - url: /tmp/assets/prusament-pvb-smoky-black-0-76adc123.jpg
+    type: unspecified

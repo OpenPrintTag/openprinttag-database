@@ -24,3 +24,6 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+photos:
+  - url: /tmp/assets/prusament-pla-chalky-blue-0-798436c1.jpg
+    type: unspecified

@@ -24,3 +24,6 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+photos:
+  - url: /tmp/assets/prusament-pla-pistachio-green-0-1ff4f6f6.jpg
+    type: unspecified

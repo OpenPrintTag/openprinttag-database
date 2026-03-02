@@ -25,3 +25,6 @@ properties:
   chamber_temperature: 35
   min_chamber_temperature: 18
   max_chamber_temperature: 60
+photos:
+  - url: /tmp/assets/prusament-petg-shimmering-violet-0-035e4944.jpg
+    type: unspecified

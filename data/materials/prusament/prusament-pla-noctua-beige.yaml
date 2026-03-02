@@ -21,3 +21,6 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+photos:
+  - url: /tmp/assets/prusament-pla-noctua-beige-0-c91da9fa.jpg
+    type: unspecified
