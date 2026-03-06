@@ -19,3 +19,6 @@ properties:
   chamber_temperature: 35
   min_chamber_temperature: 18
   max_chamber_temperature: 60
+photos:
+  - url: /tmp/assets/prusament-petg-orange-for-ppe-0-cfd9110d.jpg
+    type: unspecified

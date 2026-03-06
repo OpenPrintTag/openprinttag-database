@@ -20,4 +20,7 @@ properties:
   max_bed_temperature: 70
   chamber_temperature: 20
   min_chamber_temperature: 18
-  max_chamber_temperature: 40 
+  max_chamber_temperature: 40
+photos:
+  - url: /tmp/assets/prusament-woodfill-linden-light-0-7306bbc7.jpg
+    type: unspecified

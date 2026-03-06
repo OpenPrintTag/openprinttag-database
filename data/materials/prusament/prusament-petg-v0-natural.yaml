@@ -26,3 +26,6 @@ properties:
   chamber_temperature: 35
   min_chamber_temperature: 18
   max_chamber_temperature: 60
+photos:
+  - url: /tmp/assets/prusament-petg-v0-natural-0-199c84cd.jpg
+    type: unspecified

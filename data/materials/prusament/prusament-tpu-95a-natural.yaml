@@ -22,3 +22,6 @@ properties:
   chamber_temperature: 30
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+photos:
+  - url: /tmp/assets/prusament-tpu-95a-natural-0-f7f6cbcb.jpg
+    type: unspecified
