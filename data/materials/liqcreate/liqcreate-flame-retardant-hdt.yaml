@@ -12,3 +12,8 @@ tags:
 - self_extinguishing
 properties:
   density: 1.12
+  cure_wavelength: 405
+  viscosity_18c: 1389
+  viscosity_25c: 630
+  viscosity_40c: 165
+  viscosity_60c: 49

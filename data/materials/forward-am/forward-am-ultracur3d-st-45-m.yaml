@@ -12,3 +12,8 @@ tags:
 - translucent
 properties:
   density: 1.12
+  cure_wavelength: 405
+  viscosity_18c: 530
+  viscosity_25c: 312
+  viscosity_40c: 127
+  viscosity_60c: 51
