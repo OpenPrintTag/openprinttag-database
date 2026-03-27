@@ -1,0 +1,20 @@
+uuid: 0f0bca0b-d589-5faf-bb85-ded3d2ab9d7e
+slug: azurefilm-carbon-fiber-paht
+brand:
+  slug: azurefilm
+name: Carbon Fiber PAHT
+class: FFF
+abbreviation: CARBON
+url: https://azurefilm.com/product/carbon-fiber-paht-filament/
+primary_color:
+  color_rgba: '#232323ff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - high_temperature
+properties:
+  density: 1.24
+photos:
+  - url: /tmp/assets/azurefilm-carbon-fiber-paht-0-9e64df69.jpg
+    type: unspecified
