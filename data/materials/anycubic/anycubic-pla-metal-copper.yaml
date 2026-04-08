@@ -1,0 +1,19 @@
+uuid: fd159f9a-7836-5997-b5fc-45bb6221d8e9
+slug: anycubic-pla-metal-copper
+brand:
+  slug: anycubic
+name: PLA Metal Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/pla-metal-filament?variant=45405396140194
+primary_color:
+  color_rgba: '#956c58ff'
+tags:
+  - imitates_metal
+  - industrially_compostable
+properties:
+  density: 1.2
+photos:
+  - url: /tmp/assets/anycubic-pla-metal-copper-0-875f5bfd.jpg
+    type: unspecified

@@ -1,0 +1,19 @@
+uuid: 5bccf03d-d44d-5e73-a916-b65af814e227
+slug: anycubic-pla-basic-clear
+brand:
+  slug: anycubic
+name: PLA Basic Clear
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/pla-filament?variant=28613838635068
+primary_color:
+  color_rgba: '#edf0f2ff'
+tags:
+  - translucent
+  - industrially_compostable
+properties:
+  density: 1.24
+photos:
+  - url: /tmp/assets/anycubic-pla-basic-clear-0-fef8c012.jpg
+    type: unspecified

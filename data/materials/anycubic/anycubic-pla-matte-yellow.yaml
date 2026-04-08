@@ -1,0 +1,19 @@
+uuid: 30d2f076-ab97-569c-a61d-d51b1dd97066
+slug: anycubic-pla-matte-yellow
+brand:
+  slug: anycubic
+name: PLA Matte Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/matte-pla-filament?variant=42237204660386
+primary_color:
+  color_rgba: '#ffe17fff'
+tags:
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.25
+photos:
+  - url: /tmp/assets/anycubic-pla-matte-yellow-0-6f199864.jpg
+    type: unspecified
