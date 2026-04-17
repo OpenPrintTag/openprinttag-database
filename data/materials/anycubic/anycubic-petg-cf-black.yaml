@@ -1,0 +1,20 @@
+uuid: 889e86d4-a5f4-5511-bbc9-b73db590aeda
+slug: anycubic-petg-cf-black
+brand:
+  slug: anycubic
+name: PETG-CF Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://store.anycubic.com/products/petg-cf-filament?variant=46675710050466
+primary_color:
+  color_rgba: '#292824ff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.32
+photos:
+  - url: /tmp/assets/anycubic-petg-cf-black-0-a14ec1dc.jpg
+    type: unspecified
