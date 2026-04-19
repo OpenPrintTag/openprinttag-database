@@ -55,13 +55,13 @@ jobs:
             --dry-run \
             --base-ref origin/${{ github.base_ref }}
 
-      - name: Check if already synced with main-test
+      - name: Check if already synced with main
         if: github.event_name == 'push'
         id: sync-check
         run: |
-          git fetch origin main-test
-          if git merge-base --is-ancestor origin/main-pr origin/main-test; then
-            echo "main-pr is already part of main-test history (post-reset trigger). Skipping."
+          git fetch origin main
+          if git merge-base --is-ancestor origin/main-pr origin/main; then
+            echo "main-pr is already part of main history (post-reset trigger). Skipping."
             echo "already_synced=true" >> "$GITHUB_OUTPUT"
           else
             echo "already_synced=false" >> "$GITHUB_OUTPUT"
@@ -100,13 +100,13 @@ jobs:
             git commit --amend --no-edit
           fi
 
-          git fetch origin main-test
-          git checkout main-test
+          git fetch origin main
+          git checkout main
 
           git cherry-pick main-pr
-          git push origin main-test
+          git push origin main
 
           # reset main-pr to state from main
           git checkout main-pr
-          git reset --hard main-test
+          git reset --hard main
           git push origin main-pr --force
