@@ -6,6 +6,8 @@ __pycache__/
 openprinttag/
 db-export.json
 
+!data/tmp
+
 # Python build artifacts
 *.egg-info/
 *.egg
