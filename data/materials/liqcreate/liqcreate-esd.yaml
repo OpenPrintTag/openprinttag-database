@@ -12,3 +12,8 @@ tags:
 - esd_safe
 properties:
   density: 1.18
+  cure_wavelength: 405
+  viscosity_18c: 1174
+  viscosity_25c: 698
+  viscosity_40c: 263
+  viscosity_60c: 116

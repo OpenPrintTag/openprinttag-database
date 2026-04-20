@@ -10,3 +10,8 @@ primary_color:
   color_rgba: '#ff8040ff'
 properties:
   density: 1.03
+  cure_wavelength: 405
+  viscosity_18c: 360
+  viscosity_25c: 207
+  viscosity_40c: 81
+  viscosity_60c: 32
