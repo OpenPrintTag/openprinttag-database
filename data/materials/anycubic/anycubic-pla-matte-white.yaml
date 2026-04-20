@@ -1,0 +1,19 @@
+uuid: 6db9fd6d-bb54-5adb-add8-2bb82afddc40
+slug: anycubic-pla-matte-white
+brand:
+  slug: anycubic
+name: PLA Matte White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/matte-pla-filament?variant=42237204791458
+primary_color:
+  color_rgba: '#f1f0edff'
+tags:
+- matte
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-pla-matte-white/anycubic-pla-matte-white-0-fc2d9651.jpg
+  type: unspecified

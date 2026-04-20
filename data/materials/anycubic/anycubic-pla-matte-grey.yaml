@@ -1,0 +1,19 @@
+uuid: 93d7f2a5-f40f-5805-b20a-e6113d98b2b1
+slug: anycubic-pla-matte-grey
+brand:
+  slug: anycubic
+name: PLA Matte Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/matte-pla-filament?variant=45296339746978
+primary_color:
+  color_rgba: '#8e939bff'
+tags:
+- matte
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-pla-matte-grey/anycubic-pla-matte-grey-0-6cf0aa91.jpg
+  type: unspecified
