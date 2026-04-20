@@ -29,7 +29,7 @@ jobs:
         with:
           ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main-pr' }}
           fetch-depth: 0
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ github.event_name == 'push' && secrets.PAT_TOKEN || github.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
