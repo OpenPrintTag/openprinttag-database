@@ -1,0 +1,25 @@
+uuid: c2acbad1-3702-51e0-9dfb-5f81d9d02890
+slug: prusament-petg-ultraglow-green
+brand:
+  slug: prusament
+name: PETG Ultraglow Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.prusa3d.com/product/prusament-petg-ultraglow-green-800g-nfc/
+primary_color:
+  color_rgba: '#eefce6ff'
+tags:
+- glow_in_the_dark
+- abrasive
+- illuminescent_color_change
+properties:
+  density: 1.5
+  hardness_shore_d: 77.0
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+photos:
+- url: https://files.openprinttag.org/prusament/prusament-petg-ultraglow-green/prusament-petg-ultraglow-green-0-c06f0ede.jpg
+  type: unspecified
