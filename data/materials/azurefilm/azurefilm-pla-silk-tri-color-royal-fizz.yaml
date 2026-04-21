@@ -6,14 +6,16 @@ name: PLA Silk Tri Color Royal Fizz
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://beta.myfilamentlist.com/admin/filaments
-primary_color:
-  color_rgba: '#473fc9ff'
+url: https://azurefilm.com/product/pla-silk-tri-color-royal-fizz/
+secondary_colors:
+  - color_rgba: '#473fc9ff'
+  - color_rgba: '#ec008cff'
+  - color_rgba: '#e6a72fff'
 tags:
-- silk
-- coextruded
-- industrially_compostable
+  - silk
+  - coextruded
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-silk-tri-color-royal-fizz/azurefilm-pla-silk-tri-color-royal-fizz-0-9a408392.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-silk-tri-color-royal-fizz/azurefilm-pla-silk-tri-color-royal-fizz-0-9a408392.jpg
+    type: unspecified

@@ -10,10 +10,11 @@ url: https://azurefilm.com/product/pla-matte-hs-filament-army-green/
 primary_color:
   color_rgba: '#5d6844ff'
 tags:
-- high_speed
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.35
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-army-green/azurefilm-pla-matte-hs-army-green-0-f1d05f5d.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-army-green/azurefilm-pla-matte-hs-army-green-0-f1d05f5d.jpg
+    type: unspecified

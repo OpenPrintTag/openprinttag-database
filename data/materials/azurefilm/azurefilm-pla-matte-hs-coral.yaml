@@ -10,10 +10,11 @@ url: https://azurefilm.com/product/pla-matte-hs-filament-coral/
 primary_color:
   color_rgba: '#fb6066ff'
 tags:
-- high_speed
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.35
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-coral/azurefilm-pla-matte-hs-coral-0-00da7606.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-coral/azurefilm-pla-matte-hs-coral-0-00da7606.jpg
+    type: unspecified

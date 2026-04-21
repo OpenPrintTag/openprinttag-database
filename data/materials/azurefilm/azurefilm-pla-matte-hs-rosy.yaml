@@ -10,10 +10,11 @@ url: https://azurefilm.com/product/pla-matte-hs-filament-rosy/
 primary_color:
   color_rgba: '#e4cacaff'
 tags:
-- high_speed
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.35
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-rosy/azurefilm-pla-matte-hs-rosy-0-1b1043d4.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-rosy/azurefilm-pla-matte-hs-rosy-0-1b1043d4.jpg
+    type: unspecified
