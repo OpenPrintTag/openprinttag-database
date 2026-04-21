@@ -6,12 +6,13 @@ name: High Speed PLA+ Bone White
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.amazon.com/eSUN-Filament-Printing-Dimensional-Cardboard/dp/B0D4TTNJ61
 primary_color:
   color_rgba: '#eadac2ff'
 tags:
-- industrially_compostable
-- high_speed
-photos:
-- url: https://files.openprinttag.org/esun/esun-high-speed-pla-bone-white/6863618ea668.jpg
-  type: unspecified
+  - high_speed
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-high-speed-pla-bone-white/6863618ea668.jpg
+    type: unspecified

@@ -6,16 +6,17 @@ name: Silk Rainbow PLA Coral
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.amazon.com/eSUN-Filament-Metallic-Dimensional-Accuracy/dp/B0D2GS15DQ
 secondary_colors:
-- color_rgba: '#ffc946ff'
-- color_rgba: '#e23288ff'
-- color_rgba: '#6c5bb1ff'
-- color_rgba: '#82e3ecff'
+  - color_rgba: '#6c5bb1ff'
+  - color_rgba: '#e23288ff'
+  - color_rgba: '#ffc946ff'
+  - color_rgba: '#9ef9ffff'
 tags:
-- silk
-- industrially_compostable
-- gradual_color_change
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-rainbow-pla-coral/3f54997b49aa.jpg
-  type: unspecified
+  - silk
+  - gradual_color_change
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-rainbow-pla-coral/3f54997b49aa.jpg
+    type: unspecified

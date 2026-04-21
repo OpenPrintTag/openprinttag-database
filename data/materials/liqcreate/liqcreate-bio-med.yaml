@@ -12,3 +12,8 @@ tags:
 - biocompatible
 properties:
   density: 1.18
+  cure_wavelength: 405
+  viscosity_18c: 791
+  viscosity_25c: 373
+  viscosity_40c: 114
+  viscosity_60c: 37

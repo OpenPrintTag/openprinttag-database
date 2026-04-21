@@ -1,0 +1,17 @@
+uuid: a794dfff-5ede-5140-baa1-f5382f6d46f0
+slug: noctuo-ultrapla-yellow
+brand:
+  slug: noctuo
+name: UltraPLA Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f9e352ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.3
+photos:
+- url: https://files.openprinttag.org/noctuo/noctuo-ultrapla-yellow/noctuo-ultrapla-yellow-0-cacf97d1.jpg
+  type: unspecified

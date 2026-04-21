@@ -1,16 +1,17 @@
-uuid: ef2b5c88-efb3-56a5-9d34-4863c318dd96
+uuid: dd0f54ba-c545-53ad-adb0-a21f3253a204
 slug: esun-pla-yellow
 brand:
   slug: esun
-name: PLA Yellow
+name: PLA+ Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13392
 primary_color:
-  color_rgba: '#fbe200ff'
+  color_rgba: '#fadb24ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-yellow/b29ddcd12392.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-yellow/b29ddcd12392.jpg
+    type: unspecified

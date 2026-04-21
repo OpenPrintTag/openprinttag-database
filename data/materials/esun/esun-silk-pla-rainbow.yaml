@@ -6,15 +6,16 @@ name: Silk PLA Rainbow
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-silk-rainbow?VariantsId=12198
 secondary_colors:
-- color_rgba: '#fbe200ff'
-- color_rgba: '#d18136ff'
-- color_rgba: '#adebb3ff'
+  - color_rgba: '#d18136ff'
+  - color_rgba: '#adebb3ff'
+  - color_rgba: '#fbe200ff'
 tags:
-- silk
-- industrially_compostable
-- gradual_color_change
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-pla-rainbow/8fb16b7e6126.jpg
-  type: unspecified
+  - silk
+  - gradual_color_change
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-pla-rainbow/8fb16b7e6126.jpg
+    type: unspecified

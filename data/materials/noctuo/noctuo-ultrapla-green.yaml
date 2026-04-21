@@ -1,0 +1,17 @@
+uuid: 2e768f1f-8205-5fc1-b257-ba8053c3968d
+slug: noctuo-ultrapla-green
+brand:
+  slug: noctuo
+name: UltraPLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#08d461ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.3
+photos:
+- url: https://files.openprinttag.org/noctuo/noctuo-ultrapla-green/noctuo-ultrapla-green-0-63d579bc.jpg
+  type: unspecified

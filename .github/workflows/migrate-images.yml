@@ -1,0 +1,110 @@
+name: Migrate Images and Sync to Main
+
+on:
+  pull_request:
+    branches: [main-pr]
+    paths:
+      - 'data/materials/**'
+  push:
+    branches: [main-pr]
+
+concurrency:
+  group: merge-to-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-images:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main-pr' }}
+          fetch-depth: 0
+          token: ${{ github.event_name == 'push' && secrets.PAT_TOKEN || github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Dry run – show changed material files (PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/migrate_images.py \
+            --dry-run \
+            --base-ref origin/${{ github.base_ref }}
+
+      - name: Dry run – show orphaned images to delete (PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/delete_images.py \
+            --dry-run \
+            --base-ref origin/${{ github.base_ref }}
+
+      - name: Check if already synced with main
+        if: github.event_name == 'push'
+        id: sync-check
+        run: |
+          git fetch origin main
+          if git merge-base --is-ancestor origin/main-pr origin/main; then
+            echo "main-pr is already part of main history (post-reset trigger). Skipping."
+            echo "already_synced=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "already_synced=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Migrate images to GCS (update YAMLs)
+        if: github.event_name == 'push' && steps.sync-check.outputs.already_synced != 'true'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcs-credentials.json
+        run: |
+          echo '${{ secrets.GCS_CREDENTIALS_JSON }}' > /tmp/gcs-credentials.json
+          python scripts/migrate_images.py \
+            --no-dry-run \
+            --base-ref HEAD~1
+
+      - name: Delete orphaned images from GCS (update YAMLs)
+        if: github.event_name == 'push' && steps.sync-check.outputs.already_synced != 'true'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcs-credentials.json
+        run: |
+          echo '${{ secrets.GCS_CREDENTIALS_JSON }}' > /tmp/gcs-credentials.json
+          python scripts/delete_images.py \
+            --no-dry-run \
+            --base-ref HEAD~1
+
+      - name: Rewrite History and Push to Main (remove images from git)
+        if: github.event_name == 'push' && steps.sync-check.outputs.already_synced != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm -rf --ignore-unmatch data/tmp/
+          git add -u data/materials/
+          if git diff --staged --quiet; then
+            echo "No changes to amend"
+          else
+            git commit --amend --no-edit
+          fi
+
+          git fetch origin main
+          git checkout main
+
+          git cherry-pick main-pr
+          git push origin main
+
+          # reset main-pr to state from main
+          git checkout main-pr
+          git reset --hard main
+          git push origin main-pr --force

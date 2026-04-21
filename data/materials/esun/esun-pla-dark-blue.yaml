@@ -6,11 +6,12 @@ name: PLA+ Dark Blue
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13381
 primary_color:
   color_rgba: '#041b3dff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-dark-blue/549ce0b2c905.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-dark-blue/549ce0b2c905.jpg
+    type: unspecified

@@ -1,0 +1,17 @@
+uuid: f7a3db9c-3a55-5aed-a0ed-6e88c71b715b
+slug: noctuo-pla-black
+brand:
+  slug: noctuo
+name: PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.24
+photos:
+- url: https://files.openprinttag.org/noctuo/noctuo-pla-black/noctuo-pla-black-0-d4ba023f.jpg
+  type: unspecified

@@ -2,9 +2,9 @@ name: UI Editor Checks
 
 on:
   push:
-    branches: [main]
+    branches: [main-pr, main]
   pull_request:
-    branches: [main]
+    branches: [main-pr, main]
 
 jobs:
   lint-and-typecheck:

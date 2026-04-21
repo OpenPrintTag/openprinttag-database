@@ -6,17 +6,18 @@ name: Silk Rainbow Metal PLA
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.amazon.com/eSUN-Filament-Metallic-Dimensional-Accuracy/dp/B081Q78248
 secondary_colors:
-- color_rgba: '#ff8133ff'
-- color_rgba: '#9cbf60ff'
-- color_rgba: '#fce575ff'
-- color_rgba: '#bb6d48ff'
-- color_rgba: '#5fbcddff'
+  - color_rgba: '#bb6d48ff'
+  - color_rgba: '#5fbcddff'
+  - color_rgba: '#fce575ff'
+  - color_rgba: '#9cbf60ff'
+  - color_rgba: '#ff8133ff'
 tags:
-- silk
-- gradual_color_change
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-rainbow-metal-pla/21d4b7313fae.jpg
-  type: unspecified
+  - silk
+  - gradual_color_change
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-rainbow-metal-pla/21d4b7313fae.jpg
+    type: unspecified

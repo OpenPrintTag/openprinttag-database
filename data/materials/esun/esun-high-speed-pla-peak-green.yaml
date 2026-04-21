@@ -6,12 +6,13 @@ name: High Speed PLA+ Peak Green
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.amazon.com/eSUN-Filament-Printing-Dimensional-Cardboard/dp/B0CQT88JYJ
 primary_color:
   color_rgba: '#83e665ff'
 tags:
-- industrially_compostable
-- high_speed
-photos:
-- url: https://files.openprinttag.org/esun/esun-high-speed-pla-peak-green/c08921ddc492.jpg
-  type: unspecified
+  - high_speed
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-high-speed-pla-peak-green/c08921ddc492.jpg
+    type: unspecified

@@ -1,0 +1,19 @@
+uuid: 64ab61e6-0c45-584b-b1f2-7a6306634f5c
+slug: anycubic-pla-metal-blue
+brand:
+  slug: anycubic
+name: PLA Metal Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/pla-metal-filament?variant=45405385490594
+primary_color:
+  color_rgba: '#3177a3ff'
+tags:
+- imitates_metal
+- industrially_compostable
+properties:
+  density: 1.2
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-pla-metal-blue/anycubic-pla-metal-blue-0-87eed0fc.jpg
+  type: unspecified

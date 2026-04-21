@@ -13,3 +13,8 @@ tags:
 properties:
   density: 1.0
   hardness_shore_a: 80
+  cure_wavelength: 405
+  viscosity_18c: 255
+  viscosity_25c: 148
+  viscosity_40c: 58
+  viscosity_60c: 26

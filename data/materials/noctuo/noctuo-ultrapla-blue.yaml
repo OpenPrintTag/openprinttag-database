@@ -1,0 +1,17 @@
+uuid: 8301af3d-64e9-52bb-9b98-49d2b62dfcbc
+slug: noctuo-ultrapla-blue
+brand:
+  slug: noctuo
+name: UltraPLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#01a3ffff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.3
+photos:
+- url: https://files.openprinttag.org/noctuo/noctuo-ultrapla-blue/noctuo-ultrapla-blue-0-c3ad46b0.jpg
+  type: unspecified

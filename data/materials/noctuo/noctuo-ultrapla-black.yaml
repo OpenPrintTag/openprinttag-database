@@ -1,0 +1,17 @@
+uuid: 1b9bb08f-7a23-52d2-84c7-bcee1255618f
+slug: noctuo-ultrapla-black
+brand:
+  slug: noctuo
+name: UltraPLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232323ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.3
+photos:
+- url: https://files.openprinttag.org/noctuo/noctuo-ultrapla-black/noctuo-ultrapla-black-0-7eba1127.jpg
+  type: unspecified

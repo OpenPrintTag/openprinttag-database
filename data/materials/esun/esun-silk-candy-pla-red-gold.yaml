@@ -6,14 +6,15 @@ name: Silk Candy PLA Red Gold
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-silk-candy?VariantsId=12099
 secondary_colors:
-- color_rgba: '#ed1536ff'
-- color_rgba: '#f6c500ff'
+  - color_rgba: '#f6c500ff'
+  - color_rgba: '#ed1536ff'
 tags:
-- silk
-- industrially_compostable
-- gradual_color_change
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-candy-pla-red-gold/4e62c5406c83.jpg
-  type: unspecified
+  - silk
+  - gradual_color_change
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-candy-pla-red-gold/4e62c5406c83.jpg
+    type: unspecified

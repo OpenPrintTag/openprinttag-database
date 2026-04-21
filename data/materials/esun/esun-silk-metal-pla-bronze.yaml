@@ -6,13 +6,14 @@ name: Silk Metal PLA Bronze
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-silk-metal?VariantsId=13473
 primary_color:
   color_rgba: '#a79e82ff'
 tags:
-- silk
-- imitates_metal
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-metal-pla-bronze/25215f7b04a6.jpg
-  type: unspecified
+  - silk
+  - imitates_metal
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-metal-pla-bronze/25215f7b04a6.jpg
+    type: unspecified

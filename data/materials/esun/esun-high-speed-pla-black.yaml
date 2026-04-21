@@ -6,12 +6,13 @@ name: High Speed PLA+ Black
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-pro-hs?VariantsId=12540
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- industrially_compostable
-- high_speed
-photos:
-- url: https://files.openprinttag.org/esun/esun-high-speed-pla-black/6908000d472f.jpg
-  type: unspecified
+  - high_speed
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-high-speed-pla-black/6908000d472f.jpg
+    type: unspecified

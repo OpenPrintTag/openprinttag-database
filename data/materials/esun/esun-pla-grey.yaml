@@ -6,11 +6,12 @@ name: PLA+ Grey
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13362
 primary_color:
   color_rgba: '#55657cff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-grey/3081905b7f12.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-grey/3081905b7f12.jpg
+    type: unspecified

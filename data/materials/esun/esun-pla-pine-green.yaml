@@ -6,11 +6,12 @@ name: PLA+ Pine Green
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13370
 primary_color:
   color_rgba: '#1e5a4fff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-pine-green/88c967bb15b9.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-pine-green/88c967bb15b9.jpg
+    type: unspecified

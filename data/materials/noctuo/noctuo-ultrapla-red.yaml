@@ -1,0 +1,17 @@
+uuid: 488c3758-5dff-51cf-a871-8274c1c787cf
+slug: noctuo-ultrapla-red
+brand:
+  slug: noctuo
+name: UltraPLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff2c29ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.3
+photos:
+- url: https://files.openprinttag.org/noctuo/noctuo-ultrapla-red/noctuo-ultrapla-red-0-0f90de18.jpg
+  type: unspecified

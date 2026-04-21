@@ -6,17 +6,20 @@ name: PLA Luminous Rainbow
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-luminous-rainbow
 secondary_colors:
-- color_rgba: '#f297daff'
-- color_rgba: '#62e480ff'
-- color_rgba: '#a67dffff'
-- color_rgba: '#ffffffff'
-- color_rgba: '#1adafbff'
+  - color_rgba: '#62e480ff'
+  - color_rgba: '#a67dffff'
+  - color_rgba: '#ffffffff'
+  - color_rgba: '#f297daff'
+  - color_rgba: '#1adafbff'
 tags:
-- glow_in_the_dark
-- abrasive
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - gradual_color_change
+  - industrially_compostable
+properties:
+  density: 1.2
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-luminous-rainbow/d46e4e722bff.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-pla-luminous-rainbow/d46e4e722bff.jpg
+    type: unspecified

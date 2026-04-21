@@ -6,11 +6,12 @@ name: PLA+ Grass Green
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13375
 primary_color:
   color_rgba: '#61c680ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-grass-green/d0d41c62888c.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-grass-green/d0d41c62888c.jpg
+    type: unspecified

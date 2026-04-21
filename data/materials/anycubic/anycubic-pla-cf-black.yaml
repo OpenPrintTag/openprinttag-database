@@ -1,0 +1,22 @@
+uuid: 5d18f8fc-b5f2-5ce9-81b5-f9046b3dfe65
+slug: anycubic-pla-cf-black
+brand:
+  slug: anycubic
+name: PLA-CF Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://store.anycubic.com/products/pla-cf-filament?variant=46679783866530
+primary_color:
+  color_rgba: '#212322ff'
+tags:
+- matte
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- industrially_compostable
+properties:
+  density: 1.22
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-black/anycubic-pla-cf-black-0-182383f1.jpg
+  type: unspecified
