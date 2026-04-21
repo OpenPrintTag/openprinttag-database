@@ -6,14 +6,15 @@ name: Magic PLA Dark Twinkling Blue
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-magic?VariantsId=12188
 primary_color:
   color_rgba: '#3b3f6bff'
 tags:
-- glitter
-- iridescent
-- silk
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-magic-pla-dark-twinkling-blue/23807caafa19.jpg
-  type: unspecified
+  - iridescent
+  - silk
+  - glitter
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-magic-pla-dark-twinkling-blue/23807caafa19.jpg
+    type: unspecified

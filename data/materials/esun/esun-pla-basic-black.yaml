@@ -6,11 +6,12 @@ name: PLA Basic Black
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla?VariantsId=13400
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-basic-black/8fe255395698.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-basic-black/8fe255395698.jpg
+    type: unspecified

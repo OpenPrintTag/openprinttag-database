@@ -1,0 +1,20 @@
+uuid: 8bfc7f5d-5d2d-5ef6-a831-d742d5bb8e91
+slug: esun-pla-uv-color-change-yellow
+brand:
+  slug: esun
+name: PLA UV Color Change Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-uv-color-change?VariantsId=12880
+secondary_colors:
+- color_rgba: '#ffcb47ff'
+- color_rgba: '#f1ece1ff'
+tags:
+- illuminescent_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-uv-color-change-yellow/esun-pla-uv-color-change-yellow-0-7f4b79c7.jpg
+  type: unspecified

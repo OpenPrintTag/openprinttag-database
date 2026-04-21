@@ -6,11 +6,12 @@ name: PLA+ Purple
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13399
 primary_color:
   color_rgba: '#9761b5ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-purple/ac05994777db.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-purple/ac05994777db.jpg
+    type: unspecified

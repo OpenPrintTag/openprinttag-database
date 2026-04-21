@@ -6,15 +6,15 @@ name: Magic PLA Dark Twinkling Purple
 class: FFF
 type: PLA
 abbreviation: PLA
-secondary_colors:
-- color_rgba: '#771b6bff'
-- color_rgba: '#4c5e46ff'
+url: https://esun3dstoreeu.com/products/epla-magic?VariantsId=12189
+primary_color:
+  color_rgba: '#771b6bff'
 tags:
-- glitter
-- iridescent
-- silk
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-magic-pla-dark-twinkling-purple/4a29c61c0c9e.jpg
-  type: unspecified
+  - iridescent
+  - silk
+  - glitter
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-magic-pla-dark-twinkling-purple/4a29c61c0c9e.jpg
+    type: unspecified

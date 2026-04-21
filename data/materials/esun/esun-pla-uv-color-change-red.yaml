@@ -1,0 +1,20 @@
+uuid: 14c6070d-07df-5c86-9eb4-ce74a6528d0b
+slug: esun-pla-uv-color-change-red
+brand:
+  slug: esun
+name: PLA UV Color Change Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-uv-color-change?VariantsId=12879
+secondary_colors:
+- color_rgba: '#ef6063ff'
+- color_rgba: '#f1ece1ff'
+tags:
+- illuminescent_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-uv-color-change-red/esun-pla-uv-color-change-red-0-16a0116f.jpg
+  type: unspecified

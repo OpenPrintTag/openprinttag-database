@@ -6,12 +6,14 @@ name: Silk Metal PLA Copper
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-silk-metal?VariantsId=12071
 primary_color:
   color_rgba: '#e87a27ff'
 tags:
-- silk
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-metal-pla-copper/58fb98cfe30e.jpg
-  type: unspecified
+  - silk
+  - imitates_metal
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-metal-pla-copper/58fb98cfe30e.jpg
+    type: unspecified

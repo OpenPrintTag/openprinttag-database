@@ -1,0 +1,20 @@
+uuid: 8435f58d-a4c8-5e39-b5ac-ab6e735f1e93
+slug: esun-pla-uv-color-change-fuchsia
+brand:
+  slug: esun
+name: PLA UV Color Change Fuchsia
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-uv-color-change?VariantsId=12884
+secondary_colors:
+- color_rgba: '#d93382ff'
+- color_rgba: '#f1ece1ff'
+tags:
+- illuminescent_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-uv-color-change-fuchsia/esun-pla-uv-color-change-fuchsia-0-e32a4dfe.jpg
+  type: unspecified

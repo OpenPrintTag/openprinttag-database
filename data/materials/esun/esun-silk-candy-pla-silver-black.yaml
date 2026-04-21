@@ -6,14 +6,15 @@ name: Silk Candy PLA Silver Black
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-silk-candy?VariantsId=12098
 secondary_colors:
-- color_rgba: '#c9d0d4ff'
-- color_rgba: '#000000ff'
+  - color_rgba: '#000000ff'
+  - color_rgba: '#c9d0d4ff'
 tags:
-- silk
-- industrially_compostable
-- gradual_color_change
-photos:
-- url: https://files.openprinttag.org/esun/esun-silk-candy-pla-silver-black/ec7fcadccab7.jpg
-  type: unspecified
+  - silk
+  - gradual_color_change
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-silk-candy-pla-silver-black/ec7fcadccab7.jpg
+    type: unspecified

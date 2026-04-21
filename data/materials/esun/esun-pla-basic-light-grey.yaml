@@ -6,11 +6,12 @@ name: PLA Basic Light Grey
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla?VariantsId=13406
 primary_color:
   color_rgba: '#9db6d4ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-basic-light-grey/db87d484cfd5.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-basic-light-grey/db87d484cfd5.jpg
+    type: unspecified

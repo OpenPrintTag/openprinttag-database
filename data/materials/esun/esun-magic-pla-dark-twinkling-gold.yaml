@@ -6,15 +6,15 @@ name: Magic PLA Dark Twinkling Gold
 class: FFF
 type: PLA
 abbreviation: PLA
-secondary_colors:
-- color_rgba: '#1c393dff'
-- color_rgba: '#af7d00ff'
+url: https://esun3dstoreeu.com/products/epla-magic?VariantsId=12190
+primary_color:
+  color_rgba: '#4c645bff'
 tags:
-- glitter
-- silk
-- industrially_compostable
-- iridescent
-photos:
-- url: https://files.openprinttag.org/esun/esun-magic-pla-dark-twinkling-gold/6e8017f96ff3.jpg
-  type: unspecified
+  - iridescent
+  - silk
+  - glitter
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-magic-pla-dark-twinkling-gold/6e8017f96ff3.jpg
+    type: unspecified

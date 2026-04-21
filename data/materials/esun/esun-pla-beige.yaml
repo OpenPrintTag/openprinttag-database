@@ -6,11 +6,12 @@ name: PLA+ Beige
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13360
 primary_color:
   color_rgba: '#fec8a4ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-beige/907747e934f7.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-beige/907747e934f7.jpg
+    type: unspecified

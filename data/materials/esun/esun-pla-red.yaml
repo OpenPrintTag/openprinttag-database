@@ -6,11 +6,12 @@ name: PLA+ Red
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13365
 primary_color:
   color_rgba: '#e03f26ff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-red/31b6dc80692e.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-red/31b6dc80692e.jpg
+    type: unspecified

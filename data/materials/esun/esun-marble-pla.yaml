@@ -6,12 +6,13 @@ name: Marble PLA
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-marble
 primary_color:
   color_rgba: '#c3ccd5ff'
 tags:
-- imitates_marble
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-marble-pla/6e9aaba276da.jpg
-  type: unspecified
+  - imitates_marble
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-marble-pla/6e9aaba276da.jpg
+    type: unspecified

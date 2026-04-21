@@ -6,13 +6,16 @@ name: Carbon Fiber PLA Black
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/epla-cf?VariantsId=12173
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-carbon-fiber-pla-black/835f37be5fb2.jpg
-  type: unspecified
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-carbon-fiber-pla-black/835f37be5fb2.jpg
+    type: unspecified

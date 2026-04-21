@@ -6,11 +6,12 @@ name: PLA+ Light Blue
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13382
 primary_color:
   color_rgba: '#1adafbff'
 tags:
-- industrially_compostable
-photos:
-- url: https://files.openprinttag.org/esun/esun-pla-light-blue/465d491b63fe.jpg
-  type: unspecified
+  - industrially_compostable
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-light-blue/465d491b63fe.jpg
+    type: unspecified
