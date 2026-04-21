@@ -1,0 +1,21 @@
+uuid: 5bcf20fc-eb3d-58d8-835f-72f4336e899e
+slug: numakers-pla-glow-in-the-dark-green
+brand:
+  slug: numakers
+name: PLA Glow in the Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://numakers.com/products/pla-glow-in-the-dark
+secondary_colors:
+  - color_rgba: '#e8e5cdff'
+  - color_rgba: '#06b100ff'
+tags:
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+  - industrially_compostable
+properties: {}
+photos:
+  - url: /tmp/assets/numakers-pla-glow-in-the-dark-green-0-72856215.jpg
+    type: unspecified
