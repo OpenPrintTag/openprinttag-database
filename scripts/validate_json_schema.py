@@ -13,7 +13,7 @@ from typing import Any, Dict, List
 from urllib.parse import urlparse
 
 import yaml
-from jsonschema import validators
+from jsonschema import FormatChecker, validators
 from referencing import Registry, Resource
 
 from uuid_utils import (
@@ -111,7 +111,7 @@ class JsonSchemaValidator:
 
         # Automatically select the correct validator class based on $schema field
         validator_class = validators.validator_for(schema)
-        validator = validator_class(schema, registry=self.registry)
+        validator = validator_class(schema, registry=self.registry, format_checker=FormatChecker())
 
         self.validator_cache[schema_filename] = validator
         return validator
