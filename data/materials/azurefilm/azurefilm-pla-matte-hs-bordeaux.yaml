@@ -10,10 +10,11 @@ url: https://azurefilm.com/product/pla-matte-hs-filament-bordeaux/
 primary_color:
   color_rgba: '#92565dff'
 tags:
-- high_speed
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.35
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-bordeaux/azurefilm-pla-matte-hs-bordeaux-0-447563bb.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-bordeaux/azurefilm-pla-matte-hs-bordeaux-0-447563bb.jpg
+    type: unspecified
