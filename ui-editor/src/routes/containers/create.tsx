@@ -1,4 +1,4 @@
-import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { createFileRoute, redirect, useNavigate } from '@tanstack/react-router';
 import React, { useMemo } from 'react';
 import { toast } from 'sonner';
 import { v4 } from 'uuid';
@@ -12,9 +12,15 @@ import {
   EntitySheetFooter,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
+import { READ_ONLY } from '~/utils/readOnly';
 import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/containers/create')({
+  beforeLoad: () => {
+    if (READ_ONLY) {
+      throw redirect({ to: '/containers' });
+    }
+  },
   component: ContainerCreate,
 });
 

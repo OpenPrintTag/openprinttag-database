@@ -1,0 +1,110 @@
+name: Deploy GitHub Pages
+
+# Builds the read-only ui-editor as a static site and publishes it to GitHub
+# Pages. The deployed site is the same SPA used in writable mode, but with
+# every write affordance hidden (`VITE_READ_ONLY=true`) and every `/api/*`
+# response served as a prebuilt JSON snapshot under `public/api/`.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Newer pushes cancel in-flight Pages builds — only one deploy at a time.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Schemas live in a separate repo and are fetched here so the prerender
+      # script can resolve `/api/schema/<entity>` from `../openprinttag/schema`.
+      - name: Fetch schemas
+        run: make fetch-schemas
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        working-directory: ./ui-editor
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('ui-editor/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        working-directory: ./ui-editor
+        run: pnpm install --frozen-lockfile
+
+      - name: Prerender API snapshots
+        working-directory: ./ui-editor
+        run: pnpm prerender:api
+
+      - name: Build static site
+        working-directory: ./ui-editor
+        env:
+          VITE_READ_ONLY: 'true'
+          # GitHub Pages serves the project site under /<repo>/. Trailing slash
+          # is required by Vite's `base` option.
+          VITE_BASE_PATH: '/${{ github.event.repository.name }}/'
+        run: pnpm build:static
+
+      # The TanStack Start build emits both a Nitro server bundle and a static
+      # client bundle under `dist/client`. We deploy only the client bundle.
+      - name: Stage Pages artifact
+        working-directory: ./ui-editor
+        run: |
+          set -euo pipefail
+          if [ -d "dist/client" ]; then
+            STATIC_DIR="dist/client"
+          elif [ -d ".output/public" ]; then
+            STATIC_DIR=".output/public"
+          elif [ -d "dist" ] && [ -f "dist/index.html" ]; then
+            STATIC_DIR="dist"
+          else
+            echo "No static output directory found" >&2
+            ls -la dist/ 2>/dev/null || true
+            exit 1
+          fi
+          echo "Using static output: $STATIC_DIR"
+          # SPA fallback: GitHub Pages serves 404.html for unmatched paths,
+          # which the React Router then takes over.
+          cp "$STATIC_DIR/index.html" "$STATIC_DIR/404.html"
+          # Disable Jekyll so files starting with `_` are served as-is.
+          touch "$STATIC_DIR/.nojekyll"
+          echo "STATIC_DIR=ui-editor/$STATIC_DIR" >> "$GITHUB_ENV"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.STATIC_DIR }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

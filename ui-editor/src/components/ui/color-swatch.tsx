@@ -21,7 +21,7 @@ export const ColorSwatch = ({
       <span
         aria-label="color preview"
         className="inline-block rounded-sm border border-gray-300 align-middle"
-        style={{ width: 14, height: 14, background: bg }}
+        style={{ width: 28, height: 28, background: bg }}
       />
       {label ? (
         <span

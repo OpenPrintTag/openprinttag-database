@@ -2,6 +2,7 @@ import { Pencil } from 'lucide-react';
 import React from 'react';
 
 import { Button } from '~/components/ui';
+import { READ_ONLY } from '~/utils/readOnly';
 
 interface EditButtonProps {
   onClick: () => void;
@@ -14,6 +15,7 @@ export const EditButton = ({
   disabled = false,
   children,
 }: EditButtonProps) => {
+  if (READ_ONLY) return null;
   return (
     <Button
       onClick={onClick}

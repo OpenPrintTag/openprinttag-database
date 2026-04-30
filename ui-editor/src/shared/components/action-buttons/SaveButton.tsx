@@ -2,6 +2,7 @@ import { Save } from 'lucide-react';
 import React from 'react';
 
 import { Button } from '~/components/ui';
+import { READ_ONLY } from '~/utils/readOnly';
 
 interface SaveButtonProps {
   onClick: () => void;
@@ -16,6 +17,7 @@ export const SaveButton = ({
   loading = false,
   children,
 }: SaveButtonProps) => {
+  if (READ_ONLY) return null;
   return (
     <Button
       onClick={onClick}

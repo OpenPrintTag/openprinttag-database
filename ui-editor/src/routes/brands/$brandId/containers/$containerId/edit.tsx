@@ -1,14 +1,23 @@
-import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { createFileRoute, redirect, useNavigate } from '@tanstack/react-router';
 import React, { useEffect } from 'react';
 
 import { ContainerSheetEditView } from '~/components/container-sheet/ContainerSheetEditView';
 import { useContainerContext } from '~/context/EntityContexts';
 import { useSchema } from '~/hooks/useSchema';
 import { EntitySheetFooter } from '~/shared/components/entity-sheet';
+import { READ_ONLY } from '~/utils/readOnly';
 
 export const Route = createFileRoute(
   '/brands/$brandId/containers/$containerId/edit',
 )({
+  beforeLoad: ({ params }) => {
+    if (READ_ONLY) {
+      throw redirect({
+        to: '/brands/$brandId/containers/$containerId',
+        params: { brandId: params.brandId, containerId: params.containerId },
+      });
+    }
+  },
   component: ContainerEdit,
 });
 

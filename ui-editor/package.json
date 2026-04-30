@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "NODE_ENV=development vite dev",
     "build": "vite build && tsc --noEmit",
+    "build:static": "VITE_READ_ONLY=true vite build && tsc --noEmit && tsx scripts/render-spa-shell.ts",
+    "prerender:api": "tsx scripts/prerender-api.ts",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "start": "node .output/server/index.mjs",
@@ -67,6 +69,7 @@
     "prettier": "3.7.3",
     "prettier-plugin-tailwindcss": "0.7.2",
     "tailwindcss": "^4.1.15",
+    "tsx": "^4.20.0",
     "typescript": "^5.7.2",
     "typescript-eslint": "8.48.1",
     "vite": "^7.1.7",

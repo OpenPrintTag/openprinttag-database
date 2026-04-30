@@ -5,6 +5,7 @@ import {
   FIELD_ENUM_MAP,
   FIELD_RELATION_MAP,
 } from '~/server/data/schema-metadata';
+import { apiUrl } from '~/utils/readOnly';
 
 type JsonValue =
   | string
@@ -22,7 +23,7 @@ const __schemaPromises: Record<string, Promise<SchemaData> | undefined> = {};
 const fetchSchemaOnce = async (entity: string): Promise<SchemaData> => {
   if (__schemaCache[entity]) return __schemaCache[entity];
   if (!__schemaPromises[entity]) {
-    __schemaPromises[entity] = fetch(`/api/schema?entity=${entity}`)
+    __schemaPromises[entity] = fetch(apiUrl(`/api/schema/${entity}`))
       .then((r) => (r.ok ? r.json() : null))
       .then((j: SchemaData) => {
         __schemaCache[entity] = j;

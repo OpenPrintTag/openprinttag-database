@@ -4,6 +4,7 @@ import path from 'node:path';
 import { createFileRoute } from '@tanstack/react-router';
 
 import { findDataDir } from '~/server/data/fs';
+import { readOnlyResponse } from '~/server/http';
 import { slugifyName } from '~/utils/slug';
 
 const MIME_TYPES: Record<string, string> = {
@@ -75,6 +76,9 @@ export const Route = createFileRoute(
       },
 
       DELETE: async ({ params }) => {
+        const ro = readOnlyResponse();
+        if (ro) return ro;
+
         const { brandSlug, materialSlug, filename } = params;
 
         if (

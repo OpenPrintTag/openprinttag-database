@@ -1,9 +1,14 @@
 import { useQuery } from '@tanstack/react-query';
 import { useMemo } from 'react';
 
+import { apiUrl } from '~/utils/readOnly';
+
 /**
  * Generic JSON-fetching hook for browser-side requests to server API routes.
  * Now powered by TanStack Query for better caching and state management.
+ *
+ * In read-only / static builds, `apiUrl()` rewrites `/api/foo/bar` to
+ * `/api/foo/bar.json` so the same callers transparently load prebuilt snapshots.
  *
  * Usage:
  *   const { data, error, loading, refetch } = useApi<User[]>('/api/users')
@@ -23,7 +28,7 @@ export function useApi<T = unknown>(
   const query = useQuery({
     queryKey: [url, init],
     queryFn: async ({ signal }) => {
-      const res = await fetch(url, {
+      const res = await fetch(apiUrl(url), {
         ...(init || {}),
         signal,
       });
