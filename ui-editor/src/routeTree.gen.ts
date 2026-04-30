@@ -34,6 +34,7 @@ import { Route as ContainersContainerIdEditRouteImport } from './routes/containe
 import { Route as BrandsBrandIdPackagesRouteImport } from './routes/brands/$brandId/packages'
 import { Route as BrandsBrandIdMaterialsRouteImport } from './routes/brands/$brandId/materials'
 import { Route as BrandsBrandIdContainersRouteImport } from './routes/brands/$brandId/containers'
+import { Route as ApiSchemaEntityRouteImport } from './routes/api/schema.$entity'
 import { Route as ApiMaterialsMaterialIdRouteImport } from './routes/api/materials.$materialId'
 import { Route as ApiEnumTableRouteImport } from './routes/api/enum.$table'
 import { Route as ApiContainersNewRouteImport } from './routes/api/containers.new'
@@ -187,6 +188,11 @@ const BrandsBrandIdContainersRoute = BrandsBrandIdContainersRouteImport.update({
   id: '/containers',
   path: '/containers',
   getParentRoute: () => BrandsBrandIdRoute,
+} as any)
+const ApiSchemaEntityRoute = ApiSchemaEntityRouteImport.update({
+  id: '/$entity',
+  path: '/$entity',
+  getParentRoute: () => ApiSchemaRoute,
 } as any)
 const ApiMaterialsMaterialIdRoute = ApiMaterialsMaterialIdRouteImport.update({
   id: '/$materialId',
@@ -349,7 +355,7 @@ export interface FileRoutesByFullPath {
   '/api/enum': typeof ApiEnumRouteWithChildren
   '/api/materials': typeof ApiMaterialsRouteWithChildren
   '/api/packages': typeof ApiPackagesRoute
-  '/api/schema': typeof ApiSchemaRoute
+  '/api/schema': typeof ApiSchemaRouteWithChildren
   '/api/search': typeof ApiSearchRoute
   '/api/upload': typeof ApiUploadRoute
   '/brands/$brandId': typeof BrandsBrandIdRouteWithChildren
@@ -365,6 +371,7 @@ export interface FileRoutesByFullPath {
   '/api/containers/new': typeof ApiContainersNewRoute
   '/api/enum/$table': typeof ApiEnumTableRoute
   '/api/materials/$materialId': typeof ApiMaterialsMaterialIdRoute
+  '/api/schema/$entity': typeof ApiSchemaEntityRoute
   '/brands/$brandId/containers': typeof BrandsBrandIdContainersRouteWithChildren
   '/brands/$brandId/materials': typeof BrandsBrandIdMaterialsRouteWithChildren
   '/brands/$brandId/packages': typeof BrandsBrandIdPackagesRouteWithChildren
@@ -399,7 +406,7 @@ export interface FileRoutesByTo {
   '/api/enum': typeof ApiEnumRouteWithChildren
   '/api/materials': typeof ApiMaterialsRouteWithChildren
   '/api/packages': typeof ApiPackagesRoute
-  '/api/schema': typeof ApiSchemaRoute
+  '/api/schema': typeof ApiSchemaRouteWithChildren
   '/api/search': typeof ApiSearchRoute
   '/api/upload': typeof ApiUploadRoute
   '/containers/create': typeof ContainersCreateRoute
@@ -413,6 +420,7 @@ export interface FileRoutesByTo {
   '/api/containers/new': typeof ApiContainersNewRoute
   '/api/enum/$table': typeof ApiEnumTableRoute
   '/api/materials/$materialId': typeof ApiMaterialsMaterialIdRoute
+  '/api/schema/$entity': typeof ApiSchemaEntityRoute
   '/brands/$brandId/containers': typeof BrandsBrandIdContainersRouteWithChildren
   '/brands/$brandId/materials': typeof BrandsBrandIdMaterialsRouteWithChildren
   '/brands/$brandId/packages': typeof BrandsBrandIdPackagesRouteWithChildren
@@ -448,7 +456,7 @@ export interface FileRoutesById {
   '/api/enum': typeof ApiEnumRouteWithChildren
   '/api/materials': typeof ApiMaterialsRouteWithChildren
   '/api/packages': typeof ApiPackagesRoute
-  '/api/schema': typeof ApiSchemaRoute
+  '/api/schema': typeof ApiSchemaRouteWithChildren
   '/api/search': typeof ApiSearchRoute
   '/api/upload': typeof ApiUploadRoute
   '/brands/$brandId': typeof BrandsBrandIdRouteWithChildren
@@ -464,6 +472,7 @@ export interface FileRoutesById {
   '/api/containers/new': typeof ApiContainersNewRoute
   '/api/enum/$table': typeof ApiEnumTableRoute
   '/api/materials/$materialId': typeof ApiMaterialsMaterialIdRoute
+  '/api/schema/$entity': typeof ApiSchemaEntityRoute
   '/brands/$brandId/containers': typeof BrandsBrandIdContainersRouteWithChildren
   '/brands/$brandId/materials': typeof BrandsBrandIdMaterialsRouteWithChildren
   '/brands/$brandId/packages': typeof BrandsBrandIdPackagesRouteWithChildren
@@ -519,6 +528,7 @@ export interface FileRouteTypes {
     | '/api/containers/new'
     | '/api/enum/$table'
     | '/api/materials/$materialId'
+    | '/api/schema/$entity'
     | '/brands/$brandId/containers'
     | '/brands/$brandId/materials'
     | '/brands/$brandId/packages'
@@ -567,6 +577,7 @@ export interface FileRouteTypes {
     | '/api/containers/new'
     | '/api/enum/$table'
     | '/api/materials/$materialId'
+    | '/api/schema/$entity'
     | '/brands/$brandId/containers'
     | '/brands/$brandId/materials'
     | '/brands/$brandId/packages'
@@ -617,6 +628,7 @@ export interface FileRouteTypes {
     | '/api/containers/new'
     | '/api/enum/$table'
     | '/api/materials/$materialId'
+    | '/api/schema/$entity'
     | '/brands/$brandId/containers'
     | '/brands/$brandId/materials'
     | '/brands/$brandId/packages'
@@ -655,7 +667,7 @@ export interface RootRouteChildren {
   ApiEnumRoute: typeof ApiEnumRouteWithChildren
   ApiMaterialsRoute: typeof ApiMaterialsRouteWithChildren
   ApiPackagesRoute: typeof ApiPackagesRoute
-  ApiSchemaRoute: typeof ApiSchemaRoute
+  ApiSchemaRoute: typeof ApiSchemaRouteWithChildren
   ApiSearchRoute: typeof ApiSearchRoute
   ApiUploadRoute: typeof ApiUploadRoute
   ApiAssetsBrandSlugMaterialSlugFilenameRoute: typeof ApiAssetsBrandSlugMaterialSlugFilenameRoute
@@ -837,6 +849,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/brands/$brandId/containers'
       preLoaderRoute: typeof BrandsBrandIdContainersRouteImport
       parentRoute: typeof BrandsBrandIdRoute
+    }
+    '/api/schema/$entity': {
+      id: '/api/schema/$entity'
+      path: '/$entity'
+      fullPath: '/api/schema/$entity'
+      preLoaderRoute: typeof ApiSchemaEntityRouteImport
+      parentRoute: typeof ApiSchemaRoute
     }
     '/api/materials/$materialId': {
       id: '/api/materials/$materialId'
@@ -1301,6 +1320,18 @@ const ApiMaterialsRouteWithChildren = ApiMaterialsRoute._addFileChildren(
   ApiMaterialsRouteChildren,
 )
 
+interface ApiSchemaRouteChildren {
+  ApiSchemaEntityRoute: typeof ApiSchemaEntityRoute
+}
+
+const ApiSchemaRouteChildren: ApiSchemaRouteChildren = {
+  ApiSchemaEntityRoute: ApiSchemaEntityRoute,
+}
+
+const ApiSchemaRouteWithChildren = ApiSchemaRoute._addFileChildren(
+  ApiSchemaRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BrandsRoute: BrandsRouteWithChildren,
@@ -1311,7 +1342,7 @@ const rootRouteChildren: RootRouteChildren = {
   ApiEnumRoute: ApiEnumRouteWithChildren,
   ApiMaterialsRoute: ApiMaterialsRouteWithChildren,
   ApiPackagesRoute: ApiPackagesRoute,
-  ApiSchemaRoute: ApiSchemaRoute,
+  ApiSchemaRoute: ApiSchemaRouteWithChildren,
   ApiSearchRoute: ApiSearchRoute,
   ApiUploadRoute: ApiUploadRoute,
   ApiAssetsBrandSlugMaterialSlugFilenameRoute:

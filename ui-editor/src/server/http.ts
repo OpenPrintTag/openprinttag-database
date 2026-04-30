@@ -4,6 +4,22 @@ import './searchIndex';
 
 import { json } from '@tanstack/react-start';
 
+/**
+ * Returns a 405 Method Not Allowed response when the server is running with
+ * `READ_ONLY=true`. This is defence-in-depth: the static GitHub Pages deploy
+ * has no Node runtime so handlers can't fire there, but a hosted Node server
+ * with `READ_ONLY=true` (e.g. a public read-only mirror) needs to reject writes.
+ */
+export function readOnlyResponse(): Response | null {
+  if (process.env.READ_ONLY === 'true') {
+    return json(
+      { error: 'Server is in read-only mode' },
+      { status: 405, headers: { Allow: 'GET' } },
+    );
+  }
+  return null;
+}
+
 // Helper to keep response shape consistent across routes without changing logic
 export function jsonError(
   res: unknown,
@@ -144,6 +160,9 @@ export const createPutHandler =
     ) => Promise<any> | any,
   ): any =>
   async ({ params, request }: { params: any; request: Request }) => {
+    const ro = readOnlyResponse();
+    if (ro) return ro;
+
     const id = params[idParam];
 
     const body = await parseJsonSafe(request);
@@ -180,6 +199,9 @@ export const createPutHandler =
 export const createDeleteHandler =
   (entityType: string, idParam: string, nestedByBrand: boolean = false): any =>
   async ({ params }: { params: any }) => {
+    const ro = readOnlyResponse();
+    if (ro) return ro;
+
     const id = params[idParam];
 
     let result;
@@ -205,6 +227,9 @@ export const createPostHandler =
     preparePayload?: (payload: any, params: any) => Promise<any> | any,
   ): any =>
   async ({ params, request }: { params: any; request: Request }) => {
+    const ro = readOnlyResponse();
+    if (ro) return ro;
+
     const body = await parseJsonSafe(request);
     if (!body.ok) return body.response;
 

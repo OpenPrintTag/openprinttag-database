@@ -62,21 +62,24 @@ export const Route = createRootRoute({
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/apple-touch-icon.png',
+        href: `${import.meta.env.BASE_URL}apple-touch-icon.png`,
       },
       {
         rel: 'icon',
         type: 'image/svg+xml',
-        href: '/favicon.svg',
+        href: `${import.meta.env.BASE_URL}favicon.svg`,
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '96x96',
-        href: '/favicon-96x96.png',
+        href: `${import.meta.env.BASE_URL}favicon-96x96.png`,
       },
-      { rel: 'manifest', href: '/site.webmanifest' },
-      { rel: 'icon', href: '/favicon.ico' },
+      {
+        rel: 'manifest',
+        href: `${import.meta.env.BASE_URL}site.webmanifest`,
+      },
+      { rel: 'icon', href: `${import.meta.env.BASE_URL}favicon.ico` },
     ],
   }),
   errorComponent: DefaultCatchBoundary,
@@ -117,7 +120,11 @@ function AppShell({ children }: { children: React.ReactNode }) {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-8">
             <Link to="/brands" className="flex items-center gap-3">
-              <img src="/logo.svg" alt="Prusa Logo" className="h-8" />
+              <img
+                src={`${import.meta.env.BASE_URL}logo.svg`}
+                alt="Prusa Logo"
+                className="h-8"
+              />
             </Link>
             <div className="flex items-center gap-6">
               <Link
@@ -155,7 +162,18 @@ function AppShell({ children }: { children: React.ReactNode }) {
               </Link>
             </div>
           </div>
-          <GlobalSearchTrigger onClick={open} />
+          <div className="flex items-center gap-4">
+            <a
+              href="https://openprinttag.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm transition-opacity hover:opacity-80"
+              style={{ color: 'hsl(var(--muted-foreground))' }}
+            >
+              More about OpenPrintTag →
+            </a>
+            <GlobalSearchTrigger onClick={open} />
+          </div>
         </div>
       </nav>
       {/* Main Content */}

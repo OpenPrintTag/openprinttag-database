@@ -1,4 +1,4 @@
-import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { createFileRoute, redirect, useNavigate } from '@tanstack/react-router';
 import React, { useMemo } from 'react';
 import { toast } from 'sonner';
 
@@ -11,8 +11,17 @@ import {
   EntitySheetFooter,
   useEntitySheet,
 } from '~/shared/components/entity-sheet';
+import { READ_ONLY } from '~/utils/readOnly';
 
 export const Route = createFileRoute('/brands/$brandId/packages/create')({
+  beforeLoad: ({ params }) => {
+    if (READ_ONLY) {
+      throw redirect({
+        to: '/brands/$brandId/packages',
+        params: { brandId: params.brandId },
+      });
+    }
+  },
   component: PackageCreate,
 });
 

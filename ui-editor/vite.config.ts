@@ -22,6 +22,9 @@ function searchIndexWarmup(): Plugin {
 }
 
 export default defineConfig({
+  // Allow GitHub Pages-style sub-path deploys: VITE_BASE_PATH=/openprinttag-database/.
+  // Defaults to '/' for local dev and the writable Node deploy.
+  base: process.env.VITE_BASE_PATH ?? '/',
   server: {
     port: 3000,
   },

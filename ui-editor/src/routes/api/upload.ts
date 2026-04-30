@@ -5,6 +5,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
 import { findDataDir } from '~/server/data/fs';
+import { readOnlyResponse } from '~/server/http';
 import { slugifyName } from '~/utils/slug';
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
@@ -25,6 +26,9 @@ export const Route = createFileRoute('/api/upload')({
     handlers: {
       POST: async ({ request }) => {
         console.info('POST /api/upload @', request.url);
+
+        const ro = readOnlyResponse();
+        if (ro) return ro;
 
         try {
           const formData = await request.formData();

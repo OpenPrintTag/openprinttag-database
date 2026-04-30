@@ -2,11 +2,13 @@ import { useMatch, useNavigate } from '@tanstack/react-router';
 import { Loader2, Search, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+import { searchStatic } from '~/client/search/staticSearch';
 import type {
   SearchFilters,
   SearchResponse,
   SearchResult,
 } from '~/routes/api/search';
+import { READ_ONLY } from '~/utils/readOnly';
 
 import { SearchErrorBoundary } from './SearchErrorBoundary';
 import { SearchFilterBar } from './SearchFilters';
@@ -61,15 +63,20 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
       setLoading(true);
       const currentFilters = filtersRef.current;
       try {
-        const params = new URLSearchParams({ q: query, limit: '30' });
-        if (currentFilters.types?.length) {
-          params.set('types', currentFilters.types.join(','));
+        let data: Pick<SearchResponse, 'results' | 'timing'>;
+        if (READ_ONLY) {
+          data = await searchStatic(query, currentFilters, 30);
+        } else {
+          const params = new URLSearchParams({ q: query, limit: '30' });
+          if (currentFilters.types?.length) {
+            params.set('types', currentFilters.types.join(','));
+          }
+          if (currentFilters.brand) {
+            params.set('brand', currentFilters.brand);
+          }
+          const res = await fetch(`/api/search?${params}`);
+          data = (await res.json()) as SearchResponse;
         }
-        if (currentFilters.brand) {
-          params.set('brand', currentFilters.brand);
-        }
-        const res = await fetch(`/api/search?${params}`);
-        const data: SearchResponse = await res.json();
         setResults(data.results || []);
         setTiming(data.timing);
         setSelectedIndex(0);

@@ -2,6 +2,7 @@ import { Plus } from 'lucide-react';
 import React from 'react';
 
 import { Button } from '~/components/ui';
+import { READ_ONLY } from '~/utils/readOnly';
 
 interface CreateButtonProps {
   onClick: () => void;
@@ -18,6 +19,8 @@ export const CreateButton = ({
   children,
   entityName,
 }: CreateButtonProps) => {
+  if (READ_ONLY) return null;
+
   const getButtonText = () => {
     if (loading) return 'Creating...';
     if (children) return children;

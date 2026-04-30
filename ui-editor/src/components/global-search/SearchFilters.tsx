@@ -5,6 +5,7 @@ import type {
   SearchFilters as SearchFiltersType,
   SearchResultType,
 } from '~/routes/api/search';
+import { apiUrl } from '~/utils/readOnly';
 
 import { TYPE_COLORS, TYPE_ICONS_SMALL, TYPE_LABELS } from './constants';
 import type { BrandOption } from './types';
@@ -45,7 +46,7 @@ export function SearchFilterBar({
   useEffect(() => {
     if (brands.length > 0) return;
     setBrandsLoading(true);
-    fetch('/api/brands/basic')
+    fetch(apiUrl('/api/brands/basic'))
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) {

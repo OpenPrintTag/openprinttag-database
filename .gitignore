@@ -1,6 +1,7 @@
 .idea/
 venv/
 .venv/
+.DS_Store
 __pycache__/
 .tmp_schemas/
 openprinttag/

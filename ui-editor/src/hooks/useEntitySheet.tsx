@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
+import { READ_ONLY } from '~/utils/readOnly';
+
 interface UseEntitySheetOptions<T> {
   entity?: T;
   open: boolean;
@@ -12,9 +14,12 @@ export const useEntitySheet = <T extends Record<string, unknown>>({
   entity,
   open,
   mode = 'edit',
-  readOnly = false,
+  readOnly: readOnlyProp = false,
   initialForm,
 }: UseEntitySheetOptions<T>) => {
+  // Force read-only when the build-time flag is set, so callers don't have to
+  // thread READ_ONLY through every sheet.
+  const readOnly = READ_ONLY || readOnlyProp;
   const stableInitialForm = useMemo(() => initialForm || {}, []);
 
   const [form, setForm] = useState<Partial<T>>(stableInitialForm);
