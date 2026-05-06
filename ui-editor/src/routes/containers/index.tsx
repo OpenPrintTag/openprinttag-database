@@ -7,6 +7,7 @@ import { Container } from '~/components/container-sheet';
 import { PageHeader } from '~/components/PageHeader';
 import { useEnum } from '~/hooks/useEnum';
 import { getOS } from '~/utils/os';
+import { READ_ONLY } from '~/utils/readOnly';
 import { slugifyName } from '~/utils/slug';
 
 export const Route = createFileRoute('/containers/')({
@@ -78,13 +79,15 @@ function RouteComponent() {
           title="Material Containers"
           description={`Browse ${containers.length} material containers. Press ${isMac ? '⌘K' : 'CTRL+K'} to search.`}
         />
-        <button
-          onClick={() => handleOpenContainerSheet('create')}
-          className="btn flex items-center gap-2"
-        >
-          <Plus className="h-4 w-4" />
-          New Container
-        </button>
+        {!READ_ONLY && (
+          <button
+            onClick={() => handleOpenContainerSheet('create')}
+            className="btn flex items-center gap-2"
+          >
+            <Plus className="h-4 w-4" />
+            New Container
+          </button>
+        )}
       </div>
 
       {/* Background Loading Indicator */}

@@ -8,6 +8,7 @@ import { useBrandContext } from '~/context/EntityContexts';
 import { useEnum } from '~/hooks/useEnum';
 import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
 import { getOS } from '~/utils/os';
+import { READ_ONLY } from '~/utils/readOnly';
 
 export const Route = createFileRoute('/brands/$brandId/materials')({
   component: MaterialsLayout,
@@ -35,14 +36,16 @@ function MaterialsLayout() {
   return (
     <>
       <div className="mb-4 flex items-center justify-between">
-        <Link
-          to="/brands/$brandId/materials/create"
-          params={{ brandId }}
-          className="inline-flex items-center justify-center gap-2 rounded-md bg-orange-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-orange-700 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:outline-none"
-        >
-          <Plus className="h-4 w-4" />
-          Add Material
-        </Link>
+        {!READ_ONLY && (
+          <Link
+            to="/brands/$brandId/materials/create"
+            params={{ brandId }}
+            className="inline-flex items-center justify-center gap-2 rounded-md bg-orange-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-orange-700 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:outline-none"
+          >
+            <Plus className="h-4 w-4" />
+            Add Material
+          </Link>
+        )}
         <span
           className="text-sm"
           style={{ color: 'hsl(var(--muted-foreground))' }}
