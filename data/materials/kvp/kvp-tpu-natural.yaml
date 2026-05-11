@@ -1,0 +1,20 @@
+uuid: 407a98d1-d3b3-5e9f-848e-d929729d6233
+slug: kvp-tpu-natural
+brand:
+  slug: kvp
+name: TPU Natural
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://tonerplastics.com/product/tpu-filament-reels/
+primary_color:
+  color_rgba: '#dcd8d4ff'
+tags:
+  - translucent
+  - without_pigments
+properties:
+  density: 1.2
+  hardness_shore_a: 90.0
+photos:
+  - url: /tmp/assets/kvp-tpu-natural-0-4af5d552.jpg
+    type: unspecified

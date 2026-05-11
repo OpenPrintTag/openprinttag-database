@@ -1,0 +1,17 @@
+uuid: b7c37fcd-c740-5163-80dd-fc75820a3b18
+slug: kvp-tpu-black
+brand:
+  slug: kvp
+name: TPU Black
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://tonerplastics.com/product/tpu-filament-reels/
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.2
+  hardness_shore_a: 90.0
+photos:
+  - url: /tmp/assets/kvp-tpu-black-0-3efb34a1.jpg
+    type: unspecified

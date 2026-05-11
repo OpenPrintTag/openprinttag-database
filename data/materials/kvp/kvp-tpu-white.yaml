@@ -1,0 +1,17 @@
+uuid: 783c4174-ff23-5085-8bc3-c7f537f2723d
+slug: kvp-tpu-white
+brand:
+  slug: kvp
+name: TPU White
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://tonerplastics.com/product/tpu-filament-reels/
+primary_color:
+  color_rgba: '#f5f5f5ff'
+properties:
+  density: 1.2
+  hardness_shore_a: 90.0
+photos:
+  - url: /tmp/assets/kvp-tpu-white-0-d18dbde7.jpg
+    type: unspecified
