@@ -9,10 +9,11 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#d9d4c6ff'
 tags:
-- high_speed
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.35
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-creamstone/azurefilm-pla-matte-hs-creamstone-0-74d1c2e5.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-creamstone/azurefilm-pla-matte-hs-creamstone-0-74d1c2e5.jpg
+    type: unspecified

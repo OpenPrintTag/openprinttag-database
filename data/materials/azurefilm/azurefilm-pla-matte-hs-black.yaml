@@ -10,10 +10,11 @@ url: https://azurefilm.com/product/pla-matte-hs-filament-black/
 primary_color:
   color_rgba: '#262727ff'
 tags:
-- high_speed
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+  - industrially_compostable
+properties:
+  density: 1.35
 photos:
-- url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-black/azurefilm-pla-matte-hs-black-0-9ed5e4b9.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/azurefilm/azurefilm-pla-matte-hs-black/azurefilm-pla-matte-hs-black-0-9ed5e4b9.jpg
+    type: unspecified

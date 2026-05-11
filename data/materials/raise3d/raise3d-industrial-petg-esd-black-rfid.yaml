@@ -1,0 +1,20 @@
+uuid: 079448ee-1d1c-514a-ac1c-8a2ac041f165
+slug: raise3d-industrial-petg-esd-black-rfid
+brand:
+  slug: raise3d
+name: Industrial PETG ESD Black - RFID
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://shop.raise3d.com/products/raise3d-industrial-petg-esd-filament-rfid
+primary_color:
+  color_rgba: '#30312fff'
+tags:
+  - esd_safe
+  - contains_carbon_nano_tubes
+  - contains_carbon
+properties:
+  density: 1.24
+photos:
+  - url: /tmp/assets/raise3d-industrial-petg-esd-black-rfid-0-46b0c62e.jpg
+    type: unspecified
