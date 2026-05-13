@@ -1,0 +1,19 @@
+uuid: b80d4e75-7c7b-5890-b4a9-1dc925a0c981
+slug: kimya-abs-ec
+brand:
+  slug: kimya
+name: ABS-EC
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.machines-3d.com/filament-imprimante-3d-kimya-absec-175mm-500g-noir-xml-367_929_1015-6113.html
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - conductive
+properties:
+  density: 1.035
+  hardness_shore_d: 67.2
+photos:
+  - url: /tmp/assets/kimya-abs-ec-0-d174e34d.jpg
+    type: unspecified

@@ -1,0 +1,20 @@
+uuid: 57566aa9-348a-5a5d-ae9f-8f86084196ab
+slug: kimya-pa-carbon-black
+brand:
+  slug: kimya
+name: PA Carbon Black
+class: FFF
+abbreviation: PA
+url: https://www.igo3d.com/kimya-pa-carbon-filament_1
+primary_color:
+  color_rgba: '#484a49ff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.192
+  hardness_shore_d: 81.3
+photos:
+  - url: /tmp/assets/kimya-pa-carbon-black-0-65b8d4d5.jpg
+    type: unspecified
