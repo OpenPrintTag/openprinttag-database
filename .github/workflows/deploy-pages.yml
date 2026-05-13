@@ -65,9 +65,9 @@ jobs:
         working-directory: ./ui-editor
         env:
           VITE_READ_ONLY: 'true'
-          # GitHub Pages serves the project site under /<repo>/. Trailing slash
-          # is required by Vite's `base` option.
-          VITE_BASE_PATH: '/${{ github.event.repository.name }}/'
+          # Custom domain serves at root. Without a custom domain it would be
+          # /<repo>/, but with database.openprinttag.org we serve from /.
+          VITE_BASE_PATH: '/'
         run: pnpm build:static
 
       # The TanStack Start build emits both a Nitro server bundle and a static
