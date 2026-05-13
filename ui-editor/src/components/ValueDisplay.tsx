@@ -183,8 +183,11 @@ export const ValueDisplay = ({
       );
       const params =
         field?.entity === 'container'
-          ? { ...match?.params, containerId: val?.[relData.valueField] }
-          : {};
+          ? {
+              ...match?.params,
+              containerId: val?.[relData.valueField],
+            }
+          : { brandId: val?.[relData.valueField] };
 
       return (
         <Link
