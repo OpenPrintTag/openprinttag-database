@@ -106,6 +106,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 
 function AppShell({ children }: { children: React.ReactNode }) {
   const { isOpen, open, close } = useGlobalSearch();
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   return (
     <>
@@ -117,8 +118,8 @@ function AppShell({ children }: { children: React.ReactNode }) {
           borderColor: 'hsl(var(--border))',
         }}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div className="flex items-center gap-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
+          <div className="flex items-center gap-4 sm:gap-8">
             <Link to="/brands" className="flex items-center gap-3">
               <img
                 src={`${import.meta.env.BASE_URL}logo.svg`}
@@ -126,7 +127,7 @@ function AppShell({ children }: { children: React.ReactNode }) {
                 className="h-8"
               />
             </Link>
-            <div className="flex items-center gap-6">
+            <div className="hidden items-center gap-6 sm:flex">
               <Link
                 to="/brands"
                 activeProps={{
@@ -162,22 +163,113 @@ function AppShell({ children }: { children: React.ReactNode }) {
               </Link>
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <a
               href="https://openprinttag.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm transition-opacity hover:opacity-80"
+              className="hidden text-sm transition-opacity hover:opacity-80 md:inline"
               style={{ color: 'hsl(var(--muted-foreground))' }}
             >
               More about OpenPrintTag →
             </a>
             <GlobalSearchTrigger onClick={open} />
+            {/* Mobile hamburger */}
+            <button
+              className="inline-flex items-center justify-center rounded-md p-2 transition-colors hover:bg-gray-100 sm:hidden"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              )}
+            </button>
           </div>
         </div>
+        {/* Mobile menu dropdown */}
+        {mobileMenuOpen && (
+          <div
+            className="border-t px-4 py-3 sm:hidden"
+            style={{ borderColor: 'hsl(var(--border))' }}
+          >
+            <div className="flex flex-col gap-3">
+              <Link
+                to="/brands"
+                activeProps={{
+                  className: 'font-semibold',
+                  style: { color: 'hsl(var(--primary))' },
+                }}
+                className="text-base transition-colors hover:opacity-80"
+                style={{ color: 'hsl(var(--foreground))' }}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Brands
+              </Link>
+              <Link
+                to="/containers"
+                activeProps={{
+                  className: 'font-semibold',
+                  style: { color: 'hsl(var(--primary))' },
+                }}
+                className="text-base transition-colors hover:opacity-80"
+                style={{ color: 'hsl(var(--foreground))' }}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Containers
+              </Link>
+              <Link
+                to="/enum"
+                activeProps={{
+                  className: 'font-semibold',
+                  style: { color: 'hsl(var(--primary))' },
+                }}
+                className="text-base transition-colors hover:opacity-80"
+                style={{ color: 'hsl(var(--foreground))' }}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Enum
+              </Link>
+              <a
+                href="https://openprinttag.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm transition-opacity hover:opacity-80 md:hidden"
+                style={{ color: 'hsl(var(--muted-foreground))' }}
+              >
+                More about OpenPrintTag →
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
       {/* Main Content */}
-      <div className="mx-auto min-h-screen w-full max-w-7xl p-6">
+      <div className="mx-auto min-h-screen w-full max-w-7xl p-4 sm:p-6">
         {children}
       </div>
       {/* Global Search Modal */}

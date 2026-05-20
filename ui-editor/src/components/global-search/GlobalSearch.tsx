@@ -45,7 +45,7 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
         setFilters({});
       }
     }
-  }, [isOpen]);
+  }, [isOpen, match?.params?.brandId]);
 
   // Use ref to always have current filters in async callback
   const filtersRef = useRef(filters);
@@ -194,7 +194,7 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
       role="dialog"
       aria-modal="true"
       aria-label="Search"
-      className="fixed inset-0 z-[100] flex items-start justify-center pt-[15vh]"
+      className="fixed inset-0 z-100 flex items-start justify-center px-4 pt-[8vh] sm:pt-[15vh]"
       style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
@@ -313,7 +313,7 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
             color: 'hsl(var(--muted-foreground))',
           }}
         >
-          <div className="flex items-center gap-4">
+          <div className="hidden items-center gap-4 sm:flex">
             <span className="flex items-center gap-1">
               <kbd className="rounded border px-1.5 py-0.5 font-mono text-[10px]">
                 ↑↓
