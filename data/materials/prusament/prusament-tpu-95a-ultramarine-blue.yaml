@@ -11,7 +11,7 @@ primary_color:
   color_rgba: '#1a0076ff'
 properties:
   density: 1.25
-  hardness_shore_a: 95.0
+  hardness_shore_a: 95
   min_print_temperature: 220
   max_print_temperature: 240
   preheat_temperature: 170

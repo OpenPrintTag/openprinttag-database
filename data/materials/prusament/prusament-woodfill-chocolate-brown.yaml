@@ -10,6 +10,7 @@ primary_color:
   color_rgba: '#543c27ff'
 tags:
 - contains_wood
+- contains_organic_material
 properties:
   density: 1.16
   hardness_shore_d: 67

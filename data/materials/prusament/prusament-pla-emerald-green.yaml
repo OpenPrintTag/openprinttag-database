@@ -4,8 +4,8 @@ brand:
   slug: prusament
 name: PLA Emerald Green
 class: FFF
-type: PETG
-abbreviation: PETG
+type: PLA
+abbreviation: PLA
 url: https://www.prusa3d.com/product/prusament-pla-emerald-green-1kg-nfc/
 primary_color:
   color_rgba: '#006441ff'
@@ -21,6 +21,8 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+tags:
+- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/prusament/prusament-pla-emerald-green/prusament-pla-emerald-green-0-c66485b9.jpg
   type: unspecified
