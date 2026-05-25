@@ -1,0 +1,10 @@
+uuid: 4aafdd8f-9027-50b6-a210-011927b427c8
+slug: prusament-pvb-natural-500-old-spool
+class: FFF
+gtin: 8594173675476
+container:
+  slug: old-prusament-spool-1kg
+material:
+  slug: prusament-pvb-natural
+nominal_netto_full_weight: 500
+filament_diameter: 1750

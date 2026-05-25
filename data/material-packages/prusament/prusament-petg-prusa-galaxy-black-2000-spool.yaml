@@ -1,0 +1,10 @@
+uuid: c7d7db70-84f4-5e91-880a-e9c02981cd1c
+slug: prusament-petg-prusa-galaxy-black-2000-spool
+class: FFF
+gtin: 8594173676725
+container:
+  slug: prusament-spool-2kg
+material:
+  slug: prusament-petg-prusa-galaxy-black
+nominal_netto_full_weight: 2000
+filament_diameter: 1750
