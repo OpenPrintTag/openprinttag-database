@@ -8,6 +8,7 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#acb1baff'
+transmission_distance: 2.3
 tags:
 - imitates_marble
 - industrially_compostable
