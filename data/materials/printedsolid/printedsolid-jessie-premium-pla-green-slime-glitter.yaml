@@ -8,6 +8,7 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#a1ac21ff'
+transmission_distance: 3.7
 tags:
 - glitter
 - industrially_compostable
