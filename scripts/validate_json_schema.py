@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 import yaml
 from jsonschema import FormatChecker, validators
-from referencing import Registry, Resource
+from referencing import Registry, retrieval
 
 from uuid_utils import (
     generate_brand_uuid,
@@ -79,21 +79,17 @@ class JsonSchemaValidator:
         self.data_cache: Dict[str, Dict[str, Any]] = {}  # entity_type -> {slug -> data}
 
     def setup_registry(self) -> None:
-        """Set up the schema registry with a retriever function"""
-        def retrieve_schema(uri: str) -> Resource:
+        """Set up the schema registry with a cached retriever function"""
+        @retrieval.to_cached_resource()
+        def retrieve_schema(uri: str) -> str:
             """Retrieve a schema resource when resolving $ref"""
-            # Parse the URI to get the path
             path = urlparse(uri).path.lstrip('/')
 
             # If it doesn't end with .schema.json, add it
             if not path.endswith('.schema.json'):
                 path = f"{path}.schema.json"
 
-            schema_path = self.schema_dir / path
-            schema_contents = json.loads(schema_path.read_text(encoding='utf-8'))
-
-            # Let Resource.from_contents infer the specification from $schema field
-            return Resource.from_contents(schema_contents)
+            return (self.schema_dir / path).read_text(encoding='utf-8')
 
         self.registry = Registry(retrieve=retrieve_schema)
 
