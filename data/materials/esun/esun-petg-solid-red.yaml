@@ -6,7 +6,11 @@ name: PETG Solid Red
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12119
+primary_color:
+  color_rgba: '#ee2737ff'
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-red/c46ba624077f.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-red/c46ba624077f.jpg
+    type: unspecified

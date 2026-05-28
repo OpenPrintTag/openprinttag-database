@@ -6,9 +6,11 @@ name: PETG Solid Orange
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12876
 primary_color:
   color_rgba: '#ff8133ff'
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-orange/8ce5ac0412bf.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-orange/8ce5ac0412bf.jpg
+    type: unspecified

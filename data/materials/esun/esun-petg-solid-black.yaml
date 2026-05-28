@@ -6,9 +6,11 @@ name: PETG Solid Black
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12115
 primary_color:
   color_rgba: '#000000ff'
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-black/121ef908e34a.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-black/121ef908e34a.jpg
+    type: unspecified

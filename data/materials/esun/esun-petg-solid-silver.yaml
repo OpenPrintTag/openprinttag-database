@@ -6,9 +6,11 @@ name: PETG Solid Silver
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12122
 primary_color:
   color_rgba: '#abacb0ff'
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-silver/f32507e9ff17.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-silver/f32507e9ff17.jpg
+    type: unspecified

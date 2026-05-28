@@ -6,11 +6,12 @@ name: High Speed Upgraded PETG Solid White
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.amazon.com/eSUN-Upgraded-Filament-Toughness-Printing/dp/B0D4TWB2H7
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- high_speed
-photos:
-- url: https://files.openprinttag.org/esun/esun-high-speed-upgraded-petg-solid-white/7f9b02e97514.jpg
-  type: unspecified
+  - high_speed
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-high-speed-upgraded-petg-solid-white/7f9b02e97514.jpg
+    type: unspecified

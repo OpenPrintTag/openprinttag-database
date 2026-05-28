@@ -6,9 +6,11 @@ name: PETG Solid Grey
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12117
 primary_color:
   color_rgba: '#737282ff'
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-grey/cb36ede53d2c.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-grey/cb36ede53d2c.jpg
+    type: unspecified

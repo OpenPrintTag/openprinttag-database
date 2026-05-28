@@ -6,9 +6,11 @@ name: PETG Solid Yellow
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12121
 primary_color:
   color_rgba: '#fbe200ff'
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-yellow/fcc25574039a.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-yellow/fcc25574039a.jpg
+    type: unspecified

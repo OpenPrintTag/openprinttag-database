@@ -6,12 +6,14 @@ name: PETG Natural
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12128
 primary_color:
   color_rgba: '#d9d8deff'
 tags:
-- transparent
-- without_pigments
+  - translucent
+  - without_pigments
+properties:
+  density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-natural/d56b45180b80.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-natural/d56b45180b80.jpg
+    type: unspecified

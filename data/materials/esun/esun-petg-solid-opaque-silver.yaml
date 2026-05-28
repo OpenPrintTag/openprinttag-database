@@ -6,9 +6,10 @@ name: PETG Solid Opaque Silver
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.amazon.com/eSUN-1-75mm-Filament-Printer-Semi-Transparent/dp/B01LMDFWVU
 primary_color:
   color_rgba: '#abacb0ff'
-photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-opaque-silver/5f24c7efe4e8.jpg
-  type: unspecified
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-opaque-silver/5f24c7efe4e8.jpg
+    type: unspecified

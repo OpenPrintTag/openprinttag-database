@@ -6,12 +6,13 @@ name: PETG
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.amazon.com/eSUN-Filament-Dimensional-Accuracy-Printing/dp/B07FXVGYKL
 primary_color:
   color_rgba: '#d9d8deff'
 tags:
-- transparent
-- without_pigments
-photos:
-- url: https://files.openprinttag.org/esun/esun-petg/25a2798a9ad6.jpg
-  type: unspecified
+  - transparent
+  - without_pigments
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-petg/25a2798a9ad6.jpg
+    type: unspecified
