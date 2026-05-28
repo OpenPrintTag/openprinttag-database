@@ -86,7 +86,7 @@ const RouteComponent = () => {
     return <BrandDetailSkeleton />;
   }
 
-  if (error) return <StateDisplay error="asdfasdf" />;
+  if (error) return <StateDisplay error="An error occurred while loading this brand." />;
   if (!data) return null;
 
   return (
