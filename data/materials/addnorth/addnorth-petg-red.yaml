@@ -11,4 +11,9 @@ primary_color:
 photos:
 - url: https://files.openprinttag.org/addnorth/addnorth-petg-red/cc2af9f84079.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 260
+  min_bed_temperature: 0
+  max_bed_temperature: 80
