@@ -4,4 +4,8 @@ name: Amolen Spool 1kg
 class: FFF
 brand:
   slug: amolen
+hole_diameter: 60
+inner_diameter: 80
+outer_diameter: 200
+width: 60
 empty_weight: 190
