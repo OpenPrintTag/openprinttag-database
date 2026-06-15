@@ -1,17 +1,17 @@
-uuid: 74876977-f04c-5e11-a668-252792eeead5
-slug: elegoo-pla-matte-navy-blue
+uuid: 5502ab7a-b4fa-5be3-8150-31b74de8865e
+slug: elegoo-pla-matte-ruby-red
 brand:
   slug: elegoo
-name: PLA Matte Navy Blue
+name: PLA Matte Ruby Red
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#142538ff'
+  color_rgba: '#bb2c2eff'
 tags:
 - matte
 photos:
-- url: https://files.openprinttag.org/elegoo/elegoo-pla-matte-navy-blue/7cf6d02c401b.png
+- url: https://us.elegoo.com/cdn/shop/files/PLA_MATTE_1KG.jpg?v=1757934640
   type: unspecified
 properties:
   density: 1.26

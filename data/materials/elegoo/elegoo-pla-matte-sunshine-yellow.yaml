@@ -7,11 +7,17 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#ffd342ff'
+  color_rgba: '#f9e069ff'
 tags:
 - matte
-- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-pla-matte-sunshine-yellow/c818ba318e38.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.26
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 480
