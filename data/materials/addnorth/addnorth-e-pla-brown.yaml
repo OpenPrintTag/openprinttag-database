@@ -1,0 +1,18 @@
+uuid: 3017d31e-e6eb-5144-b141-b8514d94caed
+slug: addnorth-e-pla-brown
+brand:
+  slug: addnorth
+name: E-PLA Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4d2d1cff'
+tags:
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 225
+  min_bed_temperature: 0
+  max_bed_temperature: 60

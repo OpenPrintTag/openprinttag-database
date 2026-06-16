@@ -9,9 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- industrially_compostable
-- high_speed
+  - high_speed
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-x-pla-high-speed-white/1b966bcd0bbb.png
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-x-pla-high-speed-white/1b966bcd0bbb.png
+    type: unspecified
 properties: {}

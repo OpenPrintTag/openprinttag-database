@@ -1,0 +1,22 @@
+uuid: 7c56fa80-e9f1-5f96-87bc-def85036431c
+slug: addnorth-pla-premium-silk-gold
+brand:
+  slug: addnorth
+name: PLA Premium Silk Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffcb47ff'
+tags:
+  - silk
+  - industrially_compostable
+properties:
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 245
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/addnorth-pla-premium-silk-gold-0-e91a25fb.png
+    type: unspecified

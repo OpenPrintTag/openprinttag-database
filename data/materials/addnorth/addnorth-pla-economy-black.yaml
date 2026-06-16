@@ -9,8 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-pla-economy-black/59bfb1bce9de.png
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-pla-economy-black/59bfb1bce9de.png
+    type: unspecified
 properties: {}

@@ -9,10 +9,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#77a54bff'
 tags:
-- matte
-- industrially_compostable
-- contains_organic_material
+  - glitter
+  - matte
+  - industrially_compostable
+  - contains_organic_material
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-textura-flare-sparkling-green/7b88226cea9f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-textura-flare-sparkling-green/7b88226cea9f.png
+    type: unspecified
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220

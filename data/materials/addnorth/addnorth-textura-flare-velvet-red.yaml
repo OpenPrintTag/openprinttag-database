@@ -9,10 +9,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#983b4eff'
 tags:
-- matte
-- industrially_compostable
-- contains_organic_material
+  - glitter
+  - matte
+  - industrially_compostable
+  - contains_organic_material
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-textura-flare-velvet-red/ee737438274f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-textura-flare-velvet-red/ee737438274f.png
+    type: unspecified
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220

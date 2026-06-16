@@ -1,0 +1,21 @@
+uuid: 3b499035-f750-5065-bc42-1d921861556c
+slug: addnorth-pla-cf-black
+brand:
+  slug: addnorth
+name: PLA CF Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 70

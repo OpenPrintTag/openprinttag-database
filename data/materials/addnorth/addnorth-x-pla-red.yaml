@@ -9,8 +9,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#e72f1dff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-x-pla-red/3684915b3b72.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-x-pla-red/3684915b3b72.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 70

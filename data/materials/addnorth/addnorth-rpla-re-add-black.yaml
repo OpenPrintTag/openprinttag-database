@@ -9,9 +9,14 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- recycled
-- industrially_compostable
+  - recycled
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-rpla-re-add-black/1c5f9dd76df0.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-rpla-re-add-black/1c5f9dd76df0.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 225
+  min_bed_temperature: 0
+  max_bed_temperature: 60

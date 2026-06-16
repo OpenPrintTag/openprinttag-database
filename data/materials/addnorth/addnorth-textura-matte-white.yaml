@@ -9,10 +9,12 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- matte
-- industrially_compostable
-- contains_organic_material
+  - matte
+  - industrially_compostable
+  - contains_organic_material
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-textura-matte-white/1bda0f47e99a.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-textura-matte-white/1bda0f47e99a.png
+    type: unspecified
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 220
