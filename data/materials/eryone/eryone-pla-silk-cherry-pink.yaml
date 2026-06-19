@@ -1,0 +1,21 @@
+uuid: e12ca303-7d53-5267-a4ba-a57a4ebfd8e2
+slug: eryone-pla-silk-cherry-pink
+brand:
+  slug: eryone
+name: PLA Silk Cherry Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-cherry-pink/1-800_c8783cdd-3ba3-4658-a411-e362e26beff4.jpg?v=1781737868
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

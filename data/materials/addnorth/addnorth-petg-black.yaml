@@ -17,4 +17,6 @@ properties:
   max_print_temperature: 260
   min_bed_temperature: 0
   max_bed_temperature: 80
+  drying_temperature: 65
+  drying_time: 360
 url: https://addnorth.com/product/PETG/PETG%20-%201.75mm%20-%20750g%20-%20Black

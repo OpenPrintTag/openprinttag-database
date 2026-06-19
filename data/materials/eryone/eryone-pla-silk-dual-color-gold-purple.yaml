@@ -1,0 +1,25 @@
+uuid: 33bcc985-bfac-5cc0-9d90-638653c51eb3
+slug: eryone-pla-silk-dual-color-gold-purple
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Gold Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#e5bf3aff'
+- color_rgba: '#c23fbfff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-gold-purple/PLA-Silk-Dual-Color-Filament-25.png?v=1776650678
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

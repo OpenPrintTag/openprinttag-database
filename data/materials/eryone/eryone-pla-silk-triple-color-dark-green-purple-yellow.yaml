@@ -1,0 +1,22 @@
+uuid: e508ab0d-30da-5bc1-93c6-46490d0c781d
+slug: eryone-pla-silk-triple-color-dark-green-purple-yellow
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Dark Green Purple Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-dark-green-purple-yellow/3d-filament-pla-Dark_green_Purple_Yellow.jpg?v=1774937086
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

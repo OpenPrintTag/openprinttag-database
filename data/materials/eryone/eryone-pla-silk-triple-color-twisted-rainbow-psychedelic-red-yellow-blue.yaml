@@ -1,0 +1,22 @@
+uuid: 82603dbc-60e2-528b-8bed-491d1eeff4fc
+slug: eryone-pla-silk-triple-color-twisted-rainbow-psychedelic-red-yellow-blue
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Twisted Rainbow Psychedelic Red Yellow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-twisted-rainbow-psychedelic-red-yellow-blue/3d-filament-pla-1.jpg?v=1776650739
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

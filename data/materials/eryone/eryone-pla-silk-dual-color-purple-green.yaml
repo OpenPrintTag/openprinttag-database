@@ -1,0 +1,25 @@
+uuid: 3e6f060a-2260-5545-ab80-bb0461139c53
+slug: eryone-pla-silk-dual-color-purple-green
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Purple Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#662e85ff'
+- color_rgba: '#209734ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-purple-green/PLA-Silk-Dual-Color-Filament-15.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

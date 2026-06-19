@@ -1,0 +1,21 @@
+uuid: 0c30b10d-6acf-509f-aee2-4f88e3120045
+slug: eryone-pla-silk-gold
+brand:
+  slug: eryone
+name: PLA Silk Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-gold/PLA-Silk-Filament-1.jpg?v=1767680110
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

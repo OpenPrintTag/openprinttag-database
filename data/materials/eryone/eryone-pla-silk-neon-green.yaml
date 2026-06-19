@@ -1,0 +1,21 @@
+uuid: 80c54a47-b9e2-53e4-a9c8-b68768d35b95
+slug: eryone-pla-silk-neon-green
+brand:
+  slug: eryone
+name: PLA Silk Neon Green
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-neon-green/1-800_bd37780e-2677-475d-b4ae-d3d602b7be8b.jpg?v=1781737868
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480
