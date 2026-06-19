@@ -1,15 +1,15 @@
-uuid: a66b0bdc-d970-5eae-917d-d82d356df832
-slug: hatchbox-green-petg
+uuid: 52de4985-1997-5df6-9046-96e71695dcff
+slug: hatchbox-red-petg
 brand:
   slug: hatchbox
-name: Green PETG
+name: Red PETG
 class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#089a45ff'
+  color_rgba: '#ae312aff'
 photos:
-- url: https://files.openprinttag.org/hatchbox/hatchbox-green-petg/9a3e3e339e43.jpg
+- url: https://gcdnb.pbrd.co/images/lezaQZt9_ukg.png
   type: unspecified
 properties:
   density: 1.27
