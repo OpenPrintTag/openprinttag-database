@@ -1,15 +1,15 @@
-uuid: 3738cd07-d915-57b5-8f66-fc131e9b01c8
-slug: elegoo-asa-black
+uuid: b23cd749-a639-5849-ab42-b1c6523610ee
+slug: elegoo-asa-red
 brand:
   slug: elegoo
-name: ASA Black
+name: ASA Red
 class: FFF
 type: ASA
 abbreviation: ASA
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#d61212ff'
 photos:
-- url: https://files.openprinttag.org/elegoo/elegoo-asa-black/130e85b202c5.png
+- url: https://cdn.shopify.com/s/files/1/0639/7660/3829/files/ASA_1KG_1.75mm_785f0758-36bd-4aef-bc72-161304cdba09.jpg?v=1769592863
   type: unspecified
 properties:
   density: 1.09
