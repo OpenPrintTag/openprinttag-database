@@ -1,17 +1,15 @@
-uuid: 67be5e4a-4342-5e7b-9a6f-bb80354a3f1f
-slug: sunlu-pla-orange
+uuid: 8ea2c9c5-7135-5912-8b19-aa2aae47760a
+slug: sunlu-pla-coffee-brown
 brand:
   slug: sunlu
-name: PLA Orange
+name: PLA Coffee Brown
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#ff9100ff'
-tags:
-- industrially_compostable
+  color_rgba: '#362111ff'
 photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-pla-orange/6efdfd28f1e5.jpg
+- url: https://media.sunlu.com/prod/20260323/8a82afd1-de38-4125-b8e4-5e3de3524a42.jpg
   type: unspecified
 properties:
   density: 1.23

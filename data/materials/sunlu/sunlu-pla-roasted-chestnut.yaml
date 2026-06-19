@@ -1,17 +1,13 @@
-uuid: 67be5e4a-4342-5e7b-9a6f-bb80354a3f1f
-slug: sunlu-pla-orange
+uuid: 85cf28e2-4168-54cc-ae9a-37317d144d34
+slug: sunlu-pla-roasted-chestnut
 brand:
   slug: sunlu
-name: PLA Orange
+name: PLA Roasted Chestnut
 class: FFF
 type: PLA
 abbreviation: PLA
-primary_color:
-  color_rgba: '#ff9100ff'
-tags:
-- industrially_compostable
 photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-pla-orange/6efdfd28f1e5.jpg
+- url: https://media.sunlu.com/prod/20260323/7a7237fa-2bb7-4931-aaa5-d6e60aae7ed6.jpg
   type: unspecified
 properties:
   density: 1.23

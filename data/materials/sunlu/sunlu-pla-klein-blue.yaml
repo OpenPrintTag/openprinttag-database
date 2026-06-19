@@ -1,17 +1,15 @@
-uuid: 67be5e4a-4342-5e7b-9a6f-bb80354a3f1f
-slug: sunlu-pla-orange
+uuid: 7c854ac0-f608-5b7f-b72f-afe97274ce3f
+slug: sunlu-pla-klein-blue
 brand:
   slug: sunlu
-name: PLA Orange
+name: PLA Klein Blue
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#ff9100ff'
-tags:
-- industrially_compostable
+  color_rgba: '#1729abff'
 photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-pla-orange/6efdfd28f1e5.jpg
+- url: https://media.sunlu.com/prod/20260323/58685c1f-94a8-468c-bea5-423873bc0876.jpg
   type: unspecified
 properties:
   density: 1.23

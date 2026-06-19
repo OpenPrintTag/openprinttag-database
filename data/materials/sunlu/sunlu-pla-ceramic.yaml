@@ -1,17 +1,15 @@
-uuid: 67be5e4a-4342-5e7b-9a6f-bb80354a3f1f
-slug: sunlu-pla-orange
+uuid: f3062352-b950-5fdf-ab81-deb05744b4d6
+slug: sunlu-pla-ceramic
 brand:
   slug: sunlu
-name: PLA Orange
+name: PLA Ceramic
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#ff9100ff'
-tags:
-- industrially_compostable
+  color_rgba: '#d9d9d9ff'
 photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-pla-orange/6efdfd28f1e5.jpg
+- url: https://media.sunlu.com/prod/20260323/c54ce8eb-74fc-4b2c-b3fd-1c5c1a19d5e4.jpg
   type: unspecified
 properties:
   density: 1.23
