@@ -13,4 +13,11 @@ tags:
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-pla-plus-mint-green/a59a9e6d13c9.jpg
   type: unspecified
-properties: {}
+properties:
+  density: 1.21
+  hardness_shore_d: 81
+  min_print_temperature: 205
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

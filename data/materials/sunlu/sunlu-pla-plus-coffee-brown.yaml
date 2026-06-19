@@ -1,17 +1,15 @@
-uuid: 73f8234d-6c94-56bd-ae8c-ce522350b491
-slug: sunlu-pla-plus-pink
+uuid: 5daf85a1-f47b-541a-86ad-d00305f88757
+slug: sunlu-pla-plus-coffee-brown
 brand:
   slug: sunlu
-name: PLA Plus Pink
+name: PLA Plus Coffee Brown
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#f297daff'
-tags:
-- industrially_compostable
+  color_rgba: '#362111ff'
 photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-pla-plus-pink/961c49c36e23.jpg
+- url: https://www.sunlu.com/public/upload/image/20260611/6fb07c2b-4de9-4814-b120-d88b377cfaf5.png
   type: unspecified
 properties:
   density: 1.21
