@@ -9,7 +9,7 @@ import json
 import sys
 import uuid
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from urllib.parse import urlparse
 
 import yaml
@@ -289,6 +289,18 @@ class JsonSchemaValidator:
                                 f"Foreign key {field_name}={val} not found in {target_entity}.{target_field}"
                             ))
 
+    def _find_yaml_file(self, entity_type: str, slug: str) -> Optional[Path]:
+        """Find a YAML file by slug in entity directory (including subdirectories)"""
+        entity_path = self.data_dir / entity_type
+        for yaml_file in entity_path.glob(f"**/{slug}.yaml"):
+            return yaml_file
+        return None
+
+    def _write_uuid_to_yaml_file(self, file_path: Path, uuid_value: str) -> None:
+        """Prepend a uuid field to a YAML file that is missing one"""
+        content = file_path.read_text(encoding='utf-8')
+        file_path.write_text(f"uuid: {uuid_value}\n" + content, encoding='utf-8')
+
     def validate_uuids(self) -> None:
         """Validate UUIDs match their derived values according to uuid.md specification"""
 
@@ -321,11 +333,20 @@ class JsonSchemaValidator:
             try:
                 brand_uuid = uuid.UUID(brand_data['uuid'])
                 expected_uuid = generate_material_uuid(brand_uuid, material_data['name'])
-                is_valid = expected_uuid == uuid.UUID(material_data['uuid'])
-                if not is_valid:
+                if 'uuid' not in material_data:
+                    file_path = self._find_yaml_file('materials', material_slug)
+                    if file_path:
+                        self._write_uuid_to_yaml_file(file_path, str(expected_uuid))
                     self.errors.append(ValidationError(
-                        'error', 'uuid_derivation', 'materials', material_slug,'Invalid UUID'
+                        'info', 'uuid_generated', 'materials', material_slug,
+                        f'UUID auto-generated: {expected_uuid}'
                     ))
+                else:
+                    is_valid = expected_uuid == uuid.UUID(material_data['uuid'])
+                    if not is_valid:
+                        self.errors.append(ValidationError(
+                            'error', 'uuid_derivation', 'materials', material_slug,'Invalid UUID'
+                        ))
             except (ValueError, TypeError):
                 # UUID format validation will catch this
                 pass
@@ -349,11 +370,20 @@ class JsonSchemaValidator:
             try:
                 brand_uuid = uuid.UUID(brand_data['uuid'])
                 expected_uuid = generate_material_package_uuid(brand_uuid, package_data['gtin'])
-                is_valid = expected_uuid == uuid.UUID(package_data['uuid'])
-                if not is_valid:
+                if 'uuid' not in package_data:
+                    file_path = self._find_yaml_file('material-packages', package_slug)
+                    if file_path:
+                        self._write_uuid_to_yaml_file(file_path, str(expected_uuid))
                     self.errors.append(ValidationError(
-                        'error', 'uuid_derivation', 'material-packages', package_slug, 'Invalid UUID'
+                        'info', 'uuid_generated', 'material-packages', package_slug,
+                        f'UUID auto-generated: {expected_uuid}'
                     ))
+                else:
+                    is_valid = expected_uuid == uuid.UUID(package_data['uuid'])
+                    if not is_valid:
+                        self.errors.append(ValidationError(
+                            'error', 'uuid_derivation', 'material-packages', package_slug, 'Invalid UUID'
+                        ))
             except (ValueError, TypeError):
                 # UUID format validation will catch this
                 pass
