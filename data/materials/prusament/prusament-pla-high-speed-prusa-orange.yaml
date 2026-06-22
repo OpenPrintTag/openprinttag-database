@@ -1,0 +1,25 @@
+uuid: 95ef509e-ff68-54d4-94bf-126cf637ddd2
+slug: prusament-pla-high-speed-prusa-orange
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA High Speed Prusa Orange
+abbreviation: PLA
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#ff6600ff'
+tags:
+- industrially_compostable
+- high_speed
+- bio_based
+- biocompatible
