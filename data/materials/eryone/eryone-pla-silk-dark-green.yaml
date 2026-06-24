@@ -1,0 +1,21 @@
+uuid: 852c8b00-0268-5f31-8bab-a2aa4663bc90
+slug: eryone-pla-silk-dark-green
+brand:
+  slug: eryone
+name: PLA Silk Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dark-green/PLA-Silk-Filament-4.jpg?v=1767680110
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

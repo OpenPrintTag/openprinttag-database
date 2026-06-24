@@ -1,0 +1,20 @@
+uuid: 3788cd00-9541-5154-aca4-ca317c972c7c
+slug: printonion-tpu-95a-blue
+brand:
+  slug: printonion
+name: TPU 95A Blue
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#473fc9ff'
+properties:
+  density: 1.21
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-tpu-95a-blue/printonion-tpu-95a-blue-0-b2cbbaee.jpg
+  type: unspecified

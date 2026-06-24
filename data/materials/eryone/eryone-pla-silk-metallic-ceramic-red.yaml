@@ -1,0 +1,21 @@
+uuid: 52c126b4-37bb-5ece-932a-3b428a70a79e
+slug: eryone-pla-silk-metallic-ceramic-red
+brand:
+  slug: eryone
+name: PLA Silk Metallic Ceramic Red
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-metallic-ceramic-red/1-1-800.png?v=1766407146
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

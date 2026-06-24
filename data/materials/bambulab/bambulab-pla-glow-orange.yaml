@@ -9,13 +9,20 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ff9d5bff'
 secondary_colors:
-- color_rgba: '#f8ff80ff'
+  - color_rgba: '#f8ff80ff'
 tags:
-- glow_in_the_dark
-- abrasive
-- industrially_compostable
-- illuminescent_color_change
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pla-glow-orange/b6d854523495.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pla-glow-orange/b6d854523495.png
+    type: unspecified
+properties:
+  density: 1.26
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45

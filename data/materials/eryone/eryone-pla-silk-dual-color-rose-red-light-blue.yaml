@@ -1,0 +1,25 @@
+uuid: 12dd37f9-554d-5eaf-862f-1526c21f1db0
+slug: eryone-pla-silk-dual-color-rose-red-light-blue
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Rose Red Light Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#d864c7ff'
+- color_rgba: '#779bf9ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-rose-red-light-blue/PLA-Silk-2-Color-Filament-9.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

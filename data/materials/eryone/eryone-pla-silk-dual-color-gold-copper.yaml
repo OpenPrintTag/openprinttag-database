@@ -1,0 +1,25 @@
+uuid: 0199cb41-59b3-5fbe-a9cc-261c889dc3f6
+slug: eryone-pla-silk-dual-color-gold-copper
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Gold Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#d5983aff'
+- color_rgba: '#a84815ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-gold-copper/PLA-Silk-Dual-Color-Filament-23.png?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

@@ -8,7 +8,17 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#9f563eff'
+tags:
+- high_speed
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-rapid-petg-brown/988502b54078.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 200

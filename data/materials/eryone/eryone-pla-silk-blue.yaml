@@ -1,0 +1,23 @@
+uuid: bf4d4050-45f1-58ab-a05e-82bf60105d9d
+slug: eryone-pla-silk-blue
+brand:
+  slug: eryone
+name: PLA Silk Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#62a9d3ff'
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-blue/PLA-Silk-Filament-2.jpg?v=1767680110
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

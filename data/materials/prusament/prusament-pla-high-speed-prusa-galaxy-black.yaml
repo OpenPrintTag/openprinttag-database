@@ -1,0 +1,26 @@
+uuid: d185f02c-54b4-5a5d-b00c-cc26e74b3162
+slug: prusament-pla-high-speed-prusa-galaxy-black
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA High Speed Prusa Galaxy Black
+abbreviation: PLA
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#292929ff'
+tags:
+- industrially_compostable
+- glitter
+- high_speed
+- bio_based
+- biocompatible

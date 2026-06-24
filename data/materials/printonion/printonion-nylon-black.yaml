@@ -1,0 +1,24 @@
+uuid: 720f5d62-f6de-56e1-be7d-3231b4466bd2
+slug: printonion-nylon-black
+brand:
+  slug: printonion
+name: Nylon Black
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#141414ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.17
+  min_print_temperature: 230
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-nylon-black/printonion-nylon-black-0-67eca599.jpg
+  type: unspecified

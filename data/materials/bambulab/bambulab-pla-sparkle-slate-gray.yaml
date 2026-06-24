@@ -7,11 +7,18 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#6f727eff'
+  color_rgba: '#8e9089ff'
 tags:
-- glitter
-- industrially_compostable
+  - glitter
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pla-sparkle-slate-gray/3e5cde79eba2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pla-sparkle-slate-gray/3e5cde79eba2.png
+    type: unspecified
+properties:
+  density: 1.26
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45

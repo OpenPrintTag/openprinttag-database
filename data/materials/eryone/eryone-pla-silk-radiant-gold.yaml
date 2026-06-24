@@ -1,0 +1,21 @@
+uuid: 0c3bea09-6f7e-59d0-a36f-5ca17a86a217
+slug: eryone-pla-silk-radiant-gold
+brand:
+  slug: eryone
+name: PLA Silk Radiant Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-radiant-gold/1-800_e1ee7852-8eef-45dc-9f4c-3bc53723fe95.png?v=1770000845
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

@@ -1,0 +1,25 @@
+uuid: 222d9a8c-a434-5632-901b-6223e37316cd
+slug: eryone-pla-silk-dual-color-midnight-blue-silver
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Midnight Blue Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#191970ff'
+- color_rgba: '#c0c0c0ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-midnight-blue-silver/e6dab045ef4a307322ce76a737affbf7.jpg?v=1751479819
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

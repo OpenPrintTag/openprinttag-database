@@ -1,0 +1,22 @@
+uuid: 32943651-fdbd-5297-87de-262f6e6c3988
+slug: eryone-pla-silk-dual-color-gold-blue
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Gold Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-gold-blue/PLA-Silk-Dual-Color-Filament-11.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

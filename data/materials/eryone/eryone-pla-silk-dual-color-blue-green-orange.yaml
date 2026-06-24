@@ -1,0 +1,22 @@
+uuid: 73e7366c-785c-5ad9-ba32-3ef7dcb88a4f
+slug: eryone-pla-silk-dual-color-blue-green-orange
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Blue Green Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-blue-green-orange/PLA-Silk-Dual-Color-Filament-13.jpg?v=1774937074
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

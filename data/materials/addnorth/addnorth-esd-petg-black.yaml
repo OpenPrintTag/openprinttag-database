@@ -18,3 +18,5 @@ properties:
   max_print_temperature: 270
   min_bed_temperature: 80
   max_bed_temperature: 85
+  drying_temperature: 65
+  drying_time: 360

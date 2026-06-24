@@ -1,0 +1,22 @@
+uuid: 7b8db870-f61d-5c05-8f28-0e345f867c4b
+slug: eryone-pla-silk-triple-color-twisted-rainbow-shadow-black-blue-purple
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Twisted Rainbow Shadow Black Blue Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-twisted-rainbow-shadow-black-blue-purple/3d-filament-pla-4.jpg?v=1770105710
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

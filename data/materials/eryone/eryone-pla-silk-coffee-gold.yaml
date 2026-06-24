@@ -1,0 +1,23 @@
+uuid: b7671004-9af8-518a-95a4-b7cfce600c3f
+slug: eryone-pla-silk-coffee-gold
+brand:
+  slug: eryone
+name: PLA Silk Coffee Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cc947bff'
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-coffee-gold/B0102435.jpg?v=1781686729
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

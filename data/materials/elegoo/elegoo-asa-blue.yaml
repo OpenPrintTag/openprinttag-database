@@ -1,0 +1,24 @@
+uuid: 2e4e1361-a760-5757-8a22-43da47a82d02
+slug: elegoo-asa-blue
+brand:
+  slug: elegoo
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#0c2388ff'
+photos:
+- url: https://files.openprinttag.org/elegoo/elegoo-asa-blue/ASA_1KG_1.75mm_784848d6-e69f-421e-9354-61cda2822ec0.jpg?v=1769592863
+  type: unspecified
+properties:
+  density: 1.09
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60
+  drying_temperature: 80
+  drying_time: 480
+  min_nozzle_diameter: 200

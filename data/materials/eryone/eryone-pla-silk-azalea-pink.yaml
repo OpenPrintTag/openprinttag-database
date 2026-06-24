@@ -1,0 +1,21 @@
+uuid: 55704276-758d-5bc8-8e93-08c5bc629f48
+slug: eryone-pla-silk-azalea-pink
+brand:
+  slug: eryone
+name: PLA Silk Azalea Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-azalea-pink/1-800_4de8aed5-d351-40c6-bb0d-c741e6b216f2.jpg?v=1781737926
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

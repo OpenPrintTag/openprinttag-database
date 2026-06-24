@@ -1,0 +1,20 @@
+uuid: 5444f0e8-d4e8-5618-ad33-44db4c852498
+slug: printonion-tpu-70d-black
+brand:
+  slug: printonion
+name: TPU 70D Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#141414ff'
+properties:
+  density: 1.21
+  hardness_shore_d: 70.0
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-tpu-70d-black/printonion-tpu-70d-black-0-b5d70f9b.jpg
+  type: unspecified

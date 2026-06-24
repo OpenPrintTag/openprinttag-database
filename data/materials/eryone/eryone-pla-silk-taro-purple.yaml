@@ -1,0 +1,21 @@
+uuid: 8aa25963-22c3-5fba-afa7-dc166ce1a578
+slug: eryone-pla-silk-taro-purple
+brand:
+  slug: eryone
+name: PLA Silk Taro Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-taro-purple/B0102431.jpg?v=1781686700
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480
