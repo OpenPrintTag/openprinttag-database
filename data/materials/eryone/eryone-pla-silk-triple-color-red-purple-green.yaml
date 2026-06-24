@@ -1,0 +1,26 @@
+uuid: 55cb5ab7-7aa7-5fba-a7cc-9a101850fc3e
+slug: eryone-pla-silk-triple-color-red-purple-green
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Red Purple Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff0000ff'
+- color_rgba: '#8c15b7ff'
+- color_rgba: '#1dfa00ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-red-purple-green/3d-filament-pla-65.jpg?v=1774937086
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

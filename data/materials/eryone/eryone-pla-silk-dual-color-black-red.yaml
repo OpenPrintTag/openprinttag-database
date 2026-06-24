@@ -1,0 +1,25 @@
+uuid: 66fa4e0f-67cd-5d7b-ae7c-222380575735
+slug: eryone-pla-silk-dual-color-black-red
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Black Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#700000ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-black-red/PLA-Silk-Dual-Color-Filament-1.jpg?v=1774937074
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

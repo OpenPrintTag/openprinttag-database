@@ -1,0 +1,22 @@
+uuid: 1f729349-b553-553e-985d-731506ac72f0
+slug: eryone-pla-silk-dual-color-black-dark-green
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Black Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-black-dark-green/PLA-Silk-Dual-Color-Filament-8.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

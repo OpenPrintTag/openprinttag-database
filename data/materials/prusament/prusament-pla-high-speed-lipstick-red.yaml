@@ -1,0 +1,25 @@
+uuid: 4a9c7c08-2cb5-57f9-bc82-a7a23bcf6fac
+slug: prusament-pla-high-speed-lipstick-red
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA High Speed Lipstick Red
+abbreviation: PLA
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#ff0000ff'
+tags:
+- industrially_compostable
+- high_speed
+- bio_based
+- biocompatible

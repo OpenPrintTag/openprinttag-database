@@ -1,0 +1,25 @@
+uuid: 7542c84c-5606-5174-aa9f-215de89e5855
+slug: prusament-pla-high-speed-pristine-white
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA High Speed Pristine White
+abbreviation: PLA
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- industrially_compostable
+- high_speed
+- bio_based
+- biocompatible

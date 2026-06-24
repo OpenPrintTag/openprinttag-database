@@ -1,18 +1,26 @@
-uuid: 7d004164-0ec9-5a35-96c9-327491781416
+uuid: c7b5c997-4b87-5573-901a-6fb648eb65c5
 slug: bambulab-pla-cf-royal-blue
 brand:
   slug: bambulab
-name: PLA- CF Royal Blue
+name: PLA-CF Royal Blue
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#1e2c73ff'
+  color_rgba: '#2842adff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pla-cf-royal-blue/9c08036ab819.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pla-cf-royal-blue/9c08036ab819.png
+    type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45

@@ -1,0 +1,19 @@
+uuid: a6acb296-42c8-5808-ba68-f6b495afbbad
+slug: printonion-tpu-95a-red
+brand:
+  slug: printonion
+name: TPU 95A Red
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f71818ff'
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-tpu-95a-red/printonion-tpu-95a-red-0-c47d2f6f.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: cdaa7663-df2a-57da-9a52-795eb45b713d
+slug: eryone-pla-silk-lake-blue
+brand:
+  slug: eryone
+name: PLA Silk Lake Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-lake-blue/1-800_d4a785cf-ce39-4a2b-be1c-607754e83154.jpg?v=1781737868
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

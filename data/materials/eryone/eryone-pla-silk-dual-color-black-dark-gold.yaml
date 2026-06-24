@@ -1,0 +1,22 @@
+uuid: 0e7a541d-e8b0-51e1-a8e5-d497adf3cadb
+slug: eryone-pla-silk-dual-color-black-dark-gold
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Black Dark Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-black-dark-gold/PLA-Silk-Dual-Color-Filament-2.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

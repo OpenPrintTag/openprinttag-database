@@ -1,0 +1,10 @@
+uuid: 87ece0d6-d917-5b7a-af54-0cb6060985c6
+slug: prusament-pla-high-speed-prusa-galaxy-black-1000-spool
+class: FFF
+gtin: 8594173676886
+container:
+  slug: prusament-spool-1kg
+material:
+  slug: prusament-pla-high-speed-prusa-galaxy-black
+nominal_netto_full_weight: 1000
+filament_diameter: 1750

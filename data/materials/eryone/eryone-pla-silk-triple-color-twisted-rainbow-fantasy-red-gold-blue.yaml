@@ -1,0 +1,22 @@
+uuid: 55440a66-1696-5371-a204-519594ec3082
+slug: eryone-pla-silk-triple-color-twisted-rainbow-fantasy-red-gold-blue
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Twisted Rainbow Fantasy Red Gold Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-twisted-rainbow-fantasy-red-gold-blue/PLA_Silk_Triple-Color_Filament_-_1.75mm-2.jpg?v=1770105710
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

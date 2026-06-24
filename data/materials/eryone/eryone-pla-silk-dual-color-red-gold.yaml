@@ -1,0 +1,25 @@
+uuid: b091b7a2-1b13-54e2-a791-663addcb1bbc
+slug: eryone-pla-silk-dual-color-red-gold
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Red Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#d20f0fff'
+- color_rgba: '#d5983aff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-red-gold/PLA-Silk-Dual-Color-Filament-22.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

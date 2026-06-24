@@ -11,4 +11,14 @@ primary_color:
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-asa-white/0ee4ff1bedd9.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.09
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60
+  drying_temperature: 80
+  drying_time: 480
+  min_nozzle_diameter: 200
