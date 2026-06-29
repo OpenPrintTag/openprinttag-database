@@ -1,6 +1,10 @@
+uuid: 50102204-1a60-501a-8c36-ceca2f45095c
 slug: esun-petg-cf-antique-brass-1kg
 class: FFF
 material:
   slug: esun-petg-cf-antique-brass
 nominal_netto_full_weight: 1000
+gtin: 6922572206496
+container:
+  slug: esun-plastic-spool-transparent-1kg
 filament_diameter: 1750
