@@ -1,0 +1,24 @@
+uuid: 437e8678-2a92-57a7-88d3-b3ca75b15ed5
+slug: polymaker-pla-pro-blue
+brand:
+  slug: polymaker
+name: PLA Pro Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3145adff'
+tags:
+- high_speed
+- industrially_compostable
+properties:
+  density: 1.237
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-pla-pro-blue/polymaker-pla-pro-blue-0-9519cf76.jpg
+  type: unspecified

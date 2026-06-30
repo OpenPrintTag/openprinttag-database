@@ -1,0 +1,24 @@
+uuid: 5fb5a1d4-dbc8-58de-bd4e-a2e214f1bbc9
+slug: polymaker-pla-pro-polymaker-teal
+brand:
+  slug: polymaker
+name: 'PLA Pro Polymaker Teal '
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#94f1f2ff'
+tags:
+- high_speed
+- industrially_compostable
+properties:
+  density: 1.237
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-pla-pro-polymaker-teal/polymaker-pla-pro-polymaker-teal-0-d3157fac.jpg
+  type: unspecified

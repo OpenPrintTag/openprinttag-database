@@ -1,0 +1,23 @@
+uuid: a49e30d8-7454-5545-9c9a-eef14a4e94e3
+slug: polymaker-polylite-pla-wine-red
+brand:
+  slug: polymaker
+name: PolyLite™ PLA Wine Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d60212ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.17
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polylite-pla-wine-red/polymaker-polylite-pla-wine-red-0-b4caa5ed.jpg
+  type: unspecified

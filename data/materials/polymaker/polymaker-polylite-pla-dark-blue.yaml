@@ -9,8 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#033877ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polylite-pla-dark-blue/19609c2a7608.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polylite-pla-dark-blue/19609c2a7608.png
+    type: unspecified
 properties: {}
