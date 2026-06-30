@@ -1,18 +1,17 @@
-uuid: 1a04c92d-df54-5cf9-b429-0cce73ec18ba
-slug: voxel-pla-pla-hs-pro-sky-blue
+uuid: 626089fe-096e-5c53-acda-2f027faf74b2
+slug: voxel-pla-pla-hs-pro-dark-brown
 brand:
   slug: voxel-pla
-name: PLA+ HS (Pro) Sky Blue
+name: PLA+ HS (Pro) Dark Brown
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#39b9dbff'
+  color_rgba: '#5c3018ff'
 tags:
-- industrially_compostable
 - high_speed
 photos:
-- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-sky-blue/0c644ab4357b.png
+- url: https://cdn.shopify.com/s/files/1/0632/8614/9338/files/IMG_7672-Edit.jpg?v=1778141035
   type: unspecified
 properties:
   density: 1.23
