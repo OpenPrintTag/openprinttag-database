@@ -1,0 +1,24 @@
+uuid: 3dac9ee7-9c51-52fb-91e1-230a2dc93b16
+slug: polymaker-pla-pro-metallic-gold
+brand:
+  slug: polymaker
+name: PLA Pro Metallic Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f4ac23ff'
+tags:
+- high_speed
+- industrially_compostable
+properties:
+  density: 1.237
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-pla-pro-metallic-gold/polymaker-pla-pro-metallic-gold-0-ab8e9078.jpg
+  type: unspecified

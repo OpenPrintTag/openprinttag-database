@@ -9,10 +9,10 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#fe8e1bff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polymax-pla-orange/polymaker-polymax-pla-orange-0-7cea5d76.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polymax-pla-orange/polymaker-polymax-pla-orange-0-7cea5d76.jpg
+    type: unspecified
 properties:
   min_print_temperature: 190
   max_print_temperature: 230

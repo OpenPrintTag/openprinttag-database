@@ -9,11 +9,11 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#a66301ff'
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-gold/polymaker-polylite-metallic-pla-pro-gold-0-69a57ceb.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-gold/polymaker-polylite-metallic-pla-pro-gold-0-69a57ceb.jpg
+    type: unspecified
 properties:
   density: 1.22
   min_print_temperature: 190

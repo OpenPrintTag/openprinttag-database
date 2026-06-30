@@ -1,0 +1,24 @@
+uuid: 60a1aee6-18f8-5ddb-934f-c7dd919b922b
+slug: polymaker-pla-pro-pink
+brand:
+  slug: polymaker
+name: PLA Pro Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f2bdd0ff'
+tags:
+- high_speed
+- industrially_compostable
+properties:
+  density: 1.237
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-pla-pro-pink/polymaker-pla-pro-pink-0-8f2b8eee.jpg
+  type: unspecified
