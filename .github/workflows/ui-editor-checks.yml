@@ -31,13 +31,13 @@ jobs:
         if: steps.check-changes.outputs.ui-editor == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Setup pnpm
         if: steps.check-changes.outputs.ui-editor == 'true'
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          package_json_file: ui-editor/package.json
 
       - name: Get pnpm store directory
         if: steps.check-changes.outputs.ui-editor == 'true'
