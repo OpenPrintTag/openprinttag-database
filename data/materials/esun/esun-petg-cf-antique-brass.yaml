@@ -15,6 +15,12 @@ tags:
 - contains_carbon
 properties:
   density: 1.26
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+  drying_temperature: 65
+  drying_time: 480
 photos:
 - url: https://files.openprinttag.org/esun/esun-petg-cf-antique-brass/esun-petg-cf-antique-brass-0-35f0c2dc.jpg
   type: unspecified

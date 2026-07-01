@@ -1,6 +1,10 @@
+uuid: 2ee642fc-3321-5e0a-b58f-48670049163c
 slug: esun-petg-cf-black-red-1kg
 class: FFF
 material:
   slug: esun-petg-cf-black-red
 nominal_netto_full_weight: 1000
+gtin: 6922572206472
+container:
+  slug: esun-plastic-spool-transparent-1kg
 filament_diameter: 1750

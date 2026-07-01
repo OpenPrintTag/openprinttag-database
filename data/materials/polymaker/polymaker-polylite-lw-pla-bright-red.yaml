@@ -1,0 +1,24 @@
+uuid: bf008f71-d883-5e0f-b843-8aaeaf24fe66
+slug: polymaker-polylite-lw-pla-bright-red
+brand:
+  slug: polymaker
+name: PolyLite™ LW-PLA Bright Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d60212ff'
+tags:
+- foaming
+- industrially_compostable
+properties:
+  density: 0.9
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polylite-lw-pla-bright-red/polymaker-polylite-lw-pla-bright-red-0-e5a1e0f2.png
+  type: unspecified

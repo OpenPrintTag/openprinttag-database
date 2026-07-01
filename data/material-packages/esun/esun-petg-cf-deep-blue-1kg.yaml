@@ -1,6 +1,10 @@
+uuid: 79d4241d-35ba-53a9-b516-e638dbfb5e85
 slug: esun-petg-cf-deep-blue-1kg
 class: FFF
 material:
   slug: esun-petg-cf-deep-blue
 nominal_netto_full_weight: 1000
+gtin: 6922572206458
+container:
+  slug: esun-plastic-spool-transparent-1kg
 filament_diameter: 1750

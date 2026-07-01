@@ -1,0 +1,27 @@
+uuid: b3e3fdf8-02f8-5267-9a7b-51f3407ea3bb
+slug: polymaker-ht-pla-gradient-tropical
+brand:
+  slug: polymaker
+name: HT-PLA Gradient Tropical
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#de1619ff'
+- color_rgba: '#01e041ff'
+- color_rgba: '#f3e600ff'
+tags:
+- gradual_color_change
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.287
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gradient-tropical/polymaker-ht-pla-gradient-tropical-0-19637deb.jpg
+  type: unspecified

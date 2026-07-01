@@ -7,11 +7,18 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#4c4e56ff'
+  color_rgba: '#2f2e30ff'
 tags:
-- foaming
-- industrially_compostable
+  - foaming
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polylite-lw-pla-black/ad6ce11207ca.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polylite-lw-pla-black/ad6ce11207ca.png
+    type: unspecified
+properties:
+  density: 0.9
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

@@ -1,0 +1,27 @@
+uuid: d8fb629d-2940-547d-90e7-9fa236e45b6e
+slug: polymaker-ht-pla-gf-power-tool-green
+brand:
+  slug: polymaker
+name: HT-PLA-GF Power Tool Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cecf45ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.337
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gf-power-tool-green/polymaker-ht-pla-gf-power-tool-green-0-4bae6af7.jpg
+  type: unspecified

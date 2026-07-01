@@ -1,0 +1,27 @@
+uuid: 44172a36-0474-5804-afec-5f0b50dcd3ea
+slug: polymaker-ht-pla-gf-army-green
+brand:
+  slug: polymaker
+name: HT-PLA-GF Army Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#61583cff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.337
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gf-army-green/polymaker-ht-pla-gf-army-green-0-b370c0bb.jpg
+  type: unspecified

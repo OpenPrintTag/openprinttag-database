@@ -1,0 +1,27 @@
+uuid: f5167fe1-7c34-50d8-b4eb-34392d882ccb
+slug: polymaker-ht-pla-gf-power-tool-teal
+brand:
+  slug: polymaker
+name: HT-PLA-GF Power Tool Teal
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#215966ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.337
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gf-power-tool-teal/polymaker-ht-pla-gf-power-tool-teal-0-d461413d.jpg
+  type: unspecified
