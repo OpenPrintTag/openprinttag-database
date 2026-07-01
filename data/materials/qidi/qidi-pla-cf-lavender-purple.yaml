@@ -10,11 +10,10 @@ url: https://us.qidi3d.com/products/pla-cf?variant=50737678287168
 primary_color:
   color_rgba: '#660066ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties: {}
 photos:
-- url: https://files.openprinttag.org/qidi/qidi-pla-cf-lavender-purple/qidi-pla-cf-lavender-purple-0-c667b7a0.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/qidi/qidi-pla-cf-lavender-purple/qidi-pla-cf-lavender-purple-0-c667b7a0.jpg
+    type: unspecified

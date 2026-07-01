@@ -10,13 +10,12 @@ url: https://store.anycubic.com/products/pla-cf-filament?variant=46683424129186
 primary_color:
   color_rgba: '#18332fff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- industrially_compostable
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties:
   density: 1.22
 photos:
-- url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-jade-green/anycubic-pla-cf-jade-green-0-004fc75f.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-jade-green/anycubic-pla-cf-jade-green-0-004fc75f.jpg
+    type: unspecified

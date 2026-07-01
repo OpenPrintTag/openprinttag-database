@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#795b65ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/flashforge/flashforge-pla-cf-dusty-pink/3a916e332e5d.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/flashforge/flashforge-pla-cf-dusty-pink/3a916e332e5d.jpg
+    type: unspecified
 properties: {}
