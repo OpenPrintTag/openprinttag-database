@@ -10,7 +10,6 @@ url: https://www.matter3d.com/collections/pla-filament/products/carbon-fiber-pla
 primary_color:
   color_rgba: '#232323ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

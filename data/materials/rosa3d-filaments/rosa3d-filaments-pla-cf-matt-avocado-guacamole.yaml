@@ -10,8 +10,7 @@ url: https://www.rosa3d.pl/en/filament-3d-refill-pla-cf-matt-avocado-guacamole-1
 primary_color:
   color_rgba: '#70a641ff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - matte
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

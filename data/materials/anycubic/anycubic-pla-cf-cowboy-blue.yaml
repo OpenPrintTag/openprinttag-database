@@ -10,13 +10,12 @@ url: https://store.anycubic.com/products/pla-cf-filament?_sasdk=dMTk4MDgyYmJhMDg
 primary_color:
   color_rgba: '#6987bcff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- industrially_compostable
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties:
   density: 1.22
 photos:
-- url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-cowboy-blue/anycubic-pla-cf-cowboy-blue-0-8596e3da.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-cowboy-blue/anycubic-pla-cf-cowboy-blue-0-8596e3da.jpg
+    type: unspecified

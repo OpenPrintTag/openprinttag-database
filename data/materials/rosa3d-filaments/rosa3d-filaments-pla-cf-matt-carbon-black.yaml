@@ -10,8 +10,7 @@ url: https://www.rosa3d.pl/en/3d-filament-refill-pla-cf-matt-carbon-black-1kg
 primary_color:
   color_rgba: '#3e413fff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - matte
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

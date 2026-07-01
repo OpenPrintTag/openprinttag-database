@@ -10,11 +10,10 @@ url: https://numakers.com/products/pla-cf?variant=48035623731508
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties: {}
 photos:
-- url: https://files.openprinttag.org/numakers/numakers-pla-cf-black/numakers-pla-cf-black-0-1997b2d8.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/numakers/numakers-pla-cf-black/numakers-pla-cf-black-0-1997b2d8.jpg
+    type: unspecified

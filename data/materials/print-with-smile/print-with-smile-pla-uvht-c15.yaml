@@ -10,7 +10,6 @@ url: https://printwithsmile.cz/gb/3d-filamenty/393-pla-uvht-c15-500-g-8594196459
 primary_color:
   color_rgba: '#2a3940ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

@@ -10,8 +10,7 @@ url: https://www.rosa3d.pl/en/filament-3d-refill-pla-cf-matt-olive-brown-175mm-1
 primary_color:
   color_rgba: '#837e68ff'
 tags:
-- contains_carbon_fiber
-- matte
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - matte
+  - abrasive
 properties: {}

@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#5a696cff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/amolen/amolen-pla-carbon-fiber-dark-grey/b13a518a5432.png
-  type: unspecified
+  - url: https://files.openprinttag.org/amolen/amolen-pla-carbon-fiber-dark-grey/b13a518a5432.png
+    type: unspecified
 properties: {}

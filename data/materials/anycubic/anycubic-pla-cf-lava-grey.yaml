@@ -10,13 +10,12 @@ url: https://store.anycubic.com/products/pla-cf-filament?variant=46679783735458
 primary_color:
   color_rgba: '#4e5055ff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- industrially_compostable
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties:
   density: 1.22
 photos:
-- url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-lava-grey/anycubic-pla-cf-lava-grey-0-a37f2032.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/anycubic/anycubic-pla-cf-lava-grey/anycubic-pla-cf-lava-grey-0-a37f2032.jpg
+    type: unspecified

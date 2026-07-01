@@ -10,8 +10,7 @@ url: https://www.rosa3d.pl/en/filament-3d-refill-pla-cf-matt-hibiscus-pink-1kg
 primary_color:
   color_rgba: '#bf5a6bff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - matte
+  - contains_carbon_fiber
+  - abrasive
 properties: {}
