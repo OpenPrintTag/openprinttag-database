@@ -1,0 +1,25 @@
+uuid: 1e9fc17a-5854-5e0b-93a6-48256cda00fd
+slug: anycubic-pla-silk-dual-color-pink-gold
+brand:
+  slug: anycubic
+name: PLA Silk Dual Color Pink Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f67599ff'
+- color_rgba: '#f2a900ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://cdn.shopify.com/s/files/1/0245/5519/2380/files/PLA_Silk_Dual-Tri_gold_pink_1.jpg?v=1775030826
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480
