@@ -21,5 +21,4 @@ properties:
   density: 1.24
   min_print_temperature: 205
   max_print_temperature: 225
-  min_bed_temperature: 0
   max_bed_temperature: 60
