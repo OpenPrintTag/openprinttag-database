@@ -1,0 +1,21 @@
+uuid: 7abd5c42-27ce-58de-a275-a77044e9a6ae
+slug: polymaker-panchroma-basic-pla-azure-blue
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Azure Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0066d9ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-basic-pla-azure-blue-0-0b1e9339.jpg
+    type: unspecified

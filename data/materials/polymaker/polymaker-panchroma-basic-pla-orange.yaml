@@ -1,0 +1,21 @@
+uuid: 61400a56-1f5b-5856-9f00-a89cc65d8021
+slug: polymaker-panchroma-basic-pla-orange
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-basic-pla-orange-0-92561a21.jpg
+    type: unspecified

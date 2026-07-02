@@ -1,0 +1,21 @@
+uuid: f577671f-c1c8-5060-9b80-b4d9bd838e32
+slug: polymaker-panchroma-basic-pla-purple
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6c47b2ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-basic-pla-purple-0-f2d167ca.jpg
+    type: unspecified

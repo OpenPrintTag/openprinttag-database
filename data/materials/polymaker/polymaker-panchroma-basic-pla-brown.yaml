@@ -1,0 +1,21 @@
+uuid: 208f5665-bf26-5c7c-8cbf-3a635a5c3707
+slug: polymaker-panchroma-basic-pla-brown
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#55331aff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-basic-pla-brown-0-942c830c.jpg
+    type: unspecified
