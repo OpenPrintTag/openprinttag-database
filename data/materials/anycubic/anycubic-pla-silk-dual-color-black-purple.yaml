@@ -1,0 +1,25 @@
+uuid: fa84ab5a-ab74-5784-9544-5723b303399d
+slug: anycubic-pla-silk-dual-color-black-purple
+brand:
+  slug: anycubic
+name: PLA Silk Dual Color Black Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#212721ff'
+- color_rgba: '#7249c7ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-pla-silk-dual-color-black-purple/PLA_Silk_Dual-Tri_black_purple_1.jpg?v=1775030826
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480
