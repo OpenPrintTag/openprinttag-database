@@ -1,5 +1,10 @@
 import { EnumItem } from '~/hooks/useEnum';
 
+export interface MaterialColor {
+  color_rgba: string;
+  color_lab?: [number, number, number];
+}
+
 export interface Material {
   uuid?: string;
   slug?: string;
@@ -10,8 +15,8 @@ export interface Material {
   class?: string;
   abbreviation?: string;
   url?: string;
-  primary_color?: { color_rgba: string } | string;
-  secondary_colors?: ({ color_rgba: string } | string)[];
+  primary_color?: MaterialColor | string;
+  secondary_colors?: (MaterialColor | string)[];
   tags?: string[];
   certifications?: any[];
   photos?: any[];
