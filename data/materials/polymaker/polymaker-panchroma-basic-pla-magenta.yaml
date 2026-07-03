@@ -1,0 +1,21 @@
+uuid: 13948784-aa7d-5fe1-8bdd-0de347f1b517
+slug: polymaker-panchroma-basic-pla-magenta
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f24574ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-basic-pla-magenta/polymaker-panchroma-basic-pla-magenta-0-45ba5d07.jpg
+  type: unspecified
