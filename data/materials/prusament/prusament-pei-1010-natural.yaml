@@ -6,12 +6,11 @@ name: PEI 1010 Natural
 class: FFF
 type: PEI
 abbreviation: PEI
-url: https://www.prusa3d.com/product/prusament-pei-1010-natural-500g/
 primary_color:
   color_rgba: '#e8ca51ff'
 tags:
-- without_pigments
-- low_outgassing
+  - without_pigments
+  - low_outgassing
 properties:
   density: 1.27
   hardness_shore_d: 83
@@ -24,5 +23,5 @@ properties:
   min_chamber_temperature: 90
   max_chamber_temperature: 175
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pei-1010-natural/prusament-pei-1010-natural-0-69bfb018.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pei-1010-natural/prusament-pei-1010-natural-0-69bfb018.jpg
+    type: unspecified

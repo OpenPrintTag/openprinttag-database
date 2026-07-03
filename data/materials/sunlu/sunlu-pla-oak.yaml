@@ -1,0 +1,21 @@
+uuid: ea274cab-1d37-5ff6-a83d-df7229095dd9
+slug: sunlu-pla-oak
+brand:
+  slug: sunlu
+name: PLA Oak
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c2b29aff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-oak/e653fba2-6b12-486a-aa13-eee630f8df14.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

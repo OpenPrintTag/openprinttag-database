@@ -1,0 +1,21 @@
+uuid: 5a6e0199-7d89-55bc-b98e-481cc66db274
+slug: printonion-asa-blue
+brand:
+  slug: printonion
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#0f57ffff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-blue/printonion-asa-blue-0-306cb6de.jpg
+  type: unspecified

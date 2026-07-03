@@ -1,0 +1,25 @@
+uuid: c43cae33-9ac8-5637-b38f-05c626f89084
+slug: eryone-pla-silk-dual-color-red-green
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Red Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#fa0000ff'
+- color_rgba: '#0b6a16ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-red-green/PLA-Silk-Dual-Color-Filament-7.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

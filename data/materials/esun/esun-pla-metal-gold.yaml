@@ -10,10 +10,10 @@ url: https://esun3dstoreeu.com/products/epla-metal?VariantsId=12157
 primary_color:
   color_rgba: '#ddb95dff'
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
+  - industrially_compostable
 properties:
   density: 1.225
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-metal-gold/esun-pla-metal-gold-0-0410647b.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-metal-gold/esun-pla-metal-gold-0-0410647b.jpg
+    type: unspecified

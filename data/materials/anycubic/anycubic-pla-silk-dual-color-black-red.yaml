@@ -1,0 +1,25 @@
+uuid: e13492d3-6bc1-5b6f-a31c-2f42bd5c64d6
+slug: anycubic-pla-silk-dual-color-black-red
+brand:
+  slug: anycubic
+name: PLA Silk Dual Color Black Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#212721ff'
+- color_rgba: '#d22630ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-pla-silk-dual-color-black-red/PLA_Silk_Dual-Tri_black_red_1.jpg?v=1775030826
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

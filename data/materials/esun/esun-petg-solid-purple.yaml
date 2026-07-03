@@ -6,9 +6,12 @@ name: PETG Solid Purple
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://esun3dstoreeu.com/products/petg?VariantsId=12123
 primary_color:
   color_rgba: '#663d7eff'
+properties:
+  density: 1.27
+  hardness_shore_d: 0.0
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-purple/104400ed5a6b.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-purple/104400ed5a6b.jpg
+    type: unspecified

@@ -1,0 +1,22 @@
+uuid: 8a022e79-53ff-57b0-89e9-fc949bac0963
+slug: polymaker-polymax-pla-green
+brand:
+  slug: polymaker
+name: PolyMax™ PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#31a45fff'
+tags:
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polymax-pla-green/polymaker-polymax-pla-green-0-0f4e292a.png
+  type: unspecified

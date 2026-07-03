@@ -7,8 +7,17 @@ class: FFF
 type: ASA
 abbreviation: ASA
 primary_color:
-  color_rgba: '#9fa4a8ff'
+  color_rgba: '#8a949eff'
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-asa-gray/988439ac63f4.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-asa-gray/988439ac63f4.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60
+tags:
+  - filtration_recommended

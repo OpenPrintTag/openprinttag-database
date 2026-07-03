@@ -1,0 +1,21 @@
+uuid: 276577b4-c1b2-54d8-a68e-b86bbdf119d7
+slug: eryone-pla-silk-pale-creamy-yellow
+brand:
+  slug: eryone
+name: PLA Silk Pale Creamy Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-pale-creamy-yellow/B0102433.jpg?v=1781686714
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

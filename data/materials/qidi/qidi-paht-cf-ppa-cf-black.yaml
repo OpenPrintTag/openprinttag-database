@@ -1,0 +1,22 @@
+uuid: f5964288-457b-52a9-a447-a0970d0a1317
+slug: qidi-paht-cf-ppa-cf-black
+brand:
+  slug: qidi
+name: PAHT-CF (PPA-CF) Black
+class: FFF
+type: PPA
+abbreviation: PPA
+url: https://us.qidi3d.com/products/qidi-paht-cf-carbon-fiber-filament
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- high_temperature
+- filtration_recommended
+properties:
+  density: 1.2
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-paht-cf-ppa-cf-black/qidi-paht-cf-ppa-cf-black-0-f2af7a2b.jpg
+  type: unspecified

@@ -5,7 +5,7 @@ brand:
 name: PC Blend Carbon Fiber Black
 class: FFF
 type: PC
-abbreviation: PC
+abbreviation: PCCF
 primary_color:
   color_rgba: '#262727ff'
 transmission_distance: 0.1
@@ -13,6 +13,7 @@ tags:
 - contains_carbon_fiber
 - blend
 - abrasive
+- contains_carbon
 photos:
 - url: https://files.openprinttag.org/prusament/prusament-pc-blend-carbon-fiber-black/f8968d48c87a.png
   type: unspecified

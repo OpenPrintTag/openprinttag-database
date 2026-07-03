@@ -1,0 +1,21 @@
+uuid: 09e6cb5a-4ed4-5b10-8efb-9bb076672f9a
+slug: printonion-pla-gray
+brand:
+  slug: printonion
+name: PLA Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#787882ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-gray/printonion-pla-gray-0-28aeb69f.jpg
+  type: unspecified

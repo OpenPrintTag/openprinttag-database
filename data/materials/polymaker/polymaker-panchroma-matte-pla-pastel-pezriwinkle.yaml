@@ -1,8 +1,8 @@
-uuid: fd0132a3-8e70-55d7-b97f-27e6f67bc8d5
+uuid: d492940e-09a4-5db7-9983-33acc8453f23
 slug: polymaker-panchroma-matte-pla-pastel-pezriwinkle
 brand:
   slug: polymaker
-name: Panchroma™ Matte PLA Pastel Pezriwinkle
+name: Panchroma™ Matte PLA Pastel Periwinkle
 class: FFF
 type: PLA
 abbreviation: PLA
@@ -14,4 +14,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-matte-pla-pastel-pezriwinkle/78d93f959f02.png
   type: unspecified
-properties: {}
+transmission_distance: 1.5
+properties:
+  density: 1.37
+  drying_temperature: 55
+  drying_time: 360
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60

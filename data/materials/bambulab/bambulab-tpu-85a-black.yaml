@@ -6,8 +6,17 @@ name: TPU 85A Black
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=682714606946189336
 primary_color:
   color_rgba: '#24292aff'
 properties:
-  hardness_shore_a: 85
+  density: 1.18
+  hardness_shore_a: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-tpu-85a-black/bambulab-tpu-85a-black-0-ad38fd2c.png
+  type: unspecified

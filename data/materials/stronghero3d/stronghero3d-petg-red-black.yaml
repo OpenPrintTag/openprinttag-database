@@ -1,0 +1,18 @@
+uuid: 2c0b4a57-c92f-50d4-a6e9-201e3ed2173d
+slug: stronghero3d-petg-red-black
+brand:
+  slug: stronghero3d
+name: PETG Red Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0D2D9ZVVC?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#e60000ff'
+tags:
+- gradual_color_change
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-red-black/stronghero3d-petg-red-black-0-47c4ea6a.jpg
+  type: unspecified

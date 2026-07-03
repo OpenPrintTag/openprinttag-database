@@ -1,0 +1,21 @@
+uuid: 31927709-48df-5052-a2e8-ac445975df2d
+slug: bambulab-petg-basic-black
+brand:
+  slug: bambulab
+name: PETG Basic Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-black/bambulab-petg-basic-black-0-0c92e277.jpg
+  type: unspecified

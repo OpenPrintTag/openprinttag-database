@@ -1,0 +1,19 @@
+uuid: 29ad7e38-5e51-5a3d-8b92-4cb433c57b48
+slug: printonion-petg-dark-blue
+brand:
+  slug: printonion
+name: PETG Dark Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0f1768ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-dark-blue/printonion-petg-dark-blue-0-8c64d807.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 2bde44b9-f060-54b0-8490-3754925fe570
+slug: gratkit-hs-matte-pla-rainbow-macaron
+brand:
+  slug: gratkit
+name: HS Matte PLA Rainbow Macaron
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#74e5eaff'
+- color_rgba: '#f5f3d1ff'
+- color_rgba: '#77f0a2ff'
+- color_rgba: '#adb4e6ff'
+tags:
+- high_speed
+- matte
+- gradual_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-hs-matte-pla-rainbow-macaron/gratkit-hs-matte-pla-rainbow-macaron-0-df58959b.jpg
+  type: unspecified

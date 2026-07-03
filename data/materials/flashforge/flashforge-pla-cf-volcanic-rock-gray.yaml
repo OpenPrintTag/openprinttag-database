@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#26272bff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/flashforge/flashforge-pla-cf-volcanic-rock-gray/107ba26a2b3a.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/flashforge/flashforge-pla-cf-volcanic-rock-gray/107ba26a2b3a.jpg
+    type: unspecified
 properties: {}

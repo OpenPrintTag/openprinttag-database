@@ -1,0 +1,19 @@
+uuid: db3daa0a-2c28-5679-97eb-bc9674e39ac3
+slug: printonion-petg-yellow
+brand:
+  slug: printonion
+name: PETG Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e5fb3cff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-yellow/printonion-petg-yellow-0-7638dd37.jpg
+  type: unspecified

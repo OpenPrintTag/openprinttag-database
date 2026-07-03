@@ -6,7 +6,7 @@ name: PLA Silk Dual Color Black & Pink
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-dual?variant=41795993337879
+url: https://www.amolen.com/products/pla-silk-dual
 secondary_colors:
 - color_rgba: '#fc6d8eff'
 - color_rgba: '#000000ff'
@@ -14,5 +14,14 @@ tags:
 - silk
 - coextruded
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-dual-color-black-pink/3_50622d4f-3a27-46f5-b96a-5d19f558b061.png
+  type: unspecified
 properties:
   density: 1.28
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

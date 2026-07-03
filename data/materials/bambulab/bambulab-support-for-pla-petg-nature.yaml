@@ -1,0 +1,22 @@
+uuid: 69894ab0-16a6-5835-a812-a0a21f13130a
+slug: bambulab-support-for-pla-petg-nature
+brand:
+  slug: bambulab
+name: Support for PLA/PETG Nature
+class: FFF
+abbreviation: Support
+primary_color:
+  color_rgba: '#e9dcbbff'
+tags:
+- translucent
+properties:
+  density: 1.28
+  min_print_temperature: 190
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 60
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-support-for-pla-petg-nature/bambulab-support-for-pla-petg-nature-0-4be9fb2b.png
+  type: unspecified

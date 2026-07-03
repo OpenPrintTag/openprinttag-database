@@ -1,0 +1,21 @@
+uuid: f1c79d39-81b7-5788-b13c-3163cd47f9eb
+slug: printonion-asa-gray
+brand:
+  slug: printonion
+name: ASA Gray
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#595962ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-gray/printonion-asa-gray-0-470132df.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 52fe4d3c-01fb-524e-890d-fd2fb0e882f9
+slug: printonion-pla-ceramic-white
+brand:
+  slug: printonion
+name: PLA Ceramic White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-ceramic-white/printonion-pla-ceramic-white-0-673dc92d.jpg
+  type: unspecified

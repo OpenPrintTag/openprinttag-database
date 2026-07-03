@@ -1,0 +1,24 @@
+uuid: 4742457a-9ae9-58e1-bc7e-830ac2b3c44b
+slug: stronghero3d-pla-chameleon-galaxy
+brand:
+  slug: stronghero3d
+name: PLA Chameleon Galaxy
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B08MW537V1?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#c00698ff'
+- color_rgba: '#089a45ff'
+- color_rgba: '#581d80ff'
+- color_rgba: '#e2ff4dff'
+- color_rgba: '#2941bdff'
+tags:
+- silk
+- glitter
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-chameleon-galaxy/stronghero3d-pla-chameleon-galaxy-0-a02e2aac.jpg
+  type: unspecified

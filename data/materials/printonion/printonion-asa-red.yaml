@@ -1,0 +1,21 @@
+uuid: a08dca90-4012-57e5-a603-5062be9cad39
+slug: printonion-asa-red
+brand:
+  slug: printonion
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f71818ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-red/printonion-asa-red-0-9d47865c.jpg
+  type: unspecified

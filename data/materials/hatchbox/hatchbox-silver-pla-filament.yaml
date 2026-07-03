@@ -13,4 +13,9 @@ tags:
 photos:
 - url: https://files.openprinttag.org/hatchbox/hatchbox-silver-pla-filament/0d68d72208ac.jpg
   type: unspecified
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 180
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60

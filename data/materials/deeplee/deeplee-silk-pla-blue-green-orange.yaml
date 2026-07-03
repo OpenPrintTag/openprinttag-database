@@ -1,0 +1,21 @@
+uuid: 17e3149b-ec64-5c5f-ab3e-c8c535dcea6d
+slug: deeplee-silk-pla-blue-green-orange
+brand:
+  slug: deeplee
+name: Silk PLA Blue Green Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.co.uk/Filament-Accuracy-Tolerance-Materials-Compatible/dp/B0DS642LQC?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#d18136ff'
+- color_rgba: '#00af66ff'
+- color_rgba: '#0084d4ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/deeplee/deeplee-silk-pla-blue-green-orange/deeplee-silk-pla-blue-green-orange-0-fdec7159.jpg
+  type: unspecified

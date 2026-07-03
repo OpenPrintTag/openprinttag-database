@@ -7,11 +7,16 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#aa6500ff'
+  color_rgba: '#a66301ff'
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
+  - industrially_compostable
 photos:
-- url: https://file.myfilamentlist.com/filaments/new/metallic_gold_17f7c253-6df1-4d8b-8b0f-b88df80ee7ed.png?v=1738776857&width=720
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-gold/polymaker-polylite-metallic-pla-pro-gold-0-69a57ceb.jpg
+    type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 60

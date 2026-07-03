@@ -8,14 +8,14 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla-silk-magic?VariantsId=12608
 secondary_colors:
-- color_rgba: '#aabccfff'
-- color_rgba: '#ffcb47ff'
-- color_rgba: '#904029ff'
+  - color_rgba: '#aabccfff'
+  - color_rgba: '#ffcb47ff'
+  - color_rgba: '#904029ff'
 tags:
-- silk
-- coextruded
-- industrially_compostable
+  - silk
+  - coextruded
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-silk-magic-gold-silver-copper/esun-pla-silk-magic-gold-silver-copper-0-9649181c.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-silk-magic-gold-silver-copper/esun-pla-silk-magic-gold-silver-copper-0-9649181c.jpg
+    type: unspecified

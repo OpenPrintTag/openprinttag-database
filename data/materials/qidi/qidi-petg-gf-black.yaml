@@ -1,0 +1,20 @@
+uuid: 40ca9dc1-bc9c-5dca-bffc-8dc96ea4fb6f
+slug: qidi-petg-gf-black
+brand:
+  slug: qidi
+name: PETG-GF Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.qidi3d.com/products/petg-gf?variant=51158989963584
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.26
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-petg-gf-black/qidi-petg-gf-black-0-c8d4df29.jpg
+  type: unspecified

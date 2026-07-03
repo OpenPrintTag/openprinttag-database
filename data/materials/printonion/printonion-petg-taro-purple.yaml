@@ -1,0 +1,19 @@
+uuid: ebea2651-06e8-5a52-a111-5404639c29ab
+slug: printonion-petg-taro-purple
+brand:
+  slug: printonion
+name: PETG Taro Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dea0eeff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-taro-purple/printonion-petg-taro-purple-0-37b084bf.jpg
+  type: unspecified

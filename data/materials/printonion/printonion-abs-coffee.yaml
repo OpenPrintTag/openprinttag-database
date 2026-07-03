@@ -1,0 +1,21 @@
+uuid: 5909c6ce-a45a-596a-9d75-10e95d3883f0
+slug: printonion-abs-coffee
+brand:
+  slug: printonion
+name: ABS Coffee
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#652e1aff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-coffee/printonion-abs-coffee-0-ea385d40.jpg
+  type: unspecified

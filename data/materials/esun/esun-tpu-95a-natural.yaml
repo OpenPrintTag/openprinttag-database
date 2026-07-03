@@ -6,13 +6,15 @@ name: TPU 95A Natural
 class: FFF
 type: TPU
 abbreviation: TPU
+url: https://esun3dstoreeu.com/products/tpu-95a?VariantsId=12077
 primary_color:
   color_rgba: '#d9d8deff'
 tags:
-- transparent
-- without_pigments
-photos:
-- url: https://files.openprinttag.org/esun/esun-tpu-95a-natural/6e2477017dcd.jpg
-  type: unspecified
+  - transparent
+  - without_pigments
 properties:
-  hardness_shore_a: 95
+  density: 1.21
+  hardness_shore_a: 95.0
+photos:
+  - url: https://files.openprinttag.org/esun/esun-tpu-95a-natural/6e2477017dcd.jpg
+    type: unspecified

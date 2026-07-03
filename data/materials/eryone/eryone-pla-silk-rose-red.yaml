@@ -1,0 +1,21 @@
+uuid: 1cdfe971-960b-5319-b666-3a73bc857648
+slug: eryone-pla-silk-rose-red
+brand:
+  slug: eryone
+name: PLA Silk Rose Red
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-rose-red/1-800_7a890c21-0f59-43db-ad25-b787db649155.jpg?v=1781737926
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

@@ -1,0 +1,21 @@
+uuid: c417c687-2c4a-5279-a0e0-a43a689084d7
+slug: printonion-pla-red
+brand:
+  slug: printonion
+name: PLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f71818ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-red/printonion-pla-red-0-30e62683.jpg
+  type: unspecified

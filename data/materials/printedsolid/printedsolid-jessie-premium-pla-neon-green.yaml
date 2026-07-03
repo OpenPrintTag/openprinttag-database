@@ -8,6 +8,7 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#c4dc00ff'
+transmission_distance: 9.0
 tags:
 - industrially_compostable
 - neon

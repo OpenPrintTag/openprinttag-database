@@ -5,11 +5,11 @@ brand:
 name: Woodfill Chocolate Brown
 class: FFF
 abbreviation: Wood
-url: https://www.prusa3d.com/product/prusament-woodfill-chocolate-brown-1kg/
 primary_color:
   color_rgba: '#543c27ff'
 tags:
-- contains_wood
+  - contains_wood
+  - contains_organic_material
 properties:
   density: 1.16
   hardness_shore_d: 67
@@ -22,5 +22,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-woodfill-chocolate-brown/prusament-woodfill-chocolate-brown-0-169e7681.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-woodfill-chocolate-brown/prusament-woodfill-chocolate-brown-0-169e7681.jpg
+    type: unspecified

@@ -1,0 +1,22 @@
+uuid: 25672df2-ad73-56f9-a3e2-3998723cc805
+slug: esun-tpu-95a-rainbow
+brand:
+  slug: esun
+name: TPU 95A Rainbow
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://esun3dstoreeu.com/products/tpu-95a?VariantsId=12078
+secondary_colors:
+- color_rgba: '#fadb24ff'
+- color_rgba: '#317c2eff'
+- color_rgba: '#fa7f1bff'
+tags:
+- gradual_color_change
+- translucent
+properties:
+  density: 1.21
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/esun/esun-tpu-95a-rainbow/esun-tpu-95a-rainbow-0-1624a691.jpg
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: 25da1103-fe2d-5c2c-a827-b43e26814778
+slug: stronghero3d-pla-matte-multicolor
+brand:
+  slug: stronghero3d
+name: PLA Matte Multicolor
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0DS2FX293?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#f87fb5ff'
+- color_rgba: '#2d889eff'
+- color_rgba: '#81ba6dff'
+- color_rgba: '#f6a25cff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-matte-multicolor/stronghero3d-pla-matte-multicolor-0-b03dc9e2.jpg
+  type: unspecified

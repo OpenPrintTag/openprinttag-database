@@ -1,0 +1,21 @@
+uuid: 2d12eb07-1af8-58ae-9ebc-82764f319cf2
+slug: sunlu-pla-plus-yellow
+brand:
+  slug: sunlu
+name: PLA Plus Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fff13fff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-plus-yellow/df492c3c-a9d0-4349-96f1-7a9ef909454d.png
+  type: unspecified
+properties:
+  density: 1.21
+  hardness_shore_d: 81
+  min_print_temperature: 205
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

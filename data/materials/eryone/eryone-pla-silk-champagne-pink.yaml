@@ -1,0 +1,21 @@
+uuid: 4062c112-2a3b-549a-865f-37fe2013ab6e
+slug: eryone-pla-silk-champagne-pink
+brand:
+  slug: eryone
+name: PLA Silk Champagne Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-champagne-pink/B0102432.jpg?v=1781686707
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

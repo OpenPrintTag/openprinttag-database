@@ -1,0 +1,20 @@
+uuid: cc072609-f7db-5c27-82b6-f046597f76e8
+slug: qidi-pet-cf-black
+brand:
+  slug: qidi
+name: PET-CF Black
+class: FFF
+type: PET
+abbreviation: PET
+url: https://us.qidi3d.com/products/pet-cf-filament
+primary_color:
+  color_rgba: '#212322ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.3
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-pet-cf-black/qidi-pet-cf-black-0-afbb71a4.jpg
+  type: unspecified

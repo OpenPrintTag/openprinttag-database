@@ -6,10 +6,15 @@ name: EasyFlex White
 class: FFF
 type: TPU
 abbreviation: TPU
+url: https://addnorth.com/product/EasyFlex/EasyFlex%20-%201.75mm%20-%201000g%20-%20White
 primary_color:
   color_rgba: '#ffffffff'
-photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-easyflex-white/2f8779a30b51.png
-  type: unspecified
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: https://files.openprinttag.org/addnorth/addnorth-easyflex-white/2f8779a30b51.png
+    type: unspecified

@@ -9,9 +9,18 @@ abbreviation: PPS
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pps-cf-black/2e8ed72f60b2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pps-cf-black/2e8ed72f60b2.png
+    type: unspecified
+properties:
+  density: 1.26
+  min_print_temperature: 310
+  max_print_temperature: 340
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  min_chamber_temperature: 60
+  max_chamber_temperature: 90

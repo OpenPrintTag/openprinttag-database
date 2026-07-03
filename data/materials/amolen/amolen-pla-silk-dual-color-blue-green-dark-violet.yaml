@@ -6,7 +6,7 @@ name: PLA Silk Dual Color Blue Green & Dark Violet
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-dual?variant=41760017317911
+url: https://www.amolen.com/products/pla-silk-dual
 secondary_colors:
 - color_rgba: '#0378d0ff'
 - color_rgba: '#a000caff'
@@ -14,5 +14,14 @@ tags:
 - silk
 - coextruded
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-dual-color-blue-green-dark-violet/2_b0d731a2-7e85-439e-b7b4-0600c56ddcca.png
+  type: unspecified
 properties:
   density: 1.28
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

@@ -1,0 +1,20 @@
+uuid: cf6981ea-d897-50c6-8821-ea6f1432955d
+slug: stronghero3d-pla-summer
+brand:
+  slug: stronghero3d
+name: PLA Summer
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B0C2347PXR?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#094932ff'
+- color_rgba: '#26a648ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-summer/stronghero3d-pla-summer-0-4a17c30e.jpg
+  type: unspecified

@@ -1,0 +1,19 @@
+uuid: 0f5bd9f0-a0bc-5462-9534-421981e077fe
+slug: cc3d-pbt-pro-white
+brand:
+  slug: cc3d
+name: PBT Pro White
+class: FFF
+type: PBT
+abbreviation: PBT
+primary_color:
+  color_rgba: '#ffffff'
+tags:
+- abrasive
+- contains_glass
+- contains_glass_fiber
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 60

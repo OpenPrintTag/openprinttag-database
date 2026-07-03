@@ -1,0 +1,21 @@
+uuid: 95622c31-1023-563c-91ad-a9d968f9b8c6
+slug: bambulab-petg-basic-white
+brand:
+  slug: bambulab
+name: PETG Basic White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffffffff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-white/bambulab-petg-basic-white-0-9209a244.jpg
+  type: unspecified

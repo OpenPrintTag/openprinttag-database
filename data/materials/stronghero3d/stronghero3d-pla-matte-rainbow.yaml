@@ -1,0 +1,22 @@
+uuid: 033bdfe5-1854-5213-945e-f45be9d14651
+slug: stronghero3d-pla-matte-rainbow
+brand:
+  slug: stronghero3d
+name: PLA Matte Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0F7H5DG29?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#089a45ff'
+- color_rgba: '#fe488bff'
+- color_rgba: '#800080ff'
+- color_rgba: '#da893dff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-matte-rainbow/stronghero3d-pla-matte-rainbow-0-bb81ddfa.jpg
+  type: unspecified

@@ -9,9 +9,15 @@ abbreviation: ABS
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- recycled
-- filtration_recommended
+  - recycled
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-rabs-black/ab7e755d1ea4.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-rabs-black/ab7e755d1ea4.png
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+url: https://addnorth.com/product/rABS/rABS%20-%201.75mm%20-%201000g%20-%20Black

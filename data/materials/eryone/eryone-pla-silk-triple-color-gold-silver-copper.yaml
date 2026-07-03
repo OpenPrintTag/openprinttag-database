@@ -1,0 +1,22 @@
+uuid: bd8f8866-2de8-5d5f-8d8b-b4d76211289a
+slug: eryone-pla-silk-triple-color-gold-silver-copper
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Gold Silver Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-gold-silver-copper/best-pla-Filament-24.jpg?v=1753509322
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

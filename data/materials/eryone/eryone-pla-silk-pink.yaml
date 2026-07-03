@@ -1,0 +1,23 @@
+uuid: c4842c06-063b-57d0-8f45-1673bd6d7b9f
+slug: eryone-pla-silk-pink
+brand:
+  slug: eryone
+name: PLA Silk Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff40ffff'
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-pink/PLA-Silk-Filament-5.jpg?v=1767680110
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

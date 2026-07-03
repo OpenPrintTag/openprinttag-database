@@ -1,0 +1,22 @@
+name: Check Manifest Not Modified
+
+on:
+  pull_request:
+    branches: [main-pr, main]
+
+jobs:
+  check-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check that manifest.yaml was not modified
+        run: |
+          if git diff --name-only origin/${{ github.base_ref }}...HEAD | grep -q '^data/manifest.yaml$'; then
+            echo "::error file=data/manifest.yaml::data/manifest.yaml is auto-generated and must not be modified manually. Pull requests must be rebased on top of main-pr branch, not main. The manifest is updated automatically on push to main."
+            exit 1
+          fi
+          echo "data/manifest.yaml not modified - OK"

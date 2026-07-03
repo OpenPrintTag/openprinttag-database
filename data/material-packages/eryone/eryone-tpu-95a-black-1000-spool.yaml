@@ -1,0 +1,10 @@
+uuid: 8fadbb60-e5c7-5dc3-be6b-4c06f673ea35
+slug: eryone-tpu-95a-black-1000-spool
+class: FFF
+material:
+  slug: eryone-tpu-95a-black
+nominal_netto_full_weight: 1000
+container:
+  slug: eryone-tpu-spool-1kg
+filament_diameter: 1750
+filament_diameter_tolerance: 30

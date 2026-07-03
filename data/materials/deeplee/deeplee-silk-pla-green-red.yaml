@@ -1,0 +1,20 @@
+uuid: 238a61ae-4fdc-5712-acda-b19f78d9eb5e
+slug: deeplee-silk-pla-green-red
+brand:
+  slug: deeplee
+name: Silk PLA Green Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.co.uk/Filament-Accuracy-Tolerance-Materials-Compatible/dp/B0DS5XD8YS?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#02a76bff'
+- color_rgba: '#cf4f80ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/deeplee/deeplee-silk-pla-green-red/deeplee-silk-pla-green-red-0-2f6f7443.jpg
+  type: unspecified

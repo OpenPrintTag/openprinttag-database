@@ -1,0 +1,23 @@
+uuid: bef614d5-762e-515e-bc33-66754e3e5d0c
+slug: stronghero3d-abs-rainbow
+brand:
+  slug: stronghero3d
+name: ABS Rainbow
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0BHL481JV?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#1e2f5aff'
+- color_rgba: '#a05562ff'
+- color_rgba: '#488d94ff'
+- color_rgba: '#ffe15bff'
+- color_rgba: '#70a641ff'
+- color_rgba: '#6e485fff'
+tags:
+- gradual_color_change
+- filtration_recommended
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-abs-rainbow/stronghero3d-abs-rainbow-0-3621f1a6.jpg
+  type: unspecified

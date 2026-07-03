@@ -8,15 +8,15 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla-luminous?VariantsId=12299
 secondary_colors:
-- color_rgba: '#dbd8d1ff'
-- color_rgba: '#0099e6ff'
+  - color_rgba: '#dbd8d1ff'
+  - color_rgba: '#0099e6ff'
 tags:
-- glow_in_the_dark
-- abrasive
-- illuminescent_color_change
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+  - industrially_compostable
 properties:
   density: 1.2
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-luminous-blue/esun-pla-luminous-blue-0-986942d2.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-luminous-blue/esun-pla-luminous-blue-0-986942d2.jpg
+    type: unspecified

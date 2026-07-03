@@ -1,0 +1,19 @@
+uuid: 2bb27956-6896-51ae-9dc4-1805892004c9
+slug: hatchbox-forest-green-pla-filament
+brand:
+  slug: hatchbox
+name: Forest Green PLA Filament
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0d4b0dff'
+photos:
+- url: https://files.openprinttag.org/hatchbox/hatchbox-forest-green-pla-filament/3D-PLA-1KG1.75-FGRN-Picture-1.jpg?v=1659720618&width=1800
+  type: package
+properties:
+  density: 1.27
+  min_print_temperature: 180
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60

@@ -1,0 +1,19 @@
+uuid: 0dafa865-f697-5096-9d05-96bf8f674da3
+slug: printonion-petg-purple
+brand:
+  slug: printonion
+name: PETG Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c524ffff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-purple/printonion-petg-purple-0-64c1044c.jpg
+  type: unspecified

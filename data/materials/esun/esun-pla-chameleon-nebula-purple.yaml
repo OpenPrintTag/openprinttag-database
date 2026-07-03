@@ -10,11 +10,11 @@ url: https://esun3dstoreeu.com/products/epla-chameleon?VariantsId=12194
 primary_color:
   color_rgba: '#8846aeff'
 tags:
-- iridescent
-- glitter
-- industrially_compostable
+  - iridescent
+  - glitter
+  - industrially_compostable
 properties:
   density: 1.24
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-chameleon-nebula-purple/esun-pla-chameleon-nebula-purple-0-7deac5a7.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-chameleon-nebula-purple/esun-pla-chameleon-nebula-purple-0-7deac5a7.jpg
+    type: unspecified

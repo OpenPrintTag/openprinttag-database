@@ -6,7 +6,7 @@ name: PLA Silk Dual Color Red & Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-dual?variant=41760057786391
+url: https://www.amolen.com/products/pla-silk-dual
 secondary_colors:
 - color_rgba: '#e80078ff'
 - color_rgba: '#2d9e59ff'
@@ -14,5 +14,14 @@ tags:
 - silk
 - coextruded
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-dual-color-red-green/SKU-14-2in1-RedGreen.webp
+  type: unspecified
 properties:
   density: 1.28
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

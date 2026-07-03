@@ -6,14 +6,13 @@ name: PETG Shimmering Violet
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.prusa3d.com/product/prusament-petg-shimmering-violet-1kg/
 primary_color:
   color_rgba: '#1d1991ff'
 tags:
-- glitter
-- translucent
+  - glitter
+  - translucent
 certifications:
-- ul_2904
+  - ul_2904
 properties:
   density: 1.27
   hardness_shore_d: 74
@@ -26,5 +25,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 60
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-petg-shimmering-violet/prusament-petg-shimmering-violet-0-035e4944.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-petg-shimmering-violet/prusament-petg-shimmering-violet-0-035e4944.jpg
+    type: unspecified

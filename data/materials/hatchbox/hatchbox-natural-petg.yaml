@@ -13,4 +13,9 @@ tags:
 photos:
 - url: https://files.openprinttag.org/hatchbox/hatchbox-natural-petg/4e3e4d7578eb.jpg
   type: unspecified
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 0
+  max_bed_temperature: 85

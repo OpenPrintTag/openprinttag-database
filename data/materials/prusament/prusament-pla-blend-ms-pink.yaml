@@ -7,7 +7,8 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#e34a94ff'
+  color_rgba: '#ff36acff'
+  color_lab: [58.6426, 85.1233, -9.9067]
 transmission_distance: 4.1
 tags:
 - blend

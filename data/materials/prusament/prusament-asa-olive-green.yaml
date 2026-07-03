@@ -6,7 +6,6 @@ name: ASA Olive Green
 class: FFF
 type: ASA
 abbreviation: ASA
-url: https://www.prusa3d.com/product/prusament-asa-olive-green-850g/
 primary_color:
   color_rgba: '#617512ff'
 properties:
@@ -21,5 +20,5 @@ properties:
   min_chamber_temperature: 55
   max_chamber_temperature: 90
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-asa-olive-green/prusament-asa-olive-green-0-58ccb4d2.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-asa-olive-green/prusament-asa-olive-green-0-58ccb4d2.jpg
+    type: unspecified

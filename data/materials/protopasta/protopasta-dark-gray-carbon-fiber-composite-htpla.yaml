@@ -9,11 +9,10 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#394658ff'
 tags:
-- contains_carbon_fiber
-- high_temperature
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - high_temperature
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/protopasta/protopasta-dark-gray-carbon-fiber-composite-htpla/dc14712916f0.png
-  type: unspecified
+  - url: https://files.openprinttag.org/protopasta/protopasta-dark-gray-carbon-fiber-composite-htpla/dc14712916f0.png
+    type: unspecified
 properties: {}

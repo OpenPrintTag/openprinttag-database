@@ -1,0 +1,20 @@
+uuid: f08b4f69-5073-558d-82a5-d03afd661a10
+slug: qidi-tpu95a-hf-transparent
+brand:
+  slug: qidi
+name: 'TPU95A-HF Transparent '
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.qidi3d.com/products/qidi-tpu95a-hf-filament
+primary_color:
+  color_rgba: '#d9d8deff'
+tags:
+- high_speed
+- translucent
+properties:
+  density: 1.15
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-tpu95a-hf-transparent/qidi-tpu95a-hf-transparent-0-c5329258.jpg
+  type: unspecified

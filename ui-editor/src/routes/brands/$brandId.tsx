@@ -82,12 +82,9 @@ const RouteComponent = () => {
     });
   };
 
-  if (loading && !data) {
-    return <BrandDetailSkeleton />;
-  }
-
-  if (error) return <StateDisplay error="asdfasdf" />;
-  if (!data) return null;
+  if (error)
+    return <StateDisplay error="An error occurred while loading this brand." />;
+  if (!data) return <BrandDetailSkeleton />;
 
   return (
     <div className="space-y-3">

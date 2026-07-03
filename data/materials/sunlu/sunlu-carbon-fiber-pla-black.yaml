@@ -9,11 +9,10 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- recycled
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - recycled
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-carbon-fiber-pla-black/1b48f34a2dda.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/sunlu/sunlu-carbon-fiber-pla-black/1b48f34a2dda.jpg
+    type: unspecified
 properties: {}

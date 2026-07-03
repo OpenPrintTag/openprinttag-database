@@ -1,0 +1,26 @@
+uuid: a6ab7094-c019-5ce8-b103-7f50cbe84a39
+slug: inslogic-high-speed-marble-pla-chestnut-brown
+brand:
+  slug: inslogic
+name: High-Speed Marble PLA Chestnut Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffe2c2ff'
+tags:
+- high_speed
+- imitates_marble
+properties:
+  density: 1.25
+  hardness_shore_d: 82
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+photos:
+- url: https://files.openprinttag.org/inslogic/inslogic-high-speed-marble-pla-chestnut-brown/71BmocGSJaL._AC_SL1500_.jpg
+  type: unspecified

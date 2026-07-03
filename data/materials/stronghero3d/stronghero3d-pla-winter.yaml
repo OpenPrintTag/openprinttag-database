@@ -1,0 +1,21 @@
+uuid: 59db6e01-18a5-56af-8c25-3b8d4da757ec
+slug: stronghero3d-pla-winter
+brand:
+  slug: stronghero3d
+name: PLA Winter
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B0C2328DD8?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#1d1161ff'
+- color_rgba: '#0078bfff'
+- color_rgba: '#92c6feff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-winter/stronghero3d-pla-winter-0-717e8529.jpg
+  type: unspecified

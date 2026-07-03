@@ -1,0 +1,23 @@
+uuid: e1e6f7e5-ce69-5dac-94a7-78cfd9ec0943
+slug: bambulab-pla-pure-apricot
+brand:
+  slug: bambulab
+name: PLA Pure Apricot
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffb673ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  min_chamber_temperature: 25
+  max_chamber_temperature: 40
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-pla-pure-apricot/bambulab-pla-pure-apricot-0-43975aba.jpg
+  type: unspecified

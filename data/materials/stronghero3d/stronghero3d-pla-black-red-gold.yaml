@@ -1,0 +1,21 @@
+uuid: 0d95b1c3-693f-5032-8123-8f6a823c04f6
+slug: stronghero3d-pla-black-red-gold
+brand:
+  slug: stronghero3d
+name: PLA Black-Red-Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B09N8V13LT?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#cba613ff'
+- color_rgba: '#000000ff'
+- color_rgba: '#aa0101ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-black-red-gold/stronghero3d-pla-black-red-gold-0-0a840fa9.jpg
+  type: unspecified

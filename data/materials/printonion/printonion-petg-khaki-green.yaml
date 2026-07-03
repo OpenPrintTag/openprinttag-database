@@ -1,0 +1,19 @@
+uuid: 9f83a2aa-8ba1-59ba-8d04-0de085094969
+slug: printonion-petg-khaki-green
+brand:
+  slug: printonion
+name: PETG Khaki Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#656c61ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-khaki-green/printonion-petg-khaki-green-0-c9079196.jpg
+  type: unspecified

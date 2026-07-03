@@ -1,0 +1,22 @@
+uuid: 71bd7a8c-af9e-5443-b552-b50243d941b4
+slug: eryone-pla-silk-triple-color-dark-green-midnight-blue-black
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Dark Green Midnight Blue Black
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-dark-green-midnight-blue-black/PLA_Silk_Triple-Color_Filament.jpg?v=1770105710
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

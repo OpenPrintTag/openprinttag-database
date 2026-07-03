@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/creality/creality-carbon-fiber-pla-black/826059279504.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/creality/creality-carbon-fiber-pla-black/826059279504.jpg
+    type: unspecified
 properties: {}

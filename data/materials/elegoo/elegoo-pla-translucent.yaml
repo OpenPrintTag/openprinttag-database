@@ -1,0 +1,20 @@
+uuid: f58efc21-d53c-5646-8082-4fd5bc36f5a6
+slug: elegoo-pla-translucent
+brand:
+  slug: elegoo
+name: PLA Translucent
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9da6b8ff'
+tags:
+- translucent
+photos:
+- url: https://files.openprinttag.org/elegoo/elegoo-pla-translucent/71OTwk0HekL._AC_SL1500_.jpg
+  type: package
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65

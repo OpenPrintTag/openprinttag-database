@@ -7,11 +7,19 @@ class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#8b3a3aff'
+  color_rgba: '#9f332aff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-petg-cf-brick-red/77e33c24befd.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-petg-cf-brick-red/77e33c24befd.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50

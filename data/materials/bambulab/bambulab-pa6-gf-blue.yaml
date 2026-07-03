@@ -7,11 +7,20 @@ class: FFF
 type: PA6
 abbreviation: PA6
 primary_color:
-  color_rgba: '#6299dfff'
+  color_rgba: '#75aed8ff'
 tags:
-- contains_glass_fiber
-- abrasive
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pa6-gf-blue/4e256f157f27.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pa6-gf-blue/4e256f157f27.png
+    type: unspecified
+properties:
+  density: 1.14
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60

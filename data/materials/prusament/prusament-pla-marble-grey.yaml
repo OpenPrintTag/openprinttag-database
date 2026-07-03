@@ -7,7 +7,8 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#b0b4b5ff'
+  color_rgba: '#c2c2c5ff'
+  color_lab: [74.0107, 0.1733, -1.4267]
 transmission_distance: 3.5
 tags:
 - imitates_marble

@@ -1,0 +1,22 @@
+uuid: 967e082a-2ad2-5056-81d9-90c680bace0f
+slug: qidi-paht-gf-ppa-gf-gray
+brand:
+  slug: qidi
+name: PAHT-GF (PPA-GF) Gray
+class: FFF
+type: PPA
+abbreviation: PPA
+url: https://us.qidi3d.com/products/paht-gf-filament
+primary_color:
+  color_rgba: '#a2aaadff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- filtration_recommended
+properties:
+  density: 1.27
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-paht-gf-ppa-gf-gray/qidi-paht-gf-ppa-gf-gray-0-7434c8bc.jpg
+  type: unspecified

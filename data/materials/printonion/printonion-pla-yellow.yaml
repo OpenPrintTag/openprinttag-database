@@ -1,0 +1,21 @@
+uuid: bbbb8dea-4d9a-5194-ae1e-e3b5a0f1cafe
+slug: printonion-pla-yellow
+brand:
+  slug: printonion
+name: PLA Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fff838ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-yellow/printonion-pla-yellow-0-81ff64cb.jpg
+  type: unspecified

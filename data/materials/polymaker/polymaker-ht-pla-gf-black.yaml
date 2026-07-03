@@ -1,0 +1,27 @@
+uuid: 20556ead-a38a-5846-b738-ba114a28f584
+slug: polymaker-ht-pla-gf-black
+brand:
+  slug: polymaker
+name: HT-PLA-GF Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#18191bff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.337
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gf-black/polymaker-ht-pla-gf-black-0-1f4a44e8.jpg
+  type: unspecified

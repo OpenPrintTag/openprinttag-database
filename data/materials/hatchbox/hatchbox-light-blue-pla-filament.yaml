@@ -1,0 +1,19 @@
+uuid: 3b1273b9-242e-5965-8d8a-099bf0957eba
+slug: hatchbox-light-blue-pla-filament
+brand:
+  slug: hatchbox
+name: Light Blue PLA Filament
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0e69aaff'
+photos:
+- url: https://files.openprinttag.org/hatchbox/hatchbox-light-blue-pla-filament/3DPLA-1kg1.75-285C-Picture-1.jpg?v=1648596994&width=1800
+  type: package
+properties:
+  density: 1.27
+  min_print_temperature: 180
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60

@@ -7,12 +7,20 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#6a5346ff'
+  color_rgba: '#4f3f24ff'
 tags:
-- matte
-- imitates_wood
-- industrially_compostable
+  - matte
+  - contains_wood
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pla-wood-black-walnut/8e624629c1a8.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pla-wood-black-walnut/8e624629c1a8.png
+    type: unspecified
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+url: https://us.store.bambulab.com/products/pla-wood?id=43075831955592

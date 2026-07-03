@@ -1,0 +1,19 @@
+uuid: 98f295c7-6487-5a05-ac26-9b9fdf63cd09
+slug: printonion-petg-military-green
+brand:
+  slug: printonion
+name: PETG Military Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#355031ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-military-green/printonion-petg-military-green-0-22ff0644.jpg
+  type: unspecified

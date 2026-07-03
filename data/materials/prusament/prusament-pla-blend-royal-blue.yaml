@@ -7,7 +7,8 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#00518fff'
+  color_rgba: '#0065aaff'
+  color_lab: [36.9876, -9.9567, -40.9567]
 transmission_distance: 0.8
 tags:
 - silk

@@ -8,16 +8,16 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/estars-pla
 secondary_colors:
-- color_rgba: '#206233ff'
-- color_rgba: '#000000ff'
+  - color_rgba: '#206233ff'
+  - color_rgba: '#000000ff'
 tags:
-- glow_in_the_dark
-- abrasive
-- glitter
-- illuminescent_color_change
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - glitter
+  - illuminescent_color_change
+  - industrially_compostable
 properties:
   density: 1.2
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-stars-twinkle-shining-galaxy-black/esun-pla-stars-twinkle-shining-galaxy-black-0-81b516f4.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-stars-twinkle-shining-galaxy-black/esun-pla-stars-twinkle-shining-galaxy-black-0-81b516f4.jpg
+    type: unspecified

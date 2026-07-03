@@ -1,0 +1,21 @@
+uuid: 55b36b6e-f50f-5f24-b3ff-427d0acf6d02
+slug: printonion-pla-silver
+brand:
+  slug: printonion
+name: PLA Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#949494ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-silver/printonion-pla-silver-0-23de33af.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: dbfc613e-0831-513d-84d2-8d71037374cd
+slug: stronghero3d-pla-dual-wood
+brand:
+  slug: stronghero3d
+name: PLA Dual Wood
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0FJ2F897J?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#e5b7a0ff'
+tags:
+- matte
+- contains_wood
+- coextruded
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-dual-wood/stronghero3d-pla-dual-wood-0-b18dc098.jpg
+  type: unspecified

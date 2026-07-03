@@ -157,6 +157,7 @@ The UI editor supports uploading local images directly. When you upload a photo 
 - **Slugs**: Must be lowercase, hyphen-separated, and unique within their category
 - **Schema**: Always refer to the [OpenPrintTag Architecture documentation](https://arch.openprinttag.org) for current field requirements and allowed values
 - **Validation**: Always run `make validate` before submitting changes
+- **`data/manifest.yaml`**: This file is auto-generated — do **not** edit it manually. It is updated automatically by CI after merging to `main`.
 
 ---
 
@@ -178,10 +179,13 @@ GitHub automatically guides you through creating a Pull Request after proposing 
    cd openprinttag-database
    ```
 
-3. **Create a branch:**
+3. **Create a branch based on `main-pr`:**
    ```bash
-   git checkout -b add-my-contribution
+   git fetch origin
+   git checkout -b add-my-contribution origin/main-pr
    ```
+
+   > ⚠️ **Important:** Always base your branch on `main-pr`, not `main`. Pull Requests must target the `main-pr` branch. If you rebase on `main` instead, the automated manifest check will fail.
 
 4. **Make your changes** using Method 2 (UI Editor) or Method 3 (Direct YAML)
 
@@ -200,6 +204,7 @@ GitHub automatically guides you through creating a Pull Request after proposing 
 7. **Create Pull Request:**
    - Go to your fork on GitHub
    - Click **"Compare & pull request"**
+   - Make sure the **base branch is set to `main-pr`** (not `main`)
    - Fill in the description explaining what you added/changed
    - Click **"Create pull request"**
 

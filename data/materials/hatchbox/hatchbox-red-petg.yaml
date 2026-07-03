@@ -1,0 +1,19 @@
+uuid: 52de4985-1997-5df6-9046-96e71695dcff
+slug: hatchbox-red-petg
+brand:
+  slug: hatchbox
+name: Red PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ae312aff'
+photos:
+- url: https://files.openprinttag.org/hatchbox/hatchbox-red-petg/lezaQZt9_ukg.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 0
+  max_bed_temperature: 85

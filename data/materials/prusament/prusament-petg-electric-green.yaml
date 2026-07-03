@@ -6,7 +6,6 @@ name: PETG Electric Green
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.prusa3d.com/product/prusament-petg-electric-green-1kg-nfc/
 primary_color:
   color_rgba: '#9be3bfff'
 properties:
@@ -21,5 +20,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 60
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-petg-electric-green/prusament-petg-electric-green-0-21560794.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-petg-electric-green/prusament-petg-electric-green-0-21560794.jpg
+    type: unspecified

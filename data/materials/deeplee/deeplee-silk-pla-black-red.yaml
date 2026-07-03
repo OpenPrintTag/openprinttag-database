@@ -1,0 +1,20 @@
+uuid: e9b5f5b1-f566-5325-8dfc-df5caea47a8a
+slug: deeplee-silk-pla-black-red
+brand:
+  slug: deeplee
+name: Silk PLA Black Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.co.uk/Filament-Accuracy-Tolerance-Materials-Compatible/dp/B0DS62VXBL?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#b02455ff'
+- color_rgba: '#000000ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/deeplee/deeplee-silk-pla-black-red/deeplee-silk-pla-black-red-0-59e53767.jpg
+  type: unspecified

@@ -10,7 +10,6 @@ url: https://tinmorry.net/en-eu/products/carbon-fiber-pla-filament-1-75mm-tinmor
 primary_color:
   color_rgba: '#375680ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

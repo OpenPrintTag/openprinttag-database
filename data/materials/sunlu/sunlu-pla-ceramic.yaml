@@ -1,0 +1,21 @@
+uuid: f3062352-b950-5fdf-ab81-deb05744b4d6
+slug: sunlu-pla-ceramic
+brand:
+  slug: sunlu
+name: PLA Ceramic
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d9d9d9ff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-ceramic/c54ce8eb-74fc-4b2c-b3fd-1c5c1a19d5e4.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

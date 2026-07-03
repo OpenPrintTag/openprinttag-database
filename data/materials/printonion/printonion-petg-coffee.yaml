@@ -1,0 +1,19 @@
+uuid: 3cc9004b-ab07-58b7-a0c2-8f2b83247106
+slug: printonion-petg-coffee
+brand:
+  slug: printonion
+name: PETG Coffee
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#652e1aff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-coffee/printonion-petg-coffee-0-c19d4af5.jpg
+  type: unspecified

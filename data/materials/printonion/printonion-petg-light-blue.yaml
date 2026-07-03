@@ -1,0 +1,19 @@
+uuid: 3ae06251-e24e-5643-8dac-644c15fc99f5
+slug: printonion-petg-light-blue
+brand:
+  slug: printonion
+name: PETG Light Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#b6f0fbff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-light-blue/printonion-petg-light-blue-0-b33fd0b4.jpg
+  type: unspecified

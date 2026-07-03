@@ -6,11 +6,19 @@ name: TPU 85A Neon Orange
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=615026158409138183
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
 - neon
 properties:
   density: 1.18
-  hardness_shore_a: 85
+  hardness_shore_a: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-tpu-85a-neon-orange/bambulab-tpu-85a-neon-orange-0-ec5e17f4.png
+  type: unspecified

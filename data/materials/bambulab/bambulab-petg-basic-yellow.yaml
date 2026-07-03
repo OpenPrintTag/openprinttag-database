@@ -1,0 +1,21 @@
+uuid: 7ff8402f-5706-554c-a60a-1c28bcc0c5a8
+slug: bambulab-petg-basic-yellow
+brand:
+  slug: bambulab
+name: PETG Basic Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fff838ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-yellow/bambulab-petg-basic-yellow-0-fe3f63fd.jpg
+  type: unspecified

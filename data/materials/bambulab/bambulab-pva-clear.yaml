@@ -7,11 +7,18 @@ class: FFF
 type: PVA
 abbreviation: PVA
 primary_color:
-  color_rgba: '#efe8d8ff'
+  color_rgba: '#f0f1a8ff'
 tags:
-- water_soluble
-- transparent
+  - water_soluble
+  - transparent
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pva-clear/c2abbf50ffb1.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pva-clear/c2abbf50ffb1.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45

@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/epla?VariantsId=13415
 primary_color:
   color_rgba: '#feaabaff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-basic-barbie-pink/esun-pla-basic-barbie-pink-0-3299ae17.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-basic-barbie-pink/esun-pla-basic-barbie-pink-0-3299ae17.jpg
+    type: unspecified

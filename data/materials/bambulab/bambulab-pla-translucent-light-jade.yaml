@@ -8,8 +8,18 @@ type: PLA
 abbreviation: PLA
 url: https://eu.store.bambulab.com/products/pla-translucent?id=54407222985052
 primary_color:
-  color_rgba: '#7ce8b1ff'
+  color_rgba: '#96d8afff'
 tags:
 - translucent
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.22
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-pla-translucent-light-jade/bambulab-pla-translucent-light-jade-0-6401df89.png
+  type: unspecified

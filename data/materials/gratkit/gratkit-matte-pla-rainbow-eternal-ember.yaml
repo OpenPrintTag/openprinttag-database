@@ -1,0 +1,23 @@
+uuid: c2a36a4a-5b10-5a14-a99a-9b05812225b0
+slug: gratkit-matte-pla-rainbow-eternal-ember
+brand:
+  slug: gratkit
+name: Matte PLA Rainbow Eternal Ember
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#5aeb90ff'
+- color_rgba: '#da8cbfff'
+- color_rgba: '#2bd8bfff'
+- color_rgba: '#f2f470ff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-rainbow-eternal-ember/gratkit-matte-pla-rainbow-eternal-ember-0-172abcbc.jpg
+  type: unspecified

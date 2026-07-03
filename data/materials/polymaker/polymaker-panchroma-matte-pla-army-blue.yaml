@@ -14,4 +14,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-matte-pla-army-blue/b7b2f67d9de3.png
   type: unspecified
-properties: {}
+transmission_distance: 0.1
+properties:
+  density: 1.37
+  drying_temperature: 55
+  drying_time: 360
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60

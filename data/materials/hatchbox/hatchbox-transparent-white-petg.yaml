@@ -13,4 +13,9 @@ tags:
 photos:
 - url: https://files.openprinttag.org/hatchbox/hatchbox-transparent-white-petg/69b408f9a39a.jpg
   type: unspecified
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 0
+  max_bed_temperature: 85

@@ -1,0 +1,22 @@
+uuid: b93c32ae-2a16-5ae3-b21c-14f144448eb1
+slug: bambulab-support-for-pla-petg-black
+brand:
+  slug: bambulab
+name: Support for PLA/PETG Black
+class: FFF
+abbreviation: Support
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- translucent
+properties:
+  density: 1.28
+  min_print_temperature: 190
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 60
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-support-for-pla-petg-black/bambulab-support-for-pla-petg-black-0-4d823b6e.png
+  type: unspecified

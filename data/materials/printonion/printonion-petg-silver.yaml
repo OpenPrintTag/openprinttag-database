@@ -1,0 +1,19 @@
+uuid: a407d083-0e60-5a9d-a624-56380016dd61
+slug: printonion-petg-silver
+brand:
+  slug: printonion
+name: PETG Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#626262ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-silver/printonion-petg-silver-0-9c02f7df.jpg
+  type: unspecified

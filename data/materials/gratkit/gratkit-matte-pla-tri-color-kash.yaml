@@ -1,0 +1,22 @@
+uuid: 39bcfa85-4673-5112-af6b-ce89a9d98bd0
+slug: gratkit-matte-pla-tri-color-kash
+brand:
+  slug: gratkit
+name: Matte PLA Tri-Color Kash
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#7cef83ff'
+- color_rgba: '#00fedeff'
+- color_rgba: '#f2f470ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-tri-color-kash/gratkit-matte-pla-tri-color-kash-0-a0af5503.jpg
+  type: unspecified

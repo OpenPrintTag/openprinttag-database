@@ -1,0 +1,21 @@
+uuid: a687d7f2-c441-551b-a192-efff04c4d90f
+slug: printonion-pla-dark-blue
+brand:
+  slug: printonion
+name: PLA Dark Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#093577ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-dark-blue/printonion-pla-dark-blue-0-36e67869.jpg
+  type: unspecified

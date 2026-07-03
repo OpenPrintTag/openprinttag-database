@@ -1,0 +1,21 @@
+uuid: 9adc668f-523a-5f18-88fa-678bf6351678
+slug: printonion-abs-blue
+brand:
+  slug: printonion
+name: ABS Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#0f57ffff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-blue/printonion-abs-blue-0-d48424d8.jpg
+  type: unspecified

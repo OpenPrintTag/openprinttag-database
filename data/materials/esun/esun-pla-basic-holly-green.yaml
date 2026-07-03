@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/epla?VariantsId=13420
 primary_color:
   color_rgba: '#217165ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-basic-holly-green/esun-pla-basic-holly-green-0-d0d8a117.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-basic-holly-green/esun-pla-basic-holly-green-0-d0d8a117.jpg
+    type: unspecified

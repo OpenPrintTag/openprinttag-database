@@ -10,7 +10,16 @@ primary_color:
   color_rgba: '#fbe200ff'
 tags:
 - industrially_compostable
+- high_speed
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-rapid-pla-plus-yellow/f651779da72a.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 200

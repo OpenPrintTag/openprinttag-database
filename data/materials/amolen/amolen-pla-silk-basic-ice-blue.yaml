@@ -6,11 +6,20 @@ name: PLA Silk Basic Ice Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-basic?variant=41646999830551
+url: https://www.amolen.com/products/pla-silk-basic
 primary_color:
   color_rgba: '#9fd9f0ff'
 tags:
 - silk
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-basic-ice-blue/1-1_1_9fb1a4a2-3bc5-496f-afde-6a87e15be02e.jpg
+  type: unspecified
 properties:
   density: 1.27
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

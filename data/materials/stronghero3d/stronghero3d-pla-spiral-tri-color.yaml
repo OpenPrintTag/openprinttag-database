@@ -1,0 +1,21 @@
+uuid: 0b026908-6ef5-50e5-bfaf-6cb8a1b59962
+slug: stronghero3d-pla-spiral-tri-color
+brand:
+  slug: stronghero3d
+name: PLA Spiral Tri-Color
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0DJZ48XHG?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#e60000ff'
+- color_rgba: '#fffb00ff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-spiral-tri-color/stronghero3d-pla-spiral-tri-color-0-6fd9c636.jpg
+  type: unspecified

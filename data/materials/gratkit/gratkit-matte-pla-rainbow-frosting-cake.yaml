@@ -1,0 +1,23 @@
+uuid: 685ca522-70eb-5a15-9046-10118a1f5530
+slug: gratkit-matte-pla-rainbow-frosting-cake
+brand:
+  slug: gratkit
+name: Matte PLA Rainbow Frosting Cake
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#8cc6e4ff'
+- color_rgba: '#e1ebb6ff'
+- color_rgba: '#b6ffdcff'
+- color_rgba: '#e18fe1ff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-rainbow-frosting-cake/gratkit-matte-pla-rainbow-frosting-cake-0-fd6e3307.jpg
+  type: unspecified

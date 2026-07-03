@@ -6,9 +6,13 @@ name: ASA Black
 class: FFF
 type: ASA
 abbreviation: ASA
+url: https://esun3dstoreeu.com/products/easa?VariantsId=12733
 primary_color:
   color_rgba: '#000000ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
 photos:
-- url: https://files.openprinttag.org/esun/esun-asa-black/aafdb8822df1.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-asa-black/aafdb8822df1.jpg
+    type: unspecified

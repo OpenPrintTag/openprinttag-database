@@ -1,0 +1,19 @@
+uuid: 1fb3ab41-1eab-5d64-a71b-5c1d85653c81
+slug: printonion-petg-blue
+brand:
+  slug: printonion
+name: PETG Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0f57ffff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-blue/printonion-petg-blue-0-095e608a.jpg
+  type: unspecified

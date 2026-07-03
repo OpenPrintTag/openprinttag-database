@@ -1,0 +1,23 @@
+uuid: 7c41e988-e362-5e23-a43c-f642da8ac920
+slug: polymaker-panchroma-matte-pla-muted-terracotta
+brand:
+  slug: polymaker
+name: Panchroma™ Matte PLA Muted Terracotta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c06443ff'
+tags:
+- matte
+- industrially_compostable
+photos: []
+transmission_distance: 0.8
+properties:
+  density: 1.37
+  drying_temperature: 55
+  drying_time: 360
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60

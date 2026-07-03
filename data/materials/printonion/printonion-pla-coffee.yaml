@@ -1,0 +1,21 @@
+uuid: af6092e5-5494-5694-ba58-9521e2df0ea8
+slug: printonion-pla-coffee
+brand:
+  slug: printonion
+name: PLA Coffee
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#652e1aff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-coffee/printonion-pla-coffee-0-feddc6f0.jpg
+  type: unspecified

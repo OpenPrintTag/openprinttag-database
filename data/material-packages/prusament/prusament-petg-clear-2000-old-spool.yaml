@@ -1,0 +1,10 @@
+uuid: 3b21a550-54dd-5f75-9348-d087963a80cf
+slug: prusament-petg-clear-2000-old-spool
+class: FFF
+gtin: 8594173675582
+container:
+  slug: old-prusament-spool-2kg
+material:
+  slug: prusament-petg-clear
+nominal_netto_full_weight: 2000
+filament_diameter: 1750

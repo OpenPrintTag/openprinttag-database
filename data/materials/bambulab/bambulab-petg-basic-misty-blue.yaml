@@ -1,0 +1,21 @@
+uuid: b9d3e702-d983-521f-bb8c-6b8f33b53e2a
+slug: bambulab-petg-basic-misty-blue
+brand:
+  slug: bambulab
+name: PETG Basic Misty Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#688197ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-misty-blue/bambulab-petg-basic-misty-blue-0-dca4c1f3.jpg
+  type: unspecified

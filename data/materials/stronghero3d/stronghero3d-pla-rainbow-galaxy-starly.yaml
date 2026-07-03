@@ -1,0 +1,23 @@
+uuid: af154d87-a4b0-52e9-bc3d-b887b7b1a5ec
+slug: stronghero3d-pla-rainbow-galaxy-starly
+brand:
+  slug: stronghero3d
+name: PLA Rainbow Galaxy Starly
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B094G4NC6L?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#00d3e2ff'
+- color_rgba: '#4e486aff'
+- color_rgba: '#924293ff'
+- color_rgba: '#0353baff'
+tags:
+- silk
+- glitter
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-rainbow-galaxy-starly/stronghero3d-pla-rainbow-galaxy-starly-0-0103cb4e.jpg
+  type: unspecified

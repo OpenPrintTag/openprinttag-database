@@ -6,8 +6,17 @@ name: TPU 85A Lime Green
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=682714606946189348
 primary_color:
-  color_rgba: '#bbff84ff'
+  color_rgba: '#cdea80ff'
 properties:
-  hardness_shore_a: 85
+  density: 1.18
+  hardness_shore_a: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-tpu-85a-lime-green/bambulab-tpu-85a-lime-green-0-ef1a9a0f.png
+  type: unspecified

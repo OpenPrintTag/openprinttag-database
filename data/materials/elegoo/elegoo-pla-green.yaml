@@ -1,0 +1,23 @@
+uuid: 4f5694e7-b5f1-5eb2-80c4-13ea1937f1c5
+slug: elegoo-pla-green
+brand:
+  slug: elegoo
+name: PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+brand_specific_id: SPUS-EL-PLA-N017
+url: https://us.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg?variant=51248966664373
+primary_color:
+  color_rgba: '#02cc6cff'
+photos:
+- url: https://files.openprinttag.org/elegoo/elegoo-pla-green/81IpGKRM3mL._AC_SL1500_.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 360

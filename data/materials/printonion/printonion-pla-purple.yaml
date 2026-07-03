@@ -1,0 +1,21 @@
+uuid: ef8a6fb6-edc2-5c26-ade9-03ba0da32bac
+slug: printonion-pla-purple
+brand:
+  slug: printonion
+name: PLA Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a855ecff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-purple/printonion-pla-purple-0-3dc0a008.jpg
+  type: unspecified

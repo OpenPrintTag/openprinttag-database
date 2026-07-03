@@ -1,0 +1,21 @@
+uuid: 9fffef9f-7b69-5528-8818-a6de6a8a6ca7
+slug: printonion-pla-cream-yellow
+brand:
+  slug: printonion
+name: PLA Cream Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6f7bfff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-cream-yellow/printonion-pla-cream-yellow-0-d8a8a9a7.jpg
+  type: unspecified

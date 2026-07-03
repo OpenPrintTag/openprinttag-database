@@ -1,0 +1,17 @@
+uuid: 101795ab-7468-5fb8-b7b5-dc0a0d45099a
+slug: eryone-tpu-95a-black
+brand:
+  slug: eryone
+name: TPU 95A Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.21
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60

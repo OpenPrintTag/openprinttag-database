@@ -1,0 +1,21 @@
+uuid: a177f1ab-ca41-5867-aeae-5576dc2a4706
+slug: printonion-abs-orange
+brand:
+  slug: printonion
+name: ABS Orange
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffb514ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-orange/printonion-abs-orange-0-f273f525.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: 9358136f-cc04-5d0c-a9b8-4c9e7f693de5
+slug: stronghero3d-petg-high-speed-green-blue
+brand:
+  slug: stronghero3d
+name: PETG High Speed Green Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0GC6BF5NL?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#7b49a2ff'
+- color_rgba: '#e2ff4dff'
+- color_rgba: '#0378d0ff'
+- color_rgba: '#509f45ff'
+tags:
+- gradual_color_change
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-high-speed-green-blue/stronghero3d-petg-high-speed-green-blue-0-47061cf5.jpg
+  type: unspecified

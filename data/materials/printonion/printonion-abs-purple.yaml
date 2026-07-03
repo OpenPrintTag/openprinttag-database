@@ -1,0 +1,21 @@
+uuid: 295273b6-0f8c-577c-8b88-7c2f9edcb6f4
+slug: printonion-abs-purple
+brand:
+  slug: printonion
+name: ABS Purple
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#dea0eeff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-purple/printonion-abs-purple-0-588a9363.jpg
+  type: unspecified

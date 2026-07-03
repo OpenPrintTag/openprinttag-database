@@ -6,7 +6,6 @@ name: PETG Prusa Pro Green
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.prusa3d.com/cs/produkt/prusament-petg-prusa-pro-green-1kg/
 primary_color:
   color_rgba: '#00fa9aff'
 properties:
@@ -21,5 +20,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 60
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-petg-prusa-pro-green/prusament-petg-prusa-pro-green-0-0674d2ee.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-petg-prusa-pro-green/prusament-petg-prusa-pro-green-0-0674d2ee.jpg
+    type: unspecified

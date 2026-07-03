@@ -8,13 +8,13 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla-chameleon?VariantsId=12195
 secondary_colors:
-- color_rgba: '#8846aeff'
-- color_rgba: '#15817bff'
+  - color_rgba: '#8846aeff'
+  - color_rgba: '#15817bff'
 tags:
-- iridescent
-- glitter
-- industrially_compostable
+  - iridescent
+  - glitter
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-chameleon-polaris/esun-pla-chameleon-polaris-0-d531e4bc.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-chameleon-polaris/esun-pla-chameleon-polaris-0-d531e4bc.jpg
+    type: unspecified

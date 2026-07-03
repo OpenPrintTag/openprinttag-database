@@ -1,0 +1,21 @@
+uuid: bd66c72f-9c37-5010-90e7-f4ab13702c4d
+slug: bambulab-petg-basic-gray
+brand:
+  slug: bambulab
+name: PETG Basic Gray
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#595962ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-gray/bambulab-petg-basic-gray-0-4513230b.jpg
+  type: unspecified

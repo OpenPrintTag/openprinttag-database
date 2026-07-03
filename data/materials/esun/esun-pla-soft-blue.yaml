@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13384
 primary_color:
   color_rgba: '#9ce0ebff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-soft-blue/esun-pla-soft-blue-0-5db78650.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-soft-blue/esun-pla-soft-blue-0-5db78650.jpg
+    type: unspecified

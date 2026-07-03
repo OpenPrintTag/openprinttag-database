@@ -1,0 +1,21 @@
+uuid: 5ffa1ee6-83c7-544a-a3b7-8a24bc0ca5f3
+slug: bambulab-petg-basic-reflex-blue
+brand:
+  slug: bambulab
+name: PETG Basic Reflex Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#001489ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-reflex-blue/bambulab-petg-basic-reflex-blue-0-5c7bf8b2.jpg
+  type: unspecified

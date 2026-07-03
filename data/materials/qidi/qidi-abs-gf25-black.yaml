@@ -1,0 +1,21 @@
+uuid: d0636512-6fc1-5fb5-b7bc-50fdc0c9bfb5
+slug: qidi-abs-gf25-black
+brand:
+  slug: qidi
+name: ABS-GF25 Black
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://us.qidi3d.com/products/qidi-tech-abs-gf25-filament?variant=50737667604800
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.15
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-abs-gf25-black/qidi-abs-gf25-black-0-31825be4.jpg
+  type: unspecified

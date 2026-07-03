@@ -1,0 +1,21 @@
+uuid: 3649d0cc-2d5b-56d3-8826-00bc89f0301c
+slug: printonion-asa-white
+brand:
+  slug: printonion
+name: ASA White
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#fafafaff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-white/printonion-asa-white-0-4de65f81.jpg
+  type: unspecified

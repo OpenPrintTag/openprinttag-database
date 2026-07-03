@@ -10,7 +10,6 @@ url: https://siddament.com.au/products/carbon-fiber-pla-1-75mm-1kg
 primary_color:
   color_rgba: '#0f0f0fff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

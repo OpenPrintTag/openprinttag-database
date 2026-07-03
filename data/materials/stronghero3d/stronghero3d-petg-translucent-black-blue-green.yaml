@@ -1,0 +1,21 @@
+uuid: e9c965f7-9e0c-5cce-96ed-a25c0ee8f8fc
+slug: stronghero3d-petg-translucent-black-blue-green
+brand:
+  slug: stronghero3d
+name: PETG Translucent Black Blue Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0FPFXWZL3?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#033877ff'
+- color_rgba: '#094932ff'
+tags:
+- glitter
+- gradual_color_change
+- translucent
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-translucent-black-blue-green/stronghero3d-petg-translucent-black-blue-green-0-0622ca6d.jpg
+  type: unspecified

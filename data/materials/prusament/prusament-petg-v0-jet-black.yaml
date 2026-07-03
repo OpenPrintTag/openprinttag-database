@@ -6,14 +6,13 @@ name: PETG V0 Jet Black
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.prusa3d.com/product/prusament-petg-v0-jet-black-1kg/
 primary_color:
   color_rgba: '#363331ff'
 transmission_distance: 0.3
 tags:
-- self_extinguishing
+  - self_extinguishing
 certifications:
-- ul_94_v0
+  - ul_94_v0
 properties:
   density: 1.27
   hardness_shore_d: 79
@@ -26,5 +25,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 60
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-petg-v0-jet-black/prusament-petg-v0-jet-black-0-7d521337.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-petg-v0-jet-black/prusament-petg-v0-jet-black-0-7d521337.jpg
+    type: unspecified

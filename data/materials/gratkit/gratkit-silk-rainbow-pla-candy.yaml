@@ -1,0 +1,22 @@
+uuid: 4d49c9cd-3862-5e8a-886d-00e61d77d0de
+slug: gratkit-silk-rainbow-pla-candy
+brand:
+  slug: gratkit
+name: Silk Rainbow PLA Candy
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/gratkit-silk-rainbow-pla-filament-1-75mm-pla-filament-1kg
+secondary_colors:
+- color_rgba: '#01e041ff'
+- color_rgba: '#fe00afff'
+- color_rgba: '#ecea39ff'
+- color_rgba: '#40e0d0ff'
+- color_rgba: '#3a00b9ff'
+tags:
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-silk-rainbow-pla-candy/gratkit-silk-rainbow-pla-candy-0-f3f3e0ff.jpg
+  type: unspecified

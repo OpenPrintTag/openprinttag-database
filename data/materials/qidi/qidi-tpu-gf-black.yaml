@@ -1,0 +1,21 @@
+uuid: 32dd9c90-f74b-51c2-b05d-a9173c3d0b22
+slug: qidi-tpu-gf-black
+brand:
+  slug: qidi
+name: TPU-GF Black
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.qidi3d.com/products/tpu-gf
+primary_color:
+  color_rgba: '#30312fff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.32
+  hardness_shore_d: 67.0
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-tpu-gf-black/qidi-tpu-gf-black-0-6360f415.jpg
+  type: unspecified

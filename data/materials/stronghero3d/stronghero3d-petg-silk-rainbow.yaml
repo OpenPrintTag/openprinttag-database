@@ -1,0 +1,22 @@
+uuid: 1e379587-c474-5ed4-888a-db9dabcfd4f2
+slug: stronghero3d-petg-silk-rainbow
+brand:
+  slug: stronghero3d
+name: PETG Silk Rainbow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0FVM56YDH?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#7b49a2ff'
+- color_rgba: '#7ab352ff'
+- color_rgba: '#005da4ff'
+- color_rgba: '#eeea44ff'
+- color_rgba: '#d55d8cff'
+tags:
+- silk
+- gradual_color_change
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-silk-rainbow/stronghero3d-petg-silk-rainbow-0-b5593f0b.jpg
+  type: unspecified

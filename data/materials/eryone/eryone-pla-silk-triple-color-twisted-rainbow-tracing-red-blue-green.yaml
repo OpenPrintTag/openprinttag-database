@@ -1,0 +1,26 @@
+uuid: d78887df-2a84-5240-b5f6-a2f39047b663
+slug: eryone-pla-silk-triple-color-twisted-rainbow-tracing-red-blue-green
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Twisted Rainbow Tracing Red Blue Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#dc4669ff'
+- color_rgba: '#0456bbff'
+- color_rgba: '#1b6444ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-twisted-rainbow-tracing-red-blue-green/PLA_Silk_Triple-Color_Filament_-_1.75mm-1.jpg?v=1770105710
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

@@ -1,0 +1,24 @@
+uuid: a0a43c95-45c4-580a-a8eb-9ba095877974
+slug: polymaker-ht-pla-blue
+brand:
+  slug: polymaker
+name: HT-PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0f5ea0ff'
+tags:
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.287
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-blue/polymaker-ht-pla-blue-0-4b2dc4d6.jpg
+  type: unspecified

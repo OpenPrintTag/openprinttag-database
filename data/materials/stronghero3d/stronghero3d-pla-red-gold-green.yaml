@@ -1,0 +1,22 @@
+uuid: 0d2d80c9-b143-5ea9-8586-0f9b10764041
+slug: stronghero3d-pla-red-gold-green
+brand:
+  slug: stronghero3d
+name: PLA Red-Gold-Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B0DGFWNNHK?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#089a45ff'
+- color_rgba: '#ffcb47ff'
+- color_rgba: '#bf2b2bff'
+tags:
+- silk
+- glitter
+- coextruded
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-red-gold-green/stronghero3d-pla-red-gold-green-0-fc1955a6.jpg
+  type: unspecified

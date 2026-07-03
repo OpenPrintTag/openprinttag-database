@@ -1,0 +1,21 @@
+uuid: ff099995-4644-567f-979f-64eb329a1b2b
+slug: stronghero3d-pla-silk-silver-forge-black
+brand:
+  slug: stronghero3d
+name: PLA Silk Silver Forge Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B0967Y7CK1?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#abacb0ff'
+- color_rgba: '#5a696cff'
+- color_rgba: '#000000ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-silk-silver-forge-black/stronghero3d-pla-silk-silver-forge-black-0-69033af9.jpg
+  type: unspecified

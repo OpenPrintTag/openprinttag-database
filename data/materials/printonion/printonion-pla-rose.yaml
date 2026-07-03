@@ -1,0 +1,21 @@
+uuid: a79da2f9-36c1-5fad-b4b3-3890c4b0d9a0
+slug: printonion-pla-rose
+brand:
+  slug: printonion
+name: PLA Rose
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c72f73ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-rose/printonion-pla-rose-0-f8ff6ccd.jpg
+  type: unspecified

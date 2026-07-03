@@ -1,0 +1,21 @@
+uuid: c0c56d07-fd2d-5585-bfa6-eb61fb090131
+slug: bambulab-petg-basic-navy-blue
+brand:
+  slug: bambulab
+name: PETG Basic Navy Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0086d6ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-navy-blue/bambulab-petg-basic-navy-blue-0-7e80c42a.jpg
+  type: unspecified

@@ -7,7 +7,8 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#e7ceb4ff'
+  color_rgba: '#f0d6bfff'
+  color_lab: [82.3831, 5.7633, 12.8333]
 tags:
 - industrially_compostable
 properties:

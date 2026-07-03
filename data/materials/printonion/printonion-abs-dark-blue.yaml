@@ -1,0 +1,21 @@
+uuid: 416505f8-0c46-5e66-b947-16b3181b465e
+slug: printonion-abs-dark-blue
+brand:
+  slug: printonion
+name: ABS Dark Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#0f1768ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-dark-blue/printonion-abs-dark-blue-0-08150628.jpg
+  type: unspecified

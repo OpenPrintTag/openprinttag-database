@@ -1,0 +1,21 @@
+uuid: 87c034ed-01d4-53af-9dbf-73ef8fcc60c0
+slug: stronghero3d-pla-glow-in-the-dark-green-blue
+brand:
+  slug: stronghero3d
+name: PLA Glow in The Dark Green/Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B08D6C46XG?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#00ff6fff'
+- color_rgba: '#39b9dbff'
+tags:
+- glow_in_the_dark
+- abrasive
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-glow-in-the-dark-green-blue/stronghero3d-pla-glow-in-the-dark-green-blue-0-b10b0c58.jpg
+  type: unspecified

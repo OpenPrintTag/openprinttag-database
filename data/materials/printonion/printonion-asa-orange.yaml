@@ -1,0 +1,21 @@
+uuid: 56fa754d-7762-5078-a4a9-72044e3ad95f
+slug: printonion-asa-orange
+brand:
+  slug: printonion
+name: ASA Orange
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#ffb514ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-orange/printonion-asa-orange-0-8a6e904c.jpg
+  type: unspecified

@@ -6,12 +6,14 @@ name: High Speed ABS+ Blue
 class: FFF
 type: ABS
 abbreviation: ABS
+url: https://esun3dstoreeu.com/products/eabs-pro-hs?VariantsId=12492
 primary_color:
   color_rgba: '#0353baff'
 tags:
-- filtration_recommended
-- high_speed
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
 photos:
-- url: https://files.openprinttag.org/esun/esun-high-speed-abs-blue/9bd64231f603.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-high-speed-abs-blue/9bd64231f603.jpg
+    type: unspecified

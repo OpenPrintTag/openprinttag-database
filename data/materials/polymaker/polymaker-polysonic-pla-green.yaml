@@ -9,8 +9,16 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#2d9e59ff'
 tags:
-- industrially_compostable
+  - high_speed
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polysonic-pla-green/401cb5c845ed.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polysonic-pla-green/401cb5c845ed.png
+    type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

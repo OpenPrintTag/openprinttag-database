@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13373
 primary_color:
   color_rgba: '#bbe1c6ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-mint-green/esun-pla-mint-green-0-7fe635c4.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-mint-green/esun-pla-mint-green-0-7fe635c4.jpg
+    type: unspecified

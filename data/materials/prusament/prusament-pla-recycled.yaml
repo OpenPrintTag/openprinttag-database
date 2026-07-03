@@ -6,12 +6,11 @@ name: PLA Recycled
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.prusa3d.com/product/prusament-pla-recycled-2kg/
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#556d5aff'
 tags:
-- recycled
-- industrially_compostable
+  - recycled
+  - industrially_compostable
 properties:
   density: 1.24
   hardness_shore_d: 80
@@ -24,5 +23,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pla-recycled/prusament-pla-recycled-0-353fca87.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pla-recycled/prusament-pla-recycled-0-353fca87.jpg
+    type: unspecified

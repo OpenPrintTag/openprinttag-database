@@ -1,0 +1,19 @@
+uuid: 32a4c8a8-68ab-57d2-a284-e99623d516ab
+slug: cc3d-pbt-pro-black
+brand:
+  slug: cc3d
+name: PBT Pro Black
+class: FFF
+type: PBT
+abbreviation: PBT
+primary_color:
+  color_rgba: '#000000'
+tags:
+- abrasive
+- contains_glass
+- contains_glass_fiber
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 60

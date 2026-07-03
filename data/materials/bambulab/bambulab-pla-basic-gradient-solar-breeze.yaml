@@ -7,12 +7,20 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#e6b0a2ff'
-- color_rgba: '#ff854dff'
+  - color_rgba: '#ffffffff'
+  - color_rgba: '#e94b3cff'
 tags:
-- industrially_compostable
-- gradual_color_change
+  - gradual_color_change
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-pla-basic-gradient-solar-breeze/af794dc60e49.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-pla-basic-gradient-solar-breeze/af794dc60e49.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+url: https://us.store.bambulab.com/products/pla-basic-gradient?id=41215835603080

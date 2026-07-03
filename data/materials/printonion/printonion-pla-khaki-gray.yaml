@@ -1,0 +1,21 @@
+uuid: 00150a13-2b40-5448-bfd5-8d04708579a0
+slug: printonion-pla-khaki-gray
+brand:
+  slug: printonion
+name: PLA Khaki Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#787664ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-khaki-gray/printonion-pla-khaki-gray-0-93380cb0.jpg
+  type: unspecified

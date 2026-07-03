@@ -7,10 +7,17 @@ class: FFF
 type: ABS
 abbreviation: ABS
 primary_color:
-  color_rgba: '#0378d0ff'
+  color_rgba: '#0a2ca5ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-abs-blue/cf6a7592f042.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-abs-blue/cf6a7592f042.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60

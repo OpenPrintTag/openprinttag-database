@@ -5,11 +5,11 @@ brand:
 name: Woodfill Pastel Brown
 class: FFF
 abbreviation: Wood
-url: https://www.prusa3d.com/product/prusament-woodfill-pastel-brown-1kg/
 primary_color:
   color_rgba: '#916e47ff'
 tags:
-- contains_wood
+  - contains_wood
+  - contains_organic_material
 properties:
   density: 1.16
   hardness_shore_d: 67

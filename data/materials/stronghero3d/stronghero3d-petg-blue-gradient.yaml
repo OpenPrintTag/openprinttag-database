@@ -1,0 +1,20 @@
+uuid: 850dc2e2-3cc1-5486-a1bb-4559f98044a9
+slug: stronghero3d-petg-blue-gradient
+brand:
+  slug: stronghero3d
+name: PETG Blue Gradient
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0BHL2TJ8G?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#bfdfefff'
+- color_rgba: '#0066d9ff'
+tags:
+- gradual_color_change
+- translucent
+properties:
+  density: 1.26
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-blue-gradient/stronghero3d-petg-blue-gradient-0-bb2c40f0.jpg
+  type: unspecified

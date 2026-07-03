@@ -8,13 +8,13 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/pla-uv-color-change?VariantsId=12883
 secondary_colors:
-- color_rgba: '#8d5984ff'
-- color_rgba: '#f1ece1ff'
+  - color_rgba: '#8d5984ff'
+  - color_rgba: '#e5e9e3ff'
 tags:
-- illuminescent_color_change
-- industrially_compostable
+  - illuminescent_color_change
+  - industrially_compostable
 properties:
   density: 1.25
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-uv-color-change-purple/esun-pla-uv-color-change-purple-0-71808e76.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-uv-color-change-purple/esun-pla-uv-color-change-purple-0-71808e76.jpg
+    type: unspecified

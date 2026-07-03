@@ -1,0 +1,21 @@
+uuid: 56f115a6-403e-58f9-9806-2e6adf33d471
+slug: printonion-abs-pink
+brand:
+  slug: printonion
+name: ABS Pink
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff9ee0ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-pink/printonion-abs-pink-0-274b3e7d.jpg
+  type: unspecified

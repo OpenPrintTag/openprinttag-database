@@ -1,0 +1,19 @@
+uuid: 6ad49530-ccbb-50a2-b17a-3f465f434905
+slug: printonion-petg-red
+brand:
+  slug: printonion
+name: PETG Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f71818ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-red/printonion-petg-red-0-645f3d7c.jpg
+  type: unspecified

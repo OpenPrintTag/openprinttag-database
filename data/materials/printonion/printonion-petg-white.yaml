@@ -1,0 +1,19 @@
+uuid: 73753052-2ac4-5d40-ba59-4131cae40c4b
+slug: printonion-petg-white
+brand:
+  slug: printonion
+name: PETG White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fafafaff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-white/printonion-petg-white-0-899346a3.jpg
+  type: unspecified

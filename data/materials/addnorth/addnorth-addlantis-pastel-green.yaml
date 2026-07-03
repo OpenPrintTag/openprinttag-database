@@ -9,8 +9,16 @@ abbreviation: PA6
 primary_color:
   color_rgba: '#add8abff'
 tags:
-- recycled
+  - recycled
+  - matte
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-addlantis-pastel-green/869e3415da84.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-addlantis-pastel-green/869e3415da84.png
+    type: unspecified
+properties:
+  density: 1.18
+  min_print_temperature: 265
+  max_print_temperature: 285
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+url: https://addnorth.com/product/Addlantis/Addlantis%20-%201.75mm%20-%201000g%20-%20Pastel%20Green

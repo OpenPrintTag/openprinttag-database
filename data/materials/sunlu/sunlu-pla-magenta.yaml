@@ -1,0 +1,21 @@
+uuid: bb60c6bb-7720-50ae-acd1-11c8e64def29
+slug: sunlu-pla-magenta
+brand:
+  slug: sunlu
+name: PLA Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f95e88ff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-magenta/f2193a57-003a-4bc4-8e80-86cfddb04161.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

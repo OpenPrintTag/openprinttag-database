@@ -1,0 +1,21 @@
+uuid: 320fdcfc-b8a2-5c0b-b7c7-b585fe24d07e
+slug: printonion-abs-beige
+brand:
+  slug: printonion
+name: ABS Beige
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fff5b3ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-beige/printonion-abs-beige-0-666be884.jpg
+  type: unspecified

@@ -9,10 +9,19 @@ abbreviation: ASA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-asa-cf-black/bb116d607525.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-asa-cf-black/bb116d607525.png
+    type: unspecified
+properties:
+  density: 1.02
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60

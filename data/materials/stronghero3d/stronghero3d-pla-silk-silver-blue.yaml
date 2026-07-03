@@ -1,0 +1,22 @@
+uuid: 7d313cd5-2e48-52b6-869d-2825b9c955dc
+slug: stronghero3d-pla-silk-silver-blue
+brand:
+  slug: stronghero3d
+name: PLA Silk Silver Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B08KD18F1G?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#5fbcddff'
+- color_rgba: '#292036ff'
+- color_rgba: '#1d1991ff'
+- color_rgba: '#88899dff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-silk-silver-blue/stronghero3d-pla-silk-silver-blue-0-068b2652.jpg
+  type: unspecified

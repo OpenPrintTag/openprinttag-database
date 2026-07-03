@@ -1,0 +1,21 @@
+uuid: e88743f0-3ce1-55d9-a94d-9b1c6dddafc9
+slug: printonion-asa-black
+brand:
+  slug: printonion
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#141414ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-black/printonion-asa-black-0-e237ab04.jpg
+  type: unspecified

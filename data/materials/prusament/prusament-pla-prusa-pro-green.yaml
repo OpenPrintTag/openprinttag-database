@@ -6,13 +6,16 @@ name: PLA Prusa Pro Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.prusa3d.com/product/prusament-pla-prusa-pro-green-1kg/
 primary_color:
-  color_rgba: '#00c389ff'
+  color_rgba: '#00cc8cff'
+  color_lab:
+    - 67.9869
+    - -50.1467
+    - 16.3533
 tags:
-- industrially_compostable
+  - industrially_compostable
 certifications:
-- ul_2904
+  - ul_2904
 properties:
   density: 1.24
   hardness_shore_d: 81
@@ -25,5 +28,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pla-prusa-pro-green/prusament-pla-prusa-pro-green-0-edd700ab.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pla-prusa-pro-green/prusament-pla-prusa-pro-green-0-edd700ab.jpg
+    type: unspecified

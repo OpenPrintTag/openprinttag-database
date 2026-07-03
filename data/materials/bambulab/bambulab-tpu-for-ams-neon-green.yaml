@@ -7,11 +7,18 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#9aee6cff'
+  color_rgba: '#90ff1aff'
 tags:
-- neon
+  - neon
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-tpu-for-ams-neon-green/9c0ace0f695d.png
-  type: unspecified
+  - url: https://files.openprinttag.org/bambulab/bambulab-tpu-for-ams-neon-green/9c0ace0f695d.png
+    type: unspecified
 properties:
-  hardness_shore_d: 68
+  density: 1.26
+  hardness_shore_d: 68.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45

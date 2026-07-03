@@ -1,0 +1,19 @@
+uuid: 954a5958-1a39-5a90-8d97-b331862f3809
+slug: stronghero3d-petg-crimson-rainbow
+brand:
+  slug: stronghero3d
+name: PETG Crimson Rainbow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0GL1Z4WXK?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#f87fb5ff'
+- color_rgba: '#5cadbfff'
+- color_rgba: '#5e1490ff'
+tags:
+- gradual_color_change
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-crimson-rainbow/stronghero3d-petg-crimson-rainbow-0-a0e1a7fa.jpg
+  type: unspecified

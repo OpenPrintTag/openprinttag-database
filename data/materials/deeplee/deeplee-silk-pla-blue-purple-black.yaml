@@ -1,0 +1,21 @@
+uuid: 1ac3cbed-71f3-5ff2-89e7-6ba3d7d0bf7f
+slug: deeplee-silk-pla-blue-purple-black
+brand:
+  slug: deeplee
+name: Silk PLA Blue Purple Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.co.uk/Filament-Accuracy-Tolerance-Materials-Compatible/dp/B0DS5YBZ4R?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#7142a3ff'
+- color_rgba: '#0378d0ff'
+tags:
+- silk
+- coextruded
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/deeplee/deeplee-silk-pla-blue-purple-black/deeplee-silk-pla-blue-purple-black-0-dd41e7b5.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: ddeaee14-ece7-511f-a027-de995ba3d418
+slug: printonion-abs-yellow
+brand:
+  slug: printonion
+name: ABS Yellow
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fff838ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-yellow/printonion-abs-yellow-0-c3af4777.jpg
+  type: unspecified

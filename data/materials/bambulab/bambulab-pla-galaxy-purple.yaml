@@ -1,0 +1,24 @@
+uuid: 30afb34e-ad51-54ca-ad14-f4b21bcdb677
+slug: bambulab-pla-galaxy-purple
+brand:
+  slug: bambulab
+name: PLA Galaxy Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#594177ff'
+tags:
+- glitter
+- industrially_compostable
+properties:
+  density: 1.19
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-pla-galaxy-purple/bambulab-pla-galaxy-purple-0-d3e8608a.png
+  type: unspecified

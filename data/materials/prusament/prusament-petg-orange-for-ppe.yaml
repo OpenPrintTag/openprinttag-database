@@ -6,7 +6,6 @@ name: PETG Orange for PPE
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.prusa3d.com/product/prusament-petg-orange-for-ppe-1kg-2/
 primary_color:
   color_rgba: '#ff6600ff'
 properties:
@@ -20,5 +19,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 60
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-petg-orange-for-ppe/prusament-petg-orange-for-ppe-0-cfd9110d.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-petg-orange-for-ppe/prusament-petg-orange-for-ppe-0-cfd9110d.jpg
+    type: unspecified

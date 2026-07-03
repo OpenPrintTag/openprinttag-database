@@ -6,12 +6,20 @@ name: TPU 90A Frozen
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=54085774508380
 secondary_colors:
-- color_rgba: '#ffffffff'
 - color_rgba: '#40b6e4ff'
+- color_rgba: '#ffffffff'
 tags:
 - gradual_color_change
 properties:
   density: 1.24
-  hardness_shore_a: 90
+  hardness_shore_a: 90.0
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-tpu-90a-frozen/bambulab-tpu-90a-frozen-0-e10c3243.png
+  type: unspecified

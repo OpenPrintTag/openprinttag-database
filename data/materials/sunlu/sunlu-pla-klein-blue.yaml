@@ -1,0 +1,21 @@
+uuid: 7c854ac0-f608-5b7f-b72f-afe97274ce3f
+slug: sunlu-pla-klein-blue
+brand:
+  slug: sunlu
+name: PLA Klein Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1729abff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-klein-blue/58685c1f-94a8-468c-bea5-423873bc0876.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

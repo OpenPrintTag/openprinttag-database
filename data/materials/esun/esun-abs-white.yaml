@@ -6,11 +6,12 @@ name: ABS White
 class: FFF
 type: ABS
 abbreviation: ABS
+url: https://www.amazon.com/eSUN-1-75mm-Printer-filament-2-2lbs/dp/B00MV7T3TO
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- filtration_recommended
-photos:
-- url: https://files.openprinttag.org/esun/esun-abs-white/a58faf45e92b.jpg
-  type: unspecified
+  - filtration_recommended
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-white/a58faf45e92b.jpg
+    type: unspecified

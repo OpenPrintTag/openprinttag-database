@@ -1,0 +1,27 @@
+uuid: 7f7c23e9-23a9-5de4-b3c3-d0e7d6e09b77
+slug: polymaker-ht-pla-gf-grey
+brand:
+  slug: polymaker
+name: HT-PLA-GF Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#91999fff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.337
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gf-grey/polymaker-ht-pla-gf-grey-0-1a21b38d.jpg
+  type: unspecified

@@ -1,0 +1,19 @@
+uuid: 5c9d7375-4302-5d1b-b79c-49d2e9da9a97
+slug: printonion-petg-light-green
+brand:
+  slug: printonion
+name: PETG Light Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#6bb560ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-light-green/printonion-petg-light-green-0-43b01a55.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 40102c0b-1c0a-5fa0-b6b2-4a305d4afe0d
+slug: bambulab-petg-basic-red
+brand:
+  slug: bambulab
+name: PETG Basic Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#cd001aff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-red/bambulab-petg-basic-red-0-2546a8b5.jpg
+  type: unspecified

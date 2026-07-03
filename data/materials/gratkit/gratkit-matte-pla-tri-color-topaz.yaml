@@ -1,0 +1,22 @@
+uuid: f9c3870c-5b62-53d5-a5b9-57e71edf2594
+slug: gratkit-matte-pla-tri-color-topaz
+brand:
+  slug: gratkit
+name: Matte PLA Tri-Color Topaz
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#e4e46dff'
+- color_rgba: '#c075e5ff'
+- color_rgba: '#ec75c2ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-tri-color-topaz/gratkit-matte-pla-tri-color-topaz-0-5c720dfd.jpg
+  type: unspecified

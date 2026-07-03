@@ -1,0 +1,19 @@
+uuid: b00ec9cf-8ef3-5a77-8ba3-791eaedff085
+slug: printonion-petg-orange
+brand:
+  slug: printonion
+name: PETG Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffb514ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-orange/printonion-petg-orange-0-8618a08b.jpg
+  type: unspecified

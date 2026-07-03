@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/epla-lite?VariantsId=12171
 primary_color:
   color_rgba: '#0066d9ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-lite-blue/esun-pla-lite-blue-0-64b373ce.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-lite-blue/esun-pla-lite-blue-0-64b373ce.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: df68f30a-346d-5ba7-a784-202c95778281
+slug: stronghero3d-pla-rainbow-silk
+brand:
+  slug: stronghero3d
+name: PLA Rainbow Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B096781ZNL?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#bb264dff'
+- color_rgba: '#41a840ff'
+- color_rgba: '#f59144ff'
+- color_rgba: '#754f94ff'
+- color_rgba: '#66dcf8ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-rainbow-silk/stronghero3d-pla-rainbow-silk-0-b89485f7.jpg
+  type: unspecified

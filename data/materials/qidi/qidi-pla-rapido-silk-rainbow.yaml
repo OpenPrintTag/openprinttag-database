@@ -1,0 +1,24 @@
+uuid: cd19fdb7-a8fb-51fd-9307-6cabe17fa123
+slug: qidi-pla-rapido-silk-rainbow
+brand:
+  slug: qidi
+name: PLA Rapido Silk Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.qidi3d.com/products/silk-pla-rapido-filament?variant=50737692836160
+secondary_colors:
+- color_rgba: '#e94e64ff'
+- color_rgba: '#8b69a3ff'
+- color_rgba: '#f5e457ff'
+- color_rgba: '#a4d0dfff'
+- color_rgba: '#b5db76ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties:
+  density: 1.24
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-pla-rapido-silk-rainbow/qidi-pla-rapido-silk-rainbow-0-893c52b0.jpg
+  type: unspecified

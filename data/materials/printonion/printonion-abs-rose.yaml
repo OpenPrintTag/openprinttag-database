@@ -1,0 +1,21 @@
+uuid: 4987e8d2-86ac-5a56-8e0f-532ea5d2c320
+slug: printonion-abs-rose
+brand:
+  slug: printonion
+name: ABS Rose
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#c72f73ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-rose/printonion-abs-rose-0-7da39e0b.jpg
+  type: unspecified

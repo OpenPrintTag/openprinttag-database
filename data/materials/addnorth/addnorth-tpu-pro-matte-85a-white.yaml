@@ -6,12 +6,18 @@ name: TPU Pro Matte 85A White
 class: FFF
 type: TPU
 abbreviation: TPU
+url: https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%201000g%20-%20White
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- matte
-photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-tpu-pro-matte-85a-white/eaf39f13f6c3.png
-  type: unspecified
+  - matte
 properties:
-  hardness_shore_a: 85
+  density: 1.1
+  hardness_shore_a: 85.0
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: https://files.openprinttag.org/addnorth/addnorth-tpu-pro-matte-85a-white/eaf39f13f6c3.png
+    type: unspecified

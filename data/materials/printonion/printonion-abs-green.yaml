@@ -1,0 +1,21 @@
+uuid: a5c1ab11-d400-5ed0-965d-71e5853ce1e3
+slug: printonion-abs-green
+brand:
+  slug: printonion
+name: ABS Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#25d047ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-green/printonion-abs-green-0-d3729ce9.jpg
+  type: unspecified

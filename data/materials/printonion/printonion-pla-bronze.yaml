@@ -1,0 +1,21 @@
+uuid: ef30b1aa-f2d5-5c80-8bf3-1df5437436cc
+slug: printonion-pla-bronze
+brand:
+  slug: printonion
+name: PLA Bronze
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#836842ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-bronze/printonion-pla-bronze-0-bec495dc.jpg
+  type: unspecified

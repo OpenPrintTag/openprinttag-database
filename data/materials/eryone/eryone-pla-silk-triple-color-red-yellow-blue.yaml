@@ -1,0 +1,26 @@
+uuid: 109d7050-415e-51b7-9d41-07d969a4e67b
+slug: eryone-pla-silk-triple-color-red-yellow-blue
+brand:
+  slug: eryone
+name: PLA Silk Triple-Color Red Yellow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ea396dff'
+- color_rgba: '#fff786ff'
+- color_rgba: '#313af7ff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-triple-color-red-yellow-blue/PLA_Silk_Triple-Color_Filament_-_1.75mm-RED_YELLOW_BLUE.jpg?v=1776650739
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

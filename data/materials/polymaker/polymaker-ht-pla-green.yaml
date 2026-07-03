@@ -1,0 +1,24 @@
+uuid: 95e217ea-3d62-5de1-a18b-000828f22754
+slug: polymaker-ht-pla-green
+brand:
+  slug: polymaker
+name: HT-PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#05af47ff'
+tags:
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.287
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-green/polymaker-ht-pla-green-0-a6aa7d16.jpg
+  type: unspecified

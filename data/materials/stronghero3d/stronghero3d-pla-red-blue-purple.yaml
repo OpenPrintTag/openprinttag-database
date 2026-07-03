@@ -1,0 +1,21 @@
+uuid: a253c710-a7a8-581c-8410-68e888cb4176
+slug: stronghero3d-pla-red-blue-purple
+brand:
+  slug: stronghero3d
+name: PLA Red Blue Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B09W23RMK8?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#990303ff'
+- color_rgba: '#800080ff'
+- color_rgba: '#3a00b9ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-red-blue-purple/stronghero3d-pla-red-blue-purple-0-442fa525.jpg
+  type: unspecified

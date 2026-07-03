@@ -6,11 +6,20 @@ name: PLA Silk Basic Silk White
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-basic?variant=40547673636887
+url: https://www.amolen.com/products/pla-silk-basic
 primary_color:
   color_rgba: '#f5f5f5ff'
 tags:
 - silk
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-basic-silk-white/PLA_Silk_Basic_White.jpg
+  type: unspecified
 properties:
   density: 1.27
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

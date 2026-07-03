@@ -1,0 +1,23 @@
+uuid: 46dd74fe-eaa8-58c8-9b67-e37f380b3db6
+slug: stronghero3d-pla-rainbow-green-blue-purple-pink
+brand:
+  slug: stronghero3d
+name: PLA Rainbow Green Blue Purple Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0FK91W1C4?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#7b49a2ff'
+- color_rgba: '#00378bff'
+- color_rgba: '#9aed51ff'
+- color_rgba: '#ff72b6ff'
+- color_rgba: '#0378d0ff'
+- color_rgba: '#007249ff'
+tags:
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-rainbow-green-blue-purple-pink/stronghero3d-pla-rainbow-green-blue-purple-pink-0-549266f4.jpg
+  type: unspecified

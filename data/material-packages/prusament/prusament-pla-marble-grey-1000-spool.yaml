@@ -1,10 +1,11 @@
 uuid: d5aef2de-aaca-56e5-9b79-cf8afe23d775
 slug: prusament-pla-marble-grey-1000-spool
 class: FFF
+url: https://www.prusa3d.com/product/prusament-pla-marble-grey-1kg-nfc/
 material:
   slug: prusament-pla-marble-grey
 nominal_netto_full_weight: 1000
 gtin: 8594173675711
 container:
-  slug: old-prusament-spool-1kg
+  slug: prusament-spool-1kg
 filament_diameter: 1750

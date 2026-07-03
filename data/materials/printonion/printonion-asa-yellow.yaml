@@ -1,0 +1,21 @@
+uuid: be6ff528-c449-5eb1-abf2-fe19c6a2241b
+slug: printonion-asa-yellow
+brand:
+  slug: printonion
+name: ASA Yellow
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#ffcd61ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-asa-yellow/printonion-asa-yellow-0-eb9e38be.jpg
+  type: unspecified

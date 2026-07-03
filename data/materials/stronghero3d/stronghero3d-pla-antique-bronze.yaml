@@ -1,0 +1,21 @@
+uuid: 74c45325-8adc-578f-8574-d11d13141920
+slug: stronghero3d-pla-antique-bronze
+brand:
+  slug: stronghero3d
+name: PLA Antique Bronze
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B09679BZ5Z?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#693721ff'
+- color_rgba: '#6d6e4aff'
+- color_rgba: '#d6c469ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-antique-bronze/stronghero3d-pla-antique-bronze-0-3f45bd77.jpg
+  type: unspecified

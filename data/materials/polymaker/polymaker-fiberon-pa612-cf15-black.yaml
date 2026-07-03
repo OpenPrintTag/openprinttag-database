@@ -1,0 +1,24 @@
+uuid: 2dd7ad0f-2796-53a7-b654-ec8a26bbc51e
+slug: polymaker-fiberon-pa612-cf15-black
+brand:
+  slug: polymaker
+name: Fiberon™ PA612-CF15 Black
+class: FFF
+abbreviation: PA612
+url: https://us.polymaker.com/products/fiberon-pa612-cf
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.03
+  min_print_temperature: 250
+  max_print_temperature: 300
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pa612-cf15-black/polymaker-fiberon-pa612-cf15-black-0-984debd2.png
+  type: unspecified

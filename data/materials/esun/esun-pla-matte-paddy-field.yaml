@@ -8,13 +8,13 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla-matte?VariantsId=12709
 secondary_colors:
-- color_rgba: '#62e480ff'
-- color_rgba: '#fce575ff'
+  - color_rgba: '#62e480ff'
+  - color_rgba: '#fce575ff'
 tags:
-- matte
-- gradual_color_change
-- industrially_compostable
+  - matte
+  - gradual_color_change
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-matte-paddy-field/esun-pla-matte-paddy-field-0-5cff1ce4.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-matte-paddy-field/esun-pla-matte-paddy-field-0-5cff1ce4.jpg
+    type: unspecified

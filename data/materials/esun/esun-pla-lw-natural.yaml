@@ -10,10 +10,10 @@ url: https://esun3dstoreeu.com/products/epla-lw
 primary_color:
   color_rgba: '#f2efe9ff'
 tags:
-- foaming
-- without_pigments
-- industrially_compostable
+  - foaming
+  - without_pigments
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-lw-natural/esun-pla-lw-natural-0-806a1b32.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-lw-natural/esun-pla-lw-natural-0-806a1b32.jpg
+    type: unspecified

@@ -6,13 +6,16 @@ name: Carbon Fiber ABS Black
 class: FFF
 type: ABS
 abbreviation: ABS
+url: https://esun3dstoreeu.com/products/abs-cf?VariantsId=12671
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- filtration_recommended
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.06
 photos:
-- url: https://files.openprinttag.org/esun/esun-carbon-fiber-abs-black/e14223cdf82c.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/esun/esun-carbon-fiber-abs-black/e14223cdf82c.jpg
+    type: unspecified

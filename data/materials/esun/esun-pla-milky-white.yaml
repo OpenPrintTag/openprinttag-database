@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13358
 primary_color:
   color_rgba: '#e9e9e7ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-milky-white/esun-pla-milky-white-0-e067e21f.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-milky-white/esun-pla-milky-white-0-e067e21f.jpg
+    type: unspecified

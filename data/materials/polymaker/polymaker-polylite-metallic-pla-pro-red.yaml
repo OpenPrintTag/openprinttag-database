@@ -1,0 +1,21 @@
+uuid: b05723bc-f0a6-5db4-8144-bcc8b52c594f
+slug: polymaker-polylite-metallic-pla-pro-red
+brand:
+  slug: polymaker
+name: PolyLite™ Metallic PLA Pro Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8d352cff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-red/polymaker-polylite-metallic-pla-pro-red-0-cbb5263e.png
+  type: unspecified

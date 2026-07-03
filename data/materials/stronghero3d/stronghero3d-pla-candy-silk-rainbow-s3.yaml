@@ -1,0 +1,22 @@
+uuid: 0e01c6da-9913-54e8-9b3f-c8d2f55effc6
+slug: stronghero3d-pla-candy-silk-rainbow-s3
+brand:
+  slug: stronghero3d
+name: PLA Candy Silk Rainbow S3
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Rainbow-Anycubic/dp/B0F7WXYN5X?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#f600c7ff'
+- color_rgba: '#41a840ff'
+- color_rgba: '#ffcb47ff'
+- color_rgba: '#754f94ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-candy-silk-rainbow-s3/stronghero3d-pla-candy-silk-rainbow-s3-0-97fcf7dc.jpg
+  type: unspecified

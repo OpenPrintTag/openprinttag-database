@@ -1,0 +1,21 @@
+uuid: e57a04d3-348d-505a-be96-a6340960dfb7
+slug: printonion-abs-cyan
+brand:
+  slug: printonion
+name: ABS Cyan
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#05a6c7ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-cyan/printonion-abs-cyan-0-65c7c8d8.jpg
+  type: unspecified

@@ -10,7 +10,6 @@ url: https://www.rosa3d.pl/en/filament-3d-pla-carbonlook
 primary_color:
   color_rgba: '#292824ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 properties: {}

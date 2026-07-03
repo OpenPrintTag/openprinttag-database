@@ -1,0 +1,21 @@
+uuid: d91271da-3f7f-5acb-ba6d-16cbe612b834
+slug: printonion-abs-white
+brand:
+  slug: printonion
+name: ABS White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fafafaff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-white/printonion-abs-white-0-35635ea1.jpg
+  type: unspecified

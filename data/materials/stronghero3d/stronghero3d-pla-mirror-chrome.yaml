@@ -1,0 +1,21 @@
+uuid: af88858f-e30b-5acb-834e-76936c7a6428
+slug: stronghero3d-pla-mirror-chrome
+brand:
+  slug: stronghero3d
+name: 'PLA Mirror Chrome '
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B08MW5KCTD?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#0e21aeff'
+- color_rgba: '#26272bff'
+- color_rgba: '#00b4bcff'
+tags:
+- glitter
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-mirror-chrome/stronghero3d-pla-mirror-chrome-0-d09bc9f9.jpg
+  type: unspecified

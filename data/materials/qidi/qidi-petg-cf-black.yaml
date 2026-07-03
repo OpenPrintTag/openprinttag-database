@@ -1,0 +1,20 @@
+uuid: 7768621a-3ebf-5fb9-8719-1e5e5ba6cceb
+slug: qidi-petg-cf-black
+brand:
+  slug: qidi
+name: PETG-CF Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.qidi3d.com/products/petg-cf
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.31
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-petg-cf-black/qidi-petg-cf-black-0-2f60f95b.jpg
+  type: unspecified

@@ -9,9 +9,9 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- matte
-- recycled
+  - recycled
+  - matte
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-rpetg-matte/727d84438ad5.png
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-rpetg-matte/727d84438ad5.png
+    type: unspecified
 properties: {}

@@ -7,11 +7,16 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#545f67ff'
+  color_rgba: '#505a5dff'
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-chrome/56a1423507e9.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-chrome/56a1423507e9.png
+    type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 60

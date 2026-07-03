@@ -6,13 +6,12 @@ name: PC Space Grade Black
 class: FFF
 type: PC
 abbreviation: PC
-url: https://www.prusa3d.com/product/prusament-pc-space-grade-black-850g/
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- low_outgassing
-- esd_safe
-- abrasive
+  - low_outgassing
+  - esd_safe
+  - abrasive
 properties:
   density: 1.21
   hardness_shore_d: 83
@@ -25,5 +24,5 @@ properties:
   min_chamber_temperature: 60
   max_chamber_temperature: 90
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pc-space-grade-black/prusament-pc-space-grade-black-0-c746b566.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pc-space-grade-black/prusament-pc-space-grade-black-0-c746b566.jpg
+    type: unspecified

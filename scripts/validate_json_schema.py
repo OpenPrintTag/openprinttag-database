@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 import yaml
 from jsonschema import FormatChecker, validators
-from referencing import Registry, Resource
+from referencing import Registry, retrieval
 
 from uuid_utils import (
     generate_brand_uuid,
@@ -48,23 +48,25 @@ class JsonSchemaValidator:
         'material-containers': 'material_container.schema.json',
     }
 
-    # Foreign key definitions: entity -> [(field_path, target_entity, target_field, is_array)]
+    # Foreign key definitions: entity -> [(field_path, target_entity, target_field, is_array, condition)]
+    # `condition`, if given, is a predicate on the entity dict; the FK is only checked when it returns True.
     FOREIGN_KEY_MAPPING = {
         'materials': [
-            (['brand', 'slug'], 'brands', 'slug', False),
-            (['type_id'], 'material-types', 'key', False),
-            (['certification_ids'], 'material-certifications', 'key', True),
+            (['brand', 'slug'], 'brands', 'slug', False, None),
+            # `type` only exists on FFFMaterial (SLAMaterial has no material type)
+            (['type'], 'fff-material-types', 'abbreviation', False, lambda m: m.get('class') == 'FFF'),
+            (['certification_ids'], 'material-certifications', 'key', True, None),
         ],
         'material-packages': [
-            (['brand', 'slug'], 'brands', 'slug', False),
-            (['material', 'slug'], 'materials', 'slug', False),
-            (['container', 'slug'], 'material-containers', 'slug', False),
+            (['brand', 'slug'], 'brands', 'slug', False, None),
+            (['material', 'slug'], 'materials', 'slug', False, None),
+            (['container', 'slug'], 'material-containers', 'slug', False, None),
         ],
         'material-containers': [
-            (['brand', 'slug'], 'brands', 'slug', False),
+            (['brand', 'slug'], 'brands', 'slug', False, None),
         ],
         'brands': [
-            (['countries_of_origin'], 'countries', 'code', True),
+            (['countries_of_origin'], 'countries', 'code', True, None),
         ],
     }
 
@@ -79,21 +81,17 @@ class JsonSchemaValidator:
         self.data_cache: Dict[str, Dict[str, Any]] = {}  # entity_type -> {slug -> data}
 
     def setup_registry(self) -> None:
-        """Set up the schema registry with a retriever function"""
-        def retrieve_schema(uri: str) -> Resource:
+        """Set up the schema registry with a cached retriever function"""
+        @retrieval.to_cached_resource()
+        def retrieve_schema(uri: str) -> str:
             """Retrieve a schema resource when resolving $ref"""
-            # Parse the URI to get the path
             path = urlparse(uri).path.lstrip('/')
 
             # If it doesn't end with .schema.json, add it
             if not path.endswith('.schema.json'):
                 path = f"{path}.schema.json"
 
-            schema_path = self.schema_dir / path
-            schema_contents = json.loads(schema_path.read_text(encoding='utf-8'))
-
-            # Let Resource.from_contents infer the specification from $schema field
-            return Resource.from_contents(schema_contents)
+            return (self.schema_dir / path).read_text(encoding='utf-8')
 
         self.registry = Registry(retrieve=retrieve_schema)
 
@@ -197,9 +195,9 @@ class JsonSchemaValidator:
 
         return files_validated
 
-    def load_material_types(self) -> None:
-        """Load material types from openprinttag/data/material_types.yaml"""
-        material_types_file = self.openprinttag_data_dir / "material_types.yaml"
+    def load_fff_material_types(self) -> None:
+        """Load material types from openprinttag/data/fff_material_types.yaml"""
+        material_types_file = self.openprinttag_data_dir / "fff_material_types.yaml"
 
         if not material_types_file.exists():
             print(f"  Warning: Material types file not found at {material_types_file}")
@@ -210,11 +208,11 @@ class JsonSchemaValidator:
             return
 
         # Store material types indexed by their 'key' field
-        self.data_cache['material-types'] = {}
+        self.data_cache['fff-material-types'] = {}
         for material_type in data:
             if isinstance(material_type, dict) and 'key' in material_type:
                 # Use the key as the cache key for lookups
-                self.data_cache['material-types'][material_type['key']] = material_type
+                self.data_cache['fff-material-types'][material_type['key']] = material_type
 
     def load_countries(self) -> None:
         """Load countries from openprinttag/data/countries.yaml"""
@@ -269,7 +267,10 @@ class JsonSchemaValidator:
             entity_data = self.data_cache.get(entity_type, {})
 
             for entity_key, entity_obj in entity_data.items():
-                for field_path, target_entity, target_field, is_array in fk_definitions:
+                for field_path, target_entity, target_field, is_array, condition in fk_definitions:
+                    if condition is not None and not condition(entity_obj):
+                        continue
+
                     value = self.get_nested_value(entity_obj, field_path)
 
                     if value is None:
@@ -386,7 +387,7 @@ class JsonSchemaValidator:
             print(f"{count} files")
 
         print("\nLoading reference data...")
-        self.load_material_types()
+        self.load_fff_material_types()
         self.load_material_certifications()
         self.load_countries()
 

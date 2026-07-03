@@ -1,0 +1,23 @@
+uuid: 566208d2-90b6-5662-8fcb-685346d075e6
+slug: elegoo-pla-hot-pink
+brand:
+  slug: elegoo
+name: PLA Hot Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+brand_specific_id: SPUS-EL-PLA-N007
+url: https://us.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg?variant=51248966336693
+primary_color:
+  color_rgba: '#fa7291ff'
+photos:
+- url: https://files.openprinttag.org/elegoo/elegoo-pla-hot-pink/81JcYqJTmSL._AC_SL1500_.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 360

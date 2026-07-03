@@ -1,0 +1,19 @@
+uuid: 260d26b5-ec52-584b-a8ca-747f4b5d6411
+slug: printonion-petg-pink
+brand:
+  slug: printonion
+name: PETG Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff9ee0ff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-pink/printonion-petg-pink-0-346278c8.jpg
+  type: unspecified

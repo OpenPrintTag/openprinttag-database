@@ -1,0 +1,20 @@
+uuid: 6b17afc7-601d-5ffa-8808-f27413f5958e
+slug: stronghero3d-petg-purple-gradient
+brand:
+  slug: stronghero3d
+name: 'PETG Purple Gradient '
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0D2D9R864?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#453a72ff'
+- color_rgba: '#7701b2ff'
+- color_rgba: '#09048eff'
+- color_rgba: '#4fa3deff'
+tags:
+- gradual_color_change
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-purple-gradient/stronghero3d-petg-purple-gradient-0-8a505fb8.jpg
+  type: unspecified

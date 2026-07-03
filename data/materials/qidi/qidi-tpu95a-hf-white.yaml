@@ -1,0 +1,19 @@
+uuid: ecb629df-49a5-5a45-b2c3-20ef508b8ce7
+slug: qidi-tpu95a-hf-white
+brand:
+  slug: qidi
+name: TPU95A-HF White
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.qidi3d.com/products/qidi-tpu95a-hf-filament?variant=50737707712832
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- high_speed
+properties:
+  density: 1.15
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-tpu95a-hf-white/qidi-tpu95a-hf-white-0-85f2afd2.jpg
+  type: unspecified

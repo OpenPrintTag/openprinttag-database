@@ -13,4 +13,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-pla-yellow/ef50231c7832.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.26
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 200

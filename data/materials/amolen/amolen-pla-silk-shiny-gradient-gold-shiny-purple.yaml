@@ -6,7 +6,7 @@ name: PLA Silk Shiny Gradient Gold & Shiny Purple
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-shiny?variant=39259058864151
+url: https://www.amolen.com/products/pla-silk-shiny
 secondary_colors:
 - color_rgba: '#f6c500ff'
 - color_rgba: '#804996ff'
@@ -14,5 +14,14 @@ tags:
 - silk
 - gradual_color_change
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-shiny-gradient-gold-shiny-purple/81_GmndTF4L.jpg
+  type: unspecified
 properties:
   density: 1.28
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

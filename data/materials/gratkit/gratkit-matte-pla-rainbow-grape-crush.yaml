@@ -1,0 +1,23 @@
+uuid: 542784a6-0e25-594d-b744-3eb9704db549
+slug: gratkit-matte-pla-rainbow-grape-crush
+brand:
+  slug: gratkit
+name: Matte PLA Rainbow Grape Crush
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#d159a6ff'
+- color_rgba: '#6299dfff'
+- color_rgba: '#00fedeff'
+- color_rgba: '#f2f470ff'
+tags:
+- matte
+- gradual_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-rainbow-grape-crush/gratkit-matte-pla-rainbow-grape-crush-0-115af955.jpg
+  type: unspecified

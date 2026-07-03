@@ -1,0 +1,23 @@
+uuid: 06b75510-e422-5c55-bf33-1bd8f47694db
+slug: eryone-pla-silk-copper
+brand:
+  slug: eryone
+name: PLA Silk Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b36a50ff'
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-copper/PLA-Silk-Filament-3.jpg?v=1767680110
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

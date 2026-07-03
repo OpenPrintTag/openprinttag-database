@@ -1,0 +1,22 @@
+uuid: 008258d6-6e5d-5420-b2d5-892010dd87b5
+slug: polymaker-polylite-metallic-pla-pro-lm-sparkle-green
+brand:
+  slug: polymaker
+name: PolyLite™ Metallic PLA Pro LM Sparkle Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#434d43ff'
+tags:
+- glitter
+- industrially_compostable
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polylite-metallic-pla-pro-lm-sparkle-green/polymaker-polylite-metallic-pla-pro-lm-sparkle-green-0-37c4a7a0.jpg
+  type: unspecified

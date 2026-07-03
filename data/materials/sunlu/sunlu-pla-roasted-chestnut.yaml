@@ -1,0 +1,19 @@
+uuid: 85cf28e2-4168-54cc-ae9a-37317d144d34
+slug: sunlu-pla-roasted-chestnut
+brand:
+  slug: sunlu
+name: PLA Roasted Chestnut
+class: FFF
+type: PLA
+abbreviation: PLA
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-roasted-chestnut/7a7237fa-2bb7-4931-aaa5-d6e60aae7ed6.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

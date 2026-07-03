@@ -7,10 +7,17 @@ class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#39b9dbff'
+  color_rgba: '#61b0ffff'
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-petg-translucent-light-blue/4fb4e155b4bf.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/bambulab/bambulab-petg-translucent-light-blue/4fb4e155b4bf.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50

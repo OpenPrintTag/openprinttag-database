@@ -6,7 +6,7 @@ name: PLA Silk Triple Color Red Green Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-silk-triple?variant=40585188999191
+url: https://www.amolen.com/products/pla-silk-triple
 secondary_colors:
 - color_rgba: '#00c26bff'
 - color_rgba: '#f600c7ff'
@@ -15,5 +15,14 @@ tags:
 - silk
 - coextruded
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-silk-triple-color-red-green-blue/81Xu-ll3AWL.jpg
+  type: unspecified
 properties:
   density: 1.27
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

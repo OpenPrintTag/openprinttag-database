@@ -6,12 +6,12 @@ name: PVB Bright Green
 class: FFF
 type: PVB
 abbreviation: PVB
-url: https://www.prusa3d.com/product/prusament-pvb-bright-green-transparent-500g/
 primary_color:
   color_rgba: '#51cc00ff'
 tags:
-- transparent
-- ipa_soluble
+  - transparent
+  - ipa_soluble
+  - translucent
 properties:
   density: 1.1
   hardness_shore_d: 77
@@ -24,5 +24,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pvb-bright-green/prusament-pvb-bright-green-0-09b1220a.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pvb-bright-green/prusament-pvb-bright-green-0-09b1220a.jpg
+    type: unspecified

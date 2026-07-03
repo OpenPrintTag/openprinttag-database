@@ -1,0 +1,21 @@
+uuid: b0a0ce43-e7fe-5c7d-b039-01f658779dee
+slug: bambulab-petg-basic-dark-beige
+brand:
+  slug: bambulab
+name: PETG Basic Dark Beige
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dbc8b6ff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-dark-beige/bambulab-petg-basic-dark-beige-0-bb7c6c9d.jpg
+  type: unspecified

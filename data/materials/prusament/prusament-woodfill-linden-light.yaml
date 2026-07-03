@@ -5,11 +5,11 @@ brand:
 name: Woodfill Linden Light
 class: FFF
 abbreviation: Wood
-url: https://www.prusa3d.com/product/prusament-woodfill-linden-light-1kg/
 primary_color:
   color_rgba: '#dfbf9fff'
 tags:
-- contains_wood
+  - contains_wood
+  - contains_organic_material
 properties:
   density: 1.16
   hardness_shore_d: 67
@@ -22,5 +22,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-woodfill-linden-light/prusament-woodfill-linden-light-0-7306bbc7.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-woodfill-linden-light/prusament-woodfill-linden-light-0-7306bbc7.jpg
+    type: unspecified

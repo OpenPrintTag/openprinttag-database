@@ -1,0 +1,20 @@
+uuid: 35cdfcd9-f110-518f-b525-f2d03e321329
+slug: bambulab-support-for-pa-pet-green
+brand:
+  slug: bambulab
+name: Support for PA/PET Green
+class: FFF
+abbreviation: Support
+primary_color:
+  color_rgba: '#91c500ff'
+properties:
+  density: 1.17
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-support-for-pa-pet-green/bambulab-support-for-pa-pet-0-ae5548cf.png
+  type: unspecified

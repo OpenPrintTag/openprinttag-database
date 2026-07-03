@@ -1,0 +1,22 @@
+uuid: 5175dbf3-0a93-5070-8a18-e963f96531e9
+slug: gratkit-matte-pla-tri-color-rose
+brand:
+  slug: gratkit
+name: Matte PLA Tri-Color Rose
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#f884e2ff'
+- color_rgba: '#7ecceeff'
+- color_rgba: '#c075e5ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-tri-color-rose/gratkit-matte-pla-tri-color-rose-0-3606c89d.jpg
+  type: unspecified

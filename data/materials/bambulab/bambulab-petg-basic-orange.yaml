@@ -1,0 +1,21 @@
+uuid: b4cbdad7-e191-5f04-99f9-90bc3a3d6acf
+slug: bambulab-petg-basic-orange
+brand:
+  slug: bambulab
+name: PETG Basic Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff671fff'
+properties:
+  density: 1.25
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  min_chamber_temperature: 35
+  max_chamber_temperature: 50
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-petg-basic-orange/bambulab-petg-basic-orange-0-28243af2.jpg
+  type: unspecified

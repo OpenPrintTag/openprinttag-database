@@ -8,10 +8,10 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla?VariantsId=13410
 primary_color:
-  color_rgba: '#54bee1ff'
+  color_rgba: '#9bcbebff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-basic-sky-blue/esun-pla-basic-sky-blue-0-579ba5ad.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-basic-sky-blue/esun-pla-basic-sky-blue-0-579ba5ad.jpg
+    type: unspecified

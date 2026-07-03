@@ -17,3 +17,9 @@ tags:
 - industrially_compostable
 properties:
   density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

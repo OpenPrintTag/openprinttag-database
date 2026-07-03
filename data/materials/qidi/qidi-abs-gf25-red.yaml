@@ -1,0 +1,21 @@
+uuid: 6fc5b2da-04c5-58ba-9a1f-fd9371fd3e0f
+slug: qidi-abs-gf25-red
+brand:
+  slug: qidi
+name: ABS-GF25 Red
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://us.qidi3d.com/products/qidi-tech-abs-gf25-filament
+primary_color:
+  color_rgba: '#cd001aff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.15
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-abs-gf25-red/qidi-abs-gf25-red-0-8ec9a895.jpg
+  type: unspecified

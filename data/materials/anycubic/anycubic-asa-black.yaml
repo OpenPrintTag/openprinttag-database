@@ -1,0 +1,22 @@
+uuid: a4614b63-647c-5a52-b16e-6a35dc6a444c
+slug: anycubic-asa-black
+brand:
+  slug: anycubic
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#212721ff'
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+  drying_time: 720
+  min_nozzle_diameter: 400
+photos:
+- url: https://files.openprinttag.org/anycubic/anycubic-asa-black/71Fgn8IeJGL._AC_SL1500_.jpg
+  type: unspecified

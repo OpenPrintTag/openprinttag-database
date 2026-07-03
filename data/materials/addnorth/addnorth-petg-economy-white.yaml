@@ -9,6 +9,7 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#ffffffff'
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-petg-economy-white/123f34ea258a.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-petg-economy-white/123f34ea258a.jpg
+    type: unspecified
 properties: {}
+url: https://addnorth.com/product/PETG%20Economy/PETG%20Economy%20-%201.75mm%20-%201000g%20-%20White

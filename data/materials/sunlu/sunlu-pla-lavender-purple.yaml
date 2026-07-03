@@ -1,0 +1,21 @@
+uuid: fcef0850-d232-55d0-bb42-49c5a269a12d
+slug: sunlu-pla-lavender-purple
+brand:
+  slug: sunlu
+name: PLA Lavender Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a54dcfff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-lavender-purple/0d3d44cb-3d0c-4373-a829-83ad873ef0da.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

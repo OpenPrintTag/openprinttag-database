@@ -6,11 +6,14 @@ name: PLA Blood Red
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.prusa3d.com/product/prusament-pla-blood-red-1kg/
 primary_color:
-  color_rgba: '#990303ff'
+  color_rgba: '#83242eff'
+  color_lab:
+    - 28.6253
+    - 35.9333
+    - 15.9433
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
   hardness_shore_d: 81
@@ -23,5 +26,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pla-blood-red/prusament-pla-blood-red-0-159f5d6b.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pla-blood-red/prusament-pla-blood-red-0-159f5d6b.jpg
+    type: unspecified

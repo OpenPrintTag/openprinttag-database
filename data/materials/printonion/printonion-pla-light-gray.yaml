@@ -1,0 +1,21 @@
+uuid: e6b12eba-3ac8-5157-b17a-92e00dbb2948
+slug: printonion-pla-light-gray
+brand:
+  slug: printonion
+name: PLA Light Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a6a6a6ff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-light-gray/printonion-pla-light-gray-0-61487679.jpg
+  type: unspecified

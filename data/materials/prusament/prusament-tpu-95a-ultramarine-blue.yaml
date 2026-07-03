@@ -6,12 +6,11 @@ name: TPU 95A Ultramarine Blue
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://www.prusa3d.com/product/prusament-tpu-95a-ultramarine-blue-500g-nfc/
 primary_color:
   color_rgba: '#1a0076ff'
 properties:
   density: 1.25
-  hardness_shore_a: 95.0
+  hardness_shore_a: 95
   min_print_temperature: 220
   max_print_temperature: 240
   preheat_temperature: 170
@@ -21,5 +20,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-tpu-95a-ultramarine-blue/prusament-tpu-95a-ultramarine-blue-0-853970d0.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-tpu-95a-ultramarine-blue/prusament-tpu-95a-ultramarine-blue-0-853970d0.jpg
+    type: unspecified

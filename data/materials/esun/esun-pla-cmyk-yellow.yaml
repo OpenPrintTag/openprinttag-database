@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/pla-cmyk?VariantsId=12715
 primary_color:
   color_rgba: '#fffb00ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-cmyk-yellow/esun-pla-cmyk-yellow-0-7b5a17a0.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-cmyk-yellow/esun-pla-cmyk-yellow-0-7b5a17a0.jpg
+    type: unspecified

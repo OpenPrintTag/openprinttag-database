@@ -1,0 +1,22 @@
+uuid: d4082e2d-d6fa-5ec1-b293-eef022008aca
+slug: gratkit-matte-pla-tri-color-iris
+brand:
+  slug: gratkit
+name: Matte PLA Tri-Color Iris
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#f600c7ff'
+- color_rgba: '#f8ff8dff'
+- color_rgba: '#4f03d7ff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-tri-color-iris/gratkit-matte-pla-tri-color-iris-0-3c194766.jpg
+  type: unspecified

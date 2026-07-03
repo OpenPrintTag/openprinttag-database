@@ -14,3 +14,10 @@ tags:
 - abrasive
 properties:
   density: 1.25
+  min_print_temperature: 270
+  max_print_temperature: 285
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 480
+  min_nozzle_diameter: 400

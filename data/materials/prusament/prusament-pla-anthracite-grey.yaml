@@ -6,13 +6,16 @@ name: PLA Anthracite Grey
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.prusa3d.com/product/prusament-pla-anthracite-grey-1kg/
 primary_color:
-  color_rgba: '#3f4647ff'
+  color_rgba: '#3c474aff'
+  color_lab:
+    - 27.2383
+    - -3.7267
+    - -2.7367
 tags:
-- industrially_compostable
+  - industrially_compostable
 certifications:
-- ul_2904
+  - ul_2904
 properties:
   density: 1.24
   hardness_shore_d: 81
@@ -25,5 +28,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pla-anthracite-grey/prusament-pla-anthracite-grey-0-ef980920.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pla-anthracite-grey/prusament-pla-anthracite-grey-0-ef980920.jpg
+    type: unspecified

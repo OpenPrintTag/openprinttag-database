@@ -5,14 +5,15 @@ brand:
 name: PP Glass Fiber Natural
 class: FFF
 type: PP
-abbreviation: PP
+abbreviation: PPGF
 url: https://www.prusa3d.com/product/prusament-pp-glass-fiber-natural-850g/
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- contains_glass_fiber
-- without_pigments
-- abrasive
+  - contains_glass_fiber
+  - without_pigments
+  - abrasive
+  - contains_glass
 properties:
   density: 1.02
   hardness_shore_d: 68
@@ -25,5 +26,5 @@ properties:
   min_chamber_temperature: 40
   max_chamber_temperature: 90
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pp-glass-fiber-natural/prusament-pp-glass-fiber-natural-0-88125745.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pp-glass-fiber-natural/prusament-pp-glass-fiber-natural-0-88125745.jpg
+    type: unspecified

@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/epla-matte?VariantsId=12577
 primary_color:
   color_rgba: '#efefefff'
 tags:
-- matte
-- industrially_compostable
+  - matte
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-matte-milky-white/esun-pla-matte-milky-white-0-65d7b1ab.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-matte-milky-white/esun-pla-matte-milky-white-0-65d7b1ab.jpg
+    type: unspecified

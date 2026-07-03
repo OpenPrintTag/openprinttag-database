@@ -10,8 +10,8 @@ url: https://esun3dstoreeu.com/products/epla-lite?VariantsId=12167
 primary_color:
   color_rgba: '#cf4042ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-lite-fire-engine-red/esun-pla-lite-fire-engine-red-0-620f61c5.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-lite-fire-engine-red/esun-pla-lite-fire-engine-red-0-620f61c5.jpg
+    type: unspecified

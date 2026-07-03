@@ -10,10 +10,9 @@ url: https://atomicfilament.com/products/carbon-fiber-extreme-pla-filament
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/atomic-filament/atomic-filament-carbon-fiber-extreme-black-pla/0251ed3ab9c8.png
-  type: unspecified
+  - url: https://files.openprinttag.org/atomic-filament/atomic-filament-carbon-fiber-extreme-black-pla/0251ed3ab9c8.png
+    type: unspecified
 properties: {}

@@ -1,0 +1,28 @@
+uuid: 83b4cce3-d56f-5595-acdc-2144c9049fd7
+slug: printonion-pla-rainbow
+brand:
+  slug: printonion
+name: PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#4f03d7ff'
+- color_rgba: '#ffb031ff'
+- color_rgba: '#e2ff4dff'
+- color_rgba: '#69b3e7ff'
+- color_rgba: '#ec0000ff'
+- color_rgba: '#cd00d7ff'
+- color_rgba: '#77f0a2ff'
+tags:
+- gradual_color_change
+- industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-pla-rainbow/printonion-pla-rainbow-0-7164081a.jpg
+  type: unspecified

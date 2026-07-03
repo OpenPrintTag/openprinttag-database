@@ -6,11 +6,20 @@ name: PLA Basic-High Speed Sand Beige
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-basic-high-speed?variant=41670965788695
+url: https://www.amolen.com/products/pla-basic-high-speed
 primary_color:
   color_rgba: '#d2d9b9ff'
 tags:
 - high_speed
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-basic-high-speed-sand-beige/52f863efef1f5493e6d386f0a2849f3e.jpg
+  type: unspecified
 properties:
   density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

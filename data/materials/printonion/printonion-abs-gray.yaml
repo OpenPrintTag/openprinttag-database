@@ -1,0 +1,21 @@
+uuid: 8c01227e-dbbf-5f1b-8610-c2b514074a4c
+slug: printonion-abs-gray
+brand:
+  slug: printonion
+name: ABS Gray
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#787882ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-abs-gray/printonion-abs-gray-0-d5c7aade.jpg
+  type: unspecified

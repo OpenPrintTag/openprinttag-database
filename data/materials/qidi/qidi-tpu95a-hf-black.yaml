@@ -1,0 +1,19 @@
+uuid: 812fc0b7-48e8-52d1-9889-97aafb9a29dd
+slug: qidi-tpu95a-hf-black
+brand:
+  slug: qidi
+name: TPU95A-HF Black
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.qidi3d.com/products/qidi-tpu95a-hf-filament?variant=50737707680064
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- high_speed
+properties:
+  density: 1.15
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-tpu95a-hf-black/qidi-tpu95a-hf-black-0-0ad03ce0.jpg
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: 7cf0d4f3-c52c-566a-ab77-4cb75732ccd5
+slug: eryone-pla-silk-dual-color-blue-purple
+brand:
+  slug: eryone
+name: PLA Silk Dual-Color Blue Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#004cffff'
+- color_rgba: '#9900ffff'
+tags:
+- silk
+- coextruded
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-dual-color-blue-purple/PLA-Silk-2-Color-Filament-7.jpg?v=1772430910
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

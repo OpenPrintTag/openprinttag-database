@@ -7,9 +7,16 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#df3303ff'
+  color_rgba: '#ed0000ff'
 photos:
-- url: https://files.openprinttag.org/bambulab/bambulab-tpu-for-ams-red/0ec5b5f01793.png
-  type: unspecified
+  - url: https://files.openprinttag.org/bambulab/bambulab-tpu-for-ams-red/0ec5b5f01793.png
+    type: unspecified
 properties:
-  hardness_shore_d: 68
+  density: 1.26
+  hardness_shore_d: 68.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45

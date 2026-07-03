@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/epla-silk?VariantsId=12086
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- silk
-- industrially_compostable
+  - silk
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-silk-white/esun-pla-silk-white-0-f6c2e3aa.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-silk-white/esun-pla-silk-white-0-f6c2e3aa.jpg
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: c74b5ff5-6fbd-5cef-9abb-4bffd5bf557a
+slug: elegoo-pc-transparent
+brand:
+  slug: elegoo
+name: PC Transparent
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#b0b0b0ff'
+photos:
+- url: https://files.openprinttag.org/elegoo/elegoo-pc-transparent/PC1KG_1.75mm_b9b0fa88-9c8b-4426-a2dd-150880846ead.jpg?v=1750652570
+  type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60
+  drying_temperature: 80
+  drying_time: 480
+  min_nozzle_diameter: 200

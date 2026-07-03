@@ -6,10 +6,19 @@ name: TPU 90A Crystal Blue
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://eu.store.bambulab.com/products/tpu-85a-tpu-90a?id=682714606946189324
 primary_color:
-  color_rgba: '#7babe1ff'
+  color_rgba: '#7eb4e1ff'
 tags:
 - translucent
 properties:
-  hardness_shore_a: 90
+  density: 1.24
+  hardness_shore_a: 90.0
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 35
+  min_chamber_temperature: 25
+  max_chamber_temperature: 45
+photos:
+- url: https://files.openprinttag.org/bambulab/bambulab-tpu-90a-crystal-blue/bambulab-tpu-90a-crystal-blue-0-c6a4af4a.png
+  type: unspecified

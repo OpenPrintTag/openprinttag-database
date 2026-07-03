@@ -1,0 +1,23 @@
+uuid: 39345830-507b-57bf-85fd-18bd6b7513a0
+slug: eryone-pla-silk-white
+brand:
+  slug: eryone
+name: PLA Silk White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- silk
+photos:
+- url: https://files.openprinttag.org/eryone/eryone-pla-silk-white/PLA-Silk-Filament-6.jpg?v=1770000845
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 70
+  drying_temperature: 55
+  drying_time: 480

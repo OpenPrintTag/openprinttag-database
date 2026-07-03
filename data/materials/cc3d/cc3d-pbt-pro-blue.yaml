@@ -1,0 +1,19 @@
+uuid: a8d79503-fb8d-5f99-8c54-3d388eab6940
+slug: cc3d-pbt-pro-blue
+brand:
+  slug: cc3d
+name: PBT Pro Blue
+class: FFF
+type: PBT
+abbreviation: PBT
+primary_color:
+  color_rgba: '#066cd1'
+tags:
+- abrasive
+- contains_glass
+- contains_glass_fiber
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 60

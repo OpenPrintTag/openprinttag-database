@@ -8,10 +8,10 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13378
 primary_color:
-  color_rgba: '#f0e6a3ff'
+  color_rgba: '#a59f4dff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-pla-mustard-green/esun-pla-mustard-green-0-725885ac.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-pla-mustard-green/esun-pla-mustard-green-0-725885ac.jpg
+    type: unspecified

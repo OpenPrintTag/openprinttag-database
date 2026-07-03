@@ -6,13 +6,16 @@ name: PLA Mystic Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.prusa3d.com/product/prusament-premium-pla-mystic-green-1kg-2/
 primary_color:
-  color_rgba: '#555846ff'
-transmission_distance: 1.0
+  color_rgba: '#5f5d3dff'
+  color_lab:
+    - 36.2789
+    - -2.7467
+    - 15.8033
+transmission_distance: 1
 tags:
-- iridescent
-- industrially_compostable
+  - iridescent
+  - industrially_compostable
 properties:
   density: 1.24
   min_print_temperature: 205
@@ -24,5 +27,5 @@ properties:
   min_chamber_temperature: 18
   max_chamber_temperature: 40
 photos:
-- url: https://files.openprinttag.org/prusament/prusament-pla-mystic-green/prusament-pla-mystic-green-0-1a782870.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/prusament/prusament-pla-mystic-green/prusament-pla-mystic-green-0-1a782870.jpg
+    type: unspecified

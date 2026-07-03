@@ -1,0 +1,21 @@
+uuid: 8ea2c9c5-7135-5912-8b19-aa2aae47760a
+slug: sunlu-pla-coffee-brown
+brand:
+  slug: sunlu
+name: PLA Coffee Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#362111ff'
+photos:
+- url: https://files.openprinttag.org/sunlu/sunlu-pla-coffee-brown/8a82afd1-de38-4125-b8e4-5e3de3524a42.jpg
+  type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 80
+  min_print_temperature: 190
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50

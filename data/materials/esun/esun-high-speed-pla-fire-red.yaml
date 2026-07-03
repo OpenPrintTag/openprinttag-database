@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/epla-pro-hs?VariantsId=12546
 primary_color:
   color_rgba: '#c01616ff'
 tags:
-- high_speed
-- industrially_compostable
+  - high_speed
+  - industrially_compostable
 properties: {}
 photos:
-- url: https://files.openprinttag.org/esun/esun-high-speed-pla-fire-red/esun-high-speed-pla-fire-red-0-1c240d56.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-high-speed-pla-fire-red/esun-high-speed-pla-fire-red-0-1c240d56.jpg
+    type: unspecified

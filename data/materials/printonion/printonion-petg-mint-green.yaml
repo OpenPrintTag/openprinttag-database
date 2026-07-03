@@ -1,0 +1,19 @@
+uuid: c9aa5abf-4c73-53e9-9fb6-e958037bc8ba
+slug: printonion-petg-mint-green
+brand:
+  slug: printonion
+name: PETG Mint Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#5eb5adff'
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 255
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/printonion/printonion-petg-mint-green/printonion-petg-mint-green-0-4267c31b.jpg
+  type: unspecified

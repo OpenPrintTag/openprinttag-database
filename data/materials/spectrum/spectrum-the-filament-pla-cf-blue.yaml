@@ -10,8 +10,7 @@ url: https://spectrumfilaments.com/en/filament/the-filament-pla-cf/
 primary_color:
   color_rgba: '#0353baff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 properties:
   density: 1.22

@@ -9,8 +9,16 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#55555eff'
 tags:
-- glitter
+  - glitter
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-petg-glitz-grey/7b728691feb6.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-petg-glitz-grey/7b728691feb6.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 260
+  min_bed_temperature: 0
+  drying_temperature: 65
+  drying_time: 360
+  max_bed_temperature: 80
+url: https://addnorth.com/product/PETG/PETG%20-%201.75mm%20-%20750g%20-%20Glitz%20Grey

@@ -1,0 +1,27 @@
+uuid: f9a72726-308c-513a-ae2f-4445d3c74bd4
+slug: polymaker-ht-pla-gf-blue
+brand:
+  slug: polymaker
+name: HT-PLA-GF Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#084989ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.337
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-gf-blue/polymaker-ht-pla-gf-blue-0-d0e99c82.jpg
+  type: unspecified

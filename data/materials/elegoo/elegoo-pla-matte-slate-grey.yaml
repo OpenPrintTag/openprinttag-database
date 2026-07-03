@@ -1,17 +1,23 @@
-uuid: 3f4ad005-4a60-5a36-bb58-2e8cb8cd1ac7
+uuid: 030e1083-dce4-5fc9-9e7a-52438adb21ed
 slug: elegoo-pla-matte-slate-grey
 brand:
   slug: elegoo
-name: PLA MATTE Slate Grey
+name: PLA Matte Slate Grey
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#b2b8b8ff'
+  color_rgba: '#969799ff'
 tags:
 - matte
-- industrially_compostable
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-pla-matte-slate-grey/af8e8a51f92b.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.26
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 480

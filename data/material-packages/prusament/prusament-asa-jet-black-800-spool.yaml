@@ -1,10 +1,11 @@
 uuid: e84b5751-25ab-5d97-8d82-591644bc93f9
 slug: prusament-asa-jet-black-800-spool
 class: FFF
+url: https://www.prusa3d.com/product/prusament-asa-jet-black-800g-nfc/
 material:
   slug: prusament-asa-jet-black
 nominal_netto_full_weight: 800
 gtin: 8594173675216
 container:
-  slug: new-prusament-spool-1kg
+  slug: prusament-spool-1kg
 filament_diameter: 1750

@@ -1,0 +1,18 @@
+uuid: 49caffa3-97e2-5936-bc88-78b0acbdfbe3
+slug: stronghero3d-petg-venom-green
+brand:
+  slug: stronghero3d
+name: PETG Venom Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0GL1RHX9W?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#000000ff'
+- color_rgba: '#39c3a7ff'
+tags:
+- gradual_color_change
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-venom-green/stronghero3d-petg-venom-green-0-16023c46.jpg
+  type: unspecified

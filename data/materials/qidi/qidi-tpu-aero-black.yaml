@@ -1,0 +1,19 @@
+uuid: 3b07ba64-c886-5ac3-b355-c33e304579d7
+slug: qidi-tpu-aero-black
+brand:
+  slug: qidi
+name: TPU-Aero Black
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.qidi3d.com/products/tpu-aero
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- foaming
+- matte
+properties:
+  density: 0.74
+photos:
+- url: https://files.openprinttag.org/qidi/qidi-tpu-aero-black/qidi-tpu-aero-black-0-7c06c1ce.jpg
+  type: unspecified

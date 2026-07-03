@@ -6,7 +6,6 @@ name: PLA Matte Rosy Rainbow
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.amolen.com/products/pla-matte-rainbow-filament-1-75mm-1kg-2-2lb?variant=43040517324823
 secondary_colors:
 - color_rgba: '#fe0193ff'
 - color_rgba: '#f7a7a1ff'
@@ -15,5 +14,14 @@ tags:
 - matte
 - gradual_color_change
 - industrially_compostable
+photos:
+- url: https://files.openprinttag.org/amolen/amolen-pla-matte-rosy-rainbow/1_d50cbf71-9439-4289-a42c-902a224111d0.jpg
+  type: unspecified
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 65
+  drying_temperature: 55
+  drying_time: 480

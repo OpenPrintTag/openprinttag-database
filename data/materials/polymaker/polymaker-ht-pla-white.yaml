@@ -1,0 +1,24 @@
+uuid: a2363802-1e77-55e2-9afa-a5c6ce019a6c
+slug: polymaker-ht-pla-white
+brand:
+  slug: polymaker
+name: HT-PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3f3f1ff'
+tags:
+- high_temperature
+- industrially_compostable
+properties:
+  density: 1.287
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-ht-pla-white/polymaker-ht-pla-white-0-ef36bd5b.jpg
+  type: unspecified

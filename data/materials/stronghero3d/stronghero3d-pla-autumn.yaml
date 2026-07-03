@@ -1,0 +1,22 @@
+uuid: 1e85e7c3-50f3-5470-858c-7bd8ae562408
+slug: stronghero3d-pla-autumn
+brand:
+  slug: stronghero3d
+name: PLA Autumn
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.amazon.com/Stronghero3D-Printer-Filament-Accuracy-0-05mm/dp/B0C233XVYK?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#6e694dff'
+- color_rgba: '#089a45ff'
+- color_rgba: '#e4e46dff'
+- color_rgba: '#488d94ff'
+tags:
+- silk
+- gradual_color_change
+- industrially_compostable
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-pla-autumn/stronghero3d-pla-autumn-0-a97ef5a2.jpg
+  type: unspecified

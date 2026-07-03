@@ -5,15 +5,22 @@ brand:
 name: PC Blend HT LCF Black
 class: FFF
 type: PC
-abbreviation: PC
+abbreviation: PCCF
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- blend
-- high_temperature
+  - blend
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - high_temperature
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-pc-blend-ht-lcf-black/c1ea2b27f535.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/addnorth/addnorth-pc-blend-ht-lcf-black/c1ea2b27f535.png
+    type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 265
+  max_print_temperature: 290
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+url: https://addnorth.com/product/PC%20Blend%20HT%20LCF/PC%20Blend%20HT%20LCF%20-%201.75mm%20-%201000g%20-%20Black

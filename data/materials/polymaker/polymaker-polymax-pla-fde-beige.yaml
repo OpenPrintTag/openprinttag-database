@@ -1,0 +1,22 @@
+uuid: dd3d733b-f092-5238-8092-190e2b7a0389
+slug: polymaker-polymax-pla-fde-beige
+brand:
+  slug: polymaker
+name: PolyMax™ PLA FDE Beige
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#90755dff'
+tags:
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polymax-pla-fde-beige/polymaker-polymax-pla-fde-beige-0-066a393d.png
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 9a0b3f2a-21a4-52a2-8adb-16af5a76041e
+slug: stronghero3d-petg-translucent-rainbow
+brand:
+  slug: stronghero3d
+name: PETG Translucent Rainbow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.amazon.com/Stronghero3D-Filament-Multicolor-Chameleon-Accuracy/dp/B0BBVC9N4G?ref_=ast_sto_dp&th=1
+secondary_colors:
+- color_rgba: '#ff8133ff'
+- color_rgba: '#7701b2ff'
+- color_rgba: '#ffe900ff'
+- color_rgba: '#e60000ff'
+- color_rgba: '#0378d0ff'
+- color_rgba: '#58c91bff'
+- color_rgba: '#e34a94ff'
+tags:
+- gradual_color_change
+- translucent
+properties: {}
+photos:
+- url: https://files.openprinttag.org/stronghero3d/stronghero3d-petg-translucent-rainbow/stronghero3d-petg-translucent-rainbow-0-721674da.jpg
+  type: unspecified

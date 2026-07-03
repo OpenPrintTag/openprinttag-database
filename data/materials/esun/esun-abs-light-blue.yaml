@@ -6,11 +6,12 @@ name: ABS+ Light Blue
 class: FFF
 type: ABS
 abbreviation: ABS
+url: https://www.amazon.com/eSUN-Filament-Dimensional-Accuracy-Printing/dp/B07FQ1VKXX
 primary_color:
   color_rgba: '#36dbe7ff'
 tags:
-- filtration_recommended
-photos:
-- url: https://files.openprinttag.org/esun/esun-abs-light-blue/688e23e5e7d8.jpg
-  type: unspecified
+  - filtration_recommended
 properties: {}
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-light-blue/688e23e5e7d8.jpg
+    type: unspecified

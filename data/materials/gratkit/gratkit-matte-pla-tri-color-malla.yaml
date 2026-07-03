@@ -1,0 +1,22 @@
+uuid: 5d17f05a-af40-551e-a79e-fc4f40fe6d3a
+slug: gratkit-matte-pla-tri-color-malla
+brand:
+  slug: gratkit
+name: Matte PLA Tri-Color Malla
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://gratkit.com/collections/3d-printing-filament/products/pla-filament
+secondary_colors:
+- color_rgba: '#bf4427ff'
+- color_rgba: '#c6f666ff'
+- color_rgba: '#0696efff'
+tags:
+- matte
+- coextruded
+- industrially_compostable
+properties:
+  density: 1.25
+photos:
+- url: https://files.openprinttag.org/gratkit/gratkit-matte-pla-tri-color-malla/gratkit-matte-pla-tri-color-malla-0-ee2ceb7d.jpg
+  type: unspecified
