@@ -1,0 +1,22 @@
+uuid: 9101b6c2-fbce-5a91-81b3-9d5c26baffe7
+slug: voxelpla-pla-hs-pro-ice-clear
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Ice Clear
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e4e7e5ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-ice-clear/eb1133e66f5f.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

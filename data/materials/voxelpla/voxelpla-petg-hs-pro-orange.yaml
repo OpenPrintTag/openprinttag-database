@@ -1,0 +1,21 @@
+uuid: a3b8f784-f559-5171-905f-2015adc77eb6
+slug: voxelpla-petg-hs-pro-orange
+brand:
+  slug: voxelpla
+name: PETG+ HS (Pro) Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff8133ff'
+tags:
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-voxelpetg-hs-pro-orange/a8b568f66021.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
