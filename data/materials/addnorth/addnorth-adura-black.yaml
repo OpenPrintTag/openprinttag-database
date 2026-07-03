@@ -1,0 +1,16 @@
+uuid: ca0d8941-aea5-5bc9-bdc2-b9be9ca0262b
+slug: addnorth-adura-black
+brand:
+  slug: addnorth
+name: Adura™ Black
+class: FFF
+abbreviation: Adura™
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  min_print_temperature: 245
+  max_print_temperature: 270
+  min_bed_temperature: 50
+photos:
+  - url: /tmp/assets/addnorth-adura-black-0-ecdfbad3.jpg
+    type: unspecified
