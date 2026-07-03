@@ -1,0 +1,16 @@
+uuid: e10dc499-0a2a-5d50-b7bb-69a935cf19b0
+slug: stlflix-pla-light-blue
+brand:
+  slug: stlflix
+name: PLA Light Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00c7fcff'
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
