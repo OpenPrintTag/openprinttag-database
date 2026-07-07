@@ -1,0 +1,21 @@
+uuid: c456dabe-ad5f-5236-8ceb-ff3b097bf37e
+slug: voxelpla-petg-hs-pro-blue
+brand:
+  slug: voxelpla
+name: PETG+ HS (Pro) Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#2e56f1ff'
+tags:
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-voxelpetg-hs-pro-blue/769f18cd0392.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
