@@ -77,10 +77,23 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
 
   if ((field?.type === 'object' && value) || typeof value === 'object') {
     const obj = value as Record<string, any>;
-    if (field?.title === 'MaterialColor') {
+    if (field?.title === 'MaterialColor' || obj.color_rgba) {
       const rgba = obj.color_rgba || obj.rgba;
       if (typeof rgba === 'string') {
-        return <ColorSwatch rgbaHex={rgba} label={rgba} />;
+        const lab =
+          Array.isArray(obj.color_lab) && obj.color_lab.length === 3
+            ? (obj.color_lab as [number, number, number])
+            : null;
+        return (
+          <span className="inline-flex items-center gap-2">
+            <ColorSwatch rgbaHex={rgba} label={rgba} />
+            {lab && (
+              <span className="text-xs text-gray-500">
+                L:{lab[0]} a:{lab[1]} b:{lab[2]}
+              </span>
+            )}
+          </span>
+        );
       }
     }
 
@@ -139,10 +152,10 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
       <div className="flex flex-wrap justify-between gap-y-2 align-top">
         {Object.entries(obj).map(([key, val]) => (
           <div className="flex-1/2" key={key}>
-            <dt className="mb-1 text-xs tracking-wide text-gray-500 uppercase">
+            <div className="mb-1 text-xs tracking-wide text-gray-500 uppercase">
               {key}
-            </dt>
-            <dd>{String(val)}</dd>
+            </div>
+            <div>{String(val)}</div>
           </div>
         ))}
       </div>
