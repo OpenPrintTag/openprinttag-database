@@ -1,0 +1,23 @@
+uuid: 8607aa5c-7788-5f8f-b002-650dd5cbfe77
+slug: polymaker-petg-galaxy-blue
+brand:
+  slug: polymaker
+name: PETG Galaxy Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#012c61ff'
+tags:
+  - glitter
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-petg-galaxy-blue-0-bfcd7d37.jpg
+    type: unspecified

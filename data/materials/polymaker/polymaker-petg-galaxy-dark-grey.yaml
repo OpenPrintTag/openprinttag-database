@@ -1,0 +1,23 @@
+uuid: 49d239d6-94f0-52a1-8954-4a3325dd8f6d
+slug: polymaker-petg-galaxy-dark-grey
+brand:
+  slug: polymaker
+name: PETG Galaxy Dark Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#474648ff'
+tags:
+  - glitter
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-petg-galaxy-dark-grey-0-4f60d598.jpg
+    type: unspecified

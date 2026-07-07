@@ -1,0 +1,21 @@
+uuid: 4add16b8-35a6-5ce2-a30d-e6cc92104c4c
+slug: polymaker-petg-teal
+brand:
+  slug: polymaker
+name: PETG Teal
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#74cabfff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-petg-teal-0-076da0f3.jpg
+    type: unspecified

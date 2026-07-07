@@ -1,0 +1,21 @@
+uuid: c1aa6135-d787-50a3-a767-c56890a66695
+slug: polymaker-petg-orange
+brand:
+  slug: polymaker
+name: PETG Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dc7c40ff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-petg-orange-0-d4946177.jpg
+    type: unspecified
