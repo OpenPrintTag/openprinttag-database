@@ -1,0 +1,22 @@
+uuid: f6501731-d138-53a6-b9c7-a61fc780fad3
+slug: voxelpla-pla-hs-pro-army-green
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Army Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6e8451ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-army-green/1b1db25e8e32.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

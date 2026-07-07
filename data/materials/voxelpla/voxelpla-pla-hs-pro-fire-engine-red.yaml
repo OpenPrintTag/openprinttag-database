@@ -1,0 +1,22 @@
+uuid: 32aaa691-0e7d-59af-8b11-d290f5e95306
+slug: voxelpla-pla-hs-pro-fire-engine-red
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Fire Engine Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e20010ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-fire-engine-red/023371d4527b.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

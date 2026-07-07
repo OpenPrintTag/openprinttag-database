@@ -1,0 +1,22 @@
+uuid: 995b1cf2-c335-563c-a00f-2db9c2439d3b
+slug: voxelpla-pla-hs-pro-cool-white
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Cool White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efefefff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-cool-white/47035b416e8b.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60
