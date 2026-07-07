@@ -1,0 +1,24 @@
+uuid: 6b9752e4-6c6f-5c98-8b8f-cf651fc26f8b
+slug: polymaker-panchroma-gradient-galaxy-blue-green
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Galaxy Blue-Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#1e2c73ff'
+  - color_rgba: '#178b9fff'
+tags:
+  - glitter
+  - gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-gradient-galaxy-blue-green-0-e403ed49.jpg
+    type: unspecified

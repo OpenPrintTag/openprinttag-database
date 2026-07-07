@@ -1,0 +1,24 @@
+uuid: 7c9c2abd-ee90-534d-b6fc-0ab9571b6f42
+slug: polymaker-panchroma-gradient-galaxy-black-blue
+brand:
+  slug: polymaker
+name: ' Panchroma™ Gradient Galaxy Black-Blue'
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#413a7aff'
+  - color_rgba: '#2d2b28ff'
+tags:
+  - glitter
+  - gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-gradient-galaxy-black-blue-0-9d58b46c.jpg
+    type: unspecified

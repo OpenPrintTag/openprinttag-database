@@ -1,0 +1,25 @@
+uuid: 10e95103-56bc-5e5f-8f41-6453d209736d
+slug: polymaker-panchroma-gradient-starlight-purple-red
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Starlight Purple-Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#c01616ff'
+  - color_rgba: '#771b6bff'
+tags:
+  - iridescent
+  - glitter
+  - gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-gradient-starlight-purple-red-0-e1bc6ecb.jpg
+    type: unspecified

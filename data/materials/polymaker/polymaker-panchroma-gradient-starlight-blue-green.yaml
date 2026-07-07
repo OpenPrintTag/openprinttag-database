@@ -1,0 +1,25 @@
+uuid: f6617688-b1e6-57ba-87c3-8a8b44337992
+slug: polymaker-panchroma-gradient-starlight-blue-green
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Starlight Blue-Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#4a674fff'
+  - color_rgba: '#178b9fff'
+tags:
+  - iridescent
+  - glitter
+  - gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-gradient-starlight-blue-green-0-074e90d8.jpg
+    type: unspecified
