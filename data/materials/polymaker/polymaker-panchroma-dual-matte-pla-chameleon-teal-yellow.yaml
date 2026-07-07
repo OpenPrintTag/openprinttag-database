@@ -7,13 +7,18 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#fbe200ff'
-- color_rgba: '#75c8ceff'
+  - color_rgba: '#61bcc3ff'
+  - color_rgba: '#f3c432ff'
 tags:
-- matte
-- industrially_compostable
-- coextruded
+  - matte
+  - coextruded
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-matte-pla-chameleon-teal-yellow/1432e7da840c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-matte-pla-chameleon-teal-yellow/1432e7da840c.png
+    type: unspecified
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

@@ -1,0 +1,25 @@
+uuid: 021e04aa-9433-5035-9d93-4dd6f90e0911
+slug: polymaker-panchroma-dual-silk-pla-aubergine-lime-magenta
+brand:
+  slug: polymaker
+name: Panchroma™ Dual Silk PLA Aubergine (Lime/Magenta)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#c4cf4cff'
+  - color_rgba: '#aa538eff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-dual-silk-pla-aubergine-lime-magenta-0-68a88575.png
+    type: unspecified

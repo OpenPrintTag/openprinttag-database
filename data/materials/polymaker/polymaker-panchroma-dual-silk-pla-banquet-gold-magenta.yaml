@@ -1,19 +1,25 @@
-uuid: c5c1035e-eff6-5a01-bbb6-f7dd0e1f7dec
+uuid: 7ee371d3-319d-5d13-888b-144b4c2f1f6c
 slug: polymaker-panchroma-dual-silk-pla-banquet-gold-magenta
 brand:
   slug: polymaker
-name: Panchroma™ Dual Silk PLA Banquet (Gold / Magenta)
+name: Panchroma™ Dual Silk PLA Banquet (Gold/Magenta)
 class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#ffcb47ff'
-- color_rgba: '#f2306eff'
+  - color_rgba: '#c49449ff'
+  - color_rgba: '#aa538eff'
 tags:
-- silk
-- industrially_compostable
-- coextruded
+  - silk
+  - coextruded
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-silk-pla-banquet-gold-magenta/1f9e30ed0c2a.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-silk-pla-banquet-gold-magenta/1f9e30ed0c2a.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

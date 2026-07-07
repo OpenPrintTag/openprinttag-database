@@ -1,0 +1,25 @@
+uuid: 0e2cea60-69c9-53dd-a8cb-77647726fb55
+slug: polymaker-panchroma-dual-silk-pla-crown-gold-silver
+brand:
+  slug: polymaker
+name: Panchroma™ Dual Silk PLA Crown (Gold/Silver)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#c49449ff'
+  - color_rgba: '#bcc2c8ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-dual-silk-pla-crown-gold-silver-0-5c2bc633.jpg
+    type: unspecified

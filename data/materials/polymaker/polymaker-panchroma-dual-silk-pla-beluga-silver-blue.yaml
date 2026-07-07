@@ -1,0 +1,25 @@
+uuid: 58fe9bee-9e90-53aa-b5c8-0482199d497a
+slug: polymaker-panchroma-dual-silk-pla-beluga-silver-blue
+brand:
+  slug: polymaker
+name: Panchroma™ Dual Silk PLA Beluga (Silver/Blue)
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#4999c9ff'
+  - color_rgba: '#bcc2c8ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-dual-silk-pla-beluga-silver-blue-0-0e194979.png
+    type: unspecified
