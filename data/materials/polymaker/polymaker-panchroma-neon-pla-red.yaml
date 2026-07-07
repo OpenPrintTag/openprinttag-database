@@ -9,9 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ff4f4dff'
 tags:
-- neon
-- industrially_compostable
+  - neon
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-neon-pla-red/63846cfb3a28.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-neon-pla-red/63846cfb3a28.png
+    type: unspecified
 properties: {}

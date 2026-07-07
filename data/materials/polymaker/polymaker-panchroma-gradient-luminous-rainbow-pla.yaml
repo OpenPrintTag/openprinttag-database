@@ -1,0 +1,28 @@
+uuid: 7bfdda9a-31db-5b91-9dfa-8541cca23d47
+slug: polymaker-panchroma-gradient-luminous-rainbow-pla
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Luminous Rainbow PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#bbdb4bff'
+  - color_rgba: '#ff67f5ff'
+  - color_rgba: '#7659b5ff'
+  - color_rgba: '#fbe200ff'
+  - color_rgba: '#0095ffff'
+tags:
+  - glow_in_the_dark
+  - abrasive
+  - gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-gradient-luminous-rainbow-pla-0-7e2b0ad0.png
+    type: unspecified

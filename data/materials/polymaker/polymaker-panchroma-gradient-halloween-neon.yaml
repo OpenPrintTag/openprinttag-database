@@ -1,0 +1,26 @@
+uuid: 39cb1cdb-cd3d-57b3-bc32-69b46d368d50
+slug: polymaker-panchroma-gradient-halloween-neon
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Halloween Neon
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#ffd342ff'
+  - color_rgba: '#fb0046ff'
+  - color_rgba: '#cd00d7ff'
+tags:
+  - gradual_color_change
+  - neon
+  - illuminescent_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-gradient-halloween-neon-0-e9bc93c2.jpg
+    type: unspecified
