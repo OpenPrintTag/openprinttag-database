@@ -1,0 +1,21 @@
+uuid: d5639073-e0ee-5fe5-bc56-97b27354feb7
+slug: voxelpla-petg-hs-pro-yellow
+brand:
+  slug: voxelpla
+name: PETG+ HS (Pro) Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f5e457ff'
+tags:
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-voxelpetg-hs-pro-yellow/75f68b3b07e4.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
