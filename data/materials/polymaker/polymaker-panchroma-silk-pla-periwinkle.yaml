@@ -1,18 +1,15 @@
-uuid: da192c53-f060-53bc-960d-e9f0b2140583
-slug: polymaker-panchroma-silk-pla-brass
+uuid: bcdf3be0-f6bc-5884-a16f-1ac79c75dc2f
+slug: polymaker-panchroma-silk-pla-periwinkle
 brand:
   slug: polymaker
-name: Panchroma™ Silk PLA Brass
+name: Panchroma™ Silk PLA Periwinkle
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#968162ff'
+  color_rgba: '#768ec7ff'
 tags:
   - silk
-photos:
-  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-silk-pla-brass/4e2da4fc548d.png
-    type: unspecified
 properties:
   density: 1.24
   min_print_temperature: 190
@@ -21,3 +18,6 @@ properties:
   max_bed_temperature: 60
   drying_temperature: 55
   drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-silk-pla-periwinkle-0-7fe8a4bb.png
+    type: unspecified
