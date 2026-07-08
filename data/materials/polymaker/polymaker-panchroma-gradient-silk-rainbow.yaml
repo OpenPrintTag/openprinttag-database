@@ -1,0 +1,28 @@
+uuid: 59b17652-996b-5ada-b455-f4a679792bd5
+slug: polymaker-panchroma-gradient-silk-rainbow
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Silk Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#5aeb90ff'
+- color_rgba: '#e94e64ff'
+- color_rgba: '#2fbabcff'
+- color_rgba: '#cd00d7ff'
+- color_rgba: '#7fc61bff'
+tags:
+- silk
+- gradual_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-gradient-silk-rainbow/polymaker-panchroma-gradient-silk-rainbow-0-4c71ae00.jpg
+  type: unspecified

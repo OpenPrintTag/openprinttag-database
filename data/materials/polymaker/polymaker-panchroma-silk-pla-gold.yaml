@@ -7,11 +7,17 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#e3b145ff'
+  color_rgba: '#c49449ff'
 tags:
-- silk
-- industrially_compostable
+  - silk
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-silk-pla-gold/4de6a2886f8c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-silk-pla-gold/4de6a2886f8c.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
