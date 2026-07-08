@@ -1,0 +1,23 @@
+uuid: 35faef74-faa6-552a-85c0-f427f3063dce
+slug: polymaker-abs-max-grey
+brand:
+  slug: polymaker
+name: ABS Max Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#c6cdd3ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 270
+  max_print_temperature: 300
+  max_bed_temperature: 120
+  min_chamber_temperature: 65
+  drying_temperature: 70
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-abs-max-grey-0-277076b6.jpg
+    type: unspecified

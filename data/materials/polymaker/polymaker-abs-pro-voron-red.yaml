@@ -1,0 +1,23 @@
+uuid: d2768529-5e20-5eb1-8e70-119b749bab8b
+slug: polymaker-abs-pro-voron-red
+brand:
+  slug: polymaker
+name: ABS Pro Voron Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ad2723ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-abs-pro-voron-red-0-cf695402.jpg
+    type: unspecified

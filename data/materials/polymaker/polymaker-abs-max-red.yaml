@@ -1,0 +1,23 @@
+uuid: 05d3f895-8251-531a-be7b-0e9fd5eb7198
+slug: polymaker-abs-max-red
+brand:
+  slug: polymaker
+name: ABS Max Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f53649ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 270
+  max_print_temperature: 300
+  max_bed_temperature: 120
+  min_chamber_temperature: 65
+  drying_temperature: 70
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-abs-max-red-0-7f2ae784.jpg
+    type: unspecified

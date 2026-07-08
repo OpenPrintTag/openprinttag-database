@@ -1,0 +1,25 @@
+uuid: d6035cbe-c486-56bc-b25e-eea3e93e0df4
+slug: polymaker-abs-pro-fire
+brand:
+  slug: polymaker
+name: ABS Pro Fire
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+  - color_rgba: '#ff2c29ff'
+  - color_rgba: '#f4c032ff'
+tags:
+  - gradual_color_change
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-abs-pro-fire-0-3f569c38.jpg
+    type: unspecified

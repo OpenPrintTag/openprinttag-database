@@ -1,0 +1,23 @@
+uuid: e9fd0b71-e8cf-51c2-adce-6944a808385f
+slug: polymaker-abs-pro-blue
+brand:
+  slug: polymaker
+name: ABS Pro Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#1b3373ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-abs-pro-blue-0-4dfa8ed2.jpg
+    type: unspecified
