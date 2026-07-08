@@ -1,0 +1,24 @@
+uuid: 4754b823-3ff5-58c2-9451-264f5c4b831c
+slug: polymaker-panchroma-gradient-celestial-blue-white
+brand:
+  slug: polymaker
+name: ' Panchroma™ Gradient Celestial Blue-White'
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f5f5f5ff'
+- color_rgba: '#39b9dbff'
+tags:
+- glitter
+- gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-gradient-celestial-blue-white/polymaker-panchroma-gradient-celestial-blue-white-0-d6f0fd93.jpg
+  type: unspecified
