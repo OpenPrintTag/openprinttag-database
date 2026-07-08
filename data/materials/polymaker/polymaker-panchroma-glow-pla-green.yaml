@@ -9,13 +9,19 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#089a45ff'
 secondary_colors:
-- color_rgba: '#efeadfff'
+  - color_rgba: '#089a45ff'
+  - color_rgba: '#f3eadbff'
 tags:
-- glow_in_the_dark
-- abrasive
-- industrially_compostable
-- illuminescent_color_change
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-glow-pla-green/4a2e00a4b511.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-glow-pla-green/4a2e00a4b511.png
+    type: unspecified
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
