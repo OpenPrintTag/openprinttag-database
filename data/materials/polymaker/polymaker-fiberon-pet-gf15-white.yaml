@@ -1,0 +1,25 @@
+uuid: c2d0bf63-466d-5b55-9439-e23a10a3ffce
+slug: polymaker-fiberon-pet-gf15-white
+brand:
+  slug: polymaker
+name: Fiberon™ PET-GF15 White
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.43
+  min_print_temperature: 280
+  max_print_temperature: 310
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 100
+  drying_time: 600
+photos:
+  - url: /tmp/assets/polymaker-fiberon-pet-gf15-white-0-8f9f4a3e.jpg
+    type: unspecified
