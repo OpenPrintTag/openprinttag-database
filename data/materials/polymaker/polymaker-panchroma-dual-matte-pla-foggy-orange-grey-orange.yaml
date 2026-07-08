@@ -7,13 +7,18 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#f67405ff'
-- color_rgba: '#c3ccd5ff'
+  - color_rgba: '#8a8c94ff'
+  - color_rgba: '#f88b17ff'
 tags:
-- matte
-- industrially_compostable
-- coextruded
+  - matte
+  - coextruded
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-matte-pla-foggy-orange-grey-orange/85504fd3e4f2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-matte-pla-foggy-orange-grey-orange/85504fd3e4f2.png
+    type: unspecified
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
