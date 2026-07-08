@@ -1,0 +1,21 @@
+uuid: b353b95e-13e6-55a7-bce7-bdfc2f01be38
+slug: polymaker-petg-green
+brand:
+  slug: polymaker
+name: PETG Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#38b837ff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-petg-green/polymaker-petg-green-0-26b5431e.jpg
+  type: unspecified
