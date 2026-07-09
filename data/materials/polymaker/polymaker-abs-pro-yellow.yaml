@@ -1,0 +1,23 @@
+uuid: f5845311-427c-5833-8a44-a18c7fcb7ddd
+slug: polymaker-abs-pro-yellow
+brand:
+  slug: polymaker
+name: ABS Pro Yellow
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fad341ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-abs-pro-yellow/polymaker-abs-pro-yellow-0-7bb70048.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: b7446685-569b-5de9-8a04-5984aa96f8e3
+slug: polymaker-abs-max-black
+brand:
+  slug: polymaker
+name: ABS Max Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#040403ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 270
+  max_print_temperature: 300
+  max_bed_temperature: 120
+  min_chamber_temperature: 65
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-abs-max-black/polymaker-abs-max-black-0-19834ce3.jpg
+  type: unspecified

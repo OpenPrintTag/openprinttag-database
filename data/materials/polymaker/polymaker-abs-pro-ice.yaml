@@ -1,0 +1,25 @@
+uuid: b6f533b6-969a-506d-8335-ef5c41b85c27
+slug: polymaker-abs-pro-ice
+brand:
+  slug: polymaker
+name: ABS Pro Ice
+class: FFF
+type: ABS
+abbreviation: ABS
+secondary_colors:
+- color_rgba: '#0a2ca5ff'
+- color_rgba: '#9ec3ddff'
+tags:
+- gradual_color_change
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-abs-pro-ice/polymaker-abs-pro-ice-0-3df70329.jpg
+  type: unspecified
