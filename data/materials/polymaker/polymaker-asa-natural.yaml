@@ -1,0 +1,20 @@
+uuid: aa3a76f3-d5dc-5892-8c77-f0724cb58746
+slug: polymaker-asa-natural
+brand:
+  slug: polymaker
+name: ASA Natural
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#dfd3c3ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420
