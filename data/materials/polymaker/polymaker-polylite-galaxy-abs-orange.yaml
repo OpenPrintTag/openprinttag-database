@@ -7,11 +7,18 @@ class: FFF
 type: ABS
 abbreviation: ABS
 primary_color:
-  color_rgba: '#f97429ff'
+  color_rgba: '#f57517ff'
 tags:
-- glitter
-- filtration_recommended
+  - glitter
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polylite-galaxy-abs-orange/8b624d5c82a5.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polylite-galaxy-abs-orange/8b624d5c82a5.png
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 245
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 70
+  drying_time: 360
