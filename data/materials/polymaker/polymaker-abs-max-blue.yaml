@@ -1,0 +1,23 @@
+uuid: 71d1e2d5-b7f2-51b3-ba2b-b32f10711d18
+slug: polymaker-abs-max-blue
+brand:
+  slug: polymaker
+name: ABS Max Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#1b3373ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 270
+  max_print_temperature: 300
+  max_bed_temperature: 120
+  min_chamber_temperature: 65
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-abs-max-blue/polymaker-abs-max-blue-0-be69e3d0.jpg
+  type: unspecified

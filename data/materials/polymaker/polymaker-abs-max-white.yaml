@@ -1,0 +1,23 @@
+uuid: 62ab03d7-efda-5338-a9b0-b6ade78c447b
+slug: polymaker-abs-max-white
+brand:
+  slug: polymaker
+name: ABS Max White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ebece9ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 270
+  max_print_temperature: 300
+  max_bed_temperature: 120
+  min_chamber_temperature: 65
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-abs-max-white/polymaker-abs-max-white-0-d0f93fa3.jpg
+  type: unspecified
