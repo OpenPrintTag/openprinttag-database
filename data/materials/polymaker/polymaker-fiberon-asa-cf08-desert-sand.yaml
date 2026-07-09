@@ -1,0 +1,26 @@
+uuid: 1beeeb7d-498f-5b81-afea-316caae4e0e3
+slug: polymaker-fiberon-asa-cf08-desert-sand
+brand:
+  slug: polymaker
+name: Fiberon™ ASA-CF08 Desert Sand
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#ceb69cff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 90
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-fiberon-asa-cf08-desert-sand-0-c4c5c2b8.jpg
+    type: unspecified

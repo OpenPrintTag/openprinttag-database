@@ -1,0 +1,26 @@
+uuid: 99db3d4f-4619-5fa9-b3b2-c170b86c11c1
+slug: polymaker-fiberon-asa-cf08-light-grey
+brand:
+  slug: polymaker
+name: Fiberon™ ASA-CF08 Light Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#adc4d6ff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 90
+  drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-fiberon-asa-cf08-light-grey-0-293c419f.jpg
+    type: unspecified

@@ -1,18 +1,16 @@
-uuid: 48a92904-a444-5431-b5c0-c351dcadf59a
-slug: polymaker-polyflex-tpu95-hf-black
+uuid: d424a4e2-054d-51d9-b0ea-12c96f7cac1a
+slug: polymaker-polyflex-tpu95-hf-translucent-red
 brand:
   slug: polymaker
-name: PolyFlex™ TPU95-HF Black
+name: PolyFlex™ TPU95-HF Translucent Red
 class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#16161aff'
+  color_rgba: '#b14241ff'
 tags:
   - high_speed
-photos:
-  - url: https://files.openprinttag.org/polymaker/polymaker-polyflex-tpu95-hf-black/c90f10d2cfd7.png
-    type: unspecified
+  - translucent
 properties:
   density: 1.16
   hardness_shore_a: 95.0
@@ -22,3 +20,6 @@ properties:
   max_bed_temperature: 50
   drying_temperature: 70
   drying_time: 480
+photos:
+  - url: /tmp/assets/polymaker-polyflex-tpu95-hf-translucent-red-0-c4fccfde.jpg
+    type: unspecified
