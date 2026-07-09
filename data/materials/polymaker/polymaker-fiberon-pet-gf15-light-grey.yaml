@@ -1,0 +1,25 @@
+uuid: 87b5dc54-8346-56a0-aaf3-7408aec971c7
+slug: polymaker-fiberon-pet-gf15-light-grey
+brand:
+  slug: polymaker
+name: Fiberon™ PET-GF15 Light Grey
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#a9abafff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.43
+  min_print_temperature: 280
+  max_print_temperature: 310
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 100
+  drying_time: 600
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pet-gf15-light-grey/polymaker-fiberon-pet-gf15-light-grey-0-3978f378.jpg
+  type: unspecified
