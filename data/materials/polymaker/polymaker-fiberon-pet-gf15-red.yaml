@@ -1,0 +1,25 @@
+uuid: a1b7b139-9eea-5015-8394-941dc19d828a
+slug: polymaker-fiberon-pet-gf15-red
+brand:
+  slug: polymaker
+name: Fiberon™ PET-GF15 Red
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#cc0033ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.43
+  min_print_temperature: 280
+  max_print_temperature: 310
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 100
+  drying_time: 600
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pet-gf15-red/polymaker-fiberon-pet-gf15-red-0-0487f636.jpg
+  type: unspecified
