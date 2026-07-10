@@ -4,7 +4,10 @@ brand:
   slug: polymaker
 name: PolySmooth™ Pink
 class: FFF
+type: PVB
 abbreviation: PVB
+tags:
+  - ipa_soluble
 primary_color:
   color_rgba: '#f3a196ff'
 photos:
@@ -18,6 +21,3 @@ properties:
   max_bed_temperature: 70
   drying_temperature: 50
   drying_time: 720
-type: PVB
-tags:
-  - ipa_soluble
