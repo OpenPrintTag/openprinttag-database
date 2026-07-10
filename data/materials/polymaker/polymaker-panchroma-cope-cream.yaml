@@ -1,16 +1,13 @@
-uuid: cb7fc80a-3cf7-59c4-93df-cf54f1684c63
-slug: polymaker-panchroma-cope-tan
+uuid: e4c4d184-f9cf-51d5-b8ce-7a3ef23ca955
+slug: polymaker-panchroma-cope-cream
 brand:
   slug: polymaker
-name: Panchroma™ CoPE Tan
+name: Panchroma™ CoPE Cream
 class: FFF
 type: CPE
 abbreviation: CPE
 primary_color:
-  color_rgba: '#a79e82ff'
-photos:
-  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-cope-tan/f98a7b6652cd.png
-    type: unspecified
+  color_rgba: '#eed1a8ff'
 properties:
   density: 1.3
   min_print_temperature: 190
@@ -19,3 +16,6 @@ properties:
   max_bed_temperature: 60
   drying_temperature: 55
   drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-panchroma-cope-cream-0-cd04e057.png
+    type: unspecified
