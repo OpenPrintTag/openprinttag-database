@@ -7,18 +7,20 @@ class: FFF
 abbreviation: PA612
 url: https://us.polymaker.com/products/fiberon-pa612-cf
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#312f2fff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- filtration_recommended
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 properties:
   density: 1.03
   min_print_temperature: 250
   max_print_temperature: 300
   min_bed_temperature: 40
   max_bed_temperature: 50
+  drying_temperature: 100
+  drying_time: 600
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pa612-cf15-black/polymaker-fiberon-pa612-cf15-black-0-984debd2.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pa612-cf15-black/polymaker-fiberon-pa612-cf15-black-0-984debd2.png
+    type: unspecified

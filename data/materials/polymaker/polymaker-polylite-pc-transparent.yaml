@@ -1,20 +1,17 @@
-uuid: 9d02be47-bb00-51b4-9853-3cdec847d666
-slug: polymaker-polymax-pc-fr-white
+uuid: 1268e7a1-d842-5bf5-ac5d-12fa4d9b688f
+slug: polymaker-polylite-pc-transparent
 brand:
   slug: polymaker
-name: PolyMax™ PC-FR White
+name: PolyLite™ PC Transparent
 class: FFF
 type: PC
 abbreviation: PC
 primary_color:
-  color_rgba: '#f4eee8ff'
+  color_rgba: '#dad5d4ff'
 tags:
-  - self_extinguishing
-photos:
-  - url: https://files.openprinttag.org/polymaker/polymaker-polymax-pc-fr-white/f1acb3f3e719.png
-    type: unspecified
+  - transparent
 properties:
-  density: 1.2
+  density: 1.19
   min_print_temperature: 250
   max_print_temperature: 270
   min_bed_temperature: 90
@@ -23,3 +20,6 @@ properties:
   max_chamber_temperature: 100
   drying_temperature: 75
   drying_time: 360
+photos:
+  - url: /tmp/assets/polymaker-polylite-pc-transparent-0-2b09173d.png
+    type: unspecified

@@ -7,10 +7,19 @@ class: FFF
 type: PC
 abbreviation: PC
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#161618ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-pc-abs-black/d5076f570d3f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-pc-abs-black/d5076f570d3f.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  min_chamber_temperature: 90
+  max_chamber_temperature: 100
+  drying_temperature: 75
+  drying_time: 360
