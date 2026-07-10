@@ -4,10 +4,20 @@ brand:
   slug: polymaker
 name: PolySmooth™ Slate Grey
 class: FFF
-abbreviation: PSmooth
+abbreviation: PVB
 primary_color:
-  color_rgba: '#91c2ccff'
+  color_rgba: '#7da1aaff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-slate-grey/ba81a3d19548.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-slate-grey/ba81a3d19548.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 720
+type: PVB
+tags:
+  - ipa_soluble

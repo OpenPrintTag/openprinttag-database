@@ -4,10 +4,20 @@ brand:
   slug: polymaker
 name: PolySmooth™ Orange
 class: FFF
-abbreviation: PSmooth
+abbreviation: PVB
 primary_color:
-  color_rgba: '#f67405ff'
+  color_rgba: '#f5741bff'
 photos:
   - url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-orange/8b1f8da5ad15.png
     type: unspecified
-properties: {}
+properties:
+  density: 1.1
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 720
+type: PVB
+tags:
+  - ipa_soluble

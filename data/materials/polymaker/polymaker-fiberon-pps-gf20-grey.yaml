@@ -1,0 +1,27 @@
+uuid: 095c8bed-e1be-5104-a505-8251051af797
+slug: polymaker-fiberon-pps-gf20-grey
+brand:
+  slug: polymaker
+name: Fiberon™ PPS-GF20 Grey
+class: FFF
+type: PPS
+abbreviation: PPS
+primary_color:
+  color_rgba: '#75787bff'
+tags:
+  - self_extinguishing
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.36
+  min_print_temperature: 310
+  max_print_temperature: 350
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 100
+  drying_time: 600
+photos:
+  - url: /tmp/assets/polymaker-fiberon-pps-gf20-grey-0-ca4564cd.jpg
+    type: unspecified
