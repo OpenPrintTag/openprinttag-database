@@ -1,0 +1,20 @@
+uuid: 4c2a6eba-8f86-5944-83ab-e9a0b14b3008
+slug: polymaker-polysupport-for-pa12-grass-green
+brand:
+  slug: polymaker
+name: PolySupport™ for PA12 Grass Green
+class: FFF
+abbreviation: POLYSUP
+primary_color:
+  color_rgba: '#ace063ff'
+properties:
+  density: 1.29
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 50
+  max_bed_temperature: 80
+  drying_temperature: 100
+  drying_time: 480
+photos:
+  - url: /tmp/assets/polymaker-polysupport-for-pa12-grass-green-0-01a97668.png
+    type: unspecified
