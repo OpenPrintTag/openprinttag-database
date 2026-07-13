@@ -1,0 +1,21 @@
+uuid: 7dc0046b-cf3e-51f9-89bd-434a1fc1b55f
+slug: voolt3d-pla-roxo-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Roxo High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cd00d7ff'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-roxo-high-speed-premium-0-ddae7a07.jpg
+    type: unspecified

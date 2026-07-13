@@ -1,0 +1,21 @@
+uuid: 9822848f-9bb9-5fd6-8058-f43730e8315a
+slug: voolt3d-pla-marrom-velvet-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Marrom Velvet High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7e472aff'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-marrom-velvet-high-speed-premium-0-c9a8be47.jpg
+    type: unspecified

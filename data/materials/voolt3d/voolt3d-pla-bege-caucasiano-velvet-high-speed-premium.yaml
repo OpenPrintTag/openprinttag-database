@@ -1,0 +1,21 @@
+uuid: c006c1f9-fd6b-5ea4-90cc-be043445e536
+slug: voolt3d-pla-bege-caucasiano-velvet-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Bege Caucasiano Velvet High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9d1c1ff'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-bege-caucasiano-velvet-high-speed-premium-0-96e3d222.jpg
+    type: unspecified

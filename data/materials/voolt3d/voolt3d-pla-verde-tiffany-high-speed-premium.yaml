@@ -1,0 +1,21 @@
+uuid: 6c8790a2-7a4b-5d26-95cf-85712cee37eb
+slug: voolt3d-pla-verde-tiffany-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Verde Tiffany High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#40e0d0ff'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-verde-tiffany-high-speed-premium-0-df2928c9.jpg
+    type: unspecified

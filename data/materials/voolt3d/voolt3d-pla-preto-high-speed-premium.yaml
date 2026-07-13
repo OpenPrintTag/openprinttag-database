@@ -1,0 +1,21 @@
+uuid: 5e0e61d7-697a-5a76-91a8-4ce7afaf52be
+slug: voolt3d-pla-preto-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Preto High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232323ff'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-preto-high-speed-premium-0-bd9de8d5.jpg
+    type: unspecified
