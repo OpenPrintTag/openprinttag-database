@@ -1,0 +1,22 @@
+uuid: ee02789b-e356-5eda-b295-ffa9baa7f9bd
+slug: voolt3d-pla-azul-metalizado-v-silk-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Azul Metalizado V-Silk High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#338cc7ff'
+tags:
+  - silk
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-azul-metalizado-v-silk-high-speed-premium-0-61e438f5.jpg
+    type: unspecified

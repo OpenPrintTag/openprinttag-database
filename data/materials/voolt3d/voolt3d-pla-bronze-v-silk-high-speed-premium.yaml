@@ -1,0 +1,22 @@
+uuid: bffdee3e-5d4f-589b-bac8-d0f3055137be
+slug: voolt3d-pla-bronze-v-silk-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Bronze V-Silk High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b7293eff'
+tags:
+  - silk
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-bronze-v-silk-high-speed-premium-0-f144b03f.jpg
+    type: unspecified

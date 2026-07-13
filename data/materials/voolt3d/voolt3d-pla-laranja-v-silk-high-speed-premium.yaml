@@ -1,0 +1,22 @@
+uuid: c7ac86f0-51c1-540f-9988-9fe712cf7964
+slug: voolt3d-pla-laranja-v-silk-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Laranja V-Silk High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fe5000ff'
+tags:
+  - silk
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-laranja-v-silk-high-speed-premium-0-b107eb18.jpg
+    type: unspecified
