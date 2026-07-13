@@ -41,7 +41,7 @@ import {
   readSingleEntity,
   readSingleNestedByBrand,
 } from '~/server/data/fs';
-import { FIELD_RELATION_MAP } from '~/server/data/schema-metadata';
+import { resolveSchema } from '~/server/schema-resolver';
 import { buildIndex } from '~/server/searchIndex';
 
 const SCHEMA_ENTITIES = [
@@ -59,26 +59,6 @@ async function writeJson(relPath: string, value: unknown): Promise<void> {
   const fullPath = path.join(OUT_DIR, `${relPath}.json`);
   await mkdir(path.dirname(fullPath), { recursive: true });
   await writeFile(fullPath, JSON.stringify(value), 'utf8');
-}
-
-function enrichSchema(schema: any): any {
-  if (!schema || typeof schema !== 'object') return schema;
-  if (!schema.properties || typeof schema.properties !== 'object')
-    return schema;
-  const enrichedProperties: Record<string, any> = {};
-  for (const [fieldName, fieldSchema] of Object.entries(schema.properties)) {
-    const relation = FIELD_RELATION_MAP[fieldName];
-    if (relation && typeof fieldSchema === 'object' && fieldSchema !== null) {
-      const entityName = relation.entity.replace(/s$/, '');
-      enrichedProperties[fieldName] = {
-        ...(fieldSchema as object),
-        entity: entityName,
-      };
-    } else {
-      enrichedProperties[fieldName] = fieldSchema;
-    }
-  }
-  return { ...schema, properties: enrichedProperties };
 }
 
 async function copyDir(src: string, dst: string): Promise<void> {
@@ -262,7 +242,19 @@ async function main(): Promise<void> {
       const file = path.join(schemaDir, `${entity}.schema.json`);
       const raw = await readFile(file, 'utf8');
       const parsed = JSON.parse(raw);
-      await writeJson(`schema/${entity}`, enrichSchema(parsed));
+      let resolved;
+      try {
+        resolved = await resolveSchema(parsed, schemaDir, (p: string) =>
+          readFile(p, 'utf8'),
+        );
+      } catch (resolveErr) {
+        console.warn(
+          `Schema resolution failed for "${entity}", using unresolved:`,
+          resolveErr,
+        );
+        resolved = parsed;
+      }
+      await writeJson(`schema/${entity}`, resolved);
     } catch (err) {
       console.warn(`Schema for "${entity}" not found at ${schemaDir}`, err);
     }

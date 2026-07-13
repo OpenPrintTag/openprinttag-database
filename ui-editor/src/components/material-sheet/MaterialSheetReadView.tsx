@@ -34,7 +34,12 @@ export const MaterialSheetReadView = ({
         onAddPackage={onAddPackage}
       />
       <PropertiesReadSection material={material} fields={fields} />
-      <PrintSheetCompatibilityReadSection material={material} fields={fields} />
+      {material?.class !== 'SLA' && (
+        <PrintSheetCompatibilityReadSection
+          material={material}
+          fields={fields}
+        />
+      )}
     </div>
   );
 };

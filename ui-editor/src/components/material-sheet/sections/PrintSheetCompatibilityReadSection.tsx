@@ -25,7 +25,6 @@ export const PrintSheetCompatibilityReadSection = ({
       excludeKeys={Object.keys(fields).filter(
         (k) => k !== 'print_sheet_compatibility',
       )}
-      entity="material"
     />
   );
 };

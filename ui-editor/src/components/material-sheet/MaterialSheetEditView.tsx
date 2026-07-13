@@ -78,12 +78,14 @@ export const MaterialSheetEditView = ({
             onFieldChange={onFieldChange}
             brandId={brandId}
           />
-          <PrintSheetCompatibilityEditSection
-            fields={fields}
-            form={form}
-            onFieldChange={onFieldChange}
-            brandId={brandId}
-          />
+          {form?.class !== 'SLA' && (
+            <PrintSheetCompatibilityEditSection
+              fields={fields}
+              form={form}
+              onFieldChange={onFieldChange}
+              brandId={brandId}
+            />
+          )}
           <AdditionalInformationEditSection
             fields={fields}
             form={form}
