@@ -1,0 +1,21 @@
+uuid: 21b980e0-7243-54fd-a026-1344c6bedbf0
+slug: voolt3d-petg-hf-branco-dental-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Branco Dental High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#eaecf5ff'
+tags:
+  - high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-branco-dental-high-fluidity-premium-0-96a44984.jpg
+    type: unspecified

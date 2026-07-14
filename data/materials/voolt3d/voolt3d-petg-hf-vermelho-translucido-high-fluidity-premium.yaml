@@ -1,0 +1,22 @@
+uuid: 7933c473-df9e-57cc-b79e-8f8f2c90ba0b
+slug: voolt3d-petg-hf-vermelho-translucido-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Vermelho Translúcido High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fc0000ff'
+tags:
+  - high_speed
+  - translucent
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-vermelho-translucido-high-fluidity-premium-0-bcb34861.jpg
+    type: unspecified

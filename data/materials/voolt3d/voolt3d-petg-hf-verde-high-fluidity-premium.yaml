@@ -1,0 +1,21 @@
+uuid: d4210713-d940-5c79-ac28-b694e75e9aff
+slug: voolt3d-petg-hf-verde-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Verde High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#00b65cff'
+tags:
+  - high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-verde-high-fluidity-premium-0-56cab8d2.jpg
+    type: unspecified

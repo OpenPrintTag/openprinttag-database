@@ -1,0 +1,23 @@
+uuid: bc3982e9-a8bb-5d6a-b51c-dd3d558e6ec7
+slug: voolt3d-petg-hf-verde-limao-translucido-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Verde Limão Translúcido High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#d0ed03ff'
+tags:
+  - high_speed
+  - translucent
+  - neon
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-verde-limao-translucido-high-fluidity-premium-0-a738288d.jpg
+    type: unspecified

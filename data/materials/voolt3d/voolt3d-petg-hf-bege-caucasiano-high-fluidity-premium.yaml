@@ -1,0 +1,21 @@
+uuid: 6bbb227b-8749-566c-85a4-245d41b44367
+slug: voolt3d-petg-hf-bege-caucasiano-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Bege Caucasiano High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#cca482ff'
+tags:
+  - high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-bege-caucasiano-high-fluidity-premium-0-a7c50d11.jpg
+    type: unspecified

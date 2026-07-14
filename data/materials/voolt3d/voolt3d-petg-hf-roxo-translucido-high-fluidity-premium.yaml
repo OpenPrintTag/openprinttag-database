@@ -1,0 +1,22 @@
+uuid: c3817482-0c87-5e6b-8d3d-e2a1e3b3a3bf
+slug: voolt3d-petg-hf-roxo-translucido-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Roxo Translúcido High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#6802bcff'
+tags:
+  - high_speed
+  - translucent
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-roxo-translucido-high-fluidity-premium-0-14cbfb4a.jpg
+    type: unspecified

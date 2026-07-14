@@ -1,0 +1,21 @@
+uuid: b4a2c616-9998-5403-8a41-ce44d324dddf
+slug: voolt3d-petg-hf-azul-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Azul High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#4f03d7ff'
+tags:
+  - high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-petg-hf-azul-high-fluidity-premium-0-286475f0.jpg
+    type: unspecified
