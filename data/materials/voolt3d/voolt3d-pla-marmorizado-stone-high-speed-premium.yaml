@@ -1,0 +1,22 @@
+uuid: 79101b15-6bb6-57e9-b43f-c87525c27730
+slug: voolt3d-pla-marmorizado-stone-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Marmorizado Stone High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bcbfc2ff'
+tags:
+  - imitates_marble
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-marmorizado-stone-high-speed-premium-0-72ec369f.jpg
+    type: unspecified

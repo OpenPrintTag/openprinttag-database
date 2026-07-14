@@ -1,0 +1,23 @@
+uuid: 61cc1734-557a-54c4-96c3-73981d6cafab
+slug: voolt3d-pla-duo-color-shadow-dourado-com-verde-v-silk
+brand:
+  slug: voolt3d
+name: PLA Duo Color Shadow Dourado com Verde V-Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#008059ff'
+  - color_rgba: '#dcd92dff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-duo-color-shadow-dourado-com-verde-v-silk-0-10d52afc.jpg
+    type: unspecified

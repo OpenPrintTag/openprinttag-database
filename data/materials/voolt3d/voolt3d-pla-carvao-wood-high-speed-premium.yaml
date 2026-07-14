@@ -1,0 +1,22 @@
+uuid: 4ed2722e-29ba-5fe1-9dbc-5e355c77bbb9
+slug: voolt3d-pla-carvao-wood-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Carvão Wood High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26272bff'
+tags:
+  - high_speed
+  - contains_wood
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-carvao-wood-high-speed-premium-0-3c5b2f77.jpg
+    type: unspecified
