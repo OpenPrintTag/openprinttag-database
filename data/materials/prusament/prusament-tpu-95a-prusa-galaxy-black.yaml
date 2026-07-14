@@ -1,0 +1,22 @@
+uuid: 6e9fcb17-2ec3-578d-9066-74f356e33c00
+slug: prusament-tpu-95a-prusa-galaxy-black
+brand:
+  slug: prusament
+class: FFF
+type: TPU
+name: TPU 95A Prusa Galaxy Black
+abbreviation: TPU
+properties:
+  density: 1.25
+  hardness_shore_a: 95
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 170
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  chamber_temperature: 30
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#292929ff'
+tags:
+- glitter
