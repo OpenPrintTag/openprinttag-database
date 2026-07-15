@@ -1,0 +1,22 @@
+uuid: 12b64fd5-baef-5884-a16a-4550a42bd56c
+slug: voolt3d-abs-amarelo-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Amarelo High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f4ee2aff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-amarelo-high-speed-premium-0-33343c78.jpg
+    type: unspecified

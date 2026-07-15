@@ -1,0 +1,23 @@
+uuid: e139f7bd-72e2-5a14-9a93-53ff1acc1b7b
+slug: voolt3d-abs-natural-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Natural High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f3f3f1ff'
+tags:
+  - high_speed
+  - without_pigments
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-natural-high-speed-premium-0-8d161b5d.jpg
+    type: unspecified

@@ -1,0 +1,22 @@
+uuid: acdd7206-6e19-5982-9703-817fbe036c3d
+slug: voolt3d-abs-bege-caucasiano-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Bege Caucasiano High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#cca897ff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-bege-caucasiano-high-speed-premium-0-ee27ae25.jpg
+    type: unspecified

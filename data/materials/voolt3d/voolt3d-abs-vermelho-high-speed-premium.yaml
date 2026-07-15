@@ -1,0 +1,22 @@
+uuid: 30b56ec1-37e8-52b6-9089-beb38c927b38
+slug: voolt3d-abs-vermelho-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Vermelho High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#d60212ff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-vermelho-high-speed-premium-0-cec52b7b.jpg
+    type: unspecified
