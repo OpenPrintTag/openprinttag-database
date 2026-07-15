@@ -1,0 +1,23 @@
+uuid: be070540-1e6e-5212-b5d5-760164f5b39e
+slug: voolt3d-poliamida-6-imida-pa6-cinza
+brand:
+  slug: voolt3d
+name: Poliamida 6-Imida (PA6) Cinza
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#b2b2b2ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.15
+  min_print_temperature: 265
+  max_print_temperature: 275
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/voolt3d-poliamida-6-imida-pa6-cinza-0-cb0ee040.jpg
+    type: unspecified

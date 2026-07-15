@@ -1,0 +1,22 @@
+uuid: f1b2c900-d40e-5575-a42e-cc83a9df883c
+slug: voolt3d-pla-com-grafeno-condutivo
+brand:
+  slug: voolt3d
+name: PLA com Grafeno Condutivo
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#161619ff'
+tags:
+  - contains_graphene
+  - contains_carbon
+  - conductive
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-com-grafeno-condutivo-0-032d031e.jpg
+    type: unspecified

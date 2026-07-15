@@ -1,0 +1,22 @@
+uuid: ef20ed95-4cc6-572c-af01-6182ceb6d392
+slug: voolt3d-abs-laranja-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Laranja High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff7800ff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-laranja-high-speed-premium-0-a7a80aa6.jpg
+    type: unspecified

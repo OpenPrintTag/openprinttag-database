@@ -1,0 +1,22 @@
+uuid: c4cc65ac-0074-545a-8001-86be1714db43
+slug: voolt3d-abs-cinza-grafite-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Cinza Grafite High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#787882ff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-cinza-grafite-high-speed-premium-0-342d21e5.jpg
+    type: unspecified
