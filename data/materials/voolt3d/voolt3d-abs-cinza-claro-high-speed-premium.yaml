@@ -1,0 +1,22 @@
+uuid: 41c8f7fc-45e0-58a8-9243-bf5a8a6d6c0a
+slug: voolt3d-abs-cinza-claro-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Cinza Claro High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#8b98acff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/voolt3d-abs-cinza-claro-high-speed-premium-0-1ccc4436.jpg
+    type: unspecified

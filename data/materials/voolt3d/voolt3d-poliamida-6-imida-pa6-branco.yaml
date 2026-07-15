@@ -1,0 +1,23 @@
+uuid: bc74cff8-0d13-5bee-986e-8b55146d2862
+slug: voolt3d-poliamida-6-imida-pa6-branco
+brand:
+  slug: voolt3d
+name: Poliamida 6-Imida (PA6) Branco
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#e9e9e7ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.15
+  min_print_temperature: 265
+  max_print_temperature: 275
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/voolt3d-poliamida-6-imida-pa6-branco-0-14abb5d9.jpg
+    type: unspecified

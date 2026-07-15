@@ -1,0 +1,22 @@
+uuid: eab54007-4086-5f5c-b9de-c613493e7ed0
+slug: voolt3d-pla-grafeno-velvet
+brand:
+  slug: voolt3d
+name: PLA Grafeno Velvet
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#363538ff'
+tags:
+  - contains_graphene
+  - contains_carbon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/voolt3d-pla-grafeno-velvet-0-bfcce302.jpg
+    type: unspecified
