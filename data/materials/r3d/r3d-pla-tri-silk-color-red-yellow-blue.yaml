@@ -1,0 +1,24 @@
+uuid: 7397e751-8213-5aad-b1d3-a9f5fdcddb86
+slug: r3d-pla-tri-silk-color-red-yellow-blue
+brand:
+  slug: r3d
+name: PLA Tri-Silk color Red/Yellow/Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#b02455ff'
+  - color_rgba: '#3a00b9ff'
+  - color_rgba: '#f4db67ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-tri-silk-color-red-yellow-blue-0-0e87f3ce.jpg
+    type: unspecified

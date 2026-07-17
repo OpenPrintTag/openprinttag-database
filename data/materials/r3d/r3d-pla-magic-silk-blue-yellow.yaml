@@ -1,0 +1,22 @@
+uuid: 49b2d381-ab16-5be8-a07f-ffce83d13c66
+slug: r3d-pla-magic-silk-blue-yellow
+brand:
+  slug: r3d
+name: PLA Magic Silk Blue-Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#38e953ff'
+  - color_rgba: '#009cdeff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-magic-silk-blue-yellow-0-228662cd.jpg
+    type: unspecified

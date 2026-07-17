@@ -1,0 +1,22 @@
+uuid: de68da53-c9bc-57e0-8c72-503c8fb711da
+slug: r3d-pla-magic-silk-gold-silver
+brand:
+  slug: r3d
+name: PLA Magic Silk Gold-Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#ddb95dff'
+  - color_rgba: '#8c9bb8ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-magic-silk-gold-silver-0-4e9409bd.jpg
+    type: unspecified

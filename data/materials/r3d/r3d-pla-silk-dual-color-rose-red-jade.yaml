@@ -1,0 +1,22 @@
+uuid: 08be2867-50fb-5e16-a01d-2588ec061d26
+slug: r3d-pla-silk-dual-color-rose-red-jade
+brand:
+  slug: r3d
+name: PLA Silk Dual Color Rose Red-Jade
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f600c7ff'
+  - color_rgba: '#00a6a0ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-silk-dual-color-rose-red-jade-0-7fee6510.jpg
+    type: unspecified

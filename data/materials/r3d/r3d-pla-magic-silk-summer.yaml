@@ -1,0 +1,22 @@
+uuid: 6a4ef074-1075-55c2-8e10-e531a0ba28a4
+slug: r3d-pla-magic-silk-summer
+brand:
+  slug: r3d
+name: PLA Magic Silk Summer
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#a9dfe3ff'
+  - color_rgba: '#00ad80ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-magic-silk-summer-0-59d9413c.jpg
+    type: unspecified

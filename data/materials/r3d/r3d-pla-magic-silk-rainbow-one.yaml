@@ -1,0 +1,26 @@
+uuid: d5adffc5-2845-5533-b859-fa51b11abf2a
+slug: r3d-pla-magic-silk-rainbow-one
+brand:
+  slug: r3d
+name: PLA Magic Silk Rainbow One
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#089a45ff'
+  - color_rgba: '#bf3922ff'
+  - color_rgba: '#2fbabcff'
+  - color_rgba: '#743063ff'
+  - color_rgba: '#d1e36cff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-magic-silk-rainbow-one-0-4fa2e44e.jpg
+    type: unspecified

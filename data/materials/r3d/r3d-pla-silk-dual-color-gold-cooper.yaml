@@ -1,0 +1,22 @@
+uuid: 47319465-302b-5cb1-bc52-9466fd60fa52
+slug: r3d-pla-silk-dual-color-gold-cooper
+brand:
+  slug: r3d
+name: PLA Silk Dual Color Gold-Cooper
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f1bb51ff'
+  - color_rgba: '#a24016ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-silk-dual-color-gold-cooper-0-d0ff3331.jpg
+    type: unspecified

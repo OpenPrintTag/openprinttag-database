@@ -1,0 +1,22 @@
+uuid: 1cf2faf6-59d7-56f1-ba9a-b6e40598e960
+slug: r3d-pla-magic-silk-red-green
+brand:
+  slug: r3d
+name: PLA Magic Silk Red-Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e31a1fff'
+  - color_rgba: '#2d9e59ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-magic-silk-red-green-0-e4ea424b.jpg
+    type: unspecified

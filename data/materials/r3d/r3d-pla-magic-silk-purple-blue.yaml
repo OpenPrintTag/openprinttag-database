@@ -1,0 +1,22 @@
+uuid: 8c978da1-6580-55f6-a861-3320733f4bf6
+slug: r3d-pla-magic-silk-purple-blue
+brand:
+  slug: r3d
+name: PLA Magic Silk Purple-Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#c00698ff'
+  - color_rgba: '#2657afff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-magic-silk-purple-blue-0-fd3060ef.jpg
+    type: unspecified

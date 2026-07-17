@@ -1,0 +1,21 @@
+uuid: dff54b36-0de0-5d3a-aa24-c763a1fcb300
+slug: r3d-pla-high-speed-silk-red
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d90102ff'
+tags:
+  - silk
+  - high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-silk-red-0-290561a1.jpg
+    type: unspecified

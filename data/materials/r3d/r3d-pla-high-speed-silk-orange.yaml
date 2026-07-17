@@ -1,0 +1,21 @@
+uuid: f80fcee2-f585-5c7e-a748-c509ce81ef98
+slug: r3d-pla-high-speed-silk-orange
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d67842ff'
+tags:
+  - silk
+  - high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-silk-orange-0-78d0a8f1.jpg
+    type: unspecified

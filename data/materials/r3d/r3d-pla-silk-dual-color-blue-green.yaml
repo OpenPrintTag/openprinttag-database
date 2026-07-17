@@ -1,0 +1,21 @@
+uuid: e71ca2c2-97f4-50c9-be56-3518ccc280a7
+slug: r3d-pla-silk-dual-color-blue-green
+brand:
+  slug: r3d
+name: PLA Silk Dual Color Blue-Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#00c26bff'
+  - color_rgba: '#008dc3ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-silk-dual-color-blue-green-0-ef7399c4.jpg
+    type: unspecified

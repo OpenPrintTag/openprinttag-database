@@ -1,0 +1,21 @@
+uuid: 9f6299ad-4074-5219-bf7e-10666bd67511
+slug: r3d-pla-high-speed-silk-bronze
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Bronze
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#99a45fff'
+tags:
+  - silk
+  - high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-silk-bronze-0-bc9bf230.jpg
+    type: unspecified

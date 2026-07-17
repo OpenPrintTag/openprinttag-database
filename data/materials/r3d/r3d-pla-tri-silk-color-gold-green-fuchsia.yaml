@@ -1,0 +1,24 @@
+uuid: 1d07c027-3f8e-51b1-bbaa-0e673cf55ca0
+slug: r3d-pla-tri-silk-color-gold-green-fuchsia
+brand:
+  slug: r3d
+name: PLA Tri-Silk color Gold/Green/Fuchsia
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#ddb95dff'
+  - color_rgba: '#06924dff'
+  - color_rgba: '#c20078ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-tri-silk-color-gold-green-fuchsia-0-dd53656a.jpg
+    type: unspecified

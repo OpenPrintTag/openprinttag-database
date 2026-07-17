@@ -1,0 +1,21 @@
+uuid: 58eb5f16-dbc7-58f4-bb86-9e570bd6bdd4
+slug: r3d-pla-high-speed-silk-silver
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#999aa0ff'
+tags:
+  - silk
+  - high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-silk-silver-0-da3092c6.jpg
+    type: unspecified

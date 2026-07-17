@@ -1,0 +1,21 @@
+uuid: f2801f40-9605-5589-a620-129dbfec3653
+slug: r3d-pla-high-speed-silk-green
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#018e63ff'
+tags:
+  - silk
+  - high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-silk-green-0-a1806cf8.jpg
+    type: unspecified
