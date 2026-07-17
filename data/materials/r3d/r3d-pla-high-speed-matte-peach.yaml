@@ -1,0 +1,20 @@
+uuid: 46cbf6dc-7dd7-5fcd-abc0-61e8a0f17785
+slug: r3d-pla-high-speed-matte-peach
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Peach
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c00698ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-peach-0-0ed0b46b.jpg
+    type: unspecified

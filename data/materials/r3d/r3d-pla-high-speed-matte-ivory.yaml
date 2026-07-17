@@ -1,0 +1,21 @@
+uuid: faba26f5-3862-500a-ae4e-cea680049de2
+slug: r3d-pla-high-speed-matte-ivory
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Ivory
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ebece9ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-ivory-0-ae2f1024.jpg
+    type: unspecified

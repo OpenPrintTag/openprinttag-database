@@ -1,0 +1,23 @@
+uuid: 99c0764b-9d14-57da-bcde-3da6a2034a54
+slug: r3d-pla-matte-dual-color-black-red
+brand:
+  slug: r3d
+name: PLA Matte Dual Color Black-Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#1d1d1dff'
+  - color_rgba: '#cc0033ff'
+tags:
+  - matte
+  - coextruded
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 220
+  max_bed_temperature: 45
+  drying_temperature: 55
+  drying_time: 480
+photos:
+  - url: /tmp/assets/r3d-pla-matte-dual-color-black-red-0-228cbfcc.jpg
+    type: unspecified

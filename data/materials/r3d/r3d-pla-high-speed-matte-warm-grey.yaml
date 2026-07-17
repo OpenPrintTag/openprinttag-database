@@ -1,0 +1,21 @@
+uuid: 188606d4-c2b7-5674-bd7d-24ea043718c1
+slug: r3d-pla-high-speed-matte-warm-grey
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Warm Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#aca39aff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-warm-grey-0-bf24cad7.jpg
+    type: unspecified

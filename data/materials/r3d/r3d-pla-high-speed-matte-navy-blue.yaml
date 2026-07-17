@@ -1,0 +1,21 @@
+uuid: 44570c51-642f-50f3-a7a8-561fe3aa6b44
+slug: r3d-pla-high-speed-matte-navy-blue
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Navy Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#483d8bff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-navy-blue-0-2516de6f.jpg
+    type: unspecified

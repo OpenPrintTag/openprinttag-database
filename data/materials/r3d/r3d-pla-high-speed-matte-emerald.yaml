@@ -1,0 +1,21 @@
+uuid: 4ea5df78-18ce-5502-987a-003035d7742f
+slug: r3d-pla-high-speed-matte-emerald
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Emerald
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#217165ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-emerald-0-01e463f6.jpg
+    type: unspecified

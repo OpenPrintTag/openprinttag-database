@@ -1,0 +1,21 @@
+uuid: fc49e149-d1ce-5af2-b4af-120b21ed0f78
+slug: r3d-pla-high-speed-matte-black
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#161619ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-black-0-1e939036.jpg
+    type: unspecified

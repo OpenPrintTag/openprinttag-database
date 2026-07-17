@@ -1,0 +1,20 @@
+uuid: 50f8d6ec-e654-5e7b-909a-8702f7671338
+slug: r3d-pla-high-speed-matte-pumpkin
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Pumpkin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffb356ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-pumpkin-0-60484875.jpg
+    type: unspecified

@@ -1,0 +1,21 @@
+uuid: 45011c85-a496-5749-b133-9cde8ed5d025
+slug: r3d-pla-high-speed-matte-yellow
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2ff4dff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-yellow-0-ddbd3a2f.jpg
+    type: unspecified

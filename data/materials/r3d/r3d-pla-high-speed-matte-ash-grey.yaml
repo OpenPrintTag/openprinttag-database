@@ -1,0 +1,21 @@
+uuid: cff4b18e-f2ca-54c2-a653-d4fd4295c00b
+slug: r3d-pla-high-speed-matte-ash-grey
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Ash Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#444a62ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-ash-grey-0-bef5e9b6.jpg
+    type: unspecified

@@ -1,0 +1,21 @@
+uuid: 300f963d-6cae-5db9-b6e3-7c644e7e2d6d
+slug: r3d-pla-high-speed-matte-mint-green
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Mint Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#63c6a3ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-mint-green-0-a9f9ee9c.jpg
+    type: unspecified

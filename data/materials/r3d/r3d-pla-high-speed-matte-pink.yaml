@@ -1,0 +1,21 @@
+uuid: ef93a267-1796-573d-9103-8ede42bc52e5
+slug: r3d-pla-high-speed-matte-pink
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5b6cdff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-pink-0-8a701188.jpg
+    type: unspecified

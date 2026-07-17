@@ -1,0 +1,21 @@
+uuid: 0acc38bf-238b-5710-91e7-5da4515fc72b
+slug: r3d-pla-high-speed-matte-chinese-red
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Chinese Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d41754ff'
+tags:
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/r3d-pla-high-speed-matte-chinese-red-0-b55ad4f9.jpg
+    type: unspecified
