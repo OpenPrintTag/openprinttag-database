@@ -17,6 +17,7 @@ properties:
   density: 1.21
   min_print_temperature: 190
   max_print_temperature: 220
+  min_bed_temperature: 40
   max_bed_temperature: 60
 photos:
   - url: /tmp/assets/r3d-pla-tri-silk-color-gold-copper-black-0-d6a82c0e.jpg

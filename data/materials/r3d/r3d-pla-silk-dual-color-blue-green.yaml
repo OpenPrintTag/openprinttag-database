@@ -15,6 +15,7 @@ tags:
 properties:
   min_print_temperature: 190
   max_print_temperature: 220
+  min_bed_temperature: 40
   max_bed_temperature: 60
 photos:
   - url: /tmp/assets/r3d-pla-silk-dual-color-blue-green-0-ef7399c4.jpg
