@@ -14,6 +14,7 @@ tags:
 properties:
   min_print_temperature: 225
   max_print_temperature: 235
+  min_bed_temperature: 50
   max_bed_temperature: 60
 photos:
   - url: /tmp/assets/r3d-pla-high-speed-matte-peach-0-0ed0b46b.jpg
