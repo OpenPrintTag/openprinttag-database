@@ -1,0 +1,20 @@
+uuid: a32da6ad-276e-58bf-9591-891b9b1f65e2
+slug: r3d-petg-high-speed-iris
+brand:
+  slug: r3d
+name: PETG High-Speed Iris
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#7d00a2ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-iris-0-3ae50e17.jpg
+    type: unspecified

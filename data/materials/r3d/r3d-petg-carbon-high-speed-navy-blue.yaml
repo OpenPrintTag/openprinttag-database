@@ -1,0 +1,22 @@
+uuid: 127fdcfd-e9e2-5e28-b5db-9954b871f7df
+slug: r3d-petg-carbon-high-speed-navy-blue
+brand:
+  slug: r3d
+name: PETG Carbon High-Speed Navy Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#4c5975ff'
+tags:
+  - high_speed
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-carbon-high-speed-navy-blue-0-efda6d12.jpg
+    type: unspecified

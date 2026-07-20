@@ -1,0 +1,20 @@
+uuid: 7467706b-3492-5837-acc5-7631720ccbf9
+slug: r3d-petg-high-speed-turquoise
+brand:
+  slug: r3d
+name: PETG High-Speed Turquoise
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#004f59ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-turquoise-0-95925937.jpg
+    type: unspecified

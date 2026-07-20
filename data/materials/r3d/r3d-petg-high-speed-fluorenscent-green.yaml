@@ -1,0 +1,21 @@
+uuid: ff7adbc8-2348-5e6b-940b-56c7096cccc3
+slug: r3d-petg-high-speed-fluorenscent-green
+brand:
+  slug: r3d
+name: PETG High-Speed Fluorenscent Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#08d461ff'
+tags:
+  - high_speed
+  - neon
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-fluorenscent-green-0-849e608b.jpg
+    type: unspecified

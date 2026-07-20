@@ -1,0 +1,20 @@
+uuid: 1212c1a5-e5d6-5a7f-a698-e8f51f3ad17a
+slug: r3d-petg-high-speed-peach
+brand:
+  slug: r3d
+name: PETG High-Speed Peach
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#efa4c2ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-peach-0-c3fc71d2.jpg
+    type: unspecified

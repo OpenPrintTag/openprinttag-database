@@ -1,0 +1,20 @@
+uuid: 9bf622d4-8963-5f7a-a35f-2efcf5c24a9c
+slug: r3d-petg-high-speed-coffee
+brand:
+  slug: r3d
+name: PETG High-Speed Coffee
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#8b3a3aff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-coffee-0-3d6664e2.jpg
+    type: unspecified

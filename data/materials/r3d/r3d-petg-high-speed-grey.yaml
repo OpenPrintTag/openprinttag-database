@@ -1,0 +1,20 @@
+uuid: b293cef8-a321-555e-9284-df26b394afc6
+slug: r3d-petg-high-speed-grey
+brand:
+  slug: r3d
+name: PETG High-Speed Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#787882ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-grey-0-e55fbd2f.jpg
+    type: unspecified

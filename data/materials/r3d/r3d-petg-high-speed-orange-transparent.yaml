@@ -1,0 +1,21 @@
+uuid: 98138f42-3b50-502d-97b0-a0184f8c4e2e
+slug: r3d-petg-high-speed-orange-transparent
+brand:
+  slug: r3d
+name: PETG High-Speed Orange Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e0493eff'
+tags:
+  - high_speed
+  - translucent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-orange-transparent-0-d1543a6d.jpg
+    type: unspecified

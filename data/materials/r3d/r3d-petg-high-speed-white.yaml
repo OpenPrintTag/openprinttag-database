@@ -1,0 +1,20 @@
+uuid: 186be982-6661-574e-a94c-c96069304151
+slug: r3d-petg-high-speed-white
+brand:
+  slug: r3d
+name: PETG High-Speed White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f0f1eaff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+  - url: /tmp/assets/r3d-petg-high-speed-white-0-a073b978.jpg
+    type: unspecified
