@@ -1,0 +1,20 @@
+uuid: 5c256abf-109d-50a4-9aa8-da8cd422ea2b
+slug: r3d-asa-blue
+brand:
+  slug: r3d
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#0353baff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 285
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/r3d-asa-blue-0-516e95ab.jpg
+    type: unspecified

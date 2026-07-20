@@ -1,0 +1,20 @@
+uuid: 99f5d129-c10c-5ab7-84a5-82f54ebac625
+slug: r3d-abs-pink
+brand:
+  slug: r3d
+name: ABS+ Pink
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f600c7ff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-pink-0-1fade4a0.jpg
+    type: unspecified

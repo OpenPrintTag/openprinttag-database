@@ -1,0 +1,20 @@
+uuid: d6f79541-7bad-55ac-b7e8-e4dd110a60a1
+slug: r3d-asa-white
+brand:
+  slug: r3d
+name: ASA White
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f5f5f4ff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 285
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/r3d-asa-white-0-e12841fb.jpg
+    type: unspecified

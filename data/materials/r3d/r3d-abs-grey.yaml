@@ -1,0 +1,20 @@
+uuid: cb567632-7b84-56e9-af39-d43c9b99ca6c
+slug: r3d-abs-grey
+brand:
+  slug: r3d
+name: ABS+ Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#91a0b6ff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-grey-0-350c057c.jpg
+    type: unspecified

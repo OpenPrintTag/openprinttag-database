@@ -1,0 +1,20 @@
+uuid: 45fc752a-5378-59a9-91a7-283223e9228a
+slug: r3d-abs-light-blue
+brand:
+  slug: r3d
+name: ABS+ Light Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#3bc9edff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-light-blue-0-7f40e3f4.jpg
+    type: unspecified

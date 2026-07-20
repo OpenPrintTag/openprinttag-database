@@ -1,0 +1,20 @@
+uuid: 4d90bb5b-31e5-5ebc-a32a-0b7118ae93ba
+slug: r3d-asa-red
+brand:
+  slug: r3d
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#c1101dff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 285
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/r3d-asa-red-0-8eec0b9a.jpg
+    type: unspecified

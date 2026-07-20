@@ -1,0 +1,20 @@
+uuid: 5df05080-bd1a-56de-a056-e6c6262c657c
+slug: r3d-asa-yellow
+brand:
+  slug: r3d
+name: ASA Yellow
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f6fb38ff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 285
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/r3d-asa-yellow-0-cf25de3f.jpg
+    type: unspecified

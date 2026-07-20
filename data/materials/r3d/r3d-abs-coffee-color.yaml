@@ -1,0 +1,20 @@
+uuid: 75ae2cb7-679f-5976-bd7b-6f3a539d7d72
+slug: r3d-abs-coffee-color
+brand:
+  slug: r3d
+name: ABS+ Coffee Color
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ad4e38ff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-coffee-color-0-56278381.jpg
+    type: unspecified

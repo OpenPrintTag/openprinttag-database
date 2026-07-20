@@ -1,0 +1,20 @@
+uuid: d5eb73c3-fb91-5721-8d87-958cc7e2dd54
+slug: r3d-abs-red
+brand:
+  slug: r3d
+name: ABS+ Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e31a1fff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-red-0-665f805d.jpg
+    type: unspecified

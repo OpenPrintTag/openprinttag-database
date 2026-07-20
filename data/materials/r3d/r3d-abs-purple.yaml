@@ -1,0 +1,20 @@
+uuid: e9f1a567-9dc0-5006-bfe7-ca2a3cce4a93
+slug: r3d-abs-purple
+brand:
+  slug: r3d
+name: ABS+ Purple
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#a000caff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-purple-0-4efe9c14.jpg
+    type: unspecified

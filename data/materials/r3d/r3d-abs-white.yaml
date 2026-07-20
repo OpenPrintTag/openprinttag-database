@@ -1,0 +1,20 @@
+uuid: d9f2d41c-e193-5081-9411-f779ed4a17f0
+slug: r3d-abs-white
+brand:
+  slug: r3d
+name: ABS+ White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#eaecf5ff'
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/r3d-abs-white-0-6052fc3a.jpg
+    type: unspecified
