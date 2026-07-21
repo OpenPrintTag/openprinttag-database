@@ -1,0 +1,21 @@
+uuid: 38e2af20-5d6c-5710-89ff-ac5decb4bc99
+slug: fusion-filaments-pla-blue
+brand:
+  slug: fusion-filaments
+name: PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3466cbff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-blue-0-de59095b.jpg
+    type: unspecified

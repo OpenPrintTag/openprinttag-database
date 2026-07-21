@@ -1,0 +1,23 @@
+uuid: 8efa292b-5833-5b53-9647-d4bc06c148b8
+slug: fusion-filaments-silk-satin-pla-black-stainless
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Black Stainless
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0e0e10ff'
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-silk-satin-pla-black-stainless-0-e503414a.jpg
+    type: unspecified

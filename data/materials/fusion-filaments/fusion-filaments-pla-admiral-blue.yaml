@@ -1,0 +1,21 @@
+uuid: 29ecb5b6-71d0-5917-8387-6a9222711236
+slug: fusion-filaments-pla-admiral-blue
+brand:
+  slug: fusion-filaments
+name: PLA Admiral Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2c01a0ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-admiral-blue-0-482ef5fd.jpg
+    type: unspecified

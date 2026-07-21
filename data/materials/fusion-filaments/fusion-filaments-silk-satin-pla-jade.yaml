@@ -1,0 +1,23 @@
+uuid: ce432c3c-4374-5691-b451-4d463abc4f25
+slug: fusion-filaments-silk-satin-pla-jade
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Jade
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#54a474ff'
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-silk-satin-pla-jade-0-2e2c0e6f.jpg
+    type: unspecified

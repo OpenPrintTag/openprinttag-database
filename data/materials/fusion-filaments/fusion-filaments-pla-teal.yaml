@@ -1,0 +1,21 @@
+uuid: 0a05f872-5a20-5791-84e0-873daaaf4650
+slug: fusion-filaments-pla-teal
+brand:
+  slug: fusion-filaments
+name: PLA Teal
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#05c3deff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-teal-0-1bd13460.jpg
+    type: unspecified

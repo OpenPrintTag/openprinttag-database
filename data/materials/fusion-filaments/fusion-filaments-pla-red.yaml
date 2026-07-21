@@ -1,0 +1,21 @@
+uuid: e82bf928-c5b6-5e77-a88c-995b1f9de271
+slug: fusion-filaments-pla-red
+brand:
+  slug: fusion-filaments
+name: PLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e60000ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-red-0-37679e6d.jpg
+    type: unspecified

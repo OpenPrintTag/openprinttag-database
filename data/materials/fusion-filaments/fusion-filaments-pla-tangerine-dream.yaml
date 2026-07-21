@@ -1,0 +1,21 @@
+uuid: d180dab9-09f9-5c34-b72f-d77dfd7933b5
+slug: fusion-filaments-pla-tangerine-dream
+brand:
+  slug: fusion-filaments
+name: PLA Tangerine Dream
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff6600ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-tangerine-dream-0-160434e0.jpg
+    type: unspecified

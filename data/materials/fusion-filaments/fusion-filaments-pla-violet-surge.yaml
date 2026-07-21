@@ -1,0 +1,21 @@
+uuid: d2a88ca1-83a0-5a1d-b2a7-7449b83c4cdb
+slug: fusion-filaments-pla-violet-surge
+brand:
+  slug: fusion-filaments
+name: PLA Violet Surge
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5e1490ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-violet-surge-0-e3ea22ae.jpg
+    type: unspecified

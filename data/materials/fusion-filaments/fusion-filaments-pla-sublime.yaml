@@ -1,0 +1,21 @@
+uuid: 6c5cdfd9-9aa7-5317-8366-99963f75e6b0
+slug: fusion-filaments-pla-sublime
+brand:
+  slug: fusion-filaments
+name: PLA Sublime
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00f03cff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-sublime-0-1ae48d85.jpg
+    type: unspecified

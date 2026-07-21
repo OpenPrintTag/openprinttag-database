@@ -1,0 +1,23 @@
+uuid: 8f17eb69-32a8-5489-baa4-b2dea2294157
+slug: fusion-filaments-silk-satin-pla-whipped-cream
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Whipped Cream
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fafafaff'
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-silk-satin-pla-whipped-cream-0-d04c5ac1.jpg
+    type: unspecified

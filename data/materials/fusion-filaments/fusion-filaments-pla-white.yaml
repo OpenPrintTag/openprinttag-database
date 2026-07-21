@@ -1,0 +1,21 @@
+uuid: 10c447cf-b705-52a1-b29c-27257613a4be
+slug: fusion-filaments-pla-white
+brand:
+  slug: fusion-filaments
+name: PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3f3f1ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-white-0-3d43b71a.jpg
+    type: unspecified

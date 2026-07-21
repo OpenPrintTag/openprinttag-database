@@ -1,0 +1,21 @@
+uuid: 303fb285-115c-5bc3-afc0-765229d6d49d
+slug: fusion-filaments-pla-plum
+brand:
+  slug: fusion-filaments
+name: PLA Plum
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#98282fff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-plum-0-0a382082.jpg
+    type: unspecified

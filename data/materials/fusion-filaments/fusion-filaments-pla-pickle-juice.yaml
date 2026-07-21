@@ -1,0 +1,21 @@
+uuid: 3a0a1757-67a5-52cf-851d-d5da3757a02b
+slug: fusion-filaments-pla-pickle-juice
+brand:
+  slug: fusion-filaments
+name: PLA Pickle Juice
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d0ed03ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+  - url: /tmp/assets/fusion-filaments-pla-pickle-juice-0-5b4715e9.jpg
+    type: unspecified
