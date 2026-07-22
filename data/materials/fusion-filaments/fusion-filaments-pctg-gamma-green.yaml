@@ -1,0 +1,15 @@
+uuid: 1606cb75-9dc7-5cdf-8410-d5fb7d90280f
+slug: fusion-filaments-pctg-gamma-green
+brand:
+  slug: fusion-filaments
+name: PCTG Gamma Green
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#a1ac21ff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-gamma-green-0-6d97133d.jpg
+    type: unspecified

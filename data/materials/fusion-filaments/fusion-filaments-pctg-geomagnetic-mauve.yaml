@@ -1,0 +1,15 @@
+uuid: d127cb37-2f1d-5ee6-b410-a651e2c919da
+slug: fusion-filaments-pctg-geomagnetic-mauve
+brand:
+  slug: fusion-filaments
+name: PCTG Geomagnetic Mauve
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#7d00a2ff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-geomagnetic-mauve-0-09f058a9.jpg
+    type: unspecified

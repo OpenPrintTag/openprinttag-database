@@ -1,0 +1,15 @@
+uuid: 7e3f0e03-4f5d-5ec6-a50d-2e5fabfe9755
+slug: fusion-filaments-pctg-heavy-water-blue
+brand:
+  slug: fusion-filaments
+name: PCTG Heavy Water Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#2c01a0ff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-heavy-water-blue-0-60a00940.jpg
+    type: unspecified

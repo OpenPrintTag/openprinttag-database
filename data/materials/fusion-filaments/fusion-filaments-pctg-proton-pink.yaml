@@ -1,0 +1,15 @@
+uuid: a8c9c01f-4ad1-5779-8ebf-21da0046b2a4
+slug: fusion-filaments-pctg-proton-pink
+brand:
+  slug: fusion-filaments
+name: PCTG Proton Pink
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#ba06aeff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-proton-pink-0-83a58061.jpg
+    type: unspecified

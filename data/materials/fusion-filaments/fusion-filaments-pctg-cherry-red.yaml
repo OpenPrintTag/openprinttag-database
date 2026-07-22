@@ -1,0 +1,15 @@
+uuid: fb1e331b-53d9-54f2-a7f8-b83a3208b531
+slug: fusion-filaments-pctg-cherry-red
+brand:
+  slug: fusion-filaments
+name: PCTG Cherry Red
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#d90102ff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-cherry-red-0-ba938039.jpg
+    type: unspecified

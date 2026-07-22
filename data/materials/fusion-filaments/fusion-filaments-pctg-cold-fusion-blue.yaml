@@ -1,0 +1,15 @@
+uuid: 99f6cee6-1ccf-5b88-8022-642dd35ad554
+slug: fusion-filaments-pctg-cold-fusion-blue
+brand:
+  slug: fusion-filaments
+name: PCTG Cold Fusion Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#009cdeff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-cold-fusion-blue-0-6bc7ebe1.jpg
+    type: unspecified

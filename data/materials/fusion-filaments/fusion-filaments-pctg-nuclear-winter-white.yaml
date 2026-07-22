@@ -1,0 +1,15 @@
+uuid: f3c60e7c-9744-5e94-90ad-b927449e27bc
+slug: fusion-filaments-pctg-nuclear-winter-white
+brand:
+  slug: fusion-filaments
+name: PCTG Nuclear Winter White
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#fafafaff'
+properties:
+  max_print_temperature: 260
+photos:
+  - url: /tmp/assets/fusion-filaments-pctg-nuclear-winter-white-0-f45db092.jpg
+    type: unspecified
