@@ -7,6 +7,7 @@ import { getBadgeStyleForTable } from '~/components/ValueDisplay';
 import { useBrandContext } from '~/context/EntityContexts';
 import { useEnum } from '~/hooks/useEnum';
 import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
+import { classBadgeStyle } from '~/utils/classBadge';
 import { getOS } from '~/utils/os';
 import { READ_ONLY } from '~/utils/readOnly';
 
@@ -86,6 +87,16 @@ function MaterialsLayout() {
                     <h3 className="text-lg leading-snug font-semibold text-gray-900 group-hover:text-orange-600">
                       {material.name}
                     </h3>
+                    {material.class && (
+                      <Badge
+                        className={classBadgeStyle(
+                          material.class,
+                          'ml-2 shrink-0',
+                        )}
+                      >
+                        {material.class}
+                      </Badge>
+                    )}
                   </div>
                   {material.slug && (
                     <p className="mb-3 font-mono text-xs text-gray-500">
