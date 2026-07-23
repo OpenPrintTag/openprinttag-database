@@ -1,0 +1,10 @@
+uuid: 71ff4d93-b1f5-5ad0-aaf2-7e2aa2d7b3dc
+slug: prusament-tpu-95a-prusa-galaxy-black-500-spool
+class: FFF
+gtin: 8594173674998
+container:
+  slug: prusament-spool-1kg
+material:
+  slug: prusament-tpu-95a-prusa-galaxy-black
+nominal_netto_full_weight: 500
+filament_diameter: 1750
