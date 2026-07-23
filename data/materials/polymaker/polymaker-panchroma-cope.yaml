@@ -11,4 +11,15 @@ primary_color:
 photos:
 - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-cope/4dd9461f9c2d.png
   type: unspecified
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 190
+  max_print_temperature: 230
+  preheat_temperature: 170
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 0
+  max_chamber_temperature: 90
+  drying_temperature: 55
+  drying_time: 360
