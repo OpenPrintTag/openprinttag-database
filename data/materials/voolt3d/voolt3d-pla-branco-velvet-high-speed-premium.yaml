@@ -1,0 +1,21 @@
+uuid: c0d96fe1-dcff-5f8f-a81b-b7cb5398c5c2
+slug: voolt3d-pla-branco-velvet-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Branco Velvet High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fafafaff'
+tags:
+- high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-branco-velvet-high-speed-premium/voolt3d-pla-branco-velvet-high-speed-premium-0-75fad773.jpg
+  type: unspecified
