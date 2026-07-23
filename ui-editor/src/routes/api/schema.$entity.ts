@@ -1,7 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { json } from '@tanstack/react-start';
 
-import { resolveSchema } from '~/server/schema-resolver';
+import {
+  isValidEntityName,
+  resolveSchema,
+  SCHEMA_DIR_RELATIVE,
+} from '~/server/schema-resolver';
 
 export const Route = createFileRoute('/api/schema/$entity')({
   server: {
@@ -13,23 +17,16 @@ export const Route = createFileRoute('/api/schema/$entity')({
           const path = await import('node:path');
           const { entity } = params;
 
-          if (!entity || !/^[a-zA-Z0-9_]+$/.test(entity)) {
+          if (!isValidEntityName(entity)) {
             return json({ error: 'Invalid entity name' }, { status: 400 });
           }
 
-          const schemaPath = path.resolve(
-            process.cwd(),
-            '../openprinttag/schema',
-            `${entity}.schema.json`,
-          );
+          const schemaDir = path.resolve(process.cwd(), SCHEMA_DIR_RELATIVE);
+          const schemaPath = path.join(schemaDir, `${entity}.schema.json`);
 
           try {
             const content = await fs.readFile(schemaPath, 'utf8');
             const data = JSON.parse(content);
-            const schemaDir = path.resolve(
-              process.cwd(),
-              '../openprinttag/schema',
-            );
             let resolved;
             try {
               resolved = await resolveSchema(data, schemaDir, (p: string) =>

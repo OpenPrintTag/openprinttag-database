@@ -83,22 +83,22 @@ describe('resolveSchema', () => {
       '/fake/schema',
       readFile,
     );
-    expect(result.properties.hole_diameter).toEqual({
+    expect(result.properties!.hole_diameter).toEqual({
       type: 'number',
       'x-unit': 'mm',
       'x-class': 'FFF',
     });
-    expect(result.properties.length).toEqual({
+    expect(result.properties!.length).toEqual({
       type: 'number',
       'x-unit': 'mm',
       'x-class': 'SLA',
     });
-    expect(result.properties.width).toEqual({
+    expect(result.properties!.width).toEqual({
       type: 'number',
       'x-unit': 'mm',
     });
-    expect(result.properties.uuid).toEqual({ type: 'string', format: 'uuid' });
-    expect(result.properties.name).toEqual({ type: 'string' });
+    expect(result.properties!.uuid).toEqual({ type: 'string', format: 'uuid' });
+    expect(result.properties!.name).toEqual({ type: 'string' });
     expect(result.oneOf).toBeUndefined();
   });
 
@@ -108,7 +108,7 @@ describe('resolveSchema', () => {
       '/fake/schema',
       readFile,
     );
-    expect(result.properties.class.enum).toEqual(['FFF', 'SLA']);
+    expect(result.properties!.class.enum).toEqual(['FFF', 'SLA']);
   });
 
   it('excludes connector field from SLA container', async () => {
@@ -117,7 +117,7 @@ describe('resolveSchema', () => {
       '/fake/schema',
       readFile,
     );
-    expect(result.properties.connector).toBeUndefined();
+    expect(result.properties!.connector).toBeUndefined();
   });
 
   it('returns null for ENOENT refs without throwing', async () => {
@@ -143,10 +143,10 @@ describe('resolveSchema', () => {
       '/fake/schema',
       enoentReadFile,
     );
-    expect(result.properties.related).toEqual({
+    expect(result.properties!.related).toEqual({
       $ref: 'nonexistent.schema.json',
     });
-    expect(result.properties.uuid).toEqual({ type: 'string' });
+    expect(result.properties!.uuid).toEqual({ type: 'string' });
   });
 
   it('applies class overrides for fields not in composition', async () => {
@@ -157,13 +157,15 @@ describe('resolveSchema', () => {
         type: { type: 'string', enum: ['PLA', 'PETG'] },
         transmission_distance: { type: 'number' },
         refractive_index: { type: 'number' },
+        print_sheet_compatibility: { type: 'array' },
       },
     };
     const result = await resolveSchema(schema, '/fake/schema', readFile);
-    expect(result.properties.type['x-class']).toBe('FFF');
-    expect(result.properties.transmission_distance['x-class']).toBe('FFF');
-    expect(result.properties.refractive_index['x-class']).toBe('FFF');
-    expect(result.properties.name['x-class']).toBeUndefined();
+    expect(result.properties!.type['x-class']).toBe('FFF');
+    expect(result.properties!.transmission_distance['x-class']).toBe('FFF');
+    expect(result.properties!.refractive_index['x-class']).toBe('FFF');
+    expect(result.properties!.print_sheet_compatibility['x-class']).toBe('FFF');
+    expect(result.properties!.name['x-class']).toBeUndefined();
   });
 
   it('enriches relation fields with entity metadata', async () => {
@@ -176,9 +178,9 @@ describe('resolveSchema', () => {
       },
     };
     const result = await resolveSchema(schema, '/fake/schema', readFile);
-    expect(result.properties.brand.entity).toBe('brand');
-    expect(result.properties.container.entity).toBe('container');
-    expect(result.properties.name.entity).toBeUndefined();
+    expect(result.properties!.brand.entity).toBe('brand');
+    expect(result.properties!.container.entity).toBe('container');
+    expect(result.properties!.name.entity).toBeUndefined();
   });
 
   it('flattens $ref properties field with anyOf (material properties)', async () => {
@@ -187,14 +189,14 @@ describe('resolveSchema', () => {
       '/fake/schema',
       readFile,
     );
-    const props = result.properties.properties;
+    const props = result.properties!.properties;
     expect(props.type).toBe('object');
-    expect(props.properties.density).toEqual({ type: 'number' });
-    expect(props.properties.min_print_temperature).toEqual({
+    expect(props.properties!.density).toEqual({ type: 'number' });
+    expect(props.properties!.min_print_temperature).toEqual({
       type: 'number',
       'x-class': 'FFF',
     });
-    expect(props.properties.cure_wavelength).toEqual({
+    expect(props.properties!.cure_wavelength).toEqual({
       type: 'number',
       'x-class': 'SLA',
     });

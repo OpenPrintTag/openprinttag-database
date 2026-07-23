@@ -1,5 +1,6 @@
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useClassFields } from '~/hooks/useClassFields';
+import { classSectionTitle } from '~/utils/classBadge';
 import { extractFieldValue } from '~/utils/field';
 
 import type { Container } from './types';
@@ -41,9 +42,11 @@ export const ContainerSheetEditView = ({
     (key) => !BASIC_FIELDS.includes(key) && !SHARED_SPEC_FIELDS.includes(key),
   );
 
-  let sectionTitle = 'Dimensions';
-  if (form?.class === 'SLA') sectionTitle = 'SLA Dimensions';
-  else if (form?.class === 'FFF') sectionTitle = 'FFF Dimensions';
+  const sectionTitle = classSectionTitle(
+    form?.class,
+    'Dimensions',
+    'Dimensions',
+  );
 
   return (
     <div className="my-6 space-y-6">

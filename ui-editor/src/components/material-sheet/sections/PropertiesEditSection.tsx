@@ -1,6 +1,7 @@
 import { EntityFields } from '~/components/fieldTypes';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
 import { useClassFields } from '~/hooks/useClassFields';
+import { classSectionTitle } from '~/utils/classBadge';
 
 import type { Material } from '../types';
 
@@ -69,9 +70,11 @@ function PropertiesSubFields({
 
   if (!filteredFields || Object.keys(filteredFields).length === 0) return null;
 
-  let sectionTitle = 'Material Properties';
-  if (materialClass === 'SLA') sectionTitle = 'SLA Properties';
-  else if (materialClass === 'FFF') sectionTitle = 'FFF Properties';
+  const sectionTitle = classSectionTitle(
+    materialClass,
+    'Properties',
+    'Material Properties',
+  );
 
   return (
     <div className="card">

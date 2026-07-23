@@ -12,7 +12,7 @@ export interface Material {
   brand?: EnumItem;
   brand_specific_id?: string;
   type?: string;
-  class?: string;
+  class?: 'FFF' | 'SLA';
   abbreviation?: string;
   url?: string;
   primary_color?: MaterialColor | string;

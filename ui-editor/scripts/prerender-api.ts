@@ -41,7 +41,7 @@ import {
   readSingleEntity,
   readSingleNestedByBrand,
 } from '~/server/data/fs';
-import { resolveSchema } from '~/server/schema-resolver';
+import { resolveSchema, SCHEMA_DIR_RELATIVE } from '~/server/schema-resolver';
 import { buildIndex } from '~/server/searchIndex';
 
 const SCHEMA_ENTITIES = [
@@ -236,7 +236,7 @@ async function main(): Promise<void> {
 
   // --- Schemas -------------------------------------------------------------
   console.info('Prerendering schemas…');
-  const schemaDir = path.resolve(process.cwd(), '../openprinttag/schema');
+  const schemaDir = path.resolve(process.cwd(), SCHEMA_DIR_RELATIVE);
   for (const entity of SCHEMA_ENTITIES) {
     try {
       const file = path.join(schemaDir, `${entity}.schema.json`);
