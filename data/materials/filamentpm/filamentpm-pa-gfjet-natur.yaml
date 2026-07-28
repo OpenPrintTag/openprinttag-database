@@ -1,0 +1,24 @@
+uuid: f3bf5895-2c69-5037-9b20-f3653f4ab480
+slug: filamentpm-pa-gfjet-natur
+brand:
+  slug: filamentpm
+name: PA-GFJet - Natur
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#b39374ff'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.01
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 110
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/filamentpm-pa-gfjet-natur-0-8884dc8e.jpg
+    type: unspecified

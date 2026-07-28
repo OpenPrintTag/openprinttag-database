@@ -1,0 +1,21 @@
+uuid: 344ee68f-17a4-5266-acc6-e31b05c614d9
+slug: filamentpm-pc-abs-grey
+brand:
+  slug: filamentpm
+name: PC/ABS - Grey
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#c5c7c4ff'
+tags:
+  - self_extinguishing
+properties:
+  density: 1.19
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 110
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/filamentpm-pc-abs-grey-0-fd36b6fe.png
+    type: unspecified
