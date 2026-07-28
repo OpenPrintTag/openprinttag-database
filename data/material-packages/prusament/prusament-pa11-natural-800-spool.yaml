@@ -1,0 +1,10 @@
+uuid: c1ac92b1-25ff-547b-a572-20fe43cf5336
+slug: prusament-pa11-natural-800-spool
+class: FFF
+gtin: 8594173676671
+container:
+  slug: prusament-spool-1kg
+material:
+  slug: prusament-pa11-natural
+nominal_netto_full_weight: 800
+filament_diameter: 1750
