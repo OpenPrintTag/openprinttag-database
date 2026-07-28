@@ -1,0 +1,19 @@
+uuid: 278e19d0-e87a-54ac-a581-465102717119
+slug: filamentpm-petg-yellow
+brand:
+  slug: filamentpm
+name: PETG - Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f5e457ff'
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filamentpm-petg-yellow-0-fad700dc.jpg
+    type: unspecified
