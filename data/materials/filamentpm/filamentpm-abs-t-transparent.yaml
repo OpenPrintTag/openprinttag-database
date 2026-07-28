@@ -1,0 +1,22 @@
+uuid: d59752d6-1955-508d-b964-da11b42c86ae
+slug: filamentpm-abs-t-transparent
+brand:
+  slug: filamentpm
+name: ABS-T - Transparent
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e4dad9ff'
+tags:
+  - high_temperature
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentpm-abs-t-transparent-0-fa9424b8.jpg
+    type: unspecified
