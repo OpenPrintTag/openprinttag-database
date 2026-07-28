@@ -1,0 +1,21 @@
+uuid: 5578cc40-7bc4-56fd-a0c6-1c2b2c8853d2
+slug: filamentpm-pla-lw-natur
+brand:
+  slug: filamentpm
+name: PLA - LW natur
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d6d2c4ff'
+tags:
+  - foaming
+  - without_pigments
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-lw-natur-0-29dcf26e.jpg
+    type: unspecified

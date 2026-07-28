@@ -1,0 +1,20 @@
+uuid: 6f83d150-ceeb-5be0-b47c-696b1df41971
+slug: filamentpm-pla-orange
+brand:
+  slug: filamentpm
+name: PLA - Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fc4c02ff'
+properties:
+  density: 1.24
+  hardness_shore_d: 78.3
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-orange-0-da86f07d.jpg
+    type: unspecified
