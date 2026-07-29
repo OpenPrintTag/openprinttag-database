@@ -13,6 +13,8 @@ tags:
   - filtration_recommended
 properties:
   density: 1.05
+  drying_temperature: 74
+  drying_time: 720
 photos:
   - url: /tmp/assets/fusion-filaments-abs-gloss-cold-fusion-blue-0-cf4d2240.jpg
     type: unspecified
