@@ -1,0 +1,24 @@
+uuid: 629b1096-e600-5200-98f2-8d092bd5077e
+slug: fusion-filaments-abs-matte-geomagnetic-mauve-off-color
+brand:
+  slug: fusion-filaments
+name: ABS Matte Geomagnetic Mauve - Off Color
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#5e1490ff'
+tags:
+  - glitter
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-matte-geomagnetic-mauve-off-color-0-c6ef6a11.jpg
+    type: unspecified

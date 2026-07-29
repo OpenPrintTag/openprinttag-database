@@ -1,0 +1,21 @@
+uuid: c7e50a8b-3601-5cc3-9ffa-162c1aecb1d7
+slug: fusion-filaments-ht-abs-matte-nano-tube-grey
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Nano Tube Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#6f727eff'
+tags:
+  - matte
+  - high_temperature
+  - filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-ht-abs-matte-nano-tube-grey-0-6beb8584.jpg
+    type: unspecified

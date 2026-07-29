@@ -1,0 +1,20 @@
+uuid: 34f1f549-1e52-50d1-a668-e246e9938780
+slug: fusion-filaments-easyasa-cosmic-ray-blue
+brand:
+  slug: fusion-filaments
+name: EasyASA Cosmic Ray Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#2c01a0ff'
+tags:
+  - glitter
+  - filtration_recommended
+properties:
+  max_print_temperature: 275
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/fusion-filaments-easyasa-cosmic-ray-blue-0-9b972ec8.jpg
+    type: unspecified

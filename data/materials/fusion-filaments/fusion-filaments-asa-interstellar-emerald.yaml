@@ -1,0 +1,22 @@
+uuid: 32295d48-e1ea-5f4b-8b2b-a2ee778b87fc
+slug: fusion-filaments-asa-interstellar-emerald
+brand:
+  slug: fusion-filaments
+name: ASA Interstellar Emerald
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#63c6a3ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-asa-interstellar-emerald-0-deef249c.jpg
+    type: unspecified

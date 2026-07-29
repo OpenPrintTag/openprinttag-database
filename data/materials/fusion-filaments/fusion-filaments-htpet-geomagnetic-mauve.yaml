@@ -1,0 +1,23 @@
+uuid: d454b540-8a19-5a62-bc98-db94d250d676
+slug: fusion-filaments-htpet-geomagnetic-mauve
+brand:
+  slug: fusion-filaments
+name: HTPET+ Geomagnetic Mauve
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#7701b2ff'
+tags:
+  - glitter
+  - high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-htpet-geomagnetic-mauve-0-d1f2bc8e.jpg
+    type: unspecified

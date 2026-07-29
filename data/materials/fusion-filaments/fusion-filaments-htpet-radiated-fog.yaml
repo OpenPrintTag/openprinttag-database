@@ -1,0 +1,23 @@
+uuid: aa30ec99-e706-5b5c-8756-c8876213de43
+slug: fusion-filaments-htpet-radiated-fog
+brand:
+  slug: fusion-filaments
+name: HTPET+ Radiated Fog
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#a6a6a6ff'
+tags:
+  - glitter
+  - high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-htpet-radiated-fog-0-ee3d090e.jpg
+    type: unspecified

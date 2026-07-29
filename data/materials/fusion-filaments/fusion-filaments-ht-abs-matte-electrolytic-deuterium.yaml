@@ -1,0 +1,22 @@
+uuid: 12a38992-2565-5a30-99c7-6d4a23e88a11
+slug: fusion-filaments-ht-abs-matte-electrolytic-deuterium
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Electrolytic Deuterium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#3bc9edff'
+tags:
+  - glitter
+  - matte
+  - high_temperature
+  - filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-ht-abs-matte-electrolytic-deuterium-0-a777236b.jpg
+    type: unspecified

@@ -1,0 +1,21 @@
+uuid: 9dbeb8b8-b553-5dd8-abff-b2e89e4b965f
+slug: fusion-filaments-ht-abs-matte-radium-green-20
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Radium Green 2.0
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#00f03cff'
+tags:
+  - matte
+  - high_temperature
+  - filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-ht-abs-matte-radium-green-20-0-85bb1377.jpg
+    type: unspecified

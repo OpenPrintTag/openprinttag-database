@@ -1,0 +1,24 @@
+uuid: 1a45299b-89a7-5170-b4aa-8e7fe904ffaf
+slug: fusion-filaments-abs-matte-cosmic-ray-blue
+brand:
+  slug: fusion-filaments
+name: ABS Matte Cosmic Ray Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#4f03d7ff'
+tags:
+  - glitter
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-matte-cosmic-ray-blue-0-36df4d4f.jpg
+    type: unspecified

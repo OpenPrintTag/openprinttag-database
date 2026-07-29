@@ -1,0 +1,22 @@
+uuid: 01f67b73-a76a-5d6b-9384-f40d1782cc52
+slug: fusion-filaments-asa-uranium-yellow
+brand:
+  slug: fusion-filaments
+name: ASA Uranium Yellow
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#e5fb3cff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-asa-uranium-yellow-0-e36661cd.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: a1280e13-df3e-585d-9649-1eee54f69115
+slug: fusion-filaments-htpet-natural
+brand:
+  slug: fusion-filaments
+name: HTPET+ Natural
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#d6d6cdff'
+tags:
+  - high_temperature
+  - without_pigments
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-htpet-natural-0-d202ccbe.jpg
+    type: unspecified
