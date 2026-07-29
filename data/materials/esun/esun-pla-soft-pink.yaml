@@ -13,3 +13,5 @@ properties: {}
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-soft-pink/esun-pla-soft-pink-0-3ec4205e.jpg
     type: unspecified
+primary_color:
+  color_rgba: '#f1bdc8ff'
