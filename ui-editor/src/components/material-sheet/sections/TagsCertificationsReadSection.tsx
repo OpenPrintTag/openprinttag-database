@@ -28,7 +28,6 @@ export const TagsCertificationsReadSection = ({
       excludeKeys={Object.keys(fields).filter(
         (k) => k !== 'tags' && k !== 'certifications',
       )}
-      entity="material"
     />
   );
 };

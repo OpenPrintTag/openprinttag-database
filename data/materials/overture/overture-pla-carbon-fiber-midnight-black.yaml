@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/overture/overture-pla-carbon-fiber-midnight-black/7f7d24b81b58.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/overture/overture-pla-carbon-fiber-midnight-black/7f7d24b81b58.jpg
+    type: unspecified
 properties: {}

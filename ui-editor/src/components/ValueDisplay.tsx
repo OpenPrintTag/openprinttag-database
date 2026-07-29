@@ -1,9 +1,7 @@
 import { Link, useMatch } from '@tanstack/react-router';
 
 import { Badge, ColorSwatch } from '~/components/ui';
-import type { EnumTable } from '~/hooks/useEnum';
-import { useEnum } from '~/hooks/useEnum';
-import { useLookupRelation } from '~/hooks/useSchema';
+import { useFieldOptions } from '~/hooks/useFieldOptions';
 import { FIELD_RELATION_MAP } from '~/server/data/schema-metadata';
 import { getLocalAssetUrl, isPrimitive, isValidUrl } from '~/utils/format';
 
@@ -21,30 +19,28 @@ export const getBadgeStyleForTable = (table: string | null): string => {
 };
 
 interface RelationMetadata {
-  isLookup: boolean;
   table: string | null;
-  valueField: string;
-  labelField: string;
+  valueField: string | null;
+  labelField: string | null;
 }
 
 interface ValueDisplayProps {
   value: unknown;
   field?: SchemaField;
-  entity?: string;
   label?: string;
 }
 
 interface ObjectValueProps {
   relation: RelationMetadata | null;
   value: unknown;
-  items?: EnumTable | null;
+  items?: { items: Record<string, unknown>[] } | null;
 }
 
 const ObjectValue = ({ relation, value, items }: ObjectValueProps) => {
   let val = value;
-  if (items?.items && items.items.length > 0 && relation) {
-    const found = items.items.find((i) => i[relation.valueField] === value);
-    if (found) {
+  if (items?.items && items.items.length > 0 && relation?.valueField) {
+    const found = items.items.find((i) => i[relation.valueField!] === value);
+    if (found && relation.labelField) {
       val = found[relation.labelField];
     }
   }
@@ -77,10 +73,23 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
 
   if ((field?.type === 'object' && value) || typeof value === 'object') {
     const obj = value as Record<string, any>;
-    if (field?.title === 'MaterialColor') {
+    if (field?.title === 'MaterialColor' || obj.color_rgba) {
       const rgba = obj.color_rgba || obj.rgba;
       if (typeof rgba === 'string') {
-        return <ColorSwatch rgbaHex={rgba} label={rgba} />;
+        const lab =
+          Array.isArray(obj.color_lab) && obj.color_lab.length === 3
+            ? (obj.color_lab as [number, number, number])
+            : null;
+        return (
+          <span className="inline-flex items-center gap-2">
+            <ColorSwatch rgbaHex={rgba} label={rgba} />
+            {lab && (
+              <span className="text-xs text-gray-500">
+                L:{lab[0]} a:{lab[1]} b:{lab[2]}
+              </span>
+            )}
+          </span>
+        );
       }
     }
 
@@ -139,10 +148,10 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
       <div className="flex flex-wrap justify-between gap-y-2 align-top">
         {Object.entries(obj).map(([key, val]) => (
           <div className="flex-1/2" key={key}>
-            <dt className="mb-1 text-xs tracking-wide text-gray-500 uppercase">
+            <div className="mb-1 text-xs tracking-wide text-gray-500 uppercase">
               {key}
-            </dt>
-            <dd>{String(val)}</dd>
+            </div>
+            <div>{String(val)}</div>
           </div>
         ))}
       </div>
@@ -152,17 +161,10 @@ const PrimitiveValue = ({ field, value }: PrimitiveValueProps) => {
   if (isPrimitive(value)) return <span>{String(value)}</span>;
 };
 
-export const ValueDisplay = ({
-  value,
-  field,
-  entity = 'brand',
-  label,
-}: ValueDisplayProps) => {
+export const ValueDisplay = ({ value, field, label }: ValueDisplayProps) => {
   const match = useMatch({ from: '/brands/$brandId', shouldThrow: false });
-  const relData = useLookupRelation(entity, field, label);
-  const relItems = useEnum(relData?.table ?? null, {
-    brandId: match?.params?.brandId,
-  });
+  const fieldOpts = useFieldOptions(label ?? '', field);
+
   if (value === null || value === undefined || value === '') {
     return <span className="text-gray-400">—</span>;
   }
@@ -171,23 +173,19 @@ export const ValueDisplay = ({
     return <span className="text-gray-400">—</span>;
   }
 
-  if (relItems.data && relData) {
+  if (fieldOpts.hasOptions && fieldOpts.options.length > 0) {
     const entityRoute = field?.entity && FIELD_RELATION_MAP[field.entity];
     if (entityRoute && !field?.items) {
-      const items = Array.isArray(relItems.data)
-        ? relItems.data
-        : (relItems.data as EnumTable).items;
-      const val = items.find(
-        (v: any) =>
-          v[relData.valueField] === (value as any)?.[relData.valueField],
+      const val = fieldOpts.options.find(
+        (v) => v.value === (value as any)?.[fieldOpts.valueField ?? ''],
       );
       const params =
         field?.entity === 'container'
           ? {
               ...match?.params,
-              containerId: val?.[relData.valueField],
+              containerId: val?.value,
             }
-          : { brandId: val?.[relData.valueField] };
+          : { brandId: val?.value };
 
       return (
         <Link
@@ -195,10 +193,23 @@ export const ValueDisplay = ({
           params={params as any}
           className="no-underline"
         >
-          <Badge>{val?.[relData.labelField]}</Badge>
+          <Badge>{val?.label}</Badge>
         </Link>
       );
     }
+
+    const relMeta = {
+      table: fieldOpts.table,
+      valueField: fieldOpts.valueField,
+      labelField: fieldOpts.labelField,
+    };
+    const items = fieldOpts.options.map(
+      (o) =>
+        o.data ?? {
+          [fieldOpts.valueField ?? 'value']: o.value,
+          [fieldOpts.labelField ?? 'label']: o.label,
+        },
+    );
 
     if (field?.type === 'array' && Array.isArray(value)) {
       return (
@@ -206,8 +217,8 @@ export const ValueDisplay = ({
           {value.map((v) => (
             <ObjectValue
               value={v}
-              items={relItems.data as EnumTable}
-              relation={relData}
+              items={{ items }}
+              relation={relMeta}
               key={v}
             />
           ))}
@@ -215,13 +226,7 @@ export const ValueDisplay = ({
       );
     }
 
-    return (
-      <ObjectValue
-        value={value}
-        relation={relData}
-        items={relItems.data as EnumTable}
-      />
-    );
+    return <ObjectValue value={value} relation={relMeta} items={{ items }} />;
   }
 
   if (

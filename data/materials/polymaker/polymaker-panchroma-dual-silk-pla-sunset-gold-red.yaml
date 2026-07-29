@@ -1,19 +1,25 @@
-uuid: 1881de89-7f18-5fdc-a838-9ee82b9a05fc
+uuid: 2b4a09a9-40e0-5ad3-aa78-76b349c5d8be
 slug: polymaker-panchroma-dual-silk-pla-sunset-gold-red
 brand:
   slug: polymaker
-name: Panchroma™ Dual Silk PLA Sunset (Gold / Red)
+name: Panchroma™ Dual Silk PLA Sunset (Gold/Red)
 class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#f6c500ff'
-- color_rgba: '#e20010ff'
+  - color_rgba: '#cf6076ff'
+  - color_rgba: '#c49449ff'
 tags:
-- silk
-- industrially_compostable
-- coextruded
+  - silk
+  - coextruded
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-silk-pla-sunset-gold-red/71e62689bed2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-dual-silk-pla-sunset-gold-red/71e62689bed2.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

@@ -1,0 +1,21 @@
+uuid: 08a247da-4442-5020-ba04-fc2c1c449d5e
+slug: polymaker-panchroma-basic-pla-yellow
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffe800ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-basic-pla-yellow/polymaker-panchroma-basic-pla-yellow-0-1141363f.jpg
+  type: unspecified

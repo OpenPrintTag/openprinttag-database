@@ -1,0 +1,23 @@
+uuid: 01f16c61-6603-5d3a-84d5-563742354cb3
+slug: polymaker-abs-max-green
+brand:
+  slug: polymaker
+name: ABS Max Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#50a260ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 270
+  max_print_temperature: 300
+  max_bed_temperature: 120
+  min_chamber_temperature: 65
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-abs-max-green/polymaker-abs-max-green-0-e870a5e4.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 16aec5b0-ae17-51ae-b7c6-35a3262759a4
+slug: voxelpla-petg-hs-pro-grey
+brand:
+  slug: voxelpla
+name: PETG+ HS (Pro) Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9db6d4ff'
+tags:
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-voxelpetg-hs-pro-grey/0e552bb2e95d.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80

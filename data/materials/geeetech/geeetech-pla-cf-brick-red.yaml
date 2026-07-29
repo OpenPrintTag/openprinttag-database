@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#462b2eff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-pla-cf-brick-red/becd9e4387bc.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/geeetech/geeetech-pla-cf-brick-red/becd9e4387bc.jpg
+    type: unspecified
 properties: {}

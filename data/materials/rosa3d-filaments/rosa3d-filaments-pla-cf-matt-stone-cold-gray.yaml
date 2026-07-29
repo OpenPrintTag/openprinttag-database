@@ -10,8 +10,7 @@ url: https://www.rosa3d.pl/en/filament-3d-refill-pla-cf-matt-stone-cold-gray-175
 primary_color:
   color_rgba: '#a2aaadff'
 tags:
-- contains_carbon_fiber
-- matte
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - matte
+  - abrasive
 properties: {}

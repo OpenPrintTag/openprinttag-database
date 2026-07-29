@@ -9,11 +9,10 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- esd_safe
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - esd_safe
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/protopasta/protopasta-static-dissipative-carbon-fiber-pla/d05601a6ad8a.png
-  type: unspecified
+  - url: https://files.openprinttag.org/protopasta/protopasta-static-dissipative-carbon-fiber-pla/d05601a6ad8a.png
+    type: unspecified
 properties: {}

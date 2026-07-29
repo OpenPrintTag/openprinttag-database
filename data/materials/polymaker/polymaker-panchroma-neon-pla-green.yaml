@@ -7,11 +7,16 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#9aee6cff'
+  color_rgba: '#00f263ff'
 tags:
-- industrially_compostable
-- neon
+  - neon
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-neon-pla-green/d47f9afaf11c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-neon-pla-green/d47f9afaf11c.png
+    type: unspecified
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

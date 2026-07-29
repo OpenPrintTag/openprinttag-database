@@ -1,0 +1,21 @@
+uuid: 9717a0b0-3c0a-503f-b6d6-f0574f55b616
+slug: polymaker-petg-dark-blue
+brand:
+  slug: polymaker
+name: PETG Dark Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#081b36ff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-petg-dark-blue/polymaker-petg-dark-blue-0-73c401b0.jpg
+  type: unspecified

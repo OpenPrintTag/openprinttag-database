@@ -1,0 +1,22 @@
+uuid: cb7793cf-fbaa-532f-8774-79fd0b7dea26
+slug: voxelpla-pla-hs-pro-yellow
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fbe200ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-yellow/ca0721575a7e.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

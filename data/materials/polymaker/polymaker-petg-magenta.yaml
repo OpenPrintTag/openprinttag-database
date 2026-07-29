@@ -1,0 +1,21 @@
+uuid: 0c0ad6de-55b7-520e-86db-0525bbcc75bd
+slug: polymaker-petg-magenta
+brand:
+  slug: polymaker
+name: PETG Magenta
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dc5d8cff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-petg-magenta/polymaker-petg-magenta-0-7fa3f4de.jpg
+  type: unspecified

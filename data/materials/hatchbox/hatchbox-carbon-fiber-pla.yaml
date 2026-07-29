@@ -9,10 +9,9 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#1d1d1dff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/hatchbox/hatchbox-carbon-fiber-pla/812b635c8680.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/hatchbox/hatchbox-carbon-fiber-pla/812b635c8680.jpg
+    type: unspecified
 properties: {}

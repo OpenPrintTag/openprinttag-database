@@ -1,0 +1,21 @@
+uuid: 9648b761-cdc1-5039-a5f2-894450e605c9
+slug: polymaker-petg-dark-green
+brand:
+  slug: polymaker
+name: PETG Dark Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#223622ff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-petg-dark-green/polymaker-petg-dark-green-0-7c0a6ded.jpg
+  type: unspecified

@@ -1,9 +1,14 @@
 import { Command, Search } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 import { getOS } from '~/utils/os';
 
 export function SearchTrigger({ onClick }: { onClick: () => void }) {
-  const isMac = getOS() === 'MacOS';
+  const [isMac, setIsMac] = useState(false);
+
+  useEffect(() => {
+    setIsMac(getOS() === 'MacOS');
+  }, []);
 
   return (
     <button

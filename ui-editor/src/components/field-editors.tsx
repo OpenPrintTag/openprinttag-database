@@ -7,6 +7,7 @@ import { FormField } from './FormField';
 // Types
 interface ColorValue {
   color_rgba?: string;
+  color_lab?: [number, number, number];
 }
 
 interface BaseFieldEditorProps {
@@ -51,7 +52,26 @@ const extractHexFromValue = (value: unknown): string => {
 
 const isValidHex = (hex: string): boolean => VALID_HEX_PATTERN.test(hex);
 
-const wrapValue = (hex: string): ColorValue => ({ color_rgba: hex });
+const extractLabFromValue = (
+  value: unknown,
+): [number, number, number] | null => {
+  if (value && typeof value === 'object') {
+    const obj = value as Record<string, unknown>;
+    if (Array.isArray(obj.color_lab) && obj.color_lab.length === 3) {
+      return obj.color_lab as [number, number, number];
+    }
+  }
+  return null;
+};
+
+const wrapValue = (
+  hex: string,
+  lab?: [number, number, number] | null,
+): ColorValue => {
+  const val: ColorValue = { color_rgba: hex };
+  if (lab) val.color_lab = lab;
+  return val;
+};
 
 // Extract RGB (6-char) and alpha from hex string
 const parseHexWithAlpha = (hex: string): { rgb: string; alpha: number } => {
@@ -89,9 +109,23 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
 
   const { rgb, alpha } = useMemo(() => parseHexWithAlpha(hex), [hex]);
 
+  const [labInputs, setLabInputs] = useState<[string, string, string]>(() => {
+    const lab = extractLabFromValue(value);
+    return lab
+      ? [String(lab[0]), String(lab[1]), String(lab[2])]
+      : ['', '', ''];
+  });
+
   useEffect(() => {
     setHex(currentHex);
   }, [currentHex]);
+
+  useEffect(() => {
+    const lab = extractLabFromValue(value);
+    setLabInputs(
+      lab ? [String(lab[0]), String(lab[1]), String(lab[2])] : ['', '', ''],
+    );
+  }, [value]);
 
   const handleColorChange = useCallback(
     (newHex: string) => {
@@ -100,12 +134,16 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
       setHex(newHex);
 
       if (newHex && isValidHex(newHex)) {
-        onChange(wrapValue(newHex));
+        const allFilled = labInputs.every((v) => v !== '' && !isNaN(Number(v)));
+        const currentLab: [number, number, number] | null = allFilled
+          ? [Number(labInputs[0]), Number(labInputs[1]), Number(labInputs[2])]
+          : null;
+        onChange(wrapValue(newHex, currentLab));
       } else if (!newHex) {
         onChange(null);
       }
     },
-    [allowInvalidInput, onChange],
+    [allowInvalidInput, onChange, labInputs],
   );
 
   const handleRgbChange = useCallback(
@@ -116,6 +154,34 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
   const handleAlphaChange = useCallback(
     (newAlpha: number) => handleColorChange(combineRgbAlpha(rgb, newAlpha)),
     [rgb, handleColorChange],
+  );
+
+  const handleLabChange = useCallback(
+    (index: number, val: string) => {
+      const newInputs: [string, string, string] = [...labInputs] as [
+        string,
+        string,
+        string,
+      ];
+      newInputs[index] = val;
+      setLabInputs(newInputs);
+
+      const allFilled = newInputs.every((v) => v !== '' && !isNaN(Number(v)));
+      const allEmpty = newInputs.every((v) => v === '');
+
+      if (allFilled) {
+        const lab: [number, number, number] = [
+          Number(newInputs[0]),
+          Number(newInputs[1]),
+          Number(newInputs[2]),
+        ];
+        if (hex && isValidHex(hex)) onChange(wrapValue(hex, lab));
+      } else if (allEmpty) {
+        if (hex && isValidHex(hex)) onChange(wrapValue(hex, null));
+      }
+      // Partial input: don't emit — wait until all three are filled or cleared
+    },
+    [labInputs, hex, onChange],
   );
 
   const content = (
@@ -148,6 +214,24 @@ export const ColorPicker: React.FC<ColorPickerProps> = ({
           className="h-2 flex-1 cursor-pointer appearance-none rounded-lg bg-gray-200"
         />
         <span className="w-10 text-right text-xs text-gray-600">{alpha}%</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <label className="w-16 text-xs text-gray-600">CIE L*a*b*:</label>
+        {(['L*', 'a*', 'b*'] as const).map((lbl, i) => (
+          <div key={lbl} className="flex items-center gap-1">
+            <span className="text-xs text-gray-500">{lbl}</span>
+            <input
+              type="number"
+              className="input w-32 font-mono text-sm"
+              step="0.0001"
+              min={i === 0 ? 0 : -150}
+              max={i === 0 ? 100 : 150}
+              value={labInputs[i]}
+              onChange={(e) => handleLabChange(i, e.target.value)}
+              placeholder={i === 0 ? '0-100' : '-150…150'}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

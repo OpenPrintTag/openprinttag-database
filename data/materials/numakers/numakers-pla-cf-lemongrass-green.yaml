@@ -10,11 +10,10 @@ url: https://numakers.com/products/pla-cf?variant=48462471332148
 primary_color:
   color_rgba: '#66875eff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- contains_carbon
-- industrially_compostable
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties: {}
 photos:
-- url: https://files.openprinttag.org/numakers/numakers-pla-cf-lemongrass-green/numakers-pla-cf-lemongrass-green-0-c9da9e90.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/numakers/numakers-pla-cf-lemongrass-green/numakers-pla-cf-lemongrass-green-0-c9da9e90.jpg
+    type: unspecified
