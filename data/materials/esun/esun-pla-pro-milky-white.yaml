@@ -11,7 +11,14 @@ primary_color:
   color_rgba: '#e9e9e7ff'
 tags:
   - industrially_compostable
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-milky-white/esun-pla-milky-white-0-e067e21f.jpg
     type: unspecified

@@ -8,7 +8,14 @@ type: PLA
 abbreviation: PLA Pro
 primary_color:
   color_rgba: '#d0d3d4ff'
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
 photos:
   - url: /tmp/assets/esun-pla-concrete-grey-0-ffffe5e3.jpg
     type: unspecified
