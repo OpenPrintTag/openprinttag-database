@@ -11,7 +11,12 @@ primary_color:
   color_rgba: '#f2efe9ff'
 tags:
   - without_pigments
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-super-tough-pla-natural/b19a6c1edd5a.jpg
     type: unspecified

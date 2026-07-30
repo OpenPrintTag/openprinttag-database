@@ -13,7 +13,12 @@ tags:
   - contains_carbon_fiber
   - abrasive
   - contains_carbon
-properties: {}
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: /tmp/assets/esun-pla-cf-purple-0-b37f3890.jpg
     type: unspecified
