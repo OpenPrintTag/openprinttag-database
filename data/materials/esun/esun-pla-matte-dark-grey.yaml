@@ -11,7 +11,14 @@ primary_color:
   color_rgba: '#4c5975ff'
 tags:
   - matte
-properties: {}
+properties:
+  density: 1.329
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-matte-dark-grey/esun-pla-matte-dark-grey-0-6a825936.jpg
     type: unspecified
