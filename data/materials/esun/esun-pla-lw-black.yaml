@@ -1,8 +1,8 @@
-uuid: 077a96ed-215f-511c-9ae3-7216f28f7493
+uuid: 0a45b38d-fdec-534a-9967-c10dd0dacc9b
 slug: esun-pla-lw-black
 brand:
   slug: esun
-name: PLA LW Black
+name: PLA-LW Black
 class: FFF
 type: PLA
 abbreviation: PLA
@@ -11,7 +11,6 @@ primary_color:
   color_rgba: '#000000ff'
 tags:
   - foaming
-  - industrially_compostable
 properties: {}
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-lw-black/94671807f0d2.jpg
