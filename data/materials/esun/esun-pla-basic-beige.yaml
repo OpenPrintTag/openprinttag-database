@@ -11,7 +11,12 @@ primary_color:
   color_rgba: '#f8cbafff'
 tags:
   - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-basic-beige/esun-pla-basic-beige-0-353402d5.jpg
     type: unspecified
