@@ -10,7 +10,11 @@ primary_color:
   color_rgba: '#fbe200ff'
 tags:
   - high_speed
-properties: {}
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: /tmp/assets/esun-pla-hs-yellow-0-a0a9d060.jpg
     type: unspecified
