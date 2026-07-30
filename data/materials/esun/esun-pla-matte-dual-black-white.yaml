@@ -1,0 +1,18 @@
+uuid: 5c6bc3c9-4a6c-557d-975e-c7d84665e25e
+slug: esun-pla-matte-dual-black-white
+brand:
+  slug: esun
+name: PLA Matte Dual Black White
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#000000ff'
+  - color_rgba: '#ffffffff'
+tags:
+  - matte
+  - coextruded
+properties: {}
+photos:
+  - url: /tmp/assets/esun-pla-matte-dual-black-white-0-c8127fbc.jpg
+    type: unspecified
