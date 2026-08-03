@@ -23,7 +23,6 @@ export const PhotosReadSection = ({
       title="Photos"
       primaryKeys={['photos']}
       excludeKeys={Object.keys(fields).filter((k) => k !== 'photos')}
-      entity="material"
     />
   );
 };

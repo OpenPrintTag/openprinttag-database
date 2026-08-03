@@ -2,8 +2,10 @@ import { createFileRoute, Link, Outlet } from '@tanstack/react-router';
 import { ChevronRight, Package, Plus } from 'lucide-react';
 import React from 'react';
 
+import { Badge } from '~/components/ui';
 import { ContainersContext, useBrandContext } from '~/context/EntityContexts';
 import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
+import { classBadgeStyle } from '~/utils/classBadge';
 import { getOS } from '~/utils/os';
 import { READ_ONLY } from '~/utils/readOnly';
 
@@ -73,9 +75,21 @@ function ContainersLayout() {
                 className="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition-all hover:border-orange-300 hover:shadow-md"
               >
                 <div className="p-5">
-                  <h3 className="line-clamp-1 text-lg font-semibold text-gray-900 group-hover:text-orange-600">
-                    {container.name}
-                  </h3>
+                  <div className="flex items-start justify-between">
+                    <h3 className="line-clamp-1 text-lg font-semibold text-gray-900 group-hover:text-orange-600">
+                      {container.name}
+                    </h3>
+                    {container.class && (
+                      <Badge
+                        className={classBadgeStyle(
+                          container.class,
+                          'ml-2 shrink-0',
+                        )}
+                      >
+                        {container.class}
+                      </Badge>
+                    )}
+                  </div>
                   {container.slug && (
                     <p className="mt-1 font-mono text-xs text-gray-500">
                       {container.slug}
