@@ -11,6 +11,10 @@ primary_color:
   color_rgba: '#1b3b99ff'
 properties:
   density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
   - url: https://files.openprinttag.org/esun/esun-petg-basic-blue/esun-petg-basic-blue-0-79ea4a2a.jpg
     type: unspecified

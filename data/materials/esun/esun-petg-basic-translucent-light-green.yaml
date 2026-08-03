@@ -12,6 +12,10 @@ tags:
   - translucent
 properties:
   density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/esun-petg-basic-translucent-light-green-0-2d7d45bc.jpg
     type: unspecified
