@@ -7,7 +7,6 @@ export interface DataGridProps<T = Record<string, unknown>> {
   fields?: EntityFields;
   primaryKeys?: string[];
   excludeKeys?: string[];
-  entity?: string;
   brandId?: string;
 }
 
@@ -19,7 +18,6 @@ export const DataGrid = <
   fields,
   primaryKeys = [],
   excludeKeys = [],
-  entity = 'brand',
 }: DataGridProps<T>) => {
   const allKeys = fields
     ? Object.keys(fields).filter((k) => !excludeKeys.includes(k))
@@ -41,13 +39,7 @@ export const DataGrid = <
             const field = fields?.[key];
             const value = data?.[key];
             return (
-              <FieldRow
-                key={key}
-                label={key}
-                value={value}
-                field={field}
-                entity={entity}
-              />
+              <FieldRow key={key} label={key} value={value} field={field} />
             );
           })}
         </dl>
@@ -66,27 +58,16 @@ interface FieldRowProps {
   value: unknown;
   field?: SchemaField;
   colors?: Record<string, ColorItem> | null;
-  entity?: string;
 }
 
-export const FieldRow = ({
-  label,
-  value,
-  field,
-  entity = 'brand',
-}: FieldRowProps) => {
+export const FieldRow = ({ label, value, field }: FieldRowProps) => {
   return (
     <div>
       <dt className="mb-1 text-xs tracking-wide text-gray-500 uppercase">
         {label}
       </dt>
       <dd className="text-sm text-gray-900">
-        <ValueDisplay
-          value={value}
-          field={field}
-          entity={entity}
-          label={label}
-        />
+        <ValueDisplay value={value} field={field} label={label} />
       </dd>
     </div>
   );
