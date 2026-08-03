@@ -1,5 +1,6 @@
 import { DataGrid } from '~/components/DataGrid';
 import { EntityFields } from '~/components/fieldTypes';
+import { useClassFields } from '~/hooks/useClassFields';
 
 import { SystemInformationReadSection } from './sections/SystemInformationReadSection';
 import type { Package } from './types';
@@ -15,6 +16,8 @@ export const PackageSheetReadView = ({
   fields,
   brandId,
 }: PackageSheetReadViewProps) => {
+  const filteredFields = useClassFields(fields, pkg?.class);
+
   if (!pkg) {
     return (
       <div className="py-8 text-center text-sm text-gray-500">
@@ -27,10 +30,9 @@ export const PackageSheetReadView = ({
     <div className="my-6 space-y-6">
       <DataGrid
         title="Package Information"
-        fields={fields}
+        fields={filteredFields}
         data={pkg}
         brandId={brandId}
-        entity="package"
         primaryKeys={['uuid', 'slug', 'name']}
         excludeKeys={['directus_uuid']}
       />

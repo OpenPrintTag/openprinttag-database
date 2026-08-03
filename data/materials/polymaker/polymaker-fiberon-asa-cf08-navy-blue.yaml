@@ -1,0 +1,26 @@
+uuid: dc21105c-d5ec-5b04-9946-84ff2033278f
+slug: polymaker-fiberon-asa-cf08-navy-blue
+brand:
+  slug: polymaker
+name: Fiberon™ ASA-CF08 Navy Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#30548eff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 90
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-asa-cf08-navy-blue/polymaker-fiberon-asa-cf08-navy-blue-0-5e877462.jpg
+  type: unspecified
