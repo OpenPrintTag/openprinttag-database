@@ -1,0 +1,20 @@
+uuid: a9a9fb97-a450-54c3-93c7-8fd8aa29d5eb
+slug: polymaker-asa-red
+brand:
+  slug: polymaker
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#d82b1cff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420

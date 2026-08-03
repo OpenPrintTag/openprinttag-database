@@ -1,0 +1,22 @@
+uuid: 1ab513bb-d8d3-5c4c-a5e3-00c8e072c1c2
+slug: prusament-pla-sakura-pink
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA Sakura Pink
+abbreviation: PLA
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 225
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#fcd9e5ff'
+tags:
+- industrially_compostable
