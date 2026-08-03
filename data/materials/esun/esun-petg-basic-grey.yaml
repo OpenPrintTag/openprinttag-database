@@ -12,5 +12,5 @@ primary_color:
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-basic-grey/esun-petg-basic-grey-0-b7cc12ed.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-basic-grey/esun-petg-basic-grey-0-b7cc12ed.jpg
+    type: unspecified

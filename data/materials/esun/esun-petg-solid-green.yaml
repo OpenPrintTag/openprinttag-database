@@ -12,5 +12,5 @@ primary_color:
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-green/esun-petg-solid-green-0-9af8c962.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-green/esun-petg-solid-green-0-9af8c962.jpg
+    type: unspecified

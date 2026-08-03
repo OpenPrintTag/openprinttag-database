@@ -1,0 +1,21 @@
+uuid: c4bd3c19-5508-53db-b793-439db876ae8b
+slug: esun-petg-hs-black
+brand:
+  slug: esun
+name: PETG+HS Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - high_speed
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/esun-petg-hs-black-0-4ad1a085.jpg
+    type: unspecified
