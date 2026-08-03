@@ -1,0 +1,23 @@
+uuid: def8ee9f-e633-570d-bef5-cdc2d13c1a8c
+slug: esun-pla-matte-light-blue
+brand:
+  slug: esun
+name: PLA Matte Light Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#99f1ffff'
+tags:
+  - matte
+properties:
+  density: 1.329
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+  - url: /tmp/assets/esun-pla-matte-light-blue-0-a67c5eac.jpg
+    type: unspecified
