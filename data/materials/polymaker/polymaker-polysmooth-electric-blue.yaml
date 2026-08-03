@@ -1,0 +1,23 @@
+uuid: 07184ac5-41b0-52d0-bdac-6d4fd1b96648
+slug: polymaker-polysmooth-electric-blue
+brand:
+  slug: polymaker
+name: PolySmooth™ Electric Blue
+class: FFF
+type: PVB
+abbreviation: PVB
+primary_color:
+  color_rgba: '#007abcff'
+tags:
+- ipa_soluble
+properties:
+  density: 1.1
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-electric-blue/polymaker-polysmooth-electric-blue-0-bf89aee9.png
+  type: unspecified
