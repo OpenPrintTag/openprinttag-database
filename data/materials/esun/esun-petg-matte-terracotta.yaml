@@ -1,0 +1,21 @@
+uuid: 391e29ee-54c1-51a8-a8ec-03337dff0137
+slug: esun-petg-matte-terracotta
+brand:
+  slug: esun
+name: PETG Matte Terracotta
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#b58971ff'
+tags:
+  - matte
+properties:
+  density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/esun-petg-matte-terracotta-0-2cd1f859.jpg
+    type: unspecified

@@ -1,0 +1,21 @@
+uuid: 97c4a0d5-948d-5021-a026-0168d616e101
+slug: esun-petg-hs-solid-blue
+brand:
+  slug: esun
+name: PETG+HS Solid Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#2e56f1ff'
+tags:
+  - high_speed
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/esun-petg-hs-solid-blue-0-bb7fa5d0.jpg
+    type: unspecified
