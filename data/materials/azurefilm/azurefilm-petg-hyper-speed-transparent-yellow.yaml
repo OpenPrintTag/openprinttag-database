@@ -12,7 +12,12 @@ primary_color:
 tags:
 - high_speed
 - translucent
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90
 photos:
 - url: https://files.openprinttag.org/azurefilm/azurefilm-petg-hyper-speed-transparent-yellow/azurefilm-petg-hyper-speed-transparent-yellow-0-37010eba.jpg
   type: unspecified
