@@ -1,0 +1,20 @@
+uuid: 49d58528-082c-51a8-adfc-705e670922dd
+slug: polymaker-asa-teal
+brand:
+  slug: polymaker
+name: ASA Teal
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#0094a4ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420

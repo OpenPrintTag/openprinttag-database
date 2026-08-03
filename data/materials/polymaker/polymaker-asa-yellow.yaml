@@ -1,0 +1,20 @@
+uuid: 80c515b9-641d-593e-ac39-bf10e587ae08
+slug: polymaker-asa-yellow
+brand:
+  slug: polymaker
+name: ASA Yellow
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#eec000ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420
