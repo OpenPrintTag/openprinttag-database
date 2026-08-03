@@ -13,6 +13,10 @@ tags:
   - translucent
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
   - url: https://files.openprinttag.org/esun/esun-petg-translucent-magenta/esun-petg-translucent-magenta-0-077b98d2.jpg
     type: unspecified

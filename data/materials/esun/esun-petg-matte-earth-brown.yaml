@@ -10,7 +10,12 @@ primary_color:
   color_rgba: '#ae9d7eff'
 tags:
   - matte
-properties: {}
+properties:
+  density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
 photos:
   - url: /tmp/assets/esun-petg-matte-earth-brown-0-2f203c72.jpg
     type: unspecified

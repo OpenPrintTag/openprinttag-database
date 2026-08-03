@@ -10,7 +10,12 @@ primary_color:
   color_rgba: '#792b36ff'
 tags:
   - translucent
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/esun-petg-basic-translucent-red-0-c7b643b7.jpg
     type: unspecified
