@@ -1,0 +1,19 @@
+uuid: 0fdb654c-bc73-5498-a016-ae88518cd5e8
+slug: esun-pla-cmyk-white
+brand:
+  slug: esun
+name: PLA+ CMYK White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f5ff'
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-cmyk-white-0-bd5e1f31.jpg
+    type: unspecified
