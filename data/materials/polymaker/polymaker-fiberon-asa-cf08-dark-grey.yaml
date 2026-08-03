@@ -1,0 +1,26 @@
+uuid: b212870b-f405-5d19-8fd8-efe853a25334
+slug: polymaker-fiberon-asa-cf08-dark-grey
+brand:
+  slug: polymaker
+name: Fiberon™ ASA-CF08 Dark Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#4d5e70ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 90
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-asa-cf08-dark-grey/polymaker-fiberon-asa-cf08-dark-grey-0-e81da0d5.jpg
+  type: unspecified

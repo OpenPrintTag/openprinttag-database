@@ -105,6 +105,7 @@ export async function buildIndex(): Promise<SearchResult[]> {
         brandSlug,
         brandName: brandNameMap.get(brandSlug),
         materialType: material.type,
+        entityClass: material.class,
         color: material.primary_color?.color_rgba,
         score: 0,
       });
@@ -123,6 +124,7 @@ export async function buildIndex(): Promise<SearchResult[]> {
         name: pkg.slug?.replace(/-/g, ' ') || pkg.gtin || 'Unknown Package',
         brandSlug,
         brandName: brandNameMap.get(brandSlug),
+        entityClass: pkg.class,
         score: 0,
       });
     }
@@ -137,6 +139,7 @@ export async function buildIndex(): Promise<SearchResult[]> {
         type: 'container',
         slug: container.slug || container.__file?.replace(/\.ya?ml$/i, ''),
         name: container.name || container.slug,
+        entityClass: container.class,
         score: 0,
       });
     }

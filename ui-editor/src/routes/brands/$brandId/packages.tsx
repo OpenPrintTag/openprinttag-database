@@ -4,6 +4,7 @@ import { ChevronRight, Package, Palette, Plus } from 'lucide-react';
 import { Badge } from '~/components/ui';
 import { useBrandContext } from '~/context/EntityContexts';
 import { CardGridSkeleton } from '~/shared/components/CardSkeleton';
+import { classBadgeStyle } from '~/utils/classBadge';
 import { getOS } from '~/utils/os';
 import { READ_ONLY } from '~/utils/readOnly';
 
@@ -72,9 +73,18 @@ function PackagesLayout() {
                 className="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition-all hover:border-orange-300 hover:shadow-md"
               >
                 <div className="p-5 pb-2">
-                  <h3 className="line-clamp-1 text-lg font-semibold text-gray-900 group-hover:text-orange-600">
-                    {pkg.name}
-                  </h3>
+                  <div className="flex items-start justify-between">
+                    <h3 className="line-clamp-1 text-lg font-semibold text-gray-900 group-hover:text-orange-600">
+                      {pkg.name}
+                    </h3>
+                    {pkg.class && (
+                      <Badge
+                        className={classBadgeStyle(pkg.class, 'ml-2 shrink-0')}
+                      >
+                        {pkg.class}
+                      </Badge>
+                    )}
+                  </div>
                   {pkg.slug && (
                     <p className="mt-1 font-mono text-xs text-gray-500">
                       {pkg.slug}

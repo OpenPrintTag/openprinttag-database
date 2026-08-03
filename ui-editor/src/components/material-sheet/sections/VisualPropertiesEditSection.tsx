@@ -1,5 +1,6 @@
 import { EntityFields } from '~/components/fieldTypes';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { useClassFields } from '~/hooks/useClassFields';
 
 import type { Material } from '../types';
 
@@ -16,6 +17,8 @@ export const VisualPropertiesEditSection = ({
   onFieldChange,
   brandId,
 }: VisualPropertiesEditSectionProps) => {
+  const filteredFields = useClassFields(fields, form?.class);
+
   if (!fields) return null;
 
   return (
@@ -29,12 +32,12 @@ export const VisualPropertiesEditSection = ({
             'transmission_distance',
             'refractive_index',
           ].map((key) => {
-            if (!fields[key]) return null;
+            if (!filteredFields?.[key]) return null;
             return (
               <FieldEditor
                 key={key}
                 label={key}
-                field={fields[key] as SchemaField}
+                field={filteredFields[key] as SchemaField}
                 value={form?.[key]}
                 onChange={(val) => onFieldChange(key, val)}
                 brandId={brandId}
