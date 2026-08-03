@@ -1,0 +1,21 @@
+uuid: 5bb56556-c6fb-57a6-b302-52197db1c468
+slug: voolt3d-pla-marrom-cappuccino-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Marrom Cappuccino High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e5b7a0ff'
+tags:
+- high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-marrom-cappuccino-high-speed-premium/voolt3d-pla-marrom-cappuccino-high-speed-premium-0-7a4a6255.jpg
+  type: unspecified

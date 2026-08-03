@@ -1,6 +1,7 @@
 import { memo, useCallback } from 'react';
 
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { useClassFields } from '~/hooks/useClassFields';
 import { SchemaData } from '~/hooks/useSchema';
 import { extractFieldValue } from '~/utils/field';
 
@@ -61,6 +62,7 @@ export const PackageSheetEditView = ({
   brandId,
   onFieldChange,
 }: PackageSheetEditViewProps) => {
+  const filteredFields = useClassFields(fields ?? undefined, form?.class);
   return (
     <div className="my-6 space-y-6">
       {!schema && (
@@ -71,7 +73,7 @@ export const PackageSheetEditView = ({
           <div className="card-header">Package Information</div>
           <div className="card-body">
             <div className="grid gap-4 sm:grid-cols-2">
-              {Object.entries(fields).map(([key, field]) => {
+              {Object.entries(filteredFields || {}).map(([key, field]) => {
                 const isReadonlySlug = key === 'slug' && field.type === 'slug';
                 const isUuid = key === 'uuid';
 
