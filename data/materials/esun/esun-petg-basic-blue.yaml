@@ -8,9 +8,9 @@ type: PETG
 abbreviation: PETG
 url: https://esun3dstoreeu.com/products/petg-basic?VariantsId=12702
 primary_color:
-  color_rgba: '#00358eff'
+  color_rgba: '#1b3b99ff'
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-basic-blue/esun-petg-basic-blue-0-79ea4a2a.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-basic-blue/esun-petg-basic-blue-0-79ea4a2a.jpg
+    type: unspecified

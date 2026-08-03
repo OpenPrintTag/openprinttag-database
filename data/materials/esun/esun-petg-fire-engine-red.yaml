@@ -8,9 +8,9 @@ type: PETG
 abbreviation: PETG
 url: https://esun3dstoreeu.com/products/petg?VariantsId=12127
 primary_color:
-  color_rgba: '#d21b31ff'
+  color_rgba: '#d02f37ff'
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-fire-engine-red/esun-petg-fire-engine-red-0-636a863f.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-fire-engine-red/esun-petg-fire-engine-red-0-636a863f.jpg
+    type: unspecified

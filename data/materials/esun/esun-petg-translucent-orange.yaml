@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/petg?VariantsId=12877
 primary_color:
   color_rgba: '#fe5000ff'
 tags:
-- translucent
+  - translucent
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-translucent-orange/esun-petg-translucent-orange-0-d8ab0246.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-translucent-orange/esun-petg-translucent-orange-0-d8ab0246.jpg
+    type: unspecified

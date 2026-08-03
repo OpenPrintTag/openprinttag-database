@@ -12,5 +12,5 @@ primary_color:
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-solid-gold/esun-petg-solid-gold-0-e9ba734d.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-solid-gold/esun-petg-solid-gold-0-e9ba734d.jpg
+    type: unspecified

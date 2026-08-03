@@ -12,5 +12,5 @@ primary_color:
 properties:
   density: 1.27
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-basic-white/esun-petg-basic-white-0-c55e51e9.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-basic-white/esun-petg-basic-white-0-c55e51e9.jpg
+    type: unspecified
