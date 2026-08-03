@@ -1,0 +1,21 @@
+uuid: 8d7add78-9920-546f-9931-8d301cd765d7
+slug: voolt3d-petg-hf-preto-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Preto High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-hf-preto-high-fluidity-premium/voolt3d-petg-hf-preto-high-fluidity-premium-0-20b876ea.jpg
+  type: unspecified
