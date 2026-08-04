@@ -1,0 +1,22 @@
+uuid: 1541e47f-5803-5bbc-9269-ee5e9d36ca7b
+slug: voolt3d-pla-tabaco-wood-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Tabaco Wood High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b87f6aff'
+tags:
+- high_speed
+- contains_wood
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-tabaco-wood-high-speed-premium/voolt3d-pla-tabaco-wood-high-speed-premium-0-8ed5da3e.jpg
+  type: unspecified
