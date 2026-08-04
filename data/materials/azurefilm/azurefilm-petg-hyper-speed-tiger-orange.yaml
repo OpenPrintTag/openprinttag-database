@@ -11,7 +11,12 @@ primary_color:
   color_rgba: '#ff351eff'
 tags:
 - high_speed
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90
 photos:
 - url: https://files.openprinttag.org/azurefilm/azurefilm-petg-hyper-speed-tiger-orange/azurefilm-petg-hyper-speed-tiger-orange-0-29284ed9.jpg
   type: unspecified

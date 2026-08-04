@@ -1,0 +1,21 @@
+uuid: 0710abfd-cab5-5387-9638-948319f56526
+slug: r3d-pla-high-speed-matte-white
+brand:
+  slug: r3d
+name: PLA High-Speed Matte White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2dedbff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-white/r3d-pla-high-speed-matte-white-0-ca8f5411.jpg
+  type: unspecified

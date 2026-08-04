@@ -1,0 +1,21 @@
+uuid: 74bd9458-1161-5ec7-bba8-3cfeb36f043c
+slug: r3d-pla-high-speed-matte-lilac-purple
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Lilac Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d587c8ff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-lilac-purple/r3d-pla-high-speed-matte-lilac-purple-0-a0f625ea.jpg
+  type: unspecified
