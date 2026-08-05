@@ -15,6 +15,12 @@ tags:
   - filtration_recommended
 properties:
   density: 1.06
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 480
 photos:
   - url: /tmp/assets/esun-abs-cf-dark-green-0-c44418b1.jpg
     type: unspecified

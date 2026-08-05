@@ -13,6 +13,10 @@ tags:
   - filtration_recommended
 properties:
   density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
 photos:
   - url: https://files.openprinttag.org/esun/esun-abs-orange/esun-abs-orange-0-c6f883f5.jpg
     type: unspecified

@@ -13,6 +13,10 @@ tags:
   - filtration_recommended
 properties:
   density: 1.06
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
 photos:
   - url: https://files.openprinttag.org/esun/esun-asa-red/esun-asa-red-0-67a94da1.jpg
     type: unspecified
