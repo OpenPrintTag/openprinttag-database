@@ -13,6 +13,10 @@ tags:
   - filtration_recommended
 properties:
   density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
 photos:
   - url: /tmp/assets/esun-abs-hs-cold-white-0-d4bb2f52.jpg
     type: unspecified

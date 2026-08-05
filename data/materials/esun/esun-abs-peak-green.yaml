@@ -6,12 +6,16 @@ name: ABS+ Peak Green
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://www.amazon.com/eSUN-Filament-Dimensional-Accuracy-Printing/dp/B07FQCQ17Y
 primary_color:
   color_rgba: '#58c91bff'
 tags:
   - filtration_recommended
-properties: {}
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
 photos:
   - url: https://files.openprinttag.org/esun/esun-abs-peak-green/ffc04bc2dc57.jpg
     type: unspecified
