@@ -1,0 +1,22 @@
+uuid: 1fd9d8aa-f2c3-5c93-b337-b35fd43c54fa
+slug: r3d-pla-magic-silk-winter
+brand:
+  slug: r3d
+name: PLA Magic Silk Winter
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f6f3f7ff'
+- color_rgba: '#b585b3ff'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-magic-silk-winter/r3d-pla-magic-silk-winter-0-223b615c.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: 797b5edc-8373-5ae9-9dbf-0cd40d07b89b
+slug: r3d-abs-yellow
+brand:
+  slug: r3d
+name: ABS+ Yellow
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#eeea44ff'
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-abs-yellow/r3d-abs-yellow-0-825fe5e0.jpg
+  type: unspecified

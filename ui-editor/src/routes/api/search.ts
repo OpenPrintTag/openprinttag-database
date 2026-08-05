@@ -32,12 +32,18 @@ export const Route = createFileRoute('/api/search')({
         const brand = url.searchParams.get('brand') || undefined;
         const limit = parseInt(url.searchParams.get('limit') || '50', 10);
 
+        const entityClass = url.searchParams.get('entityClass') as
+          | 'FFF'
+          | 'SLA'
+          | null;
+
         const filters: SearchFilters = {
           types: typesParam
             ? (typesParam.split(',') as SearchResultType[])
             : undefined,
           materialType,
           brand,
+          entityClass: entityClass || undefined,
         };
 
         try {

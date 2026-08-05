@@ -1,0 +1,20 @@
+uuid: 9b547245-2e2f-5892-8bde-a6777970afdd
+slug: r3d-petg-high-speed-black
+brand:
+  slug: r3d
+name: PETG High-Speed Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#232323ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-petg-high-speed-black/r3d-petg-high-speed-black-0-7eab7223.jpg
+  type: unspecified

@@ -1,5 +1,6 @@
 import type { EntityFields } from '~/components/fieldTypes';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { useClassFields } from '~/hooks/useClassFields';
 
 import type { Material } from '../types';
 
@@ -37,9 +38,11 @@ export const AdditionalInformationEditSection = ({
   onFieldChange,
   brandId,
 }: AdditionalInformationEditSectionProps) => {
-  if (!fields) return null;
+  const filteredFields = useClassFields(fields, form?.class);
 
-  const hasAdditionalFields = Object.entries(fields).some(
+  if (!filteredFields) return null;
+
+  const hasAdditionalFields = Object.entries(filteredFields).some(
     ([key]) => !EXCLUDED_FIELDS.includes(key),
   );
 
@@ -50,7 +53,7 @@ export const AdditionalInformationEditSection = ({
       <div className="card-header">Additional Information</div>
       <div className="card-body">
         <div className="grid gap-4 sm:grid-cols-2">
-          {Object.entries(fields).map(([key, field]) => {
+          {Object.entries(filteredFields).map(([key, field]) => {
             if (EXCLUDED_FIELDS.includes(key)) return null;
 
             return (
