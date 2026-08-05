@@ -1,0 +1,21 @@
+uuid: 00afc088-4e29-56f8-9259-765fc975b77e
+slug: esun-abs-pro-black
+brand:
+  slug: esun
+name: ABS+ Black
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-black/33baef62d3ba.jpg
+    type: unspecified
