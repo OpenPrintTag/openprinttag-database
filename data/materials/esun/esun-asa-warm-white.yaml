@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/easa?VariantsId=12735
 primary_color:
   color_rgba: '#e9e9e7ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties:
   density: 1.06
 photos:
-- url: https://files.openprinttag.org/esun/esun-asa-warm-white/esun-asa-warm-white-0-6ee5b834.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-asa-warm-white/esun-asa-warm-white-0-6ee5b834.jpg
+    type: unspecified
