@@ -1,0 +1,20 @@
+uuid: ce279d6b-3608-5785-bbac-b66770de10c9
+slug: esun-tpe-83a-black
+brand:
+  slug: esun
+name: TPE 83A Black
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.14
+  hardness_shore_a: 83.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-tpe-83a-black-0-67604fab.jpg
+    type: unspecified
