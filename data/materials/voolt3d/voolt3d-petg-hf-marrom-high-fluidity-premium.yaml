@@ -1,0 +1,21 @@
+uuid: dd565ed3-43f3-51c2-a8d0-867fb6bf85b7
+slug: voolt3d-petg-hf-marrom-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Marrom High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#6d342dff'
+tags:
+- high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-hf-marrom-high-fluidity-premium/voolt3d-petg-hf-marrom-high-fluidity-premium-0-ae187466.jpg
+  type: unspecified

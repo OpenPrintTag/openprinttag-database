@@ -1,0 +1,23 @@
+uuid: e82504c0-052e-5fa6-a331-8fb80e1daa6e
+slug: voolt3d-pla-duo-color-shadow-dourado-com-ametista-v-silk
+brand:
+  slug: voolt3d
+name: PLA Duo Color Shadow Dourado com Ametista V-Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#d91ac3ff'
+- color_rgba: '#eed230ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-duo-color-shadow-dourado-com-ametista-v-silk/voolt3d-pla-duo-color-shadow-dourado-com-ametista-v-silk-0-99079c65.jpg
+  type: unspecified
