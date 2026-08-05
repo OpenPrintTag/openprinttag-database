@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/easa?VariantsId=12736
 primary_color:
   color_rgba: '#7d8eaaff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties:
   density: 1.06
 photos:
-- url: https://files.openprinttag.org/esun/esun-asa-grey/esun-asa-grey-0-38a24cc8.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-asa-grey/esun-asa-grey-0-38a24cc8.jpg
+    type: unspecified

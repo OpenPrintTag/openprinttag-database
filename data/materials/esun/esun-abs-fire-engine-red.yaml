@@ -10,9 +10,9 @@ url: https://esun3dstoreeu.com/products/abs-pro?VariantsId=12521
 primary_color:
   color_rgba: '#d02f37ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties:
   density: 1.06
 photos:
-- url: https://files.openprinttag.org/esun/esun-abs-fire-engine-red/esun-abs-fire-engine-red-0-e4f0e685.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-abs-fire-engine-red/esun-abs-fire-engine-red-0-e4f0e685.jpg
+    type: unspecified
