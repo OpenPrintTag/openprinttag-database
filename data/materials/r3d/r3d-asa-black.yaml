@@ -1,0 +1,20 @@
+uuid: bb2961e3-8529-5094-9bbf-46401f7813ca
+slug: r3d-asa-black
+brand:
+  slug: r3d
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#141414ff'
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 285
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-asa-black/r3d-asa-black-0-55ef4eb3.jpg
+  type: unspecified

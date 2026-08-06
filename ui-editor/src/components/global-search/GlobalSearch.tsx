@@ -74,6 +74,9 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
           if (currentFilters.brand) {
             params.set('brand', currentFilters.brand);
           }
+          if (currentFilters.entityClass) {
+            params.set('entityClass', currentFilters.entityClass);
+          }
           const res = await fetch(`/api/search?${params}`);
           data = (await res.json()) as SearchResponse;
         }
@@ -138,17 +141,22 @@ export function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
     [navigate, onClose],
   );
 
-  const hasFilters = (filters.types?.length ?? 0) > 0 || !!filters.brand;
+  const hasFilters =
+    (filters.types?.length ?? 0) > 0 ||
+    !!filters.brand ||
+    !!filters.entityClass;
 
   const handleInputKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
       if (
         e.key === 'Backspace' &&
         !query &&
-        (filters.types?.length || filters.brand)
+        (filters.types?.length || filters.brand || filters.entityClass)
       ) {
         e.preventDefault();
-        if (filters.brand) {
+        if (filters.entityClass) {
+          setFilters((prev) => ({ ...prev, entityClass: undefined }));
+        } else if (filters.brand) {
           setFilters((prev) => ({ ...prev, brand: undefined }));
         } else if (filters.types?.length) {
           setFilters((prev) => ({
