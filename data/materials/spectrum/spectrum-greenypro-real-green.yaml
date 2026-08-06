@@ -4,9 +4,17 @@ brand:
   slug: spectrum
 name: GreenyPro Real Green
 class: FFF
-abbreviation: Greeny
+abbreviation: GREENYP
 url: https://spectrumfilaments.com/en/filament/greenypro/
 primary_color:
-  color_rgba: '#26a648ff'
+  color_rgba: '#00935cff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+  - high_temperature
+photos:
+  - url: /tmp/assets/spectrum-greenypro-real-green-0-266fdd5a.jpg
+    type: unspecified

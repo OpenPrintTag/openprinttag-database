@@ -10,7 +10,13 @@ url: https://spectrumfilaments.com/en/filament/huracan-pla/
 primary_color:
   color_rgba: '#3f4647ff'
 tags:
-- silk
-- industrially_compostable
+  - silk
+  - industrially_compostable
 properties:
-  density: 1.23
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-huracan-pla-anthracite-grey-0-3850b528.jpg
+    type: unspecified

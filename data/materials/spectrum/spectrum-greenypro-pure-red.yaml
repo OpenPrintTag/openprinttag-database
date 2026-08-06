@@ -4,9 +4,17 @@ brand:
   slug: spectrum
 name: GreenyPro Pure Red
 class: FFF
-abbreviation: Greeny
+abbreviation: GREENYP
 url: https://spectrumfilaments.com/en/filament/greenypro/
 primary_color:
-  color_rgba: '#ec0000ff'
+  color_rgba: '#d02f37ff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+  - high_temperature
+photos:
+  - url: /tmp/assets/spectrum-greenypro-pure-red-0-2ecdd88b.jpg
+    type: unspecified

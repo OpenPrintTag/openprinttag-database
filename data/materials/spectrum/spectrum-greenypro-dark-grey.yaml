@@ -4,9 +4,17 @@ brand:
   slug: spectrum
 name: GreenyPro Dark Grey
 class: FFF
-abbreviation: Greeny
+abbreviation: GREENYP
 url: https://spectrumfilaments.com/en/filament/greenypro/
 primary_color:
-  color_rgba: '#5a696cff'
+  color_rgba: '#4e5658ff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+  - high_temperature
+photos:
+  - url: /tmp/assets/spectrum-greenypro-dark-grey-0-b954e496.jpg
+    type: unspecified

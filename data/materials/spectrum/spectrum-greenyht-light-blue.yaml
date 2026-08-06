@@ -1,0 +1,19 @@
+uuid: bd118695-7fbc-5114-b541-9084800f60a1
+slug: spectrum-greenyht-light-blue
+brand:
+  slug: spectrum
+name: GreenyHT™ Light Blue
+class: FFF
+abbreviation: GREENYH
+primary_color:
+  color_rgba: '#008dc3ff'
+tags:
+  - high_temperature
+properties:
+  density: 1.54
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-greenyht-light-blue-0-01865cc8.jpg
+    type: unspecified
