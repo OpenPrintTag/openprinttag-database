@@ -1,0 +1,20 @@
+uuid: 869d44a9-849a-537c-ac4b-fdd8d89fb124
+slug: spectrum-pla-esd-power-tool-turquoise
+brand:
+  slug: spectrum
+name: PLA ESD Power Tool Turquoise
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#178b9fff'
+tags:
+  - esd_safe
+properties:
+  density: 1.16
+  min_print_temperature: 185
+  max_print_temperature: 230
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-pla-esd-power-tool-turquoise-0-4cf7a33b.jpg
+    type: unspecified

@@ -1,0 +1,20 @@
+uuid: 8e5dd35f-341e-5ba8-9cd9-6a548a561df4
+slug: spectrum-pla-esd-power-tool-dark-green
+brand:
+  slug: spectrum
+name: PLA ESD Power Tool Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#06402bff'
+tags:
+  - esd_safe
+properties:
+  density: 1.16
+  min_print_temperature: 185
+  max_print_temperature: 230
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-pla-esd-power-tool-dark-green-0-37ef429a.jpg
+    type: unspecified

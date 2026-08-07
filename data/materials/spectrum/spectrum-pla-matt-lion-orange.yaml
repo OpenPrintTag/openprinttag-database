@@ -6,11 +6,15 @@ name: PLA MATT Lion Orange
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-matt/
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
-- matte
-- industrially_compostable
+  - matte
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-matt-lion-orange-0-a8985a91.jpg
+    type: unspecified

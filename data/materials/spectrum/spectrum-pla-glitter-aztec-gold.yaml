@@ -6,12 +6,15 @@ name: PLA Glitter Aztec Gold
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-glitter/
 primary_color:
-  color_rgba: '#bca463ff'
+  color_rgba: '#bab3a1ff'
 tags:
-- silk
-- glitter
-- industrially_compostable
+  - glitter
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-glitter-aztec-gold-0-b4fa75af.jpg
+    type: unspecified

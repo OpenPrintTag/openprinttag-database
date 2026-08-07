@@ -6,12 +6,19 @@ name: PLA Metal Brass
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-metal-brass/
 primary_color:
   color_rgba: '#998d58ff'
 tags:
-- contains_brass
-- abrasive
-- industrially_compostable
+  - imitates_metal
+  - contains_brass
+  - abrasive
+  - contains_metal
 properties:
-  density: 1.22
+  density: 2.33
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-pla-metal-brass-0-938ff0e6.jpg
+    type: unspecified
