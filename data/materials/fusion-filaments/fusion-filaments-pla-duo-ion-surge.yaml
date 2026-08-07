@@ -1,0 +1,19 @@
+uuid: a3435841-408a-5c05-9692-8ab0371ba8c0
+slug: fusion-filaments-pla-duo-ion-surge
+brand:
+  slug: fusion-filaments
+name: PLA Duo Ion Surge
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#7b716eff'
+  - color_rgba: '#00f03cff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

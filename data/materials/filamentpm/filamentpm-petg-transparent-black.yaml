@@ -9,8 +9,13 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-petg-transparent-black/50ad829f5387.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-transparent-black/50ad829f5387.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 90
