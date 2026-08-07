@@ -1,0 +1,21 @@
+uuid: f337e56d-11e5-51fe-b412-802888aa1c78
+slug: r3d-pla-high-speed-matte-terracotta
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Terracotta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a56362ff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-terracotta/r3d-pla-high-speed-matte-terracotta-0-ec78c9e1.jpg
+  type: unspecified

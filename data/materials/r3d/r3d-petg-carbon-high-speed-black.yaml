@@ -1,0 +1,23 @@
+uuid: 9bd6f5a8-1683-56ec-96fe-9a17c790f857
+slug: r3d-petg-carbon-high-speed-black
+brand:
+  slug: r3d
+name: PETG Carbon High-Speed Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#161619ff'
+tags:
+- high_speed
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-petg-carbon-high-speed-black/r3d-petg-carbon-high-speed-black-0-b100ea9d.jpg
+  type: unspecified

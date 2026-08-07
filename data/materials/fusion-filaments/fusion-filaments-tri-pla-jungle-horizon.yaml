@@ -1,0 +1,20 @@
+uuid: 8d0db0d5-7d8b-59ec-8586-b87e9d6f515b
+slug: fusion-filaments-tri-pla-jungle-horizon
+brand:
+  slug: fusion-filaments
+name: Tri-PLA Jungle Horizon
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#2c3294ff'
+  - color_rgba: '#38b837ff'
+  - color_rgba: '#ff9725ff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
