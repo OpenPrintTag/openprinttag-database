@@ -1,0 +1,24 @@
+uuid: 68416d89-25e6-5990-8a7e-c91346b4d3b7
+slug: esun-pla-pro-olive-green
+brand:
+  slug: esun
+name: PLA+ Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13369
+primary_color:
+  color_rgba: '#757d65ff'
+tags:
+  - industrially_compostable
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-olive-green/esun-pla-olive-green-0-8d3305b9.jpg
+    type: unspecified
