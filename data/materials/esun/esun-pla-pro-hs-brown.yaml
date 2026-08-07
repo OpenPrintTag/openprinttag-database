@@ -1,0 +1,20 @@
+uuid: 70b25954-3474-5f52-89a3-69519ffae7a1
+slug: esun-pla-pro-hs-brown
+brand:
+  slug: esun
+name: PLA+HS Brown
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#926043ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-hs-brown-0-96fa3130.jpg
+    type: unspecified

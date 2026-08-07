@@ -1,0 +1,25 @@
+uuid: 0aa6cc4e-9524-5954-bddf-36fa1c41dab7
+slug: esun-pla-silk-rainbow-dragon-palace
+brand:
+  slug: esun
+name: PLA Silk Rainbow Dragon Palace
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#5cadbfff'
+  - color_rgba: '#ed9558ff'
+  - color_rgba: '#f4da78ff'
+  - color_rgba: '#f45d6dff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.21
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-silk-rainbow-dragon-palace-0-848c935c.jpg
+    type: unspecified

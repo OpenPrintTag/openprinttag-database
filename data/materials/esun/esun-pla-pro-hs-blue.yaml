@@ -1,0 +1,20 @@
+uuid: 29f0c0e2-23d7-58bd-8489-af7297d4f8b8
+slug: esun-pla-pro-hs-blue
+brand:
+  slug: esun
+name: PLA+HS Blue
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#2e56f1ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-hs-blue-0-e55f3da4.jpg
+    type: unspecified

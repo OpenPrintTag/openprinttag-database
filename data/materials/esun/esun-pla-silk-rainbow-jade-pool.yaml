@@ -1,0 +1,25 @@
+uuid: 623cf992-9746-529a-a7ec-19ce59dec055
+slug: esun-pla-silk-rainbow-jade-pool
+brand:
+  slug: esun
+name: PLA Silk Rainbow Jade Pool
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f87fb5ff'
+  - color_rgba: '#8997c4ff'
+  - color_rgba: '#f5ec97ff'
+  - color_rgba: '#96d8afff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.21
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-silk-rainbow-jade-pool-0-0cc484b1.jpg
+    type: unspecified

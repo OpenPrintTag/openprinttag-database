@@ -1,0 +1,24 @@
+uuid: c57eea58-49d4-597a-8131-d08fa93b443f
+slug: esun-pla-cf-green
+brand:
+  slug: esun
+name: PLA-CF Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#283333ff'
+tags:
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-cf-green-0-8de3e537.jpg
+    type: unspecified

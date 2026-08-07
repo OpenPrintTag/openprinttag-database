@@ -1,0 +1,20 @@
+uuid: ea3886ad-3adb-5d67-bb27-10cfb9ddefd7
+slug: esun-pla-pro-hs-black
+brand:
+  slug: esun
+name: PLA+HS Black
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-hs-black-0-dfdc9234.jpg
+    type: unspecified

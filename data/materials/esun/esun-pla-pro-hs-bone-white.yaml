@@ -1,0 +1,20 @@
+uuid: 42d05201-fe7e-52f6-9cf5-77ec1cb4a3bb
+slug: esun-pla-pro-hs-bone-white
+brand:
+  slug: esun
+name: PLA+HS Bone White
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#eadac2ff'
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-hs-bone-white-0-a2fedf2f.jpg
+    type: unspecified

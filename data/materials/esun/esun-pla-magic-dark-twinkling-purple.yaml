@@ -1,0 +1,21 @@
+uuid: 854989a1-b798-5ea0-8ee2-e5da209728a9
+slug: esun-pla-magic-dark-twinkling-purple
+brand:
+  slug: esun
+name: PLA Magic Dark Twinkling Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#771b6bff'
+tags:
+  - iridescent
+  - glitter
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 45
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/esun-pla-magic-dark-twinkling-purple-0-c9564e70.jpg
+    type: unspecified

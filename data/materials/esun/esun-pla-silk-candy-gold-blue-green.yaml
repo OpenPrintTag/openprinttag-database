@@ -1,0 +1,23 @@
+uuid: 3902c598-3753-516f-a84e-8223761c3de8
+slug: esun-pla-silk-candy-gold-blue-green
+brand:
+  slug: esun
+name: PLA Silk Candy Gold Blue Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f6c500ff'
+  - color_rgba: '#0078bfff'
+  - color_rgba: '#06b100ff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-silk-candy-gold-blue-green-0-809672f0.jpg
+    type: unspecified
