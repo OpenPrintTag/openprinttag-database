@@ -10,8 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 primary_color:
   color_rgba: '#6ac4cdff'
 tags:
-- transparent
-- industrially_compostable
-- high_speed
+  - high_speed
+  - translucent
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-high-speed-iceland-blue-0-9362d005.jpg
+    type: unspecified

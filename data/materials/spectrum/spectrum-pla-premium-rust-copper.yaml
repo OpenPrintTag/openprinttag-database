@@ -1,0 +1,18 @@
+uuid: 72933f94-6376-59f1-8beb-f0c1a4388852
+slug: spectrum-pla-premium-rust-copper
+brand:
+  slug: spectrum
+name: PLA Premium Rust Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#af784dff'
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-premium-rust-copper-0-3045d80c.jpg
+    type: unspecified

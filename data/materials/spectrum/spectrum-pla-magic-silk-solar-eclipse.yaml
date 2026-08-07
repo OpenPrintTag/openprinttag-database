@@ -1,0 +1,23 @@
+uuid: b01ba1fc-c3bf-5c48-a327-1c16db01a72b
+slug: spectrum-pla-magic-silk-solar-eclipse
+brand:
+  slug: spectrum
+name: PLA Magic SILK Solar Eclipse
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#020203ff'
+  - color_rgba: '#f0c940ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-magic-silk-solar-eclipse-0-11435694.jpg
+    type: unspecified

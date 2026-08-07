@@ -10,7 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 primary_color:
   color_rgba: '#efefefff'
 tags:
-- industrially_compostable
-- high_speed
+  - high_speed
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-high-speed-signal-white-0-c396aa17.jpg
+    type: unspecified

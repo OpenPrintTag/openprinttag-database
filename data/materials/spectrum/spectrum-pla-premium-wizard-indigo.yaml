@@ -8,10 +8,17 @@ type: PLA
 abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-premium/
 secondary_colors:
-- color_rgba: '#253f56ff'
-- color_rgba: '#90903bff'
+  - color_rgba: '#253f56ff'
+  - color_rgba: '#90903bff'
 tags:
-- iridescent
-- industrially_compostable
+  - iridescent
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+primary_color:
+  color_rgba: '#253f56ff'
+photos:
+  - url: /tmp/assets/spectrum-pla-premium-wizard-indigo-0-0b5f1cb9.jpg
+    type: unspecified

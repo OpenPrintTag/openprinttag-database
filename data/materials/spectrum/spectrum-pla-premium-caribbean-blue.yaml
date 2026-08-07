@@ -10,6 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
   color_rgba: '#178b9fff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-premium-caribbean-blue-0-745b2538.jpg
+    type: unspecified

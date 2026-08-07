@@ -1,0 +1,18 @@
+uuid: 669c802c-1dff-58e2-9503-728631e053fd
+slug: spectrum-pla-premium-light-grey
+brand:
+  slug: spectrum
+name: PLA Premium Light Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ccccccff'
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-premium-light-grey-0-643513f1.jpg
+    type: unspecified

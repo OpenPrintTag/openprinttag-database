@@ -10,7 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-stone/
 primary_color:
   color_rgba: '#e3e0d3ff'
 tags:
-- imitates_stone
-- industrially_compostable
+  - imitates_stone
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-stone-age-ace-light-0-5bd76c19.jpg
+    type: unspecified

@@ -10,8 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-crystal/
 primary_color:
   color_rgba: '#0099e6ff'
 tags:
-- silk
-- industrially_compostable
-- translucent
+  - translucent
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-crystal-blue-horizon-0-a59541d2.jpg
+    type: unspecified
