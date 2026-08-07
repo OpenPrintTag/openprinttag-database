@@ -6,11 +6,15 @@ name: PLA Stone Age™ Dark
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-stone/
 primary_color:
   color_rgba: '#a2aaadff'
 tags:
-- imitates_stone
-- industrially_compostable
+  - imitates_stone
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-stone-age-dark-0-12d94220.jpg
+    type: unspecified

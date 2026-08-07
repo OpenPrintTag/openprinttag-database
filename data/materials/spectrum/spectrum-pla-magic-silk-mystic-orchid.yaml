@@ -1,0 +1,23 @@
+uuid: 52ff7a10-0d8d-56f6-8c9b-c84f1fff8d46
+slug: spectrum-pla-magic-silk-mystic-orchid
+brand:
+  slug: spectrum
+name: PLA Magic SILK Mystic Orchid
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#594ca5ff'
+  - color_rgba: '#02a76bff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-magic-silk-mystic-orchid-0-1067ae0b.jpg
+    type: unspecified

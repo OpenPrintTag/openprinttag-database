@@ -6,10 +6,15 @@ name: PLA Premium Forest Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
   color_rgba: '#3d9441ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-premium-forest-green-0-c3c8bd10.jpg
+    type: unspecified

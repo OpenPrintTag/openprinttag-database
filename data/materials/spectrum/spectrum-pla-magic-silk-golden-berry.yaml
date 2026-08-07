@@ -1,0 +1,23 @@
+uuid: 7be035bc-9cf2-5f5c-9c2a-8f1d4494e303
+slug: spectrum-pla-magic-silk-golden-berry
+brand:
+  slug: spectrum
+name: PLA Magic SILK Golden Berry
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e23288ff'
+  - color_rgba: '#e1ad60ff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-magic-silk-golden-berry-0-264106b4.jpg
+    type: unspecified

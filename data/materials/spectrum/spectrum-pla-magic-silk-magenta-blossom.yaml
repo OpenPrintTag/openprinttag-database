@@ -1,0 +1,23 @@
+uuid: d6aa7ce4-329e-5749-a03c-0dcaf6ac947c
+slug: spectrum-pla-magic-silk-magenta-blossom
+brand:
+  slug: spectrum
+name: PLA Magic SILK Magenta Blossom
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#ce0058ff'
+  - color_rgba: '#bfeb8cff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-magic-silk-magenta-blossom-0-504afa78.jpg
+    type: unspecified

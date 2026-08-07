@@ -6,10 +6,15 @@ name: PLA Premium Polar White
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
   color_rgba: '#efefefff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-premium-polar-white-0-55c658af.jpg
+    type: unspecified

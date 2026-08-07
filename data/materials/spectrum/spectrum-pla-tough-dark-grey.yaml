@@ -6,10 +6,15 @@ name: PLA Tough Dark Grey
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-tough/
 primary_color:
   color_rgba: '#5a696cff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.2
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-tough-dark-grey-0-75cd1b60.jpg
+    type: unspecified

@@ -6,12 +6,15 @@ name: PLA Crystal Electric Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-crystal/
 primary_color:
   color_rgba: '#fbf942ff'
 tags:
-- silk
-- industrially_compostable
-- translucent
+  - translucent
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-crystal-electric-yellow-0-acbd04cc.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: ca43fe4a-6e31-55a2-ade9-d5b5047e0b19
+slug: spectrum-pla-magic-silk-amber-leaf
+brand:
+  slug: spectrum
+name: PLA Magic SILK Amber Leaf
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e8ca51ff'
+  - color_rgba: '#4bb27aff'
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-magic-silk-amber-leaf-0-9da3db07.jpg
+    type: unspecified
