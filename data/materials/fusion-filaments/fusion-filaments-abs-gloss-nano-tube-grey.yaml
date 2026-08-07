@@ -1,0 +1,20 @@
+uuid: 2c1a8c5a-7176-5d28-b9aa-913a4eae94c7
+slug: fusion-filaments-abs-gloss-nano-tube-grey
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Nano Tube Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#79716fff'
+tags:
+  - silk
+  - filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-gloss-nano-tube-grey-0-32f26288.jpg
+    type: unspecified

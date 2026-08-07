@@ -1,0 +1,23 @@
+uuid: 5842e1c9-62dc-5a44-9b51-4c92811a79cf
+slug: fusion-filaments-htpet-cold-fusion-blue
+brand:
+  slug: fusion-filaments
+name: HTPET+ Cold Fusion Blue
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#40b6e4ff'
+tags:
+  - glitter
+  - high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-htpet-cold-fusion-blue-0-b252fd42.jpg
+    type: unspecified

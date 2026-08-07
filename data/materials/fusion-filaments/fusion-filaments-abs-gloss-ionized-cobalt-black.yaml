@@ -1,0 +1,20 @@
+uuid: dacb8a20-100a-5a2d-a6df-356ebb642800
+slug: fusion-filaments-abs-gloss-ionized-cobalt-black
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Ionized Cobalt Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#46383bff'
+tags:
+  - silk
+  - filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-gloss-ionized-cobalt-black-0-e3bdd62f.jpg
+    type: unspecified

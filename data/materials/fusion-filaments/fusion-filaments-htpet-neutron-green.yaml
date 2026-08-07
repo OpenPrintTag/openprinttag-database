@@ -1,0 +1,22 @@
+uuid: 932d028d-4dcb-5248-baa5-d4f7183ec40d
+slug: fusion-filaments-htpet-neutron-green
+brand:
+  slug: fusion-filaments
+name: HTPET+ Neutron Green
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#62e480ff'
+tags:
+  - high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-htpet-neutron-green-0-32a82866.jpg
+    type: unspecified

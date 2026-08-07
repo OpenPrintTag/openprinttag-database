@@ -1,0 +1,22 @@
+uuid: b06eb064-fc0f-5f1c-a772-e5ebfca3207b
+slug: fusion-filaments-asa-plutonic-purple
+brand:
+  slug: fusion-filaments
+name: ASA Plutonic Purple
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#8846aeff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-asa-plutonic-purple-0-15e827b5.jpg
+    type: unspecified

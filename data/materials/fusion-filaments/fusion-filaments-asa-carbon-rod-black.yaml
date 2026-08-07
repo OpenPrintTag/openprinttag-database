@@ -1,0 +1,22 @@
+uuid: aa2979ee-5326-594b-a281-93e0c553c459
+slug: fusion-filaments-asa-carbon-rod-black
+brand:
+  slug: fusion-filaments
+name: ASA Carbon Rod Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#545252ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-asa-carbon-rod-black-0-946fbb6a.jpg
+    type: unspecified

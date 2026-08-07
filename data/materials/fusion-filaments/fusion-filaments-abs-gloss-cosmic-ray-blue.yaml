@@ -1,0 +1,20 @@
+uuid: bb1878ff-4068-549e-8e0b-e219b9c632c7
+slug: fusion-filaments-abs-gloss-cosmic-ray-blue
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Cosmic Ray Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#4f03d7ff'
+tags:
+  - silk
+  - filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-gloss-cosmic-ray-blue-0-7fddb3c1.jpg
+    type: unspecified

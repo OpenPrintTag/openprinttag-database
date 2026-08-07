@@ -1,0 +1,24 @@
+uuid: fd9d6473-3830-5ea4-a3e1-5033a627b4a3
+slug: fusion-filaments-abs-matte-alpha-particle-orange
+brand:
+  slug: fusion-filaments
+name: ABS Matte Alpha Particle Orange
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fe5000ff'
+tags:
+  - glitter
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-matte-alpha-particle-orange-0-ba411ff2.jpg
+    type: unspecified

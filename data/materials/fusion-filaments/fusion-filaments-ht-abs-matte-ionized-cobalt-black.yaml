@@ -1,0 +1,24 @@
+uuid: 71b6a48d-f8c3-582e-8378-f9c75a85fb1d
+slug: fusion-filaments-ht-abs-matte-ionized-cobalt-black
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Ionized Cobalt Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#4b4f54ff'
+tags:
+  - glitter
+  - matte
+  - high_temperature
+  - filtration_recommended
+properties:
+  min_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-ht-abs-matte-ionized-cobalt-black-0-31e120a4.jpg
+    type: unspecified

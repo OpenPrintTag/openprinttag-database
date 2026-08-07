@@ -1,0 +1,22 @@
+uuid: 81356026-ceef-5bae-8409-82bc19aaa1ee
+slug: fusion-filaments-asa-mushroom-cloud-grey
+brand:
+  slug: fusion-filaments
+name: ASA Mushroom Cloud Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#afaeabff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-asa-mushroom-cloud-grey-0-3f60296d.jpg
+    type: unspecified

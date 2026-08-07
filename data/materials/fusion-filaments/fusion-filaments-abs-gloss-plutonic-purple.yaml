@@ -1,0 +1,20 @@
+uuid: 7671b96a-38b7-5df9-9c53-79779a89b430
+slug: fusion-filaments-abs-gloss-plutonic-purple
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Plutonic Purple
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#9901faff'
+tags:
+  - silk
+  - filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+  - url: /tmp/assets/fusion-filaments-abs-gloss-plutonic-purple-0-7432bde2.jpg
+    type: unspecified
