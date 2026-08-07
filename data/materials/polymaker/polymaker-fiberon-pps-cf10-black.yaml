@@ -5,13 +5,22 @@ brand:
 name: Fiberon™ PPS-CF10 Black
 class: FFF
 type: PPS
-abbreviation: PPS
+abbreviation: PPSCF
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#302e2fff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pps-cf10-black/8db2d1e7d7e2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-fiberon-pps-cf10-black/8db2d1e7d7e2.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 310
+  max_print_temperature: 350
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 100
+  drying_time: 600

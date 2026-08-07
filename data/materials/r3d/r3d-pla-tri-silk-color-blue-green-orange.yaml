@@ -1,0 +1,24 @@
+uuid: 1862630b-f67b-5968-8c10-eb89df47ff81
+slug: r3d-pla-tri-silk-color-blue-green-orange
+brand:
+  slug: r3d
+name: PLA Tri-Silk color Blue/Green/Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#dc6e38ff'
+- color_rgba: '#00935cff'
+- color_rgba: '#1b3b99ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-tri-silk-color-blue-green-orange/r3d-pla-tri-silk-color-blue-green-orange-0-5fb61056.jpg
+  type: unspecified

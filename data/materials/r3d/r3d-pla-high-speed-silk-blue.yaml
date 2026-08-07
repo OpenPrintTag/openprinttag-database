@@ -1,0 +1,21 @@
+uuid: 8978a601-c5da-5a9a-88bc-947e4ecde2d5
+slug: r3d-pla-high-speed-silk-blue
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#05a6c7ff'
+tags:
+- silk
+- high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-silk-blue/r3d-pla-high-speed-silk-blue-0-d3436937.jpg
+  type: unspecified

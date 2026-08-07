@@ -1,0 +1,20 @@
+uuid: 636c721a-5f35-5ad2-87a4-9af013dea084
+slug: polymaker-asa-army-green
+brand:
+  slug: polymaker
+name: ASA Army Green
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#5c5e31ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420
