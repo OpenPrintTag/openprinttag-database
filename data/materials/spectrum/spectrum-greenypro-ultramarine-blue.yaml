@@ -4,9 +4,16 @@ brand:
   slug: spectrum
 name: GreenyPro Ultramarine Blue
 class: FFF
-abbreviation: Greeny
-url: https://spectrumfilaments.com/en/filament/greenypro/
+abbreviation: BIO
 primary_color:
-  color_rgba: '#0266bbff'
+  color_rgba: '#005da4ff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+  - high_temperature
+photos:
+  - url: /tmp/assets/spectrum-greenypro-ultramarine-blue-0-e1ff10f5.jpg
+    type: unspecified

@@ -4,9 +4,16 @@ brand:
   slug: spectrum
 name: GreenyPro Light Gray
 class: FFF
-abbreviation: Greeny
-url: https://spectrumfilaments.com/en/filament/greenypro/
+abbreviation: BIO
 primary_color:
-  color_rgba: '#d6d7d8ff'
+  color_rgba: '#c5c5bfff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+  - high_temperature
+photos:
+  - url: /tmp/assets/spectrum-greenypro-light-gray-0-08920a4f.jpg
+    type: unspecified
