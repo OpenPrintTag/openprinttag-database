@@ -1,0 +1,21 @@
+uuid: 807614fc-f9de-574c-a221-47d41ce4df96
+slug: esun-abs-pro-grey
+brand:
+  slug: esun
+name: ABS+ Grey
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#7d8eaaff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-grey/esun-abs-grey-0-d4099583.jpg
+    type: unspecified

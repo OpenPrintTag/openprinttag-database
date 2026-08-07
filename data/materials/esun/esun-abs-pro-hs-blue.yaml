@@ -1,0 +1,22 @@
+uuid: ddf54284-dafc-52aa-9029-4b683ea42a7c
+slug: esun-abs-pro-hs-blue
+brand:
+  slug: esun
+name: ABS+HS Blue
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#0353baff'
+tags:
+  - high_speed
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/esun-abs-hs-blue-0-0ab935b2.jpg
+    type: unspecified
