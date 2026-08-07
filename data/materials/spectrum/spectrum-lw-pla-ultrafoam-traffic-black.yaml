@@ -10,6 +10,13 @@ url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- foaming
-- industrially_compostable
-properties: {}
+  - foaming
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-lw-pla-ultrafoam-traffic-black-0-ca96d658.jpg
+    type: unspecified

@@ -10,7 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-matt/
 primary_color:
   color_rgba: '#bbdb4bff'
 tags:
-- matte
-- industrially_compostable
+  - matte
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-matt-lime-green-0-801e1093.jpg
+    type: unspecified

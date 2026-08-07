@@ -10,8 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pla-flameguard/
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- silk
-- self_extinguishing
-- industrially_compostable
+  - self_extinguishing
 properties:
-  density: 1.22
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-flameguard-pla-deep-black-0-6345f07f.jpg
+    type: unspecified

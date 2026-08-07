@@ -8,11 +8,17 @@ type: PLA
 abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/pla-glow/
 secondary_colors:
-- color_rgba: '#70fa00ff'
-- color_rgba: '#dfdfd3ff'
+  - color_rgba: '#dfdfd3ff'
+  - color_rgba: '#70fa00ff'
 tags:
-- glow_in_the_dark
-- abrasive
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-glow-in-the-dark-yellow-green-0-bcad26ea.jpg
+    type: unspecified

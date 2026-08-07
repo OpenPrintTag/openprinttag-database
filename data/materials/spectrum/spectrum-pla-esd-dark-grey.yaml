@@ -1,0 +1,20 @@
+uuid: d84522e2-5040-5046-8f12-2d6be5e22b77
+slug: spectrum-pla-esd-dark-grey
+brand:
+  slug: spectrum
+name: PLA ESD Dark Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#52595dff'
+tags:
+  - esd_safe
+properties:
+  density: 1.16
+  min_print_temperature: 185
+  max_print_temperature: 230
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-pla-esd-dark-grey-0-0801efbe.jpg
+    type: unspecified

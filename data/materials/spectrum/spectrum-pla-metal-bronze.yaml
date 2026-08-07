@@ -10,9 +10,16 @@ url: https://spectrumfilaments.com/en/filament/pla-metal-bronze/
 primary_color:
   color_rgba: '#8c7354ff'
 tags:
-- contains_bronze
-- silk
-- abrasive
-- industrially_compostable
+  - contains_bronze
+  - abrasive
+  - contains_metal
+  - imitates_metal
 properties:
   density: 2.28
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-pla-metal-bronze-0-0e8ede50.jpg
+    type: unspecified
