@@ -1,16 +1,22 @@
-uuid: 156b4bd1-2944-5dc2-a7ee-58d753a2e845
+uuid: 8db0aabe-12dd-51ad-bf1e-f7d122c97eda
 slug: filamentpm-pla-black
 brand:
   slug: filamentpm
-name: PLA+ Black
+name: PLA - Black
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#3f4444ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-black/ca525637caa5.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-pla-black/ca525637caa5.png
+    type: unspecified
+properties:
+  density: 1.24
+  hardness_shore_d: 78.3
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 20
+  max_bed_temperature: 60

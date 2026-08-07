@@ -7,9 +7,16 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#16161aff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polyflex-tpu90-black/2d86a09995fe.png
-  type: unspecified
+  - url: https://files.openprinttag.org/polymaker/polymaker-polyflex-tpu90-black/2d86a09995fe.png
+    type: unspecified
 properties:
-  hardness_shore_a: 90
+  density: 1.21
+  hardness_shore_a: 90.0
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 70
+  drying_time: 480

@@ -1,0 +1,23 @@
+uuid: 74b64426-27c9-501e-83ee-469adf8f6b52
+slug: voolt3d-pla-duo-color-shadow-laranja-com-preto-v-silk
+brand:
+  slug: voolt3d
+name: PLA Duo Color Shadow Laranja com Preto V-Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff8400ff'
+- color_rgba: '#292824ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-duo-color-shadow-laranja-com-preto-v-silk/voolt3d-pla-duo-color-shadow-laranja-com-preto-v-silk-0-5b3b8b32.jpg
+  type: unspecified

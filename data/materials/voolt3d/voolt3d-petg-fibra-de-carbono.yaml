@@ -1,0 +1,23 @@
+uuid: da97043a-d899-55fc-90c8-498fd8f59f32
+slug: voolt3d-petg-fibra-de-carbono
+brand:
+  slug: voolt3d
+name: PETG Fibra de Carbono
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.25
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-fibra-de-carbono/voolt3d-petg-fibra-de-carbono-0-843ff33b.jpg
+  type: unspecified

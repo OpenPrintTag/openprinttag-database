@@ -1,0 +1,22 @@
+uuid: 1af03870-2f80-5bfe-a2a5-2a7236cc98fc
+slug: voolt3d-pla-azul-titanium-v-silk-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Azul Titanium V-Silk High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5b618fff'
+tags:
+- silk
+- high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-azul-titanium-v-silk-high-speed-premium/voolt3d-pla-azul-titanium-v-silk-high-speed-premium-0-8eda6064.jpg
+  type: unspecified
