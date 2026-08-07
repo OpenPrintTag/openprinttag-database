@@ -10,7 +10,7 @@ url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
 primary_color:
   color_rgba: '#5a696cff'
 tags:
-- foaming
+  - foaming
 properties:
   density: 1.24
   min_print_temperature: 190
@@ -18,5 +18,5 @@ properties:
   min_bed_temperature: 40
   max_bed_temperature: 50
 photos:
-- url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-dark-grey/spectrum-lw-pla-ultrafoam-dark-grey-0-46e9402c.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-dark-grey/spectrum-lw-pla-ultrafoam-dark-grey-0-46e9402c.jpg
+    type: unspecified

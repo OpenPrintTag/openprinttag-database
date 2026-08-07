@@ -10,6 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pastello-pla/
 primary_color:
   color_rgba: '#daecd8ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.3
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pastello-pla-coctail-green-0-147126ba.jpg
+    type: unspecified

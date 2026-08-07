@@ -10,7 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-matt/
 primary_color:
   color_rgba: '#fadb24ff'
 tags:
-- matte
-- industrially_compostable
+  - matte
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-matt-bahama-yellow-0-77d64359.jpg
+    type: unspecified

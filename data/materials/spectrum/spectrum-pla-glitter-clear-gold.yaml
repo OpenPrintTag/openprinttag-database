@@ -10,8 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-glitter/
 primary_color:
   color_rgba: '#d0bd93ff'
 tags:
-- silk
-- glitter
-- industrially_compostable
+  - glitter
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-glitter-clear-gold-0-09d56fdb.jpg
+    type: unspecified

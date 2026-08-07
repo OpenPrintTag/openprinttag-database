@@ -10,7 +10,12 @@ url: https://spectrumfilaments.com/en/filament/pla-matt/
 primary_color:
   color_rgba: '#727376ff'
 tags:
-- matte
-- industrially_compostable
+  - matte
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-matt-dark-grey-0-36f09104.jpg
+    type: unspecified

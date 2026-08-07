@@ -8,7 +8,7 @@ type: PLA
 abbreviation: PLA
 url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
 tags:
-- foaming
+  - foaming
 properties:
   density: 1.24
   min_print_temperature: 190
@@ -16,5 +16,5 @@ properties:
   min_bed_temperature: 40
   max_bed_temperature: 50
 photos:
-- url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-pure-red/spectrum-lw-pla-ultrafoam-pure-red-0-b9968b10.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-pure-red/spectrum-lw-pla-ultrafoam-pure-red-0-b9968b10.jpg
+    type: unspecified

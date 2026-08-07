@@ -10,7 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pla-nature/
 primary_color:
   color_rgba: '#efe8d8ff'
 tags:
-- contains_algae
-- industrially_compostable
+  - contains_algae
+  - contains_organic_material
 properties:
-  density: 1.25
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-nature-algae-0-1a70d19e.jpg
+    type: unspecified
