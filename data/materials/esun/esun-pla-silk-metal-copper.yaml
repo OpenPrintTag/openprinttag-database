@@ -1,0 +1,21 @@
+uuid: b249852b-d9ad-5deb-a41f-d5d5ac08d403
+slug: esun-pla-silk-metal-copper
+brand:
+  slug: esun
+name: PLA Silk Metal Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e87a27ff'
+tags:
+  - silk
+  - imitates_metal
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/esun-pla-silk-metal-copper-0-032408b2.jpg
+    type: unspecified
