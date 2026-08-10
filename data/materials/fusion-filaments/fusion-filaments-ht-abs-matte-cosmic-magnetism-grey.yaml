@@ -1,0 +1,24 @@
+uuid: 813fc53d-9e66-5fa7-b707-e966529f574e
+slug: fusion-filaments-ht-abs-matte-cosmic-magnetism-grey
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Cosmic Magnetism Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#b5a7aaff'
+tags:
+- glitter
+- matte
+- high_temperature
+- filtration_recommended
+properties:
+  min_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-ht-abs-matte-cosmic-magnetism-grey/fusion-filaments-ht-abs-matte-cosmic-magnetism-grey-0-33f2dda9.jpg
+  type: unspecified

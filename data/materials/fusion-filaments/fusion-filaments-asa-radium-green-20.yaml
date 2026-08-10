@@ -1,0 +1,22 @@
+uuid: ab541e66-5bf7-512a-bf02-7d1a34ee7b6e
+slug: fusion-filaments-asa-radium-green-20
+brand:
+  slug: fusion-filaments
+name: ASA Radium Green 2.0
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#00f03cff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-asa-radium-green-20/fusion-filaments-asa-radium-green-20-0-e2468487.jpg
+  type: unspecified

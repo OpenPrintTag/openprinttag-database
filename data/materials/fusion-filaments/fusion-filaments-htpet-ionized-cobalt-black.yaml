@@ -1,0 +1,23 @@
+uuid: abcef7a3-140c-56fe-9d50-903ecf6f8874
+slug: fusion-filaments-htpet-ionized-cobalt-black
+brand:
+  slug: fusion-filaments
+name: HTPET+ Ionized Cobalt Black
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#141414ff'
+tags:
+- glitter
+- high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-htpet-ionized-cobalt-black/fusion-filaments-htpet-ionized-cobalt-black-0-adc45231.jpg
+  type: unspecified
