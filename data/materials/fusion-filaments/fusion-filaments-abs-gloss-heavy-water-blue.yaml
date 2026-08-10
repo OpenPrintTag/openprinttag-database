@@ -1,0 +1,20 @@
+uuid: 79d06a7d-10fe-590c-befe-3f740b9d56b6
+slug: fusion-filaments-abs-gloss-heavy-water-blue
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Heavy Water Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#3a00b9ff'
+tags:
+- silk
+- filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-abs-gloss-heavy-water-blue/fusion-filaments-abs-gloss-heavy-water-blue-0-6384ea27.jpg
+  type: unspecified

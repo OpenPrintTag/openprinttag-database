@@ -7,8 +7,12 @@ class: FFF
 type: TPE
 abbreviation: TPE
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#101820ff'
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-black/b83d795c896c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-black/b83d795c896c.png
+    type: unspecified
+properties:
+  density: 0.89
+  hardness_shore_a: 88.0
+  min_print_temperature: 220
+  max_print_temperature: 240

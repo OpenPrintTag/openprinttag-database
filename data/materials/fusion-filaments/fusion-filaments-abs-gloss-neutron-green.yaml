@@ -1,0 +1,20 @@
+uuid: c06b4119-65bc-5cd3-b908-86eefc630460
+slug: fusion-filaments-abs-gloss-neutron-green
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Neutron Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#76f1a5ff'
+tags:
+- silk
+- filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-abs-gloss-neutron-green/fusion-filaments-abs-gloss-neutron-green-0-552bf66c.jpg
+  type: unspecified

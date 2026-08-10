@@ -1,0 +1,24 @@
+uuid: 9b609757-0e62-5a2e-8da8-df9d1b83c7e6
+slug: fusion-filaments-abs-matte-tritium-green
+brand:
+  slug: fusion-filaments
+name: ABS Matte Tritium Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#00c456ff'
+tags:
+- glitter
+- matte
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-abs-matte-tritium-green/fusion-filaments-abs-matte-tritium-green-0-23f71e7a.jpg
+  type: unspecified

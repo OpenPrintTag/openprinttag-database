@@ -1,0 +1,21 @@
+uuid: 0be9083a-d99a-5c05-83ab-95aff5ede367
+slug: fusion-filaments-ht-abs-matte-radioactive-orange
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Radioactive Orange
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fc4c02ff'
+tags:
+- matte
+- high_temperature
+- filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-ht-abs-matte-radioactive-orange/fusion-filaments-ht-abs-matte-radioactive-orange-0-41be34e5.jpg
+  type: unspecified

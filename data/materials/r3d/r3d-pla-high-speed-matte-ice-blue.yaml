@@ -1,0 +1,21 @@
+uuid: 449be681-b477-5002-a07e-a341c89aee14
+slug: r3d-pla-high-speed-matte-ice-blue
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Ice Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6ac4cdff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-ice-blue/r3d-pla-high-speed-matte-ice-blue-0-4998146e.jpg
+  type: unspecified

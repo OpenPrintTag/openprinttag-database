@@ -1,0 +1,20 @@
+uuid: 86523a0b-7a6f-595d-bff6-3378429727f8
+slug: r3d-abs-mint-green
+brand:
+  slug: r3d
+name: ABS+ Mint Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#31feb5ff'
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-abs-mint-green/r3d-abs-mint-green-0-7a7dbca6.jpg
+  type: unspecified

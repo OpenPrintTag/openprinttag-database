@@ -1,0 +1,24 @@
+uuid: ddf3595b-4816-5aa9-9578-1e1f554965c1
+slug: r3d-pla-tri-silk-color-rose-red-green-blue
+brand:
+  slug: r3d
+name: PLA Tri-Silk color Rose-Red/Green/Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff00d3ff'
+- color_rgba: '#00d5b2ff'
+- color_rgba: '#3a00b9ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-tri-silk-color-rose-red-green-blue/r3d-pla-tri-silk-color-rose-red-green-blue-0-2e46bdf0.jpg
+  type: unspecified

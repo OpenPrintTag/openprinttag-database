@@ -7,12 +7,17 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#dfdfd3ff'
+  color_rgba: '#bbbcbcff'
 tags:
-- transparent
-- without_pigments
+  - translucent
+  - without_pigments
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-tpu-96-natur/c4dc2b0462d7.png
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-tpu-96-natur/c4dc2b0462d7.png
+    type: unspecified
 properties:
-  hardness_shore_a: 96
+  density: 1.15
+  hardness_shore_a: 96.0
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60

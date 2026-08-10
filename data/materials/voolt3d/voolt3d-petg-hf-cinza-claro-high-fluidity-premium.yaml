@@ -1,0 +1,21 @@
+uuid: da373feb-4835-5465-bea3-43ce5b976b1a
+slug: voolt3d-petg-hf-cinza-claro-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Cinza Claro High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#8c9099ff'
+tags:
+- high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-hf-cinza-claro-high-fluidity-premium/voolt3d-petg-hf-cinza-claro-high-fluidity-premium-0-5d54b601.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: f8bfafc6-9692-54a2-94c0-625d2caf780f
+slug: r3d-pla-high-speed-silk-gold
+brand:
+  slug: r3d
+name: PLA High-speed Silk Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#deaf44ff'
+tags:
+- silk
+- high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-silk-gold/r3d-pla-high-speed-silk-gold-0-969305f5.jpg
+  type: unspecified
