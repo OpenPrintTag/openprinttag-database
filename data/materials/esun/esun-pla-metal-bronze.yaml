@@ -8,12 +8,15 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla-metal?VariantsId=12156
 primary_color:
-  color_rgba: '#b58660ff'
+  color_rgba: '#ae6840ff'
 tags:
   - imitates_metal
-  - industrially_compostable
 properties:
   density: 1.225
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-metal-bronze/esun-pla-metal-bronze-0-1296e4b4.jpg
     type: unspecified
