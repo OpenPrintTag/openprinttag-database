@@ -11,7 +11,12 @@ primary_color:
   color_rgba: '#cf4042ff'
 tags:
   - industrially_compostable
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-lite-fire-engine-red/esun-pla-lite-fire-engine-red-0-620f61c5.jpg
     type: unspecified

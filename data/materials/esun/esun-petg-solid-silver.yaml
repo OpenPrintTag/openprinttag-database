@@ -11,6 +11,10 @@ primary_color:
   color_rgba: '#abacb0ff'
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
   - url: https://files.openprinttag.org/esun/esun-petg-solid-silver/f32507e9ff17.jpg
     type: unspecified

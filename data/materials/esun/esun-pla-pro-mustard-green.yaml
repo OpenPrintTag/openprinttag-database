@@ -1,0 +1,24 @@
+uuid: f18cea8e-c5a4-5b7b-a422-9055112c6589
+slug: esun-pla-pro-mustard-green
+brand:
+  slug: esun
+name: PLA+ Mustard Green
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13378
+primary_color:
+  color_rgba: '#bfcc80ff'
+tags:
+  - industrially_compostable
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-mustard-green/esun-pla-mustard-green-0-725885ac.jpg
+    type: unspecified

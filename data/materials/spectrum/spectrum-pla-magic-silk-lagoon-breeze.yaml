@@ -1,0 +1,23 @@
+uuid: 9daf2e4c-e281-516b-bc80-e1f17dfd2065
+slug: spectrum-pla-magic-silk-lagoon-breeze
+brand:
+  slug: spectrum
+name: PLA Magic SILK Lagoon Breeze
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0085caff'
+- color_rgba: '#02a76bff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-magic-silk-lagoon-breeze/spectrum-pla-magic-silk-lagoon-breeze-0-98eab918.jpg
+  type: unspecified

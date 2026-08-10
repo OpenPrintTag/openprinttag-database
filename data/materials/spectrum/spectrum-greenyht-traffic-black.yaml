@@ -1,0 +1,19 @@
+uuid: d29d427e-94d3-585d-b47d-2fbd77cc7fd7
+slug: spectrum-greenyht-traffic-black
+brand:
+  slug: spectrum
+name: GreenyHT™ Traffic Black
+class: FFF
+abbreviation: BIO
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- high_temperature
+properties:
+  density: 1.54
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-greenyht-traffic-black/spectrum-greenyht-traffic-black-0-7715230a.jpg
+  type: unspecified
