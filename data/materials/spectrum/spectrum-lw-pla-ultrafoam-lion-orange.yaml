@@ -11,5 +11,12 @@ primary_color:
   color_rgba: '#fa8423ff'
 tags:
 - foaming
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-lion-orange/spectrum-lw-pla-ultrafoam-lion-orange-0-7b8ad278.jpg
+  type: unspecified
