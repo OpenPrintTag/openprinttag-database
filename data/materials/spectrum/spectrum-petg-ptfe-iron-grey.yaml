@@ -10,7 +10,12 @@ primary_color:
   color_rgba: '#75787bff'
 tags:
   - contains_ptfe
-properties: {}
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
 photos:
   - url: /tmp/assets/spectrum-petg-ptfe-iron-grey-0-5df3cd37.jpg
     type: unspecified

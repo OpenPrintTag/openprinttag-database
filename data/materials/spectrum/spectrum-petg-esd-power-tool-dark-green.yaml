@@ -10,7 +10,12 @@ primary_color:
   color_rgba: '#2e5448ff'
 tags:
   - esd_safe
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
 photos:
   - url: /tmp/assets/spectrum-petg-esd-power-tool-dark-green-0-3b977c55.jpg
     type: unspecified

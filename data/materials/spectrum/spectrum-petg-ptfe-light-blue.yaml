@@ -10,7 +10,12 @@ primary_color:
   color_rgba: '#008dc3ff'
 tags:
   - contains_ptfe
-properties: {}
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
 photos:
   - url: /tmp/assets/spectrum-petg-ptfe-light-blue-0-7dcec47a.jpg
     type: unspecified
