@@ -1,0 +1,24 @@
+uuid: 08b207f5-6228-5f6e-94ae-8bed9de6b3bf
+slug: esun-pla-pro-light-khaki
+brand:
+  slug: esun
+name: PLA+ Light Khaki
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13361
+primary_color:
+  color_rgba: '#d4ceb4ff'
+tags:
+  - industrially_compostable
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-light-khaki/esun-pla-light-khaki-0-caa77a0c.jpg
+    type: unspecified
