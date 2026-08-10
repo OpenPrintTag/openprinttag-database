@@ -11,6 +11,12 @@ primary_color:
   color_rgba: '#c06341ff'
 tags:
 - silk
-- industrially_compostable
 properties:
-  density: 1.24
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-silk-spicy-copper/spectrum-pla-silk-spicy-copper-0-cb4513d0.jpg
+  type: unspecified

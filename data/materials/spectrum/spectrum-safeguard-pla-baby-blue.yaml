@@ -11,6 +11,11 @@ primary_color:
   color_rgba: '#39b9dbff'
 tags:
 - antibacterial
-- industrially_compostable
 properties:
-  density: 1.22
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-safeguard-pla-baby-blue/spectrum-safeguard-pla-baby-blue-0-a96e22f2.jpg
+  type: unspecified
