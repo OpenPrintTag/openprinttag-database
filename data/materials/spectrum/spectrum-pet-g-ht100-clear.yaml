@@ -10,6 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pet-g-ht100/
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
-- high_temperature
+  - high_temperature
 properties:
   density: 1.18
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/spectrum-pet-g-ht100-clear-0-1f7e392f.jpg
+    type: unspecified

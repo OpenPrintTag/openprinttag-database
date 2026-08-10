@@ -10,6 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pet-g-fr-v0/
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- self_extinguishing
+  - self_extinguishing
 properties:
   density: 1.26
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/spectrum-pet-g-fr-v0-black-0-3e85f7f4.jpg
+    type: unspecified

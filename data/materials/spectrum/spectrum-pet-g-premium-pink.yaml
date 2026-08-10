@@ -11,3 +11,10 @@ primary_color:
   color_rgba: '#ff5786ff'
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/spectrum-pet-g-premium-pink-0-ccc5b329.jpg
+    type: unspecified

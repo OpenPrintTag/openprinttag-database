@@ -10,4 +10,11 @@ url: https://spectrumfilaments.com/en/filament/pctg-premium/
 primary_color:
   color_rgba: '#9aed51ff'
 properties:
-  density: 1.27
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/spectrum-pctg-premium-light-green-0-7705bf67.jpg
+    type: unspecified

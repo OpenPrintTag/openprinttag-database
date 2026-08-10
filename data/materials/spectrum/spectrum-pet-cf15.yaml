@@ -1,0 +1,23 @@
+uuid: bb288617-9778-56be-b02c-23baa7e6e6ff
+slug: spectrum-pet-cf15
+brand:
+  slug: spectrum
+name: PET CF15
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#080a0dff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.4
+  min_print_temperature: 245
+  max_print_temperature: 270
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/spectrum-pet-cf15-0-e68fd833.jpg
+    type: unspecified

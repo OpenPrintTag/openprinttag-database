@@ -10,6 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pet-g-matt/
 primary_color:
   color_rgba: '#ff4f4dff'
 tags:
-- matte
+  - matte
 properties:
   density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/spectrum-pet-g-matt-bloody-red-0-b22d654b.jpg
+    type: unspecified

@@ -10,6 +10,13 @@ url: https://spectrumfilaments.com/en/filament/pet-g-premium/
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
-- transparent
+  - transparent
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/spectrum-pet-g-premium-glassy-0-212e3c25.jpg
+    type: unspecified
