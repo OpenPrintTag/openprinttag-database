@@ -4,10 +4,18 @@ brand:
   slug: spectrum
 name: S-Flex 85A™ Deep Black
 class: FFF
-abbreviation: S-Flex
+abbreviation: TPU
 url: https://spectrumfilaments.com/en/filament/s-flex-85a/
 primary_color:
   color_rgba: '#000000ff'
 properties:
   density: 1.11
-  hardness_shore_a: 85
+  hardness_shore_a: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+type: TPU
+photos:
+  - url: /tmp/assets/spectrum-s-flex-85a-deep-black-0-bd125ef6.jpg
+    type: unspecified

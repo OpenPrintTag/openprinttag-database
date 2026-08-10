@@ -1,0 +1,21 @@
+uuid: 9a4dd7ac-fb75-5dd5-b1b1-9beee0822f57
+slug: spectrum-rpetg-yellow-orange
+brand:
+  slug: spectrum
+name: rPETG Yellow Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff8133ff'
+tags:
+  - recycled
+properties:
+  density: 1.23
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/spectrum-rpetg-yellow-orange-0-6022fcd8.jpg
+    type: unspecified

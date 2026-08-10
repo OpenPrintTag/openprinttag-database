@@ -1,0 +1,21 @@
+uuid: 6a3a751f-35bb-5910-ad4d-9978b35b934e
+slug: spectrum-prografen-pet-g-graphene-strong-jet-black
+brand:
+  slug: spectrum
+name: Prografen PET-G Graphene Strong Jet Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+  - contains_graphene
+  - contains_carbon
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 265
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/spectrum-prografen-pet-g-graphene-strong-jet-black-0-dfef11c9.jpg
+    type: unspecified
