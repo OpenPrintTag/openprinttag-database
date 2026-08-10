@@ -1,0 +1,22 @@
+uuid: 136b409e-33fa-57e9-8186-385c16f939f2
+slug: voolt3d-abs-rosa-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Rosa High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff67f5ff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-rosa-high-speed-premium/voolt3d-abs-rosa-high-speed-premium-0-ba89a751.jpg
+  type: unspecified

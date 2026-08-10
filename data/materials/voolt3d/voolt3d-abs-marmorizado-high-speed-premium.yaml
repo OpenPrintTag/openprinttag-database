@@ -1,0 +1,23 @@
+uuid: 7621356e-52b2-52dc-9ecc-bd231bf0d743
+slug: voolt3d-abs-marmorizado-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Marmorizado High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#d9dfe5ff'
+tags:
+- imitates_marble
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-marmorizado-high-speed-premium/voolt3d-abs-marmorizado-high-speed-premium-0-7427df23.jpg
+  type: unspecified
