@@ -1,0 +1,23 @@
+uuid: d1c94ec5-89cb-5e30-9915-8a22d730f86c
+slug: fusion-filaments-ht-abs-matte-plutonic-purple
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Plutonic Purple
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#9901faff'
+tags:
+- matte
+- high_temperature
+- filtration_recommended
+properties:
+  min_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-ht-abs-matte-plutonic-purple/fusion-filaments-ht-abs-matte-plutonic-purple-0-7ad87921.jpg
+  type: unspecified

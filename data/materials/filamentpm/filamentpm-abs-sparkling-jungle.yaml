@@ -7,10 +7,16 @@ class: FFF
 type: ABS
 abbreviation: ABS
 primary_color:
-  color_rgba: '#06924dff'
+  color_rgba: '#008351ff'
 tags:
-- filtration_recommended
+  - glitter
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-abs-sparkling-jungle/1a3942e16bd0.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-abs-sparkling-jungle/1a3942e16bd0.png
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110

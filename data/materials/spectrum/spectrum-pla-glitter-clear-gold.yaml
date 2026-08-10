@@ -6,12 +6,15 @@ name: PLA Glitter Clear Gold
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-glitter/
 primary_color:
   color_rgba: '#d0bd93ff'
 tags:
-- silk
 - glitter
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-glitter-clear-gold/spectrum-pla-glitter-clear-gold-0-09d56fdb.jpg
+  type: unspecified

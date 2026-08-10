@@ -15,9 +15,12 @@ tags:
   - abrasive
   - glitter
   - illuminescent_color_change
-  - industrially_compostable
 properties:
   density: 1.2
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-stars-twinkle-shining-galaxy-black/esun-pla-stars-twinkle-shining-galaxy-black-0-81b516f4.jpg
     type: unspecified

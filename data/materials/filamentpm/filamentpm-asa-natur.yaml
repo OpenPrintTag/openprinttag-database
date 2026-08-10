@@ -7,8 +7,15 @@ class: FFF
 type: ASA
 abbreviation: ASA
 primary_color:
-  color_rgba: '#eadac2ff'
+  color_rgba: '#d6c9caff'
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-asa-natur/da6fe497a795.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-asa-natur/da6fe497a795.png
+    type: unspecified
+properties:
+  density: 1.07
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+tags:
+  - filtration_recommended
