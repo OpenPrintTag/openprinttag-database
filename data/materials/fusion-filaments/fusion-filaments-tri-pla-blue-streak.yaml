@@ -1,0 +1,20 @@
+uuid: 8c86b149-0065-5995-924c-072d0fe94f4d
+slug: fusion-filaments-tri-pla-blue-streak
+brand:
+  slug: fusion-filaments
+name: Tri-PLA Blue Streak
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#4f03d7ff'
+  - color_rgba: '#c8c8c8ff'
+  - color_rgba: '#33007bff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

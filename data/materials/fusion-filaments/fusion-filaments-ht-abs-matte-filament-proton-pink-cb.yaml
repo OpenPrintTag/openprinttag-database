@@ -1,0 +1,21 @@
+uuid: 23a35b0e-c7b0-5e9b-bd69-bde4f2c0ec55
+slug: fusion-filaments-ht-abs-matte-filament-proton-pink-cb
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Filament - Proton Pink-CB
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff0072ff'
+tags:
+- matte
+- high_temperature
+- filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-ht-abs-matte-filament-proton-pink-cb/fusion-filaments-ht-abs-matte-filament-proton-pink-cb-0-fe4eb67f.jpg
+  type: unspecified

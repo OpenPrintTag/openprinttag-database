@@ -1,0 +1,22 @@
+uuid: dc92ce6d-bc5c-5a27-beb8-b938a7cc9af1
+slug: fusion-filaments-htpet-nuclear-winter-white
+brand:
+  slug: fusion-filaments
+name: HTPET+ Nuclear Winter White
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#fafafaff'
+tags:
+- high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-htpet-nuclear-winter-white/fusion-filaments-htpet-nuclear-winter-white-0-e1bb9ae6.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: eb0f41e7-827e-5ec7-a746-7680f5adcc09
+slug: fusion-filaments-pla-moondust
+brand:
+  slug: fusion-filaments
+name: PLA Moondust
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#808080ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pla-moondust/fusion-filaments-pla-moondust-0-8c671815.jpg
+  type: unspecified

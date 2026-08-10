@@ -1,0 +1,20 @@
+uuid: 105b3871-f643-5d55-8a2f-a550201b7446
+slug: filamentpm-tpe-88-rubberjet-flex-metallic-green
+brand:
+  slug: filamentpm
+name: TPE 88 RubberJet Flex - Metallic Green
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#777e71ff'
+tags:
+- imitates_metal
+properties:
+  density: 0.89
+  hardness_shore_a: 88.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-metallic-green/filamentpm-tpe-88-rubberjet-flex-metallic-green-0-6ccf23a8.jpg
+  type: unspecified

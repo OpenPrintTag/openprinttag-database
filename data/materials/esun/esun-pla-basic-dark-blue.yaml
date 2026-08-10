@@ -8,10 +8,17 @@ type: PLA
 abbreviation: PLA
 url: https://esun3dstoreeu.com/products/epla?VariantsId=13411
 primary_color:
-  color_rgba: '#2a3756ff'
+  color_rgba: '#1b3373ff'
 tags:
   - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-basic-dark-blue/esun-pla-basic-dark-blue-0-f92e7df3.jpg
     type: unspecified

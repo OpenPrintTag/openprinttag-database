@@ -1,0 +1,20 @@
+uuid: 160265bd-6257-500e-a8e9-eed85e4e19d6
+slug: esun-pla-pro-hs-mustard-green
+brand:
+  slug: esun
+name: PLA+HS Mustard Green
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#d0e68cff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-mustard-green/esun-pla-hs-mustard-green-0-385117b6.jpg
+  type: unspecified
