@@ -10,9 +10,13 @@ url: https://esun3dstoreeu.com/products/petg-basic?VariantsId=12698
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- translucent
+  - translucent
 properties:
   density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-basic-clear/esun-petg-basic-clear-0-4a12feaf.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-basic-clear/esun-petg-basic-clear-0-4a12feaf.jpg
+    type: unspecified

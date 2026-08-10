@@ -1,0 +1,21 @@
+uuid: c453acb7-4c47-53e5-8ed5-b2d2f3f8aa0b
+slug: esun-petg-hs-solid-orange
+brand:
+  slug: esun
+name: PETG+HS Solid Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff8133ff'
+tags:
+- high_speed
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-hs-solid-orange/esun-petg-hs-solid-orange-0-70380c95.jpg
+  type: unspecified

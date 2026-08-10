@@ -1,0 +1,21 @@
+uuid: 82adbe11-e3dd-5cad-ad40-fb5c0a816ac6
+slug: esun-petg-basic-translucent-light-blue
+brand:
+  slug: esun
+name: PETG Basic Translucent Light Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#4fa3deff'
+tags:
+- translucent
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-basic-translucent-light-blue/esun-petg-basic-translucent-light-blue-0-c277f242.jpg
+  type: unspecified

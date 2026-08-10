@@ -1,0 +1,21 @@
+uuid: 18688ac4-6cb9-5533-98ec-4f7db2bd0376
+slug: esun-petg-basic-translucent-light-pink
+brand:
+  slug: esun
+name: PETG Basic Translucent Light Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f2bdd0ff'
+tags:
+- translucent
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-basic-translucent-light-pink/esun-petg-basic-translucent-light-pink-0-65d7e348.jpg
+  type: unspecified
