@@ -1,0 +1,22 @@
+uuid: e1986a1e-460d-5d0f-b60b-029dfb241618
+slug: r3d-pla-magic-silk-sunflower
+brand:
+  slug: r3d
+name: PLA Magic Silk Sunflower
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#46383bff'
+- color_rgba: '#c5af63ff'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-magic-silk-sunflower/r3d-pla-magic-silk-sunflower-0-ec21dc46.jpg
+  type: unspecified

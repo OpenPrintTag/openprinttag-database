@@ -1,0 +1,20 @@
+uuid: b15a0e87-d963-54d8-81fb-2b9d1033c1e5
+slug: polymaker-asa-dark-gray-green
+brand:
+  slug: polymaker
+name: ASA Dark Gray Green
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#4c5f46ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420

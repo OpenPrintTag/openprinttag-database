@@ -1,0 +1,24 @@
+uuid: b1e17cfb-4cc8-5181-b880-76343255214b
+slug: esun-pla-pro-black
+brand:
+  slug: esun
+name: PLA+ Black
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13355
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - industrially_compostable
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-black/a63cd7f6b00a.jpg
+    type: unspecified

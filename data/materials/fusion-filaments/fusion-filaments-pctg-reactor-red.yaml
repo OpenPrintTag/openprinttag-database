@@ -1,0 +1,15 @@
+uuid: d6beb549-095d-5db3-a742-8f509ba55eef
+slug: fusion-filaments-pctg-reactor-red
+brand:
+  slug: fusion-filaments
+name: PCTG Reactor Red
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#ca0230ff'
+properties:
+  max_print_temperature: 260
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pctg-reactor-red/fusion-filaments-pctg-reactor-red-0-14afdb47.jpg
+  type: unspecified
