@@ -1,0 +1,22 @@
+uuid: 9dcaeef5-b3e8-52fe-8f6c-d50fcd6d7a93
+slug: esun-abs-pro-hs-cold-white
+brand:
+  slug: esun
+name: ABS+HS Cold White
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#eaecf5ff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/esun/esun-abs-pro-hs-cold-white/esun-abs-hs-cold-white-0-d4bb2f52.jpg
+  type: unspecified
