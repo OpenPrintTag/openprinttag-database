@@ -6,11 +6,10 @@ name: LW-PLA UltraFoam Pure White
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- foaming
+  - foaming
 properties:
   density: 1.24
   min_print_temperature: 190
@@ -18,5 +17,5 @@ properties:
   min_bed_temperature: 40
   max_bed_temperature: 50
 photos:
-- url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-pure-white/spectrum-lw-pla-ultrafoam-pure-white-0-b2b649c3.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-pure-white/spectrum-lw-pla-ultrafoam-pure-white-0-b2b649c3.jpg
+    type: unspecified
