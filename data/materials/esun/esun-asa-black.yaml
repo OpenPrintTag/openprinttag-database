@@ -1,8 +1,8 @@
-uuid: 3421e152-1ed9-56fb-9e50-272199e01199
+uuid: 37ff1b8f-643b-5d4f-acbb-567296bf6ee6
 slug: esun-asa-black
 brand:
   slug: esun
-name: ASA Black
+name: ASA+ Black
 class: FFF
 type: ASA
 abbreviation: ASA
@@ -13,6 +13,10 @@ tags:
   - filtration_recommended
 properties:
   density: 1.06
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
 photos:
   - url: https://files.openprinttag.org/esun/esun-asa-black/aafdb8822df1.jpg
     type: unspecified

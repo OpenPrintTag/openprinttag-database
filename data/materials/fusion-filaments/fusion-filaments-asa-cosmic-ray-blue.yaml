@@ -1,0 +1,22 @@
+uuid: e0eca602-4424-5d8c-9cf5-7723ced29b5f
+slug: fusion-filaments-asa-cosmic-ray-blue
+brand:
+  slug: fusion-filaments
+name: ASA Cosmic Ray Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#4f03d7ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-asa-cosmic-ray-blue/fusion-filaments-asa-cosmic-ray-blue-0-134409db.jpg
+  type: unspecified

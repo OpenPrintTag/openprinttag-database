@@ -1,0 +1,15 @@
+uuid: 1ab1b7cb-73b7-5627-af43-4666543286fa
+slug: fusion-filaments-pctg-atomic-orange
+brand:
+  slug: fusion-filaments
+name: PCTG Atomic Orange
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#ff3a00ff'
+properties:
+  max_print_temperature: 260
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pctg-atomic-orange/fusion-filaments-pctg-atomic-orange-0-9a42ca0b.jpg
+  type: unspecified

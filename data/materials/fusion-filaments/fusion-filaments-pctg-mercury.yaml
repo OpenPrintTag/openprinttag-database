@@ -1,0 +1,15 @@
+uuid: 25904a98-2f93-529a-b16f-b724ffb55016
+slug: fusion-filaments-pctg-mercury
+brand:
+  slug: fusion-filaments
+name: PCTG Mercury
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#8a8c94ff'
+properties:
+  max_print_temperature: 260
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pctg-mercury/fusion-filaments-pctg-mercury-0-e375ec13.jpg
+  type: unspecified

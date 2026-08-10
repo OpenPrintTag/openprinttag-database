@@ -1,0 +1,22 @@
+uuid: ecde175d-89e9-54c1-8c8e-054cf9dfa75d
+slug: voolt3d-abs-preto-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Preto High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#27292bff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-preto-high-speed-premium/voolt3d-abs-preto-high-speed-premium-0-9a679913.jpg
+  type: unspecified

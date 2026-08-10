@@ -9,8 +9,12 @@ abbreviation: TPE
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:
-- transparent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-translucent/2e0bb5e5717f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-translucent/2e0bb5e5717f.png
+    type: unspecified
+properties:
+  density: 0.89
+  hardness_shore_a: 88.0
+  min_print_temperature: 220
+  max_print_temperature: 240

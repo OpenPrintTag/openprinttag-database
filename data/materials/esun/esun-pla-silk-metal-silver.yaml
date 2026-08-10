@@ -1,0 +1,21 @@
+uuid: 5fb44fc7-76a0-596f-ae58-34199c852f3a
+slug: esun-pla-silk-metal-silver
+brand:
+  slug: esun
+name: PLA Silk Metal Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c9d0d4ff'
+tags:
+- silk
+- imitates_metal
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-silk-metal-silver/esun-pla-silk-metal-silver-0-91c995e3.jpg
+  type: unspecified

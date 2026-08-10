@@ -10,10 +10,14 @@ url: https://esun3dstoreeu.com/products/tpu-95a?VariantsId=12084
 primary_color:
   color_rgba: '#c63dbaff'
 tags:
-- translucent
+  - translucent
 properties:
   density: 1.21
   hardness_shore_a: 95.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
-- url: https://files.openprinttag.org/esun/esun-tpu-95a-transparent-purple/esun-tpu-95a-transparent-purple-0-e2697c1b.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-tpu-95a-transparent-purple/esun-tpu-95a-transparent-purple-0-e2697c1b.jpg
+    type: unspecified

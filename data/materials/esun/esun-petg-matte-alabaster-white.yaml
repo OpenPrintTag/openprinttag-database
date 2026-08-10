@@ -1,0 +1,21 @@
+uuid: 2e03130e-ebbb-52cc-af2a-d617bdd6aa96
+slug: esun-petg-matte-alabaster-white
+brand:
+  slug: esun
+name: PETG Matte Alabaster White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f4e6cfff'
+tags:
+- matte
+properties:
+  density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-matte-alabaster-white/esun-petg-matte-alabaster-white-0-528fc94a.jpg
+  type: unspecified

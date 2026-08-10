@@ -1,0 +1,21 @@
+uuid: dcc6faa2-6387-52d2-8fa7-5b76be205cb4
+slug: fusion-filaments-ht-abs-matte-cold-fusion-blue
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Cold Fusion Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#1ac5fcff'
+tags:
+- matte
+- high_temperature
+- filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-ht-abs-matte-cold-fusion-blue/fusion-filaments-ht-abs-matte-cold-fusion-blue-0-3146f75b.jpg
+  type: unspecified

@@ -7,11 +7,14 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#b33174ff'
+  color_rgba: '#c4618cff'
 tags:
-- silk
-- industrially_compostable
+  - silk
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-silk-dark-pink/a5cd7141aaa8.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-silk-dark-pink/a5cd7141aaa8.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  max_bed_temperature: 60

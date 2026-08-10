@@ -1,0 +1,23 @@
+uuid: b0f0c59d-6638-5839-b7cf-cf905aac387b
+slug: fusion-filaments-htpet-critical-mass-gold
+brand:
+  slug: fusion-filaments
+name: HTPET+ Critical Mass Gold
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#dd8131ff'
+tags:
+- glitter
+- high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-htpet-critical-mass-gold/fusion-filaments-htpet-critical-mass-gold-0-988c63fe.jpg
+  type: unspecified
