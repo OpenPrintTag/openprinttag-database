@@ -1,0 +1,20 @@
+uuid: cef69e43-6f4c-563e-926a-e8d3abf78800
+slug: esun-pla-pro-hs-orange
+brand:
+  slug: esun
+name: PLA+HS Orange
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#ff8133ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-orange/esun-pla-hs-orange-0-7039d8aa.jpg
+  type: unspecified
