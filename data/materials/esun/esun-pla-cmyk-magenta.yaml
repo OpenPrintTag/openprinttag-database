@@ -1,0 +1,19 @@
+uuid: 7b8663f5-c883-5007-a53f-ebeead9790ee
+slug: esun-pla-cmyk-magenta
+brand:
+  slug: esun
+name: PLA+ CMYK Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f04c9aff'
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-cmyk-magenta/esun-pla-cmyk-magenta-0-6ddba7cc.jpg
+  type: unspecified

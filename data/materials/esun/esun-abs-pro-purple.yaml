@@ -1,0 +1,21 @@
+uuid: 75cf4ae9-1859-5e34-836a-fc291522a52f
+slug: esun-abs-pro-purple
+brand:
+  slug: esun
+name: ABS+ Purple
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#6c47b2ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-purple/74db3694c9bd.jpg
+    type: unspecified

@@ -1,0 +1,22 @@
+uuid: fe1daea9-532d-594b-8971-d203b29727da
+slug: fusion-filaments-htpet-radium-green-20
+brand:
+  slug: fusion-filaments
+name: HTPET+ Radium Green 2.0
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#3ef441ff'
+tags:
+- high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-htpet-radium-green-20/fusion-filaments-htpet-radium-green-20-0-792cda76.jpg
+  type: unspecified

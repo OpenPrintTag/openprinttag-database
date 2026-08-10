@@ -7,10 +7,16 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#ae9d7eff'
+  color_rgba: '#84754eff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-khaki/5de9997fbbaa.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-pla-khaki/5de9997fbbaa.png
+    type: unspecified
+properties:
+  density: 1.24
+  hardness_shore_d: 78.3
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 20
+  max_bed_temperature: 60

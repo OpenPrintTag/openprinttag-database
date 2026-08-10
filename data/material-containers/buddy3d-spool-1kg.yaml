@@ -1,6 +1,11 @@
-uuid: 360a6083-5910-4159-b40f-46f0596d36ff
+uuid: f950fcfa-0de0-5c41-a6a5-5aaa9a0eee14
 slug: buddy3d-spool-1kg
 name: Buddy3D Spool 1kg
 class: FFF
 brand:
   slug: buddy3d
+empty_weight: 258
+hole_diameter: 52
+inner_diameter: 105
+outer_diameter: 200
+width: 68

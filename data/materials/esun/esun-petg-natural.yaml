@@ -14,6 +14,10 @@ tags:
   - without_pigments
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 90
 photos:
   - url: https://files.openprinttag.org/esun/esun-petg-natural/d56b45180b80.jpg
     type: unspecified

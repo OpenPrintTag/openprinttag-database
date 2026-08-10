@@ -1,0 +1,19 @@
+uuid: 26fdb663-fe9d-5725-910f-c7574187ce29
+slug: fusion-filaments-asa-seismic-red
+brand:
+  slug: fusion-filaments
+name: ASA Seismic Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f71818ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720

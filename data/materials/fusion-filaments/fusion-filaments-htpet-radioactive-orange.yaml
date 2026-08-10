@@ -1,0 +1,22 @@
+uuid: 3e81d38c-05ae-5bc5-887a-22a400300510
+slug: fusion-filaments-htpet-radioactive-orange
+brand:
+  slug: fusion-filaments
+name: HTPET+ Radioactive Orange
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#f04b2aff'
+tags:
+- high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-htpet-radioactive-orange/fusion-filaments-htpet-radioactive-orange-0-4103d63a.jpg
+  type: unspecified
