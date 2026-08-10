@@ -6,11 +6,15 @@ name: PLA Premium Fluo Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
-  color_rgba: '#b4e657ff'
+  color_rgba: '#7cef83ff'
 tags:
-- industrially_compostable
 - neon
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-premium-fluo-green/spectrum-pla-premium-fluo-green-0-25a85bcc.jpg
+  type: unspecified
