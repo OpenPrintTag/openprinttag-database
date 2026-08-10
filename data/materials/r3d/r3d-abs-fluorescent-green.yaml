@@ -1,0 +1,21 @@
+uuid: cc0a324c-ae59-5594-a858-612f027092db
+slug: r3d-abs-fluorescent-green
+brand:
+  slug: r3d
+name: ABS+ Fluorescent Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#33ff00ff'
+tags:
+- neon
+- filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-abs-fluorescent-green/r3d-abs-fluorescent-green-0-c1a98620.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: ba5fb4b2-d184-5841-8eb2-e82b3c0e9c19
+slug: r3d-abs-latte
+brand:
+  slug: r3d
+name: ABS+ Latte
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#d0b891ff'
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-abs-latte/r3d-abs-latte-0-509e2a9a.jpg
+  type: unspecified

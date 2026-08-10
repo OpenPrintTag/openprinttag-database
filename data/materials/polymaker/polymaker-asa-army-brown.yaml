@@ -1,0 +1,20 @@
+uuid: d635d041-fb31-5df8-92f3-cc9d6688faf7
+slug: polymaker-asa-army-brown
+brand:
+  slug: polymaker
+name: ASA Army Brown
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#624234ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420

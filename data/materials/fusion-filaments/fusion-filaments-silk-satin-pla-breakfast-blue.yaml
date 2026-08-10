@@ -1,0 +1,23 @@
+uuid: c3d8c70d-f64c-5a0f-a249-cf37900f3dd3
+slug: fusion-filaments-silk-satin-pla-breakfast-blue
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Breakfast Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#40e0d0ff'
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-silk-satin-pla-breakfast-blue/fusion-filaments-silk-satin-pla-breakfast-blue-0-9604c0a0.jpg
+  type: unspecified
