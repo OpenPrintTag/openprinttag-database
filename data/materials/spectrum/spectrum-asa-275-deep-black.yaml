@@ -10,4 +10,13 @@ url: https://spectrumfilaments.com/en/filament/asa-275/
 primary_color:
   color_rgba: '#000000ff'
 properties:
-  density: 1.08
+  density: 1.07
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/spectrum-asa-275-deep-black-0-07d5b4e2.jpg
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: dbb02bd2-fb0f-58bb-af7a-9d40a2fd4f21
+slug: spectrum-asa-x-cf10-bk
+brand:
+  slug: spectrum
+name: ASA-X CF10™ BK
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.1
+  min_print_temperature: 235
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/spectrum-asa-x-cf10-bk-0-cdf0c209.jpg
+    type: unspecified

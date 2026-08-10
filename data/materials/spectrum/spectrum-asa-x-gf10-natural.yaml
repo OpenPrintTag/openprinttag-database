@@ -10,7 +10,16 @@ url: https://spectrumfilaments.com/en/filament/asa-x-gf10/
 primary_color:
   color_rgba: '#dfdfd3ff'
 tags:
-- contains_glass_fiber
-- abrasive
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
 properties:
   density: 1.11
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/spectrum-asa-x-gf10-natural-0-e8c75b58.jpg
+    type: unspecified

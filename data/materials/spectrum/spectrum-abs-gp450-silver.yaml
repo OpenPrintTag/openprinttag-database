@@ -8,8 +8,15 @@ type: ABS
 abbreviation: ABS
 url: https://spectrumfilaments.com/en/filament/abs-gp450/
 primary_color:
-  color_rgba: '#9f9f9fff'
+  color_rgba: '#b0ada1ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties:
   density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/spectrum-abs-gp450-silver-0-71c148b4.jpg
+    type: unspecified

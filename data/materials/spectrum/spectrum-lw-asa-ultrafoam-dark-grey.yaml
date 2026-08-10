@@ -10,6 +10,14 @@ url: https://spectrumfilaments.com/en/filament/lw-asa-ultrafoam/
 primary_color:
   color_rgba: '#6a6c6eff'
 tags:
-- foaming
+  - foaming
+  - filtration_recommended
 properties:
   density: 1.08
+  min_print_temperature: 220
+  max_print_temperature: 285
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/spectrum-lw-asa-ultrafoam-dark-grey-0-9e782457.jpg
+    type: unspecified
