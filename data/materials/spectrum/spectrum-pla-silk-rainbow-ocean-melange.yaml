@@ -1,0 +1,23 @@
+uuid: 967d7d60-eeb6-5ae5-885f-0da4f994d640
+slug: spectrum-pla-silk-rainbow-ocean-melange
+brand:
+  slug: spectrum
+name: PLA Silk Rainbow Ocean Melange
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#75cb5dff'
+  - color_rgba: '#2fbabcff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-silk-rainbow-ocean-melange-0-4f3ea1e6.jpg
+    type: unspecified

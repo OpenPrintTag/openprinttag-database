@@ -1,0 +1,23 @@
+uuid: 07049282-ec16-542d-b1ba-6830912277f0
+slug: spectrum-pla-silk-rainbow-fire-red
+brand:
+  slug: spectrum
+name: PLA Silk Rainbow Fire Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e6b535ff'
+  - color_rgba: '#e94b3cff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-silk-rainbow-fire-red-0-13e2b21e.jpg
+    type: unspecified

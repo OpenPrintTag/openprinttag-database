@@ -1,0 +1,24 @@
+uuid: 80d2bac8-032c-5007-a83a-1d5923a45d7e
+slug: spectrum-pla-silk-rainbow-ancient
+brand:
+  slug: spectrum
+name: PLA Silk Rainbow Ancient
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#d8c094ff'
+  - color_rgba: '#b4bab0ff'
+  - color_rgba: '#b87f6aff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-silk-rainbow-ancient-0-4098052f.jpg
+    type: unspecified

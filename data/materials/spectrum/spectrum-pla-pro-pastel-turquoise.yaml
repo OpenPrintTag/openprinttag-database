@@ -1,0 +1,19 @@
+uuid: 91b3bd45-7163-55d0-bfd9-4001b7ec8c0e
+slug: spectrum-pla-pro-pastel-turquoise
+brand:
+  slug: spectrum
+name: PLA Pro Pastel Turquoise
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b2d6d0ff'
+properties:
+  density: 1.22
+  min_print_temperature: 185
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-pla-pro-pastel-turquoise-0-477dc5c6.jpg
+    type: unspecified

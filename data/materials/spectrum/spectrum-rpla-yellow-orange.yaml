@@ -10,7 +10,13 @@ url: https://spectrumfilaments.com/en/filament/r-pla/
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
-- recycled
-- industrially_compostable
+  - recycled
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 215
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-rpla-yellow-orange-0-625b4ca5.jpg
+    type: unspecified

@@ -1,0 +1,25 @@
+uuid: eae4c08d-450b-5800-8352-e56899973b4b
+slug: spectrum-pla-silk-rainbow-frost-gloss
+brand:
+  slug: spectrum
+name: PLA Silk Rainbow Frost Gloss
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e4e46dff'
+  - color_rgba: '#91a0b6ff'
+  - color_rgba: '#02a76bff'
+  - color_rgba: '#0099b2ff'
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/spectrum-pla-silk-rainbow-frost-gloss-0-ea6b22f5.jpg
+    type: unspecified

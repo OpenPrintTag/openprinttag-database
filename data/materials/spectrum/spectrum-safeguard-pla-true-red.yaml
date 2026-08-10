@@ -10,7 +10,12 @@ url: https://spectrumfilaments.com/en/filament/safeguard-pla/
 primary_color:
   color_rgba: '#e72f1dff'
 tags:
-- antibacterial
-- industrially_compostable
+  - antibacterial
 properties:
-  density: 1.22
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-safeguard-pla-true-red-0-fe9ab780.jpg
+    type: unspecified
