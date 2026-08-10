@@ -12,6 +12,10 @@ primary_color:
 properties:
   density: 1.21
   hardness_shore_a: 95.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-tpu-95a-white/9b04e5feeedb.jpg
     type: unspecified
