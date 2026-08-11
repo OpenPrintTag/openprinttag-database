@@ -6,10 +6,15 @@ name: Pastello PLA Atmospheric Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pastello-pla/
 primary_color:
   color_rgba: '#c6f3fdff'
 tags:
 - industrially_compostable
 properties:
   density: 1.3
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pastello-pla-atmospheric-blue/spectrum-pastello-pla-atmospheric-blue-0-422762b2.jpg
+  type: unspecified

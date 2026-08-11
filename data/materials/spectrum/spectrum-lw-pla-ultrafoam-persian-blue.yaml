@@ -6,10 +6,16 @@ name: LW-PLA UltraFoam Persian Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/lw-pla-ultrafoam/
 primary_color:
   color_rgba: '#0066d9ff'
 tags:
-- foaming
-- industrially_compostable
-properties: {}
+  - foaming
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+  - url: https://files.openprinttag.org/spectrum/spectrum-lw-pla-ultrafoam-persian-blue/spectrum-lw-pla-ultrafoam-persian-blue-0-ca91c3c3.jpg
+    type: unspecified

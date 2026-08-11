@@ -1,0 +1,20 @@
+uuid: 082b72cb-552f-5078-9fa3-cc309cba8856
+slug: esun-pla-pro-hs-yellow
+brand:
+  slug: esun
+name: PLA+HS Yellow
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#fbe200ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-yellow/esun-pla-hs-yellow-0-a0a9d060.jpg
+  type: unspecified

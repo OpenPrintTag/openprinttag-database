@@ -11,7 +11,14 @@ primary_color:
   color_rgba: '#d0e081ff'
 tags:
   - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-basic-peak-green/esun-pla-basic-peak-green-0-c91eeb49.jpg
     type: unspecified

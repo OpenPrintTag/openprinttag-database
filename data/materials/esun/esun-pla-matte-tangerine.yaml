@@ -1,0 +1,23 @@
+uuid: 4a19c9a1-b607-5adb-89b0-ff05e9397e53
+slug: esun-pla-matte-tangerine
+brand:
+  slug: esun
+name: PLA Matte Tangerine
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e94b3cff'
+tags:
+- matte
+properties:
+  density: 1.329
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-matte-tangerine/esun-pla-matte-tangerine-0-fe090d97.jpg
+  type: unspecified

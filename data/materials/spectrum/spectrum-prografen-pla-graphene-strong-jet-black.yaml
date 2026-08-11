@@ -1,0 +1,21 @@
+uuid: 12f21bc6-52f2-5ab4-ad27-0b5b0535f2ec
+slug: spectrum-prografen-pla-graphene-strong-jet-black
+brand:
+  slug: spectrum
+name: Prografen PLA Graphene Strong Jet Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0f1314ff'
+tags:
+- contains_graphene
+- contains_carbon
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 35
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-prografen-pla-graphene-strong-jet-black/spectrum-prografen-pla-graphene-strong-jet-black-0-a07e876c.jpg
+  type: unspecified

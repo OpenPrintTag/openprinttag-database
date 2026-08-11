@@ -11,6 +11,11 @@ primary_color:
   color_rgba: '#000000ff'
 tags:
 - antibacterial
-- industrially_compostable
 properties:
-  density: 1.22
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-safeguard-pla-midnight-black/spectrum-safeguard-pla-midnight-black-0-e805bbea.jpg
+  type: unspecified

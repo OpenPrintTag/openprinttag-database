@@ -1,0 +1,21 @@
+uuid: bdf20685-5734-513d-84e1-c2d7311f741c
+slug: esun-abs-pro-red
+brand:
+  slug: esun
+name: ABS+ Red
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#ef3340ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-red/esun-abs-red-0-43c28756.jpg
+    type: unspecified

@@ -6,10 +6,15 @@ name: PLA Premium Carrot Orange
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
   color_rgba: '#ff8e24ff'
 tags:
 - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-premium-carrot-orange/spectrum-pla-premium-carrot-orange-0-9d47f17d.jpg
+  type: unspecified

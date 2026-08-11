@@ -1,0 +1,21 @@
+uuid: 53684395-1c4a-50d1-a76e-f805e9c12ab7
+slug: esun-abs-pro-fire-engine-red
+brand:
+  slug: esun
+name: ABS+ Fire Engine Red
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#d02f37ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-fire-engine-red/esun-abs-fire-engine-red-0-e4f0e685.jpg
+    type: unspecified

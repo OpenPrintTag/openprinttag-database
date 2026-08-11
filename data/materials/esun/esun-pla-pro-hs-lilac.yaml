@@ -1,0 +1,20 @@
+uuid: 8329e68e-fe49-5914-a80f-9d71aa3dbcb2
+slug: esun-pla-pro-hs-lilac
+brand:
+  slug: esun
+name: PLA+HS Lilac
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#e25dc0ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-lilac/esun-pla-hs-lilac-0-9a8de9c0.jpg
+  type: unspecified

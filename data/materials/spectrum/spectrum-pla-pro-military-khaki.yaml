@@ -13,3 +13,10 @@ tags:
 - industrially_compostable
 properties:
   density: 1.22
+  min_print_temperature: 185
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-pro-military-khaki/spectrum-pla-pro-military-khaki-0-d27777a6.jpg
+  type: unspecified

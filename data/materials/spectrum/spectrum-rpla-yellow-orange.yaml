@@ -11,6 +11,12 @@ primary_color:
   color_rgba: '#fa8423ff'
 tags:
 - recycled
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 215
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-rpla-yellow-orange/spectrum-rpla-yellow-orange-0-625b4ca5.jpg
+  type: unspecified

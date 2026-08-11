@@ -1,0 +1,19 @@
+uuid: 5e4b2e22-3b21-5ff3-84ad-24032228e316
+slug: esun-petg-basic-silver
+brand:
+  slug: esun
+name: PETG Basic Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9ea2a2ff'
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-basic-silver/esun-petg-basic-silver-0-968d77d2.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: b2186454-e322-5809-bcb8-54b2078d12cf
+slug: spectrum-pla-magic-silk-raspberry-blush
+brand:
+  slug: spectrum
+name: PLA Magic SILK Raspberry Blush
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#00773aff'
+- color_rgba: '#ce0f69ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-magic-silk-raspberry-blush/spectrum-pla-magic-silk-raspberry-blush-0-b0948c48.jpg
+  type: unspecified

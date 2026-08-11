@@ -4,9 +4,17 @@ brand:
   slug: spectrum
 name: GreenyPro Traffic Black
 class: FFF
-abbreviation: Greeny
+abbreviation: BIO
 url: https://spectrumfilaments.com/en/filament/greenypro/
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#080a0dff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+- high_temperature
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-greenypro-traffic-black/spectrum-greenypro-traffic-black-0-aff295bf.jpg
+  type: unspecified
