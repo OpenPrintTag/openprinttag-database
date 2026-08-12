@@ -11,9 +11,17 @@ primary_color:
   color_rgba: '#00e3e2ff'
 secondary_colors:
 - color_rgba: '#dfdfd3ff'
+- color_rgba: '#00e3e2ff'
 tags:
 - glow_in_the_dark
-- illuminescent_color_change
 - abrasive
+- illuminescent_color_change
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-glow-in-the-dark-blue/spectrum-pet-g-glow-in-the-dark-blue-0-0a97a874.jpg
+  type: unspecified

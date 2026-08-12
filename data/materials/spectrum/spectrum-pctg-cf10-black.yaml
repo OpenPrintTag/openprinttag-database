@@ -12,5 +12,13 @@ primary_color:
 tags:
 - contains_carbon_fiber
 - abrasive
+- contains_carbon
 properties:
   density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 50
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pctg-cf10-black/spectrum-pctg-cf10-black-0-7aec23c8.jpg
+  type: unspecified
