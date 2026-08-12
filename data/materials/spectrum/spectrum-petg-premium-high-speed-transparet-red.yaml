@@ -6,11 +6,17 @@ name: PETG Premium High Speed Transparet Red
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://spectrumfilaments.com/en/filament/pet-g-premium-high-speed/
 primary_color:
   color_rgba: '#e72f1dff'
 tags:
 - high_speed
 - translucent
 properties:
-  density: 1.27
+  density: 1.29
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-petg-premium-high-speed-transparet-red/spectrum-petg-premium-high-speed-transparet-red-0-437a7c7f.jpg
+  type: unspecified
