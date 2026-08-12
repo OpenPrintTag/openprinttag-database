@@ -1,0 +1,21 @@
+uuid: 1964a214-27a2-5e9a-a63b-7849e09ca390
+slug: spectrum-pc-abs-fr-v0-white
+brand:
+  slug: spectrum
+name: PC/ABS FR V0 White
+class: FFF
+type: PC
+abbreviation: PC-ABS
+primary_color:
+  color_rgba: '#efefefff'
+tags:
+- self_extinguishing
+properties:
+  density: 1.17
+  min_print_temperature: 240
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pc-abs-fr-v0-white/spectrum-pc-abs-fr-v0-white-0-dd3d3c3a.jpg
+  type: unspecified

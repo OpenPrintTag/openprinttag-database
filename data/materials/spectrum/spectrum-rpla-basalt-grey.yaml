@@ -11,6 +11,12 @@ primary_color:
   color_rgba: '#9c9d9dff'
 tags:
 - recycled
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 215
+  min_bed_temperature: 40
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-rpla-basalt-grey/spectrum-rpla-basalt-grey-0-494cf270.jpg
+  type: unspecified

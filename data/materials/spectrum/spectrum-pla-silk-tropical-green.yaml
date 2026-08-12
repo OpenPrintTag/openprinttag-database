@@ -11,6 +11,12 @@ primary_color:
   color_rgba: '#4e7642ff'
 tags:
 - silk
-- industrially_compostable
 properties:
-  density: 1.24
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-silk-tropical-green/spectrum-pla-silk-tropical-green-0-2fd63e07.jpg
+  type: unspecified

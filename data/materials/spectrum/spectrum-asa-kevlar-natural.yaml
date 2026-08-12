@@ -6,12 +6,19 @@ name: ASA Kevlar Natural
 class: FFF
 type: ASA
 abbreviation: ASA
-url: https://spectrumfilaments.com/en/filament/asa-kevlar/
 primary_color:
   color_rgba: '#f1e6b2ff'
 tags:
 - contains_kevlar
 - abrasive
 - without_pigments
+- filtration_recommended
 properties:
   density: 1.07
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-asa-kevlar-natural/spectrum-asa-kevlar-natural-0-2df5e0f2.jpg
+  type: unspecified

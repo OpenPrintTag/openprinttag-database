@@ -6,10 +6,15 @@ name: PLA Premium Dark Grey
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
   color_rgba: '#6f727eff'
 tags:
 - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-premium-dark-grey/spectrum-pla-premium-dark-grey-0-c476179a.jpg
+  type: unspecified
