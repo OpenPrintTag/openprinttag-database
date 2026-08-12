@@ -13,3 +13,10 @@ tags:
 - high_temperature
 properties:
   density: 1.18
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-ht100-pure-white/spectrum-pet-g-ht100-pure-white-0-9b2b44af.jpg
+  type: unspecified

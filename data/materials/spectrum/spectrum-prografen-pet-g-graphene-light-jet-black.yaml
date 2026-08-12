@@ -1,0 +1,21 @@
+uuid: 99676e7e-1b87-5b03-840c-29129637c64b
+slug: spectrum-prografen-pet-g-graphene-light-jet-black
+brand:
+  slug: spectrum
+name: Prografen PET-G Graphene Light Jet Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- contains_graphene
+- contains_carbon
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 265
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-prografen-pet-g-graphene-light-jet-black/spectrum-prografen-pet-g-graphene-light-jet-black-0-51590960.jpg
+  type: unspecified

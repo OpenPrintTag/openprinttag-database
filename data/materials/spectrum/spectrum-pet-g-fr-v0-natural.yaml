@@ -14,3 +14,10 @@ tags:
 - without_pigments
 properties:
   density: 1.26
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-fr-v0-natural/spectrum-pet-g-fr-v0-natural-0-7a466eb4.jpg
+  type: unspecified

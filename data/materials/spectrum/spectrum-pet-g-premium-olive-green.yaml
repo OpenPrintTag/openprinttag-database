@@ -11,3 +11,10 @@ primary_color:
   color_rgba: '#737254ff'
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-premium-olive-green/spectrum-pet-g-premium-olive-green-0-5e3fe415.jpg
+  type: unspecified
