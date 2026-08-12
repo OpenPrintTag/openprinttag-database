@@ -6,11 +6,14 @@ name: ASA Kevlar Black
 class: FFF
 type: ASA
 abbreviation: ASA
-url: https://spectrumfilaments.com/en/filament/asa-kevlar/
 primary_color:
   color_rgba: '#000000ff'
 tags:
 - contains_kevlar
 - abrasive
+- filtration_recommended
 properties:
   density: 1.07
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-asa-kevlar-black/spectrum-asa-kevlar-black-0-ecee8880.jpg
+  type: unspecified
