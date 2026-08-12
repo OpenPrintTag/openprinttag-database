@@ -11,3 +11,12 @@ primary_color:
   color_rgba: '#efe8d8ff'
 properties:
   density: 1.13
+  hardness_shore_d: 55.0
+  hardness_shore_a: 95.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-fx120-clear/spectrum-pet-g-fx120-clear-0-ca7b4dd2.jpg
+  type: unspecified

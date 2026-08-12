@@ -6,11 +6,19 @@ name: ASA Electrically Conductive Black
 class: FFF
 type: ASA
 abbreviation: ASA
-url: https://spectrumfilaments.com/en/filament/asa-electrically-conductive/
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- conductive
 - contains_carbon_nano_tubes
+- contains_carbon
+- conductive
+- filtration_recommended
 properties:
   density: 1.17
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-asa-electrically-conductive-black/spectrum-asa-electrically-conductive-black-0-92af9e22.jpg
+  type: unspecified
