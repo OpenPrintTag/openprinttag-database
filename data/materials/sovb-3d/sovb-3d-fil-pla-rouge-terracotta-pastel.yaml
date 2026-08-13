@@ -1,0 +1,20 @@
+uuid: 1c0fe6d6-8691-51d2-b24b-cc5c6c6d72d0
+slug: sovb-3d-fil-pla-rouge-terracotta-pastel
+brand:
+  slug: sovb-3d
+name: Fil PLA Rouge Terracotta pastel
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.sovb3d.fr/pla-175mm-standard-1kg/253-fil-pla-rouge-terracotta-pastel-175mm-1kg.html
+primary_color:
+  color_rgba: '#d8a895ff'
+tags:
+- translucent
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60
