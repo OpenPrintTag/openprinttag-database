@@ -11,3 +11,10 @@ primary_color:
   color_rgba: '#d8ba64ff'
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-premium-beige/spectrum-pet-g-premium-beige-0-0d1cbcc8.jpg
+  type: unspecified

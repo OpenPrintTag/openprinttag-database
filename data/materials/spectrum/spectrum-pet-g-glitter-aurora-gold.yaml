@@ -13,3 +13,10 @@ tags:
 - glitter
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-glitter-aurora-gold/spectrum-pet-g-glitter-aurora-gold-0-97ff6b99.jpg
+  type: unspecified

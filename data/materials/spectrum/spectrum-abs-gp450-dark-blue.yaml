@@ -6,10 +6,16 @@ name: ABS GP450™ Dark Blue
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://spectrumfilaments.com/en/filament/abs-gp450/
 primary_color:
   color_rgba: '#3b3f6bff'
 tags:
 - filtration_recommended
 properties:
   density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-abs-gp450-dark-blue/spectrum-abs-gp450-dark-blue-0-e575658f.jpg
+  type: unspecified
