@@ -1,0 +1,19 @@
+uuid: 18b77469-221f-58df-b559-d353b38c4ca3
+slug: spectrum-pp-white
+brand:
+  slug: spectrum
+name: PP White
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#ecece7ff'
+properties:
+  density: 0.89
+  min_print_temperature: 265
+  max_print_temperature: 295
+  min_bed_temperature: 95
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/spectrum-pp-white-0-5e3ecc5a.jpg
+    type: unspecified

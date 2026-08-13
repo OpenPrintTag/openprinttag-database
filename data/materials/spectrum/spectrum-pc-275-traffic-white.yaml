@@ -1,0 +1,19 @@
+uuid: 3b99f7b3-2ab7-5304-aaba-4124b8ac359d
+slug: spectrum-pc-275-traffic-white
+brand:
+  slug: spectrum
+name: PC 275 Traffic White
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#f0f1eaff'
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+  - url: /tmp/assets/spectrum-pc-275-traffic-white-0-af0c2c4c.jpg
+    type: unspecified

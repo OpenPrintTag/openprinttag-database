@@ -1,0 +1,21 @@
+uuid: 3af25f32-6c78-5e78-bbcd-506682336ef6
+slug: spectrum-pc-275-transparent-orange
+brand:
+  slug: spectrum
+name: PC 275 Transparent Orange
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#ff6244ff'
+tags:
+  - translucent
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+  - url: /tmp/assets/spectrum-pc-275-transparent-orange-0-07209538.jpg
+    type: unspecified

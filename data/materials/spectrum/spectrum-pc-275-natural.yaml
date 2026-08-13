@@ -1,0 +1,22 @@
+uuid: 45651f1f-6785-58e1-924f-853bae75ee54
+slug: spectrum-pc-275-natural
+brand:
+  slug: spectrum
+name: PC 275 Natural
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#d9dfe5ff'
+tags:
+  - translucent
+  - without_pigments
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+  - url: /tmp/assets/spectrum-pc-275-natural-0-600cb2aa.jpg
+    type: unspecified

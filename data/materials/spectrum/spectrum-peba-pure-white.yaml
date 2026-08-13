@@ -1,0 +1,18 @@
+uuid: 02886e33-7cd4-5635-bd02-932eebfb8ead
+slug: spectrum-peba-pure-white
+brand:
+  slug: spectrum
+name: PEBA Pure White
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#efefefff'
+properties:
+  density: 1.02
+  min_print_temperature: 200
+  max_print_temperature: 240
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-peba-pure-white-0-c6f577e4.jpg
+    type: unspecified

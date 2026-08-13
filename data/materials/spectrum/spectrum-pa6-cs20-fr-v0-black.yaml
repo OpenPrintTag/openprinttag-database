@@ -1,0 +1,22 @@
+uuid: 8b692abe-eaf3-5a58-917d-904563c2d351
+slug: spectrum-pa6-cs20-fr-v0-black
+brand:
+  slug: spectrum
+name: PA6 CS20 FR V0 Black
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#3f4444ff'
+tags:
+  - self_extinguishing
+  - filtration_recommended
+properties:
+  density: 1.49
+  min_print_temperature: 265
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/spectrum-pa6-cs20-fr-v0-black-0-7a933bca.jpg
+    type: unspecified

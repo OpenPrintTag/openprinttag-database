@@ -1,0 +1,21 @@
+uuid: 402a80c4-edb3-57a0-b6d1-d4450bf5cfc8
+slug: spectrum-pc-275-transparent-blue
+brand:
+  slug: spectrum
+name: PC 275 Transparent Blue
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#2941bdff'
+tags:
+  - translucent
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+  - url: /tmp/assets/spectrum-pc-275-transparent-blue-0-ad10087a.jpg
+    type: unspecified

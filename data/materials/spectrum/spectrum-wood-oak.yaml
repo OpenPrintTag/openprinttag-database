@@ -1,0 +1,20 @@
+uuid: 03856a33-a029-5cac-92db-5ac3b38ea7f5
+slug: spectrum-wood-oak
+brand:
+  slug: spectrum
+name: WOOD Oak
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d4b6a3ff'
+tags:
+  - contains_wood
+properties:
+  density: 1.15
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-wood-oak-0-4d407944.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 1da2469f-8b8b-5be6-b8b6-040d342eb79c
+slug: spectrum-pc-cf-carbon-black
+brand:
+  slug: spectrum
+name: PC CF Carbon Black
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#16161aff'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.22
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 130
+photos:
+  - url: /tmp/assets/spectrum-pc-cf-carbon-black-0-6af4546d.jpg
+    type: unspecified

@@ -1,0 +1,20 @@
+uuid: bba6fde4-7cb6-5fe0-9d17-bb8701a08e02
+slug: spectrum-wood-ebony-black
+brand:
+  slug: spectrum
+name: WOOD Ebony Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#43403dff'
+tags:
+  - contains_wood
+properties:
+  density: 1.15
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/spectrum-wood-ebony-black-0-037db5a1.jpg
+    type: unspecified

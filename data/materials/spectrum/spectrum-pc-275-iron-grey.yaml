@@ -1,0 +1,19 @@
+uuid: 5d6d31fb-e73a-5cb7-a9ed-46e308e2c5b2
+slug: spectrum-pc-275-iron-grey
+brand:
+  slug: spectrum
+name: PC 275 Iron Grey
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#4c5051ff'
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+  - url: /tmp/assets/spectrum-pc-275-iron-grey-0-5ed62dc1.jpg
+    type: unspecified

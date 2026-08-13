@@ -1,0 +1,18 @@
+uuid: fb114213-e4c3-5305-9ea4-d7683d6310fb
+slug: spectrum-peba-pure-red
+brand:
+  slug: spectrum
+name: PEBA Pure Red
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#cc393fff'
+properties:
+  density: 1.02
+  min_print_temperature: 200
+  max_print_temperature: 240
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/spectrum-peba-pure-red-0-4374e408.jpg
+    type: unspecified
