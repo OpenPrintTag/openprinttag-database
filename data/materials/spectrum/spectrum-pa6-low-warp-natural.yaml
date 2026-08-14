@@ -10,5 +10,13 @@ primary_color:
   color_rgba: '#dfdfd3ff'
 tags:
 - without_pigments
+- filtration_recommended
 properties:
   density: 1.15
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 85
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pa6-low-warp-natural/spectrum-pa6-low-warp-natural-0-d8c89d85.jpg
+  type: unspecified

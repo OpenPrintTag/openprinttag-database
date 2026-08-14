@@ -1,0 +1,21 @@
+uuid: 725961bc-3b90-51ca-896a-9a46572e86e4
+slug: spectrum-pps-am230-natural
+brand:
+  slug: spectrum
+name: PPS AM230™ Natural
+class: FFF
+type: PPS
+abbreviation: PPS
+primary_color:
+  color_rgba: '#50483dff'
+tags:
+- high_temperature
+properties:
+  density: 1.33
+  min_print_temperature: 300
+  max_print_temperature: 330
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pps-am230-natural/spectrum-pps-am230-natural-0-3d870955.jpg
+  type: unspecified

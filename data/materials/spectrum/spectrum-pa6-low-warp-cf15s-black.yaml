@@ -1,0 +1,24 @@
+uuid: 66832c9f-8a35-59e9-9b71-0e15b2e1cb61
+slug: spectrum-pa6-low-warp-cf15s-black
+brand:
+  slug: spectrum
+name: PA6 Low Warp CF15S Black
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#0f1314ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.18
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pa6-low-warp-cf15s-black/spectrum-pa6-low-warp-cf15s-black-0-6294ce2f.jpg
+  type: unspecified
