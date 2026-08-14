@@ -1,0 +1,8 @@
+slug: sovb-3d-fil-pla-blanc-10000-spool
+class: FFF
+material:
+  slug: sovb-3d-fil-pla-blanc
+nominal_netto_full_weight: 10000
+container:
+  slug: sovb-3d-spool-10kg
+filament_diameter: 1750
