@@ -1,13 +1,13 @@
-uuid: 6e4b74e1-6d97-5acc-ac27-910d7553fd7d
-slug: sovb-3d-fil-pla-bleu-nacr-alumine
+uuid: 82e88bcc-e531-5f2c-9bec-d94d05df3c65
+slug: sovb-3d-fil-pla-vert-nacre-alumine
 brand:
   slug: sovb-3d
-name: Fil PLA Bleu Nacré Alumine
+name: Fil PLA Vert Nacré Alumine
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#2941bdff'
+  color_rgba: '#23668cff'
 tags:
 - contains_aluminium
 - abrasive

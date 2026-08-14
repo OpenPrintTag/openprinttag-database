@@ -1,16 +1,14 @@
-uuid: 1981b463-9c20-52a7-8885-8afb8b5f73ee
-slug: sovb-3d-fil-pla-beige-nacr-alumine
+uuid: f4d99bd5-9b34-5799-a22b-37e84f2b1abf
+slug: sovb-3d-fil-pla-noir-bleute
 brand:
   slug: sovb-3d
-name: Fil PLA Beige Nacré Alumine
+name: Fil PLA Noir Bleuté
 class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#e9cb9bff'
+  color_rgba: '#232834ff'
 tags:
-- contains_aluminium
-- abrasive
 - industrially_compostable
 properties:
   density: 1.24
