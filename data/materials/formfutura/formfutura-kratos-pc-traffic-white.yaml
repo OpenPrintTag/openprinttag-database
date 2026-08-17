@@ -9,6 +9,11 @@ abbreviation: PC
 primary_color:
   color_rgba: '#ffffffff'
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-kratos-pc-traffic-white/3e05b01ff9a9.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-kratos-pc-traffic-white/3e05b01ff9a9.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 290
+  max_print_temperature: 320
+  min_bed_temperature: 100
+  max_bed_temperature: 130

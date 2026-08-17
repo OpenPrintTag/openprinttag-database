@@ -9,9 +9,16 @@ abbreviation: PP
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-centaur-pp-white/39dded17d6bf.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-centaur-pp-white/39dded17d6bf.png
+    type: unspecified
+properties:
+  density: 0.89
+  min_print_temperature: 245
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 1440

@@ -9,6 +9,11 @@ abbreviation: PC
 primary_color:
   color_rgba: '#4c5051ff'
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-kratos-pc-iron-grey/67f0e7f254e0.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-kratos-pc-iron-grey/67f0e7f254e0.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 290
+  max_print_temperature: 320
+  min_bed_temperature: 100
+  max_bed_temperature: 130

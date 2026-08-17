@@ -9,9 +9,15 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#8c7547ff'
 tags:
-- contains_wood
-- industrially_compostable
+  - contains_wood
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-easywood-olive/98fc5fecd3f4.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-easywood-olive/98fc5fecd3f4.png
+    type: unspecified
+properties:
+  density: 1.15
+  min_print_temperature: 190
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 360

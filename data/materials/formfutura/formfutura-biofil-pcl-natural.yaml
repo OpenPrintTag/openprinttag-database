@@ -9,9 +9,14 @@ abbreviation: PCL
 primary_color:
   color_rgba: '#d9d8deff'
 tags:
-- without_pigments
-- home_compostable
+  - home_compostable
+  - without_pigments
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-biofil-pcl-natural/05b88ba209e5.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-biofil-pcl-natural/05b88ba209e5.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 95
+  max_print_temperature: 130
+  min_bed_temperature: 40
+  max_bed_temperature: 50

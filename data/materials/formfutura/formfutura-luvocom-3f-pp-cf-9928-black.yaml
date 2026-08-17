@@ -9,9 +9,17 @@ abbreviation: PP
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-luvocom-3f-pp-cf-9928-black/ae857ae37e66.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-luvocom-3f-pp-cf-9928-black/ae857ae37e66.png
+    type: unspecified
+properties:
+  density: 1.0
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 80
+  drying_time: 360

@@ -9,10 +9,11 @@ abbreviation: PCTG
 primary_color:
   color_rgba: '#f2efe9ff'
 tags:
-- contains_glass_fiber
-- without_pigments
-- abrasive
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - without_pigments
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-athena-gf10-natural/55d767d89772.png
-  type: unspecified
+  - url: https://files.openprinttag.org/formfutura/formfutura-athena-gf10-natural/55d767d89772.png
+    type: unspecified
 properties: {}
