@@ -4,7 +4,6 @@ brand:
   slug: formfutura
 name: ReForm – rPET Red
 class: FFF
-type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e72f1dff'
@@ -18,4 +17,6 @@ properties:
   min_print_temperature: 230
   max_print_temperature: 255
   min_bed_temperature: 60
-  max_bed_temperature: 720
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 720
