@@ -1,0 +1,19 @@
+uuid: fd29b02e-fe42-5c74-b331-4267ae97633b
+slug: sovb-3d-fil-pla-violet-pastel
+brand:
+  slug: sovb-3d
+name: Fil PLA Violet pastel
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c8a8d8ff'
+tags:
+- translucent
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

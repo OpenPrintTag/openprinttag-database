@@ -1,0 +1,19 @@
+uuid: c4d6f478-0924-531a-92f0-0f5ade813610
+slug: sovb-3d-fil-pla-bleu-pastel
+brand:
+  slug: sovb-3d
+name: Fil PLA Bleu pastel
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a8c8f0ff'
+tags:
+- translucent
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

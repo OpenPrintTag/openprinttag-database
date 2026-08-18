@@ -1,0 +1,19 @@
+uuid: 251b7a88-abbf-5242-8fba-75fab2451b63
+slug: sovb-3d-fil-pla-rose-pastel
+brand:
+  slug: sovb-3d
+name: Fil PLA Rose pastel
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffc6d9ff'
+tags:
+- translucent
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60
