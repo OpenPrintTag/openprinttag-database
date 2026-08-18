@@ -1,0 +1,28 @@
+uuid: 85c0f6f6-c2ed-51b1-a856-948d749dcbcf
+slug: siraya-tech-fibreheart-abs-ht-hf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart ABS HT HF Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- high_speed
+- high_temperature
+- filtration_recommended
+properties:
+  density: 1.05
+  hardness_shore_d: 78.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 70
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-abs-ht-hf-black/siraya-tech-fibreheart-abs-ht-hf-black-0-381a8151.jpg
+  type: unspecified

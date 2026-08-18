@@ -1,0 +1,22 @@
+uuid: 272c82d9-b7f0-5f3c-9232-ada41ddaf8d1
+slug: siraya-tech-flex-tpu-85a-green
+brand:
+  slug: siraya-tech
+name: Flex TPU 85A Green
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#a0fd62ff'
+properties:
+  density: 1.16
+  hardness_shore_a: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 225
+  min_bed_temperature: 20
+  max_bed_temperature: 50
+  drying_temperature: 65
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-85a-green/siraya-tech-flex-tpu-85a-green-0-2c4df000.jpg
+  type: unspecified

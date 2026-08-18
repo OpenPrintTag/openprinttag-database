@@ -1,0 +1,26 @@
+uuid: ed5b92fe-0713-53f5-9a78-fd9f221c4eba
+slug: siraya-tech-fibreheart-tpu-gf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart™ TPU-GF Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.32
+  hardness_shore_d: 67.0
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-tpu-gf-black/siraya-tech-fibreheart-tpu-gf-black-0-54bd1cb5.jpg
+  type: unspecified

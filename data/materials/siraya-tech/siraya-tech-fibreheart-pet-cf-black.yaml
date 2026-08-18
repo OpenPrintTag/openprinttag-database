@@ -1,0 +1,25 @@
+uuid: 8965c766-9dda-5f43-9185-6e96867d0b5f
+slug: siraya-tech-fibreheart-pet-cf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart PET-CF Black
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#595959ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.3
+  min_print_temperature: 280
+  max_print_temperature: 320
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 90
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-pet-cf-black/siraya-tech-fibreheart-pet-cf-black-0-8090d699.jpg
+  type: unspecified
