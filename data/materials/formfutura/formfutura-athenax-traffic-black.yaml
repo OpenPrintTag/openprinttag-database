@@ -1,0 +1,19 @@
+uuid: 8556aab6-994b-548d-af8b-74385d26f8df
+slug: formfutura-athenax-traffic-black
+brand:
+  slug: formfutura
+name: AthenaX Traffic Black
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 85
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-athenax-traffic-black/formfutura-athenax-traffic-black-0-b8cdde83.png
+  type: unspecified

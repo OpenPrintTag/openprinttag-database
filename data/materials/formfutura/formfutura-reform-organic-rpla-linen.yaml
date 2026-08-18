@@ -1,0 +1,22 @@
+uuid: cbbcd58a-d008-5010-b2f5-5086f15cdf9f
+slug: formfutura-reform-organic-rpla-linen
+brand:
+  slug: formfutura
+name: ReForm - Organic rPLA Linen
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dc9c43ff'
+tags:
+- recycled
+- contains_organic_material
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-reform-organic-rpla-linen/formfutura-reform-organic-rpla-linen-0-21e35e38.jpg
+  type: unspecified

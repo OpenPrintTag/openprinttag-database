@@ -1,0 +1,21 @@
+uuid: 04a885f5-3765-5839-863d-228621f1b713
+slug: formfutura-pla-light-blue
+brand:
+  slug: formfutura
+name: PLA Light Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0074bcff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-light-blue/formfutura-pla-light-blue-0-ce537eb8.jpg
+  type: unspecified

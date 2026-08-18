@@ -1,0 +1,18 @@
+uuid: f784fee9-099b-51bd-bb4b-5673b6a62731
+slug: formfutura-volcano-pla-black
+brand:
+  slug: formfutura
+name: Volcano PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 255
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-volcano-pla-black/formfutura-volcano-pla-black-0-d1727651.png
+  type: unspecified

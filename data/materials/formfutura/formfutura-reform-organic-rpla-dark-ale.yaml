@@ -1,0 +1,22 @@
+uuid: 312b53c8-9f8f-533d-92a8-763858d16218
+slug: formfutura-reform-organic-rpla-dark-ale
+brand:
+  slug: formfutura
+name: ReForm - Organic rPLA Dark Ale
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#946f4aff'
+tags:
+- recycled
+- contains_organic_material
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-reform-organic-rpla-dark-ale/formfutura-reform-organic-rpla-dark-ale-0-aa37a03f.jpg
+  type: unspecified

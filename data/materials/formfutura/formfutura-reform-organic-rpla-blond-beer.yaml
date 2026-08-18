@@ -1,0 +1,22 @@
+uuid: 7e20a238-2a57-57bb-b26c-38efa390f400
+slug: formfutura-reform-organic-rpla-blond-beer
+brand:
+  slug: formfutura
+name: ReForm - Organic rPLA Blond Beer
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c3a741ff'
+tags:
+- recycled
+- contains_organic_material
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-reform-organic-rpla-blond-beer/formfutura-reform-organic-rpla-blond-beer-0-517fe7d0.jpg
+  type: unspecified

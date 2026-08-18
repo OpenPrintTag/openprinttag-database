@@ -1,0 +1,23 @@
+uuid: 07dd39ba-8a63-5fec-917a-2659947ec4bb
+slug: formfutura-athenax-gf10-black
+brand:
+  slug: formfutura
+name: AthenaX GF10 Black
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.31
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 85
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-athenax-gf10-black/formfutura-athenax-gf10-black-0-bda1c245.jpg
+  type: unspecified

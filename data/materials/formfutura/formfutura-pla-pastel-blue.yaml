@@ -1,0 +1,21 @@
+uuid: b6d7df6c-ddf5-5355-a4e4-7629dd4f60fa
+slug: formfutura-pla-pastel-blue
+brand:
+  slug: formfutura
+name: PLA Pastel Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#92c1e9ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-pastel-blue/formfutura-pla-pastel-blue-0-6e19c40b.jpg
+  type: unspecified

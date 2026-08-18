@@ -9,10 +9,19 @@ abbreviation: PA6
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
-- high_temperature
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - high_temperature
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-luvocom-3f-paht-cf-9891-black/601c19e1dbed.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-luvocom-3f-paht-cf-9891-black/601c19e1dbed.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 260
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+  drying_time: 720

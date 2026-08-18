@@ -1,0 +1,23 @@
+uuid: 2289306e-13a2-53a4-9524-77050df68efd
+slug: formfutura-petg-clear
+brand:
+  slug: formfutura
+name: PETG Clear
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e9e7e7ff'
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 80
+  drying_temperature: 45
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-petg-clear/formfutura-petg-clear-0-608f2b84.jpg
+  type: unspecified

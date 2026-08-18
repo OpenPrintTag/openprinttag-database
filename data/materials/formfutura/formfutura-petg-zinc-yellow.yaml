@@ -1,0 +1,21 @@
+uuid: cb128938-3ffe-5852-a93b-8452e6baad50
+slug: formfutura-petg-zinc-yellow
+brand:
+  slug: formfutura
+name: PETG Zinc Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f4ee2aff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 80
+  drying_temperature: 45
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-petg-zinc-yellow/formfutura-petg-zinc-yellow-0-d93f7e55.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 330ccb26-726e-5d33-9c84-59e554d5f7e0
+slug: formfutura-petg-traffic-red
+brand:
+  slug: formfutura
+name: PETG Traffic Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#cc0201ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 80
+  drying_temperature: 45
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-petg-traffic-red/formfutura-petg-traffic-red-0-add3341f.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 4b221de6-f0fe-566f-9a01-90e1f8997fab
+slug: formfutura-pla-natural
+brand:
+  slug: formfutura
+name: PLA Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f3d1ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-natural/formfutura-pla-natural-0-27cd47a4.jpg
+  type: unspecified
