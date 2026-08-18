@@ -1,0 +1,21 @@
+uuid: ff35afa9-775b-5c23-8ccd-bfa4d22f85f2
+slug: formfutura-volcano-pla-150c-traffic-black
+brand:
+  slug: formfutura
+name: Volcano PLA 150C Traffic Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- high_temperature
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-volcano-pla-150c-traffic-black/formfutura-volcano-pla-150c-traffic-black-0-bbc02e68.jpg
+  type: unspecified

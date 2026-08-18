@@ -1,0 +1,23 @@
+uuid: 0086e3c3-b123-58a5-8501-785b10d23046
+slug: formfutura-transparent-pla-grapefruit
+brand:
+  slug: formfutura
+name: Transparent PLA Grapefruit
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ef6063ff'
+tags:
+- translucent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 55
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-transparent-pla-grapefruit/formfutura-transparent-pla-grapefruit-0-bcf6480c.jpg
+  type: unspecified

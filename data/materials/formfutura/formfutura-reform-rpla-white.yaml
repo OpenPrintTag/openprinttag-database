@@ -9,8 +9,15 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-reform-rpla-white/38118b215a2c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-reform-rpla-white/38118b215a2c.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 215
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 360

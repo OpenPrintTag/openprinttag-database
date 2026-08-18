@@ -1,0 +1,26 @@
+uuid: 36939421-b820-570a-905f-6a2bd73d7a0d
+slug: formfutura-high-gloss-pla-colormorph-yellow-and-pink
+brand:
+  slug: formfutura
+name: High Gloss PLA ColorMorph Yellow & Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f79dbcff'
+- color_rgba: '#fce575ff'
+tags:
+- iridescent
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-high-gloss-pla-colormorph-yellow-and-pink/formfutura-high-gloss-pla-colormorph-yellow-and-pink-0-231ae986.png
+  type: unspecified
