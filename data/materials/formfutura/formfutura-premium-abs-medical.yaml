@@ -1,0 +1,24 @@
+uuid: 883b1241-839a-5c44-9423-f81b281316b1
+slug: formfutura-premium-abs-medical
+brand:
+  slug: formfutura
+name: Premium ABS Medical
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f7e2c1ff'
+tags:
+- biocompatible
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 235
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 85
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-premium-abs-medical/formfutura-premium-abs-medical-0-a5ef2e09.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: c7d6ff8e-cfff-59f6-86ea-2523ccc37643
+slug: formfutura-reform-rtpu-90a-traffic-black
+brand:
+  slug: formfutura
+name: ReForm - rTPU 90A Traffic Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- recycled
+properties:
+  density: 1.21
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 70
+  drying_time: 1440
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-reform-rtpu-90a-traffic-black/formfutura-reform-rtpu-90a-traffic-black-0-06b3712b.jpg
+  type: unspecified
