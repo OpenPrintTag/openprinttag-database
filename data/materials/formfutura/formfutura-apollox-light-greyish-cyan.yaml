@@ -1,0 +1,22 @@
+uuid: 9d0bafa2-6f05-52e0-afab-94a661047b63
+slug: formfutura-apollox-light-greyish-cyan
+brand:
+  slug: formfutura
+name: ApolloX Light Greyish Cyan
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#e8ebebff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.11
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  chamber_temperature: 40
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-apollox-light-greyish-cyan/formfutura-apollox-light-greyish-cyan-0-fe129fb7.jpg
+  type: unspecified

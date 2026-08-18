@@ -1,0 +1,21 @@
+uuid: 7e410903-1f1d-5fe7-8a86-f44e8c7b61cd
+slug: formfutura-volcano-pla-150c-light-grey
+brand:
+  slug: formfutura
+name: Volcano PLA 150C Light Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cbd0ccff'
+tags:
+- high_temperature
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-volcano-pla-150c-light-grey/formfutura-volcano-pla-150c-light-grey-0-d6f0731d.jpg
+  type: unspecified

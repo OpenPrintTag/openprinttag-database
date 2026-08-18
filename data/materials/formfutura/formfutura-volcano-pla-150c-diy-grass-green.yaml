@@ -1,0 +1,21 @@
+uuid: 07c0fd84-8dd9-5280-a016-dfa432a9ddbb
+slug: formfutura-volcano-pla-150c-diy-grass-green
+brand:
+  slug: formfutura
+name: Volcano PLA 150C DIY Grass Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#006634ff'
+tags:
+- high_temperature
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-volcano-pla-150c-diy-grass-green/formfutura-volcano-pla-150c-diy-grass-green-0-4a33b57c.jpg
+  type: unspecified

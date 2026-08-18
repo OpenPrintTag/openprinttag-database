@@ -10,4 +10,9 @@ primary_color:
   color_rgba: '#f9f3e5ff'
 tags:
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.03
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 100

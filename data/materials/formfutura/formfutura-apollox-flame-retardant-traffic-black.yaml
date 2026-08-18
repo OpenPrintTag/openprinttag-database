@@ -1,0 +1,22 @@
+uuid: 8fb74fd4-290c-5dc1-85c5-8bfdeaff48db
+slug: formfutura-apollox-flame-retardant-traffic-black
+brand:
+  slug: formfutura
+name: ApolloX Flame Retardant Traffic Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- self_extinguishing
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-apollox-flame-retardant-traffic-black/formfutura-apollox-flame-retardant-traffic-black-0-d53ae243.jpg
+  type: unspecified

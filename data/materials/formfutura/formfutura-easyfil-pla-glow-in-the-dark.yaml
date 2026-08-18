@@ -9,10 +9,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#00c26bff'
 tags:
-- glow_in_the_dark
-- abrasive
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-easyfil-pla-glow-in-the-dark/533f3207b215.png
-  type: unspecified
+  - url: https://files.openprinttag.org/formfutura/formfutura-easyfil-pla-glow-in-the-dark/533f3207b215.png
+    type: unspecified
 properties: {}
+secondary_colors:
+  - color_rgba: '#00c26bff'
+  - color_rgba: '#e5f1eaff'

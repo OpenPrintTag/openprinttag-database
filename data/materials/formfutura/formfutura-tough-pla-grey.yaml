@@ -9,8 +9,15 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#727376ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-tough-pla-grey/027d723a4383.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-tough-pla-grey/027d723a4383.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 360

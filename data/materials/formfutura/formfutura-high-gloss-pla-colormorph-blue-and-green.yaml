@@ -1,0 +1,26 @@
+uuid: 91137ecc-ba33-56a4-9451-81d25c06104c
+slug: formfutura-high-gloss-pla-colormorph-blue-and-green
+brand:
+  slug: formfutura
+name: High Gloss PLA ColorMorph Blue & Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#005da4ff'
+- color_rgba: '#008059ff'
+tags:
+- iridescent
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-high-gloss-pla-colormorph-blue-and-green/formfutura-high-gloss-pla-colormorph-blue-and-green-0-dcc8cc8e.png
+  type: unspecified

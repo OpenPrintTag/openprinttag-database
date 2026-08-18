@@ -1,0 +1,29 @@
+uuid: f8b70dd7-89e9-5a6a-94e7-6f676ce4d5b2
+slug: siraya-tech-fibreheart-asa-gf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart ASA-GF Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.1
+  hardness_shore_d: 81.0
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-asa-gf-black/siraya-tech-fibreheart-asa-gf-black-0-c87fd0b2.jpg
+  type: unspecified

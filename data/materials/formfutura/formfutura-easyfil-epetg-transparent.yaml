@@ -9,8 +9,13 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#d9d8deff'
 tags:
-- transparent
+  - transparent
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-easyfil-epetg-transparent/4db5b73b7bc3.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-easyfil-epetg-transparent/4db5b73b7bc3.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 235
+  max_print_temperature: 275
+  min_bed_temperature: 70
+  max_bed_temperature: 90
