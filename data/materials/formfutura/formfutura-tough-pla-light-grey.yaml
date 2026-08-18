@@ -1,0 +1,18 @@
+uuid: 8c5b4ecc-bc5b-5263-8579-8bd893323ec9
+slug: formfutura-tough-pla-light-grey
+brand:
+  slug: formfutura
+name: Tough PLA Light Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d1d1d1ff'
+properties:
+  density: 1.2
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 360

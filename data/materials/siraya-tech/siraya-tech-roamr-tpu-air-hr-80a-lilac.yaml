@@ -1,0 +1,24 @@
+uuid: 95cc1c0e-7824-532b-8b0e-c5003939990c
+slug: siraya-tech-roamr-tpu-air-hr-80a-lilac
+brand:
+  slug: siraya-tech
+name: Roamr TPU Air HR 80A Lilac
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#b967cdff'
+tags:
+- foaming
+properties:
+  density: 1.05
+  hardness_shore_a: 80.0
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 35
+  max_bed_temperature: 50
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-roamr-tpu-air-hr-80a-lilac/siraya-tech-roamr-tpu-air-hr-80a-lilac-0-7d604c0f.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 15507a00-8274-56c0-9f28-355972d6a9fb
+slug: formfutura-matt-pla-medium-grey
+brand:
+  slug: formfutura
+name: Matt PLA Medium Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bcbabbff'
+tags:
+- matte
+properties:
+  density: 1.38
+  min_print_temperature: 215
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-matt-pla-medium-grey/formfutura-matt-pla-medium-grey-0-4efc22f6.jpg
+  type: unspecified

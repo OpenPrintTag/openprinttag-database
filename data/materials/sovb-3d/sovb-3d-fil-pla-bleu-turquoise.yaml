@@ -8,6 +8,12 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#39b9dbff'
+  color_ral: '5018'
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

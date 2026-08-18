@@ -1,0 +1,29 @@
+uuid: e051ffcc-dd38-50ad-9b37-7c5430226626
+slug: siraya-tech-fibreheart-asa-gf-white
+brand:
+  slug: siraya-tech
+name: Fibreheart ASA-GF White
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#fafafaff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.1
+  hardness_shore_d: 81.0
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-asa-gf-white/siraya-tech-fibreheart-asa-gf-white-0-a39328a6.jpg
+  type: unspecified

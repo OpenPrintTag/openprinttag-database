@@ -1,0 +1,24 @@
+uuid: 54933250-5aec-5a2d-9d04-e8cdad3ca06f
+slug: siraya-tech-roamr-tpu-air-hr-80a-noir
+brand:
+  slug: siraya-tech
+name: Roamr TPU Air HR 80A Noir
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#2f2e30ff'
+tags:
+- foaming
+properties:
+  density: 1.05
+  hardness_shore_a: 80.0
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 35
+  max_bed_temperature: 50
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-roamr-tpu-air-hr-80a-noir/siraya-tech-roamr-tpu-air-hr-80a-noir-0-73deb4b7.jpg
+  type: unspecified

@@ -1,0 +1,19 @@
+uuid: 0de5ea05-9081-5658-8017-b431b92bb457
+slug: sovb-3d-fil-pla-jaune-pastel
+brand:
+  slug: sovb-3d
+name: Fil PLA Jaune pastel
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fff4a3ff'
+tags:
+- translucent
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60
