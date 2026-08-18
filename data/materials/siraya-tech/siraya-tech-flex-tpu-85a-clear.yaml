@@ -1,0 +1,24 @@
+uuid: 74a7d099-1cdc-52dc-ad5f-025f21879269
+slug: siraya-tech-flex-tpu-85a-clear
+brand:
+  slug: siraya-tech
+name: Flex TPU 85A Clear
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#efefefff'
+tags:
+- translucent
+properties:
+  density: 1.16
+  hardness_shore_a: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 225
+  min_bed_temperature: 20
+  max_bed_temperature: 50
+  drying_temperature: 65
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-85a-clear/siraya-tech-flex-tpu-85a-clear-0-280ad412.jpg
+  type: unspecified

@@ -1,0 +1,26 @@
+uuid: f6d207f8-b15e-5320-bee5-563cfae7e740
+slug: siraya-tech-fibreheart-ppa-cf-core-black
+brand:
+  slug: siraya-tech
+name: Fibreheart PPA-CF Core Black
+class: FFF
+type: PPA
+abbreviation: PPA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.23
+  min_print_temperature: 280
+  max_print_temperature: 320
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 100
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-ppa-cf-core-black/siraya-tech-fibreheart-ppa-cf-core-black-0-d5f046bf.jpg
+  type: unspecified

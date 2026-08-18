@@ -1,0 +1,25 @@
+uuid: 17f15e25-6b99-5e5d-b65f-a47eba9177b6
+slug: siraya-tech-fibreheart-pet-gf-flat-dark-earth
+brand:
+  slug: siraya-tech
+name: Fibreheart PET-GF Flat Dark Earth
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#737254ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.3
+  min_print_temperature: 300
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 120
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-pet-gf-flat-dark-earth/siraya-tech-fibreheart-pet-gf-flat-dark-earth-0-3ac4b800.jpg
+  type: unspecified
