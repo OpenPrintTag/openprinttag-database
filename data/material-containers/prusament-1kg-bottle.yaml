@@ -1,0 +1,10 @@
+uuid: 4cb76d11-4e01-400c-b6b3-9cc73fa1d570
+slug: prusament-1kg-bottle
+name: 1 kg bottle
+class: SLA
+brand:
+  slug: prusament-resin
+volumetric_capacity: 950
+empty_weight: 120
+connector:
+  uuid: 8f548063-56b7-5bd2-a536-77c2bb8956a5
