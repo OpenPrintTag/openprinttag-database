@@ -11,5 +11,7 @@ primary_color:
   color_rgba: '#e72f1dff'
 tags:
 - esd_safe
+- contains_glass_fiber
+- abrasive
 properties:
   density: 1.3
