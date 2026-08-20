@@ -12,4 +12,8 @@ primary_color:
 tags:
 - filtration_recommended
 - low_outgassing
-properties: {}
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110

@@ -9,4 +9,8 @@ abbreviation: ASA
 url: https://francofil.fr/en/product/filament-asa-gris/
 primary_color:
   color_rgba: '#6f727eff'
-properties: {}
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110

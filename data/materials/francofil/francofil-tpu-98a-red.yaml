@@ -10,4 +10,5 @@ url: https://francofil.fr/en/product/tpu-98a-rouge/
 primary_color:
   color_rgba: '#ec0000ff'
 properties:
-  hardness_shore_a: 98
+  min_print_temperature: 210
+  max_print_temperature: 240

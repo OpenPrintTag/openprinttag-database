@@ -13,5 +13,5 @@ tags:
 - transparent
 - without_pigments
 properties:
-  density: 1.21
-  hardness_shore_a: 95
+  min_print_temperature: 210
+  max_print_temperature: 240

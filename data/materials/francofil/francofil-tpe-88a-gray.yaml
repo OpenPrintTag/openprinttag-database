@@ -10,5 +10,5 @@ url: https://francofil.fr/en/product/tpe-88a-gris/
 primary_color:
   color_rgba: '#a2aaadff'
 properties:
-  density: 1.17
-  hardness_shore_a: 88
+  min_print_temperature: 210
+  max_print_temperature: 240
