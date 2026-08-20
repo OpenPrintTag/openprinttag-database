@@ -13,6 +13,7 @@ tags:
 - contains_metal
 - contains_ceramic
 - abrasive
+- biocompatible
 properties:
   min_print_temperature: 225
   max_print_temperature: 250
