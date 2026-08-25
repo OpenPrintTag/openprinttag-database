@@ -1,0 +1,23 @@
+uuid: d5c28581-2bbc-503f-be72-59b9e839545a
+slug: fiberlogy-fibersilk-pla-gold
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3b145ff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-gold/fiberlogy-fibersilk-pla-gold-0-4084f860.png
+  type: unspecified

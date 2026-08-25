@@ -1,0 +1,21 @@
+uuid: 774f5efc-dc69-5b10-8d4a-cf57b90d2551
+slug: fiberlogy-easy-pla-magenta
+brand:
+  slug: fiberlogy
+name: Easy PLA Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fe0193ff'
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-pla-magenta/fiberlogy-easy-pla-magenta-0-6ed2cf56.jpg
+  type: unspecified

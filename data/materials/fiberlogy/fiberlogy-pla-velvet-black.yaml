@@ -1,0 +1,21 @@
+uuid: ca21ffa4-25d2-5818-bf11-1c3c4addb143
+slug: fiberlogy-pla-velvet-black
+brand:
+  slug: fiberlogy
+name: PLA Velvet Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232323ff'
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-velvet-black/fiberlogy-pla-velvet-black-0-b58738cb.jpg
+  type: unspecified

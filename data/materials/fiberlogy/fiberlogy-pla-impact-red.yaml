@@ -1,0 +1,21 @@
+uuid: 6fba60de-3d82-5973-ba0f-1eb80f49d73f
+slug: fiberlogy-pla-impact-red
+brand:
+  slug: fiberlogy
+name: PLA Impact Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e20010ff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-red/fiberlogy-pla-impact-red-0-59e95068.png
+  type: unspecified

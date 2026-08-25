@@ -1,0 +1,23 @@
+uuid: fd136443-c4d6-51ec-ad23-47bf99ca94ed
+slug: fiberlogy-matte-pla-pastel-mint
+brand:
+  slug: fiberlogy
+name: Matte PLA Pastel Mint
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7be0d0ff'
+tags:
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-matte-pla-pastel-mint/fiberlogy-matte-pla-pastel-mint-0-4bbe1e15.jpg
+  type: unspecified

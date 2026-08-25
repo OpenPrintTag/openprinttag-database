@@ -1,0 +1,21 @@
+uuid: ae20300a-fe2a-54b4-acfe-6e614d88c4c8
+slug: fiberlogy-pla-impact-white
+brand:
+  slug: fiberlogy
+name: PLA Impact White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-white/fiberlogy-pla-impact-white-0-5365b939.png
+  type: unspecified

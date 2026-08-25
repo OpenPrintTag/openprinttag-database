@@ -1,0 +1,21 @@
+uuid: e2c97bfe-06a9-532a-8971-24ef2291e778
+slug: fiberlogy-easy-pla-skin-tone-1
+brand:
+  slug: fiberlogy
+name: Easy PLA Skin Tone 1
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e5c7bbff'
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-pla-skin-tone-1/fiberlogy-easy-pla-skin-tone-1-0-aecb0ea2.png
+  type: unspecified

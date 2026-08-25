@@ -1,0 +1,21 @@
+uuid: 5004bd07-cfab-5635-9f9f-52ca0d91dbac
+slug: fiberlogy-easy-pla-cyan
+brand:
+  slug: fiberlogy
+name: Easy PLA Cyan
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#006ec9ff'
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-pla-cyan/fiberlogy-easy-pla-cyan-0-eb6f2419.jpg
+  type: unspecified

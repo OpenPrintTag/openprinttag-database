@@ -1,0 +1,21 @@
+uuid: e778ab86-8500-54aa-b649-3ca202a13c50
+slug: fiberlogy-pla-mineral-natural
+brand:
+  slug: fiberlogy
+name: PLA Mineral Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddd4caff'
+properties:
+  density: 1.38
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-mineral-natural/fiberlogy-pla-mineral-natural-0-b4718e02.jpg
+  type: unspecified

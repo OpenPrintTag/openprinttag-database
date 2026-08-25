@@ -1,0 +1,21 @@
+uuid: 4863c8c8-c305-55ad-8f77-449fa616d291
+slug: fiberlogy-fibersatin-pla-green
+brand:
+  slug: fiberlogy
+name: FiberSatin PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#83e665ff'
+properties:
+  density: 1.2
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersatin-pla-green/fiberlogy-fibersatin-pla-green-0-8564d7b4.png
+  type: unspecified
