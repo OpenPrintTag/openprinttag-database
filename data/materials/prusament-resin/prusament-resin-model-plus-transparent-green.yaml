@@ -1,0 +1,20 @@
+uuid: 5c674c51-a746-560b-8fd3-ae75324fd426
+slug: prusament-resin-model-plus-transparent-green
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Transparent Green
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 581
+  viscosity_25c: 307
+  viscosity_40c: 100
+  viscosity_60c: 32
+primary_color:
+  color_rgba: '#00763cff'
+tags:
+- biocompatible
+- translucent
+- transparent

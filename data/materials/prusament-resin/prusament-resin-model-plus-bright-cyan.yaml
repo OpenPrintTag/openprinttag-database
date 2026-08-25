@@ -1,0 +1,18 @@
+uuid: 777197b7-1138-5831-9a63-8e8f4e80e0cf
+slug: prusament-resin-model-plus-bright-cyan
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Bright Cyan
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 524
+  viscosity_25c: 277
+  viscosity_40c: 90
+  viscosity_60c: 30
+primary_color:
+  color_rgba: '#007aa9ff'
+tags:
+- biocompatible
