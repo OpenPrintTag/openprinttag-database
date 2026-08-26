@@ -1,0 +1,21 @@
+uuid: 50640d89-08ef-5985-8f91-fea05184796c
+slug: fiberlogy-pla-mineral-black
+brand:
+  slug: fiberlogy
+name: PLA Mineral Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1d1d1dff'
+properties:
+  density: 1.38
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-mineral-black/fiberlogy-pla-mineral-black-0-9066abea.jpg
+  type: unspecified

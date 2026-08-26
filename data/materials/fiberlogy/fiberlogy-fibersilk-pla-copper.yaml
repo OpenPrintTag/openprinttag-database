@@ -1,0 +1,23 @@
+uuid: 4707951c-9b4e-54ed-8150-767d5c18282b
+slug: fiberlogy-fibersilk-pla-copper
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c66547ff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-copper/fiberlogy-fibersilk-pla-copper-0-a6665ac3.png
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 234a0c24-78a2-56d7-9daf-f49f7f1b04a1
+slug: fiberlogy-fibersilk-pla-inox
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Inox
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bcbfc2ff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-inox/fiberlogy-fibersilk-pla-inox-0-6be1aded.png
+  type: unspecified

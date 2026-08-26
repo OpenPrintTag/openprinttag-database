@@ -1,0 +1,21 @@
+uuid: 421ed4d8-636c-5df4-89ea-f8cb087dd42c
+slug: fiberlogy-pla-impact-light-green
+brand:
+  slug: fiberlogy
+name: PLA Impact Light Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b3df3aff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-light-green/fiberlogy-pla-impact-light-green-0-9307aa7f.png
+  type: unspecified

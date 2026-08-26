@@ -1,0 +1,21 @@
+uuid: 3dbfd350-7e8e-54e7-a472-54cacbc6485b
+slug: fiberlogy-pla-impact-grey
+brand:
+  slug: fiberlogy
+name: PLA Impact Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c5c5bfff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-grey/fiberlogy-pla-impact-grey-0-8b3370b0.png
+  type: unspecified

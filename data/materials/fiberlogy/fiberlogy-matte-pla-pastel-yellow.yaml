@@ -1,0 +1,23 @@
+uuid: f6ac7a00-403a-5215-a39a-2eab4d815e5d
+slug: fiberlogy-matte-pla-pastel-yellow
+brand:
+  slug: fiberlogy
+name: Matte PLA Pastel Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7e2c1ff'
+tags:
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-matte-pla-pastel-yellow/fiberlogy-matte-pla-pastel-yellow-0-91497048.jpg
+  type: unspecified

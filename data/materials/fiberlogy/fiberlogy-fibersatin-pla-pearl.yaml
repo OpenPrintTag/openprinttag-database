@@ -1,0 +1,21 @@
+uuid: 59b43214-b06c-59a3-a56c-c1b525dad3b4
+slug: fiberlogy-fibersatin-pla-pearl
+brand:
+  slug: fiberlogy
+name: FiberSatin PLA Pearl
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f4ff'
+properties:
+  density: 1.2
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersatin-pla-pearl/fiberlogy-fibersatin-pla-pearl-0-ae183581.png
+  type: unspecified
