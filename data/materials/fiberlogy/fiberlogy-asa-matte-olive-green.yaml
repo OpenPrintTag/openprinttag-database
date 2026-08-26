@@ -1,0 +1,24 @@
+uuid: db263b5e-7341-5532-8f82-468965be3b85
+slug: fiberlogy-asa-matte-olive-green
+brand:
+  slug: fiberlogy
+name: ASA Matte Olive Green
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#606935ff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-matte-olive-green/fiberlogy-asa-matte-olive-green-0-08d963cd.png
+  type: unspecified

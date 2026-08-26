@@ -1,0 +1,21 @@
+uuid: e3475e15-403e-5f58-8d24-67b2ddd143a4
+slug: fiberlogy-easy-petg-yellow
+brand:
+  slug: fiberlogy
+name: Easy PETG Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fbe200ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-yellow/fiberlogy-easy-petg-yellow-0-8f8d4a88.png
+  type: unspecified

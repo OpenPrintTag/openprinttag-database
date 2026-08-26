@@ -1,0 +1,24 @@
+uuid: b0675c75-38b8-5efd-a5a5-66c42273453a
+slug: fiberlogy-asa-matte-graphite
+brand:
+  slug: fiberlogy
+name: ASA Matte Graphite
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#8c9099ff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-matte-graphite/fiberlogy-asa-matte-graphite-0-3a6c6e7e.png
+  type: unspecified

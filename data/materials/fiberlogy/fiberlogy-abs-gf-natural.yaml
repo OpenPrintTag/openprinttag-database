@@ -1,0 +1,26 @@
+uuid: e4a1a0dd-6cf9-5e23-b3fe-126380a9d7aa
+slug: fiberlogy-abs-gf-natural
+brand:
+  slug: fiberlogy
+name: ABS+GF Natural
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#eeeae6ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 270
+  max_print_temperature: 295
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-gf-natural/fiberlogy-abs-gf-natural-0-422219ee.jpg
+  type: unspecified

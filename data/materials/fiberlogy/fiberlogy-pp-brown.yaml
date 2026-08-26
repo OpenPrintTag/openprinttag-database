@@ -1,0 +1,19 @@
+uuid: c4cf4949-4969-5b52-9462-d8af9495ba78
+slug: fiberlogy-pp-brown
+brand:
+  slug: fiberlogy
+name: PP Brown
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#5d3b32ff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-brown/fiberlogy-pp-brown-0-002bb998.jpg
+  type: unspecified

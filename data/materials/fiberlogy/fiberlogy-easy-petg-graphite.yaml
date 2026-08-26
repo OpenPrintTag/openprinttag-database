@@ -1,0 +1,21 @@
+uuid: 554dba78-6214-5413-9739-75665c8ff41e
+slug: fiberlogy-easy-petg-graphite
+brand:
+  slug: fiberlogy
+name: Easy PETG Graphite
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#55555eff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-graphite/fiberlogy-easy-petg-graphite-0-405d6fc6.png
+  type: unspecified

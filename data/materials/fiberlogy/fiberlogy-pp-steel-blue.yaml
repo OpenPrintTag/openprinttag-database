@@ -1,0 +1,19 @@
+uuid: b4feb7df-071f-589c-b2e8-9abec757268f
+slug: fiberlogy-pp-steel-blue
+brand:
+  slug: fiberlogy
+name: PP Steel Blue
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#6992b6ff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-steel-blue/fiberlogy-pp-steel-blue-0-2ea7d343.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: e693ae79-19ce-59d1-8da1-46b83f6db4c0
+slug: fiberlogy-easy-petg-transparent-light-green
+brand:
+  slug: fiberlogy
+name: Easy PETG Transparent Light Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#91c500ff'
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-transparent-light-green/fiberlogy-easy-petg-transparent-light-green-0-7f460a82.png
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 03b14a06-1d2a-5b42-9371-d7567883abbd
+slug: fiberlogy-rpp-anthracite
+brand:
+  slug: fiberlogy
+name: rPP Anthracite
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#26272bff'
+tags:
+- recycled
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-rpp-anthracite/fiberlogy-rpp-anthracite-0-61af0fa2.png
+  type: unspecified

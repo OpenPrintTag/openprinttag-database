@@ -9,8 +9,18 @@ abbreviation: PEI
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- low_outgassing
+  - self_extinguishing
+  - high_temperature
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pei-9085-black/5d6666ed9e9f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-pei-9085-black/5d6666ed9e9f.png
+    type: unspecified
+properties:
+  density: 1.34
+  min_print_temperature: 350
+  max_print_temperature: 380
+  min_bed_temperature: 160
+  max_bed_temperature: 160
+  min_chamber_temperature: 80
+  drying_temperature: 120
+  drying_time: 360

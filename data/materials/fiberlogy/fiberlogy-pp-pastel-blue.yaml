@@ -1,0 +1,19 @@
+uuid: ce40402a-bc51-534e-ac68-82c152ed7777
+slug: fiberlogy-pp-pastel-blue
+brand:
+  slug: fiberlogy
+name: PP Pastel Blue
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#bed9ebff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-pastel-blue/fiberlogy-pp-pastel-blue-0-9efee102.jpg
+  type: unspecified

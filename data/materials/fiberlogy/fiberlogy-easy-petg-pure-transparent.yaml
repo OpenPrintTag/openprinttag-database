@@ -1,0 +1,23 @@
+uuid: cb7e626e-81d7-5ed0-9cbc-3e7483235f21
+slug: fiberlogy-easy-petg-pure-transparent
+brand:
+  slug: fiberlogy
+name: Easy PETG Pure Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e4e7e5ff'
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-pure-transparent/fiberlogy-easy-petg-pure-transparent-0-c3a690ef.png
+  type: unspecified

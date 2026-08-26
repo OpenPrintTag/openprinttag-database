@@ -9,6 +9,11 @@ abbreviation: PP
 primary_color:
   color_rgba: '#40b6e4ff'
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-blue/c7f7310f341c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-blue/c7f7310f341c.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240

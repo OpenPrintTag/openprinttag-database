@@ -1,0 +1,23 @@
+uuid: 4aa05b33-351e-537e-95f7-f56cdbeb5b2f
+slug: fiberlogy-easy-petg-transparent-burgundy
+brand:
+  slug: fiberlogy
+name: Easy PETG Transparent Burgundy
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#861d2bff'
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-transparent-burgundy/fiberlogy-easy-petg-transparent-burgundy-0-ac1f909c.png
+  type: unspecified

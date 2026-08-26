@@ -1,0 +1,25 @@
+uuid: f8440111-55c0-55b7-8009-f70292f1bfbf
+slug: fiberlogy-pctg-cf-black
+brand:
+  slug: fiberlogy
+name: PCTG+CF Black
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pctg-cf-black/fiberlogy-pctg-cf-black-0-2ecbb5cd.png
+  type: unspecified

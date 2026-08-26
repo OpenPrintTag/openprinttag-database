@@ -1,0 +1,21 @@
+uuid: 19914b2d-269d-58d5-8a09-c88e9f7d62ec
+slug: fiberlogy-easy-petg-pastel-mint
+brand:
+  slug: fiberlogy
+name: Easy PETG Pastel Mint
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#adebb3ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-pastel-mint/fiberlogy-easy-petg-pastel-mint-0-d900a4c2.png
+  type: unspecified

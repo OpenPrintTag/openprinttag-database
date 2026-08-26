@@ -1,0 +1,25 @@
+uuid: aaaa685b-7064-59d9-bb37-46d2688e8a7d
+slug: fiberlogy-cpe-ht-ag-antibac-natural
+brand:
+  slug: fiberlogy
+name: CPE HT+Ag Antibac Natural
+class: FFF
+type: CPE
+abbreviation: CPE
+primary_color:
+  color_rgba: '#eadac2ff'
+tags:
+- antibacterial
+- high_temperature
+- without_pigments
+properties:
+  density: 1.18
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 110
+  max_bed_temperature: 120
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-cpe-ht-ag-antibac-natural/fiberlogy-cpe-ht-ag-antibac-natural-0-50e2c093.png
+  type: unspecified

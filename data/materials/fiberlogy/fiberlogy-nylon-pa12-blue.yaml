@@ -1,14 +1,23 @@
-uuid: b553a483-bc89-557e-8ee8-4becf09ba2b4
+uuid: b7dc7713-8079-5c95-a3dc-99bd96761e9b
 slug: fiberlogy-nylon-pa12-blue
 brand:
   slug: fiberlogy
-name: Nylon PA12 blue
+name: Nylon PA12 Blue
 class: FFF
 type: PA12
 abbreviation: PA12
 primary_color:
   color_rgba: '#0099e6ff'
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-blue/09538c4dc09a.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-blue/09538c4dc09a.png
+    type: unspecified
+properties:
+  density: 1.01
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 240
+tags:
+  - filtration_recommended

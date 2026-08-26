@@ -1,0 +1,21 @@
+uuid: 9ddd4c3e-73ab-5bf0-a8b6-b96d10314df8
+slug: fiberlogy-easy-petg-blue
+brand:
+  slug: fiberlogy
+name: Easy PETG Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0099e6ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-blue/fiberlogy-easy-petg-blue-0-c25ad794.png
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 03bafbe5-0539-56c6-8cd4-630830971c36
+slug: fiberlogy-rnylon-anthracite
+brand:
+  slug: fiberlogy
+name: rNylon Anthracite
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#26272bff'
+tags:
+- recycled
+- filtration_recommended
+properties:
+  density: 1.01
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-rnylon-anthracite/fiberlogy-rnylon-anthracite-0-d624c52e.png
+  type: unspecified

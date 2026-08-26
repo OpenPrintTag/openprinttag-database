@@ -1,0 +1,23 @@
+uuid: cc53b779-1759-56ef-b3d9-975fc2a1f4b3
+slug: fiberlogy-petg-matte-graphite
+brand:
+  slug: fiberlogy
+name: PETG Matte Graphite
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#6f727eff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-graphite/fiberlogy-petg-matte-graphite-0-4ec37fc1.png
+  type: unspecified

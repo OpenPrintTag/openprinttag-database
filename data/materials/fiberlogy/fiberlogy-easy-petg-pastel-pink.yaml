@@ -1,0 +1,21 @@
+uuid: 455ae887-7a54-51cf-b4f4-c05d44472ed0
+slug: fiberlogy-easy-petg-pastel-pink
+brand:
+  slug: fiberlogy
+name: Easy PETG Pastel Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffcccdff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-pastel-pink/fiberlogy-easy-petg-pastel-pink-0-4e40fddb.png
+  type: unspecified
