@@ -1,0 +1,17 @@
+uuid: 93165438-fa29-500d-9c2c-8b0ce2e8dfd7
+slug: arianeplast-pla-eco-green
+brand:
+  slug: arianeplast
+name: PLA Eco Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-eco-arianeplast/1197-pla-eco-vert-175mm-1kg-3760276363793.html
+tags:
+- bio_based
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

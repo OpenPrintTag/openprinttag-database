@@ -1,0 +1,16 @@
+uuid: a907f48f-e837-55de-b77a-06147f2ac131
+slug: arianeplast-pla-bamboo
+brand:
+  slug: arianeplast
+name: PLA Bamboo
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filaments-wood/400-bambou-330g-3d-filament-arianeplast-fabrique-en-france.html
+tags:
+- bio_based
+- contains_bamboo
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

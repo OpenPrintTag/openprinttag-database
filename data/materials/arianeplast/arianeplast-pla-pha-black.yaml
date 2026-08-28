@@ -1,0 +1,16 @@
+uuid: e8ed09eb-9255-55f8-a427-36504694e538
+slug: arianeplast-pla-pha-black
+brand:
+  slug: arianeplast
+name: PLA PHA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/5288-pla-pha-black-1kg-175mm-filament-impression-3d-3760349168317.html
+tags:
+- bio_based
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

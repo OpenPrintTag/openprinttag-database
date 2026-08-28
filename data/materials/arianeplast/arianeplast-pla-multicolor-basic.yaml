@@ -1,0 +1,14 @@
+uuid: 4da61ef6-f77b-5268-8209-06c8752b2997
+slug: arianeplast-pla-multicolor-basic
+brand:
+  slug: arianeplast
+name: PLA Multicolor Basic
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/801-pla-multicouleurs-basic-3d-filament-arianeplast-750g-fabrique-en-france-.html
+tags:
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220

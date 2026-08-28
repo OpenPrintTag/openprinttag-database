@@ -6,9 +6,12 @@ name: PLA+ Metallic Interferential Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2655-pla-bleu-interferentiel-metallise-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-23kg/2566-pla-bleu-interferentiel-metallise-3d-filament-arianeplast-23kg-fabrique-en-france-.html
 primary_color:
   color_rgba: '#4c5975ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

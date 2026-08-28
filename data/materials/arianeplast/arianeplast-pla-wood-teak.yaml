@@ -1,0 +1,15 @@
+uuid: 3c45a906-cbe4-508c-9069-6efbbbdf1702
+slug: arianeplast-pla-wood-teak
+brand:
+  slug: arianeplast
+name: PLA+ Wood Teak
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filaments-wood/5276-product.html
+tags:
+- bio_based
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

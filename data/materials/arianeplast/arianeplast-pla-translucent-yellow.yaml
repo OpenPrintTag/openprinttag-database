@@ -6,10 +6,14 @@ name: PLA+ Translucent Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-23kg/292-pla-jaune-translucide-3d-filament-arianeplast-fabrique-en-france-23kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/283-pla-jaune-translucide-3d-filament-arianeplast-1kg-fabrique-en-france-.html
 primary_color:
   color_rgba: '#e4ff33ff'
 tags:
+- bio_based
 - translucent
-- industrially_compostable
-properties: {}
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 230

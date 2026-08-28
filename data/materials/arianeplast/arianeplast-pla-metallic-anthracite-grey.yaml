@@ -1,0 +1,17 @@
+uuid: fe2840d8-d30c-5a50-b2d7-275bef4252fc
+slug: arianeplast-pla-metallic-anthracite-grey
+brand:
+  slug: arianeplast
+name: PLA+ Metallic Anthracite Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/1202-pla-gris-anthracite-metallise-3d-filament-arianeplast-1kg-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#3f4647ff'
+tags:
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 220

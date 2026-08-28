@@ -6,9 +6,13 @@ name: PLA+ apple green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/822-pla-vert-pomme-3d-filament-arianeplast-fabrique-en-france-8kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/299-pla-vert-pomme-3d-filament-arianeplast-fabrique-en-france-1kg.html
 primary_color:
   color_rgba: '#91db01ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 230

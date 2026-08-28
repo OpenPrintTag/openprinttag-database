@@ -6,9 +6,13 @@ name: PLA+ Turquoise
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/fr/pla-format-1-kg/139-29-pla-turquoise-4043d-3d-filament-arianeplast-fabrique-en-france-1kg.html#/1-diametre-175mm
+url: https://www.arianeplast.com/en/pla-format-1-kg/139-pla-turquoise-4043d-3d-filament-arianeplast-fabrique-en-france-1kg.html
 primary_color:
   color_rgba: '#40b6e4ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 230

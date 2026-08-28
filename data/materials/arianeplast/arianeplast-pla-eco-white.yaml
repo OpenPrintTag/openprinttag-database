@@ -1,0 +1,17 @@
+uuid: 97698a7b-1af7-512e-938b-4013e209b5ce
+slug: arianeplast-pla-eco-white
+brand:
+  slug: arianeplast
+name: PLA Eco White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-eco-arianeplast/1196-pla-eco-blanc.html
+tags:
+- bio_based
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

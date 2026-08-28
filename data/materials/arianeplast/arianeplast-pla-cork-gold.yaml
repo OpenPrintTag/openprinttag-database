@@ -1,0 +1,16 @@
+uuid: 214281e9-8ae6-5365-9955-37775da0920f
+slug: arianeplast-pla-cork-gold
+brand:
+  slug: arianeplast
+name: PLA+ Cork Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filaments-wood/343-liegecork-3d-filament-660g-ou-2kg.html
+tags:
+- bio_based
+- contains_cork
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

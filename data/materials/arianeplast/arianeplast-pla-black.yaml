@@ -1,0 +1,16 @@
+uuid: f7bc16bc-4e9b-5c86-903d-23ce06b1c946
+slug: arianeplast-pla-black
+brand:
+  slug: arianeplast
+name: PLA+ Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/100-pla-noir-4043d-3d-filament-arianeplast-fabrique-en-france-1kg.html
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

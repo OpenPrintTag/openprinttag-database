@@ -1,0 +1,17 @@
+uuid: 417140b7-32ff-57d7-b02e-e3a3b3f1de84
+slug: arianeplast-pla-eco-black
+brand:
+  slug: arianeplast
+name: PLA Eco Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-eco-arianeplast/1194-pla-eco-noir-arianeplast-3760276363762.html
+tags:
+- bio_based
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

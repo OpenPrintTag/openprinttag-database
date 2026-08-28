@@ -1,0 +1,16 @@
+uuid: 29b0a5c5-41fd-5f93-8d41-45065d8d200a
+slug: arianeplast-pla-though-ingeo-3d870-black
+brand:
+  slug: arianeplast
+name: PLA Though+ INGEO 3D870 Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/ingeo-3d870/1730-438-pla-ingeo-3d870-noir-qualite-professionnelle.html
+tags:
+- bio_based
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50

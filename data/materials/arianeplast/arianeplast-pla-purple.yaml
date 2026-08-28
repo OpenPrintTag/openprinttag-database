@@ -6,9 +6,11 @@ name: PLA+ Purple
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/fr/pla-format-1-kg/5048-1043-pla-purple-3d-filament-arianeplast-1kg-fabrique-en-france-3760349165958.html#/1-diametre-175mm
+url: https://www.arianeplast.com/en/pla-format-1-kg/5048-pla-purple-3d-filament-arianeplast-1kg-fabrique-en-france-3760349165958.html
 primary_color:
   color_rgba: '#8a68b5ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 220

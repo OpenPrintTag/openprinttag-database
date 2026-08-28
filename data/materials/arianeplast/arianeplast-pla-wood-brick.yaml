@@ -1,0 +1,15 @@
+uuid: e3b2ece7-a7c2-5143-ac1f-7cffbe0173f7
+slug: arianeplast-pla-wood-brick
+brand:
+  slug: arianeplast
+name: PLA+ Wood Brick
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filaments-wood/5275-product.html
+tags:
+- bio_based
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

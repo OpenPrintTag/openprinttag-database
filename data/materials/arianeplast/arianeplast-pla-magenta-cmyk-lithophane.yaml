@@ -1,0 +1,17 @@
+uuid: d649d1c5-95be-5e99-a333-cd1ae1c74c23
+slug: arianeplast-pla-magenta-cmyk-lithophane
+brand:
+  slug: arianeplast
+name: PLA+ Magenta CMYK Lithophane
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/filaments-litophanie/5297-pla-magenta-cmyk-litophanie-1kg-175mm-3760349168492.html
+tags:
+- bio_based
+- lithophane
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

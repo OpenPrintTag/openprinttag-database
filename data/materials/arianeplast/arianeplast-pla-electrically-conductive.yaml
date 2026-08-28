@@ -6,10 +6,14 @@ name: PLA+ Electrically Conductive
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-1-kg/2936-pla-conducteur-electrique-filament-3d-3760349165330.html
+url: https://www.arianeplast.com/en/3d-filaments-pla/2936-pla-conducteur-electrique-filament-3d-3760349165330.html
 primary_color:
   color_rgba: '#000000ff'
 tags:
+- bio_based
 - conductive
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

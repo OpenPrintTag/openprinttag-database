@@ -10,5 +10,7 @@ url: https://www.arianeplast.com/en/pla-format-1-kg/1656-pla-bleu-navy-3d-filame
 primary_color:
   color_rgba: '#0378d0ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230

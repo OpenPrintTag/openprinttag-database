@@ -1,0 +1,17 @@
+uuid: 0c576905-e3a2-5dbd-be20-8b6dae63efa0
+slug: arianeplast-pla-silk-gold
+brand:
+  slug: arianeplast
+name: PLA+ Silk Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/5271-pla-silk-gold-1kg-175mm-filament-3d.html
+tags:
+- bio_based
+- silk
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  min_print_temperature: 225
+  max_print_temperature: 230

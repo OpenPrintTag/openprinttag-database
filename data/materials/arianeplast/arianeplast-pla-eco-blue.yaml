@@ -1,0 +1,17 @@
+uuid: 065e81f5-1660-5390-b9c0-1d42d7cfec96
+slug: arianeplast-pla-eco-blue
+brand:
+  slug: arianeplast
+name: PLA Eco Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-eco-arianeplast/1655-pla-eco-bleu-175mm-1kg-3760276363847.html
+tags:
+- bio_based
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

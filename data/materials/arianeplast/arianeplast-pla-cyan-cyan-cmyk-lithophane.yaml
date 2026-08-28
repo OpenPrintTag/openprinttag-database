@@ -1,0 +1,17 @@
+uuid: dd1de75d-3d64-523c-bd59-5c3a595809dd
+slug: arianeplast-pla-cyan-cyan-cmyk-lithophane
+brand:
+  slug: arianeplast
+name: PLA+ Cyan Cyan CMYK Lithophane
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/filaments-litophanie/5295-pla-cyan-cmyk-litophanie-1kg-175mm-3760349168485.html
+tags:
+- bio_based
+- lithophane
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

@@ -1,0 +1,17 @@
+uuid: 06190df7-f5f6-57b8-b012-4c59a67ffae2
+slug: arianeplast-pla-recycled
+brand:
+  slug: arianeplast
+name: PLA Recycled
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filament-recycle/5053-refill-pla-recycle-1kg-175mm.html
+tags:
+- bio_based
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

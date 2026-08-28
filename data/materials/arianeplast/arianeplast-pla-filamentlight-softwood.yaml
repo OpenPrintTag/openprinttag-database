@@ -1,0 +1,15 @@
+uuid: ee5b08d9-c9d7-5d5e-86e0-fdc711ab78cb
+slug: arianeplast-pla-filamentlight-softwood
+brand:
+  slug: arianeplast
+name: PLA Filamentlight Softwood
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-315g/381-3d-filamentbois-resineux-clair-330g-arianeplast-fabrique-en-france.html
+tags:
+- bio_based
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

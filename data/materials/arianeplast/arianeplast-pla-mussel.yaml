@@ -1,0 +1,16 @@
+uuid: b974eb95-27ca-5eb9-a2ab-44ad35c84ca0
+slug: arianeplast-pla-mussel
+brand:
+  slug: arianeplast
+name: PLA+ Mussel
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/803-pla-moule-1kg-3d-filament-arianeplast-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#e6d1bdff'
+tags:
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

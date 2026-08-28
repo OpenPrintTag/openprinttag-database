@@ -6,9 +6,11 @@ name: PLA+ yellow gold
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-23kg/2574-pla-or-jaune-3d-filament-arianeplast-23kg-fabrique-en-france-.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2855-pla-or-jaune-3d-filament-arianeplast-1kg-fabrique-en-france--3760276361430.html
 primary_color:
   color_rgba: '#f3bc00ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

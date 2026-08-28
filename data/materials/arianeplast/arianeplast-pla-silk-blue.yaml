@@ -6,10 +6,14 @@ name: PLA+ Silk Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2652-pla-silk-bleu-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2562-filament-3d-pla-silk-bleu-arianeplast.html
 primary_color:
   color_rgba: '#0099e6ff'
 tags:
+- bio_based
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  min_print_temperature: 225
+  max_print_temperature: 230

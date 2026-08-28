@@ -1,0 +1,17 @@
+uuid: 913b7248-f10f-5ca9-a1c8-a57275672900
+slug: arianeplast-pla-pink-metallic
+brand:
+  slug: arianeplast
+name: PLA+ Pink Metallic
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/1203-pla-rose-metallise-3d-filament-arianeplast-1kg-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#b13566ff'
+tags:
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

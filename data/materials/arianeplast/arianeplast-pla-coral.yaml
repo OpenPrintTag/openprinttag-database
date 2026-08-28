@@ -6,9 +6,11 @@ name: PLA+ Coral
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2643-pla-corail-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-23kg/2612-pla-corail-3d-filament-23kg-fabrique-en-france-arianeplast-3760349164906.html
 primary_color:
   color_rgba: '#f47d59ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

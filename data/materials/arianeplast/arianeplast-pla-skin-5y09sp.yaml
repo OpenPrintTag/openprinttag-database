@@ -6,9 +6,11 @@ name: PLA+ Skin 5Y09SP
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2631-pla-peau-5y09sp-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/472-pla-peau-5y09sp-3d-filament-arianeplast-1kg-fabrique-en-france--3760276361393.html
 primary_color:
   color_rgba: '#e2c077ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 220

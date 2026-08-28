@@ -1,0 +1,15 @@
+uuid: 9e885e07-6d2e-5f8c-8cbe-37540ee580ae
+slug: arianeplast-pla-translucent
+brand:
+  slug: arianeplast
+name: PLA Translucent
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-10m/109-10m-pla-translucide-175mm--3760276361768.html
+tags:
+- bio_based
+- translucent
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

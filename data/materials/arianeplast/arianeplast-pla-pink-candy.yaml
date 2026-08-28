@@ -1,0 +1,16 @@
+uuid: a443eb05-8c69-5d76-8015-1bc281980f03
+slug: arianeplast-pla-pink-candy
+brand:
+  slug: arianeplast
+name: PLA+ Pink Candy
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/537-pla-rose-bonbon-3d-filament-arianeplast-1kg-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#f0c7e7ff'
+tags:
+- bio_based
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 220

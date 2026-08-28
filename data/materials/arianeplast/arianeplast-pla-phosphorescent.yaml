@@ -10,7 +10,9 @@ url: https://www.arianeplast.com/en/pla-format-1-kg/2795-pla-phosphorescent-3d-f
 primary_color:
   color_rgba: '#62e480ff'
 tags:
-- glow_in_the_dark
 - abrasive
-- industrially_compostable
-properties: {}
+- bio_based
+- glow_in_the_dark
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

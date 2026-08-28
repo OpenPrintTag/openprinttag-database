@@ -1,0 +1,18 @@
+uuid: ac39e7d2-bcd6-5bb9-b825-153cf4b7b059
+slug: arianeplast-pla-metallic-recycled
+brand:
+  slug: arianeplast
+name: PLA Metallic Recycled
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filament-recycle/195-pla-recycle-couleur-metallise-filament-175mm.html
+tags:
+- bio_based
+- imitates_metal
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

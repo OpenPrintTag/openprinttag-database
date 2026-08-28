@@ -6,9 +6,11 @@ name: PLA+ Copper
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-23kg/1272-pla-cuivre-23kg--3760276362321.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/440-pla-cuivre-1kg-3760276360273.html
 primary_color:
   color_rgba: '#c9774bff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

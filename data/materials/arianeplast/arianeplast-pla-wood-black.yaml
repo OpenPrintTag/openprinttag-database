@@ -1,0 +1,15 @@
+uuid: a9138b57-78a3-548d-8ffc-e4d59d90aad1
+slug: arianeplast-pla-wood-black
+brand:
+  slug: arianeplast
+name: PLA+ Wood Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filaments-wood/5277-product.html
+tags:
+- bio_based
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

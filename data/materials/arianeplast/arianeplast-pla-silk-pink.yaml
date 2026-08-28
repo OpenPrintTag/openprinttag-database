@@ -1,0 +1,19 @@
+uuid: 077c5639-c8a6-5112-8d17-edfc9430fcdb
+slug: arianeplast-pla-silk-pink
+brand:
+  slug: arianeplast
+name: PLA+ Silk Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/2558-filament-3d-pla-silk-rose-arianeplast.html
+primary_color:
+  color_rgba: '#f79dbcff'
+tags:
+- bio_based
+- silk
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  min_print_temperature: 225
+  max_print_temperature: 230

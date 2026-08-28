@@ -1,0 +1,15 @@
+uuid: 8433f634-d881-5b20-858a-b86a0e12901b
+slug: arianeplast-pla-silk-dark-blue
+brand:
+  slug: arianeplast
+name: PLA+ Silk Dark Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/refill-pla/5184-refill-pla-silk-bleu-1kg-175mm-filament-3d.html
+tags:
+- bio_based
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

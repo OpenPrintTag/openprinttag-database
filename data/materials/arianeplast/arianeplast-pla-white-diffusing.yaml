@@ -1,0 +1,14 @@
+uuid: 70abb35a-d45d-5f68-b7d7-49a377aa5070
+slug: arianeplast-pla-white-diffusing
+brand:
+  slug: arianeplast
+name: PLA+ White Diffusing
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/5273-pla-blanc-diffusant-1kg-175mm-filament-3d-arianeplast-3760349167617.html
+tags:
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

@@ -1,0 +1,15 @@
+uuid: 662e5650-a806-5d22-b305-c42e10068d77
+slug: arianeplast-pla-wood-clear-resin
+brand:
+  slug: arianeplast
+name: PLA Wood Clear Resin
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/3d-filaments-wood/342-3d-filament-bois-resineux-clair-3d-filament.html
+tags:
+- bio_based
+- contains_wood
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 210

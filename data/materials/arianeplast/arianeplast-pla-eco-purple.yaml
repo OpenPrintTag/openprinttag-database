@@ -1,0 +1,17 @@
+uuid: 0a105ba4-1322-5d33-9f98-285b401bd6c2
+slug: arianeplast-pla-eco-purple
+brand:
+  slug: arianeplast
+name: PLA Eco Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-eco-arianeplast/1201-pla-eco-violet-175mm-1kg-3760276363892.html
+tags:
+- bio_based
+- industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

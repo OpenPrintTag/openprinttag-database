@@ -1,0 +1,17 @@
+uuid: 1b102963-0865-5e1c-8e63-cf9da0de6611
+slug: arianeplast-pla-silk-green
+brand:
+  slug: arianeplast
+name: PLA Silk Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/2665-filament-3d-pla-silk-vert-arianeplast.html
+tags:
+- bio_based
+- silk
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  min_print_temperature: 225
+  max_print_temperature: 230

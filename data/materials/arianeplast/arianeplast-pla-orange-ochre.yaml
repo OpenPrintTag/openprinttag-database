@@ -1,0 +1,18 @@
+uuid: 4af57a1a-4721-575e-aac0-112658a37e12
+slug: arianeplast-pla-orange-ochre
+brand:
+  slug: arianeplast
+name: PLA+ Orange Ochre
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/263-pla-ocre-orange-3d-filament-arianeplast-1kg-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#ea5e1aff'
+tags:
+- bio_based
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 225

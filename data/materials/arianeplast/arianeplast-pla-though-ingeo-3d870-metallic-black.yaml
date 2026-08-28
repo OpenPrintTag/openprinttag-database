@@ -1,0 +1,17 @@
+uuid: 820842e1-b67e-5756-b4c8-bae3b58e517e
+slug: arianeplast-pla-though-ingeo-3d870-metallic-black
+brand:
+  slug: arianeplast
+name: PLA Though+ INGEO 3D870 Metallic Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/ingeo-3d870/2557-586-pla-ingeo-3d870-noir-metallise-175mm-qualite-professionnelle.html
+tags:
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50

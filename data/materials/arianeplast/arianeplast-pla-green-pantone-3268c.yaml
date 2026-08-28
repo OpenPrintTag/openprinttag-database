@@ -1,0 +1,16 @@
+uuid: 422535b6-fb1f-5aca-8a7a-14cb6c0452f7
+slug: arianeplast-pla-green-pantone-3268c
+brand:
+  slug: arianeplast
+name: PLA+ Green Pantone 3268C
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/2950-pla-vert-pantone-3268c-arianeplast-1kg.html
+primary_color:
+  color_rgba: '#98fbcbff'
+tags:
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

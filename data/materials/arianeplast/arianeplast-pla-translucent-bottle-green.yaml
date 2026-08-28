@@ -10,6 +10,8 @@ url: https://www.arianeplast.com/en/pla-format-1-kg/2571-pla-vert-bouteille-tran
 primary_color:
   color_rgba: '#41a840ff'
 tags:
+- bio_based
 - translucent
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

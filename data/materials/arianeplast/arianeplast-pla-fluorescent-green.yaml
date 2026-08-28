@@ -1,0 +1,19 @@
+uuid: 3fd3e93e-8ffc-5de2-8826-6328af46a028
+slug: arianeplast-pla-fluorescent-green
+brand:
+  slug: arianeplast
+name: PLA+ Fluorescent Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/404-pla-vert-fluo-1kg-3d-filament-arianeplast-fabrique-en-france.html
+primary_color:
+  color_rgba: '#69ee00ff'
+tags:
+- bio_based
+- neon
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 230

@@ -6,9 +6,11 @@ name: PLA+ Pearl Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2645-pla-bleu-perle-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/1515-pla-bleu-perle-3d-filament-arianeplast-1kg-fabrique-en-france-.html
 primary_color:
   color_rgba: '#0378d0ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 220

@@ -6,10 +6,13 @@ name: PLA+ Carbon
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/filaments-carbone/2907-pla-carbone-8kg-3d-filament-arianeplast-fabrique-en-france.html
+url: https://www.arianeplast.com/en/filaments-carbone/2905-pla-carbone-3d-filament-arianeplast-fabrique-en-france.html
 primary_color:
   color_rgba: '#45444aff'
 tags:
-  - contains_carbon_fiber
-  - abrasive
-properties: {}
+- abrasive
+- bio_based
+- contains_carbon_fiber
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

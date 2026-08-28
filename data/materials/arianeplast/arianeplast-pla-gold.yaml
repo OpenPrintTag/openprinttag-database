@@ -6,9 +6,11 @@ name: PLA+ Gold
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2943-pla-gold-3d-filament-arianeplast-8kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2941-pla-gold-3d-filament-arianeplast-1kg.html
 primary_color:
   color_rgba: '#a6884cff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

@@ -1,0 +1,18 @@
+uuid: 44d4134f-cb8c-5a7c-83dd-9738b05be70a
+slug: arianeplast-pla-yellow-ochre
+brand:
+  slug: arianeplast
+name: PLA+ Yellow Ochre
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/259-pla-ocre-jaune-3d-filament-arianeplast-1kg-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#ffb031ff'
+tags:
+- bio_based
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 225

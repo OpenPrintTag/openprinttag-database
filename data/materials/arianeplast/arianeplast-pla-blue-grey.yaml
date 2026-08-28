@@ -1,0 +1,18 @@
+uuid: 395dc1f2-ca07-55c2-bd8b-c9811d11bf15
+slug: arianeplast-pla-blue-grey
+brand:
+  slug: arianeplast
+name: PLA+ Blue-Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/251-pla-bleugris-4043d-3d-filament-arianeplast-1kg-fabrique-en-france-.html
+primary_color:
+  color_rgba: '#9db6d4ff'
+tags:
+- bio_based
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 230

@@ -6,9 +6,12 @@ name: PLA+ Safety Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2926-pla-jaune-securite-ral-1003-3d-filament-arianeplast-8kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2924-pla-jaune-securite-ral-1003-3d-filament-arianeplast-1kg.html
 primary_color:
-  color_rgba: '#f8cc00ff'
+  color_rgba: '#f9a800'
+  color_ral: '1003'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

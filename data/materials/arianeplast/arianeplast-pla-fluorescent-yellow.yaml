@@ -6,10 +6,12 @@ name: PLA+ Fluorescent Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2921-pla-jaune-fluo-3d-filament-arianeplast-8kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2919-pla-jaune-fluo-3d-filament-arianeplast-1kg.html
 primary_color:
   color_rgba: '#e4ff33ff'
 tags:
+- bio_based
 - neon
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

@@ -6,9 +6,11 @@ name: PLA+ Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/811-bobine-pla-vert-3d-filament-arianeplast-8kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/97-pla-vert-4043d-3d-filament-arianeplast-fabrique-en-france-1kg.html
 primary_color:
   color_rgba: '#3d9441ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

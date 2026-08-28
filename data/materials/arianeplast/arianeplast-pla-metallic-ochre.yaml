@@ -1,14 +1,17 @@
-uuid: daa2a308-455c-5a94-b1a9-9dbb0639bac6
+uuid: 5b0c3785-fa2b-5524-a279-02930a5cbce9
 slug: arianeplast-pla-metallic-ochre
 brand:
   slug: arianeplast
-name: PLA+ metallic ochre
+name: PLA+ Metallic Ochre
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2637-pla-ocre-metallise-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/429-pla-ocre-metallise-3d-filament-arianeplast-1kg-fabrique-en-france-.html
 primary_color:
   color_rgba: '#e39951ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

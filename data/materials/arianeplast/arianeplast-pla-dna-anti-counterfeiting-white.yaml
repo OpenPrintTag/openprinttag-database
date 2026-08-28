@@ -6,9 +6,11 @@ name: PLA+ DNA Anti-counterfeiting White
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2713-pla-adn-filament-anti-contrefacon-blanc-8kg.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2709-pla-adn-filament-anti-contrefacon-blanc-1kg.html
 primary_color:
   color_rgba: '#f5f5f5ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

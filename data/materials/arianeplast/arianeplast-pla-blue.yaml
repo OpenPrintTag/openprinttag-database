@@ -10,5 +10,7 @@ url: https://www.arianeplast.com/en/pla-format-8kg/2644-pla-bleuet-3d-filament-8
 primary_color:
   color_rgba: '#8ed9f9ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

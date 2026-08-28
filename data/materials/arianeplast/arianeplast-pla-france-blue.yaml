@@ -6,9 +6,11 @@ name: PLA+ France Blue
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2647-pla-bleu-france-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/1271-pla-bleu-france-3d-filament-arianeplast-1kg-fabrique-en-france-.html
 primary_color:
   color_rgba: '#0066d9ff'
 tags:
-- industrially_compostable
-properties: {}
+- bio_based
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

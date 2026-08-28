@@ -14,6 +14,8 @@ secondary_colors:
 - color_rgba: '#39b9dbff'
 - color_rgba: '#8d65c7ff'
 tags:
+- bio_based
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220

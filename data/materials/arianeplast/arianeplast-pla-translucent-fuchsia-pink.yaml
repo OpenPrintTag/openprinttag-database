@@ -1,0 +1,17 @@
+uuid: 8f1cb030-1a74-5099-b86d-237a2ce31089
+slug: arianeplast-pla-translucent-fuchsia-pink
+brand:
+  slug: arianeplast
+name: PLA+ Translucent Fuchsia Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-10m/359-10m-pla-rose-fushia-translucide-175mm-3760276362116.html
+tags:
+- bio_based
+- translucent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

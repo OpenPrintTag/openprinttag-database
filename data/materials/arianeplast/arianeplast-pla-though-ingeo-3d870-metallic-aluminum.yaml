@@ -1,0 +1,17 @@
+uuid: fa9c4801-30b3-53c5-b541-06cb9284e121
+slug: arianeplast-pla-though-ingeo-3d870-metallic-aluminum
+brand:
+  slug: arianeplast
+name: PLA Though+ INGEO 3D870 Metallic Aluminum
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/ingeo-3d870/1985-467-pla-ingeo-3d870-aluminium-metallise-qualite-professionnelle.html
+tags:
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50

@@ -6,10 +6,14 @@ name: PLA+ Silk Black
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.arianeplast.com/en/pla-format-8kg/2651-pla-silk-noir-3d-filament-8kg-fabrique-en-france-arianeplast.html
+url: https://www.arianeplast.com/en/pla-format-1-kg/2563-filament-3d-pla-silk-noir-1kg-fabrique-en-france-arianeplast.html
 primary_color:
   color_rgba: '#545252ff'
 tags:
+- bio_based
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  min_print_temperature: 225
+  max_print_temperature: 230

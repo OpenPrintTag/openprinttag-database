@@ -1,0 +1,15 @@
+uuid: d3cd9c95-92c0-5c70-b06a-eae9ec1284ad
+slug: arianeplast-pla-metallic-dark-green
+brand:
+  slug: arianeplast
+name: PLA Metallic Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/1679-pla-vert-fonce-metallise-3d-filament-arianeplast-1kg-fabrique-en-france--3760276362796.html
+tags:
+- bio_based
+- imitates_metal
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230

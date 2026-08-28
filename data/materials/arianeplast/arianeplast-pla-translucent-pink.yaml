@@ -1,0 +1,19 @@
+uuid: d124e5c2-6340-5398-a035-afc8b2c23896
+slug: arianeplast-pla-translucent-pink
+brand:
+  slug: arianeplast
+name: PLA+ Translucent Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/pla-format-1-kg/282-pla-rose-translucide-3d-filament-arianeplast-1kg-fabrique-en-france--3770008753259.html
+primary_color:
+  color_rgba: '#e80078ff'
+tags:
+- bio_based
+- translucent
+properties:
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_print_temperature: 200
+  max_print_temperature: 230

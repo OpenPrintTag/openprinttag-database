@@ -1,0 +1,16 @@
+uuid: 05f68a55-a2d0-5c08-bebe-b206154958d8
+slug: arianeplast-pla-though-ingeo-3d870-red
+brand:
+  slug: arianeplast
+name: PLA Though+ INGEO 3D870 Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/ingeo-3d870/1732-442-pla-ingeo-3d870-rouge-175mm-qualite-professionnelle.html
+tags:
+- bio_based
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50

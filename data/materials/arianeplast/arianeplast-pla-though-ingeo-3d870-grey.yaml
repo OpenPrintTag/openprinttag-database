@@ -1,0 +1,16 @@
+uuid: b9fe4554-ea1d-5c44-8674-b074d00ba314
+slug: arianeplast-pla-though-ingeo-3d870-grey
+brand:
+  slug: arianeplast
+name: PLA Though+ INGEO 3D870 Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.arianeplast.com/en/ingeo-3d870/1733-444-pla-ingeo-3d870-gris-qualite-professionnelle.html
+tags:
+- bio_based
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50
