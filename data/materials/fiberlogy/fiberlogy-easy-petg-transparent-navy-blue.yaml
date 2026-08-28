@@ -1,0 +1,23 @@
+uuid: 789c7d21-71c6-5c45-b58a-f1ea6adddab9
+slug: fiberlogy-easy-petg-transparent-navy-blue
+brand:
+  slug: fiberlogy
+name: Easy PETG Transparent Navy Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#09048eff'
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-transparent-navy-blue/fiberlogy-easy-petg-transparent-navy-blue-0-2db4db5c.png
+  type: unspecified

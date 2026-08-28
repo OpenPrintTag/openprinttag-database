@@ -1,0 +1,19 @@
+uuid: ea04ae79-8825-5197-b59f-374deea1b557
+slug: fiberlogy-pp-pastel-mint
+brand:
+  slug: fiberlogy
+name: PP Pastel Mint
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#96d8afff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-pastel-mint/fiberlogy-pp-pastel-mint-0-1a74e219.jpg
+  type: unspecified

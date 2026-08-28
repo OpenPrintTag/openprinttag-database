@@ -1,0 +1,23 @@
+uuid: 0ec96245-ebbf-5dbc-9d0e-d3a55a5dac3a
+slug: fiberlogy-petg-matte-pastel-mint
+brand:
+  slug: fiberlogy
+name: PETG Matte Pastel Mint
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#87ebd8ff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-pastel-mint/fiberlogy-petg-matte-pastel-mint-0-5b3ed6ad.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: d9c563e2-1ec7-52ec-8bc3-a067d475d65c
+slug: fiberlogy-fibersilk-pla-brass
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Brass
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bc911eff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-brass/fiberlogy-fibersilk-pla-brass-0-7ece644e.jpg
+  type: unspecified

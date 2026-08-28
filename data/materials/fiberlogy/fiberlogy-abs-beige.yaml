@@ -9,8 +9,8 @@ abbreviation: ABS
 primary_color:
   color_rgba: '#eadac2ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-beige/4a270a5ee404.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-beige/4a270a5ee404.png
+    type: unspecified
 properties: {}

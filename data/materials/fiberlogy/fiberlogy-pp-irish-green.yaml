@@ -1,0 +1,19 @@
+uuid: ad838064-1d4b-5908-8a52-615322c9b8da
+slug: fiberlogy-pp-irish-green
+brand:
+  slug: fiberlogy
+name: PP Irish Green
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#008059ff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-irish-green/fiberlogy-pp-irish-green-0-098fffb2.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: d2933a65-f8f7-5e5d-b934-1bdd1beca383
+slug: prusament-tpu-95a-urban-grey
+brand:
+  slug: prusament
+class: FFF
+type: TPU
+name: TPU 95A Urban Grey
+abbreviation: TPU
+properties:
+  density: 1.25
+  hardness_shore_a: 95
+  min_print_temperature: 220
+  max_print_temperature: 240
+  preheat_temperature: 160
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  chamber_temperature: 30
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#656d73ff'

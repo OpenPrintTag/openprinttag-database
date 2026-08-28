@@ -1,8 +1,8 @@
-uuid: 18d9fd8d-70bd-54d6-9d20-def5d39dec15
+uuid: add7d9d6-a92b-58c8-bbb2-35a1f3c852c3
 slug: fiberlogy-fiberflex-cf-black
 brand:
   slug: fiberlogy
-name: FiberFlex CF Black
+name: FiberFlex+CF Black
 class: FFF
 type: TPU
 abbreviation: TPU
@@ -11,7 +11,17 @@ primary_color:
 tags:
 - contains_carbon_fiber
 - abrasive
+- contains_carbon
+properties:
+  density: 1.23
+  hardness_shore_d: 60.0
+  hardness_shore_a: 90.0
+  min_print_temperature: 190
+  max_print_temperature: 205
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 240
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberflex-cf-black/d78655d840e4.png
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberflex-cf-black/fiberlogy-fiberflex-cf-black-0-0bf69743.png
   type: unspecified
-properties: {}

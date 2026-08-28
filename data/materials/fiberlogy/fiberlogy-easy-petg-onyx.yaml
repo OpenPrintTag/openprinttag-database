@@ -1,0 +1,23 @@
+uuid: f04f0dda-0932-5972-9ac2-cdc4efce6e98
+slug: fiberlogy-easy-petg-onyx
+brand:
+  slug: fiberlogy
+name: Easy PETG Onyx
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- glitter
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-onyx/fiberlogy-easy-petg-onyx-0-9b5a7cba.png
+  type: unspecified

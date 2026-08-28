@@ -1,0 +1,23 @@
+uuid: 2e06fc90-e8e5-514a-97a6-7dff0706cbc5
+slug: fiberlogy-pc-abs-natural
+brand:
+  slug: fiberlogy
+name: PC-ABS Natural
+class: FFF
+type: PC
+abbreviation: PC-ABS
+primary_color:
+  color_rgba: '#efe8d8ff'
+tags:
+- without_pigments
+properties:
+  density: 1.07
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pc-abs-natural/fiberlogy-pc-abs-natural-0-ba223fad.png
+  type: unspecified

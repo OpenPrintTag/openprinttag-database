@@ -1,0 +1,24 @@
+uuid: 3b140fe1-45b9-53ed-9a53-485226fd1bd6
+slug: fiberlogy-rabs-anthracite
+brand:
+  slug: fiberlogy
+name: rABS Anthracite
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#26272bff'
+tags:
+- recycled
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-rabs-anthracite/fiberlogy-rabs-anthracite-0-61c96333.png
+  type: unspecified

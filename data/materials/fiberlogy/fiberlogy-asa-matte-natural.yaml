@@ -1,0 +1,24 @@
+uuid: 3205144f-febd-581e-84ec-9c9e90b81d42
+slug: fiberlogy-asa-matte-natural
+brand:
+  slug: fiberlogy
+name: ASA Matte Natural
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#eadac2ff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-matte-natural/fiberlogy-asa-matte-natural-0-1794bdd9.png
+  type: unspecified

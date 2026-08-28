@@ -1,0 +1,23 @@
+uuid: c93cc2d0-5834-5466-99f3-7791fae92ba7
+slug: fiberlogy-easy-pla-granite
+brand:
+  slug: fiberlogy
+name: Easy PLA Granite
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#605f5cff'
+tags:
+- glitter
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-pla-granite/fiberlogy-easy-pla-granite-0-07dd62a1.jpg
+  type: unspecified

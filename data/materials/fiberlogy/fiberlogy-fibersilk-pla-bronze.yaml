@@ -1,0 +1,23 @@
+uuid: ed9da0aa-009b-5c64-9df7-a1bf519ae19b
+slug: fiberlogy-fibersilk-pla-bronze
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Bronze
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ae6725ff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-bronze/fiberlogy-fibersilk-pla-bronze-0-697bcacf.png
+  type: unspecified

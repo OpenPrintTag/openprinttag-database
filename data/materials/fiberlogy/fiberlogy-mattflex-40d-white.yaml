@@ -9,8 +9,13 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- matte
+  - matte
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-mattflex-40d-white/030ae0903fa8.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-mattflex-40d-white/030ae0903fa8.png
+    type: unspecified
+properties:
+  hardness_shore_d: 40.0
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

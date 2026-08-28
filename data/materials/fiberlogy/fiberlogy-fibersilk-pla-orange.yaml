@@ -1,0 +1,23 @@
+uuid: e663ccd3-e0c0-579a-b0ea-5b781c95409b
+slug: fiberlogy-fibersilk-pla-orange
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-orange/fiberlogy-fibersilk-pla-orange-0-3b4807f6.png
+  type: unspecified

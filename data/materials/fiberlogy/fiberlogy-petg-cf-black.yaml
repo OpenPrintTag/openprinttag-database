@@ -1,0 +1,25 @@
+uuid: e1b4524d-04df-5da6-ba79-073753e0bbd3
+slug: fiberlogy-petg-cf-black
+brand:
+  slug: fiberlogy
+name: PETG+CF Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-cf-black/fiberlogy-petg-cf-black-0-839abd51.png
+  type: unspecified

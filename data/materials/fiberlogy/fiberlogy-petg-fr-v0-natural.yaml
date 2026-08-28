@@ -1,0 +1,23 @@
+uuid: 47976a93-6c01-51bf-9ee5-93c025a874d7
+slug: fiberlogy-petg-fr-v0-natural
+brand:
+  slug: fiberlogy
+name: PETG FR V0 Natural
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#efe8d8ff'
+tags:
+- self_extinguishing
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-fr-v0-natural/fiberlogy-petg-fr-v0-natural-0-9849d898.png
+  type: unspecified

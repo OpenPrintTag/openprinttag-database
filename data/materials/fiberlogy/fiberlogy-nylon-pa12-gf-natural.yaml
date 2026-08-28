@@ -1,0 +1,26 @@
+uuid: ba4306ef-9a36-5a7d-95f0-a5db54764da8
+slug: fiberlogy-nylon-pa12-gf-natural
+brand:
+  slug: fiberlogy
+name: Nylon PA12+GF Natural
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#efe8d8ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-gf-natural/fiberlogy-nylon-pa12-gf-natural-0-de99ca73.png
+  type: unspecified

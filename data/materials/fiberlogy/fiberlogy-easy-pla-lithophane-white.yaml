@@ -1,0 +1,23 @@
+uuid: 072682fc-1e53-5ef7-853a-266d3a6d1074
+slug: fiberlogy-easy-pla-lithophane-white
+brand:
+  slug: fiberlogy
+name: Easy PLA Lithophane White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f4ff'
+tags:
+- lithophane
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-pla-lithophane-white/fiberlogy-easy-pla-lithophane-white-0-7e66348b.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 9b4611bf-601d-5a31-b5cc-60be9a9c2f60
+slug: fiberlogy-pctg-light-green-transparent
+brand:
+  slug: fiberlogy
+name: PCTG Light Green Transparent
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#58c91bff'
+tags:
+- translucent
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pctg-light-green-transparent/fiberlogy-pctg-light-green-transparent-0-19e10ded.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: db29b5be-a64a-5cb6-ba72-56f274848095
+slug: fiberlogy-matte-pla-skin-tone-1
+brand:
+  slug: fiberlogy
+name: Matte PLA Skin Tone 1
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3b6acff'
+tags:
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-matte-pla-skin-tone-1/fiberlogy-matte-pla-skin-tone-1-0-0f58c665.jpg
+  type: unspecified

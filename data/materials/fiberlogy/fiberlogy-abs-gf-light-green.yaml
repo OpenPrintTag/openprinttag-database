@@ -1,0 +1,26 @@
+uuid: 587989d2-8e01-5753-9dd2-5bac61b455f7
+slug: fiberlogy-abs-gf-light-green
+brand:
+  slug: fiberlogy
+name: ABS+GF Light Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#b4e657ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 270
+  max_print_temperature: 295
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-gf-light-green/fiberlogy-abs-gf-light-green-0-78240c84.jpg
+  type: unspecified

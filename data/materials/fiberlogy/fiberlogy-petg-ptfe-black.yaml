@@ -1,0 +1,23 @@
+uuid: 12ca1646-bbe4-5c74-993c-6d2bc128645e
+slug: fiberlogy-petg-ptfe-black
+brand:
+  slug: fiberlogy
+name: PETG+PTFE Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_ptfe
+properties:
+  density: 1.32
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-ptfe-black/fiberlogy-petg-ptfe-black-0-d915388c.jpg
+  type: unspecified

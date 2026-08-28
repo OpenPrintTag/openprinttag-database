@@ -1,0 +1,23 @@
+uuid: 5a7edc36-b6a3-51e2-8e22-8bcaeb76012a
+slug: fiberlogy-petg-matte-blue
+brand:
+  slug: fiberlogy
+name: PETG Matte Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0099e6ff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-blue/fiberlogy-petg-matte-blue-0-ee6c42ce.png
+  type: unspecified

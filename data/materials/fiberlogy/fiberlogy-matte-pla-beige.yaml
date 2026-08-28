@@ -1,0 +1,23 @@
+uuid: f71ede99-7453-59b3-96b3-13c63cf5182b
+slug: fiberlogy-matte-pla-beige
+brand:
+  slug: fiberlogy
+name: Matte PLA Beige
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e6d2b5ff'
+tags:
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-matte-pla-beige/fiberlogy-matte-pla-beige-0-5539c965.jpg
+  type: unspecified

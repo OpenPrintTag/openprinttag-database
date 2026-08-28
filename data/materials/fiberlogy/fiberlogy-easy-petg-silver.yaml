@@ -1,0 +1,21 @@
+uuid: 392125cb-f800-561b-9a44-5e39610d0e4b
+slug: fiberlogy-easy-petg-silver
+brand:
+  slug: fiberlogy
+name: Easy PETG Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c3ccd5ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-silver/fiberlogy-easy-petg-silver-0-3edb4abe.png
+  type: unspecified

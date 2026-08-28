@@ -9,8 +9,15 @@ abbreviation: PVB
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- ipa_soluble
+  - ipa_soluble
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersmooth-black/524c37e40cea.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersmooth-black/524c37e40cea.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 75
+  max_bed_temperature: 75
+  drying_temperature: 40
+  drying_time: 240

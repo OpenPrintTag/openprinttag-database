@@ -9,6 +9,15 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#0e21aeff'
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberflex-30d-navy-blue/979178dc4839.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberflex-30d-navy-blue/979178dc4839.png
+    type: unspecified
+properties:
+  density: 1.07
+  hardness_shore_d: 30.0
+  hardness_shore_a: 81.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 240

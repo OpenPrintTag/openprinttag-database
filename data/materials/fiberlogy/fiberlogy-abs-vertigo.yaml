@@ -1,0 +1,24 @@
+uuid: 5c23d3cc-d121-5c26-9cc1-9c5d7b2a3434
+slug: fiberlogy-abs-vertigo
+brand:
+  slug: fiberlogy
+name: ABS Vertigo
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#63646bff'
+tags:
+- glitter
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 250
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-vertigo/fiberlogy-abs-vertigo-0-5c2ad812.jpg
+  type: unspecified
