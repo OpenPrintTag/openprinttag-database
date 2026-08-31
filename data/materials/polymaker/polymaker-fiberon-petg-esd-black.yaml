@@ -2,24 +2,34 @@ uuid: 59d82989-d5af-507b-b689-679d4060b13c
 slug: polymaker-fiberon-petg-esd-black
 brand:
   slug: polymaker
+brand_specific_id: PETG-ESD
 name: Fiberon™ PETG-ESD Black
 class: FFF
 type: PETG
-abbreviation: PETG
+abbreviation: PETGESD
 primary_color:
   color_rgba: '#161618ff'
 tags:
-  - esd_safe
-  - contains_carbon_nano_tubes
-  - contains_carbon
+- abrasive
+- esd_safe
+- contains_carbon_nano_tubes
+- contains_carbon
 photos:
-  - url: https://files.openprinttag.org/polymaker/polymaker-fiberon-petg-esd-black/2c9b16a5df95.png
-    type: unspecified
+- url: https://shop.polymaker.com/cdn/shop/files/PETG-ESD_a0555e75-986b-4c03-b3a0-54da61c8c0a2.png
+  type: package
+- url: https://shop.polymaker.com/cdn/shop/files/petg-esd_square.png
+  type: print
+url: https://fiberon.polymaker.com/product/petg-esd/
 properties:
   density: 1.24
   min_print_temperature: 250
   max_print_temperature: 290
+  preheat_temperature: 170
   min_bed_temperature: 70
   max_bed_temperature: 80
+  chamber_temperature: 22
+  min_chamber_temperature: 15
+  max_chamber_temperature: 30
   drying_temperature: 65
   drying_time: 180
+  min_nozzle_diameter: 400
