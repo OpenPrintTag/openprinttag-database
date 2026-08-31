@@ -46,6 +46,7 @@ class JsonSchemaValidator:
         'materials': 'material.schema.json',
         'material-packages': 'material_package.schema.json',
         'material-containers': 'material_container.schema.json',
+        'wash-media': 'wash_medium.schema.json',
     }
 
     # Foreign key definitions: entity -> [(field_path, target_entity, target_field, is_array, condition)]
@@ -67,6 +68,9 @@ class JsonSchemaValidator:
         ],
         'brands': [
             (['countries_of_origin'], 'countries', 'code', True, None),
+        ],
+        'wash-media': [
+            (['brand', 'slug'], 'brands', 'slug', False, None),
         ],
     }
 
