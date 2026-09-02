@@ -1,0 +1,24 @@
+uuid: c4c23a19-362a-5bf0-96eb-f80de16d3244
+slug: inland-pla-silk-black-silver
+brand:
+  slug: inland
+brand_specific_id: '650245'
+name: PLA Dual Color Silk Black-Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#161619ff'
+  - color_rgba: '#bcc2c8ff'
+tags:
+  - silk
+  - coextruded
+photos:
+- url: https://productimages.microcenter.com/650245_412551_03_front_zoom.jpg
+  type: package
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 60
+  max_bed_temperature: 80

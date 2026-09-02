@@ -2,6 +2,7 @@ uuid: 562eb0c2-9f23-565d-a0cb-1f6e4d2e019a
 slug: inland-pla-light-blue
 brand:
   slug: inland
+brand_specific_id: '512938'
 name: PLA Light Blue
 class: FFF
 type: PLA
@@ -9,8 +10,16 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#8ed9f9ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/inland/inland-pla-light-blue/16ca0796c0a1.jpg
-  type: unspecified
-properties: {}
+  - url: https://productimages.microcenter.com/512938_834705_02_front_zoom.jpg
+    type: package
+  - url: https://productimages.microcenter.com/512938_834705_04_front_zoom.jpg
+    type: print
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  preheat_temperature: 170
+  min_bed_temperature: 60
+  max_bed_temperature: 80
