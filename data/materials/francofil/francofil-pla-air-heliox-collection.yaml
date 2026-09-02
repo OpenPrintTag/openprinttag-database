@@ -1,0 +1,20 @@
+uuid: 5efb1ff5-b513-54e4-8aef-a52d09ff365e
+slug: francofil-pla-air-heliox-collection
+brand:
+  slug: francofil
+name: PLA Air Heliox Collection - The 4 elements
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-air-collection-heliox-les-4-elements/
+primary_color:
+  color_rgba: '#d0b8c8ff'
+tags:
+- industrially_compostable
+- iridescent
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 70

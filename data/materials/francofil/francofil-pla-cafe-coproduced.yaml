@@ -1,0 +1,21 @@
+uuid: dab58d86-68ce-5f73-8f0d-fcf89026ede3
+slug: francofil-pla-cafe-coproduced
+brand:
+  slug: francofil
+name: PLA Coffee - Co-produced
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-cafe/
+primary_color:
+  color_rgba: '#3e2617ff'
+tags:
+- contains_organic_material
+- industrially_compostable
+- abrasive
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 70

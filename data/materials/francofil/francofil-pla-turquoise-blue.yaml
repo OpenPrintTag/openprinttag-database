@@ -1,0 +1,19 @@
+uuid: 58444d14-126d-5763-b824-8ec3d3b1a461
+slug: francofil-pla-turquoise-blue
+brand:
+  slug: francofil
+name: PLA Turquoise Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-bleu-turquoise/
+primary_color:
+  color_rgba: '#39b9dbff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 70

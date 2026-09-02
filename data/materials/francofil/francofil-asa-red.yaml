@@ -1,0 +1,17 @@
+uuid: c75e784a-612d-5df4-a03e-e3c9c44bfcde
+slug: francofil-asa-red
+brand:
+  slug: francofil
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://francofil.fr/en/product/filament-asa-rouge/
+primary_color:
+  color_rgba: '#e72f1dff'
+properties:
+  density: 1.06
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110

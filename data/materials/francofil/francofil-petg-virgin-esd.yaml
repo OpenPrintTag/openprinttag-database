@@ -1,0 +1,21 @@
+uuid: 0b8652ab-24fa-59de-a756-e43b035c2d79
+slug: francofil-petg-virgin-esd
+brand:
+  slug: francofil
+name: PETG Virgin ESD
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://francofil.fr/en/product/petg-esd-vierge/
+primary_color:
+  color_rgba: '#f2efe9ff'
+tags:
+- esd_safe
+- contains_glass_fiber
+- abrasive
+properties:
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+  density: 1.3
