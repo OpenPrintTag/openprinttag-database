@@ -1,0 +1,27 @@
+uuid: 1a9030a8-d39f-50f6-b314-6bcef97a2c3b
+slug: inland-asa-black
+brand:
+  slug: inland
+brand_specific_id: '633294'
+name: PolyLite Black ASA
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#17161aff'
+tags:
+  - filtration_recommended
+certifications: []
+photos:
+  - url: https://productimages.microcenter.com/633294_230623_02_front_zoom.jpg
+    type: package
+  - url: https://productimages.microcenter.com/633294_230623_04_front_zoom.jpg
+    type: print
+properties:
+  density: 1.1
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 420

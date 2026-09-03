@@ -1,0 +1,25 @@
+uuid: fd3b90f2-f3a3-58e6-b522-3925528e77ee
+slug: inland-pla-basic-white
+brand:
+  slug: inland
+brand_specific_id: '692936'
+name: PLA Basic White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ebf7ffff'
+tags:
+  - industrially_compostable
+photos:
+  - url: https://productimages.microcenter.com/692936_833038_01_front_zoom.jpg
+    type: package
+properties:
+  density: 1.17
+  min_print_temperature: 210
+  max_print_temperature: 230
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
