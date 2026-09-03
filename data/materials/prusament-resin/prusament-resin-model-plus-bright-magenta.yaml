@@ -1,0 +1,18 @@
+uuid: e1607c0b-ae31-52d8-be92-14daa1f1c158
+slug: prusament-resin-model-plus-bright-magenta
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Bright Magenta
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 601
+  viscosity_25c: 315
+  viscosity_40c: 100
+  viscosity_60c: 32
+primary_color:
+  color_rgba: '#ab2e69ff'
+tags:
+- biocompatible

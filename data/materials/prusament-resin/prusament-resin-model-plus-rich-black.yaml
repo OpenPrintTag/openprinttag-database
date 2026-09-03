@@ -1,0 +1,17 @@
+uuid: fd277e84-fe7d-501a-95ec-c9c5da345cc5
+slug: prusament-resin-model-plus-rich-black
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Rich Black
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 618
+  viscosity_25c: 325
+  viscosity_40c: 104
+primary_color:
+  color_rgba: '#1a1c1eff'
+tags:
+- biocompatible

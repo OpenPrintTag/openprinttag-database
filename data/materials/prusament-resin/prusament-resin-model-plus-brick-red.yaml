@@ -1,0 +1,18 @@
+uuid: ab76b93e-2ca5-5901-ab9f-9e16abde609f
+slug: prusament-resin-model-plus-brick-red
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Brick Red
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 533
+  viscosity_25c: 282
+  viscosity_40c: 93
+  viscosity_60c: 31
+primary_color:
+  color_rgba: '#7f403aff'
+tags:
+- biocompatible

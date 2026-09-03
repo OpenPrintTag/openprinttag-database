@@ -1,0 +1,19 @@
+uuid: 2f2ed78c-6e53-53a4-8547-837c2ddcfda1
+slug: prusament-resin-model-plus-transparent-amber
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Transparent Amber
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 566
+  viscosity_25c: 296
+  viscosity_40c: 97
+  viscosity_60c: 32
+primary_color:
+  color_rgba: '#f8ac00ff'
+tags:
+- biocompatible
+- translucent

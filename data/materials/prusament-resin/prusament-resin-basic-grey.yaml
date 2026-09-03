@@ -6,7 +6,7 @@ name: Basic Grey
 class: SLA
 abbreviation: ''
 primary_color:
-  color_rgba: '#bac4c4ff'
+  color_rgba: '#9c9d9eff'
 properties:
   density: 1.03
   cure_wavelength: 405

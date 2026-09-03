@@ -1,0 +1,18 @@
+uuid: 5b1fe36a-f394-5536-b1a7-876ee6b525bc
+slug: prusament-resin-model-plus-classic-red
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Classic Red
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 534
+  viscosity_25c: 289
+  viscosity_40c: 95
+  viscosity_60c: 32
+primary_color:
+  color_rgba: '#a31c25ff'
+tags:
+- biocompatible

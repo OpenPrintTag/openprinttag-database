@@ -1,0 +1,18 @@
+uuid: 12ee4fd3-08b9-502f-b54a-fc779aec0264
+slug: prusament-resin-model-plus-grass-green
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Grass Green
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 609
+  viscosity_25c: 299
+  viscosity_40c: 92
+  viscosity_60c: 26
+primary_color:
+  color_rgba: '#007f4aff'
+tags:
+- biocompatible

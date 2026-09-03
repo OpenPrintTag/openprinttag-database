@@ -1,0 +1,18 @@
+uuid: f84f4db0-7f22-59e5-afbc-93e9a61b540f
+slug: prusament-resin-model-plus-sand-stone
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Sand Stone
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 494
+  viscosity_25c: 273
+  viscosity_40c: 91
+  viscosity_60c: 34
+primary_color:
+  color_rgba: '#ae894eff'
+tags:
+- biocompatible
