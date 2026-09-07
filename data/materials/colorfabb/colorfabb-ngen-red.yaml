@@ -4,6 +4,7 @@ brand:
   slug: colorfabb
 name: nGen Red
 class: FFF
+type: CPE
 abbreviation: NGEN
 primary_color:
   color_rgba: '#e20010ff'

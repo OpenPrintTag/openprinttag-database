@@ -4,6 +4,7 @@ brand:
   slug: colorfabb
 name: nGen Black
 class: FFF
+type: CPE
 abbreviation: NGEN
 primary_color:
   color_rgba: '#000000ff'
