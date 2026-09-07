@@ -13,4 +13,9 @@ tags:
 photos:
   - url: https://files.openprinttag.org/colorfabb/colorfabb-rpla-semi-matte-ochre/5fe3705e9c0a.png
     type: unspecified
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
