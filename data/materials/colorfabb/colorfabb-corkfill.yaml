@@ -4,14 +4,18 @@ brand:
   slug: colorfabb
 name: corkFill
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLA
 primary_color:
-  color_rgba: '#774b3fff'
+  color_rgba: '#a45b27ff'
 tags:
-- contains_cork
-- home_compostable
+  - contains_cork
+  - foaming
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-corkfill/80e4c44f3f8e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-corkfill/80e4c44f3f8e.png
+    type: unspecified
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

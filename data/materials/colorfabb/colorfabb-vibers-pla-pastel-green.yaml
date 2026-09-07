@@ -9,9 +9,15 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#9eb59bff'
 tags:
-- matte
-- industrially_compostable
+  - contains_organic_material
+  - air_filtering
+  - matte
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-vibers-pla-pastel-green/pasted-image-1742038625906.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-vibers-pla-pastel-green/pasted-image-1742038625906.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

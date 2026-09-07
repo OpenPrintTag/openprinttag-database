@@ -1,0 +1,18 @@
+uuid: e86c3004-95e6-5521-9495-9d7d97a501b9
+slug: colorfabb-pla-pha-standard-black
+brand:
+  slug: colorfabb
+name: PLA/PHA Standard black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-standard-black-0-fb923a40.png
+    type: unspecified

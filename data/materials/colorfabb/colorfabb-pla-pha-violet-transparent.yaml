@@ -1,0 +1,20 @@
+uuid: 4a33ebba-3977-59cc-80d9-75db5a4e801a
+slug: colorfabb-pla-pha-violet-transparent
+brand:
+  slug: colorfabb
+name: PLA/PHA Violet Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ce0058ff'
+tags:
+  - translucent
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-violet-transparent-0-fe436420.png
+    type: unspecified

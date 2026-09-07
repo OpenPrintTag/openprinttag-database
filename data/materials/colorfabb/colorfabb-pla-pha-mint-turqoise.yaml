@@ -1,0 +1,18 @@
+uuid: 3b01d9a2-4b67-5e08-9c07-a54337d5f571
+slug: colorfabb-pla-pha-mint-turqoise
+brand:
+  slug: colorfabb
+name: PLA/PHA Mint turqoise
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00b4bcff'
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-mint-turqoise-0-97f49f06.png
+    type: unspecified

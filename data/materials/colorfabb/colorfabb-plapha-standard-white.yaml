@@ -9,8 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ffffffff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-standard-white/3b5c5d3cc958.png
-  type: unspecified
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-plapha-standard-white/3b5c5d3cc958.png
+    type: unspecified
 properties: {}

@@ -1,0 +1,18 @@
+uuid: 15df640c-effc-57da-b0bd-831a29074482
+slug: colorfabb-pla-pha-signal-yellow
+brand:
+  slug: colorfabb
+name: PLA/PHA Signal yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3b400ff'
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-signal-yellow-0-8c5571bd.png
+    type: unspecified

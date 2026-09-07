@@ -1,0 +1,18 @@
+uuid: ba26ecb5-3f9d-51fa-b771-5ed88cd9ccea
+slug: colorfabb-pla-pha-leaf-green
+brand:
+  slug: colorfabb
+name: PLA/PHA Leaf green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#06924dff'
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-leaf-green-0-340ca6bc.png
+    type: unspecified

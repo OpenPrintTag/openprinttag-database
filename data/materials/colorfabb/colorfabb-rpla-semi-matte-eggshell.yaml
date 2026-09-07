@@ -9,8 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#eadac2ff'
 tags:
-- industrially_compostable
+  - recycled
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-rpla-semi-matte-eggshell/bc5cad92c3c6.png
-  type: unspecified
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-rpla-semi-matte-eggshell/bc5cad92c3c6.png
+    type: unspecified
 properties: {}

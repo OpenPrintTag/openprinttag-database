@@ -9,8 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ea9e3fff'
 tags:
-- industrially_compostable
+  - recycled
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-rpla-semi-matte-ochre/5fe3705e9c0a.png
-  type: unspecified
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-rpla-semi-matte-ochre/5fe3705e9c0a.png
+    type: unspecified
 properties: {}

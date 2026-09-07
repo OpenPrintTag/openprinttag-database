@@ -10,9 +10,13 @@ url: https://colorfabb.com/pla-regrind?_gl=1*1tl4lxw*_up*MQ..*_gs*MQ..&gclid=EAI
 primary_color:
   color_rgba: '#6a6c6eff'
 tags:
-- recycled
-- industrially_compostable
+  - recycled
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-regrind/97adeb2ab293.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-pla-regrind/97adeb2ab293.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

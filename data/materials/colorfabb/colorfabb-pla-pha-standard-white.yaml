@@ -1,0 +1,19 @@
+uuid: 92385415-7e35-5f65-9507-4e93c5eaf694
+slug: colorfabb-pla-pha-standard-white
+brand:
+  slug: colorfabb
+name: PLA/PHA Standard white
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-standard-white-0-0acb0d2b.png
+    type: unspecified

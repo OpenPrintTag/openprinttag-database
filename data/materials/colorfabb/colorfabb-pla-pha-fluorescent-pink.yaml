@@ -1,0 +1,20 @@
+uuid: a9550ba2-5e82-582b-a728-99ae164fb908
+slug: colorfabb-pla-pha-fluorescent-pink
+brand:
+  slug: colorfabb
+name: PLA/PHA Fluorescent pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e23288ff'
+tags:
+  - neon
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pha-fluorescent-pink-0-6293837d.png
+    type: unspecified
