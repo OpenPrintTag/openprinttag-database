@@ -4,13 +4,18 @@ brand:
   slug: colorfabb
 name: nGen Gray Metallic
 class: FFF
-abbreviation: nGen
+abbreviation: NGEN
 primary_color:
   color_rgba: '#55555eff'
 tags:
-- contains_metal
-- abrasive
+  - contains_metal
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-gray-metallic/5a46f5efbeb4.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-gray-metallic/5a46f5efbeb4.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 75
+  max_bed_temperature: 85

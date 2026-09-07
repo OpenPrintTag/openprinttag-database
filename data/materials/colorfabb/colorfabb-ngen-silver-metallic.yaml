@@ -4,13 +4,17 @@ brand:
   slug: colorfabb
 name: nGen Silver Metallic
 class: FFF
-abbreviation: nGen
+abbreviation: NGEN
 primary_color:
   color_rgba: '#abacb0ff'
 tags:
-- silk
-- imitates_metal
+  - imitates_metal
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-silver-metallic/538c34536301.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-silver-metallic/538c34536301.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 75
+  max_bed_temperature: 85

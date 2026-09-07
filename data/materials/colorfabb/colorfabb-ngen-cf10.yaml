@@ -4,14 +4,15 @@ brand:
   slug: colorfabb
 name: nGen-CF10
 class: FFF
-abbreviation: nGen
+abbreviation: NGEN-CF
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- matte
-- contains_carbon_fiber
-- abrasive
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-cf10/dc80b696d3b4.png
-  type: unspecified
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-cf10/dc80b696d3b4.png
+    type: unspecified
 properties: {}

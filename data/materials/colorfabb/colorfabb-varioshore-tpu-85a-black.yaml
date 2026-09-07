@@ -1,0 +1,22 @@
+uuid: 3322c76a-2ad5-5525-9b7e-13bb48f3fcc2
+slug: colorfabb-varioshore-tpu-85a-black
+brand:
+  slug: colorfabb
+name: varioShore TPU 85A Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - foaming
+properties:
+  density: 1.2
+  hardness_shore_a: 85.0
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-varioshore-tpu-85a-black-0-4195a0da.jpg
+    type: unspecified

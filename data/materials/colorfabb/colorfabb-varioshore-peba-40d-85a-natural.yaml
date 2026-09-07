@@ -1,0 +1,21 @@
+uuid: 50ff9de6-7953-5d21-acab-4410b659a6d0
+slug: colorfabb-varioshore-peba-40d-85a-natural
+brand:
+  slug: colorfabb
+name: varioShore PEBA 40D/85A Natural
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#dfdfd3ff'
+properties:
+  density: 1.03
+  hardness_shore_d: 40.0
+  hardness_shore_a: 85.0
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-varioshore-peba-40d-85a-natural-0-9baba892.png
+    type: unspecified

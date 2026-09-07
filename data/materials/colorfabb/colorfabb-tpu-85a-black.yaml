@@ -9,7 +9,12 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#000000ff'
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-tpu-85a-black/82aab87357f2.png
-  type: unspecified
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-tpu-85a-black/82aab87357f2.png
+    type: unspecified
 properties:
-  hardness_shore_a: 85
+  density: 1.21
+  hardness_shore_a: 85.0
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 40

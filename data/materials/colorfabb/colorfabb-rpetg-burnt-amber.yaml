@@ -1,0 +1,20 @@
+uuid: d8fe1958-1692-5570-bdb7-b0017b06b79a
+slug: colorfabb-rpetg-burnt-amber
+brand:
+  slug: colorfabb
+name: rPETG Burnt Amber
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#a85c28ff'
+tags:
+  - recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/colorfabb-rpetg-burnt-amber-0-4486b7c9.png
+    type: unspecified

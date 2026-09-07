@@ -1,0 +1,22 @@
+uuid: 01c90245-ccb2-57c6-8a56-79345717eebb
+slug: colorfabb-varioshore-tpu-95a-green
+brand:
+  slug: colorfabb
+name: varioShore TPU 95A Green
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#065b4aff'
+tags:
+  - foaming
+properties:
+  density: 1.2
+  hardness_shore_a: 95.0
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-varioshore-tpu-95a-green-0-7606bfe6.png
+    type: unspecified

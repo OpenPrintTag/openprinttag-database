@@ -1,0 +1,22 @@
+uuid: aa51fc0d-e514-5aef-9392-bd4024bd446a
+slug: colorfabb-varioshore-tpu-95a-blue
+brand:
+  slug: colorfabb
+name: varioShore TPU 95A Blue
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#0e21aeff'
+tags:
+  - foaming
+properties:
+  density: 1.2
+  hardness_shore_a: 95.0
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-varioshore-tpu-95a-blue-0-6bc5bcc2.png
+    type: unspecified
