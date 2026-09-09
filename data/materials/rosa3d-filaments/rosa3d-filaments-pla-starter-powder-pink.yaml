@@ -1,0 +1,25 @@
+uuid: ff6a3896-7cac-5b8f-8108-0731896bb034
+slug: rosa3d-filaments-pla-starter-powder-pink
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Powder Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffc0cbff'
+  color_lab:
+    - 83.59
+    - 24.14
+    - 3.33
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-powder-pink-0-0af5fd65.jpg
+    type: unspecified

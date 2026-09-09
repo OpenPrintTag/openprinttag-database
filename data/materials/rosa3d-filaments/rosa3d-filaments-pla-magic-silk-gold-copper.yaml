@@ -7,9 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#f6c500ff'
-- color_rgba: '#c06341ff'
+  - color_rgba: '#c06341ff'
+    color_lab:
+      - 52.41
+      - 34.43
+      - 35.86
+  - color_rgba: '#f6c500ff'
+    color_lab:
+      - 81.58
+      - 3.43
+      - 82.98
 tags:
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-gold-copper-0-920650fa.png
+    type: unspecified

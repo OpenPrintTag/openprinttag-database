@@ -1,0 +1,25 @@
+uuid: 43117f54-99a8-5a92-9ac5-0f9719d5d32a
+slug: rosa3d-filaments-pla-starter-orange
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+  color_lab:
+    - 63.43
+    - 45.27
+    - 70.41
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-orange-0-cc604c4f.jpg
+    type: unspecified

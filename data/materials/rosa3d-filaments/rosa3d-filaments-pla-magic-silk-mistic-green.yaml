@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#3d9441ff'
-- color_rgba: '#545252ff'
+  - color_rgba: '#3d9441ff'
+    color_lab:
+      - 54.61
+      - -43.68
+      - 35.78
+  - color_rgba: '#545252ff'
+    color_lab:
+      - 35.06
+      - 0.81
+      - 0.29
 tags:
-- coextruded
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-mistic-green-0-aa904e4e.png
+    type: unspecified

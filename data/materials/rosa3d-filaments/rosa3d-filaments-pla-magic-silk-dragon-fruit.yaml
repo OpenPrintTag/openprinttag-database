@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#70fa00ff'
-- color_rgba: '#ff0066ff'
+  - color_rgba: '#ff0066ff'
+    color_lab:
+      - 54.27
+      - 82.87
+      - 18.88
+  - color_rgba: '#70fa00ff'
+    color_lab:
+      - 87.88
+      - -70.37
+      - 84.0
 tags:
-- silk
-- coextruded
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-dragon-fruit-0-82727c59.png
+    type: unspecified

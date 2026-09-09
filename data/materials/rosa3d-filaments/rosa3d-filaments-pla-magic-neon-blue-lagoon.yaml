@@ -1,0 +1,30 @@
+uuid: a046af10-6021-5dbe-b391-916aeaddfed6
+slug: rosa3d-filaments-pla-magic-neon-blue-lagoon
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Neon Blue Lagoon
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#62e480ff'
+    color_lab:
+      - 81.64
+      - -56.86
+      - 38.21
+  - color_rgba: '#39b9dbff'
+    color_lab:
+      - 69.95
+      - -23.3
+      - -27.0
+tags:
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-neon-blue-lagoon-0-0608d6b0.png
+    type: unspecified

@@ -7,11 +7,36 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#fbd1a7ff'
-- color_rgba: '#fce575ff'
-- color_rgba: '#dabcc8ff'
-- color_rgba: '#9be0e5ff'
+  - color_rgba: '#fbd1a7ff'
+    color_lab:
+      - 86.46
+      - 8.97
+      - 26.37
+  - color_rgba: '#fce575ff'
+    color_lab:
+      - 90.79
+      - -5.82
+      - 56.75
+  - color_rgba: '#9be0e5ff'
+    color_lab:
+      - 84.96
+      - -20.27
+      - -9.34
+  - color_rgba: '#dabcc8ff'
+    color_lab:
+      - 79.07
+      - 12.67
+      - -2.07
 tags:
-- gradual_color_change
-- industrially_compostable
-properties: {}
+  - gradual_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-rainbow-pastel-0-981d08b4.png
+    type: unspecified

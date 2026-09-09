@@ -1,0 +1,38 @@
+uuid: e5a6d66d-071c-5d03-a0f8-dcc39fce5870
+slug: rosa3d-filaments-pla-magic-cameleon
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Cameleon
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#61c680ff'
+    color_lab:
+      - 72.55
+      - -45.01
+      - 26.29
+  - color_rgba: '#dd8131ff'
+    color_lab:
+      - 62.76
+      - 29.6
+      - 55.93
+  - color_rgba: '#800080ff'
+    color_lab:
+      - 29.78
+      - 58.93
+      - -36.49
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-cameleon-0-21fef1f5.jpg
+    type: unspecified

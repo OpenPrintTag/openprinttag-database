@@ -1,0 +1,25 @@
+uuid: dfbe7f80-9332-5fdb-a842-d9194dd731b7
+slug: rosa3d-filaments-pla-starter-pink
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff0078ff'
+  color_lab:
+    - 54.68
+    - 83.98
+    - 8.59
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-pink-0-a2b23930.jpg
+    type: unspecified

@@ -1,0 +1,26 @@
+uuid: bf0ca10d-d3c9-5fa3-a634-420d231d17a6
+slug: rosa3d-filaments-pla-esd-tool-lime-yellow
+brand:
+  slug: rosa3d-filaments
+name: PLA ESD Tool Lime Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5cfc60ff'
+  color_lab:
+    - 88.32
+    - -70.85
+    - 60.88
+tags:
+  - esd_safe
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-esd-tool-lime-yellow-0-3cc38f6e.jpg
+    type: unspecified

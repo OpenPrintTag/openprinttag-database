@@ -8,7 +8,21 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#a2aaadff'
+  color_lab:
+    - 69.07
+    - -2.22
+    - -2.52
 tags:
-- matte
-- industrially_compostable
-properties: {}
+  - high_speed
+  - matte
+properties:
+  density: 1.41
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-speed-matt-gray-0-8440f031.png
+    type: unspecified

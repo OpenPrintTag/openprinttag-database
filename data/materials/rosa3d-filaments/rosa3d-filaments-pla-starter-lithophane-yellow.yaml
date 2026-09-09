@@ -8,7 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#f6fb38ff'
+  color_lab:
+    - 95.53
+    - -22.37
+    - 84.51
 tags:
-- lithophane
-- industrially_compostable
-properties: {}
+  - lithophane
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-lithophane-yellow-0-94b4b7b5.png
+    type: unspecified

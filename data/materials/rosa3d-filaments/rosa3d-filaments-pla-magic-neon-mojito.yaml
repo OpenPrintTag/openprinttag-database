@@ -1,0 +1,30 @@
+uuid: 994ea1d8-112e-536d-b841-0d3c3061aeca
+slug: rosa3d-filaments-pla-magic-neon-mojito
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Neon Mojito
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#9aed51ff'
+    color_lab:
+      - 86.02
+      - -49.78
+      - 65.05
+  - color_rgba: '#fffc25ff'
+    color_lab:
+      - 96.42
+      - -19.69
+      - 89.86
+tags:
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-neon-mojito-0-497a346f.png
+    type: unspecified

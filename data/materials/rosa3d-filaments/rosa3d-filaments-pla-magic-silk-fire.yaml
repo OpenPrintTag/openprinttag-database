@@ -1,0 +1,31 @@
+uuid: 87b0a7fd-f621-520e-87b0-092490c8248e
+slug: rosa3d-filaments-pla-magic-silk-fire
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Silk Fire
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f4da78ff'
+    color_lab:
+      - 87.36
+      - -3.25
+      - 51.09
+  - color_rgba: '#e4002bff'
+    color_lab:
+      - 47.85
+      - 74.2
+      - 44.75
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-fire-0-1521890d.jpg
+    type: unspecified

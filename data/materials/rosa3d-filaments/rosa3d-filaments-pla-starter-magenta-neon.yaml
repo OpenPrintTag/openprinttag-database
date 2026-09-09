@@ -1,0 +1,25 @@
+uuid: 4d2babed-4cd4-5d6e-a271-8aa148a17782
+slug: rosa3d-filaments-pla-starter-magenta-neon
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Magenta Neon
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fe0194ff'
+  color_lab:
+    - 55.32
+    - 85.83
+    - -7.27
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-magenta-neon-0-687eb74e.jpg
+    type: unspecified

@@ -7,11 +7,32 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#3d9441ff'
-- color_rgba: '#70fa00ff'
-- color_rgba: '#f6fb38ff'
+  - color_rgba: '#3d9441ff'
+    color_lab:
+      - 54.61
+      - -43.68
+      - 35.78
+  - color_rgba: '#f6fb38ff'
+    color_lab:
+      - 95.53
+      - -22.37
+      - 84.51
+  - color_rgba: '#70fa00ff'
+    color_lab:
+      - 87.88
+      - -70.37
+      - 84.0
 tags:
-- gradual_color_change
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-multicolour-jungle-0-8d7e178b.png
+    type: unspecified

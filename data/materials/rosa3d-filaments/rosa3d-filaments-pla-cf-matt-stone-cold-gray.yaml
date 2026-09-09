@@ -8,8 +8,23 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#a2aaadff'
+  color_lab:
+    - 69.07
+    - -2.22
+    - -2.52
 tags:
-  - contains_carbon_fiber
   - matte
+  - contains_carbon_fiber
   - abrasive
-properties: {}
+  - contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-cf-matt-stone-cold-gray-0-5a521ffa.png
+    type: unspecified

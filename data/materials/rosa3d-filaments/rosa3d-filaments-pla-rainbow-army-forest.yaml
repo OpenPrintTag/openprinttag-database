@@ -1,0 +1,37 @@
+uuid: 4267f75a-8808-573e-aaef-8c30bb857bb6
+slug: rosa3d-filaments-pla-rainbow-army-forest
+brand:
+  slug: rosa3d-filaments
+name: PLA Rainbow Army Forest
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#6e8451ff'
+    color_lab:
+      - 52.3
+      - -17.36
+      - 24.97
+  - color_rgba: '#674b42ff'
+    color_lab:
+      - 34.62
+      - 10.49
+      - 10.01
+  - color_rgba: '#a45b27ff'
+    color_lab:
+      - 46.34
+      - 25.77
+      - 41.6
+tags:
+  - gradual_color_change
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-rainbow-army-forest-0-3079225b.png
+    type: unspecified

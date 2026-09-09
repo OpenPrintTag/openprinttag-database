@@ -1,0 +1,38 @@
+uuid: d5245943-738a-5cdf-8843-e45cc2998d19
+slug: rosa3d-filaments-pla-rainbow-silk-ocean
+brand:
+  slug: rosa3d-filaments
+name: PLA Rainbow Silk Ocean
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#80e0a7ff'
+    color_lab:
+      - 82.21
+      - -40.89
+      - 19.23
+  - color_rgba: '#006272ff'
+    color_lab:
+      - 37.75
+      - -18.15
+      - -15.95
+  - color_rgba: '#39b9dbff'
+    color_lab:
+      - 69.95
+      - -23.3
+      - -27.0
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-rainbow-silk-ocean-0-ea8a87ee.png
+    type: unspecified

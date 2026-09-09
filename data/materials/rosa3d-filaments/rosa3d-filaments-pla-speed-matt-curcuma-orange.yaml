@@ -1,0 +1,28 @@
+uuid: ace6b014-56c7-5cd3-976e-935022808cca
+slug: rosa3d-filaments-pla-speed-matt-curcuma-orange
+brand:
+  slug: rosa3d-filaments
+name: PLA Speed Matt Curcuma Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9a40ff'
+  color_lab:
+    - 72.72
+    - 30.98
+    - 60.8
+tags:
+  - high_speed
+  - matte
+properties:
+  density: 1.41
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-speed-matt-curcuma-orange-0-3fff3bda.jpg
+    type: unspecified

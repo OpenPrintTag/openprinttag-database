@@ -1,0 +1,25 @@
+uuid: 6a83de2d-fbf7-5ef2-ade0-9c951890b67c
+slug: rosa3d-filaments-pla-starter-retro-gray
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Retro Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bcb0a3ff'
+  color_lab:
+    - 72.49
+    - 2.06
+    - 8.2
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-retro-gray-0-467103d2.jpg
+    type: unspecified

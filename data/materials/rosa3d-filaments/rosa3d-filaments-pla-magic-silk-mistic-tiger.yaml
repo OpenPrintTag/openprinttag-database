@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#000000ff'
-- color_rgba: '#f4ac23ff'
+  - color_rgba: '#000000ff'
+    color_lab:
+      - 0.0
+      - 0.0
+      - 0.0
+  - color_rgba: '#f4ac23ff'
+    color_lab:
+      - 75.37
+      - 16.08
+      - 72.85
 tags:
-- coextruded
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-mistic-tiger-0-0c29c35a.png
+    type: unspecified

@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#58c91bff'
-- color_rgba: '#6000b0ff'
+  - color_rgba: '#58c91bff'
+    color_lab:
+      - 72.18
+      - -59.26
+      - 67.6
+  - color_rgba: '#6000b0ff'
+    color_lab:
+      - 28.44
+      - 63.8
+      - -68.38
 tags:
-- silk
-- coextruded
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-goblin-0-615bbfab.png
+    type: unspecified

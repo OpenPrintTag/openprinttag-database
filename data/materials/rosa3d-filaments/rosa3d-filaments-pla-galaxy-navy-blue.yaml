@@ -8,7 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#2b3b61ff'
+  color_lab:
+    - 25.27
+    - 5.85
+    - -24.54
 tags:
-- glitter
-- industrially_compostable
-properties: {}
+  - glitter
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-galaxy-navy-blue-0-a73c29c7.jpg
+    type: unspecified

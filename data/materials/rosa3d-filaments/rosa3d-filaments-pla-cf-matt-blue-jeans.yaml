@@ -8,8 +8,23 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#9db6d4ff'
+  color_lab:
+    - 73.14
+    - -1.84
+    - -17.93
 tags:
-  - contains_carbon_fiber
   - matte
+  - contains_carbon_fiber
   - abrasive
-properties: {}
+  - contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-cf-matt-blue-jeans-0-bef4442f.png
+    type: unspecified

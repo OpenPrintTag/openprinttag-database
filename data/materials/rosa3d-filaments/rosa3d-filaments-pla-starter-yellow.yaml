@@ -7,7 +7,21 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#f2de00ff'
+  color_rgba: '#efd00bff'
+  color_lab:
+    - 83.7
+    - -5.11
+    - 83.17
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-yellow-0-4408a894.png
+    type: unspecified

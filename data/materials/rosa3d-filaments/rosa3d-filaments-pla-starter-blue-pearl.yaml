@@ -1,0 +1,25 @@
+uuid: 7627d9c3-1009-5ade-bc2f-6a68453a661f
+slug: rosa3d-filaments-pla-starter-blue-pearl
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Blue Pearl
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0f8ab8ff'
+  color_lab:
+    - 53.75
+    - -13.85
+    - -32.58
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-starter-blue-pearl-0-11cddb81.jpg
+    type: unspecified

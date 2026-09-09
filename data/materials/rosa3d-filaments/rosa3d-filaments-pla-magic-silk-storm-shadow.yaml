@@ -7,11 +7,30 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#0353baff'
-- color_rgba: '#24292aff'
-- color_rgba: '#a8b0bdff'
+  - color_rgba: '#24292aff'
+    color_lab:
+      - 16.15
+      - -1.95
+      - -1.41
+  - color_rgba: '#a8b0bdff'
+    color_lab:
+      - 71.59
+      - -0.18
+      - -7.58
+  - color_rgba: '#0353baff'
+    color_lab:
+      - 37.39
+      - 20.64
+      - -59.84
 tags:
-- silk
-- coextruded
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-storm-shadow-0-251a11d4.png
+    type: unspecified

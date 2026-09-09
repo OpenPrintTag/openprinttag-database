@@ -8,7 +8,22 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
 tags:
   - contains_carbon_fiber
   - abrasive
-properties: {}
+  - contains_carbon
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-carbonlook-0-610d95bd.png
+    type: unspecified

@@ -8,6 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#c1d4ffff'
+  color_lab:
+    - 84.81
+    - 2.74
+    - -23.09
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-pastel-blue-0-8f789234.png
+    type: unspecified

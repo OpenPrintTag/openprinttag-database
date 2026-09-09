@@ -7,12 +7,37 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#fcafc0ff'
-- color_rgba: '#0066d9ff'
-- color_rgba: '#8ed9f9ff'
-- color_rgba: '#8d65c7ff'
+  - color_rgba: '#0066d9ff'
+    color_lab:
+      - 44.96
+      - 20.46
+      - -65.46
+  - color_rgba: '#8d65c7ff'
+    color_lab:
+      - 50.8
+      - 36.43
+      - -45.4
+  - color_rgba: '#fcafc0ff'
+    color_lab:
+      - 79.14
+      - 30.42
+      - 2.76
+  - color_rgba: '#8ed9f9ff'
+    color_lab:
+      - 83.03
+      - -15.14
+      - -22.9
 tags:
-- silk
-- gradual_color_change
-- industrially_compostable
-properties: {}
+  - silk
+  - gradual_color_change
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-multicolour-silk-candy-0-64ca0719.png
+    type: unspecified

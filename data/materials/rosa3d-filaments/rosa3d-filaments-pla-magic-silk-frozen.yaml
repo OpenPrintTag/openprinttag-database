@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#0099e6ff'
-- color_rgba: '#f5f5f5ff'
+  - color_rgba: '#0099e6ff'
+    color_lab:
+      - 60.33
+      - -5.82
+      - -48.11
+  - color_rgba: '#f5f5f5ff'
+    color_lab:
+      - 96.54
+      - 0.0
+      - 0.0
 tags:
-- coextruded
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+  - coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pla-magic-silk-frozen-0-67e937b0.png
+    type: unspecified
