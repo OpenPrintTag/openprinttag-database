@@ -9,8 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-semi-matte-black/f7f2a1dfa957.png
-  type: unspecified
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-pla-semi-matte-black/f7f2a1dfa957.png
+    type: unspecified
 properties: {}

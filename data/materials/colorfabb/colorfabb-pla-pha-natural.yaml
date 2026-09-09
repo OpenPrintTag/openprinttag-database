@@ -1,0 +1,21 @@
+uuid: 740fef4d-9b15-519f-aa53-a53c1ecdcfc2
+slug: colorfabb-pla-pha-natural
+brand:
+  slug: colorfabb
+name: PLA/PHA Natural
+class: FFF
+type: PLA
+abbreviation: PLAPHA
+primary_color:
+  color_rgba: '#f1e6b2ff'
+tags:
+- without_pigments
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pha-natural/colorfabb-pla-pha-natural-0-b22c7f1b.png
+  type: unspecified
