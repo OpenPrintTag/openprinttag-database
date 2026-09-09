@@ -1,0 +1,29 @@
+uuid: cf8c50b7-a019-59e7-82ca-551579383669
+slug: rosa3d-filaments-abs-x-white
+brand:
+  slug: rosa3d-filaments
+name: ABS-X White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#edf0f2ff'
+  color_lab:
+    - 94.63
+    - -0.64
+    - -1.31
+tags:
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-abs-x-white-0-8bb868b1.jpg
+    type: unspecified

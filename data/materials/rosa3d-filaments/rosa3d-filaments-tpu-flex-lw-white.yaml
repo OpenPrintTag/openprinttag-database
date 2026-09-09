@@ -1,0 +1,27 @@
+uuid: 95e0cca1-fc40-5a60-a222-c41621c43dfe
+slug: rosa3d-filaments-tpu-flex-lw-white
+brand:
+  slug: rosa3d-filaments
+name: TPU Flex LW White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
+tags:
+  - foaming
+properties:
+  density: 0.43
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-tpu-flex-lw-white-0-ae7bc66e.jpg
+    type: unspecified

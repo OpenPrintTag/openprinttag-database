@@ -8,4 +8,20 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#3292b2ff'
-properties: {}
+  color_lab:
+    - 56.53
+    - -17.11
+    - -24.79
+properties:
+  density: 1.45
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+tags:
+  - contains_metal
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-mdt-x-ray-dt-blue-0-d43c6d50.png
+    type: unspecified

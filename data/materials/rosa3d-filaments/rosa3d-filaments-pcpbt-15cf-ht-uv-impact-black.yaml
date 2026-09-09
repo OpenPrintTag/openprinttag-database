@@ -5,11 +5,16 @@ brand:
 name: PC/PBT + 15CF (HT-UV-IMPACT) Black
 class: FFF
 type: PC
-abbreviation: PCCF
+abbreviation: PC
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
 tags:
-- contains_carbon_fiber
-- matte
-- abrasive
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 properties: {}

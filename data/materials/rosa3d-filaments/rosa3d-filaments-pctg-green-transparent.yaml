@@ -8,6 +8,20 @@ type: PCTG
 abbreviation: PCTG
 primary_color:
   color_rgba: '#26a648ff'
+  color_lab:
+    - 60.02
+    - -53.91
+    - 38.67
 tags:
-- translucent
-properties: {}
+  - translucent
+properties:
+  density: 1.24
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pctg-green-transparent-0-e80af5d7.png
+    type: unspecified

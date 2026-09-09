@@ -8,5 +8,19 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
 properties:
-  hardness_shore_a: 96
+  density: 1.22
+  hardness_shore_a: 96.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-rosa-flex-96a-white-0-0d0562c1.jpg
+    type: unspecified

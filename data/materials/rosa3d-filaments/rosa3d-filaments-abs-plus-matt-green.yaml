@@ -1,0 +1,30 @@
+uuid: a42df824-a0e4-5d5d-80cd-25559b5074ee
+slug: rosa3d-filaments-abs-plus-matt-green
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Green
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#08d461ff'
+  color_lab:
+    - 74.82
+    - -67.75
+    - 44.42
+tags:
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-abs-plus-matt-green-0-f4cd15b9.png
+    type: unspecified

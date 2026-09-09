@@ -1,0 +1,27 @@
+uuid: 49d1520b-05be-5832-ac3e-938e233e5d8f
+slug: rosa3d-filaments-tpu-flex-lw-anthracite-black
+brand:
+  slug: rosa3d-filaments
+name: TPU Flex LW Anthracite Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+    - 0.76
+    - -0.26
+    - -0.09
+tags:
+  - foaming
+properties:
+  density: 0.43
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-tpu-flex-lw-anthracite-black-0-3a431049.jpg
+    type: unspecified

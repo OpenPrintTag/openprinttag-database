@@ -1,0 +1,29 @@
+uuid: 7ace5f73-11c8-5cb2-9914-05fc8cc1569e
+slug: rosa3d-filaments-asa-x-black
+brand:
+  slug: rosa3d-filaments
+name: ASA-X Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-asa-x-black-0-c5331b74.jpg
+    type: unspecified

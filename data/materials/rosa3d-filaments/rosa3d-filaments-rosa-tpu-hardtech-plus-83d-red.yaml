@@ -1,0 +1,26 @@
+uuid: da3c9604-46c2-511f-9601-a270c6cffd9d
+slug: rosa3d-filaments-rosa-tpu-hardtech-plus-83d-red
+brand:
+  slug: rosa3d-filaments
+name: ROSA TPU HardTech+ 83D Red
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e72f1dff'
+  color_lab:
+    - 50.82
+    - 67.59
+    - 54.46
+properties:
+  density: 1.33
+  hardness_shore_d: 83.0
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 100
+  drying_temperature: 70
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-rosa-tpu-hardtech-plus-83d-red-0-a9b17645.png
+    type: unspecified

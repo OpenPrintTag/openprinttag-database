@@ -1,0 +1,35 @@
+uuid: 59317c03-b1f8-5e12-ab71-89d61d84ccef
+slug: rosa3d-filaments-pet-g-standard-hs-glow-in-the-dark-blue
+brand:
+  slug: rosa3d-filaments
+name: PET-G Standard HS Glow in the Dark Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+  - color_rgba: '#fdfaefff'
+    color_lab:
+      - 98.23
+      - -0.88
+      - 5.62
+  - color_rgba: '#23a3c7ff'
+    color_lab:
+      - 62.23
+      - -20.75
+      - -27.87
+tags:
+  - glow_in_the_dark
+  - abrasive
+  - high_speed
+  - illuminescent_color_change
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-standard-hs-glow-in-the-dark-blue-0-b70916ff.jpg
+    type: unspecified

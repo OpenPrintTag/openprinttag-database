@@ -1,0 +1,31 @@
+uuid: d760c786-d590-56cd-93ee-2dc6893271bb
+slug: rosa3d-filaments-asa-plus-5kevlar-black
+brand:
+  slug: rosa3d-filaments
+name: ASA + 5Kevlar BLACK
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_kevlar
+  - abrasive
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+  - url: /tmp/assets/rosa3d-filaments-asa-plus-5kevlar-black-0-fa214182.png
+    type: unspecified

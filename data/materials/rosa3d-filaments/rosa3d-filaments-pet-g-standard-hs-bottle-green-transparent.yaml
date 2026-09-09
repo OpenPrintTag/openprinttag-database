@@ -1,0 +1,28 @@
+uuid: 8bba285b-20d3-570a-aed1-9a26cabdec70
+slug: rosa3d-filaments-pet-g-standard-hs-bottle-green-transparent
+brand:
+  slug: rosa3d-filaments
+name: PET-G Standard HS Bottle Green Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#00773aff'
+  color_lab:
+    - 43.5
+    - -43.37
+    - 25.57
+tags:
+  - high_speed
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-standard-hs-bottle-green-transparent-0-0e878d3b.jpg
+    type: unspecified

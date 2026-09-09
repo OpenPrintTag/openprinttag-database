@@ -1,0 +1,32 @@
+uuid: 9b679696-a975-5dcf-99c1-aa58e733831e
+slug: rosa3d-filaments-pc-pbt-plus-15gf-ht-uv-impact-black
+brand:
+  slug: rosa3d-filaments
+name: PC/PBT + 15GF (HT-UV-IMPACT) Black
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - high_temperature
+properties:
+  density: 1.32
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pc-pbt-plus-15gf-ht-uv-impact-black-0-3e3c0673.png
+    type: unspecified

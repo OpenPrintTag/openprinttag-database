@@ -7,7 +7,21 @@ class: FFF
 type: PCTG
 abbreviation: PCTG
 primary_color:
-  color_rgba: '#bac4c4ff'
+  color_rgba: '#c3ccd5ff'
+  color_lab:
+    - 81.62
+    - -1.33
+    - -5.52
 tags:
-- glitter
-properties: {}
+  - glitter
+properties:
+  density: 1.24
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pctg-glitter-brillant-silver-0-5add2978.png
+    type: unspecified

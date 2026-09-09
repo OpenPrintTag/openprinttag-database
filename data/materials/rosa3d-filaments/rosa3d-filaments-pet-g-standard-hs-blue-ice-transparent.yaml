@@ -1,0 +1,28 @@
+uuid: d6a7d610-a118-5bf1-9c94-18b16b8351d0
+slug: rosa3d-filaments-pet-g-standard-hs-blue-ice-transparent
+brand:
+  slug: rosa3d-filaments
+name: PET-G Standard HS Blue Ice Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#74e5eaff'
+  color_lab:
+    - 84.84
+    - -30.83
+    - -12.35
+tags:
+  - high_speed
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-standard-hs-blue-ice-transparent-0-eb0fa6c6.jpg
+    type: unspecified

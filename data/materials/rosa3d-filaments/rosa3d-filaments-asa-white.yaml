@@ -1,0 +1,29 @@
+uuid: 04f60c47-8ce3-5eaa-8506-5e5f17d814ea
+slug: rosa3d-filaments-asa-white
+brand:
+  slug: rosa3d-filaments
+name: ASA White
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f8faf8ff'
+  color_lab:
+    - 98.08
+    - -1.01
+    - 0.72
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-asa-white-0-af98383f.jpg
+    type: unspecified

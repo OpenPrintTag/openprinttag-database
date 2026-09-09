@@ -1,0 +1,29 @@
+uuid: 3a7d24e9-5659-5a44-8887-cfc0d36b0463
+slug: rosa3d-filaments-pp-gf30-black
+brand:
+  slug: rosa3d-filaments
+name: PP GF30 Black
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.12
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 60
+  drying_time: 480
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pp-gf30-black-0-8a59fce3.jpg
+    type: unspecified

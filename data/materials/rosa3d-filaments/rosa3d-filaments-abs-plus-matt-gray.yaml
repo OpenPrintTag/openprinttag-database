@@ -1,0 +1,30 @@
+uuid: c6a0b491-5912-5bdb-8fdf-608985f3e5ae
+slug: rosa3d-filaments-abs-plus-matt-gray
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Gray
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#5a696cff'
+  color_lab:
+    - 43.3
+    - -4.95
+    - -3.59
+tags:
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-abs-plus-matt-gray-0-0bf1cbdf.png
+    type: unspecified

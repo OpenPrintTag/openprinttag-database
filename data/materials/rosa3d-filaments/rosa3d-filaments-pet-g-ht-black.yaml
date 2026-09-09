@@ -8,6 +8,19 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- high_temperature
-properties: {}
+  - high_temperature
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 480
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-ht-black-0-be8ce95c.png
+    type: unspecified

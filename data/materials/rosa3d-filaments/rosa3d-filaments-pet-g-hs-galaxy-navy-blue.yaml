@@ -8,7 +8,21 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#436176ff'
+  color_lab:
+    - 39.66
+    - -5.01
+    - -15.3
 tags:
-- glitter
-- high_speed
-properties: {}
+  - high_speed
+  - glitter
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-hs-galaxy-navy-blue-0-88d41b80.png
+    type: unspecified

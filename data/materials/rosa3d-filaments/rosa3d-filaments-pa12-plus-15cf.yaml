@@ -1,0 +1,32 @@
+uuid: 00d0c7c0-b200-51c5-b0bc-5c024c50cc0e
+slug: rosa3d-filaments-pa12-plus-15cf
+brand:
+  slug: rosa3d-filaments
+name: PA12 + 15CF
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 250
+  max_print_temperature: 300
+  min_bed_temperature: 70
+  max_bed_temperature: 120
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pa12-plus-15cf-0-556a54f2.png
+    type: unspecified

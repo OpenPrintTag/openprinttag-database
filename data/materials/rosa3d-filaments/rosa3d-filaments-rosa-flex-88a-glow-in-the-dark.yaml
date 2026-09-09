@@ -9,10 +9,22 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#62e480ff'
 secondary_colors:
-- color_rgba: '#f9f3e5ff'
+  - color_rgba: '#62e480ff'
+    color_lab:
+      - 81.64
+      - -56.86
+      - 38.21
+  - color_rgba: '#f9f3e5ff'
+    color_lab:
+      - 95.95
+      - -0.35
+      - 7.46
 tags:
-- glow_in_the_dark
-- illuminescent_color_change
-- abrasive
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 properties:
-  hardness_shore_a: 88
+  hardness_shore_a: 88.0
+photos:
+  - url: /tmp/assets/rosa3d-filaments-rosa-flex-88a-glow-in-the-dark-0-5066e1f1.png
+    type: unspecified

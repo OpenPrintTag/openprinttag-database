@@ -7,10 +7,25 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#292b2bff'
+  color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
 tags:
-- contains_glass_fiber
-- high_temperature
-- abrasive
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - high_temperature
 properties:
-  hardness_shore_d: 75
+  density: 1.31
+  hardness_shore_d: 75.0
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-rosa-tpu-automotive-15-glass-fiber-black-ht-0-04ebec45.png
+    type: unspecified

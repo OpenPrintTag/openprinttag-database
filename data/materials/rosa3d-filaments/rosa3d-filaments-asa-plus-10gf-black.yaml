@@ -1,0 +1,32 @@
+uuid: 9602466d-314d-5672-a45c-50cfa12668b0
+slug: rosa3d-filaments-asa-plus-10gf-black
+brand:
+  slug: rosa3d-filaments
+name: ASA + 10GF BLACK
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-asa-plus-10gf-black-0-9acbd862.png
+    type: unspecified

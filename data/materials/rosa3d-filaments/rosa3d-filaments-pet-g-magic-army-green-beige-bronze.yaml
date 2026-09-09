@@ -7,9 +7,31 @@ class: FFF
 type: PETG
 abbreviation: PETG
 secondary_colors:
-- color_rgba: '#6e8451ff'
-- color_rgba: '#8c7354ff'
-- color_rgba: '#d4b6a3ff'
+  - color_rgba: '#8c7354ff'
+    color_lab:
+      - 50.07
+      - 5.22
+      - 20.84
+  - color_rgba: '#6e8451ff'
+    color_lab:
+      - 52.3
+      - -17.36
+      - 24.97
+  - color_rgba: '#d4b6a3ff'
+    color_lab:
+      - 76.13
+      - 7.83
+      - 13.66
 tags:
-- coextruded
-properties: {}
+  - coextruded
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-pet-g-magic-army-green-beige-bronze-0-19e41313.png
+    type: unspecified

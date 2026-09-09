@@ -8,6 +8,20 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
 tags:
-- recycled
-properties: {}
+  - recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-r-pet-g-impact-black-0-5eb6a37b.png
+    type: unspecified

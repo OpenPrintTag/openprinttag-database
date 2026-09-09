@@ -8,7 +8,23 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
 tags:
-- self_extinguishing
-- filtration_recommended
-properties: {}
+  - self_extinguishing
+  - filtration_recommended
+properties:
+  density: 1.2
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 360
+photos:
+  - url: /tmp/assets/rosa3d-filaments-abs-v0-fr-white-0-0c5f2d97.png
+    type: unspecified

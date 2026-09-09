@@ -1,0 +1,29 @@
+uuid: bce34a6f-97fb-56ab-8194-f75950e6933c
+slug: rosa3d-filaments-r-abs-black
+brand:
+  slug: rosa3d-filaments
+name: R-ABS Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#161619ff'
+  color_lab:
+    - 7.36
+    - 0.78
+    - -2.09
+tags:
+  - recycled
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+photos:
+  - url: /tmp/assets/rosa3d-filaments-r-abs-black-0-0ad6ba16.jpg
+    type: unspecified

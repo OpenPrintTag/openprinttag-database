@@ -1,0 +1,30 @@
+uuid: d8d0d688-6def-5030-b2a3-821536e019ff
+slug: rosa3d-filaments-abs-plus-matt-dark-blue
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Dark Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#0e21aeff'
+  color_lab:
+    - 24.44
+    - 48.09
+    - -74.01
+tags:
+  - matte
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+  - url: /tmp/assets/rosa3d-filaments-abs-plus-matt-dark-blue-0-73d2956e.png
+    type: unspecified
