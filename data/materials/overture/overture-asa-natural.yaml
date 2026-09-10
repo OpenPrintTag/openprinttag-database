@@ -13,4 +13,10 @@ tags:
 photos:
 - url: https://files.openprinttag.org/overture/overture-asa-natural/19459f6344e3.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 95
+  drying_temperature: 75
+  drying_time: 420

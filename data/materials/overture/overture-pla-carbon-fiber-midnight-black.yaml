@@ -14,4 +14,10 @@ tags:
 photos:
   - url: https://files.openprinttag.org/overture/overture-pla-carbon-fiber-midnight-black/7f7d24b81b58.jpg
     type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 420

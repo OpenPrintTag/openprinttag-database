@@ -10,4 +10,10 @@ primary_color:
 photos:
   - url: https://files.openprinttag.org/overture/overture-easy-nylon-grey/2971aa07c875.jpg
     type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 245
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 95
+  drying_time: 420
