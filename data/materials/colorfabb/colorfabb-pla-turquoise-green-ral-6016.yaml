@@ -1,0 +1,24 @@
+uuid: 00ccd459-e100-52ba-82bf-9635df2aa7a1
+slug: colorfabb-pla-turquoise-green-ral-6016
+brand:
+  slug: colorfabb
+name: PLA Turquoise green RAL 6016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#026a52ff'
+  color_lab:
+  - 39.46
+  - -32.5
+  - 6.18
+  color_ral: '6016'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-turquoise-green-ral-6016/colorfabb-pla-turquoise-green-ral-6016-0-57a09909.jpg
+  type: unspecified

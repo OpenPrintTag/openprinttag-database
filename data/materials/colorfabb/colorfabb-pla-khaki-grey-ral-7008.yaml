@@ -1,0 +1,24 @@
+uuid: 615127a7-de47-5a50-967a-0d7bd5197f34
+slug: colorfabb-pla-khaki-grey-ral-7008
+brand:
+  slug: colorfabb
+name: PLA Khaki grey RAL 7008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#746643ff'
+  color_lab:
+  - 43.69
+  - 0.14
+  - 21.82
+  color_ral: '7008'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-khaki-grey-ral-7008/colorfabb-pla-khaki-grey-ral-7008-0-c0008b44.jpg
+  type: unspecified

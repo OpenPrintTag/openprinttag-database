@@ -1,0 +1,24 @@
+uuid: ceb621b1-695c-5eea-99d5-bba169cb75c4
+slug: colorfabb-pla-blue-green-ral-6004
+brand:
+  slug: colorfabb
+name: PLA Blue green RAL 6004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0e4243ff'
+  color_lab:
+  - 24.94
+  - -15.98
+  - -5.49
+  color_ral: '6004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-blue-green-ral-6004/colorfabb-pla-blue-green-ral-6004-0-feee1ba4.jpg
+  type: unspecified

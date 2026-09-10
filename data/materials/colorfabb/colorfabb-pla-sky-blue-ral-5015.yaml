@@ -1,0 +1,24 @@
+uuid: f59f6f4d-f86c-5a3a-a65a-58c42f99a257
+slug: colorfabb-pla-sky-blue-ral-5015
+brand:
+  slug: colorfabb
+name: PLA Sky blue RAL 5015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2874b2ff'
+  color_lab:
+  - 47.18
+  - -1.19
+  - -39.42
+  color_ral: '5015'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-sky-blue-ral-5015/colorfabb-pla-sky-blue-ral-5015-0-7e5c43de.jpg
+  type: unspecified

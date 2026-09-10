@@ -1,0 +1,24 @@
+uuid: 246e95b0-fc75-51f6-be0a-1090df70c2ca
+slug: colorfabb-pla-silk-grey-ral-7044
+brand:
+  slug: colorfabb
+name: PLA Silk grey RAL 7044
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bdbdb2ff'
+  color_lab:
+  - 76.33
+  - -1.98
+  - 5.56
+  color_ral: '7044'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-silk-grey-ral-7044/colorfabb-pla-silk-grey-ral-7044-0-850ed484.jpg
+  type: unspecified

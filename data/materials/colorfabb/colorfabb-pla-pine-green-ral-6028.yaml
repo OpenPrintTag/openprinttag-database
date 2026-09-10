@@ -1,0 +1,24 @@
+uuid: 1dd3ff20-2658-5624-91ab-c01771441057
+slug: colorfabb-pla-pine-green-ral-6028
+brand:
+  slug: colorfabb
+name: PLA Pine green RAL 6028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2d5546ff'
+  color_lab:
+  - 32.91
+  - -18.19
+  - 4.39
+  color_ral: '6028'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pine-green-ral-6028/colorfabb-pla-pine-green-ral-6028-0-2f6ec684.jpg
+  type: unspecified

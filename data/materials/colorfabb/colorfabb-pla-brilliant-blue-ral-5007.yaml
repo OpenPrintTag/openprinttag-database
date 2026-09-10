@@ -1,0 +1,24 @@
+uuid: 0c06d5ea-a91b-59b2-bef8-a7ae249b1f4b
+slug: colorfabb-pla-brilliant-blue-ral-5007
+brand:
+  slug: colorfabb
+name: PLA Brilliant blue RAL 5007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#41678dff'
+  color_lab:
+  - 42.38
+  - -1.95
+  - -25.05
+  color_ral: '5007'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-brilliant-blue-ral-5007/colorfabb-pla-brilliant-blue-ral-5007-0-fc9f8809.jpg
+  type: unspecified

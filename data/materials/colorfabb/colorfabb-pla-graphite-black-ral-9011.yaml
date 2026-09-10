@@ -1,0 +1,24 @@
+uuid: 6f2b6ebd-0d8e-5bd4-8775-6141a25f77a7
+slug: colorfabb-pla-graphite-black-ral-9011
+brand:
+  slug: colorfabb
+name: PLA Graphite black RAL 9011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#292c2fff'
+  color_lab:
+  - 17.82
+  - -0.56
+  - -2.39
+  color_ral: '9011'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-graphite-black-ral-9011/colorfabb-pla-graphite-black-ral-9011-0-5c8d73c5.jpg
+  type: unspecified

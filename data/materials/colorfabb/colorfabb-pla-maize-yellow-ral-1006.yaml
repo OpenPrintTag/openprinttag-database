@@ -1,0 +1,24 @@
+uuid: 9f976275-2691-54d2-9e7c-6c7afb57d8e4
+slug: colorfabb-pla-maize-yellow-ral-1006
+brand:
+  slug: colorfabb
+name: PLA Maize yellow RAL 1006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e29000ff'
+  color_lab:
+  - 66.61
+  - 22.75
+  - 71.81
+  color_ral: '1006'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-maize-yellow-ral-1006/colorfabb-pla-maize-yellow-ral-1006-0-a1d3a3be.jpg
+  type: unspecified

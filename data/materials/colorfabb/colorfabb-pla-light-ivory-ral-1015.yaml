@@ -1,0 +1,24 @@
+uuid: a9d5887d-6ed4-5c50-b379-97c099ae2060
+slug: colorfabb-pla-light-ivory-ral-1015
+brand:
+  slug: colorfabb
+name: PLA Light ivory RAL 1015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e6d2b5ff'
+  color_lab:
+  - 85.13
+  - 2.4
+  - 16.91
+  color_ral: '1015'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-light-ivory-ral-1015/colorfabb-pla-light-ivory-ral-1015-0-97e68928.jpg
+  type: unspecified

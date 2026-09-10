@@ -1,0 +1,24 @@
+uuid: c267a3d2-0113-5a62-a4d6-8b9fd47138f9
+slug: colorfabb-pla-graphite-grey-ral-7024
+brand:
+  slug: colorfabb
+name: PLA Graphite grey RAL 7024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#474a50ff'
+  color_lab:
+  - 31.38
+  - 0.17
+  - -3.98
+  color_ral: '7024'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-graphite-grey-ral-7024/colorfabb-pla-graphite-grey-ral-7024-0-6fe552fb.jpg
+  type: unspecified

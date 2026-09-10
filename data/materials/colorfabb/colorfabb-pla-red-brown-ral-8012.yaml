@@ -1,0 +1,24 @@
+uuid: 8066f6e6-7202-56bd-9afb-2d86e6d7fe96
+slug: colorfabb-pla-red-brown-ral-8012
+brand:
+  slug: colorfabb
+name: PLA Red brown RAL 8012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#673831ff'
+  color_lab:
+  - 29.25
+  - 20.03
+  - 13.51
+  color_ral: '8012'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-red-brown-ral-8012/colorfabb-pla-red-brown-ral-8012-0-9d00645e.jpg
+  type: unspecified

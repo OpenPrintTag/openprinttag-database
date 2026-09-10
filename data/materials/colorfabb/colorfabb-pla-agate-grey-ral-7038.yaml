@@ -1,0 +1,24 @@
+uuid: d15b311a-b890-512c-9892-4e33f83ff255
+slug: colorfabb-pla-agate-grey-ral-7038
+brand:
+  slug: colorfabb
+name: PLA Agate grey RAL 7038
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b4b8b0ff'
+  color_lab:
+  - 74.27
+  - -2.88
+  - 3.57
+  color_ral: '7038'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-agate-grey-ral-7038/colorfabb-pla-agate-grey-ral-7038-0-aafe8a24.jpg
+  type: unspecified

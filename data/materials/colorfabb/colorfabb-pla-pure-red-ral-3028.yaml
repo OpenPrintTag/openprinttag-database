@@ -1,0 +1,24 @@
+uuid: c68a0afc-34e5-5820-8cc9-47a9dd01d054
+slug: colorfabb-pla-pure-red-ral-3028
+brand:
+  slug: colorfabb
+name: PLA Pure red RAL 3028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e72512ff'
+  color_lab:
+  - 49.93
+  - 69.81
+  - 58.07
+  color_ral: '3028'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pure-red-ral-3028/colorfabb-pla-pure-red-ral-3028-0-ab47136e.jpg
+  type: unspecified

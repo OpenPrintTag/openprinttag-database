@@ -1,0 +1,24 @@
+uuid: a7eb2728-4b09-5ba3-9633-e7602f02ad15
+slug: colorfabb-pla-signal-grey-ral-7004
+brand:
+  slug: colorfabb
+name: PLA Signal grey RAL 7004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9ea0a1ff'
+  color_lab:
+  - 65.74
+  - -0.52
+  - -0.77
+  color_ral: '7004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-signal-grey-ral-7004/colorfabb-pla-signal-grey-ral-7004-0-2d84f2ee.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: ca439ee5-28b4-5e94-8f3a-01d8c091fbb0
+slug: colorfabb-pla-sun-yellow-ral-1037
+brand:
+  slug: colorfabb
+name: PLA Sun yellow RAL 1037
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f09200ff'
+  color_lab:
+  - 68.81
+  - 27.6
+  - 74.09
+  color_ral: '1037'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-sun-yellow-ral-1037/colorfabb-pla-sun-yellow-ral-1037-0-a1390f8c.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: cd33202b-ce75-50e3-ba14-d4288465477c
+slug: colorfabb-pla-telegrey-4-ral-7047
+brand:
+  slug: colorfabb
+name: PLA Telegrey 4 RAL 7047
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cfd0cfff'
+  color_lab:
+  - 83.38
+  - -0.52
+  - 0.37
+  color_ral: '7047'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-telegrey-4-ral-7047/colorfabb-pla-telegrey-4-ral-7047-0-16e05e53.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: acb54f91-b170-5722-bc71-655f42490f98
+slug: colorfabb-pla-green-brown-ral-8000
+brand:
+  slug: colorfabb
+name: PLA Green brown RAL 8000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#887142ff'
+  color_lab:
+  - 48.81
+  - 2.6
+  - 29.31
+  color_ral: '8000'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-green-brown-ral-8000/colorfabb-pla-green-brown-ral-8000-0-fc48a1fc.jpg
+  type: unspecified

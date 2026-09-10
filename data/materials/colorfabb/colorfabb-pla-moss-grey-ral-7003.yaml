@@ -1,0 +1,24 @@
+uuid: 24a809f4-c3b2-5ed7-92bc-91d82c08c2ab
+slug: colorfabb-pla-moss-grey-ral-7003
+brand:
+  slug: colorfabb
+name: PLA Moss grey RAL 7003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7a7b6dff'
+  color_lab:
+  - 51.16
+  - -3.05
+  - 7.53
+  color_ral: '7003'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-moss-grey-ral-7003/colorfabb-pla-moss-grey-ral-7003-0-f5757826.jpg
+  type: unspecified

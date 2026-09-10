@@ -1,0 +1,24 @@
+uuid: 7d00e13a-a9bc-5833-99a0-6724043719ca
+slug: colorfabb-pla-brown-red-ral-3011
+brand:
+  slug: colorfabb
+name: PLA Brown red RAL 3011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7e292cff'
+  color_lab:
+  - 29.92
+  - 36.93
+  - 18.36
+  color_ral: '3011'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-brown-red-ral-3011/colorfabb-pla-brown-red-ral-3011-0-681f9986.jpg
+  type: unspecified

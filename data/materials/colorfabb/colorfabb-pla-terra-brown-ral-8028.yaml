@@ -1,0 +1,24 @@
+uuid: e452f988-cabf-5bfb-b533-df027af45772
+slug: colorfabb-pla-terra-brown-ral-8028
+brand:
+  slug: colorfabb
+name: PLA Terra brown RAL 8028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4e3b2bff'
+  color_lab:
+  - 26.51
+  - 5.86
+  - 13.13
+  color_ral: '8028'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-terra-brown-ral-8028/colorfabb-pla-terra-brown-ral-8028-0-fae2c87d.jpg
+  type: unspecified

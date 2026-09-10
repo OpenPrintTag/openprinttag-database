@@ -1,0 +1,24 @@
+uuid: d49df7d3-d64a-500e-8b01-434222d56ecc
+slug: colorfabb-pla-grey-white-ral-9002
+brand:
+  slug: colorfabb
+name: PLA Grey white RAL 9002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddded4ff'
+  color_lab:
+  - 88.15
+  - -2.1
+  - 4.78
+  color_ral: '9002'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-grey-white-ral-9002/colorfabb-pla-grey-white-ral-9002-0-d3d61494.jpg
+  type: unspecified
