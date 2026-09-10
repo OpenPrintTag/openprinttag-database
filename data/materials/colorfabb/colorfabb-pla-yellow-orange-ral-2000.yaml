@@ -1,0 +1,24 @@
+uuid: 6e5fc119-b915-597a-b666-15ec017d4708
+slug: colorfabb-pla-yellow-orange-ral-2000
+brand:
+  slug: colorfabb
+name: PLA Yellow orange RAL 2000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dd7907ff'
+  color_lab:
+    - 60.84
+    - 32.88
+    - 66.68
+  color_ral: '2000'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-yellow-orange-ral-2000-0-2d4c83f1.jpg
+    type: unspecified

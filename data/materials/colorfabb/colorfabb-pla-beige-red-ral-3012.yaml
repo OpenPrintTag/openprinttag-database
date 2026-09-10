@@ -1,0 +1,24 @@
+uuid: 08b223df-b080-571b-bea0-e6b907684398
+slug: colorfabb-pla-beige-red-ral-3012
+brand:
+  slug: colorfabb
+name: PLA Beige red RAL 3012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cb8d73ff'
+  color_lab:
+    - 64.15
+    - 20.43
+    - 23.33
+  color_ral: '3012'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-beige-red-ral-3012-0-d0ba1ec2.jpg
+    type: unspecified

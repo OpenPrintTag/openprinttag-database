@@ -1,0 +1,24 @@
+uuid: 2b56eabb-b7e8-52b2-b006-a445cdade3cb
+slug: colorfabb-pla-ivory-ral-1014
+brand:
+  slug: colorfabb
+name: PLA Ivory RAL 1014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddc49aff'
+  color_lab:
+    - 80.28
+    - 2.62
+    - 24.35
+  color_ral: '1014'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-ivory-ral-1014-0-7c70eb7b.jpg
+    type: unspecified

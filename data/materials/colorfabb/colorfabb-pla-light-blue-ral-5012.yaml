@@ -1,0 +1,24 @@
+uuid: 2957172f-15c5-5705-a3d6-eb20e708bdc6
+slug: colorfabb-pla-light-blue-ral-5012
+brand:
+  slug: colorfabb
+name: PLA Light blue RAL 5012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3481b8ff'
+  color_lab:
+    - 51.71
+    - -5.18
+    - -35.72
+  color_ral: '5012'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-light-blue-ral-5012-0-b4c1a08d.jpg
+    type: unspecified

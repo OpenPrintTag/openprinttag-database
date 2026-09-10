@@ -1,0 +1,24 @@
+uuid: a874e200-8104-5479-9a78-e38a6416748e
+slug: colorfabb-pla-night-blue-ral-5022
+brand:
+  slug: colorfabb
+name: PLA Night blue RAL 5022
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2f2a5aff'
+  color_lab:
+    - 20.04
+    - 16.31
+    - -28.24
+  color_ral: '5022'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-night-blue-ral-5022-0-5edde00b.jpg
+    type: unspecified

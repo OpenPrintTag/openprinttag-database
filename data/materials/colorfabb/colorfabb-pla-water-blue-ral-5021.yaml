@@ -1,0 +1,24 @@
+uuid: 000f42fc-3603-5024-a40e-9b88bce3a238
+slug: colorfabb-pla-water-blue-ral-5021
+brand:
+  slug: colorfabb
+name: PLA Water blue RAL 5021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#07737aff'
+  color_lab:
+    - 43.81
+    - -23.93
+    - -11.58
+  color_ral: '5021'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-water-blue-ral-5021-0-f665e60a.jpg
+    type: unspecified

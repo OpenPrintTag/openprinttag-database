@@ -1,0 +1,24 @@
+uuid: 5cb342d5-15b1-5d70-8f7c-323f98b87f89
+slug: colorfabb-pla-ochre-brown-ral-8001
+brand:
+  slug: colorfabb
+name: PLA Ochre brown RAL 8001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9c6b30ff'
+  color_lab:
+    - 49.25
+    - 13.66
+    - 39.92
+  color_ral: '8001'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-ochre-brown-ral-8001-0-f6dbc2e7.jpg
+    type: unspecified

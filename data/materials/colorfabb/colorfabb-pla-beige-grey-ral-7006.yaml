@@ -1,0 +1,24 @@
+uuid: c4fbcb70-85da-5c45-b6fb-c835d969a010
+slug: colorfabb-pla-beige-grey-ral-7006
+brand:
+  slug: colorfabb
+name: PLA Beige grey RAL 7006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#756f61ff'
+  color_lab:
+    - 46.99
+    - -0.25
+    - 8.64
+  color_ral: '7006'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-beige-grey-ral-7006-0-aec743e1.jpg
+    type: unspecified

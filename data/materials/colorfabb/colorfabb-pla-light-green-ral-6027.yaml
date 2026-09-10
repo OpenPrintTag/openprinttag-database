@@ -1,0 +1,24 @@
+uuid: 47253f76-13c6-580f-8819-922b6c2c7f64
+slug: colorfabb-pla-light-green-ral-6027
+brand:
+  slug: colorfabb
+name: PLA Light green RAL 6027
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#81c0bbff'
+  color_lab:
+    - 73.51
+    - -21.19
+    - -3.91
+  color_ral: '6027'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-light-green-ral-6027-0-6020f4e6.jpg
+    type: unspecified

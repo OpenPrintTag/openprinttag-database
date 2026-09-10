@@ -1,0 +1,24 @@
+uuid: 7c88c4a2-55eb-57d6-bbbd-a8952135395d
+slug: colorfabb-pla-sepia-brown-ral-8014
+brand:
+  slug: colorfabb
+name: PLA Sepia brown RAL 8014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#49392dff'
+  color_lab:
+    - 25.36
+    - 5.05
+    - 10.17
+  color_ral: '8014'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-sepia-brown-ral-8014-0-b6936cf2.jpg
+    type: unspecified

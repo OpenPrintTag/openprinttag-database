@@ -1,0 +1,24 @@
+uuid: 5cc99f1a-c5d8-53b5-8639-b66eda5d27bd
+slug: colorfabb-pla-pure-orange-ral-2004
+brand:
+  slug: colorfabb
+name: PLA Pure orange RAL 2004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e75b12ff'
+  color_lab:
+    - 56.6
+    - 51.5
+    - 62.41
+  color_ral: '2004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pure-orange-ral-2004-0-3e03dc8f.jpg
+    type: unspecified

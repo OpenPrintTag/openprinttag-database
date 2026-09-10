@@ -1,0 +1,24 @@
+uuid: 67102e3a-a3a0-53a0-b150-808f8b1bfe78
+slug: colorfabb-pla-red-orange-ral-2001
+brand:
+  slug: colorfabb
+name: PLA Red orange RAL 2001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#be4e20ff'
+  color_lab:
+    - 47.63
+    - 42.74
+    - 47.5
+  color_ral: '2001'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-red-orange-ral-2001-0-00b8d016.jpg
+    type: unspecified

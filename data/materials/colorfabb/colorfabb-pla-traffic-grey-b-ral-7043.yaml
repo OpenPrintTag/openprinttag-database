@@ -1,0 +1,24 @@
+uuid: d1c68f92-fcd9-5e6e-86a0-1463239d190d
+slug: colorfabb-pla-traffic-grey-b-ral-7043
+brand:
+  slug: colorfabb
+name: PLA Traffic grey B RAL 7043
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4e5451ff'
+  color_lab:
+    - 35.11
+    - -3.05
+    - 0.93
+  color_ral: '7043'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-traffic-grey-b-ral-7043-0-10a43e82.jpg
+    type: unspecified

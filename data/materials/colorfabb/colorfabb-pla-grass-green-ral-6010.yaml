@@ -1,0 +1,24 @@
+uuid: 38904ee9-06d8-5b71-96f4-680570f06996
+slug: colorfabb-pla-grass-green-ral-6010
+brand:
+  slug: colorfabb
+name: PLA Grass green RAL 6010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3e753bff'
+  color_lab:
+    - 44.32
+    - -30.96
+    - 26.36
+  color_ral: '6010'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-grass-green-ral-6010-0-3a3de245.jpg
+    type: unspecified

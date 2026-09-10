@@ -1,0 +1,24 @@
+uuid: 402de8d6-9be7-55c9-a35d-efe6284fcdbf
+slug: colorfabb-pla-brown-beige-ral-1011
+brand:
+  slug: colorfabb
+name: PLA Brown beige RAL 1011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#af804fff'
+  color_lab:
+    - 57.19
+    - 12.44
+    - 33.52
+  color_ral: '1011'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-brown-beige-ral-1011-0-562961ec.jpg
+    type: unspecified

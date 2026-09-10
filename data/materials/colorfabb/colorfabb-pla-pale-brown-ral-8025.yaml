@@ -1,0 +1,24 @@
+uuid: 644b13e7-ed1f-5cbd-9bdc-d4b2072f8456
+slug: colorfabb-pla-pale-brown-ral-8025
+brand:
+  slug: colorfabb
+name: PLA Pale brown RAL 8025
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#755c49ff'
+  color_lab:
+    - 41.09
+    - 7.3
+    - 14.83
+  color_ral: '8025'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pale-brown-ral-8025-0-b7bed5a3.jpg
+    type: unspecified

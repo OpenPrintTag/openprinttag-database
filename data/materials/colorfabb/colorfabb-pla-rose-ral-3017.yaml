@@ -1,0 +1,24 @@
+uuid: a2761790-6179-58cf-8277-cfdfee015fbc
+slug: colorfabb-pla-rose-ral-3017
+brand:
+  slug: colorfabb
+name: PLA Rose RAL 3017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d3545fff'
+  color_lab:
+    - 52.97
+    - 50.92
+    - 19.95
+  color_ral: '3017'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-rose-ral-3017-0-41f41d2e.jpg
+    type: unspecified

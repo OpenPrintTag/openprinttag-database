@@ -1,0 +1,24 @@
+uuid: 49f95300-7fee-5597-b78c-f8d916729e73
+slug: colorfabb-pla-violet-blue-ral-5000
+brand:
+  slug: colorfabb
+name: PLA Violet blue RAL 5000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#384c70ff'
+  color_lab:
+    - 32.21
+    - 3.16
+    - -23.15
+  color_ral: '5000'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-violet-blue-ral-5000-0-a1b078fe.jpg
+    type: unspecified

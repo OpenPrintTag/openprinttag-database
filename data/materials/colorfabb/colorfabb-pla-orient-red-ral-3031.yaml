@@ -1,0 +1,24 @@
+uuid: a5fbd137-2f43-58e6-843a-fc0918ddfd77
+slug: colorfabb-pla-orient-red-ral-3031
+brand:
+  slug: colorfabb
+name: PLA Orient red RAL 3031
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ac323bff'
+  color_lab:
+    - 40.2
+    - 49.84
+    - 23.71
+  color_ral: '3031'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-orient-red-ral-3031-0-e7b70fc2.jpg
+    type: unspecified

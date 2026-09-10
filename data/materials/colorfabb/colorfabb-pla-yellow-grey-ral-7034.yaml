@@ -1,0 +1,24 @@
+uuid: b3a6d946-e63f-5ef1-a11a-f46f93755133
+slug: colorfabb-pla-yellow-grey-ral-7034
+brand:
+  slug: colorfabb
+name: PLA Yellow grey RAL 7034
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#939176ff'
+  color_lab:
+    - 59.67
+    - -4.0
+    - 14.63
+  color_ral: '7034'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-yellow-grey-ral-7034-0-c0e0ea21.jpg
+    type: unspecified

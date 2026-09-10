@@ -1,0 +1,24 @@
+uuid: 5dfda6c7-028b-5211-8833-ef9ef0d39e59
+slug: colorfabb-pla-green-grey-ral-7009
+brand:
+  slug: colorfabb
+name: PLA Green grey RAL 7009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5b6259ff'
+  color_lab:
+    - 40.7
+    - -4.62
+    - 4.19
+  color_ral: '7009'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-green-grey-ral-7009-0-59fd28c5.jpg
+    type: unspecified

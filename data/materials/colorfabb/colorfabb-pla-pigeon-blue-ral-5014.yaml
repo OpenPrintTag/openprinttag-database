@@ -1,0 +1,24 @@
+uuid: 297ddbe3-adcf-5b5c-b534-8afb51a1095c
+slug: colorfabb-pla-pigeon-blue-ral-5014
+brand:
+  slug: colorfabb
+name: PLA Pigeon blue RAL 5014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6c7c98ff'
+  color_lab:
+    - 51.69
+    - 0.88
+    - -17.0
+  color_ral: '5014'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pigeon-blue-ral-5014-0-589f4f96.jpg
+    type: unspecified

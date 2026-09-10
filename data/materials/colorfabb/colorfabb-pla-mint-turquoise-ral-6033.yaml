@@ -1,0 +1,24 @@
+uuid: b2dd0f70-a8e2-564d-b51e-bacd04741d90
+slug: colorfabb-pla-mint-turquoise-ral-6033
+brand:
+  slug: colorfabb
+name: PLA Mint turquoise RAL 6033
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#478a84ff'
+  color_lab:
+    - 53.15
+    - -22.84
+    - -3.38
+  color_ral: '6033'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-mint-turquoise-ral-6033-0-f8c8ea12.jpg
+    type: unspecified

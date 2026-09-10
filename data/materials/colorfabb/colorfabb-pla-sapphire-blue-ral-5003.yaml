@@ -1,0 +1,24 @@
+uuid: b9eacc55-fe40-5f87-81d8-09bda2d7fb97
+slug: colorfabb-pla-sapphire-blue-ral-5003
+brand:
+  slug: colorfabb
+name: PLA Sapphire blue RAL 5003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2a3756ff'
+  color_lab:
+    - 23.33
+    - 4.41
+    - -20.41
+  color_ral: '5003'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-sapphire-blue-ral-5003-0-5f0df506.jpg
+    type: unspecified

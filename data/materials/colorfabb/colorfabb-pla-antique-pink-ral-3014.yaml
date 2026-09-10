@@ -1,0 +1,24 @@
+uuid: 69b1736b-2163-517a-b9bb-06c9340698d6
+slug: colorfabb-pla-antique-pink-ral-3014
+brand:
+  slug: colorfabb
+name: PLA Antique pink RAL 3014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d47479ff'
+  color_lab:
+    - 59.77
+    - 37.98
+    - 14.13
+  color_ral: '3014'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-antique-pink-ral-3014-0-23fece1e.jpg
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: 5a622ccd-c18a-590a-9d89-01bfb11fbf33
+slug: colorfabb-pla-traffic-orange-ral-2009
+brand:
+  slug: colorfabb
+name: PLA Traffic orange RAL 2009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e15501ff'
+  color_lab:
+    - 54.57
+    - 51.85
+    - 64.31
+  color_ral: '2009'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-traffic-orange-ral-2009-0-61513547.jpg
+    type: unspecified

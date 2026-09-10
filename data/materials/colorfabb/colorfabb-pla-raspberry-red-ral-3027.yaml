@@ -1,0 +1,24 @@
+uuid: 38a37fbd-9089-59cf-9aee-2aeff14309de
+slug: colorfabb-pla-raspberry-red-ral-3027
+brand:
+  slug: colorfabb
+name: PLA Raspberry red RAL 3027
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b42041ff'
+  color_lab:
+    - 39.78
+    - 58.4
+    - 19.74
+  color_ral: '3027'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-raspberry-red-ral-3027-0-6d8f7b88.jpg
+    type: unspecified

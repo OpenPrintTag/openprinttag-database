@@ -1,0 +1,24 @@
+uuid: 23ef36d0-5e9a-53c7-8272-f6b35610af82
+slug: colorfabb-pla-pastel-green-ral-6019
+brand:
+  slug: colorfabb
+name: PLA Pastel green RAL 6019
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b7d9b1ff'
+  color_lab:
+    - 83.37
+    - -18.67
+    - 16.04
+  color_ral: '6019'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pastel-green-ral-6019-0-b40e3b4e.jpg
+    type: unspecified

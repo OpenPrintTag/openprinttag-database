@@ -1,0 +1,24 @@
+uuid: a5f4376c-1655-5145-a91d-e154bc218134
+slug: colorfabb-pla-telemagenta-ral-4010
+brand:
+  slug: colorfabb
+name: PLA Telemagenta RAL 4010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c63678ff'
+  color_lab:
+    - 46.98
+    - 61.23
+    - -3.92
+  color_ral: '4010'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-telemagenta-ral-4010-0-ff9c51a8.jpg
+    type: unspecified

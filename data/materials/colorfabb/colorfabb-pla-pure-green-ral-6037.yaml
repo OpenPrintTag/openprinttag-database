@@ -1,0 +1,24 @@
+uuid: 76a3fd17-3ec9-5978-87c5-33fd0b1238d0
+slug: colorfabb-pla-pure-green-ral-6037
+brand:
+  slug: colorfabb
+name: PLA Pure green RAL 6037
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#25e712ff'
+  color_lab:
+    - 80.51
+    - -77.66
+    - 75.75
+  color_ral: '6037'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pure-green-ral-6037-0-ada762af.jpg
+    type: unspecified

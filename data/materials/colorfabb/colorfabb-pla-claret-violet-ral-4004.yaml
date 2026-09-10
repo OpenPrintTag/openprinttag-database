@@ -1,0 +1,24 @@
+uuid: b804605b-cc68-5239-ad4c-9e4992c27cae
+slug: colorfabb-pla-claret-violet-ral-4004
+brand:
+  slug: colorfabb
+name: PLA Claret violet RAL 4004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#691639ff'
+  color_lab:
+    - 23.25
+    - 38.92
+    - -0.21
+  color_ral: '4004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-claret-violet-ral-4004-0-0c6009ab.jpg
+    type: unspecified

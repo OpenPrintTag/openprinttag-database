@@ -1,0 +1,24 @@
+uuid: ee369184-9f97-5580-bbdf-51bea506025e
+slug: colorfabb-pla-window-grey-ral-7040
+brand:
+  slug: colorfabb
+name: PLA Window grey RAL 7040
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9da3a6ff'
+  color_lab:
+    - 66.61
+    - -1.54
+    - -2.29
+  color_ral: '7040'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-window-grey-ral-7040-0-3ae1ff06.jpg
+    type: unspecified

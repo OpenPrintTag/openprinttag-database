@@ -1,0 +1,24 @@
+uuid: 7fe1c4d7-e235-51a4-b207-7431672a5520
+slug: colorfabb-pla-oxide-red-ral-3009
+brand:
+  slug: colorfabb
+name: PLA Oxide red RAL 3009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#703731ff'
+  color_lab:
+    - 30.4
+    - 24.5
+    - 15.29
+  color_ral: '3009'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-oxide-red-ral-3009-0-e81ccd39.jpg
+    type: unspecified

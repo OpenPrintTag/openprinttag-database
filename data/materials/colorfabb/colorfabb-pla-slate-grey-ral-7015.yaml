@@ -1,0 +1,24 @@
+uuid: b9d19834-9a9f-5d4d-865e-3bfa6efe01aa
+slug: colorfabb-pla-slate-grey-ral-7015
+brand:
+  slug: colorfabb
+name: PLA Slate grey RAL 7015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#51565cff'
+  color_lab:
+    - 36.32
+    - -0.61
+    - -4.16
+  color_ral: '7015'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-slate-grey-ral-7015-0-2d2643f4.jpg
+    type: unspecified

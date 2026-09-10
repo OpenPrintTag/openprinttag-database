@@ -1,0 +1,24 @@
+uuid: 3d5e63b9-c818-5e43-958e-2cb87058a6ba
+slug: colorfabb-pla-yellow-olive-ral-6014
+brand:
+  slug: colorfabb
+name: PLA Yellow olive RAL 6014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#444337ff'
+  color_lab:
+    - 28.17
+    - -2.02
+    - 7.46
+  color_ral: '6014'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-yellow-olive-ral-6014-0-f918b5fc.jpg
+    type: unspecified

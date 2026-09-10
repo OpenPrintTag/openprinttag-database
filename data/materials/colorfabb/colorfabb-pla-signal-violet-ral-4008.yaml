@@ -1,0 +1,24 @@
+uuid: af340392-0002-5b08-8960-acac2c5b8d15
+slug: colorfabb-pla-signal-violet-ral-4008
+brand:
+  slug: colorfabb
+name: PLA Signal violet RAL 4008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#904684ff'
+  color_lab:
+    - 41.18
+    - 39.91
+    - -20.86
+  color_ral: '4008'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-signal-violet-ral-4008-0-aba8db51.jpg
+    type: unspecified

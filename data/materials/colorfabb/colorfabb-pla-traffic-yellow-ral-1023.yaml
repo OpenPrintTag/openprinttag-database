@@ -1,0 +1,24 @@
+uuid: d568122b-38a5-5ecf-b628-6067e511c687
+slug: colorfabb-pla-traffic-yellow-ral-1023
+brand:
+  slug: colorfabb
+name: PLA Traffic yellow RAL 1023
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7b500ff'
+  color_lab:
+    - 77.77
+    - 12.18
+    - 80.41
+  color_ral: '1023'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-traffic-yellow-ral-1023-0-44bf3ff6.jpg
+    type: unspecified

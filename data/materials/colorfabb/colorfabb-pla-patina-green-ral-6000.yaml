@@ -1,0 +1,24 @@
+uuid: ab7ba66a-7b84-54d2-b3f3-547d42024120
+slug: colorfabb-pla-patina-green-ral-6000
+brand:
+  slug: colorfabb
+name: PLA Patina green RAL 6000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#327662ff'
+  color_lab:
+    - 44.96
+    - -26.75
+    - 4.58
+  color_ral: '6000'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-patina-green-ral-6000-0-1140fa87.jpg
+    type: unspecified

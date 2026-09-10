@@ -1,0 +1,24 @@
+uuid: 2cc8aaff-b2cf-5e27-8f23-1e4c8bbc36d5
+slug: colorfabb-pla-colza-yellow-ral-1021
+brand:
+  slug: colorfabb
+name: PLA Colza yellow RAL 1021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6b600ff'
+  color_lab:
+    - 77.91
+    - 11.22
+    - 80.45
+  color_ral: '1021'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-colza-yellow-ral-1021-0-e3d5126f.jpg
+    type: unspecified

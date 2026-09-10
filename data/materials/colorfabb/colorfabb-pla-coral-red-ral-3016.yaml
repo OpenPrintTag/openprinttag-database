@@ -1,0 +1,24 @@
+uuid: 9020abdb-823c-5a52-ba19-c1652fdfdd8f
+slug: colorfabb-pla-coral-red-ral-3016
+brand:
+  slug: colorfabb
+name: PLA Coral red RAL 3016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ac4034ff'
+  color_lab:
+    - 42.29
+    - 43.49
+    - 30.48
+  color_ral: '3016'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-coral-red-ral-3016-0-a7901e33.jpg
+    type: unspecified

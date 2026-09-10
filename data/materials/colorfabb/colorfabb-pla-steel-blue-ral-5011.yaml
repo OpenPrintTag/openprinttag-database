@@ -1,0 +1,24 @@
+uuid: 91f20ac7-78eb-58e1-9f38-7f10792d6ac4
+slug: colorfabb-pla-steel-blue-ral-5011
+brand:
+  slug: colorfabb
+name: PLA Steel blue RAL 5011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232c3fff'
+  color_lab:
+    - 18.0
+    - 1.97
+    - -13.27
+  color_ral: '5011'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-steel-blue-ral-5011-0-efc9e3fb.jpg
+    type: unspecified

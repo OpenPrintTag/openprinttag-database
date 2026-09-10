@@ -1,0 +1,24 @@
+uuid: d305f56b-2dae-5fdf-9007-466a1cd55641
+slug: colorfabb-pla-beige-ral-1001
+brand:
+  slug: colorfabb
+name: PLA Beige RAL 1001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d0b084ff'
+  color_lab:
+    - 73.63
+    - 5.39
+    - 26.86
+  color_ral: '1001'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-beige-ral-1001-0-42ee71a5.jpg
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: dc17f7e0-0964-5f35-970c-764e796f4391
+slug: colorfabb-pla-pastel-turquoise-ral-6034
+brand:
+  slug: colorfabb
+name: PLA Pastel turquoise RAL 6034
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7fb0b2ff'
+  color_lab:
+    - 68.59
+    - -15.65
+    - -6.26
+  color_ral: '6034'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-pastel-turquoise-ral-6034-0-4a8bfb19.jpg
+    type: unspecified

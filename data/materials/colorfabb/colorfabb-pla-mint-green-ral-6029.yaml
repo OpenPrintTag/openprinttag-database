@@ -1,0 +1,24 @@
+uuid: 91cdfe40-f79b-5757-ba72-e364a17e1d14
+slug: colorfabb-pla-mint-green-ral-6029
+brand:
+  slug: colorfabb
+name: PLA Mint green RAL 6029
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#007243ff'
+  color_lab:
+    - 41.91
+    - -39.71
+    - 18.44
+  color_ral: '6029'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-mint-green-ral-6029-0-5847a095.jpg
+    type: unspecified

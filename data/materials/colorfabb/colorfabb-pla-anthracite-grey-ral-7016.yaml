@@ -1,0 +1,24 @@
+uuid: 02ec7295-d7f3-55e1-8a8c-6bae62356a5e
+slug: colorfabb-pla-anthracite-grey-ral-7016
+brand:
+  slug: colorfabb
+name: PLA Anthracite grey RAL 7016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#373f43ff'
+  color_lab:
+    - 26.08
+    - -2.3
+    - -3.56
+  color_ral: '7016'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-anthracite-grey-ral-7016-0-1c9a879d.jpg
+    type: unspecified

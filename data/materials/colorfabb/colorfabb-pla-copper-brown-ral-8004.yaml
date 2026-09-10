@@ -1,0 +1,24 @@
+uuid: 2de39f26-30fd-57b7-a856-65600d7deee5
+slug: colorfabb-pla-copper-brown-ral-8004
+brand:
+  slug: colorfabb
+name: PLA Copper brown RAL 8004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8f4e35ff'
+  color_lab:
+    - 40.49
+    - 24.88
+    - 26.63
+  color_ral: '8004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-copper-brown-ral-8004-0-efbd5b37.jpg
+    type: unspecified

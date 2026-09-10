@@ -1,0 +1,24 @@
+uuid: 85f2fddb-5602-5c2c-8eb5-849eed3efcf3
+slug: colorfabb-pla-purple-red-ral-3004
+brand:
+  slug: colorfabb
+name: PLA Purple red RAL 3004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#701f29ff'
+  color_lab:
+    - 25.52
+    - 36.18
+    - 14.11
+  color_ral: '3004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-purple-red-ral-3004-0-2ae0cb9e.jpg
+    type: unspecified

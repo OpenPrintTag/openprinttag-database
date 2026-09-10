@@ -1,0 +1,24 @@
+uuid: 3bb5afef-b1d9-5340-b240-2879f8ba85e3
+slug: colorfabb-pla-basalt-grey-ral-7012
+brand:
+  slug: colorfabb
+name: PLA Basalt grey RAL 7012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#596163ff'
+  color_lab:
+    - 40.53
+    - -2.65
+    - -2.2
+  color_ral: '7012'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-basalt-grey-ral-7012-0-31276a1f.jpg
+    type: unspecified

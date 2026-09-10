@@ -1,0 +1,24 @@
+uuid: 7405333e-5181-5d44-b210-1f24ac28ee7b
+slug: colorfabb-pla-turquoise-blue-ral-5018
+brand:
+  slug: colorfabb
+name: PLA Turquoise blue RAL 5018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#21888fff'
+  color_lab:
+    - 51.74
+    - -25.51
+    - -11.99
+  color_ral: '5018'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-turquoise-blue-ral-5018-0-604ea852.jpg
+    type: unspecified

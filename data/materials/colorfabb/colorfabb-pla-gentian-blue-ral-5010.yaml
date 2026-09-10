@@ -1,0 +1,24 @@
+uuid: 0ac142ca-7d67-5440-830b-307402f81bd8
+slug: colorfabb-pla-gentian-blue-ral-5010
+brand:
+  slug: colorfabb
+name: PLA Gentian blue RAL 5010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#13447cff'
+  color_lab:
+    - 28.71
+    - 6.05
+    - -36.32
+  color_ral: '5010'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-gentian-blue-ral-5010-0-552e6f9e.jpg
+    type: unspecified

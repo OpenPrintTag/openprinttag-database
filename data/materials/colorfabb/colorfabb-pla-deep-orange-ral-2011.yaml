@@ -1,0 +1,24 @@
+uuid: 443efe35-4832-5516-b01c-f6df7a8c44d5
+slug: colorfabb-pla-deep-orange-ral-2011
+brand:
+  slug: colorfabb
+name: PLA Deep orange RAL 2011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ec7c25ff'
+  color_lab:
+    - 63.66
+    - 37.89
+    - 62.17
+  color_ral: '2011'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-deep-orange-ral-2011-0-0fb93db8.jpg
+    type: unspecified

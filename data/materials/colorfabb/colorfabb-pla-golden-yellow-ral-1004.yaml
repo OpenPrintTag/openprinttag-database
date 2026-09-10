@@ -1,0 +1,24 @@
+uuid: 485521ef-6c45-56a2-b2ac-230f3fa5b04c
+slug: colorfabb-pla-golden-yellow-ral-1004
+brand:
+  slug: colorfabb
+name: PLA Golden yellow RAL 1004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e49e00ff'
+  color_lab:
+    - 70.14
+    - 16.15
+    - 74.25
+  color_ral: '1004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-golden-yellow-ral-1004-0-2d7f8d1f.jpg
+    type: unspecified

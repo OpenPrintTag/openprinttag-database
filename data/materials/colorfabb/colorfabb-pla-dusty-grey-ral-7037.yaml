@@ -1,0 +1,24 @@
+uuid: a631d540-33bb-5981-93ab-a374ba9e9332
+slug: colorfabb-pla-dusty-grey-ral-7037
+brand:
+  slug: colorfabb
+name: PLA Dusty grey RAL 7037
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7c7f7eff'
+  color_lab:
+    - 52.92
+    - -1.32
+    - 0.15
+  color_ral: '7037'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-dusty-grey-ral-7037-0-6587c38a.jpg
+    type: unspecified

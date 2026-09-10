@@ -1,0 +1,24 @@
+uuid: 3141ccf2-403d-56bd-912d-4748d2cbf12d
+slug: colorfabb-pla-oyster-white-ral-1013
+brand:
+  slug: colorfabb
+name: PLA Oyster white RAL 1013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3d9c6ff'
+  color_lab:
+    - 87.01
+    - 0.26
+    - 10.58
+  color_ral: '1013'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/colorfabb-pla-oyster-white-ral-1013-0-6440d275.jpg
+    type: unspecified
