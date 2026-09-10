@@ -1,0 +1,29 @@
+uuid: 47a7ec5c-5cf4-532f-ac0c-5d8a3c02ace2
+slug: rosa3d-filaments-pla-speed-matt-marble-ivory-warm-white
+brand:
+  slug: rosa3d-filaments
+name: PLA Speed Matt Marble Ivory (Warm White)
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+  - 88.53
+  - -2.1
+  - 5.88
+tags:
+- imitates_marble
+- high_speed
+- matte
+properties:
+  density: 1.41
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-speed-matt-marble-ivory-warm-white/rosa3d-filaments-pla-speed-matt-marble-ivory-warm-white-0-2b52a718.jpg
+  type: unspecified

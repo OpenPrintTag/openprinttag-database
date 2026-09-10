@@ -4,9 +4,23 @@ brand:
   slug: rosa3d-filaments
 name: BioCREATE HT Light Gray
 class: FFF
-abbreviation: Bio
+abbreviation: BIO
 primary_color:
   color_rgba: '#ecefedff'
+  color_lab:
+  - 94.18
+  - -1.35
+  - 0.61
 tags:
 - high_temperature
-properties: {}
+properties:
+  density: 1.34
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-biocreate-ht-light-gray/rosa3d-filaments-biocreate-ht-light-gray-0-ed52cbd0.png
+  type: unspecified

@@ -8,4 +8,22 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#000000ff'
-properties: {}
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-asa-black/rosa3d-filaments-asa-black-0-471d0ae8.png
+  type: unspecified

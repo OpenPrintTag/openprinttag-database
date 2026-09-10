@@ -8,10 +8,31 @@ type: PLA
 abbreviation: PLA
 secondary_colors:
 - color_rgba: '#ff00a2ff'
-- color_rgba: '#fcafc0ff'
+  color_lab:
+  - 55.96
+  - 87.34
+  - -14.57
 - color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#fcafc0ff'
+  color_lab:
+  - 79.14
+  - 30.42
+  - 2.76
 tags:
 - silk
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-multicolour-silk-flower/rosa3d-filaments-pla-multicolour-silk-flower-0-ce13d461.png
+  type: unspecified

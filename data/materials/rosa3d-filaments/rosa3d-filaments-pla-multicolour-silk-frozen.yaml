@@ -7,11 +7,32 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#39b9dbff'
 - color_rgba: '#c6f3fdff'
+  color_lab:
+  - 93.1
+  - -12.23
+  - -9.56
 - color_rgba: '#0066d9ff'
+  color_lab:
+  - 44.96
+  - 20.46
+  - -65.46
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
 tags:
 - silk
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-multicolour-silk-frozen/rosa3d-filaments-pla-multicolour-silk-frozen-0-3a7fc925.png
+  type: unspecified

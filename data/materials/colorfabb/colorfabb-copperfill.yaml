@@ -4,16 +4,20 @@ brand:
   slug: colorfabb
 name: copperFill
 class: FFF
-type: PHA
-abbreviation: PHA
-url: https://colorfabb.com/copperfill?_gl=1*1vpzmee*_up*MQ..*_gs*MQ..&gclid=EAIaIQobChMI88_m6fuXkgMVR4KDBx24VBIJEAAYASAAEgJzBPD_BwE&gbraid=0AAAAADn-1hRSsWdKOKuS9wep7_VM9u0XX
+type: PLA
+abbreviation: PLAPHA
 primary_color:
   color_rgba: '#904029ff'
 tags:
-- contains_copper
-- abrasive
-- home_compostable
+  - contains_copper
+  - abrasive
+  - contains_metal
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-copperfill/af9034bc2fb3.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-copperfill/af9034bc2fb3.png
+    type: unspecified
+properties:
+  density: 3.9
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

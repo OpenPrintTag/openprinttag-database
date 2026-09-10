@@ -1,0 +1,27 @@
+uuid: b718b650-9009-5889-9fc7-4ffd82b0701a
+slug: rosa3d-filaments-pla-starter-neon-orange
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Neon Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff4d06ff'
+  color_lab:
+  - 58.59
+  - 65.08
+  - 68.26
+tags:
+- neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-neon-orange/rosa3d-filaments-pla-starter-neon-orange-0-d211ec53.jpg
+  type: unspecified

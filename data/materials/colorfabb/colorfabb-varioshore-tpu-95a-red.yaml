@@ -1,0 +1,22 @@
+uuid: db782769-e26a-5486-a359-a5966e1948b5
+slug: colorfabb-varioshore-tpu-95a-red
+brand:
+  slug: colorfabb
+name: varioShore TPU 95A Red
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#bb2e33ff'
+tags:
+- foaming
+properties:
+  density: 1.2
+  hardness_shore_a: 95.0
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-varioshore-tpu-95a-red/colorfabb-varioshore-tpu-95a-red-0-506e6f8d.png
+  type: unspecified

@@ -8,6 +8,20 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#7e4f4aff'
+  color_lab:
+  - 38.77
+  - 19.14
+  - 11.21
 tags:
 - high_speed
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-milk-chocolate-brown/rosa3d-filaments-pet-g-standard-hs-milk-chocolate-brown-0-b2c4ffca.png
+  type: unspecified

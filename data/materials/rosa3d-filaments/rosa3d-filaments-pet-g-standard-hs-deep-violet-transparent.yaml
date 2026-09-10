@@ -1,0 +1,28 @@
+uuid: 0804b64f-6840-56c7-aaf8-d661d4b63fa3
+slug: rosa3d-filaments-pet-g-standard-hs-deep-violet-transparent
+brand:
+  slug: rosa3d-filaments
+name: PET-G Standard HS Deep Violet Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#7a3768ff'
+  color_lab:
+  - 33.71
+  - 35.8
+  - -15.2
+tags:
+- high_speed
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-deep-violet-transparent/rosa3d-filaments-pet-g-standard-hs-deep-violet-transparent-0-ba10b118.jpg
+  type: unspecified

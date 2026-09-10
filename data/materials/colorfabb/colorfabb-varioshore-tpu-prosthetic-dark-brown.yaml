@@ -9,6 +9,15 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#503529ff'
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-varioshore-tpu-prosthetic-dark-brown/d812c4f8cb89.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-varioshore-tpu-prosthetic-dark-brown/d812c4f8cb89.png
+    type: unspecified
+properties:
+  density: 1.2
+  hardness_shore_a: 92.0
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+tags:
+  - contains_silver
+  - contains_metal

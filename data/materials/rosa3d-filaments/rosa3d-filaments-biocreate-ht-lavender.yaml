@@ -4,9 +4,23 @@ brand:
   slug: rosa3d-filaments
 name: BioCREATE HT Lavender
 class: FFF
-abbreviation: Bio
+abbreviation: BIO
 primary_color:
   color_rgba: '#d9d5eaff'
+  color_lab:
+  - 86.15
+  - 5.27
+  - -9.8
 tags:
 - high_temperature
-properties: {}
+properties:
+  density: 1.34
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-biocreate-ht-lavender/rosa3d-filaments-biocreate-ht-lavender-0-a3d75682.png
+  type: unspecified

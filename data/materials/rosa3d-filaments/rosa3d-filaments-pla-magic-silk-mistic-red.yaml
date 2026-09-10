@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#ec0000ff'
 - color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+- color_rgba: '#ec0000ff'
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
 tags:
-- coextruded
 - silk
-- industrially_compostable
-properties: {}
+- coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-silk-mistic-red/rosa3d-filaments-pla-magic-silk-mistic-red-0-d8fa1962.png
+  type: unspecified

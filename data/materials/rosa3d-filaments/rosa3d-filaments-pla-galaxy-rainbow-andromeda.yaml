@@ -7,12 +7,32 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#567bacff'
-- color_rgba: '#6000b0ff'
 - color_rgba: '#6d102eff'
+  color_lab:
+  - 23.07
+  - 41.05
+  - 7.26
 - color_rgba: '#9d00b1ff'
+  color_lab:
+  - 38.45
+  - 71.54
+  - -52.2
+- color_rgba: '#6000b0ff'
+  color_lab:
+  - 28.44
+  - 63.8
+  - -68.38
 tags:
-- gradual_color_change
 - glitter
-- industrially_compostable
-properties: {}
+- gradual_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-galaxy-rainbow-andromeda/rosa3d-filaments-pla-galaxy-rainbow-andromeda-0-77668e45.jpg
+  type: unspecified

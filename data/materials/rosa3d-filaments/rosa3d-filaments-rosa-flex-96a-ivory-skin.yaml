@@ -8,5 +8,19 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e3d99fff'
+  color_lab:
+  - 86.24
+  - -5.3
+  - 29.87
 properties:
-  hardness_shore_a: 96
+  density: 1.22
+  hardness_shore_a: 96.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-rosa-flex-96a-ivory-skin/rosa3d-filaments-rosa-flex-96a-ivory-skin-0-3ac70a24.jpg
+  type: unspecified

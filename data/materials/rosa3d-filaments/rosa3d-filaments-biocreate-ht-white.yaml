@@ -4,9 +4,23 @@ brand:
   slug: rosa3d-filaments
 name: BioCREATE HT White
 class: FFF
-abbreviation: Bio
+abbreviation: BIO
 primary_color:
   color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
 tags:
 - high_temperature
-properties: {}
+properties:
+  density: 1.34
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-biocreate-ht-white/rosa3d-filaments-biocreate-ht-white-0-f76ba9c7.png
+  type: unspecified

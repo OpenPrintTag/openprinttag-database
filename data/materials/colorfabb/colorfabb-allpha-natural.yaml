@@ -9,9 +9,13 @@ abbreviation: PHA
 primary_color:
   color_rgba: '#f2efe9ff'
 tags:
-- home_compostable
-- without_pigments
+  - home_compostable
+  - without_pigments
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-allpha-natural/e8f30b9500cc.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-allpha-natural/e8f30b9500cc.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 200

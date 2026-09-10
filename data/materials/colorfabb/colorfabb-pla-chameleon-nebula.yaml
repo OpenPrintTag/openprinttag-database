@@ -1,0 +1,21 @@
+uuid: 20ea0a2c-6544-540b-b751-67d400bf279e
+slug: colorfabb-pla-chameleon-nebula
+brand:
+  slug: colorfabb
+name: PLA Chameleon Nebula
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#444a62ff'
+tags:
+- iridescent
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-chameleon-nebula/colorfabb-pla-chameleon-nebula-0-48aa024c.png
+  type: unspecified

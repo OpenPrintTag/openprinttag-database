@@ -4,9 +4,23 @@ brand:
   slug: rosa3d-filaments
 name: BioCREATE HT Black
 class: FFF
-abbreviation: Bio
+abbreviation: BIO
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 tags:
-  - high_temperature
-properties: {}
+- high_temperature
+properties:
+  density: 1.34
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-biocreate-ht-black/rosa3d-filaments-biocreate-ht-black-0-dce57bac.png
+  type: unspecified

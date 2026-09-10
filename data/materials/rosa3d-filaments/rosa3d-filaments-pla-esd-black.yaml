@@ -1,0 +1,26 @@
+uuid: 3ab2ec5e-848c-54d6-abed-6488b9157d90
+slug: rosa3d-filaments-pla-esd-black
+brand:
+  slug: rosa3d-filaments
+name: PLA ESD Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+tags:
+- esd_safe
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-esd-black/rosa3d-filaments-pla-esd-black-0-5aa290dd.jpg
+  type: unspecified

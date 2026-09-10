@@ -1,0 +1,27 @@
+uuid: 52e26d70-4a6c-5ad4-bae4-c8e68f892a21
+slug: rosa3d-filaments-pla-lw-aero-white
+brand:
+  slug: rosa3d-filaments
+name: PLA LW AERO White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+  - 96.54
+  - 0.0
+  - 0.0
+tags:
+- foaming
+properties:
+  density: 0.457
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-lw-aero-white/rosa3d-filaments-pla-lw-aero-white-0-39548139.png
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: 2f15c90a-c5a6-5770-834f-d2847d9ece62
+slug: rosa3d-filaments-pla-starter-karmin-red
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Karmin Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c00d1eff'
+  color_lab:
+  - 40.56
+  - 63.76
+  - 42.22
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-karmin-red/rosa3d-filaments-pla-starter-karmin-red-0-1cb44dbc.jpg
+  type: unspecified

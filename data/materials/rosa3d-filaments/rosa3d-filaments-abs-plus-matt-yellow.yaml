@@ -1,0 +1,30 @@
+uuid: b5e21373-3961-520f-a07c-b5d5a06b6547
+slug: rosa3d-filaments-abs-plus-matt-yellow
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Yellow
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fbf942ff'
+  color_lab:
+  - 95.44
+  - -19.02
+  - 81.69
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-plus-matt-yellow/rosa3d-filaments-abs-plus-matt-yellow-0-0913a1ff.png
+  type: unspecified

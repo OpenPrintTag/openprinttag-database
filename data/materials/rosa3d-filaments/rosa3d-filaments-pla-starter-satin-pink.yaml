@@ -1,0 +1,25 @@
+uuid: d7a065f3-0a24-57cb-9f8c-5cd9cfd35408
+slug: rosa3d-filaments-pla-starter-satin-pink
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Satin Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fd3db5ff'
+  color_lab:
+  - 59.49
+  - 79.63
+  - -20.31
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-satin-pink/rosa3d-filaments-pla-starter-satin-pink-0-64767c50.jpg
+  type: unspecified

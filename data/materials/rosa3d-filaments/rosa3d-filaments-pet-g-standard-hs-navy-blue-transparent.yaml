@@ -8,7 +8,21 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#2a4552ff'
+  color_lab:
+  - 27.73
+  - -6.21
+  - -10.98
 tags:
-- translucent
 - high_speed
-properties: {}
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-navy-blue-transparent/rosa3d-filaments-pet-g-standard-hs-navy-blue-transparent-0-bb59fee1.png
+  type: unspecified

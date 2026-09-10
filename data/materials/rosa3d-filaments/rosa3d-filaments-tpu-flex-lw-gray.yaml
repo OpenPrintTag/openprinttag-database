@@ -1,0 +1,27 @@
+uuid: 583310a6-a82c-5b32-92b5-e49ca1c96273
+slug: rosa3d-filaments-tpu-flex-lw-gray
+brand:
+  slug: rosa3d-filaments
+name: TPU Flex LW Gray
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#808e93ff'
+  color_lab:
+  - 58.08
+  - -3.97
+  - -4.37
+tags:
+- foaming
+properties:
+  density: 0.43
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-tpu-flex-lw-gray/rosa3d-filaments-tpu-flex-lw-gray-0-aeddf3f4.jpg
+  type: unspecified

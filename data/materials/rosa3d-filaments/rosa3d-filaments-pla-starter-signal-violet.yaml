@@ -1,0 +1,25 @@
+uuid: cad5f231-9d20-5311-9242-92c17f492488
+slug: rosa3d-filaments-pla-starter-signal-violet
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Signal Violet
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e1008dff'
+  color_lab:
+  - 49.42
+  - 79.33
+  - -12.5
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-signal-violet/rosa3d-filaments-pla-starter-signal-violet-0-affd4f48.jpg
+  type: unspecified

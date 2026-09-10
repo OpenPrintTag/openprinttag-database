@@ -1,0 +1,21 @@
+uuid: f8e86578-ca02-5b30-bbb3-b4a81bbde2d6
+slug: colorfabb-pla-vertigo-star-night
+brand:
+  slug: colorfabb
+name: PLA Vertigo Star Night
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5a5055ff'
+tags:
+- glitter
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-vertigo-star-night/colorfabb-pla-vertigo-star-night-0-592776cc.png
+  type: unspecified

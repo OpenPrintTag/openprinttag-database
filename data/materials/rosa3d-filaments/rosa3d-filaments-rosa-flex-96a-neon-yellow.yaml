@@ -8,7 +8,21 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+  - 95.27
+  - -31.64
+  - 85.07
 tags:
 - neon
 properties:
-  hardness_shore_a: 96
+  density: 1.22
+  hardness_shore_a: 96.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-rosa-flex-96a-neon-yellow/rosa3d-filaments-rosa-flex-96a-neon-yellow-0-9517af6d.png
+  type: unspecified

@@ -8,6 +8,22 @@ type: PC
 abbreviation: PC
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
 - high_temperature
-properties: {}
+properties:
+  density: 1.2
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pc-pbtht-uv-impact-black/rosa3d-filaments-pc-pbtht-uv-impact-black-0-8d54c6fd.jpg
+  type: unspecified

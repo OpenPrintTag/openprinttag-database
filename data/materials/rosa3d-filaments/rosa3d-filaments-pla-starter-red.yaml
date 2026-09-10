@@ -8,6 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#e72f1dff'
+  color_lab:
+  - 50.82
+  - 67.59
+  - 54.46
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-red/rosa3d-filaments-pla-starter-red-0-86e6a466.png
+  type: unspecified

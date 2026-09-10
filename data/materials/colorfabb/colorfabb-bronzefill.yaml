@@ -4,15 +4,20 @@ brand:
   slug: colorfabb
 name: bronzeFill
 class: FFF
-type: PHA
-abbreviation: PHA
+type: PLA
+abbreviation: PLAPHA
 primary_color:
   color_rgba: '#95846fff'
 tags:
-- contains_bronze
-- abrasive
-- home_compostable
+  - contains_bronze
+  - abrasive
+  - contains_metal
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-bronzefill/5021c96b42f8.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-bronzefill/5021c96b42f8.png
+    type: unspecified
+properties:
+  density: 3.9
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

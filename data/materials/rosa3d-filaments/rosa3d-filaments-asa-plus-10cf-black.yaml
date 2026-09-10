@@ -1,0 +1,32 @@
+uuid: 64f53fd7-4f03-5cdc-8156-26bff64e22ce
+slug: rosa3d-filaments-asa-plus-10cf-black
+brand:
+  slug: rosa3d-filaments
+name: ASA + 10CF Black
+class: FFF
+type: ASA
+abbreviation: ASACF
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-asa-plus-10cf-black/rosa3d-filaments-asa-plus-10cf-black-0-41565c60.png
+  type: unspecified

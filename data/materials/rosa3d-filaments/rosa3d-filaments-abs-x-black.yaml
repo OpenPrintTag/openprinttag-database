@@ -1,0 +1,29 @@
+uuid: 813ae5c2-d99c-567f-aba5-dd693559c60b
+slug: rosa3d-filaments-abs-x-black
+brand:
+  slug: rosa3d-filaments
+name: ABS-X Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-x-black/rosa3d-filaments-abs-x-black-0-c175b0a3.jpg
+  type: unspecified

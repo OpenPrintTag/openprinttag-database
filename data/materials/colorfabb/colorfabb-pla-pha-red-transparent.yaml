@@ -1,0 +1,20 @@
+uuid: 092a48f6-0e6a-54f6-8526-1ec1f8b8afc0
+slug: colorfabb-pla-pha-red-transparent
+brand:
+  slug: colorfabb
+name: PLA/PHA Red Transparent
+class: FFF
+type: PLA
+abbreviation: PLAPHA
+primary_color:
+  color_rgba: '#c01616ff'
+tags:
+- translucent
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pha-red-transparent/colorfabb-pla-pha-red-transparent-0-e230edde.png
+  type: unspecified

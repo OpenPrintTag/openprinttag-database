@@ -1,0 +1,25 @@
+uuid: 101cad3d-361e-5b70-9ba0-0076b9cf152c
+slug: rosa3d-filaments-pla-starter-army-green
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Army Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#466037ff'
+  color_lab:
+  - 37.74
+  - -18.16
+  - 20.36
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-army-green/rosa3d-filaments-pla-starter-army-green-0-dd86d2bb.jpg
+  type: unspecified

@@ -8,7 +8,21 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
 tags:
+- high_speed
 - matte
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.41
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-speed-matt-bamboo-green/rosa3d-filaments-pla-speed-matt-bamboo-green-0-8c15d65f.png
+  type: unspecified

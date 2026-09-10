@@ -4,9 +4,23 @@ brand:
   slug: rosa3d-filaments
 name: BioWOOD Black Oak
 class: FFF
-abbreviation: BioWOOD
+abbreviation: BIOWOOD
 primary_color:
-  color_rgba: '#292b2bff'
+  color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
 - contains_wood
-properties: {}
+properties:
+  density: 1.26
+  min_print_temperature: 170
+  max_print_temperature: 210
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-biowood-black-oak/rosa3d-filaments-biowood-black-oak-0-dd2747f9.png
+  type: unspecified

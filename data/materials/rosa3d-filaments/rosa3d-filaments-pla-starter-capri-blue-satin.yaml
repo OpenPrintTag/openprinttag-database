@@ -1,0 +1,25 @@
+uuid: 6e6bd291-96d4-5b09-86d1-5c60c6bad972
+slug: rosa3d-filaments-pla-starter-capri-blue-satin
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Capri Blue Satin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0095ffff'
+  color_lab:
+  - 60.53
+  - 5.94
+  - -61.56
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-capri-blue-satin/rosa3d-filaments-pla-starter-capri-blue-satin-0-601a026e.jpg
+  type: unspecified

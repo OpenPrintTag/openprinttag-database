@@ -1,0 +1,25 @@
+uuid: 1dcd1636-6e79-5da0-a623-6b1582854ea5
+slug: rosa3d-filaments-onefil3d-petg-black
+brand:
+  slug: rosa3d-filaments
+name: OneFIL3D PETG Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-onefil3d-petg-black/rosa3d-filaments-onefil3d-petg-black-0-e2214d6f.jpg
+  type: unspecified
