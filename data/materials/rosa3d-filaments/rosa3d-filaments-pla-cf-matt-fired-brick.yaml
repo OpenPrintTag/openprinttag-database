@@ -5,11 +5,26 @@ brand:
 name: PLA-CF Matt Fired Brick
 class: FFF
 type: PLA
-abbreviation: PLA
+abbreviation: PLACF
 primary_color:
   color_rgba: '#8b3a3aff'
+  color_lab:
+  - 35.64
+  - 34.54
+  - 17.3
 tags:
-  - matte
-  - contains_carbon_fiber
-  - abrasive
-properties: {}
+- matte
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-cf-matt-fired-brick/rosa3d-filaments-pla-cf-matt-fired-brick-0-252b686a.png
+  type: unspecified

@@ -1,0 +1,17 @@
+uuid: 9808b754-da61-5d03-b502-0cc1a2091b9d
+slug: rosa3d-filaments-pla-magic-fire
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Fire
+class: FFF
+type: PLA
+abbreviation: PLA
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-fire/rosa3d-filaments-pla-magic-fire-0-750fb31b.jpg
+  type: unspecified

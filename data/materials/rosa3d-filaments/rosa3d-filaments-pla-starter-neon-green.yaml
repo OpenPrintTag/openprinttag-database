@@ -1,0 +1,27 @@
+uuid: 4a18743f-2f3e-55c8-94f2-a75ae0bfced7
+slug: rosa3d-filaments-pla-starter-neon-green
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Neon Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00ff6fff'
+  color_lab:
+  - 88.29
+  - -79.16
+  - 54.11
+tags:
+- neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-neon-green/rosa3d-filaments-pla-starter-neon-green-0-9507b36a.jpg
+  type: unspecified

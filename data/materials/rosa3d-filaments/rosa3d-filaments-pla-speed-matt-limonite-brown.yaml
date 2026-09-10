@@ -1,0 +1,28 @@
+uuid: 516327b3-27c1-56cf-8c8c-d2e86f1393aa
+slug: rosa3d-filaments-pla-speed-matt-limonite-brown
+brand:
+  slug: rosa3d-filaments
+name: PLA Speed Matt Limonite Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5e574eff'
+  color_lab:
+  - 37.38
+  - 1.12
+  - 6.25
+tags:
+- high_speed
+- matte
+properties:
+  density: 1.41
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-speed-matt-limonite-brown/rosa3d-filaments-pla-speed-matt-limonite-brown-0-4dd9509b.jpg
+  type: unspecified

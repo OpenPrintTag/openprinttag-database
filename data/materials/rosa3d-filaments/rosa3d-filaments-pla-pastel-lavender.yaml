@@ -7,7 +7,21 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#d8a4cdff'
+  color_rgba: '#c790bbff'
+  color_lab:
+  - 66.27
+  - 27.7
+  - -14.13
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-pastel-lavender/rosa3d-filaments-pla-pastel-lavender-0-7a8e9144.png
+  type: unspecified

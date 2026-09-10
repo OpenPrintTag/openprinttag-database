@@ -7,10 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#0378d0ff'
 - color_rgba: '#58c91bff'
+  color_lab:
+  - 72.18
+  - -59.26
+  - 67.6
+- color_rgba: '#0378d0ff'
+  color_lab:
+  - 49.5
+  - 5.52
+  - -53.0
 tags:
 - silk
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-silk-lagoon/rosa3d-filaments-pla-magic-silk-lagoon-0-4e5ed123.png
+  type: unspecified

@@ -5,11 +5,26 @@ brand:
 name: PLA-CF Matt Lava Gray
 class: FFF
 type: PLA
-abbreviation: PLA
+abbreviation: PLACF
 primary_color:
   color_rgba: '#595959ff'
+  color_lab:
+  - 37.82
+  - -0.0
+  - 0.0
 tags:
-  - contains_carbon_fiber
-  - matte
-  - abrasive
-properties: {}
+- matte
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-cf-matt-lava-gray/rosa3d-filaments-pla-cf-matt-lava-gray-0-a511e351.png
+  type: unspecified

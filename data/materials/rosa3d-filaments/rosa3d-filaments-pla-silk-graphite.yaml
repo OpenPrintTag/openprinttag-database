@@ -8,7 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#3e413fff'
+  color_lab:
+  - 27.2
+  - -1.71
+  - 0.78
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-silk-graphite/rosa3d-filaments-pla-silk-graphite-0-236098b4.png
+  type: unspecified

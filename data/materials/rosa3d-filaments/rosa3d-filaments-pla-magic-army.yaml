@@ -8,9 +8,28 @@ type: PLA
 abbreviation: PLA
 secondary_colors:
 - color_rgba: '#6e8451ff'
-- color_rgba: '#d8ba64ff'
+  color_lab:
+  - 52.3
+  - -17.36
+  - 24.97
 - color_rgba: '#6e4325ff'
+  color_lab:
+  - 32.84
+  - 15.44
+  - 25.68
+- color_rgba: '#d8ba64ff'
+  color_lab:
+  - 76.46
+  - 0.14
+  - 47.08
 tags:
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-army/rosa3d-filaments-pla-magic-army-0-acdfd1c4.png
+  type: unspecified

@@ -8,7 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#3e413fff'
+  color_lab:
+  - 27.2
+  - -1.71
+  - 0.78
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-glitter-graphite/rosa3d-filaments-pla-starter-glitter-graphite-0-9b4c807f.png
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: e5172359-30b9-53e2-bf98-8db292efcf18
+slug: rosa3d-filaments-pla-starter-rose-beige-skin
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Rose Beige Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7bfa6ff'
+  color_lab:
+  - 81.73
+  - 16.73
+  - 20.35
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-rose-beige-skin/rosa3d-filaments-pla-starter-rose-beige-skin-0-1e0d4146.jpg
+  type: unspecified

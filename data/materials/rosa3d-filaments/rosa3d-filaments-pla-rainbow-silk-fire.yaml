@@ -7,11 +7,32 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#ec0000ff'
 - color_rgba: '#f8cc00ff'
+  color_lab:
+  - 83.52
+  - 0.69
+  - 84.42
 - color_rgba: '#fa8423ff'
+  color_lab:
+  - 67.24
+  - 39.32
+  - 66.6
+- color_rgba: '#ec0000ff'
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
 tags:
-- gradual_color_change
 - silk
-- industrially_compostable
-properties: {}
+- gradual_color_change
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-rainbow-silk-fire/rosa3d-filaments-pla-rainbow-silk-fire-0-784aa901.png
+  type: unspecified

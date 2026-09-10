@@ -1,0 +1,25 @@
+uuid: a944ec53-2466-58a3-b225-192d8f19a78b
+slug: rosa3d-filaments-pla-starter-lime-green
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Lime Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5cfc60ff'
+  color_lab:
+  - 88.32
+  - -70.85
+  - 60.88
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-lime-green/rosa3d-filaments-pla-starter-lime-green-0-4206f0af.jpg
+  type: unspecified

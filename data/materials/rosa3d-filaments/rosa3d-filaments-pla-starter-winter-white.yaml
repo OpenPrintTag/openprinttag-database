@@ -1,0 +1,25 @@
+uuid: 0eded5a7-e8b7-5838-99ba-ba064a762eac
+slug: rosa3d-filaments-pla-starter-winter-white
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Winter White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-winter-white/rosa3d-filaments-pla-starter-winter-white-0-bc1e352b.jpg
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: d120e940-2b90-5a9f-9fcf-abde0f38d84d
+slug: rosa3d-filaments-pla-starter-porcelain-skin
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Porcelain Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3cfb2ff'
+  color_lab:
+  - 85.45
+  - 8.38
+  - 19.11
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-porcelain-skin/rosa3d-filaments-pla-starter-porcelain-skin-0-475094c9.jpg
+  type: unspecified
