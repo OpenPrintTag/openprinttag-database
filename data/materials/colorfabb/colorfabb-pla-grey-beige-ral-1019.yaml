@@ -1,0 +1,24 @@
+uuid: 031d1cfd-4922-5ea4-becd-1c9d642bd3b4
+slug: colorfabb-pla-grey-beige-ral-1019
+brand:
+  slug: colorfabb
+name: PLA Grey beige RAL 1019
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a48f7aff'
+  color_lab:
+  - 60.73
+  - 4.49
+  - 14.08
+  color_ral: '1019'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-grey-beige-ral-1019/colorfabb-pla-grey-beige-ral-1019-0-19a0f731.jpg
+  type: unspecified

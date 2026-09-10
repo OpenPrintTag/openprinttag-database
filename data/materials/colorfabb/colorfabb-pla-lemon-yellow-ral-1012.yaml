@@ -1,0 +1,24 @@
+uuid: 5f467877-4492-5863-8035-3ff4b5e6b680
+slug: colorfabb-pla-lemon-yellow-ral-1012
+brand:
+  slug: colorfabb
+name: PLA Lemon yellow RAL 1012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddaf27ff'
+  color_lab:
+  - 73.66
+  - 4.71
+  - 69.33
+  color_ral: '1012'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-lemon-yellow-ral-1012/colorfabb-pla-lemon-yellow-ral-1012-0-3b7a6a71.jpg
+  type: unspecified

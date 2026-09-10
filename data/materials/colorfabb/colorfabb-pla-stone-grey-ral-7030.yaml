@@ -1,0 +1,24 @@
+uuid: 7ecced09-14e6-58df-8fc3-f012556579dc
+slug: colorfabb-pla-stone-grey-ral-7030
+brand:
+  slug: colorfabb
+name: PLA Stone grey RAL 7030
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#939388ff'
+  color_lab:
+  - 60.65
+  - -2.06
+  - 5.82
+  color_ral: '7030'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-stone-grey-ral-7030/colorfabb-pla-stone-grey-ral-7030-0-d6619021.jpg
+  type: unspecified

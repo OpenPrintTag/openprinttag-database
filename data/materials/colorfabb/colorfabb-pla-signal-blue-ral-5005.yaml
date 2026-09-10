@@ -1,0 +1,24 @@
+uuid: e3df9af8-21c9-5533-8d46-69d7835b7c65
+slug: colorfabb-pla-signal-blue-ral-5005
+brand:
+  slug: colorfabb
+name: PLA Signal blue RAL 5005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#154889ff'
+  color_lab:
+  - 30.88
+  - 8.92
+  - -40.92
+  color_ral: '5005'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-signal-blue-ral-5005/colorfabb-pla-signal-blue-ral-5005-0-0b60143f.jpg
+  type: unspecified

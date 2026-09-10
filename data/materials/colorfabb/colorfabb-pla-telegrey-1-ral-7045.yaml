@@ -1,0 +1,24 @@
+uuid: 875714de-8a66-508e-a80b-5f0836738565
+slug: colorfabb-pla-telegrey-1-ral-7045
+brand:
+  slug: colorfabb
+name: PLA Telegrey 1 RAL 7045
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#91969aff'
+  color_lab:
+  - 61.8
+  - -1.0
+  - -2.73
+  color_ral: '7045'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-telegrey-1-ral-7045/colorfabb-pla-telegrey-1-ral-7045-0-f225d98d.jpg
+  type: unspecified

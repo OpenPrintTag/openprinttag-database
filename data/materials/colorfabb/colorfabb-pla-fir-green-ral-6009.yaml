@@ -1,0 +1,24 @@
+uuid: 7d2ab907-9ea4-5c09-b838-213bafb80f4b
+slug: colorfabb-pla-fir-green-ral-6009
+brand:
+  slug: colorfabb
+name: PLA Fir green RAL 6009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26392fff'
+  color_lab:
+  - 22.1
+  - -10.26
+  - 3.8
+  color_ral: '6009'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-fir-green-ral-6009/colorfabb-pla-fir-green-ral-6009-0-e2760ef3.jpg
+  type: unspecified

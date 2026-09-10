@@ -1,0 +1,24 @@
+uuid: 5f196d13-7370-5414-8ab5-80d27b508333
+slug: colorfabb-pla-broom-yellow-ral-1032
+brand:
+  slug: colorfabb
+name: PLA Broom yellow RAL 1032
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2a300ff'
+  color_lab:
+  - 71.12
+  - 12.62
+  - 74.81
+  color_ral: '1032'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-broom-yellow-ral-1032/colorfabb-pla-broom-yellow-ral-1032-0-dd2dce99.jpg
+  type: unspecified

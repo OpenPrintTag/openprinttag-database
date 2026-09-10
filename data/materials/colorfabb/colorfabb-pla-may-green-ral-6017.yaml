@@ -1,0 +1,24 @@
+uuid: 00e6849c-4744-5a31-b652-b2428784fda1
+slug: colorfabb-pla-may-green-ral-6017
+brand:
+  slug: colorfabb
+name: PLA May green RAL 6017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#468641ff'
+  color_lab:
+  - 50.37
+  - -35.23
+  - 30.73
+  color_ral: '6017'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-may-green-ral-6017/colorfabb-pla-may-green-ral-6017-0-fb82db68.jpg
+  type: unspecified

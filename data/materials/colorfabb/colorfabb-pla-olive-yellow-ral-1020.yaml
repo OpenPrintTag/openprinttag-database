@@ -1,0 +1,24 @@
+uuid: 73f785a4-d371-5867-a03f-17127cb4f30d
+slug: colorfabb-pla-olive-yellow-ral-1020
+brand:
+  slug: colorfabb
+name: PLA Olive yellow RAL 1020
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a08f65ff'
+  color_lab:
+  - 59.94
+  - -0.0
+  - 24.69
+  color_ral: '1020'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-olive-yellow-ral-1020/colorfabb-pla-olive-yellow-ral-1020-0-7fabab53.jpg
+  type: unspecified

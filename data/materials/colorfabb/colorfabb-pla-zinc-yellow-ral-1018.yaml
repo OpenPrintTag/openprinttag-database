@@ -1,0 +1,24 @@
+uuid: 01581875-da71-5062-8235-be2d5e710bd2
+slug: colorfabb-pla-zinc-yellow-ral-1018
+brand:
+  slug: colorfabb
+name: PLA Zinc yellow RAL 1018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#faca30ff'
+  color_lab:
+  - 83.33
+  - 3.34
+  - 76.18
+  color_ral: '1018'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-zinc-yellow-ral-1018/colorfabb-pla-zinc-yellow-ral-1018-0-910de19e.jpg
+  type: unspecified

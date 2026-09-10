@@ -1,0 +1,24 @@
+uuid: 49bebab3-e8e9-56ae-816d-55de04ccc8fd
+slug: colorfabb-pla-bottle-green-ral-6007
+brand:
+  slug: colorfabb
+name: PLA Bottle green RAL 6007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#283424ff'
+  color_lab:
+  - 20.18
+  - -8.83
+  - 8.52
+  color_ral: '6007'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-bottle-green-ral-6007/colorfabb-pla-bottle-green-ral-6007-0-b32739ff.jpg
+  type: unspecified

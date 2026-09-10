@@ -1,0 +1,24 @@
+uuid: fa6ec8a8-7863-5489-8d63-faa3b2fcc592
+slug: colorfabb-pla-ocean-blue-ral-5020
+brand:
+  slug: colorfabb
+name: PLA Ocean blue RAL 5020
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0b4151ff'
+  color_lab:
+  - 25.09
+  - -10.57
+  - -14.48
+  color_ral: '5020'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-ocean-blue-ral-5020/colorfabb-pla-ocean-blue-ral-5020-0-99dda475.jpg
+  type: unspecified

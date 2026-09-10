@@ -1,0 +1,24 @@
+uuid: 771f3fff-2c7f-5f8e-9308-55e2e0eff957
+slug: colorfabb-pla-fern-green-ral-6025
+brand:
+  slug: colorfabb
+name: PLA Fern green RAL 6025
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#53753cff'
+  color_lab:
+  - 45.48
+  - -23.24
+  - 27.51
+  color_ral: '6025'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-fern-green-ral-6025/colorfabb-pla-fern-green-ral-6025-0-3fc4a996.jpg
+  type: unspecified

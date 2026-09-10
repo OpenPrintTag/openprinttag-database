@@ -1,0 +1,24 @@
+uuid: dde79f6d-60f2-5391-b560-5fd49b79c554
+slug: colorfabb-pla-signal-red-ral-3001
+brand:
+  slug: colorfabb
+name: PLA Signal red RAL 3001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a02128ff'
+  color_lab:
+  - 35.43
+  - 51.04
+  - 29.11
+  color_ral: '3001'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-signal-red-ral-3001/colorfabb-pla-signal-red-ral-3001-0-df1aa4e3.jpg
+  type: unspecified

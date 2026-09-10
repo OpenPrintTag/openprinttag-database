@@ -1,0 +1,24 @@
+uuid: 9b0ae90f-0a8c-547c-8995-02acece8a988
+slug: colorfabb-pla-traffic-white-ral-9016
+brand:
+  slug: colorfabb
+name: PLA Traffic white RAL 9016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7fbf5ff'
+  color_lab:
+  - 98.18
+  - -2.37
+  - 2.41
+  color_ral: '9016'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-traffic-white-ral-9016/colorfabb-pla-traffic-white-ral-9016-0-d8494479.jpg
+  type: unspecified

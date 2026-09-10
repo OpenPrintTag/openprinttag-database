@@ -1,0 +1,24 @@
+uuid: 0d431e82-0e02-5ad1-a5c3-20a4c2fa8d55
+slug: colorfabb-pla-nut-brown-ral-8011
+brand:
+  slug: colorfabb
+name: PLA Nut brown RAL 8011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5a3a29ff'
+  color_lab:
+  - 27.74
+  - 11.99
+  - 16.31
+  color_ral: '8011'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-nut-brown-ral-8011/colorfabb-pla-nut-brown-ral-8011-0-872696a7.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 3314f013-b99e-591d-a2ad-cbf92bf68ed8
+slug: colorfabb-pla-dahlia-yellow-ral-1033
+brand:
+  slug: colorfabb
+name: PLA Dahlia yellow RAL 1033
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f99a1cff'
+  color_lab:
+  - 71.79
+  - 27.48
+  - 72.06
+  color_ral: '1033'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-dahlia-yellow-ral-1033/colorfabb-pla-dahlia-yellow-ral-1033-0-2c75fe52.jpg
+  type: unspecified
