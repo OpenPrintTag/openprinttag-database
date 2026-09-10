@@ -1,0 +1,23 @@
+uuid: 24b458d7-028e-53a0-8e8e-5466f9db9457
+slug: formfutura-transparent-pla-lime
+brand:
+  slug: formfutura
+name: Transparent PLA Lime
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#82e392ff'
+tags:
+- translucent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 55
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-transparent-pla-lime/formfutura-transparent-pla-lime-0-7491ad19.jpg
+  type: unspecified

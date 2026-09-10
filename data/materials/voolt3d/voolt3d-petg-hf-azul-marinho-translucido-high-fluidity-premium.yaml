@@ -1,0 +1,22 @@
+uuid: 9f91b515-a4fa-5624-8844-d7e662f3f861
+slug: voolt3d-petg-hf-azul-marinho-translucido-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Azul Marinho Translúcido High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#4f03d7ff'
+tags:
+- high_speed
+- translucent
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-hf-azul-marinho-translucido-high-fluidity-premium/voolt3d-petg-hf-azul-marinho-translucido-high-fluidity-premium-0-7e7a4670.jpg
+  type: unspecified

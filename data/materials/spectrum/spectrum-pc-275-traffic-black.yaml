@@ -1,0 +1,19 @@
+uuid: 830acb5c-a127-5126-b98c-03e6da4558a7
+slug: spectrum-pc-275-traffic-black
+brand:
+  slug: spectrum
+name: PC 275 Traffic Black
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#1d1d1dff'
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pc-275-traffic-black/spectrum-pc-275-traffic-black-0-8fee0528.jpg
+  type: unspecified

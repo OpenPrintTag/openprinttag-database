@@ -6,13 +6,15 @@ name: PLA Crystal Neon Green
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-crystal/
 primary_color:
   color_rgba: '#70fa00ff'
 tags:
-- silk
-- industrially_compostable
-- neon
 - translucent
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-crystal-neon-green/spectrum-pla-crystal-neon-green-0-097784c5.jpg
+  type: unspecified

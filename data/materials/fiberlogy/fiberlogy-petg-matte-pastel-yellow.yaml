@@ -1,0 +1,23 @@
+uuid: 7d04586c-c32c-58e0-a09e-30dc505c01fb
+slug: fiberlogy-petg-matte-pastel-yellow
+brand:
+  slug: fiberlogy
+name: PETG Matte Pastel Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e7d69bff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-pastel-yellow/fiberlogy-petg-matte-pastel-yellow-0-8db52df7.jpg
+  type: unspecified

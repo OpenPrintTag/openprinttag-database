@@ -6,10 +6,23 @@ name: ROSA-Flex 96A Transparent
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-transparent-175mm-1kg
 primary_color:
   color_rgba: '#f2ece9ff'
+  color_lab:
+  - 93.78
+  - 1.49
+  - 2.16
 tags:
 - transparent
 properties:
-  hardness_shore_a: 96
+  density: 1.22
+  hardness_shore_a: 96.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-rosa-flex-96a-transparent/rosa3d-filaments-rosa-flex-96a-transparent-0-e3171620.jpg
+  type: unspecified

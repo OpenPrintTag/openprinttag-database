@@ -6,10 +6,22 @@ name: PLA Starter Glitter Bronze
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-refill-pla-starter-glitter-bronze
 primary_color:
   color_rgba: '#b26e3eff'
+  color_lab:
+  - 52.91
+  - 22.49
+  - 37.58
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-glitter-bronze/rosa3d-filaments-pla-starter-glitter-bronze-0-8faa3972.png
+  type: unspecified

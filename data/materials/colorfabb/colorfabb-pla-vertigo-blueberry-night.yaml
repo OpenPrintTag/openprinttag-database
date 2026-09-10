@@ -1,0 +1,21 @@
+uuid: 2187b7ef-ca8d-51d5-82c0-3bf6102a5cfb
+slug: colorfabb-pla-vertigo-blueberry-night
+brand:
+  slug: colorfabb
+name: PLA Vertigo Blueberry Night
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2c365eff'
+tags:
+- glitter
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-vertigo-blueberry-night/colorfabb-pla-vertigo-blueberry-night-0-2af4ac66.png
+  type: unspecified

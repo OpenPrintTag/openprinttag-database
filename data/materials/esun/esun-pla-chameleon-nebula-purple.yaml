@@ -12,9 +12,12 @@ primary_color:
 tags:
   - iridescent
   - glitter
-  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-chameleon-nebula-purple/esun-pla-chameleon-nebula-purple-0-7deac5a7.jpg
     type: unspecified

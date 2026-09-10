@@ -1,0 +1,21 @@
+uuid: 187f6be5-a3d9-52c5-b8de-92230a62f78c
+slug: r3d-pla-high-speed-matte-kraft
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Kraft
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ae9d7eff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-kraft/r3d-pla-high-speed-matte-kraft-0-daf652bf.jpg
+  type: unspecified

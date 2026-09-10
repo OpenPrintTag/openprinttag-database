@@ -9,9 +9,14 @@ abbreviation: ABS
 primary_color:
   color_rgba: '#f5f5f4ff'
 tags:
-- recycled
-- filtration_recommended
+  - recycled
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-reform-rtitan-white/2d580ddbd7ea.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-reform-rtitan-white/2d580ddbd7ea.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 90

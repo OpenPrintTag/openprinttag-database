@@ -1,0 +1,23 @@
+uuid: e643c57e-15c5-5784-8d79-2a14fc38c0b0
+slug: spectrum-pla-magic-silk-aurora-bloom
+brand:
+  slug: spectrum
+name: PLA Magic SILK Aurora Bloom
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#db3fa9ff'
+- color_rgba: '#0074bcff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-magic-silk-aurora-bloom/spectrum-pla-magic-silk-aurora-bloom-0-9fd2130e.jpg
+  type: unspecified

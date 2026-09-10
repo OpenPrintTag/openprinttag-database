@@ -1,0 +1,15 @@
+uuid: 709270f0-c166-58ea-917a-aca2b603c9b3
+slug: fusion-filaments-pctg-carbon-rod-black
+brand:
+  slug: fusion-filaments
+name: PCTG Carbon Rod Black
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#232323ff'
+properties:
+  max_print_temperature: 260
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pctg-carbon-rod-black/fusion-filaments-pctg-carbon-rod-black-0-65c40ad7.jpg
+  type: unspecified

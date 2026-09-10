@@ -1,0 +1,21 @@
+uuid: 1a657c0a-e6a7-56f0-80c8-562edc34a203
+slug: fiberlogy-fibersatin-pla-pink
+brand:
+  slug: fiberlogy
+name: FiberSatin PLA Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff72b6ff'
+properties:
+  density: 1.2
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersatin-pla-pink/fiberlogy-fibersatin-pla-pink-0-1337db27.png
+  type: unspecified

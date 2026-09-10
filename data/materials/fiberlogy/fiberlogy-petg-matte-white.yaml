@@ -1,0 +1,23 @@
+uuid: c1b2265f-e87d-5b45-b55a-86cb005c6d69
+slug: fiberlogy-petg-matte-white
+brand:
+  slug: fiberlogy
+name: PETG Matte White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-white/fiberlogy-petg-matte-white-0-97521e8b.png
+  type: unspecified

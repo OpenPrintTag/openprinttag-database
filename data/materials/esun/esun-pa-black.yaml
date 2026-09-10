@@ -1,0 +1,21 @@
+uuid: c9f2f0b4-850c-5b47-9cd3-d8ce63ab7806
+slug: esun-pa-black
+brand:
+  slug: esun
+name: PA Black
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-pa-black/esun-pa-black-0-6adbd3da.jpg
+  type: unspecified

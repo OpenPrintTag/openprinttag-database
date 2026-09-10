@@ -9,9 +9,8 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#ffcb47ff'
 tags:
-- silk
-- industrially_compostable
+  - silk
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-pla-premium-silk/d916d2623556.png
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-pla-premium-silk/d916d2623556.png
+    type: unspecified
 properties: {}

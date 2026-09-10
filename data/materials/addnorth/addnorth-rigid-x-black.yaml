@@ -9,11 +9,10 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-rigid-x-black/03de541feaa5.png
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-rigid-x-black/03de541feaa5.png
+    type: unspecified
 properties:
   density: 1.3
-url: https://addnorth.com/product/Rigid%20X/Rigid%20X%20-%201.75mm%20-%201000g%20-%20Black

@@ -4,10 +4,16 @@ brand:
   slug: colorfabb
 name: XT Light Green
 class: FFF
+type: CPE
 abbreviation: XT
 primary_color:
-  color_rgba: '#00cc00ff'
+  color_rgba: '#58c91bff'
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-xt-light-green/b9c8e292973e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-xt-light-green/b9c8e292973e.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70

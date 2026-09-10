@@ -1,0 +1,21 @@
+uuid: 228fbc18-1d39-52f0-ae11-00eed58e5f3f
+slug: polymaker-petg-white
+brand:
+  slug: polymaker
+name: PETG White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f8faf8ff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-petg-white/polymaker-petg-white-0-c3a4c003.jpg
+  type: unspecified

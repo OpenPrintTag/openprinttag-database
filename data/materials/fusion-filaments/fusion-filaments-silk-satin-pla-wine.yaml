@@ -1,0 +1,23 @@
+uuid: 12c011b9-929f-53d1-b0bb-54dd18b1ccae
+slug: fusion-filaments-silk-satin-pla-wine
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Wine
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cf4f80ff'
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-silk-satin-pla-wine/fusion-filaments-silk-satin-pla-wine-0-394bbf3c.jpg
+  type: unspecified

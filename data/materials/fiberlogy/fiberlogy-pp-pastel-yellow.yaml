@@ -1,0 +1,19 @@
+uuid: 77e8ecfa-33af-54fd-89e5-f16d037634a4
+slug: fiberlogy-pp-pastel-yellow
+brand:
+  slug: fiberlogy
+name: PP Pastel Yellow
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#e7d69bff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-pastel-yellow/fiberlogy-pp-pastel-yellow-0-d2448c10.jpg
+  type: unspecified

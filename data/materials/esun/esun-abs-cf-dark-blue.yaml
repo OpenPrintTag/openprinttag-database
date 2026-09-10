@@ -1,0 +1,26 @@
+uuid: 25c2a400-354c-5bd0-a220-0faaad6461f7
+slug: esun-abs-cf-dark-blue
+brand:
+  slug: esun
+name: ABS-CF Dark Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#2e4462ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 480
+photos:
+- url: https://files.openprinttag.org/esun/esun-abs-cf-dark-blue/esun-abs-cf-dark-blue-0-511ff3ef.jpg
+  type: unspecified

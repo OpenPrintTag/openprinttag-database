@@ -1,0 +1,22 @@
+uuid: a39cc552-3c2f-588a-acf8-f972a1e60ad6
+slug: voxelpla-pla-hs-pro-witch-green
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Witch Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#58c91bff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-witch-green/a89b26a630d5.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

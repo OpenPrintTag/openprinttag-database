@@ -1,0 +1,21 @@
+uuid: 51b6b97c-7b0a-5605-af39-11415902093a
+slug: spectrum-pc-275-transparent-red
+brand:
+  slug: spectrum
+name: PC 275 Transparent Red
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#e4002bff'
+tags:
+- translucent
+properties:
+  density: 1.2
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 90
+  max_bed_temperature: 130
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pc-275-transparent-red/spectrum-pc-275-transparent-red-0-e73dfb16.jpg
+  type: unspecified

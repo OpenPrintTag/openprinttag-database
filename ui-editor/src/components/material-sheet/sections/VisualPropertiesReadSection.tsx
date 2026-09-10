@@ -1,7 +1,15 @@
 import { DataGrid } from '~/components/DataGrid';
 import { EntityFields } from '~/components/fieldTypes';
+import { useClassFields } from '~/hooks/useClassFields';
 
 import type { Material } from '../types';
+
+const VISUAL_KEYS = [
+  'primary_color',
+  'secondary_colors',
+  'transmission_distance',
+  'refractive_index',
+];
 
 interface VisualPropertiesReadSectionProps {
   material?: Material;
@@ -12,12 +20,21 @@ export const VisualPropertiesReadSection = ({
   material,
   fields,
 }: VisualPropertiesReadSectionProps) => {
-  if (
-    !material?.primary_color &&
-    (!material?.secondary_colors || material.secondary_colors.length === 0) &&
-    !material?.transmission_distance &&
-    !material?.refractive_index
-  ) {
+  const filteredFields = useClassFields(fields, material?.class);
+
+  if (!filteredFields || !material) {
+    return null;
+  }
+
+  const activeVisualKeys = VISUAL_KEYS.filter((k) => k in filteredFields);
+
+  const hasVisualData = activeVisualKeys.some((key) => {
+    const value = material?.[key];
+    if (Array.isArray(value)) return value.length > 0;
+    return value !== undefined && value !== null;
+  });
+
+  if (!hasVisualData) {
     return null;
   }
 
@@ -25,23 +42,11 @@ export const VisualPropertiesReadSection = ({
     <DataGrid
       data={material}
       title="Visual Properties"
-      fields={fields}
-      primaryKeys={[
-        'primary_color',
-        'secondary_colors',
-        'transmission_distance',
-        'refractive_index',
-      ]}
-      excludeKeys={Object.keys(fields).filter(
-        (k) =>
-          ![
-            'primary_color',
-            'secondary_colors',
-            'transmission_distance',
-            'refractive_index',
-          ].includes(k),
+      fields={filteredFields}
+      primaryKeys={activeVisualKeys}
+      excludeKeys={Object.keys(filteredFields).filter(
+        (k) => !activeVisualKeys.includes(k),
       )}
-      entity="material"
     />
   );
 };

@@ -7,8 +7,13 @@ class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#c5c5bfff'
+  color_rgba: '#9ea2a2ff'
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-petg-grey/b3907e6f16b3.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-grey/b3907e6f16b3.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 90

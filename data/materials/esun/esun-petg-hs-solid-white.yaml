@@ -1,0 +1,21 @@
+uuid: 719a72de-fc2d-51a5-983d-0b42ef2b02dd
+slug: esun-petg-hs-solid-white
+brand:
+  slug: esun
+name: PETG+HS Solid White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- high_speed
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-hs-solid-white/esun-petg-hs-solid-white-0-45afdd87.jpg
+  type: unspecified

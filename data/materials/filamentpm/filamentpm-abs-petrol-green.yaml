@@ -9,8 +9,8 @@ abbreviation: ABS
 primary_color:
   color_rgba: '#178b9fff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-abs-petrol-green/f9b1ef790b52.png
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-abs-petrol-green/f9b1ef790b52.png
+    type: unspecified
 properties: {}

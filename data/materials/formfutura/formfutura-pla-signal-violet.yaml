@@ -1,0 +1,21 @@
+uuid: 6af5c003-c0b1-5c1d-a758-5e3490123a5d
+slug: formfutura-pla-signal-violet
+brand:
+  slug: formfutura
+name: PLA Signal Violet
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#924e7dff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-signal-violet/formfutura-pla-signal-violet-0-a3b87187.jpg
+  type: unspecified

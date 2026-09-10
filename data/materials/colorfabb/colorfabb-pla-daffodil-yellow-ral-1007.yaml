@@ -1,0 +1,24 @@
+uuid: 3b6016ba-047c-5030-9e8e-f09fd6e35e77
+slug: colorfabb-pla-daffodil-yellow-ral-1007
+brand:
+  slug: colorfabb
+name: PLA Daffodil yellow RAL 1007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e88c00ff'
+  color_lab:
+  - 66.46
+  - 27.41
+  - 72.08
+  color_ral: '1007'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-daffodil-yellow-ral-1007/colorfabb-pla-daffodil-yellow-ral-1007-0-48c23ae4.jpg
+  type: unspecified

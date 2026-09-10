@@ -9,6 +9,15 @@ abbreviation: CPE
 primary_color:
   color_rgba: '#000000ff'
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-cpe-ht-black/18b508a7915c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-cpe-ht-black/18b508a7915c.png
+    type: unspecified
+properties:
+  density: 1.18
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 110
+  max_bed_temperature: 120
+  drying_temperature: 80
+  drying_time: 240
+tags:
+  - high_temperature

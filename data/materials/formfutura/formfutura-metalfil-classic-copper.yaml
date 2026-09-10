@@ -1,0 +1,22 @@
+uuid: e04d4537-afc6-5d2d-a7a4-953dfc29e81f
+slug: formfutura-metalfil-classic-copper
+brand:
+  slug: formfutura
+name: MetalFil – Classic Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8d5d4fff'
+tags:
+- contains_copper
+- abrasive
+- contains_metal
+properties:
+  density: 3.4
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-metalfil-classic-copper/formfutura-metalfil-classic-copper-0-273c3ec0.png
+  type: unspecified

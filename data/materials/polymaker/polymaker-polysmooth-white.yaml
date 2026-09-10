@@ -4,10 +4,20 @@ brand:
   slug: polymaker
 name: PolySmooth™ White
 class: FFF
-abbreviation: PSmooth
+type: PVB
+abbreviation: PVB
 primary_color:
-  color_rgba: '#ffffffff'
+  color_rgba: '#f4eee8ff'
 photos:
   - url: https://files.openprinttag.org/polymaker/polymaker-polysmooth-white/5bee34a86209.png
     type: unspecified
-properties: {}
+properties:
+  density: 1.1
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 720
+tags:
+  - ipa_soluble

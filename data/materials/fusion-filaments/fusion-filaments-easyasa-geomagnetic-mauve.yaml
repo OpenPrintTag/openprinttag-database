@@ -1,0 +1,20 @@
+uuid: 58e89131-ccbd-57df-bc89-ef32919ec103
+slug: fusion-filaments-easyasa-geomagnetic-mauve
+brand:
+  slug: fusion-filaments
+name: EasyASA Geomagnetic Mauve
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#7d00a2ff'
+tags:
+- glitter
+- filtration_recommended
+properties:
+  max_print_temperature: 275
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-easyasa-geomagnetic-mauve/fusion-filaments-easyasa-geomagnetic-mauve-0-60c006c2.jpg
+  type: unspecified

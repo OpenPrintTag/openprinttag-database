@@ -1,0 +1,21 @@
+uuid: 5541b342-a4a7-59bd-9477-b53068998224
+slug: r3d-petg-high-speed-transparent-purple
+brand:
+  slug: r3d
+name: PETG High-Speed Transparent Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9d00b1ff'
+tags:
+- high_speed
+- translucent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-petg-high-speed-transparent-purple/r3d-petg-high-speed-transparent-purple-0-c9d41f49.jpg
+  type: unspecified

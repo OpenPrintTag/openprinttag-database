@@ -1,0 +1,21 @@
+uuid: fa89df7f-a944-58c0-bf24-9666a6cea63e
+slug: r3d-pla-high-speed-matte-raspberry-red
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Raspberry Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fb0046ff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-raspberry-red/r3d-pla-high-speed-matte-raspberry-red-0-c8bc32b6.jpg
+  type: unspecified

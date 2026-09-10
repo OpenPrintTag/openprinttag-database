@@ -6,10 +6,22 @@ name: PLA-Silk Silver
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-silk-silver-2
 primary_color:
   color_rgba: '#c9d0d4ff'
+  color_lab:
+  - 83.06
+  - -1.62
+  - -2.81
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-silk-silver/rosa3d-filaments-pla-silk-silver-0-48180ab9.png
+  type: unspecified

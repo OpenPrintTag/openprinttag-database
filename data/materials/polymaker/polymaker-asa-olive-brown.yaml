@@ -1,0 +1,20 @@
+uuid: d8f653ba-465f-51ca-b14b-75e417b9022e
+slug: polymaker-asa-olive-brown
+brand:
+  slug: polymaker
+name: ASA Olive Brown
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#a79565ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420

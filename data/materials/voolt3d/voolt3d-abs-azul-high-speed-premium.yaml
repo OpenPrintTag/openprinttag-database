@@ -1,0 +1,22 @@
+uuid: 26866b5e-7fae-50d9-b5c9-fa944a87f727
+slug: voolt3d-abs-azul-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Azul High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#0022ffff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-azul-high-speed-premium/voolt3d-abs-azul-high-speed-premium-0-58333d86.jpg
+  type: unspecified

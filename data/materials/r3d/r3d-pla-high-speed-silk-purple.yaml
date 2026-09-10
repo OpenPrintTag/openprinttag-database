@@ -1,0 +1,21 @@
+uuid: 2ef0da0e-2beb-570a-adfa-f943c08ca981
+slug: r3d-pla-high-speed-silk-purple
+brand:
+  slug: r3d
+name: PLA High-Speed Silk Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#491665ff'
+tags:
+- silk
+- high_speed
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-silk-purple/r3d-pla-high-speed-silk-purple-0-412bd910.jpg
+  type: unspecified

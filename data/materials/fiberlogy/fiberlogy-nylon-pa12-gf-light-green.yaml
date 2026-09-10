@@ -1,0 +1,26 @@
+uuid: e19654db-8e4a-5007-9887-61f40545fcea
+slug: fiberlogy-nylon-pa12-gf-light-green
+brand:
+  slug: fiberlogy
+name: Nylon PA12+GF Light Green
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#b3df3aff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-gf-light-green/fiberlogy-nylon-pa12-gf-light-green-0-75b988ce.png
+  type: unspecified

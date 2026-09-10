@@ -1,0 +1,21 @@
+uuid: 4279b833-11aa-52ee-b00e-113a390b2321
+slug: fiberlogy-easy-petg-orange
+brand:
+  slug: fiberlogy
+name: Easy PETG Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff5f2eff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-orange/fiberlogy-easy-petg-orange-0-4bd48f04.png
+  type: unspecified

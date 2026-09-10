@@ -1,0 +1,25 @@
+uuid: ac15aba1-08b5-5669-a502-4cf9ae84d845
+slug: rosa3d-filaments-pla-starter-light-brown
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Light Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e1a870ff'
+  color_lab:
+  - 73.01
+  - 14.44
+  - 36.97
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-light-brown/rosa3d-filaments-pla-starter-light-brown-0-a95f22bb.jpg
+  type: unspecified

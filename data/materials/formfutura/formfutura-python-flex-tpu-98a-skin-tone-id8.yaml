@@ -7,9 +7,13 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#613919ff'
+  color_rgba: '#94613cff'
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-python-flex-tpu-98a-skin-tone-id8/a4a2aaf0c5e5.png
-  type: unspecified
+  - url: https://files.openprinttag.org/formfutura/formfutura-python-flex-tpu-98a-skin-tone-id8/a4a2aaf0c5e5.png
+    type: unspecified
 properties:
-  hardness_shore_a: 98
+  density: 1.16
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 60

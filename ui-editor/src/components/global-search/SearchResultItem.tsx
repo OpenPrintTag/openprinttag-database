@@ -1,4 +1,5 @@
 import type { SearchResult } from '~/routes/api/search';
+import { classBadgeStyle } from '~/utils/classBadge';
 
 import { TYPE_COLORS, TYPE_ICONS, TYPE_LABELS } from './constants';
 
@@ -55,6 +56,16 @@ export function SearchResultItem({
             <>
               <span>•</span>
               <span>{result.brandName}</span>
+            </>
+          )}
+          {result.entityClass && (
+            <>
+              <span>•</span>
+              <span
+                className={`inline-flex items-center rounded px-1 py-0 text-[10px] font-semibold ${classBadgeStyle(result.entityClass)}`}
+              >
+                {result.entityClass}
+              </span>
             </>
           )}
           {result.materialType && (

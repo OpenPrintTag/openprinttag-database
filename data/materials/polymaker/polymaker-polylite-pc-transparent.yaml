@@ -1,0 +1,25 @@
+uuid: 1268e7a1-d842-5bf5-ac5d-12fa4d9b688f
+slug: polymaker-polylite-pc-transparent
+brand:
+  slug: polymaker
+name: PolyLite™ PC Transparent
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#dad5d4ff'
+tags:
+- transparent
+properties:
+  density: 1.19
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  min_chamber_temperature: 70
+  max_chamber_temperature: 100
+  drying_temperature: 75
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-polylite-pc-transparent/polymaker-polylite-pc-transparent-0-2b09173d.png
+  type: unspecified

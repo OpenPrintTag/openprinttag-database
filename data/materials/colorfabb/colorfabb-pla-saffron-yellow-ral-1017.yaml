@@ -1,0 +1,24 @@
+uuid: b38a247f-2f8e-5ee3-b686-a67ae1868c96
+slug: colorfabb-pla-saffron-yellow-ral-1017
+brand:
+  slug: colorfabb
+name: PLA Saffron yellow RAL 1017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6a950ff'
+  color_lab:
+  - 75.17
+  - 20.22
+  - 55.93
+  color_ral: '1017'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-saffron-yellow-ral-1017/colorfabb-pla-saffron-yellow-ral-1017-0-ca9b74ca.jpg
+  type: unspecified

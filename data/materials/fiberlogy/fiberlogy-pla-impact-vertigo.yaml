@@ -1,0 +1,23 @@
+uuid: a487a729-4f5d-58e5-b7d2-cf2b2bd832d2
+slug: fiberlogy-pla-impact-vertigo
+brand:
+  slug: fiberlogy
+name: PLA Impact Vertigo
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#55555eff'
+tags:
+- glitter
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-vertigo/fiberlogy-pla-impact-vertigo-0-f32c217e.png
+  type: unspecified

@@ -7,10 +7,15 @@ class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#101820ff'
 tags:
-- self_extinguishing
+  - self_extinguishing
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-petg-frjet-self-extinguishing-black/a2fd550c3200.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-frjet-self-extinguishing-black/a2fd550c3200.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90

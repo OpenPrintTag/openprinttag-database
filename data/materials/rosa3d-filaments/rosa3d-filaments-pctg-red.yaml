@@ -6,7 +6,20 @@ name: PCTG Red
 class: FFF
 type: PCTG
 abbreviation: PCTG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pctg-red
 primary_color:
   color_rgba: '#ec0000ff'
-properties: {}
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
+properties:
+  density: 1.24
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pctg-red/rosa3d-filaments-pctg-red-0-ff444819.png
+  type: unspecified

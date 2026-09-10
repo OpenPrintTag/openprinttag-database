@@ -1,0 +1,25 @@
+uuid: 99491787-c78d-5ead-b626-9247432b7468
+slug: rosa3d-filaments-pla-starter-coral-pastel
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Coral Pastel
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9b7dff'
+  color_lab:
+  - 73.67
+  - 34.32
+  - 31.6
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-coral-pastel/rosa3d-filaments-pla-starter-coral-pastel-0-36ef95f8.png
+  type: unspecified

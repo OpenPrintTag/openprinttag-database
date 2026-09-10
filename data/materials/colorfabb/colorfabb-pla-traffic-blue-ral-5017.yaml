@@ -1,0 +1,24 @@
+uuid: fdda5161-c846-5b95-a442-dbd0899c7b77
+slug: colorfabb-pla-traffic-blue-ral-5017
+brand:
+  slug: colorfabb
+name: PLA Traffic blue RAL 5017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0e518dff'
+  color_lab:
+  - 33.77
+  - 3.93
+  - -38.74
+  color_ral: '5017'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-traffic-blue-ral-5017/colorfabb-pla-traffic-blue-ral-5017-0-ba491589.jpg
+  type: unspecified

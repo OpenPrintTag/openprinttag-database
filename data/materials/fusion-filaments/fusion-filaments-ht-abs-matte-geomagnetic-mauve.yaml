@@ -1,0 +1,21 @@
+uuid: 004beb77-a5e1-51d4-855b-835ee9af1313
+slug: fusion-filaments-ht-abs-matte-geomagnetic-mauve
+brand:
+  slug: fusion-filaments
+name: HT-ABS Matte Geomagnetic Mauve
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#6600ccff'
+tags:
+- matte
+- high_temperature
+- filtration_recommended
+properties:
+  min_print_temperature: 290
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-ht-abs-matte-geomagnetic-mauve/fusion-filaments-ht-abs-matte-geomagnetic-mauve-0-3eb1819d.jpg
+  type: unspecified

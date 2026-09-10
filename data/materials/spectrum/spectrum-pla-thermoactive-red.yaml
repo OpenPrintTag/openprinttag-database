@@ -6,12 +6,16 @@ name: PLA Thermoactive Red
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-thermoactive/
 secondary_colors:
-- color_rgba: '#efefefff'
 - color_rgba: '#ff4f4dff'
+- color_rgba: '#efefefff'
 tags:
 - temperature_color_change
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-thermoactive-red/spectrum-pla-thermoactive-red-0-549aec0d.jpg
+  type: unspecified

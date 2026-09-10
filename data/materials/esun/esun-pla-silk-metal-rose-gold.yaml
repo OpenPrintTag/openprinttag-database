@@ -1,0 +1,20 @@
+uuid: 4b11ab6b-b216-5818-a220-2e385dec76bf
+slug: esun-pla-silk-metal-rose-gold
+brand:
+  slug: esun
+name: PLA Silk Metal Rose Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ba9594ff'
+tags:
+- silk
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-silk-metal-rose-gold/esun-pla-silk-metal-rose-gold-0-16f7ca92.jpg
+  type: unspecified

@@ -1,0 +1,28 @@
+uuid: 53c0eab7-52cb-550b-a89f-04d5bc62a655
+slug: siraya-tech-fibreheart-abs-cf-core-black
+brand:
+  slug: siraya-tech
+name: Fibreheart ABS-CF Core Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 70
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-abs-cf-core-black/siraya-tech-fibreheart-abs-cf-core-black-0-7b387399.jpg
+  type: unspecified

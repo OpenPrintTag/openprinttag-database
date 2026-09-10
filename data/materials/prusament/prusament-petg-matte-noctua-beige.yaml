@@ -1,0 +1,22 @@
+uuid: 16deb3c1-cf99-530d-8075-9f0bdedaaeb4
+slug: prusament-petg-matte-noctua-beige
+brand:
+  slug: prusament
+class: FFF
+type: PETG
+name: PETG Matte Noctua Beige
+abbreviation: PETG
+properties:
+  density: 1.4
+  min_print_temperature: 240
+  max_print_temperature: 260
+  preheat_temperature: 170
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  chamber_temperature: 35
+  min_chamber_temperature: 18
+  max_chamber_temperature: 60
+primary_color:
+  color_rgba: '#e7ceb4ff'
+tags:
+- matte

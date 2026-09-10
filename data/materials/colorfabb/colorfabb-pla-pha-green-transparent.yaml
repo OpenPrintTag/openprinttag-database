@@ -1,0 +1,22 @@
+uuid: 8d5bccee-2b48-5d27-a50f-9653adbfbbcb
+slug: colorfabb-pla-pha-green-transparent
+brand:
+  slug: colorfabb
+name: PLA/PHA Green Transparent
+class: FFF
+type: PLA
+abbreviation: PLAPHA
+primary_color:
+  color_rgba: '#267f67ff'
+tags:
+- translucent
+- home_compostable
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pha-green-transparent/colorfabb-pla-pha-green-transparent-0-34143c95.png
+  type: unspecified

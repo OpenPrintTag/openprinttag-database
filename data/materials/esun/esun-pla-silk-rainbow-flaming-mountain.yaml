@@ -1,0 +1,25 @@
+uuid: a6c03f9b-ddcf-5e01-936b-b48a87cf9d4e
+slug: esun-pla-silk-rainbow-flaming-mountain
+brand:
+  slug: esun
+name: PLA Silk Rainbow Flaming Mountain
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#88ae9fff'
+- color_rgba: '#f5e3acff'
+- color_rgba: '#e7935cff'
+- color_rgba: '#fd7c8aff'
+tags:
+- silk
+- gradual_color_change
+properties:
+  density: 1.21
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-silk-rainbow-flaming-mountain/esun-pla-silk-rainbow-flaming-mountain-0-de541942.jpg
+  type: unspecified

@@ -1,10 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-import type { EntityFields, SchemaField } from '~/components/fieldTypes';
-import {
-  FIELD_ENUM_MAP,
-  FIELD_RELATION_MAP,
-} from '~/server/data/schema-metadata';
+import type { EntityFields } from '~/components/fieldTypes';
 import { apiUrl } from '~/utils/readOnly';
 
 type JsonValue =
@@ -55,46 +51,4 @@ export const useSchema = (
   }, [schema]);
 
   return { schema, fields };
-};
-
-/**
- * Look up relation metadata for a field.
- * Uses explicit metadata from FIELD_RELATION_MAP and FIELD_ENUM_MAP.
- * No longer relies on oneOf/$ref parsing from JSON schemas.
- */
-export const useLookupRelation = (
-  _entity: string,
-  field: SchemaField | undefined,
-  fieldName?: string,
-): {
-  isLookup: boolean;
-  table: string | null;
-  valueField: string;
-  labelField: string;
-} | null => {
-  if (!field) return null;
-
-  // Check if this field has explicit relation metadata
-  if (fieldName && FIELD_RELATION_MAP[fieldName]) {
-    const rel = FIELD_RELATION_MAP[fieldName];
-    return {
-      isLookup: true,
-      table: rel.entity,
-      valueField: rel.valueField,
-      labelField: rel.labelField,
-    };
-  }
-
-  // Check if this is an enum field
-  if (fieldName && FIELD_ENUM_MAP[fieldName]) {
-    const enumMeta = FIELD_ENUM_MAP[fieldName];
-    return {
-      isLookup: false,
-      table: enumMeta.entity,
-      valueField: enumMeta.valueField,
-      labelField: enumMeta.labelField,
-    };
-  }
-
-  return null;
 };

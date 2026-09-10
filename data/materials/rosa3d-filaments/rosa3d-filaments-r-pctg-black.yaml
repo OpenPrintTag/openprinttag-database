@@ -6,9 +6,22 @@ name: R-PCTG Black
 class: FFF
 type: PCTG
 abbreviation: PCTG
-url: https://www.rosa3d.pl/en/filament-3d-refill-r-pctg-black
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
 - recycled
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-r-pctg-black/rosa3d-filaments-r-pctg-black-0-cde8920e.png
+  type: unspecified

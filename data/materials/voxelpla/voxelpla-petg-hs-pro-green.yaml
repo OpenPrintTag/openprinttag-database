@@ -1,0 +1,21 @@
+uuid: 5b079469-b9db-5ed9-ad5f-a77fb2ab6655
+slug: voxelpla-petg-hs-pro-green
+brand:
+  slug: voxelpla
+name: PETG+ HS (Pro) Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#32a584ff'
+tags:
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-voxelpetg-hs-pro-green/c79c491de526.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80

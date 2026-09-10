@@ -9,10 +9,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#998d58ff'
 tags:
-- contains_metal
-- abrasive
-- industrially_compostable
+  - contains_metal
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-metalfil-brass/ae0bcbb66b06.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-metalfil-brass/ae0bcbb66b06.png
+    type: unspecified
+properties:
+  density: 2.78
+  min_print_temperature: 180
+  max_print_temperature: 195
+  max_bed_temperature: 60

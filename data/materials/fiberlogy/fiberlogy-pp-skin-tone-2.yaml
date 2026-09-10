@@ -1,0 +1,19 @@
+uuid: e011f490-485f-56cf-bf19-1255922fef4b
+slug: fiberlogy-pp-skin-tone-2
+brand:
+  slug: fiberlogy
+name: PP Skin Tone 2
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#dda68eff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-skin-tone-2/fiberlogy-pp-skin-tone-2-0-2bfad4f6.jpg
+  type: unspecified

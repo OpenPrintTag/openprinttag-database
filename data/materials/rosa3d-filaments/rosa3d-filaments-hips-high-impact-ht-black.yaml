@@ -1,0 +1,29 @@
+uuid: 87495fd1-176c-5589-bb2d-1038585c1782
+slug: rosa3d-filaments-hips-high-impact-ht-black
+brand:
+  slug: rosa3d-filaments
+name: HIPS High Impact, HT Black
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+tags:
+- limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 70
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-hips-high-impact-ht-black/rosa3d-filaments-hips-high-impact-ht-black-0-f3199b3b.jpg
+  type: unspecified

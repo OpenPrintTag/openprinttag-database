@@ -1,0 +1,23 @@
+uuid: c70089da-a26e-53ef-af06-f04562c18432
+slug: fiberlogy-rpla-anthracite
+brand:
+  slug: fiberlogy
+name: rPLA Anthracite
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26272bff'
+tags:
+- recycled
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-rpla-anthracite/fiberlogy-rpla-anthracite-0-be8944fe.png
+  type: unspecified

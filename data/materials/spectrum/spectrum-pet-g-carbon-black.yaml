@@ -1,0 +1,23 @@
+uuid: 58918bc4-0ff5-5140-a8f8-219735dd0f4a
+slug: spectrum-pet-g-carbon-black
+brand:
+  slug: spectrum
+name: PET-G Carbon Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-carbon-black/spectrum-pet-g-carbon-black-0-83eb6cd5.jpg
+  type: unspecified

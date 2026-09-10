@@ -1,0 +1,25 @@
+uuid: cace9821-a0dc-5610-ad3b-a13055f3a6db
+slug: fiberlogy-pla-cf-black
+brand:
+  slug: fiberlogy
+name: PLA+CF Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#070908ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-cf-black/fiberlogy-pla-plus-cf-black-0-668793f0.jpg
+  type: unspecified

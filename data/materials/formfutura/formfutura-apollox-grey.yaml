@@ -9,6 +9,14 @@ abbreviation: ASA
 primary_color:
   color_rgba: '#727376ff'
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-apollox-grey/091144e98a72.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-apollox-grey/091144e98a72.png
+    type: unspecified
+properties:
+  density: 1.11
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  chamber_temperature: 40
+tags:
+  - filtration_recommended

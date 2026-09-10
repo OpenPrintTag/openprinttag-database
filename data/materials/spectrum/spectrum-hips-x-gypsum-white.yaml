@@ -6,8 +6,16 @@ name: HIPS-X™ Gypsum White
 class: FFF
 type: HIPS
 abbreviation: HIPS
-url: https://spectrumfilaments.com/en/filament/hips-x/
 primary_color:
   color_rgba: '#ffffffff'
 properties:
   density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 245
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+tags:
+- limonene_soluble
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-hips-x-gypsum-white/spectrum-hips-x-gypsum-white-0-333039ed.jpg
+  type: unspecified

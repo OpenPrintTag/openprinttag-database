@@ -5,13 +5,21 @@ brand:
 name: Kratos PC CF10 Black
 class: FFF
 type: PC
-abbreviation: PCCF
+abbreviation: PC
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-kratos-pc-cf10-black/250ca69af5b2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-kratos-pc-cf10-black/250ca69af5b2.png
+    type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 270
+  max_print_temperature: 310
+  min_bed_temperature: 100
+  max_bed_temperature: 130
+  drying_temperature: 75
+  drying_time: 1440

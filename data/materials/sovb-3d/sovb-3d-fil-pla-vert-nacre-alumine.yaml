@@ -1,0 +1,20 @@
+uuid: 82e88bcc-e531-5f2c-9bec-d94d05df3c65
+slug: sovb-3d-fil-pla-vert-nacre-alumine
+brand:
+  slug: sovb-3d
+name: Fil PLA Vert Nacré Alumine
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#23668cff'
+tags:
+- contains_aluminium
+- abrasive
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

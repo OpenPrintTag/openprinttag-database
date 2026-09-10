@@ -5,12 +5,26 @@ brand:
 name: PLA-CF Matt Carbon Black
 class: FFF
 type: PLA
-abbreviation: PLA
-url: https://www.rosa3d.pl/en/3d-filament-refill-pla-cf-matt-carbon-black-1kg
+abbreviation: PLACF
 primary_color:
   color_rgba: '#3e413fff'
+  color_lab:
+  - 27.2
+  - -1.71
+  - 0.78
 tags:
-  - matte
-  - contains_carbon_fiber
-  - abrasive
-properties: {}
+- matte
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-cf-matt-carbon-black/rosa3d-filaments-pla-cf-matt-carbon-black-0-7607352e.png
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: 4d8c7d5c-5bc9-5e0a-b449-f3546b211f59
+slug: rosa3d-filaments-pla-starter-chocolate-brown
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Chocolate Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#735147ff'
+  color_lab:
+  - 37.82
+  - 12.8
+  - 11.54
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-chocolate-brown/rosa3d-filaments-pla-starter-chocolate-brown-0-1b3f6bdd.jpg
+  type: unspecified

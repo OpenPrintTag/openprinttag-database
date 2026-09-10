@@ -1,0 +1,23 @@
+uuid: acb50cec-d4c7-516e-981e-719187a42d2e
+slug: fiberlogy-petg-matte-pastel-pink
+brand:
+  slug: fiberlogy
+name: PETG Matte Pastel Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#eb9eb7ff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-pastel-pink/fiberlogy-petg-matte-pastel-pink-0-0fb18f07.jpg
+  type: unspecified

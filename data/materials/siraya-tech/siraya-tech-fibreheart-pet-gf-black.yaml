@@ -1,0 +1,25 @@
+uuid: 73f76e08-fbc8-5284-8933-8f5c58f31aaa
+slug: siraya-tech-fibreheart-pet-gf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart PET-GF Black
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.3
+  min_print_temperature: 300
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 120
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-pet-gf-black/siraya-tech-fibreheart-pet-gf-black-0-85a31bd5.jpg
+  type: unspecified

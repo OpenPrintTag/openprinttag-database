@@ -6,12 +6,26 @@ name: PLA Magic Silk Glamour
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-magicsilk-glamour
 secondary_colors:
 - color_rgba: '#c9d0d4ff'
+  color_lab:
+  - 83.06
+  - -1.62
+  - -2.81
 - color_rgba: '#fcb4adff'
+  color_lab:
+  - 79.82
+  - 25.26
+  - 14.02
 tags:
 - silk
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-silk-glamour/rosa3d-filaments-pla-magic-silk-glamour-0-074946c3.png
+  type: unspecified

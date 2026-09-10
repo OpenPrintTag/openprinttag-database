@@ -1,0 +1,22 @@
+uuid: af9c599c-faa7-5ed5-b5ce-c097aadae840
+slug: esun-abs-pro-hs-green
+brand:
+  slug: esun
+name: ABS+HS Green
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#15817bff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/esun/esun-abs-pro-hs-green/esun-abs-hs-green-0-5713a73f.jpg
+  type: unspecified

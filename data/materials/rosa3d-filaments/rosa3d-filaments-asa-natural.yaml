@@ -6,9 +6,25 @@ name: ASA Natural
 class: FFF
 type: ASA
 abbreviation: ASA
-url: https://www.rosa3d.pl/en/filament-3d-refill-asa-natural
 primary_color:
   color_rgba: '#f9f3e5ff'
+  color_lab:
+  - 95.95
+  - -0.35
+  - 7.46
 tags:
 - without_pigments
-properties: {}
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-asa-natural/rosa3d-filaments-asa-natural-0-1adbef31.png
+  type: unspecified

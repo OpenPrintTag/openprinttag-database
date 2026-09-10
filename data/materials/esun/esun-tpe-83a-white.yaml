@@ -1,0 +1,20 @@
+uuid: 53ba816d-f091-5f76-b779-2fa10053eee6
+slug: esun-tpe-83a-white
+brand:
+  slug: esun
+name: TPE 83A White
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#f5f5f5ff'
+properties:
+  density: 1.14
+  hardness_shore_a: 83.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-tpe-83a-white/esun-tpe-83a-white-0-eaa9893d.jpg
+  type: unspecified

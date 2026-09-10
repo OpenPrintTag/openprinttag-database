@@ -1,0 +1,23 @@
+uuid: 6bcd1df2-2ac8-56be-b18d-d88ce43d2b42
+slug: spectrum-pla-magic-silk-forest-flame
+brand:
+  slug: spectrum
+name: PLA Magic SILK Forest Flame
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#008059ff'
+- color_rgba: '#b14241ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-magic-silk-forest-flame/spectrum-pla-magic-silk-forest-flame-0-48a2af71.jpg
+  type: unspecified

@@ -6,13 +6,33 @@ name: PLA GALAXY Rainbow Terra
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-terra-175mm-05kg
 secondary_colors:
 - color_rgba: '#6e8451ff'
+  color_lab:
+  - 52.3
+  - -17.36
+  - 24.97
 - color_rgba: '#a45b27ff'
+  color_lab:
+  - 46.34
+  - 25.77
+  - 41.6
 - color_rgba: '#11784fff'
+  color_lab:
+  - 44.4
+  - -37.99
+  - 14.87
 tags:
-- gradual_color_change
 - glitter
-- industrially_compostable
-properties: {}
+- gradual_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-galaxy-rainbow-terra/rosa3d-filaments-pla-galaxy-rainbow-terra-0-cfb2c6db.jpg
+  type: unspecified

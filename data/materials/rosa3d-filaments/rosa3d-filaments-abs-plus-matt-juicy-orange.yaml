@@ -1,0 +1,30 @@
+uuid: 0218d430-8334-56fc-b35f-9b28300d36d9
+slug: rosa3d-filaments-abs-plus-matt-juicy-orange
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Juicy Orange
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff520eff'
+  color_lab:
+  - 59.28
+  - 63.3
+  - 67.09
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-plus-matt-juicy-orange/rosa3d-filaments-abs-plus-matt-juicy-orange-0-a2ec90f5.png
+  type: unspecified

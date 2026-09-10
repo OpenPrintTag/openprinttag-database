@@ -6,10 +6,23 @@ name: PLA Speed Matt Ginger Yellow
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-refill-pla-speed-matt-ginger-yellow-175mm-1kg
 primary_color:
   color_rgba: '#fffc6aff'
+  color_lab:
+  - 96.79
+  - -16.74
+  - 68.45
 tags:
+- high_speed
 - matte
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.41
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-speed-matt-ginger-yellow/rosa3d-filaments-pla-speed-matt-ginger-yellow-0-09d91103.png
+  type: unspecified

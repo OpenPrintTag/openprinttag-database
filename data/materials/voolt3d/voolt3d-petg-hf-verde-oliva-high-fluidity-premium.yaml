@@ -1,0 +1,21 @@
+uuid: 7798766a-cef9-5315-83ac-1e91b6f60adc
+slug: voolt3d-petg-hf-verde-oliva-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Verde Oliva High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#4e7642ff'
+tags:
+- high_speed
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-hf-verde-oliva-high-fluidity-premium/voolt3d-petg-hf-verde-oliva-high-fluidity-premium-0-de6b105d.jpg
+  type: unspecified

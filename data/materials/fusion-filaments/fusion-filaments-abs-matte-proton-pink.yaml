@@ -1,0 +1,23 @@
+uuid: 0ef132e5-9095-58e0-98b2-216c769a0bf4
+slug: fusion-filaments-abs-matte-proton-pink
+brand:
+  slug: fusion-filaments
+name: ABS Matte Proton Pink
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff00a2ff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-abs-matte-proton-pink/fusion-filaments-abs-matte-proton-pink-0-84bd1e79.jpg
+  type: unspecified

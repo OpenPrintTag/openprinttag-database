@@ -1,0 +1,23 @@
+uuid: 1ece04b9-22b1-5be5-9319-281fe2ad05f7
+slug: fiberlogy-fibersilk-pla-pearl
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Pearl
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f4ff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-pearl/fiberlogy-fibersilk-pla-pearl-0-48f2f0e0.png
+  type: unspecified

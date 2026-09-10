@@ -1,0 +1,23 @@
+uuid: aa21d166-74e0-5ace-aa05-58c2604ea453
+slug: siraya-tech-flex-tpu-air-65a-82a-icy-blue
+brand:
+  slug: siraya-tech
+name: Flex TPU Air 65A-82A Icy Blue
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#6adcf7ff'
+tags:
+- foaming
+properties:
+  density: 1.15
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-air-65a-82a-icy-blue/siraya-tech-flex-tpu-air-65a-82a-icy-blue-0-1f21417e.jpg
+  type: unspecified

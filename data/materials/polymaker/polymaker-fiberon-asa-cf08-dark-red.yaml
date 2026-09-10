@@ -1,0 +1,26 @@
+uuid: bd4d6e5e-cebd-5db4-b7bb-ba146340a0fb
+slug: polymaker-fiberon-asa-cf08-dark-red
+brand:
+  slug: polymaker
+name: Fiberon™ ASA-CF08 Dark Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#855261ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 90
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-asa-cf08-dark-red/polymaker-fiberon-asa-cf08-dark-red-0-953ec0d6.jpg
+  type: unspecified

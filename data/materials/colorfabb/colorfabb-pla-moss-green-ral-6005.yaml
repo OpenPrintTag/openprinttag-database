@@ -1,0 +1,24 @@
+uuid: 80d66cc8-34bf-55b0-8b2b-c375f7436eaa
+slug: colorfabb-pla-moss-green-ral-6005
+brand:
+  slug: colorfabb
+name: PLA Moss green RAL 6005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0f4336ff'
+  color_lab:
+  - 24.9
+  - -20.58
+  - 3.02
+  color_ral: '6005'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-moss-green-ral-6005/colorfabb-pla-moss-green-ral-6005-0-4b48c1e6.jpg
+  type: unspecified

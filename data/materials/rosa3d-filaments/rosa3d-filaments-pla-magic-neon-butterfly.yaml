@@ -1,0 +1,30 @@
+uuid: 0dfe261f-b708-574c-8c05-1bfb0013d389
+slug: rosa3d-filaments-pla-magic-neon-butterfly
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Neon Butterfly
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f55928ff'
+  color_lab:
+  - 58.71
+  - 57.64
+  - 57.32
+- color_rgba: '#e80078ff'
+  color_lab:
+  - 50.12
+  - 79.01
+  - 1.44
+tags:
+- coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-neon-butterfly/rosa3d-filaments-pla-magic-neon-butterfly-0-d75e8f25.png
+  type: unspecified

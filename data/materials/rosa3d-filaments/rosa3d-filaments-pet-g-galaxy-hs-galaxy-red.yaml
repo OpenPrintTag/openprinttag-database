@@ -6,10 +6,23 @@ name: PET-G Galaxy HS Galaxy Red
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-pet-g-galaxy-hs-galaxy-red-1kg
 primary_color:
   color_rgba: '#861d2bff'
+  color_lab:
+  - 29.72
+  - 44.41
+  - 19.08
 tags:
-- glitter
 - high_speed
-properties: {}
+- glitter
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-galaxy-hs-galaxy-red/rosa3d-filaments-pet-g-galaxy-hs-galaxy-red-0-183f9d3a.png
+  type: unspecified

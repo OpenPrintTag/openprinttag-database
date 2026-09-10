@@ -1,0 +1,19 @@
+uuid: 5836b1de-dbf5-5c5b-8984-52cd40498545
+slug: sovb-3d-fil-abs-blanc-creme
+brand:
+  slug: sovb-3d
+name: Fil ABS Blanc Crème
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e2dedbff'
+  color_ral: '9001'
+tags:
+- filtration_recommended
+properties:
+  density: 1.03
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 100

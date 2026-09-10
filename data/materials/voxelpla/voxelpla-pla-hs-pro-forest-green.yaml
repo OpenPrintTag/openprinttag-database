@@ -1,0 +1,22 @@
+uuid: d754e637-244c-5838-a501-16544cfb92d5
+slug: voxelpla-pla-hs-pro-forest-green
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Forest Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#32a584ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-forest-green/9ad149a17cc4.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

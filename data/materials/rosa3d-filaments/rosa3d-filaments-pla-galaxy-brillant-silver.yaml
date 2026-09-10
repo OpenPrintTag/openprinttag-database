@@ -6,10 +6,24 @@ name: PLA Galaxy Brillant Silver
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-brillant-silver
 secondary_colors:
 - color_rgba: '#c5c5bfff'
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+primary_color:
+  color_rgba: '#c5c5bfff'
+  color_lab:
+  - 79.37
+  - -1.09
+  - 3.0
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-galaxy-brillant-silver/rosa3d-filaments-pla-galaxy-brillant-silver-0-07d4d915.jpg
+  type: unspecified

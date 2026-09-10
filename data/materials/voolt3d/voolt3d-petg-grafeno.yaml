@@ -1,0 +1,21 @@
+uuid: 9ad7efce-856f-59f5-9fe3-e252be79a8c3
+slug: voolt3d-petg-grafeno
+brand:
+  slug: voolt3d
+name: PETG Grafeno
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#2b2b2cff'
+tags:
+- contains_graphene
+- contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 245
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-grafeno/voolt3d-petg-grafeno-0-88e2a913.jpg
+  type: unspecified

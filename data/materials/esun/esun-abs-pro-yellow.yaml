@@ -1,0 +1,21 @@
+uuid: 40e9aae6-5cd5-580b-bd70-3342c98e8b56
+slug: esun-abs-pro-yellow
+brand:
+  slug: esun
+name: ABS+ Yellow
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#f6fb38ff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.06
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 110
+photos:
+  - url: https://files.openprinttag.org/esun/esun-abs-yellow/esun-abs-yellow-0-549a4079.jpg
+    type: unspecified

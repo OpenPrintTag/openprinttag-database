@@ -6,10 +6,17 @@ name: LW-ASA UltraFoam Pure White
 class: FFF
 type: ASA
 abbreviation: ASA
-url: https://spectrumfilaments.com/en/filament/lw-asa-ultrafoam/
 primary_color:
   color_rgba: '#efefefff'
 tags:
 - foaming
+- filtration_recommended
 properties:
   density: 1.08
+  min_print_temperature: 220
+  max_print_temperature: 285
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-lw-asa-ultrafoam-pure-white/spectrum-lw-asa-ultrafoam-pure-white-0-23daf4e3.jpg
+  type: unspecified

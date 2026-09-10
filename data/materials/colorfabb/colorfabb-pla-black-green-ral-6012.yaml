@@ -1,0 +1,24 @@
+uuid: c43ddc61-a86b-5d78-9814-d4dd9e40ab44
+slug: colorfabb-pla-black-green-ral-6012
+brand:
+  slug: colorfabb
+name: PLA Black green RAL 6012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#31403dff'
+  color_lab:
+  - 25.73
+  - -6.81
+  - -0.16
+  color_ral: '6012'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-black-green-ral-6012/colorfabb-pla-black-green-ral-6012-0-944eeef5.jpg
+  type: unspecified

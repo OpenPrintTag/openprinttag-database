@@ -6,10 +6,23 @@ name: PET-G Standard HS Blue Sky Transparent
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-blue-sky-transparent
 primary_color:
   color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
 tags:
-- translucent
 - high_speed
-properties: {}
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-blue-sky-transparent/rosa3d-filaments-pet-g-standard-hs-blue-sky-transparent-0-b0ab455d.png
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: c1f08edf-73c2-5367-a7f2-9b6bddf9543c
+slug: siraya-tech-flex-tpu-air-65a-82a-green
+brand:
+  slug: siraya-tech
+name: Flex TPU Air 65A-82A Green
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#8ef97cff'
+tags:
+- foaming
+properties:
+  density: 1.15
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-air-65a-82a-green/siraya-tech-flex-tpu-air-65a-82a-green-0-37c26b50.jpg
+  type: unspecified

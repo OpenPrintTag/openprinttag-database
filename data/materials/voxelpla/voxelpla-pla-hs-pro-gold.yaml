@@ -1,0 +1,22 @@
+uuid: 57dd08e6-b61b-5ab6-ac36-6d667382602e
+slug: voxelpla-pla-hs-pro-gold
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3b145ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-gold/a7d432fd1c06.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

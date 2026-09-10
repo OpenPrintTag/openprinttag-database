@@ -1,0 +1,24 @@
+uuid: 37169b2e-f7a4-52cf-a7ad-ae66f41ba73b
+slug: colorfabb-pla-black-grey-ral-7021
+brand:
+  slug: colorfabb
+name: PLA Black grey RAL 7021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2e3234ff'
+  color_lab:
+  - 20.48
+  - -1.23
+  - -1.86
+  color_ral: '7021'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-black-grey-ral-7021/colorfabb-pla-black-grey-ral-7021-0-9ee7e399.jpg
+  type: unspecified

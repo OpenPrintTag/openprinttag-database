@@ -10,9 +10,13 @@ url: https://esun3dstoreeu.com/products/petg-matte?VariantsId=13007
 primary_color:
   color_rgba: '#ffc8c9ff'
 tags:
-- matte
+  - matte
 properties:
   density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-matte-peach-pink/esun-petg-matte-peach-pink-0-e3f03ea9.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-matte-peach-pink/esun-petg-matte-peach-pink-0-e3f03ea9.jpg
+    type: unspecified

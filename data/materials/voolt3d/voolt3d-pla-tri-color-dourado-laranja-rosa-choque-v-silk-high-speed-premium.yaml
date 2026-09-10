@@ -1,0 +1,25 @@
+uuid: 185686a9-92ca-5055-bacb-47429d36b63a
+slug: voolt3d-pla-tri-color-dourado-laranja-rosa-choque-v-silk-high-speed-premium
+brand:
+  slug: voolt3d
+name: PLA Tri Color Dourado / Laranja / Rosa Choque V-Silk High Speed Premium
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff7f01ff'
+- color_rgba: '#f6c500ff'
+- color_rgba: '#fe0194ff'
+tags:
+- silk
+- high_speed
+- coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-tri-color-dourado-laranja-rosa-choque-v-silk-high-speed-premium/voolt3d-pla-tri-color-dourado-laranja-rosa-choque-v-silk-high-speed-premium-0-8f3184fb.jpg
+  type: unspecified

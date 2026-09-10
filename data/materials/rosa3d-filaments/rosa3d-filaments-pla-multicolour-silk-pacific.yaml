@@ -6,13 +6,33 @@ name: PLA Multicolour Silk Pacific
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-refill-pla-multicolour-silk-pacific
 secondary_colors:
-- color_rgba: '#0078bfff'
 - color_rgba: '#95b6deff'
+  color_lab:
+  - 72.97
+  - -1.74
+  - -23.68
 - color_rgba: '#aabccfff'
+  color_lab:
+  - 75.46
+  - -2.18
+  - -11.63
+- color_rgba: '#0078bfff'
+  color_lab:
+  - 48.5
+  - -1.28
+  - -44.87
 tags:
 - silk
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-multicolour-silk-pacific/rosa3d-filaments-pla-multicolour-silk-pacific-0-f4413936.png
+  type: unspecified

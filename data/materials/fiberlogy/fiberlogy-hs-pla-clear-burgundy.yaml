@@ -9,10 +9,16 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#861d2bff'
 tags:
-- industrially_compostable
-- high_speed
-- translucent
+  - high_speed
+  - translucent
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-hs-pla-clear-burgundy/382a7ede8f57.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-hs-pla-clear-burgundy/382a7ede8f57.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240

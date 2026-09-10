@@ -6,10 +6,16 @@ name: PCTG Premium Transparent Orange
 class: FFF
 type: PCTG
 abbreviation: PCTG
-url: https://spectrumfilaments.com/en/filament/pctg-premium/
 primary_color:
   color_rgba: '#ff5f2eff'
 tags:
 - translucent
 properties:
-  density: 1.27
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pctg-premium-transparent-orange/spectrum-pctg-premium-transparent-orange-0-ccfde77d.jpg
+  type: unspecified

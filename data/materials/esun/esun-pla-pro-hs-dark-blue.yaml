@@ -1,0 +1,20 @@
+uuid: d360d6fb-a188-5a15-bebf-bb8741efc808
+slug: esun-pla-pro-hs-dark-blue
+brand:
+  slug: esun
+name: PLA+HS Dark Blue
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#090c23ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-dark-blue/esun-pla-hs-dark-blue-0-8024537c.jpg
+  type: unspecified

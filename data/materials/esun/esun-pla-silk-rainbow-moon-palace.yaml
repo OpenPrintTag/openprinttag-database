@@ -1,0 +1,25 @@
+uuid: 8e604582-762e-5bbe-b4cf-ae9ba5e6d618
+slug: esun-pla-silk-rainbow-moon-palace
+brand:
+  slug: esun
+name: PLA Silk Rainbow Moon Palace
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ffbadeff'
+- color_rgba: '#f5f1ddff'
+- color_rgba: '#a4d0dfff'
+- color_rgba: '#b5a4c8ff'
+tags:
+- silk
+- gradual_color_change
+properties:
+  density: 1.21
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-silk-rainbow-moon-palace/esun-pla-silk-rainbow-moon-palace-0-5b6428c2.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 90dd5a41-4879-51c8-bcf3-76094ae30bf1
+slug: fiberlogy-pla-impact-yellow
+brand:
+  slug: fiberlogy
+name: PLA Impact Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffc946ff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-yellow/fiberlogy-pla-impact-yellow-0-104a497a.png
+  type: unspecified

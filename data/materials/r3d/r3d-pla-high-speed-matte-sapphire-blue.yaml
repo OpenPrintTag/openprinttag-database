@@ -1,0 +1,21 @@
+uuid: fce0a295-e915-573c-a4de-14ed91baadcd
+slug: r3d-pla-high-speed-matte-sapphire-blue
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Sapphire Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4921c1ff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-sapphire-blue/r3d-pla-high-speed-matte-sapphire-blue-0-cf2ae845.jpg
+  type: unspecified

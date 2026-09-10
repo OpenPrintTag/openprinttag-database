@@ -1,0 +1,30 @@
+uuid: 540b5e5b-df26-5a76-9038-596453c0f764
+slug: rosa3d-filaments-abs-plus-matt-black
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-plus-matt-black/rosa3d-filaments-abs-plus-matt-black-0-0fc03bbc.png
+  type: unspecified

@@ -6,10 +6,23 @@ name: PET-G Standard HS Neon Green
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-neon-green-1kg
 primary_color:
-  color_rgba: '#8cff96ff'
+  color_rgba: '#0bd10bff'
+  color_lab:
+  - 73.35
+  - -73.55
+  - 70.54
 tags:
-- neon
 - high_speed
-properties: {}
+- neon
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-neon-green/rosa3d-filaments-pet-g-standard-hs-neon-green-0-48842a1d.png
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: fe07d26b-b97b-509a-ab12-e08f3cf3acea
+slug: francofil-pla-green-iridescent-glitter
+brand:
+  slug: francofil
+name: Green Iridescent Glitter PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/pla-vert-irise-paillete/#&gid=1&pid=1
+primary_color:
+  color_rgba: '#84d18bff'
+tags:
+- iridescent
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 70

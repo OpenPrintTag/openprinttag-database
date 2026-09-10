@@ -1,0 +1,19 @@
+uuid: 503accf7-9a29-5dc6-a15e-0b9b8c54074a
+slug: spectrum-pla-pro-rust-copper
+brand:
+  slug: spectrum
+name: PLA Pro Rust Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#af784dff'
+properties:
+  density: 1.22
+  min_print_temperature: 185
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-pro-rust-copper/spectrum-pla-pro-rust-copper-0-e4079ed5.jpg
+  type: unspecified

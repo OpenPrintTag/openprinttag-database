@@ -1,0 +1,20 @@
+uuid: 1981b463-9c20-52a7-8885-8afb8b5f73ee
+slug: sovb-3d-fil-pla-beige-nacre-alumine
+brand:
+  slug: sovb-3d
+name: Fil PLA Beige Nacré Alumine
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9cb9bff'
+tags:
+- contains_aluminium
+- abrasive
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

@@ -8,9 +8,14 @@ abbreviation: PA
 primary_color:
   color_rgba: '#003b80ff'
 tags:
-- contains_metal
-- abrasive
+  - contains_metal
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-pa-blue-metal-detectable/65d69dc10899.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-pa-blue-metal-detectable/65d69dc10899.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 265
+  max_print_temperature: 290
+  min_bed_temperature: 25
+  max_bed_temperature: 50

@@ -10,7 +10,12 @@ url: https://www.amazon.com/eSUN-1-75mm-Flexible-Printer-Filament/dp/B07LFG8HRV
 primary_color:
   color_rgba: '#7a838eff'
 properties:
+  density: 1.21
   hardness_shore_a: 95.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-tpu-95a-gray/8bb00e98eaa1.jpg
     type: unspecified

@@ -6,10 +6,16 @@ name: PLA Pro Silver Star
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-pro/
 primary_color:
   color_rgba: '#9f9f9fff'
 tags:
 - industrially_compostable
 properties:
   density: 1.22
+  min_print_temperature: 185
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-pro-silver-star/spectrum-pla-pro-silver-star-0-98516801.jpg
+  type: unspecified

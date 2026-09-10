@@ -1,0 +1,26 @@
+uuid: a3012d3c-c4ed-57dc-91f5-81c03b4c8947
+slug: formfutura-high-gloss-pla-colormorph-silver-and-purple
+brand:
+  slug: formfutura
+name: High Gloss PLA ColorMorph Silver & Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#abacb0ff'
+- color_rgba: '#6c47b2ff'
+tags:
+- iridescent
+- silk
+- coextruded
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-high-gloss-pla-colormorph-silver-and-purple/formfutura-high-gloss-pla-colormorph-silver-and-purple-0-005a651e.png
+  type: unspecified

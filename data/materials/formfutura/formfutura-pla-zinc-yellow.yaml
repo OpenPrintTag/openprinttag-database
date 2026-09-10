@@ -1,0 +1,21 @@
+uuid: be59e47e-359e-59a8-902a-e677bbbf61a5
+slug: formfutura-pla-zinc-yellow
+brand:
+  slug: formfutura
+name: PLA Zinc Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f4ee2aff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-zinc-yellow/formfutura-pla-zinc-yellow-0-6951abab.jpg
+  type: unspecified

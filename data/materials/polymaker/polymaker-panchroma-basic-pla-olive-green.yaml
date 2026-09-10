@@ -1,0 +1,21 @@
+uuid: 7b55fd3f-4076-5d04-9c35-da4c7d1647f5
+slug: polymaker-panchroma-basic-pla-olive-green
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#948902ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-basic-pla-olive-green/polymaker-panchroma-basic-pla-olive-green-0-b4de4f54.jpg
+  type: unspecified

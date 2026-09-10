@@ -6,9 +6,14 @@ name: Fil PLA Violet
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.sovb3d.fr/pla-175mm-standard-1kg/111-fil-pla-violet-175mm-1kg.html
 primary_color:
   color_rgba: '#963877ff'
+  color_ral: '4008'
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

@@ -1,0 +1,23 @@
+uuid: 2dc46455-334d-54eb-afb9-e197a80c9426
+slug: formfutura-athenax-gf10-natural
+brand:
+  slug: formfutura
+name: AthenaX GF10 Natural
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#f5f3d1ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.31
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 85
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-athenax-gf10-natural/formfutura-athenax-gf10-natural-0-1a7598d8.jpg
+  type: unspecified

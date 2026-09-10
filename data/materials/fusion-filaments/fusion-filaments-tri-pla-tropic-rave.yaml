@@ -1,0 +1,20 @@
+uuid: 3e1d09f4-3094-5370-8153-d67b3210b637
+slug: fusion-filaments-tri-pla-tropic-rave
+brand:
+  slug: fusion-filaments
+name: Tri-PLA Tropic Rave
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#fe016dff'
+  - color_rgba: '#39c3a7ff'
+  - color_rgba: '#ff6244ff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

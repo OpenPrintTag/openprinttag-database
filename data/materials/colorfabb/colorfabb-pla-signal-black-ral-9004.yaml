@@ -1,0 +1,24 @@
+uuid: aabc6d0b-62fa-53e0-a812-8f4e9ac49eaf
+slug: colorfabb-pla-signal-black-ral-9004
+brand:
+  slug: colorfabb
+name: PLA Signal black RAL 9004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2e3032ff'
+  color_lab:
+  - 19.74
+  - -0.39
+  - -1.58
+  color_ral: '9004'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-signal-black-ral-9004/colorfabb-pla-signal-black-ral-9004-0-351654d5.jpg
+  type: unspecified

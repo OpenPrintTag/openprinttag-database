@@ -1,0 +1,24 @@
+uuid: 5fab1e16-5b3b-5e95-9a2a-a05f309829a1
+slug: polymaker-panchroma-starlight-pla-pulsar
+brand:
+  slug: polymaker
+name: Panchroma™ Starlight PLA Pulsar
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5c7bc1ff'
+tags:
+- iridescent
+- glitter
+properties:
+  density: 1.17
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-starlight-pla-pulsar/polymaker-panchroma-starlight-pla-pulsar-0-928c8eba.jpg
+  type: unspecified

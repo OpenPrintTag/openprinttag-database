@@ -1,0 +1,18 @@
+uuid: 99273021-2d86-5437-91fb-d2dd8feb65b7
+slug: sovb-3d-fil-pla-vert-nacre
+brand:
+  slug: sovb-3d
+name: Fil PLA Vert Nacré
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#23668cff'
+tags:
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

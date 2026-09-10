@@ -1,0 +1,24 @@
+uuid: 7e804015-cbdb-570a-86af-fc7db72594c5
+slug: colorfabb-pla-melon-yellow-ral-1028
+brand:
+  slug: colorfabb
+name: PLA Melon yellow RAL 1028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9b00ff'
+  color_lab:
+  - 72.7
+  - 29.13
+  - 77.5
+  color_ral: '1028'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-melon-yellow-ral-1028/colorfabb-pla-melon-yellow-ral-1028-0-fe55f53c.jpg
+  type: unspecified

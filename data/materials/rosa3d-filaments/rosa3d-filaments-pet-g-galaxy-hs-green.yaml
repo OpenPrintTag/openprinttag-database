@@ -6,10 +6,23 @@ name: PET-G Galaxy HS Green
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-pet-g-galaxy-hs-green-1kg
 primary_color:
   color_rgba: '#4f7b57ff'
+  color_lab:
+  - 47.64
+  - -23.31
+  - 15.0
 tags:
-- glitter
 - high_speed
-properties: {}
+- glitter
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-galaxy-hs-green/rosa3d-filaments-pet-g-galaxy-hs-green-0-79393a84.png
+  type: unspecified

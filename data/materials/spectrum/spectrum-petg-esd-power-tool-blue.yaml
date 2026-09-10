@@ -1,0 +1,21 @@
+uuid: 9b2b3d72-bb49-5f81-980b-27c9b2d4e55c
+slug: spectrum-petg-esd-power-tool-blue
+brand:
+  slug: spectrum
+name: PETG ESD Power Tool Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#2a4552ff'
+tags:
+- esd_safe
+properties:
+  density: 1.23
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-petg-esd-power-tool-blue/spectrum-petg-esd-power-tool-blue-0-fad5b4fd.jpg
+  type: unspecified

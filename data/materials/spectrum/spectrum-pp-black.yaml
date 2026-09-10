@@ -1,0 +1,19 @@
+uuid: 2f200d3a-7f8f-5bd0-9d12-a9c3f201e49f
+slug: spectrum-pp-black
+brand:
+  slug: spectrum
+name: PP Black
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#262727ff'
+properties:
+  density: 0.89
+  min_print_temperature: 265
+  max_print_temperature: 295
+  min_bed_temperature: 95
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pp-black/spectrum-pp-black-0-352796bb.jpg
+  type: unspecified

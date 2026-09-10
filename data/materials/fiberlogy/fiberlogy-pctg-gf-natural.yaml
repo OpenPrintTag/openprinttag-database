@@ -1,0 +1,25 @@
+uuid: 9d0d414d-8659-505b-8480-6a894e4f0d9d
+slug: fiberlogy-pctg-gf-natural
+brand:
+  slug: fiberlogy
+name: PCTG+GF Natural
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#efe8d8ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+properties:
+  density: 1.31
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pctg-gf-natural/fiberlogy-pctg-gf-natural-0-d61bbd11.png
+  type: unspecified

@@ -5,11 +5,16 @@ brand:
 name: GreenyHT™ Strawberry Red
 class: FFF
 type: PLA
-abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/greenyht/
+abbreviation: BIO
 primary_color:
   color_rgba: '#ce5d4cff'
 tags:
-- industrially_compostable
+- high_temperature
 properties:
   density: 1.54
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-greenyht-strawberry-red/spectrum-greenyht-strawberry-red-0-37a2cb2a.jpg
+  type: unspecified

@@ -1,0 +1,27 @@
+uuid: 6c23c2fb-8c61-500f-bc52-6702b70dc2cc
+slug: rosa3d-filaments-tpu-flex-lw-yellow
+brand:
+  slug: rosa3d-filaments
+name: TPU Flex LW Yellow
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e2ff4dff'
+  color_lab:
+  - 95.26
+  - -31.34
+  - 77.3
+tags:
+- foaming
+properties:
+  density: 0.43
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-tpu-flex-lw-yellow/rosa3d-filaments-tpu-flex-lw-yellow-0-bf484df5.jpg
+  type: unspecified

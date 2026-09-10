@@ -1,0 +1,21 @@
+uuid: f85d0e4a-da1b-5178-bf17-64c344c668c0
+slug: r3d-pla-high-speed-matte-beige
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Beige
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6dfb7ff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-beige/r3d-pla-high-speed-matte-beige-0-07a21d29.jpg
+  type: unspecified

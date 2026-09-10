@@ -1,0 +1,14 @@
+uuid: b95caab5-ef19-5bb3-9f83-801b70102ead
+slug: fusion-filaments-pctg-clear-natural
+brand:
+  slug: fusion-filaments
+name: PCTG Clear/Natural
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#dfdfd3ff'
+tags:
+  - without_pigments
+properties:
+  max_print_temperature: 260

@@ -4,13 +4,20 @@ brand:
   slug: formfutura
 name: ReForm – rPET Clear
 class: FFF
-type: PET
-abbreviation: PET
+abbreviation: PETG
 primary_color:
-  color_rgba: '#9a9ba0ff'
+  color_rgba: '#e6e6e6ff'
 tags:
-- recycled
+  - recycled
+  - translucent
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-reform-rpet-clear/19bbae686a80.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-reform-rpet-clear/19bbae686a80.png
+    type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 720

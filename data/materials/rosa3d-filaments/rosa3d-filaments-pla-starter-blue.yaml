@@ -1,0 +1,25 @@
+uuid: 42bbac0b-e601-5f53-93ef-264c3d88d916
+slug: rosa3d-filaments-pla-starter-blue
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6d8dfdff'
+  color_lab:
+  - 61.12
+  - 20.95
+  - -59.35
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-blue/rosa3d-filaments-pla-starter-blue-0-7b8577a5.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 55648e04-3bdc-5c59-bef5-963779b7026a
+slug: polymaker-petg-electric-blue
+brand:
+  slug: polymaker
+name: PETG Electric Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#3e8ce4ff'
+properties:
+  density: 1.3
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-petg-electric-blue/polymaker-petg-electric-blue-0-0b596ac0.jpg
+  type: unspecified

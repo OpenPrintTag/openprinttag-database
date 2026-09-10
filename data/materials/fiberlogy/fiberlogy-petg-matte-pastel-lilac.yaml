@@ -1,0 +1,23 @@
+uuid: a360ed8c-52c7-5cb1-bc28-db074796fb4a
+slug: fiberlogy-petg-matte-pastel-lilac
+brand:
+  slug: fiberlogy
+name: PETG Matte Pastel Lilac
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c791d4ff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-pastel-lilac/fiberlogy-petg-matte-pastel-lilac-0-31052819.jpg
+  type: unspecified

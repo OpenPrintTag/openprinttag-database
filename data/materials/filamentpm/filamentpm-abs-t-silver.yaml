@@ -7,10 +7,16 @@ class: FFF
 type: ABS
 abbreviation: ABS
 primary_color:
-  color_rgba: '#999aa0ff'
+  color_rgba: '#8f8f8fff'
 tags:
-- filtration_recommended
+  - high_temperature
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-abs-t-silver/610f69176a7b.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-abs-t-silver/610f69176a7b.png
+    type: unspecified
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110

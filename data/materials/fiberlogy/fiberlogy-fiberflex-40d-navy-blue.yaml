@@ -1,0 +1,23 @@
+uuid: 813d5407-8a4a-54c2-85ab-725ace4e9265
+slug: fiberlogy-fiberflex-40d-navy-blue
+brand:
+  slug: fiberlogy
+name: FiberFlex 40D Navy Blue
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#001489ff'
+properties:
+  density: 1.16
+  hardness_shore_d: 40.0
+  hardness_shore_a: 91.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberflex-40d-navy-blue/fiberlogy-fiberflex-40d-navy-blue-0-72dafdba.jpg
+  type: unspecified

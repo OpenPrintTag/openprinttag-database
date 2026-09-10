@@ -1,0 +1,24 @@
+uuid: 33166267-f9e0-5c39-a570-a30071933d90
+slug: fiberlogy-asa-matte-grey
+brand:
+  slug: fiberlogy
+name: ASA Matte Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#c5c5bfff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-matte-grey/fiberlogy-asa-matte-grey-0-914533c5.png
+  type: unspecified

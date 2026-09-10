@@ -1,0 +1,21 @@
+uuid: b4aee709-f3bf-5876-84b3-85a1c2b7c8bb
+slug: formfutura-petg-iron-grey
+brand:
+  slug: formfutura
+name: PETG Iron Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#3f4647ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 80
+  drying_temperature: 45
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-petg-iron-grey/formfutura-petg-iron-grey-0-c79953b4.jpg
+  type: unspecified

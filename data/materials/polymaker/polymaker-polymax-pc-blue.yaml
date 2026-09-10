@@ -7,8 +7,17 @@ class: FFF
 type: PC
 abbreviation: PC
 primary_color:
-  color_rgba: '#0353baff'
+  color_rgba: '#005dabff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polymax-pc-blue/55b56bf52d17.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polymax-pc-blue/55b56bf52d17.png
+    type: unspecified
+properties:
+  density: 1.19
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  min_chamber_temperature: 70
+  max_chamber_temperature: 100
+  drying_temperature: 75
+  drying_time: 360

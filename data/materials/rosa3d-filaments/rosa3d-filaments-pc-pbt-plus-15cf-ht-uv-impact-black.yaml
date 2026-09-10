@@ -1,0 +1,32 @@
+uuid: 9793616f-9398-579e-8d37-9e0fe6f8b5e3
+slug: rosa3d-filaments-pc-pbt-plus-15cf-ht-uv-impact-black
+brand:
+  slug: rosa3d-filaments
+name: PC/PBT + 15CF (HT-UV-IMPACT) Black
+class: FFF
+type: PC
+abbreviation: PCPBT
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+tags:
+- matte
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pc-pbt-plus-15cf-ht-uv-impact-black/rosa3d-filaments-pc-pbt-plus-15cf-ht-uv-impact-black-0-4cdbe345.png
+  type: unspecified

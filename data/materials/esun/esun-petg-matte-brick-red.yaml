@@ -1,0 +1,21 @@
+uuid: 5769700c-08c3-595f-9c01-fa398142bd19
+slug: esun-petg-matte-brick-red
+brand:
+  slug: esun
+name: PETG Matte Brick Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#a67865ff'
+tags:
+- matte
+properties:
+  density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-matte-brick-red/esun-petg-matte-brick-red-0-9d26ef6e.jpg
+  type: unspecified

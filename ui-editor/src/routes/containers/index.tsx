@@ -6,6 +6,7 @@ import { Brand } from '~/components/brand-sheet/types';
 import { Container } from '~/components/container-sheet';
 import { PageHeader } from '~/components/PageHeader';
 import { useEnum } from '~/hooks/useEnum';
+import { classBadgeStyle } from '~/utils/classBadge';
 import { getOS } from '~/utils/os';
 import { READ_ONLY } from '~/utils/readOnly';
 import { slugifyName } from '~/utils/slug';
@@ -164,6 +165,13 @@ function RouteComponent() {
                   <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
                 </div>
                 <div className="mt-2 flex flex-wrap gap-2">
+                  {container.class && (
+                    <div
+                      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold ${classBadgeStyle(container.class)}`}
+                    >
+                      {container.class}
+                    </div>
+                  )}
                   {brandName && (
                     <div className="inline-flex items-center rounded-full bg-orange-100 px-2 py-0.5 text-xs font-medium text-orange-700">
                       {brandName}

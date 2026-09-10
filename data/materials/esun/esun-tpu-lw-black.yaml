@@ -10,9 +10,13 @@ url: https://esun3dstoreeu.com/products/tpu-lw?VariantsId=12707
 primary_color:
   color_rgba: '#3b3e3fff'
 tags:
-- foaming
+  - foaming
 properties:
   density: 1.12
+  min_print_temperature: 210
+  max_print_temperature: 270
+  min_bed_temperature: 40
+  max_bed_temperature: 60
 photos:
-- url: https://files.openprinttag.org/esun/esun-tpu-lw-black/esun-tpu-lw-black-0-3e10ae10.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-tpu-lw-black/esun-tpu-lw-black-0-3e10ae10.jpg
+    type: unspecified

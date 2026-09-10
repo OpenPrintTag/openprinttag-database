@@ -9,8 +9,8 @@ abbreviation: ABS
 primary_color:
   color_rgba: '#c00000ff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-abs-scarlet-stardust/e73e27594d03.png
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-abs-scarlet-stardust/e73e27594d03.png
+    type: unspecified
 properties: {}

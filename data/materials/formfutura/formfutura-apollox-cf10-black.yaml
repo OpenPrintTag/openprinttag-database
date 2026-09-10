@@ -9,9 +9,16 @@ abbreviation: ASA
 primary_color:
   color_rgba: '#000000ff'
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-apollox-cf10-black/6a2208d4a50d.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-apollox-cf10-black/6a2208d4a50d.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 240
+  max_print_temperature: 265
+  min_bed_temperature: 90
+  max_bed_temperature: 110

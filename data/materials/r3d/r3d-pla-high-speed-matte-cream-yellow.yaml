@@ -1,0 +1,21 @@
+uuid: 352d0448-aa31-50b1-ba2e-ece811758c40
+slug: r3d-pla-high-speed-matte-cream-yellow
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Cream Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ccd872ff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-cream-yellow/r3d-pla-high-speed-matte-cream-yellow-0-1f67e046.jpg
+  type: unspecified

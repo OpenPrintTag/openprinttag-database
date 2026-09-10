@@ -5,11 +5,25 @@ brand:
 name: PLA CarbonLook
 class: FFF
 type: PLA
-abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-carbonlook
+abbreviation: PLACF
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
-  - contains_carbon_fiber
-  - abrasive
-properties: {}
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-carbonlook/rosa3d-filaments-pla-carbonlook-0-610d95bd.png
+  type: unspecified

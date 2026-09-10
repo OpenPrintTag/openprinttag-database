@@ -1,0 +1,24 @@
+uuid: 2086ebcb-b99a-5dac-8a2d-7bc6a55a3a4c
+slug: colorfabb-pla-sulfur-yellow-ral-1016
+brand:
+  slug: colorfabb
+name: PLA Sulfur yellow RAL 1016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f1dd38ff'
+  color_lab:
+  - 87.34
+  - -9.83
+  - 77.04
+  color_ral: '1016'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-sulfur-yellow-ral-1016/colorfabb-pla-sulfur-yellow-ral-1016-0-6dd2fd9f.jpg
+  type: unspecified

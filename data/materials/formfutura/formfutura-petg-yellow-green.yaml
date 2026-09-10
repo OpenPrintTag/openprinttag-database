@@ -1,0 +1,21 @@
+uuid: 56cd19c9-8645-50c8-a631-0f7914e92db3
+slug: formfutura-petg-yellow-green
+brand:
+  slug: formfutura
+name: PETG Yellow Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#57a639ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 80
+  drying_temperature: 45
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-petg-yellow-green/formfutura-petg-yellow-green-0-52521f0e.jpg
+  type: unspecified

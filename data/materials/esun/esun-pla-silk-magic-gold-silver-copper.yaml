@@ -14,8 +14,12 @@ secondary_colors:
 tags:
   - silk
   - coextruded
-  - industrially_compostable
-properties: {}
+properties:
+  density: 1.41
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-silk-magic-gold-silver-copper/esun-pla-silk-magic-gold-silver-copper-0-9649181c.jpg
     type: unspecified

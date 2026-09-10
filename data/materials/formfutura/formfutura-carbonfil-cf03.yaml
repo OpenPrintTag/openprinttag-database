@@ -1,0 +1,23 @@
+uuid: 9d4dad0c-64a1-5edc-a9fa-d0731ea08745
+slug: formfutura-carbonfil-cf03
+brand:
+  slug: formfutura
+name: CarbonFil CF03
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#474747ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.29
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 75
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-carbonfil-cf03/formfutura-carbonfil-cf03-0-060e4bd7.jpg
+  type: unspecified

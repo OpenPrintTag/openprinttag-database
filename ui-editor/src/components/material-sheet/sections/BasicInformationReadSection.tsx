@@ -31,7 +31,6 @@ export const BasicInformationReadSection = ({
         'properties',
         'print_sheet_compatibility',
       ]}
-      entity="material"
     />
   );
 };

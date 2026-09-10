@@ -1,0 +1,18 @@
+uuid: db764c3d-5dcd-5ca9-b291-0114a6415d7b
+slug: spectrum-thermatech-pa-natural
+brand:
+  slug: spectrum
+name: ThermaTech PA Natural
+class: FFF
+abbreviation: PA
+primary_color:
+  color_rgba: '#f3f3f1ff'
+properties:
+  density: 1.3
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-thermatech-pa-natural/spectrum-thermatech-pa-natural-0-4c411930.jpg
+  type: unspecified

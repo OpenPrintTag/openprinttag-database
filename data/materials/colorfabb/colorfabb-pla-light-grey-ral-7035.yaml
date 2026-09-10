@@ -1,0 +1,24 @@
+uuid: b30b0a0c-47b1-58d0-b480-cf0179a2c36c
+slug: colorfabb-pla-light-grey-ral-7035
+brand:
+  slug: colorfabb
+name: PLA Light grey RAL 7035
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cbd0ccff'
+  color_lab:
+  - 83.0
+  - -2.44
+  - 1.39
+  color_ral: '7035'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-light-grey-ral-7035/colorfabb-pla-light-grey-ral-7035-0-5b21cb25.jpg
+  type: unspecified

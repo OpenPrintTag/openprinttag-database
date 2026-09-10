@@ -7,12 +7,17 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#9fec41ff'
+  color_rgba: '#bfeb8cff'
 tags:
-- glow_in_the_dark
-- abrasive
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-luminous-pla-green/53e4fde8adbd.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-luminous-pla-green/53e4fde8adbd.png
+    type: unspecified
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

@@ -1,0 +1,21 @@
+uuid: 95b93669-b2e4-5cf5-a9f9-b8d549d1de1a
+slug: formfutura-pla-basalt-grey
+brand:
+  slug: formfutura
+name: PLA Basalt Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4e5658ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-basalt-grey/formfutura-pla-basalt-grey-0-52a938ed.jpg
+  type: unspecified

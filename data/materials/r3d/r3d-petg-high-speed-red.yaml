@@ -1,0 +1,20 @@
+uuid: 6e0a7791-dc8d-50f9-b2e7-aa8d52a6e2bd
+slug: r3d-petg-high-speed-red
+brand:
+  slug: r3d
+name: PETG High-Speed Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#af0009ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-petg-high-speed-red/r3d-petg-high-speed-red-0-6f0dc0c8.jpg
+  type: unspecified

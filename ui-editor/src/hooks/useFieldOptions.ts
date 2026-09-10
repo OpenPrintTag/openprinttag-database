@@ -33,7 +33,6 @@ export interface FieldOptionsResult {
 /**
  * Unified hook for resolving field options.
  * Handles relations, enums, and inline enum values in a single call.
- * Replaces the need for separate useLookupRelation calls.
  */
 export function useFieldOptions(
   fieldName: string,

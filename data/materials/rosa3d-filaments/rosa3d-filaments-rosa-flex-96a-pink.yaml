@@ -6,8 +6,21 @@ name: ROSA-Flex 96A Pink
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-pink-175mm-1kg
 primary_color:
   color_rgba: '#f2306eff'
+  color_lab:
+  - 54.16
+  - 73.83
+  - 13.51
 properties:
-  hardness_shore_a: 96
+  density: 1.22
+  hardness_shore_a: 96.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-rosa-flex-96a-pink/rosa3d-filaments-rosa-flex-96a-pink-0-c7af30af.png
+  type: unspecified

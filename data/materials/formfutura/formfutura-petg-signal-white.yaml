@@ -1,0 +1,21 @@
+uuid: b083f3da-6380-5962-ace9-23be67f5ac8f
+slug: formfutura-petg-signal-white
+brand:
+  slug: formfutura
+name: PETG Signal White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f5f5f5ff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 75
+  max_bed_temperature: 80
+  drying_temperature: 45
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-petg-signal-white/formfutura-petg-signal-white-0-f80b3bb7.jpg
+  type: unspecified

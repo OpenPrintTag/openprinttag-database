@@ -1,0 +1,22 @@
+uuid: 577bfa0f-379e-5919-8c9d-5505c498f614
+slug: fusion-filaments-asa-tritium-green
+brand:
+  slug: fusion-filaments
+name: ASA Tritium Green
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#67c993ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-asa-tritium-green/fusion-filaments-asa-tritium-green-0-422acc26.jpg
+  type: unspecified

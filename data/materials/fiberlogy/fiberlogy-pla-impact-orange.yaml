@@ -1,0 +1,21 @@
+uuid: 12761688-16ce-5636-81b5-ea81ff55ea80
+slug: fiberlogy-pla-impact-orange
+brand:
+  slug: fiberlogy
+name: PLA Impact Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-orange/fiberlogy-pla-impact-orange-0-c384f80b.png
+  type: unspecified

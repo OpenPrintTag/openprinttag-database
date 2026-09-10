@@ -6,11 +6,16 @@ name: Huracan PLA Lion Orange
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/huracan-pla/
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
 - silk
 - industrially_compostable
 properties:
-  density: 1.23
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-huracan-pla-lion-orange/spectrum-huracan-pla-lion-orange-0-e8508689.jpg
+  type: unspecified

@@ -6,10 +6,22 @@ name: PLA-Silk Rose Gold
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-silk-rose-gold-175mm-05kg
 primary_color:
   color_rgba: '#fcb4adff'
+  color_lab:
+  - 79.82
+  - 25.26
+  - 14.02
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-silk-rose-gold/rosa3d-filaments-pla-silk-rose-gold-0-398bc736.png
+  type: unspecified

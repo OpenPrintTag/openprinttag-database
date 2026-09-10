@@ -6,9 +6,22 @@ name: PLA Pastel Mint
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-pastel-mint-1
 primary_color:
   color_rgba: '#00e1c5ff'
+  color_lab:
+  - 80.67
+  - -51.61
+  - 0.87
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-pastel-mint/rosa3d-filaments-pla-pastel-mint-0-f35548ca.png
+  type: unspecified

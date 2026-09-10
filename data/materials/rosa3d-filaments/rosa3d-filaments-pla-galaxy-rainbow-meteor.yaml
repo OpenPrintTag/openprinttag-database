@@ -6,13 +6,33 @@ name: PLA GALAXY Rainbow Meteor
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-galaxy-rainbow-meteor-175mm-05kg
 secondary_colors:
-- color_rgba: '#292824ff'
 - color_rgba: '#8e5850ff'
+  color_lab:
+  - 43.23
+  - 21.32
+  - 14.01
 - color_rgba: '#5c5b59ff'
+  color_lab:
+  - 38.69
+  - -0.02
+  - 1.29
+- color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
-- gradual_color_change
 - glitter
-- industrially_compostable
-properties: {}
+- gradual_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-galaxy-rainbow-meteor/rosa3d-filaments-pla-galaxy-rainbow-meteor-0-ae1ba127.jpg
+  type: unspecified

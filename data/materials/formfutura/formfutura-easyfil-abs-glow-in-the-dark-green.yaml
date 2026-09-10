@@ -9,13 +9,21 @@ abbreviation: ABS
 primary_color:
   color_rgba: '#06b100ff'
 secondary_colors:
-- color_rgba: '#dfdfd3ff'
+  - color_rgba: '#dfdfd3ff'
+  - color_rgba: '#06b100ff'
 tags:
-- glow_in_the_dark
-- abrasive
-- filtration_recommended
-- illuminescent_color_change
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-easyfil-abs-glow-in-the-dark-green/4c42b0d36980.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-easyfil-abs-glow-in-the-dark-green/4c42b0d36980.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+  drying_temperature: 40
+  drying_time: 360

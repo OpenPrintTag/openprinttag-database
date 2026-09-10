@@ -9,16 +9,15 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#6a6c6eff'
 tags:
-- matte
-- recycled
+  - matte
+  - recycled
 photos:
-- url: https://files.openprinttag.org/addnorth/addnorth-rpetg-matte-grey/6b17c48c1170.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/addnorth/addnorth-rpetg-matte-grey/6b17c48c1170.jpg
+    type: unspecified
 properties:
   density: 1.27
   min_print_temperature: 225
   max_print_temperature: 260
-  min_bed_temperature: 0
   max_bed_temperature: 80
   drying_temperature: 65
   drying_time: 360

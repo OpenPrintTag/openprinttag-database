@@ -1,0 +1,23 @@
+uuid: cd007d1a-1fe6-5491-ae8b-d5c9b512a448
+slug: siraya-tech-flex-tpu-air-65a-82a-white
+brand:
+  slug: siraya-tech
+name: Flex TPU Air 65A-82A White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ebece9ff'
+tags:
+- foaming
+properties:
+  density: 1.15
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-air-65a-82a-white/siraya-tech-flex-tpu-air-65a-82a-white-0-707b6bdb.jpg
+  type: unspecified

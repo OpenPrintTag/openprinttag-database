@@ -1,0 +1,19 @@
+uuid: 42f9fd82-a3fd-5a2a-8c13-cd427a55e4f7
+slug: francofil-petg-white-ptfe
+brand:
+  slug: francofil
+name: PETG White PTFE
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://francofil.fr/en/product/petg-ptfe-blanc/
+primary_color:
+  color_rgba: '#f5f5f5ff'
+tags:
+- contains_ptfe
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 245
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  density: 1.3

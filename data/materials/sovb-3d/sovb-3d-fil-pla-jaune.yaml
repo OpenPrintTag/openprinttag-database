@@ -6,9 +6,14 @@ name: Fil PLA Jaune
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.sovb3d.fr/pla-175mm-standard-1kg/153-fil-pla-jaune-175mm-1kg.html
 primary_color:
   color_rgba: '#fffb00ff'
+  color_ral: '1016'
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

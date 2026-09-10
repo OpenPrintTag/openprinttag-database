@@ -8,11 +8,15 @@ type: PETG
 abbreviation: PETG
 url: https://esun3dstoreeu.com/products/petg-matte?VariantsId=13011
 primary_color:
-  color_rgba: '#8ad8edff'
+  color_rgba: '#a9dfe3ff'
 tags:
-- matte
+  - matte
 properties:
   density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
 photos:
-- url: https://files.openprinttag.org/esun/esun-petg-matte-light-blue/esun-petg-matte-light-blue-0-22664bb5.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-petg-matte-light-blue/esun-petg-matte-light-blue-0-22664bb5.jpg
+    type: unspecified

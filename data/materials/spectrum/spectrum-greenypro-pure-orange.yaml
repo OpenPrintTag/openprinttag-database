@@ -4,9 +4,16 @@ brand:
   slug: spectrum
 name: GreenyPro Pure Orange
 class: FFF
-abbreviation: Greeny
-url: https://spectrumfilaments.com/en/filament/greenypro/
+abbreviation: BIO
 primary_color:
-  color_rgba: '#fa8423ff'
+  color_rgba: '#f17231ff'
 properties:
   density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+tags:
+- high_temperature
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-greenypro-pure-orange/spectrum-greenypro-pure-orange-0-579bf010.jpg
+  type: unspecified

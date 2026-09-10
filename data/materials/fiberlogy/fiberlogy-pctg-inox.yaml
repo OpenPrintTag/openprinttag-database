@@ -1,0 +1,21 @@
+uuid: 35bd29e9-ff52-58ac-9efd-bb50e50ec72e
+slug: fiberlogy-pctg-inox
+brand:
+  slug: fiberlogy
+name: PCTG Inox
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#85898bff'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pctg-inox/fiberlogy-pctg-inox-0-6c60aef0.jpg
+  type: unspecified

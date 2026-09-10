@@ -1,5 +1,6 @@
 import { EntityFields } from '~/components/fieldTypes';
 import { FieldEditor, type SchemaField } from '~/components/SchemaFields';
+import { useClassFields } from '~/hooks/useClassFields';
 
 import type { Material } from '../types';
 
@@ -16,7 +17,10 @@ export const PrintSheetCompatibilityEditSection = ({
   onFieldChange,
   brandId,
 }: PrintSheetCompatibilityEditSectionProps) => {
-  if (!fields || !fields.print_sheet_compatibility) return null;
+  // Class filtering is schema-driven: the field carries x-class (e.g. FFF-only)
+  // so the section hides itself for classes it doesn't apply to.
+  const filteredFields = useClassFields(fields ?? undefined, form?.class);
+  if (!filteredFields?.print_sheet_compatibility) return null;
 
   return (
     <div className="card">
@@ -24,7 +28,7 @@ export const PrintSheetCompatibilityEditSection = ({
       <div className="card-body">
         <FieldEditor
           label="print_sheet_compatibility"
-          field={fields.print_sheet_compatibility as SchemaField}
+          field={filteredFields.print_sheet_compatibility as SchemaField}
           value={form?.print_sheet_compatibility}
           onChange={(val) => onFieldChange('print_sheet_compatibility', val)}
           brandId={brandId}

@@ -10,9 +10,13 @@ url: https://esun3dstoreeu.com/products/easa?VariantsId=12734
 primary_color:
   color_rgba: '#fafafaff'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties:
   density: 1.06
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
 photos:
-- url: https://files.openprinttag.org/esun/esun-asa-cold-white/esun-asa-cold-white-0-7ceaf577.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/esun/esun-asa-cold-white/esun-asa-cold-white-0-7ceaf577.jpg
+    type: unspecified

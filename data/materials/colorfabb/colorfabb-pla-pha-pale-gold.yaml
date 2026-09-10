@@ -1,0 +1,18 @@
+uuid: 13f79426-5216-5cb0-8add-81bc48bef065
+slug: colorfabb-pla-pha-pale-gold
+brand:
+  slug: colorfabb
+name: PLA/PHA Pale gold
+class: FFF
+type: PLA
+abbreviation: PLAPHA
+primary_color:
+  color_rgba: '#d0bd93ff'
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pha-pale-gold/colorfabb-pla-pha-pale-gold-0-3f524abe.png
+  type: unspecified

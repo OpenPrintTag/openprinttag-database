@@ -1,0 +1,24 @@
+uuid: 0fa23259-dcfa-5557-8d3a-84beeac53d39
+slug: esun-pla-pro-matcha-green
+brand:
+  slug: esun
+name: PLA+ Matcha Green
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+url: https://esun3dstoreeu.com/products/pla-pro?VariantsId=13374
+primary_color:
+  color_rgba: '#a9c47fff'
+tags:
+  - industrially_compostable
+properties:
+  density: 1.23
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+  - url: https://files.openprinttag.org/esun/esun-pla-matcha-green/esun-pla-matcha-green-0-589bfd0d.jpg
+    type: unspecified

@@ -6,15 +6,43 @@ name: PLA Rainbow Silk Tropical
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-rainbow-silk-tropical-1
 secondary_colors:
-- color_rgba: '#e8bd00ff'
-- color_rgba: '#0085caff'
-- color_rgba: '#6c47b2ff'
 - color_rgba: '#963877ff'
+  color_lab:
+  - 38.98
+  - 46.51
+  - -16.17
 - color_rgba: '#ce5d4cff'
+  color_lab:
+  - 53.47
+  - 43.54
+  - 31.48
+- color_rgba: '#e8bd00ff'
+  color_lab:
+  - 78.2
+  - 1.53
+  - 79.98
+- color_rgba: '#6c47b2ff'
+  color_lab:
+  - 39.43
+  - 39.86
+  - -51.57
+- color_rgba: '#0085caff'
+  color_lab:
+  - 52.99
+  - -4.79
+  - -44.03
 tags:
 - silk
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-rainbow-silk-tropical/rosa3d-filaments-pla-rainbow-silk-tropical-0-bfc8ea05.png
+  type: unspecified

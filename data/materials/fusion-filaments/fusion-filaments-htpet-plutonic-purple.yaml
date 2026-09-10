@@ -1,0 +1,22 @@
+uuid: 6ab87b39-b0ce-5df3-a286-2b4dad324154
+slug: fusion-filaments-htpet-plutonic-purple
+brand:
+  slug: fusion-filaments
+name: HTPET+ Plutonic Purple
+class: FFF
+type: PET
+abbreviation: PET
+primary_color:
+  color_rgba: '#7d00a2ff'
+tags:
+- high_temperature
+properties:
+  density: 1.15
+  max_print_temperature: 285
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-htpet-plutonic-purple/fusion-filaments-htpet-plutonic-purple-0-93e5a3b2.jpg
+  type: unspecified

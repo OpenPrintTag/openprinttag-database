@@ -1,0 +1,23 @@
+uuid: c63e440d-3d7f-5303-baac-d909081e37e6
+slug: fiberlogy-easy-petg-bottle-green-transparent
+brand:
+  slug: fiberlogy
+name: Easy PETG Bottle Green Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#214327ff'
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-bottle-green-transparent/fiberlogy-easy-petg-bottle-green-transparent-0-b376aca6.png
+  type: unspecified

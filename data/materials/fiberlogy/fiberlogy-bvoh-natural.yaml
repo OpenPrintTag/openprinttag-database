@@ -9,8 +9,15 @@ abbreviation: BVOH
 primary_color:
   color_rgba: '#f1e6b2ff'
 tags:
-- water_soluble
+  - water_soluble
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-bvoh-natural/3402e550a43f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-bvoh-natural/3402e550a43f.png
+    type: unspecified
+properties:
+  density: 1.14
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240

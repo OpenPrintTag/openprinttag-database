@@ -6,9 +6,22 @@ name: PET-G Standard HS Olive Brown
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-175mm-olive-brown-1kg
 primary_color:
   color_rgba: '#3e413fff'
+  color_lab:
+  - 27.2
+  - -1.71
+  - 0.78
 tags:
 - high_speed
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-olive-brown/rosa3d-filaments-pet-g-standard-hs-olive-brown-0-800ca9ea.png
+  type: unspecified

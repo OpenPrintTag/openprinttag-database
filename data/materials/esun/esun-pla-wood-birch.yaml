@@ -12,9 +12,12 @@ primary_color:
 tags:
   - matte
   - contains_wood
-  - industrially_compostable
 properties:
   density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
 photos:
   - url: https://files.openprinttag.org/esun/esun-pla-wood-birch/esun-pla-wood-birch-0-d930d35e.jpg
     type: unspecified

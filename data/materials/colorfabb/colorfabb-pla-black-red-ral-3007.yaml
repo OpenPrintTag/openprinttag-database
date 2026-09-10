@@ -1,0 +1,24 @@
+uuid: 96ce3ce2-9a8f-5acd-ae1f-522bd83a752f
+slug: colorfabb-pla-black-red-ral-3007
+brand:
+  slug: colorfabb
+name: PLA Black red RAL 3007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#402225ff'
+  color_lab:
+  - 17.31
+  - 14.79
+  - 4.24
+  color_ral: '3007'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-black-red-ral-3007/colorfabb-pla-black-red-ral-3007-0-435abb04.jpg
+  type: unspecified

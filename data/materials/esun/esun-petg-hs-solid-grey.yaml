@@ -1,0 +1,21 @@
+uuid: 275e52ce-9ec6-5feb-97a4-1ed19080c415
+slug: esun-petg-hs-solid-grey
+brand:
+  slug: esun
+name: PETG+HS Solid Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#55657cff'
+tags:
+- high_speed
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-hs-solid-grey/esun-petg-hs-solid-grey-0-081cdaa9.jpg
+  type: unspecified

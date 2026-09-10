@@ -1,0 +1,24 @@
+uuid: 74f689b4-c2c6-5a91-82eb-5b757e260fc5
+slug: colorfabb-pla-squirrel-grey-ral-7000
+brand:
+  slug: colorfabb
+name: PLA Squirrel grey RAL 7000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7e8b92ff'
+  color_lab:
+  - 57.05
+  - -3.19
+  - -5.33
+  color_ral: '7000'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-squirrel-grey-ral-7000/colorfabb-pla-squirrel-grey-ral-7000-0-9e59f65a.jpg
+  type: unspecified

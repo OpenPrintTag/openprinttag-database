@@ -1,0 +1,25 @@
+uuid: 429cf169-5b60-5b28-970f-9bb82f9a4722
+slug: esun-pla-matte-dual-red-yellow
+brand:
+  slug: esun
+name: PLA Matte Dual Red Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#e03f26ff'
+- color_rgba: '#fce575ff'
+tags:
+- matte
+- coextruded
+properties:
+  density: 1.329
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 480
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-matte-dual-red-yellow/esun-pla-matte-dual-red-yellow-0-392de806.jpg
+  type: unspecified

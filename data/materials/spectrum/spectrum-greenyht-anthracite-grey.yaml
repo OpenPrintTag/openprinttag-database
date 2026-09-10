@@ -1,0 +1,17 @@
+uuid: 419e105e-6017-590e-924b-094ba741f14e
+slug: spectrum-greenyht-anthracite-grey
+brand:
+  slug: spectrum
+name: GreenyHT™ Anthracite Grey
+class: FFF
+abbreviation: BIO
+primary_color:
+  color_rgba: '#8e9089ff'
+properties:
+  density: 1.54
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-greenyht-anthracite-grey/spectrum-greenyht-anthracite-grey-0-5cb35966.jpg
+  type: unspecified

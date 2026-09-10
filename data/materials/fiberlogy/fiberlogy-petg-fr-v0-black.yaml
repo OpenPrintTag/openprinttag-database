@@ -1,0 +1,23 @@
+uuid: b2a16809-d875-55cf-b35e-95d6e0ab3edb
+slug: fiberlogy-petg-fr-v0-black
+brand:
+  slug: fiberlogy
+name: PETG FR V0 Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- self_extinguishing
+properties:
+  density: 1.26
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-fr-v0-black/fiberlogy-petg-fr-v0-black-0-250a23f9.png
+  type: unspecified

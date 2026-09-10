@@ -1,0 +1,24 @@
+uuid: 29b31c02-e96f-55ca-b286-f11609757993
+slug: colorfabb-pla-telegrey-2-ral-7046
+brand:
+  slug: colorfabb
+name: PLA Telegrey 2 RAL 7046
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#82898eff'
+  color_lab:
+  - 56.67
+  - -1.52
+  - -3.56
+  color_ral: '7046'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-telegrey-2-ral-7046/colorfabb-pla-telegrey-2-ral-7046-0-b3460376.jpg
+  type: unspecified

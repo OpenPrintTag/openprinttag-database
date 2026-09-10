@@ -1,0 +1,19 @@
+uuid: 3375f1b1-3cc3-50f7-b683-9f1b345cac2e
+slug: spectrum-greenyht-signal-white
+brand:
+  slug: spectrum
+name: GreenyHT™ Signal White
+class: FFF
+abbreviation: BIO
+primary_color:
+  color_rgba: '#e5e9e3ff'
+tags:
+- high_temperature
+properties:
+  density: 1.54
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-greenyht-signal-white/spectrum-greenyht-signal-white-0-72e160a6.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: f392e1b6-4b69-5b5f-9da9-c388faf57159
+slug: formfutura-transparent-pla-clear
+brand:
+  slug: formfutura
+name: Transparent PLA Clear
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9e7e7ff'
+tags:
+- translucent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 55
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-transparent-pla-clear/formfutura-transparent-pla-clear-0-b9473d53.jpg
+  type: unspecified

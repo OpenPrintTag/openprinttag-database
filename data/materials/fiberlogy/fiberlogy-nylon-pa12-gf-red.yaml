@@ -1,0 +1,26 @@
+uuid: d8965efc-db1f-5656-aba7-9b9e174d3810
+slug: fiberlogy-nylon-pa12-gf-red
+brand:
+  slug: fiberlogy
+name: Nylon PA12+GF Red
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#c01616ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-gf-red/fiberlogy-nylon-pa12-gf-red-0-f9a7abda.png
+  type: unspecified

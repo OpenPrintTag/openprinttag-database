@@ -6,7 +6,6 @@ name: TPU Pro Matte 85A Black
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%201000g%20-%20Black
 primary_color:
   color_rgba: '#000000ff'
 tags:
@@ -16,7 +15,6 @@ properties:
   hardness_shore_a: 85.0
   min_print_temperature: 230
   max_print_temperature: 250
-  min_bed_temperature: 0
   max_bed_temperature: 61
 photos:
   - url: https://files.openprinttag.org/addnorth/addnorth-tpu-pro-matte-85a-black/a64aba684833.png

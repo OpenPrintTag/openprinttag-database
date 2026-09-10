@@ -1,0 +1,21 @@
+uuid: 9679135f-415d-5b8e-b9a7-97f9393dcb50
+slug: esun-petg-matte-blue-brick
+brand:
+  slug: esun
+name: PETG Matte Blue Brick
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#70687dff'
+tags:
+- matte
+properties:
+  density: 1.35
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-matte-blue-brick/esun-petg-matte-blue-brick-0-d8b1dfef.jpg
+  type: unspecified

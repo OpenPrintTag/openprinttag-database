@@ -1,0 +1,26 @@
+uuid: c6e03c87-5a46-5c0a-959a-ae52ca9642a4
+slug: fiberlogy-abs-gf-red
+brand:
+  slug: fiberlogy
+name: ABS+GF Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#d21b31ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 270
+  max_print_temperature: 295
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-gf-red/fiberlogy-abs-gf-red-0-3c37bb13.jpg
+  type: unspecified

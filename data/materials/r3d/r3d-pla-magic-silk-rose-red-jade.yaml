@@ -1,0 +1,22 @@
+uuid: 28fcf6ba-1423-5798-8dc8-5b3cbb168c4a
+slug: r3d-pla-magic-silk-rose-red-jade
+brand:
+  slug: r3d
+name: PLA Magic Silk Rose Red-Jade
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#267f67ff'
+- color_rgba: '#c90d6eff'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-magic-silk-rose-red-jade/r3d-pla-magic-silk-rose-red-jade-0-9e1e0b03.jpg
+  type: unspecified

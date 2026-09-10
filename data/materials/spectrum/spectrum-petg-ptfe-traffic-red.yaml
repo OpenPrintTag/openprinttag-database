@@ -1,0 +1,21 @@
+uuid: 15a1dbd3-040d-513e-b2a6-f3528a2fa254
+slug: spectrum-petg-ptfe-traffic-red
+brand:
+  slug: spectrum
+name: PETG/PTFE Traffic Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#d33d3dff'
+tags:
+- contains_ptfe
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-petg-ptfe-traffic-red/spectrum-petg-ptfe-traffic-red-0-1663d876.jpg
+  type: unspecified

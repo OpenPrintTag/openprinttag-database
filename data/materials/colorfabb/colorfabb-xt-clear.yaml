@@ -8,8 +8,14 @@ abbreviation: XT
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
-- transparent
+  - transparent
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-xt-clear/8551e07ce5c8.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-xt-clear/8551e07ce5c8.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+type: CPE

@@ -1,0 +1,21 @@
+uuid: 5559fec6-302d-5651-a4b6-ff3bf021ff8f
+slug: fiberlogy-pla-impact-olive-green
+brand:
+  slug: fiberlogy
+name: PLA Impact Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#606935ff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-olive-green/fiberlogy-pla-impact-olive-green-0-87b6fc9c.png
+  type: unspecified

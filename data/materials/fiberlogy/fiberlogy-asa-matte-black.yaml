@@ -1,0 +1,24 @@
+uuid: 433f757b-e261-5446-b22e-d4d719cfce63
+slug: fiberlogy-asa-matte-black
+brand:
+  slug: fiberlogy
+name: ASA Matte Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-matte-black/fiberlogy-asa-matte-black-0-f19762ee.png
+  type: unspecified

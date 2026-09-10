@@ -1,0 +1,21 @@
+uuid: 8fcf226b-b754-5129-b7e4-b4deefb96e8a
+slug: siraya-tech-rebound-peba-95a-black
+brand:
+  slug: siraya-tech
+name: Rebound PEBA 95A Black
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#020203ff'
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-rebound-peba-95a-black/siraya-tech-rebound-peba-95a-black-0-d82df807.jpg
+  type: unspecified

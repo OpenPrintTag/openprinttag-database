@@ -1,0 +1,27 @@
+uuid: 0230cdb9-215e-59fc-94cd-481a47ed33c4
+slug: rosa3d-filaments-petg-esd-black
+brand:
+  slug: rosa3d-filaments
+name: PETG ESD Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+tags:
+- esd_safe
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-petg-esd-black/rosa3d-filaments-petg-esd-black-0-ba49a7cd.webp
+  type: unspecified

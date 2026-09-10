@@ -9,8 +9,15 @@ abbreviation: PCTG
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pctg-pure-transparent/56936b7e412e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-pctg-pure-transparent/56936b7e412e.png
+    type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60
+  drying_time: 240

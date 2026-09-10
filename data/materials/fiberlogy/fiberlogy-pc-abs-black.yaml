@@ -1,0 +1,21 @@
+uuid: 5d667141-c8ae-56e3-ad7b-b257a08aed58
+slug: fiberlogy-pc-abs-black
+brand:
+  slug: fiberlogy
+name: PC-ABS Black
+class: FFF
+type: PC
+abbreviation: PC-ABS
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.07
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pc-abs-black/fiberlogy-pc-abs-black-0-710f28ad.png
+  type: unspecified

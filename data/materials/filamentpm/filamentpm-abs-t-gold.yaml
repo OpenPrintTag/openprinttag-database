@@ -1,0 +1,22 @@
+uuid: 6ea4a681-46e7-59b8-a68e-86b5612f97a0
+slug: filamentpm-abs-t-gold
+brand:
+  slug: filamentpm
+name: ABS-T - Gold
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#cb8e00ff'
+tags:
+- high_temperature
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-abs-t-gold/filamentpm-abs-t-gold-0-ce8ddc5f.jpg
+  type: unspecified

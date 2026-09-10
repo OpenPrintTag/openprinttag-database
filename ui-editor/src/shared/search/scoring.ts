@@ -17,6 +17,7 @@ export type SearchResult = {
   brandSlug?: string;
   brandName?: string;
   materialType?: string;
+  entityClass?: 'FFF' | 'SLA';
   color?: string;
   score: number;
 };
@@ -25,6 +26,7 @@ export type SearchFilters = {
   types?: SearchResultType[];
   materialType?: string;
   brand?: string;
+  entityClass?: 'FFF' | 'SLA';
 };
 
 export function search(
@@ -64,6 +66,13 @@ export function search(
       }
       return false;
     });
+  }
+
+  if (filters.entityClass) {
+    filtered = filtered.filter(
+      (item) =>
+        item.type === 'brand' || item.entityClass === filters.entityClass,
+    );
   }
 
   const scored = filtered

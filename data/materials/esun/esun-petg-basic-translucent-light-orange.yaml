@@ -1,0 +1,21 @@
+uuid: 4e820f15-337e-5040-b36a-87c4c8039d7e
+slug: esun-petg-basic-translucent-light-orange
+brand:
+  slug: esun
+name: PETG Basic Translucent Light Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ea9e3fff'
+tags:
+- translucent
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 75
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/esun/esun-petg-basic-translucent-light-orange/esun-petg-basic-translucent-light-orange-0-a6e06f91.jpg
+  type: unspecified

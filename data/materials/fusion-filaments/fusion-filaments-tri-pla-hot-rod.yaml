@@ -1,0 +1,20 @@
+uuid: b7cc5dde-edab-596d-8561-32e116153486
+slug: fusion-filaments-tri-pla-hot-rod
+brand:
+  slug: fusion-filaments
+name: Tri-PLA Hot Rod
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f8cc00ff'
+  - color_rgba: '#ff2c29ff'
+  - color_rgba: '#2a292aff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

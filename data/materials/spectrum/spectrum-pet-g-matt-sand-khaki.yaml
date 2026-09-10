@@ -6,10 +6,16 @@ name: PET-G MATT Sand Khaki
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://spectrumfilaments.com/en/filament/pet-g-matt/
 primary_color:
   color_rgba: '#e2c077ff'
 tags:
 - matte
 properties:
   density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pet-g-matt-sand-khaki/spectrum-pet-g-matt-sand-khaki-0-a843a249.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: c66c2ae7-55df-50fd-9882-5429c18a742e
+slug: fusion-filaments-pla-maroon
+brand:
+  slug: fusion-filaments
+name: PLA Maroon
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7f0a19ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pla-maroon/fusion-filaments-pla-maroon-0-c147b8cf.jpg
+  type: unspecified

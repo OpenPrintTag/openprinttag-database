@@ -5,9 +5,8 @@ brand:
 name: Basic Grey
 class: SLA
 abbreviation: ''
-url: https://www.prusa3d.com/product/prusament-resin-basic-black-1kg/
 primary_color:
-  color_rgba: '#bac4c4ff'
+  color_rgba: '#9c9d9eff'
 properties:
   density: 1.03
   cure_wavelength: 405

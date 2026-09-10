@@ -1,0 +1,23 @@
+uuid: 968495cd-6ad6-5936-a4c0-656a808d8757
+slug: colorfabb-varioshore-tpu-95a-natural
+brand:
+  slug: colorfabb
+name: varioShore TPU 95A Natural
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f2efe9ff'
+tags:
+- foaming
+- without_pigments
+properties:
+  density: 1.2
+  hardness_shore_a: 95.0
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-varioshore-tpu-95a-natural/colorfabb-varioshore-tpu-95a-natural-0-1edab83b.png
+  type: unspecified

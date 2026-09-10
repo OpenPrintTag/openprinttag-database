@@ -10,4 +10,8 @@ url: https://francofil.fr/en/product/tpu-98a-gris/
 primary_color:
   color_rgba: '#6a6c6eff'
 properties:
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 0
+  max_bed_temperature: 0
   hardness_shore_a: 98

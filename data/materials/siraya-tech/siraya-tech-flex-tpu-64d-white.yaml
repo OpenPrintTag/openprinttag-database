@@ -1,0 +1,22 @@
+uuid: 935fd9b6-8d2d-5eee-b92b-a20163685d22
+slug: siraya-tech-flex-tpu-64d-white
+brand:
+  slug: siraya-tech
+name: Flex TPU 64D White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#fffefaff'
+properties:
+  density: 1.23
+  hardness_shore_d: 64.0
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-64d-white/siraya-tech-flex-tpu-64d-white-0-3c24c53e.jpg
+  type: unspecified

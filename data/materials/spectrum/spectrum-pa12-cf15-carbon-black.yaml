@@ -1,0 +1,24 @@
+uuid: 31a39458-3447-58ca-8113-a4f8875aa136
+slug: spectrum-pa12-cf15-carbon-black
+brand:
+  slug: spectrum
+name: PA12 CF15 Carbon Black
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#1d1d1dff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pa12-cf15-carbon-black/spectrum-pa12-cf15-carbon-black-0-37616ee6.jpg
+  type: unspecified

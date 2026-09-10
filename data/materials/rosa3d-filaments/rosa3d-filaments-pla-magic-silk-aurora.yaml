@@ -6,13 +6,31 @@ name: PLA Magic Silk Aurora
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-aurora
 secondary_colors:
 - color_rgba: '#ff0066ff'
-- color_rgba: '#06b100ff'
+  color_lab:
+  - 54.27
+  - 82.87
+  - 18.88
 - color_rgba: '#0378d0ff'
+  color_lab:
+  - 49.5
+  - 5.52
+  - -53.0
+- color_rgba: '#06b100ff'
+  color_lab:
+  - 62.91
+  - -65.24
+  - 63.29
 tags:
 - silk
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-silk-aurora/rosa3d-filaments-pla-magic-silk-aurora-0-ba4d0c3e.png
+  type: unspecified

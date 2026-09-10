@@ -6,8 +6,21 @@ name: ROSA-Flex 96A Black
 class: FFF
 type: TPU
 abbreviation: TPU
-url: https://www.rosa3d.pl/en/filament-3d-rosa-flex-96a-black
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 properties:
-  hardness_shore_a: 96
+  density: 1.22
+  hardness_shore_a: 96.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 30
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-rosa-flex-96a-black/rosa3d-filaments-rosa-flex-96a-black-0-f8bd89cc.jpg
+  type: unspecified

@@ -6,10 +6,16 @@ name: smart ABS™ Lion Orange
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://spectrumfilaments.com/en/filament/smart-abs/
 primary_color:
   color_rgba: '#ff7a33ff'
 tags:
 - filtration_recommended
 properties:
   density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-smart-abs-lion-orange/spectrum-smart-abs-lion-orange-0-7708379c.jpg
+  type: unspecified

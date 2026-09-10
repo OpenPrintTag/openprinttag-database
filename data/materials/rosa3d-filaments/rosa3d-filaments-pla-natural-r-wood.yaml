@@ -1,0 +1,27 @@
+uuid: a5398741-a491-5e3d-a2a0-8883603425dc
+slug: rosa3d-filaments-pla-natural-r-wood
+brand:
+  slug: rosa3d-filaments
+name: PLA Natural R-Wood
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#90785eff'
+  color_lab:
+  - 52.03
+  - 5.34
+  - 17.77
+tags:
+- recycled
+- contains_wood
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-natural-r-wood/rosa3d-filaments-pla-natural-r-wood-0-aa9f45e7.jpg
+  type: unspecified

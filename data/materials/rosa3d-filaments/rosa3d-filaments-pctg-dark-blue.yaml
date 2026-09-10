@@ -6,7 +6,20 @@ name: PCTG Dark Blue
 class: FFF
 type: PCTG
 abbreviation: PCTG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pctg-dark-blue
 primary_color:
   color_rgba: '#4921c1ff'
-properties: {}
+  color_lab:
+  - 30.29
+  - 57.53
+  - -75.5
+properties:
+  density: 1.24
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pctg-dark-blue/rosa3d-filaments-pctg-dark-blue-0-fdee574c.png
+  type: unspecified

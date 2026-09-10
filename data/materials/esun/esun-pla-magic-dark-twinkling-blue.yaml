@@ -1,0 +1,21 @@
+uuid: f7bc5b64-8d81-54de-8571-11e009c3ec0a
+slug: esun-pla-magic-dark-twinkling-blue
+brand:
+  slug: esun
+name: PLA Magic Dark Twinkling Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3b3f6bff'
+tags:
+- iridescent
+- glitter
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 45
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-magic-dark-twinkling-blue/esun-pla-magic-dark-twinkling-blue-0-2a960db1.jpg
+  type: unspecified

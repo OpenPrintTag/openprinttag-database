@@ -1,0 +1,28 @@
+uuid: 8751f00f-10ee-55a1-8741-9862632176f9
+slug: siraya-tech-fibreheart-ppa-gf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart PPA-GF Black
+class: FFF
+type: PPA
+abbreviation: PPA
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.27
+  min_print_temperature: 300
+  max_print_temperature: 320
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 100
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-ppa-gf-black/siraya-tech-fibreheart-ppa-gf-black-0-c06a2a2e.jpg
+  type: unspecified

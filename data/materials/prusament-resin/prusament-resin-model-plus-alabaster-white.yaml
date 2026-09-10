@@ -1,0 +1,17 @@
+uuid: ea38444b-ab5e-5d05-902f-9a3f00a3b6f8
+slug: prusament-resin-model-plus-alabaster-white
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Alabaster White
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 565
+  viscosity_25c: 297
+  viscosity_40c: 96
+primary_color:
+  color_rgba: '#f2f0eaff'
+tags:
+- biocompatible

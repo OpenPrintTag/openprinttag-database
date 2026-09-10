@@ -1,0 +1,15 @@
+uuid: 6ed92725-1136-53cb-8715-de46ca9ae7c4
+slug: fusion-filaments-pctg-nova-green
+brand:
+  slug: fusion-filaments
+name: PCTG Nova Green
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#38b837ff'
+properties:
+  max_print_temperature: 260
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pctg-nova-green/fusion-filaments-pctg-nova-green-0-36053c1f.jpg
+  type: unspecified

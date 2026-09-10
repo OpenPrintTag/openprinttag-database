@@ -6,10 +6,23 @@ name: PET-G Standard HS Pure Green Transparent
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-pure-green-transparent
 primary_color:
   color_rgba: '#26a648ff'
+  color_lab:
+  - 60.02
+  - -53.91
+  - 38.67
 tags:
-- translucent
 - high_speed
-properties: {}
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-pure-green-transparent/rosa3d-filaments-pet-g-standard-hs-pure-green-transparent-0-4962b6cb.png
+  type: unspecified

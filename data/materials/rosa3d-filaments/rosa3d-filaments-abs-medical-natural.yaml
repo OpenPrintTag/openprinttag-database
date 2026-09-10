@@ -1,0 +1,30 @@
+uuid: 5f6992b9-8a1c-5846-9833-c502d977bce0
+slug: rosa3d-filaments-abs-medical-natural
+brand:
+  slug: rosa3d-filaments
+name: ABS Medical Natural
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+  - 98.28
+  - -6.65
+  - 14.88
+tags:
+- biocompatible
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 80
+  drying_time: 120
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-medical-natural/rosa3d-filaments-abs-medical-natural-0-bc353179.jpg
+  type: unspecified

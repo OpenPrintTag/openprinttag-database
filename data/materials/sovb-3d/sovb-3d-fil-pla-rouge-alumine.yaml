@@ -6,11 +6,16 @@ name: Fil PLA Rouge alumine
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.sovb3d.fr/pla-175mm-standard-1kg/161-fil-pla-vert-mai-alumine-175mm-1kg.html
 primary_color:
   color_rgba: '#ab2614ff'
+  color_ral: '3020'
 tags:
 - contains_aluminium
 - abrasive
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 200
+  min_bed_temperature: 0
+  max_bed_temperature: 60

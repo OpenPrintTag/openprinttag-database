@@ -1,5 +1,6 @@
 import { DataGrid } from '~/components/DataGrid';
 import type { SchemaField } from '~/components/SchemaFields';
+import { useClassFields } from '~/hooks/useClassFields';
 
 import type { Container } from './types';
 
@@ -12,6 +13,8 @@ export const ContainerSheetReadView = ({
   container,
   fields,
 }: ContainerSheetReadViewProps) => {
+  const filteredFields = useClassFields(fields, container?.class);
+
   if (!container) {
     return (
       <div className="py-8 text-center text-sm text-gray-500">
@@ -30,9 +33,8 @@ export const ContainerSheetReadView = ({
       <DataGrid
         title="Container details"
         data={container}
-        fields={fields}
+        fields={filteredFields}
         primaryKeys={['uuid', 'slug', 'name', 'class']}
-        entity="container"
       />
     </div>
   );

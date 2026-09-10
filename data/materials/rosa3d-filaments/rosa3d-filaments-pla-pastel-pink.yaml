@@ -6,9 +6,22 @@ name: PLA Pastel Pink
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-pastel-pink
 primary_color:
   color_rgba: '#ffbedfff'
+  color_lab:
+  - 83.66
+  - 28.26
+  - -7.27
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-pastel-pink/rosa3d-filaments-pla-pastel-pink-0-4d549bef.png
+  type: unspecified

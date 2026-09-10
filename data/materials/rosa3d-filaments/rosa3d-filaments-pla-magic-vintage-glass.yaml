@@ -6,14 +6,31 @@ name: PLA Magic Vintage Glass
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-magic-vintage-glass
 secondary_colors:
-- color_rgba: '#d55d8cff'
 - color_rgba: '#ea9e3fff'
+  color_lab:
+  - 71.08
+  - 20.19
+  - 58.75
+- color_rgba: '#d55d8cff'
+  color_lab:
+  - 55.96
+  - 51.9
+  - -2.37
 - color_rgba: '#4921c1ff'
-- color_rgba: '#6e8451ff'
+  color_lab:
+  - 30.29
+  - 57.53
+  - -75.5
 tags:
-- coextruded
 - translucent
-- industrially_compostable
-properties: {}
+- coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-vintage-glass/rosa3d-filaments-pla-magic-vintage-glass-0-ef5e4dd5.png
+  type: unspecified

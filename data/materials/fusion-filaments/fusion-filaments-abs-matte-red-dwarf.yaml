@@ -1,0 +1,22 @@
+uuid: a64d1eb5-8626-5b66-8898-b34118fe5f42
+slug: fusion-filaments-abs-matte-red-dwarf
+brand:
+  slug: fusion-filaments
+name: ABS Matte Red Dwarf
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ed1536ff'
+tags:
+- matte
+- filtration_recommended
+properties:
+  min_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-abs-matte-red-dwarf/fusion-filaments-abs-matte-red-dwarf-0-073a62a7.jpg
+  type: unspecified

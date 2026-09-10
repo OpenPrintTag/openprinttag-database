@@ -7,8 +7,17 @@ class: FFF
 type: PA6
 abbreviation: PA6
 primary_color:
-  color_rgba: '#000000ff'
+  color_rgba: '#161618ff'
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-polymide-copa-black/03e76c046717.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-polymide-copa-black/03e76c046717.png
+    type: unspecified
+properties:
+  density: 1.12
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 25
+  max_bed_temperature: 50
+  drying_temperature: 100
+  drying_time: 480
+tags:
+  - filtration_recommended

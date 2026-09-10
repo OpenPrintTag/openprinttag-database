@@ -1,0 +1,23 @@
+uuid: 0f77853b-1367-5aae-a8bb-270958b20626
+slug: fiberlogy-petg-matte-red
+brand:
+  slug: fiberlogy
+name: PETG Matte Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e20010ff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-red/fiberlogy-petg-matte-red-0-cbc40d90.png
+  type: unspecified

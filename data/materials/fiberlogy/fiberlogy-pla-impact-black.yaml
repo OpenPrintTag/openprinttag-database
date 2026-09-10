@@ -1,0 +1,21 @@
+uuid: 44388a10-daf7-5915-a624-a510cb0bf4fe
+slug: fiberlogy-pla-impact-black
+brand:
+  slug: fiberlogy
+name: PLA Impact Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-black/fiberlogy-pla-impact-black-0-9689ffda.png
+  type: unspecified

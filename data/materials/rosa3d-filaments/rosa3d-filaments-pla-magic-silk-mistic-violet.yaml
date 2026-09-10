@@ -6,12 +6,26 @@ name: PLA Magic Silk Mistic Violet
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-mistic-violet
 secondary_colors:
-- color_rgba: '#292824ff'
 - color_rgba: '#7142a3ff'
+  color_lab:
+  - 37.93
+  - 39.91
+  - -45.02
+- color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
-- coextruded
 - silk
-- industrially_compostable
-properties: {}
+- coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-silk-mistic-violet/rosa3d-filaments-pla-magic-silk-mistic-violet-0-198b8441.png
+  type: unspecified

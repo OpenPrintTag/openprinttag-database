@@ -1,0 +1,20 @@
+uuid: 3121d504-d93d-5e81-9c36-4216e03480ca
+slug: esun-pla-pro-hs-baby-blue
+brand:
+  slug: esun
+name: PLA+HS Baby Blue
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#77d3ddff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-baby-blue/esun-pla-hs-baby-blue-0-51a78e50.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 19debd09-b036-5313-bcf7-af6aad1938ce
+slug: fusion-filaments-pla-sage
+brand:
+  slug: fusion-filaments
+name: PLA Sage
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b3c2abff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pla-sage/fusion-filaments-pla-sage-0-ab10aa37.jpg
+  type: unspecified

@@ -1,0 +1,19 @@
+uuid: a672f8b2-0fac-5e1f-9a11-2fc0500c6561
+slug: sovb-3d-fil-abs-vert-fonce
+brand:
+  slug: sovb-3d
+name: Fil ABS Vert Foncé
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#15817bff'
+  color_ral: '6004'
+tags:
+- filtration_recommended
+properties:
+  density: 1.03
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 100

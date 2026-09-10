@@ -1,0 +1,22 @@
+uuid: 78a311d8-c811-50e2-bd3d-b828e9047148
+slug: r3d-pla-magic-silk-cherry-blossom
+brand:
+  slug: r3d
+name: PLA Magic Silk Cherry Blossom
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#e87191ff'
+- color_rgba: '#f5d3d6ff'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-magic-silk-cherry-blossom/r3d-pla-magic-silk-cherry-blossom-0-5100b10f.jpg
+  type: unspecified

@@ -1,10 +1,18 @@
-import { Building2, ChevronDown, Loader2, Palette, X } from 'lucide-react';
+import {
+  Building2,
+  ChevronDown,
+  Layers,
+  Loader2,
+  Palette,
+  X,
+} from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import type {
   SearchFilters as SearchFiltersType,
   SearchResultType,
 } from '~/routes/api/search';
+import { classBadgeStyle } from '~/utils/classBadge';
 import { apiUrl } from '~/utils/readOnly';
 
 import { TYPE_COLORS, TYPE_ICONS_SMALL, TYPE_LABELS } from './constants';
@@ -35,11 +43,13 @@ export function SearchFilterBar({
   const [brandsLoading, setBrandsLoading] = useState(false);
   const [showBrandDropdown, setShowBrandDropdown] = useState(false);
   const [showTypeDropdown, setShowTypeDropdown] = useState(false);
+  const [showClassDropdown, setShowClassDropdown] = useState(false);
   const [brandSearch, setBrandSearch] = useState('');
   const [brandDropdownIndex, setBrandDropdownIndex] = useState(0);
   const [typeDropdownIndex, setTypeDropdownIndex] = useState(0);
   const brandDropdownRef = useRef<HTMLDivElement>(null);
   const typeDropdownRef = useRef<HTMLDivElement>(null);
+  const classDropdownRef = useRef<HTMLDivElement>(null);
   const brandInputRef = useRef<HTMLInputElement>(null);
 
   // Load brands on first render
@@ -80,6 +90,12 @@ export function SearchFilterBar({
       ) {
         setShowTypeDropdown(false);
       }
+      if (
+        classDropdownRef.current &&
+        !classDropdownRef.current.contains(e.target as Node)
+      ) {
+        setShowClassDropdown(false);
+      }
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
@@ -97,7 +113,10 @@ export function SearchFilterBar({
     ? brands.find((b) => b.slug === filters.brand)?.name
     : null;
 
-  const hasFilters = (filters.types?.length ?? 0) > 0 || !!filters.brand;
+  const hasFilters =
+    (filters.types?.length ?? 0) > 0 ||
+    !!filters.brand ||
+    !!filters.entityClass;
 
   const toggleTypeFilter = useCallback(
     (type: SearchResultType) => {
@@ -179,6 +198,15 @@ export function SearchFilterBar({
     [typeDropdownIndex, toggleTypeFilter, inputRef],
   );
 
+  const selectClass = useCallback(
+    (cls: 'FFF' | 'SLA' | undefined) => {
+      onFiltersChange({ ...filters, entityClass: cls });
+      setShowClassDropdown(false);
+      setTimeout(() => inputRef.current?.focus(), 50);
+    },
+    [filters, onFiltersChange, inputRef],
+  );
+
   const chips = (
     <SearchFilterChips
       filters={filters}
@@ -191,6 +219,9 @@ export function SearchFilterBar({
       }}
       onRemoveBrand={() => {
         onFiltersChange({ ...filters, brand: undefined });
+      }}
+      onRemoveClass={() => {
+        onFiltersChange({ ...filters, entityClass: undefined });
       }}
     />
   );
@@ -216,6 +247,7 @@ export function SearchFilterBar({
             onClick={() => {
               setShowBrandDropdown(!showBrandDropdown);
               setShowTypeDropdown(false);
+              setShowClassDropdown(false);
               setBrandDropdownIndex(0);
               setBrandSearch('');
             }}
@@ -322,6 +354,7 @@ export function SearchFilterBar({
             onClick={() => {
               setShowTypeDropdown(!showTypeDropdown);
               setShowBrandDropdown(false);
+              setShowClassDropdown(false);
               setTypeDropdownIndex(0);
             }}
             className="flex items-center gap-1 rounded-md border px-2 py-1 text-xs transition-all hover:border-gray-400"
@@ -382,6 +415,61 @@ export function SearchFilterBar({
           )}
         </div>
 
+        {/* Class Filter Dropdown */}
+        <div className="relative" ref={classDropdownRef}>
+          <button
+            onClick={() => {
+              setShowClassDropdown(!showClassDropdown);
+              setShowBrandDropdown(false);
+              setShowTypeDropdown(false);
+            }}
+            className="flex items-center gap-1 rounded-md border px-2 py-1 text-xs transition-all hover:border-gray-400"
+            style={{
+              borderColor: 'hsl(var(--border))',
+              color: 'hsl(var(--muted-foreground))',
+            }}
+          >
+            <Layers className="h-3 w-3" />
+            class:
+            <ChevronDown className="h-3 w-3" />
+          </button>
+
+          {showClassDropdown && (
+            <div
+              className="absolute top-full left-0 z-[150] mt-1 w-36 overflow-hidden rounded-lg border shadow-lg"
+              style={{
+                backgroundColor: 'hsl(var(--card))',
+                borderColor: 'hsl(var(--border))',
+              }}
+            >
+              {(['FFF', 'SLA'] as const).map((cls) => {
+                const isActive = filters.entityClass === cls;
+                return (
+                  <button
+                    key={cls}
+                    onClick={() => selectClass(isActive ? undefined : cls)}
+                    className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+                  >
+                    <span
+                      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold ${classBadgeStyle(cls)}`}
+                    >
+                      {cls}
+                    </span>
+                    {isActive && (
+                      <span
+                        className="ml-auto text-xs"
+                        style={{ color: 'hsl(var(--primary))' }}
+                      >
+                        ✓
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
         {/* Clear all filters */}
         {hasFilters && (
           <button
@@ -402,11 +490,13 @@ export function SearchFilterChips({
   selectedBrandName,
   onRemoveType,
   onRemoveBrand,
+  onRemoveClass,
 }: {
   filters: SearchFiltersType;
   selectedBrandName: string | null | undefined;
   onRemoveType: (type: SearchResultType) => void;
   onRemoveBrand: () => void;
+  onRemoveClass?: () => void;
 }) {
   return (
     <>
@@ -441,6 +531,20 @@ export function SearchFilterChips({
           <button
             onClick={onRemoveBrand}
             className="ml-0.5 rounded-full p-0.5 transition-colors hover:bg-white/20"
+          >
+            <X className="h-3 w-3" />
+          </button>
+        </span>
+      )}
+
+      {filters.entityClass && (
+        <span
+          className={`inline-flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-semibold ${classBadgeStyle(filters.entityClass)}`}
+        >
+          class:{filters.entityClass}
+          <button
+            onClick={onRemoveClass}
+            className="ml-0.5 rounded-full p-0.5 transition-colors hover:bg-black/10"
           >
             <X className="h-3 w-3" />
           </button>

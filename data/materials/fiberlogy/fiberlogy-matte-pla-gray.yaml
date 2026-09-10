@@ -1,0 +1,23 @@
+uuid: ca62b9b8-a2bf-58a3-b2a0-7be83626d57a
+slug: fiberlogy-matte-pla-gray
+brand:
+  slug: fiberlogy
+name: Matte PLA Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c1c1c1ff'
+tags:
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-matte-pla-gray/fiberlogy-matte-pla-gray-0-3b396fd3.jpg
+  type: unspecified

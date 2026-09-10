@@ -11,7 +11,12 @@ primary_color:
   color_rgba: '#e7b3bbff'
 tags:
 - high_speed
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90
 photos:
 - url: https://files.openprinttag.org/azurefilm/azurefilm-petg-hyper-speed-pastel-ice-cream-pink/azurefilm-petg-hyper-speed-pastel-ice-cream-pink-0-3d37ea76.jpg
   type: unspecified

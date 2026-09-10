@@ -1,0 +1,22 @@
+uuid: 0755d2ab-e083-5cfd-b3d4-e8f36952d7a4
+slug: voolt3d-abs-marrom-caramelo-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Marrom Caramelo High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#b76e34ff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-marrom-caramelo-high-speed-premium/voolt3d-abs-marrom-caramelo-high-speed-premium-0-73f32746.jpg
+  type: unspecified

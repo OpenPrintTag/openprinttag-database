@@ -1,0 +1,21 @@
+uuid: f55d7e40-6ec8-5769-95e9-d7b4f7476549
+slug: fiberlogy-pla-impact-army-green
+brand:
+  slug: fiberlogy
+name: PLA Impact Army Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#404720ff'
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pla-impact-army-green/fiberlogy-pla-impact-army-green-0-9d5f8947.png
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: 5bed0119-f271-53fc-94fb-197ec53f8399
+slug: voolt3d-petg-hf-laranja-translucido-high-fluidity-premium
+brand:
+  slug: voolt3d
+name: PETG HF Laranja Translúcido High Fluidity Premium
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fe5000ff'
+tags:
+- high_speed
+- translucent
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-petg-hf-laranja-translucido-high-fluidity-premium/voolt3d-petg-hf-laranja-translucido-high-fluidity-premium-0-479f6a9e.jpg
+  type: unspecified

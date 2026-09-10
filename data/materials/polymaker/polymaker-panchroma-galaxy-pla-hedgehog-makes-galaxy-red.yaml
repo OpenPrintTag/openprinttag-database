@@ -1,0 +1,23 @@
+uuid: 1492e8fc-8603-550c-8d0d-dc25292e399e
+slug: polymaker-panchroma-galaxy-pla-hedgehog-makes-galaxy-red
+brand:
+  slug: polymaker
+name: Panchroma™ Galaxy PLA Hedgehog Makes - Galaxy Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ec0000ff'
+tags:
+- glitter
+properties:
+  density: 1.17
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-galaxy-pla-hedgehog-makes-galaxy-red/polymaker-panchroma-galaxy-pla-hedgehog-makes-galaxy-red-0-df639025.png
+  type: unspecified

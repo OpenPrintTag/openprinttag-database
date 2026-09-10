@@ -6,14 +6,32 @@ name: PET-G Standard HS Glow in the Dark Green
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-pet-g-standard-hs-glow-in-the-dark-green
 primary_color:
   color_rgba: '#62e480ff'
 secondary_colors:
+- color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
 - color_rgba: '#efeadfff'
+  color_lab:
+  - 92.81
+  - -0.2
+  - 5.93
 tags:
 - glow_in_the_dark
-- illuminescent_color_change
-- high_speed
 - abrasive
-properties: {}
+- high_speed
+- illuminescent_color_change
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-glow-in-the-dark-green/rosa3d-filaments-pet-g-standard-hs-glow-in-the-dark-green-0-d91d216f.jpg
+  type: unspecified

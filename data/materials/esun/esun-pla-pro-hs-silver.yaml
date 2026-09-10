@@ -1,0 +1,20 @@
+uuid: 7c269515-5995-5b0a-b48a-fca68cf9e07d
+slug: esun-pla-pro-hs-silver
+brand:
+  slug: esun
+name: PLA+HS Silver
+class: FFF
+type: PLA
+abbreviation: PLA Pro
+primary_color:
+  color_rgba: '#abacb0ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pla-pro-hs-silver/esun-pla-hs-silver-0-7c9eb5b7.jpg
+  type: unspecified

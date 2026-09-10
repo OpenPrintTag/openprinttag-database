@@ -1,0 +1,21 @@
+uuid: f4855909-6bec-5d57-b560-4c2cd9dfa812
+slug: formfutura-pla-signal-black
+brand:
+  slug: formfutura
+name: PLA Signal Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#292929ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-signal-black/formfutura-pla-signal-black-0-31a8a31b.jpg
+  type: unspecified

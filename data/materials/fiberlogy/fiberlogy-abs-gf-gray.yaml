@@ -1,0 +1,26 @@
+uuid: e6158f13-cc02-5f1d-867a-3b2ad98f6273
+slug: fiberlogy-abs-gf-gray
+brand:
+  slug: fiberlogy
+name: ABS+GF Gray
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#bcbebeff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 270
+  max_print_temperature: 295
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-abs-gf-gray/fiberlogy-abs-gf-gray-0-f567739f.jpg
+  type: unspecified

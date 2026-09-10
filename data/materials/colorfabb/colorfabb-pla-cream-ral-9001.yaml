@@ -1,0 +1,24 @@
+uuid: 7d42b7cc-0621-5d8d-8c28-1f18de5fc16f
+slug: colorfabb-pla-cream-ral-9001
+brand:
+  slug: colorfabb
+name: PLA Cream RAL 9001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efebdcff'
+  color_lab:
+  - 92.99
+  - -1.21
+  - 7.75
+  color_ral: '9001'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-cream-ral-9001/colorfabb-pla-cream-ral-9001-0-1a9db5e9.jpg
+  type: unspecified

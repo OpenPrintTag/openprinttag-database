@@ -1,0 +1,21 @@
+uuid: 37d66584-3432-57fe-8d31-1df5d5f1a06c
+slug: fiberlogy-easy-petg-grey
+brand:
+  slug: fiberlogy
+name: Easy PETG Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c5c5bfff'
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-easy-petg-grey/fiberlogy-easy-petg-grey-0-dc65bd47.png
+  type: unspecified

@@ -7,11 +7,17 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#d9d8deff'
+  color_rgba: '#c9d0d4ff'
 tags:
-- translucent
-- industrially_compostable
+  - translucent
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-premium-pla-cctransparent/a0d4f3c1a46e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/formfutura/formfutura-premium-pla-cctransparent/a0d4f3c1a46e.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 360

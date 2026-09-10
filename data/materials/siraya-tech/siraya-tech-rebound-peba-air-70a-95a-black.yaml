@@ -1,0 +1,22 @@
+uuid: d67da75e-c875-57e5-8b01-5ae0c5ae6228
+slug: siraya-tech-rebound-peba-air-70a-95a-black
+brand:
+  slug: siraya-tech
+name: Rebound PEBA Air 70A-95A Black
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- foaming
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+  drying_temperature: 75
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-rebound-peba-air-70a-95a-black/siraya-tech-rebound-peba-air-70a-95a-black-0-73793c09.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: 72a4a45e-78f3-5589-a499-066c0373afb0
+slug: polymaker-asa-green
+brand:
+  slug: polymaker
+name: ASA Green
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#2e784dff'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 75
+  max_bed_temperature: 95
+  drying_temperature: 70
+  drying_time: 420

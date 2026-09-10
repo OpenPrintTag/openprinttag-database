@@ -1,0 +1,23 @@
+uuid: 20b8e741-cddc-56eb-965e-2b07f6881f0b
+slug: formfutura-premium-pla-cf03
+brand:
+  slug: formfutura
+name: Premium PLA CF03
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4c5051ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.24
+  min_print_temperature: 230
+  max_print_temperature: 280
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-premium-pla-cf03/formfutura-premium-pla-cf03-0-10499ff4.jpg
+  type: unspecified

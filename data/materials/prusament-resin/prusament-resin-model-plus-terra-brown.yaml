@@ -1,0 +1,18 @@
+uuid: fce7644b-8a19-5c72-b2d9-98b93d992881
+slug: prusament-resin-model-plus-terra-brown
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Terra Brown
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 543
+  viscosity_25c: 290
+  viscosity_40c: 95
+  viscosity_60c: 31
+primary_color:
+  color_rgba: '#584135ff'
+tags:
+- biocompatible

@@ -1,0 +1,21 @@
+uuid: 4102320b-6bd7-5e63-b7f1-9d5d676ae5b7
+slug: formfutura-pla-grey-beige
+brand:
+  slug: formfutura
+name: PLA Grey Beige
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9e9764ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-pla-grey-beige/formfutura-pla-grey-beige-0-e539b591.jpg
+  type: unspecified

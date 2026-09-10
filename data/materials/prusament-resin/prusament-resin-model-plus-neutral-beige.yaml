@@ -1,0 +1,17 @@
+uuid: ec8311f5-9d99-5d10-90d0-603a86980cb8
+slug: prusament-resin-model-plus-neutral-beige
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Neutral Beige
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 494
+  viscosity_25c: 273
+  viscosity_40c: 91
+primary_color:
+  color_rgba: '#e7ceb4ff'
+tags:
+- biocompatible

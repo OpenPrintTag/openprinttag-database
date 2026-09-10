@@ -1,0 +1,20 @@
+uuid: 48658fac-c872-576c-9096-862e88d331f8
+slug: fusion-filaments-abs-gloss-carbon-rod-black
+brand:
+  slug: fusion-filaments
+name: ABS Gloss Carbon Rod Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#363538ff'
+tags:
+- silk
+- filtration_recommended
+properties:
+  density: 1.05
+  drying_temperature: 74
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-abs-gloss-carbon-rod-black/fusion-filaments-abs-gloss-carbon-rod-black-0-e0a60a20.jpg
+  type: unspecified

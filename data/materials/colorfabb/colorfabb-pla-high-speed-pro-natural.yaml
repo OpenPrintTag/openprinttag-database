@@ -9,10 +9,14 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#eadac2ff'
 tags:
-- industrially_compostable
-- without_pigments
-- high_speed
+  - high_speed
+  - without_pigments
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-high-speed-pro-natural/d8fb2266a2bb.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-pla-high-speed-pro-natural/d8fb2266a2bb.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 25
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60

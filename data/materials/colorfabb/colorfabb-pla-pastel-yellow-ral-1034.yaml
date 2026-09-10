@@ -1,0 +1,24 @@
+uuid: b82874e3-06ff-5d5a-845d-5f37c8ac9719
+slug: colorfabb-pla-pastel-yellow-ral-1034
+brand:
+  slug: colorfabb
+name: PLA Pastel yellow RAL 1034
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eb9c52ff'
+  color_lab:
+  - 70.91
+  - 22.67
+  - 49.9
+  color_ral: '1034'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-pastel-yellow-ral-1034/colorfabb-pla-pastel-yellow-ral-1034-0-815567ad.jpg
+  type: unspecified

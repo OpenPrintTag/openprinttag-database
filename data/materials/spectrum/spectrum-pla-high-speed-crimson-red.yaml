@@ -6,11 +6,15 @@ name: PLA High Speed Crimson Red
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-high-speed/
 primary_color:
   color_rgba: '#932721ff'
 tags:
-- industrially_compostable
 - high_speed
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-high-speed-crimson-red/spectrum-pla-high-speed-crimson-red-0-e45eda03.jpg
+  type: unspecified

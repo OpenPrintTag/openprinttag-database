@@ -1,0 +1,20 @@
+uuid: c3e4b2f4-75be-5cd5-a960-cad3b6c4261e
+slug: fusion-filaments-tri-pla-event-horizon
+brand:
+  slug: fusion-filaments
+name: Tri-PLA Event Horizon
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#3a0a8cff'
+  - color_rgba: '#cd00d7ff'
+  - color_rgba: '#303635ff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

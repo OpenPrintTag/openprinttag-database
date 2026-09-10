@@ -1,0 +1,24 @@
+uuid: 397020a8-e985-56ad-9a6d-23b6d9f5a9b2
+slug: r3d-pla-tri-silk-color-gold-copper-black
+brand:
+  slug: r3d
+name: PLA Tri-Silk color Gold/Copper/Black
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#1d1d1dff'
+- color_rgba: '#aaa662ff'
+- color_rgba: '#a24016ff'
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.21
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-tri-silk-color-gold-copper-black/r3d-pla-tri-silk-color-gold-copper-black-0-d6a82c0e.jpg
+  type: unspecified

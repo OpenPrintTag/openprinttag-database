@@ -1,0 +1,19 @@
+uuid: 00e39e44-c561-5f1a-9e04-8711e2a2ac73
+slug: fiberlogy-pp-pastel-lilac
+brand:
+  slug: fiberlogy
+name: PP Pastel Lilac
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#d696eeff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-pastel-lilac/fiberlogy-pp-pastel-lilac-0-564bf2c7.jpg
+  type: unspecified

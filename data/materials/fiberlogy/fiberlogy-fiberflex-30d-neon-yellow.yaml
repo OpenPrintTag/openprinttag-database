@@ -1,0 +1,25 @@
+uuid: 7c54cdaa-a859-59ce-bf25-4f38158cd18b
+slug: fiberlogy-fiberflex-30d-neon-yellow
+brand:
+  slug: fiberlogy
+name: FiberFlex 30D Neon Yellow
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#c3f929ff'
+tags:
+- neon
+properties:
+  density: 1.07
+  hardness_shore_d: 30.0
+  hardness_shore_a: 81.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fiberflex-30d-neon-yellow/fiberlogy-fiberflex-30d-neon-yellow-0-b39c64ce.jpg
+  type: unspecified

@@ -6,9 +6,22 @@ name: PET-G Standard HS Gold Metallic
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-refill-pet-g-standard-hs-gold-metallic
 primary_color:
   color_rgba: '#ce9f2eff'
+  color_lab:
+  - 68.11
+  - 6.93
+  - 61.52
 tags:
 - high_speed
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pet-g-standard-hs-gold-metallic/rosa3d-filaments-pet-g-standard-hs-gold-metallic-0-5294c82b.png
+  type: unspecified

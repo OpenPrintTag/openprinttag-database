@@ -1,0 +1,19 @@
+uuid: ff7ffad5-00fe-51c9-8acb-3e9fdc5d3c15
+slug: r3d-asa-grey
+brand:
+  slug: r3d
+name: ASA Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#697272ff'
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 285
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-asa-grey/r3d-asa-grey-0-3fc7d4c2.jpg
+  type: unspecified

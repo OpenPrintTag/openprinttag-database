@@ -1,0 +1,21 @@
+uuid: c6e4d624-dae1-5927-aa50-af1b7d836993
+slug: formfutura-volcano-pla-150c-diy-industrial-yellow
+brand:
+  slug: formfutura
+name: Volcano PLA 150C DIY Industrial Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3ff52ff'
+tags:
+- high_temperature
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-volcano-pla-150c-diy-industrial-yellow/formfutura-volcano-pla-150c-diy-industrial-yellow-0-469e8dbc.jpg
+  type: unspecified

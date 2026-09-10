@@ -1,0 +1,24 @@
+uuid: 9e252e5b-e18e-5854-b14f-dad0d720eb3c
+slug: formfutura-styx-pa6-gf30-black
+brand:
+  slug: formfutura
+name: STYX PA6-GF30 Black
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+photos:
+  - url: https://files.openprinttag.org/formfutura/formfutura-styx-pa6-gf30/e2fd87adea7d.png
+    type: unspecified
+properties:
+  density: 1.34
+  min_print_temperature: 255
+  max_print_temperature: 295
+  min_bed_temperature: 90
+  max_bed_temperature: 110

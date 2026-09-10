@@ -1,0 +1,22 @@
+uuid: 05fe8da7-1755-5e25-b388-24b0171822ca
+slug: fusion-filaments-asa-ionized-cobalt-black
+brand:
+  slug: fusion-filaments
+name: ASA Ionized Cobalt Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#48474aff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-asa-ionized-cobalt-black/fusion-filaments-asa-ionized-cobalt-black-0-e6e4a17e.jpg
+  type: unspecified

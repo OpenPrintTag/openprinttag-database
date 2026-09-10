@@ -1,0 +1,23 @@
+uuid: bd07a616-8db7-5bd0-ba33-07ad124b5a51
+slug: siraya-tech-fibreheart-ppa-black
+brand:
+  slug: siraya-tech
+name: Fibreheart PPA Black
+class: FFF
+type: PPA
+abbreviation: PPA
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.21
+  min_print_temperature: 280
+  max_print_temperature: 300
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 100
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-ppa-black/siraya-tech-fibreheart-ppa-black-0-dc9f30da.jpg
+  type: unspecified

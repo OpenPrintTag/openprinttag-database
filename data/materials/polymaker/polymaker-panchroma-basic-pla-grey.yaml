@@ -1,0 +1,21 @@
+uuid: 45fbd5e8-55b1-5133-98eb-58988cc21000
+slug: polymaker-panchroma-basic-pla-grey
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8c9099ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-basic-pla-grey/polymaker-panchroma-basic-pla-grey-0-0e71548d.jpg
+  type: unspecified

@@ -1,0 +1,17 @@
+uuid: 6f9d01bf-aa4b-5e5d-a88d-16e436c3ab7b
+slug: prusament-resin-model-plus-solid-grey
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Solid Grey
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 572
+  viscosity_25c: 297
+  viscosity_40c: 95
+primary_color:
+  color_rgba: '#808a93ff'
+tags:
+- biocompatible

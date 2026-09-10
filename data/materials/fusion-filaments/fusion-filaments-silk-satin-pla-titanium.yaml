@@ -1,0 +1,23 @@
+uuid: 81cfb78a-80cd-5ba3-9f4d-654c523212c7
+slug: fusion-filaments-silk-satin-pla-titanium
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Titanium
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#949597ff'
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-silk-satin-pla-titanium/fusion-filaments-silk-satin-pla-titanium-0-2c138f47.jpg
+  type: unspecified

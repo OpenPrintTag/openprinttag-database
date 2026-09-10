@@ -6,10 +6,22 @@ name: PLA-Silk Violet
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-silk-violet-2
 primary_color:
   color_rgba: '#9d00b1ff'
+  color_lab:
+  - 38.45
+  - 71.54
+  - -52.2
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-silk-violet/rosa3d-filaments-pla-silk-violet-0-f5c08daa.png
+  type: unspecified

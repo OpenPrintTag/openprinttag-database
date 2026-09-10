@@ -1,0 +1,24 @@
+uuid: ef5389ed-b331-5ef2-bb79-36c29cb0c859
+slug: colorfabb-pla-opal-green-ral-6026
+brand:
+  slug: colorfabb
+name: PLA Opal Green RAL 6026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#005d52ff'
+  color_lab:
+  - 34.88
+  - -26.65
+  - -0.43
+  color_ral: '6026'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-opal-green-ral-6026/colorfabb-pla-opal-green-ral-6026-0-7efcd09c.jpg
+  type: unspecified

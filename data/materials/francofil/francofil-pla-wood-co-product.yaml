@@ -1,0 +1,20 @@
+uuid: 5215e1b8-4fd4-5770-8859-db250bcc85f2
+slug: francofil-pla-wood-co-product
+brand:
+  slug: francofil
+name: PLA Wood - Co-product
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://francofil.fr/en/product/filament-pla-bois/
+primary_color:
+  color_rgba: '#dc9c43ff'
+tags:
+- contains_wood
+- industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 70

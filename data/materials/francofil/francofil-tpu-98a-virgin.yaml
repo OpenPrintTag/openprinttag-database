@@ -13,4 +13,8 @@ tags:
 - without_pigments
 - transparent
 properties:
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 0
+  max_bed_temperature: 0
   hardness_shore_a: 98

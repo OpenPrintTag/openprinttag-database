@@ -6,9 +6,16 @@ name: rPETG Carmine Red
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://spectrumfilaments.com/en/filament/r-petg/
 primary_color:
   color_rgba: '#ab2614ff'
 tags:
 - recycled
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-rpetg-carmine-red/spectrum-rpetg-carmine-red-0-51dc427d.jpg
+  type: unspecified

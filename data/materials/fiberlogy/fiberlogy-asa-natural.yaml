@@ -9,8 +9,16 @@ abbreviation: ASA
 primary_color:
   color_rgba: '#eadac2ff'
 tags:
-- without_pigments
+  - without_pigments
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-natural/36dd1ec85ac3.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-asa-natural/36dd1ec85ac3.png
+    type: unspecified
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+  drying_time: 240

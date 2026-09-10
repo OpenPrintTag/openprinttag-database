@@ -1,0 +1,24 @@
+uuid: 2b94b33b-2c27-5263-870e-a7f0f5293436
+slug: colorfabb-pla-brown-green-ral-6008
+brand:
+  slug: colorfabb
+name: PLA Brown green RAL 6008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#35382eff'
+  color_lab:
+  - 22.94
+  - -3.49
+  - 5.83
+  color_ral: '6008'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-brown-green-ral-6008/colorfabb-pla-brown-green-ral-6008-0-92f0fe5e.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: 50c51d5b-065c-5d7c-b83f-aae4ddb3e4f0
+slug: r3d-petg-high-speed-latte
+brand:
+  slug: r3d
+name: PETG High-Speed Latte
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#a47c48ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-petg-high-speed-latte/r3d-petg-high-speed-latte-0-21bfdb41.jpg
+  type: unspecified

@@ -61,7 +61,7 @@ clean:
 clean-import: clean import
 	@echo "✓ Clean import complete!"
 
-test: setup
+test: setup fetch-schemas
 	@echo "Running unit tests..."
 	@$(PYTHON) -m unittest discover tests -v
 

@@ -1,0 +1,25 @@
+uuid: 60a368ff-0ac5-5f4c-a8ba-37f0594e2863
+slug: voolt3d-pla-tri-color-ametista-azul-safira-dourado-v-silk
+brand:
+  slug: voolt3d
+name: PLA Tri Color Ametista / Azul Safira / Dourado V-Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f2c10dff'
+- color_rgba: '#368221ff'
+- color_rgba: '#2c01a0ff'
+tags:
+- silk
+- high_speed
+- coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-pla-tri-color-ametista-azul-safira-dourado-v-silk/voolt3d-pla-tri-color-ametista-azul-safira-dourado-v-silk-0-b03f4ed7.jpg
+  type: unspecified

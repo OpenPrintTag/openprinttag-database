@@ -6,10 +6,22 @@ name: PLA LW AERO Anthracite
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-refill-pla-lw-aero-anthracite-175mm-1kg
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
 - foaming
-- industrially_compostable
-properties: {}
+properties:
+  density: 0.457
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-lw-aero-anthracite/rosa3d-filaments-pla-lw-aero-anthracite-0-e39d0241.png
+  type: unspecified

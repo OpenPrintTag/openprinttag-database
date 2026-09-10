@@ -5,12 +5,26 @@ brand:
 name: PLA-CF Matt Avocado Guacamole
 class: FFF
 type: PLA
-abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-refill-pla-cf-matt-avocado-guacamole-175mm-1kg
+abbreviation: PLACF
 primary_color:
   color_rgba: '#70a641ff'
+  color_lab:
+  - 62.59
+  - -35.18
+  - 45.62
 tags:
-  - matte
-  - contains_carbon_fiber
-  - abrasive
-properties: {}
+- matte
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-cf-matt-avocado-guacamole/rosa3d-filaments-pla-cf-matt-avocado-guacamole-0-0b20ea01.png
+  type: unspecified

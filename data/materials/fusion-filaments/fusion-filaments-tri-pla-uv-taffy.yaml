@@ -1,0 +1,20 @@
+uuid: 25c9b242-a35f-533b-a47e-c59304204f85
+slug: fusion-filaments-tri-pla-uv-taffy
+brand:
+  slug: fusion-filaments
+name: Tri-PLA UV Taffy
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#cc00e3ff'
+  - color_rgba: '#fe0193ff'
+  - color_rgba: '#9bff2eff'
+tags:
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

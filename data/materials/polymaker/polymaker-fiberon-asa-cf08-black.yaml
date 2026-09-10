@@ -1,0 +1,26 @@
+uuid: 1e299093-13b0-597a-ab11-89d91eb47f70
+slug: polymaker-fiberon-asa-cf08-black
+brand:
+  slug: polymaker
+name: Fiberon™ ASA-CF08 Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  drying_temperature: 90
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-fiberon-asa-cf08-black/polymaker-fiberon-asa-cf08-black-0-7d3e4711.jpg
+  type: unspecified

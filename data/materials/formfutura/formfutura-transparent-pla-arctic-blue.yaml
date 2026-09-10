@@ -1,0 +1,23 @@
+uuid: c149489d-386b-5f5d-8932-5b97efdaf5c4
+slug: formfutura-transparent-pla-arctic-blue
+brand:
+  slug: formfutura
+name: Transparent PLA Arctic Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7894f2ff'
+tags:
+- translucent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 55
+  drying_temperature: 50
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-transparent-pla-arctic-blue/formfutura-transparent-pla-arctic-blue-0-7e3dfabe.jpg
+  type: unspecified

@@ -1,0 +1,19 @@
+uuid: 72880b07-abc9-564b-8cd1-f5bfa5cc7ed8
+slug: fiberlogy-pp-navy-blue
+brand:
+  slug: fiberlogy
+name: PP Navy Blue
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#2140b4ff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-navy-blue/fiberlogy-pp-navy-blue-0-ca73c1d3.jpg
+  type: unspecified

@@ -1,0 +1,20 @@
+uuid: c1282e00-d214-5e9b-82a2-dc27a24bfa9b
+slug: r3d-abs-dark-blue
+brand:
+  slug: r3d
+name: ABS+ Dark Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#4f03d7ff'
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-abs-dark-blue/r3d-abs-dark-blue-0-577103c5.jpg
+  type: unspecified

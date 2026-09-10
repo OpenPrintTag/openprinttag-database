@@ -1,0 +1,23 @@
+uuid: 5ca21e24-54fc-54e3-b814-22287234ae3f
+slug: voolt3d-abs-cobre-metalizado-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Cobre Metalizado High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#904029ff'
+tags:
+- high_speed
+- imitates_metal
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-cobre-metalizado-high-speed-premium/voolt3d-abs-cobre-metalizado-high-speed-premium-0-445434bd.jpg
+  type: unspecified

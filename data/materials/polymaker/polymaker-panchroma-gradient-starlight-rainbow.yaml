@@ -1,0 +1,29 @@
+uuid: d638b37a-924f-5ac8-862a-10afc01d2bc3
+slug: polymaker-panchroma-gradient-starlight-rainbow
+brand:
+  slug: polymaker
+name: Panchroma™ Gradient Starlight Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#c00000ff'
+- color_rgba: '#37823fff'
+- color_rgba: '#00688dff'
+- color_rgba: '#583061ff'
+- color_rgba: '#683660ff'
+- color_rgba: '#ff6a13ff'
+tags:
+- iridescent
+- glitter
+- gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-gradient-starlight-rainbow/polymaker-panchroma-gradient-starlight-rainbow-0-79a35441.jpg
+  type: unspecified

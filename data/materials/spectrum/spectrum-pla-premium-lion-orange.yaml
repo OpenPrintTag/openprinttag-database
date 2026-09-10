@@ -6,10 +6,15 @@ name: PLA Premium Lion Orange
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-premium/
 primary_color:
   color_rgba: '#fa8423ff'
 tags:
 - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-pla-premium-lion-orange/spectrum-pla-premium-lion-orange-0-13ef5da1.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 719650ec-ba6f-5151-bf45-e92e420e2d84
+slug: polymaker-panchroma-metallic-pla-green
+brand:
+  slug: polymaker
+name: ' Panchroma™ Metallic PLA Green'
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4c5e46ff'
+tags:
+- glitter
+- imitates_metal
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-metallic-pla-green/polymaker-panchroma-metallic-pla-green-0-105c5604.jpg
+  type: unspecified

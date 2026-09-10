@@ -1,0 +1,24 @@
+uuid: 839e35e8-f410-56a0-9fee-ca01b14e3de5
+slug: colorfabb-pla-chestnut-brown-ral-8015
+brand:
+  slug: colorfabb
+name: PLA Chestnut brown RAL 8015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#633a34ff'
+  color_lab:
+  - 29.23
+  - 17.38
+  - 11.44
+  color_ral: '8015'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-chestnut-brown-ral-8015/colorfabb-pla-chestnut-brown-ral-8015-0-446347de.jpg
+  type: unspecified

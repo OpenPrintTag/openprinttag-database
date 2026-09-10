@@ -1,0 +1,22 @@
+uuid: e80911e3-54af-5c65-9665-8dd92c697799
+slug: esun-pa-cf-black
+brand:
+  slug: esun
+name: PA-CF Black
+class: FFF
+abbreviation: PA-CF
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.24
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/esun/esun-pa-cf-black/esun-pa-cf-black-0-274a434d.jpg
+  type: unspecified

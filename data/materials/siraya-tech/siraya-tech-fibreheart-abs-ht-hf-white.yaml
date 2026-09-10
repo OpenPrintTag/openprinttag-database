@@ -1,0 +1,28 @@
+uuid: 3954b12c-ce8a-5634-b311-794f4094cb14
+slug: siraya-tech-fibreheart-abs-ht-hf-white
+brand:
+  slug: siraya-tech
+name: Fibreheart ABS HT HF White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f5f5f5ff'
+tags:
+- high_speed
+- high_temperature
+- filtration_recommended
+properties:
+  density: 1.05
+  hardness_shore_d: 78.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 70
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-abs-ht-hf-white/siraya-tech-fibreheart-abs-ht-hf-white-0-c3947445.jpg
+  type: unspecified

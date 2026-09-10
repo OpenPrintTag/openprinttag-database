@@ -50,6 +50,14 @@ list:
 - item2
 ```
 
+### Naming Conventions
+
+Follow these conventions for consistent file naming across the database:
+
+- **Containers**: Use specific weight values (e.g., `1kg`, `2kg`, `10kg`) rather than weight ranges (e.g., avoid `5-10kg`). Name containers based on their maximum capacity.
+
+- **Slugs**: When a brand's catalog uses multiple languages, prefer English names for slugs and filenames. This ensures consistency and better accessibility for the international community.
+
 ### Slugs
 
 Slugs are URL-friendly identifiers. They must be:

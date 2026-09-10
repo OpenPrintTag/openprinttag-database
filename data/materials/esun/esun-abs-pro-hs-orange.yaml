@@ -1,0 +1,22 @@
+uuid: 69b02a6e-504f-5079-861b-013ad08d9c7c
+slug: esun-abs-pro-hs-orange
+brand:
+  slug: esun
+name: ABS+HS Orange
+class: FFF
+type: ABS
+abbreviation: ABS Pro
+primary_color:
+  color_rgba: '#f67405ff'
+tags:
+- high_speed
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/esun/esun-abs-pro-hs-orange/esun-abs-hs-orange-0-69eda0bd.jpg
+  type: unspecified

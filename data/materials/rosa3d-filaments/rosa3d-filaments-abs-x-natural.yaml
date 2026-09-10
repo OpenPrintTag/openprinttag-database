@@ -1,0 +1,30 @@
+uuid: 5a0339a6-363d-5d9f-a964-c968bb109375
+slug: rosa3d-filaments-abs-x-natural
+brand:
+  slug: rosa3d-filaments
+name: ABS-X Natural
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#edefe1ff'
+  color_lab:
+  - 93.96
+  - -3.09
+  - 6.53
+tags:
+- without_pigments
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-x-natural/rosa3d-filaments-abs-x-natural-0-911d9030.jpg
+  type: unspecified

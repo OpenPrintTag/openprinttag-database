@@ -1,0 +1,24 @@
+uuid: eeb33795-14f0-51c3-b301-671b636e443f
+slug: colorfabb-pla-ruby-red-ral-3003
+brand:
+  slug: colorfabb
+name: PLA Ruby red RAL 3003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8d1d2cff'
+  color_lab:
+  - 31.17
+  - 46.66
+  - 20.56
+  color_ral: '3003'
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-ruby-red-ral-3003/colorfabb-pla-ruby-red-ral-3003-0-98240c0c.jpg
+  type: unspecified

@@ -4,10 +4,17 @@ brand:
   slug: colorfabb
 name: nGen_FLEX Black
 class: FFF
-abbreviation: nGen
+abbreviation: NGEN
 primary_color:
   color_rgba: '#000000ff'
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-flex-black/eba473b8411d.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-ngen-flex-black/eba473b8411d.png
+    type: unspecified
+properties:
+  density: 1.16
+  hardness_shore_a: 95.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+type: CPE

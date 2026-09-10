@@ -1,0 +1,27 @@
+uuid: 8c749366-cb46-5b5c-b6bd-d2bbd64a9ce8
+slug: rosa3d-filaments-pla-starter-neon-yellow
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Neon Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c3f929ff'
+  color_lab:
+  - 91.47
+  - -42.11
+  - 83.26
+tags:
+- neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-neon-yellow/rosa3d-filaments-pla-starter-neon-yellow-0-82f157eb.jpg
+  type: unspecified

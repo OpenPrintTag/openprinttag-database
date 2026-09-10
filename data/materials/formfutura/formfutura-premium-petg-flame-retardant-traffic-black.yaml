@@ -1,0 +1,23 @@
+uuid: c8639847-824e-524a-b968-3a8def11e44f
+slug: formfutura-premium-petg-flame-retardant-traffic-black
+brand:
+  slug: formfutura
+name: Premium PETG Flame Retardant Traffic Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#141414ff'
+tags:
+- self_extinguishing
+properties:
+  density: 1.26
+  min_print_temperature: 225
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 65
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-premium-petg-flame-retardant-traffic-black/formfutura-premium-petg-flame-retardant-traffic-black-0-882dd770.jpg
+  type: unspecified

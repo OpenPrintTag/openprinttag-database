@@ -9,9 +9,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#06924dff'
 tags:
-- industrially_compostable
-- high_speed
+  - high_speed
 photos:
-- url: https://files.openprinttag.org/colorfabb/colorfabb-pla-high-speed-pro-signal-green/31636bf55237.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/colorfabb/colorfabb-pla-high-speed-pro-signal-green/31636bf55237.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 25
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60

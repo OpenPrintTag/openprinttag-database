@@ -1,0 +1,19 @@
+uuid: ac8f48a3-41ac-58aa-b8e0-2700605c534c
+slug: fiberlogy-pp-sage-green
+brand:
+  slug: fiberlogy
+name: PP Sage Green
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#bad0c8ff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-sage-green/fiberlogy-pp-sage-green-0-02595d51.jpg
+  type: unspecified

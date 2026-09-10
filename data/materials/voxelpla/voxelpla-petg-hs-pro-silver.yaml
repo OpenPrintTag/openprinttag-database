@@ -1,0 +1,21 @@
+uuid: 09f60a17-3c37-51c0-97f7-12b5c622f8fe
+slug: voxelpla-petg-hs-pro-silver
+brand:
+  slug: voxelpla
+name: PETG+ HS (Pro) Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c9d0d4ff'
+tags:
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-voxelpetg-hs-pro-silver/8f32a4e4de41.png
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80

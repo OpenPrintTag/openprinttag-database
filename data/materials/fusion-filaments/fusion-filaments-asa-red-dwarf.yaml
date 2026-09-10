@@ -1,0 +1,22 @@
+uuid: e3bed3c5-5fcd-501f-91c2-11a9706479e2
+slug: fusion-filaments-asa-red-dwarf
+brand:
+  slug: fusion-filaments
+name: ASA Red Dwarf
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#ed1536ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 285
+  min_bed_temperature: 115
+  chamber_temperature: 50
+  drying_temperature: 75
+  drying_time: 720
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-asa-red-dwarf/fusion-filaments-asa-red-dwarf-0-78c0e2ca.jpg
+  type: unspecified

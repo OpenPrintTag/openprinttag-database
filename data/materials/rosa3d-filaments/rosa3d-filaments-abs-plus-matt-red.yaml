@@ -1,0 +1,30 @@
+uuid: 8f6daf4d-8014-5e4c-852a-fd156e62221b
+slug: rosa3d-filaments-abs-plus-matt-red
+brand:
+  slug: rosa3d-filaments
+name: ABS+ Matt Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#de1619ff'
+  color_lab:
+  - 47.21
+  - 70.2
+  - 52.66
+tags:
+- matte
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 50
+  max_chamber_temperature: 80
+  drying_temperature: 90
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-abs-plus-matt-red/rosa3d-filaments-abs-plus-matt-red-0-3cfbaa26.png
+  type: unspecified

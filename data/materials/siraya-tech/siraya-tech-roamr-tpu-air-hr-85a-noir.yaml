@@ -1,0 +1,24 @@
+uuid: c911bd14-8404-5fdf-8bf8-2a5968a23afe
+slug: siraya-tech-roamr-tpu-air-hr-85a-noir
+brand:
+  slug: siraya-tech
+name: Roamr TPU Air HR 85A Noir
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- foaming
+properties:
+  density: 1.05
+  hardness_shore_a: 85.0
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 35
+  max_bed_temperature: 50
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-roamr-tpu-air-hr-85a-noir/siraya-tech-roamr-tpu-air-hr-85a-noir-0-95b9c3fc.jpg
+  type: unspecified

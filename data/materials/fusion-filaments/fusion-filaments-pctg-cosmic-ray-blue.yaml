@@ -1,0 +1,15 @@
+uuid: dee2c36a-51f3-5c7b-b64f-09c23adb1b5e
+slug: fusion-filaments-pctg-cosmic-ray-blue
+brand:
+  slug: fusion-filaments
+name: PCTG Cosmic Ray Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#00187fff'
+properties:
+  max_print_temperature: 260
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-pctg-cosmic-ray-blue/fusion-filaments-pctg-cosmic-ray-blue-0-d32d1d56.jpg
+  type: unspecified

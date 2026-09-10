@@ -6,9 +6,14 @@ name: Fil ABS Bleu Nuit
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://www.sovb3d.fr/abs-175mm-standard-1kg/13-fil-abs-bleu-nuit-175mm-1kg.html
 primary_color:
   color_rgba: '#2941bdff'
+  color_ral: '5013'
 tags:
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.03
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 100

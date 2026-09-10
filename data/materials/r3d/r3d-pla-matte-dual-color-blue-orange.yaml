@@ -1,0 +1,23 @@
+uuid: f652aaac-13bf-5fda-b540-56fc71c78ddf
+slug: r3d-pla-matte-dual-color-blue-orange
+brand:
+  slug: r3d
+name: PLA Matte Dual Color Blue-Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#db3e14ff'
+- color_rgba: '#274da0ff'
+tags:
+- matte
+- coextruded
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 220
+  max_bed_temperature: 45
+  drying_temperature: 55
+  drying_time: 480
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-matte-dual-color-blue-orange/r3d-pla-matte-dual-color-blue-orange-0-4948697a.jpg
+  type: unspecified

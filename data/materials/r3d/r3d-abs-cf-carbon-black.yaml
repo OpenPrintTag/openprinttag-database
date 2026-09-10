@@ -1,0 +1,19 @@
+uuid: e6cd9644-4784-5fa2-aaa9-03d01b44bb5a
+slug: r3d-abs-cf-carbon-black
+brand:
+  slug: r3d
+name: ABS-CF Carbon Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties: {}
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-abs-cf-carbon-black/r3d-abs-cf-carbon-black-0-9b6c348d.jpg
+  type: unspecified

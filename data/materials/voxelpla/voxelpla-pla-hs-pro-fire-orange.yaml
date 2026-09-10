@@ -1,0 +1,22 @@
+uuid: 9bb9f9d1-57f5-5281-99c0-b2e72f5f3711
+slug: voxelpla-pla-hs-pro-fire-orange
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Fire Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-fire-orange/3d9238657be9.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

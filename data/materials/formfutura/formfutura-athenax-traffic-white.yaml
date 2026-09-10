@@ -1,0 +1,19 @@
+uuid: 8fa23085-5166-584e-ab5d-b0859ca62a48
+slug: formfutura-athenax-traffic-white
+brand:
+  slug: formfutura
+name: AthenaX Traffic White
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#ffffffff'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 290
+  min_bed_temperature: 85
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/formfutura/formfutura-athenax-traffic-white/formfutura-athenax-traffic-white-0-6ef364ee.png
+  type: unspecified

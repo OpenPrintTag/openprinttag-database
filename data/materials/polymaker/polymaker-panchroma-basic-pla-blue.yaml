@@ -1,0 +1,21 @@
+uuid: f341c26a-517e-572e-9430-ff9d09208dc0
+slug: polymaker-panchroma-basic-pla-blue
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#003776ff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-basic-pla-blue/polymaker-panchroma-basic-pla-blue-0-f35d8eda.jpg
+  type: unspecified

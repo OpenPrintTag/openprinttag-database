@@ -1,0 +1,21 @@
+uuid: 7a94e22f-92fa-5e5b-89ea-9c58c01e9636
+slug: polymaker-panchroma-basic-pla-white
+brand:
+  slug: polymaker
+name: Panchroma™ Basic PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ebf7ffff'
+properties:
+  density: 1.32
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-basic-pla-white/polymaker-panchroma-basic-pla-white-0-05d5b41e.jpg
+  type: unspecified

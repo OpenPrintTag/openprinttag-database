@@ -6,12 +6,17 @@ name: FlameGuard PLA Industrial Grey
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://spectrumfilaments.com/en/filament/pla-flameguard/
 primary_color:
   color_rgba: '#5a696cff'
 tags:
 - silk
 - self_extinguishing
-- industrially_compostable
 properties:
-  density: 1.22
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-flameguard-pla-industrial-grey/spectrum-flameguard-pla-industrial-grey-0-2659dced.jpg
+  type: unspecified

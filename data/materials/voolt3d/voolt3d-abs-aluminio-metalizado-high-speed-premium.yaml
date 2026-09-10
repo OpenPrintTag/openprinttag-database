@@ -1,0 +1,23 @@
+uuid: d4e38b2f-9f2c-53be-ac35-42ed801eb7e0
+slug: voolt3d-abs-aluminio-metalizado-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Alumínio Metalizado High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#c3ccd5ff'
+tags:
+- high_speed
+- imitates_metal
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-aluminio-metalizado-high-speed-premium/voolt3d-abs-aluminio-metalizado-high-speed-premium-0-21ded67a.jpg
+  type: unspecified

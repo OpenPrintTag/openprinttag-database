@@ -1,0 +1,22 @@
+uuid: 999829a3-e7a8-5fb5-8312-50a55b14d959
+slug: r3d-pla-magic-silk-blue-red
+brand:
+  slug: r3d
+name: PLA Magic Silk Blue-Red
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#d41754ff'
+- color_rgba: '#0086d6ff'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-magic-silk-blue-red/r3d-pla-magic-silk-blue-red-0-21bb1a32.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: d6720500-9da6-5e70-ba15-6cfbcff714bd
+slug: voolt3d-abs-verde-neon-high-speed-premium
+brand:
+  slug: voolt3d
+name: ABS Verde Neon High Speed Premium
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#9bff2eff'
+tags:
+- high_speed
+- neon
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 265
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/voolt3d/voolt3d-abs-verde-neon-high-speed-premium/voolt3d-abs-verde-neon-high-speed-premium-0-7bcdf635.jpg
+  type: unspecified

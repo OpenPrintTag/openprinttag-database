@@ -1,0 +1,26 @@
+uuid: 418de75c-a8a2-5cd5-aa84-c938ce12a5f3
+slug: siraya-tech-fibreheart-petg-cf-pro-hf-high-flow-black
+brand:
+  slug: siraya-tech
+name: Fibreheart™ PETG-CF Pro HF High Flow Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- high_speed
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.3
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-petg-cf-pro-hf-high-flow-black/siraya-tech-fibreheart-petg-cf-pro-hf-high-flow-black-0-68666953.jpg
+  type: unspecified

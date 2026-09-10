@@ -1,0 +1,21 @@
+uuid: bccdd27e-0866-53b1-a553-b283c14d8afb
+slug: polymaker-panchroma-satin-pla-purple
+brand:
+  slug: polymaker
+name: Panchroma™ Satin PLA Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9272c1ff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-satin-pla-purple/polymaker-panchroma-satin-pla-purple-0-b57de0a4.jpg
+  type: unspecified

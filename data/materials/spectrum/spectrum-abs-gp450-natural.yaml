@@ -6,10 +6,16 @@ name: ABS GP450™ Natural
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://spectrumfilaments.com/en/filament/abs-gp450/
 primary_color:
   color_rgba: '#f1e6b2ff'
 tags:
 - filtration_recommended
 properties:
   density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-abs-gp450-natural/spectrum-abs-gp450-natural-0-ad24e9fd.jpg
+  type: unspecified

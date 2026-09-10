@@ -6,10 +6,16 @@ name: smart ABS™ Dragon Red
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://spectrumfilaments.com/en/filament/smart-abs/
 primary_color:
   color_rgba: '#b7293eff'
 tags:
 - filtration_recommended
 properties:
   density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-smart-abs-dragon-red/spectrum-smart-abs-dragon-red-0-af329cbb.jpg
+  type: unspecified

@@ -9,8 +9,16 @@ abbreviation: PA12
 primary_color:
   color_rgba: '#f2efe9ff'
 tags:
-- without_pigments
+  - without_pigments
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-natural/1faf17c7106f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fiberlogy/fiberlogy-nylon-pa12-natural/1faf17c7106f.png
+    type: unspecified
+properties:
+  density: 1.01
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 240

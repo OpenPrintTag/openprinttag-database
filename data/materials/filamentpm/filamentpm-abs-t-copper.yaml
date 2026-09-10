@@ -1,0 +1,22 @@
+uuid: 022428c0-a3fc-577c-92c6-2be5521ab4bc
+slug: filamentpm-abs-t-copper
+brand:
+  slug: filamentpm
+name: ABS-T - Copper
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#8d4931ff'
+tags:
+- high_temperature
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-abs-t-copper/filamentpm-abs-t-copper-0-0d693ebe.jpg
+  type: unspecified

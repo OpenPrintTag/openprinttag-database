@@ -1,0 +1,23 @@
+uuid: 4d9b95bd-2145-5f0c-8f8b-5ad1943840dc
+slug: fiberlogy-fibersilk-pla-light-green
+brand:
+  slug: fiberlogy
+name: FiberSilk PLA Light Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b3df3aff'
+tags:
+- silk
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 40
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-fibersilk-pla-light-green/fiberlogy-fibersilk-pla-light-green-0-81311839.jpg
+  type: unspecified

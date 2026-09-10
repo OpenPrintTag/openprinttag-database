@@ -1,0 +1,21 @@
+uuid: 36f9e3fc-42e7-5af4-842d-6891b7c7541b
+slug: r3d-pla-high-speed-matte-azure-blue
+brand:
+  slug: r3d
+name: PLA High-Speed Matte Azure Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#05c3deff'
+tags:
+- high_speed
+- matte
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/r3d/r3d-pla-high-speed-matte-azure-blue/r3d-pla-high-speed-matte-azure-blue-0-601586af.jpg
+  type: unspecified

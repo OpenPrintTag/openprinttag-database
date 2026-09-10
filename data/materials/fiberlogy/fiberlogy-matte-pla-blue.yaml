@@ -1,0 +1,23 @@
+uuid: 987e9d79-fc22-537d-9463-1a9d2c4a5052
+slug: fiberlogy-matte-pla-blue
+brand:
+  slug: fiberlogy
+name: Matte PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0079a7ff'
+tags:
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-matte-pla-blue/fiberlogy-matte-pla-blue-0-d43dd79c.jpg
+  type: unspecified

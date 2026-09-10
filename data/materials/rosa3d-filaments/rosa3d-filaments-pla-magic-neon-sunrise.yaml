@@ -1,0 +1,30 @@
+uuid: 9ed9060b-5b59-50e7-a8d4-7626fbb422f4
+slug: rosa3d-filaments-pla-magic-neon-sunrise
+brand:
+  slug: rosa3d-filaments
+name: PLA Magic Neon Sunrise
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ebff57ff'
+  color_lab:
+  - 95.94
+  - -27.26
+  - 74.62
+- color_rgba: '#ff4f4dff'
+  color_lab:
+  - 59.34
+  - 66.06
+  - 39.91
+tags:
+- coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-neon-sunrise/rosa3d-filaments-pla-magic-neon-sunrise-0-6cffa700.jpg
+  type: unspecified

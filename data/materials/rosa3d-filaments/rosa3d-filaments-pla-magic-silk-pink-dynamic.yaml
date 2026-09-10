@@ -6,12 +6,26 @@ name: PLA Magic Silk Pink Dynamic
 class: FFF
 type: PLA
 abbreviation: PLA
-url: https://www.rosa3d.pl/en/filament-3d-pla-magic-silk-pink-dynamic
 secondary_colors:
 - color_rgba: '#fd64b3ff'
+  color_lab:
+  - 64.37
+  - 65.66
+  - -11.78
 - color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
 tags:
-- coextruded
 - silk
-- industrially_compostable
-properties: {}
+- coextruded
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-magic-silk-pink-dynamic/rosa3d-filaments-pla-magic-silk-pink-dynamic-0-e8456a51.png
+  type: unspecified

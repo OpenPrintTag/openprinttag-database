@@ -1,0 +1,25 @@
+uuid: 449af14f-2a3b-5c1b-bfe3-aaa9ed3d9021
+slug: rosa3d-filaments-pla-starter-tanned-skin
+brand:
+  slug: rosa3d-filaments
+name: PLA Starter Tanned Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e18b68ff'
+  color_lab:
+  - 66.12
+  - 29.24
+  - 32.45
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 250
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-starter-tanned-skin/rosa3d-filaments-pla-starter-tanned-skin-0-f8c7873e.jpg
+  type: unspecified

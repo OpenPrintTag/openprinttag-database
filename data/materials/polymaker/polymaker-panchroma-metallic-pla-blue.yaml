@@ -7,12 +7,17 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#1e2f5aff'
+  color_rgba: '#2c3449ff'
 tags:
-- glitter
-- silk
-- industrially_compostable
+  - glitter
+  - imitates_metal
 photos:
-- url: https://files.openprinttag.org/polymaker/polymaker-panchroma-metallic-pla-blue/1cfb8eeb495e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/polymaker/polymaker-panchroma-metallic-pla-blue/1cfb8eeb495e.png
+    type: unspecified
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360

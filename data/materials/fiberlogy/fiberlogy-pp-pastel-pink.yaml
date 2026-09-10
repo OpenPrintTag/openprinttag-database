@@ -1,0 +1,19 @@
+uuid: fc4b1c83-33c8-54d5-be53-09c81665e61b
+slug: fiberlogy-pp-pastel-pink
+brand:
+  slug: fiberlogy
+name: PP Pastel Pink
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#eb9eb7ff'
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-pp-pastel-pink/fiberlogy-pp-pastel-pink-0-13b03c86.jpg
+  type: unspecified

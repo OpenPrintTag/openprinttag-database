@@ -6,10 +6,16 @@ name: smart ABS™ Bahama Yellow
 class: FFF
 type: ABS
 abbreviation: ABS
-url: https://spectrumfilaments.com/en/filament/smart-abs/
 primary_color:
   color_rgba: '#e8bd00ff'
 tags:
 - filtration_recommended
 properties:
   density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 255
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/spectrum/spectrum-smart-abs-bahama-yellow/spectrum-smart-abs-bahama-yellow-0-66b1b33c.jpg
+  type: unspecified

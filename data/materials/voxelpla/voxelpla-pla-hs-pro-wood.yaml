@@ -1,0 +1,22 @@
+uuid: c8142d3a-ac2c-5064-99a9-f79818e0d2a7
+slug: voxelpla-pla-hs-pro-wood
+brand:
+  slug: voxelpla
+name: PLA+ HS (Pro) Wood
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dbc9adff'
+tags:
+- industrially_compostable
+- high_speed
+photos:
+- url: https://files.openprinttag.org/voxel-pla/voxel-pla-pla-hs-pro-wood/75e0ea69f089.png
+  type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 200
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60

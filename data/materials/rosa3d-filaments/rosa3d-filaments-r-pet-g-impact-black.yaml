@@ -6,9 +6,22 @@ name: R-PET-G Impact Black
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.rosa3d.pl/en/filament-3d-refill-r-pet-g-impact-black
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
 tags:
 - recycled
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-r-pet-g-impact-black/rosa3d-filaments-r-pet-g-impact-black-0-5eb6a37b.png
+  type: unspecified

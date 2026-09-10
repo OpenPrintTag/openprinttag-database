@@ -1,0 +1,28 @@
+uuid: 462f7880-bf59-54d0-aa40-e03fc82ded6d
+slug: siraya-tech-fibreheart-abs-gf-black
+brand:
+  slug: siraya-tech
+name: Fibreheart ABS-GF Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#020203ff'
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  density: 1.08
+  hardness_shore_d: 82.0
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  chamber_temperature: 50
+  drying_temperature: 65
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-fibreheart-abs-gf-black/siraya-tech-fibreheart-abs-gf-black-0-f647231a.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 024be64c-e2d2-5ed5-9c03-398c9e9a708c
+slug: fusion-filaments-silk-satin-pla-pistachio
+brand:
+  slug: fusion-filaments
+name: Silk/Satin PLA Pistachio
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9dba53ff'
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-silk-satin-pla-pistachio/fusion-filaments-silk-satin-pla-pistachio-0-09f808a0.jpg
+  type: unspecified

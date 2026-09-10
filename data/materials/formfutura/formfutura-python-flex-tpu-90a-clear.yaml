@@ -9,9 +9,13 @@ abbreviation: TPU
 primary_color:
   color_rgba: '#e4e7e5ff'
 tags:
-- transparent
+  - transparent
 photos:
-- url: https://files.openprinttag.org/formfutura/formfutura-python-flex-tpu-90a-clear/19cbe8ebb64b.png
-  type: unspecified
+  - url: https://files.openprinttag.org/formfutura/formfutura-python-flex-tpu-90a-clear/19cbe8ebb64b.png
+    type: unspecified
 properties:
-  hardness_shore_a: 90
+  density: 1.22
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 60

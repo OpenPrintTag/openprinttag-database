@@ -1,0 +1,23 @@
+uuid: 2c32654c-a0d9-5eda-bca4-3cdd92367368
+slug: fiberlogy-petg-matte-black
+brand:
+  slug: fiberlogy
+name: PETG Matte Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- matte
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+  drying_temperature: 60
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/fiberlogy/fiberlogy-petg-matte-black/fiberlogy-petg-matte-black-0-2a1ac23d.png
+  type: unspecified

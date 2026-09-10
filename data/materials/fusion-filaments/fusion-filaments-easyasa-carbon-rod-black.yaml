@@ -1,0 +1,20 @@
+uuid: c4d3d868-e1bf-5bbb-9ed7-09f75360d4c5
+slug: fusion-filaments-easyasa-carbon-rod-black
+brand:
+  slug: fusion-filaments
+name: EasyASA Carbon Rod Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#070908ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  max_print_temperature: 275
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/fusion-filaments/fusion-filaments-easyasa-carbon-rod-black/fusion-filaments-easyasa-carbon-rod-black-0-2ea323e2.jpg
+  type: unspecified

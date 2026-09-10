@@ -1,0 +1,48 @@
+uuid: 0ee36a26-ba2c-5793-b20a-eaf8e24bde30
+slug: rosa3d-filaments-pla-rainbow-silk
+brand:
+  slug: rosa3d-filaments
+name: PLA Rainbow Silk
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#75c8ceff'
+  color_lab:
+  - 75.79
+  - -23.69
+  - -10.9
+- color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
+- color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#e4d77eff'
+  color_lab:
+  - 85.3
+  - -7.58
+  - 45.35
+- color_rgba: '#d8988cff'
+  color_lab:
+  - 68.72
+  - 22.46
+  - 15.93
+tags:
+- silk
+- gradual_color_change
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240
+photos:
+- url: https://files.openprinttag.org/rosa3d-filaments/rosa3d-filaments-pla-rainbow-silk/rosa3d-filaments-pla-rainbow-silk-0-14bd88f1.png
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: b808e1a7-3373-5cd4-829b-0f86e896a929
+slug: siraya-tech-flex-tpu-64d-black
+brand:
+  slug: siraya-tech
+name: Flex TPU 64D Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#020203ff'
+properties:
+  density: 1.23
+  hardness_shore_d: 64.0
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+  drying_temperature: 60
+  drying_time: 360
+photos:
+- url: https://files.openprinttag.org/siraya-tech/siraya-tech-flex-tpu-64d-black/siraya-tech-flex-tpu-64d-black-0-3b65991b.jpg
+  type: unspecified
