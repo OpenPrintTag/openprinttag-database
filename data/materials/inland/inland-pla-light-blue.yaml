@@ -10,12 +10,12 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#8ed9f9ff'
 tags:
-  - industrially_compostable
+- industrially_compostable
 photos:
-  - url: https://productimages.microcenter.com/512938_834705_02_front_zoom.jpg
-    type: package
-  - url: https://productimages.microcenter.com/512938_834705_04_front_zoom.jpg
-    type: print
+- url: /tmp/assets/inland/inland-pla-light-blue/51293883470502frontcomping.jpg
+  type: package
+- url: /tmp/assets/inland/inland-pla-light-blue/51293883470504frontcomping.jpg
+  type: print
 properties:
   density: 1.24
   min_print_temperature: 190

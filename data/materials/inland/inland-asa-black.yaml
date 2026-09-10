@@ -10,13 +10,13 @@ abbreviation: ASA
 primary_color:
   color_rgba: '#17161aff'
 tags:
-  - filtration_recommended
+- filtration_recommended
 certifications: []
 photos:
-  - url: https://productimages.microcenter.com/633294_230623_02_front_zoom.jpg
-    type: package
-  - url: https://productimages.microcenter.com/633294_230623_04_front_zoom.jpg
-    type: print
+- url: /tmp/assets/inland/inland-asa-black/63329423062302frontcomping.jpg
+  type: package
+- url: /tmp/assets/inland/inland-asa-black/63329423062304frontcomping.jpg
+  type: print
 properties:
   density: 1.1
   min_print_temperature: 240
@@ -25,3 +25,4 @@ properties:
   max_bed_temperature: 90
   drying_temperature: 70
   drying_time: 420
+url: ''

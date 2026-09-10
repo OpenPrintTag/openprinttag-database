@@ -10,13 +10,13 @@ abbreviation: PLA
 primary_color:
   color_rgba: '#69a9c2ff'
 tags:
-  - translucent
-  - gradual_color_change
+- translucent
+- gradual_color_change
 photos:
-  - url: https://productimages.microcenter.com/674663_646182_02_front_zoom.jpg
-    type: package
-  - url: https://productimages.microcenter.com/674663_646182_04_front_zoom.jpg
-    type: print
+- url: /tmp/assets/inland/inland-pla-winter-transluscent-blue-white/67466364618202frontcomping.jpg
+  type: package
+- url: /tmp/assets/inland/inland-pla-winter-transluscent-blue-white/67466364618204frontcomping.jpg
+  type: print
 properties:
   density: 1.25
   min_print_temperature: 190

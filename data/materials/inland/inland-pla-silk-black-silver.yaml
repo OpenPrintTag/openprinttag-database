@@ -8,13 +8,13 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-  - color_rgba: '#161619ff'
-  - color_rgba: '#bcc2c8ff'
+- color_rgba: '#161619ff'
+- color_rgba: '#bcc2c8ff'
 tags:
-  - silk
-  - coextruded
+- silk
+- coextruded
 photos:
-- url: https://productimages.microcenter.com/650245_412551_03_front_zoom.jpg
+- url: /tmp/assets/inland/inland-pla-silk-black-silver/65024541255103frontcomping.jpg
   type: package
 properties:
   density: 1.24
