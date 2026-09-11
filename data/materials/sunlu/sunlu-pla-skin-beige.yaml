@@ -13,4 +13,6 @@ tags:
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-pla-skin-beige/ebc93fbaea1b.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 240
