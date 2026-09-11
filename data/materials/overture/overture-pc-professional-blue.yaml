@@ -11,4 +11,10 @@ primary_color:
 photos:
 - url: https://files.openprinttag.org/overture/overture-pc-professional-blue/48f856d4d500.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  drying_temperature: 75
+  drying_time: 420

@@ -18,4 +18,10 @@ tags:
 photos:
 - url: https://files.openprinttag.org/overture/overture-easy-pla-glow-red/3c568c60018b.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 420
