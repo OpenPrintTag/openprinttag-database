@@ -13,4 +13,8 @@ tags:
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-abs-white/cca894c80a54.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100

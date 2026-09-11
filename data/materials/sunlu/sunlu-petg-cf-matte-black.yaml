@@ -15,4 +15,8 @@ tags:
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-petg-cf-matte-black/cd49e6ee7799.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
