@@ -16,4 +16,8 @@ tags:
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-pla-silk-dual-color-pink-gold/5272d5d16fed.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 65

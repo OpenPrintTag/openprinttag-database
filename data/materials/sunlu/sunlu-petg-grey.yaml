@@ -11,4 +11,8 @@ primary_color:
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-petg-grey/f40c37fc7c89.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 70
