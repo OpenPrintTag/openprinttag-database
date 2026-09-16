@@ -1,0 +1,23 @@
+uuid: d1a7325d-f00b-5fc5-96d2-a8ae834485e2
+slug: prusament-pla-lightweight-coral-orange
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA Lightweight Coral Orange
+abbreviation: PLA
+properties:
+  density: 1.18
+  min_print_temperature: 215
+  max_print_temperature: 245
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#ff7041ff'
+tags:
+- foaming
+- blend

@@ -1,0 +1,24 @@
+uuid: 048b8b8b-5de0-5d3b-91d5-3104a84993d6
+slug: prusament-pla-lightweight-natural
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA Lightweight Natural
+abbreviation: PLA
+properties:
+  density: 1.18
+  min_print_temperature: 215
+  max_print_temperature: 245
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#f9f8f6ff'
+tags:
+- foaming
+- blend
+- without_pigments

@@ -1,0 +1,23 @@
+uuid: b1feca5c-55d0-5c11-b168-965ce62d164a
+slug: prusament-pla-lightweight-army-green
+brand:
+  slug: prusament
+class: FFF
+type: PLA
+name: PLA Lightweight Army Green
+abbreviation: PLA
+properties:
+  density: 1.18
+  min_print_temperature: 215
+  max_print_temperature: 245
+  preheat_temperature: 170
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  chamber_temperature: 20
+  min_chamber_temperature: 18
+  max_chamber_temperature: 40
+primary_color:
+  color_rgba: '#524f2fff'
+tags:
+- foaming
+- blend
