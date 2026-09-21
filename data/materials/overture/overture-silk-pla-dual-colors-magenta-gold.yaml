@@ -16,4 +16,10 @@ tags:
 photos:
 - url: https://files.openprinttag.org/overture/overture-silk-pla-dual-colors-magenta-gold/c02cb256b2ed.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 420

@@ -10,4 +10,10 @@ primary_color:
   color_rgba: '#edf0f2ff'
 tags:
 - imitates_marble
-properties: {}
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 300

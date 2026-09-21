@@ -13,4 +13,10 @@ tags:
 photos:
 - url: https://files.openprinttag.org/overture/overture-petg-transparent-green/f59106cc846e.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 300

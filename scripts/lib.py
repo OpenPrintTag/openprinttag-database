@@ -8,6 +8,9 @@ from pathlib import Path
 from typing import Any, Dict
 import yaml
 
+# libyaml parser when available: several times faster than the pure Python one
+_LOADER = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+
 
 class DatabaseLoader:
     """Loads entity data from YAML files"""
@@ -31,6 +34,10 @@ class DatabaseLoader:
         'material_containers': {
             'directory': 'data/material-containers',
             'primary_key': 'slug',
+        },
+        'wash_media': {
+            'directory': 'data/wash-media',
+            'primary_key': 'slug',
             'subdirectories_by_brand': True,
         },
     }
@@ -52,8 +59,8 @@ class DatabaseLoader:
     def load_yaml_file(self, path: Path) -> Any:
         """Load a YAML file"""
         try:
-            with open(path, 'r') as f:
-                return yaml.safe_load(f)
+            with open(path, 'r', encoding='utf-8') as f:
+                return yaml.load(f, Loader=_LOADER)
         except Exception as e:
             self.errors.append(f"Failed to parse YAML {path}: {e}")
             return None

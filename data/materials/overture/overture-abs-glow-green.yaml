@@ -18,4 +18,10 @@ tags:
 photos:
 - url: https://files.openprinttag.org/overture/overture-abs-glow-green/ae1a7176abb5.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 245
+  max_print_temperature: 265
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 75
+  drying_time: 420

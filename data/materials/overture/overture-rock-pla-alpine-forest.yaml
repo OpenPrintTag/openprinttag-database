@@ -13,4 +13,10 @@ secondary_colors:
 tags:
 - gradual_color_change
 - industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 50
+  drying_time: 420
