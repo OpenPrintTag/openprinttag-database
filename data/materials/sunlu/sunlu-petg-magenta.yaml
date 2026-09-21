@@ -1,16 +1,13 @@
-uuid: 22febd4f-e572-5341-8d46-b8adfe8090ac
-slug: sunlu-petg-white
+uuid: f28b0133-680f-574f-94bc-7c9c623148eb
+slug: sunlu-petg-magenta
 brand:
   slug: sunlu
-name: PETG White
+name: PETG Magenta
 class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#ffffffff'
-photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-petg-white/b1c0feaecd9b.jpg
-  type: unspecified
+  color_rgba: '#c52e79ff'
 properties:
   density: 1.27
   hardness_shore_d: 80

@@ -1,16 +1,13 @@
-uuid: 22febd4f-e572-5341-8d46-b8adfe8090ac
-slug: sunlu-petg-white
+uuid: 2c2eaf2a-b127-55dc-9aa5-769a052f8527
+slug: sunlu-petg-cyan
 brand:
   slug: sunlu
-name: PETG White
+name: PETG Cyan
 class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#ffffffff'
-photos:
-- url: https://files.openprinttag.org/sunlu/sunlu-petg-white/b1c0feaecd9b.jpg
-  type: unspecified
+  color_rgba: '#00a3e0ff'
 properties:
   density: 1.27
   hardness_shore_d: 80
