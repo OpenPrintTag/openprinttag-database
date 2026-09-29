@@ -8,9 +8,20 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#eadac2ff'
+  color_lab:
+    - 87.74
+    - 1.64
+    - 13.8
 tags:
-- without_pigments
+  - without_pigments
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-asa-natural/pasted-image-1743249643239.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-asa-natural/pasted-image-1743249643239.png
+    type: unspecified
+properties:
+  density: 1.17
+  hardness_shore_d: 81.5
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110

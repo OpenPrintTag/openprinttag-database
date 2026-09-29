@@ -1,0 +1,24 @@
+uuid: f72558a0-ec5a-53f8-af74-8704df9246df
+slug: smart-materials-3d-pla-matte-indian-orange
+brand:
+  slug: smart-materials-3d
+name: PLA MATTE Indian Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9a14ff'
+  color_lab:
+  - 72.51
+  - 29.83
+  - 74.65
+tags:
+- matte
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-matte-indian-orange/smart-materials-3d-pla-matte-indian-orange-0-9f44e6fa.jpg
+  type: unspecified

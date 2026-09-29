@@ -1,0 +1,26 @@
+uuid: dfb17d78-fb93-5443-b886-b68854c2bb39
+slug: smart-materials-3d-innovatefil-paht-cf-true-black
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® PAHT CF True black
+class: FFF
+abbreviation: PACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.25
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-paht-cf-true-black/smart-materials-3d-innovatefil-paht-cf-true-black-0-f3017dba.png
+  type: unspecified

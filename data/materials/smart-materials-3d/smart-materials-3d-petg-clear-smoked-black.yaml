@@ -1,0 +1,25 @@
+uuid: ed9980d6-5b3c-553f-9f15-dacaf67b26a8
+slug: smart-materials-3d-petg-clear-smoked-black
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Smoked Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#141414ff'
+  color_lab:
+  - 6.32
+  - 0.0
+  - 0.0
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-petg-clear-smoked-black/smart-materials-3d-petg-clear-smoked-black-0-9ba5057d.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: dbf8a924-acb2-5e94-b827-5c920b7798e0
+slug: smart-materials-3d-pla-matte-yellow-butter
+brand:
+  slug: smart-materials-3d
+name: PLA MATTE Yellow Butter
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fff5b3ff'
+  color_lab:
+  - 95.92
+  - -6.38
+  - 33.06
+tags:
+- matte
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-matte-yellow-butter/smart-materials-3d-pla-matte-yellow-butter-0-a56df1ec.jpg
+  type: unspecified

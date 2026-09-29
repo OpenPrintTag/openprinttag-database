@@ -1,0 +1,25 @@
+uuid: 28fe1ba5-b36a-5888-98e0-f6b210cd3701
+slug: smart-materials-3d-petg-clear-pure-green
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Pure Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#008522ff'
+  color_lab:
+  - 48.12
+  - -51.26
+  - 42.36
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-petg-clear-pure-green/smart-materials-3d-petg-clear-pure-green-0-2e3ecf3b.jpg
+  type: unspecified

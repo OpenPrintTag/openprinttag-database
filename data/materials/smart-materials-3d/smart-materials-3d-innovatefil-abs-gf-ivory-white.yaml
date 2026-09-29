@@ -1,0 +1,27 @@
+uuid: 70815d65-cff5-5c72-96f5-4bbba48e2954
+slug: smart-materials-3d-innovatefil-abs-gf-ivory-white
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® ABS GF Ivory White
+class: FFF
+type: ABS
+abbreviation: ABSGF
+primary_color:
+  color_rgba: '#e8e5cdff'
+  color_lab:
+  - 90.6
+  - -3.02
+  - 12.07
+tags:
+- contains_glass_fiber
+- abrasive
+- contains_glass
+- filtration_recommended
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-abs-gf-ivory-white/smart-materials-3d-innovatefil-abs-gf-ivory-white-0-3f85305b.jpg
+  type: unspecified

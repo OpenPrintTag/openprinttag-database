@@ -1,0 +1,25 @@
+uuid: d32e1ddb-fd50-5637-abda-cd8603b11e9b
+slug: smart-materials-3d-petg-clear-himalaya-blue
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Himalaya Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#5ac2b3ff'
+  color_lab:
+  - 72.23
+  - -33.79
+  - -1.62
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-petg-clear-himalaya-blue/smart-materials-3d-petg-clear-himalaya-blue-0-e39b225b.jpg
+  type: unspecified

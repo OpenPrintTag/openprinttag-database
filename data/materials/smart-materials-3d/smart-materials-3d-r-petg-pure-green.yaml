@@ -1,0 +1,25 @@
+uuid: eae540f6-0662-5eaa-98f8-c6bbdaab0b2d
+slug: smart-materials-3d-r-petg-pure-green
+brand:
+  slug: smart-materials-3d
+name: R-PETG Pure Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#008522ff'
+  color_lab:
+  - 48.12
+  - -51.26
+  - 42.36
+tags:
+- recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-r-petg-pure-green/smart-materials-3d-r-petg-pure-green-0-03f9d6d3.jpg
+  type: unspecified

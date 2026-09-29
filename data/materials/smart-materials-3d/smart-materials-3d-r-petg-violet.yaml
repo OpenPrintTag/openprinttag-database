@@ -1,0 +1,25 @@
+uuid: eba2434d-231a-531d-95e3-4922374fdb7c
+slug: smart-materials-3d-r-petg-violet
+brand:
+  slug: smart-materials-3d
+name: R-PETG Violet
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#7659b5ff'
+  color_lab:
+  - 44.71
+  - 32.64
+  - -44.81
+tags:
+- recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-r-petg-violet/smart-materials-3d-r-petg-violet-0-56d7f0b9.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 9e56e0f1-a4ee-51b6-8dcf-8bd107377105
+slug: smart-materials-3d-pla-matte-lemon-lime
+brand:
+  slug: smart-materials-3d
+name: PLA MATTE Lemon Lime
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b6ff43ff'
+  color_lab:
+  - 92.52
+  - -48.42
+  - 77.01
+tags:
+- matte
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-matte-lemon-lime/smart-materials-3d-pla-matte-lemon-lime-0-d711a6be.jpg
+  type: unspecified

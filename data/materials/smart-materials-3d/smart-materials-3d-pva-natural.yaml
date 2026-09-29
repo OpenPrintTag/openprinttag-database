@@ -8,9 +8,16 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#f1e6b2ff'
+  color_lab:
+    - 91.01
+    - -4.19
+    - 26.74
 tags:
-- without_pigments
+  - without_pigments
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pva-natural/0b73b63dece6.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pva-natural/0b73b63dece6.png
+    type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 190
+  max_print_temperature: 205

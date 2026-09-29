@@ -8,9 +8,17 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
-tags:
-- industrially_compostable
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-ep-easy-print-true-black/71b1b0681c67.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-ep-easy-print-true-black/71b1b0681c67.png
+    type: unspecified
+properties:
+  density: 1.29
+  hardness_shore_d: 89.4
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 30
+  max_bed_temperature: 60

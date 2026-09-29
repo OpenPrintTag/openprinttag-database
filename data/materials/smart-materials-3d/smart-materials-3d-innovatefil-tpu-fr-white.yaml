@@ -1,0 +1,26 @@
+uuid: b9e61c14-94a3-587f-9e01-58c38ecad3e6
+slug: smart-materials-3d-innovatefil-tpu-fr-white
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® TPU FR White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+tags:
+- self_extinguishing
+properties:
+  density: 1.21
+  hardness_shore_a: 87.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-tpu-fr-white/smart-materials-3d-innovatefil-tpu-fr-white-0-d53ef76e.jpg
+  type: unspecified

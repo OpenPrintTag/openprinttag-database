@@ -8,9 +8,18 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#fbe200ff'
+  color_lab:
+    - 89.35
+    - -9.14
+    - 88.69
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-abs-orinoco/e1cf32b2e547.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-abs-orinoco/e1cf32b2e547.png
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110

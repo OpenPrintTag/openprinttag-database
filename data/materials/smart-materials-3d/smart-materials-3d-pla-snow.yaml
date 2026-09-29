@@ -8,9 +8,17 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#eaecf5ff'
-tags:
-- industrially_compostable
+  color_lab:
+    - 93.48
+    - 0.97
+    - -4.57
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-snow/05b0f1e48538.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-snow/05b0f1e48538.png
+    type: unspecified
+properties:
+  density: 1.24
+  hardness_shore_d: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

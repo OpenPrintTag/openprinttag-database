@@ -8,7 +8,17 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#40b6e4ff'
+  color_lab:
+    - 69.57
+    - -17.99
+    - -32.48
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-93a-sapphire/9f082297c5e8.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-93a-sapphire/9f082297c5e8.png
+    type: unspecified
+properties:
+  density: 1.21
+  hardness_shore_a: 93.0
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60

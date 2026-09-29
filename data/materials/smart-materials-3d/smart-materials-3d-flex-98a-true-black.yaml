@@ -8,8 +8,17 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-98a-true-black/a8f1d729c724.png
-  type: unspecified
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-98a-true-black/a8f1d729c724.png
+    type: unspecified
 properties:
-  hardness_shore_a: 98
+  density: 1.09
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 0
+  max_bed_temperature: 60

@@ -1,0 +1,26 @@
+uuid: fa4cfbd0-d3ff-58af-adf1-2c5c8f845c9a
+slug: smart-materials-3d-pla-recycled-lilac
+brand:
+  slug: smart-materials-3d
+name: PLA RECYCLED Lilac
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d3c6ffff'
+  color_lab:
+  - 82.62
+  - 15.65
+  - -26.3
+tags:
+- recycled
+properties:
+  density: 1.24
+  hardness_shore_d: 85.4
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-recycled-lilac/smart-materials-3d-pla-recycled-lilac-0-d24df2ed.jpg
+  type: unspecified

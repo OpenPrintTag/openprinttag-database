@@ -1,0 +1,20 @@
+uuid: b7efe862-4aeb-5f08-8b67-e7ae9324a75e
+slug: smart-materials-3d-cork
+brand:
+  slug: smart-materials-3d
+name: CORK
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- contains_cork
+properties:
+  density: 1.05
+  hardness_shore_d: 81.0
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-cork/smart-materials-3d-cork-0-ddb6de86.jpg
+  type: unspecified

@@ -7,10 +7,18 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#214327ff'
-tags:
-- industrially_compostable
+  color_rgba: '#00554eff'
+  color_lab:
+    - 31.91
+    - -24.0
+    - -2.27
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-jade/78e0c293e57c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-jade/78e0c293e57c.png
+    type: unspecified
+properties:
+  density: 1.24
+  hardness_shore_d: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
