@@ -7,8 +7,19 @@ class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#f3b400ff'
+  color_rgba: '#ff9b00ff'
+  color_lab:
+    - 72.7
+    - 29.13
+    - 77.5
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-petg-melon-yellow/21feaa10bd2f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-petg-melon-yellow/21feaa10bd2f.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+  drying_time: 240

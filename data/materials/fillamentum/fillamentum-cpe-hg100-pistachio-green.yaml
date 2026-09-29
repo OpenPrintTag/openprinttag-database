@@ -8,7 +8,18 @@ type: CPE
 abbreviation: CPE
 primary_color:
   color_rgba: '#bbdb4bff'
+  color_lab:
+    - 82.77
+    - -30.09
+    - 64.56
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-cpe-hg100-pistachio-green/2142242a5c1f.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-cpe-hg100-pistachio-green/2142242a5c1f.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 75
+  drying_time: 300

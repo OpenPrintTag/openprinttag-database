@@ -7,8 +7,19 @@ class: FFF
 type: CPE
 abbreviation: CPE
 primary_color:
-  color_rgba: '#4f7bbbff'
+  color_rgba: '#617fccff'
+  color_lab:
+    - 54.11
+    - 11.24
+    - -43.22
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-cpe-hg100-ufo-blue-metallic/930f8750f634.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-cpe-hg100-ufo-blue-metallic/930f8750f634.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 75
+  drying_time: 300

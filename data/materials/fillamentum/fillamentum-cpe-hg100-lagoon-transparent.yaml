@@ -8,9 +8,20 @@ type: CPE
 abbreviation: CPE
 primary_color:
   color_rgba: '#00b4bcff'
+  color_lab:
+    - 66.73
+    - -34.54
+    - -14.92
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-cpe-hg100-lagoon-transparent/c0e54630a9b2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-cpe-hg100-lagoon-transparent/c0e54630a9b2.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 75
+  drying_time: 300

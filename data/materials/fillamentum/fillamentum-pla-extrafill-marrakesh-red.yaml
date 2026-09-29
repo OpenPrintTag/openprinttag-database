@@ -1,0 +1,27 @@
+uuid: 988600ad-0df2-5bfb-af42-e6bfbfacf5fd
+slug: fillamentum-pla-extrafill-marrakesh-red
+brand:
+  slug: fillamentum
+name: PLA Extrafill "Marrakesh Red"
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a6432bff'
+  color_lab:
+    - 41.69
+    - 39.39
+    - 34.67
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180
+photos:
+  - url: /tmp/assets/fillamentum-pla-extrafill-marrakesh-red-0-5816c71a.jpg
+    type: unspecified

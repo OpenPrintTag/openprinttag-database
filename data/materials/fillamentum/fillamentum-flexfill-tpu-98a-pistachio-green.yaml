@@ -7,9 +7,21 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#bbdb4bff'
+  color_rgba: '#a0fd62ff'
+  color_lab:
+    - 91.05
+    - -52.96
+    - 63.77
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-flexfill-tpu-98a-pistachio-green/2452cec41b69.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-flexfill-tpu-98a-pistachio-green/2452cec41b69.png
+    type: unspecified
 properties:
-  hardness_shore_a: 98
+  density: 1.23
+  hardness_shore_d: 60.0
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 100
+  drying_time: 180

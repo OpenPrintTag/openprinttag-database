@@ -8,10 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
 tags:
-- translucent
-- industrially_compostable
+  - translucent
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-pla-crystal-clear/538daf4b5c57.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-pla-crystal-clear/538daf4b5c57.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 240

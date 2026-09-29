@@ -8,9 +8,20 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#96511aff'
+  color_lab:
+    - 41.92
+    - 24.75
+    - 42.62
 tags:
-- glitter
+  - glitter
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-petg-copper-with-me/4ea2dc4ade12.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-petg-copper-with-me/4ea2dc4ade12.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+  drying_time: 240

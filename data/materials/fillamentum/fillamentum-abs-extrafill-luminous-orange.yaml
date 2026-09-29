@@ -8,9 +8,20 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#f47d59ff'
+  color_lab:
+    - 65.46
+    - 42.73
+    - 40.26
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-abs-extrafill-luminous-orange/9377c3753697.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-abs-extrafill-luminous-orange/9377c3753697.png
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 105
+  drying_temperature: 80
+  drying_time: 120

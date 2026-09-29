@@ -8,10 +8,22 @@ type: PEBA
 abbreviation: PEBA
 primary_color:
   color_rgba: '#2c3294ff'
+  color_lab:
+    - 26.6
+    - 31.04
+    - -54.59
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-flexfill-peba-90a-blue-transparent/d673eda77881.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-flexfill-peba-90a-blue-transparent/d673eda77881.png
+    type: unspecified
 properties:
-  hardness_shore_a: 90
+  density: 1.0
+  hardness_shore_d: 42.0
+  hardness_shore_a: 90.0
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 300

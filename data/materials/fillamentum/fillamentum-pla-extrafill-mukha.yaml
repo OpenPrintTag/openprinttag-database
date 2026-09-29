@@ -8,10 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#caac78ff'
+  color_lab:
+    - 71.84
+    - 3.73
+    - 30.79
 tags:
-- imitates_marble
-- industrially_compostable
+  - imitates_marble
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-mukha/f21276c2889d.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-mukha/f21276c2889d.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180

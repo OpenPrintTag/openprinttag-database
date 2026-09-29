@@ -8,9 +8,20 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#40b6e4ff'
+  color_lab:
+    - 69.57
+    - -17.99
+    - -32.48
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-abs-extrafill-sky-blue/45b252e1dd92.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-abs-extrafill-sky-blue/45b252e1dd92.png
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 105
+  drying_temperature: 80
+  drying_time: 120

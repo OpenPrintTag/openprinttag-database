@@ -1,0 +1,25 @@
+uuid: 9681011a-d546-5f5c-8f2e-17bf92883677
+slug: fillamentum-nonoilen-dark-stone
+brand:
+  slug: fillamentum
+name: NonOilen® "Dark Stone"
+class: FFF
+type: PLA
+abbreviation: PLAPHB
+primary_color:
+  color_rgba: '#3a3f47ff'
+  color_lab:
+    - 26.48
+    - -0.09
+    - -5.58
+properties:
+  density: 1.2
+  hardness_shore_d: 71.0
+  min_print_temperature: 175
+  max_print_temperature: 195
+  max_bed_temperature: 50
+  drying_temperature: 70
+  drying_time: 120
+photos:
+  - url: /tmp/assets/fillamentum-nonoilen-dark-stone-0-28fe68a9.jpg
+    type: unspecified

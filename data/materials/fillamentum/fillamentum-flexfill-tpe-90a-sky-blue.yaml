@@ -8,8 +8,20 @@ type: TPE
 abbreviation: TPE
 primary_color:
   color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-flexfill-tpe-90a-sky-blue/64fabc3ae5d7.png
-  type: unspecified
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-flexfill-tpe-90a-sky-blue/64fabc3ae5d7.png
+    type: unspecified
 properties:
-  hardness_shore_a: 90
+  density: 1.15
+  hardness_shore_d: 30.0
+  hardness_shore_a: 90.0
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 80
+  drying_time: 120

@@ -1,0 +1,28 @@
+uuid: 2b17d88e-53ab-50fd-beae-7e870d69ec90
+slug: fillamentum-petg-hffr
+brand:
+  slug: fillamentum
+name: PETG HFFR
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f3f6e4ff'
+  color_lab:
+    - 96.23
+    - -4.09
+    - 8.31
+tags:
+  - self_extinguishing
+properties:
+  density: 1.26
+  hardness_shore_d: 75.0
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  drying_temperature: 65
+  drying_time: 240
+photos:
+  - url: /tmp/assets/fillamentum-petg-hffr-0-6dce2c1f.jpg
+    type: unspecified

@@ -8,10 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#835476ff'
+  color_lab:
+    - 41.96
+    - 25.09
+    - -11.26
 tags:
-- glitter
-- industrially_compostable
+  - glitter
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-vertigo-mystique/25da59d50cb5.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-vertigo-mystique/25da59d50cb5.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180

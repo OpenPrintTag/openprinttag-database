@@ -7,10 +7,22 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#41a840ff'
+  color_rgba: '#3e753bff'
+  color_lab:
+    - 44.32
+    - -30.96
+    - 26.36
+  color_ral: '6010'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-green-grass/d2f223864590.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-green-grass/d2f223864590.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180

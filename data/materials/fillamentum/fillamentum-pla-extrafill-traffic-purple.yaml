@@ -7,10 +7,22 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#b1407fff'
+  color_rgba: '#992572ff'
+  color_lab:
+    - 36.58
+    - 54.17
+    - -16.68
+  color_ral: '4006'
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-traffic-purple/318066649658.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-traffic-purple/318066649658.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180

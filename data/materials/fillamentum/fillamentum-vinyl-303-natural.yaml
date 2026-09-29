@@ -8,9 +8,22 @@ type: PVC
 abbreviation: PVC
 primary_color:
   color_rgba: '#f1e6b2ff'
+  color_lab:
+    - 91.01
+    - -4.19
+    - 26.74
 tags:
-- without_pigments
+  - without_pigments
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-vinyl-303-natural/dc989c5b7d82.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-vinyl-303-natural/dc989c5b7d82.png
+    type: unspecified
+properties:
+  density: 1.35
+  hardness_shore_d: 78.0
+  min_print_temperature: 215
+  max_print_temperature: 230
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+  drying_time: 120

@@ -1,0 +1,27 @@
+uuid: f2e0d83d-ad7f-5794-ad97-b1709d004c31
+slug: fillamentum-repetg-loopfill-traffic-red
+brand:
+  slug: fillamentum
+name: rePETG Loopfill "Traffic Red"
+class: FFF
+type: PETG
+abbreviation: RPETG
+primary_color:
+  color_rgba: '#b81b0eff'
+  color_lab:
+    - 39.6
+    - 58.95
+    - 48.18
+tags:
+  - recycled
+properties:
+  density: 1.27
+  hardness_shore_d: 80.0
+  min_print_temperature: 230
+  max_print_temperature: 275
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/fillamentum-repetg-loopfill-traffic-red-0-4e97990d.png
+    type: unspecified

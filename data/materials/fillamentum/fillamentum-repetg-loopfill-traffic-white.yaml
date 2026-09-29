@@ -1,0 +1,27 @@
+uuid: 0fa8e84d-57c3-5dc2-aac3-f9342efe283e
+slug: fillamentum-repetg-loopfill-traffic-white
+brand:
+  slug: fillamentum
+name: rePETG Loopfill "Traffic White"
+class: FFF
+type: PETG
+abbreviation: RPETG
+primary_color:
+  color_rgba: '#f0f1eaff'
+  color_lab:
+    - 94.9
+    - -1.56
+    - 3.26
+tags:
+  - recycled
+properties:
+  density: 1.27
+  hardness_shore_d: 80.0
+  min_print_temperature: 230
+  max_print_temperature: 275
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/fillamentum-repetg-loopfill-traffic-white-0-84864556.jpg
+    type: unspecified

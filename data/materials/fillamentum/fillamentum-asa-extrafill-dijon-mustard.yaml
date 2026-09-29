@@ -8,7 +8,20 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#c3b626ff'
+  color_lab:
+    - 73.02
+    - -10.33
+    - 68.1
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-asa-extrafill-dijon-mustard/ed7ace543e8b.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-asa-extrafill-dijon-mustard/ed7ace543e8b.png
+    type: unspecified
+properties:
+  density: 1.07
+  min_print_temperature: 240
+  max_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  drying_temperature: 80
+  drying_time: 120
+tags:
+  - filtration_recommended

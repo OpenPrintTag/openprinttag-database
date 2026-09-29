@@ -8,10 +8,21 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#ebff57ff'
+  color_lab:
+    - 95.94
+    - -27.26
+    - 74.62
 tags:
-- translucent
-- neon
+  - translucent
+  - neon
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-petg-neon-yellow-transparent/e25348eacc85.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-petg-neon-yellow-transparent/e25348eacc85.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+  drying_time: 240

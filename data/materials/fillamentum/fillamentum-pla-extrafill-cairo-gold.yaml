@@ -1,0 +1,27 @@
+uuid: bf115460-ef70-5c41-814c-e51c64fdf680
+slug: fillamentum-pla-extrafill-cairo-gold
+brand:
+  slug: fillamentum
+name: PLA Extrafill "Cairo Gold"
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c9a227ff'
+  color_lab:
+    - 68.32
+    - 2.87
+    - 63.89
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180
+photos:
+  - url: /tmp/assets/fillamentum-pla-extrafill-cairo-gold-0-8454b258.jpg
+    type: unspecified

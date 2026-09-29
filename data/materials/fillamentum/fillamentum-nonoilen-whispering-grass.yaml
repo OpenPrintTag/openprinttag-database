@@ -1,0 +1,25 @@
+uuid: dc0e5fd9-e579-5af6-b80f-f853412c9bd3
+slug: fillamentum-nonoilen-whispering-grass
+brand:
+  slug: fillamentum
+name: NonOilen® "Whispering Grass"
+class: FFF
+type: PLA
+abbreviation: PLAPHB
+primary_color:
+  color_rgba: '#7ca045ff'
+  color_lab:
+    - 61.53
+    - -27.38
+    - 42.74
+properties:
+  density: 1.2
+  hardness_shore_d: 71.0
+  min_print_temperature: 175
+  max_print_temperature: 195
+  max_bed_temperature: 50
+  drying_temperature: 70
+  drying_time: 120
+photos:
+  - url: /tmp/assets/fillamentum-nonoilen-whispering-grass-0-8e599bb8.jpg
+    type: unspecified

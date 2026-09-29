@@ -1,0 +1,27 @@
+uuid: b91e2597-095c-5543-aedf-ca84a3d279b4
+slug: fillamentum-pla-extrafill-witch-please
+brand:
+  slug: fillamentum
+name: PLA Extrafill "Witch Please!"
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7a3768ff'
+  color_lab:
+    - 33.71
+    - 35.8
+    - -15.2
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180
+photos:
+  - url: /tmp/assets/fillamentum-pla-extrafill-witch-please-0-e5f63ab9.jpg
+    type: unspecified

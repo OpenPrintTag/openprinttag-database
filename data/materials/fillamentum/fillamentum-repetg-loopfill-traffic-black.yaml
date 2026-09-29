@@ -1,0 +1,27 @@
+uuid: c16b1708-144e-546e-bdd1-fda342cf58b2
+slug: fillamentum-repetg-loopfill-traffic-black
+brand:
+  slug: fillamentum
+name: rePETG Loopfill "Traffic Black"
+class: FFF
+type: PETG
+abbreviation: RPETG
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - recycled
+properties:
+  density: 1.27
+  hardness_shore_d: 80.0
+  min_print_temperature: 230
+  max_print_temperature: 275
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/fillamentum-repetg-loopfill-traffic-black-0-eceabcc5.jpg
+    type: unspecified

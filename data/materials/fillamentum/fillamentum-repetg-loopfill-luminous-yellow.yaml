@@ -1,0 +1,27 @@
+uuid: e8de5b56-36bd-5ee3-baa1-1c6e6a91dcad
+slug: fillamentum-repetg-loopfill-luminous-yellow
+brand:
+  slug: fillamentum
+name: rePETG Loopfill "Luminous Yellow"
+class: FFF
+type: PETG
+abbreviation: RPETG
+primary_color:
+  color_rgba: '#eedc48ff'
+  color_lab:
+    - 86.92
+    - -9.91
+    - 71.15
+tags:
+  - recycled
+properties:
+  density: 1.27
+  hardness_shore_d: 80.0
+  min_print_temperature: 230
+  max_print_temperature: 275
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/fillamentum-repetg-loopfill-luminous-yellow-0-c48664ba.jpg
+    type: unspecified

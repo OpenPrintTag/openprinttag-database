@@ -8,7 +8,20 @@ type: HIPS
 abbreviation: HIPS
 primary_color:
   color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-hips-extrafill-sky-blue/e7824db28136.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-hips-extrafill-sky-blue/e7824db28136.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  drying_temperature: 70
+  drying_time: 180
+tags:
+  - limonene_soluble

@@ -8,10 +8,22 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#be6730ff'
+  color_lab:
+    - 52.8
+    - 30.59
+    - 45.05
 tags:
-- contains_wood
-- industrially_compostable
+  - imitates_wood
+  - contains_wood
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-timberfill-southern-pine/2392eda461a1.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-timberfill-southern-pine/2392eda461a1.png
+    type: unspecified
+properties:
+  density: 1.26
+  hardness_shore_d: 77.0
+  min_print_temperature: 150
+  max_print_temperature: 170
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 120

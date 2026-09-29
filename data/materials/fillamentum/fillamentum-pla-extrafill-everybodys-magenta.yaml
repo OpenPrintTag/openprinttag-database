@@ -8,9 +8,20 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#c80181ff'
+  color_lab:
+    - 44.07
+    - 72.94
+    - -13.75
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-everybodys-magenta/eb7ace21e6db.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-pla-extrafill-everybodys-magenta/eb7ace21e6db.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 180

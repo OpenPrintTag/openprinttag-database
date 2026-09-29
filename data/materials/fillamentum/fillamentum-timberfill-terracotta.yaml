@@ -1,0 +1,29 @@
+uuid: 7afb2bd6-6b41-535f-a274-96badb34eec6
+slug: fillamentum-timberfill-terracotta
+brand:
+  slug: fillamentum
+name: Timberfill® "Terracotta"
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ed5c3eff'
+  color_lab:
+    - 58.05
+    - 54.35
+    - 45.72
+tags:
+  - imitates_wood
+  - contains_wood
+properties:
+  density: 1.26
+  hardness_shore_d: 77.0
+  min_print_temperature: 150
+  max_print_temperature: 170
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 50
+  drying_time: 120
+photos:
+  - url: /tmp/assets/fillamentum-timberfill-terracotta-0-50323570.png
+    type: unspecified

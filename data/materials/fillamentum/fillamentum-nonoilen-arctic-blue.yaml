@@ -1,0 +1,25 @@
+uuid: 7a2edc47-060a-5a1a-aec3-bad24de05244
+slug: fillamentum-nonoilen-arctic-blue
+brand:
+  slug: fillamentum
+name: NonOilen® "Arctic Blue"
+class: FFF
+type: PLA
+abbreviation: PLAPHB
+primary_color:
+  color_rgba: '#00629bff'
+  color_lab:
+    - 39.75
+    - -2.06
+    - -37.68
+properties:
+  density: 1.2
+  hardness_shore_d: 71.0
+  min_print_temperature: 175
+  max_print_temperature: 195
+  max_bed_temperature: 50
+  drying_temperature: 70
+  drying_time: 120
+photos:
+  - url: /tmp/assets/fillamentum-nonoilen-arctic-blue-0-b0291e8c.jpg
+    type: unspecified

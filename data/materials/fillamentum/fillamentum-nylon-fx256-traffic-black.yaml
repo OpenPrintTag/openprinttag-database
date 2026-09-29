@@ -4,10 +4,21 @@ brand:
   slug: fillamentum
 name: Nylon FX256 "Traffic Black"
 class: FFF
-abbreviation: ''
+abbreviation: Nylon
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-nylon-fx256-traffic-black/5d23be603f13.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-nylon-fx256-traffic-black/5d23be603f13.png
+    type: unspecified
+properties:
+  density: 1.01
+  min_print_temperature: 235
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 105
+  drying_temperature: 80
+  drying_time: 180

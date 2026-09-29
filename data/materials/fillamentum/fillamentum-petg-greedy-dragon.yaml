@@ -8,9 +8,20 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#aa0101ff'
+  color_lab:
+    - 35.15
+    - 59.0
+    - 49.02
 tags:
-- glitter
+  - glitter
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-petg-greedy-dragon/1830cf17ee70.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-petg-greedy-dragon/1830cf17ee70.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+  drying_time: 240

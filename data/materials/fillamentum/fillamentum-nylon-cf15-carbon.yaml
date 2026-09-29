@@ -5,13 +5,27 @@ brand:
 name: Nylon CF15 Carbon
 class: FFF
 type: PA12
-abbreviation: PA12
+abbreviation: NylonCF
 primary_color:
   color_rgba: '#565459ff'
+  color_lab:
+    - 36.06
+    - 1.88
+    - -2.62
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/fillamentum/fillamentum-nylon-cf15-carbon/e323b73b0f9d.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/fillamentum/fillamentum-nylon-cf15-carbon/e323b73b0f9d.png
+    type: unspecified
+properties:
+  density: 1.08
+  hardness_shore_d: 75.0
+  min_print_temperature: 235
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 105
+  drying_temperature: 80
+  drying_time: 240

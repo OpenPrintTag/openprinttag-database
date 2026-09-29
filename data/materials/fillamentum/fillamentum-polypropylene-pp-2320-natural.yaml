@@ -1,0 +1,25 @@
+uuid: facd572a-98b4-59f1-b17f-94958d1d2ef3
+slug: fillamentum-polypropylene-pp-2320-natural
+brand:
+  slug: fillamentum
+name: Polypropylene PP 2320 Natural
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#f4f8f4ff'
+  color_lab:
+    - 97.19
+    - -2.03
+    - 1.45
+properties:
+  density: 0.96
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 105
+  drying_temperature: 80
+  drying_time: 120
+photos:
+  - url: /tmp/assets/fillamentum-polypropylene-pp-2320-natural-0-429f9c37.jpg
+    type: unspecified

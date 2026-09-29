@@ -1,0 +1,27 @@
+uuid: 29b56791-306b-56a8-9312-f34437f02fb5
+slug: fillamentum-repetg-loopfill-sky-blue
+brand:
+  slug: fillamentum
+name: rePETG Loopfill "Sky Blue"
+class: FFF
+type: PETG
+abbreviation: RPETG
+primary_color:
+  color_rgba: '#295ad9ff'
+  color_lab:
+    - 42.45
+    - 30.28
+    - -69.51
+tags:
+  - recycled
+properties:
+  density: 1.27
+  hardness_shore_d: 80.0
+  min_print_temperature: 230
+  max_print_temperature: 275
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/fillamentum-repetg-loopfill-sky-blue-0-2a2ebad3.jpg
+    type: unspecified
