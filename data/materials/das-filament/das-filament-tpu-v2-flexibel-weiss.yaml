@@ -1,0 +1,22 @@
+uuid: c174c4c1-d6be-56c8-8056-58f98d93285c
+slug: das-filament-tpu-v2-flexibel-weiss
+brand:
+  slug: das-filament
+name: TPU V2 (flexibel) Weiß
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+properties:
+  density: 1.23
+  hardness_shore_a: 94.0
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-tpu-v2-flexibel-weiss/das-filament-tpu-v2-flexibel-weiss-0-d58feb3c.jpg
+  type: unspecified

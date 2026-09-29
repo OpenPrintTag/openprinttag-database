@@ -8,7 +8,16 @@ type: PP
 abbreviation: PP
 primary_color:
   color_rgba: '#eadac2ff'
+  color_lab:
+    - 87.74
+    - 1.64
+    - 13.8
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pp-support/25001c3501ea.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pp-support/25001c3501ea.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 205
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

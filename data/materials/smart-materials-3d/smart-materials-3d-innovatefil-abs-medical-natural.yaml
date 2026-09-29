@@ -8,10 +8,19 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#f1e6b2ff'
+  color_lab:
+    - 91.01
+    - -4.19
+    - 26.74
 tags:
-- biocompatible
-- filtration_recommended
+  - biocompatible
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-abs-medical-natural/c84a618b1a88.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-abs-medical-natural/c84a618b1a88.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 90
+  max_bed_temperature: 110

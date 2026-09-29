@@ -1,0 +1,25 @@
+uuid: adb40997-08e4-5c84-8428-310abba0cdb2
+slug: smart-materials-3d-flex-93a-clear
+brand:
+  slug: smart-materials-3d
+name: FLEX 93A Clear
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e6e6e6ff'
+  color_lab:
+  - 91.29
+  - -0.0
+  - 0.0
+tags:
+- translucent
+properties:
+  density: 1.21
+  hardness_shore_a: 93.0
+  min_print_temperature: 220
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-93a-clear/smart-materials-3d-flex-93a-clear-0-a46edf91.jpg
+  type: unspecified

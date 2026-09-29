@@ -1,0 +1,36 @@
+uuid: 926dc6f0-7eb6-5b0e-a452-cdac22cbb55e
+slug: das-filament-rpetg-abrakadabra
+brand:
+  slug: das-filament
+name: rPETG Abrakadabra
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#b58971ff'
+  color_lab:
+  - 60.7
+  - 13.5
+  - 19.38
+- color_rgba: '#a77f0eff'
+  color_lab:
+  - 55.51
+  - 6.06
+  - 58.55
+- color_rgba: '#d6c469ff'
+  color_lab:
+  - 78.92
+  - -5.47
+  - 47.55
+tags:
+- recycled
+- gradual_color_change
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-rpetg-abrakadabra/das-filament-rpetg-abrakadabra-0-12fabf68.jpg
+  type: unspecified

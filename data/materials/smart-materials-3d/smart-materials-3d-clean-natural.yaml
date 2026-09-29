@@ -1,0 +1,20 @@
+uuid: 9372c932-dc42-59b7-9ce7-633869edc3e4
+slug: smart-materials-3d-clean-natural
+brand:
+  slug: smart-materials-3d
+name: CLEAN Natural
+class: FFF
+abbreviation: Clean
+primary_color:
+  color_rgba: '#eadac2ff'
+  color_lab:
+  - 87.74
+  - 1.64
+  - 13.8
+properties:
+  density: 1.23
+  min_print_temperature: 190
+  max_print_temperature: 250
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-clean-natural/smart-materials-3d-clean-natural-0-526c4a5a.jpg
+  type: unspecified

@@ -9,5 +9,12 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/405/pla-filament-1-75-mm-blue-pearl-800-g?c=33
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-blue-pearl/das-filament-pla-blue-pearl-0-938ab3f2.jpg
+  type: unspecified

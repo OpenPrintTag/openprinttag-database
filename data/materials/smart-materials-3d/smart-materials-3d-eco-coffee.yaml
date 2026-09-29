@@ -1,0 +1,25 @@
+uuid: 93fd58a8-b327-520f-857a-643fab2dcedc
+slug: smart-materials-3d-eco-coffee
+brand:
+  slug: smart-materials-3d
+name: ECO COFFEE
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#55331aff'
+  color_lab:
+  - 24.87
+  - 12.63
+  - 21.98
+tags:
+- contains_organic_material
+- matte
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-eco-coffee/smart-materials-3d-eco-coffee-0-8acce1af.jpg
+  type: unspecified

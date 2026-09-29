@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/496/pla-filament-1-75-mm-gold-v2-800-g?c=33
 primary_color:
   color_rgba: '#af7d00ff'
+  color_lab:
+  - 55.87
+  - 10.64
+  - 61.73
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-gold-v2/das-filament-pla-gold-v2-0-71df1784.jpg
+  type: unspecified

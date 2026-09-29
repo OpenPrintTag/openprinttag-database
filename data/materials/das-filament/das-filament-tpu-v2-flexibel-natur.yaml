@@ -9,7 +9,17 @@ abbreviation: TPU
 url: https://www.dasfilament.de/filament-spools/tpu-1-75-mm/416/tpu-v2-filament-flexibel-1-75-mm-natur-800-g?c=37
 primary_color:
   color_rgba: '#dfdfd3ff'
+  color_lab:
+  - 88.53
+  - -2.1
+  - 5.88
 tags:
 - translucent
 properties:
-  hardness_shore_a: 94
+  density: 1.23
+  hardness_shore_a: 94.0
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-tpu-v2-flexibel-natur/das-filament-tpu-v2-flexibel-natur-0-63f95625.jpg
+  type: unspecified

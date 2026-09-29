@@ -1,0 +1,24 @@
+uuid: 4a89bc11-5212-5ebb-b52e-9943ca40b45b
+slug: das-filament-petg-weiss
+brand:
+  slug: das-filament
+name: PETG Weiß
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+  color_ral: '9003'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-petg-weiss/das-filament-petg-weiss-0-0b645aaf.jpg
+  type: unspecified

@@ -9,6 +9,16 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/104/pla-filament-1-75-mm-silber-800-g?c=33
 primary_color:
   color_rgba: '#c5c5bfff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 79.37
+  - -1.09
+  - 3.0
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-silber/das-filament-pla-silber-0-136b9ce7.jpg
+  type: unspecified

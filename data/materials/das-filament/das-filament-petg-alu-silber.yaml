@@ -9,4 +9,16 @@ abbreviation: PETG
 url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/502/petg-filament-1-75-mm-alu-silber-800-g?c=35
 primary_color:
   color_rgba: '#c5c5bfff'
-properties: {}
+  color_lab:
+  - 79.37
+  - -1.09
+  - 3.0
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-petg-alu-silber/das-filament-petg-alu-silber-0-503cafe4.jpg
+  type: unspecified

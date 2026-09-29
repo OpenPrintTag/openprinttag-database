@@ -8,9 +8,18 @@ type: PVA
 abbreviation: PVA
 primary_color:
   color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
 tags:
-- water_soluble
+  - water_soluble
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pva-ultra/23d0dc368916.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pva-ultra/23d0dc368916.png
+    type: unspecified
+properties:
+  density: 1.21
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90

@@ -9,7 +9,19 @@ abbreviation: PETG
 url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/137/petg-filament-1-75-mm-transluzent-neongelb-800-g?c=35
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+  - 95.27
+  - -31.64
+  - 85.07
 tags:
-- neon
 - translucent
-properties: {}
+- neon
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-petg-transluzent-neongelb/das-filament-petg-transluzent-neongelb-0-f7476deb.jpg
+  type: unspecified

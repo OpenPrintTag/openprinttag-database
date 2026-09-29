@@ -9,4 +9,17 @@ abbreviation: PETG
 url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/158/petg-filament-1-75-mm-schwarz-800-g?c=35
 primary_color:
   color_rgba: '#000000ff'
-properties: {}
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+  color_ral: '9005'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-petg-schwarz/das-filament-petg-schwarz-0-7c638ce8.jpg
+  type: unspecified

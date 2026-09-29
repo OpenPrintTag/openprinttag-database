@@ -1,0 +1,25 @@
+uuid: 58d57f98-fca5-5c45-a01c-0c7922480ed0
+slug: smart-materials-3d-petg-clear-ice-mauve
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Ice Mauve
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#debdefff'
+  color_lab:
+  - 80.83
+  - 20.66
+  - -20.41
+tags:
+- translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-petg-clear-ice-mauve/smart-materials-3d-petg-clear-ice-mauve-0-887ae61f.jpg
+  type: unspecified

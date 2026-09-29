@@ -9,7 +9,19 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/96/pla-filament-1-75-mm-neonorange-800-g?c=33
 primary_color:
   color_rgba: '#ff7a33ff'
+  color_lab:
+  - 66.08
+  - 46.59
+  - 59.9
+  color_ral: '2005'
 tags:
-- industrially_compostable
 - neon
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-neonorange/das-filament-pla-neonorange-0-2d4b8a01.jpg
+  type: unspecified

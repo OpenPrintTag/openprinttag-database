@@ -1,0 +1,24 @@
+uuid: d984ea4f-01eb-584a-86c0-ab850d9049da
+slug: das-filament-pla-weiss
+brand:
+  slug: das-filament
+name: PLA Weiß
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+  color_ral: '9003'
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-weiss/das-filament-pla-weiss-0-2959bf80.jpg
+  type: unspecified

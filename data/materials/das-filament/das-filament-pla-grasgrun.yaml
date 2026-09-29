@@ -1,0 +1,24 @@
+uuid: 6e31e77d-27fc-5966-9439-fcc9f6bf255b
+slug: das-filament-pla-grasgrun
+brand:
+  slug: das-filament
+name: PLA Grasgrün
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26a648ff'
+  color_lab:
+  - 60.02
+  - -53.91
+  - 38.67
+  color_ral: '6037'
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-grasgrun/das-filament-pla-grasgrun-0-56c5509c.jpg
+  type: unspecified

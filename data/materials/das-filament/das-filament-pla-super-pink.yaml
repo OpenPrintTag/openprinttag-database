@@ -1,0 +1,23 @@
+uuid: 79e58b58-1abc-56db-969f-9a308df9c4e0
+slug: das-filament-pla-super-pink
+brand:
+  slug: das-filament
+name: PLA Super Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff0086ff'
+  color_lab:
+  - 55.06
+  - 84.98
+  - 0.72
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-super-pink/das-filament-pla-super-pink-0-916c89ca.jpg
+  type: unspecified

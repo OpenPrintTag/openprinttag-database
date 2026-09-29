@@ -9,7 +9,17 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/2/pla-filament-1-75-mm-schwarz-800-g?c=33
 primary_color:
   color_rgba: '#000000ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+  color_ral: '9005'
 properties:
   density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-schwarz/das-filament-pla-schwarz-0-ffd2a638.jpg
+  type: unspecified

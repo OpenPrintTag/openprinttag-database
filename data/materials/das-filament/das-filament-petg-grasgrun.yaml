@@ -1,0 +1,24 @@
+uuid: af4fd1ee-82d8-52ab-8701-a4774c38f05e
+slug: das-filament-petg-grasgrun
+brand:
+  slug: das-filament
+name: PETG Grasgrün
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#06b100ff'
+  color_lab:
+  - 62.91
+  - -65.24
+  - 63.29
+  color_ral: '6037'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-petg-grasgrun/das-filament-petg-grasgrun-0-67df3776.jpg
+  type: unspecified

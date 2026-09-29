@@ -1,0 +1,25 @@
+uuid: edb43a0d-7767-5710-93d7-6ab4413f1f39
+slug: das-filament-pla-blue-pearl-v2
+brand:
+  slug: das-filament
+name: PLA Blue Pearl V2
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2a4552ff'
+  color_lab:
+  - 27.73
+  - -6.21
+  - -10.98
+tags:
+- glitter
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-blue-pearl-v2/das-filament-pla-blue-pearl-v2-0-f82e494f.jpg
+  type: unspecified

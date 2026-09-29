@@ -9,4 +9,17 @@ abbreviation: PETG
 url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/174/petg-filament-1-75-mm-rubinrot-800-g?c=35
 primary_color:
   color_rgba: '#ac1a17ff'
-properties: {}
+  color_lab:
+  - 37.07
+  - 55.92
+  - 41.17
+  color_ral: '3003'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-petg-rubinrot/das-filament-petg-rubinrot-0-d9b8aeae.jpg
+  type: unspecified

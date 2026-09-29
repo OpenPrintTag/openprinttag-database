@@ -9,6 +9,17 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/8/pla-filament-1-75-mm-grau-800-g?c=33
 primary_color:
   color_rgba: '#a2aaadff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 69.07
+  - -2.22
+  - -2.52
+  color_ral: '7040'
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-grau/das-filament-pla-grau-0-45d24012.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 7db41e39-3ce2-513c-94f9-589e227aa643
+slug: smart-materials-3d-pla-matte-steel-blue
+brand:
+  slug: smart-materials-3d
+name: PLA MATTE Steel Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#041b3dff'
+  color_lab:
+  - 10.16
+  - 6.34
+  - -24.4
+tags:
+- matte
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-matte-steel-blue/smart-materials-3d-pla-matte-steel-blue-0-35e8fbf5.jpg
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: ac911b10-3374-574a-a9da-8e713a82bae2
+slug: smart-materials-3d-r-petg-signal-orange
+brand:
+  slug: smart-materials-3d
+name: R-PETG Signal Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#d4652fff'
+  color_lab:
+  - 55.6
+  - 40.39
+  - 49.4
+tags:
+- recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-r-petg-signal-orange/smart-materials-3d-r-petg-signal-orange-0-26cb7f21.jpg
+  type: unspecified

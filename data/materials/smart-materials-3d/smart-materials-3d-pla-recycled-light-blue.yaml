@@ -1,0 +1,26 @@
+uuid: 43d37ac7-2de9-5762-ac82-9f006a056083
+slug: smart-materials-3d-pla-recycled-light-blue
+brand:
+  slug: smart-materials-3d
+name: PLA RECYCLED Light Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#99f1ffff'
+  color_lab:
+  - 90.27
+  - -22.97
+  - -15.07
+tags:
+- recycled
+properties:
+  density: 1.24
+  hardness_shore_d: 85.4
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-pla-recycled-light-blue/smart-materials-3d-pla-recycled-light-blue-0-5b1aa7ec.jpg
+  type: unspecified

@@ -9,6 +9,17 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/10/pla-filament-1-75-mm-reinorange-800-g?c=33
 primary_color:
   color_rgba: '#ff5f2eff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 61.35
+  - 58.68
+  - 57.71
+  color_ral: '2004'
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/das-filament/das-filament-pla-reinorange/das-filament-pla-reinorange-0-c9ab4fdf.jpg
+  type: unspecified
