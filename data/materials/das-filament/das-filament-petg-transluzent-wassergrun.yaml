@@ -1,0 +1,25 @@
+uuid: 3d217736-49e7-55a0-b4a8-66ea32053ac0
+slug: das-filament-petg-transluzent-wassergrun
+brand:
+  slug: das-filament
+name: PETG Transluzent Wassergrün
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#98fbcbff'
+  color_lab:
+    - 91.67
+    - -39.48
+    - 13.98
+tags:
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+  - url: /tmp/assets/das-filament-petg-transluzent-wassergrun-0-829118f5.jpg
+    type: unspecified

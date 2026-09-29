@@ -9,5 +9,16 @@ abbreviation: TPU
 url: https://www.dasfilament.de/filament-spools/tpu-1-75-mm/417/tpu-v2-filament-flexibel-1-75-mm-schwarz-800-g?c=37
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9005'
 properties:
-  hardness_shore_a: 94
+  density: 1.23
+  hardness_shore_a: 94.0
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+  - url: /tmp/assets/das-filament-tpu-v2-flexibel-schwarz-0-6a905a5d.jpg
+    type: unspecified

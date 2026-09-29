@@ -1,0 +1,24 @@
+uuid: 9c974f9f-85fb-563d-bce9-c1289f6fb304
+slug: das-filament-petg-militar-grun
+brand:
+  slug: das-filament
+name: PETG Militär-Grün
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#6e8451ff'
+  color_lab:
+    - 52.3
+    - -17.36
+    - 24.97
+  color_ral: '6031'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+  - url: /tmp/assets/das-filament-petg-militar-grun-0-bae7f883.jpg
+    type: unspecified

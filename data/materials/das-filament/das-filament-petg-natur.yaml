@@ -9,6 +9,18 @@ abbreviation: PETG
 url: https://www.dasfilament.de/filament-spools/petg-1-75-mm/136/petg-filament-1-75-mm-natur-800-g?c=35
 primary_color:
   color_rgba: '#d9d8deff'
+  color_lab:
+    - 86.57
+    - 1.43
+    - -2.82
 tags:
-- translucent
-properties: {}
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 85
+photos:
+  - url: /tmp/assets/das-filament-petg-natur-0-5033de4c.jpg
+    type: unspecified

@@ -8,9 +8,24 @@ type: PLA
 abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/373/pla-filament-1-75-mm-multicolor-galaxy-800-g?c=33
 secondary_colors:
-- color_rgba: '#0066d9ff'
-- color_rgba: '#c90d6eff'
+  - color_rgba: '#0066d9ff'
+    color_lab:
+      - 44.96
+      - 20.46
+      - -65.46
+  - color_rgba: '#c90d6eff'
+    color_lab:
+      - 44.0
+      - 70.28
+      - -2.09
 tags:
-- gradual_color_change
-- industrially_compostable
-properties: {}
+  - gradual_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/das-filament-pla-multicolor-galaxy-0-7dd2586f.jpg
+    type: unspecified

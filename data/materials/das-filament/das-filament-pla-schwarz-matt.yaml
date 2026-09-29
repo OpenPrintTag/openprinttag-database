@@ -9,7 +9,19 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/363/pla-filament-1-75-mm-schwarz-matt-800-g?c=33
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9005'
 tags:
-- matte
-- industrially_compostable
-properties: {}
+  - matte
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/das-filament-pla-schwarz-matt-0-9e9f4e48.jpg
+    type: unspecified

@@ -10,8 +10,24 @@ url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/102/pla-filament-1-7
 primary_color:
   color_rgba: '#ec0000ff'
 secondary_colors:
-- color_rgba: '#ff7d7aff'
+  - color_rgba: '#ec0000ff'
+    color_lab:
+      - 49.3
+      - 75.53
+      - 63.38
+  - color_rgba: '#ff7d7aff'
+    color_lab:
+      - 67.53
+      - 49.13
+      - 25.13
 tags:
-- temperature_color_change
-- industrially_compostable
-properties: {}
+  - temperature_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/das-filament-pla-thermo-rot-0-99490c70.jpg
+    type: unspecified

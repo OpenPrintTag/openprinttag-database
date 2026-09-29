@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/613/pla-filament-1-75-mm-vanille-800-g?c=33
 primary_color:
   color_rgba: '#fff5b5ff'
+  color_lab:
+    - 95.96
+    - -6.13
+    - 32.1
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/das-filament-pla-vanille-0-5bffc34d.jpg
+    type: unspecified

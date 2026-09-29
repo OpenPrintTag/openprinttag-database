@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.dasfilament.de/filament-spools/pla-1-75-mm/253/pla-filament-1-75-mm-toms3d-infinity-blue-800-g?c=33
 primary_color:
   color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/das-filament-pla-toms3d-infinity-blue-0-1f050639.jpg
+    type: unspecified

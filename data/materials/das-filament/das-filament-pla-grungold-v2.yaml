@@ -1,0 +1,25 @@
+uuid: 2b336aa1-b887-57ab-93b2-93d291fc867e
+slug: das-filament-pla-grungold-v2
+brand:
+  slug: das-filament
+name: PLA Grüngold V2
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4b4d46ff'
+  color_lab:
+    - 32.36
+    - -2.31
+    - 3.87
+tags:
+  - glitter
+properties:
+  density: 1.24
+  min_print_temperature: 205
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/das-filament-pla-grungold-v2-0-646e71d2.jpg
+    type: unspecified
