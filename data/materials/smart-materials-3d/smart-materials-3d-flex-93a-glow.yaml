@@ -8,6 +8,10 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
 tags:
   - glow_in_the_dark
   - abrasive
@@ -28,8 +32,3 @@ secondary_colors:
       - 84.83
       - -29.93
       - 10.51
-  - color_rgba: '#efefefff'
-    color_lab:
-      - 94.45
-      - 0.0
-      - 0.0

@@ -7,11 +7,11 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#7e4f4aff'
+  color_rgba: '#3a3a3aff'
   color_lab:
-    - 38.77
-    - 19.14
-    - 11.21
+    - 24.42
+    - 0.0
+    - 0.0
 tags:
   - contains_wood
 photos:

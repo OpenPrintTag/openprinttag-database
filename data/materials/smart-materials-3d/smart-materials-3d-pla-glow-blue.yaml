@@ -12,6 +12,12 @@ primary_color:
     - 69.95
     - -23.3
     - -27.0
+secondary_colors:
+  - color_rgba: '#f0ebe5ff'
+    color_lab:
+      - 93.28
+      - 0.64
+      - 3.5
 tags:
   - glow_in_the_dark
   - abrasive
