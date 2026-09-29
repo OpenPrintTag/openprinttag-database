@@ -1,0 +1,25 @@
+uuid: 68644641-ce14-53c1-9b6a-18f9fa158779
+slug: smart-materials-3d-petg-clear-orchid-glass
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Orchid Glass
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9d00b1ff'
+  color_lab:
+    - 38.45
+    - 71.54
+    - -52.2
+tags:
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/smart-materials-3d-petg-clear-orchid-glass-0-9a4fcda0.jpg
+    type: unspecified

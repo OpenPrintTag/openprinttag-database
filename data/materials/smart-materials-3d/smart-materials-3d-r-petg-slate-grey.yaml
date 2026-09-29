@@ -1,0 +1,25 @@
+uuid: c026b72e-9f53-5eb7-b16a-40ef911dfe6a
+slug: smart-materials-3d-r-petg-slate-grey
+brand:
+  slug: smart-materials-3d
+name: R-PETG Slate Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#2e3234ff'
+  color_lab:
+    - 20.48
+    - -1.23
+    - -1.86
+tags:
+  - recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/smart-materials-3d-r-petg-slate-grey-0-fa81564b.jpg
+    type: unspecified

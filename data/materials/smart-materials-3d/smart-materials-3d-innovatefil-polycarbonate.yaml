@@ -1,0 +1,24 @@
+uuid: 0d99c9cc-ffce-5af0-b2a8-e74c288291e7
+slug: smart-materials-3d-innovatefil-polycarbonate
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® POLYCARBONATE
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#edf0f2ff'
+  color_lab:
+    - 94.63
+    - -0.64
+    - -1.31
+tags:
+  - translucent
+properties:
+  min_print_temperature: 270
+  max_print_temperature: 290
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/smart-materials-3d-innovatefil-polycarbonate-0-e8e4eaf0.jpg
+    type: unspecified

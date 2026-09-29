@@ -1,0 +1,24 @@
+uuid: c060cb2d-574f-5ba0-91c7-9017b2c3d1f5
+slug: smart-materials-3d-petg-red
+brand:
+  slug: smart-materials-3d
+name: PETG Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e20010ff'
+  color_lab:
+    - 47.25
+    - 73.24
+    - 56.61
+properties:
+  density: 1.27
+  hardness_shore_d: 76.2
+  min_print_temperature: 230
+  max_print_temperature: 245
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/smart-materials-3d-petg-red-0-05dd9f2d.jpg
+    type: unspecified

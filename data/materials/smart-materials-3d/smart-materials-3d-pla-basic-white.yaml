@@ -1,0 +1,23 @@
+uuid: 8e91147c-985d-579b-948e-28eb15e32331
+slug: smart-materials-3d-pla-basic-white
+brand:
+  slug: smart-materials-3d
+name: PLA BASIC White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.28
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-basic-white-0-2151b0d1.jpg
+    type: unspecified

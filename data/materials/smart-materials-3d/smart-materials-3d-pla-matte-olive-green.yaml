@@ -1,0 +1,24 @@
+uuid: c2c61bd4-26dd-51d2-b5ba-30b12ea90305
+slug: smart-materials-3d-pla-matte-olive-green
+brand:
+  slug: smart-materials-3d
+name: PLA MATTE Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0f330dff'
+  color_lab:
+    - 17.91
+    - -22.06
+    - 19.63
+tags:
+  - matte
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-matte-olive-green-0-be70caf7.jpg
+    type: unspecified

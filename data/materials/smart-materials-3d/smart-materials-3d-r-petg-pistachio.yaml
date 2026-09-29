@@ -1,0 +1,25 @@
+uuid: f70126af-759f-504b-9632-a09d5f6436f3
+slug: smart-materials-3d-r-petg-pistachio
+brand:
+  slug: smart-materials-3d
+name: R-PETG Pistachio
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#a5af0eff'
+  color_lab:
+    - 68.53
+    - -20.44
+    - 68.57
+tags:
+  - recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/smart-materials-3d-r-petg-pistachio-0-9d52d6a9.jpg
+    type: unspecified

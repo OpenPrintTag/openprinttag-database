@@ -1,0 +1,25 @@
+uuid: 1ddb4af6-c037-5acd-89a9-b0591dce0d72
+slug: smart-materials-3d-petg-clear-pale-rose
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Pale Rose
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f6e2f1ff'
+  color_lab:
+    - 91.84
+    - 9.38
+    - -4.81
+tags:
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/smart-materials-3d-petg-clear-pale-rose-0-67d9917e.jpg
+    type: unspecified

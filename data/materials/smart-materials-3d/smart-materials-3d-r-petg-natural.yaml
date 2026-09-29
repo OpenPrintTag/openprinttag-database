@@ -1,0 +1,25 @@
+uuid: 5188e474-5e88-513b-b410-7b87c95b79ca
+slug: smart-materials-3d-r-petg-natural
+brand:
+  slug: smart-materials-3d
+name: R-PETG Natural
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ccc9c0ff'
+  color_lab:
+    - 80.97
+    - -0.56
+    - 4.86
+tags:
+  - recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/smart-materials-3d-r-petg-natural-0-8443857b.jpg
+    type: unspecified

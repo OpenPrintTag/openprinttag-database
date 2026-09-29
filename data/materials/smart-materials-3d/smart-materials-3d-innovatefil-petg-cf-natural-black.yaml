@@ -1,0 +1,27 @@
+uuid: 8cf1c270-b315-5bc7-acd2-7dcb746c41aa
+slug: smart-materials-3d-innovatefil-petg-cf-natural-black
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® PETG CF Natural (Black)
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.259
+  min_print_temperature: 235
+  max_print_temperature: 255
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/smart-materials-3d-innovatefil-petg-cf-natural-black-0-be05734a.jpg
+    type: unspecified

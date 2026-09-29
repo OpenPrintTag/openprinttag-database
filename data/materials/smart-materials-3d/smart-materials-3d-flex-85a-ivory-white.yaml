@@ -8,8 +8,16 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-85a-ivory-white/939a6ef4b837.png
-  type: unspecified
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-flex-85a-ivory-white/939a6ef4b837.png
+    type: unspecified
 properties:
-  hardness_shore_a: 85
+  hardness_shore_a: 85.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 50

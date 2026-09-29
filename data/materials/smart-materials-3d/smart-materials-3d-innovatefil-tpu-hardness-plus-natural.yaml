@@ -1,0 +1,25 @@
+uuid: ebc54b1f-7b25-519c-855f-0c5abd7f6a44
+slug: smart-materials-3d-innovatefil-tpu-hardness-plus-natural
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® TPU HARDNESS+ Natural
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
+tags:
+  - without_pigments
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/smart-materials-3d-innovatefil-tpu-hardness-plus-natural-0-696ccd0b.jpg
+    type: unspecified

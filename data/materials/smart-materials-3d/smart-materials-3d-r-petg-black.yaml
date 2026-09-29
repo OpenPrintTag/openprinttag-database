@@ -1,0 +1,25 @@
+uuid: 2cb2f092-3d37-5315-a012-a79b6f071d67
+slug: smart-materials-3d-r-petg-black
+brand:
+  slug: smart-materials-3d
+name: R-PETG Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - recycled
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/smart-materials-3d-r-petg-black-0-d46d1bc4.jpg
+    type: unspecified

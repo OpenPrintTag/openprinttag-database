@@ -1,0 +1,26 @@
+uuid: 8f562fe7-b131-59a9-adec-0891dc83ec97
+slug: smart-materials-3d-innovatefil-petg-mdt-natural
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® PETG MDT Natural
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9a9ba0ff'
+  color_lab:
+    - 64.04
+    - 0.62
+    - -2.73
+tags:
+  - paramagnetic
+properties:
+  density: 1.29
+  hardness_shore_d: 80.1
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 65
+  max_bed_temperature: 85
+photos:
+  - url: /tmp/assets/smart-materials-3d-innovatefil-petg-mdt-natural-0-b1b91629.jpg
+    type: unspecified

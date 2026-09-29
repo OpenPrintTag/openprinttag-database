@@ -1,0 +1,23 @@
+uuid: c6fbe431-dc19-5695-a27e-93c9ec1afccd
+slug: smart-materials-3d-innovatefil-tpu-hardness-plus-true-black
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® TPU HARDNESS+ True black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/smart-materials-3d-innovatefil-tpu-hardness-plus-true-black-0-f1b39620.jpg
+    type: unspecified

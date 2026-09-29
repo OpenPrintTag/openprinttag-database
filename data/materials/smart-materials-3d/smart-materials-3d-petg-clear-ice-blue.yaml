@@ -1,0 +1,25 @@
+uuid: cfff54b1-f7dd-515a-baaa-8ea3b04f1859
+slug: smart-materials-3d-petg-clear-ice-blue
+brand:
+  slug: smart-materials-3d
+name: PETG CLEAR Ice Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#b8cde9ff'
+  color_lab:
+    - 81.69
+    - -1.17
+    - -16.18
+tags:
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/smart-materials-3d-petg-clear-ice-blue-0-81c9609c.jpg
+    type: unspecified

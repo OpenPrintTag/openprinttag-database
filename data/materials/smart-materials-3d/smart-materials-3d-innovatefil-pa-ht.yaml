@@ -4,12 +4,21 @@ brand:
   slug: smart-materials-3d
 name: INNOVATEFIL® PA HT
 class: FFF
-abbreviation: PA
+abbreviation: INNOVAT
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- high_temperature
+  - high_temperature
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pa-ht/a24c5ce13b40.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pa-ht/a24c5ce13b40.png
+    type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 60
+  max_bed_temperature: 90

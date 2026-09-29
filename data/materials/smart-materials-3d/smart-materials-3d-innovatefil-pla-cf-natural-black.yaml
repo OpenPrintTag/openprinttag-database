@@ -1,0 +1,26 @@
+uuid: bf57927a-e34e-5eac-9b59-ef64c7957d0a
+slug: smart-materials-3d-innovatefil-pla-cf-natural-black
+brand:
+  slug: smart-materials-3d
+name: INNOVATEFIL® PLA CF Natural (Black)
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-innovatefil-pla-cf-natural-black-0-685ff9d7.jpg
+    type: unspecified

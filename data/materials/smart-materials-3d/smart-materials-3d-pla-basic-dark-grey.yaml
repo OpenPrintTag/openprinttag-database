@@ -1,0 +1,23 @@
+uuid: ec81e1f4-b03b-557f-ac77-31bab8cc0e15
+slug: smart-materials-3d-pla-basic-dark-grey
+brand:
+  slug: smart-materials-3d
+name: PLA BASIC Dark Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6a6c6eff'
+  color_lab:
+    - 45.52
+    - -0.35
+    - -1.38
+properties:
+  density: 1.28
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-basic-dark-grey-0-400d1c1d.jpg
+    type: unspecified

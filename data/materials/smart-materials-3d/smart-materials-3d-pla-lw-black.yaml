@@ -1,0 +1,25 @@
+uuid: 09ea6d48-9993-5b83-b05a-5f922492edcd
+slug: smart-materials-3d-pla-lw-black
+brand:
+  slug: smart-materials-3d
+name: PLA LW Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - foaming
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-lw-black-0-969bd548.jpg
+    type: unspecified

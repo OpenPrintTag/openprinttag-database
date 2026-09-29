@@ -1,0 +1,28 @@
+uuid: 118af033-8f38-58b4-bed3-a65631fc3666
+slug: smart-materials-3d-pla-glow-blue
+brand:
+  slug: smart-materials-3d
+name: PLA GLOW Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#39b9dbff'
+  color_lab:
+    - 69.95
+    - -23.3
+    - -27.0
+tags:
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+properties:
+  density: 1.24
+  hardness_shore_d: 85.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-glow-blue-0-7854043f.jpg
+    type: unspecified

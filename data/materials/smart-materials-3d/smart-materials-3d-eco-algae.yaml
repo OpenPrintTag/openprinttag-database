@@ -1,0 +1,22 @@
+uuid: 3387730c-1b36-53d3-bf46-a33908efc6a0
+slug: smart-materials-3d-eco-algae
+brand:
+  slug: smart-materials-3d
+name: ECO ALGAE
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#452f25ff'
+  color_lab:
+    - 21.7
+    - 8.55
+    - 10.42
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-eco-algae-0-b1b92002.jpg
+    type: unspecified

@@ -5,13 +5,22 @@ brand:
 name: INNOVATEFIL® PP GF
 class: FFF
 type: PP
-abbreviation: PPGF
+abbreviation: PP
 primary_color:
   color_rgba: '#f0ebe5ff'
+  color_lab:
+    - 93.28
+    - 0.64
+    - 3.5
 tags:
-- contains_glass_fiber
-- abrasive
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
 photos:
-- url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pp-gf/5ff13c08af1b.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/smart-materials-3d/smart-materials-3d-innovatefil-pp-gf/5ff13c08af1b.png
+    type: unspecified
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

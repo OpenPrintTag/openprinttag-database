@@ -1,0 +1,23 @@
+uuid: d6a8fa9b-322a-5be9-b205-43b578ad404e
+slug: smart-materials-3d-pla-basic-green
+brand:
+  slug: smart-materials-3d
+name: PLA BASIC Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#06b100ff'
+  color_lab:
+    - 62.91
+    - -65.24
+    - 63.29
+properties:
+  density: 1.28
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-basic-green-0-c2fba7ae.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 951313ab-14cd-5a28-8607-ba5404732ed6
+slug: smart-materials-3d-flex-foam-ivory-white
+brand:
+  slug: smart-materials-3d
+name: FLEX FOAM Ivory White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+tags:
+  - foaming
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/smart-materials-3d-flex-foam-ivory-white-0-208529a1.jpg
+    type: unspecified

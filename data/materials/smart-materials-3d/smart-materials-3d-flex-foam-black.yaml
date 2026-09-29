@@ -1,0 +1,23 @@
+uuid: d6326df5-8c6b-576a-9ba1-4bd5305235e1
+slug: smart-materials-3d-flex-foam-black
+brand:
+  slug: smart-materials-3d
+name: FLEX FOAM Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - foaming
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/smart-materials-3d-flex-foam-black-0-107e397b.jpg
+    type: unspecified

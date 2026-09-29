@@ -1,0 +1,24 @@
+uuid: 4ea7319e-3f0f-52c7-87cf-303f57679909
+slug: smart-materials-3d-pla-3d870-natural
+brand:
+  slug: smart-materials-3d
+name: PLA 3D870 Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+properties:
+  density: 1.22
+  hardness_shore_d: 86.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-3d870-natural-0-ec84423e.jpg
+    type: unspecified

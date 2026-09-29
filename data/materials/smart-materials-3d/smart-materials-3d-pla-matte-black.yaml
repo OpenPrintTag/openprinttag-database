@@ -1,0 +1,24 @@
+uuid: 502790ee-fc8a-549a-a2bf-63bd39788e0a
+slug: smart-materials-3d-pla-matte-black
+brand:
+  slug: smart-materials-3d
+name: PLA MATTE Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - matte
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-matte-black-0-2e38969a.jpg
+    type: unspecified

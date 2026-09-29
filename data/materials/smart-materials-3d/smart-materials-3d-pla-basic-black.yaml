@@ -1,0 +1,23 @@
+uuid: 0684d55a-72c3-5af8-98fc-3927530d71e9
+slug: smart-materials-3d-pla-basic-black
+brand:
+  slug: smart-materials-3d
+name: PLA BASIC Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.28
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/smart-materials-3d-pla-basic-black-0-cc685d0e.jpg
+    type: unspecified
