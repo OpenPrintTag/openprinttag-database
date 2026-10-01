@@ -56,7 +56,7 @@ class JsonSchemaValidator:
             (['brand', 'slug'], 'brands', 'slug', False, None),
             # `type` only exists on FFFMaterial (SLAMaterial has no material type)
             (['type'], 'fff-material-types', 'abbreviation', False, lambda m: m.get('class') == 'FFF'),
-            (['certification_ids'], 'material-certifications', 'key', True, None),
+            (['certifications'], 'material-certifications', 'name', True, None),
         ],
         'material-packages': [
             (['brand', 'slug'], 'brands', 'slug', False, None),
