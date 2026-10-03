@@ -1,0 +1,12 @@
+material:
+  slug: tm3d-pla-dark-red
+container:
+  slug: tm3d-spool-1kg
+class: FFF
+nominal_netto_full_weight: 1000
+filament_diameter: 1750
+filament_diameter_tolerance: 30
+uuid: 5c2c2d30-834d-55ef-8015-78798dadbd21
+slug: tm3d-pla-dark-red-tm3d-spool-1kg
+brand:
+  slug: tm3d
