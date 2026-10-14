@@ -355,9 +355,15 @@ class JsonSchemaValidator:
                 # FK validation will catch missing brand
                 continue
 
+            # UUID is derived from GTIN; without GTIN (not required by the schema)
+            # the UUID can't be verified - it may be provided by the manufacturer.
+            gtin = package_data.get('gtin')
+            if gtin is None or 'uuid' not in package_data:
+                continue
+
             try:
                 brand_uuid = uuid.UUID(brand_data['uuid'])
-                expected_uuid = generate_material_package_uuid(brand_uuid, package_data['gtin'])
+                expected_uuid = generate_material_package_uuid(brand_uuid, gtin)
                 is_valid = expected_uuid == uuid.UUID(package_data['uuid'])
                 if not is_valid:
                     self.errors.append(ValidationError(
