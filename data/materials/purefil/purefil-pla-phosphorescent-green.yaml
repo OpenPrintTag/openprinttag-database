@@ -1,0 +1,25 @@
+uuid: 1464e4e5-0b7e-5503-992e-5a66b6a753ef
+slug: purefil-pla-phosphorescent-green
+brand:
+  slug: purefil
+name: PLA Phosphorescent Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5dd45fff'
+  color_lab:
+    - 76.21
+    - -56.59
+    - 47.36
+tags:
+  - glow_in_the_dark
+  - abrasive
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-phosphorescent-green-0-8bc1a45d.png
+    type: unspecified

@@ -1,0 +1,26 @@
+uuid: 3e32e342-703d-5543-a96e-b72526b16a7c
+slug: purefil-pla-silk-luminous-yellow-ral-1026
+brand:
+  slug: purefil
+name: PLA Silk Luminous Yellow RAL 1026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffff00ff'
+  color_lab:
+    - 97.14
+    - -21.55
+    - 94.48
+  color_ral: '1026'
+tags:
+  - silk
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-silk-luminous-yellow-ral-1026-0-6d7eae58.webp
+    type: unspecified

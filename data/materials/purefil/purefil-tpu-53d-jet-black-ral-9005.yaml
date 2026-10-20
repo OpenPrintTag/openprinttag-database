@@ -1,0 +1,25 @@
+uuid: 4303f690-462c-5179-b1c7-14f394e3d5d7
+slug: purefil-tpu-53d-jet-black-ral-9005
+brand:
+  slug: purefil
+name: TPU 53D Jet Black RAL 9005
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+properties:
+  density: 1.17
+  hardness_shore_d: 53.0
+  hardness_shore_a: 95.0
+  min_print_temperature: 195
+  max_print_temperature: 235
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-tpu-53d-jet-black-ral-9005-0-28e914e8.webp
+    type: unspecified

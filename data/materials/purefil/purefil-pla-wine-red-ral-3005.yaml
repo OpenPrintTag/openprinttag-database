@@ -1,0 +1,23 @@
+uuid: 8588985c-0c25-5b77-9728-2fd11cba5ec3
+slug: purefil-pla-wine-red-ral-3005
+brand:
+  slug: purefil
+name: PLA Wine Red RAL 3005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5e2028ff'
+  color_lab:
+    - 22.18
+    - 29.0
+    - 9.72
+  color_ral: '3005'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-wine-red-ral-3005-0-8fc60749.webp
+    type: unspecified

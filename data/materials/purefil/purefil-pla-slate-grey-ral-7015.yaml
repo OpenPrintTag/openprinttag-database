@@ -1,0 +1,20 @@
+uuid: cf390bde-14fc-503b-bca7-a0e7046db031
+slug: purefil-pla-slate-grey-ral-7015
+brand:
+  slug: purefil
+name: PLA Slate Grey RAL 7015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#51565cff'
+  color_lab:
+    - 36.32
+    - -0.61
+    - -4.16
+  color_ral: '7015'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: ddf6a530-68b6-5cb8-8fee-4d1f6c70f198
+slug: purefil-pla-olive-green-ral-6003
+brand:
+  slug: purefil
+name: PLA Olive Green RAL 6003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4b573eff'
+  color_lab:
+    - 35.32
+    - -9.86
+    - 13.02
+  color_ral: '6003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,27 @@
+uuid: 9ac70a38-abaa-59fb-9655-e61091fb81a9
+slug: purefil-abs-ultramarine-blue-ral-5002
+brand:
+  slug: purefil
+name: ABS Ultramarine Blue RAL 5002
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#2b2c7cff'
+  color_lab:
+    - 22.9
+    - 26.14
+    - -45.68
+  color_ral: '5002'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-ultramarine-blue-ral-5002-0-accc4d17.webp
+    type: unspecified

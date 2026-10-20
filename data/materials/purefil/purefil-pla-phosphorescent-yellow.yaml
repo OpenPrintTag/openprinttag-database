@@ -1,0 +1,25 @@
+uuid: bbddc1d9-3cee-5d35-96f4-9682345fafd8
+slug: purefil-pla-phosphorescent-yellow
+brand:
+  slug: purefil
+name: PLA Phosphorescent Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f2e04aff'
+  color_lab:
+    - 88.3
+    - -10.15
+    - 71.9
+tags:
+  - glow_in_the_dark
+  - abrasive
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-phosphorescent-yellow-0-a87770e1.png
+    type: unspecified

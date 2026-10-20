@@ -1,0 +1,20 @@
+uuid: a8b0fea6-60cb-5f3d-9792-4c7a83805ebe
+slug: purefil-pla-pastel-green-ral-6019
+brand:
+  slug: purefil
+name: PLA Pastel Green RAL 6019
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b7d9b1ff'
+  color_lab:
+    - 83.37
+    - -18.67
+    - 16.04
+  color_ral: '6019'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

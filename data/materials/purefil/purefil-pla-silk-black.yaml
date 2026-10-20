@@ -1,0 +1,24 @@
+uuid: e1b640c7-f444-5896-a52b-455eb24cbdd9
+slug: purefil-pla-silk-black
+brand:
+  slug: purefil
+name: PLA Silk Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+    - 0.76
+    - -0.26
+    - -0.09
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-silk-black-0-af7ac5d9.webp
+    type: unspecified

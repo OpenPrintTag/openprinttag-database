@@ -1,0 +1,25 @@
+uuid: 53dce3cc-760e-5c5b-9507-8c6ef82340d3
+slug: purefil-pla-matt-pure-white-ral-9010
+brand:
+  slug: purefil
+name: PLA Matt Pure White RAL 9010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+tags:
+  - matte
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-matt-pure-white-ral-9010-0-6127dfc0.webp
+    type: unspecified

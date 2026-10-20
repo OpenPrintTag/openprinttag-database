@@ -1,0 +1,25 @@
+uuid: 737e2030-15ff-5a5d-a027-546501eac4f1
+slug: purefil-pva-nature
+brand:
+  slug: purefil
+name: PVA Nature
+class: FFF
+type: PVA
+abbreviation: PVA
+primary_color:
+  color_rgba: '#e5e9e3ff'
+  color_lab:
+    - 91.9
+    - -2.41
+    - 2.44
+tags:
+  - water_soluble
+properties:
+  density: 1.258
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/purefil-pva-nature-0-3781c652.webp
+    type: unspecified

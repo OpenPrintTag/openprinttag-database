@@ -1,0 +1,24 @@
+uuid: 1a5d73aa-5e1b-5c9b-974f-fac465465b0a
+slug: purefil-biotec-traffic-red-ral-3020
+brand:
+  slug: purefil
+name: BioTEC Traffic Red RAL 3020
+class: FFF
+abbreviation: BIO
+primary_color:
+  color_rgba: '#c1121cff'
+  color_lab:
+    - 40.99
+    - 63.3
+    - 43.73
+  color_ral: '3020'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+  drying_temperature: 100
+photos:
+  - url: /tmp/assets/purefil-biotec-traffic-red-ral-3020-0-61d61136.png
+    type: unspecified

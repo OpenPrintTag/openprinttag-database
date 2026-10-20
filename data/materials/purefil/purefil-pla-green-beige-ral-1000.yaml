@@ -1,0 +1,20 @@
+uuid: 56ad254e-d747-54b7-94a6-dc3b6a11e918
+slug: purefil-pla-green-beige-ral-1000
+brand:
+  slug: purefil
+name: PLA Green Beige RAL 1000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cdba88ff'
+  color_lab:
+    - 75.99
+    - -0.63
+    - 27.85
+  color_ral: '1000'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

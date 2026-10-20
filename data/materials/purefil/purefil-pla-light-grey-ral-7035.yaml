@@ -1,0 +1,23 @@
+uuid: ac5cd280-9941-5e8e-ab13-84b155809684
+slug: purefil-pla-light-grey-ral-7035
+brand:
+  slug: purefil
+name: PLA Light Grey RAL 7035
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cbd0ccff'
+  color_lab:
+    - 83.0
+    - -2.44
+    - 1.39
+  color_ral: '7035'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-light-grey-ral-7035-0-40e22681.webp
+    type: unspecified

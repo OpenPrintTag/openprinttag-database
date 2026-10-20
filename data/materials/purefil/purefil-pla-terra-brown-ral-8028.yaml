@@ -1,0 +1,20 @@
+uuid: d9e7a4a7-5954-5b1d-8afc-a30b2102681f
+slug: purefil-pla-terra-brown-ral-8028
+brand:
+  slug: purefil
+name: PLA Terra Brown RAL 8028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4e3b2bff'
+  color_lab:
+    - 26.51
+    - 5.86
+    - 13.13
+  color_ral: '8028'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

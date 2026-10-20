@@ -1,0 +1,20 @@
+uuid: bce9a551-856b-50fa-826b-798f87f1aad1
+slug: purefil-pla-water-blue-ral-5021
+brand:
+  slug: purefil
+name: PLA Water Blue RAL 5021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#07737aff'
+  color_lab:
+    - 43.81
+    - -23.93
+    - -11.58
+  color_ral: '5021'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,25 @@
+uuid: c6ff5b30-c772-5528-827d-907f3ef2fb56
+slug: purefil-petg-light-grey-ral-7035
+brand:
+  slug: purefil
+name: PETG Light Grey RAL 7035
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#cbd0ccff'
+  color_lab:
+    - 83.0
+    - -2.44
+    - 1.39
+  color_ral: '7035'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 80
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/purefil-petg-light-grey-ral-7035-0-e7a2bb8d.webp
+    type: unspecified

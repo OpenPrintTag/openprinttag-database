@@ -1,0 +1,27 @@
+uuid: aaa0a305-89bf-5e05-9762-50a9aeeceee8
+slug: purefil-mabs-pure-white-ral-9010
+brand:
+  slug: purefil
+name: MABS Pure White RAL 9010
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 90
+photos:
+  - url: /tmp/assets/purefil-mabs-pure-white-ral-9010-0-f23b3201.webp
+    type: unspecified

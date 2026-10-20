@@ -1,0 +1,26 @@
+uuid: dbfc853c-5a63-5d23-b6d5-b9785085f60f
+slug: purefil-abs-violet-pantone-268-c
+brand:
+  slug: purefil
+name: ABS Violet Pantone 268 C
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#5e2d84ff'
+  color_lab:
+    - 29.22
+    - 38.91
+    - -40.21
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-violet-pantone-268-c-0-4537e8d6.webp
+    type: unspecified

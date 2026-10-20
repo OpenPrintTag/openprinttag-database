@@ -1,0 +1,27 @@
+uuid: 7f5f7efc-6ce9-50b5-b6b5-130686e126fd
+slug: purefil-pvc-p-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PVC-P Jet Black RAL 9005
+class: FFF
+type: PVC
+abbreviation: PVC
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.269
+  hardness_shore_a: 94.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/purefil-pvc-p-jet-black-ral-9005-0-7f1c0654.webp
+    type: unspecified

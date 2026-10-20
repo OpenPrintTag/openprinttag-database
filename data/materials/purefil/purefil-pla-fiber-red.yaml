@@ -1,0 +1,22 @@
+uuid: 31a459c0-7989-5fc0-9283-2a716f0500fd
+slug: purefil-pla-fiber-red
+brand:
+  slug: purefil
+name: PLA Fiber Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c4618cff'
+  color_lab:
+    - 54.22
+    - 44.35
+    - -5.22
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-fiber-red-0-db33d0f3.webp
+    type: unspecified

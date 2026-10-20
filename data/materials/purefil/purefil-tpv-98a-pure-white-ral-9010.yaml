@@ -1,0 +1,27 @@
+uuid: a7d48423-afa6-5d75-9ff7-e44cc5d3a65a
+slug: purefil-tpv-98a-pure-white-ral-9010
+brand:
+  slug: purefil
+name: TPV 98A Pure White RAL 9010
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+properties:
+  density: 1.24
+  min_print_temperature: 175
+  max_print_temperature: 230
+  min_bed_temperature: 80
+  max_bed_temperature: 95
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 82
+photos:
+  - url: /tmp/assets/purefil-tpv-98a-pure-white-ral-9010-0-0447b844.webp
+    type: unspecified

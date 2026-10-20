@@ -1,0 +1,26 @@
+uuid: fb51d2f9-93ea-592d-89ab-70baf0f24b88
+slug: purefil-petg-yellow-transparent
+brand:
+  slug: purefil
+name: PETG Yellow Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f5c842ff'
+  color_lab:
+    - 82.44
+    - 2.92
+    - 69.2
+tags:
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 80
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/purefil-petg-yellow-transparent-0-ce27e58c.webp
+    type: unspecified

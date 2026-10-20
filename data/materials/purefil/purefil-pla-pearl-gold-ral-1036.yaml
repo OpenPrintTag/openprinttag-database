@@ -1,0 +1,25 @@
+uuid: f8cb13d1-e468-5a14-a424-67aa261b4c7b
+slug: purefil-pla-pearl-gold-ral-1036
+brand:
+  slug: purefil
+name: PLA Pearl Gold RAL 1036
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#80643fff'
+  color_lab:
+    - 44.32
+    - 6.27
+    - 25.2
+  color_ral: '1036'
+tags:
+  - pearlescent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-pearl-gold-ral-1036-0-61f1e158.webp
+    type: unspecified

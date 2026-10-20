@@ -1,0 +1,27 @@
+uuid: 1d8b3f94-0bf8-5482-bc16-d6088a5d820c
+slug: purefil-abs-telemagenta-ral-4010
+brand:
+  slug: purefil
+name: ABS Telemagenta RAL 4010
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#c63678ff'
+  color_lab:
+    - 46.98
+    - 61.23
+    - -3.92
+  color_ral: '4010'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-telemagenta-ral-4010-0-6aabdb57.webp
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: e9e335b0-9f05-50a8-a111-b47bf99569c9
+slug: purefil-pla-raspberry-red-ral-3027
+brand:
+  slug: purefil
+name: PLA Raspberry Red RAL 3027
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b42041ff'
+  color_lab:
+    - 39.78
+    - 58.4
+    - 19.74
+  color_ral: '3027'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-raspberry-red-ral-3027-0-d1b2307f.webp
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 01ad7db6-6163-543d-8c5a-351ddc742fb6
+slug: purefil-pla-nut-brown-ral-8011
+brand:
+  slug: purefil
+name: PLA Nut Brown RAL 8011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5a3a29ff'
+  color_lab:
+    - 27.74
+    - 11.99
+    - 16.31
+  color_ral: '8011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-nut-brown-ral-8011-0-4de82ebf.webp
+    type: unspecified

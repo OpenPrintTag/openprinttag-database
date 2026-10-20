@@ -1,0 +1,24 @@
+uuid: 1d870cad-48aa-592a-b2f2-51d70d2e5b49
+slug: purefil-cork-nature
+brand:
+  slug: purefil
+name: Cork Nature
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - contains_cork
+properties:
+  density: 1.02
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-cork-nature-0-2334d1f7.webp
+    type: unspecified

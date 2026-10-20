@@ -1,0 +1,27 @@
+uuid: 21fa7e48-1f79-509d-9447-05fa833a503d
+slug: purefil-abs-pearl-light-grey-ral-9022
+brand:
+  slug: purefil
+name: ABS Pearl Light Grey RAL 9022
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#858583ff'
+  color_lab:
+    - 55.48
+    - -0.39
+    - 1.08
+  color_ral: '9022'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-pearl-light-grey-ral-9022-0-0eb7e107.webp
+    type: unspecified

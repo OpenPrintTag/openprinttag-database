@@ -1,0 +1,20 @@
+uuid: 64726b14-da1e-5c2f-8ce8-1948aa498836
+slug: purefil-pla-platinum-grey-ral-7036
+brand:
+  slug: purefil
+name: PLA Platinum Grey RAL 7036
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9a9697ff'
+  color_lab:
+    - 62.44
+    - 1.65
+    - -0.01
+  color_ral: '7036'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

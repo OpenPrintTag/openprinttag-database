@@ -1,0 +1,24 @@
+uuid: d6c66191-e4dc-5480-9c19-81572063e0dd
+slug: purefil-pp-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PP Jet Black RAL 9005
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+properties:
+  density: 0.9
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/purefil-pp-jet-black-ral-9005-0-e0e3fd48.webp
+    type: unspecified

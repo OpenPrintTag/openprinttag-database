@@ -1,0 +1,20 @@
+uuid: e0558c58-4dbc-587c-84ba-e28921753cb8
+slug: purefil-pla-pastel-violet-ral-4009
+brand:
+  slug: purefil
+name: PLA Pastel Violet RAL 4009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a38995ff'
+  color_lab:
+    - 59.75
+    - 11.92
+    - -2.71
+  color_ral: '4009'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

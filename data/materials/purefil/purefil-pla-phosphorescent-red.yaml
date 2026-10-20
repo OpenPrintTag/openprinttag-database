@@ -1,0 +1,25 @@
+uuid: dc1312ed-28ec-5ca2-9b45-89190ea01064
+slug: purefil-pla-phosphorescent-red
+brand:
+  slug: purefil
+name: PLA Phosphorescent Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e0484cff'
+  color_lab:
+    - 52.96
+    - 58.97
+    - 31.51
+tags:
+  - glow_in_the_dark
+  - abrasive
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-phosphorescent-red-0-7862fc23.png
+    type: unspecified

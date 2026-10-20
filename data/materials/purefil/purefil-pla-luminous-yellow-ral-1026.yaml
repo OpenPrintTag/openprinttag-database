@@ -1,0 +1,25 @@
+uuid: 877ec2ca-78c3-569f-9ec4-8f20d06448d1
+slug: purefil-pla-luminous-yellow-ral-1026
+brand:
+  slug: purefil
+name: PLA Luminous Yellow RAL 1026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffff00ff'
+  color_lab:
+    - 97.14
+    - -21.55
+    - 94.48
+  color_ral: '1026'
+tags:
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-luminous-yellow-ral-1026-0-6a53129a.webp
+    type: unspecified

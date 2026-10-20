@@ -1,0 +1,20 @@
+uuid: 3cf34009-9b19-5cba-af95-0518b286c3cb
+slug: purefil-pla-signal-red-ral-3001
+brand:
+  slug: purefil
+name: PLA Signal Red RAL 3001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a02128ff'
+  color_lab:
+    - 35.43
+    - 51.04
+    - 29.11
+  color_ral: '3001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

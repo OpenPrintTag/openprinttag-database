@@ -1,0 +1,27 @@
+uuid: 42e4e5f4-3f1e-53ba-ba37-234852d11fc9
+slug: purefil-abs-deep-orange-ral-2011
+brand:
+  slug: purefil
+name: ABS Deep Orange RAL 2011
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ec7c25ff'
+  color_lab:
+    - 63.66
+    - 37.89
+    - 62.17
+  color_ral: '2011'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-deep-orange-ral-2011-0-03eb37e2.webp
+    type: unspecified

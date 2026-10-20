@@ -1,0 +1,20 @@
+uuid: 66656ffe-171a-5b6c-a79d-c6af7760342b
+slug: purefil-pla-traffic-purple-ral-4006
+brand:
+  slug: purefil
+name: PLA Traffic Purple RAL 4006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#992572ff'
+  color_lab:
+    - 36.58
+    - 54.17
+    - -16.68
+  color_ral: '4006'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

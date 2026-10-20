@@ -1,0 +1,22 @@
+uuid: d5d7be78-bed6-5e70-bb33-c43a6da583b5
+slug: purefil-pla-pearl-night-blue-ral-5026
+brand:
+  slug: purefil
+name: PLA Pearl Night Blue RAL 5026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#102c54ff'
+  color_lab:
+    - 18.15
+    - 5.63
+    - -27.38
+  color_ral: '5026'
+tags:
+  - pearlescent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

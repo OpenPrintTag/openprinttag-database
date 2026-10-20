@@ -1,0 +1,20 @@
+uuid: 74619487-060d-59c9-991d-684c474e8c06
+slug: purefil-pla-may-green-ral-6017
+brand:
+  slug: purefil
+name: PLA May Green RAL 6017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#468641ff'
+  color_lab:
+    - 50.37
+    - -35.23
+    - 30.73
+  color_ral: '6017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

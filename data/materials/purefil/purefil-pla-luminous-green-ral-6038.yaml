@@ -1,0 +1,25 @@
+uuid: 8fafdbfe-99f3-5550-9a48-646605cecbf3
+slug: purefil-pla-luminous-green-ral-6038
+brand:
+  slug: purefil
+name: PLA Luminous Green RAL 6038
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00f700ff'
+  color_lab:
+    - 85.26
+    - -84.13
+    - 81.19
+  color_ral: '6038'
+tags:
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-luminous-green-ral-6038-0-18a3b835.webp
+    type: unspecified

@@ -1,0 +1,20 @@
+uuid: 0e4a59f9-9acb-5b77-9e8b-da0ac6d0ce03
+slug: purefil-pla-purple-violet-ral-4007
+brand:
+  slug: purefil
+name: PLA Purple Violet RAL 4007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4a203bff'
+  color_lab:
+    - 19.25
+    - 23.86
+    - -8.18
+  color_ral: '4007'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

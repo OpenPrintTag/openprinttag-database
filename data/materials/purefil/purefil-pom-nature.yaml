@@ -1,0 +1,26 @@
+uuid: cdeb09d2-0d1d-57f3-9215-8bf48f28c323
+slug: purefil-pom-nature
+brand:
+  slug: purefil
+name: POM Nature
+class: FFF
+type: POM
+abbreviation: POM
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - filtration_recommended
+properties:
+  density: 1.34
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 120
+  max_bed_temperature: 150
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-pom-nature-0-1805476f.webp
+    type: unspecified

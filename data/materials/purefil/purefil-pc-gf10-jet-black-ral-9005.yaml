@@ -1,0 +1,29 @@
+uuid: add66284-6c70-5ad9-822c-bca4db99950f
+slug: purefil-pc-gf10-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PC GF10 Jet Black RAL 9005
+class: FFF
+type: PC
+abbreviation: PCGF
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 290
+  max_print_temperature: 320
+  min_bed_temperature: 120
+  max_bed_temperature: 150
+  drying_temperature: 100
+photos:
+  - url: /tmp/assets/purefil-pc-gf10-jet-black-ral-9005-0-9a8526fb.webp
+    type: unspecified

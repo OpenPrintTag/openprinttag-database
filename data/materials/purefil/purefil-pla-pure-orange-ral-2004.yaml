@@ -1,0 +1,23 @@
+uuid: 62606316-8b0f-5f0b-902f-bd7725602c3b
+slug: purefil-pla-pure-orange-ral-2004
+brand:
+  slug: purefil
+name: PLA Pure Orange RAL 2004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e75b12ff'
+  color_lab:
+    - 56.6
+    - 51.5
+    - 62.41
+  color_ral: '2004'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-pure-orange-ral-2004-0-3ed5452b.webp
+    type: unspecified

@@ -1,0 +1,20 @@
+uuid: c25aeedc-88fb-5279-8dff-e950da87c0af
+slug: purefil-pla-signal-blue-ral-5005
+brand:
+  slug: purefil
+name: PLA Signal Blue RAL 5005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#154889ff'
+  color_lab:
+    - 30.88
+    - 8.92
+    - -40.92
+  color_ral: '5005'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

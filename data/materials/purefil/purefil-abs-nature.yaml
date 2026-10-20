@@ -1,0 +1,26 @@
+uuid: 7c3f4d23-46c8-54e8-b807-20ac946e146d
+slug: purefil-abs-nature
+brand:
+  slug: purefil
+name: ABS Nature
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-nature-0-63bcadc4.webp
+    type: unspecified

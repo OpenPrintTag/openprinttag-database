@@ -1,0 +1,26 @@
+uuid: 52f33886-44d6-5e38-a1de-06262505dfeb
+slug: purefil-pc-abs-nature
+brand:
+  slug: purefil
+name: PC-ABS Nature
+class: FFF
+type: ABS
+abbreviation: PCABS
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - blend
+  - filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 255
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/purefil-pc-abs-nature-0-93aeac1e.webp
+    type: unspecified

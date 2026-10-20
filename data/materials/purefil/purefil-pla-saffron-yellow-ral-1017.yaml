@@ -1,0 +1,20 @@
+uuid: 5cf94fb6-cf2e-52db-9233-12f8995d7c61
+slug: purefil-pla-saffron-yellow-ral-1017
+brand:
+  slug: purefil
+name: PLA Saffron Yellow RAL 1017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6a950ff'
+  color_lab:
+    - 75.17
+    - 20.22
+    - 55.93
+  color_ral: '1017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

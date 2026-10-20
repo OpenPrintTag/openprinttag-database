@@ -1,0 +1,23 @@
+uuid: b2c80ddb-2938-543b-a641-8a471122736e
+slug: purefil-pla-r-nature
+brand:
+  slug: purefil
+name: PLA-R Nature
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#515d4fff'
+  color_lab:
+    - 38.1
+    - -7.68
+    - 6.49
+tags:
+  - recycled
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+photos:
+  - url: /tmp/assets/purefil-pla-r-nature-0-a6150151.webp
+    type: unspecified

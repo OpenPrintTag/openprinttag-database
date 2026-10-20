@@ -1,0 +1,27 @@
+uuid: 8bee739f-f9e0-56d9-908d-aaeb8494e777
+slug: purefil-asa-signal-yellow-ral-1003
+brand:
+  slug: purefil
+name: ASA Signal Yellow RAL 1003
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f9a800ff'
+  color_lab:
+    - 74.92
+    - 19.84
+    - 78.6
+  color_ral: '1003'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-signal-yellow-ral-1003-0-d20aa69d.webp
+    type: unspecified

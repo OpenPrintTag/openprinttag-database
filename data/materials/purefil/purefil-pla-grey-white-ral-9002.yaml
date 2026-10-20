@@ -1,0 +1,20 @@
+uuid: 1deab20b-fa0b-5364-b8a2-3ee9cc62e130
+slug: purefil-pla-grey-white-ral-9002
+brand:
+  slug: purefil
+name: PLA Grey White RAL 9002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddded4ff'
+  color_lab:
+    - 88.15
+    - -2.1
+    - 4.78
+  color_ral: '9002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

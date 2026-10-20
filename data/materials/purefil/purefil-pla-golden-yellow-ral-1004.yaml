@@ -1,0 +1,23 @@
+uuid: 1b2209ff-b9e8-5857-8498-b70ce265a560
+slug: purefil-pla-golden-yellow-ral-1004
+brand:
+  slug: purefil
+name: PLA Golden Yellow RAL 1004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e49e00ff'
+  color_lab:
+    - 70.14
+    - 16.15
+    - 74.25
+  color_ral: '1004'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-golden-yellow-ral-1004-0-1e9da565.webp
+    type: unspecified

@@ -1,0 +1,27 @@
+uuid: 5899c79b-248f-52de-8e7b-0f1b9f53f669
+slug: purefil-abs-anthracite-grey-ral-7016
+brand:
+  slug: purefil
+name: ABS Anthracite Grey RAL 7016
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#373f43ff'
+  color_lab:
+    - 26.08
+    - -2.3
+    - -3.56
+  color_ral: '7016'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-anthracite-grey-ral-7016-0-3ca6c7eb.webp
+    type: unspecified

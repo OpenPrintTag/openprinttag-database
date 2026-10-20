@@ -1,0 +1,25 @@
+uuid: ec52204d-dd9a-5038-9e0c-fccb09a42dab
+slug: purefil-petg-signal-yellow-ral-1003
+brand:
+  slug: purefil
+name: PETG Signal Yellow RAL 1003
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f9a800ff'
+  color_lab:
+    - 74.92
+    - 19.84
+    - 78.6
+  color_ral: '1003'
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 80
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/purefil-petg-signal-yellow-ral-1003-0-77693920.webp
+    type: unspecified

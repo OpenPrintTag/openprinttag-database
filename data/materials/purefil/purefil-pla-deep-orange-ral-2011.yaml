@@ -1,0 +1,23 @@
+uuid: 9732c77b-ff38-5f98-bace-77a7f936ee1c
+slug: purefil-pla-deep-orange-ral-2011
+brand:
+  slug: purefil
+name: PLA Deep Orange RAL 2011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ec7c25ff'
+  color_lab:
+    - 63.66
+    - 37.89
+    - 62.17
+  color_ral: '2011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-deep-orange-ral-2011-0-9ffb17f4.webp
+    type: unspecified

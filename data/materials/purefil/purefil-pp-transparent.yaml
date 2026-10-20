@@ -1,0 +1,25 @@
+uuid: d295f4cf-c5bf-5d4c-9eaf-136fc9e8b1f9
+slug: purefil-pp-transparent
+brand:
+  slug: purefil
+name: PP Transparent
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+    - 95.53
+    - -1.29
+    - -1.54
+tags:
+  - translucent
+properties:
+  density: 0.9
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/purefil-pp-transparent-0-bded2769.webp
+    type: unspecified

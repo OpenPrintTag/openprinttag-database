@@ -1,0 +1,20 @@
+uuid: 45225794-a051-53da-9664-bb6b7f364524
+slug: purefil-pla-oyster-white-ral-1013
+brand:
+  slug: purefil
+name: PLA Oyster White RAL 1013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3d9c6ff'
+  color_lab:
+    - 87.01
+    - 0.26
+    - 10.58
+  color_ral: '1013'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

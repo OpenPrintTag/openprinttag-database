@@ -1,0 +1,20 @@
+uuid: fdfee5a0-e8a0-51cb-925a-804b6021115f
+slug: purefil-pla-red-brown-ral-8012
+brand:
+  slug: purefil
+name: PLA Red Brown RAL 8012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#673831ff'
+  color_lab:
+    - 29.25
+    - 20.03
+    - 13.51
+  color_ral: '8012'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

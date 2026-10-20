@@ -1,0 +1,20 @@
+uuid: 279c6640-d184-50f2-bc32-1d6e774cbf89
+slug: purefil-pla-moss-grey-ral-7003
+brand:
+  slug: purefil
+name: PLA Moss Grey RAL 7003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7a7b6dff'
+  color_lab:
+    - 51.16
+    - -3.05
+    - 7.53
+  color_ral: '7003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

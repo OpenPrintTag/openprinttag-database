@@ -1,0 +1,20 @@
+uuid: c134bad4-d306-5951-884b-5efe0c6b0a16
+slug: purefil-pla-copper-brown-ral-8004
+brand:
+  slug: purefil
+name: PLA Copper Brown RAL 8004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8f4e35ff'
+  color_lab:
+    - 40.49
+    - 24.88
+    - 26.63
+  color_ral: '8004'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

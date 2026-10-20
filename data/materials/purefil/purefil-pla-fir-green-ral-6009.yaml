@@ -1,0 +1,20 @@
+uuid: dbd5eb52-245d-599c-b90b-a644d2751d46
+slug: purefil-pla-fir-green-ral-6009
+brand:
+  slug: purefil
+name: PLA Fir Green RAL 6009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26392fff'
+  color_lab:
+    - 22.1
+    - -10.26
+    - 3.8
+  color_ral: '6009'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

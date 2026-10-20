@@ -1,0 +1,24 @@
+uuid: f8b7f28d-dded-540f-98de-f4a0e6d7e3cf
+slug: purefil-wood-nature
+brand:
+  slug: purefil
+name: Wood Nature
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - contains_wood
+properties:
+  density: 1.2
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-wood-nature-0-c7a639f4.webp
+    type: unspecified

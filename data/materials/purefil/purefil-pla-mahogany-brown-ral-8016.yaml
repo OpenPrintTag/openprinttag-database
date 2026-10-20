@@ -1,0 +1,20 @@
+uuid: 6d0b175e-5128-5ae5-ace6-2794d193da99
+slug: purefil-pla-mahogany-brown-ral-8016
+brand:
+  slug: purefil
+name: PLA Mahogany Brown RAL 8016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4c2f26ff'
+  color_lab:
+    - 22.69
+    - 12.05
+    - 11.25
+  color_ral: '8016'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

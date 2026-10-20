@@ -1,0 +1,27 @@
+uuid: adf7eeb5-2da7-5592-acd1-536b8b6dce90
+slug: purefil-asa-traffic-red-ral-3020
+brand:
+  slug: purefil
+name: ASA Traffic Red RAL 3020
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#c1121cff'
+  color_lab:
+    - 40.99
+    - 63.3
+    - 43.73
+  color_ral: '3020'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-traffic-red-ral-3020-0-153b18b3.webp
+    type: unspecified

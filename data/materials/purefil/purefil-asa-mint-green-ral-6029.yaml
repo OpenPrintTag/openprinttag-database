@@ -1,0 +1,27 @@
+uuid: e83aca05-a626-526f-b779-364a6a99a26e
+slug: purefil-asa-mint-green-ral-6029
+brand:
+  slug: purefil
+name: ASA Mint Green RAL 6029
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#007243ff'
+  color_lab:
+    - 41.91
+    - -39.71
+    - 18.44
+  color_ral: '6029'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-mint-green-ral-6029-0-6ecda873.webp
+    type: unspecified

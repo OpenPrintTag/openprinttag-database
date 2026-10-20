@@ -1,0 +1,20 @@
+uuid: d6c847be-b171-5dfc-9f75-fdd79446f6ea
+slug: purefil-pla-sand-yellow-ral-1002
+brand:
+  slug: purefil
+name: PLA Sand Yellow RAL 1002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d2aa6dff'
+  color_lab:
+    - 71.93
+    - 6.94
+    - 36.85
+  color_ral: '1002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

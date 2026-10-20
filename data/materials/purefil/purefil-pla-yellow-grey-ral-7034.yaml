@@ -1,0 +1,20 @@
+uuid: dd30fc49-e4a8-57ca-8094-dada4a0de51e
+slug: purefil-pla-yellow-grey-ral-7034
+brand:
+  slug: purefil
+name: PLA Yellow Grey RAL 7034
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#939176ff'
+  color_lab:
+    - 59.67
+    - -4.0
+    - 14.63
+  color_ral: '7034'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

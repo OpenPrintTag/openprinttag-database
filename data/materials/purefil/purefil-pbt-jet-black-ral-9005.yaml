@@ -1,0 +1,25 @@
+uuid: 1b1942ed-740f-57f0-8cf8-5aeb6dbeb1d8
+slug: purefil-pbt-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PBT Jet Black RAL 9005
+class: FFF
+type: PBT
+abbreviation: PBT
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+properties:
+  density: 1.31
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 160
+  max_bed_temperature: 200
+  drying_temperature: 120
+photos:
+  - url: /tmp/assets/purefil-pbt-jet-black-ral-9005-0-78c879df.webp
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: a8fd4f3b-8099-5d0a-99e3-a2266da7e606
+slug: purefil-pla-orange-brown-ral-8023
+brand:
+  slug: purefil
+name: PLA Orange Brown RAL 8023
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a65e2fff'
+  color_lab:
+    - 47.39
+    - 25.36
+    - 38.78
+  color_ral: '8023'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-orange-brown-ral-8023-0-d0f4f53c.webp
+    type: unspecified

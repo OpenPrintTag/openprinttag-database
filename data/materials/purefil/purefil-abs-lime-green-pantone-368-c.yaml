@@ -1,0 +1,26 @@
+uuid: e020765b-cba6-5e8e-aee3-4e7a0822112b
+slug: purefil-abs-lime-green-pantone-368-c
+brand:
+  slug: purefil
+name: ABS Lime Green Pantone 368 C
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#78be20ff'
+  color_lab:
+    - 70.12
+    - -44.9
+    - 65.16
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-lime-green-pantone-368-c-0-b46c5c0c.webp
+    type: unspecified

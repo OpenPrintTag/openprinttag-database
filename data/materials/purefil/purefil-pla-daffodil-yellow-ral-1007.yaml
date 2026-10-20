@@ -1,0 +1,20 @@
+uuid: b06da2ad-7dbf-5f36-a28f-5579b6890647
+slug: purefil-pla-daffodil-yellow-ral-1007
+brand:
+  slug: purefil
+name: PLA Daffodil Yellow RAL 1007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e88c00ff'
+  color_lab:
+    - 66.46
+    - 27.41
+    - 72.08
+  color_ral: '1007'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

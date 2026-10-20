@@ -1,0 +1,20 @@
+uuid: 934ea230-4f51-5e8e-bac8-5794664818fb
+slug: purefil-pla-pastel-orange-ral-2003
+brand:
+  slug: purefil
+name: PLA Pastel Orange RAL 2003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fa842bff'
+  color_lab:
+    - 67.28
+    - 39.52
+    - 63.88
+  color_ral: '2003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,25 @@
+uuid: 8d3660dd-1122-51d8-b6c0-b694a9df9757
+slug: purefil-pla-phosphorescent-blue
+brand:
+  slug: purefil
+name: PLA Phosphorescent Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4a7fd6ff'
+  color_lab:
+    - 53.48
+    - 10.04
+    - -49.95
+tags:
+  - glow_in_the_dark
+  - abrasive
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-phosphorescent-blue-0-f3d6ed4a.png
+    type: unspecified

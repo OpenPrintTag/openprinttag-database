@@ -1,0 +1,26 @@
+uuid: 2ca87203-f358-5c56-8942-4e2111605468
+slug: purefil-hdpe-gf20-nature
+brand:
+  slug: purefil
+name: HDPE GF20 Nature
+class: FFF
+abbreviation: HDPEGF
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.08
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/purefil-hdpe-gf20-nature-0-1458b7fa.webp
+    type: unspecified

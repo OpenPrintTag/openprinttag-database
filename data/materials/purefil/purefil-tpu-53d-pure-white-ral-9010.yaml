@@ -1,0 +1,25 @@
+uuid: 1e2449ff-d726-5862-b660-3dd6b60879ea
+slug: purefil-tpu-53d-pure-white-ral-9010
+brand:
+  slug: purefil
+name: TPU 53D Pure White RAL 9010
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+properties:
+  density: 1.17
+  hardness_shore_d: 53.0
+  hardness_shore_a: 95.0
+  min_print_temperature: 195
+  max_print_temperature: 235
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-tpu-53d-pure-white-ral-9010-0-710ce7f0.webp
+    type: unspecified

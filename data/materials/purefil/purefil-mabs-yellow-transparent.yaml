@@ -1,0 +1,27 @@
+uuid: e87a396c-dcd6-5e1d-8bb2-5bbe568a367c
+slug: purefil-mabs-yellow-transparent
+brand:
+  slug: purefil
+name: MABS Yellow Transparent
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f5c842ff'
+  color_lab:
+    - 82.44
+    - 2.92
+    - 69.2
+tags:
+  - translucent
+  - filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 90
+photos:
+  - url: /tmp/assets/purefil-mabs-yellow-transparent-0-30e2676b.webp
+    type: unspecified

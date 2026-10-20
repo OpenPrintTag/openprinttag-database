@@ -1,0 +1,21 @@
+uuid: aacb590f-eebf-50cc-b335-ebde80bc5b70
+slug: purefil-kerfil-zirconium-oxide-nature
+brand:
+  slug: purefil
+name: Kerfil Zirconium Oxide Nature
+class: FFF
+abbreviation: KERFIL
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - contains_ceramic
+properties:
+  min_print_temperature: 170
+  max_print_temperature: 200
+photos:
+  - url: /tmp/assets/purefil-kerfil-zirconium-oxide-nature-0-bd5fdc0c.png
+    type: unspecified

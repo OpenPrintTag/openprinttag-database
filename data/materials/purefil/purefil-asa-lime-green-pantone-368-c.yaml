@@ -1,0 +1,26 @@
+uuid: a0a5ede2-c72c-5e95-8a0b-b4c97af47f27
+slug: purefil-asa-lime-green-pantone-368-c
+brand:
+  slug: purefil
+name: ASA Lime Green Pantone 368 C
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#78be20ff'
+  color_lab:
+    - 70.12
+    - -44.9
+    - 65.16
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-lime-green-pantone-368-c-0-4bc927e8.webp
+    type: unspecified

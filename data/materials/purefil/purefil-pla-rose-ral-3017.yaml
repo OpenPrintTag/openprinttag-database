@@ -1,0 +1,20 @@
+uuid: a77ce8fc-3f06-5b09-8f65-b58b7585e964
+slug: purefil-pla-rose-ral-3017
+brand:
+  slug: purefil
+name: PLA Rose RAL 3017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d3545fff'
+  color_lab:
+    - 52.97
+    - 50.92
+    - 19.95
+  color_ral: '3017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

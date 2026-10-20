@@ -1,0 +1,22 @@
+uuid: 451bbe5a-0426-5a4a-b2b5-02d75444f4e1
+slug: purefil-pla-snow-white
+brand:
+  slug: purefil
+name: PLA Snow White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f9fdfeff'
+  color_lab:
+    - 99.04
+    - -1.14
+    - -0.94
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-snow-white-0-3a1a3056.webp
+    type: unspecified

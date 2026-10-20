@@ -1,0 +1,20 @@
+uuid: 55c07a5f-c2f5-5d56-ba17-847218585603
+slug: purefil-pla-patina-green-ral-6000
+brand:
+  slug: purefil
+name: PLA Patina Green RAL 6000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#327662ff'
+  color_lab:
+    - 44.96
+    - -26.75
+    - 4.58
+  color_ral: '6000'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

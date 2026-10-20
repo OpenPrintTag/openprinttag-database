@@ -1,0 +1,22 @@
+uuid: 887cf427-34ce-51c2-a327-4ad1b32d6b5a
+slug: purefil-pla-gold
+brand:
+  slug: purefil
+name: PLA Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f1bb51ff'
+  color_lab:
+    - 78.95
+    - 8.74
+    - 59.4
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-gold-0-5187739a.webp
+    type: unspecified

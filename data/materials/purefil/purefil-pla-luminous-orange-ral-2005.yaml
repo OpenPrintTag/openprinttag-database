@@ -1,0 +1,25 @@
+uuid: e9775aa4-b4cd-50c3-a307-3af476b98ee0
+slug: purefil-pla-luminous-orange-ral-2005
+brand:
+  slug: purefil
+name: PLA Luminous Orange RAL 2005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff2300ff'
+  color_lab:
+    - 54.52
+    - 76.4
+    - 67.67
+  color_ral: '2005'
+tags:
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-luminous-orange-ral-2005-0-449f3f31.webp
+    type: unspecified

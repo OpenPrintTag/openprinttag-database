@@ -1,0 +1,20 @@
+uuid: c51cc335-55ae-5410-8707-89885cda770a
+slug: purefil-pla-reseda-green-ral-6011
+brand:
+  slug: purefil
+name: PLA Reseda Green RAL 6011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#68825bff'
+  color_lab:
+    - 51.45
+    - -17.11
+    - 18.15
+  color_ral: '6011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

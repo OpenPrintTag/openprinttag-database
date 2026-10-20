@@ -1,0 +1,26 @@
+uuid: 85ee6d06-3e64-514b-a7dd-b0837a563716
+slug: purefil-tpu-53d-red-transparent
+brand:
+  slug: purefil
+name: TPU 53D Red Transparent
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#d03a3eff'
+  color_lab:
+    - 47.99
+    - 58.43
+    - 32.97
+tags:
+  - translucent
+properties:
+  density: 1.17
+  hardness_shore_d: 53.0
+  hardness_shore_a: 95.0
+  min_print_temperature: 195
+  max_print_temperature: 235
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-tpu-53d-red-transparent-0-0e6f01d8.webp
+    type: unspecified

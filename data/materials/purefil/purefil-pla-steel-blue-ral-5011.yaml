@@ -1,0 +1,20 @@
+uuid: d5a2e4ec-0a13-5b8f-990b-d46df7d1cd4a
+slug: purefil-pla-steel-blue-ral-5011
+brand:
+  slug: purefil
+name: PLA Steel Blue RAL 5011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232c3fff'
+  color_lab:
+    - 18.0
+    - 1.97
+    - -13.27
+  color_ral: '5011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

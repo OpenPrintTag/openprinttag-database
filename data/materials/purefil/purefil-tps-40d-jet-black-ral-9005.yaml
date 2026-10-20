@@ -1,0 +1,28 @@
+uuid: 34feb310-63be-55c2-8460-800644028bf4
+slug: purefil-tps-40d-jet-black-ral-9005
+brand:
+  slug: purefil
+name: TPS 40D Jet Black RAL 9005
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+properties:
+  density: 1.22
+  hardness_shore_d: 40.0
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-tps-40d-jet-black-ral-9005-0-06ed455f.webp
+    type: unspecified

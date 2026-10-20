@@ -1,0 +1,23 @@
+uuid: d4666fbf-a72b-56b7-8d65-dff00fdb688d
+slug: purefil-pla-beige-ral-1001
+brand:
+  slug: purefil
+name: PLA Beige RAL 1001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d0b084ff'
+  color_lab:
+    - 73.63
+    - 5.39
+    - 26.86
+  color_ral: '1001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-beige-ral-1001-0-d132972c.webp
+    type: unspecified

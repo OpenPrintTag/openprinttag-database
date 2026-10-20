@@ -1,0 +1,23 @@
+uuid: 415731f6-e1fd-54d5-ac82-a79078f27555
+slug: purefil-pla-sky-blue-ral-5015
+brand:
+  slug: purefil
+name: PLA Sky Blue RAL 5015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2874b2ff'
+  color_lab:
+    - 47.18
+    - -1.19
+    - -39.42
+  color_ral: '5015'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-sky-blue-ral-5015-0-c16b27b7.webp
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: b1b84e95-5b5d-538a-bc6f-28c070b82e36
+slug: purefil-pla-silk-aluminium-silver
+brand:
+  slug: purefil
+name: PLA Silk Aluminium Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c3c7cbff'
+  color_lab:
+    - 80.04
+    - -0.62
+    - -2.47
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-silk-aluminium-silver-0-ccdc2b2e.webp
+    type: unspecified

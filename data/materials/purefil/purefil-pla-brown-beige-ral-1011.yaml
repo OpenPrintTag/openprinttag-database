@@ -1,0 +1,20 @@
+uuid: afb880be-506c-59f5-a2a6-66765b82a118
+slug: purefil-pla-brown-beige-ral-1011
+brand:
+  slug: purefil
+name: PLA Brown Beige RAL 1011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#af804fff'
+  color_lab:
+    - 57.19
+    - 12.44
+    - 33.52
+  color_ral: '1011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

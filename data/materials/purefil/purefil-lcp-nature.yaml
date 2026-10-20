@@ -1,0 +1,23 @@
+uuid: 0280351c-bf60-5592-8a3b-0eaf3dc5f751
+slug: purefil-lcp-nature
+brand:
+  slug: purefil
+name: LCP Nature
+class: FFF
+abbreviation: LCP
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
+properties:
+  density: 1.4
+  min_print_temperature: 280
+  max_print_temperature: 300
+  min_bed_temperature: 120
+  max_bed_temperature: 150
+  drying_temperature: 150
+photos:
+  - url: /tmp/assets/purefil-lcp-nature-0-eaeece5a.webp
+    type: unspecified

@@ -1,0 +1,27 @@
+uuid: 4deff611-b231-541a-bf81-1c4387b4dba7
+slug: purefil-asa-ultramarine-blue-ral-5002
+brand:
+  slug: purefil
+name: ASA Ultramarine Blue RAL 5002
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#2b2c7cff'
+  color_lab:
+    - 22.9
+    - 26.14
+    - -45.68
+  color_ral: '5002'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-ultramarine-blue-ral-5002-0-104e58a1.webp
+    type: unspecified

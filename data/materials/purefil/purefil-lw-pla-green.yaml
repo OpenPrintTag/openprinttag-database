@@ -1,0 +1,25 @@
+uuid: bd7fa53d-4588-544a-816d-84235035e029
+slug: purefil-lw-pla-green
+brand:
+  slug: purefil
+name: LW-PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1e5a4fff'
+  color_lab:
+    - 34.3
+    - -22.22
+    - 0.66
+tags:
+  - foaming
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-lw-pla-green-0-91307064.webp
+    type: unspecified

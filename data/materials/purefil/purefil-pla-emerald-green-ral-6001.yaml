@@ -1,0 +1,20 @@
+uuid: fd707af2-e7d6-5266-b22f-b960ad8f0f7b
+slug: purefil-pla-emerald-green-ral-6001
+brand:
+  slug: purefil
+name: PLA Emerald Green RAL 6001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#28713eff'
+  color_lab:
+    - 42.17
+    - -34.85
+    - 21.78
+  color_ral: '6001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 28b55809-d34d-5a40-9e89-c7525650b49e
+slug: purefil-pla-traffic-orange-ral-2009
+brand:
+  slug: purefil
+name: PLA Traffic Orange RAL 2009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e15501ff'
+  color_lab:
+    - 54.57
+    - 51.85
+    - 64.31
+  color_ral: '2009'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

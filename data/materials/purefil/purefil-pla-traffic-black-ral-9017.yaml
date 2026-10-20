@@ -1,0 +1,20 @@
+uuid: c2145276-5a4d-5aa0-8b4d-226947df89aa
+slug: purefil-pla-traffic-black-ral-9017
+brand:
+  slug: purefil
+name: PLA Traffic Black RAL 9017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2a2d2fff'
+  color_lab:
+    - 18.25
+    - -0.82
+    - -1.75
+  color_ral: '9017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

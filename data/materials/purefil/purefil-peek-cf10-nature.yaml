@@ -1,0 +1,27 @@
+uuid: 2298210c-d12f-5eba-9898-312050e101e7
+slug: purefil-peek-cf10-nature
+brand:
+  slug: purefil
+name: PEEK CF10 Nature
+class: FFF
+type: PEEK
+abbreviation: PEEKCF
+primary_color:
+  color_rgba: '#354047ff'
+  color_lab:
+    - 26.39
+    - -2.64
+    - -5.75
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  min_print_temperature: 380
+  max_print_temperature: 450
+  min_bed_temperature: 160
+  max_bed_temperature: 200
+photos:
+  - url: /tmp/assets/purefil-peek-cf10-nature-0-5f0c8823.jpg
+    type: unspecified

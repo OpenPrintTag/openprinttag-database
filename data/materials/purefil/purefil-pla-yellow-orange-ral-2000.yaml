@@ -1,0 +1,20 @@
+uuid: b75cf333-8d1c-5294-a737-bc6a9be5ed36
+slug: purefil-pla-yellow-orange-ral-2000
+brand:
+  slug: purefil
+name: PLA Yellow Orange RAL 2000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dd7907ff'
+  color_lab:
+    - 60.84
+    - 32.88
+    - 66.68
+  color_ral: '2000'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

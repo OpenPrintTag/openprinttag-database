@@ -1,0 +1,27 @@
+uuid: 329dce2b-24b1-5c96-8a64-84ccc93caadb
+slug: purefil-coc-flex-transparent
+brand:
+  slug: purefil
+name: COC Flex Transparent
+class: FFF
+abbreviation: COC
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+    - 95.53
+    - -1.29
+    - -1.54
+tags:
+  - translucent
+properties:
+  density: 0.94
+  hardness_shore_a: 89.0
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-coc-flex-transparent-0-2b5bbb8a.webp
+    type: unspecified

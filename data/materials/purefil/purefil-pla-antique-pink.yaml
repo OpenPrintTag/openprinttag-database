@@ -1,0 +1,19 @@
+uuid: 677fb827-0c4f-5a80-a775-0d6bcd2e6d5c
+slug: purefil-pla-antique-pink
+brand:
+  slug: purefil
+name: PLA Antique Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fcafc0ff'
+  color_lab:
+    - 79.14
+    - 30.42
+    - 2.76
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

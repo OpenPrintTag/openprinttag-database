@@ -1,0 +1,26 @@
+uuid: 0e82403d-4af6-5c5c-a9e5-8629de9bb3a7
+slug: purefil-petg-blue-transparent
+brand:
+  slug: purefil
+name: PETG Blue Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#3b78d8ff'
+  color_lab:
+    - 51.06
+    - 12.8
+    - -54.98
+tags:
+  - translucent
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 80
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/purefil-petg-blue-transparent-0-a20267f8.webp
+    type: unspecified

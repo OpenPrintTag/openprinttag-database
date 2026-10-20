@@ -1,0 +1,24 @@
+uuid: 4706390f-68a7-5e6b-bc28-9b5e11070f33
+slug: purefil-coc-tough-nature
+brand:
+  slug: purefil
+name: COC Tough Nature
+class: FFF
+abbreviation: COC
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+properties:
+  density: 1.02
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-coc-tough-nature-0-1acc3463.webp
+    type: unspecified

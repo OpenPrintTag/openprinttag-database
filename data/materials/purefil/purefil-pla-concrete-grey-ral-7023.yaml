@@ -1,0 +1,23 @@
+uuid: 6c380530-b4b1-5dde-b157-cec4eaaf1b39
+slug: purefil-pla-concrete-grey-ral-7023
+brand:
+  slug: purefil
+name: PLA Concrete Grey RAL 7023
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#818479ff'
+  color_lab:
+    - 54.61
+    - -3.24
+    - 5.55
+  color_ral: '7023'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-concrete-grey-ral-7023-0-cd45e9ec.webp
+    type: unspecified

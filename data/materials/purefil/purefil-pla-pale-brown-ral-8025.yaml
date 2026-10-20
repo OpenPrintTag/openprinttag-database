@@ -1,0 +1,20 @@
+uuid: cbeb78be-be47-5cf8-b682-3e5a78fb6a96
+slug: purefil-pla-pale-brown-ral-8025
+brand:
+  slug: purefil
+name: PLA Pale Brown RAL 8025
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#755c49ff'
+  color_lab:
+    - 41.09
+    - 7.3
+    - 14.83
+  color_ral: '8025'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

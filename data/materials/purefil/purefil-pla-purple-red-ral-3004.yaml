@@ -1,0 +1,23 @@
+uuid: b4b3c075-ff24-5e0d-852b-9b21c24d6bbd
+slug: purefil-pla-purple-red-ral-3004
+brand:
+  slug: purefil
+name: PLA Purple Red RAL 3004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#701f29ff'
+  color_lab:
+    - 25.52
+    - 36.18
+    - 14.11
+  color_ral: '3004'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-purple-red-ral-3004-0-b3b41df8.webp
+    type: unspecified

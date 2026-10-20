@@ -1,0 +1,20 @@
+uuid: fca82d85-dd93-5792-a2f4-644f88095ad0
+slug: purefil-pla-gentian-blue-ral-5010
+brand:
+  slug: purefil
+name: PLA Gentian Blue RAL 5010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#13447cff'
+  color_lab:
+    - 28.71
+    - 6.05
+    - -36.32
+  color_ral: '5010'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

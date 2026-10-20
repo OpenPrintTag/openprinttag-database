@@ -1,0 +1,25 @@
+uuid: f44fdafb-c11e-581b-8302-dbf3557d74a8
+slug: purefil-tpc-52d-jet-black-ral-9005
+brand:
+  slug: purefil
+name: TPC 52D Jet Black RAL 9005
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+properties:
+  density: 1.2
+  hardness_shore_d: 52.0
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/purefil-tpc-52d-jet-black-ral-9005-0-73f92a3b.webp
+    type: unspecified

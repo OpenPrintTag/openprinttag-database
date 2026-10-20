@@ -1,0 +1,23 @@
+uuid: a0781431-0b28-583b-a994-4c26031d7255
+slug: purefil-pla-reed-green-ral-6013
+brand:
+  slug: purefil
+name: PLA Reed Green RAL 6013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#797c5aff'
+  color_lab:
+    - 50.94
+    - -7.17
+    - 18.24
+  color_ral: '6013'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-reed-green-ral-6013-0-46f0bb49.webp
+    type: unspecified

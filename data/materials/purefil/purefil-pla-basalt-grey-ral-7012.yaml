@@ -1,0 +1,20 @@
+uuid: 8c841a23-ea74-58d9-898f-ff65910e445b
+slug: purefil-pla-basalt-grey-ral-7012
+brand:
+  slug: purefil
+name: PLA Basalt Grey RAL 7012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#596163ff'
+  color_lab:
+    - 40.53
+    - -2.65
+    - -2.2
+  color_ral: '7012'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

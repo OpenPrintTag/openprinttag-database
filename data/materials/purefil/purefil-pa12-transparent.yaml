@@ -1,0 +1,27 @@
+uuid: f99ef00a-4e54-5a98-adc3-e77cce986a2e
+slug: purefil-pa12-transparent
+brand:
+  slug: purefil
+name: PA12 Transparent
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+    - 95.53
+    - -1.29
+    - -1.54
+tags:
+  - translucent
+  - filtration_recommended
+properties:
+  density: 1.0
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-pa12-transparent-0-0c52f354.webp
+    type: unspecified

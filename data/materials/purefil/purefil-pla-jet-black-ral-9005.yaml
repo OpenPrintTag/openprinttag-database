@@ -1,0 +1,23 @@
+uuid: d71236b2-45a6-5eec-af6f-5563e065d5e6
+slug: purefil-pla-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PLA Jet Black RAL 9005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-jet-black-ral-9005-0-8879913d.webp
+    type: unspecified

@@ -1,0 +1,25 @@
+uuid: 5229a3ad-0263-5e40-883e-602a341752f9
+slug: purefil-pla-luminous-red-ral-3024
+brand:
+  slug: purefil
+name: PLA Luminous Red RAL 3024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f70000ff'
+  color_lab:
+    - 51.59
+    - 78.18
+    - 65.6
+  color_ral: '3024'
+tags:
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-luminous-red-ral-3024-0-c85b0dd3.webp
+    type: unspecified

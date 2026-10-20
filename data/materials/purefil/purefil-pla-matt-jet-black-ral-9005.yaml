@@ -1,0 +1,25 @@
+uuid: e4f58b57-6346-50e4-b0a7-efe3067ad5b5
+slug: purefil-pla-matt-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PLA Matt Jet Black RAL 9005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - matte
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-matt-jet-black-ral-9005-0-986af7f9.webp
+    type: unspecified

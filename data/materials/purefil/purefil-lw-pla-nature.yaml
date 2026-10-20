@@ -1,0 +1,25 @@
+uuid: 3a815049-b89d-5172-92e6-a17e8e495d59
+slug: purefil-lw-pla-nature
+brand:
+  slug: purefil
+name: LW-PLA Nature
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - foaming
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-lw-pla-nature-0-6fdce3db.webp
+    type: unspecified

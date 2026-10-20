@@ -1,0 +1,20 @@
+uuid: 3200c7b5-226f-559a-98dd-6512bd0cc17f
+slug: purefil-pla-cobalt-blue-ral-5013
+brand:
+  slug: purefil
+name: PLA Cobalt Blue RAL 5013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232d53ff'
+  color_lab:
+    - 19.47
+    - 8.44
+    - -24.54
+  color_ral: '5013'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

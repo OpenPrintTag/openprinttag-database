@@ -1,0 +1,30 @@
+uuid: 12ab7d39-36f5-5d11-aaa9-f43808f5ed57
+slug: purefil-pa12-cf15-jet-black-ral-9005
+brand:
+  slug: purefil
+name: PA12 CF15 Jet Black RAL 9005
+class: FFF
+type: PA12
+abbreviation: PA12CF
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-pa12-cf15-jet-black-ral-9005-0-8f485130.webp
+    type: unspecified

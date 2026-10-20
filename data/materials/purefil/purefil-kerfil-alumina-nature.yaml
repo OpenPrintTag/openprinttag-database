@@ -1,0 +1,21 @@
+uuid: 42836a5f-a09e-5330-addb-499599a3719a
+slug: purefil-kerfil-alumina-nature
+brand:
+  slug: purefil
+name: Kerfil Alumina Nature
+class: FFF
+abbreviation: KERFIL
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - contains_ceramic
+properties:
+  min_print_temperature: 170
+  max_print_temperature: 200
+photos:
+  - url: /tmp/assets/purefil-kerfil-alumina-nature-0-58c313a6.png
+    type: unspecified

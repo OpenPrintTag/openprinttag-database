@@ -1,0 +1,24 @@
+uuid: 0f7167e8-a2a7-5a92-83c8-78990e50ba1a
+slug: purefil-pla-transparent
+brand:
+  slug: purefil
+name: PLA Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+    - 95.53
+    - -1.29
+    - -1.54
+tags:
+  - translucent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-transparent-0-605bcd74.webp
+    type: unspecified

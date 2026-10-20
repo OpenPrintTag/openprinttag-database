@@ -1,0 +1,20 @@
+uuid: 82cd89bf-7668-5882-a2c8-066e61325327
+slug: purefil-pla-brown-green-ral-6008
+brand:
+  slug: purefil
+name: PLA Brown Green RAL 6008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#35382eff'
+  color_lab:
+    - 22.94
+    - -3.49
+    - 5.83
+  color_ral: '6008'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

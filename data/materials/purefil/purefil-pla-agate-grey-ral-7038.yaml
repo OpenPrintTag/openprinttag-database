@@ -1,0 +1,20 @@
+uuid: dda751a9-fd31-5a85-b989-2a1eb6f45918
+slug: purefil-pla-agate-grey-ral-7038
+brand:
+  slug: purefil
+name: PLA Agate Grey RAL 7038
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b4b8b0ff'
+  color_lab:
+    - 74.27
+    - -2.88
+    - 3.57
+  color_ral: '7038'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

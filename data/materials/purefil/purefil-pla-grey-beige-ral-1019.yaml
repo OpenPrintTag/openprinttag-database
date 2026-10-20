@@ -1,0 +1,20 @@
+uuid: ea2ff8ae-d6d0-5006-b1df-fa0779df4aa9
+slug: purefil-pla-grey-beige-ral-1019
+brand:
+  slug: purefil
+name: PLA Grey Beige RAL 1019
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a48f7aff'
+  color_lab:
+    - 60.73
+    - 4.49
+    - 14.08
+  color_ral: '1019'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

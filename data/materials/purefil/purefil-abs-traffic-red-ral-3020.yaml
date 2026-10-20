@@ -1,0 +1,27 @@
+uuid: d20e2399-32ab-52ae-9768-c6b8c76bd7e6
+slug: purefil-abs-traffic-red-ral-3020
+brand:
+  slug: purefil
+name: ABS Traffic Red RAL 3020
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#c1121cff'
+  color_lab:
+    - 40.99
+    - 63.3
+    - 43.73
+  color_ral: '3020'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-traffic-red-ral-3020-0-2d8e82e9.webp
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: e1ea628d-b700-53e9-b645-dca6a1540c42
+slug: purefil-pla-iron-grey-ral-7011
+brand:
+  slug: purefil
+name: PLA Iron Grey RAL 7011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#555d61ff'
+  color_lab:
+    - 38.94
+    - -2.2
+    - -3.36
+  color_ral: '7011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-iron-grey-ral-7011-0-374a1e91.webp
+    type: unspecified

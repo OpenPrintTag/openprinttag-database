@@ -1,0 +1,23 @@
+uuid: 931643fd-cbf2-59a8-8485-f9987d9e81b3
+slug: purefil-pla-ultramarine-blue-ral-5002
+brand:
+  slug: purefil
+name: PLA Ultramarine Blue RAL 5002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2b2c7cff'
+  color_lab:
+    - 22.9
+    - 26.14
+    - -45.68
+  color_ral: '5002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-ultramarine-blue-ral-5002-0-8a97cd74.webp
+    type: unspecified

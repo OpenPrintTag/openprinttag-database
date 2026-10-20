@@ -1,0 +1,26 @@
+uuid: 1aba0765-ff94-5545-b8d8-aed6355cf8f4
+slug: purefil-lw-pla-traffic-red-ral-3020
+brand:
+  slug: purefil
+name: LW-PLA Traffic Red RAL 3020
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c1121cff'
+  color_lab:
+    - 40.99
+    - 63.3
+    - 43.73
+  color_ral: '3020'
+tags:
+  - foaming
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-lw-pla-traffic-red-ral-3020-0-a4629211.webp
+    type: unspecified

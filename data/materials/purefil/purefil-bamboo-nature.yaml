@@ -1,0 +1,22 @@
+uuid: c1972e22-5baf-5a09-855a-bdb21c512a58
+slug: purefil-bamboo-nature
+brand:
+  slug: purefil
+name: Bamboo Nature
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9dcbbff'
+  color_lab:
+    - 88.02
+    - -0.79
+    - 17.84
+tags:
+  - contains_organic_material
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+photos:
+  - url: /tmp/assets/purefil-bamboo-nature-0-f2450e0e.webp
+    type: unspecified

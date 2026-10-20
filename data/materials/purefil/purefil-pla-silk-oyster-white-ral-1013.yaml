@@ -1,0 +1,25 @@
+uuid: b423cb26-2c75-501a-8d57-a6a8a2531e94
+slug: purefil-pla-silk-oyster-white-ral-1013
+brand:
+  slug: purefil
+name: PLA Silk Oyster White RAL 1013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3d9c6ff'
+  color_lab:
+    - 87.01
+    - 0.26
+    - 10.58
+  color_ral: '1013'
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-silk-oyster-white-ral-1013-0-fe65c745.webp
+    type: unspecified

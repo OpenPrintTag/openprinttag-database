@@ -1,0 +1,28 @@
+uuid: d49c48c6-d56f-5302-bc75-5dca0694dd83
+slug: purefil-tps-40d-pure-white-ral-9010
+brand:
+  slug: purefil
+name: TPS 40D Pure White RAL 9010
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+properties:
+  density: 1.22
+  hardness_shore_d: 40.0
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_chamber_temperature: 60
+  max_chamber_temperature: 80
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-tps-40d-pure-white-ral-9010-0-adda7ae5.webp
+    type: unspecified

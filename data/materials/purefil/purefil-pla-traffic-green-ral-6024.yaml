@@ -1,0 +1,20 @@
+uuid: adb893dc-b108-5bc8-bc43-d4d0a327dcdd
+slug: purefil-pla-traffic-green-ral-6024
+brand:
+  slug: purefil
+name: PLA Traffic Green RAL 6024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#008754ff'
+  color_lab:
+    - 49.46
+    - -44.04
+    - 18.83
+  color_ral: '6024'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

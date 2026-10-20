@@ -1,0 +1,24 @@
+uuid: d0661ac1-8b58-5152-96e1-784fea7c011d
+slug: purefil-pla-silk-magenta
+brand:
+  slug: purefil
+name: PLA Silk Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff0086ff'
+  color_lab:
+    - 55.06
+    - 84.98
+    - 0.72
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-silk-magenta-0-fbae9c68.webp
+    type: unspecified

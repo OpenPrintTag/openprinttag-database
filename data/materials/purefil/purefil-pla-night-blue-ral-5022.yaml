@@ -1,0 +1,23 @@
+uuid: 1cc2f5c3-e33c-500f-a2ec-8d7715747219
+slug: purefil-pla-night-blue-ral-5022
+brand:
+  slug: purefil
+name: PLA Night Blue RAL 5022
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2f2a5aff'
+  color_lab:
+    - 20.04
+    - 16.31
+    - -28.24
+  color_ral: '5022'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-night-blue-ral-5022-0-d664fd4b.webp
+    type: unspecified

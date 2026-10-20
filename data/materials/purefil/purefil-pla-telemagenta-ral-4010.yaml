@@ -1,0 +1,23 @@
+uuid: 52239612-7a9d-57b2-be87-61398b204742
+slug: purefil-pla-telemagenta-ral-4010
+brand:
+  slug: purefil
+name: PLA Telemagenta RAL 4010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c63678ff'
+  color_lab:
+    - 46.98
+    - 61.23
+    - -3.92
+  color_ral: '4010'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-telemagenta-ral-4010-0-071ec8a1.webp
+    type: unspecified

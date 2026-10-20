@@ -1,0 +1,25 @@
+uuid: 0eab3e17-f393-50cf-8093-4caf1afaf48e
+slug: purefil-san-transparent
+brand:
+  slug: purefil
+name: SAN Transparent
+class: FFF
+abbreviation: SAN
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+    - 95.53
+    - -1.29
+    - -1.54
+tags:
+  - translucent
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-san-transparent-0-4e7557ca.webp
+    type: unspecified

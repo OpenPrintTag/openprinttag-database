@@ -1,0 +1,23 @@
+uuid: 59bb377c-c656-5599-9bff-7379b618fe83
+slug: purefil-pla-dahlia-yellow-ral-1033
+brand:
+  slug: purefil
+name: PLA Dahlia Yellow RAL 1033
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f99a1cff'
+  color_lab:
+    - 71.79
+    - 27.48
+    - 72.06
+  color_ral: '1033'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-dahlia-yellow-ral-1033-0-4e9d05ba.webp
+    type: unspecified

@@ -1,0 +1,26 @@
+uuid: ba8e9081-4a6e-5454-bf29-5755d092659e
+slug: purefil-biotec-r-jet-black-ral-9005
+brand:
+  slug: purefil
+name: BioTEC-R Jet Black RAL 9005
+class: FFF
+abbreviation: BIO
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - recycled
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+  drying_temperature: 100
+photos:
+  - url: /tmp/assets/purefil-biotec-r-jet-black-ral-9005-0-4b70e0e5.png
+    type: unspecified

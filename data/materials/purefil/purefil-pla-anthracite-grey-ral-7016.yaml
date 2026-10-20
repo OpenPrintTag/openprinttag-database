@@ -1,0 +1,23 @@
+uuid: 7d9fce2b-87ff-5428-b41a-51bea3467b21
+slug: purefil-pla-anthracite-grey-ral-7016
+brand:
+  slug: purefil
+name: PLA Anthracite Grey RAL 7016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#373f43ff'
+  color_lab:
+    - 26.08
+    - -2.3
+    - -3.56
+  color_ral: '7016'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-anthracite-grey-ral-7016-0-49abca90.webp
+    type: unspecified

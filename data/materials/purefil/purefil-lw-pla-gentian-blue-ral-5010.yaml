@@ -1,0 +1,26 @@
+uuid: 68617b4c-293f-5ac1-86ca-f2a9ac1dcf15
+slug: purefil-lw-pla-gentian-blue-ral-5010
+brand:
+  slug: purefil
+name: LW-PLA Gentian Blue RAL 5010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#13447cff'
+  color_lab:
+    - 28.71
+    - 6.05
+    - -36.32
+  color_ral: '5010'
+tags:
+  - foaming
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-lw-pla-gentian-blue-ral-5010-0-8762f68d.webp
+    type: unspecified

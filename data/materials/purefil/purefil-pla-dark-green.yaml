@@ -1,0 +1,22 @@
+uuid: bb2f6313-6a25-5754-ad51-70f15741ff16
+slug: purefil-pla-dark-green
+brand:
+  slug: purefil
+name: PLA Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#13484dff'
+  color_lab:
+    - 27.6
+    - -15.09
+    - -8.03
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-dark-green-0-ee935614.webp
+    type: unspecified

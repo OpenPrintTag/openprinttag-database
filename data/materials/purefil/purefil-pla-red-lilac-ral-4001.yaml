@@ -1,0 +1,20 @@
+uuid: a510aef3-96a3-55ab-a8d9-626ae2f0d75f
+slug: purefil-pla-red-lilac-ral-4001
+brand:
+  slug: purefil
+name: PLA Red Lilac RAL 4001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8a5a83ff'
+  color_lab:
+    - 44.74
+    - 26.57
+    - -14.87
+  color_ral: '4001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

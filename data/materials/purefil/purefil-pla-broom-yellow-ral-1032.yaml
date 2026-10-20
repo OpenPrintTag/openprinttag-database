@@ -1,0 +1,20 @@
+uuid: 0e1315d3-9cd8-57ff-a3bd-b0ae47979130
+slug: purefil-pla-broom-yellow-ral-1032
+brand:
+  slug: purefil
+name: PLA Broom Yellow RAL 1032
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2a300ff'
+  color_lab:
+    - 71.12
+    - 12.62
+    - 74.81
+  color_ral: '1032'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

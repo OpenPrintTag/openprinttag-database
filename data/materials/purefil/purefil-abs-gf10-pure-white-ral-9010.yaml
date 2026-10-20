@@ -1,0 +1,30 @@
+uuid: e6d8ed82-3534-5d60-b6cf-1f06aaf421c7
+slug: purefil-abs-gf10-pure-white-ral-9010
+brand:
+  slug: purefil
+name: ABS GF10 Pure White RAL 9010
+class: FFF
+type: ABS
+abbreviation: ABSGF
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.11
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-abs-gf10-pure-white-ral-9010-0-a3c417c2.webp
+    type: unspecified

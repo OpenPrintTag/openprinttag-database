@@ -1,0 +1,20 @@
+uuid: 9bb6d70d-4696-596b-bf8b-cee7f4a34a65
+slug: purefil-pla-strawberry-red-ral-3018
+brand:
+  slug: purefil
+name: PLA Strawberry Red RAL 3018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d14152ff'
+  color_lab:
+    - 49.43
+    - 57.29
+    - 22.94
+  color_ral: '3018'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

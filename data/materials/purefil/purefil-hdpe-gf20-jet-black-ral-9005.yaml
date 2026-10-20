@@ -1,0 +1,27 @@
+uuid: 799d2654-8304-5bf5-8035-dff97a4480cd
+slug: purefil-hdpe-gf20-jet-black-ral-9005
+brand:
+  slug: purefil
+name: HDPE GF20 Jet Black RAL 9005
+class: FFF
+abbreviation: HDPEGF
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.08
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/purefil-hdpe-gf20-jet-black-ral-9005-0-ea982ae4.webp
+    type: unspecified

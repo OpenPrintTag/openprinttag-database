@@ -1,0 +1,20 @@
+uuid: 657cd473-c63b-589e-90f9-8754968067bb
+slug: purefil-pla-tomato-red-ral-3013
+brand:
+  slug: purefil
+name: PLA Tomato Red RAL 3013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9c322eff'
+  color_lab:
+    - 37.02
+    - 43.73
+    - 27.11
+  color_ral: '3013'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,29 @@
+uuid: c1bdb393-91c5-5b74-b703-2c0c14304d14
+slug: purefil-asa-cf10-black
+brand:
+  slug: purefil
+name: ASA CF10 Black
+class: FFF
+type: ASA
+abbreviation: ASACF
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+    - 0.76
+    - -0.26
+    - -0.09
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.11
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-cf10-black-0-a57a3c41.webp
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 5e17569e-647b-5003-9b1b-2680d883d0d3
+slug: purefil-pla-soft-pure-white-ral-9010
+brand:
+  slug: purefil
+name: PLA Soft Pure White RAL 9010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+properties:
+  density: 1.2
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-pla-soft-pure-white-ral-9010-0-bd16b028.webp
+    type: unspecified

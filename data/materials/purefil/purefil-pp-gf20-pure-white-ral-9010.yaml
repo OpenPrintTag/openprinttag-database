@@ -1,0 +1,28 @@
+uuid: ff52daad-5d9b-557c-880c-c80a486258e2
+slug: purefil-pp-gf20-pure-white-ral-9010
+brand:
+  slug: purefil
+name: PP GF20 Pure White RAL 9010
+class: FFF
+type: PP
+abbreviation: PPGF
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+    - 97.53
+    - -2.4
+    - 4.56
+  color_ral: '9010'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.04
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/purefil-pp-gf20-pure-white-ral-9010-0-8d3d500d.webp
+    type: unspecified

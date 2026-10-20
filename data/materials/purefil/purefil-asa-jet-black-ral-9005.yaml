@@ -1,0 +1,27 @@
+uuid: 3de2d810-60b0-5940-a840-f26ae37daaad
+slug: purefil-asa-jet-black-ral-9005
+brand:
+  slug: purefil
+name: ASA Jet Black RAL 9005
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#0a0a0dff'
+  color_lab:
+    - 2.81
+    - 0.45
+    - -1.23
+  color_ral: '9005'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/purefil-asa-jet-black-ral-9005-0-b6cc23ec.webp
+    type: unspecified

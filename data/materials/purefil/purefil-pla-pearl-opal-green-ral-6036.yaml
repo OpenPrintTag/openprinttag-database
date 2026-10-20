@@ -1,0 +1,25 @@
+uuid: eee2fd25-e448-5c17-ae06-87a99e2cd3e7
+slug: purefil-pla-pearl-opal-green-ral-6036
+brand:
+  slug: purefil
+name: PLA Pearl Opal Green RAL 6036
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#005d4cff'
+  color_lab:
+    - 34.7
+    - -28.51
+    - 3.05
+  color_ral: '6036'
+tags:
+  - pearlescent
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-pearl-opal-green-ral-6036-0-cfe6e47d.webp
+    type: unspecified

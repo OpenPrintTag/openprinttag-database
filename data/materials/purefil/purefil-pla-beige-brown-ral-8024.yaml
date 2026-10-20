@@ -1,0 +1,23 @@
+uuid: 21333f94-d141-5c4b-9fb7-aacb0c7abfcf
+slug: purefil-pla-beige-brown-ral-8024
+brand:
+  slug: purefil
+name: PLA Beige Brown RAL 8024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#79553cff'
+  color_lab:
+    - 39.39
+    - 11.72
+    - 20.49
+  color_ral: '8024'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/purefil-pla-beige-brown-ral-8024-0-449f1976.webp
+    type: unspecified

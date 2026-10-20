@@ -1,0 +1,27 @@
+uuid: 9b102686-5879-59e2-ae22-7bffeadef63c
+slug: purefil-mabs-blue-transparent
+brand:
+  slug: purefil
+name: MABS Blue Transparent
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#3b78d8ff'
+  color_lab:
+    - 51.06
+    - 12.8
+    - -54.98
+tags:
+  - translucent
+  - filtration_recommended
+properties:
+  density: 1.09
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  drying_temperature: 90
+photos:
+  - url: /tmp/assets/purefil-mabs-blue-transparent-0-623eee71.webp
+    type: unspecified
