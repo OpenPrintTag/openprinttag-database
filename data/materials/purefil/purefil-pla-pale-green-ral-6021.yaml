@@ -1,0 +1,20 @@
+uuid: 31cd3217-cd15-5483-bdb5-233af7214557
+slug: purefil-pla-pale-green-ral-6021
+brand:
+  slug: purefil
+name: PLA Pale Green RAL 6021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#86a47cff'
+  color_lab:
+    - 64.22
+    - -18.14
+    - 17.43
+  color_ral: '6021'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

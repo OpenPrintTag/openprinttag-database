@@ -1,0 +1,17 @@
+uuid: cb138c61-14c7-520b-aa03-d4629138ffef
+slug: tectonic-3d-aura-asa-red
+brand:
+  slug: tectonic-3d
+name: AURA ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#e20010ff'
+  color_lab:
+    - 47.25
+    - 73.24
+    - 56.61
+tags:
+  - filtration_recommended
+properties: {}

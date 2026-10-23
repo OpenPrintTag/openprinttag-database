@@ -1,0 +1,20 @@
+uuid: addf78f0-47e4-532c-b328-4e8002378548
+slug: purefil-pla-light-ivory-ral-1015
+brand:
+  slug: purefil
+name: PLA Light Ivory RAL 1015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e6d2b5ff'
+  color_lab:
+    - 85.13
+    - 2.4
+    - 16.91
+  color_ral: '1015'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

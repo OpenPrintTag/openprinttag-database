@@ -1,0 +1,20 @@
+uuid: 90eb236d-7296-5a86-ae2b-0544572c72e8
+slug: purefil-pla-turquoise-blue-ral-5018
+brand:
+  slug: purefil
+name: PLA Turquoise Blue RAL 5018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#21888fff'
+  color_lab:
+    - 51.74
+    - -25.51
+    - -11.99
+  color_ral: '5018'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

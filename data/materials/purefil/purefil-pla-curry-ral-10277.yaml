@@ -1,0 +1,20 @@
+uuid: 9bac5095-9967-56e4-a1ca-2acdcac26c40
+slug: purefil-pla-curry-ral-10277
+brand:
+  slug: purefil
+name: PLA Curry RAL 10277
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b98d2fff'
+  color_lab:
+    - 61.28
+    - 7.5
+    - 53.84
+  color_ral: '1027'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

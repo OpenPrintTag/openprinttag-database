@@ -1,0 +1,20 @@
+uuid: 15bf2571-7b09-544a-af26-024d18d830d6
+slug: purefil-pla-sapphire-blue-ral-5003
+brand:
+  slug: purefil
+name: PLA Sapphire Blue RAL 5003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2a3756ff'
+  color_lab:
+    - 23.33
+    - 4.41
+    - -20.41
+  color_ral: '5003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

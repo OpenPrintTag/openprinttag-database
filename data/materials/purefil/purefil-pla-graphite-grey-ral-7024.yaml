@@ -1,0 +1,20 @@
+uuid: ee7b7334-35ee-5e02-bdff-e88c080d6373
+slug: purefil-pla-graphite-grey-ral-7024
+brand:
+  slug: purefil
+name: PLA Graphite Grey RAL 7024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#474a50ff'
+  color_lab:
+    - 31.38
+    - 0.17
+    - -3.98
+  color_ral: '7024'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

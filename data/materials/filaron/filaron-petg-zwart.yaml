@@ -1,0 +1,20 @@
+name: PETG Zwart
+slug: filaron-petg-zwart
+brand:
+  slug: filaron
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-petg-zwart/filaron-petg-zwart-0-b7780927.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+url: https://www.filaron.be/products/petg-zwart-1-75mm-1kg?variant=58893534855503
+uuid: ddcce7e3-1781-5f9f-9635-c4b889a42639

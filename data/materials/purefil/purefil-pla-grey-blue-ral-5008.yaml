@@ -1,0 +1,20 @@
+uuid: 0d2be07b-0356-573c-baf8-71c48f52c311
+slug: purefil-pla-grey-blue-ral-5008
+brand:
+  slug: purefil
+name: PLA Grey Blue RAL 5008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#313c48ff'
+  color_lab:
+    - 24.8
+    - -1.21
+    - -8.83
+  color_ral: '5008'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

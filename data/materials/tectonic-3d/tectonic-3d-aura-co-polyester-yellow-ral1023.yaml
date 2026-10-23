@@ -8,4 +8,9 @@ type: CPE
 abbreviation: CPE
 primary_color:
   color_rgba: '#f7b500ff'
+  color_lab:
+    - 77.77
+    - 12.18
+    - 80.41
+  color_ral: '1023'
 properties: {}

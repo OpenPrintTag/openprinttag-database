@@ -1,0 +1,20 @@
+uuid: 236ff3c2-4960-509e-8e4e-8acccd05ca53
+slug: purefil-pla-pigeon-blue-ral-5014
+brand:
+  slug: purefil
+name: PLA Pigeon Blue RAL 5014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6c7c98ff'
+  color_lab:
+    - 51.69
+    - 0.88
+    - -17.0
+  color_ral: '5014'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

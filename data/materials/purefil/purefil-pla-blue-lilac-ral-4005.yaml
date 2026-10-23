@@ -1,0 +1,20 @@
+uuid: 12423561-3dcb-5160-9573-a73ed6991003
+slug: purefil-pla-blue-lilac-ral-4005
+brand:
+  slug: purefil
+name: PLA Blue Lilac RAL 4005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#83639dff'
+  color_lab:
+    - 47.21
+    - 24.46
+    - -26.65
+  color_ral: '4005'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 51fbde6e-d194-59be-b548-0bb7833415ce
+slug: purefil-pla-ochre-yellow-ral-1024
+brand:
+  slug: purefil
+name: PLA Ochre Yellow RAL 1024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ba8f4cff'
+  color_lab:
+    - 62.18
+    - 8.61
+    - 41.38
+  color_ral: '1024'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

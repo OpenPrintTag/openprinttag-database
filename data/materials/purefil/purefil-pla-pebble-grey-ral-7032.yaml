@@ -1,0 +1,20 @@
+uuid: 41d65212-2b55-5fa2-b0a4-6f2f1dce00bd
+slug: purefil-pla-pebble-grey-ral-7032
+brand:
+  slug: purefil
+name: PLA Pebble Grey RAL 7032
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b9b9a8ff'
+  color_lab:
+    - 74.72
+    - -3.02
+    - 8.63
+  color_ral: '7032'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

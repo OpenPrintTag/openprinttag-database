@@ -1,0 +1,20 @@
+uuid: a90b3027-ece5-5dce-9174-304497f5a17c
+slug: purefil-pla-ruby-red-ral-3003
+brand:
+  slug: purefil
+name: PLA Ruby Red RAL 3003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8d1d2cff'
+  color_lab:
+    - 31.17
+    - 46.66
+    - 20.56
+  color_ral: '3003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

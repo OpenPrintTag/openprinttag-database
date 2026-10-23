@@ -1,0 +1,26 @@
+uuid: f3f47bf8-0634-539b-9506-3d231bb9515a
+slug: tectonic-3d-atar-fst1-black
+brand:
+  slug: tectonic-3d
+name: ATAR FST1 Black
+class: FFF
+type: PPE
+abbreviation: PPE
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - blend
+  - self_extinguishing
+properties:
+  density: 1.11
+  min_print_temperature: 290
+  max_print_temperature: 310
+  min_bed_temperature: 140
+  max_bed_temperature: 160
+  min_chamber_temperature: 70
+  max_chamber_temperature: 90
+  drying_temperature: 120

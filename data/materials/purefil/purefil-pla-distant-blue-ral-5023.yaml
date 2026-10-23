@@ -1,0 +1,20 @@
+uuid: f489efe1-961f-5de2-b923-f00185bcf15f
+slug: purefil-pla-distant-blue-ral-5023
+brand:
+  slug: purefil
+name: PLA Distant Blue RAL 5023
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4d668eff'
+  color_lab:
+    - 42.81
+    - 2.07
+    - -24.92
+  color_ral: '5023'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

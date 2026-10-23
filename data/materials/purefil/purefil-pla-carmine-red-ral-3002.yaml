@@ -1,0 +1,20 @@
+uuid: 64dddbc7-a111-5ddc-9d44-f2848aa1fed4
+slug: purefil-pla-carmine-red-ral-3002
+brand:
+  slug: purefil
+name: PLA Carmine Red RAL 3002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a1232bff'
+  color_lab:
+    - 35.9
+    - 50.85
+    - 27.86
+  color_ral: '3002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

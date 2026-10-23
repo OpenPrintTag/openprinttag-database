@@ -1,0 +1,20 @@
+uuid: dc49b9f7-bfb8-51a2-b53d-dc1ac4e2e1f7
+slug: purefil-pla-black-olive-ral-6015
+brand:
+  slug: purefil
+name: PLA Black Olive RAL 6015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3d403aff'
+  color_lab:
+    - 26.63
+    - -2.59
+    - 3.24
+  color_ral: '6015'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

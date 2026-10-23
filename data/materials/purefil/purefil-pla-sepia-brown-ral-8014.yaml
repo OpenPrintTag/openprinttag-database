@@ -1,0 +1,20 @@
+uuid: 9f67d5d6-e422-53c1-9edd-5c958d30d5ee
+slug: purefil-pla-sepia-brown-ral-8014
+brand:
+  slug: purefil
+name: PLA Sepia Brown RAL 8014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#49392dff'
+  color_lab:
+    - 25.36
+    - 5.05
+    - 10.17
+  color_ral: '8014'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

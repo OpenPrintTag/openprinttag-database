@@ -1,0 +1,20 @@
+uuid: 6cc47eb0-3c28-5cdb-b77c-0352174c8668
+slug: purefil-pla-black-green-ral-6012
+brand:
+  slug: purefil
+name: PLA Black Green RAL 6012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#31403dff'
+  color_lab:
+    - 25.73
+    - -6.81
+    - -0.16
+  color_ral: '6012'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

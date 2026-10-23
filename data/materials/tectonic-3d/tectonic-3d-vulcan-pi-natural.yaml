@@ -1,0 +1,25 @@
+uuid: 0be9e428-11a1-59e3-9238-3865ffdd44a0
+slug: tectonic-3d-vulcan-pi-natural
+brand:
+  slug: tectonic-3d
+name: VULCAN PI Natural
+class: FFF
+type: TPI
+abbreviation: TPI
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - self_extinguishing
+properties:
+  density: 1.51
+  min_print_temperature: 390
+  max_print_temperature: 410
+  min_bed_temperature: 120
+  max_bed_temperature: 160
+  min_chamber_temperature: 80
+  max_chamber_temperature: 160
+  drying_temperature: 120

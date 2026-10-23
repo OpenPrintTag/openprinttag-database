@@ -1,0 +1,20 @@
+uuid: 411eaf9e-a0c2-5555-84b5-3a3e5fe1bb81
+slug: purefil-pla-khaki-grey-ral-7008
+brand:
+  slug: purefil
+name: PLA Khaki Grey RAL 7008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#746643ff'
+  color_lab:
+    - 43.69
+    - 0.14
+    - 21.82
+  color_ral: '7008'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

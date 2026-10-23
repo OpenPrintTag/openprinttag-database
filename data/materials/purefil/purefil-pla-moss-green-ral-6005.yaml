@@ -1,0 +1,20 @@
+uuid: b487bb34-99da-5cc5-b925-cdc05990e664
+slug: purefil-pla-moss-green-ral-6005
+brand:
+  slug: purefil
+name: PLA Moss Green RAL 6005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0f4336ff'
+  color_lab:
+    - 24.9
+    - -20.58
+    - 3.02
+  color_ral: '6005'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

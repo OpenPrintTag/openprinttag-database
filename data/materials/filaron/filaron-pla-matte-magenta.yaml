@@ -1,0 +1,22 @@
+name: PLA Matte Magenta
+slug: filaron-pla-matte-magenta
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#ff00ffff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-matte-magenta/filaron-pla-matte-magenta-0-f1855610.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-roze-matte-1-75mm-1-0kg-bundle?variant=58027849089359
+uuid: c2983845-07d8-5aa4-b727-dcb625adbb60

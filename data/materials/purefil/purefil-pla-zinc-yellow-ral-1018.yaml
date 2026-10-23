@@ -1,0 +1,20 @@
+uuid: 07b9111c-a786-55d9-b129-d17a14117144
+slug: purefil-pla-zinc-yellow-ral-1018
+brand:
+  slug: purefil
+name: PLA Zinc Yellow RAL 1018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#faca30ff'
+  color_lab:
+    - 83.33
+    - 3.34
+    - 76.18
+  color_ral: '1018'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 0dd5f886-4cde-5395-85c6-a0cf2bae516f
+slug: purefil-pla-telegrey-1-ral-7045
+brand:
+  slug: purefil
+name: PLA Telegrey 1 RAL 7045
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#91969aff'
+  color_lab:
+    - 61.8
+    - -1.0
+    - -2.73
+  color_ral: '7045'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 0e0cfa96-436d-504a-bf24-28aa44ffb1a6
+slug: purefil-pla-pure-green-ral-6037
+brand:
+  slug: purefil
+name: PLA Pure Green RAL 6037
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#25e712ff'
+  color_lab:
+    - 80.51
+    - -77.66
+    - 75.75
+  color_ral: '6037'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 1b25548d-0e15-538e-8f7e-a1496ddabe38
+slug: purefil-pla-yellow-green-ral-6018
+brand:
+  slug: purefil
+name: PLA Yellow Green RAL 6018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#48a43fff'
+  color_lab:
+    - 60.15
+    - -47.37
+    - 43.29
+  color_ral: '6018'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

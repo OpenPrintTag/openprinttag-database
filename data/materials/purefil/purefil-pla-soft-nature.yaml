@@ -1,0 +1,22 @@
+uuid: e8e51d52-3510-59fe-bf97-28de7b66fce4
+slug: purefil-pla-soft-nature
+brand:
+  slug: purefil
+name: PLA Soft Nature
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ae9d7eff'
+  color_lab:
+  - 65.45
+  - 1.32
+  - 18.52
+properties:
+  density: 1.2
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/purefil/purefil-pla-soft-nature/purefil-pla-soft-nature-0-c4546952.webp
+  type: unspecified

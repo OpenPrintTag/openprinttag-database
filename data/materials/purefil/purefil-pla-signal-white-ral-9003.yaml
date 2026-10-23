@@ -1,0 +1,20 @@
+uuid: 1dfce835-1b0d-5dd7-aab4-299cf4a24ef2
+slug: purefil-pla-signal-white-ral-9003
+brand:
+  slug: purefil
+name: PLA Signal White RAL 9003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f4f8f4ff'
+  color_lab:
+    - 97.19
+    - -2.03
+    - 1.45
+  color_ral: '9003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

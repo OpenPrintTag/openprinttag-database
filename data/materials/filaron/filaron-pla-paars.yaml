@@ -1,0 +1,21 @@
+name: PLA Paars
+slug: filaron-pla-paars
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#800080ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-paars/filaron-pla-paars-0-1b1f23d9.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-paars-1-75mm-1-0kg-bundle?variant=58076467495247
+uuid: f30d9f55-ff0b-5f76-9500-a771aef9b255

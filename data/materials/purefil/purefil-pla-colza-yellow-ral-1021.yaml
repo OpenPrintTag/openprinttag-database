@@ -1,0 +1,20 @@
+uuid: c64771fe-d15c-5344-886f-c0836c3c83dd
+slug: purefil-pla-colza-yellow-ral-1021
+brand:
+  slug: purefil
+name: PLA Colza Yellow RAL 1021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6b600ff'
+  color_lab:
+    - 77.91
+    - 11.22
+    - 80.45
+  color_ral: '1021'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

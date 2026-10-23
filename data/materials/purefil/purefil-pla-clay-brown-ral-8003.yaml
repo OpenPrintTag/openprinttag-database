@@ -1,0 +1,20 @@
+uuid: 0713a6a7-4691-5a56-9406-c70a9df29121
+slug: purefil-pla-clay-brown-ral-8003
+brand:
+  slug: purefil
+name: PLA Clay Brown RAL 8003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#80542fff'
+  color_lab:
+    - 39.81
+    - 14.3
+    - 28.78
+  color_ral: '8003'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

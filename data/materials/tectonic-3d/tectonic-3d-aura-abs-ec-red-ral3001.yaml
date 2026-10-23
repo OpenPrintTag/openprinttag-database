@@ -8,6 +8,19 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#ec0000ff'
+  color_lab:
+    - 49.3
+    - 75.53
+    - 63.38
+  color_ral: '3001'
 tags:
-- filtration_recommended
-properties: {}
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 23
+  max_chamber_temperature: 90
+  drying_temperature: 60

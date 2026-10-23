@@ -1,0 +1,26 @@
+uuid: e9442b34-9b1b-5e3c-b470-efcfc55a9033
+slug: tectonic-3d-aura-asa-plus-natural
+brand:
+  slug: tectonic-3d
+name: AURA ASA+ Natural
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#d9d8deff'
+  color_lab:
+    - 86.57
+    - 1.43
+    - -2.82
+tags:
+  - without_pigments
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  min_chamber_temperature: 23
+  max_chamber_temperature: 60
+  drying_temperature: 60

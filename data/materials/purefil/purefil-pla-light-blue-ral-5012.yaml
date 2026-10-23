@@ -1,0 +1,20 @@
+uuid: 2566bf24-07e0-585d-8f52-4370a9ba71ad
+slug: purefil-pla-light-blue-ral-5012
+brand:
+  slug: purefil
+name: PLA Light Blue RAL 5012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3481b8ff'
+  color_lab:
+    - 51.71
+    - -5.18
+    - -35.72
+  color_ral: '5012'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

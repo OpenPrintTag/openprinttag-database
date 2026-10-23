@@ -1,0 +1,23 @@
+uuid: 6d959bab-194a-5b06-a983-cc0fab4d3639
+slug: tectonic-3d-proteos-ht
+brand:
+  slug: tectonic-3d
+name: PROTEOS HT
+class: FFF
+abbreviation: PROTEOS
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - high_temperature
+properties:
+  density: 1.14
+  min_print_temperature: 320
+  max_print_temperature: 340
+  min_bed_temperature: 180
+  max_bed_temperature: 215
+  min_chamber_temperature: 180
+  max_chamber_temperature: 215

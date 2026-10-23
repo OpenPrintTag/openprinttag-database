@@ -1,0 +1,20 @@
+uuid: bb3fd6f3-f81f-56a4-ae55-3afe20ff2069
+slug: purefil-pla-black-brown-ral-8022
+brand:
+  slug: purefil
+name: PLA Black Brown RAL 8022
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#211f20ff'
+  color_lab:
+    - 12.01
+    - 1.19
+    - -0.34
+  color_ral: '8022'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

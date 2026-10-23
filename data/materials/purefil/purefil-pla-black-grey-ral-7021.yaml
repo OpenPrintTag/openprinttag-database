@@ -1,0 +1,20 @@
+uuid: 87e4e0e4-1717-5aea-bc90-41e5f9fddcf1
+slug: purefil-pla-black-grey-ral-7021
+brand:
+  slug: purefil
+name: PLA Black Grey RAL 7021
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2e3234ff'
+  color_lab:
+    - 20.48
+    - -1.23
+    - -1.86
+  color_ral: '7021'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,23 @@
+uuid: fc60591d-eda0-581a-aed9-046e498b4a2e
+slug: tectonic-3d-anasa-tpc-80a-34d-black
+brand:
+  slug: tectonic-3d
+name: ANASA TPC 80A (34D) Black
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.1
+  hardness_shore_d: 34.0
+  hardness_shore_a: 80.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  min_chamber_temperature: 23

@@ -1,0 +1,20 @@
+uuid: cf0202cc-048b-5bf2-b66f-5ac6b6e856d8
+slug: purefil-pla-chocolate-brown-ral-8017
+brand:
+  slug: purefil
+name: PLA Chocolate Brown RAL 8017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#44322dff'
+  color_lab:
+    - 22.65
+    - 7.28
+    - 6.33
+  color_ral: '8017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 0ef1c80e-99c7-56be-b83f-1e0fca12b4d2
+slug: purefil-pla-olive-yellow-ral-1020
+brand:
+  slug: purefil
+name: PLA Olive Yellow RAL 1020
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a08f65ff'
+  color_lab:
+    - 59.94
+    - -0.0
+    - 24.69
+  color_ral: '1020'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

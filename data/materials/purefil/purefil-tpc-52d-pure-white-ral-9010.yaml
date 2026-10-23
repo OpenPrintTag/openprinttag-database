@@ -1,0 +1,25 @@
+uuid: 5c2c73ab-f128-5c68-84be-23d7f2c11add
+slug: purefil-tpc-52d-pure-white-ral-9010
+brand:
+  slug: purefil
+name: TPC 52D Pure White RAL 9010
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#f7f9efff'
+  color_lab:
+  - 97.53
+  - -2.4
+  - 4.56
+  color_ral: '9010'
+properties:
+  density: 1.2
+  hardness_shore_d: 52.0
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/purefil/purefil-tpc-52d-pure-white-ral-9010/purefil-tpc-52d-pure-white-ral-9010-0-75e8502a.webp
+  type: unspecified

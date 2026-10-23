@@ -1,0 +1,20 @@
+uuid: 3572067c-ac29-56c5-ba1e-0fd7a80595ad
+slug: purefil-pla-ochre-brown-ral-8001
+brand:
+  slug: purefil
+name: PLA Ochre Brown RAL 8001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9c6b30ff'
+  color_lab:
+    - 49.25
+    - 13.66
+    - 39.92
+  color_ral: '8001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

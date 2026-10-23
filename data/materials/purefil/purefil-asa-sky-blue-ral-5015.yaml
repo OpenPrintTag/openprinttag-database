@@ -1,0 +1,27 @@
+uuid: 4d7b5b03-504c-5a41-9322-43dc21b86f0d
+slug: purefil-asa-sky-blue-ral-5015
+brand:
+  slug: purefil
+name: ASA Sky Blue RAL 5015
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#2874b2ff'
+  color_lab:
+  - 47.18
+  - -1.19
+  - -39.42
+  color_ral: '5015'
+tags:
+- filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 210
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/purefil/purefil-asa-sky-blue-ral-5015/purefil-asa-sky-blue-ral-5015-0-846cc275.webp
+  type: unspecified

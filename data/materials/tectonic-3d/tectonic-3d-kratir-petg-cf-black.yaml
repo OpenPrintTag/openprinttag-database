@@ -1,0 +1,27 @@
+uuid: 24cc940b-466d-51a9-aadf-2c6ab7501b3a
+slug: tectonic-3d-kratir-petg-cf-black
+brand:
+  slug: tectonic-3d
+name: KRATIR PETG CF Black
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.31
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  min_chamber_temperature: 23
+  max_chamber_temperature: 90
+  drying_temperature: 60

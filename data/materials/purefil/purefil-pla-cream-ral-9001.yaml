@@ -1,0 +1,20 @@
+uuid: 85257b1d-9040-5fb4-a21e-85bd6ca03853
+slug: purefil-pla-cream-ral-9001
+brand:
+  slug: purefil
+name: PLA Cream RAL 9001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efebdcff'
+  color_lab:
+    - 92.99
+    - -1.21
+    - 7.75
+  color_ral: '9001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

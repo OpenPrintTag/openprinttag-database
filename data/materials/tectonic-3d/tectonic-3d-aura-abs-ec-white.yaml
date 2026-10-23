@@ -1,0 +1,25 @@
+uuid: d7d9d5b0-a4cb-5bea-ae2a-1171ae971e87
+slug: tectonic-3d-aura-abs-ec-white
+brand:
+  slug: tectonic-3d
+name: AURA ABS EC White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 23
+  max_chamber_temperature: 90
+  drying_temperature: 60

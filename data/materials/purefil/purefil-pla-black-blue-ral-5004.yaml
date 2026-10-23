@@ -1,0 +1,20 @@
+uuid: 40967978-270a-50c6-9e20-f4fa4280e691
+slug: purefil-pla-black-blue-ral-5004
+brand:
+  slug: purefil
+name: PLA Black Blue RAL 5004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1d1f2aff'
+  color_lab:
+    - 12.01
+    - 2.24
+    - -7.68
+  color_ral: '5004'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

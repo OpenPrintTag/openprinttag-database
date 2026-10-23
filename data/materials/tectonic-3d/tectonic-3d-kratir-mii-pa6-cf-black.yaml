@@ -1,0 +1,28 @@
+uuid: 27e72cc7-f15a-5d2b-9b36-7feef467f666
+slug: tectonic-3d-kratir-mii-pa6-cf-black
+brand:
+  slug: tectonic-3d
+name: KRATIR MII PA6 CF Black
+class: FFF
+type: PA6
+abbreviation: PA6CF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.18
+  min_print_temperature: 280
+  max_print_temperature: 310
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+  min_chamber_temperature: 23
+  max_chamber_temperature: 90
+  drying_temperature: 100

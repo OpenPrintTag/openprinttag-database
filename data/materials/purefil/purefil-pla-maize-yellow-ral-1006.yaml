@@ -1,0 +1,20 @@
+uuid: 012f21b1-c69a-51fb-8ded-f58db305b123
+slug: purefil-pla-maize-yellow-ral-1006
+brand:
+  slug: purefil
+name: PLA Maize Yellow RAL 1006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e29000ff'
+  color_lab:
+    - 66.61
+    - 22.75
+    - 71.81
+  color_ral: '1006'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

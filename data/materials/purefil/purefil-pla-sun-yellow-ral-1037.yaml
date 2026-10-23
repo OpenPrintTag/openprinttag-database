@@ -1,0 +1,20 @@
+uuid: 2cc975b2-40fd-5745-bd06-d2157286ebfc
+slug: purefil-pla-sun-yellow-ral-1037
+brand:
+  slug: purefil
+name: PLA Sun Yellow RAL 1037
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f09200ff'
+  color_lab:
+    - 68.81
+    - 27.6
+    - 74.09
+  color_ral: '1037'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 0736b819-a207-55f7-a20d-5cb36c4b2c74
+slug: purefil-pla-green-grey-ral-7009
+brand:
+  slug: purefil
+name: PLA Green Grey RAL 7009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5b6259ff'
+  color_lab:
+    - 40.7
+    - -4.62
+    - 4.19
+  color_ral: '7009'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

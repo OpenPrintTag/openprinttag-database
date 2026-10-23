@@ -1,0 +1,20 @@
+uuid: 0859140c-f57d-5df2-9680-fb6dd74d81dd
+slug: purefil-pla-quartz-grey-ral-7039
+brand:
+  slug: purefil
+name: PLA Quartz Grey RAL 7039
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6b695fff'
+  color_lab:
+    - 44.31
+    - -1.17
+    - 5.9
+  color_ral: '7039'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

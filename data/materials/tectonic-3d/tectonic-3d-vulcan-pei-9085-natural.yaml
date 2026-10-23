@@ -1,0 +1,27 @@
+uuid: a1956e18-cb48-5134-ab63-80021f58cbfc
+slug: tectonic-3d-vulcan-pei-9085-natural
+brand:
+  slug: tectonic-3d
+name: VULCAN PEI 9085 Natural
+class: FFF
+type: PEI
+abbreviation: PEI
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - low_outgassing
+  - self_extinguishing
+  - filtration_recommended
+properties:
+  density: 1.34
+  min_print_temperature: 350
+  max_print_temperature: 380
+  min_bed_temperature: 120
+  max_bed_temperature: 160
+  min_chamber_temperature: 70
+  max_chamber_temperature: 160
+  drying_temperature: 120

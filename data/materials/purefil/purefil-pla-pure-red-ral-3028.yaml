@@ -1,0 +1,20 @@
+uuid: 70f23d3e-45d0-5124-b65d-9f84eda31b40
+slug: purefil-pla-pure-red-ral-3028
+brand:
+  slug: purefil
+name: PLA Pure Red RAL 3028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e72512ff'
+  color_lab:
+    - 49.93
+    - 69.81
+    - 58.07
+  color_ral: '3028'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

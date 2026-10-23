@@ -1,0 +1,17 @@
+uuid: 0e3d44c6-888d-5433-a05f-e3edb2769161
+slug: tectonic-3d-aura-asa-green
+brand:
+  slug: tectonic-3d
+name: AURA ASA Green
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#0ccf81ff'
+  color_lab:
+    - 73.73
+    - -60.44
+    - 27.06
+tags:
+  - filtration_recommended
+properties: {}

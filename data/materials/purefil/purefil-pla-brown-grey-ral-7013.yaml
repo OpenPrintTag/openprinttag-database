@@ -1,0 +1,20 @@
+uuid: fbb0dba1-244b-5896-8322-71287009d3c0
+slug: purefil-pla-brown-grey-ral-7013
+brand:
+  slug: purefil
+name: PLA Brown Grey RAL 7013
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#555548ff'
+  color_lab:
+    - 35.78
+    - -2.59
+    - 7.6
+  color_ral: '7013'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

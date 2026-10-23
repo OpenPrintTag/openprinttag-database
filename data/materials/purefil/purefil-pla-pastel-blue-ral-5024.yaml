@@ -1,0 +1,20 @@
+uuid: 1be17fbb-ad7a-544e-bde3-a3c20e256443
+slug: purefil-pla-pastel-blue-ral-5024
+brand:
+  slug: purefil
+name: PLA Pastel Blue RAL 5024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6a93b0ff'
+  color_lab:
+    - 59.03
+    - -6.47
+    - -19.62
+  color_ral: '5024'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

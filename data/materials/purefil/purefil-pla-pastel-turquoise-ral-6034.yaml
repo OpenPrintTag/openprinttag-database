@@ -1,0 +1,20 @@
+uuid: 2fa273cb-1129-5544-978d-5aa6671c44d9
+slug: purefil-pla-pastel-turquoise-ral-6034
+brand:
+  slug: purefil
+name: PLA Pastel Turquoise RAL 6034
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7fb0b2ff'
+  color_lab:
+    - 68.59
+    - -15.65
+    - -6.26
+  color_ral: '6034'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

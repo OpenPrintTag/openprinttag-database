@@ -1,0 +1,20 @@
+uuid: 880ea909-fe5f-5f3d-9326-332aa61f9e3d
+slug: purefil-pla-beige-red-ral-3012
+brand:
+  slug: purefil
+name: PLA Beige Red RAL 3012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cb8d73ff'
+  color_lab:
+    - 64.15
+    - 20.43
+    - 23.33
+  color_ral: '3012'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

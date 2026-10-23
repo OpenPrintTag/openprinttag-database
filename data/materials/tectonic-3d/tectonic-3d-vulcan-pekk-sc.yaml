@@ -1,0 +1,26 @@
+uuid: be740ada-cf04-56d4-9aa6-60247c0e2ad7
+slug: tectonic-3d-vulcan-pekk-sc
+brand:
+  slug: tectonic-3d
+name: VULCAN PEKK-SC
+class: FFF
+type: PEKK
+abbreviation: PEKK
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - low_outgassing
+  - filtration_recommended
+properties:
+  density: 1.27
+  min_print_temperature: 380
+  max_print_temperature: 420
+  min_bed_temperature: 120
+  max_bed_temperature: 160
+  min_chamber_temperature: 90
+  max_chamber_temperature: 160
+  drying_temperature: 120

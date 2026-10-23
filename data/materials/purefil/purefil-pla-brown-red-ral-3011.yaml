@@ -1,0 +1,20 @@
+uuid: 3b01fc14-2048-5ca5-bcde-6509d3dd0600
+slug: purefil-pla-brown-red-ral-3011
+brand:
+  slug: purefil
+name: PLA Brown Red RAL 3011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7e292cff'
+  color_lab:
+    - 29.92
+    - 36.93
+    - 18.36
+  color_ral: '3011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

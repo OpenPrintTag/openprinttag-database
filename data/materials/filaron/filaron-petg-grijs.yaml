@@ -1,0 +1,20 @@
+name: PETG Grijs
+slug: filaron-petg-grijs
+brand:
+  slug: filaron
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#808080ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-petg-grijs/filaron-petg-grijs-0-2cf8093d.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+url: https://www.filaron.be/products/petg-grijs-1-75mm-1kg?variant=58894940176719
+uuid: 4c37bb76-dc20-5407-b0ff-b533a39b2536

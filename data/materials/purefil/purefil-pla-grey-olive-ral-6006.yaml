@@ -1,0 +1,20 @@
+uuid: 2ee9a63c-bb33-50ba-95e6-27d39ee36aa4
+slug: purefil-pla-grey-olive-ral-6006
+brand:
+  slug: purefil
+name: PLA Grey Olive RAL 6006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#40433bff'
+  color_lab:
+    - 27.9
+    - -3.0
+    - 4.43
+  color_ral: '6006'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

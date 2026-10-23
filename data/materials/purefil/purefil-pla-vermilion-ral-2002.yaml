@@ -1,0 +1,20 @@
+uuid: cf23491e-1443-5c7f-8835-4187bfd3b680
+slug: purefil-pla-vermilion-ral-2002
+brand:
+  slug: purefil
+name: PLA Vermilion RAL 2002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c63927ff'
+  color_lab:
+    - 45.75
+    - 54.73
+    - 42.82
+  color_ral: '2002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

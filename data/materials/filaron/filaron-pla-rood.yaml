@@ -1,0 +1,21 @@
+name: PLA Rood
+slug: filaron-pla-rood
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#e02a25'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-rood/filaron-pla-rood-0-a7b34a1d.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-rood-1-75mm-1-0kg-bundle?variant=58024641888591
+uuid: 2012c0ae-3236-5bbf-8775-d9aebe2e57a3

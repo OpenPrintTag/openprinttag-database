@@ -1,0 +1,20 @@
+uuid: 139059f7-8a39-5e96-8eed-2b15d13cba10
+slug: purefil-pla-oxide-red-ral-3009
+brand:
+  slug: purefil
+name: PLA Oxide Red RAL 3009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#703731ff'
+  color_lab:
+    - 30.4
+    - 24.5
+    - 15.29
+  color_ral: '3009'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

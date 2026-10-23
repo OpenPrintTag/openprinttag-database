@@ -1,0 +1,21 @@
+name: PLA Geel
+slug: filaron-pla-geel
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#ffff80ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-geel/filaron-pla-geel-0-060d0d01.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-geel-1-75mm-1-0kg-bundle?variant=58024629535055
+uuid: 3fe68d37-41da-5c1a-91b4-69543ac1b03d

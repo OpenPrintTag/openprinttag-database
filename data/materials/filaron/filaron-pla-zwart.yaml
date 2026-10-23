@@ -1,0 +1,21 @@
+name: PLA Zwart
+slug: filaron-pla-zwart
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#000000ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-zwart/filaron-pla-zwart-0-b7780927.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-zwart-1-75mm-1kg?variant=58246783893839
+uuid: 6bd40fb0-be1f-5eca-aa81-51380df95d43
