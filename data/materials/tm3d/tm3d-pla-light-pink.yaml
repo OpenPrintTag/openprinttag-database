@@ -1,0 +1,17 @@
+name: PLA-Light Pink
+slug: tm3d-pla-light-pink
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#e08dad'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: a998ff15-1cb8-5ab6-a8ba-150d0a5af786
