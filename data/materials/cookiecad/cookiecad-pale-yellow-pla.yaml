@@ -9,6 +9,15 @@ abbreviation: PLA
 url: https://cookiecad.com/products/pale-yellow-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#f5ec97ff'
+  color_lab:
+    - 92.42
+    - -8.92
+    - 42.3
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+  - url: /tmp/assets/cookiecad-pale-yellow-pla-0-e8869d77.jpg
+    type: unspecified

@@ -8,9 +8,20 @@ type: TPU
 abbreviation: TPU
 url: https://cookiecad.com/products/tpu-witches-blue-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#0353baff'
-- color_rgba: '#6c47b2ff'
+  - color_rgba: '#0353baff'
+  - color_rgba: '#6c47b2ff'
 tags:
-- iridescent
+  - iridescent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+primary_color:
+  color_rgba: '#6c47b2ff'
+  color_lab:
+    - 39.43
+    - 39.86
+    - -51.57
+photos:
+  - url: /tmp/assets/cookiecad-witches-blue-tpu-95a-0-6ed1597a.png
+    type: unspecified
