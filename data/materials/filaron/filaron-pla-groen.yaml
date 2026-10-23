@@ -1,0 +1,21 @@
+name: PLA Groen
+slug: filaron-pla-groen
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#008040ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-groen/filaron-pla-groen-0-49a6ac9e.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-groen-1-75mm-1-0kg-bundle?variant=58024642642255
+uuid: 533ae507-df7a-5185-86b2-1c3b3d333091

@@ -1,0 +1,22 @@
+name: PLA Matte Oranje
+slug: filaron-pla-matte-oranje
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#ff8000ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-matte-oranje/filaron-pla-matte-oranje-0-c64876ea.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-matte-oranje-1-75mm-1-0kg-bundle-copy?variant=58088086176079
+uuid: 6d00d005-1c93-5bee-b4f3-1f4c728f3c24

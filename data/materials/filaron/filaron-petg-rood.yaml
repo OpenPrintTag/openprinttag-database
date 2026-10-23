@@ -1,0 +1,20 @@
+name: PETG Rood
+slug: filaron-petg-rood
+brand:
+  slug: filaron
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e02a25'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-petg-rood/filaron-petg-rood-0-a7b34a1d.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+url: https://www.filaron.be/products/petg-blauw-1-75mm-1kg-copy?variant=58853913198927
+uuid: c830ea76-39c8-5245-8cfb-b0f2897d126e

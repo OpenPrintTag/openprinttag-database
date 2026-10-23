@@ -1,0 +1,22 @@
+name: PLA Matte Blauw
+slug: filaron-pla-matte-blauw
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#4fc9fa'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-matte-blauw/filaron-pla-matte-blauw-0-9c3d7b57.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-blauw-matte-1-75mm-1-0kg-bundle?variant=58027825627471
+uuid: 971f8719-3823-5228-83e2-dd4c26339a6f
