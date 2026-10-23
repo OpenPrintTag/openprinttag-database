@@ -1,0 +1,27 @@
+uuid: 995b9637-55d9-566d-9c32-31e2d1690cdc
+slug: tectonic-3d-vulcan-pei-1010-natural
+brand:
+  slug: tectonic-3d
+name: VULCAN PEI 1010 Natural
+class: FFF
+type: PEI
+abbreviation: PEI
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - low_outgassing
+  - self_extinguishing
+  - filtration_recommended
+properties:
+  density: 1.27
+  min_print_temperature: 360
+  max_print_temperature: 400
+  min_bed_temperature: 160
+  max_bed_temperature: 210
+  min_chamber_temperature: 160
+  max_chamber_temperature: 210
+  drying_temperature: 120

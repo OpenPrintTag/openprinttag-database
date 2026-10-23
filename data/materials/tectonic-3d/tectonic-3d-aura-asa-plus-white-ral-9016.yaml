@@ -1,0 +1,26 @@
+uuid: 2c37e027-e4e7-56ac-9809-4d335ca3f9cd
+slug: tectonic-3d-aura-asa-plus-white-ral-9016
+brand:
+  slug: tectonic-3d
+name: AURA ASA+ White RAL 9016
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#f0f1eaff'
+  color_lab:
+    - 94.9
+    - -1.56
+    - 3.26
+  color_ral: '9016'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.07
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  min_chamber_temperature: 23
+  max_chamber_temperature: 60
+  drying_temperature: 60

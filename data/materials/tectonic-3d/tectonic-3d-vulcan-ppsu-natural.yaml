@@ -1,0 +1,18 @@
+uuid: c20c9ec0-9e58-5fc5-b081-cc5a8feb0d39
+slug: tectonic-3d-vulcan-ppsu-natural
+brand:
+  slug: tectonic-3d
+name: VULCAN PPSU Natural
+class: FFF
+type: PPSU
+abbreviation: PPSU
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - low_outgassing
+  - filtration_recommended
+properties: {}

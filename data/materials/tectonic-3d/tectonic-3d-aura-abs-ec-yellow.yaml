@@ -1,0 +1,25 @@
+uuid: 32573998-b2da-56da-91bf-28620d536bfc
+slug: tectonic-3d-aura-abs-ec-yellow
+brand:
+  slug: tectonic-3d
+name: AURA ABS EC Yellow
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffcb47ff'
+  color_lab:
+    - 84.19
+    - 5.79
+    - 69.36
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+  min_chamber_temperature: 23
+  max_chamber_temperature: 90
+  drying_temperature: 60

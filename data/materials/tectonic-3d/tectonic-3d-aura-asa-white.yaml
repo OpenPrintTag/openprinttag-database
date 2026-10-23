@@ -1,0 +1,17 @@
+uuid: d9ebbe4e-61aa-54c0-93f8-d001349fea9b
+slug: tectonic-3d-aura-asa-white
+brand:
+  slug: tectonic-3d
+name: AURA ASA White
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties: {}

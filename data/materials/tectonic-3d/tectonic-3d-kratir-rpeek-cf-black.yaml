@@ -5,12 +5,26 @@ brand:
 name: KRATIR rPEEK CF Black
 class: FFF
 type: PEEK
-abbreviation: PEEK
+abbreviation: PEEKCF
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- recycled
-- contains_carbon_fiber
-- abrasive
-- low_outgassing
-properties: {}
+  - recycled
+  - low_outgassing
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.36
+  min_print_temperature: 420
+  max_print_temperature: 450
+  min_bed_temperature: 120
+  max_bed_temperature: 160
+  min_chamber_temperature: 90
+  max_chamber_temperature: 160
+  drying_temperature: 120
