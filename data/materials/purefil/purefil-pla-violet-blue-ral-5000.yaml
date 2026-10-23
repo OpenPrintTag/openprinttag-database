@@ -1,0 +1,20 @@
+uuid: 864408c4-ada2-5bdd-9b41-69ed6af6d194
+slug: purefil-pla-violet-blue-ral-5000
+brand:
+  slug: purefil
+name: PLA Violet Blue RAL 5000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#384c70ff'
+  color_lab:
+    - 32.21
+    - 3.16
+    - -23.15
+  color_ral: '5000'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

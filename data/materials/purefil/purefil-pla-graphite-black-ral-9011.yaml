@@ -1,0 +1,20 @@
+uuid: 775d34b4-d1d0-5f40-8b75-a72590e4d211
+slug: purefil-pla-graphite-black-ral-9011
+brand:
+  slug: purefil
+name: PLA Graphite Black RAL 9011
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#292c2fff'
+  color_lab:
+    - 17.82
+    - -0.56
+    - -2.39
+  color_ral: '9011'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

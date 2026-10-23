@@ -1,0 +1,20 @@
+uuid: b351ad40-4e25-5116-9767-a6bde4fe08c7
+slug: purefil-pla-pastel-yellow-ral-1034
+brand:
+  slug: purefil
+name: PLA Pastel Yellow RAL 1034
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eb9c52ff'
+  color_lab:
+    - 70.91
+    - 22.67
+    - 49.9
+  color_ral: '1034'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

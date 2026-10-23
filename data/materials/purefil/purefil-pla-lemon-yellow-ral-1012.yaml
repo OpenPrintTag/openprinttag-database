@@ -1,0 +1,20 @@
+uuid: b2cd0a82-2f87-53fa-a290-353be54dabd8
+slug: purefil-pla-lemon-yellow-ral-1012
+brand:
+  slug: purefil
+name: PLA Lemon Yellow RAL 1012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddaf27ff'
+  color_lab:
+    - 73.66
+    - 4.71
+    - 69.33
+  color_ral: '1012'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

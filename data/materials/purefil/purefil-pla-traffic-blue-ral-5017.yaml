@@ -1,0 +1,20 @@
+uuid: 208f9afa-2657-5100-acb9-6259d7c03a53
+slug: purefil-pla-traffic-blue-ral-5017
+brand:
+  slug: purefil
+name: PLA Traffic Blue RAL 5017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0e518dff'
+  color_lab:
+    - 33.77
+    - 3.93
+    - -38.74
+  color_ral: '5017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

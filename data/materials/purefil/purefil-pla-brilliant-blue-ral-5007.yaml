@@ -1,0 +1,20 @@
+uuid: 58e9b6c9-96a4-5587-ad3a-90a5b8d04bb1
+slug: purefil-pla-brilliant-blue-ral-5007
+brand:
+  slug: purefil
+name: PLA Brilliant Blue RAL 5007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#41678dff'
+  color_lab:
+    - 42.38
+    - -1.95
+    - -25.05
+  color_ral: '5007'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

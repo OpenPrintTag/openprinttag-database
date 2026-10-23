@@ -1,0 +1,20 @@
+uuid: 3fbf848c-fa25-564e-8ea7-b59c2fc666f2
+slug: purefil-pla-yellow-olive-ral-6014
+brand:
+  slug: purefil
+name: PLA Yellow Olive RAL 6014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#444337ff'
+  color_lab:
+    - 28.17
+    - -2.02
+    - 7.46
+  color_ral: '6014'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

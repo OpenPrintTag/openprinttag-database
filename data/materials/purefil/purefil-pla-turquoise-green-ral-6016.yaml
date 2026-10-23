@@ -1,0 +1,20 @@
+uuid: be41bdae-ae21-54a5-beb8-216196c348da
+slug: purefil-pla-turquoise-green-ral-6016
+brand:
+  slug: purefil
+name: PLA Turquoise Green RAL 6016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#026a52ff'
+  color_lab:
+    - 39.46
+    - -32.5
+    - 6.18
+  color_ral: '6016'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

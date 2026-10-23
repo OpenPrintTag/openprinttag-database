@@ -1,0 +1,20 @@
+uuid: 850e8e91-5b1a-582d-9a7d-e76d01707b01
+slug: purefil-pla-granite-grey-ral-7026
+brand:
+  slug: purefil
+name: PLA Granite Grey RAL 7026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#374447ff'
+  color_lab:
+    - 27.85
+    - -4.45
+    - -3.56
+  color_ral: '7026'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

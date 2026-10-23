@@ -1,0 +1,20 @@
+uuid: 7ef295af-a773-5b15-918b-b50ee3f9da81
+slug: purefil-pla-signal-grey-ral-7004
+brand:
+  slug: purefil
+name: PLA Signal Grey RAL 7004
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9ea0a1ff'
+  color_lab:
+    - 65.74
+    - -0.52
+    - -0.77
+  color_ral: '7004'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

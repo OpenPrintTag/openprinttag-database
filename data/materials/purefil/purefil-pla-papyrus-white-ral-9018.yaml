@@ -1,0 +1,20 @@
+uuid: 469b9ef7-85c7-5075-b35c-e5049a8e99b6
+slug: purefil-pla-papyrus-white-ral-9018
+brand:
+  slug: purefil
+name: PLA Papyrus White RAL 9018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cfd3cdff'
+  color_lab:
+    - 84.1
+    - -2.45
+    - 2.49
+  color_ral: '9018'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

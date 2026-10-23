@@ -1,0 +1,22 @@
+name: PLA Matte Wit
+slug: filaron-pla-matte-wit
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-matte-wit/filaron-pla-matte-wit-0-9e03d9d4.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-wit-matte-1-75mm-1-0kg-bundle?variant=58027850760527
+uuid: 3fc799c4-e9b3-56aa-a796-1759496bfed8

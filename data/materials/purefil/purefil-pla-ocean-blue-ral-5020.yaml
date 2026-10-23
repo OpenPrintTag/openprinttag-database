@@ -1,0 +1,20 @@
+uuid: 945a38e6-9460-54ac-8c17-20a17dcaedd4
+slug: purefil-pla-ocean-blue-ral-5020
+brand:
+  slug: purefil
+name: PLA Ocean Blue RAL 5020
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0b4151ff'
+  color_lab:
+    - 25.09
+    - -10.57
+    - -14.48
+  color_ral: '5020'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 15c2e60b-fb39-5e40-b283-f3e2b4037d5c
+slug: purefil-pla-olive-brown-ral-8008
+brand:
+  slug: purefil
+name: PLA Olive Brown RAL 8008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6f4f28ff'
+  color_lab:
+    - 36.22
+    - 8.83
+    - 27.97
+  color_ral: '8008'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

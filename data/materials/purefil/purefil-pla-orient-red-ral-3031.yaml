@@ -1,0 +1,20 @@
+uuid: ceb5594a-9a58-5dad-88cb-e31720125dec
+slug: purefil-pla-orient-red-ral-3031
+brand:
+  slug: purefil
+name: PLA Orient Red RAL 3031
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ac323bff'
+  color_lab:
+    - 40.2
+    - 49.84
+    - 23.71
+  color_ral: '3031'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 39f17a88-97dd-5c4f-b1b2-6ff9144f46f5
+slug: purefil-pla-leaf-green-ral-6002
+brand:
+  slug: purefil
+name: PLA Leaf Green RAL 6002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#276235ff'
+  color_lab:
+    - 36.79
+    - -30.15
+    - 19.98
+  color_ral: '6002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 3eb8acaa-da0f-5104-b21b-c545c7ca383a
+slug: purefil-pla-red-orange-ral-2001
+brand:
+  slug: purefil
+name: PLA Red Orange RAL 2001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#be4e20ff'
+  color_lab:
+    - 47.63
+    - 42.74
+    - 47.5
+  color_ral: '2001'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: a2a0da1f-9db0-58dd-9888-81a75dc86a95
+slug: purefil-pla-capri-blue-ral-5019
+brand:
+  slug: purefil
+name: PLA Capri Blue RAL 5019
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1a5784ff'
+  color_lab:
+    - 35.4
+    - -2.46
+    - -30.63
+  color_ral: '5019'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

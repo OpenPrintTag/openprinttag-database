@@ -1,0 +1,22 @@
+uuid: 21cedbab-a7ee-5ca0-931a-0cb61f0e3c27
+slug: purefil-pla-light-blue-pantone-2925-c
+brand:
+  slug: purefil
+name: PLA Light Blue Pantone 2925 C
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#41b6e6ff'
+  color_lab:
+  - 69.67
+  - -17.21
+  - -33.41
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+- url: https://files.openprinttag.org/purefil/purefil-pla-light-blue-pantone-2925-c/purefil-pla-light-blue-pantone-2925-c-0-befc4ffa.webp
+  type: unspecified

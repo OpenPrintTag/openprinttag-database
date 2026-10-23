@@ -1,0 +1,20 @@
+uuid: 149346f4-56f6-584e-bd01-8b696b83aebd
+slug: purefil-pla-chrome-green-ral-6020
+brand:
+  slug: purefil
+name: PLA Chrome Green RAL 6020
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#354733ff'
+  color_lab:
+    - 28.12
+    - -11.75
+    - 9.77
+  color_ral: '6020'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

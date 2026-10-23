@@ -1,0 +1,20 @@
+uuid: 00264edc-9ef3-51e5-82dc-c732a4db52ce
+slug: purefil-pla-light-green-ral-6027
+brand:
+  slug: purefil
+name: PLA Light Green RAL 6027
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#81c0bbff'
+  color_lab:
+    - 73.51
+    - -21.19
+    - -3.91
+  color_ral: '6027'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

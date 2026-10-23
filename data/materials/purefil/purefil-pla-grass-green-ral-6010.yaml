@@ -1,0 +1,20 @@
+uuid: b4b69738-d0cd-5e53-a4d7-927374aea891
+slug: purefil-pla-grass-green-ral-6010
+brand:
+  slug: purefil
+name: PLA Grass Green RAL 6010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3e753bff'
+  color_lab:
+    - 44.32
+    - -30.96
+    - 26.36
+  color_ral: '6010'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

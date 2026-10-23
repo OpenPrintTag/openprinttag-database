@@ -1,0 +1,20 @@
+uuid: a48e66b2-86e7-51ec-9a81-6accba0f46a4
+slug: purefil-pla-window-grey-ral-7040
+brand:
+  slug: purefil
+name: PLA Window Grey RAL 7040
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9da3a6ff'
+  color_lab:
+    - 66.61
+    - -1.54
+    - -2.29
+  color_ral: '7040'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

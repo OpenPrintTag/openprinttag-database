@@ -1,0 +1,20 @@
+name: PETG Groen
+slug: filaron-petg-groen
+brand:
+  slug: filaron
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#008040ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-petg-groen/filaron-petg-groen-0-49a6ac9e.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+url: https://www.filaron.be/products/petg-blauw-1-75mm-1kg-copy-1?variant=58853920080207
+uuid: 8791b060-0da4-55d2-9748-985e702d4835

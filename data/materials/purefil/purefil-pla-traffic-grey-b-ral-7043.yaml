@@ -1,0 +1,20 @@
+uuid: e4be101c-989d-5dea-9329-d5abc6680763
+slug: purefil-pla-traffic-grey-b-ral-7043
+brand:
+  slug: purefil
+name: PLA Traffic Grey B RAL 7043
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4e5451ff'
+  color_lab:
+    - 35.11
+    - -3.05
+    - 0.93
+  color_ral: '7043'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

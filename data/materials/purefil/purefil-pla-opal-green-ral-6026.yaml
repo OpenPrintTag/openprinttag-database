@@ -1,0 +1,20 @@
+uuid: a9793649-b657-5bda-a74d-7443bcca68ea
+slug: purefil-pla-opal-green-ral-6026
+brand:
+  slug: purefil
+name: PLA Opal Green RAL 6026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#005d52ff'
+  color_lab:
+    - 34.88
+    - -26.65
+    - -0.43
+  color_ral: '6026'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: ff65c1e1-cabd-5074-8df8-009ed0225000
+slug: purefil-pla-green-brown-ral-8000
+brand:
+  slug: purefil
+name: PLA Green Brown RAL 8000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#887142ff'
+  color_lab:
+    - 48.81
+    - 2.6
+    - 29.31
+  color_ral: '8000'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

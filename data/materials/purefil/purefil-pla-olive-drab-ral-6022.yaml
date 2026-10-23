@@ -1,0 +1,20 @@
+uuid: 24be3c82-4592-5774-a1b5-aec0070db412
+slug: purefil-pla-olive-drab-ral-6022
+brand:
+  slug: purefil
+name: PLA Olive Drab RAL 6022
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3e3c32ff'
+  color_lab:
+    - 25.22
+    - -1.2
+    - 6.5
+  color_ral: '6022'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

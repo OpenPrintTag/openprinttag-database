@@ -1,0 +1,20 @@
+uuid: d459916f-2710-5b1a-a660-8623cb732e40
+slug: purefil-pla-fern-green-ral-6025
+brand:
+  slug: purefil
+name: PLA Fern Green RAL 6025
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#53753cff'
+  color_lab:
+    - 45.48
+    - -23.24
+    - 27.51
+  color_ral: '6025'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

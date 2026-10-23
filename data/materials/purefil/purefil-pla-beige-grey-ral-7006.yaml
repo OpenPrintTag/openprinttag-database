@@ -1,0 +1,20 @@
+uuid: aaf66eb7-74de-58af-9c42-cbc3a3ab508c
+slug: purefil-pla-beige-grey-ral-7006
+brand:
+  slug: purefil
+name: PLA Beige Grey RAL 7006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#756f61ff'
+  color_lab:
+    - 46.99
+    - -0.25
+    - 8.64
+  color_ral: '7006'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

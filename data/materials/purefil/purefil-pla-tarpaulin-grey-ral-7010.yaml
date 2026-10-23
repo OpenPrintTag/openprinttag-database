@@ -1,0 +1,20 @@
+uuid: 5f03c8f9-f17b-558e-a714-51ed84a70679
+slug: purefil-pla-tarpaulin-grey-ral-7010
+brand:
+  slug: purefil
+name: PLA Tarpaulin Grey RAL 7010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#575d57ff'
+  color_lab:
+    - 38.8
+    - -3.64
+    - 2.63
+  color_ral: '7010'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

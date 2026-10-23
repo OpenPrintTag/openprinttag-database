@@ -1,0 +1,20 @@
+uuid: c8291898-c81e-5d3c-a4b1-c7a16e468f6d
+slug: purefil-pla-sulfur-yellow-ral-1016
+brand:
+  slug: purefil
+name: PLA Sulfur Yellow RAL 1016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f1dd38ff'
+  color_lab:
+    - 87.34
+    - -9.83
+    - 77.04
+  color_ral: '1016'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

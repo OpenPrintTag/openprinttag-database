@@ -1,0 +1,20 @@
+uuid: c1aacf4b-e812-5340-b0f7-5e595c346a79
+slug: purefil-pla-chestnut-brown-ral-8015
+brand:
+  slug: purefil
+name: PLA Chestnut Brown RAL 8015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#633a34ff'
+  color_lab:
+    - 29.23
+    - 17.38
+    - 11.44
+  color_ral: '8015'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

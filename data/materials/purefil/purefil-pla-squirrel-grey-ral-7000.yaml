@@ -1,0 +1,20 @@
+uuid: 20ada97b-914a-52a0-af93-98b8e688ff72
+slug: purefil-pla-squirrel-grey-ral-7000
+brand:
+  slug: purefil
+name: PLA Squirrel Grey RAL 7000
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7e8b92ff'
+  color_lab:
+    - 57.05
+    - -3.19
+    - -5.33
+  color_ral: '7000'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: d7179a75-0afd-5727-8e38-686114accdea
+slug: purefil-pla-blue-grey-ral-7031
+brand:
+  slug: purefil
+name: PLA Blue Grey RAL 7031
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5d6970ff'
+  color_lab:
+    - 43.65
+    - -2.93
+    - -5.46
+  color_ral: '7031'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

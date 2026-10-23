@@ -1,0 +1,20 @@
+uuid: 12b66bcf-156b-5d11-9c9c-a94035244f94
+slug: purefil-pla-light-pink-ral-3015
+brand:
+  slug: purefil
+name: PLA Light Pink RAL 3015
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e1a6adff'
+  color_lab:
+    - 73.74
+    - 22.74
+    - 4.97
+  color_ral: '3015'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

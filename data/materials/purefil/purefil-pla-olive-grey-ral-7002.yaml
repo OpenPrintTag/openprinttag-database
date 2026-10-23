@@ -1,0 +1,20 @@
+uuid: fa486289-07ac-5198-b46a-d365d0a50f5f
+slug: purefil-pla-olive-grey-ral-7002
+brand:
+  slug: purefil
+name: PLA Olive Grey RAL 7002
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#817f68ff'
+  color_lab:
+    - 52.78
+    - -3.39
+    - 12.81
+  color_ral: '7002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

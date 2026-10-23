@@ -1,0 +1,20 @@
+uuid: 5c15829b-54e7-59bb-802f-e58ae88c287c
+slug: purefil-pla-cement-grey-ral-7033
+brand:
+  slug: purefil
+name: PLA Cement Grey RAL 7033
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#818979ff'
+  color_lab:
+    - 56.03
+    - -6.05
+    - 7.58
+  color_ral: '7033'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

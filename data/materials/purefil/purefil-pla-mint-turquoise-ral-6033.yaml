@@ -1,0 +1,23 @@
+uuid: 7ebeb633-ff67-5fd9-80c5-62100e8a1763
+slug: purefil-pla-mint-turquoise-ral-6033
+brand:
+  slug: purefil
+name: PLA Mint Turquoise RAL 6033
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#478a84ff'
+  color_lab:
+  - 53.15
+  - -22.84
+  - -3.38
+  color_ral: '6033'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
+photos:
+- url: https://files.openprinttag.org/purefil/purefil-pla-mint-turquoise-ral-6033/purefil-pla-mint-turquoise-ral-6033-0-d2740ef2.webp
+  type: unspecified

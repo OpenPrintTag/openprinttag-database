@@ -1,0 +1,22 @@
+name: PLA Matte Paars
+slug: filaron-pla-matte-paars
+brand:
+  slug: filaron
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#800080ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-pla-matte-paars/filaron-pla-matte-paars-0-1b1f23d9.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 50
+url: https://www.filaron.be/products/pla-matte-paars-1-75mm-1-0kg-bundle-1?variant=58076606103887
+uuid: 7231b898-6596-5e51-a30e-e92108aeef83

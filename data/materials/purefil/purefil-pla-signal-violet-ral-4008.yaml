@@ -1,0 +1,20 @@
+uuid: a996eec1-091a-5dce-9c80-2f7e2c5247aa
+slug: purefil-pla-signal-violet-ral-4008
+brand:
+  slug: purefil
+name: PLA Signal Violet RAL 4008
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#904684ff'
+  color_lab:
+    - 41.18
+    - 39.91
+    - -20.86
+  color_ral: '4008'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 1ac660b0-881f-5ea1-a934-43c786b50e99
+slug: purefil-pla-black-red-ral-3007
+brand:
+  slug: purefil
+name: PLA Black Red RAL 3007
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#402225ff'
+  color_lab:
+    - 17.31
+    - 14.79
+    - 4.24
+  color_ral: '3007'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

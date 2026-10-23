@@ -1,0 +1,20 @@
+uuid: e24d5ce6-01de-515a-87d8-e4e4c4bf1f29
+slug: purefil-pla-pine-green-ral-6028
+brand:
+  slug: purefil
+name: PLA Pine Green RAL 6028
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2d5546ff'
+  color_lab:
+    - 32.91
+    - -18.19
+    - 4.39
+  color_ral: '6028'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

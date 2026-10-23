@@ -1,0 +1,20 @@
+uuid: b73d8742-b765-51a9-86fc-1dee51f69b39
+slug: purefil-pla-dusty-grey-ral-7037
+brand:
+  slug: purefil
+name: PLA Dusty Grey RAL 7037
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7c7f7eff'
+  color_lab:
+    - 52.92
+    - -1.32
+    - 0.15
+  color_ral: '7037'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

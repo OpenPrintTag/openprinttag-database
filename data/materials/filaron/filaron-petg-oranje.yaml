@@ -1,0 +1,20 @@
+name: PETG Oranje
+slug: filaron-petg-oranje
+brand:
+  slug: filaron
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff8000ff'
+photos:
+- url: https://files.openprinttag.org/filaron/filaron-petg-oranje/filaron-petg-oranje-0-c64876ea.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+url: https://www.filaron.be/products/petg-oranje-1-75mm-1kg?variant=58893775241551
+uuid: d944f0db-8bf8-57ec-8535-07fe91e2712b

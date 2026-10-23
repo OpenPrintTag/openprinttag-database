@@ -1,0 +1,20 @@
+uuid: e51e19df-61c4-5e2e-84cf-c9ef515bf88b
+slug: purefil-pla-ivory-ral-1014
+brand:
+  slug: purefil
+name: PLA Ivory RAL 1014
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ddc49aff'
+  color_lab:
+    - 80.28
+    - 2.62
+    - 24.35
+  color_ral: '1014'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60

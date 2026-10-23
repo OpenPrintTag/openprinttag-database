@@ -1,0 +1,20 @@
+uuid: e2efb24d-7481-5fa5-bb1e-092ae0461802
+slug: purefil-pla-signal-orange-ral-2010
+brand:
+  slug: purefil
+name: PLA Signal Orange RAL 2010
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d4652fff'
+  color_lab:
+    - 55.6
+    - 40.39
+    - 49.4
+  color_ral: '2010'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  drying_temperature: 60
