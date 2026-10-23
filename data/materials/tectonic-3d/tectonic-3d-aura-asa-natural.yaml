@@ -8,6 +8,11 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#d9d8deff'
+  color_lab:
+    - 86.57
+    - 1.43
+    - -2.82
 tags:
-- without_pigments
+  - without_pigments
+  - filtration_recommended
 properties: {}
