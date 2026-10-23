@@ -1,0 +1,19 @@
+uuid: e3dbfc67-de3b-5c59-a71a-92b2cf4d41af
+slug: dopro-3d-petg-matt-midnight-black
+brand:
+  slug: dopro-3d
+name: PETG Matt Midnight Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-matt-175-1k?variant=54121652388178'
+tags:
+- matte
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

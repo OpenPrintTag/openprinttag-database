@@ -1,0 +1,17 @@
+uuid: efa63a9f-8c90-5b90-a1da-b713e03f3865
+slug: dopro-3d-petg-classic-military-olive
+brand:
+  slug: dopro-3d
+name: PETG Classic Military Olive
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-classic-175-1k?variant=54121652126034'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

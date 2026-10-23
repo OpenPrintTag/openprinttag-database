@@ -1,0 +1,19 @@
+uuid: '15b790c2-d63d-5e22-bf0b-4b7711afb49e'
+slug: dopro-3d-petg-transparent-atrovirens-green
+brand:
+  slug: dopro-3d
+name: PETG Transparent Atrovirens Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-transparent-175-1k?variant=54121652650322'
+tags:
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

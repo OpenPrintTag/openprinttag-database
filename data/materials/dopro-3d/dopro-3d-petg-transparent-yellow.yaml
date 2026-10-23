@@ -1,0 +1,19 @@
+uuid: '59d69c88-414b-5cde-9615-7dfe4080c36c'
+slug: dopro-3d-petg-transparent-yellow
+brand:
+  slug: dopro-3d
+name: PETG Transparent Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-transparent-175-1k?variant=54121652683090'
+tags:
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

@@ -1,0 +1,19 @@
+uuid: '03e04517-a3dd-5453-a2c2-301ba9a54d93'
+slug: dopro-3d-petg-gradient-lime-yellow-green-white
+brand:
+  slug: dopro-3d
+name: PETG Gradient Lime Yellow Green White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-gradient-175-1k?variant=54121652945234'
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

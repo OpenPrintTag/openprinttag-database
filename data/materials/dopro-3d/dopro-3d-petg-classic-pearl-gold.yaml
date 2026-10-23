@@ -1,0 +1,17 @@
+uuid: '76db8bc1-12e8-5b4c-bf2e-3b238bc8d1d1'
+slug: dopro-3d-petg-classic-pearl-gold
+brand:
+  slug: dopro-3d
+name: PETG Classic Pearl Gold
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-classic-175-1k?variant=54121652289874'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

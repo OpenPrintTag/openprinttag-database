@@ -1,0 +1,17 @@
+uuid: b4f7c4f5-6c15-5f0c-a68f-d8acd1523781
+slug: dopro-3d-petg-classic-signal-red
+brand:
+  slug: dopro-3d
+name: PETG Classic Signal Red
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-classic-175-1k?variant=54121651929426'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

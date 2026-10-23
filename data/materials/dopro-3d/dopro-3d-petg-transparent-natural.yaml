@@ -1,0 +1,19 @@
+uuid: '9ca48cbe-1647-583f-9032-684d3d6c866a'
+slug: dopro-3d-petg-transparent-natural
+brand:
+  slug: dopro-3d
+name: PETG Transparent Natural
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-transparent-175-1k?variant=54121652552018'
+tags:
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

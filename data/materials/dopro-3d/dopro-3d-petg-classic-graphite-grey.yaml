@@ -1,0 +1,17 @@
+uuid: e6ff6392-8892-5075-b94b-26fd3cb00ec7
+slug: dopro-3d-petg-classic-graphite-grey
+brand:
+  slug: dopro-3d
+name: PETG Classic Graphite Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-classic-175-1k?variant=54121651863890'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

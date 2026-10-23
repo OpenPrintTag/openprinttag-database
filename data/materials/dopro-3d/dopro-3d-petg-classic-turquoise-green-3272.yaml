@@ -1,0 +1,17 @@
+uuid: f256c040-f563-5d5b-8ed7-216df637f7fb
+slug: dopro-3d-petg-classic-turquoise-green-3272
+brand:
+  slug: dopro-3d
+name: PETG Classic Turquoise-green 3272
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-classic-175-1k?variant=54121652093266'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26

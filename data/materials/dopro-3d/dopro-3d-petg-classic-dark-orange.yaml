@@ -1,0 +1,17 @@
+uuid: '547d20da-e339-5037-bd3a-36f39bac07a0'
+slug: dopro-3d-petg-classic-dark-orange
+brand:
+  slug: dopro-3d
+name: PETG Classic Dark Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://shop.dopro3d.com/products/dp-petg-classic-175-1k?variant=54121651962194'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 85
+  drying_temperature: 60
+  drying_time: 240
+  density: 1.26
