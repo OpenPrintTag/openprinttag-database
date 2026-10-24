@@ -21,6 +21,8 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+  drying_temperature: 45
+  drying_time: 360
 photos:
   - url: https://files.openprinttag.org/prusament/prusament-woodfill-linden-light/prusament-woodfill-linden-light-0-7306bbc7.jpg
     type: unspecified
