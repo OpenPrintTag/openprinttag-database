@@ -1,0 +1,17 @@
+name: PLA-Mimosa Yellow
+slug: tm3d-pla-mimosa-yellow
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#ddc335'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 2e5cb326-5193-5613-af3c-eb03dc5364f7
