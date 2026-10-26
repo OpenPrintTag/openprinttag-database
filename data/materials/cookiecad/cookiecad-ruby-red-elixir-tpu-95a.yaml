@@ -9,9 +9,18 @@ abbreviation: TPU
 url: https://cookiecad.com/products/tpu-ruby-red-elixir-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#e72f1dff'
+  color_lab:
+  - 50.82
+  - 67.59
+  - 54.46
 secondary_colors:
 - color_rgba: '#00e3e2ff'
 tags:
 - iridescent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-ruby-red-elixir-tpu-95a/cookiecad-ruby-red-elixir-tpu-95a-0-ded2d6b5.jpg
+  type: unspecified

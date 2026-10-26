@@ -9,7 +9,15 @@ abbreviation: PLA
 url: https://cookiecad.com/products/mint-chip-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#98fbcbff'
+  color_lab:
+  - 91.67
+  - -39.48
+  - 13.98
 tags:
 - imitates_marble
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mint-chip-marble-pla/cookiecad-mint-chip-marble-pla-0-fddd691f.jpg
+  type: unspecified

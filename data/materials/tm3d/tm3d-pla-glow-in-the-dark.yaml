@@ -1,0 +1,19 @@
+name: PLA-Glow in the dark
+slug: tm3d-pla-glow-in-the-dark
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- abrasive
+- glow_in_the_dark
+primary_color:
+  color_rgba: '#ffffffff'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: af9035eb-f34c-568d-b222-9f514c544db1

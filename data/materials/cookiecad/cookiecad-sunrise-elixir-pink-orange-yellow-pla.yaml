@@ -8,12 +8,28 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/sunrise-elixir-pink-orange-yellow-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#ff5786ff'
-- color_rgba: '#ffb031ff'
 - color_rgba: '#f8cc00ff'
+  color_lab:
+  - 83.52
+  - 0.69
+  - 84.42
+- color_rgba: '#ffb031ff'
+  color_lab:
+  - 77.6
+  - 18.99
+  - 71.07
+- color_rgba: '#ff5786ff'
+  color_lab:
+  - 61.48
+  - 66.81
+  - 9.95
 tags:
-- gradual_color_change
 - iridescent
 - silk
-- industrially_compostable
-properties: {}
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-sunrise-elixir-pink-orange-yellow-pla/cookiecad-sunrise-elixir-pink-orange-yellow-pla-0-bd0bedb5.jpg
+  type: unspecified

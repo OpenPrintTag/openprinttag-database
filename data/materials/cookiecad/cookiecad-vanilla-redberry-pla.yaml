@@ -10,8 +10,21 @@ url: https://cookiecad.com/products/vanilla-redberry-pla-filament-1-75mm-1kg?Qua
 primary_color:
   color_rgba: '#eaecf5ff'
 secondary_colors:
+- color_rgba: '#eaecf5ff'
+  color_lab:
+  - 93.48
+  - 0.97
+  - -4.57
 - color_rgba: '#c60f3eff'
+  color_lab:
+  - 42.31
+  - 66.16
+  - 25.6
 tags:
 - imitates_marble
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-vanilla-redberry-pla/cookiecad-vanilla-redberry-pla-0-4ef9935a.jpg
+  type: unspecified

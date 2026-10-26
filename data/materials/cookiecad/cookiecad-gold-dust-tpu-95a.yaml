@@ -1,0 +1,24 @@
+uuid: b0ee4ea0-8371-5d93-8ac0-3eb7d88d9118
+slug: cookiecad-gold-dust-tpu-95a
+brand:
+  slug: cookiecad
+name: Gold Dust TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ddb95dff'
+  color_lab:
+  - 76.6
+  - 2.19
+  - 50.74
+tags:
+- glitter
+- translucent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-gold-dust-tpu-95a/cookiecad-gold-dust-tpu-95a-0-17f14e34.jpg
+  type: unspecified

@@ -8,12 +8,29 @@ type: TPU
 abbreviation: TPU
 url: https://cookiecad.com/products/tpu-fairy-floss-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#ff72b6ff'
 - color_rgba: '#b894e2ff'
+  color_lab:
+  - 67.17
+  - 28.53
+  - -34.58
+- color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
 - color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
 tags:
 - glitter
 - gradual_color_change
 - translucent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-fairy-floss-tpu-95a/cookiecad-fairy-floss-tpu-95a-0-75c3f731.jpg
+  type: unspecified

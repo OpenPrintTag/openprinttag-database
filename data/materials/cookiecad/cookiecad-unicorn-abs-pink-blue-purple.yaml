@@ -8,10 +8,29 @@ type: ABS
 abbreviation: ABS
 url: https://cookiecad.com/products/copy-of-unicorn-%F0%9F%A6%84-pink-blue-purple-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#ff72b6ff'
 - color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
 - color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
 tags:
 - gradual_color_change
 - filtration_recommended
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-unicorn-abs-pink-blue-purple/cookiecad-unicorn-abs-pink-blue-purple-0-f69dab20.jpg
+  type: unspecified

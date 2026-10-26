@@ -1,0 +1,20 @@
+uuid: 6e0407a1-e0e3-5f09-8e62-726247e163c0
+slug: cookiecad-white-pla
+brand:
+  slug: cookiecad
+name: White PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-white-pla/cookiecad-white-pla-0-1b2d02d6.jpg
+  type: unspecified

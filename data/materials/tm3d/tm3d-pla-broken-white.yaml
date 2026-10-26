@@ -1,0 +1,17 @@
+name: PLA-Broken White
+slug: tm3d-pla-broken-white
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#eeece6'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: e29816be-28a1-56e7-b0d0-5dcdb695f6d8

@@ -1,0 +1,17 @@
+name: PLA-Basin Green
+slug: tm3d-pla-basin-green
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#566436'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 674a52d5-405e-5a42-9a40-4dd344727b7f

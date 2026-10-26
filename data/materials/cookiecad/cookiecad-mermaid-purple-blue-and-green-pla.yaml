@@ -1,0 +1,32 @@
+uuid: 63d0999e-493f-5712-9955-c2dbfa68ba9e
+slug: cookiecad-mermaid-purple-blue-and-green-pla
+brand:
+  slug: cookiecad
+name: Mermaid (purple, blue & green) PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
+- color_rgba: '#583061ff'
+  color_lab:
+  - 26.88
+  - 27.1
+  - -21.69
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mermaid-purple-blue-and-green-pla/cookiecad-mermaid-purple-blue-and-green-pla-0-2aec2218.jpg
+  type: unspecified

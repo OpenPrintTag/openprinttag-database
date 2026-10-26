@@ -16,5 +16,7 @@ properties:
   max_bed_temperature: 75
   chamber_temperature: 30
   max_chamber_temperature: 40
+  drying_temperature: 60
+  drying_time: 240
 primary_color:
   color_rgba: '#656d73ff'
