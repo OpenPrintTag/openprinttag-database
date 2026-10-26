@@ -1,0 +1,31 @@
+uuid: d67dc142-7721-5445-a7f5-95f47e2b1661
+slug: devil-design-pla-silk-dual-dark-red-plus-super-violet
+brand:
+  slug: devil-design
+name: PLA SILK DUAL DARK RED + SUPER VIOLET
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#cc393fff'
+    color_lab:
+      - 47.14
+      - 57.6
+      - 31.19
+  - color_rgba: '#0353baff'
+    color_lab:
+      - 37.39
+      - 20.64
+      - -59.84
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-dual-dark-red-plus-super-violet-0-68dfb857.png
+    type: unspecified

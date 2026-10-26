@@ -1,0 +1,31 @@
+uuid: 3092b3c8-3652-5ece-a8be-befdc27f383f
+slug: devil-design-pla-silk-dual-pink-pearl-plus-blue
+brand:
+  slug: devil-design
+name: PLA SILK DUAL PINK PEARL + BLUE
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#0066d9ff'
+    color_lab:
+      - 44.96
+      - 20.46
+      - -65.46
+  - color_rgba: '#e34a94ff'
+    color_lab:
+      - 55.45
+      - 65.06
+      - -7.59
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-dual-pink-pearl-plus-blue-0-e93bab5d.png
+    type: unspecified

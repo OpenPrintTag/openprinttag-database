@@ -9,7 +9,13 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-jasne-zelena-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#70a641ff'
+  color_lab:
+    - 62.59
+    - -35.18
+    - 45.62
 tags:
-- silk
-- industrially_compostable
+  - silk
 properties: {}
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-bright-green-0-d79ad4d3.png
+    type: unspecified

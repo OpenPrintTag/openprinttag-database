@@ -1,0 +1,31 @@
+uuid: 0e5957b5-44b2-50b1-85f3-ed4d1baa75b0
+slug: devil-design-pla-silk-dual-pink-pearl-plus-orange
+brand:
+  slug: devil-design
+name: PLA SILK DUAL PINK PEARL + ORANGE
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#ff8133ff'
+    color_lab:
+      - 67.43
+      - 43.18
+      - 61.15
+  - color_rgba: '#e34a94ff'
+    color_lab:
+      - 55.45
+      - 65.06
+      - -7.59
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-dual-pink-pearl-plus-orange-0-396ee743.png
+    type: unspecified

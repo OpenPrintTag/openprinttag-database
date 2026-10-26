@@ -1,0 +1,23 @@
+uuid: 0e05372a-49eb-5bea-9a4e-ca79f9e7e58a
+slug: devil-design-pla-wine-red
+brand:
+  slug: devil-design
+name: PLA WINE RED
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#80464fff'
+  color_lab:
+    - 36.99
+    - 25.87
+    - 5.63
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-wine-red-0-8ed90721.png
+    type: unspecified

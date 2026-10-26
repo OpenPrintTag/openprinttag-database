@@ -9,4 +9,16 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-jasne-zelena-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#58c91bff'
-properties: {}
+  color_lab:
+    - 72.18
+    - -59.26
+    - 67.6
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/devil-design-petg-bright-green-0-ae51588a.png
+    type: unspecified

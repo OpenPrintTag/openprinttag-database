@@ -1,0 +1,24 @@
+uuid: ea9597d0-4d65-562d-97dc-fa7aea1386c1
+slug: devil-design-abs-plus-white
+brand:
+  slug: devil-design
+name: ABS+ WHITE
+class: FFF
+type: ABS
+abbreviation: ABS+
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/devil-design-abs-plus-white-0-3bd7a4e1.png
+    type: unspecified

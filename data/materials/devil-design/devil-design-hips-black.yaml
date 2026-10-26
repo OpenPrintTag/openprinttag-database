@@ -9,4 +9,18 @@ abbreviation: HIPS
 url: https://www.smart3d.cz/en/p/filament-devil-design-hips-cerna-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#000000ff'
-properties: {}
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+tags:
+  - limonene_soluble
+photos:
+  - url: /tmp/assets/devil-design-hips-black-0-33301db9.png
+    type: unspecified

@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-zelena-galaxy-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#144f3bff'
+  color_lab:
+    - 29.55
+    - -24.29
+    - 6.44
 tags:
-- glitter
-- industrially_compostable
-properties: {}
+  - glitter
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-galaxy-green-0-3a2e67a6.png
+    type: unspecified

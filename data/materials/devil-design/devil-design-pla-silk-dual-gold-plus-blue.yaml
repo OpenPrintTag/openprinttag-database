@@ -1,0 +1,31 @@
+uuid: d92c5d18-561d-524f-869d-f2ca6bf48f96
+slug: devil-design-pla-silk-dual-gold-plus-blue
+brand:
+  slug: devil-design
+name: PLA SILK DUAL GOLD + BLUE
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f6c500ff'
+    color_lab:
+      - 81.58
+      - 3.43
+      - 82.98
+  - color_rgba: '#0078bfff'
+    color_lab:
+      - 48.5
+      - -1.28
+      - -44.87
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-dual-gold-plus-blue-0-d05e797d.png
+    type: unspecified

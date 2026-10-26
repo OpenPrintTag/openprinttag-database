@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-zelena-galaxy-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#314a31ff'
+  color_lab:
+    - 28.83
+    - -15.49
+    - 11.97
 tags:
-- glitter
+  - glitter
 properties: {}
+photos:
+  - url: /tmp/assets/devil-design-petg-galaxy-green-0-95313c70.png
+    type: unspecified

@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-jasne-zluta-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#f8cc00ff'
+  color_lab:
+    - 83.52
+    - 0.69
+    - 84.42
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-bright-yellow-0-57485d03.png
+    type: unspecified

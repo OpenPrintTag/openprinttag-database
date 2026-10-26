@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-platinum-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#c9d0d4ff'
+  color_lab:
+    - 83.06
+    - -1.62
+    - -2.81
 tags:
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-platinum-0-22f54731.png
+    type: unspecified

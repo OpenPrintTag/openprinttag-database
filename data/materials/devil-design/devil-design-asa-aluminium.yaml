@@ -9,4 +9,17 @@ abbreviation: ASA
 url: https://www.smart3d.cz/en/p/filament-devil-design-asa-aluminium-1-75-mm-0-8-kg#
 primary_color:
   color_rgba: '#a2aaadff'
-properties: {}
+  color_lab:
+    - 69.07
+    - -2.22
+    - -2.52
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/devil-design-asa-aluminium-0-190b7343.png
+    type: unspecified

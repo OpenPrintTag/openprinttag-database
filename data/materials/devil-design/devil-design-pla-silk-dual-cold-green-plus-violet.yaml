@@ -1,0 +1,31 @@
+uuid: 3974b228-ca83-52f3-9d77-e5262bc8c09f
+slug: devil-design-pla-silk-dual-cold-green-plus-violet
+brand:
+  slug: devil-design
+name: PLA SILK DUAL COLD GREEN + VIOLET
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e34a94ff'
+    color_lab:
+      - 55.45
+      - 65.06
+      - -7.59
+  - color_rgba: '#02776fff'
+    color_lab:
+      - 44.73
+      - -29.83
+      - -3.62
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-dual-cold-green-plus-violet-0-fc3a9a8d.png
+    type: unspecified

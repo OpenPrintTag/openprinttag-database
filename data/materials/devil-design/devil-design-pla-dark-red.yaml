@@ -9,6 +9,13 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-dark-red-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#ec0000ff'
+  color_lab:
+    - 49.3
+    - 75.53
+    - 63.38
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
+photos:
+  - url: /tmp/assets/devil-design-pla-dark-red-0-2dcbb75c.png
+    type: unspecified

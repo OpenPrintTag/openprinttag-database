@@ -9,4 +9,16 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-graphite-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#3e413fff'
-properties: {}
+  color_lab:
+    - 27.2
+    - -1.71
+    - 0.78
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/devil-design-petg-graphite-0-9224e541.png
+    type: unspecified

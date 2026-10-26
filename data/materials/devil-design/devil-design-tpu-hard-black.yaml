@@ -9,5 +9,12 @@ abbreviation: TPU
 url: https://www.smart3d.cz/en/p/filament-devil-design-tpu-hard-black-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 properties:
-  hardness_shore_d: 60
+  hardness_shore_d: 60.0
+photos:
+  - url: /tmp/assets/devil-design-tpu-hard-black-0-54dbbc5e.png
+    type: unspecified

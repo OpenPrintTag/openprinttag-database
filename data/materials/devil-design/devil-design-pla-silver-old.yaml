@@ -9,6 +9,13 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-stribrna-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#808080ff'
+  color_lab:
+    - 53.59
+    - 0.0
+    - 0.0
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties: {}
+photos:
+  - url: /tmp/assets/devil-design-pla-silver-old-0-87c4f01e.png
+    type: unspecified

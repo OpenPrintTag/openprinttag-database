@@ -9,4 +9,11 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-svetla-ocel-1-75-mm-0-33-kg#
 primary_color:
   color_rgba: '#436176ff'
+  color_lab:
+    - 39.66
+    - -5.01
+    - -15.3
 properties: {}
+photos:
+  - url: /tmp/assets/devil-design-petg-light-steel-0-e2c7a64b.png
+    type: unspecified

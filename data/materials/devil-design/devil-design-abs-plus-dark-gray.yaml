@@ -1,0 +1,24 @@
+uuid: 0392a9d6-4d87-5957-a0ad-2010e6a371a1
+slug: devil-design-abs-plus-dark-gray
+brand:
+  slug: devil-design
+name: ABS+ DARK GRAY
+class: FFF
+type: ABS
+abbreviation: ABS+
+primary_color:
+  color_rgba: '#595959ff'
+  color_lab:
+    - 37.82
+    - -0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/devil-design-abs-plus-dark-gray-0-2f966cbf.png
+    type: unspecified

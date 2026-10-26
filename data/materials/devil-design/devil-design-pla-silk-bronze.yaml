@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-bronzova-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#a98c4bff'
+  color_lab:
+    - 59.62
+    - 2.79
+    - 38.43
 tags:
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-bronze-0-f5f01fe5.png
+    type: unspecified

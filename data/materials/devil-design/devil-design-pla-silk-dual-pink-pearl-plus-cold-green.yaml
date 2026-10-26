@@ -1,0 +1,31 @@
+uuid: 0e5561f4-3577-58a4-9b7d-318a85ac8ec6
+slug: devil-design-pla-silk-dual-pink-pearl-plus-cold-green
+brand:
+  slug: devil-design
+name: PLA SILK DUAL PINK PEARL + COLD GREEN
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#e34a94ff'
+    color_lab:
+      - 55.45
+      - 65.06
+      - -7.59
+  - color_rgba: '#02776fff'
+    color_lab:
+      - 44.73
+      - -29.83
+      - -3.62
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/devil-design-pla-silk-dual-pink-pearl-plus-cold-green-0-6612b150.png
+    type: unspecified
