@@ -8,6 +8,10 @@ type: PEI
 abbreviation: PEI
 primary_color:
   color_rgba: '#a77f0eff'
+  color_lab:
+    - 55.51
+    - 6.06
+    - 58.55
 tags:
   - low_outgassing
   - translucent

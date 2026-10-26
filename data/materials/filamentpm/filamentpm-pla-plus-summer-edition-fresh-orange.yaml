@@ -1,0 +1,27 @@
+uuid: ee2403a6-079e-5539-b6b7-3e80de011ff3
+slug: filamentpm-pla-plus-summer-edition-fresh-orange
+brand:
+  slug: filamentpm
+name: PLA+ Summer edition - Fresh Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67828ff'
+  color_lab:
+  - 64.31
+  - 43.85
+  - 62.2
+  color_ral: '2003'
+tags:
+- matte
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-plus-summer-edition-fresh-orange/filamentpm-pla-plus-summer-edition-fresh-orange-0-3754dcdd.png
+  type: unspecified
