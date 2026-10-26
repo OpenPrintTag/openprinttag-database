@@ -1,0 +1,17 @@
+uuid: '997cb567-d3a4-528d-a13a-a580fec3b74e'
+slug: soleyin-basic-petg-chamomile
+brand:
+  slug: soleyin
+name: Basic PETG Chamomile
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://store.creality.com/products/soleyin-basic-petg-3d-printing-filament-1kg-live-exclusive'
+primary_color:
+  color_rgba: '#e68a51ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  density: 1.23

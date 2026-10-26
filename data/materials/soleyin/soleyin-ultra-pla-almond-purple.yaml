@@ -1,0 +1,17 @@
+uuid: fe18a8de-f0d9-5a4d-9b48-85184bc8a9b6
+slug: soleyin-ultra-pla-almond-purple
+brand:
+  slug: soleyin
+name: Ultra PLA Almond Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://eu.store.creality.com/products/soleyin-ultra-pla-3d-printing-filament-1kg'
+primary_color:
+  color_rgba: '#b6a4c6ff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  density: 1.25

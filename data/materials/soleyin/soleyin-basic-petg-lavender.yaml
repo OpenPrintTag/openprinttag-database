@@ -1,0 +1,17 @@
+uuid: a59d7077-6f26-575e-8a7e-86e7294f28d3
+slug: soleyin-basic-petg-lavender
+brand:
+  slug: soleyin
+name: Basic PETG Lavender
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://store.creality.com/products/soleyin-basic-petg-3d-printing-filament-1kg-live-exclusive'
+primary_color:
+  color_rgba: '#d6c3d9ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  density: 1.23

@@ -1,0 +1,17 @@
+uuid: a663aec7-7ca9-5767-b660-6afb4c6c972b
+slug: soleyin-basic-petg-mangosteen-purple
+brand:
+  slug: soleyin
+name: Basic PETG Mangosteen Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://store.creality.com/products/soleyin-basic-petg-3d-printing-filament-1kg-live-exclusive'
+primary_color:
+  color_rgba: '#66324aff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  density: 1.23

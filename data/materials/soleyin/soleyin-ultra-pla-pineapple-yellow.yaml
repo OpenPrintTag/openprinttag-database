@@ -1,0 +1,17 @@
+uuid: '4fc6df9a-a181-5bab-b123-c4dcdc1f36ce'
+slug: soleyin-ultra-pla-pineapple-yellow
+brand:
+  slug: soleyin
+name: Ultra PLA Pineapple Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://eu.store.creality.com/products/soleyin-ultra-pla-3d-printing-filament-1kg'
+primary_color:
+  color_rgba: '#e4d085ff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  density: 1.25

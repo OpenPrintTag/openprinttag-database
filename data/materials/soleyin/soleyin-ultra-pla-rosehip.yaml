@@ -1,0 +1,17 @@
+uuid: '6926058c-a1e3-51a6-8a6e-c77f1c36419f'
+slug: soleyin-ultra-pla-rosehip
+brand:
+  slug: soleyin
+name: Ultra PLA Rosehip
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://eu.store.creality.com/products/soleyin-ultra-pla-3d-printing-filament-1kg'
+primary_color:
+  color_rgba: '#f4621fff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  density: 1.25
