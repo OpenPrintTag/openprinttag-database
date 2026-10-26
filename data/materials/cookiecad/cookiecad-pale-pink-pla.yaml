@@ -1,0 +1,20 @@
+uuid: 43e7168b-4f58-5859-a982-6f21e946e207
+slug: cookiecad-pale-pink-pla
+brand:
+  slug: cookiecad
+name: Pale Pink PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6e2f1ff'
+  color_lab:
+  - 91.84
+  - 9.38
+  - -4.81
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pale-pink-pla/cookiecad-pale-pink-pla-0-e4b02776.jpg
+  type: unspecified

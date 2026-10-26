@@ -8,14 +8,38 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/pastel-rainbow-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#fd9191ff'
-- color_rgba: '#fce575ff'
-- color_rgba: '#69ebb6ff'
 - color_rgba: '#9cd0dbff'
+  color_lab:
+  - 80.34
+  - -14.22
+  - -10.89
 - color_rgba: '#c1648eff'
+  color_lab:
+  - 54.46
+  - 42.08
+  - -6.09
+- color_rgba: '#fce575ff'
+  color_lab:
+  - 90.79
+  - -5.82
+  - 56.75
+- color_rgba: '#69ebb6ff'
+  color_lab:
+  - 84.89
+  - -48.16
+  - 15.03
+- color_rgba: '#e53267ff'
+  color_lab:
+  - 51.75
+  - 69.42
+  - 14.02
 tags:
-- gradual_color_change
 - iridescent
 - silk
-- industrially_compostable
-properties: {}
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pastel-rainbow-elixir-pla/cookiecad-pastel-rainbow-elixir-pla-0-11b307f5.jpg
+  type: unspecified

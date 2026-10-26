@@ -19,6 +19,8 @@ properties:
   chamber_temperature: 90
   min_chamber_temperature: 55
   max_chamber_temperature: 90
+  drying_temperature: 80
+  drying_time: 240
 photos:
   - url: https://files.openprinttag.org/prusament/prusament-asa-olive-green/prusament-asa-olive-green-0-58ccb4d2.jpg
     type: unspecified

@@ -9,8 +9,16 @@ abbreviation: PLA
 url: https://cookiecad.com/products/teal-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#98fbcbff'
+  color_lab:
+  - 91.67
+  - -39.48
+  - 13.98
 tags:
 - iridescent
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-teal-elixir-pla/cookiecad-teal-elixir-pla-0-065918a4.jpg
+  type: unspecified

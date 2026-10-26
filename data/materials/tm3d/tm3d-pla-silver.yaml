@@ -1,0 +1,17 @@
+name: PLA-Silver
+slug: tm3d-pla-silver
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#8b8c93'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: b056ce96-eeb3-58cf-a5a2-a763ba5787ab

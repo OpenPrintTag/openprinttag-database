@@ -8,10 +8,27 @@ type: TPU
 abbreviation: TPU
 url: https://cookiecad.com/products/tpu-sunset-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#0099e6ff'
-- color_rgba: '#8d65c7ff'
 - color_rgba: '#ff00a2ff'
+  color_lab:
+  - 55.96
+  - 87.34
+  - -14.57
+- color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#0099e6ff'
+  color_lab:
+  - 60.33
+  - -5.82
+  - -48.11
 tags:
 - gradual_color_change
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-sunset-tpu-95a/cookiecad-sunset-tpu-95a-0-6f3938c7.jpg
+  type: unspecified

@@ -9,7 +9,18 @@ abbreviation: PETG
 url: https://cookiecad.com/products/petg-pink-star-stuff-petg-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#ff00a2ff'
+  color_lab:
+  - 55.96
+  - 87.34
+  - -14.57
 tags:
 - glitter
 - translucent
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-petg-pink-star-stuff/cookiecad-petg-pink-star-stuff-0-31d6dde2.jpg
+  type: unspecified

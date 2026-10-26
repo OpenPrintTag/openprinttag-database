@@ -9,6 +9,13 @@ abbreviation: PLA
 url: https://cookiecad.com/products/matt-black-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#000000ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-black-pla/cookiecad-black-pla-0-b0394aa7.jpg
+  type: unspecified

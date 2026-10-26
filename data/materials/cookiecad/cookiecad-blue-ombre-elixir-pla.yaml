@@ -1,0 +1,27 @@
+uuid: c79841c3-dff8-5cdc-9dfc-d475ec1be2c9
+slug: cookiecad-blue-ombre-elixir-pla
+brand:
+  slug: cookiecad
+name: Blue Ombré Elixir PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0099e6ff'
+  color_lab:
+  - 60.33
+  - -5.82
+  - -48.11
+- color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
+tags:
+- iridescent
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-ombre-elixir-pla/cookiecad-blue-ombre-elixir-pla-0-2ed3e81d.jpg
+  type: unspecified

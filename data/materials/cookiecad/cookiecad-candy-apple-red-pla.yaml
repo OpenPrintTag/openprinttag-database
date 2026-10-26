@@ -9,6 +9,13 @@ abbreviation: PLA
 url: https://cookiecad.com/products/candy-apple-red-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#ff2c29ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 55.31
+  - 75.12
+  - 54.62
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-candy-apple-red-pla/cookiecad-candy-apple-red-pla-0-22524d5e.jpg
+  type: unspecified

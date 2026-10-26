@@ -1,0 +1,22 @@
+uuid: c45f6f63-5551-5236-8f86-a6dda8a282ae
+slug: cookiecad-pixie-dust-pla
+brand:
+  slug: cookiecad
+name: Pixie Dust PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff00a2ff'
+  color_lab:
+  - 55.96
+  - 87.34
+  - -14.57
+tags:
+- iridescent
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pixie-dust-pla/cookiecad-pixie-dust-pla-0-d7491494.jpg
+  type: unspecified
