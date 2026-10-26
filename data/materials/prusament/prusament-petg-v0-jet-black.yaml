@@ -24,6 +24,8 @@ properties:
   chamber_temperature: 35
   min_chamber_temperature: 18
   max_chamber_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
 photos:
   - url: https://files.openprinttag.org/prusament/prusament-petg-v0-jet-black/prusament-petg-v0-jet-black-0-7d521337.jpg
     type: unspecified

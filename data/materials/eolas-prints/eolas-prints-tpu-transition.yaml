@@ -9,7 +9,22 @@ abbreviation: TPU
 url: https://eolasprints.com/en-cz/products/tpu-transition-filament?variant=42324558381315
 secondary_colors:
 - color_rgba: '#ffcccdff'
+  color_lab:
+  - 86.43
+  - 18.15
+  - 6.37
 - color_rgba: '#567bacff'
+  color_lab:
+  - 50.83
+  - 1.0
+  - -30.07
 properties:
   density: 1.21
-  hardness_shore_a: 93
+  hardness_shore_a: 93.0
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 0
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-tpu-transition/eolas-prints-tpu-transition-0-6dcc0953.png
+  type: unspecified

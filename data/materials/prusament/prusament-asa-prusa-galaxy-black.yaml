@@ -25,3 +25,5 @@ properties:
   chamber_temperature: 90
   min_chamber_temperature: 55
   max_chamber_temperature: 90
+  drying_temperature: 80
+  drying_time: 240
