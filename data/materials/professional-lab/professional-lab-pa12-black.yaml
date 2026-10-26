@@ -1,0 +1,17 @@
+uuid: a78739b9-888c-5672-b3fc-3ecf77b56ce8
+slug: professional-lab-pa12-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P207-E1
+name: PA12 Black
+class: FFF
+type: PA12
+abbreviation: PA12
+url: 'https://filamentkontor.de/products/professional-lab-pa12-schwarz?variant=64122734150009'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 70
+  max_bed_temperature: 85

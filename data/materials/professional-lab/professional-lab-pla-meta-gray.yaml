@@ -1,0 +1,17 @@
+uuid: '99c72633-a90e-56a2-8c52-d3d46ea89710'
+slug: professional-lab-pla-meta-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P83-E1
+name: PLA Meta Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-gray-metallic-gray-1-kg/'
+primary_color:
+  color_rgba: '#838381ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

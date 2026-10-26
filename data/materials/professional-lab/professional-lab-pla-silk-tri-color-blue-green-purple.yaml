@@ -1,0 +1,18 @@
+uuid: '711ef3c9-f6e3-5e96-bbf1-b364a0e92185'
+slug: professional-lab-pla-silk-tri-color-blue-green-purple
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P104-E1
+name: PLA Silk Tri Color Blue Green Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-tri-color-filament?variant=57354324869497'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

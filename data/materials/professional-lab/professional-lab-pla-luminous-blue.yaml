@@ -1,0 +1,19 @@
+uuid: '0956a67b-9d2c-59bb-8e18-60479493c2ee'
+slug: professional-lab-pla-luminous-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P42-E1
+name: PLA Luminous Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-luminous-blue-glowing-blue-1-kg/'
+primary_color:
+  color_rgba: '#b4ab91ff'
+tags:
+- glow_in_the_dark
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

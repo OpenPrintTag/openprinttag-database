@@ -1,0 +1,20 @@
+uuid: a1b3d63b-7870-586b-9d4a-05180a3f1483
+slug: professional-lab-tpu-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P121-E1
+name: TPU Red
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://filamentkontor.de/products/professional-lab-tpu?variant=56450983690617'
+primary_color:
+  color_rgba: '#a70906ff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 205
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 60
