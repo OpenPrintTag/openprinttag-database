@@ -8,6 +8,11 @@ type: TPE
 abbreviation: TPE
 primary_color:
   color_rgba: '#af272fff'
+  color_lab:
+    - 39.2
+    - 54.03
+    - 29.97
+  color_ral: '3031'
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-red/0fc281be5598.png
     type: unspecified

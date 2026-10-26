@@ -5,11 +5,15 @@ brand:
 name: PC/ABS - Grey
 class: FFF
 type: PC
-abbreviation: PC-ABS
+abbreviation: PCABS
 primary_color:
   color_rgba: '#c5c7c4ff'
+  color_lab:
+    - 80.01
+    - -1.24
+    - 1.26
 tags:
-- self_extinguishing
+  - self_extinguishing
 properties:
   density: 1.19
   min_print_temperature: 270
@@ -17,5 +21,5 @@ properties:
   min_bed_temperature: 110
   max_bed_temperature: 120
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-pc-abs-grey/filamentpm-pc-abs-grey-0-fd36b6fe.png
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-pc-abs-grey/filamentpm-pc-abs-grey-0-fd36b6fe.png
+    type: unspecified

@@ -1,0 +1,17 @@
+uuid: '7b324347-1db4-5c00-b09a-2fe7d7906dc6'
+slug: professional-lab-pla-meta-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P82-E1
+name: PLA Meta White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-white-1-kg/'
+primary_color:
+  color_rgba: '#dcdbdcff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,22 @@
+uuid: '319546fa-7d23-5d3c-b7e5-a4cf3ff9d994'
+slug: professional-lab-petg-cf-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P211-E1
+name: PETG CF Gray
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-cf-filament-mit-carbonfaser?variant=57194487480697'
+primary_color:
+  color_rgba: '#868a8cff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 65
+  drying_time: 240

@@ -1,0 +1,21 @@
+uuid: b6cc9031-a5de-5299-b364-d1ccf6424427
+slug: professional-lab-pla-galaxy-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P177-E1
+name: PLA Galaxy Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-galaxy-glitzerfilament-mit-effekt?variant=56985185878393'
+primary_color:
+  color_rgba: '#7a9753ff'
+tags:
+- glitter
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 45
+  drying_time: 240

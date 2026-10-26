@@ -7,6 +7,10 @@ class: FFF
 abbreviation: PA12
 primary_color:
   color_rgba: '#f2f0ebff'
+  color_lab:
+    - 94.82
+    - -0.2
+    - 2.65
 tags:
   - translucent
   - without_pigments

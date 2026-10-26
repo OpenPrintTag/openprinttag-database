@@ -1,0 +1,22 @@
+uuid: '3b9f16c7-fff2-5c4a-b90f-fafa38fbf4ec'
+slug: professional-lab-petg-cf-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P209-E1
+name: PETG CF Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-cf-filament-mit-carbonfaser?variant=57194487447929'
+primary_color:
+  color_rgba: '#313b5aff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 65
+  drying_time: 240

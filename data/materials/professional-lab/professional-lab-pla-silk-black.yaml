@@ -1,0 +1,19 @@
+uuid: c495d600-07cc-51ab-ab48-25172604d458
+slug: professional-lab-pla-silk-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P88-E1
+name: PLA Silk Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-silk-black-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- silk
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

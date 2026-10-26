@@ -1,0 +1,16 @@
+uuid: '3419f7d5-85d4-5005-9792-8eb03b1ce510'
+slug: professional-lab-pla-pastel-orange
+brand:
+  slug: professional-lab
+name: PLA Pastel Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-pastel-orange-1-kg/'
+primary_color:
+  color_rgba: '#f4ac28ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

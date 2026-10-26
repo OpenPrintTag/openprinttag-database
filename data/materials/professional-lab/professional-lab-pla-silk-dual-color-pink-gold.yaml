@@ -1,0 +1,18 @@
+uuid: '329dc8c9-feb4-5159-85be-cd650f17a838'
+slug: professional-lab-pla-silk-dual-color-pink-gold
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P99-E1
+name: PLA Silk Dual Color Pink Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-dual-color-filament?variant=55954493014393'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

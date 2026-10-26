@@ -1,0 +1,25 @@
+uuid: d9a91a02-2b4d-577a-8fc1-d6b7641e11f6
+slug: filamentpm-pla-plus-iron-grey
+brand:
+  slug: filamentpm
+name: PLA+ Iron Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#697272ff'
+  color_lab:
+  - 47.3
+  - -3.39
+  - -1.17
+  color_ral: '7011'
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-plus-iron-grey/filamentpm-pla-plus-iron-grey-0-5e14b13e.png
+  type: unspecified

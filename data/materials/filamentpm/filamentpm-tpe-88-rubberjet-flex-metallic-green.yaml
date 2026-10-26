@@ -8,13 +8,17 @@ type: TPE
 abbreviation: TPE
 primary_color:
   color_rgba: '#777e71ff'
+  color_lab:
+    - 51.88
+    - -5.19
+    - 6.19
 tags:
-- imitates_metal
+  - imitates_metal
 properties:
   density: 0.89
   hardness_shore_a: 88.0
   min_print_temperature: 220
   max_print_temperature: 240
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-metallic-green/filamentpm-tpe-88-rubberjet-flex-metallic-green-0-6ccf23a8.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-metallic-green/filamentpm-tpe-88-rubberjet-flex-metallic-green-0-6ccf23a8.jpg
+    type: unspecified

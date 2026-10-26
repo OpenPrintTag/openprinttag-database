@@ -1,0 +1,19 @@
+uuid: d1ed2001-1d06-53ad-b1a6-9c3c2d9b62ff
+slug: professional-lab-hyper-hs-pla-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P16-E1
+name: Hyper HS-PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-hyper-blue-1-kg/'
+primary_color:
+  color_rgba: '#1756acff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

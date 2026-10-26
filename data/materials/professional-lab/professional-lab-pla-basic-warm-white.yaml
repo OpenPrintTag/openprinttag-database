@@ -1,0 +1,17 @@
+uuid: '1cd68727-379d-5e97-819d-022f1bfb2db4'
+slug: professional-lab-pla-basic-warm-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P38-E1
+name: PLA Basic Warm White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-warm-white-1-kg/'
+primary_color:
+  color_rgba: '#e3ded1ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -8,6 +8,10 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#3e3e3cff'
+  color_lab:
+    - 26.14
+    - -0.44
+    - 1.23
 tags:
   - imitates_metal
 photos:

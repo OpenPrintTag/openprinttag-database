@@ -1,0 +1,19 @@
+uuid: '6398071d-55a9-50f9-8e90-aa8022c4ff1a'
+slug: professional-lab-pla-marble-brick-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P182-E1
+name: PLA Marble Brick Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-marble?variant=56985307218297'
+primary_color:
+  color_rgba: '#b2240fff'
+tags:
+- imitates_marble
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 40
+  max_bed_temperature: 60
