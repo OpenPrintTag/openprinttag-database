@@ -1,0 +1,22 @@
+uuid: 364046db-0727-5db8-96eb-f597784b5469
+slug: recyclingfabrik-witty-whale-light-gray
+brand:
+  slug: recyclingfabrik
+name: Witty Whale (Light Gray)
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/witziger-wal-hellgrau-rpetg
+primary_color:
+  color_rgba: '#878787ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

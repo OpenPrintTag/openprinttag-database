@@ -1,0 +1,22 @@
+uuid: 01908eef-6f4a-577e-a7c1-9c5067699c93
+slug: recyclingfabrik-stubborn-donkey-medium-gray
+brand:
+  slug: recyclingfabrik
+name: Stubborn Donkey (Medium Gray)
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/sturer-esel-mittelgrau-rpetg
+primary_color:
+  color_rgba: '#5d5d5eff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

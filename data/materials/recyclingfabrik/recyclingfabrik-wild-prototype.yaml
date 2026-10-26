@@ -1,0 +1,20 @@
+uuid: f1c6c062-5e04-5a77-abfb-0061e01df22e
+slug: recyclingfabrik-wild-prototype
+brand:
+  slug: recyclingfabrik
+name: Wild Prototype
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/wilder-prototyp
+tags:
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

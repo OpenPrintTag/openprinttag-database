@@ -1,0 +1,22 @@
+uuid: e9499e9d-9420-5eec-98d3-aa19397b6ee6
+slug: recyclingfabrik-re-blue
+brand:
+  slug: recyclingfabrik
+name: Re:Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/re-blau-rpetg
+primary_color:
+  color_rgba: '#13527eff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275
