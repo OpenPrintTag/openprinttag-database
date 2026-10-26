@@ -8,6 +8,13 @@ type: PLA
 abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-transition-filament?variant=42324485505283
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/eolas-prints-pla-transition-0-7ca72c6f.png
+    type: unspecified
