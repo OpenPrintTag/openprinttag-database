@@ -1,0 +1,29 @@
+uuid: 704d46ee-327b-5503-b154-becd2874addc
+slug: cookiecad-silk-dual-sunset-pla
+brand:
+  slug: cookiecad
+name: Silk Dual Sunset PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#567bacff'
+  color_lab:
+  - 50.83
+  - 1.0
+  - -30.07
+- color_rgba: '#d93382ff'
+  color_lab:
+  - 50.38
+  - 68.24
+  - -4.58
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-silk-dual-sunset-pla/cookiecad-silk-dual-sunset-pla-0-4577e2c1.jpg
+  type: unspecified

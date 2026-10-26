@@ -9,8 +9,16 @@ abbreviation: PLA
 url: https://cookiecad.com/products/pearl-blue-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
 tags:
-- neon
 - iridescent
-- industrially_compostable
-properties: {}
+- neon
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-pearl-pla/cookiecad-blue-pearl-pla-0-498e963e.webp
+  type: unspecified

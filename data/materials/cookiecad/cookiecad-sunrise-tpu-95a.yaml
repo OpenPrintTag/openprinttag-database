@@ -8,10 +8,27 @@ type: TPU
 abbreviation: TPU
 url: https://cookiecad.com/products/tpu-sunrise-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#fadb24ff'
-- color_rgba: '#fa8423ff'
 - color_rgba: '#d85165ff'
+  color_lab:
+  - 53.41
+  - 54.38
+  - 17.14
+- color_rgba: '#fa8423ff'
+  color_lab:
+  - 67.24
+  - 39.32
+  - 66.6
+- color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
 tags:
 - gradual_color_change
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-sunrise-tpu-95a/cookiecad-sunrise-tpu-95a-0-4ad63c55.jpg
+  type: unspecified

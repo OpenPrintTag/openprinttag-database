@@ -9,4 +9,15 @@ abbreviation: PETG
 url: https://cookiecad.com/products/lavender-petg-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#e65fe2ff'
-properties: {}
+  color_lab:
+  - 62.08
+  - 68.27
+  - -42.13
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-petg-lavender/cookiecad-petg-lavender-0-486b3154.jpg
+  type: unspecified

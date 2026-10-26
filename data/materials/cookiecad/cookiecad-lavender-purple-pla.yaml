@@ -1,14 +1,21 @@
-uuid: 981b6105-039f-5103-9571-348362d3287f
+uuid: f2d2fcc5-8d70-5960-96e1-ad37e507bda9
 slug: cookiecad-lavender-purple-pla
 brand:
   slug: cookiecad
-name: Lavender \ Purple PLA
+name: Lavender Purple PLA
 class: FFF
 type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/lavender-purple-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#e65fe2ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 62.08
+  - 68.27
+  - -42.13
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-lavender-purple-pla/cookiecad-lavender-purple-pla-0-e05bd70d.jpg
+  type: unspecified

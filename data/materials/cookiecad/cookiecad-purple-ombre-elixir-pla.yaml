@@ -1,0 +1,29 @@
+uuid: adfee8d5-7acf-51a3-8b43-14aa754a6ee7
+slug: cookiecad-purple-ombre-elixir-pla
+brand:
+  slug: cookiecad
+name: Purple Ombré Elixir PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#6000b0ff'
+  color_lab:
+  - 28.44
+  - 63.8
+  - -68.38
+- color_rgba: '#583061ff'
+  color_lab:
+  - 26.88
+  - 27.1
+  - -21.69
+tags:
+- iridescent
+- silk
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-purple-ombre-elixir-pla/cookiecad-purple-ombre-elixir-pla-0-0350ae2e.jpg
+  type: unspecified

@@ -1,0 +1,28 @@
+uuid: c9f8c0aa-8d7c-523b-a097-9500c8ed8f05
+slug: cookiecad-pink-ombre-tpu-95a
+brand:
+  slug: cookiecad
+name: Pink Ombré TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+secondary_colors:
+- color_rgba: '#f09bb5ff'
+  color_lab:
+  - 73.09
+  - 35.14
+  - -0.18
+- color_rgba: '#ff5786ff'
+  color_lab:
+  - 61.48
+  - 66.81
+  - 9.95
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pink-ombre-tpu-95a/cookiecad-pink-ombre-tpu-95a-0-c3f3f292.jpg
+  type: unspecified

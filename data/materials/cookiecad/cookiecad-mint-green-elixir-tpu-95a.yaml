@@ -1,0 +1,23 @@
+uuid: bf7f767d-f180-5467-a36e-873e94aa5be6
+slug: cookiecad-mint-green-elixir-tpu-95a
+brand:
+  slug: cookiecad
+name: Mint Green Elixir TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#98fbcbff'
+  color_lab:
+  - 91.67
+  - -39.48
+  - 13.98
+tags:
+- iridescent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mint-green-elixir-tpu-95a/cookiecad-mint-green-elixir-tpu-95a-0-6bae0c23.png
+  type: unspecified

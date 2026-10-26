@@ -1,0 +1,22 @@
+uuid: a9b5fbf4-7b03-50f2-92a9-70c0b317518b
+slug: cookiecad-vanilla-chip-marble-pla
+brand:
+  slug: cookiecad
+name: Vanilla Chip Marble PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eaecf5ff'
+  color_lab:
+  - 93.48
+  - 0.97
+  - -4.57
+tags:
+- imitates_marble
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-vanilla-chip-marble-pla/cookiecad-vanilla-chip-marble-pla-0-d005a0f4.jpg
+  type: unspecified

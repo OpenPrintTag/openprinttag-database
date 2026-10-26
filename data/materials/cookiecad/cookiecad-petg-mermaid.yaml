@@ -1,0 +1,34 @@
+uuid: 913ef8f9-b1b3-50d3-9b2c-0dd29127e980
+slug: cookiecad-petg-mermaid
+brand:
+  slug: cookiecad
+name: PETG Mermaid
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#db3fa9ff'
+  color_lab:
+  - 53.47
+  - 69.38
+  - -23.06
+- color_rgba: '#15817bff'
+  color_lab:
+  - 48.62
+  - -29.58
+  - -4.96
+- color_rgba: '#0ccf81ff'
+  color_lab:
+  - 73.73
+  - -60.44
+  - 27.06
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-petg-mermaid/cookiecad-petg-mermaid-0-8d3a58e7.jpg
+  type: unspecified

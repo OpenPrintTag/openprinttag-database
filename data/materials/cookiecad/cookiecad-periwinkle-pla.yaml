@@ -1,0 +1,20 @@
+uuid: 9d6db6f6-cceb-50d9-afcb-72a46198e419
+slug: cookiecad-periwinkle-pla
+brand:
+  slug: cookiecad
+name: Periwinkle PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c7bcf8ff'
+  color_lab:
+  - 78.98
+  - 15.88
+  - -28.23
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-periwinkle-pla/cookiecad-periwinkle-pla-0-4dc6edab.jpg
+  type: unspecified
