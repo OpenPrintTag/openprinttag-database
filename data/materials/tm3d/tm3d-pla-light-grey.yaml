@@ -1,0 +1,17 @@
+name: PLA-Light Grey
+slug: tm3d-pla-light-grey
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#c3c4c1'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: c29ec373-609e-5567-b943-1f2b9aff605b

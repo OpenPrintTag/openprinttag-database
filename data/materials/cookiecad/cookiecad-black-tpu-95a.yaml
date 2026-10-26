@@ -1,0 +1,21 @@
+uuid: 28278fb4-a682-55c3-aa63-fdfea9f77ea2
+slug: cookiecad-black-tpu-95a
+brand:
+  slug: cookiecad
+name: Black TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-black-tpu-95a/cookiecad-black-tpu-95a-0-a419a1c9.jpg
+  type: unspecified

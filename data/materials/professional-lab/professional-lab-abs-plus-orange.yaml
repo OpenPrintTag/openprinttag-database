@@ -1,0 +1,17 @@
+uuid: '48a5c15c-c40c-546f-a605-b0f7de6e237c'
+slug: professional-lab-abs-plus-orange
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P8-E1
+name: 'ABS+ Orange'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=57354369401209'
+primary_color:
+  color_rgba: '#fc7931ff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

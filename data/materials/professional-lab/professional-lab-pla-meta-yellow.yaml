@@ -1,0 +1,17 @@
+uuid: '9b8eb2f2-616e-521c-97a7-b51ebc5885d5'
+slug: professional-lab-pla-meta-yellow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P86-E1
+name: PLA Meta Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-yellow-metallic-1-kg/'
+primary_color:
+  color_rgba: '#f2d524ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

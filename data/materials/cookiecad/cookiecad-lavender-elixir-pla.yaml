@@ -9,7 +9,15 @@ abbreviation: PLA
 url: https://cookiecad.com/products/lavender-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#f19dcdff'
+  color_lab:
+  - 74.33
+  - 38.0
+  - -11.55
 tags:
 - iridescent
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-lavender-elixir-pla/cookiecad-lavender-elixir-pla-0-a718e9c1.jpg
+  type: unspecified

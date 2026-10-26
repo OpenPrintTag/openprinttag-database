@@ -1,0 +1,23 @@
+uuid: 1af530de-756b-528c-979c-980f21d9c0d3
+slug: eolas-prints-pla-brown
+brand:
+  slug: eolas-prints
+name: PLA Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d0b082ff'
+  color_lab:
+  - 73.59
+  - 5.15
+  - 27.89
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-brown/eolas-prints-pla-brown-0-d81b69b3.webp
+  type: unspecified

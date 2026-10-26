@@ -1,0 +1,17 @@
+name: PLA-Cream
+slug: tm3d-pla-cream
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#e8ded0'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: ce17df6d-4417-5a27-a59e-862494198441

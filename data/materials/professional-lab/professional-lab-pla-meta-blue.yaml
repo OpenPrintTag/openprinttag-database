@@ -1,0 +1,17 @@
+uuid: '19d3e31c-434c-5a35-8770-04befc8e138c'
+slug: professional-lab-pla-meta-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P85-E1
+name: PLA Meta Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-blue-metallic-blue-1-kg/'
+primary_color:
+  color_rgba: '#144da6ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

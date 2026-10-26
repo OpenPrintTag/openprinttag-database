@@ -1,0 +1,17 @@
+uuid: '950858d2-d325-5c08-9429-b15ef60b89ad'
+slug: professional-lab-abs-plus-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P6-E1
+name: 'ABS+ Green'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=63960994709881'
+primary_color:
+  color_rgba: '#09af1dff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

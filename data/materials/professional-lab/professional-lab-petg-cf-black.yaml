@@ -1,0 +1,22 @@
+uuid: '96bedbd1-108b-5a3f-ad68-9f0b3e3d39e8'
+slug: professional-lab-petg-cf-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P208-E1
+name: PETG CF Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-cf-filament-mit-carbonfaser?variant=57194487415161'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 65
+  drying_time: 240

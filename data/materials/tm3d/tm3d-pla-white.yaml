@@ -1,0 +1,17 @@
+name: PLA-White
+slug: tm3d-pla-white
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#e6e5ea'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: ffb530be-6dee-56af-a23f-c70860676ad7

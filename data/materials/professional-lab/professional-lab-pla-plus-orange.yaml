@@ -1,0 +1,17 @@
+uuid: fc59be00-da21-54d2-bd8d-1f00ece80efa
+slug: professional-lab-pla-plus-orange
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P55-E1
+name: 'PLA+ Orange'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-orange-1-kg/'
+primary_color:
+  color_rgba: '#faa339ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

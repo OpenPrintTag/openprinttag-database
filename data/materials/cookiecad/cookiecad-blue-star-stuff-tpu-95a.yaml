@@ -9,8 +9,17 @@ abbreviation: TPU
 url: https://cookiecad.com/products/tpu-blue-star-stuff-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#178b9fff'
+  color_lab:
+  - 53.11
+  - -22.73
+  - -19.19
 tags:
 - glitter
 - translucent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-star-stuff-tpu-95a/cookiecad-blue-star-stuff-tpu-95a-0-d00a309d.jpg
+  type: unspecified

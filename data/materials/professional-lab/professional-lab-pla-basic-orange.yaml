@@ -1,0 +1,17 @@
+uuid: '804da167-1dd9-5947-afc3-5d77a3caf1c7'
+slug: professional-lab-pla-basic-orange
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P71-E1
+name: PLA Basic Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-orange-1-kg/'
+primary_color:
+  color_rgba: '#fba63fff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

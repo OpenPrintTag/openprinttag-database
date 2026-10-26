@@ -9,6 +9,17 @@ abbreviation: TPU
 url: https://eolasprints.com/en-cz/products/tpu-flex-filament-shore-d53?variant=49641460760903
 primary_color:
   color_rgba: '#9c9d9dff'
+  color_lab:
+  - 64.66
+  - -0.36
+  - -0.13
 properties:
-  density: 1.17
-  hardness_shore_d: 53
+  density: 1.21
+  hardness_shore_d: 53.0
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-tpu-flex-d53-grey/eolas-prints-tpu-flex-d53-grey-0-01c5380c.png
+  type: unspecified

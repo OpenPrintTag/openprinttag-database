@@ -1,0 +1,17 @@
+uuid: '4d3814dc-9085-54e2-9dcc-af42dd64ecdb'
+slug: professional-lab-pla-plus-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P56-E1
+name: 'PLA+ Gray'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-gray-1-kg/'
+primary_color:
+  color_rgba: '#898987ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

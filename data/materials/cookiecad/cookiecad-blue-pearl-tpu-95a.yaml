@@ -1,0 +1,24 @@
+uuid: 33ce4268-ea5d-5b9c-befd-f8a5cd4cd29f
+slug: cookiecad-blue-pearl-tpu-95a
+brand:
+  slug: cookiecad
+name: Blue Pearl TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
+tags:
+- iridescent
+- neon
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-pearl-tpu-95a/cookiecad-blue-pearl-tpu-95a-0-be4fda0a.png
+  type: unspecified

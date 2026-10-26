@@ -1,0 +1,27 @@
+uuid: 97fc9373-29d3-56e5-87ab-7876abad236e
+slug: cookiecad-pink-ombre-elixir-pla
+brand:
+  slug: cookiecad
+name: Pink Ombré Elixir PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ffbdd1ff'
+  color_lab:
+  - 83.05
+  - 26.61
+  - -0.67
+- color_rgba: '#ff00a2ff'
+  color_lab:
+  - 55.96
+  - 87.34
+  - -14.57
+tags:
+- iridescent
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pink-ombre-elixir-pla/cookiecad-pink-ombre-elixir-pla-0-2cdf7d3e.jpg
+  type: unspecified

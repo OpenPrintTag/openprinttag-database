@@ -9,7 +9,16 @@ abbreviation: TPU
 url: https://cookiecad.com/products/tpu-pixie-dust-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
 tags:
 - iridescent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pixie-dust-tpu-95a/cookiecad-pixie-dust-tpu-95a-0-1afae60c.png
+  type: unspecified

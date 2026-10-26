@@ -1,0 +1,17 @@
+name: PLA-Jade Green
+slug: tm3d-pla-jade-green
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#88aea8'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 0071ed9a-3fec-5fe2-9267-f9d52afcfb01

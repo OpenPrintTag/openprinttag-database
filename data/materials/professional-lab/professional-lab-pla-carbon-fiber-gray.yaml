@@ -1,0 +1,17 @@
+uuid: '82e7325d-b909-5f91-b35f-f4118d1a6ddc'
+slug: professional-lab-pla-carbon-fiber-gray
+brand:
+  slug: professional-lab
+name: PLA Carbon Fiber Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-carbon-fiber-gray-1-kg/'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 60
+  max_bed_temperature: 70

@@ -1,0 +1,28 @@
+uuid: e568ab9e-900f-59c8-9376-0efdd1b321b2
+slug: cookiecad-solar-flare-elixir-tpu-95a
+brand:
+  slug: cookiecad
+name: Solar Flare Elixir TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+secondary_colors:
+- color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
+- color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
+tags:
+- iridescent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-solar-flare-elixir-tpu-95a/cookiecad-solar-flare-elixir-tpu-95a-0-d289746d.png
+  type: unspecified
