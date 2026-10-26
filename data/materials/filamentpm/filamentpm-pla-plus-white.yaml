@@ -1,0 +1,24 @@
+uuid: 9c3ca0f0-51c0-5014-9298-e03c935df3ae
+slug: filamentpm-pla-plus-white
+brand:
+  slug: filamentpm
+name: PLA+ White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ebece9ff'
+  color_lab:
+    - 93.25
+    - -0.87
+    - 1.33
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-white-0-123b7cdf.jpg
+    type: unspecified

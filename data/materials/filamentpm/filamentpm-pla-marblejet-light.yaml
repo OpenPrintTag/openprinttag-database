@@ -8,6 +8,10 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#e0dabbff'
+  color_lab:
+    - 86.79
+    - -3.04
+    - 16.01
 tags:
   - imitates_marble
 photos:

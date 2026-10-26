@@ -1,0 +1,25 @@
+uuid: 02143a19-2c48-5a02-8f5f-b9617eb95d5f
+slug: filamentpm-pla-plus-skin-edition-skin-478c
+brand:
+  slug: filamentpm
+name: PLA+ Skin edition - Skin 478C
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#703f2aff'
+  color_lab:
+    - 32.19
+    - 19.17
+    - 21.97
+  color_ral: '8002'
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-skin-edition-skin-478c-0-438b8b56.png
+    type: unspecified

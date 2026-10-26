@@ -1,0 +1,24 @@
+uuid: 2318c5c9-5bd4-583a-8f0c-4209c4b0a109
+slug: filamentpm-pla-plus-pastel-edition-baby-blue
+brand:
+  slug: filamentpm
+name: PLA+ pastel edition - Baby Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b1c9e8ff'
+  color_lab:
+    - 80.15
+    - -1.4
+    - -18.02
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-pastel-edition-baby-blue-0-dfd6d5c6.png
+    type: unspecified

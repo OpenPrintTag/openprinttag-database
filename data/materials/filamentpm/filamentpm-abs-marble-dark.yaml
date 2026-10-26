@@ -8,6 +8,10 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#c3ccd5ff'
+  color_lab:
+    - 81.62
+    - -1.33
+    - -5.52
 tags:
   - imitates_marble
   - filtration_recommended

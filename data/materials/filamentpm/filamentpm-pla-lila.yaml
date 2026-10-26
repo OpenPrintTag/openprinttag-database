@@ -8,6 +8,11 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#8d6e97ff'
+  color_lab:
+    - 50.74
+    - 19.98
+    - -17.59
+  color_ral: '4005'
 tags:
   - industrially_compostable
 photos:

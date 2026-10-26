@@ -1,0 +1,25 @@
+uuid: a32ef9e8-b423-53e0-9784-0b7fc2343a71
+slug: filamentpm-pla-plus-grey
+brand:
+  slug: filamentpm
+name: PLA+ Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7c878eff'
+  color_lab:
+    - 55.65
+    - -2.51
+    - -5.12
+  color_ral: '7046'
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-grey-0-0c01b4f2.png
+    type: unspecified

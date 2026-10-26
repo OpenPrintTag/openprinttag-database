@@ -1,0 +1,24 @@
+uuid: 1c3636a5-8a77-5d5f-8858-4cca3334c839
+slug: filamentpm-pla-plus-viva-magenta
+brand:
+  slug: filamentpm
+name: PLA+ Viva Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bb264dff'
+  color_lab:
+    - 41.98
+    - 59.5
+    - 15.36
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-viva-magenta-0-4d5bc15b.png
+    type: unspecified

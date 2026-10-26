@@ -1,0 +1,25 @@
+uuid: 8968905b-25e2-5adb-ab53-d5287df7a93d
+slug: filamentpm-pla-plus-pastel-edition-sweet-mint
+brand:
+  slug: filamentpm
+name: PLA+ pastel edition - Sweet Mint
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9cdbd9ff'
+  color_lab:
+    - 83.3
+    - -20.25
+    - -5.43
+  color_ral: '6027'
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-pastel-edition-sweet-mint-0-72db5100.png
+    type: unspecified

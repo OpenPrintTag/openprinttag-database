@@ -1,0 +1,25 @@
+uuid: 6f6d0daf-781c-5a85-a7fd-d6f51270c2b8
+slug: filamentpm-pla-plus-pastel-edition-banana-yellow
+brand:
+  slug: filamentpm
+name: PLA+ pastel edition - Banana Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eed484ff'
+  color_lab:
+    - 85.47
+    - -1.49
+    - 42.77
+  color_ral: '1016'
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentpm-pla-plus-pastel-edition-banana-yellow-0-8326b1cc.png
+    type: unspecified
