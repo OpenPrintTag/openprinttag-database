@@ -1,0 +1,23 @@
+uuid: ee096448-e197-506e-a594-17a02652dde6
+slug: everloop-petg-translucent-burned-amber
+brand:
+  slug: everloop
+name: PETG Translucent Burned Amber
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://www.recyclingfabrik.com/products/burned-amber-premium-petg'
+primary_color:
+  color_rgba: '#291d1cff'
+tags:
+- recycled
+- translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

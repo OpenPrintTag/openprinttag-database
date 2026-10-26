@@ -1,0 +1,22 @@
+uuid: a4cfc215-e5f9-5a5e-936a-a36e21040d5f
+slug: everloop-pla-essential-yellow
+brand:
+  slug: everloop
+name: PLA Essential Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/essential-yellow-rpla-premium'
+primary_color:
+  color_rgba: '#c98709ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

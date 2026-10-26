@@ -1,0 +1,23 @@
+uuid: '6f9e3977-e0a0-5160-a696-55bddd75a199'
+slug: everloop-pla-matte-walnut
+brand:
+  slug: everloop
+name: PLA Matte Walnut
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/matte-walnut-rpla-premium'
+primary_color:
+  color_rgba: '#a1998eff'
+tags:
+- recycled
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

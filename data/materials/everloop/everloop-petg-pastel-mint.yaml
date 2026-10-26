@@ -1,0 +1,22 @@
+uuid: '723c1bd9-815f-5117-92d3-fc89a5609920'
+slug: everloop-petg-pastel-mint
+brand:
+  slug: everloop
+name: PETG Pastel Mint
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://www.recyclingfabrik.com/products/mint-premium-petg'
+primary_color:
+  color_rgba: '#178e7fff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

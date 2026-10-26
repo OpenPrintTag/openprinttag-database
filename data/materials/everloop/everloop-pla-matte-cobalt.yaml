@@ -1,0 +1,23 @@
+uuid: '11a53eb4-1062-5ef2-b4b1-866c6c8039d8'
+slug: everloop-pla-matte-cobalt
+brand:
+  slug: everloop
+name: PLA Matte Cobalt
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/matte-cobalt-rpla-premium'
+primary_color:
+  color_rgba: '#013060ff'
+tags:
+- recycled
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24
