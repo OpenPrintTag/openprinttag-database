@@ -1,0 +1,17 @@
+uuid: b85d611b-2249-5258-a0ac-28fb743d7ec5
+slug: professional-lab-petg-matte-yellow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P219-E1
+name: PETG Matte Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260280697'
+primary_color:
+  color_rgba: '#fcc144ff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

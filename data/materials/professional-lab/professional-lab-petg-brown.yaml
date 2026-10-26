@@ -1,0 +1,19 @@
+uuid: '842da65c-676b-54d8-bce5-9578ee37d715'
+slug: professional-lab-petg-brown
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P37-E1
+name: PETG Brown
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782456185'
+primary_color:
+  color_rgba: '#734433ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

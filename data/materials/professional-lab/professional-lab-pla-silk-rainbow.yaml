@@ -1,0 +1,18 @@
+uuid: bde322c3-2cda-5784-a0c8-c336e071c577
+slug: professional-lab-pla-silk-rainbow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P109-E1
+name: PLA Silk Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-rainbow-mit-farbverlauf?variant=56695974625657'
+tags:
+- silk
+- gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

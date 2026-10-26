@@ -1,0 +1,18 @@
+uuid: '6d620f95-ee57-5f55-86d0-959e3e765201'
+slug: professional-lab-pla-silk-tri-color-storms-whisper
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P115-E1
+name: PLA Silk Tri Color Storms Whisper
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-tri-color-filament?variant=57354339189113'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

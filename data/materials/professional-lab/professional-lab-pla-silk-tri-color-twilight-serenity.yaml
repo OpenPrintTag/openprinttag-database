@@ -1,0 +1,18 @@
+uuid: e1e68d2d-4fe9-5092-a608-2972fa05ebe2
+slug: professional-lab-pla-silk-tri-color-twilight-serenity
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P114-E1
+name: PLA Silk Tri Color Twilight Serenity
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-dual-color-filament?variant=56450966552953'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60
