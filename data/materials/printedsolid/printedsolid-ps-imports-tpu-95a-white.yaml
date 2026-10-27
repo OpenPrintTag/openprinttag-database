@@ -1,0 +1,19 @@
+uuid: 95c44b66-6973-5870-aa70-db74c7c6793e
+slug: printedsolid-ps-imports-tpu-95a-white
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-white-0-38fce085.png
+    type: unspecified

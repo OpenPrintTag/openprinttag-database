@@ -1,0 +1,19 @@
+uuid: 41c428cd-031a-5389-827c-804aa3639b57
+slug: printedsolid-ps-imports-tpu-95a-silver
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Silver
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#818fa0ff'
+  color_lab:
+    - 58.83
+    - -1.27
+    - -10.67
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-silver-0-86fb5727.png
+    type: unspecified

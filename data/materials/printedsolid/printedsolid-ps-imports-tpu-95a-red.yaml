@@ -1,0 +1,19 @@
+uuid: c8b96dae-912b-5634-8b7a-0472d35984f3
+slug: printedsolid-ps-imports-tpu-95a-red
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Red
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-red-0-4508cea2.png
+    type: unspecified

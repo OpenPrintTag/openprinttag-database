@@ -1,0 +1,19 @@
+uuid: 1ea69ae4-f109-5ad4-952c-5218b199138e
+slug: printedsolid-ps-imports-tpu-95a-light-pink
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Light Pink
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffc0cbff'
+  color_lab:
+    - 83.59
+    - 24.14
+    - 3.33
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-light-pink-0-78043902.png
+    type: unspecified

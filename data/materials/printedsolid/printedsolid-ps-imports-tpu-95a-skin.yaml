@@ -1,0 +1,19 @@
+uuid: 45a64664-3b39-5d6c-9d52-512d5dd0ce8a
+slug: printedsolid-ps-imports-tpu-95a-skin
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Skin
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f3cfb2ff'
+  color_lab:
+    - 85.45
+    - 8.38
+    - 19.11
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-skin-0-418744db.png
+    type: unspecified

@@ -4,13 +4,21 @@ brand:
   slug: printedsolid
 name: Jessie Premium Elixir Nightshade
 class: FFF
-type: TPU
-abbreviation: TPU
+type: PLA
+abbreviation: PLATPU
 primary_color:
-  color_rgba: '#1f2761ff'
+  color_rgba: '#4a3c7aff'
+  color_lab:
+    - 29.64
+    - 21.94
+    - -33.39
 tags:
-- silk
+  - silk
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-elixir-nightshade/9dbf35d93ba2.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-elixir-nightshade/9dbf35d93ba2.png
+    type: unspecified
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 240
+  min_bed_temperature: 55
+  max_bed_temperature: 65

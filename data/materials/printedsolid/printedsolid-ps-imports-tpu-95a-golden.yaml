@@ -1,0 +1,19 @@
+uuid: 835fc838-3807-5b09-b754-8eb58e2c1715
+slug: printedsolid-ps-imports-tpu-95a-golden
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Golden
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#c7b768ff'
+  color_lab:
+    - 74.2
+    - -4.98
+    - 42.0
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-golden-0-c1c47450.png
+    type: unspecified

@@ -1,0 +1,21 @@
+uuid: 636e9cb6-a20c-5d53-b793-b982a67ba009
+slug: printedsolid-ps-imports-tpu-95a-transparent-green
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Transparent Green
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+tags:
+  - transparent
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-transparent-green-0-ac204a45.png
+    type: unspecified

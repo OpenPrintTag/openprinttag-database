@@ -1,0 +1,19 @@
+uuid: 3b213b97-c75e-5c8f-8094-6744369803f8
+slug: printedsolid-ps-imports-tpu-95a-black
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+    - 0.76
+    - -0.26
+    - -0.09
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-black-0-160d94f1.png
+    type: unspecified

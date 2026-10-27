@@ -1,0 +1,19 @@
+uuid: 6000d1f2-6077-54c7-a2f3-8ac429bdff47
+slug: printedsolid-ps-imports-tpu-95a-cyan-blue
+brand:
+  slug: printedsolid
+name: PS Imports TPU 95A Cyan Blue
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#01c7ffff'
+  color_lab:
+    - 74.87
+    - -21.79
+    - -38.92
+properties:
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/printedsolid-ps-imports-tpu-95a-cyan-blue-0-ba2ce4cf.png
+    type: unspecified
