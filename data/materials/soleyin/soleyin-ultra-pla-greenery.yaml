@@ -1,0 +1,17 @@
+uuid: '1a26220e-bc21-5b35-bbdd-8eefcb022f1b'
+slug: soleyin-ultra-pla-greenery
+brand:
+  slug: soleyin
+name: Ultra PLA Greenery
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://eu.store.creality.com/products/soleyin-ultra-pla-3d-printing-filament-1kg'
+primary_color:
+  color_rgba: '#98986fff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  density: 1.25

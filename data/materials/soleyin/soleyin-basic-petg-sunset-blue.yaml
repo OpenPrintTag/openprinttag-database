@@ -1,0 +1,17 @@
+uuid: '881a582e-1e5c-535b-b019-273ec5f30b06'
+slug: soleyin-basic-petg-sunset-blue
+brand:
+  slug: soleyin
+name: Basic PETG Sunset Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://store.creality.com/products/soleyin-basic-petg-3d-printing-filament-1kg-live-exclusive'
+primary_color:
+  color_rgba: '#525db2ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  density: 1.23

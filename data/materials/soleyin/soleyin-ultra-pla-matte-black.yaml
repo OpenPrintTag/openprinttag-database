@@ -1,0 +1,19 @@
+uuid: '224ecfa4-00ec-5086-8158-e2c491010d85'
+slug: soleyin-ultra-pla-matte-black
+brand:
+  slug: soleyin
+name: Ultra PLA Matte Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://eu.store.creality.com/products/soleyin-ultra-pla-3d-printing-filament-1kg'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  density: 1.25

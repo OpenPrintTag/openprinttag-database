@@ -1,0 +1,17 @@
+uuid: c3c30ae4-e5cc-5ee6-adab-b19cef2bf7d1
+slug: soleyin-ultra-pla-light-green
+brand:
+  slug: soleyin
+name: Ultra PLA Light Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://eu.store.creality.com/products/soleyin-ultra-pla-3d-printing-filament-1kg'
+primary_color:
+  color_rgba: '#84d1bfff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+  density: 1.25
