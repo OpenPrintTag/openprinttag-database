@@ -1,0 +1,16 @@
+uuid: cb4fc326-0454-5594-9129-c4a2ddc240b1
+slug: smart-print-abs-plus-yellow
+brand:
+  slug: smart-print
+name: 'ABS+ Yellow'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-yellow-zluta-1-kg/'
+primary_color:
+  color_rgba: '#fac801ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

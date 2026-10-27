@@ -1,0 +1,18 @@
+uuid: '8894dfd3-419b-5186-8e9f-1aae5d752d24'
+slug: smart-print-petg-transparent-blue
+brand:
+  slug: smart-print
+name: PETG Transparent Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-transparent-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#0b133eff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

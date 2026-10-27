@@ -1,0 +1,18 @@
+uuid: '1e34c4ce-1c4e-5cca-a868-1f9e18e9906f'
+slug: smart-print-silk-pla-white
+brand:
+  slug: smart-print
+name: Silk PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-white-bila-1-kg/'
+primary_color:
+  color_rgba: '#d6d8d3ff'
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

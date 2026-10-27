@@ -1,0 +1,18 @@
+uuid: '4ff32fbb-1780-5c8f-929d-1c68cfa17e1c'
+slug: smart-print-asa-blue
+brand:
+  slug: smart-print
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://3dstisk.com/produkt/smart-print-asa-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#025fdeff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

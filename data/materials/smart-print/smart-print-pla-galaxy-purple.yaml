@@ -1,0 +1,18 @@
+uuid: a40c5585-6c23-5192-91ef-3d7f47c55332
+slug: smart-print-pla-galaxy-purple
+brand:
+  slug: smart-print
+name: PLA Galaxy Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-galaxy-purple-fialova-1-kg/'
+primary_color:
+  color_rgba: '#73688bff'
+tags:
+- glitter
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

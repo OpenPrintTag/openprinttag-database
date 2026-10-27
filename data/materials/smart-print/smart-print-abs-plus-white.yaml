@@ -1,0 +1,16 @@
+uuid: '1b1ef3e0-268e-5c0c-b0ec-74da65727e74'
+slug: smart-print-abs-plus-white
+brand:
+  slug: smart-print
+name: 'ABS+ White'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-white-bila-1-kg/'
+primary_color:
+  color_rgba: '#d1d2cbff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

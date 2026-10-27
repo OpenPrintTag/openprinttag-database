@@ -1,0 +1,16 @@
+uuid: '40d6eac9-78e4-5715-9ca8-149973fdb08c'
+slug: smart-print-pa12-black
+brand:
+  slug: smart-print
+name: PA12 Black
+class: FFF
+type: PA12
+abbreviation: PA12
+url: 'https://3dstisk.com/produkt/smart-print-pa12-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 275
+  min_bed_temperature: 70
+  max_bed_temperature: 85

@@ -1,0 +1,16 @@
+uuid: '33f6c297-c199-5543-a8d3-d483e7313c52'
+slug: smart-print-abs-plus-black
+brand:
+  slug: smart-print
+name: 'ABS+ Black'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

@@ -1,0 +1,17 @@
+uuid: '1dcfc7fd-cb8c-5f13-8afd-68023ba7b726'
+slug: smart-print-silk-pla-rainbow
+brand:
+  slug: smart-print
+name: Silk PLA Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-rainbow-1-kg/'
+tags:
+- silk
+- gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,16 @@
+uuid: '7b8401de-2fb4-5463-b48f-3740d85e25fb'
+slug: smart-print-abs-plus-silver
+brand:
+  slug: smart-print
+name: 'ABS+ Silver'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-silver-stribrna-1-kg/'
+primary_color:
+  color_rgba: '#848f94ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

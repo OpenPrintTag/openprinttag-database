@@ -1,0 +1,17 @@
+uuid: '15676184-4a73-565f-ab45-d6ae9e46da43'
+slug: smart-print-tpu-green
+brand:
+  slug: smart-print
+name: TPU Green
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://3dstisk.com/produkt/smart-print-tpu-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#18e60cff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

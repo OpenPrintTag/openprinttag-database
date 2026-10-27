@@ -1,0 +1,16 @@
+uuid: '4edb9814-d4d6-550b-b2ac-d017c81afd59'
+slug: smart-print-pla-light-brown
+brand:
+  slug: smart-print
+name: PLA Light Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-light-brown-hneda-1-kg/'
+primary_color:
+  color_rgba: '#a27656ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

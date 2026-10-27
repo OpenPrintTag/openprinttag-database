@@ -1,0 +1,18 @@
+uuid: '27b11910-1935-52d5-a638-867ef1f7f85c'
+slug: smart-print-pla-matte-red
+brand:
+  slug: smart-print
+name: PLA Matte Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-matte-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#db182dff'
+tags:
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

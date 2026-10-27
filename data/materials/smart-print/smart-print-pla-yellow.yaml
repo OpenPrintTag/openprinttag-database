@@ -1,0 +1,16 @@
+uuid: '25e95631-ab9e-517d-b5bc-627d8207ff8f'
+slug: smart-print-pla-yellow
+brand:
+  slug: smart-print
+name: PLA Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-yellow-zluta-1-kg/'
+primary_color:
+  color_rgba: '#e7dc0cff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

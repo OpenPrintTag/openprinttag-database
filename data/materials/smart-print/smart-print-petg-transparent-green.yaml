@@ -1,0 +1,18 @@
+uuid: '033c115f-fb95-59a9-a86b-9c86044c5cdb'
+slug: smart-print-petg-transparent-green
+brand:
+  slug: smart-print
+name: PETG Transparent Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-transparent-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#2a470aff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

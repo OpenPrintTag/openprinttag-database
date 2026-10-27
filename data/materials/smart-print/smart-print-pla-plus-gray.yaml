@@ -1,0 +1,16 @@
+uuid: c78c4e4b-a70b-5e26-ba34-c69d52f88bfa
+slug: smart-print-pla-plus-gray
+brand:
+  slug: smart-print
+name: 'PLA+ Gray'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-plus-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#9fa3a5ff'
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

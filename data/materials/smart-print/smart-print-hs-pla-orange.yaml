@@ -1,0 +1,18 @@
+uuid: da3f2de7-2420-5173-9509-0ae34be38f43
+slug: smart-print-hs-pla-orange
+brand:
+  slug: smart-print
+name: HS-PLA Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-hs-pla-orange-oranzova-1-kg/'
+primary_color:
+  color_rgba: '#fc8b26ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
