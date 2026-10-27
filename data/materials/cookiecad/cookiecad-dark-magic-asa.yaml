@@ -10,9 +10,30 @@ url: https://cookiecad.com/products/asa-dark-magic-abs-filament-1-75mm-1kg?Quant
 primary_color:
   color_rgba: '#2a3940ff'
 secondary_colors:
-- color_rgba: '#62e480ff'
-- color_rgba: '#00e3e2ff'
 - color_rgba: '#c63dbaff'
+  color_lab:
+  - 50.56
+  - 67.42
+  - -37.78
+- color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
+- color_rgba: '#2a3940ff'
+  color_lab:
+  - 22.96
+  - -4.11
+  - -6.33
+- color_rgba: '#00e3e2ff'
+  color_lab:
+  - 82.07
+  - -44.33
+  - -12.46
 tags:
 - iridescent
+- filtration_recommended
 properties: {}
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-dark-magic-asa/cookiecad-dark-magic-asa-0-4b86007f.png
+  type: unspecified

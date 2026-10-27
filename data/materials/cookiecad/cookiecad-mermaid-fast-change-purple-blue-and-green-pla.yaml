@@ -1,0 +1,32 @@
+uuid: c7fee628-c776-5bcd-a447-9de1f399ef30
+slug: cookiecad-mermaid-fast-change-purple-blue-and-green-pla
+brand:
+  slug: cookiecad
+name: Mermaid Fast Change (purple, blue & green) PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#b894e2ff'
+  color_lab:
+  - 67.17
+  - 28.53
+  - -34.58
+- color_rgba: '#69ebb6ff'
+  color_lab:
+  - 84.89
+  - -48.16
+  - 15.03
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mermaid-fast-change-purple-blue-and-green-pla/cookiecad-mermaid-fast-change-purple-blue-and-green-pla-0-0ce9a39d.jpg
+  type: unspecified

@@ -1,0 +1,17 @@
+name: PLA-Green
+slug: tm3d-pla-green
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#1e8658'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: ac11ccb1-b988-5b46-bd1f-0638f8761599

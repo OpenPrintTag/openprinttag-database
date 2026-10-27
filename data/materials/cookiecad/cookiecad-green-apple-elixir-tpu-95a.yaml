@@ -9,7 +9,16 @@ abbreviation: TPU
 url: https://cookiecad.com/products/tpu-green-apple-elixir-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#70fa00ff'
+  color_lab:
+  - 87.88
+  - -70.37
+  - 84.0
 tags:
 - iridescent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-green-apple-elixir-tpu-95a/cookiecad-green-apple-elixir-tpu-95a-0-87c189f2.jpg
+  type: unspecified

@@ -9,8 +9,17 @@ abbreviation: TPU
 url: https://cookiecad.com/products/tpu-funfettitpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#e4e7e5ff'
+  color_lab:
+  - 91.37
+  - -1.36
+  - 0.62
 tags:
-- translucent
 - glitter
+- translucent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-funfetti-tpu-95a/cookiecad-funfetti-tpu-95a-0-c42fcdd0.webp
+  type: unspecified

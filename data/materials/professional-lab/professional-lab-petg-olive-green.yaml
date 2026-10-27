@@ -1,0 +1,19 @@
+uuid: '67234915-586e-51a0-ac1b-17b1ce22619e'
+slug: professional-lab-petg-olive-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P195-E1
+name: PETG Olive Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782095737'
+primary_color:
+  color_rgba: '#2a362aff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

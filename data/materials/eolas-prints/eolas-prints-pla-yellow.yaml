@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-filament-1-75-mm?variant=42329913065731
 primary_color:
   color_rgba: '#e2ff4dff'
+  color_lab:
+  - 95.26
+  - -31.34
+  - 77.3
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-yellow/eolas-prints-pla-yellow-0-d7f72f38.png
+  type: unspecified

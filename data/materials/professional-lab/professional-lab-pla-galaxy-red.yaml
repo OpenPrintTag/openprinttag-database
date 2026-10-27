@@ -1,0 +1,21 @@
+uuid: a002777e-0b70-5e04-a3d4-83c1a1cddeb4
+slug: professional-lab-pla-galaxy-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P180-E1
+name: PLA Galaxy Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-galaxy-glitzerfilament-mit-effekt?variant=56985185976697'
+primary_color:
+  color_rgba: '#79110aff'
+tags:
+- glitter
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60
+  drying_temperature: 45
+  drying_time: 240

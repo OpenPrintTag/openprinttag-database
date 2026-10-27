@@ -1,0 +1,17 @@
+uuid: a0b68003-38d0-5a15-b86a-63fa90a887dd
+slug: professional-lab-pla-basic-silver
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P67-E1
+name: PLA Basic Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-silver-1-kg/'
+primary_color:
+  color_rgba: '#787978ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,19 @@
+uuid: d225c0c4-31ae-56f4-8c4b-8f91f831cf69
+slug: professional-lab-petg-silver
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P36-E1
+name: PETG Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782423417'
+primary_color:
+  color_rgba: '#81817fff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

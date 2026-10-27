@@ -1,0 +1,17 @@
+uuid: '8e46b38f-ed7b-526b-8024-b029bfe1cae6'
+slug: professional-lab-petg-matte-dark-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P222-E1
+name: PETG Matte Dark Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260084089'
+primary_color:
+  color_rgba: '#545a35ff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

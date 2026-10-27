@@ -1,0 +1,34 @@
+uuid: 7215b01b-4df8-59a5-a30b-b003ee67ea28
+slug: cookiecad-petg-unicorn
+brand:
+  slug: cookiecad
+name: PETG Unicorn
+class: FFF
+type: PETG
+abbreviation: PETG
+secondary_colors:
+- color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-petg-unicorn/cookiecad-petg-unicorn-0-99c67b05.jpg
+  type: unspecified

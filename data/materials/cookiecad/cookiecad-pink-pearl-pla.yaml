@@ -9,9 +9,16 @@ abbreviation: PLA
 url: https://cookiecad.com/products/pink-pearl-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
 tags:
-- neon
-- silk
 - iridescent
-- industrially_compostable
-properties: {}
+- neon
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pink-pearl-pla/cookiecad-pink-pearl-pla-0-9141e6f6.jpg
+  type: unspecified

@@ -1,0 +1,32 @@
+uuid: 20542134-ad56-5647-8c21-7b2efa0dc01b
+slug: cookiecad-unicorn-fast-change-purple-blue-and-green-pla
+brand:
+  slug: cookiecad
+name: Unicorn Fast Change (purple, blue & green) PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#c63dbaff'
+  color_lab:
+  - 50.56
+  - 67.42
+  - -37.78
+- color_rgba: '#69ebb6ff'
+  color_lab:
+  - 84.89
+  - -48.16
+  - 15.03
+- color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-unicorn-fast-change-purple-blue-and-green-pla/cookiecad-unicorn-fast-change-purple-blue-and-green-pla-0-e9466f66.jpg
+  type: unspecified

@@ -1,0 +1,17 @@
+uuid: f39e4e09-2551-5c6c-b989-2c7d515dbdc4
+slug: professional-lab-pla-basic-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P61-E1
+name: PLA Basic Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-red-1-kg/'
+primary_color:
+  color_rgba: '#af0705ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

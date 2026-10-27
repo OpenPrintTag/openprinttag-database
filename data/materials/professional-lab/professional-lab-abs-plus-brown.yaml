@@ -1,0 +1,17 @@
+uuid: d0f8a8bb-f819-5ebd-810f-b2b69a38abfb
+slug: professional-lab-abs-plus-brown
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P9-E1
+name: 'ABS+ Brown'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=57354356752761'
+primary_color:
+  color_rgba: '#673d32ff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

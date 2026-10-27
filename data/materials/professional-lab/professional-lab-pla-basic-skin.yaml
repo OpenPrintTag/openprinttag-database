@@ -1,0 +1,17 @@
+uuid: '58219e23-1b1a-5a9c-8bf2-1d9d621234a9'
+slug: professional-lab-pla-basic-skin
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P69-E1
+name: PLA Basic Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-skin-1-kg/'
+primary_color:
+  color_rgba: '#f7c3a1ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

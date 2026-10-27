@@ -1,0 +1,25 @@
+uuid: 8e12e206-485c-501a-8f14-5f1a2b3b0393
+slug: eolas-prints-pla-neon-pink
+brand:
+  slug: eolas-prints
+name: PLA Neon Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff3670ff'
+  color_lab:
+  - 57.15
+  - 75.81
+  - 16.82
+tags:
+- neon
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-neon-pink/eolas-prints-pla-neon-pink-0-1a400a68.webp
+  type: unspecified

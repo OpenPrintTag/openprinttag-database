@@ -1,0 +1,17 @@
+name: PLA-Ultramarine Blue
+slug: tm3d-pla-ultramarine-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#204580'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: f2b13cc0-6ebe-5ad7-a83a-21a5c04a02e8

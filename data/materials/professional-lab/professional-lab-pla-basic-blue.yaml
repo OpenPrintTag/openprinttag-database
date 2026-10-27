@@ -1,0 +1,17 @@
+uuid: '48afdf14-406c-5153-86fe-f2bcb3290354'
+slug: professional-lab-pla-basic-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P70-E1
+name: PLA Basic Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-blue-1-kg/'
+primary_color:
+  color_rgba: '#013fa0ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,29 @@
+uuid: 13be37c9-c21c-5c05-a11f-f16c24b1cb4a
+slug: cookiecad-silk-pink-ombre-pla
+brand:
+  slug: cookiecad
+name: Silk Pink Ombré PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f09bb5ff'
+  color_lab:
+  - 73.09
+  - 35.14
+  - -0.18
+- color_rgba: '#ff5786ff'
+  color_lab:
+  - 61.48
+  - 66.81
+  - 9.95
+tags:
+- silk
+- gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-silk-pink-ombre-pla/cookiecad-silk-pink-ombre-pla-0-beb41fe9.jpg
+  type: unspecified

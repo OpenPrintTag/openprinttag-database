@@ -9,5 +9,18 @@ abbreviation: ASA
 url: https://eolasprints.com/en-cz/products/asa-filament?variant=49109314175303
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 properties:
   density: 1.07
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-asa-black/eolas-prints-asa-black-0-5042a6e0.png
+  type: unspecified

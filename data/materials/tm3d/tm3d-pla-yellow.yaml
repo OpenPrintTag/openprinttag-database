@@ -1,0 +1,17 @@
+name: PLA-Yellow
+slug: tm3d-pla-yellow
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#cc9a00'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: d594e7fe-4ea8-59d2-bcfd-5997cbf4b788

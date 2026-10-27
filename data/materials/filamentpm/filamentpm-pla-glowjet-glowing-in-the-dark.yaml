@@ -8,7 +8,15 @@ type: PLA
 abbreviation: PLA
 secondary_colors:
   - color_rgba: '#91c500ff'
+    color_lab:
+      - 73.51
+      - -39.3
+      - 73.45
   - color_rgba: '#f1e6b2ff'
+    color_lab:
+      - 91.01
+      - -4.19
+      - 26.74
 tags:
   - glow_in_the_dark
   - abrasive

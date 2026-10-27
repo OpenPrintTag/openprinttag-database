@@ -1,0 +1,22 @@
+uuid: '2a3330f8-8c32-5a1b-aee7-3f363723fce8'
+slug: everloop-petg-pastel-aqua
+brand:
+  slug: everloop
+name: PETG Pastel Aqua
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://www.recyclingfabrik.com/products/aqua-premium-petg'
+primary_color:
+  color_rgba: '#007898ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

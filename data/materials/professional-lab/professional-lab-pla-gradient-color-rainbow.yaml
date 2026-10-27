@@ -1,0 +1,17 @@
+uuid: '77adfb99-210d-5fc9-83de-03c823440541'
+slug: professional-lab-pla-gradient-color-rainbow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P74-E1
+name: PLA Gradient Color Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-gradient-color-rainbow-1-kg/'
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

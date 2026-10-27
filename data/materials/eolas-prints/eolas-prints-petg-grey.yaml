@@ -9,5 +9,16 @@ abbreviation: PETG
 url: https://eolasprints.com/en-cz/products/petg-filament?variant=42395664187651
 primary_color:
   color_rgba: '#9f9f9fff'
+  color_lab:
+  - 65.49
+  - -0.0
+  - 0.0
 properties:
   density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 245
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-petg-grey/eolas-prints-petg-grey-0-e330a183.png
+  type: unspecified

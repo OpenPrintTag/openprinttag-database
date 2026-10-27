@@ -1,0 +1,20 @@
+uuid: '529cc977-9475-5f20-a588-0170bb6eae54'
+slug: professional-lab-tpu-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P119-E1
+name: TPU White
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://filamentkontor.de/products/professional-lab-tpu?variant=56450983723385'
+primary_color:
+  color_rgba: '#ece2d2ff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 205
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 60

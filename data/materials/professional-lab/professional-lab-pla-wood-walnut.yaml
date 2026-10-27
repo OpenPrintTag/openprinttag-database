@@ -1,0 +1,21 @@
+uuid: c2b2e73c-facb-5133-a0ec-d3b602fe3c1d
+slug: professional-lab-pla-wood-walnut
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P45-E1
+name: PLA Wood Walnut
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-wood?variant=56661459796345'
+primary_color:
+  color_rgba: '#976a3cff'
+tags:
+- contains_wood
+- imitates_wood
+- abrasive
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
