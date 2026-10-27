@@ -1,0 +1,23 @@
+uuid: 044ed637-a335-5ba2-b4d1-dec83348d55d
+slug: devil-design-pla-pearl
+brand:
+  slug: devil-design
+name: PLA PEARL
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2dedbff'
+  color_lab:
+  - 88.7
+  - 0.83
+  - 1.95
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-pearl/devil-design-pla-pearl-0-89c0777d.jpg
+  type: unspecified

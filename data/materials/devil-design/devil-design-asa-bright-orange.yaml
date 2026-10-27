@@ -9,4 +9,17 @@ abbreviation: ASA
 url: https://www.smart3d.cz/en/p/filament-devil-design-asa-jasne-oranzova-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#e8bd00ff'
-properties: {}
+  color_lab:
+  - 78.2
+  - 1.53
+  - 79.98
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-asa-bright-orange/devil-design-asa-bright-orange-0-3d3cae57.png
+  type: unspecified

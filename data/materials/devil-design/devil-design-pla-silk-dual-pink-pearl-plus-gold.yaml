@@ -1,0 +1,31 @@
+uuid: 2a1a5113-5130-566d-93a9-9b1321b5a8d5
+slug: devil-design-pla-silk-dual-pink-pearl-plus-gold
+brand:
+  slug: devil-design
+name: PLA SILK DUAL PINK PEARL + GOLD
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f6c500ff'
+  color_lab:
+  - 81.58
+  - 3.43
+  - 82.98
+- color_rgba: '#e34a94ff'
+  color_lab:
+  - 55.45
+  - 65.06
+  - -7.59
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-silk-dual-pink-pearl-plus-gold/devil-design-pla-silk-dual-pink-pearl-plus-gold-0-93d2e496.png
+  type: unspecified
