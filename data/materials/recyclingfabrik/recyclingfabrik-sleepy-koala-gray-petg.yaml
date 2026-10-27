@@ -1,0 +1,22 @@
+uuid: b56e2673-cbb2-56b3-a966-046d47f95677
+slug: recyclingfabrik-sleepy-koala-gray-petg
+brand:
+  slug: recyclingfabrik
+name: Sleepy Koala (Gray) PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/schlafriger-koala-grau-petg
+primary_color:
+  color_rgba: '#524f4cff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275
