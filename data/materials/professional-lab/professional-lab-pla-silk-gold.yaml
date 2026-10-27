@@ -1,0 +1,19 @@
+uuid: '0db2d04c-0a2a-5d27-8602-20586e7f55f2'
+slug: professional-lab-pla-silk-gold
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P91-E1
+name: PLA Silk Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-silk-gold-1-kg/'
+primary_color:
+  color_rgba: '#d69c2eff'
+tags:
+- silk
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

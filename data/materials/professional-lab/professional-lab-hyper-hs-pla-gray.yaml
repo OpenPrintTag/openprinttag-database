@@ -1,0 +1,19 @@
+uuid: '5ab02ef7-2c31-5094-af03-0a07df320ba2'
+slug: professional-lab-hyper-hs-pla-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P14-E1
+name: Hyper HS-PLA Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-hyper-gray-1-kg/'
+primary_color:
+  color_rgba: '#70706dff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

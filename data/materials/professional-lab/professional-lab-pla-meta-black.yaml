@@ -1,0 +1,17 @@
+uuid: ac7689a5-28c1-5c98-9492-2f8c4aba7b12
+slug: professional-lab-pla-meta-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P81-E1
+name: PLA Meta Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-black-metallic-black-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

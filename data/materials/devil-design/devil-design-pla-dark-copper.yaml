@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-dark-copper-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#904029ff'
+  color_lab:
+  - 37.4
+  - 32.2
+  - 29.99
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-dark-copper/devil-design-pla-dark-copper-0-002f5748.png
+  type: unspecified

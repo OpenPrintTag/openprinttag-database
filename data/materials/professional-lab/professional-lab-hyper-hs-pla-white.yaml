@@ -1,0 +1,19 @@
+uuid: a8e89de5-981c-5b73-9694-72e0f2517194
+slug: professional-lab-hyper-hs-pla-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P13-E1
+name: Hyper HS-PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-hyper-white-1-kg/'
+primary_color:
+  color_rgba: '#d9d8dcff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

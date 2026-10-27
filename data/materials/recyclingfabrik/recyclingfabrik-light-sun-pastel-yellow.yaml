@@ -1,0 +1,22 @@
+uuid: 43ae3bc2-2a1e-5667-be8f-0c68af74f9b2
+slug: recyclingfabrik-light-sun-pastel-yellow
+brand:
+  slug: recyclingfabrik
+name: Light Sun (Pastel Yellow)
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/leichte-sonne-pastell-gelb-rpetg
+primary_color:
+  color_rgba: '#b7af45ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

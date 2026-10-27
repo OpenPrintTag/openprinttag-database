@@ -9,4 +9,17 @@ abbreviation: ASA
 url: https://www.smart3d.cz/en/p/filament-devil-design-asa-black-1-75-mm-0-8-kg
 primary_color:
   color_rgba: '#292824ff'
-properties: {}
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-asa-black/devil-design-asa-black-0-d6670c30.png
+  type: unspecified

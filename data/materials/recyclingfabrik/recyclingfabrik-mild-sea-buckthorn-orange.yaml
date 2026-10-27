@@ -6,6 +6,7 @@ name: Mild Sea Buckthorn (Orange)
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/milder-sanddorn-orange
 primary_color:
   color_rgba: '#f67405ff'
 tags:
@@ -14,4 +15,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/recyclingfabrik/recyclingfabrik-mild-sea-buckthorn-orange/30de6f3d793f.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

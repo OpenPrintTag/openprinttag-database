@@ -1,0 +1,17 @@
+uuid: de19fc12-6c82-5500-90e3-42418d268ef4
+slug: professional-lab-abs-plus-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P5-E1
+name: 'ABS+ Red'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=56451095822713'
+primary_color:
+  color_rgba: '#b31924ff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

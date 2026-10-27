@@ -1,0 +1,17 @@
+uuid: '7e25d4d8-c727-5262-97cd-8c977d56902b'
+slug: professional-lab-pla-olive-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P162-E1
+name: PLA Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-olive-green-1-kg/'
+primary_color:
+  color_rgba: '#2a3c22ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

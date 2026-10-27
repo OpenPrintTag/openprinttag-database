@@ -1,0 +1,27 @@
+uuid: 55708907-d209-579e-b32e-68b13f9396b7
+slug: filamentpm-pla-plus-army-edition-ranger-grey
+brand:
+  slug: filamentpm
+name: PLA+ Army edition - Ranger Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#776e64ff'
+  color_lab:
+  - 46.97
+  - 1.67
+  - 6.84
+  color_ral: '7039'
+tags:
+- matte
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-plus-army-edition-ranger-grey/filamentpm-pla-plus-army-edition-ranger-grey-0-75705d7f.png
+  type: unspecified

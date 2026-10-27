@@ -1,0 +1,21 @@
+uuid: 057aa1f9-1ada-50f7-a748-8e9dabfa61ec
+slug: recyclingfabrik-special-rainbow-petg
+brand:
+  slug: recyclingfabrik
+name: Special Rainbow PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/speziale-rainbow-rpetg
+tags:
+- recycled
+- gradual_color_change
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

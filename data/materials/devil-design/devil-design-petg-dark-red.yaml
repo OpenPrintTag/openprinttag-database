@@ -9,4 +9,11 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-dark-red-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#cc393fff'
+  color_lab:
+  - 47.14
+  - 57.6
+  - 31.19
 properties: {}
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-dark-red/devil-design-petg-dark-red-0-b374dc1d.png
+  type: unspecified

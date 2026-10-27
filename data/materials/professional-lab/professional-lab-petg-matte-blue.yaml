@@ -1,0 +1,17 @@
+uuid: '265f52cb-5c16-59c8-9fc5-b3773ab5bbd7'
+slug: professional-lab-petg-matte-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P217-E1
+name: PETG Matte Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260215161'
+primary_color:
+  color_rgba: '#26293cff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

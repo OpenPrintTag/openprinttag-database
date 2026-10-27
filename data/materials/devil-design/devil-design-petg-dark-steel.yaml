@@ -9,4 +9,11 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-tmava-ocel-1-75-mm-0-33-kg#
 primary_color:
   color_rgba: '#2a3940ff'
+  color_lab:
+  - 22.96
+  - -4.11
+  - -6.33
 properties: {}
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-dark-steel/devil-design-petg-dark-steel-0-da9f1383.png
+  type: unspecified

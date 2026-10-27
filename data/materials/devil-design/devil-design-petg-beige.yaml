@@ -7,4 +7,18 @@ class: FFF
 type: PETG
 abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-bezova-1-75-mm-1-kg#
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+primary_color:
+  color_rgba: '#d4b6a3ff'
+  color_lab:
+  - 76.13
+  - 7.83
+  - 13.66
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-beige/devil-design-petg-beige-0-ebfa5759.png
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: ee4c3d83-c2b1-5ac1-ae48-1e15e8cef651
+slug: recyclingfabrik-sharp-teeth-natural
+brand:
+  slug: recyclingfabrik
+name: Sharp Teeth (Natural)
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/milchiges-glas-transparent-kopie
+primary_color:
+  color_rgba: '#c2bfaeff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

@@ -8,6 +8,10 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#6b665cff'
+  color_lab:
+    - 43.36
+    - 0.06
+    - 6.36
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-metalic-edition-froggy-gold/dc0147593b64.png
     type: unspecified

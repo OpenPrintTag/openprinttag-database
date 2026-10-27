@@ -8,9 +8,18 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#c00000ff'
+  color_lab:
+    - 39.93
+    - 64.7
+    - 54.29
 tags:
   - filtration_recommended
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-abs-scarlet-stardust/e73e27594d03.png
     type: unspecified
-properties: {}
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
