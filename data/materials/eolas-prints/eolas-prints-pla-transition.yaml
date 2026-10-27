@@ -11,3 +11,10 @@ tags:
 - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-transition/eolas-prints-pla-transition-0-7ca72c6f.png
+  type: unspecified

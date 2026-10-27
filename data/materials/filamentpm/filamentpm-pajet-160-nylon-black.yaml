@@ -1,0 +1,26 @@
+uuid: 7cfe5a06-ba12-5cd0-b682-6fbbb1ee8e70
+slug: filamentpm-pajet-160-nylon-black
+brand:
+  slug: filamentpm
+name: PAJet 160 Nylon - Black
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#3f4444ff'
+  color_lab:
+  - 28.4
+  - -2.06
+  - -0.71
+  color_ral: '9011'
+tags:
+- filtration_recommended
+properties:
+  density: 1.01
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 110
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-pajet-160-nylon-black/filamentpm-pajet-160-nylon-black-0-2df9d71b.jpg
+  type: unspecified

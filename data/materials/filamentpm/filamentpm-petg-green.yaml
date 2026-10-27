@@ -8,6 +8,11 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#007864ff'
+  color_lab:
+    - 44.73
+    - -33.75
+    - 2.94
+  color_ral: '6024'
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-green/fdf146b4bf6d.png
     type: unspecified

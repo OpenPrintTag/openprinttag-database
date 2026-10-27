@@ -8,7 +8,19 @@ type: PLA
 abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-zlata-1-75-mm-1-kg#
 primary_color:
-  color_rgba: '#ce8d00ff'
+  color_rgba: '#f4ac23ff'
+  color_lab:
+  - 75.37
+  - 16.08
+  - 72.85
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-gold/devil-design-pla-gold-0-86ff8054.png
+  type: unspecified

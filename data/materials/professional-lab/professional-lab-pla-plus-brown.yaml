@@ -1,0 +1,17 @@
+uuid: a8720d2c-0fa0-5abb-af4d-4500d96a37c5
+slug: professional-lab-pla-plus-brown
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P53-E1
+name: 'PLA+ Brown'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-brown-1-kg/'
+primary_color:
+  color_rgba: '#7f5039ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

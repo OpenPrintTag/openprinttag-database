@@ -1,0 +1,19 @@
+uuid: '0a3a2773-f3cb-5a59-874f-1b87ccb1f537'
+slug: professional-lab-petg-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P29-E1
+name: PETG Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782128505'
+primary_color:
+  color_rgba: '#04368bff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

@@ -8,6 +8,10 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#d6c9caff'
+  color_lab:
+    - 82.02
+    - 4.69
+    - 1.13
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-asa-natur/da6fe497a795.png
     type: unspecified

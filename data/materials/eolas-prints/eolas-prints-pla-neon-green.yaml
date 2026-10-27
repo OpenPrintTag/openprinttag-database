@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-neon-filament?variant=51546064585031
 primary_color:
   color_rgba: '#91db01ff'
+  color_lab:
+  - 80.0
+  - -48.67
+  - 78.34
 tags:
 - neon
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-neon-green/eolas-prints-pla-neon-green-0-83baa30d.png
+  type: unspecified

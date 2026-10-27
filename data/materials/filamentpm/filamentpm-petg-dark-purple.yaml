@@ -8,6 +8,11 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#4b3048ff'
+  color_lab:
+    - 23.93
+    - 16.84
+    - -9.91
+  color_ral: '4007'
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-dark-purple/d05827af2c1b.png
     type: unspecified

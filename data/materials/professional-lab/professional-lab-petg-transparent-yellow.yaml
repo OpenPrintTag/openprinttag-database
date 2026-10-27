@@ -1,0 +1,21 @@
+uuid: '4961752c-fae7-5ab2-9b99-c3859d5582c2'
+slug: professional-lab-petg-transparent-yellow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P201-E1
+name: PETG Transparent Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/en/product/prof-lab-petg-transparent-yellow-transparent-yellow-1-kg/'
+primary_color:
+  color_rgba: '#7d5c0aff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

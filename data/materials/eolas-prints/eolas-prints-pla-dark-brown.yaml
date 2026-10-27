@@ -1,0 +1,23 @@
+uuid: bd3dd867-f0ca-54da-aa73-9696a947c77d
+slug: eolas-prints-pla-dark-brown
+brand:
+  slug: eolas-prints
+name: PLA Dark Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#785f53ff'
+  color_lab:
+  - 42.46
+  - 8.23
+  - 10.72
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-dark-brown/eolas-prints-pla-dark-brown-0-93b3d2b4.webp
+  type: unspecified

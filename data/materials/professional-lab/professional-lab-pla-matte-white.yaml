@@ -1,0 +1,19 @@
+uuid: '5dde5fcf-53d1-5594-a112-39e6c8abc592'
+slug: professional-lab-pla-matte-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P22-E1
+name: PLA Matte White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-matte?variant=56852805812601'
+primary_color:
+  color_rgba: '#e8e6ddff'
+tags:
+- matte
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

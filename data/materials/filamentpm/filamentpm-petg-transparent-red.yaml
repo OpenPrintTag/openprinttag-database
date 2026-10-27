@@ -8,6 +8,10 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#932721ff'
+  color_lab:
+    - 33.49
+    - 44.52
+    - 30.44
 tags:
   - translucent
 photos:
