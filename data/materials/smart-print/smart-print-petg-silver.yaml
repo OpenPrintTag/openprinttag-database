@@ -1,0 +1,16 @@
+uuid: '73a9039b-c092-5f1c-854e-739962d5802e'
+slug: smart-print-petg-silver
+brand:
+  slug: smart-print
+name: PETG Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-silver-stribrna-1-kg/'
+primary_color:
+  color_rgba: '#858a8aff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

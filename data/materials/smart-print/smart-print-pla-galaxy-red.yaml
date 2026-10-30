@@ -1,0 +1,18 @@
+uuid: '085bbd55-5c9d-547b-b02c-48c0f5266338'
+slug: smart-print-pla-galaxy-red
+brand:
+  slug: smart-print
+name: PLA Galaxy Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-galaxy-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#420b06ff'
+tags:
+- glitter
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

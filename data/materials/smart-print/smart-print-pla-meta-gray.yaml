@@ -1,0 +1,16 @@
+uuid: c6a2ed25-1d10-5e28-8365-94ada196082d
+slug: smart-print-pla-meta-gray
+brand:
+  slug: smart-print
+name: PLA Meta Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-meta-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#aaaeafff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

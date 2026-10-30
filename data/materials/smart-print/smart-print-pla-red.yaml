@@ -1,0 +1,16 @@
+uuid: e8755d91-ec56-5df6-8c6e-54add8cbe966
+slug: smart-print-pla-red
+brand:
+  slug: smart-print
+name: PLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#e0080cff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

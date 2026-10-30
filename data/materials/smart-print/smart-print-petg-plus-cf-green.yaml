@@ -1,0 +1,19 @@
+uuid: da0a2cd6-311d-56c6-9bcb-377e54fa40f0
+slug: smart-print-petg-plus-cf-green
+brand:
+  slug: smart-print
+name: 'PETG + CF Green'
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-plus-cf-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#4e9294ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 90

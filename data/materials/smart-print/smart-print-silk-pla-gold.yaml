@@ -1,0 +1,18 @@
+uuid: '370287df-ca9d-5c15-a3e3-338d62750fd5'
+slug: smart-print-silk-pla-gold
+brand:
+  slug: smart-print
+name: Silk PLA Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-gold-zlata-1-kg/'
+primary_color:
+  color_rgba: '#dfb236ff'
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

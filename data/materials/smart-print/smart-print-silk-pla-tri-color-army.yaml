@@ -1,0 +1,17 @@
+uuid: '413d5dec-f7ca-59d7-9f49-969a7c6c6345'
+slug: smart-print-silk-pla-tri-color-army
+brand:
+  slug: smart-print
+name: Silk PLA Tri Color Army
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-tri-color-army-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

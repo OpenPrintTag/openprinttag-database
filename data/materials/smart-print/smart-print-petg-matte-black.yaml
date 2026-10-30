@@ -1,0 +1,16 @@
+uuid: df1fe7dc-0fae-5ac9-bd7a-c52aa959e971
+slug: smart-print-petg-matte-black
+brand:
+  slug: smart-print
+name: PETG Matte Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-matte-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- matte
+properties:
+  min_bed_temperature: 75
+  max_bed_temperature: 85

@@ -1,0 +1,18 @@
+uuid: '551ee1ae-6706-5232-811b-a954c77a0bde'
+slug: smart-print-petg-transparent-yellow
+brand:
+  slug: smart-print
+name: PETG Transparent Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-transparent-yellow-zluta-1-kg/'
+primary_color:
+  color_rgba: '#846005ff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

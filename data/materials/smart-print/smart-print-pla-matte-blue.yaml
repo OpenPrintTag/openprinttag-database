@@ -1,0 +1,18 @@
+uuid: d400945e-4511-5281-9d28-7635dce804f3
+slug: smart-print-pla-matte-blue
+brand:
+  slug: smart-print
+name: PLA Matte Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-matte-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#41546bff'
+tags:
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

@@ -1,0 +1,19 @@
+uuid: d812a316-3100-59a6-b37c-3a9693fa3a53
+slug: smart-print-petg-plus-cf-gray
+brand:
+  slug: smart-print
+name: 'PETG + CF Gray'
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-plus-cf-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#696d70ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 90

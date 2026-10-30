@@ -1,0 +1,16 @@
+uuid: '0a03b92f-fac6-5c0c-a5e1-9e3b64c79565'
+slug: smart-print-petg-matte-white
+brand:
+  slug: smart-print
+name: PETG Matte White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-matte-white-bila-1-kg/'
+primary_color:
+  color_rgba: '#f8f4e8ff'
+tags:
+- matte
+properties:
+  min_bed_temperature: 75
+  max_bed_temperature: 85

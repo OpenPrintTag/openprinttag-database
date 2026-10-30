@@ -1,0 +1,16 @@
+uuid: '4a3afb15-0a61-5d39-a0b6-9ab98b39c173'
+slug: smart-print-abs-plus-gray
+brand:
+  slug: smart-print
+name: 'ABS+ Gray'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#7f8689ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

@@ -1,0 +1,18 @@
+uuid: '3ee7dd6a-fbb0-5928-b169-08db40b93b5a'
+slug: smart-print-asa-red
+brand:
+  slug: smart-print
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://3dstisk.com/produkt/smart-print-asa-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#f50930ff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

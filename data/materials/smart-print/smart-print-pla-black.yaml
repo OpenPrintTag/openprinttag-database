@@ -1,0 +1,16 @@
+uuid: b8786ab6-1584-56a0-85f3-5da19edf4ecc
+slug: smart-print-pla-black
+brand:
+  slug: smart-print
+name: PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

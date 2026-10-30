@@ -1,0 +1,16 @@
+uuid: e438ebdc-858a-5ca3-bc50-cea1439fe392
+slug: smart-print-pla-meta-white
+brand:
+  slug: smart-print
+name: PLA Meta White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-meta-white-bila-1-kg/'
+primary_color:
+  color_rgba: '#d8dad7ff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

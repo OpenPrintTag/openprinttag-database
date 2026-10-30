@@ -1,0 +1,17 @@
+uuid: '319b1ec0-8e40-56f6-93bd-cd685cbe14bb'
+slug: smart-print-tpu-yellow
+brand:
+  slug: smart-print
+name: TPU Yellow
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://3dstisk.com/produkt/smart-print-tpu-yellow-zluta-1-kg/'
+primary_color:
+  color_rgba: '#c4e303ff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

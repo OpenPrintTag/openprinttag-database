@@ -1,0 +1,18 @@
+uuid: ca180a32-4445-5b62-bb07-a66942bdfcfb
+slug: smart-print-pla-luminous-blue
+brand:
+  slug: smart-print
+name: PLA Luminous Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-luminous-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#c3e4feff'
+tags:
+- glow_in_the_dark
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

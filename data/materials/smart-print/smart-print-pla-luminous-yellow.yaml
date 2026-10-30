@@ -1,0 +1,18 @@
+uuid: '3ce1d7f4-3118-593b-b097-9e8d6c7d9348'
+slug: smart-print-pla-luminous-yellow
+brand:
+  slug: smart-print
+name: PLA Luminous Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-luminous-yellow-zluta-1-kg/'
+primary_color:
+  color_rgba: '#fed49fff'
+tags:
+- glow_in_the_dark
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70

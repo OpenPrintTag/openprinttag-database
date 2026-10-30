@@ -1,0 +1,16 @@
+uuid: af36f8ce-6338-5df8-85a1-8a2871cd27e8
+slug: smart-print-pla-meta-blue
+brand:
+  slug: smart-print
+name: PLA Meta Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-meta-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#0265d5ff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

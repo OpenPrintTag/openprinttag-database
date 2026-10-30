@@ -1,0 +1,17 @@
+uuid: '2724d099-58d7-5e8f-8033-3284d3b351a0'
+slug: smart-print-tpu-black
+brand:
+  slug: smart-print
+name: TPU Black
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://3dstisk.com/produkt/smart-print-tpu-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

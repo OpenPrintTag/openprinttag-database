@@ -1,0 +1,18 @@
+uuid: '8650ac3d-f380-5466-98a0-5d4961ced203'
+slug: smart-print-hs-pla-gray
+brand:
+  slug: smart-print
+name: HS-PLA Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-hs-pla-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#7a8082ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
