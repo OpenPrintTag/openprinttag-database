@@ -8,11 +8,16 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- contains_carbon_fiber
-- abrasive
-- filtration_recommended
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-abs-special-series-carbon-fiber/9320869da6c3.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-abs-special-series-carbon-fiber/9320869da6c3.png
+    type: unspecified
 properties: {}
