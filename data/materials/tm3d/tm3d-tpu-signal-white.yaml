@@ -1,0 +1,20 @@
+name: TPU - Signal White
+slug: tm3d-tpu-signal-white
+brand:
+  slug: tm3d
+class: FFF
+type: TPU
+abbreviation: TPU
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e6e5ea'
+photos:
+- url: /tmp/assets/tm3d/tpu-signal-white/tpu-white-175mm-05kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.17
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 6d8f1585-1c74-5f9d-9856-9126a4aaf779

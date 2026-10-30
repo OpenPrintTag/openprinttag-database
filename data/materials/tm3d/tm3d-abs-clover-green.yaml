@@ -1,0 +1,23 @@
+name: ABS - Clover Green
+slug: tm3d-abs-clover-green
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#086c43'
+photos:
+- url: /tmp/assets/tm3d/abs-clover-green/abs-clover-green-2026-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: d3722913-9e20-5448-a8b5-57288a3b334a

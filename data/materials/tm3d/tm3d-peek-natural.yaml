@@ -1,0 +1,22 @@
+name: PEEK - Natural
+slug: tm3d-peek-natural
+brand:
+  slug: tm3d
+class: FFF
+type: PEEK
+abbreviation: PEEK
+tags:
+- without_pigments
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#afa07e'
+photos:
+- url: /tmp/assets/tm3d/peek-natural/peek-natural-175mm-05kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 360
+  max_print_temperature: 400
+  max_bed_temperature: 150
+uuid: 0dd8c3d0-e76c-5262-9e85-052c0e7ff3e2

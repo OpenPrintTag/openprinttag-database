@@ -1,0 +1,22 @@
+name: PETG - Transparent Yellow
+slug: tm3d-petg-transparent-yellow
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- transparent
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#a0ad18'
+photos:
+- url: /tmp/assets/tm3d/petg-transparent-yellow/petg-transparent-yellow-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 368952d4-1ab5-5309-a8fe-3532b0bf93d0

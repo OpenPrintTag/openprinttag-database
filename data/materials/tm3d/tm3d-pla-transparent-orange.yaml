@@ -1,0 +1,23 @@
+name: PLA Transparent - Orange
+slug: tm3d-pla-transparent-orange
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- transparent
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#ce5924'
+photos:
+- url: /tmp/assets/tm3d/pla-transparent-orange/pla-transparent-orange-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: d3ceb762-13c5-5c70-88cf-186181f65e18

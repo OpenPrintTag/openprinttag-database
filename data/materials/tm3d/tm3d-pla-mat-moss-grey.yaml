@@ -1,0 +1,23 @@
+name: PLA Mat - Moss Grey
+slug: tm3d-pla-mat-moss-grey
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#585649'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-moss-grey/pla-matt-moss-grey-175mm-1kg-tm3d-filament7faaa794-3113-423c-a6f7-9d223e994806.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 7012c28a-4376-5b50-bcdc-fae7a2d49b53

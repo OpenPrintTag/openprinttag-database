@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#84679c'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: 9e904357-bbfb-5c24-bb94-d601bd2386ae
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-purple/pla-purple-175mm-1kg-tm3d-filament.webp
+  type: unspecified

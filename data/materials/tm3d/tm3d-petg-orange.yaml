@@ -1,0 +1,20 @@
+name: PETG - Orange
+slug: tm3d-petg-orange
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e1642f'
+photos:
+- url: /tmp/assets/tm3d/petg-orange/petg-orange-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: c781bdba-4249-56df-9e63-e733feba26fa

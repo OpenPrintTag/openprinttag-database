@@ -1,0 +1,23 @@
+name: PLA Silk+ Blue
+slug: tm3d-pla-silk-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#005b8d'
+photos:
+- url: /tmp/assets/tm3d/pla-silk-blue/plasilkbluevaas1.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 4218a8b7-2f7e-5074-9fd7-1173a322792b

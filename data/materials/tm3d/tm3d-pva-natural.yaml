@@ -1,0 +1,23 @@
+name: PVA - Natural
+slug: tm3d-pva-natural
+brand:
+  slug: tm3d
+class: FFF
+type: PVA
+abbreviation: PVA
+tags:
+- without_pigments
+- water_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#afa07e'
+photos:
+- url: /tmp/assets/tm3d/pva-natural/pvanatural175mmtm3dfilament.webp
+  type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 215
+  max_bed_temperature: 50
+uuid: 97c999e7-5cf8-5404-962d-bc7a8446357f

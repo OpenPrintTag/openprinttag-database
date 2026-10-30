@@ -1,0 +1,23 @@
+name: PLA Transparent - Black
+slug: tm3d-pla-transparent-black
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- transparent
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#313132'
+photos:
+- url: /tmp/assets/tm3d/pla-transparent-black/pla-transparent-black-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 1cd1be7a-ec9f-5400-be6f-30815dba97af

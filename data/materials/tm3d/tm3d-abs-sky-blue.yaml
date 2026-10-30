@@ -1,0 +1,23 @@
+name: ABS - Sky Blue
+slug: tm3d-abs-sky-blue
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#0085b3'
+photos:
+- url: /tmp/assets/tm3d/abs-sky-blue/absskyblue175mm3dfilamenttm3dfilament.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: 267c9974-5728-5973-b8ff-0047b44d357b

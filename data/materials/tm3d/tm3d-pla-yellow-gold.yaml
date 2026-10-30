@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#dd9e26'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: bbe0c7aa-4286-5b8d-8657-66e2446e4a72
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-yellow-gold/pla-yellow-gold-175mm-1kg-tm3d-filament.webp
+  type: unspecified

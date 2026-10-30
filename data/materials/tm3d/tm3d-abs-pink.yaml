@@ -1,0 +1,23 @@
+name: ABS - Pink
+slug: tm3d-abs-pink
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#bb4c7c'
+photos:
+- url: /tmp/assets/tm3d/abs-pink/abs-pink-175mm-1kg-tm3d-filament2026.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: f0274007-586c-5aa9-8ca2-ebe36c6cc8bb

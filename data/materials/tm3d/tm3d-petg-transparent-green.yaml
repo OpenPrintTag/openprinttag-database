@@ -1,0 +1,22 @@
+name: PETG - Transparent Green
+slug: tm3d-petg-transparent-green
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- transparent
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#679c58'
+photos:
+- url: /tmp/assets/tm3d/petg-transparent-green/petg-transparent-green-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: ce545194-efd5-50fe-954b-84b3f7a517e7

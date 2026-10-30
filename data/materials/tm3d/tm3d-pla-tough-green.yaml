@@ -1,0 +1,22 @@
+name: PLA Tough - Green
+slug: tm3d-pla-tough-green
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- blend
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#1e8658'
+photos:
+- url: /tmp/assets/tm3d/pla-tough-green/pla-tough-traffic-green-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
+uuid: bf751f6c-807b-507f-ac98-1abce515fea7

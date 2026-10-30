@@ -1,0 +1,23 @@
+name: ABS - Yellow Gold
+slug: tm3d-abs-yellow-gold
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#dd9e26'
+photos:
+- url: /tmp/assets/tm3d/abs-yellow-gold/abs-yellow-gold-175mm-1kg-tm3d-filament2026.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: fab39369-127a-5858-a5ab-0e7d1f0a7060

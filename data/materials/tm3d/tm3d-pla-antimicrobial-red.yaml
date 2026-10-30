@@ -1,0 +1,23 @@
+name: PLA Antimicrobial - Red
+slug: tm3d-pla-antimicrobial-red
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- antibacterial
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#b7231e'
+photos:
+- url: /tmp/assets/tm3d/pla-antimicrobial-red/img4851.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 99534613-5a5a-5582-8bf1-ee75f62968f2

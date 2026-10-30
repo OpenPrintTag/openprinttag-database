@@ -1,0 +1,20 @@
+name: PETG - Sky Blue
+slug: tm3d-petg-sky-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#0099c4'
+photos:
+- url: /tmp/assets/tm3d/petg-sky-blue/petg-sky-blue-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 83d92453-b8cf-5b66-958f-dc75a007ea2b

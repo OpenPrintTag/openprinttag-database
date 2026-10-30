@@ -1,0 +1,23 @@
+name: ABS - Ultra Green
+slug: tm3d-abs-ultra-green
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#7db848'
+photos:
+- url: /tmp/assets/tm3d/abs-ultra-green/abs-ultra-green-2026-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: 5ef98e11-23b9-5deb-8d48-eb1018f0ce6b

@@ -1,0 +1,20 @@
+name: PETG - Violet
+slug: tm3d-petg-violet
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#6f508a'
+photos:
+- url: /tmp/assets/tm3d/petg-violet/petg-violet-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: ed0be6a8-0f68-5f15-a2c3-2f265d90d48c

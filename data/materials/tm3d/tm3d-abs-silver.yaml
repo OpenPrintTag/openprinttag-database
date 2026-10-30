@@ -1,0 +1,23 @@
+name: ABS - Silver
+slug: tm3d-abs-silver
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#8b8c93'
+photos:
+- url: /tmp/assets/tm3d/abs-silver/abssilver175mmtm3dfilament.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: 9d69ab4d-5e3f-5354-b494-6f2dc4772b66

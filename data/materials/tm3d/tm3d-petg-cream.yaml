@@ -1,0 +1,20 @@
+name: PETG - Cream
+slug: tm3d-petg-cream
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e3ded2'
+photos:
+- url: /tmp/assets/tm3d/petg-cream/pla-cream-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 1f56cb43-afe8-52aa-af89-f0772cbafc7a

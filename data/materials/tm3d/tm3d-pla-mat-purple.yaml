@@ -1,0 +1,23 @@
+name: PLA Mat - Purple
+slug: tm3d-pla-mat-purple
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#84679c'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-purple/pla-matt-purple-175mm-1kg-tm3d-filament9afe327d-454e-4055-95e1-73297b4d336c.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: efee937f-0186-5d07-9ca6-94d2aa549ad2

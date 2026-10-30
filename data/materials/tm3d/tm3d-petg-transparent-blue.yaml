@@ -1,0 +1,22 @@
+name: PETG - Transparent Blue
+slug: tm3d-petg-transparent-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- transparent
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#4f74a4'
+photos:
+- url: /tmp/assets/tm3d/petg-transparent-blue/petg-transparent-blue-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 181b912f-aec0-58e2-8d3b-cca0ff135cbd

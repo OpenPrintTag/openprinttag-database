@@ -1,0 +1,23 @@
+name: PLA Antimicrobial - Grey
+slug: tm3d-pla-antimicrobial-grey
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- antibacterial
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#5d5d5c'
+photos:
+- url: /tmp/assets/tm3d/pla-antimicrobial-grey/img4855.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 0053fa18-07bd-561e-865c-b116ff6879d5

@@ -1,0 +1,23 @@
+name: PLA Mat - Jade Green
+slug: tm3d-pla-mat-jade-green
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#88aea8'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-jade-green/pla-matt-pastel-turqouise-175mm-1kg-tm3d-filament9fc21a2e-3d81-4f8d-921d-c6f9069f2b94.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 0f25eb9f-fe06-57c9-9b19-178ebcb9feb6

@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#204580'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: f2b13cc0-6ebe-5ad7-a83a-21a5c04a02e8
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-ultramarine-blue/pla-ultramarine-blue-175mm-2026-1kg-tm3d-filament.webp
+  type: unspecified

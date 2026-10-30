@@ -1,0 +1,20 @@
+name: PETG - White
+slug: tm3d-petg-white
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#dfdee9'
+photos:
+- url: /tmp/assets/tm3d/petg-white/petg-white-175mm-1kg-2026-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 7a4b5a3e-1811-54db-a285-f6953086b25a

@@ -1,0 +1,23 @@
+name: PLA Silk+ Yellow
+slug: tm3d-pla-silk-yellow
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#cc9a00'
+photos:
+- url: /tmp/assets/tm3d/pla-silk-yellow/plasilkyellowvaas18a11ddee-b6ca-46ca-9f44-0380d80b829c.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 53b39f7b-440d-577c-a013-77ae760b648e

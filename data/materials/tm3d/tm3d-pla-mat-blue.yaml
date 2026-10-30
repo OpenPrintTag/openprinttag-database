@@ -1,0 +1,23 @@
+name: PLA Mat - Blue
+slug: tm3d-pla-mat-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#005b8d'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-blue/pla-matt-blue-175mm-1kg-tm3d-filamente1b2c32e-dd19-4817-bedb-d3705583a933.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: e9588300-6042-5dc1-a261-bfef3a76e58d

@@ -1,0 +1,23 @@
+name: PLA Mat - Chocolate Brown
+slug: tm3d-pla-mat-chocolate-brown
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#543f33'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-chocolate-brown/pla-matt-chocolate-brown-175mm-1kg-tm3d-filamentc7eac98d-42ae-45cd-9b6c-7ed0a343abc9.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: c169de58-0896-5522-8edc-5946a1605791

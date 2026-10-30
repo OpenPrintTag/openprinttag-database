@@ -1,0 +1,23 @@
+name: HIPS - White
+slug: tm3d-hips-white
+brand:
+  slug: tm3d
+class: FFF
+type: HIPS
+abbreviation: HIPS
+tags:
+- filtration_recommended
+- limonene_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e6e5ea'
+photos:
+- url: /tmp/assets/tm3d/hips-white/hips-white-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 245
+  max_bed_temperature: 115
+uuid: bd4a6bef-f094-5d91-a2f2-77e7e99d49a7

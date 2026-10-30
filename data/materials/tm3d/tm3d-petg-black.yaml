@@ -1,0 +1,20 @@
+name: PETG - Black
+slug: tm3d-petg-black
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#3e3e3f'
+photos:
+- url: /tmp/assets/tm3d/petg-black/petg-traffic-black-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: a56e5857-bf82-5c61-9771-986b0c37637d

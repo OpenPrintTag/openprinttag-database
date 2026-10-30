@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#775640'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: 1e335616-c593-549e-bf33-4a64f8482757
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-bronze/pla-bronze-175mm-1kg-tm3d-filament-2026.webp
+  type: unspecified

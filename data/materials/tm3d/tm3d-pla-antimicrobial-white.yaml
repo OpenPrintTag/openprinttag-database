@@ -1,0 +1,23 @@
+name: PLA Antimicrobial - White
+slug: tm3d-pla-antimicrobial-white
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- antibacterial
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e6e5ea'
+photos:
+- url: /tmp/assets/tm3d/pla-antimicrobial-white/img4854.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: aabfb974-87b0-5062-8e58-2a29e6e75bce

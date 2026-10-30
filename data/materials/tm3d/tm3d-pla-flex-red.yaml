@@ -1,0 +1,22 @@
+name: PLA FLEX - Red
+slug: tm3d-pla-flex-red
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#a13a2e'
+photos:
+- url: /tmp/assets/tm3d/pla-flex-red/pla-flex-red-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 8832e2f8-69e2-52b3-bf70-6708a18da3cd

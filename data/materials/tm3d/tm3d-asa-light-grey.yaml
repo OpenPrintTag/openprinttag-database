@@ -1,0 +1,22 @@
+name: ASA - Light Grey
+slug: tm3d-asa-light-grey
+brand:
+  slug: tm3d
+class: FFF
+type: ASA
+abbreviation: ASA
+tags:
+- filtration_recommended
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#c3c4c1'
+photos:
+- url: /tmp/assets/tm3d/asa-light-grey/asalightgrey175mm1kg3dfilamenttm3dfilament.webp
+  type: unspecified
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 280
+  max_bed_temperature: 100
+uuid: 7821e673-b637-5ca9-ab99-256ac1643de7

@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#575043'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: d57013da-233e-5d0d-9120-43d6782d81ef
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-brown-grey/pla-browngrey-175mm-color-1kg-tm3d-filament.webp
+  type: unspecified

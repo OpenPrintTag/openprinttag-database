@@ -1,0 +1,20 @@
+name: PETG - Light Blue
+slug: tm3d-petg-light-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#52b2c3'
+photos:
+- url: /tmp/assets/tm3d/petg-light-blue/lightblue2.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 0edf3afb-93b3-52be-b007-e589d8c57c28

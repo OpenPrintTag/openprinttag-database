@@ -1,0 +1,20 @@
+name: PETG - Light Grey
+slug: tm3d-petg-light-grey
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#c3c4c1'
+photos:
+- url: /tmp/assets/tm3d/petg-light-grey/petg-light-grey-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: d0e7b99b-2b8c-5de1-b98a-7a6fe6e4dc1b

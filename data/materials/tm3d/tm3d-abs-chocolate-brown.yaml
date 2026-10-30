@@ -1,0 +1,23 @@
+name: ABS - Chocolate Brown
+slug: tm3d-abs-chocolate-brown
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#543f33'
+photos:
+- url: /tmp/assets/tm3d/abs-chocolate-brown/abs-chocolate-brown-175mm-1kg-tm3d-filament2026.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: 398485ea-9a90-550a-9779-64ab3b0f370a

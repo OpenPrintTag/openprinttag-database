@@ -1,0 +1,23 @@
+name: PLA Silk+ Gold
+slug: tm3d-pla-silk-gold
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- industrially_compostable
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#dd9e26'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 2198b3b7-1850-5de6-a756-452c022c3fa8
+photos:
+- url: /tmp/assets/tm3d/pla-silk-gold/plasilkgoldvaas1.webp
+  type: unspecified

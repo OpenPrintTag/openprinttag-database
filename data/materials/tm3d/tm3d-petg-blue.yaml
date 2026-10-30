@@ -1,0 +1,20 @@
+name: PETG - Blue
+slug: tm3d-petg-blue
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#006793'
+photos:
+- url: /tmp/assets/tm3d/petg-blue/blue26d42da6f-44e9-4560-a232-86068a9434ed.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 227abbad-fe3c-53b2-a659-22164504f7aa

@@ -1,0 +1,23 @@
+name: Polycarbonaat (PC) - Natural
+slug: tm3d-polycarbonaat-pc-natural
+brand:
+  slug: tm3d
+class: FFF
+type: PC
+abbreviation: PC
+tags:
+- transparent
+- without_pigments
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e6e5ea'
+properties:
+  density: 1.2
+  min_print_temperature: 260
+  max_print_temperature: 290
+  max_bed_temperature: 120
+photos:
+- url: /tmp/assets/tm3d/polycarbonaat-pc-natural/pc-natural-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+uuid: 20200ece-3064-5437-a325-033d26840ee0

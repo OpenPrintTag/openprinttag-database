@@ -5,8 +5,10 @@ brand:
 class: FFF
 type: PLA
 abbreviation: PLA
-tags: 
+tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#9b6130'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: 729e237e-970d-539a-8714-ad6a30457559
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-ochre-brown/pla-ochre-brown-175mm-1kg-tm3d-filament.webp
+  type: unspecified

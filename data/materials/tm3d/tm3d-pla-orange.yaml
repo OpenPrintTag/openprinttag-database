@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#ce5924'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: 6d9a561c-0b92-59d5-9a89-8b664b33c42d
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-orange/orange3.webp
+  type: unspecified

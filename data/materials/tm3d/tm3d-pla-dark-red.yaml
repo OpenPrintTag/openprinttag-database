@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#a13a2e'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: b9170ef9-d96f-5e59-a2e6-6735f6269296
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-dark-red/pla-dark-red-175mm-1kg-tm3d-filament970a52ac-490d-439c-ae95-6f4125d91b5b.webp
+  type: unspecified

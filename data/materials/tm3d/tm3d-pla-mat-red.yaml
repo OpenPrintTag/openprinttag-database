@@ -1,0 +1,23 @@
+name: PLA Mat - Red
+slug: tm3d-pla-mat-red
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#b7231e'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-red/pla-matt-red-175mm-1kg-tm3d-filament6446cd8e-9ec8-4a10-8659-aa9d57be7401.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: df2fce07-b1ac-55d2-a807-91a6a524d141

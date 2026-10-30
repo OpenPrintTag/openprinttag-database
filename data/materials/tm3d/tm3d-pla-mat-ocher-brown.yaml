@@ -1,0 +1,23 @@
+name: PLA Mat - Ocher Brown
+slug: tm3d-pla-mat-ocher-brown
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#9b6130'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-ocher-brown/pla-matt-ocher-brown-175mm-1kg-tm3d-filament6ad832c6-52c8-4a4a-b253-f5defb645bcf.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 0fd91d1e-0e12-5107-b351-b4d2ea45cd1e

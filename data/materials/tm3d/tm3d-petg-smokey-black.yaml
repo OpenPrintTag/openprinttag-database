@@ -1,0 +1,20 @@
+name: PETG - Smokey Black
+slug: tm3d-petg-smokey-black
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#090909'
+photos:
+- url: /tmp/assets/tm3d/petg-smokey-black/smokeyblack.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 85945e80-b089-56b8-95b0-97d4e47c3e52

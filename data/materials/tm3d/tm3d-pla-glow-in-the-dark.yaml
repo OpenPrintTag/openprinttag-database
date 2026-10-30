@@ -9,6 +9,8 @@ tags:
 - industrially_compostable
 - abrasive
 - glow_in_the_dark
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#ffffffff'
 properties:
@@ -17,3 +19,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: af9035eb-f34c-568d-b222-9f514c544db1
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-glow-in-the-dark/plaglowinthedark175mm1kg.webp
+  type: unspecified

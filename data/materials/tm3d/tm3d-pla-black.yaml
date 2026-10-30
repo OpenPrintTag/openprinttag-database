@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#313132'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: 7963b878-c935-550c-98d7-7b83f6f3630e
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-black/pla-traffic-black-175mm-1kg-tm3d-filament.webp
+  type: unspecified

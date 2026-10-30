@@ -1,0 +1,22 @@
+name: PETG - Fluorescent Orange
+slug: tm3d-petg-fluorescent-orange
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- neon
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#cf452e'
+photos:
+- url: /tmp/assets/tm3d/petg-fluorescent-orange/petg-fluor-orange-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: f7e331e7-4b98-5014-8bd9-2f3c63a9274f

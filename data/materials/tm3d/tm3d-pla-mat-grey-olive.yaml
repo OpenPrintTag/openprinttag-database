@@ -1,0 +1,23 @@
+name: PLA Mat - Grey Olive
+slug: tm3d-pla-mat-grey-olive
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#575043'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-grey-olive/pla-matt-grey-olive-175mm-1kg-tm3d-filamente9a91d78-fc39-4248-b43b-9a91a4aa0f01.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 78786bd0-49d6-5435-87ad-c837586fb434

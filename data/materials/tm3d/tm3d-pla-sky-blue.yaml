@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#0085b3'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: a167a79b-03f1-51ec-8965-21470bd07e8d
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-sky-blue/skyblue.webp
+  type: unspecified

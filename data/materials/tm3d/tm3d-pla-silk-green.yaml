@@ -1,0 +1,23 @@
+name: PLA Silk+ Green
+slug: tm3d-pla-silk-green
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#1e8658'
+photos:
+- url: /tmp/assets/tm3d/pla-silk-green/plasilkgreenvaas.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: c3015174-6239-5c81-be49-1fe924f5456c

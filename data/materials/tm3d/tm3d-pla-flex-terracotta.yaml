@@ -1,0 +1,22 @@
+name: PLA FLEX - Terracotta
+slug: tm3d-pla-flex-terracotta
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#924129'
+photos:
+- url: /tmp/assets/tm3d/pla-flex-terracotta/pla-flex-terracotta-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 2c865fb6-f45d-5b80-b84c-10c3e859df0a

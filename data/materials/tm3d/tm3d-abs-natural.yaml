@@ -1,0 +1,24 @@
+name: ABS - Natural
+slug: tm3d-abs-natural
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+- without_pigments
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e5dec4'
+photos:
+- url: /tmp/assets/tm3d/abs-natural/abs-natural-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: 6c82a0cd-9075-507a-93d5-460c7c00248d

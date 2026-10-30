@@ -1,0 +1,20 @@
+name: TPU - Blue
+slug: tm3d-tpu-blue
+brand:
+  slug: tm3d
+class: FFF
+type: TPU
+abbreviation: TPU
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#005b8d'
+photos:
+- url: /tmp/assets/tm3d/tpu-blue/tpu-blue-175mm-05kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.17
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 79d5608c-463d-534c-acb7-36303150a69d

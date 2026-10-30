@@ -1,0 +1,20 @@
+name: PETG - Brass
+slug: tm3d-petg-brass
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#727663'
+photos:
+- url: /tmp/assets/tm3d/petg-brass/petgbrass3dfilament175mm285mmtm3dfilament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: ef02c454-8db3-5e31-a02a-6b4882414acb

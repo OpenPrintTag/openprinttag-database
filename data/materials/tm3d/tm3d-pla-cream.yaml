@@ -7,6 +7,8 @@ type: PLA
 abbreviation: PLA
 tags:
 - industrially_compostable
+certifications:
+- ul_2904
 primary_color:
   color_rgba: '#e8ded0'
 properties:
@@ -15,3 +17,6 @@ properties:
   max_print_temperature: 220
   max_bed_temperature: 60
 uuid: ce17df6d-4417-5a27-a59e-862494198441
+photos:
+- url: /tmp/assets/tm3d/tm3d-pla-cream/pla-cream-175mm-1kg-2026-tm3d-filament.webp
+  type: unspecified

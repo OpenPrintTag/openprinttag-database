@@ -1,0 +1,20 @@
+name: TPU - Traffic Black
+slug: tm3d-tpu-traffic-black
+brand:
+  slug: tm3d
+class: FFF
+type: TPU
+abbreviation: TPU
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#313132'
+photos:
+- url: /tmp/assets/tm3d/tpu-traffic-black/tpu-black-175mm-05kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.17
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: dc107c8d-234a-5306-8792-642a3e06a026

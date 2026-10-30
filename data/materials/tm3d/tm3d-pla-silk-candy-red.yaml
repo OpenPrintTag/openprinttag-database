@@ -1,0 +1,23 @@
+name: PLA Silk+ Candy Red
+slug: tm3d-pla-silk-candy-red
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#a13a2e'
+photos:
+- url: /tmp/assets/tm3d/pla-silk-candy-red/plasilkcandyredvaas1.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 40edd768-52fa-5bde-b774-ea619e44dc4c

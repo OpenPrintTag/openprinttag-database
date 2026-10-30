@@ -1,0 +1,20 @@
+name: PETG - Light Pink
+slug: tm3d-petg-light-pink
+brand:
+  slug: tm3d
+class: FFF
+type: PETG
+abbreviation: PETG
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e0929e'
+photos:
+- url: /tmp/assets/tm3d/petg-light-pink/petg-light-pink-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 80
+uuid: 81e4041b-0c95-5eae-9549-b9147600b80e

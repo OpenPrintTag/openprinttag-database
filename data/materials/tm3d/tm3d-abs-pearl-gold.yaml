@@ -1,0 +1,23 @@
+name: ABS - Pearl Gold
+slug: tm3d-abs-pearl-gold
+brand:
+  slug: tm3d
+class: FFF
+type: ABS
+abbreviation: ABS
+tags:
+- filtration_recommended
+- acetone_soluble
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#8d7049'
+photos:
+- url: /tmp/assets/tm3d/abs-pearl-gold/abspearlgold175mm2026.webp
+  type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 230
+  max_print_temperature: 250
+  max_bed_temperature: 145
+uuid: 2687fc12-d9cd-5687-a09b-dae4da4d2f16

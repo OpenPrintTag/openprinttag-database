@@ -1,0 +1,22 @@
+name: ASA - White
+slug: tm3d-asa-white
+brand:
+  slug: tm3d
+class: FFF
+type: ASA
+abbreviation: ASA
+tags:
+- filtration_recommended
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#e6e5ea'
+photos:
+- url: /tmp/assets/tm3d/asa-white/asa-white-175mm-1kg-tm3d-filament.webp
+  type: unspecified
+properties:
+  density: 1.07
+  min_print_temperature: 230
+  max_print_temperature: 280
+  max_bed_temperature: 100
+uuid: f6c45c3a-08eb-5c86-8cb1-f33aaa6ab999

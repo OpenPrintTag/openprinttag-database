@@ -1,0 +1,23 @@
+name: PLA Mat - Squirrel Grey
+slug: tm3d-pla-mat-squirrel-grey
+brand:
+  slug: tm3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+certifications:
+- ul_2904
+primary_color:
+  color_rgba: '#4f575b'
+photos:
+- url: /tmp/assets/tm3d/pla-mat-squirrel-grey/pla-matt-squireel-grey-175mm-1kg-tm3d-filamente7fa4326-a538-4a31-9584-c966ff16d3cc.webp
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 61aa7b1b-fd80-5c23-ac1a-18ef99adafc7
