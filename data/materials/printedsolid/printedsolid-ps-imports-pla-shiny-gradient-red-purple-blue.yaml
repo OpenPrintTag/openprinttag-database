@@ -7,15 +7,26 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#ac1a17ff'
-- color_rgba: '#7142a3ff'
-- color_rgba: '#033877ff'
+  - color_rgba: '#033877ff'
+    color_lab:
+      - 24.25
+      - 11.05
+      - -40.37
+  - color_rgba: '#ac1a17ff'
+    color_lab:
+      - 37.07
+      - 55.92
+      - 41.17
+  - color_rgba: '#7142a3ff'
+    color_lab:
+      - 37.93
+      - 39.91
+      - -45.02
 tags:
-- glitter
-- silk
-- industrially_compostable
-- gradual_color_change
+  - silk
+  - glitter
+  - gradual_color_change
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-shiny-gradient-red-purple-blue/f710f82245d4.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-shiny-gradient-red-purple-blue/f710f82245d4.png
+    type: unspecified
 properties: {}

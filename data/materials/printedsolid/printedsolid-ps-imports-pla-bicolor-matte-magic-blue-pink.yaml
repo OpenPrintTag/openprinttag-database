@@ -7,13 +7,20 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#0e21aeff'
-- color_rgba: '#c80181ff'
+  - color_rgba: '#0e21aeff'
+    color_lab:
+      - 24.44
+      - 48.09
+      - -74.01
+  - color_rgba: '#c80181ff'
+    color_lab:
+      - 44.07
+      - 72.94
+      - -13.75
 tags:
-- matte
-- industrially_compostable
-- coextruded
+  - matte
+  - coextruded
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-bicolor-matte-magic-blue-pink/65f622d9a76d.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-bicolor-matte-magic-blue-pink/65f622d9a76d.png
+    type: unspecified
 properties: {}

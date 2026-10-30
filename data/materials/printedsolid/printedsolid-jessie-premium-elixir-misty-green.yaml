@@ -7,11 +7,18 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#1e5a4fff'
+  color_rgba: '#158d75ff'
+  color_lab:
+    - 52.39
+    - -36.88
+    - 4.04
 tags:
-- silk
-- industrially_compostable
+  - silk
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-elixir-misty-green/9280a49c0421.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-elixir-misty-green/9280a49c0421.png
+    type: unspecified
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 240
+  min_bed_temperature: 55
+  max_bed_temperature: 65

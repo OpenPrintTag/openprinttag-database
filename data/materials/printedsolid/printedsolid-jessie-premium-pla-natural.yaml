@@ -7,11 +7,19 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#d9d8deff'
+  color_rgba: '#82817cff'
+  color_lab:
+    - 53.92
+    - -0.6
+    - 2.84
 tags:
-- transparent
-- industrially_compostable
+  - transparent
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-pla-natural/3f493665bd1c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-pla-natural/3f493665bd1c.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60

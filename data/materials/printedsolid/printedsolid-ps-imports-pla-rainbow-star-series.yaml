@@ -7,15 +7,30 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#41a840ff'
-- color_rgba: '#db3fa9ff'
-- color_rgba: '#fbe200ff'
-- color_rgba: '#0099e6ff'
+  - color_rgba: '#41a840ff'
+    color_lab:
+      - 61.22
+      - -50.53
+      - 43.99
+  - color_rgba: '#fbe200ff'
+    color_lab:
+      - 89.35
+      - -9.14
+      - 88.69
+  - color_rgba: '#0099e6ff'
+    color_lab:
+      - 60.33
+      - -5.82
+      - -48.11
+  - color_rgba: '#db3fa9ff'
+    color_lab:
+      - 53.47
+      - 69.38
+      - -23.06
 tags:
-- glitter
-- industrially_compostable
-- gradual_color_change
+  - glitter
+  - gradual_color_change
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-rainbow-star-series/c31e0a4bb35c.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-rainbow-star-series/c31e0a4bb35c.png
+    type: unspecified
 properties: {}
