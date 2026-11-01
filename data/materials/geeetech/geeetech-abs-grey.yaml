@@ -1,0 +1,17 @@
+uuid: ae5c58db-2dad-5fb7-a940-70068eb1853f
+slug: geeetech-abs-grey
+brand:
+  slug: geeetech
+name: ABS+ Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/geeetech-abs-3d-printer-filament-175mm-1kg-spool-8851805.jpg?v=1782872117
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

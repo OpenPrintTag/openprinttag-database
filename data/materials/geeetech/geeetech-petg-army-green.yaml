@@ -1,0 +1,17 @@
+uuid: df19d18c-96ea-5eb9-9fed-6f4b26e83c23
+slug: geeetech-petg-army-green
+brand:
+  slug: geeetech
+name: PETG Army Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/PETG_army_green.jpg?v=1791617095
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

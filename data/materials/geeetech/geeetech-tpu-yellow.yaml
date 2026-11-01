@@ -1,0 +1,17 @@
+uuid: 18613c9b-a085-5425-bd7e-831a2ed200e4
+slug: geeetech-tpu-yellow
+brand:
+  slug: geeetech
+name: TPU Yellow
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/TPU_Yellow.jpg?v=1786742766
+  type: package
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

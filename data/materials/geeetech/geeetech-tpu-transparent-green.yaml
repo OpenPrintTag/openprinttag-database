@@ -1,0 +1,19 @@
+uuid: 4251a74b-386a-50cf-b82b-12fe06a3c76e
+slug: geeetech-tpu-transparent-green
+brand:
+  slug: geeetech
+name: TPU Transparent Green
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
+tags:
+- transparent
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/geeetech-tpu-3d-printer-filament-175mm-1kg-spool-6283739.jpg?v=1782872115
+  type: package
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

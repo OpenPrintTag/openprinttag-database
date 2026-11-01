@@ -1,0 +1,17 @@
+uuid: 1d6c2033-62b0-5e62-9a2f-de05ff9277d5
+slug: geeetech-asa-orange
+brand:
+  slug: geeetech
+name: ASA Orange
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/geeetech-asa-3d-printer-filament-175mm-1kg-spool-2810235.jpg?v=1782872115
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110

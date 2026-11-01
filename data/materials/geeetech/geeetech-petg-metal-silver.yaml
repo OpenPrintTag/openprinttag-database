@@ -1,0 +1,20 @@
+# Drying: manufacturer recommends 80 °C for 4–6 hours; time below uses 6 hours.
+uuid: 8c15608b-9703-5afa-81ce-8238163791b8
+slug: geeetech-petg-metal-silver
+brand:
+  slug: geeetech
+name: PETG Metal Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/geeetech-petg-metal-3d-printer-filament-175mm-1kg-spool-5214343.jpg?v=1782872118
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360

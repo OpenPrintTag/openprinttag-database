@@ -1,0 +1,20 @@
+# Drying: manufacturer recommends 80 °C for 4–6 hours; time below uses 6 hours.
+uuid: 7c0740ae-1019-54ae-84bc-d6ac8f81272f
+slug: geeetech-petg-metal-pink
+brand:
+  slug: geeetech
+name: PETG Metal Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/PETG_Metal_Pink.jpg?v=1791617425
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360

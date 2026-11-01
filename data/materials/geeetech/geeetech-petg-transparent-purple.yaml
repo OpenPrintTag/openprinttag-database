@@ -1,0 +1,19 @@
+uuid: f9e0e470-16db-5642-a358-f2ee9e9a36aa
+slug: geeetech-petg-transparent-purple
+brand:
+  slug: geeetech
+name: PETG Transparent Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
+tags:
+- transparent
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/PETG_transparent_purple.jpg?v=1791617322
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

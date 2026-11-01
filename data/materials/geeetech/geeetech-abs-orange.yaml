@@ -1,0 +1,17 @@
+uuid: 2237243a-4cae-5be8-abaf-dfa73ac47d27
+slug: geeetech-abs-orange
+brand:
+  slug: geeetech
+name: ABS+ Orange
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://cdn.shopify.com/s/files/1/0828/0581/7592/files/geeetech-abs-3d-printer-filament-175mm-1kg-spool-3784169.jpg?v=1782872116
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

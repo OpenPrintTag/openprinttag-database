@@ -1,0 +1,14 @@
+uuid: 0ced5ccb-a0f1-593f-933e-dae1fe6c16b6
+slug: geeetech-petg-olive-green
+brand:
+  slug: geeetech
+name: PETG Olive Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90
