@@ -1,0 +1,16 @@
+uuid: d7b520f0-981a-56f1-b1e5-c36c0b303822
+slug: smart-print-pla-magenta
+brand:
+  slug: smart-print
+name: PLA Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-magenta-ruzova-1-kg/'
+primary_color:
+  color_rgba: '#fc508cff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

@@ -1,0 +1,16 @@
+uuid: '012644e4-5d4d-5cf1-8ddf-5dc65ffac577'
+slug: smart-print-abs-plus-green
+brand:
+  slug: smart-print
+name: 'ABS+ Green'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#02d703ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

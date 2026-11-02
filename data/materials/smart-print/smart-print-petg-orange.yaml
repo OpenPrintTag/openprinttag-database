@@ -1,0 +1,16 @@
+uuid: cae0725a-75a0-5998-b8ef-d272de0e4a56
+slug: smart-print-petg-orange
+brand:
+  slug: smart-print
+name: PETG Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-orange-oranzova-1-kg/'
+primary_color:
+  color_rgba: '#fd3c0bff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

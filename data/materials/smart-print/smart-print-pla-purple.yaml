@@ -1,0 +1,16 @@
+uuid: '55a1412a-a1bf-5749-9c1f-73e3425883ff'
+slug: smart-print-pla-purple
+brand:
+  slug: smart-print
+name: PLA Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-purple-fialova-1-kg/'
+primary_color:
+  color_rgba: '#7328afff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

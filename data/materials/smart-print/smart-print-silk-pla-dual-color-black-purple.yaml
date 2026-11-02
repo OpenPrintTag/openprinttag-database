@@ -1,0 +1,17 @@
+uuid: '2d062220-2221-533a-a36b-079533b7ee56'
+slug: smart-print-silk-pla-dual-color-black-purple
+brand:
+  slug: smart-print
+name: Silk PLA Dual Color Black Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-dual-color-black-purple-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

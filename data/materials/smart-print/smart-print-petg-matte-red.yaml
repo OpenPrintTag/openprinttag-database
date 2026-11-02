@@ -1,0 +1,16 @@
+uuid: '6701d1cf-2c71-51ad-b7fb-8dd5de5a7add'
+slug: smart-print-petg-matte-red
+brand:
+  slug: smart-print
+name: PETG Matte Red
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-matte-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#863228ff'
+tags:
+- matte
+properties:
+  min_bed_temperature: 75
+  max_bed_temperature: 85

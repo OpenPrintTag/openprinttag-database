@@ -1,0 +1,16 @@
+uuid: '1cc41740-c075-5342-84af-f9f93fd91795'
+slug: smart-print-petg-olive-green
+brand:
+  slug: smart-print
+name: PETG Olive Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-olive-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#203121ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

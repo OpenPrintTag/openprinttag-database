@@ -1,0 +1,17 @@
+uuid: fca0a8cd-833b-57ee-8003-464e433f6cc3
+slug: smart-print-silk-pla-tri-color-red-blue-green
+brand:
+  slug: smart-print
+name: Silk PLA Tri Color Red Blue Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-tri-color-red-blue-green-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

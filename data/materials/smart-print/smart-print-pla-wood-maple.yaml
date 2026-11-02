@@ -1,0 +1,18 @@
+uuid: '307ef223-a5cd-5f7a-9a06-4f96f6f79e52'
+slug: smart-print-pla-wood-maple
+brand:
+  slug: smart-print
+name: PLA Wood Maple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-maple-wood-bezova-1-kg/'
+tags:
+- contains_wood
+- imitates_wood
+- abrasive
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,18 @@
+uuid: '17c5e149-98da-5e92-8b60-71fc03f57995'
+slug: smart-print-petg-transparent-red
+brand:
+  slug: smart-print
+name: PETG Transparent Red
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-transparent-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#470a0aff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90
