@@ -17,5 +17,5 @@ properties:
   density: 1.04
   min_print_temperature: 230
   max_print_temperature: 250
-  max_bed_temperature: 145
+  max_bed_temperature: 110
 uuid: 460a83b4-a1c3-5044-afa1-aa93352010aa
