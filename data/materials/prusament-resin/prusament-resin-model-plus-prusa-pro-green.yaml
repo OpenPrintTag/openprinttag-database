@@ -1,0 +1,18 @@
+uuid: f47f5bde-773f-5a79-9944-8cbd57aae442
+slug: prusament-resin-model-plus-prusa-pro-green
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Prusa Pro Green
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 671
+  viscosity_25c: 344
+  viscosity_40c: 109
+  viscosity_60c: 35
+primary_color:
+  color_rgba: '#00c389ff'
+tags:
+- biocompatible
