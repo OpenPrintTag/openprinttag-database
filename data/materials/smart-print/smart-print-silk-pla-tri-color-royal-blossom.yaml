@@ -1,0 +1,17 @@
+uuid: '292dffef-5e90-50a8-a642-ce981283daf9'
+slug: smart-print-silk-pla-tri-color-royal-blossom
+brand:
+  slug: smart-print
+name: Silk PLA Tri Color Royal Blossom
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-tri-color-royal-blossom-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

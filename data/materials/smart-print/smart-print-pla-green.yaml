@@ -1,0 +1,16 @@
+uuid: '39376098-68fe-5558-9dba-018daa9ffda2'
+slug: smart-print-pla-green
+brand:
+  slug: smart-print
+name: PLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#03d214ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

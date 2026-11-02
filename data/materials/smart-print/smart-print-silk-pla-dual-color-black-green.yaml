@@ -1,0 +1,17 @@
+uuid: '398351e6-5b8a-521b-8d1b-455085500d6c'
+slug: smart-print-silk-pla-dual-color-black-green
+brand:
+  slug: smart-print
+name: Silk PLA Dual Color Black Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-dual-color-black-green-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

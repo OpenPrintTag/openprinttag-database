@@ -1,0 +1,16 @@
+uuid: e7cfe536-749b-5c1d-89b2-8ae634f00754
+slug: smart-print-petg-beige
+brand:
+  slug: smart-print
+name: PETG Beige
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-beige-bezova-1-kg/'
+primary_color:
+  color_rgba: '#c5bfa0ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

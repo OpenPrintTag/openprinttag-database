@@ -1,0 +1,16 @@
+uuid: '515cc5b7-431e-5eae-bdcb-965fd0c25c71'
+slug: smart-print-abs-plus-red
+brand:
+  slug: smart-print
+name: 'ABS+ Red'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-red-cervena-1-kg/'
+primary_color:
+  color_rgba: '#d10915ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

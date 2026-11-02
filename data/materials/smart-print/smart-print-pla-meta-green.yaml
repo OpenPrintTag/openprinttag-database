@@ -1,0 +1,16 @@
+uuid: '10ec702a-83fe-5580-bd77-400fe12fa9ba'
+slug: smart-print-pla-meta-green
+brand:
+  slug: smart-print
+name: PLA Meta Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-meta-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#05cc0dff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

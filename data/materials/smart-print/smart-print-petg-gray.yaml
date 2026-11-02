@@ -1,0 +1,16 @@
+uuid: '7282aa0f-7eec-526c-b160-45372d42bc50'
+slug: smart-print-petg-gray
+brand:
+  slug: smart-print
+name: PETG Gray
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#aaaca9ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

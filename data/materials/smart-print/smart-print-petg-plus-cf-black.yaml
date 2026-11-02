@@ -1,0 +1,19 @@
+uuid: de237842-c850-5486-8718-66e872fefc6d
+slug: smart-print-petg-plus-cf-black
+brand:
+  slug: smart-print
+name: 'PETG + CF Black'
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-plus-cf-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 255
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 90

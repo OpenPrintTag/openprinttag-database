@@ -1,0 +1,16 @@
+uuid: '8f2202ce-708d-57a3-a79d-9654f9db0572'
+slug: smart-print-pla-olive-green
+brand:
+  slug: smart-print
+name: PLA Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-olive-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#22321cff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60
