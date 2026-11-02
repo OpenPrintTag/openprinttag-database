@@ -1,0 +1,27 @@
+uuid: a3b3e03f-8c54-5f5e-ad45-345411272cb5
+slug: 3d-fuel-pro-pctg-transparent-lime-green
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Transparent Lime Green
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#7fc61bff'
+  color_lab:
+    - 72.88
+    - -45.93
+    - 68.84
+tags:
+  - transparent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-transparent-lime-green-0-ed7ba41a.jpg
+    type: unspecified

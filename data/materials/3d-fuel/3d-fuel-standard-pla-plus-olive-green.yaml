@@ -1,0 +1,23 @@
+uuid: 56175bf2-1f00-5b26-9dcf-ab251d2fe960
+slug: 3d-fuel-standard-pla-plus-olive-green
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#4d5d4cff'
+  color_lab:
+    - 37.71
+    - -9.88
+    - 7.75
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-olive-green-0-ba6c4839.jpg
+    type: unspecified

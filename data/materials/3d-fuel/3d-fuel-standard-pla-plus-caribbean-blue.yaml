@@ -1,0 +1,23 @@
+uuid: f387a2f6-4ebd-5950-aeab-b3ec93d2d883
+slug: 3d-fuel-standard-pla-plus-caribbean-blue
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Caribbean Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-caribbean-blue-0-3bd98f50.jpg
+    type: unspecified

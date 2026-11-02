@@ -1,0 +1,23 @@
+uuid: b451e12e-c902-5ee5-9723-b0c7cee6f982
+slug: 3d-fuel-tough-pro-pla-plus-caribbean-blue
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Caribbean Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-caribbean-blue-0-eae1b0fc.jpg
+    type: unspecified

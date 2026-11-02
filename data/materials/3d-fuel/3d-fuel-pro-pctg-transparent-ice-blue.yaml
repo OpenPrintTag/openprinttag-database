@@ -1,0 +1,27 @@
+uuid: 0f1ae91f-723f-507d-806a-ef88344b6839
+slug: 3d-fuel-pro-pctg-transparent-ice-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Transparent Ice Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#41b6e6ff'
+  color_lab:
+    - 69.67
+    - -17.21
+    - -33.41
+tags:
+  - transparent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-transparent-ice-blue-0-ebf1737f.jpg
+    type: unspecified

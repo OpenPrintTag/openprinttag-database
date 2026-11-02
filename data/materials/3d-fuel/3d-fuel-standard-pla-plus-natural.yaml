@@ -1,0 +1,23 @@
+uuid: 84343ae5-5648-581b-8a47-8e31f876c3b5
+slug: 3d-fuel-standard-pla-plus-natural
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-natural-0-79299542.jpg
+    type: unspecified

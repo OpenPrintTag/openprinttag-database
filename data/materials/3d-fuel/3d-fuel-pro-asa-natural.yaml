@@ -1,0 +1,25 @@
+uuid: 56ef4dfc-9886-588d-881d-60ac131de668
+slug: 3d-fuel-pro-asa-natural
+brand:
+  slug: 3d-fuel
+name: Pro ASA, Natural
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - without_pigments
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/3d-fuel-pro-asa-natural-0-c8c07931.jpg
+    type: unspecified

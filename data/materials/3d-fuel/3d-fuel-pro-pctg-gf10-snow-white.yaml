@@ -1,0 +1,28 @@
+uuid: d9b7f7bc-dfa0-5f1e-ba6e-7bb3d1b59f6f
+slug: 3d-fuel-pro-pctg-gf10-snow-white
+brand:
+  slug: 3d-fuel
+name: Pro PCTG-GF10, Snow White
+class: FFF
+type: PCTG
+abbreviation: PCTGGF
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-gf10-snow-white-0-e22b6930.jpg
+    type: unspecified

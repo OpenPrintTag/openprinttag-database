@@ -1,0 +1,23 @@
+uuid: cf925390-a722-56dd-98ee-99fcf44755ab
+slug: 3d-fuel-pro-pctg-glow-in-the-dark
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Glow-in-the-Dark
+class: FFF
+type: PCTG
+abbreviation: PCTG
+tags:
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-glow-in-the-dark-0-2a3d4b76.jpg
+    type: unspecified

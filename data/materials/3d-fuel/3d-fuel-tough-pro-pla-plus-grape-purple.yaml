@@ -1,0 +1,23 @@
+uuid: 5811c76d-333c-5013-a7a9-8dfb60ecd9d3
+slug: 3d-fuel-tough-pro-pla-plus-grape-purple
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Grape Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6000b0ff'
+  color_lab:
+    - 28.44
+    - 63.8
+    - -68.38
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-grape-purple-0-916b6251.jpg
+    type: unspecified

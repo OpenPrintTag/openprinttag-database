@@ -1,0 +1,23 @@
+uuid: 278ce536-abc9-5ec6-9502-34159202f556
+slug: 3d-fuel-tough-pro-pla-plus-metallic-gold
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Metallic Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3b145ff'
+  color_lab:
+    - 74.96
+    - 7.44
+    - 59.93
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-metallic-gold-0-1706af50.jpg
+    type: unspecified

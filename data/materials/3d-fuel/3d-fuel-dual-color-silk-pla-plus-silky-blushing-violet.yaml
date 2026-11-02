@@ -1,0 +1,26 @@
+uuid: acd32a48-f81a-5c1b-90f6-fee50cc122c8
+slug: 3d-fuel-dual-color-silk-pla-plus-silky-blushing-violet
+brand:
+  slug: 3d-fuel
+name: Dual-Color Silk PLA+, Silky Blushing Violet
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f87fb5ff'
+    color_lab:
+      - 68.37
+      - 52.09
+      - -7.02
+  - color_rgba: '#ee8881ff'
+    color_lab:
+      - 67.56
+      - 38.09
+      - 20.87
+tags:
+  - silk
+  - coextruded
+properties: {}
+photos:
+  - url: /tmp/assets/3d-fuel-dual-color-silk-pla-plus-silky-blushing-violet-0-5558074d.jpg
+    type: unspecified

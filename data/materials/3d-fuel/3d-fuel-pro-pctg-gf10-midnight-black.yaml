@@ -1,0 +1,28 @@
+uuid: 2df3690f-92fb-5476-8ec3-213996602a41
+slug: 3d-fuel-pro-pctg-gf10-midnight-black
+brand:
+  slug: 3d-fuel
+name: Pro PCTG-GF10, Midnight Black
+class: FFF
+type: PCTG
+abbreviation: PCTGGF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-gf10-midnight-black-0-fbe33d29.jpg
+    type: unspecified

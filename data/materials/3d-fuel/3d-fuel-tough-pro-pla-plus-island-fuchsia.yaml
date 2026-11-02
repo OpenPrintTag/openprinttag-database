@@ -1,0 +1,23 @@
+uuid: 029c845b-c4a7-5435-8a01-f1cf79798e47
+slug: 3d-fuel-tough-pro-pla-plus-island-fuchsia
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Island Fuchsia
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cc00e3ff'
+  color_lab:
+    - 49.96
+    - 86.49
+    - -62.25
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-island-fuchsia-0-8ac1e3be.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: e6efb731-2b4c-594a-9dc3-aba15bb7ad31
+slug: 3d-fuel-tough-pro-pla-plus-olive-green
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Olive Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7f9c85ff'
+  color_lab:
+    - 61.64
+    - -14.83
+    - 8.73
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-olive-green-0-d005db2e.jpg
+    type: unspecified

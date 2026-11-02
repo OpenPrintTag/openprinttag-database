@@ -1,0 +1,28 @@
+uuid: 86d1cec4-5928-5188-998f-60ce49670d34
+slug: 3d-fuel-pro-pctg-gf10-toolbox-gunmetal-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG-GF10, Toolbox Gunmetal Blue
+class: FFF
+type: PCTG
+abbreviation: PCTGGF
+primary_color:
+  color_rgba: '#375172ff'
+  color_lab:
+    - 33.8
+    - 0.33
+    - -21.93
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-gf10-toolbox-gunmetal-blue-0-fe0da7be.jpg
+    type: unspecified

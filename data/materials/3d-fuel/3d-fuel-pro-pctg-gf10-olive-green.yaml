@@ -1,0 +1,28 @@
+uuid: 3490b683-a8f6-5d1a-8d66-77e54bdddb03
+slug: 3d-fuel-pro-pctg-gf10-olive-green
+brand:
+  slug: 3d-fuel
+name: Pro PCTG-GF10, Olive Green
+class: FFF
+type: PCTG
+abbreviation: PCTGGF
+primary_color:
+  color_rgba: '#4d5d4cff'
+  color_lab:
+    - 37.71
+    - -9.88
+    - 7.75
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-gf10-olive-green-0-b4b4968f.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 56567dcd-23ce-5f5b-83aa-be27de53c3fe
+slug: 3d-fuel-tough-pro-pla-plus-fjord-blue
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Fjord Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0095ffff'
+  color_lab:
+    - 60.53
+    - 5.94
+    - -61.56
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-fjord-blue-0-98c97161.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: d9ec4b85-2f02-5a2a-aad4-47963a794bbc
+slug: 3d-fuel-tough-pro-pla-plus-bubblegum-pink
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Bubblegum Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f4a0b1ff'
+  color_lab:
+    - 74.54
+    - 33.38
+    - 4.19
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-bubblegum-pink-0-275b22b9.jpg
+    type: unspecified

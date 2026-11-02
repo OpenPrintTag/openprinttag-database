@@ -1,0 +1,17 @@
+uuid: 93b149bf-e72d-5154-bd81-fd2d91e93fa5
+slug: 3d-fuel-standard-pla-plus-almond
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Almond
+class: FFF
+type: PLA
+abbreviation: PLA
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-almond-0-2b6d511c.jpg
+    type: unspecified

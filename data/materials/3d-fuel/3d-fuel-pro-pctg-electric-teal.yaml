@@ -1,0 +1,25 @@
+uuid: 2f91ffe3-00e6-5bc1-9401-08efd133891a
+slug: 3d-fuel-pro-pctg-electric-teal
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Electric Teal
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#4cc0c7ff'
+  color_lab:
+    - 71.8
+    - -30.11
+    - -13.23
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-electric-teal-0-56cd2cc4.jpg
+    type: unspecified

@@ -1,0 +1,25 @@
+uuid: 6c11ea54-41f2-5402-a0e6-65fbe44e4508
+slug: 3d-fuel-pro-pctg-toolbox-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Toolbox Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#295ad9ff'
+  color_lab:
+    - 42.45
+    - 30.28
+    - -69.51
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-toolbox-blue-0-701aae4e.jpg
+    type: unspecified

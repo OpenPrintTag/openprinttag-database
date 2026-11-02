@@ -1,0 +1,27 @@
+uuid: ca18cd23-a1ff-58e2-ac82-4f385f9effde
+slug: 3d-fuel-pro-pctg-transparent-atomic-purple
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Transparent Atomic Purple
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#992f9fff'
+  color_lab:
+    - 40.1
+    - 57.62
+    - -38.84
+tags:
+  - transparent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-transparent-atomic-purple-0-a9498bb1.jpg
+    type: unspecified

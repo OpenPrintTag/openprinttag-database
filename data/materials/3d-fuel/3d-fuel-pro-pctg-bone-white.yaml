@@ -1,0 +1,25 @@
+uuid: 03b76c56-cc63-5313-813e-6f55c44b9d5c
+slug: 3d-fuel-pro-pctg-bone-white
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Bone White
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#e3e0d3ff'
+  color_lab:
+    - 89.09
+    - -1.23
+    - 6.72
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-bone-white-0-2fdf841f.jpg
+    type: unspecified

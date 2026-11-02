@@ -1,0 +1,23 @@
+uuid: 1a475883-5ad0-5d64-a031-b72471ad999d
+slug: 3d-fuel-tough-pro-pla-plus-industrial-gray
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Industrial Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#91a0b6ff'
+  color_lab:
+    - 65.39
+    - -0.49
+    - -13.14
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-industrial-gray-0-1d2060c8.jpg
+    type: unspecified

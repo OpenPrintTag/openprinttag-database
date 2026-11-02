@@ -1,0 +1,26 @@
+uuid: 31c86a14-5ea4-5893-9b4e-a24e12535da3
+slug: 3d-fuel-tough-pro-pla-plus-natural
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f1e6b2ff'
+  color_lab:
+    - 91.01
+    - -4.19
+    - 26.74
+tags:
+  - translucent
+  - without_pigments
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-natural-0-c37edef4.jpg
+    type: unspecified

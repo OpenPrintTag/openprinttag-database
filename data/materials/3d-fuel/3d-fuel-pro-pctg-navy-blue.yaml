@@ -1,0 +1,25 @@
+uuid: a7bf0c11-75a9-5814-bf6e-2a714d256974
+slug: 3d-fuel-pro-pctg-navy-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Navy Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#072e4eff'
+  color_lab:
+    - 18.14
+    - 0.33
+    - -23.38
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-navy-blue-0-1e2a0969.jpg
+    type: unspecified

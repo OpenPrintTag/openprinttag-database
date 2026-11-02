@@ -1,0 +1,25 @@
+uuid: 97cd37c1-49f7-52b8-8cec-07b34f59b3a5
+slug: 3d-fuel-pro-pctg-toolbox-lime
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Toolbox Lime
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#78d64bff'
+  color_lab:
+    - 77.63
+    - -51.95
+    - 58.0
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-toolbox-lime-0-8efbccf8.jpg
+    type: unspecified

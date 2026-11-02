@@ -1,0 +1,25 @@
+uuid: cd191ce1-f966-5b91-b4d2-8f6e117928df
+slug: 3d-fuel-pro-pctg-toolbox-teal
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Toolbox Teal
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#058b8cff'
+  color_lab:
+    - 52.27
+    - -30.06
+    - -9.47
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-toolbox-teal-0-179a1be3.jpg
+    type: unspecified

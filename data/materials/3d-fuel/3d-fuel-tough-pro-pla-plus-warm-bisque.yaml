@@ -1,0 +1,23 @@
+uuid: e6a1b320-5c9f-5139-810b-b9202efa3178
+slug: 3d-fuel-tough-pro-pla-plus-warm-bisque
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Warm Bisque
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eac2b7ff'
+  color_lab:
+    - 81.56
+    - 12.56
+    - 10.87
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-warm-bisque-0-d3f0ad8d.jpg
+    type: unspecified

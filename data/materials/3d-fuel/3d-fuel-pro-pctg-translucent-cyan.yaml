@@ -1,0 +1,27 @@
+uuid: d74c533b-8d3a-5e23-94ca-7c5722b79bff
+slug: 3d-fuel-pro-pctg-translucent-cyan
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Translucent Cyan
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
+tags:
+  - translucent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-translucent-cyan-0-f9217f8b.jpg
+    type: unspecified

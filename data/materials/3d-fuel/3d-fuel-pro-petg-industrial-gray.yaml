@@ -1,0 +1,23 @@
+uuid: d5fb8074-3674-5090-8ab8-efa402c578b6
+slug: 3d-fuel-pro-petg-industrial-gray
+brand:
+  slug: 3d-fuel
+name: Pro PETG, Industrial Gray
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#91a0b6ff'
+  color_lab:
+    - 65.39
+    - -0.49
+    - -13.14
+properties:
+  density: 1.27
+  min_print_temperature: 245
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/3d-fuel-pro-petg-industrial-gray-0-f39f7cdb.jpg
+    type: unspecified

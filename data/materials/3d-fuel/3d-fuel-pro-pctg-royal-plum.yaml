@@ -1,0 +1,25 @@
+uuid: 23f875cf-411d-5dc8-bc30-8be77ed8a1a3
+slug: 3d-fuel-pro-pctg-royal-plum
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Royal Plum
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#743063ff'
+  color_lab:
+    - 31.18
+    - 36.64
+    - -15.98
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-royal-plum-0-877f8a5b.jpg
+    type: unspecified

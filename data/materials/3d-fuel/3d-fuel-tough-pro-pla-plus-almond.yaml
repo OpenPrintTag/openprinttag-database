@@ -1,0 +1,23 @@
+uuid: 31bc8ba5-5ca4-5305-bdee-c44f00ad6951
+slug: 3d-fuel-tough-pro-pla-plus-almond
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Almond
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e6d1bdff'
+  color_lab:
+    - 85.05
+    - 4.1
+    - 12.57
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-almond-0-c7098267.jpg
+    type: unspecified

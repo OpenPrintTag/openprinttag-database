@@ -1,0 +1,28 @@
+uuid: f9a6f57c-282f-50e7-a09e-3c7734b537b3
+slug: 3d-fuel-pro-pctg-gf10-toolbox-yellow
+brand:
+  slug: 3d-fuel
+name: Pro PCTG-GF10, Toolbox Yellow
+class: FFF
+type: PCTG
+abbreviation: PCTGGF
+primary_color:
+  color_rgba: '#f3c432ff'
+  color_lab:
+    - 81.16
+    - 3.53
+    - 73.42
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-gf10-toolbox-yellow-0-f0408e2c.jpg
+    type: unspecified

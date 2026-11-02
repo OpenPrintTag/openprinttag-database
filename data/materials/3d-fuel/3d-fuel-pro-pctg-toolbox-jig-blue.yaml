@@ -1,0 +1,25 @@
+uuid: 97af2b7a-1a47-5df3-ba0a-b5778370a05a
+slug: 3d-fuel-pro-pctg-toolbox-jig-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Toolbox Jig Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#1f79e5ff'
+  color_lab:
+    - 51.41
+    - 14.3
+    - -61.79
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-toolbox-jig-blue-0-b8454e41.jpg
+    type: unspecified

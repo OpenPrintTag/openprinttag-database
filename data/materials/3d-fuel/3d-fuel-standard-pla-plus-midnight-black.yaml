@@ -1,0 +1,23 @@
+uuid: 2dfbca07-8e8b-582e-92d8-7564f4889b87
+slug: 3d-fuel-standard-pla-plus-midnight-black
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Midnight Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-midnight-black-0-8d302dc7.jpg
+    type: unspecified

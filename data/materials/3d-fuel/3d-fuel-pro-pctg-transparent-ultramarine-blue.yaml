@@ -1,0 +1,27 @@
+uuid: 29b4d4ef-d594-5a04-99c8-1030c8a2b7dd
+slug: 3d-fuel-pro-pctg-transparent-ultramarine-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Transparent Ultramarine Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#0a2ca5ff'
+  color_lab:
+    - 25.51
+    - 38.51
+    - -66.81
+tags:
+  - transparent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-transparent-ultramarine-blue-0-a4e5e3e5.jpg
+    type: unspecified

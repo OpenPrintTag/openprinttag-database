@@ -1,0 +1,23 @@
+uuid: 87ebd618-555d-580b-b4aa-3614a8707368
+slug: 3d-fuel-standard-pla-plus-fjord-blue
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Fjord Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0095ffff'
+  color_lab:
+    - 60.53
+    - 5.94
+    - -61.56
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-fjord-blue-0-2c3563f7.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 4cf893f7-5d45-5c3b-8d50-a62eb89ce3c4
+slug: 3d-fuel-tough-pro-pla-plus-tangerine-orange
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Tangerine Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+  color_lab:
+    - 63.43
+    - 45.27
+    - 70.41
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-tangerine-orange-0-ec6869b6.jpg
+    type: unspecified

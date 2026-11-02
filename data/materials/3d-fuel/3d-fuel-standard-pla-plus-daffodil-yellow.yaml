@@ -1,0 +1,23 @@
+uuid: a1563366-0502-557e-a0b7-a86b32e71077
+slug: 3d-fuel-standard-pla-plus-daffodil-yellow
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Daffodil Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3c102ff'
+  color_lab:
+    - 80.29
+    - 4.22
+    - 81.75
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-daffodil-yellow-0-1bc45f14.jpg
+    type: unspecified

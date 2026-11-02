@@ -1,0 +1,29 @@
+uuid: 0f306f58-b324-59ad-91a3-b194fa063435
+slug: 3d-fuel-pet-cf-black
+brand:
+  slug: 3d-fuel
+name: PET-CF, Black
+class: FFF
+type: PET
+abbreviation: PETCF
+primary_color:
+  color_rgba: '#1d1d1dff'
+  color_lab:
+    - 10.77
+    - 0.0
+    - 0.0
+tags:
+  - matte
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.4
+  min_print_temperature: 280
+  max_print_temperature: 290
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/3d-fuel-pet-cf-black-0-edd95d63.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 257a2ac7-ae55-5179-ad69-9fc7b372aceb
+slug: 3d-fuel-tough-pro-pla-plus-flat-dark-earth
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Flat Dark Earth
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b38f6eff'
+  color_lab:
+    - 61.96
+    - 8.98
+    - 22.72
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-flat-dark-earth-0-e826969e.jpg
+    type: unspecified

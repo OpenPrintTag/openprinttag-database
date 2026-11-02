@@ -1,0 +1,23 @@
+uuid: 68e3e7ab-5d01-5ae3-809e-d9a028c47a2e
+slug: 3d-fuel-tough-pro-pla-plus-harvest-gold
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Harvest Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffcb47ff'
+  color_lab:
+    - 84.19
+    - 5.79
+    - 69.36
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-harvest-gold-0-4ecdf31f.jpg
+    type: unspecified

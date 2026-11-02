@@ -1,0 +1,23 @@
+uuid: c909c056-25e2-5f5d-a24c-f9c71eba644b
+slug: 3d-fuel-standard-pla-plus-snow-white
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Snow White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-snow-white-0-08f77ab1.jpg
+    type: unspecified

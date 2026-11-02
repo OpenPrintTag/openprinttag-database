@@ -1,0 +1,23 @@
+uuid: 1eae993d-e1a3-58b2-b856-f7bb4ea56731
+slug: 3d-fuel-standard-pla-plus-ocean-blue
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Ocean Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2e56f1ff'
+  color_lab:
+    - 43.63
+    - 41.97
+    - -81.16
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-ocean-blue-0-d5b8e5b7.jpg
+    type: unspecified

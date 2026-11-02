@@ -1,0 +1,27 @@
+uuid: 1f867737-d299-5207-95cc-42ce5fc66d5c
+slug: 3d-fuel-pro-pctg-fluorescent-orange
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Fluorescent Orange
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#ff8133ff'
+  color_lab:
+    - 67.43
+    - 43.18
+    - 61.15
+tags:
+  - neon
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-fluorescent-orange-0-042dd0e7.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: f666c44e-d89c-5851-9cd3-9422c192150e
+slug: 3d-fuel-tough-pro-pla-plus-forest-green
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Forest Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#267f67ff'
+  color_lab:
+    - 47.71
+    - -32.18
+    - 5.52
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-forest-green-0-4feb3b1d.jpg
+    type: unspecified

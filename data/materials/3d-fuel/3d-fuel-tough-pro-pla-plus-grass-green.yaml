@@ -1,0 +1,23 @@
+uuid: ba1beb85-6692-5584-8c8d-7c2d1339d4de
+slug: 3d-fuel-tough-pro-pla-plus-grass-green
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Grass Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#62e480ff'
+  color_lab:
+    - 81.64
+    - -56.86
+    - 38.21
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-grass-green-0-d5d95aa7.jpg
+    type: unspecified

@@ -1,0 +1,25 @@
+uuid: e65baf95-816e-50cf-a9f3-6144113760c7
+slug: 3d-fuel-pro-pctg-caribbean-blue
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Caribbean Blue
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#0099e6ff'
+  color_lab:
+    - 60.33
+    - -5.82
+    - -48.11
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-caribbean-blue-0-d565a9d5.jpg
+    type: unspecified

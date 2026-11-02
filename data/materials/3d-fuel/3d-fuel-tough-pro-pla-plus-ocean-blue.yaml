@@ -1,0 +1,23 @@
+uuid: 9c8043dc-b599-5123-98f9-fbedf52efdc2
+slug: 3d-fuel-tough-pro-pla-plus-ocean-blue
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Ocean Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2e56f1ff'
+  color_lab:
+    - 43.63
+    - 41.97
+    - -81.16
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-ocean-blue-0-9758f14a.jpg
+    type: unspecified

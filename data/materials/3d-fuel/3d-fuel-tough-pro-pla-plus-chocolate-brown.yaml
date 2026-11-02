@@ -1,0 +1,23 @@
+uuid: 154af581-6265-56f4-8202-7fb0bfe3d109
+slug: 3d-fuel-tough-pro-pla-plus-chocolate-brown
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Chocolate Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5d342cff'
+  color_lab:
+    - 26.64
+    - 17.47
+    - 13.01
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-chocolate-brown-0-cb62ff43.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 4b90f3ee-7981-54f3-b813-38b53a4ebcd5
+slug: 3d-fuel-standard-pla-plus-fire-engine-red
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Fire Engine Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e20010ff'
+  color_lab:
+    - 47.25
+    - 73.24
+    - 56.61
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-fire-engine-red-0-f262821b.jpg
+    type: unspecified

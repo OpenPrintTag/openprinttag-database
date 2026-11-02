@@ -1,0 +1,23 @@
+uuid: 268c3ec5-98cc-5ac0-b3a8-5addc04b10f2
+slug: 3d-fuel-tough-pro-pla-plus-lulzbot-green
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, LulzBot Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bbdb4bff'
+  color_lab:
+    - 82.77
+    - -30.09
+    - 64.56
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-lulzbot-green-0-6d3f8786.jpg
+    type: unspecified

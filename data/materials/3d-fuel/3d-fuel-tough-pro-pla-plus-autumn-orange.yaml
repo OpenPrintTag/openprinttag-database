@@ -1,0 +1,23 @@
+uuid: 1c1ac9ef-20c7-501f-b877-7252b126a08e
+slug: 3d-fuel-tough-pro-pla-plus-autumn-orange
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Autumn Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#cf4520ff'
+  color_lab:
+    - 49.04
+    - 52.82
+    - 49.86
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-autumn-orange-0-7b28dbe8.jpg
+    type: unspecified

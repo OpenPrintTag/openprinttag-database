@@ -1,0 +1,23 @@
+uuid: f923e893-6ad5-5df7-bff1-7eeada460289
+slug: 3d-fuel-tough-pro-pla-plus-bone-white
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Bone White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3e0d3ff'
+  color_lab:
+    - 89.09
+    - -1.23
+    - 6.72
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-bone-white-0-62444511.jpg
+    type: unspecified

@@ -1,0 +1,27 @@
+uuid: ccef34a6-a0a6-5d24-a774-240c8aa9501e
+slug: 3d-fuel-pro-pctg-transparent-signal-orange
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Transparent Signal Orange
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#f55928ff'
+  color_lab:
+    - 58.71
+    - 57.64
+    - 57.32
+tags:
+  - transparent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-transparent-signal-orange-0-baa383f7.jpg
+    type: unspecified

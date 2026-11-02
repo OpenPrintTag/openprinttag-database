@@ -1,0 +1,23 @@
+uuid: 149af633-a427-58af-8b87-c5806643aa74
+slug: 3d-fuel-standard-pla-plus-metallic-copper
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Metallic Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c25c56ff'
+  color_lab:
+    - 51.61
+    - 40.31
+    - 22.96
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-metallic-copper-0-c8be8f84.jpg
+    type: unspecified

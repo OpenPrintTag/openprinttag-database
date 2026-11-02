@@ -1,0 +1,23 @@
+uuid: ef4a41f0-5a95-5c73-9b24-6fe01c972fad
+slug: 3d-fuel-standard-pla-plus-forest-green
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Forest Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#267f67ff'
+  color_lab:
+    - 47.71
+    - -32.18
+    - 5.52
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-forest-green-0-a6b710b4.jpg
+    type: unspecified

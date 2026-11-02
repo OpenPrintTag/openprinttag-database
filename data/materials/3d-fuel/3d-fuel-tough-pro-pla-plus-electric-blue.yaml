@@ -1,0 +1,23 @@
+uuid: bc44a924-1c29-5a8d-97ad-32f1ecc34fcd
+slug: 3d-fuel-tough-pro-pla-plus-electric-blue
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Electric Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#39b9dbff'
+  color_lab:
+    - 69.95
+    - -23.3
+    - -27.0
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-electric-blue-0-6589960d.jpg
+    type: unspecified

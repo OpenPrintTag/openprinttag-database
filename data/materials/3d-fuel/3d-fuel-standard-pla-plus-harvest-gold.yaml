@@ -1,0 +1,23 @@
+uuid: f2a94dce-9b5e-5b4c-851f-4c7931332ece
+slug: 3d-fuel-standard-pla-plus-harvest-gold
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Harvest Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f6c500ff'
+  color_lab:
+    - 81.58
+    - 3.43
+    - 82.98
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-harvest-gold-0-24edef00.jpg
+    type: unspecified

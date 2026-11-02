@@ -1,0 +1,25 @@
+uuid: 1209dcc0-8b35-57dc-8053-186ad1c632d3
+slug: 3d-fuel-pro-pctg-toolbox-yellow
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Toolbox Yellow
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#f3c432ff'
+  color_lab:
+    - 81.16
+    - 3.53
+    - 73.42
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-toolbox-yellow-0-d5ec17bd.jpg
+    type: unspecified

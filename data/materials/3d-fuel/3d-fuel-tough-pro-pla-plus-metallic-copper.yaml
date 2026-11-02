@@ -1,0 +1,23 @@
+uuid: 39543e72-ac5e-5ea2-ad2c-6bf5d610e394
+slug: 3d-fuel-tough-pro-pla-plus-metallic-copper
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Metallic Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c25c56ff'
+  color_lab:
+    - 51.61
+    - 40.31
+    - 22.96
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-metallic-copper-0-bc1cb564.jpg
+    type: unspecified

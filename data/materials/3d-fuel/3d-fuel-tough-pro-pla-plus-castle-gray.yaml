@@ -1,0 +1,23 @@
+uuid: 618b57e5-a3a2-519e-b052-9e1d3f252fdc
+slug: 3d-fuel-tough-pro-pla-plus-castle-gray
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Castle Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8c9099ff'
+  color_lab:
+    - 59.73
+    - 0.38
+    - -5.26
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-castle-gray-0-21f322b8.jpg
+    type: unspecified

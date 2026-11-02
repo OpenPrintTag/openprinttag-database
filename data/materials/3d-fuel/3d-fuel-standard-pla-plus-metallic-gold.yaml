@@ -1,0 +1,23 @@
+uuid: ef95d7ed-14a3-5122-a1ef-088b3dea92ac
+slug: 3d-fuel-standard-pla-plus-metallic-gold
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Metallic Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3b145ff'
+  color_lab:
+    - 74.96
+    - 7.44
+    - 59.93
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-metallic-gold-0-69d6afd1.jpg
+    type: unspecified

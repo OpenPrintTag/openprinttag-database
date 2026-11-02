@@ -1,0 +1,27 @@
+uuid: 0031329f-284c-582e-8604-a5c344175ab5
+slug: 3d-fuel-pro-pctg-translucent-black
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Translucent Black
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#0f0f0fff'
+  color_lab:
+    - 4.32
+    - 0.0
+    - 0.0
+tags:
+  - translucent
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-translucent-black-0-8ce31eb0.jpg
+    type: unspecified

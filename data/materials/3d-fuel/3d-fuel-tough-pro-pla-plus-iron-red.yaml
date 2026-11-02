@@ -1,0 +1,23 @@
+uuid: 0fb901f3-4955-5995-b872-11c383004bf2
+slug: 3d-fuel-tough-pro-pla-plus-iron-red
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Iron Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ad0028ff'
+  color_lab:
+    - 36.06
+    - 60.69
+    - 30.56
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-iron-red-0-e3f1d6ab.jpg
+    type: unspecified

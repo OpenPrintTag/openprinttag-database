@@ -1,0 +1,28 @@
+uuid: 8cec8c89-f8df-583c-95b4-24fdddf3fb97
+slug: 3d-fuel-pro-pctg-gf10-industrial-gray
+brand:
+  slug: 3d-fuel
+name: Pro PCTG-GF10, Industrial Gray
+class: FFF
+type: PCTG
+abbreviation: PCTGGF
+primary_color:
+  color_rgba: '#91a0b6ff'
+  color_lab:
+    - 65.39
+    - -0.49
+    - -13.14
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+properties:
+  density: 1.28
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-gf10-industrial-gray-0-ae7a1916.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 2a763bcd-efdd-5c7f-9507-e2a7392c942a
+slug: 3d-fuel-standard-pla-plus-bone-white
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Bone White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e3e0d3ff'
+  color_lab:
+    - 89.09
+    - -1.23
+    - 6.72
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-bone-white-0-8f5f2052.jpg
+    type: unspecified

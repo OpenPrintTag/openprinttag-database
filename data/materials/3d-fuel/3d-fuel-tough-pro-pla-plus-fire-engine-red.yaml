@@ -1,0 +1,23 @@
+uuid: 11c987d9-ef40-5776-bc6c-043ae5ddcd69
+slug: 3d-fuel-tough-pro-pla-plus-fire-engine-red
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Fire Engine Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e20010ff'
+  color_lab:
+    - 47.25
+    - 73.24
+    - 56.61
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-fire-engine-red-0-c2de71be.jpg
+    type: unspecified

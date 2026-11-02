@@ -1,0 +1,23 @@
+uuid: 5973b7aa-0624-5950-9d7b-a9f98a98475a
+slug: 3d-fuel-tough-pro-pla-plus-aquamarine
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Aquamarine
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#63d6d6ff'
+  color_lab:
+    - 79.38
+    - -32.35
+    - -9.92
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-aquamarine-0-0c21b3fa.jpg
+    type: unspecified

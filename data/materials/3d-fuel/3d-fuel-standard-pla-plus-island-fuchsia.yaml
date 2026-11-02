@@ -1,0 +1,23 @@
+uuid: 1b2f5d4a-0ff6-5be5-a93f-cf8f40cdfebc
+slug: 3d-fuel-standard-pla-plus-island-fuchsia
+brand:
+  slug: 3d-fuel
+name: Standard PLA+, Island Fuchsia
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c80181ff'
+  color_lab:
+    - 44.07
+    - 72.94
+    - -13.75
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-standard-pla-plus-island-fuchsia-0-775f76d0.jpg
+    type: unspecified

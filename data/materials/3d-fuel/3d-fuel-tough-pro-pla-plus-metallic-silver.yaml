@@ -1,0 +1,23 @@
+uuid: dda9aa4a-eaaa-5b04-94b6-ed6618ac67ef
+slug: 3d-fuel-tough-pro-pla-plus-metallic-silver
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Metallic Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#abacb0ff'
+  color_lab:
+    - 70.38
+    - 0.41
+    - -2.17
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3d-fuel-tough-pro-pla-plus-metallic-silver-0-62379acd.jpg
+    type: unspecified

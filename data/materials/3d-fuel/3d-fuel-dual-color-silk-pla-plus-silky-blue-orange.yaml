@@ -1,0 +1,26 @@
+uuid: 5c43de6d-bbae-58e3-b46f-1d4eece08e61
+slug: 3d-fuel-dual-color-silk-pla-plus-silky-blue-orange
+brand:
+  slug: 3d-fuel
+name: Dual-Color Silk PLA+, Silky Blue Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f4ac23ff'
+    color_lab:
+      - 75.37
+      - 16.08
+      - 72.85
+  - color_rgba: '#2e56f1ff'
+    color_lab:
+      - 43.63
+      - 41.97
+      - -81.16
+tags:
+  - silk
+  - coextruded
+properties: {}
+photos:
+  - url: /tmp/assets/3d-fuel-dual-color-silk-pla-plus-silky-blue-orange-0-072fdd82.jpg
+    type: unspecified

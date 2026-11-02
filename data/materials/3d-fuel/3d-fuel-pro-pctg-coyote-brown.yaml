@@ -1,0 +1,25 @@
+uuid: 17c95d1e-a781-5261-9bff-d6c6c71e61bc
+slug: 3d-fuel-pro-pctg-coyote-brown
+brand:
+  slug: 3d-fuel
+name: Pro PCTG, Coyote Brown
+class: FFF
+type: PCTG
+abbreviation: PCTG
+primary_color:
+  color_rgba: '#8c7547ff'
+  color_lab:
+    - 50.4
+    - 2.6
+    - 28.62
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
+photos:
+  - url: /tmp/assets/3d-fuel-pro-pctg-coyote-brown-0-4be71c9c.jpg
+    type: unspecified
