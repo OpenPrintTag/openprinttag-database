@@ -1,0 +1,16 @@
+uuid: '0a21d104-f156-58c1-aa77-2641107f422a'
+slug: professional-lab-pla-navy-blue
+brand:
+  slug: professional-lab
+name: PLA Navy Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-navy-blue-1-kg/'
+primary_color:
+  color_rgba: '#121e3eff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

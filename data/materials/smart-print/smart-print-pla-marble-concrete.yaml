@@ -1,0 +1,18 @@
+uuid: '76b92323-b854-5aeb-b4d8-96c31af6d921'
+slug: smart-print-pla-marble-concrete
+brand:
+  slug: smart-print
+name: PLA Marble Concrete
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-marble-concrete-seda-1-kg/'
+primary_color:
+  color_rgba: '#adb1b4ff'
+tags:
+- imitates_marble
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

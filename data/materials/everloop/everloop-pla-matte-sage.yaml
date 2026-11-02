@@ -1,0 +1,23 @@
+uuid: e6ca6788-a3c9-57f9-a548-325e76ac443e
+slug: everloop-pla-matte-sage
+brand:
+  slug: everloop
+name: PLA Matte Sage
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/matte-sage-rpla-premium'
+primary_color:
+  color_rgba: '#a5ad98ff'
+tags:
+- recycled
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

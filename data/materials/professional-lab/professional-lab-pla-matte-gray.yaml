@@ -1,0 +1,19 @@
+uuid: f73ab2f9-f4f6-52d6-b770-e3e6bd2f47b7
+slug: professional-lab-pla-matte-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P23-E1
+name: PLA Matte Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-matte?variant=56852805845369'
+primary_color:
+  color_rgba: '#7b796fff'
+tags:
+- matte
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

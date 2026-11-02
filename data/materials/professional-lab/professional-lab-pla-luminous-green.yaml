@@ -1,0 +1,16 @@
+uuid: '9c268409-fed0-51dc-8935-186ae09cf34a'
+slug: professional-lab-pla-luminous-green
+brand:
+  slug: professional-lab
+name: PLA Luminous Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-luminous-green-1-kg/'
+tags:
+- glow_in_the_dark
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

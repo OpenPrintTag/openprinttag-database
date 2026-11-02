@@ -1,0 +1,19 @@
+uuid: '997b745e-ff56-593d-b1bb-35f1d21a5cda'
+slug: professional-lab-petg-cyan
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P196-E1
+name: PETG Cyan
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56767761645945'
+primary_color:
+  color_rgba: '#1ab8a8ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

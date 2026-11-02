@@ -1,0 +1,20 @@
+uuid: '8d249906-3b3c-5229-a8b4-ee153eedd4a6'
+slug: professional-lab-asa-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P136-E1
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://filamentkontor.de/products/professional-lab-asa?variant=56695638393209'
+primary_color:
+  color_rgba: '#045ee3ff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+  density: 1.1

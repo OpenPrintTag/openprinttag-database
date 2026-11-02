@@ -1,0 +1,17 @@
+uuid: '5cbac60f-f625-5bd3-8c1d-54eda002c88d'
+slug: professional-lab-abs-plus-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P2-E1
+name: 'ABS+ White'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=56451095986553'
+primary_color:
+  color_rgba: '#d6d0c5ff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

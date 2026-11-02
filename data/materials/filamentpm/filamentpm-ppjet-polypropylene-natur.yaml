@@ -8,6 +8,10 @@ type: PP
 abbreviation: PP
 primary_color:
   color_rgba: '#d9d8deff'
+  color_lab:
+    - 86.57
+    - 1.43
+    - -2.82
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-ppjet-polypropylene-natur/78ac9f371cf0.png
     type: unspecified

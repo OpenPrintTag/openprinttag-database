@@ -7,8 +7,17 @@ class: FFF
 type: PETG
 abbreviation: PETG
 primary_color:
-  color_rgba: '#3d9441ff'
+  color_rgba: '#007e40ff'
+  color_lab:
+    - 46.03
+    - -44.78
+    - 25.48
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-petg-tree-green/11a95571fde7.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-petg-tree-green/11a95571fde7.png
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 240
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90

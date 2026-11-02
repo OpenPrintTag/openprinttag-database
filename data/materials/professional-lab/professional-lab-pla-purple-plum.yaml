@@ -1,0 +1,17 @@
+uuid: d493536a-c574-570d-bb1c-0408dec16a77
+slug: professional-lab-pla-purple-plum
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P163-E1
+name: PLA Purple Plum
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-purple-plum-1-kg/'
+primary_color:
+  color_rgba: '#422634ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

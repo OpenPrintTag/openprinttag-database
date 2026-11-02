@@ -1,0 +1,18 @@
+uuid: e135c580-c3a7-50b1-b674-c25f0e651633
+slug: professional-lab-pla-silk-dual-color-red-gold
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P100-E1
+name: PLA Silk Dual Color Red Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-dual-color-filament?variant=55954263605625'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

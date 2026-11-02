@@ -1,0 +1,26 @@
+uuid: d84b232b-cab1-5bf7-b7a4-5c77d713a61e
+slug: filamentpm-pla-plus-summer-edition-fresh-lime
+brand:
+  slug: filamentpm
+name: PLA+ Summer edition - Fresh lime
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e1d555ff'
+  color_lab:
+  - 84.1
+  - -11.08
+  - 62.78
+tags:
+- matte
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-plus-summer-edition-fresh-lime/filamentpm-pla-plus-summer-edition-fresh-lime-0-be8f7442.png
+  type: unspecified

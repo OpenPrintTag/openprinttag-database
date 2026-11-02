@@ -9,8 +9,15 @@ abbreviation: TPU
 url: https://www.smart3d.cz/en/p/filament-devil-design-tpu-soft-natural-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#dfdfd3ff'
+  color_lab:
+  - 88.53
+  - -2.1
+  - 5.88
 tags:
-- without_pigments
 - transparent
+- without_pigments
 properties:
-  hardness_shore_a: 85
+  hardness_shore_a: 85.0
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-tpu-soft-natural/devil-design-tpu-soft-natural-0-53f257d3.png
+  type: unspecified

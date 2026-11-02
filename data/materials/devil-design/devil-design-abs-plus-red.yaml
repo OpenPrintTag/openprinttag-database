@@ -1,0 +1,25 @@
+uuid: d25258b4-d67d-565c-b060-d6b1e31bc727
+slug: devil-design-abs-plus-red
+brand:
+  slug: devil-design
+name: ABS+ RED
+class: FFF
+type: ABS
+abbreviation: ABS+
+url: https://www.smart3d.cz/en/p/filament-devil-design-abs-cervena-1-75-mm-1-kg#
+primary_color:
+  color_rgba: '#c01616ff'
+  color_lab:
+  - 40.96
+  - 62.26
+  - 46.55
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-abs-plus-red/devil-design-abs-plus-red-0-2024b3ec.png
+  type: unspecified

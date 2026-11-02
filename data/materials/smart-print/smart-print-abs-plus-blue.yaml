@@ -1,0 +1,16 @@
+uuid: '7117b862-ef4f-537a-b0ab-1d881787a266'
+slug: smart-print-abs-plus-blue
+brand:
+  slug: smart-print
+name: 'ABS+ Blue'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://3dstisk.com/produkt/smart-print-abs-plus-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#0249cbff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

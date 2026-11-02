@@ -1,0 +1,18 @@
+uuid: '83e9238a-e434-5e8b-b517-24d2ae4a1d99'
+slug: professional-lab-pla-silk-tri-color-red-yellow-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P107-E1
+name: PLA Silk Tri Color Red Yellow Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-tri-color-filament?variant=55954572214649'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

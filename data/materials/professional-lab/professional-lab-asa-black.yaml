@@ -1,0 +1,20 @@
+uuid: '2e3cfdbf-2b5c-5b43-87e5-c0af2a92b9e4'
+slug: professional-lab-asa-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P132-E1
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://filamentkontor.de/products/professional-lab-asa?variant=56695638524281'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+  density: 1.1

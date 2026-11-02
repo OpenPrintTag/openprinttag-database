@@ -1,0 +1,21 @@
+uuid: f55ab193-af86-5fd3-9d28-b10f5ed2480d
+slug: professional-lab-petg-transparent-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P198-E1
+name: PETG Transparent Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782488953'
+primary_color:
+  color_rgba: '#324b13ff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

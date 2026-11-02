@@ -1,0 +1,22 @@
+uuid: '86c820fb-eba7-5b70-9bd7-f06c58e0da2c'
+slug: professional-lab-petg-cf-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P210-E1
+name: PETG CF Red
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-cf-filament-mit-carbonfaser?variant=63819778392441'
+primary_color:
+  color_rgba: '#8d5352ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 65
+  drying_time: 240

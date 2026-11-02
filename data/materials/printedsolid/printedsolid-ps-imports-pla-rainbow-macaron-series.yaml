@@ -7,15 +7,34 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#fbe200ff'
-- color_rgba: '#d0e68cff'
-- color_rgba: '#f3c102ff'
-- color_rgba: '#c75072ff'
-- color_rgba: '#39b9dbff'
+  - color_rgba: '#fbe200ff'
+    color_lab:
+      - 89.35
+      - -9.14
+      - 88.69
+  - color_rgba: '#d0e68cff'
+    color_lab:
+      - 87.92
+      - -21.3
+      - 41.42
+  - color_rgba: '#c75072ff'
+    color_lab:
+      - 50.8
+      - 50.44
+      - 5.31
+  - color_rgba: '#f3c102ff'
+    color_lab:
+      - 80.29
+      - 4.22
+      - 81.75
+  - color_rgba: '#39b9dbff'
+    color_lab:
+      - 69.95
+      - -23.3
+      - -27.0
 tags:
-- industrially_compostable
-- gradual_color_change
+  - gradual_color_change
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-rainbow-macaron-series/4ed73f0ebc51.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-rainbow-macaron-series/4ed73f0ebc51.png
+    type: unspecified
 properties: {}

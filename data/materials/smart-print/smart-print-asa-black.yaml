@@ -1,0 +1,18 @@
+uuid: '559d4c44-2d60-5009-8972-e029c589f4ec'
+slug: smart-print-asa-black
+brand:
+  slug: smart-print
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://3dstisk.com/produkt/smart-print-asa-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

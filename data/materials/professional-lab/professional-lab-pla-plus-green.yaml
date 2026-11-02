@@ -1,0 +1,17 @@
+uuid: '9d7e403d-701d-57bd-8b66-f094ceb5483c'
+slug: professional-lab-pla-plus-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P59-E1
+name: 'PLA+ Green'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-green-1-kg/'
+primary_color:
+  color_rgba: '#28a31dff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

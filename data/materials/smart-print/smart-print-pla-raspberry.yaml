@@ -1,0 +1,16 @@
+uuid: '5e2ee0f3-6c56-502f-b4ea-7215523fe293'
+slug: smart-print-pla-raspberry
+brand:
+  slug: smart-print
+name: PLA Raspberry
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-raspberry-ruzova-1-kg/'
+primary_color:
+  color_rgba: '#be222bff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

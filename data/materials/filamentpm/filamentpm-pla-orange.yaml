@@ -8,6 +8,11 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#fc4c02ff'
+  color_lab:
+    - 57.92
+    - 64.46
+    - 68.4
+  color_ral: '2004'
 properties:
   density: 1.24
   hardness_shore_d: 78.3
@@ -16,5 +21,5 @@ properties:
   min_bed_temperature: 20
   max_bed_temperature: 60
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-orange/filamentpm-pla-orange-0-da86f07d.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-pla-orange/filamentpm-pla-orange-0-da86f07d.jpg
+    type: unspecified

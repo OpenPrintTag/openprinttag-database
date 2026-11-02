@@ -1,0 +1,17 @@
+uuid: '7099f0c8-7cad-5065-949a-a7284c955825'
+slug: professional-lab-abs-plus-silver
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P10-E1
+name: 'ABS+ Silver'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=56451095921017'
+primary_color:
+  color_rgba: '#727476ff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

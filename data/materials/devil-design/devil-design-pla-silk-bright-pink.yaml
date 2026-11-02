@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-jasne-ruzova-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#fd64b3ff'
+  color_lab:
+  - 64.37
+  - 65.66
+  - -11.78
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-silk-bright-pink/devil-design-pla-silk-bright-pink-0-06a4c309.png
+  type: unspecified

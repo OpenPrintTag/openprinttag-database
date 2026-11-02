@@ -1,0 +1,25 @@
+uuid: c093cdf0-0eac-50a6-ac5d-4c03d6e56f58
+slug: devil-design-pa12-natural
+brand:
+  slug: devil-design
+name: PA12 NATURAL
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#dee2daff'
+  color_lab:
+  - 89.39
+  - -2.77
+  - 3.43
+tags:
+- translucent
+- filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 95
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pa12-natural/devil-design-pa12-natural-0-630731ce.png
+  type: unspecified

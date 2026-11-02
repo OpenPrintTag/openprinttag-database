@@ -1,0 +1,17 @@
+uuid: '121e0584-8d89-52c6-bc43-f60434af0afa'
+slug: professional-lab-pla-basic-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P60-E1
+name: PLA Basic Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-black-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,14 @@
+uuid: '9c89a589-5d9c-5708-afe7-86f793c7d59e'
+slug: professional-lab-pla-basic-brown
+brand:
+  slug: professional-lab
+name: PLA Basic Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-brown-1-kg/'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

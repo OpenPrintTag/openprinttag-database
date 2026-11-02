@@ -8,6 +8,10 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#bbbcbcff'
+  color_lab:
+    - 76.17
+    - -0.35
+    - -0.12
 tags:
   - translucent
   - without_pigments

@@ -1,0 +1,22 @@
+uuid: 6c7bcd05-591d-5cf4-93af-67ea0a2816ef
+slug: recyclingfabrik-fragrant-lilac-pastel-violet
+brand:
+  slug: recyclingfabrik
+name: Fragrant Lilac (Pastel Violet)
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/duftender-flieder-pastell-violett-rpetg
+primary_color:
+  color_rgba: '#8577abff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

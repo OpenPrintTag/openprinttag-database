@@ -8,6 +8,11 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#101820ff'
+  color_lab:
+    - 7.84
+    - -0.97
+    - -6.75
+  color_ral: '9011'
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-tpu-96-black/cc6cca8d93a8.png
     type: unspecified

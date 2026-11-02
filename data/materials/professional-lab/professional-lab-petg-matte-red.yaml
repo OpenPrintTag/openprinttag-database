@@ -1,0 +1,17 @@
+uuid: e49507ee-ec7f-50fa-9cb5-67debf93f050
+slug: professional-lab-petg-matte-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P216-E1
+name: PETG Matte Red
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260182393'
+primary_color:
+  color_rgba: '#702c23ff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

@@ -1,0 +1,17 @@
+uuid: bd8c1718-b696-5c12-a3f8-8d4f058f658e
+slug: smart-print-hs-pla-transparent
+brand:
+  slug: smart-print
+name: HS-PLA Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-hs-pla-transparent-pruhledna-1-kg/'
+tags:
+- high_speed
+- transparent
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60

@@ -8,10 +8,13 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
 tags:
-- matte
-- industrially_compostable
+  - matte
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-matte-blue/096d9c8ac464.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-matte-blue/096d9c8ac464.png
+    type: unspecified
 properties: {}

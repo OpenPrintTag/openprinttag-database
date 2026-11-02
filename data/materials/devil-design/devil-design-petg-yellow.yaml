@@ -9,4 +9,16 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-zluta-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#f8cc00ff'
-properties: {}
+  color_lab:
+  - 83.52
+  - 0.69
+  - 84.42
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-yellow/devil-design-petg-yellow-0-b871505d.png
+  type: unspecified

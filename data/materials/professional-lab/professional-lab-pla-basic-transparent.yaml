@@ -1,0 +1,17 @@
+uuid: '4af2c094-3635-5c15-9f71-749d431276ef'
+slug: professional-lab-pla-basic-transparent
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P68-E1
+name: PLA Basic Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-transparent-1-kg/'
+tags:
+- transparent
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

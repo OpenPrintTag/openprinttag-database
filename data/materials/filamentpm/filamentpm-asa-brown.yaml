@@ -8,6 +8,11 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#512f2eff'
+  color_lab:
+    - 23.61
+    - 15.42
+    - 7.25
+  color_ral: '8017'
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-asa-brown/0c6bff37d756.png
     type: unspecified

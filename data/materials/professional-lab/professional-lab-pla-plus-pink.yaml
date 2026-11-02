@@ -1,0 +1,17 @@
+uuid: dc169e81-0c01-5638-bdd6-8f56f28d71f7
+slug: professional-lab-pla-plus-pink
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P48-E1
+name: 'PLA+ Pink'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-pink-1-kg/'
+primary_color:
+  color_rgba: '#e581b3ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

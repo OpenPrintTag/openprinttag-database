@@ -8,14 +8,18 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#d6d2c4ff'
+  color_lab:
+    - 84.16
+    - -1.05
+    - 7.42
 tags:
-- foaming
-- without_pigments
+  - foaming
+  - without_pigments
 properties:
   min_print_temperature: 240
   max_print_temperature: 260
   min_bed_temperature: 20
   max_bed_temperature: 60
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-lw-natur/filamentpm-pla-lw-natur-0-29dcf26e.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-pla-lw-natur/filamentpm-pla-lw-natur-0-29dcf26e.jpg
+    type: unspecified

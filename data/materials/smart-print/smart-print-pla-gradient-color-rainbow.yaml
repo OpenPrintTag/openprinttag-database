@@ -1,0 +1,16 @@
+uuid: bfa93401-8788-5779-91e4-d7e70c2462b0
+slug: smart-print-pla-gradient-color-rainbow
+brand:
+  slug: smart-print
+name: PLA Gradient Color Rainbow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-gradient-colour-1-kg/'
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

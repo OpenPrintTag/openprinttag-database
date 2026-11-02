@@ -1,0 +1,19 @@
+uuid: '29731ed7-1579-5b58-a85b-707842877c69'
+slug: professional-lab-hyper-hs-pla-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P15-E1
+name: Hyper HS-PLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-hyper-red-red-1-kg/'
+primary_color:
+  color_rgba: '#b6111cff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

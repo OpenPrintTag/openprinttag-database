@@ -8,6 +8,10 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#4b4f54ff'
+  color_lab:
+    - 33.41
+    - -0.46
+    - -3.49
 tags:
   - glitter
 photos:

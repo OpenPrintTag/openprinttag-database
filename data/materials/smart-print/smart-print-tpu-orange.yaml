@@ -1,0 +1,17 @@
+uuid: '3048c417-7431-59ec-ae7a-8f8b70e0c8a0'
+slug: smart-print-tpu-orange
+brand:
+  slug: smart-print
+name: TPU Orange
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://3dstisk.com/produkt/smart-print-tpu-orange-oranzova-1-kg/'
+primary_color:
+  color_rgba: '#fe8525ff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

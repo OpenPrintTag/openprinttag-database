@@ -8,6 +8,11 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#ff8e24ff'
+  color_lab:
+    - 69.99
+    - 36.27
+    - 68.78
+  color_ral: '2004'
 tags:
   - high_temperature
   - filtration_recommended

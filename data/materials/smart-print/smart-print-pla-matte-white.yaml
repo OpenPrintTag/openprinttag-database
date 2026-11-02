@@ -1,0 +1,18 @@
+uuid: '616954e0-149d-57b6-9c12-3e27c49d3989'
+slug: smart-print-pla-matte-white
+brand:
+  slug: smart-print
+name: PLA Matte White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-matte-white-bila-1-kg/'
+primary_color:
+  color_rgba: '#d1d2cdff'
+tags:
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 70

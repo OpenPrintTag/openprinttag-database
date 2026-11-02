@@ -1,0 +1,16 @@
+uuid: '26b93b3d-4b18-5a29-9732-bf7fb9a764e5'
+slug: smart-print-pla-navy-blue
+brand:
+  slug: smart-print
+name: PLA Navy Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-navy-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#1c2249ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

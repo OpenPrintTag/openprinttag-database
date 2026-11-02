@@ -1,0 +1,16 @@
+uuid: f1ab6704-0bc8-53c2-88f0-cd3961c51f0d
+slug: professional-lab-pla-pastel-pink
+brand:
+  slug: professional-lab
+name: PLA Pastel Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-pastel-pink-1-kg/'
+primary_color:
+  color_rgba: '#f8accdff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

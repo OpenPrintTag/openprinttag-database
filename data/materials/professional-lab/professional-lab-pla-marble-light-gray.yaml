@@ -1,0 +1,19 @@
+uuid: '8b17f173-2778-5fa8-b877-733d64122d81'
+slug: professional-lab-pla-marble-light-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P181-E1
+name: PLA Marble Light Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-marble?variant=56985307251065'
+primary_color:
+  color_rgba: '#999c98ff'
+tags:
+- imitates_marble
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 40
+  max_bed_temperature: 60

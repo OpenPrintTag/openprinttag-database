@@ -1,0 +1,18 @@
+uuid: '545d3a0d-734b-5b20-825a-46b382384a96'
+slug: smart-print-pla-galaxy-black
+brand:
+  slug: smart-print
+name: PLA Galaxy Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-galaxy-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- glitter
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

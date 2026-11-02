@@ -1,0 +1,17 @@
+uuid: '50b102ac-3bfb-574c-8439-4787c4cd2468'
+slug: professional-lab-pla-plus-yellow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P52-E1
+name: 'PLA+ Yellow'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-yellow-1-kg/'
+primary_color:
+  color_rgba: '#f4d317ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

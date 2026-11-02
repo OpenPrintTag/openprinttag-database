@@ -1,0 +1,19 @@
+uuid: f1fbdaf0-e645-5e31-9b73-442b49062bbe
+slug: professional-lab-petg-copper-brown
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P204-E1
+name: PETG Copper Brown
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782161273'
+primary_color:
+  color_rgba: '#4b1e14ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

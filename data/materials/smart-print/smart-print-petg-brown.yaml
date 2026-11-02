@@ -1,0 +1,16 @@
+uuid: e0498bc3-bc78-5c31-b0d4-0a0155738749
+slug: smart-print-petg-brown
+brand:
+  slug: smart-print
+name: PETG Brown
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-brown-hneda-1-kg/'
+primary_color:
+  color_rgba: '#8b5f4eff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

@@ -1,0 +1,22 @@
+uuid: cdcfb7d5-ece8-5f69-925b-48c528378964
+slug: recyclingfabrik-ripe-berry-red
+brand:
+  slug: recyclingfabrik
+name: Ripe Berry (Red)
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/reife-beere-rot
+primary_color:
+  color_rgba: '#6f0824ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

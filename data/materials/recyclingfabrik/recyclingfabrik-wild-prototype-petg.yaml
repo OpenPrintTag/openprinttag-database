@@ -1,0 +1,20 @@
+uuid: 58f3d36c-577a-57e8-b3e9-df9f4cb594cf
+slug: recyclingfabrik-wild-prototype-petg
+brand:
+  slug: recyclingfabrik
+name: Wild Prototype PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/wilder-prototyp-rpetg
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

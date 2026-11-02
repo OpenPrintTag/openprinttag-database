@@ -1,0 +1,16 @@
+uuid: e6669d34-5613-5f86-a145-d135a2c16c8d
+slug: professional-lab-pla-grass-green
+brand:
+  slug: professional-lab
+name: PLA Grass Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-grass-green-1-kg/'
+primary_color:
+  color_rgba: '#7be56eff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

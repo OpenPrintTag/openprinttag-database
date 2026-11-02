@@ -1,0 +1,17 @@
+uuid: f48352e4-34f2-50ba-a800-072284a1c1ec
+slug: professional-lab-pla-basic-water-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P77-E1
+name: PLA Basic Water Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-water-blue-1-kg/'
+primary_color:
+  color_rgba: '#3197daff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

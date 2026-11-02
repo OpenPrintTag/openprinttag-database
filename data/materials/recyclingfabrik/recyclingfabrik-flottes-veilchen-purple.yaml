@@ -6,6 +6,7 @@ name: Flottes Veilchen (purple)
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/flottes-veilchen-lila
 primary_color:
   color_rgba: '#e8beddff'
 tags:
@@ -14,4 +15,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/recyclingfabrik/recyclingfabrik-flottes-veilchen-purple/f990483f454c.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

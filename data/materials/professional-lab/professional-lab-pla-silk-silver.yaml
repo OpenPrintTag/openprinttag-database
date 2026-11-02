@@ -1,0 +1,19 @@
+uuid: '2b8b2b6a-e254-5bc9-b99f-a41ce7395ea4'
+slug: professional-lab-pla-silk-silver
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P90-E1
+name: PLA Silk Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-silk-silver-1-kg/'
+primary_color:
+  color_rgba: '#93938fff'
+tags:
+- silk
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

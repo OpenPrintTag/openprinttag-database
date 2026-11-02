@@ -1,0 +1,17 @@
+uuid: '771c950e-8462-5783-aed8-316967f0351c'
+slug: professional-lab-pla-meta-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P87-E1
+name: PLA Meta Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-green-metallic-green-1-kg/'
+primary_color:
+  color_rgba: '#34b529ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

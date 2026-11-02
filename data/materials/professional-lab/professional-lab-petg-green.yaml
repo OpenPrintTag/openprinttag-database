@@ -1,0 +1,19 @@
+uuid: '5eda7343-0407-52c6-af05-930e5fef22ba'
+slug: professional-lab-petg-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P31-E1
+name: PETG Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782325113'
+primary_color:
+  color_rgba: '#295d2fff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

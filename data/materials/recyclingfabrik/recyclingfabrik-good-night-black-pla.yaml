@@ -1,0 +1,22 @@
+uuid: 067b8984-c5ae-5a49-b5b0-38bd0ec719e9
+slug: recyclingfabrik-good-night-black-pla
+brand:
+  slug: recyclingfabrik
+name: Good Night (Black) PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/gute-nacht-schwarz
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

@@ -8,6 +8,11 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#5d6439ff'
+  color_lab:
+    - 40.8
+    - -10.27
+    - 23.46
+  color_ral: '6003'
 tags:
   - iridescent
 photos:

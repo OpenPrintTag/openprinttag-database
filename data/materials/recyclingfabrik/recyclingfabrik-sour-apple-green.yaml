@@ -6,6 +6,7 @@ name: Sour Apple (Green)
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/saurer-apfel-grun-petg
 primary_color:
   color_rgba: '#95d05cff'
 tags:
@@ -13,4 +14,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/recyclingfabrik/recyclingfabrik-sour-apple-green/6e1b6e21988e.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

@@ -1,0 +1,31 @@
+uuid: cd7afba3-0136-571c-90c4-161d52a81113
+slug: devil-design-pla-silk-dual-gold-plus-dark-red
+brand:
+  slug: devil-design
+name: PLA SILK DUAL GOLD + DARK RED
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f6c500ff'
+  color_lab:
+  - 81.58
+  - 3.43
+  - 82.98
+- color_rgba: '#cc393fff'
+  color_lab:
+  - 47.14
+  - 57.6
+  - 31.19
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-silk-dual-gold-plus-dark-red/devil-design-pla-silk-dual-gold-plus-dark-red-0-76f0ec01.png
+  type: unspecified

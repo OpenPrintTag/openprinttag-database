@@ -1,0 +1,21 @@
+uuid: 5a7a0801-7437-5a32-8154-45ca80260d44
+slug: recyclingfabrik-pureed-unicorn-multicolor
+brand:
+  slug: recyclingfabrik
+name: Pureed Unicorn (Multicolor)
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.recyclingfabrik.com/products/pueriertes-einhorn-multicolor
+tags:
+- recycled
+- gradual_color_change
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

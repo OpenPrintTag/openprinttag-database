@@ -1,0 +1,18 @@
+uuid: '2fd0258b-108a-5531-ba16-3c7fb96fcf32'
+slug: smart-print-asa-gray
+brand:
+  slug: smart-print
+name: ASA Gray
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://3dstisk.com/produkt/smart-print-asa-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#8a939eff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

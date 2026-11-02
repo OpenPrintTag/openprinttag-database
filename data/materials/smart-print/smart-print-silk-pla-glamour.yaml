@@ -1,0 +1,18 @@
+uuid: f98140e4-5f0c-5412-a381-e809ddc36e7c
+slug: smart-print-silk-pla-glamour
+brand:
+  slug: smart-print
+name: Silk PLA Glamour
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-glamour-ruzova-1-kg/'
+primary_color:
+  color_rgba: '#f2e7ddff'
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -1,0 +1,19 @@
+uuid: '32640116-a478-5e9c-a4ce-f9227559cc02'
+slug: professional-lab-petg-purple
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P206-E1
+name: PETG Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782194041'
+primary_color:
+  color_rgba: '#49236bff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

@@ -1,0 +1,16 @@
+uuid: d46d4273-0c53-58d4-bf37-2ebbfa1397c2
+slug: smart-print-petg-matte-dark-green
+brand:
+  slug: smart-print
+name: PETG Matte Dark Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-matte-dark-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#515730ff'
+tags:
+- matte
+properties:
+  min_bed_temperature: 75
+  max_bed_temperature: 85

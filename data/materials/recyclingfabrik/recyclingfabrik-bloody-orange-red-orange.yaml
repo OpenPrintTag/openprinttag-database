@@ -6,6 +6,7 @@ name: Bloody Orange (Red Orange)
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/blutige-orange-rotorange-petg
 primary_color:
   color_rgba: '#e03f26ff'
 tags:
@@ -13,4 +14,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/recyclingfabrik/recyclingfabrik-bloody-orange-red-orange/348ab05f61cc.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

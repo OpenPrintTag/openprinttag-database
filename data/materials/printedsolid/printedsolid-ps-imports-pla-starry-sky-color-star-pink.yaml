@@ -8,11 +8,14 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#c63dbaff'
+  color_lab:
+    - 50.56
+    - 67.42
+    - -37.78
 tags:
-- glitter
-- industrially_compostable
-- translucent
+  - glitter
+  - translucent
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-starry-sky-color-star-pink/d2fe8c9b5ff4.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-starry-sky-color-star-pink/d2fe8c9b5ff4.png
+    type: unspecified
 properties: {}

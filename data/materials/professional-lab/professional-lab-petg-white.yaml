@@ -1,0 +1,19 @@
+uuid: '4f2b7eae-b820-5eae-88bb-7c468d00d40e'
+slug: professional-lab-petg-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P27-E1
+name: PETG White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56855901372793'
+primary_color:
+  color_rgba: '#e0dee2ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

@@ -1,0 +1,17 @@
+uuid: c22a6ab9-b09f-5450-9a71-fca83b19d958
+slug: smart-print-silk-pla-dual-color-red-blue
+brand:
+  slug: smart-print
+name: Silk PLA Dual Color Red Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-dual-color-red-blue-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

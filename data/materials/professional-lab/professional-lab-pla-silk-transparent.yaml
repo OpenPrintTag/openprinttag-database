@@ -1,0 +1,18 @@
+uuid: d08d1fd2-fce0-5b5a-95c7-d1f3d63f317f
+slug: professional-lab-pla-silk-transparent
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P96-E1
+name: PLA Silk Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-silk-transparent-1-kg/'
+tags:
+- silk
+- transparent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

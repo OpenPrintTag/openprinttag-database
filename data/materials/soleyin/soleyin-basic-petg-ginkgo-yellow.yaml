@@ -1,0 +1,17 @@
+uuid: f5d2f5d5-b993-5cc0-b48d-79d1f5ac1630
+slug: soleyin-basic-petg-ginkgo-yellow
+brand:
+  slug: soleyin
+name: Basic PETG Ginkgo Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://store.creality.com/products/soleyin-basic-petg-3d-printing-filament-1kg-live-exclusive'
+primary_color:
+  color_rgba: '#f0c038ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  density: 1.23

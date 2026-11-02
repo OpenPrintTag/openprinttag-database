@@ -1,0 +1,31 @@
+uuid: 629f70e2-46de-5bdf-901b-d13cbc031c40
+slug: devil-design-pla-silk-dual-cold-green-plus-blue
+brand:
+  slug: devil-design
+name: PLA SILK DUAL COLD GREEN + BLUE
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#61c680ff'
+  color_lab:
+  - 72.55
+  - -45.01
+  - 26.29
+- color_rgba: '#0099e6ff'
+  color_lab:
+  - 60.33
+  - -5.82
+  - -48.11
+tags:
+- silk
+- coextruded
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-silk-dual-cold-green-plus-blue/devil-design-pla-silk-dual-cold-green-plus-blue-0-c3516ab1.png
+  type: unspecified

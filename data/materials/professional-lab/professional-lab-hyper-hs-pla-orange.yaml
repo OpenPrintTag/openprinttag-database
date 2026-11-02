@@ -1,0 +1,19 @@
+uuid: '98f37b84-4b5e-5be4-a6f5-92c239b60658'
+slug: professional-lab-hyper-hs-pla-orange
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P19-E1
+name: Hyper HS-PLA Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-hyper-hs-pla-orange-1-kg/'
+primary_color:
+  color_rgba: '#fa7f1aff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
