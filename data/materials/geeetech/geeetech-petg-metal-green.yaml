@@ -1,0 +1,19 @@
+uuid: 96633429-c279-5ac9-93f5-cd0663c4541e
+slug: geeetech-petg-metal-green
+brand:
+  slug: geeetech
+name: PETG Metal Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-green/geeetech-petg-metal-3d-printer-filament-175mm-1kg-spool-4199681.jpg?v=1782872119
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360

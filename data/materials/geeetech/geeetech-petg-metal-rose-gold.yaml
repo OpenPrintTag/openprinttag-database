@@ -1,0 +1,19 @@
+uuid: d6a058bd-e0a5-562e-94e0-30fc799d8730
+slug: geeetech-petg-metal-rose-gold
+brand:
+  slug: geeetech
+name: PETG Metal Rose Gold
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-rose-gold/PETG_Metal_Rose_gold.jpg?v=1791617424
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
