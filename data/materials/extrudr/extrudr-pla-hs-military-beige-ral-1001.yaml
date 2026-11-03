@@ -1,0 +1,27 @@
+uuid: ef06dd6e-d430-5013-a03d-c1b7a1b7b7aa
+slug: extrudr-pla-hs-military-beige-ral-1001
+brand:
+  slug: extrudr
+name: PLA HS military beige | RAL 1001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d4b6a3ff'
+  color_lab:
+    - 76.13
+    - 7.83
+    - 13.66
+  color_ral: '1001'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-military-beige-ral-1001-0-784cc38a.png
+    type: unspecified

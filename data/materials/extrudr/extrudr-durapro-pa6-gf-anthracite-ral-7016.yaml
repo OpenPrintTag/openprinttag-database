@@ -1,0 +1,30 @@
+uuid: b5fdadb1-315a-507d-93f9-3993764bdf2e
+slug: extrudr-durapro-pa6-gf-anthracite-ral-7016
+brand:
+  slug: extrudr
+name: DuraPro PA6 GF anthracite | RAL 7016
+class: FFF
+type: PA6
+abbreviation: PA6GF
+primary_color:
+  color_rgba: '#55555eff'
+  color_lab:
+    - 36.44
+    - 2.01
+    - -5.2
+  color_ral: '7016'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.2
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pa6-gf-anthracite-ral-7016-0-d0b91e41.png
+    type: unspecified

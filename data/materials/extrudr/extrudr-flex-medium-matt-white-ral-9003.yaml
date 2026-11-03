@@ -1,0 +1,28 @@
+uuid: a7484e32-d2d0-5992-8027-412f9387b390
+slug: extrudr-flex-medium-matt-white-ral-9003
+brand:
+  slug: extrudr
+name: FLEX Medium MATT white | RAL 9003
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+  color_ral: '9003'
+tags:
+  - matte
+properties:
+  density: 1.18
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-medium-matt-white-ral-9003-0-9087306c.png
+    type: unspecified

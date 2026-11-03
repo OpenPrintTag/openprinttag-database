@@ -1,0 +1,27 @@
+uuid: 25a83920-5d84-5492-a8be-8be1d9f356c4
+slug: extrudr-pla-hs-anthracite-ral-7016
+brand:
+  slug: extrudr
+name: PLA HS anthracite | RAL 7016
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#55555eff'
+  color_lab:
+    - 36.44
+    - 2.01
+    - -5.2
+  color_ral: '7016'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-anthracite-ral-7016-0-2b35af5d.png
+    type: unspecified

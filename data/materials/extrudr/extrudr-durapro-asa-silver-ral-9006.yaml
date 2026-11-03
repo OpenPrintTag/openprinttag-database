@@ -1,0 +1,27 @@
+uuid: ee074e9a-52ef-5945-adee-afb723a3228e
+slug: extrudr-durapro-asa-silver-ral-9006
+brand:
+  slug: extrudr
+name: DuraPro ASA silver | RAL 9006
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#a8b0bdff'
+  color_lab:
+    - 71.59
+    - -0.18
+    - -7.58
+  color_ral: '9006'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.1
+  min_print_temperature: 220
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-silver-ral-9006-0-18d6231a.jpg
+    type: unspecified

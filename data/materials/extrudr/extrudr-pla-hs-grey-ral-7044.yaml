@@ -1,0 +1,27 @@
+uuid: 1a47212f-54cb-5e23-9000-50fc895353e3
+slug: extrudr-pla-hs-grey-ral-7044
+brand:
+  slug: extrudr
+name: PLA HS grey | RAL 7044
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c5c5bfff'
+  color_lab:
+    - 79.37
+    - -1.09
+    - 3.0
+  color_ral: '7044'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-grey-ral-7044-0-4b72bb38.png
+    type: unspecified

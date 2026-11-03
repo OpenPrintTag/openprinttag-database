@@ -1,0 +1,30 @@
+uuid: c21e4422-00c7-54a0-82a9-936a9597c784
+slug: extrudr-durapro-pa6-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: DuraPro PA6 CF black | RAL 9017
+class: FFF
+type: PA6
+abbreviation: PA6CF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.17
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pa6-cf-black-ral-9017-0-e76ae340.png
+    type: unspecified

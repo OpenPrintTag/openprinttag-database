@@ -1,0 +1,30 @@
+uuid: bcd7a3c1-b655-501e-bc58-d1fc63f7b3f1
+slug: extrudr-durapro-asa-gf-nature-ral-1013
+brand:
+  slug: extrudr
+name: DuraPro ASA GF nature | RAL 1013
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
+  color_ral: '1013'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-nature-ral-1013-0-9af898e6.png
+    type: unspecified

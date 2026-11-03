@@ -1,0 +1,27 @@
+uuid: b0c12ed0-2346-5c76-8bc8-303f235c2ff9
+slug: extrudr-pla-hs-yellow-ral-1023
+brand:
+  slug: extrudr
+name: PLA HS yellow | RAL 1023
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffd342ff'
+  color_lab:
+    - 86.13
+    - 1.48
+    - 73.08
+  color_ral: '1023'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-yellow-ral-1023-0-0acf00a8.png
+    type: unspecified

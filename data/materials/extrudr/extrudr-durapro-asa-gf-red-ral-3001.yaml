@@ -1,0 +1,30 @@
+uuid: 63404fe5-89c5-51a7-8bf1-8770eaaaf97a
+slug: extrudr-durapro-asa-gf-red-ral-3001
+brand:
+  slug: extrudr
+name: DuraPro ASA GF red | RAL 3001
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#e03f26ff'
+  color_lab:
+    - 51.32
+    - 60.79
+    - 50.28
+  color_ral: '3001'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-red-ral-3001-0-d596cc6b.png
+    type: unspecified

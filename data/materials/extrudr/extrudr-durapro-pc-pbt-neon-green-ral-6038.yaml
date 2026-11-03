@@ -1,0 +1,27 @@
+uuid: 1bc44dfd-8e9f-5967-9592-b4dbc7e6baa0
+slug: extrudr-durapro-pc-pbt-neon-green-ral-6038
+brand:
+  slug: extrudr
+name: DuraPro PC/PBT neon green | RAL 6038
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#9aed51ff'
+  color_lab:
+    - 86.02
+    - -49.78
+    - 65.05
+  color_ral: '6038'
+tags:
+  - neon
+properties:
+  density: 1.2
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pc-pbt-neon-green-ral-6038-0-58243b03.png
+    type: unspecified

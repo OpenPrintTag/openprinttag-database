@@ -1,0 +1,27 @@
+uuid: 321cdc3c-5a44-5777-8830-3277bbaa40f5
+slug: extrudr-xpetg-matt-orange-ral-2009
+brand:
+  slug: extrudr
+name: XPETG MATT orange | RAL 2009
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff9a14ff'
+  color_lab:
+    - 72.51
+    - 29.83
+    - 74.65
+  color_ral: '2009'
+tags:
+  - matte
+properties:
+  density: 1.36
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-xpetg-matt-orange-ral-2009-0-3581b26d.png
+    type: unspecified

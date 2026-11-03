@@ -1,0 +1,28 @@
+uuid: b4300455-e540-5605-9418-d91b773328df
+slug: extrudr-pla-hs-neon-orange-ral-2005
+brand:
+  slug: extrudr
+name: PLA HS neon orange | RAL 2005
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f67405ff'
+  color_lab:
+    - 63.43
+    - 45.27
+    - 70.41
+  color_ral: '2005'
+tags:
+  - high_speed
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-neon-orange-ral-2005-0-dc77d140.png
+    type: unspecified

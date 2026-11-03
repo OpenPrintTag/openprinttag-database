@@ -1,0 +1,28 @@
+uuid: 52c26166-eda7-593a-853b-c54a9df3ff6c
+slug: extrudr-flex-medium-matt-silver-ral-9006
+brand:
+  slug: extrudr
+name: FLEX Medium MATT silver | RAL 9006
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#a8b0bdff'
+  color_lab:
+    - 71.59
+    - -0.18
+    - -7.58
+  color_ral: '9006'
+tags:
+  - matte
+properties:
+  density: 1.18
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-medium-matt-silver-ral-9006-0-0880e35c.png
+    type: unspecified

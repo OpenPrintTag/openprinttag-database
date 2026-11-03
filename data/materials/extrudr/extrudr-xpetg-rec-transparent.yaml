@@ -1,0 +1,25 @@
+uuid: 4893deeb-abc8-5fd4-bc17-1880e1113fe3
+slug: extrudr-xpetg-rec-transparent
+brand:
+  slug: extrudr
+name: XPETG REC transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e4e7e5ff'
+  color_lab:
+    - 91.37
+    - -1.36
+    - 0.62
+tags:
+  - recycled
+  - translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/extrudr-xpetg-rec-transparent-0-b8b6889f.jpg
+    type: unspecified

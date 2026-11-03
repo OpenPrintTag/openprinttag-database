@@ -1,0 +1,31 @@
+uuid: 46ad6d0c-c531-55cc-beb9-771106d4a5d9
+slug: extrudr-durapro-asa-gf-neon-green-ral-6038
+brand:
+  slug: extrudr
+name: DuraPro ASA GF neon green | RAL 6038
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#9aed51ff'
+  color_lab:
+    - 86.02
+    - -49.78
+    - 65.05
+  color_ral: '6038'
+tags:
+  - neon
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-neon-green-ral-6038-0-996ca1f0.png
+    type: unspecified

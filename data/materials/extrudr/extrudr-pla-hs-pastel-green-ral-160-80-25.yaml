@@ -1,0 +1,27 @@
+uuid: 4ce5bcaa-8110-5ae2-a8fa-dadc0dbc7a8a
+slug: extrudr-pla-hs-pastel-green-ral-160-80-25
+brand:
+  slug: extrudr
+name: PLA HS pastel green | RAL 160 80 25
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#95d2b8ff'
+  color_lab:
+    - 79.58
+    - -24.93
+    - 6.67
+  color_ral: 160 80 25
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-pastel-green-ral-160-80-25-0-d6863c57.png
+    type: unspecified

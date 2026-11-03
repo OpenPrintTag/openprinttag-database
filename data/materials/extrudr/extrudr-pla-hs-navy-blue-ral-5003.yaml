@@ -1,0 +1,27 @@
+uuid: fa3741ae-5038-53ae-826c-33af73c4b098
+slug: extrudr-pla-hs-navy-blue-ral-5003
+brand:
+  slug: extrudr
+name: PLA HS navy blue | RAL 5003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+  color_ral: '5003'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-navy-blue-ral-5003-0-8463c970.png
+    type: unspecified

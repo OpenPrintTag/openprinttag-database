@@ -1,0 +1,27 @@
+uuid: 23249762-4f71-54e3-bbbc-4fb7321fadaa
+slug: extrudr-pla-hs-light-blue-ral-5012
+brand:
+  slug: extrudr
+name: PLA HS light blue | RAL 5012
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2e56f1ff'
+  color_lab:
+    - 43.63
+    - 41.97
+    - -81.16
+  color_ral: '5012'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-light-blue-ral-5012-0-9b7ec1a0.png
+    type: unspecified

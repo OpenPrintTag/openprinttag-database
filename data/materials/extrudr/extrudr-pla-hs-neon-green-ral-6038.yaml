@@ -1,0 +1,28 @@
+uuid: 8b5161b4-d28e-5965-8443-a70409e28e9d
+slug: extrudr-pla-hs-neon-green-ral-6038
+brand:
+  slug: extrudr
+name: PLA HS neon green | RAL 6038
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#9aed51ff'
+  color_lab:
+    - 86.02
+    - -49.78
+    - 65.05
+  color_ral: '6038'
+tags:
+  - high_speed
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-neon-green-ral-6038-0-90e6cab3.png
+    type: unspecified

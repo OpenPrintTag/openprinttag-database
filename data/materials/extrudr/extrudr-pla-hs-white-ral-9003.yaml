@@ -1,0 +1,27 @@
+uuid: 753cef7f-b93e-5cb3-97ef-a8296362e28f
+slug: extrudr-pla-hs-white-ral-9003
+brand:
+  slug: extrudr
+name: PLA HS white | RAL 9003
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+  color_ral: '9003'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-white-ral-9003-0-dc40a99e.png
+    type: unspecified

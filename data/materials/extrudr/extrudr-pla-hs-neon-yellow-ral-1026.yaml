@@ -1,0 +1,28 @@
+uuid: 5e0dbe3f-c094-5695-8029-459f7ad50250
+slug: extrudr-pla-hs-neon-yellow-ral-1026
+brand:
+  slug: extrudr
+name: PLA HS neon yellow | RAL 1026
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fffb00ff'
+  color_lab:
+    - 96.1
+    - -19.65
+    - 93.72
+  color_ral: '1026'
+tags:
+  - high_speed
+  - neon
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-neon-yellow-ral-1026-0-1a8684e9.png
+    type: unspecified

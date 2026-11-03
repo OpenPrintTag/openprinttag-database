@@ -1,0 +1,27 @@
+uuid: ef8a3d00-ae14-58d7-9657-0d8e4f1caef4
+slug: extrudr-pla-hs-red-ral-3001
+brand:
+  slug: extrudr
+name: PLA HS red | RAL 3001
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e03f26ff'
+  color_lab:
+    - 51.32
+    - 60.79
+    - 50.28
+  color_ral: '3001'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-red-ral-3001-0-aba69439.png
+    type: unspecified

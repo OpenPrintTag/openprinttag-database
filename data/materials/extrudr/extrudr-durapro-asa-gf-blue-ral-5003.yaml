@@ -1,0 +1,30 @@
+uuid: 9e62e465-9923-559a-a31f-25667616de0b
+slug: extrudr-durapro-asa-gf-blue-ral-5003
+brand:
+  slug: extrudr
+name: DuraPro ASA GF blue | RAL 5003
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+  color_ral: '5003'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-blue-ral-5003-0-053abaac.png
+    type: unspecified

@@ -1,0 +1,29 @@
+uuid: bc7d3c9c-d414-562d-81ae-bdb898bbfe97
+slug: extrudr-greentec-pro-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: GreenTEC Pro CF black | RAL 9017
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.33
+  min_print_temperature: 225
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 90
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-greentec-pro-cf-black-ral-9017-0-c435f797.png
+    type: unspecified

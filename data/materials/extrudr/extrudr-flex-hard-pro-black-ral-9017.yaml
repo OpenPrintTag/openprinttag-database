@@ -1,0 +1,26 @@
+uuid: e374516c-625d-5c58-9d71-920876ddad9d
+slug: extrudr-flex-hard-pro-black-ral-9017
+brand:
+  slug: extrudr
+name: FLEX Hard Pro black | RAL 9017
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+properties:
+  density: 1.22
+  hardness_shore_d: 65.0
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-hard-pro-black-ral-9017-0-7d0c14cc.png
+    type: unspecified

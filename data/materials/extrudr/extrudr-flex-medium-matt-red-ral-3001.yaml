@@ -1,0 +1,28 @@
+uuid: c3cf49be-0dc2-5728-bf79-b11ef2a295c8
+slug: extrudr-flex-medium-matt-red-ral-3001
+brand:
+  slug: extrudr
+name: FLEX Medium MATT red | RAL 3001
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e03f26ff'
+  color_lab:
+    - 51.32
+    - 60.79
+    - 50.28
+  color_ral: '3001'
+tags:
+  - matte
+properties:
+  density: 1.18
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-medium-matt-red-ral-3001-0-19a821d6.png
+    type: unspecified

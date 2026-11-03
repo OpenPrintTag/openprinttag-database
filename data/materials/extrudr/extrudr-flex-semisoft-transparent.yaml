@@ -8,9 +8,20 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-flex-semisoft-transparent/84bedf9ce420.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-flex-semisoft-transparent/84bedf9ce420.png
+    type: unspecified
+properties:
+  density: 1.17
+  hardness_shore_a: 85.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  drying_temperature: 60

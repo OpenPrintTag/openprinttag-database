@@ -1,0 +1,27 @@
+uuid: 39995b16-2e27-5db5-9682-a82ba279ff7d
+slug: extrudr-pla-hs-military-dark-green-ral-6009
+brand:
+  slug: extrudr
+name: PLA HS military dark green | RAL 6009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26392fff'
+  color_lab:
+    - 22.1
+    - -10.26
+    - 3.8
+  color_ral: '6009'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-military-dark-green-ral-6009-0-2a0f9d44.png
+    type: unspecified

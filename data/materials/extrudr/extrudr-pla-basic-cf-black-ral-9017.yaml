@@ -1,0 +1,29 @@
+uuid: 9427186c-7d73-5887-a995-e64c942222e3
+slug: extrudr-pla-basic-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: PLA Basic CF black | RAL 9017
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.26
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-basic-cf-black-ral-9017-0-e59a4ea4.png
+    type: unspecified

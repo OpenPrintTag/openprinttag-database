@@ -1,0 +1,27 @@
+uuid: ff941584-5528-5af5-80a3-acdab38192aa
+slug: extrudr-pla-hs-turquoise-ral-5018
+brand:
+  slug: extrudr
+name: PLA HS turquoise | RAL 5018
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3292b2ff'
+  color_lab:
+    - 56.53
+    - -17.11
+    - -24.79
+  color_ral: '5018'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-turquoise-ral-5018-0-746ae6c3.png
+    type: unspecified

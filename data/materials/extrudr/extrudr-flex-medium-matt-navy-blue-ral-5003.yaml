@@ -1,0 +1,28 @@
+uuid: ad78c214-8e51-5350-b8de-9b919ae21e04
+slug: extrudr-flex-medium-matt-navy-blue-ral-5003
+brand:
+  slug: extrudr
+name: FLEX Medium MATT navy blue | RAL 5003
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+  color_ral: '5003'
+tags:
+  - matte
+properties:
+  density: 1.18
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-medium-matt-navy-blue-ral-5003-0-c58b94e6.png
+    type: unspecified

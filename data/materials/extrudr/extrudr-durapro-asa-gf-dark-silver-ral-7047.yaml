@@ -1,0 +1,30 @@
+uuid: 08aed717-8b2c-567a-aaaa-0f4df278cff0
+slug: extrudr-durapro-asa-gf-dark-silver-ral-7047
+brand:
+  slug: extrudr
+name: DuraPro ASA GF dark silver | RAL 7047
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#c8c8c8ff'
+  color_lab:
+    - 80.6
+    - 0.0
+    - 0.0
+  color_ral: '7047'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-dark-silver-ral-7047-0-39782f8b.png
+    type: unspecified

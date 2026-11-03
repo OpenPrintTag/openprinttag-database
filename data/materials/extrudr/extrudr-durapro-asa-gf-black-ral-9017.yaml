@@ -1,0 +1,30 @@
+uuid: b2bd1bd8-3533-508f-88ac-ee17f6e05f48
+slug: extrudr-durapro-asa-gf-black-ral-9017
+brand:
+  slug: extrudr
+name: DuraPro ASA GF black | RAL 9017
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-black-ral-9017-0-e4240891.png
+    type: unspecified

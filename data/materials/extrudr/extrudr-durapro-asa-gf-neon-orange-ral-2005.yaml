@@ -1,0 +1,31 @@
+uuid: 8b653e0f-15cd-5757-9650-3bcc6aa59b3e
+slug: extrudr-durapro-asa-gf-neon-orange-ral-2005
+brand:
+  slug: extrudr
+name: DuraPro ASA GF neon orange | RAL 2005
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#f67405ff'
+  color_lab:
+    - 63.43
+    - 45.27
+    - 70.41
+  color_ral: '2005'
+tags:
+  - neon
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-neon-orange-ral-2005-0-3eb8d845.png
+    type: unspecified

@@ -8,10 +8,22 @@ type: PA12
 abbreviation: PA12
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-durapro-pa12-cf-black-ral-9017/3c1ec80055da.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-durapro-pa12-cf-black-ral-9017/3c1ec80055da.png
+    type: unspecified
+properties:
+  density: 1.07
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65

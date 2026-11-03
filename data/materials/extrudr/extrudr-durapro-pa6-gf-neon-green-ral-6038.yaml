@@ -1,0 +1,31 @@
+uuid: d91a9ef6-550b-5f7a-8342-c98b68f023c8
+slug: extrudr-durapro-pa6-gf-neon-green-ral-6038
+brand:
+  slug: extrudr
+name: DuraPro PA6 GF neon green | RAL 6038
+class: FFF
+type: PA6
+abbreviation: PA6GF
+primary_color:
+  color_rgba: '#9aed51ff'
+  color_lab:
+    - 86.02
+    - -49.78
+    - 65.05
+  color_ral: '6038'
+tags:
+  - neon
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.2
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pa6-gf-neon-green-ral-6038-0-6fd1ee15.png
+    type: unspecified

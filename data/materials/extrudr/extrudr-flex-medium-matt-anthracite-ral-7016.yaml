@@ -1,0 +1,28 @@
+uuid: 48dc2333-9fc6-596b-b885-443dad0be52d
+slug: extrudr-flex-medium-matt-anthracite-ral-7016
+brand:
+  slug: extrudr
+name: FLEX Medium MATT anthracite | RAL 7016
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#55555eff'
+  color_lab:
+    - 36.44
+    - 2.01
+    - -5.2
+  color_ral: '7016'
+tags:
+  - matte
+properties:
+  density: 1.18
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-medium-matt-anthracite-ral-7016-0-3b2e6930.png
+    type: unspecified

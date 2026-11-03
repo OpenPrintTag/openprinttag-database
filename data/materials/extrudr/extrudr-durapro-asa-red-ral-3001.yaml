@@ -8,7 +8,19 @@ type: ASA
 abbreviation: ASA
 primary_color:
   color_rgba: '#d33d3dff'
+  color_lab:
+    - 48.92
+    - 58.24
+    - 34.78
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-durapro-asa-red-ral-3001/466263760622.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-durapro-asa-red-ral-3001/466263760622.png
+    type: unspecified
+properties:
+  density: 1.1
+  min_print_temperature: 220
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 60
+tags:
+  - filtration_recommended

@@ -1,0 +1,29 @@
+uuid: a24a3355-9d6b-5db2-916d-daba5d0b1a17
+slug: extrudr-xpetg-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: XPETG CF black | RAL 9017
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.31
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-xpetg-cf-black-ral-9017-0-fff2835b.png
+    type: unspecified

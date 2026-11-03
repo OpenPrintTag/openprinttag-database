@@ -1,0 +1,25 @@
+uuid: 1ab6f539-4a5c-5726-8021-b2a6a8d0ed34
+slug: extrudr-xpetg-rec-black-ral-9017
+brand:
+  slug: extrudr
+name: XPETG REC black | RAL 9017
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/extrudr-xpetg-rec-black-ral-9017-0-80cd2659.jpg
+    type: unspecified

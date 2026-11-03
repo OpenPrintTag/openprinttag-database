@@ -1,0 +1,27 @@
+uuid: d2b9896d-89ef-5f9b-aae7-e8b9baf1a300
+slug: extrudr-pla-hs-metallic-ral-9023
+brand:
+  slug: extrudr
+name: PLA HS metallic | RAL 9023
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6a6c6eff'
+  color_lab:
+    - 45.52
+    - -0.35
+    - -1.38
+  color_ral: '9023'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-metallic-ral-9023-0-d9c4a35b.png
+    type: unspecified

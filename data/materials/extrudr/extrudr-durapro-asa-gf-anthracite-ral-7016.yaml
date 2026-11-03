@@ -1,0 +1,30 @@
+uuid: 4a89714f-18ff-5935-b484-ca4794f9ee28
+slug: extrudr-durapro-asa-gf-anthracite-ral-7016
+brand:
+  slug: extrudr
+name: DuraPro ASA GF anthracite | RAL 7016
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#55555eff'
+  color_lab:
+    - 36.44
+    - 2.01
+    - -5.2
+  color_ral: '7016'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-anthracite-ral-7016-0-51201d73.png
+    type: unspecified

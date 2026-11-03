@@ -1,0 +1,31 @@
+uuid: 5aaa8799-73eb-528b-9c35-d8a67bfcbb1b
+slug: extrudr-durapro-asa-gf-neon-yellow-ral-1026
+brand:
+  slug: extrudr
+name: DuraPro ASA GF neon yellow | RAL 1026
+class: FFF
+type: ASA
+abbreviation: ASAGF
+primary_color:
+  color_rgba: '#fffb00ff'
+  color_lab:
+    - 96.1
+    - -19.65
+    - 93.72
+  color_ral: '1026'
+tags:
+  - neon
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-gf-neon-yellow-ral-1026-0-f4378ce2.png
+    type: unspecified

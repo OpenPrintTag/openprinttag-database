@@ -1,0 +1,27 @@
+uuid: bb007d7e-60dc-5218-90d8-fee300bf4c69
+slug: extrudr-pla-hs-hellfire-red-ral-3024
+brand:
+  slug: extrudr
+name: PLA HS hellfire red | RAL 3024
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ce5d4cff'
+  color_lab:
+    - 53.47
+    - 43.54
+    - 31.48
+  color_ral: '3024'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-hellfire-red-ral-3024-0-1e2da64f.png
+    type: unspecified

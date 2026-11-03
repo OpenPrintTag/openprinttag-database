@@ -1,0 +1,27 @@
+uuid: 165a9a0c-4b5a-5fe7-b1e7-67ff5aa03950
+slug: extrudr-pla-hs-black-ral-9017
+brand:
+  slug: extrudr
+name: PLA HS black | RAL 9017
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-black-ral-9017-0-42cc7518.png
+    type: unspecified

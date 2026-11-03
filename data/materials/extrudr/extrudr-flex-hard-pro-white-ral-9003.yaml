@@ -1,0 +1,26 @@
+uuid: fc2d55a7-a166-5827-83f1-be7b797de66e
+slug: extrudr-flex-hard-pro-white-ral-9003
+brand:
+  slug: extrudr
+name: FLEX Hard Pro white | RAL 9003
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+  color_ral: '9003'
+properties:
+  density: 1.22
+  hardness_shore_d: 65.0
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-hard-pro-white-ral-9003-0-5f6af30d.png
+    type: unspecified

@@ -1,0 +1,30 @@
+uuid: 6e86b51e-8ee9-5d64-9987-6d3424107ead
+slug: extrudr-durapro-pa6-gf-nature-ral-1013
+brand:
+  slug: extrudr
+name: DuraPro PA6 GF nature | RAL 1013
+class: FFF
+type: PA6
+abbreviation: PA6GF
+primary_color:
+  color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
+  color_ral: '1013'
+tags:
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.2
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pa6-gf-nature-ral-1013-0-2bf2ecca.png
+    type: unspecified

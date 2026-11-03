@@ -1,0 +1,28 @@
+uuid: ca783a37-20f1-5dfe-b914-996dc5a95f8e
+slug: extrudr-flex-medium-matt-black-ral-9017
+brand:
+  slug: extrudr
+name: FLEX Medium MATT black | RAL 9017
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - matte
+properties:
+  density: 1.18
+  hardness_shore_a: 98.0
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-flex-medium-matt-black-ral-9017-0-9bbea4a8.png
+    type: unspecified

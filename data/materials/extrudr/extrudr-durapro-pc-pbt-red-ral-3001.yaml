@@ -1,0 +1,25 @@
+uuid: bdca1c6e-5f3a-507e-af98-2e723ade21a0
+slug: extrudr-durapro-pc-pbt-red-ral-3001
+brand:
+  slug: extrudr
+name: DuraPro PC/PBT red | RAL 3001
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#e03f26ff'
+  color_lab:
+    - 51.32
+    - 60.79
+    - 50.28
+  color_ral: '3001'
+properties:
+  density: 1.2
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pc-pbt-red-ral-3001-0-4e7e5dbf.png
+    type: unspecified

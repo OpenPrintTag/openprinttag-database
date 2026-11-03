@@ -1,0 +1,31 @@
+uuid: 938d25fe-5213-5f7f-be85-ed193479a5cf
+slug: extrudr-durapro-pa6-gf-neon-orange-ral-2005
+brand:
+  slug: extrudr
+name: DuraPro PA6 GF neon orange | RAL 2005
+class: FFF
+type: PA6
+abbreviation: PA6GF
+primary_color:
+  color_rgba: '#f67405ff'
+  color_lab:
+    - 63.43
+    - 45.27
+    - 70.41
+  color_ral: '2005'
+tags:
+  - neon
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
+properties:
+  density: 1.2
+  min_print_temperature: 270
+  max_print_temperature: 300
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pa6-gf-neon-orange-ral-2005-0-0eea1089.png
+    type: unspecified

@@ -1,0 +1,30 @@
+uuid: 92442195-4685-5c81-8391-bcf5eb31f5ec
+slug: extrudr-durapro-abs-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: DuraPro ABS CF black | RAL 9017
+class: FFF
+type: ABS
+abbreviation: ABSCF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-durapro-abs-cf-black-ral-9017-0-104aec29.png
+    type: unspecified

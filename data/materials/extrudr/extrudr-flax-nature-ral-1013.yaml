@@ -8,10 +8,19 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#eadac2ff'
+  color_lab:
+    - 87.74
+    - 1.64
+    - 13.8
 tags:
-- industrially_compostable
-- contains_organic_material
+  - contains_organic_material
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-flax-nature-ral-1013/05ca981731c5.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-flax-nature-ral-1013/05ca981731c5.png
+    type: unspecified
+properties:
+  density: 1.45
+  min_print_temperature: 180
+  max_print_temperature: 240
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50

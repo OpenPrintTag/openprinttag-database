@@ -1,0 +1,25 @@
+uuid: dd922074-3ab2-5c76-a75e-cd0169d53c4e
+slug: extrudr-xpetg-rec-white-ral-9003
+brand:
+  slug: extrudr
+name: XPETG REC white | RAL 9003
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+  color_ral: '9003'
+tags:
+  - recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/extrudr-xpetg-rec-white-ral-9003-0-931b3854.jpg
+    type: unspecified

@@ -8,10 +8,22 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-flex-hard-cf-black-ral-9017/e676d704e3b4.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-flex-hard-cf-black-ral-9017/e676d704e3b4.png
+    type: unspecified
+properties:
+  density: 1.22
+  hardness_shore_d: 70.0
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  drying_temperature: 60

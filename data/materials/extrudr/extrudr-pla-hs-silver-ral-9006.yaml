@@ -1,0 +1,27 @@
+uuid: 6bbc23f8-9125-52a6-b06c-c024fc238571
+slug: extrudr-pla-hs-silver-ral-9006
+brand:
+  slug: extrudr
+name: PLA HS silver | RAL 9006
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a8b0bdff'
+  color_lab:
+    - 71.59
+    - -0.18
+    - -7.58
+  color_ral: '9006'
+tags:
+  - high_speed
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-hs-silver-ral-9006-0-62036bed.png
+    type: unspecified

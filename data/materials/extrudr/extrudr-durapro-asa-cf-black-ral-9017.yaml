@@ -1,0 +1,30 @@
+uuid: 80d2412a-6005-5ab6-a8b2-2ac26ca1091e
+slug: extrudr-durapro-asa-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: DuraPro ASA CF black | RAL 9017
+class: FFF
+type: ASA
+abbreviation: ASACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.13
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-durapro-asa-cf-black-ral-9017-0-1c4dc854.jpg
+    type: unspecified

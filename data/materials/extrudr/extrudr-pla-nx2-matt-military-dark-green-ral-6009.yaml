@@ -1,0 +1,27 @@
+uuid: 39e19a77-1988-572c-828a-3f1d6c5db65a
+slug: extrudr-pla-nx2-matt-military-dark-green-ral-6009
+brand:
+  slug: extrudr
+name: PLA NX2 MATT military dark green | RAL 6009
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#26392fff'
+  color_lab:
+    - 22.1
+    - -10.26
+    - 3.8
+  color_ral: '6009'
+tags:
+  - matte
+properties:
+  density: 1.3
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
+photos:
+  - url: /tmp/assets/extrudr-pla-nx2-matt-military-dark-green-ral-6009-0-013a9cef.png
+    type: unspecified

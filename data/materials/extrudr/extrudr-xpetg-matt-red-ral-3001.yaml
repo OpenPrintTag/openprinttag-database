@@ -1,0 +1,27 @@
+uuid: 7d8df3f9-6562-5294-b836-2ae554e6377a
+slug: extrudr-xpetg-matt-red-ral-3001
+brand:
+  slug: extrudr
+name: XPETG MATT red | RAL 3001
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e03f26ff'
+  color_lab:
+    - 51.32
+    - 60.79
+    - 50.28
+  color_ral: '3001'
+tags:
+  - matte
+properties:
+  density: 1.36
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60
+photos:
+  - url: /tmp/assets/extrudr-xpetg-matt-red-ral-3001-0-cf6802b3.png
+    type: unspecified

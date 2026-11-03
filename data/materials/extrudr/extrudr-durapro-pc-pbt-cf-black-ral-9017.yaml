@@ -1,0 +1,29 @@
+uuid: c8ea390e-5e8d-5fa8-9696-06b374e421ca
+slug: extrudr-durapro-pc-pbt-cf-black-ral-9017
+brand:
+  slug: extrudr
+name: DuraPro PC/PBT CF black | RAL 9017
+class: FFF
+type: PC
+abbreviation: PCPBTCF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.25
+  min_print_temperature: 265
+  max_print_temperature: 295
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/extrudr-durapro-pc-pbt-cf-black-ral-9017-0-778d3c16.png
+    type: unspecified
