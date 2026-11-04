@@ -8,9 +8,19 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#fad61bff'
+  color_lab:
+    - 86.26
+    - -3.26
+    - 83.42
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-pla-basic-cmyk-lithoyellow-ral-1026/a322ff36a146.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-pla-basic-cmyk-lithoyellow-ral-1026/a322ff36a146.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50

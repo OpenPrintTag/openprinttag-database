@@ -8,9 +8,19 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#efe8d8ff'
+  color_lab:
+    - 92.14
+    - -0.33
+    - 8.62
 tags:
-- filtration_recommended
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-durapro-abs-nature-ral-1013/48820bbca1ac.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-durapro-abs-nature-ral-1013/48820bbca1ac.png
+    type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 60

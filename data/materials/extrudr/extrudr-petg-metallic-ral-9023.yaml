@@ -8,7 +8,17 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#45444aff'
+  color_lab:
+    - 29.14
+    - 1.78
+    - -3.46
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-petg-metallic-ral-9023/464ed71d9461.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-petg-metallic-ral-9023/464ed71d9461.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60

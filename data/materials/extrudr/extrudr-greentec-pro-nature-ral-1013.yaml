@@ -8,9 +8,19 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#f1e6b2ff'
+  color_lab:
+    - 91.01
+    - -4.19
+    - 26.74
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-greentec-pro-nature-ral-1013/03b26f63fcdd.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-greentec-pro-nature-ral-1013/03b26f63fcdd.png
+    type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 90
+  drying_temperature: 60

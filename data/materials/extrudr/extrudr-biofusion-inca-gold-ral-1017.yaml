@@ -8,10 +8,19 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#f6c500ff'
+  color_lab:
+    - 81.58
+    - 3.43
+    - 82.98
 tags:
-- silk
-- industrially_compostable
+  - silk
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-biofusion-inca-gold-ral-1017/68ccde29a921.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-biofusion-inca-gold-ral-1017/68ccde29a921.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 60

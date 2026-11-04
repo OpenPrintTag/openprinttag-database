@@ -8,7 +8,18 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-flex-hard-black-ral-9017/431a1a049e6c.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-flex-hard-black-ral-9017/431a1a049e6c.png
+    type: unspecified
+properties:
+  density: 1.19
+  hardness_shore_d: 58.0
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+  drying_temperature: 60

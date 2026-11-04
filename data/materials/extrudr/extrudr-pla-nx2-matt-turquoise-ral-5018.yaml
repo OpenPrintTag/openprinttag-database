@@ -8,10 +8,19 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#6ac4cdff'
+  color_lab:
+    - 74.16
+    - -24.52
+    - -12.85
 tags:
-- matte
-- industrially_compostable
+  - matte
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-pla-nx2-matt-turquoise-ral-5018/c2a2e37a4763.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-pla-nx2-matt-turquoise-ral-5018/c2a2e37a4763.png
+    type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 50
