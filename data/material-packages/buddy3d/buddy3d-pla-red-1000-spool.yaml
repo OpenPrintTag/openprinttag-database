@@ -1,10 +1,11 @@
-uuid: e46cfc91-230b-5986-84cf-c1d65b98c993
+uuid: 19a73317-2051-5e53-83a9-feda3a37592a
 slug: buddy3d-pla-red-1000-spool
 class: FFF
 material:
   slug: buddy3d-pla-red
 nominal_netto_full_weight: 1000
-gtin: 8594173673021
+gtin: 8594173672383
 container:
   slug: buddy3d-spool-1kg
 filament_diameter: 1750
+nominal_full_length: 335570
