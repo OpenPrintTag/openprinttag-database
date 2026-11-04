@@ -1,0 +1,17 @@
+uuid: a37a8b2e-464c-548f-8102-ac559ce36e13
+slug: smart-print-tpu-gray
+brand:
+  slug: smart-print
+name: TPU Gray
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://3dstisk.com/produkt/smart-print-tpu-gray-seda-1-kg/'
+primary_color:
+  color_rgba: '#707778ff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

@@ -10,9 +10,22 @@ url: https://cookiecad.com/products/solar-flare-pla-filament-1-75mm-1kg?Quantity
 primary_color:
   color_rgba: '#fadb24ff'
 secondary_colors:
+- color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
 - color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
 tags:
 - iridescent
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-solar-flare-pla/cookiecad-solar-flare-pla-0-91c20846.jpg
+  type: unspecified

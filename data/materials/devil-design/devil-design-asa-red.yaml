@@ -9,4 +9,17 @@ abbreviation: ASA
 url: https://www.smart3d.cz/en/p/filament-devil-design-asa-red-1-75-mm-0-8-kg#
 primary_color:
   color_rgba: '#ec0000ff'
-properties: {}
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-asa-red/devil-design-asa-red-0-8401e52f.png
+  type: unspecified

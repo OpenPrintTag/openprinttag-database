@@ -1,0 +1,17 @@
+uuid: '8823abb2-583c-5132-bf8d-d26458fce67d'
+slug: professional-lab-pla-light-brown
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P164-E1
+name: PLA Light Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-light-brown-1-kg/'
+primary_color:
+  color_rgba: '#ac7f5dff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

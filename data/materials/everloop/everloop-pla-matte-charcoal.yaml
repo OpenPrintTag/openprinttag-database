@@ -1,0 +1,23 @@
+uuid: '7d601a53-bd74-5d1b-a71a-acd1dd9e094a'
+slug: everloop-pla-matte-charcoal
+brand:
+  slug: everloop
+name: PLA Matte Charcoal
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/matte-charcoal-rpla-premium'
+primary_color:
+  color_rgba: '#383737ff'
+tags:
+- recycled
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

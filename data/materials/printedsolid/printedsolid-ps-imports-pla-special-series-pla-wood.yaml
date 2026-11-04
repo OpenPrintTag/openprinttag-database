@@ -8,10 +8,13 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#8e5850ff'
+  color_lab:
+    - 43.23
+    - 21.32
+    - 14.01
 tags:
-- imitates_wood
-- industrially_compostable
+  - imitates_wood
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-special-series-pla-wood/a2a617632a7c.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-special-series-pla-wood/a2a617632a7c.png
+    type: unspecified
 properties: {}

@@ -8,6 +8,10 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#8d6e97ff'
+  color_lab:
+    - 50.74
+    - 19.98
+    - -17.59
 tags:
   - imitates_metal
 photos:

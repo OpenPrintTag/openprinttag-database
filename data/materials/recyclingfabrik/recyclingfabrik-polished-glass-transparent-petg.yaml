@@ -1,0 +1,21 @@
+uuid: 209a972d-936f-560d-b9ba-43b479e7f514
+slug: recyclingfabrik-polished-glass-transparent-petg
+brand:
+  slug: recyclingfabrik
+name: Polished Glass (Transparent) PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/poliertes-glas-transparent-petg
+tags:
+- recycled
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

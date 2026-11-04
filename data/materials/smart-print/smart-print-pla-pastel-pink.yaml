@@ -1,0 +1,16 @@
+uuid: '484b5905-0cdf-5543-8e9b-ba39f2d1282d'
+slug: smart-print-pla-pastel-pink
+brand:
+  slug: smart-print
+name: PLA Pastel Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-pastel-pink-ruzova-1-kg/'
+primary_color:
+  color_rgba: '#e5acc1ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

@@ -8,11 +8,16 @@ type: TPE
 abbreviation: TPE
 primary_color:
   color_rgba: '#ede04bff'
+  color_lab:
+    - 87.88
+    - -12.17
+    - 70.98
+  color_ral: '1016'
 properties:
   density: 0.89
   hardness_shore_a: 88.0
   min_print_temperature: 220
   max_print_temperature: 240
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-sulfur-yellow/filamentpm-tpe-88-rubberjet-flex-sulfur-yellow-0-c22307ff.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-88-rubberjet-flex-sulfur-yellow/filamentpm-tpe-88-rubberjet-flex-sulfur-yellow-0-c22307ff.jpg
+    type: unspecified

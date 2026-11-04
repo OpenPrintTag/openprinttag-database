@@ -1,0 +1,17 @@
+uuid: fc4afb6f-c726-5c5d-8d0c-8a515eb19729
+slug: professional-lab-petg-matte-brown
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P220-E1
+name: PETG Matte Brown
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260313465'
+primary_color:
+  color_rgba: '#6c4a2bff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

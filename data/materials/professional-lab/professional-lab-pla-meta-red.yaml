@@ -1,0 +1,17 @@
+uuid: c926f195-fda8-5931-b0e0-18086d909755
+slug: professional-lab-pla-meta-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P84-E1
+name: PLA Meta Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-meta-red-metallic-red-1-kg/'
+primary_color:
+  color_rgba: '#b4131bff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

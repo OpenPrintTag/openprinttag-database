@@ -9,5 +9,12 @@ abbreviation: TPU
 url: https://www.smart3d.cz/en/p/filament-devil-design-tpu-cerna-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 properties:
-  hardness_shore_d: 55
+  hardness_shore_d: 55.0
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-tpu-black/devil-design-tpu-black-0-5b30abff.png
+  type: unspecified

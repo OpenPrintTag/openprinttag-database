@@ -1,0 +1,23 @@
+uuid: '1bd76537-3774-5a50-ac9b-26719e1c8f3c'
+slug: everloop-pla-matte-white
+brand:
+  slug: everloop
+name: PLA Matte White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/matte-white-matt-weiss-premium-pla'
+primary_color:
+  color_rgba: '#d0d0caff'
+tags:
+- recycled
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-silk-cold-green-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#32a584ff'
+  color_lab:
+  - 61.0
+  - -39.9
+  - 7.94
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-silk-cold-green/devil-design-pla-silk-cold-green-0-aada8f1d.png
+  type: unspecified

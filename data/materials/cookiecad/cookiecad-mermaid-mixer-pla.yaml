@@ -8,9 +8,21 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/mermaid-mixer-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#e65fe2ff'
 - color_rgba: '#97d7d0ff'
+  color_lab:
+  - 81.69
+  - -21.69
+  - -3.05
+- color_rgba: '#e65fe2ff'
+  color_lab:
+  - 62.08
+  - 68.27
+  - -42.13
 tags:
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mermaid-mixer-pla/cookiecad-mermaid-mixer-pla-0-6905c3b9.jpg
+  type: unspecified

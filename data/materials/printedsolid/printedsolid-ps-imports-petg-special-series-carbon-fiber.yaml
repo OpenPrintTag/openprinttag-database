@@ -8,10 +8,15 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- contains_carbon_fiber
-- abrasive
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-petg-special-series-carbon-fiber/58538d31151d.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-petg-special-series-carbon-fiber/58538d31151d.png
+    type: unspecified
 properties: {}

@@ -7,12 +7,20 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#acb1baff'
+  color_rgba: '#a3a9adff'
+  color_lab:
+    - 68.88
+    - -1.33
+    - -2.79
 transmission_distance: 2.3
 tags:
-- imitates_marble
-- industrially_compostable
+  - imitates_marble
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-pla-3dpn-vanilla-bean-ice-cream/32a84cc55614.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-pla-3dpn-vanilla-bean-ice-cream/32a84cc55614.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60

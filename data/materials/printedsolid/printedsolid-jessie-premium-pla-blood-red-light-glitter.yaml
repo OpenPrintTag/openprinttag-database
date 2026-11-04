@@ -7,11 +7,19 @@ class: FFF
 type: PLA
 abbreviation: PLA
 primary_color:
-  color_rgba: '#c01616ff'
+  color_rgba: '#9b3f41ff'
+  color_lab:
+    - 39.42
+    - 38.62
+    - 18.41
 tags:
-- glitter
-- industrially_compostable
+  - glitter
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-pla-blood-red-light-glitter/be3a42e05d0e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-pla-blood-red-light-glitter/be3a42e05d0e.png
+    type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 60

@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-bezova-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#d4b6a3ff'
+  color_lab:
+  - 76.13
+  - 7.83
+  - 13.66
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-beige/devil-design-pla-beige-0-45ce7799.png
+  type: unspecified

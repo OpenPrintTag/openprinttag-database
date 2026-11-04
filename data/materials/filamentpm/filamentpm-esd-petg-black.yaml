@@ -8,8 +8,12 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#3f4444ff'
+  color_lab:
+    - 28.4
+    - -2.06
+    - -0.71
 tags:
-- esd_safe
+  - esd_safe
 properties:
   density: 1.32
   min_print_temperature: 270
@@ -17,5 +21,5 @@ properties:
   min_bed_temperature: 80
   max_bed_temperature: 90
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-esd-petg-black/filamentpm-esd-petg-black-0-3903814b.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-esd-petg-black/filamentpm-esd-petg-black-0-3903814b.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: e7e2d84e-1ab6-5c78-ab8e-a8ad0049d410
+slug: cookiecad-star-dust-tpu-95a
+brand:
+  slug: cookiecad
+name: Star Dust TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#1d1d1dff'
+  color_lab:
+  - 10.77
+  - -0.0
+  - 0.0
+tags:
+- glitter
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-star-dust-tpu-95a/cookiecad-star-dust-tpu-95a-0-5c4930ca.jpg
+  type: unspecified

@@ -8,10 +8,26 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/unicorn-%F0%9F%A6%84-pink-blue-purple-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#ff72b6ff'
-- color_rgba: '#39b9dbff'
 - color_rgba: '#b894e2ff'
+  color_lab:
+  - 67.17
+  - 28.53
+  - -34.58
+- color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
 tags:
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-unicorn-pink-blue-purple-pla/cookiecad-unicorn-pink-blue-purple-pla-0-2e79acfc.jpg
+  type: unspecified

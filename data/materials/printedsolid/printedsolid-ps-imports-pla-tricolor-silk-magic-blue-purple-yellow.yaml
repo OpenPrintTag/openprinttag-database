@@ -7,14 +7,25 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#0099e6ff'
-- color_rgba: '#6c47b2ff'
-- color_rgba: '#fad61bff'
+  - color_rgba: '#fad61bff'
+    color_lab:
+      - 86.26
+      - -3.26
+      - 83.42
+  - color_rgba: '#0099e6ff'
+    color_lab:
+      - 60.33
+      - -5.82
+      - -48.11
+  - color_rgba: '#6c47b2ff'
+    color_lab:
+      - 39.43
+      - 39.86
+      - -51.57
 tags:
-- silk
-- industrially_compostable
-- coextruded
+  - silk
+  - coextruded
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-tricolor-silk-magic-blue-purple-yellow/8c6ea187cd7f.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-tricolor-silk-magic-blue-purple-yellow/8c6ea187cd7f.png
+    type: unspecified
 properties: {}

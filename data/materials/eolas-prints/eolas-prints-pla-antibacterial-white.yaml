@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-antibacterial-filament?variant=49817967132999
 primary_color:
   color_rgba: '#f6f3f7ff'
+  color_lab:
+  - 96.17
+  - 1.7
+  - -1.57
 tags:
 - antibacterial
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-antibacterial-white/eolas-prints-pla-antibacterial-white-0-78cc3158.png
+  type: unspecified

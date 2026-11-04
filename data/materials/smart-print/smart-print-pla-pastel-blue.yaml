@@ -1,0 +1,16 @@
+uuid: '0d954033-cea1-5274-aa11-6fcb591b1e8b'
+slug: smart-print-pla-pastel-blue
+brand:
+  slug: smart-print
+name: PLA Pastel Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-pastel-blue-modra-1-kg/'
+primary_color:
+  color_rgba: '#3f88c7ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

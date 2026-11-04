@@ -1,0 +1,23 @@
+uuid: 8b3ebc59-603b-5282-9cfe-08bd4e653caa
+slug: recyclingfabrik-shining-sapphire-blue-translucent
+brand:
+  slug: recyclingfabrik
+name: Shining Sapphire (Blue-Translucent)
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/leuchtender-saphir-blau-transluzent-rpetg
+primary_color:
+  color_rgba: '#183074ff'
+tags:
+- recycled
+- translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.smart3d.cz/en/p/filament-devil-design-pla-zavodni-zelena-1-75-mm-1-kg
 primary_color:
   color_rgba: '#1e5a4fff'
+  color_lab:
+  - 34.3
+  - -22.22
+  - 0.66
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-pla-race-green/devil-design-pla-race-green-0-a6f97176.png
+  type: unspecified

@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-ingeo-850-filament?variant=42257256841475
 primary_color:
   color_rgba: '#9c9d9dff'
+  color_lab:
+  - 64.66
+  - -0.36
+  - -0.13
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-ingeo-850-grey/eolas-prints-pla-ingeo-850-grey-0-d5878f75.png
+  type: unspecified

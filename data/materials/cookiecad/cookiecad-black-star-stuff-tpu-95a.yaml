@@ -1,0 +1,24 @@
+uuid: 7a5eeee2-d43c-5fa3-a47d-64e82b927943
+slug: cookiecad-black-star-stuff-tpu-95a
+brand:
+  slug: cookiecad
+name: Black Star Stuff TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#1d1d1dff'
+  color_lab:
+  - 10.77
+  - -0.0
+  - 0.0
+tags:
+- glitter
+- translucent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-black-star-stuff-tpu-95a/cookiecad-black-star-stuff-tpu-95a-0-0fd3362a.jpg
+  type: unspecified

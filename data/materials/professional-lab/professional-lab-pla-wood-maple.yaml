@@ -1,0 +1,21 @@
+uuid: '080eff02-c301-5485-94c7-4cceae65a0f0'
+slug: professional-lab-pla-wood-maple
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P159-E1
+name: PLA Wood Maple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-wood?variant=56985064374649'
+primary_color:
+  color_rgba: '#c49970ff'
+tags:
+- contains_wood
+- imitates_wood
+- abrasive
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

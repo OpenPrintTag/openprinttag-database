@@ -1,0 +1,23 @@
+uuid: 6823cffb-6fc2-5384-b7c6-3a0929cf7bff
+slug: cookiecad-gold-pearl-pla
+brand:
+  slug: cookiecad
+name: Gold Pearl PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
+tags:
+- iridescent
+- neon
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-gold-pearl-pla/cookiecad-gold-pearl-pla-0-21a25dc3.webp
+  type: unspecified

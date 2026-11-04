@@ -1,0 +1,18 @@
+uuid: '4566e97d-ca9f-569b-ad4a-7c84bfd84694'
+slug: professional-lab-pla-silk-dual-color-black-purple
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P102-E1
+name: PLA Silk Dual Color Black Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-dual-color-filament?variant=55954332189049'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

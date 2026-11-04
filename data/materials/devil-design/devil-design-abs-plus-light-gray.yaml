@@ -1,0 +1,25 @@
+uuid: 48432669-3fda-5113-b001-8d320ffe26c3
+slug: devil-design-abs-plus-light-gray
+brand:
+  slug: devil-design
+name: ABS+ LIGHT GRAY
+class: FFF
+type: ABS
+abbreviation: ABS+
+url: https://www.smart3d.cz/en/p/filament-devil-design-abs-light-gray-1-75-mm-1-kg#
+primary_color:
+  color_rgba: '#c8c8c8ff'
+  color_lab:
+  - 80.6
+  - 0.0
+  - 0.0
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 240
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-abs-plus-light-gray/devil-design-abs-plus-light-gray-0-1cb27d19.png
+  type: unspecified

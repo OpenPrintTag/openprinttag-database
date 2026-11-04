@@ -1,0 +1,16 @@
+uuid: '06cefeb0-a309-5189-aa33-0909607033a8'
+slug: smart-print-pla-skin
+brand:
+  slug: smart-print
+name: PLA Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-skin-bezova-1-kg/'
+primary_color:
+  color_rgba: '#e1a589ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

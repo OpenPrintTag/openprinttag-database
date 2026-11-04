@@ -1,0 +1,20 @@
+uuid: '561398d0-f928-56fd-8b59-bcf6fd812f02'
+slug: professional-lab-asa-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P138-E1
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://filamentkontor.de/products/professional-lab-asa?variant=56695638327673'
+primary_color:
+  color_rgba: '#c8082aff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+  density: 1.1

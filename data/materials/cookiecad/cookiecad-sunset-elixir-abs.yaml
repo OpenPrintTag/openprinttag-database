@@ -8,10 +8,25 @@ type: ABS
 abbreviation: ABS
 url: https://cookiecad.com/products/abs-sunset-elixir-abs-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#567bacff'
 - color_rgba: '#ff00a2ff'
+  color_lab:
+  - 55.96
+  - 87.34
+  - -14.57
+- color_rgba: '#567bacff'
+  color_lab:
+  - 50.83
+  - 1.0
+  - -30.07
 tags:
 - iridescent
 - gradual_color_change
 - filtration_recommended
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-sunset-elixir-abs/cookiecad-sunset-elixir-abs-0-cc3e98d4.jpg
+  type: unspecified

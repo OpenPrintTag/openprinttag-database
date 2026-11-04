@@ -1,0 +1,23 @@
+uuid: 4a5ade47-d760-55c7-a6c0-7686c5a82226
+slug: cookiecad-orange-elixir-tpu-95a
+brand:
+  slug: cookiecad
+name: Orange Elixir TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ff8133ff'
+  color_lab:
+  - 67.43
+  - 43.18
+  - 61.15
+tags:
+- iridescent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-orange-elixir-tpu-95a/cookiecad-orange-elixir-tpu-95a-0-337cc723.jpg
+  type: unspecified

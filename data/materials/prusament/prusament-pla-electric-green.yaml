@@ -25,6 +25,8 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+  drying_temperature: 45
+  drying_time: 360
 photos:
   - url: https://files.openprinttag.org/prusament/prusament-pla-electric-green/prusament-pla-electric-green-0-319a0360.jpg
     type: unspecified

@@ -1,0 +1,17 @@
+uuid: 7ec61d3d-7e78-5bc0-9369-730a8c6d9fb1
+slug: geeetech-petg-skin
+brand:
+  slug: geeetech
+name: PETG Skin
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-skin/geeetech-petg-3d-printer-filament-175mm-1kg-spool-2091067.jpg?v=1782872120
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

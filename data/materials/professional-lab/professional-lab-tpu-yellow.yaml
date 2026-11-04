@@ -1,0 +1,20 @@
+uuid: '075d871b-6d4c-5785-ab23-d8915c70ea17'
+slug: professional-lab-tpu-yellow
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P125-E1
+name: TPU Yellow
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://filamentkontor.de/products/professional-lab-tpu?variant=56450983625081'
+primary_color:
+  color_rgba: '#cbce0eff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 205
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+  drying_temperature: 60
+  drying_time: 60

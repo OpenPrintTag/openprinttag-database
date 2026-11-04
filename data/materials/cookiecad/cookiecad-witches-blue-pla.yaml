@@ -9,10 +9,17 @@ abbreviation: PLA
 url: https://cookiecad.com/products/witches-blue-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#6000b0ff'
+  color_lab:
+  - 28.44
+  - 63.8
+  - -68.38
 secondary_colors:
 - color_rgba: '#39b9dbff'
 tags:
 - iridescent
-- silk
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-witches-blue-pla/cookiecad-witches-blue-pla-0-0f8e05bf.jpg
+  type: unspecified

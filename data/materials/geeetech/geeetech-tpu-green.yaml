@@ -1,0 +1,17 @@
+uuid: 3f156a0f-f66e-5cac-bb39-d0fe21a2b9b7
+slug: geeetech-tpu-green
+brand:
+  slug: geeetech
+name: TPU Green
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-tpu-green/geeetech-tpu-3d-printer-filament-175mm-1kg-spool-8296066.jpg?v=1783759749
+  type: package
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

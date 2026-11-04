@@ -1,0 +1,23 @@
+uuid: c7b3ca57-0fbe-5d35-802b-674622f5441a
+slug: professional-lab-asa-gf-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P139-E1
+name: ASA GF Black
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://filamentkontor.de/products/professional-lab-asa-glass-fiber?variant=56985117065593'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- contains_glass_fiber
+- abrasive
+- uv_resistant
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 270
+  max_bed_temperature: 110
+  drying_temperature: 70
+  drying_time: 120
+  density: 1.1

@@ -8,6 +8,11 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#101820ff'
+  color_lab:
+    - 7.84
+    - -0.97
+    - -6.75
+  color_ral: '9011'
 tags:
   - self_extinguishing
 photos:

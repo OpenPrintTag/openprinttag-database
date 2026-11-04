@@ -1,0 +1,17 @@
+uuid: '3a4edaf8-0e08-5d3b-95e0-bd818c33ce6b'
+slug: professional-lab-pla-basic-new-pink
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P75-E1
+name: PLA Basic New Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-new-pink-1-kg/'
+primary_color:
+  color_rgba: '#eb83baff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

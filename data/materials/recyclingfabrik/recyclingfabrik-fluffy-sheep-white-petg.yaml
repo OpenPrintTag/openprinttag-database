@@ -1,0 +1,22 @@
+uuid: 3cba74e0-9dd9-56a8-bc60-0b256a47f923
+slug: recyclingfabrik-fluffy-sheep-white-petg
+brand:
+  slug: recyclingfabrik
+name: Fluffy Sheep (White) PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.recyclingfabrik.com/products/flauschiges-schaf-weiss-petg
+primary_color:
+  color_rgba: '#ddd9d6ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

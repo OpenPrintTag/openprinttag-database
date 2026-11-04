@@ -9,7 +9,18 @@ abbreviation: PETG
 url: https://cookiecad.com/products/petg-purple-star-stuff-petg-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#e65fe2ff'
+  color_lab:
+  - 62.08
+  - 68.27
+  - -42.13
 tags:
 - glitter
 - translucent
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-petg-purple-star-stuff/cookiecad-petg-purple-star-stuff-0-410c5523.jpg
+  type: unspecified

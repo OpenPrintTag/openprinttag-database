@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-silk-filament?variant=48637851631943
 primary_color:
   color_rgba: '#c9774bff'
+  color_lab:
+  - 58.15
+  - 28.05
+  - 37.57
 tags:
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-silk-copper/eolas-prints-pla-silk-copper-0-eb52343b.png
+  type: unspecified

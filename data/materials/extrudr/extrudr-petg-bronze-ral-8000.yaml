@@ -8,7 +8,17 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#a98c4bff'
+  color_lab:
+    - 59.62
+    - 2.79
+    - 38.43
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-petg-bronze-ral-8000/6c20ffdaabcb.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-petg-bronze-ral-8000/6c20ffdaabcb.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60

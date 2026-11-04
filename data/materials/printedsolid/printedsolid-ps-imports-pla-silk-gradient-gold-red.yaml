@@ -7,13 +7,20 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#ffcb47ff'
-- color_rgba: '#e72f1dff'
+  - color_rgba: '#e72f1dff'
+    color_lab:
+      - 50.82
+      - 67.59
+      - 54.46
+  - color_rgba: '#ffcb47ff'
+    color_lab:
+      - 84.19
+      - 5.79
+      - 69.36
 tags:
-- silk
-- industrially_compostable
-- gradual_color_change
+  - silk
+  - gradual_color_change
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-silk-gradient-gold-red/ea416d7f723d.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-silk-gradient-gold-red/ea416d7f723d.png
+    type: unspecified
 properties: {}

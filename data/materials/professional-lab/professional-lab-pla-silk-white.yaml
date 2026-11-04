@@ -1,0 +1,19 @@
+uuid: '25d29d67-b809-5394-a07a-a1269a7f234e'
+slug: professional-lab-pla-silk-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P89-E1
+name: PLA Silk White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-silk-white-1-kg/'
+primary_color:
+  color_rgba: '#dcd8ceff'
+tags:
+- silk
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

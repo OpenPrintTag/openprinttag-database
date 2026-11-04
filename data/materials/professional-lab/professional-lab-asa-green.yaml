@@ -1,0 +1,20 @@
+uuid: '3478ba72-6b1a-5c57-b41b-0ffc549dd8c0'
+slug: professional-lab-asa-green
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P137-E1
+name: ASA Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: 'https://filamentkontor.de/products/professional-lab-asa?variant=56695638360441'
+primary_color:
+  color_rgba: '#06df09ff'
+tags:
+- uv_resistant
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+  density: 1.1

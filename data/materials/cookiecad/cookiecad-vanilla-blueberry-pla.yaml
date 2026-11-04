@@ -10,8 +10,21 @@ url: https://cookiecad.com/products/vanilla-blueberry-pla-filament-1-75mm-1kg?Qu
 primary_color:
   color_rgba: '#eaecf5ff'
 secondary_colors:
+- color_rgba: '#eaecf5ff'
+  color_lab:
+  - 93.48
+  - 0.97
+  - -4.57
 - color_rgba: '#0078bfff'
+  color_lab:
+  - 48.5
+  - -1.28
+  - -44.87
 tags:
 - imitates_marble
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-vanilla-blueberry-pla/cookiecad-vanilla-blueberry-pla-0-6b3567e6.jpg
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: 15a27730-2607-5773-93b4-b41d83dda5dc
+slug: cookiecad-green-apple-elixir-pla
+brand:
+  slug: cookiecad
+name: Green Apple Elixir PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#70fa00ff'
+  color_lab:
+  - 87.88
+  - -70.37
+  - 84.0
+tags:
+- iridescent
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-green-apple-elixir-pla/cookiecad-green-apple-elixir-pla-0-3a7b065b.jpg
+  type: unspecified

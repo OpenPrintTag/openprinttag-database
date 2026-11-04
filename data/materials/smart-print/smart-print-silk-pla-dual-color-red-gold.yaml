@@ -1,0 +1,17 @@
+uuid: '7c2ad08e-ee9f-5403-9a0d-a87d438d768d'
+slug: smart-print-silk-pla-dual-color-red-gold
+brand:
+  slug: smart-print
+name: Silk PLA Dual Color Red Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-dual-color-red-gold-1-kg/'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

@@ -16,6 +16,8 @@ properties:
   chamber_temperature: 20
   min_chamber_temperature: 18
   max_chamber_temperature: 40
+  drying_temperature: 45
+  drying_time: 360
 primary_color:
   color_rgba: '#544f4dff'
   color_lab: [31.2200, 1.0900, 1.5700]

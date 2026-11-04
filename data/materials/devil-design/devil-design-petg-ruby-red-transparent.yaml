@@ -9,6 +9,18 @@ abbreviation: PETG
 url: https://www.smart3d.cz/en/p/filament-devil-design-petg-rubinove-cervena-transparentni-1-75-mm-1-kg#
 primary_color:
   color_rgba: '#ac1a17ff'
+  color_lab:
+  - 37.07
+  - 55.92
+  - 41.17
 tags:
 - translucent
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-ruby-red-transparent/devil-design-petg-ruby-red-transparent-0-2e70b0c7.png
+  type: unspecified

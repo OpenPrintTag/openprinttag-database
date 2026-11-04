@@ -1,0 +1,21 @@
+uuid: '4effc93e-23f0-5125-9aa6-464ea76e870d'
+slug: professional-lab-petg-transparent-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P199-E1
+name: PETG Transparent Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782521721'
+primary_color:
+  color_rgba: '#0e164dff'
+tags:
+- transparent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

@@ -9,7 +9,15 @@ abbreviation: PLA
 url: https://cookiecad.com/products/blue-chip-marble-pla-filament-1-75mm-1kg-1?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
 tags:
 - imitates_marble
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-chip-marble-pla/cookiecad-blue-chip-marble-pla-0-602a3adb.jpg
+  type: unspecified

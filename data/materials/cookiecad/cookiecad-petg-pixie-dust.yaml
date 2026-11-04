@@ -6,4 +6,19 @@ name: PETG Pixie Dust
 class: FFF
 type: PETG
 abbreviation: PETG
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+primary_color:
+  color_rgba: '#ff0066ff'
+  color_lab:
+  - 54.27
+  - 82.87
+  - 18.88
+tags:
+- iridescent
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-petg-pixie-dust/cookiecad-petg-pixie-dust-0-5c38c62f.jpg
+  type: unspecified

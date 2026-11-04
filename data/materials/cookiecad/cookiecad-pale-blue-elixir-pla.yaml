@@ -8,9 +8,17 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/pale-blue-elixir-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
-  color_rgba: '#82e3ecff'
+  color_rgba: '#9ef9ffff'
+  color_lab:
+  - 92.68
+  - -25.64
+  - -11.45
 tags:
 - iridescent
 - silk
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pale-blue-elixir-pla/cookiecad-pale-blue-elixir-pla-0-f9eac213.jpg
+  type: unspecified

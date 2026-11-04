@@ -1,0 +1,24 @@
+uuid: d28da8a4-59b6-5464-b175-3cd1013178db
+slug: cookiecad-purple-star-stuff-tpu-95a
+brand:
+  slug: cookiecad
+name: Purple Star Stuff TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#c63dbaff'
+  color_lab:
+  - 50.56
+  - 67.42
+  - -37.78
+tags:
+- glitter
+- translucent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-purple-star-stuff-tpu-95a/cookiecad-purple-star-stuff-tpu-95a-0-db557d6c.jpg
+  type: unspecified

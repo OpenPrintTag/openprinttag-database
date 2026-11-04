@@ -1,0 +1,16 @@
+uuid: '6d2a0fe4-9068-5690-b55e-d6d5a1aec80f'
+slug: smart-print-petg-pink
+brand:
+  slug: smart-print
+name: PETG Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-pink-ruzova-1-kg/'
+primary_color:
+  color_rgba: '#dc3bbcff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

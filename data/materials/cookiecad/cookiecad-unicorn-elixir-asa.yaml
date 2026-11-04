@@ -8,10 +8,26 @@ type: ASA
 abbreviation: ASA
 url: https://cookiecad.com/products/asa-unicorn-elixir-asa-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#ff72b6ff'
 - color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
 - color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
 tags:
 - iridescent
 - gradual_color_change
+- filtration_recommended
 properties: {}
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-unicorn-elixir-asa/cookiecad-unicorn-elixir-asa-0-ad539ce0.jpg
+  type: unspecified

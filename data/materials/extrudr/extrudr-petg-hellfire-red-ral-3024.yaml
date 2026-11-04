@@ -8,7 +8,17 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e72f1dff'
+  color_lab:
+    - 50.82
+    - 67.59
+    - 54.46
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-petg-hellfire-red-ral-3024/6d11363bc299.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-petg-hellfire-red-ral-3024/6d11363bc299.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60

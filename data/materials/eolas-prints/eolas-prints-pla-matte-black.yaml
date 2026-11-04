@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-matte-filament?variant=42726057902339
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 tags:
-- industrially_compostable
-properties: {}
+- matte
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-matte-black/eolas-prints-pla-matte-black-0-dfda5d18.png
+  type: unspecified

@@ -1,0 +1,29 @@
+uuid: a3dd5caa-d800-5b08-a96f-3b5715734d59
+slug: cookiecad-silk-dual-unicorn-pla
+brand:
+  slug: cookiecad
+name: Silk Dual Unicorn PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#ff72b6ff'
+  color_lab:
+  - 67.03
+  - 60.52
+  - -9.47
+- color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-silk-dual-unicorn-pla/cookiecad-silk-dual-unicorn-pla-0-96bed242.jpg
+  type: unspecified

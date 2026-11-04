@@ -1,0 +1,17 @@
+uuid: a376eee7-6e37-5756-b2bf-cd998e3fd0f1
+slug: professional-lab-abs-plus-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P3-E1
+name: 'ABS+ Gray'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=56451095953785'
+primary_color:
+  color_rgba: '#6b6b6bff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

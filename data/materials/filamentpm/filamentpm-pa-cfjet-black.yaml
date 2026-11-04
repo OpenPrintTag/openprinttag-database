@@ -8,6 +8,10 @@ type: PA12
 abbreviation: PA12
 primary_color:
   color_rgba: '#3f4444ff'
+  color_lab:
+    - 28.4
+    - -2.06
+    - -0.71
 tags:
   - contains_carbon_fiber
   - abrasive

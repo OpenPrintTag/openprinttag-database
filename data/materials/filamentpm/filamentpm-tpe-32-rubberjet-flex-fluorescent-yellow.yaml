@@ -8,11 +8,15 @@ type: TPE
 abbreviation: TPE
 primary_color:
   color_rgba: '#f1dd38ff'
+  color_lab:
+    - 87.34
+    - -9.83
+    - 77.04
 properties:
   density: 1.1
   hardness_shore_d: 32.0
   min_print_temperature: 220
   max_print_temperature: 240
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-32-rubberjet-flex-fluorescent-yellow/filamentpm-tpe-32-rubberjet-flex-fluorescent-yellow-0-a9cc1a29.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-tpe-32-rubberjet-flex-fluorescent-yellow/filamentpm-tpe-32-rubberjet-flex-fluorescent-yellow-0-a9cc1a29.jpg
+    type: unspecified

@@ -1,0 +1,22 @@
+uuid: '4819c600-8b03-5e65-9c2f-0e7a61b8d5f6'
+slug: professional-lab-petg-cf-purple
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P213-E1
+name: PETG CF Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-cf-filament-mit-carbonfaser?variant=63819778425209'
+primary_color:
+  color_rgba: '#684671ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 65
+  drying_time: 240

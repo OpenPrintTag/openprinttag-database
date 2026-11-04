@@ -8,6 +8,10 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#008351ff'
+  color_lab:
+    - 48.04
+    - -43.18
+    - 18.63
 tags:
   - glitter
   - filtration_recommended

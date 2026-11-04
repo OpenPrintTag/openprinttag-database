@@ -1,0 +1,27 @@
+uuid: 14d2c651-e0b8-556d-9f4e-625ae4f0551a
+slug: cookiecad-pumpkin-spice-pla
+brand:
+  slug: cookiecad
+name: Pumpkin Spice PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#875117ff'
+  color_lab:
+  - 39.75
+  - 17.92
+  - 41.12
+- color_rgba: '#ff8d5cff'
+  color_lab:
+  - 70.24
+  - 39.05
+  - 44.76
+tags:
+- imitates_marble
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pumpkin-spice-pla/cookiecad-pumpkin-spice-pla-0-a66fc0da.png
+  type: unspecified

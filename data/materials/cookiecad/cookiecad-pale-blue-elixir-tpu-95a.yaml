@@ -9,9 +9,18 @@ abbreviation: TPU
 url: https://cookiecad.com/products/tpu-pale-blue-elixir-tpu-95a-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
 secondary_colors:
 - color_rgba: '#62e480ff'
 tags:
 - iridescent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pale-blue-elixir-tpu-95a/cookiecad-pale-blue-elixir-tpu-95a-0-16c079e8.jpg
+  type: unspecified

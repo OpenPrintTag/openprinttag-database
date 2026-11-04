@@ -1,0 +1,23 @@
+uuid: 429ca9ed-9204-5804-b950-8cd9e04cc014
+slug: devil-design-petg-ultra-green
+brand:
+  slug: devil-design
+name: PETG ULTRA GREEN
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#006634ff'
+  color_lab:
+  - 37.39
+  - -38.26
+  - 21.17
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-ultra-green/devil-design-petg-ultra-green-0-88f98677.jpg
+  type: unspecified

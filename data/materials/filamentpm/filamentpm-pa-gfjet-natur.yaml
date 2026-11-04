@@ -8,11 +8,15 @@ type: PA12
 abbreviation: PA12
 primary_color:
   color_rgba: '#b39374ff'
+  color_lab:
+    - 63.11
+    - 7.5
+    - 20.93
 tags:
-- contains_glass_fiber
-- abrasive
-- contains_glass
-- filtration_recommended
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
+  - filtration_recommended
 properties:
   density: 1.01
   min_print_temperature: 270
@@ -20,5 +24,5 @@ properties:
   min_bed_temperature: 110
   max_bed_temperature: 120
 photos:
-- url: https://files.openprinttag.org/filamentpm/filamentpm-pa-gfjet-natur/filamentpm-pa-gfjet-natur-0-8884dc8e.jpg
-  type: unspecified
+  - url: https://files.openprinttag.org/filamentpm/filamentpm-pa-gfjet-natur/filamentpm-pa-gfjet-natur-0-8884dc8e.jpg
+    type: unspecified

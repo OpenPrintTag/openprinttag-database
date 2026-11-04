@@ -1,0 +1,16 @@
+uuid: d018b5d3-a345-5b13-9a1e-1b53910cca4c
+slug: smart-print-pla-claret
+brand:
+  slug: smart-print
+name: PLA Claret
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-claret-cervena-1-kg/'
+primary_color:
+  color_rgba: '#6e2d2bff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

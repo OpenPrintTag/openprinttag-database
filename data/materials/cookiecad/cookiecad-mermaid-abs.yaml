@@ -9,9 +9,28 @@ abbreviation: ABS
 url: https://cookiecad.com/products/abs-mermaid-abs-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
 - color_rgba: '#5aeb90ff'
-- color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.76
+  - -58.58
+  - 32.93
 - color_rgba: '#8d65c7ff'
+  color_lab:
+  - 50.8
+  - 36.43
+  - -45.4
+- color_rgba: '#8ed9f9ff'
+  color_lab:
+  - 83.03
+  - -15.14
+  - -22.9
 tags:
 - gradual_color_change
 - filtration_recommended
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mermaid-abs/cookiecad-mermaid-abs-0-0556aee5.jpg
+  type: unspecified

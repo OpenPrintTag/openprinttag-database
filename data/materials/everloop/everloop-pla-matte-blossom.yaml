@@ -1,0 +1,23 @@
+uuid: a2b117ec-d227-5e6d-ad34-bf3f2f4bb8df
+slug: everloop-pla-matte-blossom
+brand:
+  slug: everloop
+name: PLA Matte Blossom
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.recyclingfabrik.com/products/matte-blossom-rpla-premium'
+primary_color:
+  color_rgba: '#c09b86ff'
+tags:
+- recycled
+- matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.24

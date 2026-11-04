@@ -1,0 +1,17 @@
+uuid: '9f67a0f2-4949-5a5f-a4cc-1f2439b532b3'
+slug: smart-print-tpu-white
+brand:
+  slug: smart-print
+name: TPU White
+class: FFF
+type: TPU
+abbreviation: TPU
+url: 'https://3dstisk.com/produkt/smart-print-tpu-white-bila-1-kg/'
+primary_color:
+  color_rgba: '#ddded5ff'
+properties:
+  hardness_shore_a: 95
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

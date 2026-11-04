@@ -9,11 +9,27 @@ abbreviation: PLA
 url: https://cookiecad.com/products/unicorn-elixir-pink-blue-purple-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
 - color_rgba: '#fd64b3ff'
-- color_rgba: '#be2ed6ff'
+  color_lab:
+  - 64.37
+  - 65.66
+  - -11.78
+- color_rgba: '#583061ff'
+  color_lab:
+  - 26.88
+  - 27.1
+  - -21.69
 - color_rgba: '#6299dfff'
+  color_lab:
+  - 62.26
+  - 2.14
+  - -41.04
 tags:
 - iridescent
 - silk
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-unicorn-elixir-pink-purple-blue-pla/cookiecad-unicorn-elixir-pink-purple-blue-pla-0-8f35468d.jpg
+  type: unspecified

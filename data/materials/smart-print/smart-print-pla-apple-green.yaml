@@ -1,0 +1,16 @@
+uuid: '35984731-0d25-5093-ad04-d592f1016d4c'
+slug: smart-print-pla-apple-green
+brand:
+  slug: smart-print
+name: PLA Apple Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-apple-green-zelena-1-kg/'
+primary_color:
+  color_rgba: '#bcec12ff'
+properties:
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 25
+  max_bed_temperature: 60

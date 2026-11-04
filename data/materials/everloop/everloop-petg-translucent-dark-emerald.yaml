@@ -1,0 +1,23 @@
+uuid: aaaaec73-37a2-56f8-b289-eae93a23a8c5
+slug: everloop-petg-translucent-dark-emerald
+brand:
+  slug: everloop
+name: PETG Translucent Dark Emerald
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://www.recyclingfabrik.com/products/dark-emerald-premium-petg'
+primary_color:
+  color_rgba: '#0f1917ff'
+tags:
+- recycled
+- translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 50
+  drying_time: 240
+  min_nozzle_diameter: 400
+  density: 1.275

@@ -9,8 +9,20 @@ abbreviation: PLA
 url: https://cookiecad.com/products/granite-mixer-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
 - color_rgba: '#eaecf5ff'
+  color_lab:
+  - 93.48
+  - 0.97
+  - -4.57
 - color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 tags:
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-granite-mixer-pla/cookiecad-granite-mixer-pla-0-1e6e3023.jpg
+  type: unspecified

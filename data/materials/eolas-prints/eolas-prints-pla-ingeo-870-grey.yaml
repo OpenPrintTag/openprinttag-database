@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://eolasprints.com/en-cz/products/pla-ingeo-870-filament?variant=42257267228931
 primary_color:
   color_rgba: '#cac2daff'
+  color_lab:
+  - 79.73
+  - 7.29
+  - -10.95
 tags:
 - industrially_compostable
 properties:
-  density: 1.22
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-pla-ingeo-870-grey/eolas-prints-pla-ingeo-870-grey-0-55654d2b.png
+  type: unspecified

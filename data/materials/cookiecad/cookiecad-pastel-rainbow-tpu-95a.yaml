@@ -1,0 +1,43 @@
+uuid: 34c8d954-afc3-55fc-90b5-76ee678a7174
+slug: cookiecad-pastel-rainbow-tpu-95a
+brand:
+  slug: cookiecad
+name: Pastel Rainbow TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+secondary_colors:
+- color_rgba: '#9cd0dbff'
+  color_lab:
+  - 80.34
+  - -14.22
+  - -10.89
+- color_rgba: '#c1648eff'
+  color_lab:
+  - 54.46
+  - 42.08
+  - -6.09
+- color_rgba: '#fce575ff'
+  color_lab:
+  - 90.79
+  - -5.82
+  - 56.75
+- color_rgba: '#69ebb6ff'
+  color_lab:
+  - 84.89
+  - -48.16
+  - 15.03
+- color_rgba: '#e53267ff'
+  color_lab:
+  - 51.75
+  - 69.42
+  - 14.02
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pastel-rainbow-tpu-95a/cookiecad-pastel-rainbow-tpu-95a-0-b6cee215.jpg
+  type: unspecified

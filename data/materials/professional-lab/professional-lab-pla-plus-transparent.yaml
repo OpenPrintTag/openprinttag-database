@@ -1,0 +1,17 @@
+uuid: eefc0862-bb42-50c9-888b-a4c3c2cc249b
+slug: professional-lab-pla-plus-transparent
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P51-E1
+name: 'PLA+ Transparent'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-transparent-1-kg/'
+tags:
+- transparent
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

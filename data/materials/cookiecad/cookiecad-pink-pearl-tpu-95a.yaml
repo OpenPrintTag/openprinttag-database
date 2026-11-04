@@ -1,0 +1,24 @@
+uuid: 6b009d5e-42e3-5629-bf9a-2f163dc2c93e
+slug: cookiecad-pink-pearl-tpu-95a
+brand:
+  slug: cookiecad
+name: Pink Pearl TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
+tags:
+- iridescent
+- neon
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pink-pearl-tpu-95a/cookiecad-pink-pearl-tpu-95a-0-43080ad2.png
+  type: unspecified

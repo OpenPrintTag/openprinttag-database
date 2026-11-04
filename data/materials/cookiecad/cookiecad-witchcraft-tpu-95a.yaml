@@ -1,0 +1,23 @@
+uuid: 1903d806-5a65-5063-8d65-d392d7256627
+slug: cookiecad-witchcraft-tpu-95a
+brand:
+  slug: cookiecad
+name: Witchcraft TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#a100ebff'
+  color_lab:
+  - 43.62
+  - 82.28
+  - -77.41
+tags:
+- iridescent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-witchcraft-tpu-95a/cookiecad-witchcraft-tpu-95a-0-6a74853f.jpg
+  type: unspecified

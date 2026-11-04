@@ -8,9 +8,16 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/cookiecad-witchcraft-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
-  color_rgba: '#ae00ffff'
+  color_rgba: '#a100ebff'
+  color_lab:
+  - 43.62
+  - 82.28
+  - -77.41
 tags:
-- silk
 - iridescent
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-witchcraft-pla/cookiecad-witchcraft-pla-0-d7f85c41.jpg
+  type: unspecified

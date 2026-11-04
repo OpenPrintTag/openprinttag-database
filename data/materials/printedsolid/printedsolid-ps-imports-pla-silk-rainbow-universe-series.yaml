@@ -7,15 +7,30 @@ class: FFF
 type: PLA
 abbreviation: PLA
 secondary_colors:
-- color_rgba: '#1e5a4fff'
-- color_rgba: '#183681ff'
-- color_rgba: '#6c47b2ff'
-- color_rgba: '#f092b3ff'
+  - color_rgba: '#1e5a4fff'
+    color_lab:
+      - 34.3
+      - -22.22
+      - 0.66
+  - color_rgba: '#183681ff'
+    color_lab:
+      - 25.0
+      - 18.47
+      - -45.44
+  - color_rgba: '#6c47b2ff'
+    color_lab:
+      - 39.43
+      - 39.86
+      - -51.57
+  - color_rgba: '#f092b3ff'
+    color_lab:
+      - 71.11
+      - 39.56
+      - -1.98
 tags:
-- silk
-- industrially_compostable
-- gradual_color_change
+  - silk
+  - gradual_color_change
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-silk-rainbow-universe-series/f353bfc0d53c.png
-  type: unspecified
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-ps-imports-pla-silk-rainbow-universe-series/f353bfc0d53c.png
+    type: unspecified
 properties: {}

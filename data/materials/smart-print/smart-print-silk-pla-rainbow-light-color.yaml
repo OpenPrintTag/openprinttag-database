@@ -1,0 +1,17 @@
+uuid: '8026b82f-c8d6-560c-a888-0a2f966f8726'
+slug: smart-print-silk-pla-rainbow-light-color
+brand:
+  slug: smart-print
+name: Silk PLA Rainbow Light Color
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-rainbow-light-color-1-kg/'
+tags:
+- silk
+- gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

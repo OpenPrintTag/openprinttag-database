@@ -1,0 +1,19 @@
+uuid: 565602ea-ccd1-5e4e-9164-081f541ba3e8
+slug: geeetech-petg-transparent-blue
+brand:
+  slug: geeetech
+name: PETG Transparent Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
+tags:
+- transparent
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-transparent-blue/81VXekX3ErL._AC_SL1500.jpg?v=1791617005
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

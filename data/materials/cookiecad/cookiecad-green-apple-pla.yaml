@@ -9,6 +9,13 @@ abbreviation: PLA
 url: https://cookiecad.com/products/green-apple-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#b3ff94ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 93.12
+  - -42.15
+  - 43.79
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-green-apple-pla/cookiecad-green-apple-pla-0-8d9eb4f2.jpg
+  type: unspecified

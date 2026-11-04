@@ -1,0 +1,17 @@
+uuid: '00df4862-f235-5ebd-a99b-0a84d89b5172'
+slug: soleyin-basic-petg-white
+brand:
+  slug: soleyin
+name: Basic PETG White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://store.creality.com/products/soleyin-basic-petg-3d-printing-filament-1kg-live-exclusive'
+primary_color:
+  color_rgba: '#e0e0e1ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+  density: 1.23

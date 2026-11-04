@@ -1,0 +1,25 @@
+uuid: aef71a6f-ab3b-5c90-8b55-a2c6038dd8a6
+slug: filamentpm-pla-plus-pastel-edition-bubblegum-pink
+brand:
+  slug: filamentpm
+name: PLA+ pastel edition - Bubblegum Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fcaebbff'
+  color_lab:
+  - 78.79
+  - 30.26
+  - 4.97
+  color_ral: '3015'
+properties:
+  density: 1.25
+  hardness_shore_d: 72.2
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-pla-plus-pastel-edition-bubblegum-pink/filamentpm-pla-plus-pastel-edition-bubblegum-pink-0-99977f6e.png
+  type: unspecified

@@ -8,9 +8,19 @@ type: PCTG
 abbreviation: PCTG
 primary_color:
   color_rgba: '#e4e7e5ff'
+  color_lab:
+    - 91.37
+    - -1.36
+    - 0.62
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-pctg-transparent/2c1e130dcf76.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-pctg-transparent/2c1e130dcf76.png
+    type: unspecified
+properties:
+  density: 1.23
+  min_print_temperature: 230
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+  drying_temperature: 60

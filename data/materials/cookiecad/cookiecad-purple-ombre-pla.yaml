@@ -1,0 +1,27 @@
+uuid: 4bcea76e-7262-5305-bd4d-aeabef3eb097
+slug: cookiecad-purple-ombre-pla
+brand:
+  slug: cookiecad
+name: Purple Ombré PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#583061ff'
+  color_lab:
+  - 26.88
+  - 27.1
+  - -21.69
+- color_rgba: '#6c47b2ff'
+  color_lab:
+  - 39.43
+  - 39.86
+  - -51.57
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-purple-ombre-pla/cookiecad-purple-ombre-pla-0-d9531c70.jpg
+  type: unspecified

@@ -1,0 +1,18 @@
+uuid: '499f2043-8c1d-534a-bfb8-69a70a53dc3b'
+slug: professional-lab-pla-silk-dual-color-black-blue
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P103-E1
+name: PLA Silk Dual Color Black Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-dual-color-filament?variant=55954367283577'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

@@ -8,12 +8,28 @@ type: PLA
 abbreviation: PLA
 url: https://cookiecad.com/products/mermaid-elixir-puple-blue-green-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 secondary_colors:
-- color_rgba: '#be2ed6ff'
-- color_rgba: '#36dbe7ff'
 - color_rgba: '#adebb3ff'
+  color_lab:
+  - 87.75
+  - -30.36
+  - 21.02
+- color_rgba: '#36dbe7ff'
+  color_lab:
+  - 80.3
+  - -36.46
+  - -17.73
+- color_rgba: '#583061ff'
+  color_lab:
+  - 26.88
+  - 27.1
+  - -21.69
 tags:
 - iridescent
 - silk
 - gradual_color_change
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-mermaid-elixir-purple-blue-green-pla/cookiecad-mermaid-elixir-purple-blue-green-pla-0-089b3bf6.jpg
+  type: unspecified

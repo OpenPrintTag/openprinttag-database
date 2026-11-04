@@ -1,0 +1,17 @@
+uuid: '148a58b7-3acd-5075-8f80-9ebbf5b955e2'
+slug: professional-lab-petg-matte-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P215-E1
+name: PETG Matte White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260149625'
+primary_color:
+  color_rgba: '#ede7deff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

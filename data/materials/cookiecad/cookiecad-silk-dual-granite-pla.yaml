@@ -1,0 +1,29 @@
+uuid: 060f1da9-2d18-57c0-96c7-c6e8f1a5eb3f
+slug: cookiecad-silk-dual-granite-pla
+brand:
+  slug: cookiecad
+name: Silk Dual Granite PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+- color_rgba: '#818184ff'
+  color_lab:
+  - 54.06
+  - 0.6
+  - -1.62
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-silk-dual-granite-pla/cookiecad-silk-dual-granite-pla-0-8359a918.jpg
+  type: unspecified

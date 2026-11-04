@@ -8,6 +8,10 @@ type: TPE
 abbreviation: TPE
 primary_color:
   color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
 tags:
   - translucent
 photos:

@@ -4,13 +4,21 @@ brand:
   slug: printedsolid
 name: Jessie Premium Elixir Royal Ruby
 class: FFF
-type: TPU
-abbreviation: TPU
+type: PLA
+abbreviation: PLATPU
 primary_color:
-  color_rgba: '#c00000ff'
+  color_rgba: '#c3695bff'
+  color_lab:
+    - 54.52
+    - 34.38
+    - 23.91
 tags:
-- silk
+  - silk
 photos:
-- url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-elixir-royal-ruby/b6880482bc8a.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/printedsolid/printedsolid-jessie-premium-elixir-royal-ruby/b6880482bc8a.png
+    type: unspecified
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 240
+  min_bed_temperature: 55
+  max_bed_temperature: 65

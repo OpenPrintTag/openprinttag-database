@@ -1,0 +1,23 @@
+uuid: 25c8a83a-d515-5fcb-b8b8-ee2cee3a16dc
+slug: prusament-pa11-black
+brand:
+  slug: prusament
+class: FFF
+type: PA11
+name: PA11 Black
+abbreviation: PA11
+properties:
+  density: 1.03
+  min_print_temperature: 265
+  max_print_temperature: 285
+  preheat_temperature: 170
+  min_bed_temperature: 95
+  max_bed_temperature: 115
+  chamber_temperature: 55
+  min_chamber_temperature: 50
+  max_chamber_temperature: 70
+primary_color:
+  color_rgba: '#181511ff'
+tags:
+- bio_based
+- filtration_recommended

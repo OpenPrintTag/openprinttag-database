@@ -1,0 +1,23 @@
+uuid: 94852c44-779c-505d-b0a1-a38618c11c9b
+slug: cookiecad-bubblegum-elixir-tpu-95a
+brand:
+  slug: cookiecad
+name: Bubblegum Elixir TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f19dcdff'
+  color_lab:
+  - 74.33
+  - 38.0
+  - -11.55
+tags:
+- iridescent
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-bubblegum-elixir-tpu-95a/cookiecad-bubblegum-elixir-tpu-95a-0-37b0c73b.jpg
+  type: unspecified

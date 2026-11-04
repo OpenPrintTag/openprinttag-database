@@ -1,0 +1,23 @@
+uuid: a00c8c32-5fde-58c2-ba38-d4f8aef3fd98
+slug: devil-design-petg-wine-red
+brand:
+  slug: devil-design
+name: PETG WINE RED
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#80464fff'
+  color_lab:
+  - 36.99
+  - 25.87
+  - 5.63
+properties:
+  density: 1.23
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/devil-design/devil-design-petg-wine-red/devil-design-petg-wine-red-0-a02c39b7.png
+  type: unspecified

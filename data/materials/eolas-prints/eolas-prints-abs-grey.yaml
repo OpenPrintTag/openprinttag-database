@@ -9,7 +9,18 @@ abbreviation: ABS
 url: https://eolasprints.com/en-cz/products/abs-filament?variant=43499235508483
 primary_color:
   color_rgba: '#b8bab8ff'
+  color_lab:
+  - 75.31
+  - -1.07
+  - 0.77
 tags:
 - filtration_recommended
 properties:
-  density: 1.04
+  density: 1.05
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-abs-grey/eolas-prints-abs-grey-0-7472dcf3.png
+  type: unspecified

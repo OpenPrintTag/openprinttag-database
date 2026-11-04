@@ -9,7 +9,15 @@ abbreviation: PLA
 url: https://cookiecad.com/products/cookiecad-star-dust-glitter-translucent-black-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#1d1d1dff'
+  color_lab:
+  - 10.77
+  - -0.0
+  - 0.0
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-star-dust-glitter-black-pla/cookiecad-star-dust-glitter-black-pla-0-32879d1f.jpg
+  type: unspecified

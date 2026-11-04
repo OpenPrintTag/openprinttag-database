@@ -1,0 +1,18 @@
+uuid: d21c990c-82be-582c-96e2-a002b7ed659b
+slug: smart-print-silk-pla-black
+brand:
+  slug: smart-print
+name: Silk PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-silk-pla-black-cerna-1-kg/'
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60

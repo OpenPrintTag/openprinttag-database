@@ -9,7 +9,18 @@ abbreviation: ABS
 url: https://cookiecad.com/products/abs-witches-blue-abs-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#6000b0ff'
+  color_lab:
+  - 28.44
+  - 63.8
+  - -68.38
 tags:
 - iridescent
 - filtration_recommended
-properties: {}
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-witches-blue-abs/cookiecad-witches-blue-abs-0-6ed1597a.png
+  type: unspecified

@@ -1,0 +1,16 @@
+uuid: '25c50ee3-dc31-5002-b38c-4d5682a31aa0'
+slug: smart-print-pla-plus-orange
+brand:
+  slug: smart-print
+name: 'PLA+ Orange'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/produkt/smart-print-pla-plus-orange-oranzova-1-kg/'
+primary_color:
+  color_rgba: '#fca732ff'
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

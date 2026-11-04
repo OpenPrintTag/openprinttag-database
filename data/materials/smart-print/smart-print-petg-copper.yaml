@@ -1,0 +1,16 @@
+uuid: '3e52c362-c121-5a07-8b4f-a3ebcc8e7916'
+slug: smart-print-petg-copper
+brand:
+  slug: smart-print
+name: PETG Copper
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://3dstisk.com/produkt/smart-print-petg-copper-bronzova-1-kg/'
+primary_color:
+  color_rgba: '#3d160dff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90

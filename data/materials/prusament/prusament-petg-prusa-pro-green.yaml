@@ -19,6 +19,8 @@ properties:
   chamber_temperature: 35
   min_chamber_temperature: 18
   max_chamber_temperature: 60
+  drying_temperature: 55
+  drying_time: 360
 photos:
   - url: https://files.openprinttag.org/prusament/prusament-petg-prusa-pro-green/prusament-petg-prusa-pro-green-0-0674d2ee.jpg
     type: unspecified

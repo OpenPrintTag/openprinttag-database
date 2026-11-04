@@ -1,0 +1,19 @@
+uuid: '1fc7b645-c461-563a-9a97-3d4e4a25f826'
+slug: professional-lab-petg-gray
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P28-E1
+name: PETG Gray
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg?variant=56478782226809'
+primary_color:
+  color_rgba: '#8d8c86ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 90
+  drying_temperature: 70
+  drying_time: 240

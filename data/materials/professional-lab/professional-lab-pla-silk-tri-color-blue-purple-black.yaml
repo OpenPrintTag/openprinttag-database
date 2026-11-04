@@ -1,0 +1,18 @@
+uuid: '8bbd2bcb-7c2d-536d-a7b7-aafe9954f570'
+slug: professional-lab-pla-silk-tri-color-blue-purple-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P117-E1
+name: PLA Silk Tri Color Blue Purple Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-silk-pla-tri-color-filament?variant=55954707808633'
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 25
+  max_bed_temperature: 60

@@ -1,0 +1,20 @@
+uuid: 2a42d589-6402-5462-8c8f-37102e22cf74
+slug: cookiecad-orange-sorbet-pla
+brand:
+  slug: cookiecad
+name: Orange Sorbet PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5b797ff'
+  color_lab:
+  - 79.34
+  - 18.4
+  - 25.04
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-orange-sorbet-pla/cookiecad-orange-sorbet-pla-0-1e623365.jpg
+  type: unspecified

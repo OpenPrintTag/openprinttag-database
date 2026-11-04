@@ -1,0 +1,29 @@
+uuid: c195eaad-e5b3-5063-aad5-a6edb84a570f
+slug: cookiecad-silk-silver-ombre-pla
+brand:
+  slug: cookiecad
+name: Silk Silver Ombré PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#c9d0d4ff'
+  color_lab:
+  - 83.06
+  - -1.62
+  - -2.81
+- color_rgba: '#818184ff'
+  color_lab:
+  - 54.06
+  - 0.6
+  - -1.62
+tags:
+- silk
+- gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-silk-silver-ombre-pla/cookiecad-silk-silver-ombre-pla-0-52ceac9b.jpg
+  type: unspecified

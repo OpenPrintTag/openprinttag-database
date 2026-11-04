@@ -1,0 +1,28 @@
+uuid: d8609ac7-2901-5cf3-8619-ac6f5992574f
+slug: cookiecad-blue-ombre-tpu-95a
+brand:
+  slug: cookiecad
+name: Blue Ombré TPU 95A
+class: FFF
+type: TPU
+abbreviation: TPU
+secondary_colors:
+- color_rgba: '#0066d9ff'
+  color_lab:
+  - 44.96
+  - 20.46
+  - -65.46
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
+tags:
+- gradual_color_change
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 170
+  max_print_temperature: 220
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-ombre-tpu-95a/cookiecad-blue-ombre-tpu-95a-0-81de97d4.png
+  type: unspecified

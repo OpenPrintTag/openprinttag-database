@@ -8,6 +8,11 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#f93822ff'
+  color_lab:
+    - 55.17
+    - 70.35
+    - 57.21
+  color_ral: '2012'
 photos:
   - url: https://files.openprinttag.org/filamentpm/filamentpm-petg-orange/df093bd6413c.png
     type: unspecified

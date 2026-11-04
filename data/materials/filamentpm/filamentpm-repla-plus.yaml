@@ -1,0 +1,20 @@
+uuid: 7f5047a8-64ed-5bab-9d09-636bf838015f
+slug: filamentpm-repla-plus
+brand:
+  slug: filamentpm
+name: RePLA+
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- recycled
+properties:
+  density: 1.24
+  hardness_shore_d: 78.3
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 60
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentpm/filamentpm-repla-plus/filamentpm-repla-plus-0-c572afd5.jpg
+  type: unspecified

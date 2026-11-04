@@ -1,0 +1,17 @@
+uuid: e4b5d5d4-9112-5186-af4a-1509b78f5d6e
+slug: professional-lab-petg-matte-beige
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P221-E1
+name: PETG Matte Beige
+class: FFF
+type: PETG
+abbreviation: PETG
+url: 'https://filamentkontor.de/products/professional-lab-petg-matte-mattes-petg-filament?variant=56920260346233'
+primary_color:
+  color_rgba: '#ece3c6ff'
+tags:
+- matte
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250

@@ -1,0 +1,19 @@
+uuid: '470dee76-6c14-5e2b-8f0a-76da9eacf7d7'
+slug: professional-lab-pla-matte-red
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P25-E1
+name: PLA Matte Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://filamentkontor.de/products/professional-lab-pla-matte?variant=56852805878137'
+primary_color:
+  color_rgba: '#ac0806ff'
+tags:
+- matte
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

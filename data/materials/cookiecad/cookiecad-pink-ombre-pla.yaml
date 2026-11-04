@@ -1,0 +1,27 @@
+uuid: 5dc3fe76-f3e7-5869-816a-1bd87f9cc954
+slug: cookiecad-pink-ombre-pla
+brand:
+  slug: cookiecad
+name: Pink Ombré PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#f09bb5ff'
+  color_lab:
+  - 73.09
+  - 35.14
+  - -0.18
+- color_rgba: '#ff5786ff'
+  color_lab:
+  - 61.48
+  - 66.81
+  - 9.95
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-pink-ombre-pla/cookiecad-pink-ombre-pla-0-7d13d45b.jpg
+  type: unspecified

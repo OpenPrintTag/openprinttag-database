@@ -9,9 +9,20 @@ abbreviation: TPU
 url: https://eolasprints.com/en-cz/products/tpu-filament?variant=42329779077379
 primary_color:
   color_rgba: '#dfdfd3ff'
+  color_lab:
+  - 88.53
+  - -2.1
+  - 5.88
 tags:
-- without_pigments
 - transparent
+- without_pigments
 properties:
   density: 1.21
-  hardness_shore_a: 93
+  hardness_shore_a: 93.0
+  min_print_temperature: 220
+  max_print_temperature: 235
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eolas-prints/eolas-prints-tpu-flex-93a-natural/eolas-prints-tpu-flex-93a-natural-0-1a1d9a40.png
+  type: unspecified

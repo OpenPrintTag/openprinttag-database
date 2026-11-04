@@ -9,6 +9,13 @@ abbreviation: PLA
 url: https://cookiecad.com/products/bubblegum-pink-pla-filament-1-75mm-1kg?Quantity=1+kg+spool
 primary_color:
   color_rgba: '#f19dcdff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 74.33
+  - 38.0
+  - -11.55
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-bubblegum-pink-pla/cookiecad-bubblegum-pink-pla-0-f4715089.jpg
+  type: unspecified

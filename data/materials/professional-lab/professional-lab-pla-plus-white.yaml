@@ -1,0 +1,17 @@
+uuid: '22b3dcf8-132a-5e7e-9e42-68d15ad29572'
+slug: professional-lab-pla-plus-white
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P47-E1
+name: 'PLA+ White'
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-plus-white-1-kg/'
+primary_color:
+  color_rgba: '#cfcfccff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

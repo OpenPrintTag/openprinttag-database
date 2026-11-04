@@ -1,0 +1,17 @@
+uuid: aae30b49-0fd6-5bdd-9754-a2f52fbf11b9
+slug: professional-lab-abs-plus-black
+brand:
+  slug: professional-lab
+brand_specific_id: FG-P1-E1
+name: 'ABS+ Black'
+class: FFF
+type: ABS
+abbreviation: ABS
+url: 'https://filamentkontor.de/products/professional-lab-abs-plus?variant=57043972456825'
+primary_color:
+  color_rgba: '#1a1a1aff'
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 110

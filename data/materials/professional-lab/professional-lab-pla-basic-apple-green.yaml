@@ -1,0 +1,16 @@
+uuid: '18629c32-0ed8-5f60-9721-2e0178cc4dca'
+slug: professional-lab-pla-basic-apple-green
+brand:
+  slug: professional-lab
+name: PLA Basic Apple Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://3dstisk.com/en/product/prof-lab-pla-basic-apple-green-1-kg/'
+primary_color:
+  color_rgba: '#d4e915ff'
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60

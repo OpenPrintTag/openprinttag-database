@@ -1,0 +1,27 @@
+uuid: f8dc0c74-b973-5c8f-a95b-56bf261dc7ba
+slug: cookiecad-blue-ombre-pla
+brand:
+  slug: cookiecad
+name: Blue Ombré PLA
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0066d9ff'
+  color_lab:
+  - 44.96
+  - 20.46
+  - -65.46
+- color_rgba: '#39b9dbff'
+  color_lab:
+  - 69.95
+  - -23.3
+  - -27.0
+tags:
+- gradual_color_change
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 235
+photos:
+- url: https://files.openprinttag.org/cookiecad/cookiecad-blue-ombre-pla/cookiecad-blue-ombre-pla-0-17eaed3e.jpg
+  type: unspecified
