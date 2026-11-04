@@ -8,9 +8,19 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#06b100ff'
+  color_lab:
+    - 62.91
+    - -65.24
+    - 63.29
 tags:
-- industrially_compostable
+  - industrially_compostable
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-biofusion-reptile-green-ral-6035/e930ca8a072d.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-biofusion-reptile-green-ral-6035/e930ca8a072d.png
+    type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+  drying_temperature: 60

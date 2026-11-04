@@ -8,9 +8,19 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#003287ff'
+  color_lab:
+    - 23.77
+    - 22.12
+    - -51.24
 tags:
-- translucent
+  - translucent
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-petg-transparent-blue-ral-5025/359a9fb3527e.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-petg-transparent-blue-ral-5025/359a9fb3527e.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60

@@ -8,7 +8,19 @@ type: PA12
 abbreviation: PA12
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-durapro-pa12-black-ral-9017/7e71977cf022.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-durapro-pa12-black-ral-9017/7e71977cf022.png
+    type: unspecified
+properties:
+  density: 1.01
+  min_print_temperature: 260
+  max_print_temperature: 290
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+  drying_temperature: 65
+tags:
+  - filtration_recommended

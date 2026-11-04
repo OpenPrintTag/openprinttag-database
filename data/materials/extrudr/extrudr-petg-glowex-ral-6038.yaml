@@ -9,14 +9,29 @@ abbreviation: PETG
 primary_color:
   color_rgba: '#06b100ff'
 secondary_colors:
-- color_rgba: '#e4e7e5ff'
+  - color_rgba: '#e4e7e5ff'
+    color_lab:
+      - 91.37
+      - -1.36
+      - 0.62
+  - color_rgba: '#06b100ff'
+    color_lab:
+      - 62.91
+      - -65.24
+      - 63.29
 tags:
-- glow_in_the_dark
-- abrasive
-- illuminescent_color_change
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 photos:
-- url: https://files.openprinttag.org/extrudr/extrudr-petg-glowex-ral-6038/4f4a54fcf093.png
-  type: unspecified
-- url: https://files.openprinttag.org/extrudr/extrudr-petg-glowex-ral-6038/8c2c10e68d15.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/extrudr/extrudr-petg-glowex-ral-6038/4f4a54fcf093.png
+    type: unspecified
+  - url: https://files.openprinttag.org/extrudr/extrudr-petg-glowex-ral-6038/8c2c10e68d15.png
+    type: unspecified
+properties:
+  density: 1.29
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+  drying_temperature: 60
