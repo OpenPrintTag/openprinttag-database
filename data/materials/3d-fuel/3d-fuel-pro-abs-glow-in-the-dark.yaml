@@ -7,13 +7,19 @@ class: FFF
 type: ABS
 abbreviation: ABS
 tags:
-- glow_in_the_dark
-- illuminescent_color_change
-- abrasive
-- filtration_recommended
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-abs-glow-in-the-dark/bd99bb43b2af.jpg
-  type: unspecified
-- url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-abs-glow-in-the-dark/d49f6f8bbd85.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-abs-glow-in-the-dark/bd99bb43b2af.jpg
+    type: unspecified
+  - url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-abs-glow-in-the-dark/d49f6f8bbd85.jpg
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 80

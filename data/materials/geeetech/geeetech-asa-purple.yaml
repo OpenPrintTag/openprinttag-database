@@ -1,0 +1,17 @@
+uuid: 25467ecb-d5e1-5bad-b37c-34338b764afc
+slug: geeetech-asa-purple
+brand:
+  slug: geeetech
+name: ASA Purple
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-asa-purple/geeetech-asa-3d-printer-filament-175mm-1kg-spool-6042252.jpg?v=1782872115
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110

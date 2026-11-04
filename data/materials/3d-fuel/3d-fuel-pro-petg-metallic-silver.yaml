@@ -8,7 +8,16 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#abacb0ff'
+  color_lab:
+    - 70.38
+    - 0.41
+    - -2.17
 photos:
-- url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-petg-metallic-silver/c58d34de4122.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-petg-metallic-silver/c58d34de4122.jpg
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 245
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

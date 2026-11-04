@@ -1,0 +1,17 @@
+uuid: 2dde3b73-27b6-571f-b1a9-137d0954f6ec
+slug: geeetech-asa-black
+brand:
+  slug: geeetech
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-asa-black/geeetech-asa-3d-printer-filament-175mm-1kg-spool-9184242.jpg?v=1782872114
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110

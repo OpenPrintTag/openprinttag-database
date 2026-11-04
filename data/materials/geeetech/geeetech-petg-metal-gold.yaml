@@ -1,0 +1,19 @@
+uuid: 3e9ffe75-0ecb-58d1-a2a2-07f2955c57ed
+slug: geeetech-petg-metal-gold
+brand:
+  slug: geeetech
+name: PETG Metal Gold
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-gold/PETG_Metal_Gold.jpg?v=1791617425
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360
