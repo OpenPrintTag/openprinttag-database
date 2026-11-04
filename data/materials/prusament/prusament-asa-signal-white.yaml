@@ -25,3 +25,7 @@ properties:
   max_chamber_temperature: 90
   drying_temperature: 80
   drying_time: 240
+tags:
+- filtration_recommended
+- uv_resistant
+- acetone_soluble
