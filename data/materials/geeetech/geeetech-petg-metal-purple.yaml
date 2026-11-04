@@ -1,0 +1,19 @@
+uuid: 33adc370-97ca-5368-976f-71442de9d557
+slug: geeetech-petg-metal-purple
+brand:
+  slug: geeetech
+name: PETG Metal Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-purple/geeetech-petg-metal-3d-printer-filament-175mm-1kg-spool-3210296.png?v=1782872118
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 80
+  drying_time: 360

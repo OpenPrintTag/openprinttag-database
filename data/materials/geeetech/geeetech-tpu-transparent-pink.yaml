@@ -1,0 +1,19 @@
+uuid: 19ae7bd4-e71e-596c-874e-1645438a127d
+slug: geeetech-tpu-transparent-pink
+brand:
+  slug: geeetech
+name: TPU Transparent Pink
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
+tags:
+- transparent
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-tpu-transparent-pink/geeetech-tpu-3d-printer-filament-175mm-1kg-spool-3498624.jpg?v=1782872115
+  type: package
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60

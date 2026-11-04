@@ -1,0 +1,17 @@
+uuid: 483e4bfe-e75a-5f3e-8db4-900f36ccc827
+slug: geeetech-abs-blue
+brand:
+  slug: geeetech
+name: ABS+ Blue
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-abs-blue/geeetech-abs-3d-printer-filament-175mm-1kg-spool-1240828.jpg?v=1782872116
+  type: package
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 95
+  max_bed_temperature: 110

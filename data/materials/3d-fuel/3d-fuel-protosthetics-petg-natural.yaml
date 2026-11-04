@@ -1,0 +1,22 @@
+uuid: a8813f3e-65eb-5679-8d41-c0e4430142c9
+slug: 3d-fuel-protosthetics-petg-natural
+brand:
+  slug: 3d-fuel
+name: Protosthetics PETG, Natural
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - without_pigments
+properties:
+  density: 1.27
+  min_print_temperature: 245
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

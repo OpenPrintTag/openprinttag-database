@@ -1,0 +1,16 @@
+uuid: fcd3003f-efbe-5e10-b415-2e85e7b160c4
+slug: geeetech-petg-transparent-red
+brand:
+  slug: geeetech
+name: PETG Transparent Red
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
+tags:
+- transparent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 80
+  max_bed_temperature: 90
