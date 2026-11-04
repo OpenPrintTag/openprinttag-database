@@ -1,0 +1,11 @@
+uuid: 5ea2e052-a0ee-5dcf-afca-00630cdb9515
+slug: prusament-pa11-grey-800-spool
+class: FFF
+gtin: 8594173674820
+container:
+  slug: prusament-spool-1kg
+material:
+  slug: prusament-pa11-grey
+nominal_netto_full_weight: 800
+filament_diameter: 1750
+nominal_full_length: 329218
