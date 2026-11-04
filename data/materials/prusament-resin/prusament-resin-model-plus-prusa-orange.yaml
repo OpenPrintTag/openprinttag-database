@@ -1,0 +1,18 @@
+uuid: 02e0caf1-638b-525b-88b5-f1158d8b8685
+slug: prusament-resin-model-plus-prusa-orange
+brand:
+  slug: prusament-resin
+class: SLA
+name: Model+ Prusa Orange
+abbreviation: ''
+properties:
+  density: 1.1
+  cure_wavelength: 405
+  viscosity_18c: 493
+  viscosity_25c: 265
+  viscosity_40c: 87
+  viscosity_60c: 36
+primary_color:
+  color_rgba: '#fe6e31ff'
+tags:
+- biocompatible
