@@ -8,7 +8,16 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#267f67ff'
+  color_lab:
+    - 47.71
+    - -32.18
+    - 5.52
 photos:
-- url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-petg-forest-green/81a975580526.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-petg-forest-green/81a975580526.jpg
+    type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 245
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

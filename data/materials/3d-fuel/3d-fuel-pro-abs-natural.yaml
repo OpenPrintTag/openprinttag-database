@@ -8,11 +8,21 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#f2efe9ff'
+  color_lab:
+    - 94.52
+    - -0.04
+    - 3.25
 tags:
-- translucent
-- without_pigments
-- filtration_recommended
+  - translucent
+  - without_pigments
+  - filtration_recommended
 photos:
-- url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-abs-natural/f09eac69f96c.jpg
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-abs-natural/f09eac69f96c.jpg
+    type: unspecified
+properties:
+  density: 1.04
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+  drying_temperature: 80

@@ -1,0 +1,22 @@
+uuid: 9cab095c-8adb-5f02-b52c-f4d132feb7bf
+slug: 3d-fuel-tough-pro-pla-plus-brightest-white
+brand:
+  slug: 3d-fuel
+name: Tough Pro PLA+, Brightest White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3d-fuel/3d-fuel-tough-pro-pla-plus-brightest-white/3d-fuel-tough-pro-pla-plus-brightest-white-0-d8f6a38d.jpg
+  type: unspecified

@@ -1,0 +1,17 @@
+uuid: e61c7c38-d3a3-5507-a326-420b6f099747
+slug: geeetech-asa-green
+brand:
+  slug: geeetech
+name: ASA Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-asa-green/geeetech-asa-3d-printer-filament-175mm-1kg-spool-4538457.jpg?v=1782872114
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110
