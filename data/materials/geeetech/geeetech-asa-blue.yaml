@@ -1,0 +1,17 @@
+uuid: ffcea269-e634-559a-a876-aefbd90c0ad7
+slug: geeetech-asa-blue
+brand:
+  slug: geeetech
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
+photos:
+- url: https://files.openprinttag.org/geeetech/geeetech-asa-blue/geeetech-asa-3d-printer-filament-175mm-1kg-spool-8366221.jpg?v=1782872114
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 80
+  max_bed_temperature: 110

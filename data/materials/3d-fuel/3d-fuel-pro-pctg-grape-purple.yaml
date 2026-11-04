@@ -8,7 +8,18 @@ type: PCTG
 abbreviation: PCTG
 primary_color:
   color_rgba: '#6000b0ff'
+  color_lab:
+    - 28.44
+    - 63.8
+    - -68.38
 photos:
-- url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-pctg-grape-purple/c676b83dd29a.png
-  type: unspecified
-properties: {}
+  - url: https://files.openprinttag.org/3d-fuel/3d-fuel-pro-pctg-grape-purple/c676b83dd29a.png
+    type: unspecified
+properties:
+  density: 1.23
+  hardness_shore_d: 76.0
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+  drying_temperature: 70
