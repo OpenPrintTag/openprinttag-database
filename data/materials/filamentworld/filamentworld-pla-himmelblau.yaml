@@ -1,0 +1,23 @@
+uuid: 3d15e165-b056-5848-90ce-13a7ae760cab
+slug: filamentworld-pla-himmelblau
+brand:
+  slug: filamentworld
+name: PLA Himmelblau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0078bfff'
+  color_lab:
+    - 48.5
+    - -1.28
+    - -44.87
+  color_ral: '5017'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-himmelblau-0-d27df086.png
+    type: unspecified

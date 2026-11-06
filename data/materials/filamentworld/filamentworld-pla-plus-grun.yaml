@@ -1,0 +1,22 @@
+uuid: e7901f62-f133-5b91-af46-f0f860990569
+slug: filamentworld-pla-plus-grun
+brand:
+  slug: filamentworld
+name: PLA PLUS Grün
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#70fa00ff'
+  color_lab:
+    - 87.88
+    - -70.37
+    - 84.0
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-plus-grun-0-fb04175b.png
+    type: unspecified

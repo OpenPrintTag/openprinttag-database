@@ -9,7 +9,18 @@ abbreviation: ABS
 url: https://filamentworld.de/shop/filament-3d-drucker/abs-filament-1-75-mm-transparent/?compare=117652
 primary_color:
   color_rgba: '#dee2daff'
+  color_lab:
+    - 89.39
+    - -2.77
+    - 3.43
 tags:
-- transparent
-- filtration_recommended
-properties: {}
+  - transparent
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-transparent-0-b9292034.png
+    type: unspecified

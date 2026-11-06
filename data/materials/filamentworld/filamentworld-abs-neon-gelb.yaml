@@ -1,0 +1,26 @@
+uuid: fed41881-70a7-5c9b-b6a2-ea732d9495aa
+slug: filamentworld-abs-neon-gelb
+brand:
+  slug: filamentworld
+name: ABS Neon Gelb
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fffc6aff'
+  color_lab:
+    - 96.79
+    - -16.74
+    - 68.45
+  color_ral: '1026'
+tags:
+  - neon
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-neon-gelb-0-adbb2fc5.png
+    type: unspecified

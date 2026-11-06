@@ -1,0 +1,25 @@
+uuid: 9ca0fe40-867d-5024-ab96-4f0bce803673
+slug: filamentworld-pla-matt-weiss
+brand:
+  slug: filamentworld
+name: PLA MATT Weiß
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
+  color_ral: '9016'
+tags:
+  - matte
+properties:
+  density: 1.38
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-matt-weiss-0-02b00926.png
+    type: unspecified

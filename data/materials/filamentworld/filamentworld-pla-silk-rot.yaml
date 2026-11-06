@@ -1,0 +1,24 @@
+uuid: b89db67d-ba36-56d6-8512-0a1356f99189
+slug: filamentworld-pla-silk-rot
+brand:
+  slug: filamentworld
+name: PLA SILK Rot
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f14147ff'
+  color_lab:
+    - 55.01
+    - 66.43
+    - 37.57
+tags:
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-silk-rot-0-ee47f3af.png
+    type: unspecified

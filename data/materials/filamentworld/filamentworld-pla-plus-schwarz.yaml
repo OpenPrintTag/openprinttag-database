@@ -1,0 +1,23 @@
+uuid: 0ce41b3d-acb8-5ac9-a414-faac1e4cd0c0
+slug: filamentworld-pla-plus-schwarz
+brand:
+  slug: filamentworld
+name: PLA PLUS Schwarz
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+  color_ral: '8022'
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-plus-schwarz-0-5361792f.png
+    type: unspecified

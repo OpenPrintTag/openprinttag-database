@@ -1,0 +1,23 @@
+uuid: 63ccd043-ee0d-586b-8556-e43acea81b8a
+slug: filamentworld-petg-grasgrun
+brand:
+  slug: filamentworld
+name: PETG Grasgrün
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#11784fff'
+  color_lab:
+    - 44.4
+    - -37.99
+    - 14.87
+  color_ral: '6037'
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 260
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/filamentworld-petg-grasgrun-0-2dd25310.png
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: 79ad2880-bf2e-55a6-8266-44c15d98ebf5
+slug: filamentworld-petg-metallic-blau
+brand:
+  slug: filamentworld
+name: PETG Metallic Blau
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#3375a7ff'
+  color_lab:
+    - 47.26
+    - -4.27
+    - -32.86
+tags:
+  - silk
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 260
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/filamentworld-petg-metallic-blau-0-49e8c716.png
+    type: unspecified

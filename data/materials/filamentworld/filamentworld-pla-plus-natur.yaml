@@ -1,0 +1,24 @@
+uuid: 3f77d38d-02c7-5b8f-96e7-658a48e4edf8
+slug: filamentworld-pla-plus-natur
+brand:
+  slug: filamentworld
+name: PLA PLUS Natur
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f2ece9ff'
+  color_lab:
+    - 93.78
+    - 1.49
+    - 2.16
+tags:
+  - without_pigments
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-plus-natur-0-3c681118.png
+    type: unspecified

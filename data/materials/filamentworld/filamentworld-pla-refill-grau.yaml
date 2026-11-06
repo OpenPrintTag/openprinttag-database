@@ -1,0 +1,22 @@
+uuid: be354117-8e3c-5d3b-b834-75ace009f5b1
+slug: filamentworld-pla-refill-grau
+brand:
+  slug: filamentworld
+name: PLA Refill Grau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#808e93ff'
+  color_lab:
+    - 58.08
+    - -3.97
+    - -4.37
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-refill-grau-0-a9388e65.jpg
+    type: unspecified

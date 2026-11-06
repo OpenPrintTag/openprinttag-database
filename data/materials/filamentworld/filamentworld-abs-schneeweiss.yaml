@@ -1,0 +1,25 @@
+uuid: e3247cc2-a438-566f-aea0-4bea4b96cd56
+slug: filamentworld-abs-schneeweiss
+brand:
+  slug: filamentworld
+name: ABS Schneeweiß
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
+  color_ral: '9016'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-schneeweiss-0-3cb7f37c.png
+    type: unspecified

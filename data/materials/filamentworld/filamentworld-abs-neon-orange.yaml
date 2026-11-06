@@ -9,7 +9,19 @@ abbreviation: ABS
 url: https://filamentworld.de/shop/filament-3d-drucker/abs-filament-1-75-mm-neon-orange/?compare=117652
 primary_color:
   color_rgba: '#ff8133ff'
+  color_lab:
+    - 67.43
+    - 43.18
+    - 61.15
+  color_ral: '2005'
 tags:
-- neon
-- filtration_recommended
-properties: {}
+  - neon
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-neon-orange-0-95b7158d.png
+    type: unspecified

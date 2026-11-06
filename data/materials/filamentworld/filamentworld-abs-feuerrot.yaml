@@ -1,0 +1,25 @@
+uuid: 3b3814cb-5b8d-5d1e-82bb-8ca1b15facb6
+slug: filamentworld-abs-feuerrot
+brand:
+  slug: filamentworld
+name: ABS Feuerrot
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e72f1dff'
+  color_lab:
+    - 50.82
+    - 67.59
+    - 54.46
+  color_ral: '3020'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-feuerrot-0-48fdaaec.png
+    type: unspecified
