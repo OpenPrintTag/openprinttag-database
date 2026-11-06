@@ -1,0 +1,25 @@
+uuid: 75c025dd-41e2-5304-af63-87bc2c4ba2e8
+slug: filamentworld-pla-matt-grau
+brand:
+  slug: filamentworld
+name: PLA MATT Grau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a9a8a0ff'
+  color_lab:
+    - 68.74
+    - -1.12
+    - 4.25
+  color_ral: '7030'
+tags:
+  - matte
+properties:
+  density: 1.38
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-matt-grau-0-0709773c.png
+    type: unspecified

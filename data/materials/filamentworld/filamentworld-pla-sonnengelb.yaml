@@ -1,0 +1,23 @@
+uuid: 3c3b6476-b764-5d12-bbb1-33e2773c5672
+slug: filamentworld-pla-sonnengelb
+brand:
+  slug: filamentworld
+name: PLA Sonnengelb
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f8cc00ff'
+  color_lab:
+    - 83.52
+    - 0.69
+    - 84.42
+  color_ral: '1023'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-sonnengelb-0-36f6a064.png
+    type: unspecified

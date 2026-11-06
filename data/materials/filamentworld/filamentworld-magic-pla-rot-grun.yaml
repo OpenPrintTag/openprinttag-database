@@ -1,0 +1,30 @@
+uuid: ba92e8fd-d927-58a5-a480-fca31266e787
+slug: filamentworld-magic-pla-rot-grun
+brand:
+  slug: filamentworld
+name: Magic PLA Rot-Grün
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#1daf5eff'
+    color_lab:
+      - 63.12
+      - -54.66
+      - 31.38
+  - color_rgba: '#ec0000ff'
+    color_lab:
+      - 49.3
+      - 75.53
+      - 63.38
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 235
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/filamentworld-magic-pla-rot-grun-0-7c11df92.png
+    type: unspecified

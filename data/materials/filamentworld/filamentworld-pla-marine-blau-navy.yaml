@@ -1,0 +1,23 @@
+uuid: dbd05385-360b-5240-8cdf-f550fd563b64
+slug: filamentworld-pla-marine-blau-navy
+brand:
+  slug: filamentworld
+name: PLA Marine Blau / Navy
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0066d9ff'
+  color_lab:
+    - 44.96
+    - 20.46
+    - -65.46
+  color_ral: '5002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-marine-blau-navy-0-2fdaac38.png
+    type: unspecified

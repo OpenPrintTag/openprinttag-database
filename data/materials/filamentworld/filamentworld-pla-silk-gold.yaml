@@ -9,7 +9,17 @@ abbreviation: PLA
 url: https://filamentworld.de/shop/special-filament/pla-silk-filament/pla-silk-filament-1-75-mm-gold/?compare=117652
 primary_color:
   color_rgba: '#f3b400ff'
+  color_lab:
+    - 77.1
+    - 10.98
+    - 79.75
 tags:
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-silk-gold-0-835145f8.png
+    type: unspecified

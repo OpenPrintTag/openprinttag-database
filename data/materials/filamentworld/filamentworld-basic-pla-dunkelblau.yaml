@@ -1,0 +1,22 @@
+uuid: 32d4ab1c-721c-5a74-8c13-4c45e58e5dee
+slug: filamentworld-basic-pla-dunkelblau
+brand:
+  slug: filamentworld
+name: Basic-PLA Dunkelblau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-basic-pla-dunkelblau-0-32019f59.png
+    type: unspecified

@@ -1,0 +1,30 @@
+uuid: 55abed5f-a430-5c90-8c5f-3baba60d6641
+slug: filamentworld-magic-pla-rot-gold
+brand:
+  slug: filamentworld
+name: Magic PLA Rot-Gold
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f6c500ff'
+    color_lab:
+      - 81.58
+      - 3.43
+      - 82.98
+  - color_rgba: '#ec0000ff'
+    color_lab:
+      - 49.3
+      - 75.53
+      - 63.38
+tags:
+  - silk
+  - coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 235
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/filamentworld-magic-pla-rot-gold-0-40b11400.png
+    type: unspecified

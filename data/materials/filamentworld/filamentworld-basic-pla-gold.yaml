@@ -1,14 +1,23 @@
-uuid: dd9b43b4-603e-5126-9a67-2d3a367abb48
+uuid: 5bc5df20-7640-51b4-acda-615c4cdb32ad
 slug: filamentworld-basic-pla-gold
 brand:
   slug: filamentworld
-name: Basic PLA Gold
+name: Basic-PLA Gold
 class: FFF
 type: PLA
 abbreviation: PLA
 url: https://filamentworld.de/shop/pla-filament-3d-drucker/pla-basic-filament/filamentworld-basic-pla-filament-gold-1-75-mm/?compare=117652
 primary_color:
   color_rgba: '#a78403ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+    - 56.81
+    - 3.1
+    - 61.44
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-basic-pla-gold-0-fdb0056b.png
+    type: unspecified

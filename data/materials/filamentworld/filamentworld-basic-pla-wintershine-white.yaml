@@ -1,14 +1,23 @@
-uuid: da9e0c1c-4911-5d35-a32d-3cb27f0e1300
+uuid: 4e5431a1-bd8d-5ae3-bb67-97c0708ca70e
 slug: filamentworld-basic-pla-wintershine-white
 brand:
   slug: filamentworld
-name: Basic PLA Wintershine White
+name: Basic-PLA Wintershine White
 class: FFF
 type: PLA
 abbreviation: PLA
 url: https://filamentworld.de/shop/pla-filament-3d-drucker/pla-basic-filament/filamentworld-basic-pla-filament-wintershine-white-1-75-mm/?compare=117652
 primary_color:
   color_rgba: '#ffffffff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.24
+  min_print_temperature: 180
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-basic-pla-wintershine-white-0-8c1067bd.png
+    type: unspecified

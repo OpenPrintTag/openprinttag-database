@@ -1,0 +1,25 @@
+uuid: 06eecede-aa9c-5ca4-9284-c208757f2860
+slug: filamentworld-abs-grau
+brand:
+  slug: filamentworld
+name: ABS Grau
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#a2aaadff'
+  color_lab:
+    - 69.07
+    - -2.22
+    - -2.52
+  color_ral: '7023'
+tags:
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-grau-0-ff05ff86.png
+    type: unspecified

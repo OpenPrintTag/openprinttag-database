@@ -9,6 +9,17 @@ abbreviation: ABS
 url: https://filamentworld.de/shop/filament-3d-drucker/abs-filament-1-75-mm-gold/?compare=117652
 primary_color:
   color_rgba: '#ddb95dff'
+  color_lab:
+    - 76.6
+    - 2.19
+    - 50.74
 tags:
-- filtration_recommended
-properties: {}
+  - filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filamentworld-abs-gold-0-1eb1cd16.png
+    type: unspecified

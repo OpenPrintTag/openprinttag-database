@@ -1,0 +1,22 @@
+uuid: fcaa9230-ca1e-51d8-9b00-47a17c80b3fa
+slug: filamentworld-pla-plus-weiss
+brand:
+  slug: filamentworld
+name: PLA PLUS Weiß
+class: FFF
+type: PLA
+abbreviation: PLA+
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+    - 96.54
+    - 0.0
+    - 0.0
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filamentworld-pla-plus-weiss-0-ee68b16a.png
+    type: unspecified
