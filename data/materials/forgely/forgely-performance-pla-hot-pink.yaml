@@ -1,0 +1,22 @@
+uuid: eda75ebf-f72c-566b-a828-2a70c329c2b7
+slug: forgely-performance-pla-hot-pink
+brand:
+  slug: forgely
+name: Performance PLA — Hot Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f2659eff'
+  color_lab:
+    - 62.22
+    - 59.49
+    - -3.13
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-hot-pink-0-38d697fa.webp
+    type: unspecified

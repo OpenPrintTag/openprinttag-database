@@ -1,0 +1,24 @@
+uuid: e587b05f-5a45-549c-ae34-3bc7d52a4a0f
+slug: forgely-performance-pla-translucent-dark-green
+brand:
+  slug: forgely
+name: Performance PLA — Translucent Dark Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#13484dff'
+  color_lab:
+    - 27.6
+    - -15.09
+    - -8.03
+tags:
+  - translucent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-translucent-dark-green-0-4103e8b7.webp
+    type: unspecified

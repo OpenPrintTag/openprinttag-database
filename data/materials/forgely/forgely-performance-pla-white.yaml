@@ -1,0 +1,22 @@
+uuid: adf14ef3-09cc-5e51-a8dc-67161ddfc6b4
+slug: forgely-performance-pla-white
+brand:
+  slug: forgely
+name: Performance PLA — White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-white-0-adb38f17.webp
+    type: unspecified

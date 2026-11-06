@@ -1,0 +1,22 @@
+uuid: 9ddbb036-12d3-5055-bde9-5250b2e8aa79
+slug: forgely-performance-pla-moss-brown
+brand:
+  slug: forgely
+name: Performance PLA — Moss Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#44371bff'
+  color_lab:
+    - 23.81
+    - 1.59
+    - 19.55
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-moss-brown-0-7fb090a1.webp
+    type: unspecified

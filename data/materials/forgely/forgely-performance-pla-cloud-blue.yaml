@@ -1,0 +1,22 @@
+uuid: 742a4ddb-4044-57b2-848d-e436ae265a2d
+slug: forgely-performance-pla-cloud-blue
+brand:
+  slug: forgely
+name: Performance PLA — Cloud Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b6daebff'
+  color_lab:
+    - 85.04
+    - -8.14
+    - -12.24
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-cloud-blue-0-7e4a768e.webp
+    type: unspecified

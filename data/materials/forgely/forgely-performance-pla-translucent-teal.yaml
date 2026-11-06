@@ -1,0 +1,24 @@
+uuid: e81f0192-3be6-5822-8df7-57a740ba8b45
+slug: forgely-performance-pla-translucent-teal
+brand:
+  slug: forgely
+name: Performance PLA — Translucent Teal
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#0094a4ff'
+  color_lab:
+    - 55.95
+    - -26.81
+    - -17.76
+tags:
+  - translucent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-translucent-teal-0-325df75c.webp
+    type: unspecified
