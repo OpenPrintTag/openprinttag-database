@@ -1,0 +1,26 @@
+uuid: a9fe15c2-af3b-5372-97bc-d39f9a4f9dc8
+slug: filatech-pc-natural-clear
+brand:
+  slug: filatech
+name: PC Natural Clear
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - transparent
+  - without_pigments
+properties:
+  density: 1.2
+  min_print_temperature: 270
+  max_print_temperature: 310
+  min_bed_temperature: 90
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/filatech-pc-natural-clear-0-10131646.jpg
+    type: unspecified

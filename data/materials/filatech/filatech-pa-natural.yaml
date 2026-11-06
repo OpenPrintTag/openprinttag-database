@@ -1,0 +1,26 @@
+uuid: c1b09562-17c8-5adf-8948-d38e9b7a89b1
+slug: filatech-pa-natural
+brand:
+  slug: filatech
+name: PA Natural
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - without_pigments
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 235
+  max_print_temperature: 270
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/filatech-pa-natural-0-78792d83.jpg
+    type: unspecified

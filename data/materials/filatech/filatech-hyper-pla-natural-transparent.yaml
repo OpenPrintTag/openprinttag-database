@@ -9,8 +9,20 @@ abbreviation: PLA
 url: https://fila-tech.store/product/pla-filament/
 primary_color:
   color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
 tags:
-  - without_pigments
+  - high_speed
   - transparent
-  - industrially_compostable
-properties: {}
+  - without_pigments
+properties:
+  density: 1.24
+  min_print_temperature: 220
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-hyper-pla-natural-transparent-0-d265c651.jpg
+    type: unspecified

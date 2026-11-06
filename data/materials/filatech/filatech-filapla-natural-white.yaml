@@ -1,0 +1,25 @@
+uuid: 6b81f589-e18d-58e3-9bfb-0a7969736138
+slug: filatech-filapla-natural-white
+brand:
+  slug: filatech
+name: FilaPLA Natural White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f2efe9ff'
+  color_lab:
+    - 94.52
+    - -0.04
+    - 3.25
+tags:
+  - without_pigments
+properties:
+  density: 1.3
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-filapla-natural-white-0-2ec3208d.jpg
+    type: unspecified

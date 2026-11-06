@@ -1,0 +1,27 @@
+uuid: 9912c066-f5a1-54fe-bd21-cff8a3816574
+slug: filatech-hyper-petg-natural-clear
+brand:
+  slug: filatech
+name: Hyper PETG Natural Clear
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - high_speed
+  - transparent
+  - without_pigments
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 255
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/filatech-hyper-petg-natural-clear-0-b7a59452.jpg
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: a3be2b94-8767-51ea-8833-3262d9d12596
+slug: filatech-filaflexible55-black
+brand:
+  slug: filatech
+name: FilaFlexible55 Black
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.18
+  hardness_shore_d: 55.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-filaflexible55-black-0-352dd945.jpg
+    type: unspecified

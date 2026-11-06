@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://fila-tech.store/product/pla-filament/
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+    - 95.27
+    - -31.64
+    - 85.07
 tags:
-- neon
-- industrially_compostable
-properties: {}
+  - neon
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-pla-yellow-fluorescent-0-554b2584.jpg
+    type: unspecified
