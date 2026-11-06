@@ -1,0 +1,22 @@
+uuid: 36ae7716-a931-5a5b-a286-49e379884660
+slug: forgely-performance-pla-terracotta
+brand:
+  slug: forgely
+name: Performance PLA — Terracotta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ed5c3eff'
+  color_lab:
+    - 58.05
+    - 54.35
+    - 45.72
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-terracotta-0-07a19b15.webp
+    type: unspecified

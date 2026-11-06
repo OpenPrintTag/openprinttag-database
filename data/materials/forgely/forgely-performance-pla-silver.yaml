@@ -1,0 +1,22 @@
+uuid: 5f94900e-3b86-57bd-bcb9-2312d785421a
+slug: forgely-performance-pla-silver
+brand:
+  slug: forgely
+name: Performance PLA — Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#818fa0ff'
+  color_lab:
+    - 58.83
+    - -1.27
+    - -10.67
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-silver-0-fdc398f2.webp
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: fb9cb769-9dcb-50f4-8ba0-7fdd7be86d4f
+slug: forgely-performance-pla-translucent-yellow
+brand:
+  slug: forgely
+name: Performance PLA — Translucent Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffe802ff'
+  color_lab:
+    - 91.23
+    - -10.41
+    - 90.03
+tags:
+  - translucent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-translucent-yellow-0-e322c921.webp
+    type: unspecified

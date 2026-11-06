@@ -1,0 +1,22 @@
+uuid: 0764c63c-10f4-5a85-b383-b3c01d910289
+slug: forgely-performance-pla-cherry-red
+brand:
+  slug: forgely
+name: Performance PLA — Cherry Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff0039ff'
+  color_lab:
+    - 53.56
+    - 80.96
+    - 44.59
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-cherry-red-0-665bc58a.webp
+    type: unspecified
