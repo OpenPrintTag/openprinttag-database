@@ -1,0 +1,25 @@
+uuid: 9b092503-033c-522b-b212-a5bee77e2a17
+slug: alzament-hyper-pla-plus-black
+brand:
+  slug: alzament
+name: Hyper PLA+ Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-hyper-pla-1kg-black-d12717985.htm
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-hyper-pla-plus-black-0-1e471c71.png
+    type: unspecified

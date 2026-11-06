@@ -1,0 +1,25 @@
+uuid: b24b4520-7910-5e35-b403-d73b0f356207
+slug: alzament-petg-hyper-silver
+brand:
+  slug: alzament
+name: PETG Hyper Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.alza.cz/EN/alsament-petg-hyper-1-kg-silver-d12869967.htm
+primary_color:
+  color_rgba: '#818fa0ff'
+  color_lab:
+    - 58.83
+    - -1.27
+    - -10.67
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/alzament-petg-hyper-silver-0-a3934a59.jpg
+    type: unspecified

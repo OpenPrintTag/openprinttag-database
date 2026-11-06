@@ -1,0 +1,25 @@
+uuid: a6d63130-562a-5217-9c9f-d7c8f673bfad
+slug: alzament-asa-green
+brand:
+  slug: alzament
+name: ASA Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.alza.cz/EN/alzament-asa-1-kg-green-d13015324.htm
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/alzament-asa-green-0-0fbf3be6.jpg
+    type: unspecified

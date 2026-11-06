@@ -1,0 +1,25 @@
+uuid: 90ab5a1d-a4b5-5f01-b93d-1cc6029fad83
+slug: alzament-abs-gray
+brand:
+  slug: alzament
+name: ABS Gray
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.alza.cz/EN/alzament-abs-1-kg-gray-d13015345.htm
+primary_color:
+  color_rgba: '#75787bff'
+  color_lab:
+    - 50.27
+    - -0.51
+    - -2.04
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/alzament-abs-gray-0-0b752dd6.jpg
+    type: unspecified

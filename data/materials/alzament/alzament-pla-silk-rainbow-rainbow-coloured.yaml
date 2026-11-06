@@ -1,0 +1,36 @@
+uuid: d2bc327d-d5d1-56ca-980f-f5458f4eb4cc
+slug: alzament-pla-silk-rainbow-rainbow-coloured
+brand:
+  slug: alzament
+name: PLA Silk Rainbow Rainbow-coloured
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-silk-rainbow-1-kg-rainbow-coloured-d13015331.htm
+secondary_colors:
+  - color_rgba: '#fbf942ff'
+    color_lab:
+      - 95.44
+      - -19.02
+      - 81.69
+  - color_rgba: '#ec0000ff'
+    color_lab:
+      - 49.3
+      - 75.53
+      - 63.38
+  - color_rgba: '#00c26bff'
+    color_lab:
+      - 69.21
+      - -60.57
+      - 32.47
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-rainbow-rainbow-coloured-0-e365abff.jpg
+    type: unspecified

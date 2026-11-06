@@ -1,0 +1,24 @@
+uuid: c189aab8-cf11-544d-9c1e-a39552309d09
+slug: alzament-tpu-95a-blue
+brand:
+  slug: alzament
+name: TPU 95A Blue
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.alza.cz/EN/alzament-tpu-95a-1-kg-blue-d13015350.htm
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/alzament-tpu-95a-blue-0-736d5082.jpg
+    type: unspecified

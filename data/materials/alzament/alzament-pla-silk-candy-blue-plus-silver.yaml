@@ -1,0 +1,31 @@
+uuid: 3ac17596-9a67-506b-873b-1ecf9336f2b6
+slug: alzament-pla-silk-candy-blue-plus-silver
+brand:
+  slug: alzament
+name: PLA Silk Candy Blue + Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-silk-candy-1-kg-blue-silver-d13015341.htm
+secondary_colors:
+  - color_rgba: '#0353baff'
+    color_lab:
+      - 37.39
+      - 20.64
+      - -59.84
+  - color_rgba: '#818fa0ff'
+    color_lab:
+      - 58.83
+      - -1.27
+      - -10.67
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-candy-blue-plus-silver-0-d22fc023.jpg
+    type: unspecified

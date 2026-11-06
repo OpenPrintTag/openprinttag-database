@@ -1,0 +1,25 @@
+uuid: ec1d8872-a56b-5859-8d5b-eace3daa6fa1
+slug: alzament-asa-blue
+brand:
+  slug: alzament
+name: ASA Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.alza.cz/EN/alzament-asa-1-kg-blue-d13015347.htm
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/alzament-asa-blue-0-11e14ef6.jpg
+    type: unspecified

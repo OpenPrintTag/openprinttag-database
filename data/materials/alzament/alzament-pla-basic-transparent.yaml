@@ -1,0 +1,25 @@
+uuid: 78a70022-af40-5529-a7f2-f0eafb538763
+slug: alzament-pla-basic-transparent
+brand:
+  slug: alzament
+name: PLA Basic Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-basic-1-kg-transparent-d13015330.htm
+primary_color:
+  color_rgba: '#e6e6e6ff'
+  color_lab:
+    - 91.29
+    - -0.0
+    - 0.0
+tags:
+  - transparent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-basic-transparent-0-f46d6bcf.jpg
+    type: unspecified

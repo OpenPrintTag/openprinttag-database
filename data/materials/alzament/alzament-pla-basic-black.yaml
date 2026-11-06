@@ -9,6 +9,17 @@ abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-basic-1kg-black-d12717998.htm
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-basic-black-0-9e637e72.png
+    type: unspecified

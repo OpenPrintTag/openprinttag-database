@@ -9,7 +9,17 @@ abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-matte-1-kg-red-d12869945.htm
 primary_color:
   color_rgba: '#db3e14ff'
+  color_lab:
+    - 50.17
+    - 59.21
+    - 56.43
 tags:
-- matte
-- industrially_compostable
-properties: {}
+  - matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-matte-red-0-37b736e9.jpg
+    type: unspecified

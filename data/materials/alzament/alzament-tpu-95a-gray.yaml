@@ -1,0 +1,24 @@
+uuid: b21e3a53-6ab8-5af7-9fe0-f80a1c3f40c5
+slug: alzament-tpu-95a-gray
+brand:
+  slug: alzament
+name: TPU 95A Gray
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.alza.cz/EN/alzament-tpu-95a-1-kg-gray-d13015353.htm
+primary_color:
+  color_rgba: '#75787bff'
+  color_lab:
+    - 50.27
+    - -0.51
+    - -2.04
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/alzament-tpu-95a-gray-0-6f7fdd0b.jpg
+    type: unspecified

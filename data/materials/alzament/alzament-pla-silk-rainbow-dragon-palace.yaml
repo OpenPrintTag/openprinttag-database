@@ -1,0 +1,36 @@
+uuid: 559f59ff-e198-5588-a38c-300fc5e271bd
+slug: alzament-pla-silk-rainbow-dragon-palace
+brand:
+  slug: alzament
+name: PLA Silk Rainbow Dragon Palace
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-silk-rainbow-1-kg-dragon-palace-d13015336.htm
+secondary_colors:
+  - color_rgba: '#ec0000ff'
+    color_lab:
+      - 49.3
+      - 75.53
+      - 63.38
+  - color_rgba: '#00c26bff'
+    color_lab:
+      - 69.21
+      - -60.57
+      - 32.47
+  - color_rgba: '#ff9a40ff'
+    color_lab:
+      - 72.72
+      - 30.98
+      - 60.8
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-rainbow-dragon-palace-0-0f492069.jpg
+    type: unspecified

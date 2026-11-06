@@ -1,0 +1,25 @@
+uuid: a3f3f24e-f7a3-5916-89e8-198ff3c08c8c
+slug: alzament-pla-galaxy-silver
+brand:
+  slug: alzament
+name: PLA Galaxy Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-galaxy-1kg-silver-d13348976.htm
+primary_color:
+  color_rgba: '#818fa0ff'
+  color_lab:
+    - 58.83
+    - -1.27
+    - -10.67
+tags:
+  - glitter
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-galaxy-silver-0-6c41354f.jpg
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: 6521e666-5436-537f-b25c-05b77f74347a
+slug: alzament-tpu-95a-green
+brand:
+  slug: alzament
+name: TPU 95A Green
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.alza.cz/EN/alzament-tpu-95a-1-kg-green-d13015356.htm
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/alzament-tpu-95a-green-0-4b344d6b.jpg
+    type: unspecified

@@ -1,0 +1,41 @@
+uuid: 0bf14ed9-ccff-5e2e-908b-df4d41b96dfc
+slug: alzament-pla-silk-rainbow-moon-palace
+brand:
+  slug: alzament
+name: PLA Silk Rainbow Moon Palace
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-silk-rainbow-1-kg-moon-palace-d13015335.htm
+secondary_colors:
+  - color_rgba: '#db3fa9ff'
+    color_lab:
+      - 53.47
+      - 69.38
+      - -23.06
+  - color_rgba: '#fbf942ff'
+    color_lab:
+      - 95.44
+      - -19.02
+      - 81.69
+  - color_rgba: '#0353baff'
+    color_lab:
+      - 37.39
+      - 20.64
+      - -59.84
+  - color_rgba: '#00c26bff'
+    color_lab:
+      - 69.21
+      - -60.57
+      - 32.47
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-rainbow-moon-palace-0-50c105d0.jpg
+    type: unspecified

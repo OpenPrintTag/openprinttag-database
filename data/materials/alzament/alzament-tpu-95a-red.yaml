@@ -1,0 +1,24 @@
+uuid: ca500e4d-b60e-5bae-b337-fc9bc3542820
+slug: alzament-tpu-95a-red
+brand:
+  slug: alzament
+name: TPU 95A Red
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.alza.cz/EN/alzament-tpu-95a-1-kg-red-d13015355.htm
+primary_color:
+  color_rgba: '#ec0000ff'
+  color_lab:
+    - 49.3
+    - 75.53
+    - 63.38
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/alzament-tpu-95a-red-0-7ecf6b09.jpg
+    type: unspecified

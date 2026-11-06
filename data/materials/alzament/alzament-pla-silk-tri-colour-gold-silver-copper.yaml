@@ -8,11 +8,29 @@ type: PLA
 abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-gold-silver-copper-d12869943.htm
 secondary_colors:
-- color_rgba: '#f3b400ff'
-- color_rgba: '#aabccfff'
-- color_rgba: '#c06341ff'
+  - color_rgba: '#f3b400ff'
+    color_lab:
+      - 77.1
+      - 10.98
+      - 79.75
+  - color_rgba: '#aabccfff'
+    color_lab:
+      - 75.46
+      - -2.18
+      - -11.63
+  - color_rgba: '#c06341ff'
+    color_lab:
+      - 52.41
+      - 34.43
+      - 35.86
 tags:
-- silk
-- industrially_compostable
-- coextruded
-properties: {}
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-tri-colour-gold-silver-copper-0-3a5b3dbb.png
+    type: unspecified
