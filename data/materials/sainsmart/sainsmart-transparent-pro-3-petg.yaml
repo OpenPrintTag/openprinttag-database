@@ -8,6 +8,16 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#e4e7e5ff'
+  color_lab:
+    - 91.37
+    - -1.36
+    - 0.62
 tags:
-- translucent
-properties: {}
+  - translucent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/sainsmart-transparent-pro-3-petg-0-f9cc2997.jpg
+    type: unspecified

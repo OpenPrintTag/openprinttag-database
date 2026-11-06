@@ -1,0 +1,23 @@
+uuid: 702fb00d-6696-5390-a2c9-8e6ddb2a9deb
+slug: sainsmart-hot-pink-pro-3-petg
+brand:
+  slug: sainsmart
+name: Hot Pink PRO-3 PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fc6d8eff'
+  color_lab:
+    - 64.64
+    - 57.39
+    - 9.75
+tags:
+  - translucent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/sainsmart-hot-pink-pro-3-petg-0-9b4da46d.jpg
+    type: unspecified

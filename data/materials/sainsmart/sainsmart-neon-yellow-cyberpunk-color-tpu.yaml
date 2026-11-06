@@ -7,8 +7,20 @@ class: FFF
 type: TPU
 abbreviation: TPU
 primary_color:
-  color_rgba: '#f2de00ff'
+  color_rgba: '#efd00bff'
+  color_lab:
+    - 83.7
+    - -5.11
+    - 83.17
 tags:
-- neon
+  - neon
 properties:
-  hardness_shore_a: 95
+  density: 1.21
+  hardness_shore_a: 95.0
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/sainsmart-neon-yellow-cyberpunk-color-tpu-0-e3d0b1dc.jpg
+    type: unspecified

@@ -5,10 +5,22 @@ brand:
 name: Black Carbon Fiber PETG
 class: FFF
 type: PETG
-abbreviation: PETG
+abbreviation: PETGCF
 primary_color:
   color_rgba: '#1d1d1dff'
+  color_lab:
+    - 10.77
+    - -0.0
+    - 0.0
 tags:
-- contains_carbon_fiber
-- abrasive
-properties: {}
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/sainsmart-black-carbon-fiber-petg-0-f309f9a0.jpg
+    type: unspecified

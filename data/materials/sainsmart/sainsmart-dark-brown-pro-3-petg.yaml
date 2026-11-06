@@ -8,4 +8,14 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#7e4f4aff'
-properties: {}
+  color_lab:
+    - 38.77
+    - 19.14
+    - 11.21
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/sainsmart-dark-brown-pro-3-petg-0-db1d6d71.jpg
+    type: unspecified

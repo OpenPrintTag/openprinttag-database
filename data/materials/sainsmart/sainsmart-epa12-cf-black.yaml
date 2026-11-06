@@ -5,10 +5,24 @@ brand:
 name: ePA12-CF Black
 class: FFF
 type: PA12
-abbreviation: PA12
+abbreviation: PA12CF
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- contains_carbon_fiber
-- abrasive
-properties: {}
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  density: 1.24
+  min_print_temperature: 280
+  max_print_temperature: 300
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/sainsmart-epa12-cf-black-0-a0790ef0.png
+    type: unspecified

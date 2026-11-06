@@ -1,0 +1,25 @@
+uuid: 20863af1-0d6e-57a0-9e36-72e5f7ee4dfa
+slug: sainsmart-matte-flexible-tpu-95a-dark-earth
+brand:
+  slug: sainsmart
+name: Matte Flexible TPU 95A Dark Earth
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#90785eff'
+  color_lab:
+    - 52.03
+    - 5.34
+    - 17.77
+tags:
+  - matte
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+photos:
+  - url: /tmp/assets/sainsmart-matte-flexible-tpu-95a-dark-earth-0-4ec15c86.webp
+    type: unspecified

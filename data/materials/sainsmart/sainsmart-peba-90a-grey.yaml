@@ -1,0 +1,25 @@
+uuid: a44ad0f6-3b8f-5585-af7b-0e6838d286cc
+slug: sainsmart-peba-90a-grey
+brand:
+  slug: sainsmart
+name: PEBA 90A Grey
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#9f9f9fff'
+  color_lab:
+    - 65.49
+    - -0.0
+    - 0.0
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/sainsmart-peba-90a-grey-0-067a60dd.jpg
+    type: unspecified

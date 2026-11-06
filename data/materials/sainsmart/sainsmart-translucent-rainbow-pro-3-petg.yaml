@@ -7,12 +7,39 @@ class: FFF
 type: PETG
 abbreviation: PETG
 secondary_colors:
-- color_rgba: '#e72f1dff'
-- color_rgba: '#ff9a14ff'
-- color_rgba: '#fadb24ff'
-- color_rgba: '#62e480ff'
-- color_rgba: '#11784fff'
+  - color_rgba: '#e72f1dff'
+    color_lab:
+      - 50.82
+      - 67.59
+      - 54.46
+  - color_rgba: '#fadb24ff'
+    color_lab:
+      - 87.54
+      - -5.61
+      - 82.72
+  - color_rgba: '#62e480ff'
+    color_lab:
+      - 81.64
+      - -56.86
+      - 38.21
+  - color_rgba: '#11784fff'
+    color_lab:
+      - 44.4
+      - -37.99
+      - 14.87
+  - color_rgba: '#ff9a14ff'
+    color_lab:
+      - 72.51
+      - 29.83
+      - 74.65
 tags:
-- translucent
-- gradual_color_change
-properties: {}
+  - gradual_color_change
+  - translucent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/sainsmart-translucent-rainbow-pro-3-petg-0-3cf7c686.jpg
+    type: unspecified
