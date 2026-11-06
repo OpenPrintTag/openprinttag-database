@@ -1,0 +1,35 @@
+uuid: 6cf345e0-6604-57f6-b84b-6aaa09c7aae8
+slug: alzament-pla-silk-rainbow-flame-mountain
+brand:
+  slug: alzament
+name: PLA Silk Rainbow Flame Mountain
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#ec0000ff'
+    color_lab:
+      - 49.3
+      - 75.53
+      - 63.38
+  - color_rgba: '#00c26bff'
+    color_lab:
+      - 69.21
+      - -60.57
+      - 32.47
+  - color_rgba: '#ff9a40ff'
+    color_lab:
+      - 72.72
+      - 30.98
+      - 60.8
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-rainbow-flame-mountain-0-e3f5b7d0.jpg
+    type: unspecified

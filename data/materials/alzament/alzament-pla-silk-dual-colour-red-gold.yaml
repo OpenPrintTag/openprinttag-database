@@ -8,9 +8,21 @@ type: PLA
 abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-dual-colour-1-kg-red-gold-d12869937.htm
 secondary_colors:
-- color_rgba: '#f6c500ff'
+  - color_rgba: '#f6c500ff'
 tags:
-- silk
-- industrially_compostable
-- coextruded
-properties: {}
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+primary_color:
+  color_rgba: '#f6c500ff'
+  color_lab:
+    - 81.58
+    - 3.43
+    - 82.98
+photos:
+  - url: /tmp/assets/alzament-pla-silk-dual-colour-red-gold-0-e28f27e9.jpg
+    type: unspecified

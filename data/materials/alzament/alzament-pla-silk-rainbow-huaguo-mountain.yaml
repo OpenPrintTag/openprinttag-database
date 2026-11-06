@@ -1,0 +1,35 @@
+uuid: 4fa5b113-098d-59dd-8325-f0af357c7fcc
+slug: alzament-pla-silk-rainbow-huaguo-mountain
+brand:
+  slug: alzament
+name: PLA Silk Rainbow Huaguo Mountain
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#fbf942ff'
+    color_lab:
+      - 95.44
+      - -19.02
+      - 81.69
+  - color_rgba: '#00c26bff'
+    color_lab:
+      - 69.21
+      - -60.57
+      - 32.47
+  - color_rgba: '#ffa3c6ff'
+    color_lab:
+      - 77.0
+      - 38.58
+      - -3.59
+tags:
+  - silk
+  - gradual_color_change
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-rainbow-huaguo-mountain-0-c58af1b2.jpg
+    type: unspecified

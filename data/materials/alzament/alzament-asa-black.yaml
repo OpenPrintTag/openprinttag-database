@@ -1,0 +1,24 @@
+uuid: 4dfdc2e6-fe7d-57a4-bb63-3c5979f67a00
+slug: alzament-asa-black
+brand:
+  slug: alzament
+name: ASA Black
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/alzament-asa-black-0-b27e767f.jpg
+    type: unspecified

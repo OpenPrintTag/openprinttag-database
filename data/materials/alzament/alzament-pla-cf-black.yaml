@@ -1,0 +1,26 @@
+uuid: 2346eab5-5166-5bc9-b7fe-c91411c16da3
+slug: alzament-pla-cf-black
+brand:
+  slug: alzament
+name: PLA-CF Black
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/alzament-pla-cf-black-0-6062a0b5.jpg
+    type: unspecified

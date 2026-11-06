@@ -1,0 +1,30 @@
+uuid: 5cdd5f02-82c6-5743-ad12-186bfb67110f
+slug: alzament-pla-silk-candy-black-plus-silver
+brand:
+  slug: alzament
+name: PLA Silk Candy Black + Silver
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#000000ff'
+    color_lab:
+      - 0.0
+      - 0.0
+      - 0.0
+  - color_rgba: '#818fa0ff'
+    color_lab:
+      - 58.83
+      - -1.27
+      - -10.67
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-candy-black-plus-silver-0-53d7f9da.jpg
+    type: unspecified

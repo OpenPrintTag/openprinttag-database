@@ -8,9 +8,23 @@ type: PLA
 abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-chameleon-1-kg-burning-titanium-d12869952.htm
 secondary_colors:
-- color_rgba: '#45444aff'
-- color_rgba: '#641501ff'
+  - color_rgba: '#641501ff'
+    color_lab:
+      - 21.01
+      - 34.2
+      - 31.02
+  - color_rgba: '#45444aff'
+    color_lab:
+      - 29.14
+      - 1.78
+      - -3.46
 tags:
-- coextruded
-- industrially_compostable
-properties: {}
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-chameleon-burning-titanium-0-17a8aef8.jpg
+    type: unspecified

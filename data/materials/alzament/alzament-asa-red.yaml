@@ -1,0 +1,24 @@
+uuid: 02e7bd73-d843-5bcc-a69a-3b972478590f
+slug: alzament-asa-red
+brand:
+  slug: alzament
+name: ASA Red
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#ec0000ff'
+  color_lab:
+    - 49.3
+    - 75.53
+    - 63.38
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/alzament-asa-red-0-ed227e2f.jpg
+    type: unspecified

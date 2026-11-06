@@ -1,0 +1,24 @@
+uuid: ef5d8e6a-8694-5fef-867d-2c1fb269d46f
+slug: alzament-abs-gold
+brand:
+  slug: alzament
+name: ABS Gold
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f6c500ff'
+  color_lab:
+    - 81.58
+    - 3.43
+    - 82.98
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/alzament-abs-gold-0-3de3ef6b.jpg
+    type: unspecified

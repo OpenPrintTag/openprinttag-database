@@ -1,0 +1,35 @@
+uuid: f909569b-09d1-5291-944d-31d766b37df7
+slug: alzament-pla-silk-candy-gold-plus-blue-plus-green
+brand:
+  slug: alzament
+name: PLA Silk Candy Gold + Blue + Green
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#f6c500ff'
+    color_lab:
+      - 81.58
+      - 3.43
+      - 82.98
+  - color_rgba: '#0353baff'
+    color_lab:
+      - 37.39
+      - 20.64
+      - -59.84
+  - color_rgba: '#00c26bff'
+    color_lab:
+      - 69.21
+      - -60.57
+      - 32.47
+tags:
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-candy-gold-plus-blue-plus-green-0-a4b1f6d7.jpg
+    type: unspecified

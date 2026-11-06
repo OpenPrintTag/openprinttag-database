@@ -1,0 +1,24 @@
+uuid: 167d7090-fa95-5e81-89c9-dfaedf9559cd
+slug: alzament-hyper-pla-plus-red
+brand:
+  slug: alzament
+name: Hyper PLA+ Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff2c29ff'
+  color_lab:
+    - 55.31
+    - 75.12
+    - 54.62
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-hyper-pla-plus-red-0-deb43496.png
+    type: unspecified

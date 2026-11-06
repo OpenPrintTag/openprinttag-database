@@ -1,0 +1,22 @@
+uuid: 243ea96f-2e36-5c1f-a177-fc5d75128ba0
+slug: alzament-pla-basic-sky-blue
+brand:
+  slug: alzament
+name: PLA Basic Sky Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5eb7d4ff'
+  color_lab:
+    - 70.17
+    - -18.5
+    - -22.73
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-basic-sky-blue-0-87db73ee.jpg
+    type: unspecified

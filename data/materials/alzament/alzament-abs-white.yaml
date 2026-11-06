@@ -1,0 +1,24 @@
+uuid: c376393c-feaf-5a23-bae2-68c2017dfb62
+slug: alzament-abs-white
+brand:
+  slug: alzament
+name: ABS White
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/alzament-abs-white-0-3aaf3059.jpg
+    type: unspecified

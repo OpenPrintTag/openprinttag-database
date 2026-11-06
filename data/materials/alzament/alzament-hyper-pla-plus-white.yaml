@@ -1,0 +1,24 @@
+uuid: a85c0ed2-7c58-57f9-b81b-10d4b6ff3810
+slug: alzament-hyper-pla-plus-white
+brand:
+  slug: alzament
+name: Hyper PLA+ White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+tags:
+  - high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-hyper-pla-plus-white-0-526a1208.png
+    type: unspecified

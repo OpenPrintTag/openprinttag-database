@@ -1,0 +1,24 @@
+uuid: 1d81787b-c0f8-500e-9206-23f02c0971b4
+slug: alzament-pla-matte-orange
+brand:
+  slug: alzament
+name: PLA Matte Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9a40ff'
+  color_lab:
+    - 72.72
+    - 30.98
+    - 60.8
+tags:
+  - matte
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-matte-orange-0-714d2951.jpg
+    type: unspecified

@@ -8,11 +8,29 @@ type: PLA
 abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-tri-colour-1-kg-gold-green-rose-red-d12869941.htm
 secondary_colors:
-- color_rgba: '#f3b400ff'
-- color_rgba: '#26a648ff'
-- color_rgba: '#bb264dff'
+  - color_rgba: '#bb264dff'
+    color_lab:
+      - 41.98
+      - 59.5
+      - 15.36
+  - color_rgba: '#f3b400ff'
+    color_lab:
+      - 77.1
+      - 10.98
+      - 79.75
+  - color_rgba: '#26a648ff'
+    color_lab:
+      - 60.02
+      - -53.91
+      - 38.67
 tags:
-- silk
-- industrially_compostable
-- coextruded
-properties: {}
+  - silk
+  - coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/alzament-pla-silk-tri-colour-gold-green-rose-red-0-87d09758.png
+    type: unspecified

@@ -1,0 +1,22 @@
+uuid: 72256db8-f446-5232-9538-92960be8689d
+slug: alzament-petg-red
+brand:
+  slug: alzament
+name: PETG Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ec0000ff'
+  color_lab:
+    - 49.3
+    - 75.53
+    - 63.38
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+  - url: /tmp/assets/alzament-petg-red-0-9df2c4c4.jpg
+    type: unspecified

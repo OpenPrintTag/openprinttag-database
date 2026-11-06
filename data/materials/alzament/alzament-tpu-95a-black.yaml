@@ -1,0 +1,23 @@
+uuid: ce5f350f-6738-59c9-86b3-d99fa6bd326b
+slug: alzament-tpu-95a-black
+brand:
+  slug: alzament
+name: TPU 95A Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/alzament-tpu-95a-black-0-638b3e6a.jpg
+    type: unspecified

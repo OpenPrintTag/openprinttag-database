@@ -1,0 +1,24 @@
+uuid: da9ac2c8-a230-53a9-9d76-281b3c63febe
+slug: alzament-abs-black
+brand:
+  slug: alzament
+name: ABS Black
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/alzament-abs-black-0-4666e1e8.jpg
+    type: unspecified

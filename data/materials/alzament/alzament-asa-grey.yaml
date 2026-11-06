@@ -1,0 +1,24 @@
+uuid: 88232b10-d80a-57e8-a705-8b100cc2180b
+slug: alzament-asa-grey
+brand:
+  slug: alzament
+name: ASA Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#75787bff'
+  color_lab:
+    - 50.27
+    - -0.51
+    - -2.04
+tags:
+  - filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/alzament-asa-grey-0-f73a27c2.jpg
+    type: unspecified
