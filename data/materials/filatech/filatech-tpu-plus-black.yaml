@@ -1,0 +1,24 @@
+uuid: 13ff1000-242a-594c-b564-8f437875e3d9
+slug: filatech-tpu-plus-black
+brand:
+  slug: filatech
+name: TPU+ Black
+class: FFF
+type: TPU
+abbreviation: TPU+
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.19
+  hardness_shore_a: 85.0
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-tpu-plus-black-0-7a5049a6.png
+    type: unspecified

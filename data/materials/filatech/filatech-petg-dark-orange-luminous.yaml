@@ -1,0 +1,23 @@
+uuid: 8d8bce89-e255-5f81-8912-e3fea3c21249
+slug: filatech-petg-dark-orange-luminous
+brand:
+  slug: filatech
+name: PETG Dark Orange (Luminous)
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff8e24ff'
+  color_lab:
+    - 69.99
+    - 36.27
+    - 68.78
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-dark-orange-luminous-0-0632d463.jpg
+    type: unspecified

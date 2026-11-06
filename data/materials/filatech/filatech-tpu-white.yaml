@@ -1,0 +1,24 @@
+uuid: 287aa177-358d-5cbf-afe5-9e06933fc79a
+slug: filatech-tpu-white
+brand:
+  slug: filatech
+name: TPU White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
+properties:
+  density: 1.2
+  hardness_shore_a: 85.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-tpu-white-0-13ab9cf1.jpg
+    type: unspecified

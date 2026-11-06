@@ -1,0 +1,24 @@
+uuid: 553091bf-5b28-5f82-98ee-bde12ff31b94
+slug: filatech-tpu-red
+brand:
+  slug: filatech
+name: TPU Red
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+properties:
+  density: 1.2
+  hardness_shore_a: 85.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-tpu-red-0-cd5a43a0.jpg
+    type: unspecified

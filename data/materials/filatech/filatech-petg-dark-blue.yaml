@@ -1,0 +1,23 @@
+uuid: 51d76e41-3fc9-5994-b728-3286ae12df6a
+slug: filatech-petg-dark-blue
+brand:
+  slug: filatech
+name: PETG Dark Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#183681ff'
+  color_lab:
+    - 25.0
+    - 18.47
+    - -45.44
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-dark-blue-0-274c631b.png
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 6b7ecfd3-33c8-51b5-a04d-3fecf360b98b
+slug: filatech-filapla-green
+brand:
+  slug: filatech
+name: FilaPLA Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+properties:
+  density: 1.3
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-filapla-green-0-b5dfa586.jpg
+    type: unspecified

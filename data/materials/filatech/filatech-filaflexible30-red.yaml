@@ -1,0 +1,24 @@
+uuid: fa7ad285-8136-577e-8ce1-bba3c6b2ba0f
+slug: filatech-filaflexible30-red
+brand:
+  slug: filatech
+name: FilaFlexible30 Red
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+properties:
+  density: 1.15
+  hardness_shore_d: 30.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-filaflexible30-red-0-f6a47b72.png
+    type: unspecified

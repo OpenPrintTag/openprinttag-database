@@ -1,0 +1,23 @@
+uuid: ffc207d7-b668-5ed0-aa61-763c724de099
+slug: filatech-petg-gold
+brand:
+  slug: filatech
+name: PETG Gold
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c7b768ff'
+  color_lab:
+    - 74.2
+    - -4.98
+    - 42.0
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-gold-0-9fdabefd.png
+    type: unspecified

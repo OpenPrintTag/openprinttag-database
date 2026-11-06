@@ -1,0 +1,24 @@
+uuid: 4058043d-2078-5ed5-85ce-cd0001b2815c
+slug: filatech-tpe-silver
+brand:
+  slug: filatech
+name: TPE Silver
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#949597ff'
+  color_lab:
+    - 61.68
+    - 0.03
+    - -1.18
+properties:
+  density: 1.06
+  hardness_shore_a: 80.0
+  min_print_temperature: 210
+  max_print_temperature: 255
+  min_bed_temperature: 20
+  max_bed_temperature: 55
+photos:
+  - url: /tmp/assets/filatech-tpe-silver-0-58afe999.jpg
+    type: unspecified

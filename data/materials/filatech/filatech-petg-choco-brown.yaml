@@ -1,0 +1,23 @@
+uuid: a1e85ee8-8634-5353-9401-e1ee10f19357
+slug: filatech-petg-choco-brown
+brand:
+  slug: filatech
+name: PETG Choco Brown
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#a45b27ff'
+  color_lab:
+    - 46.34
+    - 25.77
+    - 41.6
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-choco-brown-0-9b04562c.jpg
+    type: unspecified

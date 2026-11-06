@@ -1,0 +1,23 @@
+uuid: 4915148c-e6bd-508f-8da4-d910a96bf232
+slug: filatech-filapla-light-brown
+brand:
+  slug: filatech
+name: FilaPLA Light Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e1a870ff'
+  color_lab:
+    - 73.01
+    - 14.44
+    - 36.97
+properties:
+  density: 1.3
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-filapla-light-brown-0-a28809a9.png
+    type: unspecified

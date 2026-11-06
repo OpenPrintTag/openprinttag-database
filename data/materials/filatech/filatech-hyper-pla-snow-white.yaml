@@ -9,6 +9,19 @@ abbreviation: PLA
 url: https://fila-tech.store/product/pla-filament/
 primary_color:
   color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
 tags:
-- industrially_compostable
-properties: {}
+  - high_speed
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 220
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-hyper-pla-snow-white-0-74115b93.jpg
+    type: unspecified
