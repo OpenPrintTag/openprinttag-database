@@ -1,0 +1,23 @@
+uuid: ddd8d228-b25a-59e4-9c4e-41f3c9b2674c
+slug: filatech-petg-black
+brand:
+  slug: filatech
+name: PETG Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-black-0-baa98bbb.jpg
+    type: unspecified

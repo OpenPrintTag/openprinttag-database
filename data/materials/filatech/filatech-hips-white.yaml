@@ -1,0 +1,25 @@
+uuid: f2aa0671-4f2b-59e8-a8b6-9d4f200fb002
+slug: filatech-hips-white
+brand:
+  slug: filatech
+name: HIPS White
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+    - 94.45
+    - 0.0
+    - 0.0
+tags:
+  - limonene_soluble
+properties:
+  density: 1.07
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/filatech-hips-white-0-f00e9c62.jpg
+    type: unspecified

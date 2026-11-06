@@ -1,0 +1,26 @@
+uuid: afe86d76-069e-50d8-bc9c-40573d440882
+slug: filatech-petg-natural-clear
+brand:
+  slug: filatech
+name: PETG Natural Clear
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - transparent
+  - without_pigments
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-natural-clear-0-b7a59452.jpg
+    type: unspecified

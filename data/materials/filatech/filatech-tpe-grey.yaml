@@ -1,0 +1,24 @@
+uuid: a158a02c-761d-59bd-b348-e74f3e1a33e3
+slug: filatech-tpe-grey
+brand:
+  slug: filatech
+name: TPE Grey
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#d6d7d8ff'
+  color_lab:
+    - 85.93
+    - -0.16
+    - -0.61
+properties:
+  density: 1.06
+  hardness_shore_a: 80.0
+  min_print_temperature: 210
+  max_print_temperature: 255
+  min_bed_temperature: 20
+  max_bed_temperature: 55
+photos:
+  - url: /tmp/assets/filatech-tpe-grey-0-0a319702.jpg
+    type: unspecified

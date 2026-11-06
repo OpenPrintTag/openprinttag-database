@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://fila-tech.store/product/pla-filament/
 primary_color:
   color_rgba: '#61c680ff'
+  color_lab:
+    - 72.55
+    - -45.01
+    - 26.29
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-pla-green-luminous-0-09367cd1.jpg
+    type: unspecified

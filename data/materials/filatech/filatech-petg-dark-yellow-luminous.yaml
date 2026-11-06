@@ -1,0 +1,23 @@
+uuid: 501e8b6b-3234-593e-b7a5-8887027f295d
+slug: filatech-petg-dark-yellow-luminous
+brand:
+  slug: filatech
+name: PETG Dark Yellow (Luminous)
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fadb24ff'
+  color_lab:
+    - 87.54
+    - -5.61
+    - 82.72
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-dark-yellow-luminous-0-6e1fbd4d.jpg
+    type: unspecified

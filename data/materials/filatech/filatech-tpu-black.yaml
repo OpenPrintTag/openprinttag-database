@@ -1,0 +1,24 @@
+uuid: 0b2f1949-c382-5168-8c69-1f8ddd5e4a0f
+slug: filatech-tpu-black
+brand:
+  slug: filatech
+name: TPU Black
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+properties:
+  density: 1.2
+  hardness_shore_a: 85.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-tpu-black-0-469601eb.jpg
+    type: unspecified

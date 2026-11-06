@@ -1,0 +1,26 @@
+uuid: c1b76498-7230-565e-a3d4-e4b2e03ff42c
+slug: filatech-filaflexible40-natural-white
+brand:
+  slug: filatech
+name: FilaFlexible40 Natural White
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#f2efe9ff'
+  color_lab:
+    - 94.52
+    - -0.04
+    - 3.25
+tags:
+  - without_pigments
+properties:
+  density: 1.22
+  hardness_shore_d: 40.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/filatech-filaflexible40-natural-white-0-65bb8606.jpg
+    type: unspecified

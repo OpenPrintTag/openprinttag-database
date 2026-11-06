@@ -1,0 +1,23 @@
+uuid: 0317758e-22d7-58ed-aa9a-418bfb823766
+slug: filatech-petg-dark-metallic-grey
+brand:
+  slug: filatech
+name: PETG Dark Metallic Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#595959ff'
+  color_lab:
+    - 37.82
+    - -0.0
+    - 0.0
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/filatech-petg-dark-metallic-grey-0-4edf64db.png
+    type: unspecified
