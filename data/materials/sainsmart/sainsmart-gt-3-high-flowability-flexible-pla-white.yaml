@@ -12,8 +12,6 @@ primary_color:
     - 100.0
     - 0.0
     - 0.0
-tags:
-  - industrially_compostable
 properties:
   min_print_temperature: 190
   max_print_temperature: 230
