@@ -1,0 +1,22 @@
+uuid: e49d4cb9-952e-5140-a4e8-36906fe0dd16
+slug: forgely-performance-pla-copper
+brand:
+  slug: forgely
+name: Performance PLA — Copper
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bb8330ff'
+  color_lab:
+    - 58.99
+    - 13.95
+    - 51.22
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/forgely-performance-pla-copper-0-caf875bd.webp
+    type: unspecified
