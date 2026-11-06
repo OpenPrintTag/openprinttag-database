@@ -1,0 +1,28 @@
+uuid: 7a88d09d-de62-54f7-89f0-8ade9f87b9cf
+slug: sainsmart-nylon-plus-carbon-fiber-black
+brand:
+  slug: sainsmart
+name: Nylon+ Carbon Fiber Black
+class: FFF
+type: PA6
+abbreviation: PACF
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties:
+  min_print_temperature: 260
+  max_print_temperature: 280
+  min_bed_temperature: 80
+  max_bed_temperature: 80
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/sainsmart-nylon-plus-carbon-fiber-black-0-235566cc.jpg
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: 891d16e5-030d-5bbd-8248-34d4a29f025d
+slug: sainsmart-dark-purple-pro-3-petg
+brand:
+  slug: sainsmart
+name: Dark Purple PRO-3 PETG
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#581d80ff'
+  color_lab:
+    - 25.3
+    - 44.35
+    - -44.07
+tags:
+  - translucent
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/sainsmart-dark-purple-pro-3-petg-0-d38e0f1f.jpg
+    type: unspecified

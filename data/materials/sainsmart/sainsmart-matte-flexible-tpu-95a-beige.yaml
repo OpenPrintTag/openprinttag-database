@@ -1,0 +1,25 @@
+uuid: c2a609d3-2392-58b3-bbaa-7ed6c325c318
+slug: sainsmart-matte-flexible-tpu-95a-beige
+brand:
+  slug: sainsmart
+name: Matte Flexible TPU 95A Beige
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#e9d1c1ff'
+  color_lab:
+    - 85.39
+    - 5.8
+    - 10.98
+tags:
+  - matte
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+photos:
+  - url: /tmp/assets/sainsmart-matte-flexible-tpu-95a-beige-0-6de8308d.webp
+    type: unspecified

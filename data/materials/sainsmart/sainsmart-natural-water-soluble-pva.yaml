@@ -1,0 +1,22 @@
+uuid: 4e7f2bb0-2c40-5f8d-869d-5b11fdffe06a
+slug: sainsmart-natural-water-soluble-pva
+brand:
+  slug: sainsmart
+name: Natural Water Soluble PVA
+class: FFF
+type: PVA
+abbreviation: PVA
+primary_color:
+  color_rgba: '#dfdfd3ff'
+  color_lab:
+    - 88.53
+    - -2.1
+    - 5.88
+tags:
+  - water_soluble
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 210
+photos:
+  - url: /tmp/assets/sainsmart-natural-water-soluble-pva-0-e885b31a.jpg
+    type: unspecified

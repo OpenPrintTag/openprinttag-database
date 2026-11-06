@@ -7,9 +7,24 @@ class: FFF
 type: PETG
 abbreviation: PETG
 secondary_colors:
-- color_rgba: '#62e480ff'
-- color_rgba: '#e3ecd3ff'
+  - color_rgba: '#62e480ff'
+    color_lab:
+      - 81.64
+      - -56.86
+      - 38.21
+  - color_rgba: '#e3ecd3ff'
+    color_lab:
+      - 92.14
+      - -7.34
+      - 11.1
 tags:
-- glow_in_the_dark
-- abrasive
-properties: {}
+  - glow_in_the_dark
+  - abrasive
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/sainsmart-glow-in-the-dark-green-pro-3-petg-0-c7aaeda0.jpg
+    type: unspecified

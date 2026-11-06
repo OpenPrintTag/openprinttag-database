@@ -1,0 +1,25 @@
+uuid: 56e80d3a-17a3-518c-86a9-60f6881ca377
+slug: sainsmart-peba-90a-orange
+brand:
+  slug: sainsmart
+name: PEBA 90A Orange
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#ff8133ff'
+  color_lab:
+    - 67.43
+    - 43.18
+    - 61.15
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+  - url: /tmp/assets/sainsmart-peba-90a-orange-0-f6b6dd7f.jpg
+    type: unspecified
