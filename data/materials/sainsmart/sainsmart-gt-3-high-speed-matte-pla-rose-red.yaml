@@ -8,8 +8,18 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#ff2c29ff'
+  color_lab:
+    - 55.31
+    - 75.12
+    - 54.62
 tags:
-- matte
-- industrially_compostable
-- high_speed
-properties: {}
+  - high_speed
+  - matte
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/sainsmart-gt-3-high-speed-matte-pla-rose-red-0-547b1dfc.jpg
+    type: unspecified

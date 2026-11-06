@@ -8,7 +8,16 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#000000ff'
+  color_lab:
+    - 0.0
+    - 0.0
+    - 0.0
 tags:
-- foaming
-- industrially_compostable
-properties: {}
+  - foaming
+properties:
+  density: 1.2
+  min_print_temperature: 200
+  max_print_temperature: 280
+photos:
+  - url: /tmp/assets/sainsmart-lw-pla-black-0-5f7ddc8e.jpg
+    type: unspecified

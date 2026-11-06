@@ -1,0 +1,25 @@
+uuid: f1de71e1-587b-55df-93c6-997e97664ee9
+slug: sainsmart-matte-flexible-tpu-95a-skin
+brand:
+  slug: sainsmart
+name: Matte Flexible TPU 95A Skin
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#fec8a4ff'
+  color_lab:
+    - 84.52
+    - 14.44
+    - 25.35
+tags:
+  - matte
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+photos:
+  - url: /tmp/assets/sainsmart-matte-flexible-tpu-95a-skin-0-c6709c95.webp
+    type: unspecified

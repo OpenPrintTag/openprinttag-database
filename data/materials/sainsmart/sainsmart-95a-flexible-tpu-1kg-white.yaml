@@ -1,0 +1,24 @@
+uuid: ddfd5ace-f9ad-59ff-b9ca-77b235c747d1
+slug: sainsmart-95a-flexible-tpu-1kg-white
+brand:
+  slug: sainsmart
+name: 95A Flexible TPU 1KG White
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+  drying_temperature: 65
+photos:
+  - url: /tmp/assets/sainsmart-95a-flexible-tpu-1kg-white-0-40a3e48e.webp
+    type: unspecified

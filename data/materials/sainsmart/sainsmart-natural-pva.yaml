@@ -8,6 +8,18 @@ type: PVA
 abbreviation: PVA
 primary_color:
   color_rgba: '#e8ebceff'
+  color_lab:
+    - 92.14
+    - -5.9
+    - 13.75
 tags:
-- water_soluble
-properties: {}
+  - water_soluble
+properties:
+  density: 1.27
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 60
+  max_bed_temperature: 80
+photos:
+  - url: /tmp/assets/sainsmart-natural-pva-0-3c2982cc.jpg
+    type: unspecified

@@ -1,0 +1,25 @@
+uuid: 9879af86-d498-54aa-ac40-eefd2d8333fb
+slug: sainsmart-gt-3-high-speed-glossy-pla-plus-silver
+brand:
+  slug: sainsmart
+name: GT-3 High Speed Glossy PLA+ Silver
+class: FFF
+type: PLA
+abbreviation: PLA+
+primary_color:
+  color_rgba: '#abacb0ff'
+  color_lab:
+    - 70.38
+    - 0.41
+    - -2.17
+tags:
+  - silk
+  - high_speed
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 240
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/sainsmart-gt-3-high-speed-glossy-pla-plus-silver-0-abe970b0.jpg
+    type: unspecified

@@ -1,0 +1,26 @@
+uuid: 4ae06279-27e0-5d2d-a350-daf491a0032e
+slug: sainsmart-living-coral-flexible-tpu
+brand:
+  slug: sainsmart
+name: Living Coral, Flexible TPU
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ff854dff'
+  color_lab:
+    - 68.44
+    - 42.24
+    - 50.29
+tags:
+  - translucent
+properties:
+  density: 1.21
+  hardness_shore_a: 95.0
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/sainsmart-living-coral-flexible-tpu-0-61967b9f.jpg
+    type: unspecified

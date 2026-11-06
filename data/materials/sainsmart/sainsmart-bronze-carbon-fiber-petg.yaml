@@ -5,10 +5,22 @@ brand:
 name: Bronze Carbon Fiber PETG
 class: FFF
 type: PETG
-abbreviation: PETG
+abbreviation: PETGCF
 primary_color:
   color_rgba: '#8c7354ff'
+  color_lab:
+    - 50.07
+    - 5.22
+    - 20.84
 tags:
-- contains_carbon_fiber
-- abrasive
-properties: {}
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 70
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/sainsmart-bronze-carbon-fiber-petg-0-ff8d42f1.jpg
+    type: unspecified
