@@ -5,5 +5,6 @@ material:
   slug: filatech-pla-blue
 nominal_netto_full_weight: 1000
 filament_diameter: 2850
+filament_diameter_tolerance: 30
 gtin: 3663654162042
 url: https://fila-tech.store/product/pla-filament/?attribute_pa_color=blue&attribute_pa_grade=pla&attribute_pa_size=2-85-mm&attribute_pa_weight=1-0-kg
