@@ -1,0 +1,23 @@
+uuid: 92c6090e-26fe-5d6b-b6cf-599da4d44d82
+slug: nth-grillon-pla-fast-rosa
+brand:
+  slug: nth-grillon
+name: PLA Fast Rosa
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffa3c6ff'
+  color_lab:
+    - 77.0
+    - 38.58
+    - -3.59
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-rosa-0-185e6fee.webp
+    type: unspecified

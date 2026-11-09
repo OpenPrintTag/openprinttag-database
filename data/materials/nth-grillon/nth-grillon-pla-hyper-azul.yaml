@@ -1,0 +1,23 @@
+uuid: 207a8da2-6827-5842-ab45-243950bc0a2b
+slug: nth-grillon-pla-hyper-azul
+brand:
+  slug: nth-grillon
+name: PLA Hyper Azul
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+    - 63.37
+    - 8.98
+    - -56.93
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-hyper-azul-0-8c2143b0.webp
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: b6e72d81-1622-5dac-b69b-66cc061c6fec
+slug: nth-grillon-pla-fast-blanco
+brand:
+  slug: nth-grillon
+name: PLA Fast Blanco
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-blanco-0-9f101be9.webp
+    type: unspecified

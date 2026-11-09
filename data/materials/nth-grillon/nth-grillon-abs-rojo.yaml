@@ -1,0 +1,25 @@
+uuid: de858e15-ecf8-507c-b2e7-193dccf9cdbc
+slug: nth-grillon-abs-rojo
+brand:
+  slug: nth-grillon
+name: ABS Rojo
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/nth-grillon-abs-rojo-0-9b9510b2.jpg
+    type: unspecified

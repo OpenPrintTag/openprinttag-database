@@ -1,0 +1,26 @@
+uuid: bda502e1-a811-52a8-b052-4602ab0320e9
+slug: nth-grillon-pla-wood-pino
+brand:
+  slug: nth-grillon
+name: PLA Wood Pino
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c8a165ff'
+  color_lab:
+    - 68.54
+    - 6.87
+    - 36.54
+tags:
+  - imitates_wood
+  - contains_wood
+properties:
+  density: 1.18
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-wood-pino-0-5f2216ec.jpg
+    type: unspecified

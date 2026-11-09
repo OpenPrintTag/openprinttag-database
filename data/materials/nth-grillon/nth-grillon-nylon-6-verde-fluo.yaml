@@ -1,0 +1,26 @@
+uuid: 10469d0f-ca1b-5630-a0e2-16d413015e5c
+slug: nth-grillon-nylon-6-verde-fluo
+brand:
+  slug: nth-grillon
+name: Nylon 6 Verde Flúo
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#7fff00ff'
+  color_lab:
+    - 89.87
+    - -68.07
+    - 85.78
+tags:
+  - neon
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 225
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/nth-grillon-nylon-6-verde-fluo-0-28bd1c80.webp
+    type: unspecified

@@ -1,0 +1,26 @@
+uuid: 55e69770-353a-5e8d-924d-3945a6bbae66
+slug: nth-grillon-pla-wood-cerezo
+brand:
+  slug: nth-grillon
+name: PLA Wood Cerezo
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ad7032ff'
+  color_lab:
+    - 52.63
+    - 18.49
+    - 43.2
+tags:
+  - imitates_wood
+  - contains_wood
+properties:
+  density: 1.18
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-wood-cerezo-0-f98b89b3.jpg
+    type: unspecified

@@ -1,0 +1,25 @@
+uuid: eeb571ae-49ee-5604-943b-095ecb48b5e4
+slug: nth-grillon-abs-gris-plata
+brand:
+  slug: nth-grillon
+name: ABS Gris Plata
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#bcbabbff'
+  color_lab:
+    - 75.7
+    - 0.88
+    - -0.26
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/nth-grillon-abs-gris-plata-0-474ba660.jpg
+    type: unspecified

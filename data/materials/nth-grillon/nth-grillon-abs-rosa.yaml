@@ -1,0 +1,22 @@
+uuid: 8ee7d8b2-2030-55b7-b89e-79babdea0029
+slug: nth-grillon-abs-rosa
+brand:
+  slug: nth-grillon
+name: ABS Rosa
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffa3c6ff'
+  color_lab:
+    - 77.0
+    - 38.58
+    - -3.59
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90

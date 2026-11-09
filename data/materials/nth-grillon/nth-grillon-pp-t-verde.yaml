@@ -1,0 +1,23 @@
+uuid: 7d4e2d65-6434-525b-b500-ac0f953bd4eb
+slug: nth-grillon-pp-t-verde
+brand:
+  slug: nth-grillon
+name: PP-T Verde
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+properties:
+  density: 0.92
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/nth-grillon-pp-t-verde-0-2b100deb.webp
+    type: unspecified

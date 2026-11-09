@@ -1,0 +1,26 @@
+uuid: e7dbe043-8b04-5294-a020-7fee653ee468
+slug: nth-grillon-nylon-6-naranja-fluo
+brand:
+  slug: nth-grillon
+name: Nylon 6 Naranja Flúo
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#ff6700ff'
+  color_lab:
+    - 62.48
+    - 54.56
+    - 71.42
+tags:
+  - neon
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 225
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/nth-grillon-nylon-6-naranja-fluo-0-ad173c59.jpg
+    type: unspecified

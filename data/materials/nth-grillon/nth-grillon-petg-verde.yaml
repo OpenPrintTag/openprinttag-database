@@ -1,0 +1,25 @@
+uuid: 64ea6a43-38fa-573c-a262-d76c99997480
+slug: nth-grillon-petg-verde
+brand:
+  slug: nth-grillon
+name: PETG Verde
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+tags:
+  - transparent
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/nth-grillon-petg-verde-0-ab40435a.jpg
+    type: unspecified

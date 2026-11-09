@@ -1,0 +1,23 @@
+uuid: 95f2fd55-fc5f-5359-b702-909993bcfb14
+slug: nth-grillon-pla-870-negro
+brand:
+  slug: nth-grillon
+name: PLA 870 Negro
+class: FFF
+type: PLA
+abbreviation: PLA870
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+    - 0.76
+    - -0.26
+    - -0.09
+properties:
+  density: 1.22
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-870-negro-0-e739f8ea.jpg
+    type: unspecified

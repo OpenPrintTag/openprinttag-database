@@ -1,0 +1,23 @@
+uuid: 868f5070-2009-5c23-accb-ece645a4fe7b
+slug: nth-grillon-petg-blanco
+brand:
+  slug: nth-grillon
+name: PETG Blanco
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/nth-grillon-petg-blanco-0-339382c0.jpg
+    type: unspecified

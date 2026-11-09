@@ -1,0 +1,23 @@
+uuid: 811e4e8e-c3d4-5326-83f5-20bf41729a86
+slug: nth-grillon-pla-fast-natural
+brand:
+  slug: nth-grillon
+name: PLA Fast Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+    - 98.28
+    - -6.65
+    - 14.88
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-natural-0-8d19a623.webp
+    type: unspecified

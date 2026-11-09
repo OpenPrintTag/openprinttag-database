@@ -1,0 +1,21 @@
+uuid: 4642026e-4597-59fc-ae01-811f8cf391af
+slug: nth-grillon-simpliflex-verde
+brand:
+  slug: nth-grillon
+name: Simpliflex Verde
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+    - 69.21
+    - -60.57
+    - 32.47
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+photos:
+  - url: /tmp/assets/nth-grillon-simpliflex-verde-0-9255c6e2.jpg
+    type: unspecified

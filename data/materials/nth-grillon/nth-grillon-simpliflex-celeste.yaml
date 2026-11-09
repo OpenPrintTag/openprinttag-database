@@ -1,0 +1,21 @@
+uuid: f2664d5e-0960-53f7-bcc0-29301054f84f
+slug: nth-grillon-simpliflex-celeste
+brand:
+  slug: nth-grillon
+name: Simpliflex Celeste
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#3abbdeff'
+  color_lab:
+    - 70.67
+    - -23.25
+    - -27.53
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+photos:
+  - url: /tmp/assets/nth-grillon-simpliflex-celeste-0-30092f2d.jpg
+    type: unspecified

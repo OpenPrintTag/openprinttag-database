@@ -1,0 +1,23 @@
+uuid: 08892bcd-17cf-5244-848c-211cf3fa0b43
+slug: nth-grillon-pla-hyper-gris-plata
+brand:
+  slug: nth-grillon
+name: PLA Hyper Gris Plata
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#bcbabbff'
+  color_lab:
+    - 75.7
+    - 0.88
+    - -0.26
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-hyper-gris-plata-0-c87a3d95.webp
+    type: unspecified

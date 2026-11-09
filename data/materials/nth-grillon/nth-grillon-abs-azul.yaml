@@ -1,0 +1,25 @@
+uuid: 9bf82e5a-f5a7-5f0b-9e05-40c1a66af3c3
+slug: nth-grillon-abs-azul
+brand:
+  slug: nth-grillon
+name: ABS Azul
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+    - 63.37
+    - 8.98
+    - -56.93
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/nth-grillon-abs-azul-0-853fa7b9.jpg
+    type: unspecified

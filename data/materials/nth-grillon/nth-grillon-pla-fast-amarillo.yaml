@@ -1,0 +1,23 @@
+uuid: 2061ec30-8e48-57ff-bb8a-186bf5bb7bd7
+slug: nth-grillon-pla-fast-amarillo
+brand:
+  slug: nth-grillon
+name: PLA Fast Amarillo
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffe802ff'
+  color_lab:
+    - 91.23
+    - -10.41
+    - 90.03
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-amarillo-0-c3468802.webp
+    type: unspecified

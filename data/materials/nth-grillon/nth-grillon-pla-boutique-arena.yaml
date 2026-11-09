@@ -1,0 +1,23 @@
+uuid: 7a8d3fdf-dfa6-5628-8d39-7eb04711110c
+slug: nth-grillon-pla-boutique-arena
+brand:
+  slug: nth-grillon
+name: PLA Boutique Arena
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e8d96aff'
+  color_lab:
+    - 85.92
+    - -8.74
+    - 55.71
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-boutique-arena-0-cd1c37f1.jpg
+    type: unspecified

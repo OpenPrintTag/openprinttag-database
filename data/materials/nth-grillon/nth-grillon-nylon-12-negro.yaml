@@ -1,0 +1,25 @@
+uuid: 7dc014e5-aa76-59ed-9819-bca2eecd35ec
+slug: nth-grillon-nylon-12-negro
+brand:
+  slug: nth-grillon
+name: Nylon 12 Negro
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+    - 0.76
+    - -0.26
+    - -0.09
+tags:
+  - filtration_recommended
+properties:
+  density: 1.02
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/nth-grillon-nylon-12-negro-0-7c7072e6.jpg
+    type: unspecified

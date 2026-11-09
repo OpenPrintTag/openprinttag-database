@@ -1,0 +1,23 @@
+uuid: a13673fc-8c99-5780-8248-f6c7a4c14690
+slug: nth-grillon-pla-fast-fucsia
+brand:
+  slug: nth-grillon
+name: PLA Fast Fucsia
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ed6498ff'
+  color_lab:
+    - 61.12
+    - 57.7
+    - -1.36
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-fucsia-0-c61f8ffe.webp
+    type: unspecified

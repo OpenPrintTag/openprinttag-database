@@ -1,0 +1,22 @@
+uuid: 8e68fbee-7d26-5571-a05b-bc1315240cb1
+slug: nth-grillon-pla-fast-verde-fluo
+brand:
+  slug: nth-grillon
+name: PLA Fast Verde Flúo
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7fff00ff'
+  color_lab:
+    - 89.87
+    - -68.07
+    - 85.78
+tags:
+  - neon
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50

@@ -1,0 +1,23 @@
+uuid: 2067c9ba-784e-5ca1-a1d1-38d555391b11
+slug: nth-grillon-pla-fast-gris-espacial
+brand:
+  slug: nth-grillon
+name: PLA Fast Gris Espacial
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#63646bff'
+  color_lab:
+    - 42.5
+    - 1.12
+    - -4.08
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-gris-espacial-0-d4138864.webp
+    type: unspecified

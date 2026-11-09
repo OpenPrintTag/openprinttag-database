@@ -1,0 +1,25 @@
+uuid: e645f879-8f7a-5923-966b-f61600fbc528
+slug: nth-grillon-nylon-6-blanco
+brand:
+  slug: nth-grillon
+name: Nylon 6 Blanco
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+tags:
+  - filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 225
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+  - url: /tmp/assets/nth-grillon-nylon-6-blanco-0-5d5178de.jpg
+    type: unspecified

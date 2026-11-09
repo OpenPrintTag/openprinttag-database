@@ -1,0 +1,25 @@
+uuid: 1019558b-b309-56cf-9750-8d84e1e618ae
+slug: nth-grillon-pla-astra-roby
+brand:
+  slug: nth-grillon
+name: PLA Astra Roby
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+tags:
+  - glitter
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/nth-grillon-pla-astra-roby-0-6f5feae9.jpg
+    type: unspecified

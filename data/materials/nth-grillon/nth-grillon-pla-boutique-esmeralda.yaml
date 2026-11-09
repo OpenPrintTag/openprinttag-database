@@ -1,0 +1,23 @@
+uuid: 7c5b8523-0a0e-5d73-9d13-a8648f6935fb
+slug: nth-grillon-pla-boutique-esmeralda
+brand:
+  slug: nth-grillon
+name: PLA Boutique Esmeralda
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#44ca6bff'
+  color_lab:
+    - 72.58
+    - -56.59
+    - 36.95
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-boutique-esmeralda-0-897062d4.jpg
+    type: unspecified

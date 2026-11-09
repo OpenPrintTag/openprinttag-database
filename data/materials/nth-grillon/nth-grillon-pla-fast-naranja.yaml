@@ -1,0 +1,20 @@
+uuid: f08bf153-9a6e-54d5-9761-f5a7043939df
+slug: nth-grillon-pla-fast-naranja
+brand:
+  slug: nth-grillon
+name: PLA Fast Naranja
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9a40ff'
+  color_lab:
+    - 72.72
+    - 30.98
+    - 60.8
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50

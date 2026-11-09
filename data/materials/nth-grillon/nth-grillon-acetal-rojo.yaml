@@ -1,0 +1,25 @@
+uuid: 7a87d1fd-8045-584d-b7a5-11e502949f12
+slug: nth-grillon-acetal-rojo
+brand:
+  slug: nth-grillon
+name: Acetal Rojo
+class: FFF
+type: POM
+abbreviation: POM
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+tags:
+  - filtration_recommended
+properties:
+  density: 1.42
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/nth-grillon-acetal-rojo-0-e217e37f.jpg
+    type: unspecified

@@ -1,0 +1,21 @@
+uuid: 5d909d3c-556f-5745-87ba-9eb502aa6b34
+slug: nth-grillon-simpliflex-nova
+brand:
+  slug: nth-grillon
+name: Simpliflex Nova
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#6a1b9aff'
+  color_lab:
+    - 29.87
+    - 54.3
+    - -52.66
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+photos:
+  - url: /tmp/assets/nth-grillon-simpliflex-nova-0-baa1a4c1.jpg
+    type: unspecified

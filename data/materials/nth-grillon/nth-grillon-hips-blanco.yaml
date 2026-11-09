@@ -1,0 +1,25 @@
+uuid: 68d81f32-f113-5f7e-9d05-c11114eb997a
+slug: nth-grillon-hips-blanco
+brand:
+  slug: nth-grillon
+name: HIPS Blanco
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+tags:
+  - limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 85
+  max_bed_temperature: 85
+photos:
+  - url: /tmp/assets/nth-grillon-hips-blanco-0-dd20dcd3.jpg
+    type: unspecified

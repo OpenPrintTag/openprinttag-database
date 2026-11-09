@@ -1,0 +1,23 @@
+uuid: e6a6bb63-ea1d-5724-9028-c248e25bb2e0
+slug: nth-grillon-pla-870-turquesa
+brand:
+  slug: nth-grillon
+name: PLA 870 Turquesa
+class: FFF
+type: PLA
+abbreviation: PLA870
+primary_color:
+  color_rgba: '#058b8cff'
+  color_lab:
+    - 52.27
+    - -30.06
+    - -9.47
+properties:
+  density: 1.22
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-870-turquesa-0-79e9378b.jpg
+    type: unspecified

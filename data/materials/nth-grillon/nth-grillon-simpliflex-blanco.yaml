@@ -1,0 +1,21 @@
+uuid: 942e3c7e-e0d3-5917-93ee-536e4180e475
+slug: nth-grillon-simpliflex-blanco
+brand:
+  slug: nth-grillon
+name: Simpliflex Blanco
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+photos:
+  - url: /tmp/assets/nth-grillon-simpliflex-blanco-0-3544876b.jpg
+    type: unspecified

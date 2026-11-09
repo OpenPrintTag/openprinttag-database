@@ -1,0 +1,25 @@
+uuid: 2903837c-fe4d-5cff-9977-921a70a82e8f
+slug: nth-grillon-hips-azul
+brand:
+  slug: nth-grillon
+name: HIPS Azul
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+    - 63.37
+    - 8.98
+    - -56.93
+tags:
+  - limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 85
+  max_bed_temperature: 85
+photos:
+  - url: /tmp/assets/nth-grillon-hips-azul-0-3094b6cf.jpg
+    type: unspecified

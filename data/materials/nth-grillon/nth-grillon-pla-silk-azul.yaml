@@ -1,0 +1,25 @@
+uuid: 0c4e97ec-04fb-5da8-88e2-51d55566e5c5
+slug: nth-grillon-pla-silk-azul
+brand:
+  slug: nth-grillon
+name: PLA Silk Azul
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+    - 63.37
+    - 8.98
+    - -56.93
+tags:
+  - silk
+properties:
+  density: 1.23
+  min_print_temperature: 175
+  max_print_temperature: 215
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/nth-grillon-pla-silk-azul-0-bbb599f1.jpg
+    type: unspecified

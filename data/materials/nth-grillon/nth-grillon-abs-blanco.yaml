@@ -1,0 +1,25 @@
+uuid: b8cf5e46-d9a4-5d13-abb0-45b0b4f74148
+slug: nth-grillon-abs-blanco
+brand:
+  slug: nth-grillon
+name: ABS Blanco
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/nth-grillon-abs-blanco-0-bf16d437.jpg
+    type: unspecified

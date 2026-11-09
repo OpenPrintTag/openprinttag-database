@@ -1,0 +1,23 @@
+uuid: 265b37b8-8d1a-5998-b8bb-1ee511ef6929
+slug: nth-grillon-pla-fast-magenta
+brand:
+  slug: nth-grillon
+name: PLA Fast Magenta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff0086ff'
+  color_lab:
+    - 55.06
+    - 84.98
+    - 0.72
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-magenta-0-84c550d6.webp
+    type: unspecified

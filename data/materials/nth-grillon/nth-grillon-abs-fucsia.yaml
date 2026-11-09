@@ -1,0 +1,25 @@
+uuid: 41f02567-437e-58f9-94bf-49cf3a5f2a43
+slug: nth-grillon-abs-fucsia
+brand:
+  slug: nth-grillon
+name: ABS Fucsia
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ed6498ff'
+  color_lab:
+    - 61.12
+    - 57.7
+    - -1.36
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+  - url: /tmp/assets/nth-grillon-abs-fucsia-0-f4f82aa7.jpg
+    type: unspecified

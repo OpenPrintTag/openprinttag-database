@@ -1,0 +1,22 @@
+uuid: bcf2fab1-79fe-5e6c-ab2a-cfae4d37442c
+slug: nth-grillon-abs-celeste
+brand:
+  slug: nth-grillon
+name: ABS Celeste
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#3abbdeff'
+  color_lab:
+    - 70.67
+    - -23.25
+    - -27.53
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90

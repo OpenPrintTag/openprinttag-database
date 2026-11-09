@@ -1,0 +1,22 @@
+uuid: d7f430a0-a438-5c80-85ed-de40314e1c1c
+slug: nth-grillon-abs-cobre
+brand:
+  slug: nth-grillon
+name: ABS Cobre
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#bb8330ff'
+  color_lab:
+    - 58.99
+    - 13.95
+    - 51.22
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90

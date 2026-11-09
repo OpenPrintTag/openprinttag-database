@@ -1,0 +1,23 @@
+uuid: 8d77a3ff-3504-533a-b56a-a41635bfefcc
+slug: nth-grillon-pla-870-gris-plata
+brand:
+  slug: nth-grillon
+name: PLA 870 Gris Plata
+class: FFF
+type: PLA
+abbreviation: PLA870
+primary_color:
+  color_rgba: '#bcbabbff'
+  color_lab:
+    - 75.7
+    - 0.88
+    - -0.26
+properties:
+  density: 1.22
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-870-gris-plata-0-e4630b85.jpg
+    type: unspecified

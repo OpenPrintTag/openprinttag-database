@@ -1,0 +1,23 @@
+uuid: d21b7064-b9c1-5ab6-bdc2-32f2411bb1b3
+slug: nth-grillon-pla-boutique-perla-frio
+brand:
+  slug: nth-grillon
+name: PLA Boutique Perla Frío
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3f2ecff'
+  color_lab:
+    - 95.42
+    - -0.71
+    - 3.01
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-boutique-perla-frio-0-9e79c447.png
+    type: unspecified

@@ -1,0 +1,23 @@
+uuid: b51436ff-53ef-52f7-b050-fe1db9297ea8
+slug: nth-grillon-pla-fast-celeste
+brand:
+  slug: nth-grillon
+name: PLA Fast Celeste
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#3abbdeff'
+  color_lab:
+    - 70.67
+    - -23.25
+    - -27.53
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-celeste-0-b39c360f.webp
+    type: unspecified

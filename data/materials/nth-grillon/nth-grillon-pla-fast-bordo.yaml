@@ -1,0 +1,23 @@
+uuid: b20dc53e-8f85-50c1-b598-5e5613cee542
+slug: nth-grillon-pla-fast-bordo
+brand:
+  slug: nth-grillon
+name: PLA Fast Bordó
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8e0422ff'
+  color_lab:
+    - 29.3
+    - 51.97
+    - 24.83
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pla-fast-bordo-0-963a822f.webp
+    type: unspecified

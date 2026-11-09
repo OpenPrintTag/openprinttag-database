@@ -1,0 +1,25 @@
+uuid: 1d98ff40-b520-5ff0-ab3f-2b9953c582e8
+slug: nth-grillon-nylon-12-natural
+brand:
+  slug: nth-grillon
+name: Nylon 12 Natural
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+    - 98.28
+    - -6.65
+    - 14.88
+tags:
+  - filtration_recommended
+properties:
+  density: 1.02
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+  - url: /tmp/assets/nth-grillon-nylon-12-natural-0-b8e894e7.jpg
+    type: unspecified

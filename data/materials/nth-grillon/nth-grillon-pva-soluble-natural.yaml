@@ -1,0 +1,25 @@
+uuid: bf642724-a2fc-58d8-8e30-a2ad6fe15aaa
+slug: nth-grillon-pva-soluble-natural
+brand:
+  slug: nth-grillon
+name: PVA Soluble Natural
+class: FFF
+type: PVA
+abbreviation: PVA
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+    - 98.28
+    - -6.65
+    - 14.88
+tags:
+  - water_soluble
+properties:
+  density: 1.23
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+  - url: /tmp/assets/nth-grillon-pva-soluble-natural-0-d18f6a61.jpg
+    type: unspecified

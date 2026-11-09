@@ -1,0 +1,23 @@
+uuid: ae161e6c-66b5-5427-b2e3-60d97e8e9f98
+slug: nth-grillon-pla-zeta-azabache
+brand:
+  slug: nth-grillon
+name: PLA Zeta Azabache
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232323ff'
+  color_lab:
+    - 13.71
+    - 0.0
+    - 0.0
+properties:
+  density: 1.22
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+  - url: /tmp/assets/nth-grillon-pla-zeta-azabache-0-a65ff71d.jpg
+    type: unspecified

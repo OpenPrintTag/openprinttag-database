@@ -1,0 +1,25 @@
+uuid: 02e0c56f-28e0-5e3c-b01f-8a43833f68b5
+slug: nth-grillon-pla-silk-tutti-frutti
+brand:
+  slug: nth-grillon
+name: PLA Silk Tutti Frutti
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff0086ff'
+  color_lab:
+    - 55.06
+    - 84.98
+    - 0.72
+tags:
+  - silk
+properties:
+  density: 1.23
+  min_print_temperature: 175
+  max_print_temperature: 215
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+  - url: /tmp/assets/nth-grillon-pla-silk-tutti-frutti-0-190159a2.jpg
+    type: unspecified
