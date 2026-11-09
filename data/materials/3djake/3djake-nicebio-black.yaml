@@ -13,7 +13,11 @@ primary_color:
     - -0.46
     - 2.8
   color_ral: '9017'
-properties: {}
+properties:
+  density: 1.33
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
 photos:
   - url: /tmp/assets/3djake-nicebio-black-0-ba96d34d.png
     type: unspecified

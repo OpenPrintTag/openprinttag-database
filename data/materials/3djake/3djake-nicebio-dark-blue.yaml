@@ -13,7 +13,11 @@ primary_color:
     - 20.64
     - -59.84
   color_ral: '5002'
-properties: {}
+properties:
+  density: 1.33
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
 photos:
   - url: /tmp/assets/3djake-nicebio-dark-blue-0-0fc93a3d.png
     type: unspecified

@@ -16,7 +16,12 @@ primary_color:
   color_ral: '8016'
 tags:
   - filtration_recommended
-properties: {}
+properties:
+  density: 1.06
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
 photos:
   - url: /tmp/assets/3djake-abs-brown-0-33dfe5b4.png
     type: unspecified

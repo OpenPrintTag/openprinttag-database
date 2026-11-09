@@ -14,7 +14,12 @@ primary_color:
     - -53.91
     - 38.67
   color_ral: '6018'
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
 photos:
   - url: /tmp/assets/3djake-pctg-light-green-0-0bb518ab.png
     type: unspecified

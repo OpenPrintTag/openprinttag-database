@@ -16,7 +16,13 @@ primary_color:
 tags:
   - matte
   - neon
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-matte-neon-orange-0-8649ba64.png
     type: unspecified

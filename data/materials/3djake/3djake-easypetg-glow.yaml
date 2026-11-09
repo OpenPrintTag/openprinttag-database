@@ -24,7 +24,12 @@ tags:
   - glow_in_the_dark
   - abrasive
   - illuminescent_color_change
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-glow-0-c2744ef8.png
     type: unspecified

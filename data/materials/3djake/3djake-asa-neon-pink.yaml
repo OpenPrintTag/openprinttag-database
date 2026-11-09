@@ -14,7 +14,12 @@ primary_color:
     - 16.82
 tags:
   - filtration_recommended
-properties: {}
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
 photos:
   - url: /tmp/assets/3djake-asa-neon-pink-0-7007de5a.png
     type: unspecified

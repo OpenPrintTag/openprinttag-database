@@ -13,7 +13,11 @@ primary_color:
     - 36.27
     - 68.78
   color_ral: '2008'
-properties: {}
+properties:
+  density: 1.33
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
 photos:
   - url: /tmp/assets/3djake-nicebio-orange-0-319bd772.png
     type: unspecified

@@ -18,7 +18,11 @@ tags:
   - abrasive
   - contains_carbon
   - filtration_recommended
-properties: {}
+properties:
+  density: 1.12
+  min_print_temperature: 240
+  max_print_temperature: 260
+  max_bed_temperature: 110
 photos:
   - url: /tmp/assets/3djake-asa-cf-black-0-d8077b54.png
     type: unspecified

@@ -17,7 +17,12 @@ tags:
   - contains_carbon_fiber
   - abrasive
   - contains_carbon
-properties: {}
+properties:
+  density: 1.31
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-cf-dark-grey-0-09a18ff8.png
     type: unspecified

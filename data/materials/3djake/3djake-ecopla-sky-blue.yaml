@@ -14,8 +14,6 @@ primary_color:
     - -4.27
     - -32.86
   color_ral: '5015'
-tags:
-  - industrially_compostable
 properties:
   density: 1.24
   min_print_temperature: 195

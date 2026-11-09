@@ -15,7 +15,12 @@ primary_color:
     - 63.38
 tags:
   - translucent
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
 photos:
   - url: /tmp/assets/3djake-pctg-transparent-red-0-86e351db.png
     type: unspecified

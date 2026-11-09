@@ -6,7 +6,7 @@ name: easyPETG Matte Orange
 class: FFF
 type: PETG
 abbreviation: PETG
-url: https://www.3djake.com/3djake/easypetg-matte-yellow
+url: https://www.3djake.com/3djake/easypetg-matte-orange
 primary_color:
   color_rgba: '#fa8423ff'
   color_lab:
@@ -16,7 +16,13 @@ primary_color:
   color_ral: '2008'
 tags:
   - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-matte-orange-0-a40b5b43.png
     type: unspecified

@@ -14,7 +14,12 @@ primary_color:
     - 20.64
     - -59.84
   color_ral: '5002'
-properties: {}
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
 tags:
   - filtration_recommended
 photos:

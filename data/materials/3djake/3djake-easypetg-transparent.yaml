@@ -15,7 +15,12 @@ primary_color:
     - 3.43
 tags:
   - transparent
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-transparent-0-43700780.png
     type: unspecified

@@ -15,7 +15,13 @@ primary_color:
     - 6.37
 tags:
   - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-matte-pastel-pink-0-813946cf.png
     type: unspecified

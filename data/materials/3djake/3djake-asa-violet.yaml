@@ -15,7 +15,12 @@ primary_color:
   color_ral: '4005'
 tags:
   - filtration_recommended
-properties: {}
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
 photos:
   - url: /tmp/assets/3djake-asa-violet-0-dea302f6.png
     type: unspecified

@@ -14,7 +14,12 @@ primary_color:
     - 0.69
     - 84.42
   color_ral: '1023'
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
 photos:
   - url: /tmp/assets/3djake-easypetg-yellow-0-badc6c31.png
     type: unspecified
