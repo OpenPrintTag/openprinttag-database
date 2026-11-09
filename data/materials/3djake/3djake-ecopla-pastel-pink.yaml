@@ -8,7 +8,18 @@ type: PLA
 abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-pastel-pink
 primary_color:
-  color_rgba: '#ffdbdfff'
+  color_rgba: '#f6abd7ff'
+  color_lab:
+    - 78.24
+    - 33.92
+    - -11.12
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-ecopla-pastel-pink-0-ecedcec3.png
+    type: unspecified

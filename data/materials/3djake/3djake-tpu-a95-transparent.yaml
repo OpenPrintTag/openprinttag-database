@@ -9,7 +9,14 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-transparent
 primary_color:
   color_rgba: '#dee2daff'
+  color_lab:
+    - 89.39
+    - -2.77
+    - 3.43
 tags:
-- transparent
+  - transparent
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/3djake-tpu-a95-transparent-0-c1482db4.png
+    type: unspecified

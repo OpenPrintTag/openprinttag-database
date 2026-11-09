@@ -1,0 +1,23 @@
+uuid: d2bc514e-9211-5da7-80c6-fff722a308f3
+slug: 3djake-easypetg-cf-black
+brand:
+  slug: 3djake
+name: easyPETG CF Black
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+  color_ral: '9017'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-cf-black-0-ab4d07d2.png
+    type: unspecified

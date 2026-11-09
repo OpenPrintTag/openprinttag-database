@@ -4,8 +4,16 @@ brand:
   slug: 3djake
 name: niceBIO Light Green
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-light-green
 primary_color:
   color_rgba: '#58c91bff'
+  color_lab:
+    - 72.18
+    - -59.26
+    - 67.6
+  color_ral: '6018'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-nicebio-light-green-0-39801ec9.png
+    type: unspecified

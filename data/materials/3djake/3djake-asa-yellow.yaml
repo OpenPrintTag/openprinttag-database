@@ -9,4 +9,14 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-yellow-2
 primary_color:
   color_rgba: '#f8cc00ff'
+  color_lab:
+    - 83.52
+    - 0.69
+    - 84.42
+  color_ral: '1023'
 properties: {}
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/3djake-asa-yellow-0-a394ae93.png
+    type: unspecified

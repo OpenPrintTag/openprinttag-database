@@ -1,0 +1,24 @@
+uuid: bc625197-6826-5559-9132-9f22921bc3ce
+slug: 3djake-asa-cf-dark-grey
+brand:
+  slug: 3djake
+name: ASA CF Dark Grey
+class: FFF
+type: ASA
+abbreviation: ASACF
+primary_color:
+  color_rgba: '#3f4647ff'
+  color_lab:
+    - 29.14
+    - -2.62
+    - -1.58
+  color_ral: '7011'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties: {}
+photos:
+  - url: /tmp/assets/3djake-asa-cf-dark-grey-0-249a9c7a.png
+    type: unspecified

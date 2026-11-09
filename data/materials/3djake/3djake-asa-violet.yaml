@@ -1,0 +1,21 @@
+uuid: cfc40437-1e1e-5dcc-afc2-c0b19fa07f59
+slug: 3djake-asa-violet
+brand:
+  slug: 3djake
+name: ASA Violet
+class: FFF
+type: ASA
+abbreviation: ASA
+primary_color:
+  color_rgba: '#a368bbff'
+  color_lab:
+    - 53.25
+    - 38.2
+    - -34.47
+  color_ral: '4005'
+tags:
+  - filtration_recommended
+properties: {}
+photos:
+  - url: /tmp/assets/3djake-asa-violet-0-dea302f6.png
+    type: unspecified

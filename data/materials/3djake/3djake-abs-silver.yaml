@@ -9,6 +9,14 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-silver-4
 primary_color:
   color_rgba: '#9c9d9dff'
+  color_lab:
+    - 64.66
+    - -0.36
+    - -0.13
+  color_ral: '9006'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-silver-0-a610efb5.png
+    type: unspecified

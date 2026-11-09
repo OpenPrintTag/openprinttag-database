@@ -9,6 +9,18 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-silver
 primary_color:
   color_rgba: '#848484ff'
+  color_lab:
+    - 55.15
+    - 0.0
+    - 0.0
+  color_ral: '9006'
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-ecopla-silver-0-53b4fb2f.png
+    type: unspecified

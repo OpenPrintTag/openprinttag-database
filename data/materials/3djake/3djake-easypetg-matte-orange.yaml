@@ -9,6 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-yellow
 primary_color:
   color_rgba: '#fa8423ff'
+  color_lab:
+    - 67.24
+    - 39.32
+    - 66.6
+  color_ral: '2008'
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-orange-0-a40b5b43.png
+    type: unspecified

@@ -9,4 +9,11 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-pastel-pink
 primary_color:
   color_rgba: '#f4e3e5ff'
+  color_lab:
+    - 91.61
+    - 6.12
+    - 1.11
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-pastel-pink-0-d675eacb.png
+    type: unspecified

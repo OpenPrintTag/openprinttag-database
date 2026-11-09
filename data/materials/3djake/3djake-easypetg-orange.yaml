@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-orange
 primary_color:
   color_rgba: '#ff7a33ff'
+  color_lab:
+    - 66.08
+    - 46.59
+    - 59.9
+  color_ral: '2008'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-orange-0-dc8e5a22.png
+    type: unspecified

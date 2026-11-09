@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-pastel-blue
 primary_color:
   color_rgba: '#9cc7e6ff'
+  color_lab:
+    - 78.24
+    - -6.91
+    - -19.95
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-pastel-blue-0-2830a6e8.png
+    type: unspecified

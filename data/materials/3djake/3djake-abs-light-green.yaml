@@ -9,6 +9,14 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-light-green-1
 primary_color:
   color_rgba: '#58c91bff'
+  color_lab:
+    - 72.18
+    - -59.26
+    - 67.6
+  color_ral: '6018'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-light-green-0-a27cd55b.png
+    type: unspecified

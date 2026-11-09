@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-transparent-green
 primary_color:
   color_rgba: '#26a648ff'
+  color_lab:
+    - 60.02
+    - -53.91
+    - 38.67
 tags:
-- translucent
+  - translucent
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-transparent-green-0-b9369a4c.png
+    type: unspecified

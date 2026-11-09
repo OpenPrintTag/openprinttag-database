@@ -9,6 +9,14 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-brown-2
 primary_color:
   color_rgba: '#4f3638ff'
+  color_lab:
+    - 25.52
+    - 11.53
+    - 3.22
+  color_ral: '8016'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-brown-0-33dfe5b4.png
+    type: unspecified

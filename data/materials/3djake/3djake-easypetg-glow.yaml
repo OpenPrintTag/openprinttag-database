@@ -10,9 +10,21 @@ url: https://www.3djake.com/3djake/easypetg-glow
 primary_color:
   color_rgba: '#62e480ff'
 secondary_colors:
-- color_rgba: '#efeadfff'
+  - color_rgba: '#62e480ff'
+    color_lab:
+      - 81.64
+      - -56.86
+      - 38.21
+  - color_rgba: '#efeadfff'
+    color_lab:
+      - 92.81
+      - -0.2
+      - 5.93
 tags:
-- glow_in_the_dark
-- illuminescent_color_change
-- abrasive
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-glow-0-c2744ef8.png
+    type: unspecified

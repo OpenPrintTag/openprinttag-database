@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-silver
 primary_color:
   color_rgba: '#999aa0ff'
+  color_lab:
+    - 63.69
+    - 0.82
+    - -3.26
+  color_ral: '9006'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-silver-0-537c10d8.png
+    type: unspecified

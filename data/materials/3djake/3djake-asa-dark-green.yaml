@@ -9,4 +9,14 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-dark-green
 primary_color:
   color_rgba: '#11784fff'
+  color_lab:
+    - 44.4
+    - -37.99
+    - 14.87
+  color_ral: '6016'
 properties: {}
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/3djake-asa-dark-green-0-f442a32d.png
+    type: unspecified

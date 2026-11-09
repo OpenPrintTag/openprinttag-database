@@ -1,0 +1,28 @@
+uuid: 7a46d64f-b196-5873-a9e3-90b719f2a9e5
+slug: 3djake-ecopla-cf-dark-grey
+brand:
+  slug: 3djake
+name: ecoPLA CF Dark Grey
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#4a4949ff'
+  color_lab:
+    - 31.12
+    - 0.41
+    - 0.15
+  color_ral: '7011'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties:
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-ecopla-cf-dark-grey-0-466a2212.png
+    type: unspecified

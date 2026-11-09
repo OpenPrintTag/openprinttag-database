@@ -4,8 +4,16 @@ brand:
   slug: 3djake
 name: niceBIO Silver
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-silver
 primary_color:
   color_rgba: '#808080ff'
+  color_lab:
+    - 53.59
+    - 0.0
+    - 0.0
+  color_ral: '9006'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-nicebio-silver-0-d7667078.png
+    type: unspecified

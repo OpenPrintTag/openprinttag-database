@@ -9,6 +9,13 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-pastel-blue
 primary_color:
   color_rgba: '#9cc7e6ff'
+  color_lab:
+    - 78.24
+    - -6.91
+    - -19.95
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-pastel-blue-0-62ae1406.png
+    type: unspecified

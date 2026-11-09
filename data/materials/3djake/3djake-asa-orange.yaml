@@ -9,4 +9,14 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-orange
 primary_color:
   color_rgba: '#f55928ff'
+  color_lab:
+    - 58.71
+    - 57.64
+    - 57.32
+  color_ral: '2008'
 properties: {}
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/3djake-asa-orange-0-a95b865a.png
+    type: unspecified

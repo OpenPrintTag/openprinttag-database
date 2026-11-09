@@ -9,6 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-sky-blue
 primary_color:
   color_rgba: '#0078bfff'
+  color_lab:
+    - 48.5
+    - -1.28
+    - -44.87
+  color_ral: '5015'
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-sky-blue-0-e18cf9fe.png
+    type: unspecified

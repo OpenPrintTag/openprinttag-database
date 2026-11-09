@@ -9,6 +9,13 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-pastel-pink
 primary_color:
   color_rgba: '#f4a0b1ff'
+  color_lab:
+    - 74.54
+    - 33.38
+    - 4.19
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-pastel-pink-0-c76de013.png
+    type: unspecified

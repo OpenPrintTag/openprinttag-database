@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-neon-orange
 primary_color:
   color_rgba: '#f55928ff'
+  color_lab:
+    - 58.71
+    - 57.64
+    - 57.32
 tags:
-- neon
+  - neon
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-neon-orange-0-d7ed28aa.png
+    type: unspecified

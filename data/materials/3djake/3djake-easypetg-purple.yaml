@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-purple
 primary_color:
   color_rgba: '#8d65c7ff'
+  color_lab:
+    - 50.8
+    - 36.43
+    - -45.4
+  color_ral: '4005'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-purple-0-22f16766.png
+    type: unspecified

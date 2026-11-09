@@ -8,11 +8,30 @@ type: PLA
 abbreviation: PLA
 url: https://www.3djake.com/3djake/mysterypla-northern-lights
 secondary_colors:
-- color_rgba: '#f6c500ff'
-- color_rgba: '#000000ff'
-- color_rgba: '#62e480ff'
+  - color_rgba: '#62e480ff'
+    color_lab:
+      - 81.64
+      - -56.86
+      - 38.21
+  - color_rgba: '#f6c500ff'
+    color_lab:
+      - 81.58
+      - 3.43
+      - 82.98
+  - color_rgba: '#000000ff'
+    color_lab:
+      - 0.0
+      - 0.0
+      - 0.0
 tags:
-- coextruded
-- iridescent
-- industrially_compostable
-properties: {}
+  - iridescent
+  - coextruded
+properties:
+  density: 1.234
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-mysterypla-northern-lights-0-0e52cc40.png
+    type: unspecified

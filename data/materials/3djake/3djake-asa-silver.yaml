@@ -9,4 +9,14 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-silver
 primary_color:
   color_rgba: '#808080ff'
+  color_lab:
+    - 53.59
+    - 0.0
+    - 0.0
+  color_ral: '9006'
 properties: {}
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/3djake-asa-silver-0-fa65509b.png
+    type: unspecified

@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-dark-green
 primary_color:
   color_rgba: '#1e5a4fff'
+  color_lab:
+    - 34.3
+    - -22.22
+    - 0.66
+  color_ral: '6016'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-dark-green-0-de4e0696.png
+    type: unspecified

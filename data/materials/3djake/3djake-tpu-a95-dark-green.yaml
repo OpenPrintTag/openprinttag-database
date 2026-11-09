@@ -9,5 +9,13 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-dark-green
 primary_color:
   color_rgba: '#1e5a4fff'
+  color_lab:
+    - 34.3
+    - -22.22
+    - 0.66
+  color_ral: '6016'
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/3djake-tpu-a95-dark-green-0-fe4ed062.png
+    type: unspecified

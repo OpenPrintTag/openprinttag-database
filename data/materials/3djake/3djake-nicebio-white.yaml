@@ -4,8 +4,16 @@ brand:
   slug: 3djake
 name: niceBIO White
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-white
 primary_color:
   color_rgba: '#f2efe9ff'
+  color_lab:
+    - 94.52
+    - -0.04
+    - 3.25
+  color_ral: '9003'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-nicebio-white-0-7960774d.png
+    type: unspecified

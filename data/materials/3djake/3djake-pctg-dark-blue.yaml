@@ -9,4 +9,12 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-dark-blue
 primary_color:
   color_rgba: '#09048eff'
+  color_lab:
+    - 15.99
+    - 49.92
+    - -68.49
+  color_ral: '5002'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-pctg-dark-blue-0-a1b69c42.png
+    type: unspecified

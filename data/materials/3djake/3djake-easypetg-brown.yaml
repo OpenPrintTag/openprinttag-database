@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-brown
 primary_color:
   color_rgba: '#4f3638ff'
+  color_lab:
+    - 25.52
+    - 11.53
+    - 3.22
+  color_ral: '8016'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-brown-0-9a3f2f1f.png
+    type: unspecified

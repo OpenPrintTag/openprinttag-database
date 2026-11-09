@@ -9,6 +9,14 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-yellow-6
 primary_color:
   color_rgba: '#f8cc00ff'
+  color_lab:
+    - 83.52
+    - 0.69
+    - 84.42
+  color_ral: '1023'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-yellow-0-20d5c163.png
+    type: unspecified

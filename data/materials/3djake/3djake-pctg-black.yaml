@@ -9,4 +9,12 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-black-1?sai=13329
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+  color_ral: '9017'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-pctg-black-0-34f77625.png
+    type: unspecified

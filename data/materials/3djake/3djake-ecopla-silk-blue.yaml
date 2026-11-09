@@ -8,8 +8,19 @@ type: PLA
 abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-silk-blue
 primary_color:
-  color_rgba: '#346ce3ff'
+  color_rgba: '#5feff9ff'
+  color_lab:
+    - 87.48
+    - -35.35
+    - -16.33
 tags:
-- silk
-- industrially_compostable
-properties: {}
+  - silk
+properties:
+  density: 1.224
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-ecopla-silk-blue-0-663c552a.png
+    type: unspecified

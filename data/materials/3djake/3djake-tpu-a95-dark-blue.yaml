@@ -9,5 +9,13 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-dark-blue
 primary_color:
   color_rgba: '#2c3294ff'
+  color_lab:
+    - 26.6
+    - 31.04
+    - -54.59
+  color_ral: '5002'
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+  - url: /tmp/assets/3djake-tpu-a95-dark-blue-0-b738a222.png
+    type: unspecified

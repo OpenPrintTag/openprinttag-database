@@ -9,6 +9,17 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-cmyk-yellow
 primary_color:
   color_rgba: '#f8cc00ff'
+  color_lab:
+    - 83.52
+    - 0.69
+    - 84.42
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-ecopla-cmyk-yellow-0-a9310722.png
+    type: unspecified

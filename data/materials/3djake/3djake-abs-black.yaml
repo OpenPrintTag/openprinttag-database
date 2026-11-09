@@ -9,6 +9,14 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-black-12?sai=21815
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+  color_ral: '9017'
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-black-0-84bf9102.png
+    type: unspecified

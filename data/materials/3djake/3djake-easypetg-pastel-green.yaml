@@ -9,4 +9,11 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-pastel-green
 primary_color:
   color_rgba: '#cafbe6ff'
+  color_lab:
+    - 94.85
+    - -19.63
+    - 4.94
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-pastel-green-0-2628dd20.png
+    type: unspecified

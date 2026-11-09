@@ -9,4 +9,14 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-light-grey
 primary_color:
   color_rgba: '#ded9d4ff'
+  color_lab:
+    - 86.95
+    - 0.83
+    - 3.06
+  color_ral: '7035'
 properties: {}
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/3djake-asa-light-grey-0-1f36426b.png
+    type: unspecified

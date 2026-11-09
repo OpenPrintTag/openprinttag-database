@@ -9,6 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-dark-green
 primary_color:
   color_rgba: '#1e5a4fff'
+  color_lab:
+    - 34.3
+    - -22.22
+    - 0.66
+  color_ral: '6016'
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-dark-green-0-200d5aae.png
+    type: unspecified

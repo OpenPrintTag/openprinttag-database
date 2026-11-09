@@ -9,4 +9,12 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-dark-green
 primary_color:
   color_rgba: '#37823fff'
+  color_lab:
+    - 48.43
+    - -38.15
+    - 29.26
+  color_ral: '6016'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-pctg-dark-green-0-0069693f.png
+    type: unspecified

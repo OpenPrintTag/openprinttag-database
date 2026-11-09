@@ -8,10 +8,25 @@ type: PLA
 abbreviation: PLA
 url: https://www.3djake.com/3djake/magicpla-golden-alloy
 secondary_colors:
-- color_rgba: '#ce9f2eff'
-- color_rgba: '#c9d0d4ff'
+  - color_rgba: '#ce9f2eff'
+    color_lab:
+      - 68.11
+      - 6.93
+      - 61.52
+  - color_rgba: '#c9d0d4ff'
+    color_lab:
+      - 83.06
+      - -1.62
+      - -2.81
 tags:
-- coextruded
-- iridescent
-- industrially_compostable
-properties: {}
+  - iridescent
+  - coextruded
+properties:
+  density: 1.243
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-magicpla-golden-alloy-0-37dbe69f.png
+    type: unspecified

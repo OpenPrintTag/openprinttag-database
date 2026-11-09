@@ -9,6 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-dark-blue
 primary_color:
   color_rgba: '#09048eff'
+  color_lab:
+    - 15.99
+    - 49.92
+    - -68.49
+  color_ral: '5002'
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-dark-blue-0-ccb5022a.png
+    type: unspecified

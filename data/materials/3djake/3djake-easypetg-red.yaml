@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-red
 primary_color:
   color_rgba: '#e72f1dff'
+  color_lab:
+    - 50.82
+    - 67.59
+    - 54.46
+  color_ral: '3020'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-red-0-351cabc4.png
+    type: unspecified

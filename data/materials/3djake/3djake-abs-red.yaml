@@ -1,0 +1,21 @@
+uuid: 83215b3d-3b17-56e2-a8be-36238118a761
+slug: 3djake-abs-red
+brand:
+  slug: 3djake
+name: ABS Red
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#c1121cff'
+  color_lab:
+    - 40.99
+    - 63.3
+    - 43.73
+  color_ral: '3020'
+tags:
+  - filtration_recommended
+properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-red-0-f13c668f.png
+    type: unspecified

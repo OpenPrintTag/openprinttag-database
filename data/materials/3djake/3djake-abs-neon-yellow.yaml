@@ -9,7 +9,14 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-neon-yellow
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+    - 95.27
+    - -31.64
+    - 85.07
 tags:
-- neon
-- filtration_recommended
+  - neon
+  - filtration_recommended
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-neon-yellow-0-7acf10e0.png
+    type: unspecified

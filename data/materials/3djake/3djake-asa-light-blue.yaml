@@ -9,4 +9,14 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-light-blue
 primary_color:
   color_rgba: '#0378d0ff'
+  color_lab:
+    - 49.5
+    - 5.52
+    - -53.0
+  color_ral: '5015'
 properties: {}
+tags:
+  - filtration_recommended
+photos:
+  - url: /tmp/assets/3djake-asa-light-blue-0-9cb72db6.png
+    type: unspecified

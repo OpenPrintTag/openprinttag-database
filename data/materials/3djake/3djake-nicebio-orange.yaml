@@ -4,8 +4,16 @@ brand:
   slug: 3djake
 name: niceBIO Orange
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-orange
 primary_color:
   color_rgba: '#ff8e24ff'
+  color_lab:
+    - 69.99
+    - 36.27
+    - 68.78
+  color_ral: '2008'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-nicebio-orange-0-319bd772.png
+    type: unspecified

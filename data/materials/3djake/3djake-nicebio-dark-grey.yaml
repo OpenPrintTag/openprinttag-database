@@ -4,8 +4,16 @@ brand:
   slug: 3djake
 name: niceBIO Dark Grey
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-dark-grey
 primary_color:
   color_rgba: '#6a6c6eff'
+  color_lab:
+    - 45.52
+    - -0.35
+    - -1.38
+  color_ral: '7011'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-nicebio-dark-grey-0-f686f095.png
+    type: unspecified

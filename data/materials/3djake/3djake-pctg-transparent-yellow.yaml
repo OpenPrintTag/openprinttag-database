@@ -9,6 +9,13 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-transparent-yellow
 primary_color:
   color_rgba: '#fffc6aff'
+  color_lab:
+    - 96.79
+    - -16.74
+    - 68.45
 tags:
-- translucent
+  - translucent
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-pctg-transparent-yellow-0-230d5b35.png
+    type: unspecified

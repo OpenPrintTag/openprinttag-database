@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-transparent
 primary_color:
   color_rgba: '#dee2daff'
+  color_lab:
+    - 89.39
+    - -2.77
+    - 3.43
 tags:
-- transparent
+  - transparent
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-transparent-0-43700780.png
+    type: unspecified

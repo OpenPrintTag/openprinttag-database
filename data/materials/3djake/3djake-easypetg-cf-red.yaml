@@ -1,0 +1,23 @@
+uuid: 853216fc-18db-5bd6-97bd-68579e84e4ce
+slug: 3djake-easypetg-cf-red
+brand:
+  slug: 3djake
+name: easyPETG CF Red
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#e72f1dff'
+  color_lab:
+    - 50.82
+    - 67.59
+    - 54.46
+  color_ral: '3020'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-cf-red-0-0e8a4fa9.png
+    type: unspecified

@@ -1,0 +1,24 @@
+uuid: af1d65bc-8629-5bfc-82ab-968ddb85620d
+slug: 3djake-abs-cf-dark-blue
+brand:
+  slug: 3djake
+name: ABS CF Dark Blue
+class: FFF
+type: ABS
+abbreviation: ABSCF
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+    - 37.39
+    - 20.64
+    - -59.84
+  color_ral: '5002'
+tags:
+  - contains_carbon_fiber
+  - abrasive
+  - contains_carbon
+  - filtration_recommended
+properties: {}
+photos:
+  - url: /tmp/assets/3djake-abs-cf-dark-blue-0-d970e89e.png
+    type: unspecified

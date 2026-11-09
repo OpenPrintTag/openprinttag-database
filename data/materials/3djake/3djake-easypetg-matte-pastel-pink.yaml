@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-pastel-pink
 primary_color:
   color_rgba: '#ffcccdff'
+  color_lab:
+    - 86.43
+    - 18.15
+    - 6.37
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-pastel-pink-0-813946cf.png
+    type: unspecified

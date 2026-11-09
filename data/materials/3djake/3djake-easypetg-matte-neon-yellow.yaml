@@ -9,7 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-neon-yellow
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+    - 95.27
+    - -31.64
+    - 85.07
 tags:
-- matte
-- neon
+  - matte
+  - neon
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-neon-yellow-0-1131f66a.png
+    type: unspecified

@@ -9,6 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-purple
 primary_color:
   color_rgba: '#a368bbff'
+  color_lab:
+    - 53.25
+    - 38.2
+    - -34.47
+  color_ral: '4005'
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-purple-0-e5dc8d75.png
+    type: unspecified

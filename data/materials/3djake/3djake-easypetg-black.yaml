@@ -9,4 +9,12 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-black?sai=21620
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
+  color_ral: '9017'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-black-0-6446de7e.png
+    type: unspecified

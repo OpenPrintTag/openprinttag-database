@@ -9,6 +9,14 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-brown
 primary_color:
   color_rgba: '#5e3834ff'
+  color_lab:
+    - 28.0
+    - 16.39
+    - 9.64
+  color_ral: '8016'
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-brown-0-648299b1.png
+    type: unspecified

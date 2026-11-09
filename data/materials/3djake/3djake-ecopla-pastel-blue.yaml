@@ -9,6 +9,17 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-pastel-blue
 primary_color:
   color_rgba: '#cbe4edff'
+  color_lab:
+    - 89.06
+    - -6.42
+    - -7.17
 tags:
-- industrially_compostable
-properties: {}
+  - industrially_compostable
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/3djake-ecopla-pastel-blue-0-00af981f.png
+    type: unspecified

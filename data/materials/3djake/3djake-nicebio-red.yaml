@@ -4,8 +4,16 @@ brand:
   slug: 3djake
 name: niceBIO Red
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-red
 primary_color:
   color_rgba: '#f14147ff'
+  color_lab:
+    - 55.01
+    - 66.43
+    - 37.57
+  color_ral: '3020'
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-nicebio-red-0-15b7222b.png
+    type: unspecified

@@ -9,7 +9,10 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-matt-moss-grey
 primary_color:
   color_rgba: '#8e8d71ff'
+  color_lab:
+    - 58.03
+    - -4.56
+    - 15.12
 tags:
-- matte
-- industrially_compostable
+  - matte
 properties: {}

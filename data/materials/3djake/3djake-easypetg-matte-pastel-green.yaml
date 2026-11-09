@@ -9,6 +9,13 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-pastel-green
 primary_color:
   color_rgba: '#c2efe8ff'
+  color_lab:
+    - 91.25
+    - -15.79
+    - -1.4
 tags:
-- matte
+  - matte
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-easypetg-matte-pastel-green-0-8e14e38f.png
+    type: unspecified

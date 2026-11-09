@@ -9,6 +9,13 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-transparent-red
 primary_color:
   color_rgba: '#ec0000ff'
+  color_lab:
+    - 49.3
+    - 75.53
+    - 63.38
 tags:
-- translucent
+  - translucent
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-pctg-transparent-red-0-86e351db.png
+    type: unspecified

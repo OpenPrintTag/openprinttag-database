@@ -9,6 +9,13 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-transparent-green
 primary_color:
   color_rgba: '#62e480ff'
+  color_lab:
+    - 81.64
+    - -56.86
+    - 38.21
 tags:
-- translucent
+  - translucent
 properties: {}
+photos:
+  - url: /tmp/assets/3djake-pctg-transparent-green-0-f64f7622.png
+    type: unspecified
