@@ -1,0 +1,22 @@
+name: PLA Marmer Wit
+slug: 123-3d-pla-marmer-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- imitates_marble
+- imitates_stone
+primary_color:
+  color_rgba: '#eaeaea'
+photos:
+- url: /tmp/assets/123-3d/pla-marmer-wit/123-3dfilamentplamarmerwit175mm1kgdhm00111m3big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 50
+uuid: dbeafb63-818d-5533-b943-51bd4bd61768

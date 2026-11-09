@@ -1,0 +1,20 @@
+name: PLA Hemelsblauw
+slug: 123-3d-pla-hemelsblauw
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#0080ff'
+photos:
+- url: /tmp/assets/123-3d/pla-hemelsblauw/123-3dfilamentplahemelsblauw175mm1kgdhm00013m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 2b22c0d6-77fa-5a27-89c1-3630672dfaa3

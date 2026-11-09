@@ -1,0 +1,24 @@
+name: PLA Satijn Regenboog Blauw - Groen - Grijs
+slug: 123-3d-pla-satijn-regenboog-blauw-groen-grijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+primary_color:
+  color_rgba: '#00ffffff'
+secondary_colors:
+- color_rgba: '#00ff00ff'
+- color_rgba: '#c0c0c0ff'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-regenboog-blauw-groen-grijs/123-3dfilamentplasatijnregenboogblauw-groen-grijs175mm1kgdhm00117m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 240
+  max_bed_temperature: 50
+uuid: c61f3cda-9cb9-5bef-a381-dbaa170e8aba

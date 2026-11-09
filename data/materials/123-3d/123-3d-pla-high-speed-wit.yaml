@@ -1,0 +1,22 @@
+name: PLA High Speed Wit
+slug: 123-3d-pla-high-speed-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- high_speed
+- high_temperature
+primary_color:
+  color_rgba: '#ffffff'
+photos:
+- url: /tmp/assets/123-3d/pla-high-speed-wit/123-3dfilamentplahighspeedwit175mm1kgdhm00038m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 255
+  max_bed_temperature: 50
+uuid: 0944b077-5961-5995-9fed-99248e27f0d7

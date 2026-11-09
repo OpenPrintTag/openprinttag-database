@@ -1,0 +1,18 @@
+name: ABS Wit
+slug: 123-3d-abs-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: /tmp/assets/123-3d/abs-wit/123-3dfilamentabswit175mm1kgdfp14052cdhm00140m1big.jpg
+  type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 260
+  max_bed_temperature: 110
+uuid: abd4a777-1501-508f-8791-8e5cd8dfb5ea

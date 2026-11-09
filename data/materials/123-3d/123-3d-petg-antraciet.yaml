@@ -1,0 +1,18 @@
+name: PETG Antraciet
+slug: 123-3d-petg-antraciet
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#293133'
+photos:
+- url: /tmp/assets/123-3d/petg-antraciet/123-3dfilamentpetgantraciet175mm1kgdhm00133m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: a3fccadf-b444-55fc-9edd-966a458295c3

@@ -1,0 +1,20 @@
+name: PLA Groen
+slug: 123-3d-pla-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#14525f'
+photos:
+- url: /tmp/assets/123-3d/pla-groen/123-3dfilamentplagroen175mm1kgdfb00241cdfp02258cdfp02259cdfp14066cdfp14104cdhm00010m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: c91af7ca-4d61-5b68-80a5-2dadb9ddaa3c

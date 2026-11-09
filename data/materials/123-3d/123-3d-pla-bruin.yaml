@@ -1,0 +1,20 @@
+name: PLA Bruin
+slug: 123-3d-pla-bruin
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#422d00'
+photos:
+- url: /tmp/assets/123-3d/pla-bruin/123-3dfilamentplabruin175mm1kgdfp02257cdfp02273cdhm00020m5big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: dde78f75-38a2-5057-a191-0f07459c139d

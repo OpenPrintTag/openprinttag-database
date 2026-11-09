@@ -1,0 +1,21 @@
+name: PLA Transparant Groen
+slug: 123-3d-pla-transparant-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- transparent
+primary_color:
+  color_rgba: '#ccff00'
+photos:
+- url: /tmp/assets/123-3d/transparant-groen/123-3dfilamentplatransparantgroen175mm1kgdhm00082m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 7142f57c-7f64-556e-a159-cb7234a81a06

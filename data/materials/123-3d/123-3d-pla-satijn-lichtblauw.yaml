@@ -1,0 +1,21 @@
+name: PLA Satijn Lichtblauw
+slug: 123-3d-pla-satijn-lichtblauw
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#3abbde'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-lichtblauw/123-3dfilamentplasatijnlichtblauw175mm1kgdhm00067m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: 2b6e9afa-947f-5429-afc3-b2d17c05d1ad

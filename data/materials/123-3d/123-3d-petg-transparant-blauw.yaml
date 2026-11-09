@@ -1,0 +1,20 @@
+name: PETG Transparant Blauw
+slug: 123-3d-petg-transparant-blauw
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- transparent
+primary_color:
+  color_rgba: '#05158f'
+photos:
+- url: /tmp/assets/123-3d/petg-transparant-blauw/123-3dfilamentpetgtransparantblauw175mm1kgdfp02228cdfp02229cdhm00135m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 05aad11a-be75-5881-99ca-fe662d9b4ac8

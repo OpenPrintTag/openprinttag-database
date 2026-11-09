@@ -1,0 +1,20 @@
+name: PLA Sneeuwwit
+slug: 123-3d-pla-sneeuwwit
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#ffffff'
+photos:
+- url: /tmp/assets/123-3d/pla-sneeuwwit/123-3dfilamentplasneeuwwit175mm1kgdfp16292cdhm00007m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 35d4b122-b30c-5853-9efd-7d496836f3f5

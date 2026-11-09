@@ -1,0 +1,21 @@
+name: PLA Pastel Oranje
+slug: 123-3d-pla-pastel-oranje
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#fcd0b4'
+photos:
+- url: /tmp/assets/123-3d/pla-pastel-oranje/123-3dfilamentplapasteloranje175mm1kgdhm00048m1big.jpg
+  type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 2e586d20-acb2-5f54-8833-38a8d64d179e

@@ -1,0 +1,22 @@
+name: PLA Bio Hennepvezel Bruingroen
+slug: 123-3d-pla-bio-hennepvezel-bruingroen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- bio_based
+- contains_organic_material
+primary_color:
+  color_rgba: '#d4a525'
+photos:
+- url: /tmp/assets/123-3d/pla-bio-hennepvezel-bruingroen/123-3dfilamentplabiohennepvezelbruingroen175mm1kgdhm00123m1big.jpg
+  type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+uuid: 3ee5c1ea-eece-592f-9182-860b334754e6

@@ -1,0 +1,20 @@
+name: PETG Transparant Rood
+slug: 123-3d-petg-transparant-rood
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- transparent
+primary_color:
+  color_rgba: '#ff0000ff'
+photos:
+- url: /tmp/assets/123-3d/petg-transparant-rood/123-3dfilamentpetgtransparantrood175mm1kgdfp02230cdhm00137m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: ff020f3a-c60b-515e-a228-fb5eb3d843ec

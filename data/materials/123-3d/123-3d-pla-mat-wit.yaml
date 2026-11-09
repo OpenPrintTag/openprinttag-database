@@ -1,0 +1,21 @@
+name: PLA Mat Wit
+slug: 123-3d-pla-mat-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#ffffff'
+photos:
+- url: /tmp/assets/123-3d/pla-mat-wit/123-3dfilamentplamatwit175mm1kgdfp02245cdfp02246cdhm00106m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 39242cc1-262d-5734-bd46-530d4c54e897

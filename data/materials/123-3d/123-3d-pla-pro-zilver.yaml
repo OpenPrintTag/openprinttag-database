@@ -1,0 +1,18 @@
+name: PLA Pro Zilver
+slug: 123-3d-pla-pro-zilver
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#747576'
+photos:
+- url: /tmp/assets/123-3d/pla-pro-zilver/123-3dfilamentplaprozilver175mm1kgdfp14262cdfs10051cdhm00099m1big.jpg
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: eba06f06-e565-5c57-a404-2d2522db8a71

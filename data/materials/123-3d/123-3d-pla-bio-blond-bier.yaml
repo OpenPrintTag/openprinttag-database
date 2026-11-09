@@ -1,0 +1,22 @@
+name: PLA Bio Blond Bier
+slug: 123-3d-pla-bio-blond-bier
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- bio_based
+- contains_organic_material
+primary_color:
+  color_rgba: '#e19800ff'
+photos:
+- url: /tmp/assets/123-3d/pla-bio-blond-bier/123-3dfilamentplabioblondbier175mm1kgdhm00124m1big.jpg
+  type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+uuid: 958543c5-eebb-5365-81c9-99d2d6ef9a3c

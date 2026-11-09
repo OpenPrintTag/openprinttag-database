@@ -1,0 +1,21 @@
+name: PLA Transparant Geel
+slug: 123-3d-pla-transparant-geel
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- transparent
+primary_color:
+  color_rgba: '#e6cb1e'
+photos:
+- url: /tmp/assets/123-3d/transparant-geel/123-3dfilamentplatransparantgeel175mm1kgdfp14405cdhm00080m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 03d3b002-f68b-5af7-914b-28fcc2a164bb

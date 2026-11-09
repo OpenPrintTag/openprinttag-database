@@ -1,0 +1,21 @@
+name: PLA Satijn Brons
+slug: 123-3d-pla-satijn-brons
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#6c4d39'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-brons/123-3dfilamentplasatijnbrons175mm1kgdhm00068m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: 71752e06-f31a-565e-9cbe-f6c0f4052df7

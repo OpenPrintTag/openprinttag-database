@@ -1,0 +1,21 @@
+name: PLA Glitter Zilver
+slug: 123-3d-pla-glitter-zilver
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- abrasive
+- glitter
+primary_color:
+  color_rgba: '#747576'
+photos:
+- url: /tmp/assets/123-3d/pla-glitter-zilver/123-3dfilamentplaglitterzilver175mm1kgdfp02236cdhm00062m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 561ce620-6357-5c96-88ec-69b058a019f8

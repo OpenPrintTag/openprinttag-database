@@ -1,0 +1,20 @@
+name: PETG Mat Wit
+slug: 123-3d-petg-mat-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- matte
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: /tmp/assets/123-3d/petg-mat-wit/123-3dfilamentpetgmatwit175mm1kgdfs10114cdhm00241m1big.jpg
+  type: unspecified
+properties:
+  density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 720aad1a-0e0e-5169-b8ce-a8ea4ee2671d

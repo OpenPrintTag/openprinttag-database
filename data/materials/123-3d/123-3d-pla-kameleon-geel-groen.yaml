@@ -1,0 +1,23 @@
+name: PLA Kameleon Geel - Groen
+slug: 123-3d-pla-kameleon-geel-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- coextruded
+- silk
+primary_color:
+  color_rgba: '#ffff00ff'
+secondary_colors:
+- color_rgba: '#00ff00ff'
+photos:
+- url: /tmp/assets/123-3d/pla-kameleon-geel-groen/123-3dfilamentplakameleongeel-groen175mm1kgdhm00261m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 245
+  max_bed_temperature: 65
+uuid: 4da3e1ad-087d-5c25-b131-9e90bef83b7c

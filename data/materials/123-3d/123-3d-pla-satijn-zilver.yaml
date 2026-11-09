@@ -1,0 +1,21 @@
+name: PLA Satijn Zilver
+slug: 123-3d-pla-satijn-zilver
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- industrially_compostable
+primary_color:
+  color_rgba: '#747576'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-zilver/123-3dfilamentplasatijnzilver175mm1kgdhm00065m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: df31bff8-b173-5268-9821-b3f6e9eb210c

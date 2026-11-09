@@ -1,0 +1,21 @@
+name: PLA Transparant Oranje
+slug: 123-3d-pla-transparant-oranje
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- transparent
+primary_color:
+  color_rgba: '#f99201'
+photos:
+- url: /tmp/assets/123-3d/pla-transparant-oranje/123-3dfilamentplatransparantoranje175mm1kgdhm00083m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 3806f945-66c4-5fb8-b225-b1ad28131423

@@ -1,0 +1,21 @@
+name: PLA Lichtgewicht Rood
+slug: 123-3d-pla-lichtgewicht-rood
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- foaming
+- high_temperature
+primary_color:
+  color_rgba: '#e02a25'
+photos:
+- url: /tmp/assets/123-3d/pla-lichtgewicht-rood/123-3dfilamentplalichtgewichtrood175mm1kgdhm00089m2big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 280
+  max_bed_temperature: 50
+uuid: 626f20cb-f982-55a6-8115-ed74cd18152a

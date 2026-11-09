@@ -1,0 +1,20 @@
+name: PLA Donkerblauw
+slug: 123-3d-pla-donkerblauw
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#05158f'
+photos:
+- url: /tmp/assets/123-3d/pla-donkerblauw/123-3dfilamentpladonkerblauw175mm1kgdfp16291cdhm00005m3big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 1d2a0252-7606-5c56-b25e-85626324f4f7

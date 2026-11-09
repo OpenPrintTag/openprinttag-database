@@ -1,0 +1,18 @@
+name: PETG Groen
+slug: 123-3d-petg-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#14525f'
+photos:
+- url: /tmp/assets/123-3d/petg-groen/123-3dfilamentpetggroen175mm1kgdfe00068cdfp02221cdhm00130m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 27931aa0-9caf-53fd-ba30-2d37bae149e8

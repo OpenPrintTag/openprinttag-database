@@ -1,0 +1,18 @@
+name: PETG Wit
+slug: 123-3d-petg-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffffff'
+photos:
+- url: /tmp/assets/123-3d/petg-wit/123-3dfilamentpetgwit175mm1kgdfe20051cdfe20216cdfp02204cdfp02205cdfp14096cdhm00129m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 989fc56c-02ca-5af9-acf3-b604a5d53ef0

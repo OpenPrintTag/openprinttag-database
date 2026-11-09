@@ -1,0 +1,21 @@
+name: PLA Mat Limoengroen
+slug: 123-3d-pla-mat-limoengroen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#ccff00'
+photos:
+- url: /tmp/assets/123-3d/pla-mat-limoengroen/123-3dfilamentplamatlimoengroen175mm1kgdhm00103m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 67e8b6c2-a136-5976-ab1a-f5566f351227

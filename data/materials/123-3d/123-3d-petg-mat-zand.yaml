@@ -1,0 +1,20 @@
+name: PETG Mat Zand
+slug: 123-3d-petg-mat-zand
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- matte
+primary_color:
+  color_rgba: '#f9f0dd'
+photos:
+- url: /tmp/assets/123-3d/petg-mat-zand/123-3dfilamentpetgmatzand175mm1kgdhm00243m1big.jpg
+  type: unspecified
+properties:
+  density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 06069d1a-1dc1-5adc-969f-5ff5721b77e8

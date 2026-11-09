@@ -1,0 +1,23 @@
+name: PLA Satijn Regenboog Rood - Oranje
+slug: 123-3d-pla-satijn-regenboog-rood-oranje
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+primary_color:
+  color_rgba: '#ff0000ff'
+secondary_colors:
+- color_rgba: '#ff8000ff'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-regenboog-rood-oranje/123-3dfilamentplasatijnregenboogrood-oranje175mm1kgdhm00116m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 240
+  max_bed_temperature: 50
+uuid: 5fb840bf-1c7b-5f99-82f3-b9f226525f24

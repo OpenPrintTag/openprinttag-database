@@ -1,0 +1,18 @@
+name: PLA Pro Geel
+slug: 123-3d-pla-pro-geel
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffff00'
+photos:
+- url: /tmp/assets/123-3d/pla-pro-geel/123-3dfilamentplaprogeel175mm1kgdhm00093m1big.jpg
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 0ff7fb00-4390-5e5b-bb79-5c4630c8d955

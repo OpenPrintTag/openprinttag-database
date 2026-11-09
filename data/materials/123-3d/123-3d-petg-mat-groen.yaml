@@ -1,0 +1,20 @@
+name: PETG Mat Groen
+slug: 123-3d-petg-mat-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- matte
+primary_color:
+  color_rgba: '#14525f'
+photos:
+- url: /tmp/assets/123-3d/petg-mat-groen/123-3dfilamentpetgmatgroen175mm1kgdfs10113cdhm00244m1big.jpg
+  type: unspecified
+properties:
+  density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 757de98b-ae7e-5883-9f12-e2137b1048c4

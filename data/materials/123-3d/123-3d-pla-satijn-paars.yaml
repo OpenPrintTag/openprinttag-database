@@ -1,0 +1,21 @@
+name: PLA Satijn Paars
+slug: 123-3d-pla-satijn-paars
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#4c2e78'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-paars/123-3dfilamentplasatijnpaars175mm1kgdhm00066m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: c84d8e67-2031-5774-9f5c-da28dd515b5b

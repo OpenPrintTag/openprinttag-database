@@ -1,0 +1,20 @@
+name: PLA Beige
+slug: 123-3d-pla-beige
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#f4e0b8'
+photos:
+- url: /tmp/assets/123-3d/pla-beige/123-3dfilamentplabeige175mm1kgdhm00016m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 70abeba7-afaa-5db8-bfb7-5ead6764aed1

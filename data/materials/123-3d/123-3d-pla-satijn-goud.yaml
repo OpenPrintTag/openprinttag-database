@@ -1,0 +1,21 @@
+name: PLA Satijn Goud
+slug: 123-3d-pla-satijn-goud
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#aa9220'
+photos:
+- url: /tmp/assets/123-3d/pla-satijn-goud/123-3dfilamentplasatijngoud175mm1kgdhm00069m3big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: d11e1fd8-1ef7-55e0-909d-ab5d5c0fdb06

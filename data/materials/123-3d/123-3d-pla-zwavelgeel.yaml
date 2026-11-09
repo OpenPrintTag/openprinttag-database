@@ -1,0 +1,20 @@
+name: PLA Zwavelgeel
+slug: 123-3d-pla-zwavelgeel
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#f9f568'
+photos:
+- url: /tmp/assets/123-3d/pla-zwavelgeel/123-3dfilamentplazwavelgeel175mm1kgdhm00024m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 8e9dab01-f1fc-59c1-8875-ee84634b8f88

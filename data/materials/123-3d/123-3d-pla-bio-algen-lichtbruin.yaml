@@ -1,0 +1,23 @@
+name: PLA Bio Algen Lichtbruin
+slug: 123-3d-pla-bio-algen-lichtbruin
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- bio_based
+- contains_organic_material
+- contains_algae
+primary_color:
+  color_rgba: '#f3e7abff'
+photos:
+- url: /tmp/assets/123-3d/pla-bio-algen-lichtbruin/123-3dfilamentplabioalgenlichtbruin175mm1kgdhm00119m1big.jpg
+  type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+uuid: 9782bdbc-f20f-5e10-8052-6a96ad30a9f3

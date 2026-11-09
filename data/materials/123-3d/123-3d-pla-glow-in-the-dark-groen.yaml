@@ -1,0 +1,21 @@
+name: PLA Glow in the Dark Groen
+slug: 123-3d-pla-glow-in-the-dark-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- abrasive
+- glow_in_the_dark
+primary_color:
+  color_rgba: '#e2deb1'
+photos:
+- url: /tmp/assets/123-3d/pla-glow-in-the-dark-groen/123-3dfilamentplaglowinthedarkgroen175mm1kgdfp02238cdhm00109m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 50
+uuid: 115da78f-c65d-505a-9787-ca9445ac9d94
