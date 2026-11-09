@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-cor-ten.html
 primary_color:
   color_rgba: '#a54830ff'
+  color_lab:
+    - 42.54
+    - 36.77
+    - 32.77
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-cor-ten-0-0285b9e4.png
+    type: unspecified

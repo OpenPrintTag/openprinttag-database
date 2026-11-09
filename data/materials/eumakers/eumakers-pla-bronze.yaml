@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-bronze.html
 primary_color:
   color_rgba: '#b26e3eff'
+  color_lab:
+    - 52.91
+    - 22.49
+    - 37.58
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-bronze-0-71835dec.png
+    type: unspecified

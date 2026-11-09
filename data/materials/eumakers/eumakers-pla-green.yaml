@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-green.html
 primary_color:
   color_rgba: '#26a648ff'
+  color_lab:
+    - 60.02
+    - -53.91
+    - 38.67
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-green-0-926b5cbd.png
+    type: unspecified

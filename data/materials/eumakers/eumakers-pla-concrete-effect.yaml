@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-concrete-effect.html
 primary_color:
   color_rgba: '#c5c7c4ff'
+  color_lab:
+    - 80.01
+    - -1.24
+    - 1.26
 tags:
-- imitates_stone
-- industrially_compostable
+  - imitates_stone
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-concrete-effect-0-f50acef4.png
+    type: unspecified

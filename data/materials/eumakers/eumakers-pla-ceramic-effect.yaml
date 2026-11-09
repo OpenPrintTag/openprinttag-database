@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-ceramic-effect.html
 primary_color:
   color_rgba: '#f9f3e5ff'
+  color_lab:
+    - 95.95
+    - -0.35
+    - 7.46
 tags:
-- imitates_stone
-- industrially_compostable
+  - imitates_stone
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-ceramic-effect-0-f75fa2a1.png
+    type: unspecified

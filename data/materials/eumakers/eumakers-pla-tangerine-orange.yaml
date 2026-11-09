@@ -1,0 +1,20 @@
+uuid: eef8900e-8b3a-58fa-9114-8af334f8a4b8
+slug: eumakers-pla-tangerine-orange
+brand:
+  slug: eumakers
+name: PLA Tangerine Orange
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ff9351ff'
+  color_lab:
+    - 71.37
+    - 35.37
+    - 51.58
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

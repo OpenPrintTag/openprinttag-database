@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/anti-hydrolysis-pla-filament-color-white.html
 primary_color:
   color_rgba: '#f2efe9ff'
+  color_lab:
+    - 94.52
+    - -0.04
+    - 3.25
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/eumakers-anti-hydrolysis-pla-white-0-e191abd6.png
+    type: unspecified

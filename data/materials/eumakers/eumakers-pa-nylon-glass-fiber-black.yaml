@@ -4,11 +4,23 @@ brand:
   slug: eumakers
 name: PA Nylon Glass Fiber Black
 class: FFF
-abbreviation: ''
+abbreviation: PAGF
 primary_color:
   color_rgba: '#292824ff'
+  color_lab:
+    - 16.09
+    - -0.46
+    - 2.8
 tags:
-- contains_glass_fiber
-- abrasive
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
 properties:
   density: 1.18
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 20
+  max_bed_temperature: 20
+photos:
+  - url: /tmp/assets/eumakers-pa-nylon-glass-fiber-black-0-dc3b7165.png
+    type: unspecified

@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-red.html
 primary_color:
   color_rgba: '#ef3340ff'
+  color_lab:
+    - 53.05
+    - 69.76
+    - 39.18
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-red-0-2b36310c.png
+    type: unspecified

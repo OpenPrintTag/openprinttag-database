@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-iridescent-marsala.html
 primary_color:
   color_rgba: '#a05562ff'
+  color_lab:
+    - 45.43
+    - 32.35
+    - 6.51
 tags:
-- iridescent
-- industrially_compostable
+  - iridescent
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-iridescent-marsala-0-0ecd61ec.png
+    type: unspecified

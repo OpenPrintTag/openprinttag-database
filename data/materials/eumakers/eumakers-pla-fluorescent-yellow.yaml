@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-fluorescent-yellow.html
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+    - 95.27
+    - -31.64
+    - 85.07
 tags:
-- neon
-- industrially_compostable
+  - neon
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-fluorescent-yellow-0-cafe3876.png
+    type: unspecified

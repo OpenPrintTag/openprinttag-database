@@ -10,11 +10,26 @@ url: https://www.eumakers.com/pla-uv-reactive-filament-color-white.html
 primary_color:
   color_rgba: '#0099e6ff'
 secondary_colors:
-- color_rgba: '#f2efe9ff'
+  - color_rgba: '#0099e6ff'
+    color_lab:
+      - 60.33
+      - -5.82
+      - -48.11
+  - color_rgba: '#f2efe9ff'
+    color_lab:
+      - 94.52
+      - -0.04
+      - 3.25
 tags:
-- glow_in_the_dark
-- illuminescent_color_change
-- abrasive
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - illuminescent_color_change
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-uv-reactive-white-0-22f5b22f.png
+    type: unspecified

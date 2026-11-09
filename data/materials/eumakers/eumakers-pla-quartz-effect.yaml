@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-quartz-effect.html
 primary_color:
   color_rgba: '#f3cea6ff'
+  color_lab:
+    - 84.97
+    - 7.35
+    - 24.76
 tags:
-- imitates_stone
-- industrially_compostable
+  - imitates_stone
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-quartz-effect-0-c7ad11a3.png
+    type: unspecified

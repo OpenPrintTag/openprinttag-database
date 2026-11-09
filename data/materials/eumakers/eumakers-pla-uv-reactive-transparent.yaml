@@ -10,12 +10,27 @@ url: https://www.eumakers.com/pla-uv-reactive-filament-color-transparent.html
 primary_color:
   color_rgba: '#0099e6ff'
 secondary_colors:
-- color_rgba: '#f9f3e5ff'
+  - color_rgba: '#f9f3e5ff'
+    color_lab:
+      - 95.95
+      - -0.35
+      - 7.46
+  - color_rgba: '#0099e6ff'
+    color_lab:
+      - 60.33
+      - -5.82
+      - -48.11
 tags:
-- glow_in_the_dark
-- illuminescent_color_change
-- translucent
-- abrasive
-- industrially_compostable
+  - glow_in_the_dark
+  - abrasive
+  - translucent
+  - illuminescent_color_change
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-uv-reactive-transparent-0-e7024a6e.png
+    type: unspecified

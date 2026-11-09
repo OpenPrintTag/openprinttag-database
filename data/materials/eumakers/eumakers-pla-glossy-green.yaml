@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-glossy-green.html
 primary_color:
   color_rgba: '#91db01ff'
+  color_lab:
+    - 80.0
+    - -48.67
+    - 78.34
 tags:
-- silk
-- industrially_compostable
+  - silk
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-glossy-green-0-de86d9ab.png
+    type: unspecified

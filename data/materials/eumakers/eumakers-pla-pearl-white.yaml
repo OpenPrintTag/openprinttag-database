@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-pearl-white.html
 primary_color:
   color_rgba: '#f2efe9ff'
+  color_lab:
+    - 94.52
+    - -0.04
+    - 3.25
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-pearl-white-0-49a2f25c.png
+    type: unspecified

@@ -9,9 +9,19 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-brass.html
 primary_color:
   color_rgba: '#998d58ff'
+  color_lab:
+    - 58.53
+    - -3.39
+    - 29.86
 tags:
-- imitates_metal
-- glitter
-- industrially_compostable
+  - glitter
+  - imitates_metal
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-brass-0-d331f8ed.png
+    type: unspecified

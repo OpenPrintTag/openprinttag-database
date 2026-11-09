@@ -8,9 +8,19 @@ type: PLA
 abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-antique-gold.html
 primary_color:
-  color_rgba: '#ce8d00ff'
+  color_rgba: '#f4ac23ff'
+  color_lab:
+    - 75.37
+    - 16.08
+    - 72.85
 tags:
-- imitates_metal
-- industrially_compostable
+  - imitates_metal
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-antique-gold-0-afa9aa10.png
+    type: unspecified

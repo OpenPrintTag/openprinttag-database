@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-olive-yellow.html
 primary_color:
   color_rgba: '#897a27ff'
+  color_lab:
+    - 51.13
+    - -4.15
+    - 45.44
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-olive-yellow-0-f2240cab.png
+    type: unspecified

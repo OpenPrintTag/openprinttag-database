@@ -1,0 +1,20 @@
+uuid: d277dc0e-4612-5114-b2b8-2d72e4575291
+slug: eumakers-pla-beige
+brand:
+  slug: eumakers
+name: PLA Beige
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c2ab72ff'
+  color_lab:
+    - 70.74
+    - 0.34
+    - 32.39
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

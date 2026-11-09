@@ -1,0 +1,35 @@
+uuid: eab1d4c1-0f18-5506-9eed-54926c684d9c
+slug: eumakers-pla-multicolor-modern
+brand:
+  slug: eumakers
+name: PLA Multicolor Modern
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+  - color_rgba: '#00bfb3ff'
+    color_lab:
+      - 69.83
+      - -42.25
+      - -5.33
+  - color_rgba: '#80276cff'
+    color_lab:
+      - 32.09
+      - 45.87
+      - -20.18
+  - color_rgba: '#ce0058ff'
+    color_lab:
+      - 43.99
+      - 70.99
+      - 11.81
+  - color_rgba: '#ff9351ff'
+    color_lab:
+      - 71.37
+      - 35.37
+      - 51.58
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60

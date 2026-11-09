@@ -4,13 +4,25 @@ brand:
   slug: eumakers
 name: PA Nylon Glass Fiber Translucent White
 class: FFF
-abbreviation: ''
+abbreviation: PAGF
 url: https://www.eumakers.com/pa-filament-color-nylon-glass-fiber.html
 primary_color:
   color_rgba: '#f9f3e5ff'
+  color_lab:
+    - 95.95
+    - -0.35
+    - 7.46
 tags:
-- translucent
-- contains_glass_fiber
-- abrasive
+  - translucent
+  - contains_glass_fiber
+  - abrasive
+  - contains_glass
 properties:
   density: 1.18
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 20
+  max_bed_temperature: 20
+photos:
+  - url: /tmp/assets/eumakers-pa-nylon-glass-fiber-translucent-white-0-406a8e2e.png
+    type: unspecified

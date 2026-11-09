@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-matte-smoked-grey.html
 primary_color:
   color_rgba: '#c4bcb3ff'
+  color_lab:
+    - 76.65
+    - 1.23
+    - 5.55
 tags:
-- matte
-- industrially_compostable
+  - matte
 properties:
-  density: 1.24
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/eumakers-pla-matte-smoked-grey-0-8d2be6b9.png
+    type: unspecified

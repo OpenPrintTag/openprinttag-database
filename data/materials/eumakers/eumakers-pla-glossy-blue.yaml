@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-glossy-blue.html
 primary_color:
   color_rgba: '#2a4552ff'
+  color_lab:
+    - 27.73
+    - -6.21
+    - -10.98
 tags:
-- silk
-- industrially_compostable
+  - silk
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-glossy-blue-0-56b220ef.png
+    type: unspecified

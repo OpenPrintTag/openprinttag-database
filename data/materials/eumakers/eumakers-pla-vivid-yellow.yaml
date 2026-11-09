@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-vivid-yellow.html
 primary_color:
   color_rgba: '#f6eb61ff'
+  color_lab:
+    - 91.63
+    - -12.65
+    - 66.38
 tags:
-- industrially_compostable
+  - industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/eumakers-pla-vivid-yellow-0-1320eede.png
+    type: unspecified
