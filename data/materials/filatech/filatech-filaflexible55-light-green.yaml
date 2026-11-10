@@ -1,0 +1,24 @@
+uuid: 4b96c25b-a685-5435-b219-7c76887535ae
+slug: filatech-filaflexible55-light-green
+brand:
+  slug: filatech
+name: FilaFlexible55 Light Green
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#a0fd62ff'
+  color_lab:
+  - 91.05
+  - -52.96
+  - 63.77
+properties:
+  density: 1.18
+  hardness_shore_d: 55.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible55-light-green/filatech-filaflexible55-light-green-0-956c5e97.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: d0dfa452-57e8-563f-9e3a-ac573fa2b9dc
+slug: filatech-filaflexible55-yellow-luminous
+brand:
+  slug: filatech
+name: FilaFlexible55 Yellow (Luminous)
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#fbf942ff'
+  color_lab:
+  - 95.44
+  - -19.02
+  - 81.69
+properties:
+  density: 1.18
+  hardness_shore_d: 55.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible55-yellow-luminous/filatech-filaflexible55-yellow-luminous-0-fcfbc815.jpg
+  type: unspecified

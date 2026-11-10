@@ -1,0 +1,23 @@
+uuid: b6ad39c9-f3a2-55ca-ab6e-436a43657852
+slug: filatech-pc-black
+brand:
+  slug: filatech
+name: PC Black
+class: FFF
+type: PC
+abbreviation: PC
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+properties:
+  density: 1.2
+  min_print_temperature: 270
+  max_print_temperature: 310
+  min_bed_temperature: 90
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-pc-black/filatech-pc-black-0-4873f1d6.jpg
+  type: unspecified

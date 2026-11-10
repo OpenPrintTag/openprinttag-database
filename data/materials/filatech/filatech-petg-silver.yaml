@@ -1,0 +1,23 @@
+uuid: d0ec8b51-b89c-5396-b446-b82f22281a31
+slug: filatech-petg-silver
+brand:
+  slug: filatech
+name: PETG Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#949597ff'
+  color_lab:
+  - 61.68
+  - 0.03
+  - -1.18
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-petg-silver/filatech-petg-silver-0-a1e6e288.jpg
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: e9970205-f59f-58fb-9c1c-d2ecc198003c
+slug: filatech-hips-dark-orange-luminous
+brand:
+  slug: filatech
+name: HIPS Dark Orange (Luminous)
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#ff8e24ff'
+  color_lab:
+  - 69.99
+  - 36.27
+  - 68.78
+tags:
+- limonene_soluble
+properties:
+  density: 1.07
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-hips-dark-orange-luminous/filatech-hips-dark-orange-luminous-0-fad5603f.jpg
+  type: unspecified

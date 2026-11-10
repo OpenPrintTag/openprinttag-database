@@ -1,0 +1,23 @@
+uuid: 10db9296-1847-5357-8dc3-1917ad805f53
+slug: filatech-petg-yellow
+brand:
+  slug: filatech
+name: PETG Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
+properties:
+  density: 1.27
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-petg-yellow/filatech-petg-yellow-0-28348fad.jpg
+  type: unspecified

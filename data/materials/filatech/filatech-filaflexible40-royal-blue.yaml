@@ -1,0 +1,24 @@
+uuid: a2686dec-1972-55c0-b5c5-7c17c3bf44b0
+slug: filatech-filaflexible40-royal-blue
+brand:
+  slug: filatech
+name: FilaFlexible40 Royal Blue
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#1154cfff'
+  color_lab:
+  - 39.52
+  - 28.84
+  - -68.58
+properties:
+  density: 1.22
+  hardness_shore_d: 40.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible40-royal-blue/filatech-filaflexible40-royal-blue-0-1fb00f42.png
+  type: unspecified

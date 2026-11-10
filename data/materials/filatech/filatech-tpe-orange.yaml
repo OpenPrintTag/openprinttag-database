@@ -1,0 +1,24 @@
+uuid: de459ccc-390d-5991-bf18-50f8e3ea33ec
+slug: filatech-tpe-orange
+brand:
+  slug: filatech
+name: TPE Orange
+class: FFF
+type: TPE
+abbreviation: TPE
+primary_color:
+  color_rgba: '#ff9a40ff'
+  color_lab:
+  - 72.72
+  - 30.98
+  - 60.8
+properties:
+  density: 1.06
+  hardness_shore_a: 80.0
+  min_print_temperature: 210
+  max_print_temperature: 255
+  min_bed_temperature: 20
+  max_bed_temperature: 55
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-tpe-orange/filatech-tpe-orange-0-9fd52d8e.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: e18b4d51-989b-57af-860c-42857b7e5366
+slug: filatech-filaflexible55-silver
+brand:
+  slug: filatech
+name: FilaFlexible55 Silver
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#949597ff'
+  color_lab:
+  - 61.68
+  - 0.03
+  - -1.18
+properties:
+  density: 1.18
+  hardness_shore_d: 55.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible55-silver/filatech-filaflexible55-silver-0-e184ff1a.jpg
+  type: unspecified

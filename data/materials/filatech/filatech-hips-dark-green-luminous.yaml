@@ -1,0 +1,25 @@
+uuid: 2083c7db-7bd5-5c47-aa1c-dfc1a8ccd34b
+slug: filatech-hips-dark-green-luminous
+brand:
+  slug: filatech
+name: HIPS Dark Green (Luminous)
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#06b100ff'
+  color_lab:
+  - 62.91
+  - -65.24
+  - 63.29
+tags:
+- limonene_soluble
+properties:
+  density: 1.07
+  min_print_temperature: 220
+  max_print_temperature: 230
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-hips-dark-green-luminous/filatech-hips-dark-green-luminous-0-496f8345.jpg
+  type: unspecified

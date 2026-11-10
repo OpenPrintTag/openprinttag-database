@@ -1,0 +1,23 @@
+uuid: 06737104-5646-58ad-8399-ea3fdff4bc0d
+slug: filatech-pla-plus-yellow
+brand:
+  slug: filatech
+name: PLA+ Yellow
+class: FFF
+type: PLA
+abbreviation: PLA+
+primary_color:
+  color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-pla-plus-yellow/filatech-pla-plus-yellow-0-62005a1b.png
+  type: unspecified
