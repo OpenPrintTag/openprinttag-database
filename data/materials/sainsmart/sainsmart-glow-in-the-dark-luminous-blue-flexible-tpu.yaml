@@ -8,10 +8,26 @@ type: TPU
 abbreviation: TPU
 secondary_colors:
 - color_rgba: '#dfdfd3ff'
+  color_lab:
+  - 88.53
+  - -2.1
+  - 5.88
 - color_rgba: '#0099e6ff'
+  color_lab:
+  - 60.33
+  - -5.82
+  - -48.11
 tags:
 - glow_in_the_dark
-- illuminescent_color_change
 - abrasive
+- illuminescent_color_change
 properties:
-  hardness_shore_a: 95
+  density: 1.21
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-glow-in-the-dark-luminous-blue-flexible-tpu/sainsmart-glow-in-the-dark-luminous-blue-flexible-tpu-0-a19988cb.jpg
+  type: unspecified

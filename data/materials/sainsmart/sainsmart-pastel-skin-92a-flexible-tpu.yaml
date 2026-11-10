@@ -8,5 +8,16 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#fec8a4ff'
+  color_lab:
+  - 84.52
+  - 14.44
+  - 25.35
 properties:
-  hardness_shore_a: 92
+  hardness_shore_a: 92.0
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-pastel-skin-92a-flexible-tpu/sainsmart-pastel-skin-92a-flexible-tpu-0-a0befa19.jpg
+  type: unspecified

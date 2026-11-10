@@ -1,0 +1,25 @@
+uuid: 4f695449-5ab3-58e2-b4e8-966f97e47363
+slug: sainsmart-peba-90a-red
+brand:
+  slug: sainsmart
+name: PEBA 90A Red
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#e20010ff'
+  color_lab:
+  - 47.25
+  - 73.24
+  - 56.61
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-peba-90a-red/sainsmart-peba-90a-red-0-f7476522.jpg
+  type: unspecified

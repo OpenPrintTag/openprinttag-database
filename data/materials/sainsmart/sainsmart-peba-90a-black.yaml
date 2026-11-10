@@ -1,0 +1,25 @@
+uuid: 934aeb1d-66bf-59d9-9814-a92668b01536
+slug: sainsmart-peba-90a-black
+brand:
+  slug: sainsmart
+name: PEBA 90A Black
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-peba-90a-black/sainsmart-peba-90a-black-0-8c21fbaa.jpg
+  type: unspecified

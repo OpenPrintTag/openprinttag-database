@@ -8,8 +8,18 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#98fbcbff'
+  color_lab:
+  - 91.67
+  - -39.48
+  - 13.98
 tags:
-- matte
-- industrially_compostable
 - high_speed
-properties: {}
+- matte
+properties:
+  min_print_temperature: 180
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-gt-3-high-speed-matte-pla-mint-green/sainsmart-gt-3-high-speed-matte-pla-mint-green-0-2440f6da.jpg
+  type: unspecified

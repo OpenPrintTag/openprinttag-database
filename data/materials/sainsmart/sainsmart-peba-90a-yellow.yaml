@@ -1,0 +1,25 @@
+uuid: ae97bb82-c8d2-5a4a-bd34-b8aa00531c23
+slug: sainsmart-peba-90a-yellow
+brand:
+  slug: sainsmart
+name: PEBA 90A Yellow
+class: FFF
+type: PEBA
+abbreviation: PEBA
+primary_color:
+  color_rgba: '#ffcb47ff'
+  color_lab:
+  - 84.19
+  - 5.79
+  - 69.36
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-peba-90a-yellow/sainsmart-peba-90a-yellow-0-e5b6fe54.jpg
+  type: unspecified

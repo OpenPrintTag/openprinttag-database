@@ -1,0 +1,52 @@
+uuid: 5a036148-e39f-5169-95db-ce84648a79ad
+slug: sainsmart-peba-90a-rainbow
+brand:
+  slug: sainsmart
+name: PEBA 90A Rainbow
+class: FFF
+type: PEBA
+abbreviation: PEBA
+secondary_colors:
+- color_rgba: '#6c5bb1ff'
+  color_lab:
+  - 44.01
+  - 27.72
+  - -43.63
+- color_rgba: '#ff8133ff'
+  color_lab:
+  - 67.43
+  - 43.18
+  - 61.15
+- color_rgba: '#ffcb47ff'
+  color_lab:
+  - 84.19
+  - 5.79
+  - 69.36
+- color_rgba: '#2e56f1ff'
+  color_lab:
+  - 43.63
+  - 41.97
+  - -81.16
+- color_rgba: '#e20010ff'
+  color_lab:
+  - 47.25
+  - 73.24
+  - 56.61
+- color_rgba: '#0ccf81ff'
+  color_lab:
+  - 73.73
+  - -60.44
+  - 27.06
+tags:
+- gradual_color_change
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-peba-90a-rainbow/sainsmart-peba-90a-rainbow-0-2d3659ae.webp
+  type: unspecified

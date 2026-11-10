@@ -8,7 +8,17 @@ type: PLA
 abbreviation: PLA
 primary_color:
   color_rgba: '#f2efe9ff'
+  color_lab:
+  - 94.52
+  - -0.04
+  - 3.25
 tags:
-- industrially_compostable
 - high_speed
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-gt-3-high-speed-pla-lite-white/sainsmart-gt-3-high-speed-pla-lite-white-0-0f92bccb.jpg
+  type: unspecified

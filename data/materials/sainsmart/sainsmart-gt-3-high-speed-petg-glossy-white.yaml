@@ -8,7 +8,18 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
 tags:
 - silk
 - high_speed
-properties: {}
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-gt-3-high-speed-petg-glossy-white/sainsmart-gt-3-high-speed-petg-glossy-white-0-f11a33fc.jpg
+  type: unspecified

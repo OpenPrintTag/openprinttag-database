@@ -8,6 +8,10 @@ type: ABS
 abbreviation: ABS
 primary_color:
   color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
 tags:
-- filtration_recommended
+  - filtration_recommended
 properties: {}

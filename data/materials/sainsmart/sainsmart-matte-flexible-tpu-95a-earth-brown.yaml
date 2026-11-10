@@ -1,0 +1,25 @@
+uuid: e3f021c3-83a3-5b85-bddf-e7e495f6e187
+slug: sainsmart-matte-flexible-tpu-95a-earth-brown
+brand:
+  slug: sainsmart
+name: Matte Flexible TPU 95A Earth Brown
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#7c594aff'
+  color_lab:
+  - 41.1
+  - 12.31
+  - 14.37
+tags:
+- matte
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-matte-flexible-tpu-95a-earth-brown/sainsmart-matte-flexible-tpu-95a-earth-brown-0-64fe2fdf.webp
+  type: unspecified

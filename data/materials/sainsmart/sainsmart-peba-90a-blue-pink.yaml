@@ -1,0 +1,32 @@
+uuid: 4699efcb-d2f0-5a49-afe3-5a06c6c5b60a
+slug: sainsmart-peba-90a-blue-pink
+brand:
+  slug: sainsmart
+name: PEBA 90A Blue & Pink
+class: FFF
+type: PEBA
+abbreviation: PEBA
+secondary_colors:
+- color_rgba: '#2e56f1ff'
+  color_lab:
+  - 43.63
+  - 41.97
+  - -81.16
+- color_rgba: '#d55d8cff'
+  color_lab:
+  - 55.96
+  - 51.9
+  - -2.37
+tags:
+- gradual_color_change
+properties:
+  density: 1.01
+  hardness_shore_a: 90.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+  drying_temperature: 80
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-peba-90a-blue-pink/sainsmart-peba-90a-blue-pink-0-6bbacaa8.jpg
+  type: unspecified

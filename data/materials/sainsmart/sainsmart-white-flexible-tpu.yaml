@@ -8,5 +8,17 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
 properties:
-  hardness_shore_a: 90
+  density: 1.21
+  hardness_shore_a: 95.0
+  min_print_temperature: 195
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-white-flexible-tpu/sainsmart-white-flexible-tpu-0-8924819b.jpg
+  type: unspecified

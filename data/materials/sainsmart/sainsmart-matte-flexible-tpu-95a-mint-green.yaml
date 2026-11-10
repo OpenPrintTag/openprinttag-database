@@ -1,0 +1,25 @@
+uuid: 42511e6e-8c2b-517b-a846-6a59c7ebac2d
+slug: sainsmart-matte-flexible-tpu-95a-mint-green
+brand:
+  slug: sainsmart
+name: Matte Flexible TPU 95A Mint Green
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#adebb3ff'
+  color_lab:
+  - 87.75
+  - -30.36
+  - 21.02
+tags:
+- matte
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 30
+  max_bed_temperature: 55
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-matte-flexible-tpu-95a-mint-green/sainsmart-matte-flexible-tpu-95a-mint-green-0-3c6beee6.webp
+  type: unspecified

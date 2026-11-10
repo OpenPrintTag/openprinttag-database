@@ -8,7 +8,19 @@ type: TPU
 abbreviation: TPU
 primary_color:
   color_rgba: '#70fa00ff'
+  color_lab:
+  - 87.88
+  - -70.37
+  - 84.0
 tags:
 - high_speed
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+  drying_temperature: 55
+photos:
+- url: https://files.openprinttag.org/sainsmart/sainsmart-gt-3-high-speed-95a-flexible-tpu-green/sainsmart-gt-3-high-speed-95a-flexible-tpu-green-0-2e0f6e2f.jpg
+  type: unspecified

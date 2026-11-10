@@ -8,4 +8,8 @@ type: PETG
 abbreviation: PETG
 primary_color:
   color_rgba: '#ffffffff'
+  color_lab:
+    - 100.0
+    - 0.0
+    - 0.0
 properties: {}
