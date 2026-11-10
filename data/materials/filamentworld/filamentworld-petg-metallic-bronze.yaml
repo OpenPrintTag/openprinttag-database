@@ -9,7 +9,18 @@ abbreviation: PETG
 url: https://filamentworld.de/shop/special-filament/petg-filament/petg-filament-1-75-mm-metallic-bronze/?compare=117652
 primary_color:
   color_rgba: '#a98c4bff'
+  color_lab:
+  - 59.62
+  - 2.79
+  - 38.43
 tags:
 - silk
 - imitates_metal
-properties: {}
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 260
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-petg-metallic-bronze/filamentworld-petg-metallic-bronze-0-3e194086.png
+  type: unspecified

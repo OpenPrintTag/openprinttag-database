@@ -1,0 +1,23 @@
+uuid: 1543cec8-9f66-5620-baef-aba54a474cab
+slug: filamentworld-petg-schwarz
+brand:
+  slug: filamentworld
+name: PETG Schwarz
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+  color_ral: '9017'
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 260
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-petg-schwarz/filamentworld-petg-schwarz-0-897c5770.png
+  type: unspecified

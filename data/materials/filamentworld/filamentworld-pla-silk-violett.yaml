@@ -1,0 +1,24 @@
+uuid: 161c50f2-8bac-5c74-a5dd-7741e4d04072
+slug: filamentworld-pla-silk-violett
+brand:
+  slug: filamentworld
+name: PLA SILK Violett
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7894f2ff'
+  color_lab:
+  - 63.0
+  - 15.68
+  - -50.29
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-silk-violett/filamentworld-pla-silk-violett-0-314b6778.png
+  type: unspecified

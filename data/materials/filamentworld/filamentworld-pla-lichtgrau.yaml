@@ -1,0 +1,23 @@
+uuid: 14d92631-342b-5a8d-9b94-67df96a3795d
+slug: filamentworld-pla-lichtgrau
+brand:
+  slug: filamentworld
+name: PLA Lichtgrau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f5f5f5ff'
+  color_lab:
+  - 96.54
+  - 0.0
+  - 0.0
+  color_ral: '7035'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-lichtgrau/filamentworld-pla-lichtgrau-0-7e80ea77.png
+  type: unspecified

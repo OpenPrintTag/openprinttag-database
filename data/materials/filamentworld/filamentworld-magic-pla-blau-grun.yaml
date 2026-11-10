@@ -1,0 +1,31 @@
+uuid: 003753a7-54a0-53ce-a3bf-95bf5d42bef9
+slug: filamentworld-magic-pla-blau-grun
+brand:
+  slug: filamentworld
+name: Magic PLA Blau-Grün
+class: FFF
+type: PLA
+abbreviation: PLA
+secondary_colors:
+- color_rgba: '#0066d9ff'
+  color_lab:
+  - 44.96
+  - 20.46
+  - -65.46
+- color_rgba: '#1daf5eff'
+  color_lab:
+  - 63.12
+  - -54.66
+  - 31.38
+tags:
+- iridescent
+- silk
+- coextruded
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 235
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-magic-pla-blau-grun/filamentworld-magic-pla-blau-grun-0-bb7a652a.png
+  type: unspecified

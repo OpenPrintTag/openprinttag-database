@@ -1,0 +1,25 @@
+uuid: 8f418743-7ad6-5b22-a86d-7e54d5cee333
+slug: filamentworld-abs-dunkelbraun
+brand:
+  slug: filamentworld
+name: ABS Dunkelbraun
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#8b3a3aff'
+  color_lab:
+  - 35.64
+  - 34.54
+  - 17.3
+  color_ral: '8002'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-abs-dunkelbraun/filamentworld-abs-dunkelbraun-0-5c3f22e2.png
+  type: unspecified

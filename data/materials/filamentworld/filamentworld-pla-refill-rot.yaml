@@ -1,0 +1,22 @@
+uuid: d36411b0-f83b-5db4-88cd-057790144837
+slug: filamentworld-pla-refill-rot
+brand:
+  slug: filamentworld
+name: PLA Refill Rot
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+  - 51.31
+  - 67.91
+  - 54.58
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-refill-rot/filamentworld-pla-refill-rot-0-148e9660.jpg
+  type: unspecified

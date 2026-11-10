@@ -1,0 +1,24 @@
+uuid: 4a11065e-bc04-5620-a829-1877a6fe3223
+slug: filamentworld-pla-silk-kupfer
+brand:
+  slug: filamentworld
+name: PLA SILK Kupfer
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e87a27ff'
+  color_lab:
+  - 62.7
+  - 37.37
+  - 60.4
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-silk-kupfer/filamentworld-pla-silk-kupfer-0-848f575b.png
+  type: unspecified

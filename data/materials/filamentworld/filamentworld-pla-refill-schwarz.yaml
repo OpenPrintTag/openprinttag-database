@@ -1,0 +1,22 @@
+uuid: 1ba6e371-dfa6-52c9-be29-3ec3043852fd
+slug: filamentworld-pla-refill-schwarz
+brand:
+  slug: filamentworld
+name: PLA Refill Schwarz
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-refill-schwarz/filamentworld-pla-refill-schwarz-0-85cd5cd3.jpg
+  type: unspecified

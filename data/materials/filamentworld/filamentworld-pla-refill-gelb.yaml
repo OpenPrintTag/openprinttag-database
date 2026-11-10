@@ -1,0 +1,22 @@
+uuid: b97e1e67-a9c0-5ee8-ba9c-058e623074e0
+slug: filamentworld-pla-refill-gelb
+brand:
+  slug: filamentworld
+name: PLA Refill Gelb
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffe802ff'
+  color_lab:
+  - 91.23
+  - -10.41
+  - 90.03
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-refill-gelb/filamentworld-pla-refill-gelb-0-289a00cf.jpg
+  type: unspecified

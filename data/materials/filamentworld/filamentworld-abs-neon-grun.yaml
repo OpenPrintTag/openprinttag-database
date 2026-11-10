@@ -1,0 +1,26 @@
+uuid: 369b8597-94cf-5c4c-8d5b-88ba1e01b00f
+slug: filamentworld-abs-neon-grun
+brand:
+  slug: filamentworld
+name: ABS Neon Grün
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
+  color_ral: '6038'
+tags:
+- neon
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-abs-neon-grun/filamentworld-abs-neon-grun-0-8841d2c8.png
+  type: unspecified

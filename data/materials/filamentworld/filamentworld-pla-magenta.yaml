@@ -9,6 +9,16 @@ abbreviation: PLA
 url: https://filamentworld.de/shop/filament-3d-drucker/pla-3mm-magenta/?compare=117652
 primary_color:
   color_rgba: '#b13566ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 42.54
+  - 53.74
+  - 0.23
+  color_ral: '4006'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-magenta/filamentworld-pla-magenta-0-dc7a7cb3.png
+  type: unspecified

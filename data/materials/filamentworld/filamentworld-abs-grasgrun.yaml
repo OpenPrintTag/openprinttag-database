@@ -1,0 +1,25 @@
+uuid: 7b944337-742d-599e-8617-bc88dc8e392c
+slug: filamentworld-abs-grasgrun
+brand:
+  slug: filamentworld
+name: ABS Grasgrün
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#3d9441ff'
+  color_lab:
+  - 54.61
+  - -43.68
+  - 35.78
+  color_ral: '6024'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-abs-grasgrun/filamentworld-abs-grasgrun-0-39e6257e.png
+  type: unspecified

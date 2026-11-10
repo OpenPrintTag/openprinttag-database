@@ -1,0 +1,24 @@
+uuid: d9dd56cc-def0-53bf-b628-7ee6c6c40df8
+slug: filamentworld-pla-silk-silbergrau
+brand:
+  slug: filamentworld
+name: PLA SILK Silbergrau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a8b0bdff'
+  color_lab:
+  - 71.59
+  - -0.18
+  - -7.58
+tags:
+- silk
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-silk-silbergrau/filamentworld-pla-silk-silbergrau-0-3631f8fd.png
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 57e57a93-e4f4-5af2-a4bb-2201c3513c27
+slug: filamentworld-pla-anthrazitgrau
+brand:
+  slug: filamentworld
+name: PLA Anthrazitgrau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#5a696cff'
+  color_lab:
+  - 43.3
+  - -4.95
+  - -3.59
+  color_ral: '7016'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-anthrazitgrau/filamentworld-pla-anthrazitgrau-0-392803e0.png
+  type: unspecified

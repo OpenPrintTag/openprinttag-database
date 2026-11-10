@@ -9,4 +9,16 @@ abbreviation: PETG
 url: https://filamentworld.de/shop/special-filament/petg-filament/petg-filament-1-75-mm-orange/?compare=117652
 primary_color:
   color_rgba: '#f07821ff'
-properties: {}
+  color_lab:
+  - 63.4
+  - 41.37
+  - 63.56
+  color_ral: '2009'
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 260
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-petg-orange/filamentworld-petg-orange-0-01d27283.png
+  type: unspecified

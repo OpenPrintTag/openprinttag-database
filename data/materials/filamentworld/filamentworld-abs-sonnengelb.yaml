@@ -1,0 +1,25 @@
+uuid: afaee20e-2e61-5a6d-bf45-0c17edf6d50c
+slug: filamentworld-abs-sonnengelb
+brand:
+  slug: filamentworld
+name: ABS Sonnengelb
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#f8cc00ff'
+  color_lab:
+  - 83.52
+  - 0.69
+  - 84.42
+  color_ral: '1023'
+tags:
+- filtration_recommended
+properties:
+  density: 1.04
+  min_print_temperature: 220
+  max_print_temperature: 240
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-abs-sonnengelb/filamentworld-abs-sonnengelb-0-f4a776b2.png
+  type: unspecified

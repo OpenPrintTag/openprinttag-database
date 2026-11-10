@@ -1,0 +1,24 @@
+uuid: 5d15ae9c-0ec7-5b6f-b34e-c15cb29119c2
+slug: filamentworld-pla-matt-blau
+brand:
+  slug: filamentworld
+name: PLA MATT Blau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#40b6e4ff'
+  color_lab:
+  - 69.57
+  - -17.99
+  - -32.48
+tags:
+- matte
+properties:
+  density: 1.38
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-matt-blau/filamentworld-pla-matt-blau-0-710c7ee8.png
+  type: unspecified

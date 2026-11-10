@@ -1,0 +1,22 @@
+uuid: e25bab27-fcb4-59ad-814a-22d3574ed6e3
+slug: filamentworld-pla-refill-blau
+brand:
+  slug: filamentworld
+name: PLA Refill Blau
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+  - 63.37
+  - 8.98
+  - -56.93
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-refill-blau/filamentworld-pla-refill-blau-0-ae8137fc.jpg
+  type: unspecified

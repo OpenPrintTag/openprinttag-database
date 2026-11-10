@@ -1,0 +1,23 @@
+uuid: 5dd874ff-d20a-573b-a938-49fe76794452
+slug: filamentworld-pla-dunkelbraun
+brand:
+  slug: filamentworld
+name: PLA Dunkelbraun
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#6e4325ff'
+  color_lab:
+  - 32.84
+  - 15.44
+  - 25.68
+  color_ral: '8002'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-dunkelbraun/filamentworld-pla-dunkelbraun-0-03e8fd9f.png
+  type: unspecified

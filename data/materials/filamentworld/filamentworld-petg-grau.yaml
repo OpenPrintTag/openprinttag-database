@@ -1,0 +1,23 @@
+uuid: 771871ac-b40c-5b3c-b325-3b3959a4383e
+slug: filamentworld-petg-grau
+brand:
+  slug: filamentworld
+name: PETG Grau
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#9c9d9dff'
+  color_lab:
+  - 64.66
+  - -0.36
+  - -0.13
+  color_ral: '7044'
+properties:
+  density: 1.27
+  min_print_temperature: 200
+  max_print_temperature: 260
+  max_bed_temperature: 80
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-petg-grau/filamentworld-petg-grau-0-e486e73f.png
+  type: unspecified

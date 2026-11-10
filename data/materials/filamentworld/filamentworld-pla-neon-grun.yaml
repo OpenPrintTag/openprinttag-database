@@ -1,0 +1,25 @@
+uuid: 02da8825-aa23-59b2-a297-492dcf824269
+slug: filamentworld-pla-neon-grun
+brand:
+  slug: filamentworld
+name: PLA Neon Grün
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
+  color_ral: '6038'
+tags:
+- neon
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-neon-grun/filamentworld-pla-neon-grun-0-ffe4cc52.png
+  type: unspecified

@@ -9,7 +9,17 @@ abbreviation: PLA
 url: https://filamentworld.de/shop/filament-3d-drucker/pla-filament-1-75-mm-transparent/?compare=117652
 primary_color:
   color_rgba: '#f2ece9ff'
+  color_lab:
+  - 93.78
+  - 1.49
+  - 2.16
 tags:
 - transparent
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-transparent/filamentworld-pla-transparent-0-741f8ec7.png
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: 072d9ed3-2f16-5858-8d4c-efae867127df
+slug: filamentworld-pla-plus-grau
+brand:
+  slug: filamentworld
+name: PLA PLUS Grau
+class: FFF
+type: PLA
+abbreviation: PLA+
+primary_color:
+  color_rgba: '#bdc8c8ff'
+  color_lab:
+  - 79.78
+  - -3.75
+  - -1.3
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-plus-grau/filamentworld-pla-plus-grau-0-56ecbb9a.png
+  type: unspecified

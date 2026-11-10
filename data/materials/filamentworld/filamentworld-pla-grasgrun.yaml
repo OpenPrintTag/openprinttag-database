@@ -1,0 +1,23 @@
+uuid: d6a40af7-58f0-5b06-9550-187dab83b075
+slug: filamentworld-pla-grasgrun
+brand:
+  slug: filamentworld
+name: PLA Grasgrün
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#06924dff'
+  color_lab:
+  - 53.09
+  - -49.14
+  - 27.46
+  color_ral: '6024'
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filamentworld/filamentworld-pla-grasgrun/filamentworld-pla-grasgrun-0-bd20381e.png
+  type: unspecified
