@@ -1,0 +1,25 @@
+uuid: 01032c71-88ce-5ea3-b1b4-e1863a658fe7
+slug: nth-grillon-hips-rojo
+brand:
+  slug: nth-grillon
+name: HIPS Rojo
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+  - 51.31
+  - 67.91
+  - 54.58
+tags:
+- limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 85
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-hips-rojo/nth-grillon-hips-rojo-0-46cbc5a9.jpg
+  type: unspecified

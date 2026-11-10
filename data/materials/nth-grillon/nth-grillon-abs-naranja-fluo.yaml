@@ -1,0 +1,26 @@
+uuid: db08f7c2-86a3-588b-977c-dada0236f3cf
+slug: nth-grillon-abs-naranja-fluo
+brand:
+  slug: nth-grillon
+name: ABS Naranja Flúo
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ff6700ff'
+  color_lab:
+  - 62.48
+  - 54.56
+  - 71.42
+tags:
+- neon
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-abs-naranja-fluo/nth-grillon-abs-naranja-fluo-0-cd37512b.jpg
+  type: unspecified

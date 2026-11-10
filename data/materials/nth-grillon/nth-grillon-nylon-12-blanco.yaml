@@ -1,0 +1,25 @@
+uuid: a735da18-52c3-5c51-bb23-3ffb966d9ab7
+slug: nth-grillon-nylon-12-blanco
+brand:
+  slug: nth-grillon
+name: Nylon 12 Blanco
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+  - 99.63
+  - -0.36
+  - 2.02
+tags:
+- filtration_recommended
+properties:
+  density: 1.02
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-nylon-12-blanco/nth-grillon-nylon-12-blanco-0-5fc23c15.jpg
+  type: unspecified

@@ -1,0 +1,26 @@
+uuid: 675387fe-d885-54f8-84fa-3f6d56b83ea0
+slug: nth-grillon-nylon-6-optico
+brand:
+  slug: nth-grillon
+name: Nylon 6 Óptico
+class: FFF
+type: PA6
+abbreviation: PA6
+primary_color:
+  color_rgba: '#e6e6e6ff'
+  color_lab:
+  - 91.29
+  - -0.0
+  - 0.0
+tags:
+- transparent
+- filtration_recommended
+properties:
+  density: 1.14
+  min_print_temperature: 225
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-nylon-6-optico/nth-grillon-nylon-6-optico-0-ae62f5c3.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 37b3fa90-fd98-58fc-9198-7130cab3b47c
+slug: nth-grillon-petg-gris-plata
+brand:
+  slug: nth-grillon
+name: PETG Gris Plata
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#bcbabbff'
+  color_lab:
+  - 75.7
+  - 0.88
+  - -0.26
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-petg-gris-plata/nth-grillon-petg-gris-plata-0-7b670602.jpg
+  type: unspecified

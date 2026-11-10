@@ -1,0 +1,25 @@
+uuid: 5babab03-cb74-5e9b-8092-8b9a74fc14a3
+slug: nth-grillon-pla-fast-amarillo-fluo
+brand:
+  slug: nth-grillon
+name: PLA Fast Amarillo Flúo
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#dfff00ff'
+  color_lab:
+  - 94.83
+  - -34.51
+  - 91.73
+tags:
+- neon
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-fast-amarillo-fluo/nth-grillon-pla-fast-amarillo-fluo-0-b3a6f1bc.webp
+  type: unspecified

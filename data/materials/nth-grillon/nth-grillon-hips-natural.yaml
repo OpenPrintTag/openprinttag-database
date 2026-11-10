@@ -1,0 +1,25 @@
+uuid: 346f25cd-2b10-52ee-849d-dd270d81e684
+slug: nth-grillon-hips-natural
+brand:
+  slug: nth-grillon
+name: HIPS Natural
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+  - 98.28
+  - -6.65
+  - 14.88
+tags:
+- limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 85
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-hips-natural/nth-grillon-hips-natural-0-eeae6045.jpg
+  type: unspecified

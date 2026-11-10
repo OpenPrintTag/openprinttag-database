@@ -1,0 +1,23 @@
+uuid: dae2f14a-a375-59bb-89a0-7c6b9f200633
+slug: nth-grillon-pla-870-bordo
+brand:
+  slug: nth-grillon
+name: PLA 870 Bordó
+class: FFF
+type: PLA
+abbreviation: PLA870
+primary_color:
+  color_rgba: '#8e0422ff'
+  color_lab:
+  - 29.3
+  - 51.97
+  - 24.83
+properties:
+  density: 1.22
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-870-bordo/nth-grillon-pla-870-bordo-0-55e05a61.jpg
+  type: unspecified

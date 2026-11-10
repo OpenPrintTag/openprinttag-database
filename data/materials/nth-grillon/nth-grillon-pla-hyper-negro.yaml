@@ -1,0 +1,23 @@
+uuid: 42032c10-6da0-5725-aafe-746254f37bce
+slug: nth-grillon-pla-hyper-negro
+brand:
+  slug: nth-grillon
+name: PLA Hyper Negro
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-hyper-negro/nth-grillon-pla-hyper-negro-0-48f75595.webp
+  type: unspecified

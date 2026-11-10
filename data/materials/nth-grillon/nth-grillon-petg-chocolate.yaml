@@ -1,0 +1,23 @@
+uuid: 93fc3b1c-869f-5741-9348-2b79e06f1397
+slug: nth-grillon-petg-chocolate
+brand:
+  slug: nth-grillon
+name: PETG Chocolate
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#57361cff'
+  color_lab:
+  - 26.01
+  - 11.86
+  - 22.17
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-petg-chocolate/nth-grillon-petg-chocolate-0-6ce8238d.jpg
+  type: unspecified

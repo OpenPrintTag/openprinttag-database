@@ -1,0 +1,23 @@
+uuid: bf6260fc-53f8-5c86-a691-9f7f8ce440bd
+slug: nth-grillon-pla-hyper-blanco
+brand:
+  slug: nth-grillon
+name: PLA Hyper Blanco
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+  - 99.63
+  - -0.36
+  - 2.02
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-hyper-blanco/nth-grillon-pla-hyper-blanco-0-81c37ec2.webp
+  type: unspecified

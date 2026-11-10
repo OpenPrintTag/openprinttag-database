@@ -1,0 +1,23 @@
+uuid: a5f0011d-c22e-584c-b3bf-7384e4b1d8a6
+slug: nth-grillon-pla-870-natural
+brand:
+  slug: nth-grillon
+name: PLA 870 Natural
+class: FFF
+type: PLA
+abbreviation: PLA870
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+  - 98.28
+  - -6.65
+  - 14.88
+properties:
+  density: 1.22
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-870-natural/nth-grillon-pla-870-natural-0-70a1102e.jpg
+  type: unspecified

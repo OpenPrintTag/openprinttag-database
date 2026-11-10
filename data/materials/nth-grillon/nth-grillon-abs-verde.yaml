@@ -1,0 +1,25 @@
+uuid: 5297682e-6cd5-50b4-8cc4-8e82b7f12833
+slug: nth-grillon-abs-verde
+brand:
+  slug: nth-grillon
+name: ABS Verde
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+  - 69.21
+  - -60.57
+  - 32.47
+tags:
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-abs-verde/nth-grillon-abs-verde-0-9a9b93de.jpg
+  type: unspecified

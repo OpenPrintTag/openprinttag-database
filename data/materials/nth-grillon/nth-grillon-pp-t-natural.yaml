@@ -1,0 +1,23 @@
+uuid: b9165406-c99a-5e18-b7a2-aacbbf3a5f6b
+slug: nth-grillon-pp-t-natural
+brand:
+  slug: nth-grillon
+name: PP-T Natural
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+  - 98.28
+  - -6.65
+  - 14.88
+properties:
+  density: 0.92
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pp-t-natural/nth-grillon-pp-t-natural-0-2d6adffe.jpg
+  type: unspecified

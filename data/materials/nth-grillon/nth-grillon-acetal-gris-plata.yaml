@@ -1,0 +1,25 @@
+uuid: 90bc41ee-a4b2-52df-a733-3f4cad7980a8
+slug: nth-grillon-acetal-gris-plata
+brand:
+  slug: nth-grillon
+name: Acetal Gris Plata
+class: FFF
+type: POM
+abbreviation: POM
+primary_color:
+  color_rgba: '#bcbabbff'
+  color_lab:
+  - 75.7
+  - 0.88
+  - -0.26
+tags:
+- filtration_recommended
+properties:
+  density: 1.42
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-acetal-gris-plata/nth-grillon-acetal-gris-plata-0-a8072941.webp
+  type: unspecified

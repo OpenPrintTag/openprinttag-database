@@ -1,0 +1,23 @@
+uuid: 1b07c54c-569b-5613-9611-8a464b9ce9a2
+slug: nth-grillon-pp-t-amarillo
+brand:
+  slug: nth-grillon
+name: PP-T Amarillo
+class: FFF
+type: PP
+abbreviation: PP
+primary_color:
+  color_rgba: '#ffe802ff'
+  color_lab:
+  - 91.23
+  - -10.41
+  - 90.03
+properties:
+  density: 0.92
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pp-t-amarillo/nth-grillon-pp-t-amarillo-0-29bdc7d6.webp
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: 91eff926-a3f2-55cb-bcb3-349ee9ff2fb7
+slug: nth-grillon-pla-silk-cobre
+brand:
+  slug: nth-grillon
+name: PLA Silk Cobre
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bb8330ff'
+  color_lab:
+  - 58.99
+  - 13.95
+  - 51.22
+tags:
+- silk
+properties:
+  density: 1.23
+  min_print_temperature: 175
+  max_print_temperature: 215
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-silk-cobre/nth-grillon-pla-silk-cobre-0-dba91b52.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 6e3403a6-8df9-5541-9dc0-94f95c67f1f0
+slug: nth-grillon-petg-natural
+brand:
+  slug: nth-grillon
+name: PETG Natural
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+  - 98.28
+  - -6.65
+  - 14.88
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-petg-natural/nth-grillon-petg-natural-0-112285e7.jpg
+  type: unspecified

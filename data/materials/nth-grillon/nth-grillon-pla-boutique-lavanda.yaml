@@ -1,0 +1,23 @@
+uuid: 531705d6-46bd-5411-b0c2-dbcb9c406a3f
+slug: nth-grillon-pla-boutique-lavanda
+brand:
+  slug: nth-grillon
+name: PLA Boutique Lavanda
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d696eeff'
+  color_lab:
+  - 71.07
+  - 39.01
+  - -34.89
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-lavanda/nth-grillon-pla-boutique-lavanda-0-77f5298e.jpg
+  type: unspecified

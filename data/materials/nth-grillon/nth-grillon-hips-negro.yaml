@@ -1,0 +1,25 @@
+uuid: e22a8491-9aff-5b1c-83c2-1dd4036008d6
+slug: nth-grillon-hips-negro
+brand:
+  slug: nth-grillon
+name: HIPS Negro
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+tags:
+- limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 85
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-hips-negro/nth-grillon-hips-negro-0-c99698ae.jpg
+  type: unspecified

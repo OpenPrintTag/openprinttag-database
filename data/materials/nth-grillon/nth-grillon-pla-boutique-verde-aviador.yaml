@@ -1,0 +1,23 @@
+uuid: 5a3ce1ec-a572-57a6-b2fb-cb68987890dc
+slug: nth-grillon-pla-boutique-verde-aviador
+brand:
+  slug: nth-grillon
+name: PLA Boutique Verde Aviador
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2f4f3eff'
+  color_lab:
+  - 30.74
+  - -16.19
+  - 6.37
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-verde-aviador/nth-grillon-pla-boutique-verde-aviador-0-b81770ea.jpg
+  type: unspecified

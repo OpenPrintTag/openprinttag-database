@@ -1,0 +1,25 @@
+uuid: 243f6633-cd49-57d9-a79b-2f52a139d40b
+slug: nth-grillon-pla-astra-jade
+brand:
+  slug: nth-grillon
+name: PLA Astra Jade
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00554eff'
+  color_lab:
+  - 31.91
+  - -24.0
+  - -2.27
+tags:
+- glitter
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-astra-jade/nth-grillon-pla-astra-jade-0-c754cdf6.jpg
+  type: unspecified

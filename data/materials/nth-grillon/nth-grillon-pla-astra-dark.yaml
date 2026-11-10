@@ -1,0 +1,25 @@
+uuid: 7d746927-18cc-5b53-9236-1861a8bb1224
+slug: nth-grillon-pla-astra-dark
+brand:
+  slug: nth-grillon
+name: PLA Astra Dark
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+tags:
+- glitter
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 225
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-astra-dark/nth-grillon-pla-astra-dark-0-c0eaa96b.jpg
+  type: unspecified

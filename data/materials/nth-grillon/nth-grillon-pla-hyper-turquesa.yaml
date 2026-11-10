@@ -1,0 +1,23 @@
+uuid: a7cc5b5a-1bda-56c9-8719-58a9d0b6f737
+slug: nth-grillon-pla-hyper-turquesa
+brand:
+  slug: nth-grillon
+name: PLA Hyper Turquesa
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#058b8cff'
+  color_lab:
+  - 52.27
+  - -30.06
+  - -9.47
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-hyper-turquesa/nth-grillon-pla-hyper-turquesa-0-549349fe.jpg
+  type: unspecified

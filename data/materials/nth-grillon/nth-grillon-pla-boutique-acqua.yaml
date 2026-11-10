@@ -1,0 +1,23 @@
+uuid: 3f2a986a-3340-5a5c-957e-30b9e7c03c81
+slug: nth-grillon-pla-boutique-acqua
+brand:
+  slug: nth-grillon
+name: PLA Boutique Acqua
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#2cc9d1ff'
+  color_lab:
+  - 74.13
+  - -35.56
+  - -15.22
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-acqua/nth-grillon-pla-boutique-acqua-0-5357067e.jpg
+  type: unspecified

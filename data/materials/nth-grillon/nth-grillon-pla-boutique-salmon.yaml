@@ -1,0 +1,23 @@
+uuid: b499e4e4-8afe-5f36-b243-0e1d08c750d7
+slug: nth-grillon-pla-boutique-salmon
+brand:
+  slug: nth-grillon
+name: PLA Boutique Salmón
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fa8072ff'
+  color_lab:
+  - 67.26
+  - 45.23
+  - 29.09
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-salmon/nth-grillon-pla-boutique-salmon-0-a07d7d1a.jpg
+  type: unspecified

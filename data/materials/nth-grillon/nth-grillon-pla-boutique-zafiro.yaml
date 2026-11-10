@@ -1,0 +1,23 @@
+uuid: 66e1ad56-c4af-5fd9-b381-6b92aead3ffb
+slug: nth-grillon-pla-boutique-zafiro
+brand:
+  slug: nth-grillon
+name: PLA Boutique Zafiro
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#002cffff'
+  color_lab:
+  - 36.02
+  - 67.84
+  - -101.64
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-zafiro/nth-grillon-pla-boutique-zafiro-0-5a333e97.jpg
+  type: unspecified

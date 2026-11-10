@@ -1,0 +1,26 @@
+uuid: 29010b68-1ec1-54b2-9b6f-84429e9d2899
+slug: nth-grillon-pla-wood-caoba
+brand:
+  slug: nth-grillon
+name: PLA Wood Caoba
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8a5a46ff'
+  color_lab:
+  - 43.0
+  - 17.34
+  - 19.63
+tags:
+- imitates_wood
+- contains_wood
+properties:
+  density: 1.18
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-wood-caoba/nth-grillon-pla-wood-caoba-0-963793a8.jpg
+  type: unspecified

@@ -1,0 +1,23 @@
+uuid: 9345cb40-fb76-550c-a7dc-8799434fa402
+slug: nth-grillon-pla-hyper-rojo
+brand:
+  slug: nth-grillon
+name: PLA Hyper Rojo
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+  - 51.31
+  - 67.91
+  - 54.58
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-hyper-rojo/nth-grillon-pla-hyper-rojo-0-e2cb5c22.webp
+  type: unspecified

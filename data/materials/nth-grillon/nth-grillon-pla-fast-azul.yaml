@@ -1,0 +1,23 @@
+uuid: 1a66ea8a-269f-5025-9622-35f53470a3b5
+slug: nth-grillon-pla-fast-azul
+brand:
+  slug: nth-grillon
+name: PLA Fast Azul
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+  - 63.37
+  - 8.98
+  - -56.93
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-fast-azul/nth-grillon-pla-fast-azul-0-6e4f47f0.jpg
+  type: unspecified

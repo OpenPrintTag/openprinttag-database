@@ -1,0 +1,25 @@
+uuid: f151b429-8eab-5640-86ff-3bae5eb2b382
+slug: nth-grillon-petg-ambar
+brand:
+  slug: nth-grillon
+name: PETG Ámbar
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ffbf00ff'
+  color_lab:
+  - 81.03
+  - 10.39
+  - 83.03
+tags:
+- transparent
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-petg-ambar/nth-grillon-petg-ambar-0-e14c856a.jpg
+  type: unspecified

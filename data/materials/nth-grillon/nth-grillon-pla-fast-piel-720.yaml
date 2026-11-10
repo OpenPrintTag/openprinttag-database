@@ -1,0 +1,23 @@
+uuid: 3e43ec87-1a27-5300-8d82-bdf5e4193f2c
+slug: nth-grillon-pla-fast-piel-720
+brand:
+  slug: nth-grillon
+name: PLA Fast Piel 720
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e6b98aff'
+  color_lab:
+  - 78.09
+  - 10.03
+  - 29.99
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-fast-piel-720/nth-grillon-pla-fast-piel-720-0-85775fba.webp
+  type: unspecified

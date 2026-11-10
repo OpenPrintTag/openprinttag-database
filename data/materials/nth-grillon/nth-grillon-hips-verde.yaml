@@ -1,0 +1,25 @@
+uuid: 099da555-f72d-538a-8d4a-bfaedffa6599
+slug: nth-grillon-hips-verde
+brand:
+  slug: nth-grillon
+name: HIPS Verde
+class: FFF
+type: HIPS
+abbreviation: HIPS
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+  - 69.21
+  - -60.57
+  - 32.47
+tags:
+- limonene_soluble
+properties:
+  density: 1.04
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 85
+  max_bed_temperature: 85
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-hips-verde/nth-grillon-hips-verde-0-016d2ff7.jpg
+  type: unspecified

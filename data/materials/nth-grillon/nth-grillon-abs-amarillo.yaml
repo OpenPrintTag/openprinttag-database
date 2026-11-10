@@ -1,0 +1,25 @@
+uuid: 5afe64ac-1307-587f-a36d-8d120125a288
+slug: nth-grillon-abs-amarillo
+brand:
+  slug: nth-grillon
+name: ABS Amarillo
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ffe802ff'
+  color_lab:
+  - 91.23
+  - -10.41
+  - 90.03
+tags:
+- filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-abs-amarillo/nth-grillon-abs-amarillo-0-43204dca.jpg
+  type: unspecified

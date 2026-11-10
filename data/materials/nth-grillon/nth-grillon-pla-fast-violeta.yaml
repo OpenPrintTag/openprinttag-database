@@ -1,0 +1,23 @@
+uuid: 77babc8f-e57d-53d9-9775-ae752c1409c7
+slug: nth-grillon-pla-fast-violeta
+brand:
+  slug: nth-grillon
+name: PLA Fast Violeta
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d0006fff'
+  color_lab:
+  - 45.03
+  - 73.11
+  - -1.03
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-fast-violeta/nth-grillon-pla-fast-violeta-0-a54eabfb.webp
+  type: unspecified

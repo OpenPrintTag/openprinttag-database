@@ -1,0 +1,22 @@
+uuid: c2e12d57-d81c-5a19-9c9a-ba9ed2a31b22
+slug: nth-grillon-abs-bronce
+brand:
+  slug: nth-grillon
+name: ABS Bronce
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#ae6725ff'
+  color_lab:
+    - 50.49
+    - 23.34
+    - 47.11
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90

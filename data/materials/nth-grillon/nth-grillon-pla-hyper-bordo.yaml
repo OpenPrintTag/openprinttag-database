@@ -1,0 +1,23 @@
+uuid: 5b091b65-2f89-596c-9976-4a7564074894
+slug: nth-grillon-pla-hyper-bordo
+brand:
+  slug: nth-grillon
+name: PLA Hyper Bordó
+class: FFF
+type: PLA
+abbreviation: PLA850
+primary_color:
+  color_rgba: '#8e0422ff'
+  color_lab:
+  - 29.3
+  - 51.97
+  - 24.83
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 250
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-hyper-bordo/nth-grillon-pla-hyper-bordo-0-529d4123.webp
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: cdbce911-9671-59af-9efb-aeea98718620
+slug: nth-grillon-pla-silk-azabache
+brand:
+  slug: nth-grillon
+name: PLA Silk Azabache
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#232323ff'
+  color_lab:
+  - 13.71
+  - 0.0
+  - 0.0
+tags:
+- silk
+properties:
+  density: 1.23
+  min_print_temperature: 175
+  max_print_temperature: 215
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-silk-azabache/nth-grillon-pla-silk-azabache-0-047769cf.jpg
+  type: unspecified

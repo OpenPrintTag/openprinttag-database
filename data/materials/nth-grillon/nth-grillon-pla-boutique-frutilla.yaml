@@ -1,0 +1,23 @@
+uuid: f4b5ef20-4278-5543-9cff-76d27002556b
+slug: nth-grillon-pla-boutique-frutilla
+brand:
+  slug: nth-grillon
+name: PLA Boutique Frutilla
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#d6007fff'
+  color_lab:
+  - 46.75
+  - 75.76
+  - -8.21
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-frutilla/nth-grillon-pla-boutique-frutilla-0-442c2a0d.jpg
+  type: unspecified

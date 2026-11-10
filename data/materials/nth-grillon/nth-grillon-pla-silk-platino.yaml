@@ -1,0 +1,25 @@
+uuid: 3c4a1190-d829-5af8-ba4b-44c5aeb65cc9
+slug: nth-grillon-pla-silk-platino
+brand:
+  slug: nth-grillon
+name: PLA Silk Platino
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ebecedff'
+  color_lab:
+  - 93.35
+  - -0.16
+  - -0.6
+tags:
+- silk
+properties:
+  density: 1.23
+  min_print_temperature: 175
+  max_print_temperature: 215
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-silk-platino/nth-grillon-pla-silk-platino-0-6bf3fe8c.jpg
+  type: unspecified

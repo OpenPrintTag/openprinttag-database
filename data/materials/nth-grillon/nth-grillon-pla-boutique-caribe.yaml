@@ -1,0 +1,23 @@
+uuid: f34916ea-0d6f-5f6f-a632-8434530547be
+slug: nth-grillon-pla-boutique-caribe
+brand:
+  slug: nth-grillon
+name: PLA Boutique Caribe
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#1fa8c9ff'
+  color_lab:
+  - 63.76
+  - -22.99
+  - -26.63
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-caribe/nth-grillon-pla-boutique-caribe-0-e20cfffe.jpg
+  type: unspecified

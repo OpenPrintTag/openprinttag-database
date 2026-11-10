@@ -1,0 +1,21 @@
+uuid: 45c0b3f4-0ff2-50e5-aaf5-6d2016fc9071
+slug: nth-grillon-simpliflex-natural
+brand:
+  slug: nth-grillon
+name: Simpliflex Natural
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#f9fdddff'
+  color_lab:
+  - 98.28
+  - -6.65
+  - 14.88
+properties:
+  density: 1.22
+  min_print_temperature: 220
+  max_print_temperature: 240
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-simpliflex-natural/nth-grillon-simpliflex-natural-0-404c06fa.jpg
+  type: unspecified

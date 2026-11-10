@@ -1,0 +1,25 @@
+uuid: b813eaad-30c4-56f5-b250-2cc4d6deafe4
+slug: nth-grillon-nylon-12-titanio
+brand:
+  slug: nth-grillon
+name: Nylon 12 Titanio
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#878681ff'
+  color_lab:
+  - 55.87
+  - -0.59
+  - 2.82
+tags:
+- filtration_recommended
+properties:
+  density: 1.02
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-nylon-12-titanio/nth-grillon-nylon-12-titanio-0-29a9a36e.jpg
+  type: unspecified

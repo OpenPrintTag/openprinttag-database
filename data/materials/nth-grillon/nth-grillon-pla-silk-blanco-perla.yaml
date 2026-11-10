@@ -1,0 +1,25 @@
+uuid: 84f74527-3e13-5fc4-8ea1-acc7f5755a94
+slug: nth-grillon-pla-silk-blanco-perla
+brand:
+  slug: nth-grillon
+name: PLA Silk Blanco Perla
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2dedbff'
+  color_lab:
+  - 88.7
+  - 0.83
+  - 1.95
+tags:
+- silk
+properties:
+  density: 1.23
+  min_print_temperature: 175
+  max_print_temperature: 215
+  min_bed_temperature: 45
+  max_bed_temperature: 45
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-silk-blanco-perla/nth-grillon-pla-silk-blanco-perla-0-5e5b2766.jpg
+  type: unspecified

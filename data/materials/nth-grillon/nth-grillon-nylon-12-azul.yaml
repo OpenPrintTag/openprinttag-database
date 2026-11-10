@@ -1,0 +1,25 @@
+uuid: 9993e5b7-a68c-5cd2-af76-a1d6f8084560
+slug: nth-grillon-nylon-12-azul
+brand:
+  slug: nth-grillon
+name: Nylon 12 Azul
+class: FFF
+type: PA12
+abbreviation: PA12
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+  - 63.37
+  - 8.98
+  - -56.93
+tags:
+- filtration_recommended
+properties:
+  density: 1.02
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-nylon-12-azul/nth-grillon-nylon-12-azul-0-31810281.jpg
+  type: unspecified

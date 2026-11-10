@@ -1,0 +1,22 @@
+uuid: 3eed02cb-f8f5-5c99-b4b7-34ae41bf24a9
+slug: nth-grillon-abs-turquesa
+brand:
+  slug: nth-grillon
+name: ABS Turquesa
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#058b8cff'
+  color_lab:
+    - 52.27
+    - -30.06
+    - -9.47
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90

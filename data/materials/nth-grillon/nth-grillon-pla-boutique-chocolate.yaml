@@ -1,0 +1,23 @@
+uuid: 23478fe0-ba3c-5551-b64d-188bf3dbd799
+slug: nth-grillon-pla-boutique-chocolate
+brand:
+  slug: nth-grillon
+name: PLA Boutique Chocolate
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#57361cff'
+  color_lab:
+  - 26.01
+  - 11.86
+  - 22.17
+properties:
+  density: 1.26
+  min_print_temperature: 185
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-boutique-chocolate/nth-grillon-pla-boutique-chocolate-0-bc209980.jpg
+  type: unspecified

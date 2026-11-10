@@ -1,0 +1,25 @@
+uuid: 1dd77482-0d44-5921-a430-21ad25ac17c6
+slug: nth-grillon-petg-rojo
+brand:
+  slug: nth-grillon
+name: PETG Rojo
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+  - 51.31
+  - 67.91
+  - 54.58
+tags:
+- transparent
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-petg-rojo/nth-grillon-petg-rojo-0-bed5c9a9.jpg
+  type: unspecified

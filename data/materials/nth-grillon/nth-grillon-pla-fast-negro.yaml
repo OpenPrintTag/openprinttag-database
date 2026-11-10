@@ -1,0 +1,23 @@
+uuid: 5d377349-7262-52ac-b051-afcf4dbff7dc
+slug: nth-grillon-pla-fast-negro
+brand:
+  slug: nth-grillon
+name: PLA Fast Negro
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-fast-negro/nth-grillon-pla-fast-negro-0-1a9762a9.webp
+  type: unspecified

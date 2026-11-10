@@ -1,0 +1,22 @@
+uuid: 831d8656-828c-5224-ad7e-df1aa5e13f23
+slug: nth-grillon-abs-violeta
+brand:
+  slug: nth-grillon
+name: ABS Violeta
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#d0006fff'
+  color_lab:
+    - 45.03
+    - 73.11
+    - -1.03
+tags:
+  - filtration_recommended
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 245
+  min_bed_temperature: 90
+  max_bed_temperature: 90

@@ -1,0 +1,23 @@
+uuid: 0b331ca1-26f6-50a4-a74a-f89bc63733b7
+slug: nth-grillon-pla-fast-gris-plata
+brand:
+  slug: nth-grillon
+name: PLA Fast Gris Plata
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#bcbabbff'
+  color_lab:
+  - 75.7
+  - 0.88
+  - -0.26
+properties:
+  density: 1.25
+  min_print_temperature: 195
+  max_print_temperature: 215
+  min_bed_temperature: 50
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-pla-fast-gris-plata/nth-grillon-pla-fast-gris-plata-0-96ba42f9.webp
+  type: unspecified

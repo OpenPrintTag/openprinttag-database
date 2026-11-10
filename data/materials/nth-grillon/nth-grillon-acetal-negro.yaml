@@ -1,0 +1,25 @@
+uuid: 1a90383e-87d4-5b13-928c-04a960895c88
+slug: nth-grillon-acetal-negro
+brand:
+  slug: nth-grillon
+name: Acetal Negro
+class: FFF
+type: POM
+abbreviation: POM
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+tags:
+- filtration_recommended
+properties:
+  density: 1.42
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 110
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-acetal-negro/nth-grillon-acetal-negro-0-799327b4.jpg
+  type: unspecified

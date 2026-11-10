@@ -1,0 +1,23 @@
+uuid: 0ad77190-2efe-536b-965f-e1f4b57e46a4
+slug: nth-grillon-petg-negro
+brand:
+  slug: nth-grillon
+name: PETG Negro
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  density: 1.27
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 65
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/nth-grillon/nth-grillon-petg-negro/nth-grillon-petg-negro-0-26c27856.jpg
+  type: unspecified
