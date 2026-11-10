@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-matte-beige.html
 primary_color:
   color_rgba: '#eadac2ff'
+  color_lab:
+  - 87.74
+  - 1.64
+  - 13.8
 tags:
 - matte
-- industrially_compostable
 properties:
-  density: 1.24
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-matte-beige/eumakers-pla-matte-beige-0-06903cfb.png
+  type: unspecified

@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-glossy-black.html
 primary_color:
   color_rgba: '#545252ff'
+  color_lab:
+  - 35.06
+  - 0.81
+  - 0.29
 tags:
 - silk
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-glossy-black/eumakers-pla-glossy-black-0-b22a045c.png
+  type: unspecified

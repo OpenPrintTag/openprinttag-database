@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-blue-sugared-almond.html
 primary_color:
   color_rgba: '#9bcbebff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 79.43
+  - -8.07
+  - -20.84
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-blue-sugared-almond/eumakers-pla-blue-sugared-almond-0-a3c81bdf.png
+  type: unspecified

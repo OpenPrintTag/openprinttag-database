@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-dark-blue.html
 primary_color:
   color_rgba: '#002a3aff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 15.28
+  - -6.92
+  - -14.16
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-dark-blue/eumakers-pla-dark-blue-0-6ec5edb8.png
+  type: unspecified

@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-dark-brown.html
 primary_color:
   color_rgba: '#623412ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 27.01
+  - 17.76
+  - 29.4
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-dark-brown/eumakers-pla-dark-brown-0-2d052eb5.png
+  type: unspecified

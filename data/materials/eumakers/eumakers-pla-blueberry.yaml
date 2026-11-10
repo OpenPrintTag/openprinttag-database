@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-blueberry.html
 primary_color:
   color_rgba: '#485cc7ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 42.99
+  - 26.35
+  - -58.22
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-blueberry/eumakers-pla-blueberry-0-000df1fa.png
+  type: unspecified

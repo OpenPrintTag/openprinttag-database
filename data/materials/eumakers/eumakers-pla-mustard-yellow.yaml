@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-mustard-yellow.html
 primary_color:
   color_rgba: '#c5a900ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 69.65
+  - -3.37
+  - 72.38
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-mustard-yellow/eumakers-pla-mustard-yellow-0-f2cf2c9e.png
+  type: unspecified

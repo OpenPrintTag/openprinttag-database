@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-green-fern.html
 primary_color:
   color_rgba: '#00af66ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 63.02
+  - -54.96
+  - 27.02
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-green-fern/eumakers-pla-green-fern-0-02bc21fa.png
+  type: unspecified

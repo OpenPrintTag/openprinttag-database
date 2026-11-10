@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-iridescent-amber.html
 primary_color:
   color_rgba: '#eea061ff'
+  color_lab:
+  - 72.35
+  - 22.77
+  - 44.21
 tags:
 - iridescent
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-iridescent-amber/eumakers-pla-iridescent-amber-0-09c00974.png
+  type: unspecified

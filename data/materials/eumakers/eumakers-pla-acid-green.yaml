@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-acid-green.html
 primary_color:
   color_rgba: '#d0df00ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 85.09
+  - -25.75
+  - 84.02
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-acid-green/eumakers-pla-acid-green-0-6f33ff99.png
+  type: unspecified

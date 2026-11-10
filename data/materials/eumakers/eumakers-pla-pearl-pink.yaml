@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-pearl-pink.html
 primary_color:
   color_rgba: '#fcafc0ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 79.14
+  - 30.42
+  - 2.76
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-pearl-pink/eumakers-pla-pearl-pink-0-92f3d003.png
+  type: unspecified

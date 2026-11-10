@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-pearl-blue.html
 primary_color:
   color_rgba: '#3375a7ff'
+  color_lab:
+  - 47.26
+  - -4.27
+  - -32.86
 tags:
 - pearlescent
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-pearl-blue/eumakers-pla-pearl-blue-0-044dfac5.png
+  type: unspecified

@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-gold.html
 primary_color:
   color_rgba: '#ddb95dff'
+  color_lab:
+  - 76.6
+  - 2.19
+  - 50.74
 tags:
 - imitates_metal
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-gold/eumakers-pla-gold-0-a082ae1b.png
+  type: unspecified

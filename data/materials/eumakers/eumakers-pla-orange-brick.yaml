@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-orange-brick.html
 primary_color:
   color_rgba: '#cd563bff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 51.79
+  - 45.57
+  - 38.92
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-orange-brick/eumakers-pla-orange-brick-0-a2f50104.png
+  type: unspecified

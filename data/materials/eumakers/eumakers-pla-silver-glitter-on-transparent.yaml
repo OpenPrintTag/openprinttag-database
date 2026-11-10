@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-silver-white-translucent-glitter.html
 primary_color:
   color_rgba: '#f9f3e5ff'
+  color_lab:
+  - 95.95
+  - -0.35
+  - 7.46
 tags:
 - glitter
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-silver-glitter-on-transparent/eumakers-pla-silver-glitter-on-transparent-0-87e31ad9.png
+  type: unspecified

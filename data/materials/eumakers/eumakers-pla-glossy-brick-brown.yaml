@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-glossy-brick-brown.html
 primary_color:
   color_rgba: '#a54830ff'
+  color_lab:
+  - 42.54
+  - 36.77
+  - 32.77
 tags:
 - silk
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-glossy-brick-brown/eumakers-pla-glossy-brick-brown-0-cd6d74a0.png
+  type: unspecified

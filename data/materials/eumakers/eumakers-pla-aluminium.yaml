@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-aluminium.html
 primary_color:
   color_rgba: '#d6d7d8ff'
+  color_lab:
+  - 85.93
+  - -0.16
+  - -0.61
 tags:
 - imitates_metal
-- industrially_compostable
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-aluminium/eumakers-pla-aluminium-0-abf0ea44.png
+  type: unspecified

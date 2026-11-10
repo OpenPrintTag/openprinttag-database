@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-metallic-blue.html
 primary_color:
   color_rgba: '#3375a7ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 47.26
+  - -4.27
+  - -32.86
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-metallic-blue/eumakers-pla-metallic-blue-0-2f1821bb.png
+  type: unspecified

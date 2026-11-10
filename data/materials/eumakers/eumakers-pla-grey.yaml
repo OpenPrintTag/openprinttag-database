@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-grey.html
 primary_color:
   color_rgba: '#9c9d9dff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 64.66
+  - -0.36
+  - -0.13
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-grey/eumakers-pla-grey-0-291748d1.png
+  type: unspecified

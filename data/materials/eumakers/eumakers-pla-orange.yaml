@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-orange.html
 primary_color:
   color_rgba: '#fe5000ff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 58.8
+  - 63.62
+  - 69.43
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 210
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-orange/eumakers-pla-orange-0-5601c44c.png
+  type: unspecified

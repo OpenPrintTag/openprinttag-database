@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-indigo.html
 primary_color:
   color_rgba: '#0e21aeff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 24.44
+  - 48.09
+  - -74.01
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-indigo/eumakers-pla-indigo-0-27fc7116.png
+  type: unspecified

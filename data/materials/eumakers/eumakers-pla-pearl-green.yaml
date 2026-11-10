@@ -9,7 +9,16 @@ abbreviation: PLA
 url: https://www.eumakers.com/pla-filament-color-pearl-green.html
 primary_color:
   color_rgba: '#88ae9fff'
-tags:
-- industrially_compostable
+  color_lab:
+  - 68.03
+  - -16.0
+  - 3.49
 properties:
   density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/eumakers/eumakers-pla-pearl-green/eumakers-pla-pearl-green-0-8ae107c8.png
+  type: unspecified
