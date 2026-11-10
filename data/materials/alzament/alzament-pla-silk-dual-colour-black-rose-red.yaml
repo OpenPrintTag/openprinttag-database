@@ -8,10 +8,24 @@ type: PLA
 abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-silk-dual-colour-1-kg-black-rose-red-d12869957.htm
 secondary_colors:
-- color_rgba: '#000000ff'
 - color_rgba: '#bb264dff'
+  color_lab:
+  - 41.98
+  - 59.5
+  - 15.36
+- color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
 tags:
 - silk
-- industrially_compostable
 - coextruded
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-silk-dual-colour-black-rose-red/alzament-pla-silk-dual-colour-black-rose-red-0-1a47ccaa.png
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: ba3a812b-8fb5-55ec-b651-cfe6ec966ca5
+slug: alzament-petg-hyper-white
+brand:
+  slug: alzament
+name: PETG Hyper White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.alza.cz/EN/alzament-petg-hyper-1-kg-white-d12869968.htm
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+tags:
+- high_speed
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-petg-hyper-white/alzament-petg-hyper-white-0-bb603ee1.jpg
+  type: unspecified

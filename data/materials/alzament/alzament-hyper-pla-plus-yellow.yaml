@@ -1,0 +1,25 @@
+uuid: 225df687-2bd8-5540-bcee-713dea9be79c
+slug: alzament-hyper-pla-plus-yellow
+brand:
+  slug: alzament
+name: Hyper PLA+ Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-hyper-pla-1kg-yellow-d12717986.htm
+primary_color:
+  color_rgba: '#fbf942ff'
+  color_lab:
+  - 95.44
+  - -19.02
+  - 81.69
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-hyper-pla-plus-yellow/alzament-hyper-pla-plus-yellow-0-8b8aaa3b.png
+  type: unspecified

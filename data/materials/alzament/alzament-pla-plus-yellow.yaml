@@ -1,0 +1,23 @@
+uuid: c2f2027f-ab3b-5437-8a9f-92c74863ccf4
+slug: alzament-pla-plus-yellow
+brand:
+  slug: alzament
+name: PLA+ Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-1kg-yellow-d12717995.htm
+primary_color:
+  color_rgba: '#fbf942ff'
+  color_lab:
+  - 95.44
+  - -19.02
+  - 81.69
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-plus-yellow/alzament-pla-plus-yellow-0-d92744a2.jpg
+  type: unspecified

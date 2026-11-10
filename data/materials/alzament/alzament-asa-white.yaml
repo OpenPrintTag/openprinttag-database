@@ -1,0 +1,25 @@
+uuid: 319c8883-9fd7-594d-9c4b-90ddd4cf5d66
+slug: alzament-asa-white
+brand:
+  slug: alzament
+name: ASA White
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.alza.cz/EN/alzament-asa-1-kg-white-d13015321.htm
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-asa-white/alzament-asa-white-0-813179cd.jpg
+  type: unspecified

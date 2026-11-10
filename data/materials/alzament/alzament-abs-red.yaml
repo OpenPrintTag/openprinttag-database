@@ -1,0 +1,25 @@
+uuid: 8359c12b-453a-5c27-a8e8-cecf9525d834
+slug: alzament-abs-red
+brand:
+  slug: alzament
+name: ABS Red
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://www.alza.cz/EN/alzament-abs-1-kg-red-d13015346.htm
+primary_color:
+  color_rgba: '#ec0000ff'
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
+tags:
+- filtration_recommended
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-abs-red/alzament-abs-red-0-d1ba3835.jpg
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: e63e0565-0352-5785-80a5-722188034cf8
+slug: alzament-petg-hyper-black
+brand:
+  slug: alzament
+name: PETG Hyper Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.alza.cz/EN/alzament-petg-hyper-1-kg-black-d12869964.htm
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+tags:
+- high_speed
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-petg-hyper-black/alzament-petg-hyper-black-0-3a5f79c3.jpg
+  type: unspecified

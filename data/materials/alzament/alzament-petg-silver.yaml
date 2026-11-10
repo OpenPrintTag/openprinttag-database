@@ -1,0 +1,23 @@
+uuid: 884d845f-373a-5f5a-b176-f7a09ad8a4dc
+slug: alzament-petg-silver
+brand:
+  slug: alzament
+name: PETG Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.alza.cz/EN/alsament-petg-1-kg-silver-d12869961.htm
+primary_color:
+  color_rgba: '#818fa0ff'
+  color_lab:
+  - 58.83
+  - -1.27
+  - -10.67
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-petg-silver/alzament-petg-silver-0-b274508e.jpg
+  type: unspecified
