@@ -4,11 +4,9 @@ brand:
   slug: 123-3d
 class: FFF
 type: ABS
-abbreviation: ABS
+abbreviation: PCABS
 tags:
 - abrasive
-- contains_carbon
-- contains_carbon_fiber
 - self_extinguishing
 primary_color:
   color_rgba: '#000000'
