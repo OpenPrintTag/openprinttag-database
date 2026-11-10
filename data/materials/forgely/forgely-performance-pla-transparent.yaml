@@ -1,0 +1,24 @@
+uuid: 83429156-4c0b-58d0-b5d1-65add14462e7
+slug: forgely-performance-pla-transparent
+brand:
+  slug: forgely
+name: Performance PLA — Transparent
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+  - 95.53
+  - -1.29
+  - -1.54
+tags:
+- transparent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/forgely/forgely-performance-pla-transparent/forgely-performance-pla-transparent-0-2ddd56a2.webp
+  type: unspecified

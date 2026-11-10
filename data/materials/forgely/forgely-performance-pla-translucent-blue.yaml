@@ -1,0 +1,24 @@
+uuid: 692a0db9-4908-52cb-af98-9b58eda5a021
+slug: forgely-performance-pla-translucent-blue
+brand:
+  slug: forgely
+name: Performance PLA — Translucent Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#509affff'
+  color_lab:
+  - 63.37
+  - 8.98
+  - -56.93
+tags:
+- translucent
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/forgely/forgely-performance-pla-translucent-blue/forgely-performance-pla-translucent-blue-0-39a89438.webp
+  type: unspecified
