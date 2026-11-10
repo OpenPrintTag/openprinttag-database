@@ -1,0 +1,22 @@
+uuid: 64caa0ce-9564-5040-9a97-21e97616bacd
+slug: forgely-performance-pla-red
+brand:
+  slug: forgely
+name: Performance PLA — Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+  - 51.31
+  - 67.91
+  - 54.58
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/forgely/forgely-performance-pla-red/forgely-performance-pla-red-0-f85aa5fe.webp
+  type: unspecified

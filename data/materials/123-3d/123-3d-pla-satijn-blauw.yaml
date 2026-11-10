@@ -1,0 +1,21 @@
+name: PLA Satijn Blauw
+slug: 123-3d-pla-satijn-blauw
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#05158f'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-satijn-blauw/123-3dfilamentplasatijnblauw175mm1kgdhm00070m4big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: 10ff085d-ceef-5b3e-a269-b7960ace81a6

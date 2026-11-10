@@ -1,0 +1,22 @@
+name: PLA High Speed Zwart
+slug: 123-3d-pla-high-speed-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- high_speed
+- high_temperature
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-high-speed-zwart/123-3dfilamentplahighspeedzwart175mm1kgdhm00037m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 255
+  max_bed_temperature: 50
+uuid: 3c90bd32-0a3f-51ed-ab19-4bff3e275e1a

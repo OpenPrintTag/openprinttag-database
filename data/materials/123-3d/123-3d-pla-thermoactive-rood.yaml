@@ -1,0 +1,20 @@
+name: PLA Thermoactive Rood
+slug: 123-3d-pla-thermoactive-rood
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- temperature_color_change
+primary_color:
+  color_rgba: '#e02a25'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-thermoactive-rood/123-3dfilamentplathermoactiverood175mm1kgdhm00265m5big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 225
+  max_bed_temperature: 50
+uuid: 5133be72-ef92-5010-95d2-bc4e13571aaa

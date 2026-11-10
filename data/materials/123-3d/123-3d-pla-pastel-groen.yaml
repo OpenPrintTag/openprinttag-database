@@ -1,0 +1,21 @@
+name: PLA Pastel Groen
+slug: 123-3d-pla-pastel-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#d3f6ed'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pastel-groen/123-3dfilamentplapastelgroen175mm1kgdhm00051m1big.jpg
+  type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: cd714eef-bf40-5748-b502-9dc0f71dc25b

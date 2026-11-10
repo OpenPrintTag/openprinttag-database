@@ -1,0 +1,21 @@
+name: PLA Lichtgewicht Donkergrijs
+slug: 123-3d-pla-lichtgewicht-donkergrijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- foaming
+- high_temperature
+primary_color:
+  color_rgba: '#75787b'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-lichtgewicht-donkergrijs/123-3dfilamentplalichtgewichtdonkergrijs175mm1kgdhm00085m2big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 280
+  max_bed_temperature: 50
+uuid: ea4022b3-9e2e-521c-b7c3-847dcd6b06cf

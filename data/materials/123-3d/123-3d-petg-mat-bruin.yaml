@@ -1,0 +1,20 @@
+name: PETG Mat Bruin
+slug: 123-3d-petg-mat-bruin
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- matte
+primary_color:
+  color_rgba: '#422d00'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-petg-mat-bruin/123-3dfilamentpetgmatbruin175mm1kgdfs10115cdhm00242m1big.jpg
+  type: unspecified
+properties:
+  density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: e7c80889-cb60-5ca0-819b-907933938d82

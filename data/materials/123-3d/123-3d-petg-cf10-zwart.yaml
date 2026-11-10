@@ -1,0 +1,22 @@
+name: PETG CF10 Zwart
+slug: 123-3d-petg-cf10-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETGCF
+tags:
+- abrasive
+- contains_carbon
+- contains_carbon_fiber
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-petg-cf10-zwart/123-3dfilamentpetgcf10zwart175mm1kgdhm00138m1big.jpg
+  type: unspecified
+properties:
+  density: 1.32
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 9401287b-8b69-56a0-9618-8888db97c0d4

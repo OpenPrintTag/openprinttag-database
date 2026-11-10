@@ -1,0 +1,20 @@
+name: PETG Mat Beige
+slug: 123-3d-petg-mat-beige
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- matte
+primary_color:
+  color_rgba: '#f4e0b8'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-petg-mat-beige/123-3dfilamentpetgmatbeige175mm1kgdhm00250m1big.jpg
+  type: unspecified
+properties:
+  density: 1.35
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 79c1151b-8484-5cc3-8bc8-5276642ce6ae

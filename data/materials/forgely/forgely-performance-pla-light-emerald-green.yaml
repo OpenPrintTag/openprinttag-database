@@ -1,0 +1,22 @@
+uuid: f1e3cf5e-3e5b-513f-8e06-640a187774e8
+slug: forgely-performance-pla-light-emerald-green
+brand:
+  slug: forgely
+name: Performance PLA — Light Emerald Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8fc57aff'
+  color_lab:
+  - 74.3
+  - -31.52
+  - 32.12
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/forgely/forgely-performance-pla-light-emerald-green/forgely-performance-pla-light-emerald-green-0-f850cec4.webp
+  type: unspecified

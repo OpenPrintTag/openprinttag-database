@@ -1,0 +1,23 @@
+name: PLA Kameleon Rood - Groen
+slug: 123-3d-pla-kameleon-rood-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- coextruded
+- silk
+primary_color:
+  color_rgba: '#ff0000ff'
+secondary_colors:
+- color_rgba: '#008000ff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-kameleon-rood-groen/123-3dfilamentplakameleonrood-groen175mm1kgdhm00251m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 245
+  max_bed_temperature: 65
+uuid: 773f5ec9-fc7e-548d-b137-c3f94634cd51

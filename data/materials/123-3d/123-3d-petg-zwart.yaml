@@ -1,0 +1,18 @@
+name: PETG Zwart
+slug: 123-3d-petg-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-petg-zwart/123-3dfilamentpetgzwart175mm1kgdfe20208cdfp02212cdfp02213cdfp14094cdfp14194cdhm00128m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 230
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: 0fd37ddb-24a0-5887-bb73-2859957d8c89

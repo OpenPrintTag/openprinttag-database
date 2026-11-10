@@ -1,0 +1,18 @@
+name: ABS Groen
+slug: 123-3d-abs-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: ABS
+abbreviation: ABS
+primary_color:
+  color_rgba: '#14525f'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-abs-groen/123-3dfilamentabsgroen175mm1kgdfp14040cdhm00143m3big.jpg
+  type: unspecified
+properties:
+  density: 1.05
+  min_print_temperature: 235
+  max_print_temperature: 260
+  max_bed_temperature: 110
+uuid: 9879acd7-2fb9-5c22-80f4-e58eaad4b9f4

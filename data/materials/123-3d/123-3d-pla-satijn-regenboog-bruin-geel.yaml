@@ -1,0 +1,23 @@
+name: PLA Satijn Regenboog Bruin - Geel
+slug: 123-3d-pla-satijn-regenboog-bruin-geel
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- silk
+- coextruded
+primary_color:
+  color_rgba: '#804000ff'
+secondary_colors:
+- color_rgba: '#ffff00ff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-satijn-regenboog-bruin-geel/123-3dfilamentplasatijnregenboogbruin-geel175mm1kgdhm00115m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 240
+  max_bed_temperature: 50
+uuid: a6ac922e-2fdf-5c2b-828f-ac55f350f989

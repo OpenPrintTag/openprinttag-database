@@ -1,0 +1,18 @@
+name: PLA Pro Donkergrijs
+slug: 123-3d-pla-pro-donkergrijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#75787b'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pro-donkergrijs/123-3dfilamentplaprodonkergrijs175mm1kgdhm00095m1big.jpg
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 321ed1d9-aba7-55ee-a9d4-4e099d474953

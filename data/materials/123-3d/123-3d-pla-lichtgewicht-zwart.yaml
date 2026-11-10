@@ -1,0 +1,21 @@
+name: PLA Lichtgewicht Zwart
+slug: 123-3d-pla-lichtgewicht-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- foaming
+- high_temperature
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-lichtgewicht-zwart/123-3dfilamentplalichtgewichtzwart175mm1kgdfe20226cdhm00091m2big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 280
+  max_bed_temperature: 50
+uuid: dedef9b2-3fd9-57bc-87a3-523c4cd75200

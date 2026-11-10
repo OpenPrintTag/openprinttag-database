@@ -1,0 +1,21 @@
+name: PLA Glitter Goud
+slug: 123-3d-pla-glitter-goud
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- abrasive
+- glitter
+primary_color:
+  color_rgba: '#aa9220'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-glitter-goud/123-3dfilamentplaglittergoud175mm1kgdfp02232cdhm00058m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 2d838584-61a8-5c82-9de0-b4c29b1f7a15
