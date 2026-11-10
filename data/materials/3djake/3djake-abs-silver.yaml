@@ -9,6 +9,19 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-silver-4
 primary_color:
   color_rgba: '#9c9d9dff'
+  color_lab:
+  - 64.66
+  - -0.36
+  - -0.13
+  color_ral: '9006'
 tags:
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.06
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-abs-silver/3djake-abs-silver-0-a610efb5.png
+  type: unspecified

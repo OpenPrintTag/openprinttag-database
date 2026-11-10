@@ -8,11 +8,30 @@ type: PLA
 abbreviation: PLA
 url: https://www.3djake.com/3djake/mysterypla-berry-popsicle
 secondary_colors:
-- color_rgba: '#db3fa9ff'
-- color_rgba: '#0078bfff'
 - color_rgba: '#32a584ff'
+  color_lab:
+  - 61.0
+  - -39.9
+  - 7.94
+- color_rgba: '#0078bfff'
+  color_lab:
+  - 48.5
+  - -1.28
+  - -44.87
+- color_rgba: '#db3fa9ff'
+  color_lab:
+  - 53.47
+  - 69.38
+  - -23.06
 tags:
-- coextruded
 - iridescent
-- industrially_compostable
-properties: {}
+- coextruded
+properties:
+  density: 1.234
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-mysterypla-berry-popsicle/3djake-mysterypla-berry-popsicle-0-30662ff1.png
+  type: unspecified

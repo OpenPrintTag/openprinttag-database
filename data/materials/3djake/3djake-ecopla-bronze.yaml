@@ -9,6 +9,16 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-bronze
 primary_color:
   color_rgba: '#75643eff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 43.13
+  - 1.17
+  - 24.02
+  color_ral: '1036'
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-bronze/3djake-ecopla-bronze-0-b5679318.png
+  type: unspecified

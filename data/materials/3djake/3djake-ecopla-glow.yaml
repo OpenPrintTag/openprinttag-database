@@ -11,9 +11,24 @@ primary_color:
   color_rgba: '#b3ff94ff'
 secondary_colors:
 - color_rgba: '#efeadfff'
+  color_lab:
+  - 92.81
+  - -0.2
+  - 5.93
+- color_rgba: '#b3ff94ff'
+  color_lab:
+  - 93.12
+  - -42.15
+  - 43.79
 tags:
 - glow_in_the_dark
-- illuminescent_color_change
 - abrasive
-- industrially_compostable
-properties: {}
+- illuminescent_color_change
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-glow/3djake-ecopla-glow-0-1ba7cad4.png
+  type: unspecified

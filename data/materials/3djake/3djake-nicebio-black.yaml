@@ -4,8 +4,20 @@ brand:
   slug: 3djake
 name: niceBIO Black
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-black
 primary_color:
   color_rgba: '#292824ff'
-properties: {}
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+  color_ral: '9017'
+properties:
+  density: 1.33
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-nicebio-black/3djake-nicebio-black-0-ba96d34d.png
+  type: unspecified

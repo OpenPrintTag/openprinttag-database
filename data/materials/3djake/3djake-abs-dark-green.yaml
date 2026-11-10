@@ -9,6 +9,19 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-dark-green
 primary_color:
   color_rgba: '#1e5a4fff'
+  color_lab:
+  - 34.3
+  - -22.22
+  - 0.66
+  color_ral: '6016'
 tags:
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.06
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-abs-dark-green/3djake-abs-dark-green-0-a72b4309.png
+  type: unspecified

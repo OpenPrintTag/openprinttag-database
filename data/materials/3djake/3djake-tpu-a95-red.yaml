@@ -9,5 +9,13 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-red
 primary_color:
   color_rgba: '#ec0000ff'
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
+  color_ral: '3020'
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-tpu-a95-red/3djake-tpu-a95-red-0-abb16649.png
+  type: unspecified

@@ -9,6 +9,20 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-bronze
 primary_color:
   color_rgba: '#8c7354ff'
+  color_lab:
+  - 50.07
+  - 5.22
+  - 20.84
+  color_ral: '1036'
 tags:
 - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-matte-bronze/3djake-easypetg-matte-bronze-0-a3744147.png
+  type: unspecified

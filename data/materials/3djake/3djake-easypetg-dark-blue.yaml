@@ -9,4 +9,17 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-dark-blue
 primary_color:
   color_rgba: '#2941bdff'
-properties: {}
+  color_lab:
+  - 33.83
+  - 35.98
+  - -67.39
+  color_ral: '5002'
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-dark-blue/3djake-easypetg-dark-blue-0-756c4f63.png
+  type: unspecified

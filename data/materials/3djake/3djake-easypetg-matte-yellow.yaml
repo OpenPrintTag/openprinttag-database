@@ -9,6 +9,20 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-yellow
 primary_color:
   color_rgba: '#f8cc00ff'
+  color_lab:
+  - 83.52
+  - 0.69
+  - 84.42
+  color_ral: '1023'
 tags:
 - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-matte-yellow/3djake-easypetg-matte-yellow-0-91b8c237.png
+  type: unspecified

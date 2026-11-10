@@ -9,4 +9,17 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-light-blue
 primary_color:
   color_rgba: '#0078bfff'
-properties: {}
+  color_lab:
+  - 48.5
+  - -1.28
+  - -44.87
+  color_ral: '5015'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-pctg-light-blue/3djake-pctg-light-blue-0-e1ce2170.png
+  type: unspecified

@@ -9,6 +9,16 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-dark-grey
 primary_color:
   color_rgba: '#4a4949ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 31.12
+  - 0.41
+  - 0.15
+  color_ral: '7011'
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-dark-grey/3djake-ecopla-dark-grey-0-b3a8ee9f.png
+  type: unspecified

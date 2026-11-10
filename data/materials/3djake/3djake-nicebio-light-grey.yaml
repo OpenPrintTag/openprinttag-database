@@ -4,8 +4,20 @@ brand:
   slug: 3djake
 name: niceBIO Light Grey
 class: FFF
-abbreviation: niceBIO
+abbreviation: BIO
 url: https://www.3djake.com/3djake/nicebio-light-grey
 primary_color:
   color_rgba: '#d6d7d8ff'
-properties: {}
+  color_lab:
+  - 85.93
+  - -0.16
+  - -0.61
+  color_ral: '7035'
+properties:
+  density: 1.33
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-nicebio-light-grey/3djake-nicebio-light-grey-0-cc7e7279.png
+  type: unspecified

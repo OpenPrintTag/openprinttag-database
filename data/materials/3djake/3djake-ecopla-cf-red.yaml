@@ -1,0 +1,28 @@
+uuid: 272cb024-8134-57b3-8c60-66eb1afa4f2a
+slug: 3djake-ecopla-cf-red
+brand:
+  slug: 3djake
+name: ecoPLA CF Red
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#d32e1aff'
+  color_lab:
+  - 46.82
+  - 62.04
+  - 50.96
+  color_ral: '3020'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-cf-red/3djake-ecopla-cf-red-0-0dfdc47f.png
+  type: unspecified

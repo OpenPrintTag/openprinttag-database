@@ -9,8 +9,18 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-neon-yellow
 primary_color:
   color_rgba: '#fffc25ff'
+  color_lab:
+  - 96.42
+  - -19.69
+  - 89.86
 tags:
 - translucent
 - neon
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-neon-yellow/3djake-ecopla-neon-yellow-0-09c6dd6d.png
+  type: unspecified

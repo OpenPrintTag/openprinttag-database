@@ -9,4 +9,19 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-light-blue
 primary_color:
   color_rgba: '#0378d0ff'
-properties: {}
+  color_lab:
+  - 49.5
+  - 5.52
+  - -53.0
+  color_ral: '5015'
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-asa-light-blue/3djake-asa-light-blue-0-9cb72db6.png
+  type: unspecified

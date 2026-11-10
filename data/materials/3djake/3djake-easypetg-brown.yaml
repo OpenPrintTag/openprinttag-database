@@ -9,4 +9,17 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-brown
 primary_color:
   color_rgba: '#4f3638ff'
-properties: {}
+  color_lab:
+  - 25.52
+  - 11.53
+  - 3.22
+  color_ral: '8016'
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-brown/3djake-easypetg-brown-0-9a3f2f1f.png
+  type: unspecified

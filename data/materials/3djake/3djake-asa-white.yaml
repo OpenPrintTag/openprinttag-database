@@ -9,4 +9,19 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-white
 primary_color:
   color_rgba: '#f5f5f5ff'
-properties: {}
+  color_lab:
+  - 96.54
+  - 0.0
+  - 0.0
+  color_ral: '9003'
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-asa-white/3djake-asa-white-0-f67caf4b.png
+  type: unspecified

@@ -9,6 +9,18 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-transparent
 primary_color:
   color_rgba: '#dee2daff'
+  color_lab:
+  - 89.39
+  - -2.77
+  - 3.43
 tags:
 - transparent
-properties: {}
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-pctg-transparent/3djake-pctg-transparent-0-cbae542d.png
+  type: unspecified

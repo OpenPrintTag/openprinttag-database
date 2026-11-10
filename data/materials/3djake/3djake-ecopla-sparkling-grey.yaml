@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-sparkling-grey
 primary_color:
   color_rgba: '#9c9d9dff'
+  color_lab:
+  - 64.66
+  - -0.36
+  - -0.13
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.227
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-sparkling-grey/3djake-ecopla-sparkling-grey-0-db9c74b5.png
+  type: unspecified

@@ -9,4 +9,17 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-black-1?sai=13329
 primary_color:
   color_rgba: '#292824ff'
-properties: {}
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+  color_ral: '9017'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-pctg-black/3djake-pctg-black-0-34f77625.png
+  type: unspecified

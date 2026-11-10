@@ -1,0 +1,28 @@
+uuid: ac752c9d-a26a-5e1e-82a0-659e809805ad
+slug: 3djake-easypetg-cf-dark-blue
+brand:
+  slug: 3djake
+name: easyPETG CF Dark Blue
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#2941bdff'
+  color_lab:
+  - 33.83
+  - 35.98
+  - -67.39
+  color_ral: '5002'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.31
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-cf-dark-blue/3djake-easypetg-cf-dark-blue-0-29862bfe.png
+  type: unspecified

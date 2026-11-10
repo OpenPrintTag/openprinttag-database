@@ -9,4 +9,19 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-red
 primary_color:
   color_rgba: '#ec0000ff'
-properties: {}
+  color_lab:
+  - 49.3
+  - 75.53
+  - 63.38
+  color_ral: '3020'
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-asa-red/3djake-asa-red-0-818e64cd.png
+  type: unspecified

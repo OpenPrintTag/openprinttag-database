@@ -9,4 +9,19 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-silver
 primary_color:
   color_rgba: '#808080ff'
-properties: {}
+  color_lab:
+  - 53.59
+  - 0.0
+  - 0.0
+  color_ral: '9006'
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-asa-silver/3djake-asa-silver-0-fa65509b.png
+  type: unspecified

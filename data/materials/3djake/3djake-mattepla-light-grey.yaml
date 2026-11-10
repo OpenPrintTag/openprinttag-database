@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/mattepla-light-grey
 primary_color:
   color_rgba: '#ded9d4ff'
+  color_lab:
+  - 86.95
+  - 0.83
+  - 3.06
+  color_ral: '7035'
 tags:
 - matte
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.3
+  min_print_temperature: 200
+  max_print_temperature: 230
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-mattepla-light-grey/3djake-mattepla-light-grey-0-3be75ed5.png
+  type: unspecified

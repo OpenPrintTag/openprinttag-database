@@ -1,0 +1,29 @@
+uuid: c3aae666-b64e-5bd7-86fc-bbfe371e5f5a
+slug: 3djake-abs-cf-red
+brand:
+  slug: 3djake
+name: ABS CF Red
+class: FFF
+type: ABS
+abbreviation: ABSCF
+primary_color:
+  color_rgba: '#c1121cff'
+  color_lab:
+  - 40.99
+  - 63.3
+  - 43.73
+  color_ral: '3020'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-abs-cf-red/3djake-abs-cf-red-0-66f619cc.png
+  type: unspecified

@@ -9,7 +9,20 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-neon-green
 primary_color:
   color_rgba: '#62e480ff'
+  color_lab:
+  - 81.64
+  - -56.86
+  - 38.21
 tags:
 - matte
 - neon
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-matte-neon-green/3djake-easypetg-matte-neon-green-0-3ac60a94.png
+  type: unspecified

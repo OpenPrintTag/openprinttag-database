@@ -9,4 +9,17 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-purple
 primary_color:
   color_rgba: '#c63dbaff'
-properties: {}
+  color_lab:
+  - 50.56
+  - 67.42
+  - -37.78
+  color_ral: '4005'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-pctg-purple/3djake-pctg-purple-0-b1a4ba09.png
+  type: unspecified

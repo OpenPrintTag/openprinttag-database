@@ -9,5 +9,13 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-dark-grey
 primary_color:
   color_rgba: '#3f4647ff'
+  color_lab:
+  - 29.14
+  - -2.62
+  - -1.58
+  color_ral: '7011'
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-tpu-a95-dark-grey/3djake-tpu-a95-dark-grey-0-84a8654b.png
+  type: unspecified

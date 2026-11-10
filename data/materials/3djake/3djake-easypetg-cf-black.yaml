@@ -1,0 +1,28 @@
+uuid: d2bc514e-9211-5da7-80c6-fff722a308f3
+slug: 3djake-easypetg-cf-black
+brand:
+  slug: 3djake
+name: easyPETG CF Black
+class: FFF
+type: PETG
+abbreviation: PETGCF
+primary_color:
+  color_rgba: '#292824ff'
+  color_lab:
+  - 16.09
+  - -0.46
+  - 2.8
+  color_ral: '9017'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.31
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-cf-black/3djake-easypetg-cf-black-0-ab4d07d2.png
+  type: unspecified

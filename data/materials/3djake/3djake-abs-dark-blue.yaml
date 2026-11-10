@@ -9,6 +9,19 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-dark-blue-1
 primary_color:
   color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
+  color_ral: '5002'
 tags:
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.06
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-abs-dark-blue/3djake-abs-dark-blue-0-6527e294.png
+  type: unspecified

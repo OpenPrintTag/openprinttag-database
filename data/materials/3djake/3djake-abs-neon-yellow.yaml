@@ -9,7 +9,19 @@ abbreviation: ABS
 url: https://www.3djake.com/3djake/abs-neon-yellow
 primary_color:
   color_rgba: '#e4ff33ff'
+  color_lab:
+  - 95.27
+  - -31.64
+  - 85.07
 tags:
 - neon
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.06
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-abs-neon-yellow/3djake-abs-neon-yellow-0-7acf10e0.png
+  type: unspecified

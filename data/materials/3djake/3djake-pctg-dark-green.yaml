@@ -9,4 +9,17 @@ abbreviation: PCTG
 url: https://www.3djake.com/3djake/pctg-dark-green
 primary_color:
   color_rgba: '#37823fff'
-properties: {}
+  color_lab:
+  - 48.43
+  - -38.15
+  - 29.26
+  color_ral: '6016'
+properties:
+  density: 1.23
+  min_print_temperature: 250
+  max_print_temperature: 270
+  min_bed_temperature: 90
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-pctg-dark-green/3djake-pctg-dark-green-0-0069693f.png
+  type: unspecified

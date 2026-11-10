@@ -9,9 +9,24 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/magicpla-cotton-candy
 secondary_colors:
 - color_rgba: '#d5447eff'
+  color_lab:
+  - 51.6
+  - 61.02
+  - -0.46
 - color_rgba: '#9c7320ff'
+  color_lab:
+  - 51.19
+  - 8.28
+  - 49.04
 tags:
-- coextruded
 - iridescent
-- industrially_compostable
-properties: {}
+- coextruded
+properties:
+  density: 1.243
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-magicpla-cotton-candy/3djake-magicpla-cotton-candy-0-56ffee99.png
+  type: unspecified

@@ -1,0 +1,28 @@
+uuid: 556698d0-b5b5-5167-bcd9-4a1d2da649f8
+slug: 3djake-asa-cf-dark-blue
+brand:
+  slug: 3djake
+name: ASA CF Dark Blue
+class: FFF
+type: ASA
+abbreviation: ASACF
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
+  color_ral: '5002'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.12
+  min_print_temperature: 240
+  max_print_temperature: 260
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-asa-cf-dark-blue/3djake-asa-cf-dark-blue-0-54355fa4.png
+  type: unspecified

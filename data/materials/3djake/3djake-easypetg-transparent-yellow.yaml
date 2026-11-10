@@ -9,6 +9,18 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-transparent-yellow
 primary_color:
   color_rgba: '#f2b70aff'
+  color_lab:
+  - 77.74
+  - 9.07
+  - 79.09
 tags:
 - translucent
-properties: {}
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-transparent-yellow/3djake-easypetg-transparent-yellow-0-5c946220.png
+  type: unspecified

@@ -9,7 +9,18 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-sparkling-silver
 primary_color:
   color_rgba: '#848484ff'
+  color_lab:
+  - 55.15
+  - 0.0
+  - 0.0
 tags:
 - glitter
-- industrially_compostable
-properties: {}
+properties:
+  density: 1.227
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-sparkling-silver/3djake-ecopla-sparkling-silver-0-86ac5c6c.png
+  type: unspecified

@@ -9,5 +9,13 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-light-grey
 primary_color:
   color_rgba: '#d6d7d8ff'
+  color_lab:
+  - 85.93
+  - -0.16
+  - -0.61
+  color_ral: '7035'
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-tpu-a95-light-grey/3djake-tpu-a95-light-grey-0-8dd5cdff.png
+  type: unspecified

@@ -1,0 +1,28 @@
+uuid: 9baa2920-1a23-5a11-8302-12ed1cbeb423
+slug: 3djake-ecopla-cf-black
+brand:
+  slug: 3djake
+name: ecoPLA CF Black
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#24292aff'
+  color_lab:
+  - 16.15
+  - -1.95
+  - -1.41
+  color_ral: '9017'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-cf-black/3djake-ecopla-cf-black-0-ba9875d3.png
+  type: unspecified

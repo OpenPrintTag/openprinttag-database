@@ -9,6 +9,16 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-orange
 primary_color:
   color_rgba: '#ff7f01ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 66.86
+  - 43.33
+  - 73.76
+  color_ral: '2008'
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-orange/3djake-ecopla-orange-0-67de0f1c.png
+  type: unspecified

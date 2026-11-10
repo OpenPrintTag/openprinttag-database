@@ -9,4 +9,19 @@ abbreviation: ASA
 url: https://www.3djake.com/3djake/asa-dark-green
 primary_color:
   color_rgba: '#11784fff'
-properties: {}
+  color_lab:
+  - 44.4
+  - -37.99
+  - 14.87
+  color_ral: '6016'
+properties:
+  density: 1.1
+  min_print_temperature: 210
+  max_print_temperature: 250
+  min_bed_temperature: 60
+  max_bed_temperature: 100
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-asa-dark-green/3djake-asa-dark-green-0-f442a32d.png
+  type: unspecified

@@ -9,6 +9,19 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-pastel-pink
 primary_color:
   color_rgba: '#ffcccdff'
+  color_lab:
+  - 86.43
+  - 18.15
+  - 6.37
 tags:
 - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-matte-pastel-pink/3djake-easypetg-matte-pastel-pink-0-813946cf.png
+  type: unspecified

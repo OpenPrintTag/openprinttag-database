@@ -9,5 +9,13 @@ abbreviation: TPU
 url: https://www.3djake.com/3djake/tpu-a95-purple
 primary_color:
   color_rgba: '#6c47b2ff'
+  color_lab:
+  - 39.43
+  - 39.86
+  - -51.57
+  color_ral: '4005'
 properties:
-  hardness_shore_a: 95
+  hardness_shore_a: 95.0
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-tpu-a95-purple/3djake-tpu-a95-purple-0-f640a6b9.png
+  type: unspecified

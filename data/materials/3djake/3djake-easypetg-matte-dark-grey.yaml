@@ -9,6 +9,20 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-dark-grey
 primary_color:
   color_rgba: '#3f4647ff'
+  color_lab:
+  - 29.14
+  - -2.62
+  - -1.58
+  color_ral: '7011'
 tags:
 - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-matte-dark-grey/3djake-easypetg-matte-dark-grey-0-5d58495b.png
+  type: unspecified

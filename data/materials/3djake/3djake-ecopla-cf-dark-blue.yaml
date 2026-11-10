@@ -1,0 +1,28 @@
+uuid: 8fbf8bdb-2b47-5860-b6af-26be09948d42
+slug: 3djake-ecopla-cf-dark-blue
+brand:
+  slug: 3djake
+name: ecoPLA CF Dark Blue
+class: FFF
+type: PLA
+abbreviation: PLACF
+primary_color:
+  color_rgba: '#1f2761ff'
+  color_lab:
+  - 18.39
+  - 17.29
+  - -35.6
+  color_ral: '5002'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+properties:
+  density: 1.26
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 20
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-cf-dark-blue/3djake-ecopla-cf-dark-blue-0-e6bf00fa.png
+  type: unspecified

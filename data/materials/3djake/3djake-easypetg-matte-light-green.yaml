@@ -9,6 +9,20 @@ abbreviation: PETG
 url: https://www.3djake.com/3djake/easypetg-matte-light-green
 primary_color:
   color_rgba: '#60ab61ff'
+  color_lab:
+  - 63.73
+  - -38.82
+  - 30.97
+  color_ral: '6018'
 tags:
 - matte
-properties: {}
+properties:
+  density: 1.41
+  hardness_shore_d: 76
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 60
+  max_bed_temperature: 90
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-easypetg-matte-light-green/3djake-easypetg-matte-light-green-0-2ebcccf3.png
+  type: unspecified

@@ -1,0 +1,29 @@
+uuid: 38af7bbf-81da-576d-83de-5c824322dfc5
+slug: 3djake-abs-cf-dark-grey
+brand:
+  slug: 3djake
+name: ABS CF Dark Grey
+class: FFF
+type: ABS
+abbreviation: ABSCF
+primary_color:
+  color_rgba: '#3f4647ff'
+  color_lab:
+  - 29.14
+  - -2.62
+  - -1.58
+  color_ral: '7011'
+tags:
+- contains_carbon_fiber
+- abrasive
+- contains_carbon
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 220
+  max_print_temperature: 250
+  min_bed_temperature: 100
+  max_bed_temperature: 110
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-abs-cf-dark-grey/3djake-abs-cf-dark-grey-0-67614e46.png
+  type: unspecified

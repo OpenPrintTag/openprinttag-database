@@ -9,6 +9,15 @@ abbreviation: PLA
 url: https://www.3djake.com/3djake/ecopla-pink
 primary_color:
   color_rgba: '#ff0078ff'
-tags:
-- industrially_compostable
-properties: {}
+  color_lab:
+  - 54.68
+  - 83.98
+  - 8.59
+properties:
+  density: 1.24
+  min_print_temperature: 195
+  max_print_temperature: 215
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/3djake/3djake-ecopla-pink/3djake-ecopla-pink-0-43ac05e3.png
+  type: unspecified
