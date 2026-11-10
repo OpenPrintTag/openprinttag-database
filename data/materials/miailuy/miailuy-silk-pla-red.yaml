@@ -1,0 +1,23 @@
+uuid: 568d789b-3bb0-5e15-87f4-2e4334a6f9ed
+slug: miailuy-silk-pla-red
+brand:
+  slug: miailuy
+name: Silk PLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+tags:
+  - silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/miailuy-silk-pla-red-0-14923868.jpg
+    type: unspecified

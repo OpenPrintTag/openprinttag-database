@@ -1,0 +1,22 @@
+uuid: d2b1586f-95f8-53c7-82d1-4660a3bbf26c
+slug: miailuy-petg-red
+brand:
+  slug: miailuy
+name: PETG Red
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+    - 51.31
+    - 67.91
+    - 54.58
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/miailuy-petg-red-0-5e46e65f.jpg
+    type: unspecified

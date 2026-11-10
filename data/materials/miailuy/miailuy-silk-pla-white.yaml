@@ -1,0 +1,23 @@
+uuid: 944a56f0-a601-5330-867b-7d4707592e86
+slug: miailuy-silk-pla-white
+brand:
+  slug: miailuy
+name: Silk PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+    - 99.63
+    - -0.36
+    - 2.02
+tags:
+  - silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/miailuy-silk-pla-white-0-06e130a7.jpg
+    type: unspecified

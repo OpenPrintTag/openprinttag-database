@@ -1,0 +1,23 @@
+uuid: 54243001-cf63-5c19-a039-a5829c012349
+slug: miailuy-silk-pla-christmas-green
+brand:
+  slug: miailuy
+name: Silk PLA Christmas Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#165b33ff'
+  color_lab:
+    - 33.76
+    - -31.34
+    - 17.11
+tags:
+  - silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/miailuy-silk-pla-christmas-green-0-697b71cb.jpg
+    type: unspecified

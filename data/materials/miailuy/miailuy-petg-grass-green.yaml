@@ -1,0 +1,22 @@
+uuid: 46eefcac-a446-525e-9554-905bc5d0e3e9
+slug: miailuy-petg-grass-green
+brand:
+  slug: miailuy
+name: PETG Grass Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#3ab916ff'
+  color_lab:
+    - 66.25
+    - -60.98
+    - 63.15
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/miailuy-petg-grass-green-0-6df1b5bb.jpg
+    type: unspecified

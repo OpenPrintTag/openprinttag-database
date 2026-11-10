@@ -1,0 +1,22 @@
+uuid: 5de32b40-5652-58d2-9f07-f8fddf046444
+slug: miailuy-petg-purple
+brand:
+  slug: miailuy
+name: PETG Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#8d078cff'
+  color_lab:
+    - 33.37
+    - 62.08
+    - -38.1
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/miailuy-petg-purple-0-bfa72b3c.jpg
+    type: unspecified

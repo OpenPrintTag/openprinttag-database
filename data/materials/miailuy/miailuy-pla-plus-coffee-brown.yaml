@@ -1,0 +1,21 @@
+uuid: 6a0d34a3-27cc-5b09-9dbc-0d41973f6214
+slug: miailuy-pla-plus-coffee-brown
+brand:
+  slug: miailuy
+name: PLA+ Coffee Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#7c594aff'
+  color_lab:
+    - 41.1
+    - 12.31
+    - 14.37
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/miailuy-pla-plus-coffee-brown-0-8eba7c6f.jpg
+    type: unspecified

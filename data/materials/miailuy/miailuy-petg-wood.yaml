@@ -1,0 +1,22 @@
+uuid: 9280e0db-186d-5d39-9b60-6d6876f6264c
+slug: miailuy-petg-wood
+brand:
+  slug: miailuy
+name: PETG Wood
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#c19a6bff'
+  color_lab:
+    - 66.15
+    - 8.37
+    - 30.15
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/miailuy-petg-wood-0-d5458e59.jpg
+    type: unspecified

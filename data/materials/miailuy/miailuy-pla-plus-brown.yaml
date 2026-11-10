@@ -1,0 +1,21 @@
+uuid: b8a90ea5-7d98-5b8f-b873-8ff4d9345fa9
+slug: miailuy-pla-plus-brown
+brand:
+  slug: miailuy
+name: PLA+ Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#785f53ff'
+  color_lab:
+    - 42.46
+    - 8.23
+    - 10.72
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+  - url: /tmp/assets/miailuy-pla-plus-brown-0-2e031463.jpg
+    type: unspecified

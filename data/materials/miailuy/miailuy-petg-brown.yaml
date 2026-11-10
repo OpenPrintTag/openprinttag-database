@@ -1,0 +1,22 @@
+uuid: 3f09d4e8-c52c-5dfd-9835-c2b8f286f803
+slug: miailuy-petg-brown
+brand:
+  slug: miailuy
+name: PETG Brown
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#785f53ff'
+  color_lab:
+    - 42.46
+    - 8.23
+    - 10.72
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/miailuy-petg-brown-0-64107af9.jpg
+    type: unspecified

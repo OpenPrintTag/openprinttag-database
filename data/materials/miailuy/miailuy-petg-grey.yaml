@@ -1,0 +1,22 @@
+uuid: 59f93359-48e4-5e3d-9ad4-534f16042ea9
+slug: miailuy-petg-grey
+brand:
+  slug: miailuy
+name: PETG Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#75787bff'
+  color_lab:
+    - 50.27
+    - -0.51
+    - -2.04
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+  - url: /tmp/assets/miailuy-petg-grey-0-06bff3cb.jpg
+    type: unspecified
