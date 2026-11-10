@@ -1,0 +1,21 @@
+name: PLA Lichtgewicht Oranje
+slug: 123-3d-pla-lichtgewicht-oranje
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- foaming
+- high_temperature
+primary_color:
+  color_rgba: '#f99201'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-lichtgewicht-oranje/123-3dfilamentplalichtgewichtoranje175mm1kgdhm00087m2big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 280
+  max_bed_temperature: 50
+uuid: 48bd32e0-7fc2-5368-9c96-60dbd681b931

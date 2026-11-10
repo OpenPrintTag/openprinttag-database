@@ -1,0 +1,21 @@
+name: PLA Satijn Rood
+slug: 123-3d-pla-satijn-rood
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#e02a25'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-satijn-rood/123-3dfilamentplasatijnrood175mm1kgdhm00072m4big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: 42e11eda-7776-5058-b06b-92b1eeac717d

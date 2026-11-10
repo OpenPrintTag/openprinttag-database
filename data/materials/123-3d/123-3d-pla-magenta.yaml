@@ -1,0 +1,20 @@
+name: PLA Magenta
+slug: 123-3d-pla-magenta
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#ff00ff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-magenta/123-3dfilamentplamagenta175mm1kgdhm00021m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: d3249957-6342-5a34-a032-fc459516014b

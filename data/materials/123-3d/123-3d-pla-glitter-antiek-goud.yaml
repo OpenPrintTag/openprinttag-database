@@ -1,0 +1,21 @@
+name: PLA Glitter Antiek Goud
+slug: 123-3d-pla-glitter-antiek-goud
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- abrasive
+- glitter
+primary_color:
+  color_rgba: '#d4af37'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-glitter-antiek-goud/123-3dfilamentplaglitterantiekgoud175mm1kgdhm00057m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: bfb7cf73-8b35-5a27-97ca-064dd4911695

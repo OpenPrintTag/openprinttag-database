@@ -1,0 +1,21 @@
+name: PLA Satijn Grijs
+slug: 123-3d-pla-satijn-grijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#4f4f4f'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-satijn-grijs/123-3dfilamentplasatijngrijs175mm1kgdhm00074m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: 98eafcb4-3833-56d7-84fa-d8cb4229b4fa

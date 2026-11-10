@@ -1,0 +1,21 @@
+name: PLA Satijn Koper
+slug: 123-3d-pla-satijn-koper
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- silk
+primary_color:
+  color_rgba: '#ae6b23'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-satijn-koper/123-3dfilamentplasatijnkoper175mm1kgdhm00073m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 215
+  max_print_temperature: 240
+  max_bed_temperature: 60
+uuid: 2ff94ae0-3b4b-526a-93ce-a2176d7152eb

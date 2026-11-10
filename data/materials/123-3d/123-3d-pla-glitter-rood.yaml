@@ -1,0 +1,21 @@
+name: PLA Glitter Rood
+slug: 123-3d-pla-glitter-rood
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- abrasive
+- glitter
+primary_color:
+  color_rgba: '#9c3c2f'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-glitter-rood/123-3dfilamentplaglitterrood175mm1kgdfp02235cdfp02345cdhm00061m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: a5cd2713-11e6-5cd7-8108-a0981c577194

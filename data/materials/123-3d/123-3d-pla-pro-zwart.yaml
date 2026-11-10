@@ -1,0 +1,18 @@
+name: PLA Pro Zwart
+slug: 123-3d-pla-pro-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pro-zwart/123-3dfilamentplaprozwart175mm1kgdfs10048cdhm00096m1big.jpg
+  type: unspecified
+properties:
+  density: 1.22
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: f1df5b9e-62a4-5b31-a56a-dfaa8312dff8

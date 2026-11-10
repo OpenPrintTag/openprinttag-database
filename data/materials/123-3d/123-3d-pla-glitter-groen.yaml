@@ -1,0 +1,21 @@
+name: PLA Glitter Groen
+slug: 123-3d-pla-glitter-groen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- abrasive
+- glitter
+primary_color:
+  color_rgba: '#14525f'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-glitter-groen/123-3dfilamentplaglittergroen175mm1kgdfp02347cdfp02391cdhm00060m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: fc947515-1519-506a-b846-8e438ca62cf1

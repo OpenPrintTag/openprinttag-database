@@ -1,0 +1,24 @@
+name: PLA Bio Hout Eiken
+slug: 123-3d-pla-bio-hout-eiken
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- bio_based
+- abrasive
+- contains_wood
+- imitates_wood
+primary_color:
+  color_rgba: '#968b76'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-bio-hout-eiken/123-3dfilamentplabiohouteiken175mm1kgdhm00127m1big.jpg
+  type: unspecified
+properties:
+  density: 1.19
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+uuid: 09c67956-e559-5fc7-b5f5-8074b79b9591

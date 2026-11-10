@@ -1,0 +1,21 @@
+name: PLA Pastel Ijsblauw
+slug: 123-3d-pla-pastel-ijsblauw
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#a3d8e1'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pastel-ijsblauw/123-3dfilamentplapastelijsblauw175mm1kgdhm00056m1big.jpg
+  type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: d842850c-27ad-5814-b502-cf40cd5ddc2b

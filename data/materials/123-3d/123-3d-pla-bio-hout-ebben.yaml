@@ -1,0 +1,24 @@
+name: PLA Bio Hout Ebben
+slug: 123-3d-pla-bio-hout-ebben
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- bio_based
+- abrasive
+- contains_wood
+- imitates_wood
+primary_color:
+  color_rgba: '#131010'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-bio-hout-ebben/123-3dfilamentplabiohoutebben175mm1kgdhm00125m1big.jpg
+  type: unspecified
+properties:
+  density: 1.19
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+uuid: e7d47456-eeb5-5d33-a74d-c84b1c9c8cf1
