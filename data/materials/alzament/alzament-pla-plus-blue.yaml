@@ -1,0 +1,23 @@
+uuid: fdda69f0-3e28-56f1-b163-c9f9031e833f
+slug: alzament-pla-plus-blue
+brand:
+  slug: alzament
+name: PLA+ Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-1kg-blue-d12718001.htm
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-plus-blue/alzament-pla-plus-blue-0-b011be38.jpg
+  type: unspecified

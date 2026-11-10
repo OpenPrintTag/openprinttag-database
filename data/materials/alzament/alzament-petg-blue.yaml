@@ -1,0 +1,23 @@
+uuid: 7cf038fc-cbfc-5ef6-b301-632e41f21cae
+slug: alzament-petg-blue
+brand:
+  slug: alzament
+name: PETG Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.alza.cz/EN/alsament-petg-1-kg-blue-d12869962.htm
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 80
+  max_bed_temperature: 120
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-petg-blue/alzament-petg-blue-0-103dacd4.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: 287cde87-a931-504e-8f85-295be4485857
+slug: filatech-tpu-yellow
+brand:
+  slug: filatech
+name: TPU Yellow
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
+properties:
+  density: 1.2
+  hardness_shore_a: 85.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-tpu-yellow/filatech-tpu-yellow-0-5007ba1b.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: ab54566f-1639-5cae-b3a1-964505602afc
+slug: filatech-filaflexible30-yellow
+brand:
+  slug: filatech
+name: FilaFlexible30 Yellow
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#fadb24ff'
+  color_lab:
+  - 87.54
+  - -5.61
+  - 82.72
+properties:
+  density: 1.15
+  hardness_shore_d: 30.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible30-yellow/filatech-filaflexible30-yellow-0-4c882e69.png
+  type: unspecified

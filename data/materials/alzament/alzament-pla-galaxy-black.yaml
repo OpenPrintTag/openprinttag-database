@@ -1,0 +1,25 @@
+uuid: 839a0f0c-e453-5f20-ac1c-f4fe632dc826
+slug: alzament-pla-galaxy-black
+brand:
+  slug: alzament
+name: PLA Galaxy Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-galaxy-1kg-black-d13348974.htm
+primary_color:
+  color_rgba: '#000000ff'
+  color_lab:
+  - 0.0
+  - 0.0
+  - 0.0
+tags:
+- glitter
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-galaxy-black/alzament-pla-galaxy-black-0-82fc2027.jpg
+  type: unspecified

@@ -1,0 +1,25 @@
+uuid: c2a839cc-ddb7-5008-802a-f843288cef1c
+slug: alzament-pla-galaxy-army-green
+brand:
+  slug: alzament
+name: PLA Galaxy Army Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-galaxy-1kg-army-green-d13348973.htm
+primary_color:
+  color_rgba: '#466037ff'
+  color_lab:
+  - 37.74
+  - -18.16
+  - 20.36
+tags:
+- glitter
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-galaxy-army-green/alzament-pla-galaxy-army-green-0-329ef7b1.jpg
+  type: unspecified

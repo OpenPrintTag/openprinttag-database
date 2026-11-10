@@ -1,0 +1,25 @@
+uuid: 5d39d0ca-1367-5c6c-9de8-8860555ac262
+slug: filatech-hyper-petg-white
+brand:
+  slug: filatech
+name: Hyper PETG White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
+tags:
+- high_speed
+properties:
+  density: 1.29
+  min_print_temperature: 250
+  max_print_temperature: 255
+  min_bed_temperature: 70
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-hyper-petg-white/filatech-hyper-petg-white-0-87060e34.jpg
+  type: unspecified

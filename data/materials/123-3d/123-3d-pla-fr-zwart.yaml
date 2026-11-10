@@ -1,0 +1,22 @@
+name: PLA-FR Zwart
+slug: 123-3d-pla-fr-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- self_extinguishing
+certifications:
+- ul_94_v0
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-fr-zwart/123-3dfilamentpla-frzwart175mm1kgdhm00220m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 245
+  max_bed_temperature: 65
+uuid: c5539599-4fda-5daa-b08c-54899ff42a73

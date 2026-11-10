@@ -1,0 +1,20 @@
+name: PLA Wit
+slug: 123-3d-pla-wit
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- biocompatible
+primary_color:
+  color_rgba: '#ffffff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-wit/123-3dfilamentplawit175mm1kgdfb00235cdfe20224cdfp02286cdfp02287cdfp14074cdhm00002m3big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 9b97e9aa-802c-5a0e-bf88-bf7bf8783ecc

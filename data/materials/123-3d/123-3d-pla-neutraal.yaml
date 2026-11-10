@@ -1,0 +1,21 @@
+name: PLA Neutraal
+slug: 123-3d-pla-neutraal
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- without_pigments
+primary_color:
+  color_rgba: '#fdfdf5'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-neutraal/123-3dfilamentplaneutraal175mm1kgdfp02268cdfp16288cdhm00009m6big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 37589292-e2db-579a-bcab-758edf28d258

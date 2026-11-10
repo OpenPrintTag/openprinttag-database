@@ -1,0 +1,25 @@
+uuid: a506fa49-fce0-5940-9ea5-856b15093c0f
+slug: filatech-wood-pla-mahogany
+brand:
+  slug: filatech
+name: Wood-PLA Mahogany
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#8a5a46ff'
+  color_lab:
+  - 43.0
+  - 17.34
+  - 19.63
+tags:
+- contains_wood
+properties:
+  density: 1.05
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-wood-pla-mahogany/filatech-wood-pla-mahogany-0-3ef5c60f.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+name: PETG Transparant
+slug: 123-3d-petg-transparant
+brand:
+  slug: 123-3d
+class: FFF
+type: PETG
+abbreviation: PETG
+tags:
+- transparent
+- without_pigments
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-petg-transparant/123-3dfilamentpetgtransparant175mm1kgdfp02217cdhm00266m1big.jpg
+  type: unspecified
+properties:
+  density: 1.27
+  min_print_temperature: 235
+  max_print_temperature: 260
+  max_bed_temperature: 85
+uuid: a9c1a149-cd31-5805-a16a-53bd978066e9

@@ -1,0 +1,22 @@
+uuid: bca8f491-9942-52bc-a69e-f3b9246e1ad6
+slug: forgely-performance-pla-black
+brand:
+  slug: forgely
+name: Performance PLA — Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/forgely/forgely-performance-pla-black/forgely-performance-pla-black-0-4f1a826d.webp
+  type: unspecified

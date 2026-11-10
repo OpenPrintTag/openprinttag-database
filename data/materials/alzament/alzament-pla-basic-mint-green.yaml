@@ -9,6 +9,17 @@ abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-basic-1-kg-mint-green-d13015322.htm
 primary_color:
   color_rgba: '#67d8bcff'
+  color_lab:
+  - 79.4
+  - -38.95
+  - 4.01
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-basic-mint-green/alzament-pla-basic-mint-green-0-5574bce8.png
+  type: unspecified

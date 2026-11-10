@@ -1,0 +1,23 @@
+name: PLA Kameleon Goud - Paars
+slug: 123-3d-pla-kameleon-goud-paars
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- coextruded
+- silk
+primary_color:
+  color_rgba: '#f0d200ff'
+secondary_colors:
+- color_rgba: '#8000ffff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-kameleon-goud-paars/123-3dfilamentplakameleongoud-paars175mm1kgdhm00263m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 210
+  max_print_temperature: 245
+  max_bed_temperature: 65
+uuid: d0db4138-168e-530f-a08e-f1ca017984fc

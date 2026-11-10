@@ -1,0 +1,23 @@
+uuid: 01b8e0ff-1ae9-5170-8200-42e15ca69c72
+slug: alzament-pla-basic-lava-red
+brand:
+  slug: alzament
+name: PLA Basic Lava Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-basic-1kg-lava-red-d12718000.htm
+primary_color:
+  color_rgba: '#ff2c29ff'
+  color_lab:
+  - 55.31
+  - 75.12
+  - 54.62
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-basic-lava-red/alzament-pla-basic-lava-red-0-8e9519a6.png
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: f4dc5e52-91e9-5d91-b4f5-e94c84710786
+slug: filatech-filaflexible40-blue
+brand:
+  slug: filatech
+name: FilaFlexible40 Blue
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#0066d9ff'
+  color_lab:
+  - 44.96
+  - 20.46
+  - -65.46
+properties:
+  density: 1.22
+  hardness_shore_d: 40.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible40-blue/filatech-filaflexible40-blue-0-91ebbec4.jpg
+  type: unspecified

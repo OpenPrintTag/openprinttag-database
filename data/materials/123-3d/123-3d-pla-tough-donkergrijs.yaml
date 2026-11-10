@@ -1,0 +1,20 @@
+name: PLA Tough Donkergrijs
+slug: 123-3d-pla-tough-donkergrijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#75787b'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-tough-donkergrijs/123-3dfilamentplatoughdonkergrijs175mm1kgdhm00044m3big.jpg
+  type: unspecified
+properties:
+  density: 1.2
+  min_print_temperature: 195
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 6e5567c7-c948-5937-8065-1d552b1d17bf

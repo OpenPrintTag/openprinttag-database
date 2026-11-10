@@ -1,0 +1,24 @@
+uuid: b49632d0-98e2-557e-9db1-1ae633615f54
+slug: alzament-tpu-95a-white
+brand:
+  slug: alzament
+name: TPU 95A White
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://www.alza.cz/EN/alzament-tpu-95a-1-kg-white-d13015357.htm
+primary_color:
+  color_rgba: '#ffffffff'
+  color_lab:
+  - 100.0
+  - 0.0
+  - 0.0
+properties:
+  hardness_shore_a: 95.0
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 30
+  max_bed_temperature: 50
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-tpu-95a-white/alzament-tpu-95a-white-0-7b076318.jpg
+  type: unspecified

@@ -1,14 +1,26 @@
-uuid: 4075a161-23f1-51e5-ad1b-ca7bb12770c4
+uuid: 24f246ca-13ce-5a46-abd9-ae422062dc28
 slug: filatech-pla-blue
 brand:
   slug: filatech
-name: PLA+ Blue
+name: PLA Blue
 class: FFF
 type: PLA
-abbreviation: PLA+
+abbreviation: PLA
 url: https://fila-tech.store/product/pla-filament/
 primary_color:
   color_rgba: '#0066d9ff'
+  color_lab:
+  - 44.96
+  - 20.46
+  - -65.46
 tags:
 - industrially_compostable
-properties: {}
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-pla-blue/filatech-pla-blue-0-65d0df71.png
+  type: unspecified

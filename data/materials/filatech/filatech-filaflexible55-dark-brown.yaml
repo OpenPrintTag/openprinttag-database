@@ -1,0 +1,24 @@
+uuid: 156cc318-b483-5f81-9f3d-d4bdf2968c1e
+slug: filatech-filaflexible55-dark-brown
+brand:
+  slug: filatech
+name: FilaFlexible55 Dark Brown
+class: FFF
+type: TPC
+abbreviation: TPC
+primary_color:
+  color_rgba: '#684a43ff'
+  color_lab:
+  - 34.49
+  - 11.7
+  - 9.22
+properties:
+  density: 1.18
+  hardness_shore_d: 55.0
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 50
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filaflexible55-dark-brown/filatech-filaflexible55-dark-brown-0-6f23481a.jpg
+  type: unspecified

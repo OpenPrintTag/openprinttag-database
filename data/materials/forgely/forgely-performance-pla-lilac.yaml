@@ -1,0 +1,22 @@
+uuid: caa5bca4-61d7-5401-85ee-b3658786d1fa
+slug: forgely-performance-pla-lilac
+brand:
+  slug: forgely
+name: Performance PLA — Lilac
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#b967cdff'
+  color_lab:
+  - 56.51
+  - 48.81
+  - -39.47
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 50
+  max_bed_temperature: 65
+photos:
+- url: https://files.openprinttag.org/forgely/forgely-performance-pla-lilac/forgely-performance-pla-lilac-0-729ae934.webp
+  type: unspecified

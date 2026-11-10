@@ -1,0 +1,21 @@
+name: PC-ABS FR V0 Zwart
+slug: 123-3d-pc-abs-fr-v0-zwart
+brand:
+  slug: 123-3d
+class: FFF
+type: ABS
+abbreviation: PCABS
+tags:
+- abrasive
+- self_extinguishing
+primary_color:
+  color_rgba: '#000000'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pc-abs-fr-v0-zwart/123-3dfilamentpc-absfrv0zwart175mm1kgdhm00150m1big.jpg
+  type: unspecified
+properties:
+  density: 1.17
+  min_print_temperature: 245
+  max_print_temperature: 270
+  max_bed_temperature: 110
+uuid: d57c40b9-0331-5cbf-87f2-165ba1d86d82

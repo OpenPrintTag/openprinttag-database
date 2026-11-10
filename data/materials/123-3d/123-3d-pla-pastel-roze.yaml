@@ -1,0 +1,21 @@
+name: PLA Pastel Roze
+slug: 123-3d-pla-pastel-roze
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#f6dddd'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pastel-roze/123-3dfilamentplapastelroze175mm1kgdhm00050m1big.jpg
+  type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: 8ab762a9-833a-5839-9130-7e8f597493f9

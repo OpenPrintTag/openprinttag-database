@@ -1,0 +1,24 @@
+uuid: 1c223fb3-c3f8-59f3-91d5-3159e9930d6a
+slug: filatech-tpu-orange
+brand:
+  slug: filatech
+name: TPU Orange
+class: FFF
+type: TPU
+abbreviation: TPU
+primary_color:
+  color_rgba: '#ff9a40ff'
+  color_lab:
+  - 72.72
+  - 30.98
+  - 60.8
+properties:
+  density: 1.2
+  hardness_shore_a: 85.0
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-tpu-orange/filatech-tpu-orange-0-af996d55.jpg
+  type: unspecified

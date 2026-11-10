@@ -1,0 +1,21 @@
+name: PLA Mat Oranje
+slug: 123-3d-pla-mat-oranje
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#f99201'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-mat-oranje/123-3dfilamentplamatoranje175mm1kgdhm00104m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 1cd31c77-aba1-57c0-80f9-b84eb3c05db0

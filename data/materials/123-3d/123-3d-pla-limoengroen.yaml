@@ -1,0 +1,20 @@
+name: PLA Limoengroen
+slug: 123-3d-pla-limoengroen
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#ccff00'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-limoengroen/123-3dfilamentplalimoengroen175mm1kgdhm00022m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 806d8773-019a-5f3d-a600-819e4d2524d0

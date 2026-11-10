@@ -1,0 +1,21 @@
+name: PLA Pastel Geel
+slug: 123-3d-pla-pastel-geel
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#ffff00'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pastel-geel/123-3dfilamentplapastelgeel175mm1kgdhm00053m1big.jpg
+  type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: d3ee41ff-7090-5bd9-b603-146eb2b75cfd

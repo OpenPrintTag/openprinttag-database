@@ -1,0 +1,25 @@
+uuid: 5d9d6c08-04c2-5279-909a-dca4abd7c849
+slug: alzament-hyper-pla-plus-blue
+brand:
+  slug: alzament
+name: Hyper PLA+ Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-hyper-pla-1kg-blue-d12717988.htm
+primary_color:
+  color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
+tags:
+- high_speed
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-hyper-pla-plus-blue/alzament-hyper-pla-plus-blue-0-3a63c1ab.png
+  type: unspecified

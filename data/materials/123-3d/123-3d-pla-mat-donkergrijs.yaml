@@ -1,0 +1,21 @@
+name: PLA Mat Donkergrijs
+slug: 123-3d-pla-mat-donkergrijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#75787b'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-mat-donkergrijs/123-3dfilamentplamatdonkergrijs175mm1kgdhm00101m1big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 235
+  max_bed_temperature: 50
+uuid: 3c3a9c00-7e74-506f-bc14-92f501507366

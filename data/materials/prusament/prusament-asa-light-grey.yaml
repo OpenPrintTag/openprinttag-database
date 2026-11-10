@@ -1,0 +1,23 @@
+uuid: ba054743-0a29-558d-8b62-1287cbbf277a
+slug: prusament-asa-light-grey
+brand:
+  slug: prusament
+class: FFF
+type: ASA
+name: ASA Light Grey
+abbreviation: ASA
+properties:
+  density: 1.07
+  min_print_temperature: 250
+  max_print_temperature: 270
+  preheat_temperature: 170
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  chamber_temperature: 90
+  min_chamber_temperature: 55
+primary_color:
+  color_rgba: '#d4d1cfff'
+tags:
+- filtration_recommended
+- uv_resistant
+- acetone_soluble

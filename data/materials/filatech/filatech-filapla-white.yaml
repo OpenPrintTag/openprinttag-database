@@ -1,0 +1,23 @@
+uuid: 5ca4d180-3445-53ce-9bf0-fac6d449c9fa
+slug: filatech-filapla-white
+brand:
+  slug: filatech
+name: FilaPLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
+properties:
+  density: 1.3
+  min_print_temperature: 210
+  max_print_temperature: 230
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-filapla-white/filatech-filapla-white-0-84c03ea0.jpg
+  type: unspecified

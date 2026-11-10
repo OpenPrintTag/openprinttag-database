@@ -1,0 +1,22 @@
+name: PLA Bio Donker Bier
+slug: 123-3d-pla-bio-donker-bier
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- bio_based
+- contains_organic_material
+primary_color:
+  color_rgba: '#ffd277ff'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-bio-donker-bier/123-3dfilamentplabiodonkerbier175mm1kgdhm00121m1big.jpg
+  type: unspecified
+properties:
+  density: 1.25
+  min_print_temperature: 185
+  max_print_temperature: 215
+  max_bed_temperature: 45
+uuid: c7c9e520-c8a5-5564-a6a5-501b2f8ec8f5

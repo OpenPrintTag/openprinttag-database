@@ -9,6 +9,18 @@ abbreviation: ABS
 url: https://fila-tech.store/product/abs-filament/
 primary_color:
   color_rgba: '#efefefff'
+  color_lab:
+  - 94.45
+  - 0.0
+  - 0.0
 tags:
 - filtration_recommended
-properties: {}
+properties:
+  density: 1.03
+  min_print_temperature: 220
+  max_print_temperature: 260
+  min_bed_temperature: 80
+  max_bed_temperature: 100
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-abs-white/filatech-abs-white-0-1a1a4da3.png
+  type: unspecified

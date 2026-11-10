@@ -1,0 +1,23 @@
+uuid: 26191fd6-9d4f-518b-a87b-d605c4d2f68a
+slug: alzament-pla-basic-brown
+brand:
+  slug: alzament
+name: PLA Basic Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.alza.cz/EN/alzament-pla-basic-1-kg-brown-d13015325.htm
+primary_color:
+  color_rgba: '#785f53ff'
+  color_lab:
+  - 42.46
+  - 8.23
+  - 10.72
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-basic-brown/alzament-pla-basic-brown-0-2c118ff2.jpg
+  type: unspecified

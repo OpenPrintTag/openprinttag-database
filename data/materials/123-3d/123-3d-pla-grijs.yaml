@@ -1,0 +1,20 @@
+name: PLA Grijs
+slug: 123-3d-pla-grijs
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+primary_color:
+  color_rgba: '#4f4f4f'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-grijs/123-3dfilamentplagrijs175mm1kgdfb00244cdfp02248cdfp02249cdfp14064cdfp14102cdhm00003m3big.jpg
+  type: unspecified
+properties:
+  density: 1.24
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 50
+uuid: 978e4420-44ed-5dbe-b1c7-646e0194d3e0

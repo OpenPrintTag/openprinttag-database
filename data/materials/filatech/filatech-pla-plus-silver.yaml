@@ -1,0 +1,23 @@
+uuid: 7aff9218-0d48-5bcd-815b-7ca35e090b74
+slug: filatech-pla-plus-silver
+brand:
+  slug: filatech
+name: PLA+ Silver
+class: FFF
+type: PLA
+abbreviation: PLA+
+primary_color:
+  color_rgba: '#949597ff'
+  color_lab:
+  - 61.68
+  - 0.03
+  - -1.18
+properties:
+  density: 1.24
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-pla-plus-silver/filatech-pla-plus-silver-0-0a0c1132.png
+  type: unspecified

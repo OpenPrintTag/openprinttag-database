@@ -1,0 +1,21 @@
+name: PLA Pastel Rood
+slug: 123-3d-pla-pastel-rood
+brand:
+  slug: 123-3d
+class: FFF
+type: PLA
+abbreviation: PLA
+tags:
+- industrially_compostable
+- matte
+primary_color:
+  color_rgba: '#e02a25'
+photos:
+- url: https://files.openprinttag.org/123-3d/123-3d-pla-pastel-rood/123-3dfilamentplapastelrood175mm1kgdhm00052m1big.jpg
+  type: unspecified
+properties:
+  density: 1.3
+  min_print_temperature: 190
+  max_print_temperature: 220
+  max_bed_temperature: 60
+uuid: f805db6c-e2e5-5fea-a87e-89b3929d550d

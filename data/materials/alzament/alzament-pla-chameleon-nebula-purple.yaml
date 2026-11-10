@@ -9,8 +9,22 @@ abbreviation: PLA
 url: https://www.alza.cz/EN/alzament-pla-chameleon-1-kg-nebula-purple-d12869951.htm
 secondary_colors:
 - color_rgba: '#6000b0ff'
+  color_lab:
+  - 28.44
+  - 63.8
+  - -68.38
 - color_rgba: '#0353baff'
+  color_lab:
+  - 37.39
+  - 20.64
+  - -59.84
 tags:
 - coextruded
-- industrially_compostable
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 45
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/alzament/alzament-pla-chameleon-nebula-purple/alzament-pla-chameleon-nebula-purple-0-3f81779d.jpg
+  type: unspecified

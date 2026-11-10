@@ -1,0 +1,25 @@
+uuid: b43ede94-e538-5558-a261-c3f293eea3f9
+slug: filatech-wood-pla-dark-ash
+brand:
+  slug: filatech
+name: Wood-PLA Dark Ash
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#684a43ff'
+  color_lab:
+  - 34.49
+  - 11.7
+  - 9.22
+tags:
+- contains_wood
+properties:
+  density: 1.05
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 40
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/filatech/filatech-wood-pla-dark-ash/filatech-wood-pla-dark-ash-0-90088d90.jpg
+  type: unspecified
