@@ -1,0 +1,25 @@
+uuid: dae8b920-595d-5cb2-9798-ad14f2b72156
+slug: prusament-pei-1010-space-grade-black
+brand:
+  slug: prusament
+class: FFF
+type: PEI
+name: PEI 1010 Space Grade Black
+abbreviation: PEI
+properties:
+  density: 1.27
+  min_print_temperature: 400
+  max_print_temperature: 420
+  preheat_temperature: 250
+  min_bed_temperature: 140
+  max_bed_temperature: 160
+  chamber_temperature: 90
+  min_chamber_temperature: 90
+  max_chamber_temperature: 175
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- self_extinguishing
+- high_temperature
+- uv_resistant
+- low_outgassing
