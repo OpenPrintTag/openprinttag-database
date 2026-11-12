@@ -1,0 +1,21 @@
+uuid: 5709cad8-5fe8-5682-83b7-a286ddda71b4
+slug: abaflex-petg-plus-uv-dark-gray
+brand:
+  slug: abaflex
+name: PETG+ UV Dark Gray
+class: FFF
+type: PETG
+abbreviation: PETG+UV
+url: https://www.abaflex.cz/petg-uv-filament
+primary_color:
+  color_rgba: '#4d4d4dff'
+tags:
+- uv_resistant
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-uv-dark-gray/abaflex-petg-plus-uv-dark-gray.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90
