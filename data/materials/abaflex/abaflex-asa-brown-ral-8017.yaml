@@ -1,0 +1,20 @@
+uuid: e2b5de77-6dec-5a16-a244-7491e80a6f7e
+slug: abaflex-asa-brown-ral-8017
+brand:
+  slug: abaflex
+name: ASA Brown RAL 8017
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.abaflex.cz/asa
+primary_color:
+  color_rgba: '#45322eff'
+  color_ral: '8017'
+photos:
+- url: /tmp/assets/abaflex/abaflex-asa-brown-ral-8017/abaflex-asa-brown-ral-8017.jpeg
+  type: package
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110

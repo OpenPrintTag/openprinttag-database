@@ -1,0 +1,19 @@
+uuid: 2297913c-3c73-56fe-9124-326825a6e3ba
+slug: abaflex-asa-white
+brand:
+  slug: abaflex
+name: ASA White
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.abaflex.cz/asa
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-asa-white/abaflex-asa-white.jpeg
+  type: package
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
