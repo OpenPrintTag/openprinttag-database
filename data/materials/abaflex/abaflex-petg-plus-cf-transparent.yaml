@@ -1,0 +1,23 @@
+uuid: 1e98e004-5d67-5752-811b-172448a06983
+slug: abaflex-petg-plus-cf-transparent
+brand:
+  slug: abaflex
+name: PETG+ CF Transparent
+class: FFF
+type: PETG
+abbreviation: PETG+CF
+url: https://www.abaflex.cz/petg-cf
+primary_color:
+  color_rgba: '#ffffff40'
+tags:
+- contains_carbon_fiber
+- abrasive
+- transparent
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-cf-transparent/abaflex-petg-plus-cf-transparent.jpeg
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 90

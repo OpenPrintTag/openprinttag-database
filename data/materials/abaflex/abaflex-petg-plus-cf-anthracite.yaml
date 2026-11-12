@@ -1,0 +1,22 @@
+uuid: 81616b7c-32b5-5add-80e9-5c088ba2c47f
+slug: abaflex-petg-plus-cf-anthracite
+brand:
+  slug: abaflex
+name: PETG+ CF Anthracite
+class: FFF
+type: PETG
+abbreviation: PETG+CF
+url: https://www.abaflex.cz/petg-cf
+primary_color:
+  color_rgba: '#383e42ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-cf-anthracite/abaflex-petg-plus-cf-anthracite.jpeg
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 90

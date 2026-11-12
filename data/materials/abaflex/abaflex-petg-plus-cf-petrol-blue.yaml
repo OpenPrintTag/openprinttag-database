@@ -1,0 +1,22 @@
+uuid: a1eba1d8-c6f6-56a7-9641-c87e499978da
+slug: abaflex-petg-plus-cf-petrol-blue
+brand:
+  slug: abaflex
+name: PETG+ CF Petrol Blue
+class: FFF
+type: PETG
+abbreviation: PETG+CF
+url: https://www.abaflex.cz/petg-cf
+primary_color:
+  color_rgba: '#1d5c73ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-cf-petrol-blue/abaflex-petg-plus-cf-petrol-blue.jpeg
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 90
