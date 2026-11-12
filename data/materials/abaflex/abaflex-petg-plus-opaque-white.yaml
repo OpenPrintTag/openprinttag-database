@@ -1,0 +1,19 @@
+uuid: 932f10b1-89fa-5525-be4b-6017759aac52
+slug: abaflex-petg-plus-opaque-white
+brand:
+  slug: abaflex
+name: PETG+ Opaque White
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg-opaque
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-opaque-white/abaflex-petg-plus-opaque-white.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

@@ -1,0 +1,20 @@
+uuid: b4ec3f4b-56c9-5d72-88a9-02d401dd9415
+slug: abaflex-petg-plus-green-ral-6018
+brand:
+  slug: abaflex
+name: PETG+ Green RAL 6018
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#57a639ff'
+  color_ral: '6018'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-green-ral-6018/abaflex-petg-plus-green-ral-6018.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

@@ -1,0 +1,19 @@
+uuid: 140f3768-1553-5d85-8911-be8485bb84a9
+slug: abaflex-petg-plus-neon-green
+brand:
+  slug: abaflex
+name: PETG+ Neon Green
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#39ff14ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-neon-green/abaflex-petg-plus-neon-green.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

@@ -1,0 +1,19 @@
+uuid: 0cceb38c-2a13-5f59-86bd-0e035f4ce57f
+slug: abaflex-petg-plus-dark-brown
+brand:
+  slug: abaflex
+name: PETG+ Dark Brown
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#4a2e1fff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-dark-brown/abaflex-petg-plus-dark-brown.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

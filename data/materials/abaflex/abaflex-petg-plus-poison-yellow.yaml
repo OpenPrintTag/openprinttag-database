@@ -1,0 +1,19 @@
+uuid: 9fa5859b-54e1-52f3-905a-ab6d091911ff
+slug: abaflex-petg-plus-poison-yellow
+brand:
+  slug: abaflex
+name: PETG+ Poison Yellow
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#c8ff00ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-poison-yellow/abaflex-petg-plus-poison-yellow.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

@@ -1,0 +1,19 @@
+uuid: 89683cb4-85b3-5ffd-9e17-5f776ee49f90
+slug: abaflex-petg-plus-violet-mystic
+brand:
+  slug: abaflex
+name: PETG+ Violet Mystic
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#6a3fa0ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-violet-mystic/abaflex-petg-plus-violet-mystic.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90
