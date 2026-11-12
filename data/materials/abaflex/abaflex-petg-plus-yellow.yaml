@@ -1,0 +1,19 @@
+uuid: fb19d33f-2866-52cb-8a9c-0d81dbc2977a
+slug: abaflex-petg-plus-yellow
+brand:
+  slug: abaflex
+name: PETG+ Yellow
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#f5d90aff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-yellow/abaflex-petg-plus-yellow.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

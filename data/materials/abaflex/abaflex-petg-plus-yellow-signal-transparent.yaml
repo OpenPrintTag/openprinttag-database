@@ -1,0 +1,21 @@
+uuid: 53644c98-7f47-5370-8062-f73726257537
+slug: abaflex-petg-plus-yellow-signal-transparent
+brand:
+  slug: abaflex
+name: PETG+ Yellow Signal Transparent
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#f5c800c0'
+tags:
+- translucent
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-yellow-signal-transparent/abaflex-petg-plus-yellow-signal-transparent.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

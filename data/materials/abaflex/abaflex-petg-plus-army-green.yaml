@@ -1,0 +1,19 @@
+uuid: 44060413-d7dc-59e2-8ce9-eb347ec572ec
+slug: abaflex-petg-plus-army-green
+brand:
+  slug: abaflex
+name: PETG+ Army Green
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#4b5320ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-army-green/abaflex-petg-plus-army-green.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90
