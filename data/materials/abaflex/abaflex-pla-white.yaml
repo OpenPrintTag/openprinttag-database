@@ -1,0 +1,19 @@
+uuid: fa8ad183-2360-5205-89e5-f7343e2232a7
+slug: abaflex-pla-white
+brand:
+  slug: abaflex
+name: PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.abaflex.cz/pla
+primary_color:
+  color_rgba: '#ffffffff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-pla-white/abaflex-pla-white.jpeg
+  type: package
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60

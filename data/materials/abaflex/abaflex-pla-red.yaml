@@ -1,0 +1,19 @@
+uuid: 32907ffb-4cf3-5600-8d57-90b087998e08
+slug: abaflex-pla-red
+brand:
+  slug: abaflex
+name: PLA Red
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.abaflex.cz/pla
+primary_color:
+  color_rgba: '#d01f1fff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-pla-red/abaflex-pla-red.jpeg
+  type: package
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60
