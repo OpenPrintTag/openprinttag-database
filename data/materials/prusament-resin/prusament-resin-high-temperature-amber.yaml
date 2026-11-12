@@ -1,0 +1,19 @@
+uuid: 41152f41-6e75-583a-a90a-fa548f5b0fb4
+slug: prusament-resin-high-temperature-amber
+brand:
+  slug: prusament-resin
+class: SLA
+name: High Temperature Amber
+abbreviation: ''
+properties:
+  density: 1.11
+  cure_wavelength: 405
+  viscosity_18c: 616.6
+  viscosity_25c: 323.7
+  viscosity_40c: 103.8
+  viscosity_60c: 36.7
+primary_color:
+  color_rgba: '#f8ad07ff'
+tags:
+- abrasive
+- high_temperature
