@@ -1,0 +1,19 @@
+uuid: ab685bee-0eea-5c23-b898-2f1d61bb5fa7
+slug: abaflex-pla-gray
+brand:
+  slug: abaflex
+name: PLA Gray
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.abaflex.cz/pla
+primary_color:
+  color_rgba: '#808080ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-pla-gray/abaflex-pla-gray.jpeg
+  type: package
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60

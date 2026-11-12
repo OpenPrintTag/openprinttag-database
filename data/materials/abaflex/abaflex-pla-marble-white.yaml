@@ -1,0 +1,19 @@
+uuid: 7e56568a-b7fe-560e-8c7c-8e62fc76e97e
+slug: abaflex-pla-marble-white
+brand:
+  slug: abaflex
+name: PLA Marble White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.abaflex.cz/pla
+primary_color:
+  color_rgba: '#e9e7e2ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-pla-marble-white/abaflex-pla-marble-white.jpeg
+  type: package
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60

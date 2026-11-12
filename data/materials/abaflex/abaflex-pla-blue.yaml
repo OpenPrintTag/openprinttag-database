@@ -1,0 +1,19 @@
+uuid: b550c442-23de-5173-aa11-3f640ea11914
+slug: abaflex-pla-blue
+brand:
+  slug: abaflex
+name: PLA Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.abaflex.cz/pla
+primary_color:
+  color_rgba: '#1f5fd1ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-pla-blue/abaflex-pla-blue.jpeg
+  type: package
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60
