@@ -1,0 +1,23 @@
+uuid: 19639347-8128-5bbc-b113-8a7d35f26a30
+slug: miailuy-silk-pla-black
+brand:
+  slug: miailuy
+name: Silk PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-silk-pla-black/miailuy-silk-pla-black-0-56747172.jpg
+  type: unspecified

@@ -1,0 +1,21 @@
+uuid: 08285800-0531-5e07-beb5-46068235d2c0
+slug: miailuy-pla-plus-cyan
+brand:
+  slug: miailuy
+name: PLA+ Cyan
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#05a6c7ff'
+  color_lab:
+  - 62.86
+  - -23.89
+  - -26.91
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-pla-plus-cyan/miailuy-pla-plus-cyan-0-f87500a3.jpg
+  type: unspecified

@@ -1,0 +1,24 @@
+uuid: cbf4e6b0-4958-5f06-8c86-40a9f8e30165
+slug: miailuy-petg-transparent
+brand:
+  slug: miailuy
+name: PETG Transparent
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#eef3f5ff'
+  color_lab:
+  - 95.53
+  - -1.29
+  - -1.54
+tags:
+- translucent
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-transparent/miailuy-petg-transparent-0-1e5eb8f2.jpg
+  type: unspecified

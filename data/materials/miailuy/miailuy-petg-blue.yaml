@@ -1,0 +1,22 @@
+uuid: 1bb5836e-3c1e-5fcf-b8c3-9f428727d567
+slug: miailuy-petg-blue
+brand:
+  slug: miailuy
+name: PETG Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#0022ffff'
+  color_lab:
+  - 34.72
+  - 71.73
+  - -103.8
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-blue/miailuy-petg-blue-0-f104ccf4.jpg
+  type: unspecified

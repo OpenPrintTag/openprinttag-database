@@ -1,0 +1,21 @@
+uuid: e88bdd55-797c-5a55-b15a-4fb356e87044
+slug: miailuy-pla-plus-wood
+brand:
+  slug: miailuy
+name: PLA+ Wood
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#c19a6bff'
+  color_lab:
+  - 66.15
+  - 8.37
+  - 30.15
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-pla-plus-wood/miailuy-pla-plus-wood-0-e3903209.jpg
+  type: unspecified

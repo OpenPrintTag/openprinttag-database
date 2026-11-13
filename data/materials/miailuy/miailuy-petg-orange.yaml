@@ -1,0 +1,22 @@
+uuid: c4e98af6-e7c8-5539-b337-52e7b6c9279d
+slug: miailuy-petg-orange
+brand:
+  slug: miailuy
+name: PETG Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#ff9a40ff'
+  color_lab:
+  - 72.72
+  - 30.98
+  - 60.8
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-orange/miailuy-petg-orange-0-0dc66566.jpg
+  type: unspecified

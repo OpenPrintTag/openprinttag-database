@@ -1,0 +1,21 @@
+uuid: cd6d71ec-e959-54aa-acee-a7d58ad7fd75
+slug: miailuy-pla-plus-green
+brand:
+  slug: miailuy
+name: PLA+ Green
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#00c26bff'
+  color_lab:
+  - 69.21
+  - -60.57
+  - 32.47
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-pla-plus-green/miailuy-pla-plus-green-0-2c66bf31.jpg
+  type: unspecified

@@ -1,0 +1,22 @@
+uuid: 15f68c98-54b1-5a5e-a20a-2e3d393f5a50
+slug: miailuy-petg-black
+brand:
+  slug: miailuy
+name: PETG Black
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#020303ff'
+  color_lab:
+  - 0.76
+  - -0.26
+  - -0.09
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-black/miailuy-petg-black-0-77e6d2bd.jpg
+  type: unspecified

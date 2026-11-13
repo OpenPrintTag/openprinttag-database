@@ -1,0 +1,21 @@
+uuid: 6105025c-b88e-5fd6-b21d-386e97c61d3a
+slug: miailuy-pla-plus-beige
+brand:
+  slug: miailuy
+name: PLA+ Beige
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e2e4c0ff'
+  color_lab:
+  - 89.61
+  - -6.66
+  - 17.38
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-pla-plus-beige/miailuy-pla-plus-beige-0-54bc403f.jpg
+  type: unspecified

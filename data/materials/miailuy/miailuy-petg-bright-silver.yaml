@@ -1,0 +1,22 @@
+uuid: a6b18ea5-7597-5d68-8009-21bfbfe044ab
+slug: miailuy-petg-bright-silver
+brand:
+  slug: miailuy
+name: PETG Bright Silver
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#e0e0e0ff'
+  color_lab:
+  - 89.18
+  - 0.0
+  - 0.0
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-bright-silver/miailuy-petg-bright-silver-0-fe70cbc1.jpg
+  type: unspecified

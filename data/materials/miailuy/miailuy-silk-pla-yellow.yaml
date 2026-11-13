@@ -1,0 +1,23 @@
+uuid: f5b14c2d-c27a-5fbe-9593-3e23ead1981a
+slug: miailuy-silk-pla-yellow
+brand:
+  slug: miailuy
+name: Silk PLA Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#ffe802ff'
+  color_lab:
+  - 91.23
+  - -10.41
+  - 90.03
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-silk-pla-yellow/miailuy-silk-pla-yellow-0-f74b8734.jpg
+  type: unspecified

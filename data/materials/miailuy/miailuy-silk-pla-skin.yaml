@@ -1,0 +1,23 @@
+uuid: 1eb531aa-07a5-5fa9-b450-a6f256be2aa8
+slug: miailuy-silk-pla-skin
+brand:
+  slug: miailuy
+name: Silk PLA Skin
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#f3e2d7ff'
+  color_lab:
+  - 90.94
+  - 3.99
+  - 7.46
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-silk-pla-skin/miailuy-silk-pla-skin-0-5256b0d2.jpg
+  type: unspecified

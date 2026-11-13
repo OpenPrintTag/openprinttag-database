@@ -1,0 +1,22 @@
+uuid: ceca9c42-232d-55fd-84b0-d8c0dca58d01
+slug: miailuy-petg-orchid
+brand:
+  slug: miailuy
+name: PETG Orchid
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#52d2bcff'
+  color_lab:
+  - 76.99
+  - -40.4
+  - 0.44
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-orchid/miailuy-petg-orchid-0-f40510eb.jpg
+  type: unspecified

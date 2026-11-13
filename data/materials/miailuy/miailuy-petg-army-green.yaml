@@ -1,0 +1,22 @@
+uuid: 272af79f-3093-5e36-a98f-c516ca4baea1
+slug: miailuy-petg-army-green
+brand:
+  slug: miailuy
+name: PETG Army Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#466037ff'
+  color_lab:
+  - 37.74
+  - -18.16
+  - 20.36
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-army-green/miailuy-petg-army-green-0-38d10e06.jpg
+  type: unspecified

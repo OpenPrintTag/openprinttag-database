@@ -1,0 +1,22 @@
+uuid: 461f0f51-8ebf-5e49-b45d-556e7e1feaf4
+slug: miailuy-petg-dark-green
+brand:
+  slug: miailuy
+name: PETG Dark Green
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#13484dff'
+  color_lab:
+  - 27.6
+  - -15.09
+  - -8.03
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-dark-green/miailuy-petg-dark-green-0-1898983f.jpg
+  type: unspecified

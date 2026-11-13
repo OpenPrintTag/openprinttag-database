@@ -1,0 +1,22 @@
+uuid: 656ecd26-8d15-5819-983e-0de8e0c7e2bd
+slug: miailuy-petg-white
+brand:
+  slug: miailuy
+name: PETG White
+class: FFF
+type: PETG
+abbreviation: PETG
+primary_color:
+  color_rgba: '#fffefaff'
+  color_lab:
+  - 99.63
+  - -0.36
+  - 2.02
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-petg-white/miailuy-petg-white-0-2327fe0e.jpg
+  type: unspecified

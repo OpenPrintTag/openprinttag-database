@@ -1,0 +1,21 @@
+uuid: 5d287057-fc00-5cac-aa8c-79d2cb89924f
+slug: miailuy-pla-plus-red
+brand:
+  slug: miailuy
+name: PLA+ Red
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#e9301eff'
+  color_lab:
+  - 51.31
+  - 67.91
+  - 54.58
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-pla-plus-red/miailuy-pla-plus-red-0-5f04f982.jpg
+  type: unspecified

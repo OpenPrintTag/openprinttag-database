@@ -1,0 +1,23 @@
+uuid: 97db866a-5e70-544c-9b36-851b6617a50f
+slug: miailuy-silk-pla-purple
+brand:
+  slug: miailuy
+name: Silk PLA Purple
+class: FFF
+type: PLA
+abbreviation: PLA
+primary_color:
+  color_rgba: '#a100ebff'
+  color_lab:
+  - 43.62
+  - 82.28
+  - -77.41
+tags:
+- silk
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  max_bed_temperature: 60
+photos:
+- url: https://files.openprinttag.org/miailuy/miailuy-silk-pla-purple/miailuy-silk-pla-purple-0-0d89bcc4.jpg
+  type: unspecified
