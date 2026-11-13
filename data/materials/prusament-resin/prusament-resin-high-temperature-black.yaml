@@ -1,0 +1,19 @@
+uuid: b135643b-4c74-5b41-9421-bd6dce7617b4
+slug: prusament-resin-high-temperature-black
+brand:
+  slug: prusament-resin
+class: SLA
+name: High Temperature Black
+abbreviation: ''
+properties:
+  density: 1.11
+  cure_wavelength: 405
+  viscosity_18c: 616.6
+  viscosity_25c: 323.7
+  viscosity_40c: 103.8
+  viscosity_60c: 36.7
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- abrasive
+- high_temperature
