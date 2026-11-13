@@ -1,0 +1,19 @@
+uuid: c7a97fb2-9472-52c1-9c0b-9171ccaa2ca5
+slug: abaflex-petg-plus-black
+brand:
+  slug: abaflex
+name: PETG+ Black
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#000000ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-black/abaflex-petg-plus-black.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

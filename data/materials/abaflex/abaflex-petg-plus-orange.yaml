@@ -1,0 +1,19 @@
+uuid: 8bf2deec-a7b5-5162-937a-27189b9df5d6
+slug: abaflex-petg-plus-orange
+brand:
+  slug: abaflex
+name: PETG+ Orange
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#ff7a00ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-orange/abaflex-petg-plus-orange.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

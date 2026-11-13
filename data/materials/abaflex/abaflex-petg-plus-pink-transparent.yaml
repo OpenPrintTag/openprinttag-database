@@ -1,0 +1,21 @@
+uuid: 01611d11-e34e-5b62-9a49-8ff45a02daa4
+slug: abaflex-petg-plus-pink-transparent
+brand:
+  slug: abaflex
+name: PETG+ Pink Transparent
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#ff5a80c0'
+tags:
+- translucent
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-pink-transparent/abaflex-petg-plus-pink-transparent.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

@@ -1,0 +1,19 @@
+uuid: 66cb700e-5efa-5e89-b2b0-436ff19b4e3a
+slug: abaflex-petg-plus-dark-blue
+brand:
+  slug: abaflex
+name: PETG+ Dark Blue
+class: FFF
+type: PETG
+abbreviation: PETG+
+url: https://www.abaflex.cz/petg
+primary_color:
+  color_rgba: '#12274fff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-dark-blue/abaflex-petg-plus-dark-blue.jpeg
+  type: package
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 265
+  min_bed_temperature: 70
+  max_bed_temperature: 90

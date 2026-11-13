@@ -1,0 +1,23 @@
+uuid: 5e55044c-c50e-547c-8823-4bc855a06ccb
+slug: abaflex-petg-plus-cf-olive-green
+brand:
+  slug: abaflex
+name: PETG+ CF Olive Green
+class: FFF
+type: PETG
+abbreviation: PETG+CF
+url: https://www.abaflex.cz/petg-cf
+primary_color:
+  color_rgba: '#6b7b3aff'
+tags:
+- contains_carbon_fiber
+- contains_carbon
+- abrasive
+photos:
+- url: /tmp/assets/abaflex/abaflex-petg-plus-cf-olive-green/abaflex-petg-plus-cf-olive-green.jpeg
+  type: package
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 70
+  max_bed_temperature: 90

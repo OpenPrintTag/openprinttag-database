@@ -1,0 +1,21 @@
+uuid: bb2a0c1d-9212-5543-87c0-d6c16c1620c7
+slug: abaflex-pla-natural
+brand:
+  slug: abaflex
+name: PLA Natural
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://www.abaflex.cz/pla
+primary_color:
+  color_rgba: '#e8dcc0ff'
+tags:
+- without_pigments
+photos:
+- url: /tmp/assets/abaflex/abaflex-pla-natural/abaflex-pla-natural.jpeg
+  type: package
+properties:
+  min_print_temperature: 195
+  max_print_temperature: 235
+  min_bed_temperature: 40
+  max_bed_temperature: 60

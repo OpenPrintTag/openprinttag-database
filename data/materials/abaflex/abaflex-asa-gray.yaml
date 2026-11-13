@@ -1,0 +1,19 @@
+uuid: 02111adf-005a-5122-8ddf-380b31ca064a
+slug: abaflex-asa-gray
+brand:
+  slug: abaflex
+name: ASA Gray
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://www.abaflex.cz/asa
+primary_color:
+  color_rgba: '#808080ff'
+photos:
+- url: /tmp/assets/abaflex/abaflex-asa-gray/abaflex-asa-gray.jpeg
+  type: package
+properties:
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 110
