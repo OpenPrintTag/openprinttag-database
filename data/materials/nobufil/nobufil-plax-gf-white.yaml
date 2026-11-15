@@ -1,0 +1,23 @@
+uuid: fda137b8-e199-558f-b353-1bc962c7b7da
+slug: nobufil-plax-gf-white
+brand:
+  slug: nobufil
+name: PLAx GF White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/plax-gf-filament-white'
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- contains_glass_fiber
+- abrasive
+- recycled
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 235
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.2
