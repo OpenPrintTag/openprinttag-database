@@ -1,0 +1,17 @@
+uuid: f4872ba4-9cb7-560c-b1dd-4c88ec0e273b
+slug: ameralabs-tgm-7-clear
+brand:
+  slug: ameralabs
+name: TGM-7 Clear
+class: SLA
+abbreviation: ''
+url: https://ameralabs.com/shop/tgm-7/
+primary_color:
+  color_rgba: '#f3f6f4ff'
+tags:
+- transparent
+properties:
+  density: 1.105
+  viscosity_25c: 540
+  cure_wavelength: 405
+  hardness_shore_d: 78
