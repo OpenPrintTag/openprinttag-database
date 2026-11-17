@@ -1,0 +1,20 @@
+uuid: 297fb837-8a96-5094-9e51-1c705f90b389
+slug: henkel-loctite-3d-3955
+brand:
+  slug: henkel
+name: LOCTITE 3D 3955
+class: SLA
+abbreviation: ''
+url: https://dm.henkel-dam.com/is/content/henkel/Loctite-3D-3955
+primary_color:
+  color_rgba: '#1a1a1aff'
+tags:
+- self_extinguishing
+- high_temperature
+certifications:
+- ul_94_v0
+properties:
+  density: 1.26
+  viscosity_60c: 960
+  cure_wavelength: 405
+  hardness_shore_d: 82
