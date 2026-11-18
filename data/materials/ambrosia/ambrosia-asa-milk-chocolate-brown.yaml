@@ -1,0 +1,18 @@
+uuid: 995f3b36-cc03-54f2-b19a-d77b4d6a8efd
+slug: ambrosia-asa-milk-chocolate-brown
+brand:
+  slug: ambrosia
+name: ASA Milk Chocolate Brown
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45

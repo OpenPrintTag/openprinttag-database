@@ -1,0 +1,15 @@
+uuid: 3b75bbe0-fdc7-5265-b433-87532e8c299c
+slug: ambrosia-pla-skin-light
+brand:
+  slug: ambrosia
+name: PLA Skin (Light)
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

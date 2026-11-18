@@ -1,0 +1,17 @@
+uuid: 5c263a94-8419-5a43-ada3-9b484b1e7482
+slug: ambrosia-pla-hot-pink
+brand:
+  slug: ambrosia
+name: PLA Hot Pink
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#d42359ff'
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

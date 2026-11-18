@@ -1,0 +1,19 @@
+uuid: 1ce2169b-bd6e-5d95-9cb4-ee0caa59e5ea
+slug: ambrosia-asa-rainbow-rush
+brand:
+  slug: ambrosia
+name: ASA Rainbow Rush
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+tags:
+- gradual_color_change
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45

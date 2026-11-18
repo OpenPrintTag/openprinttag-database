@@ -1,0 +1,17 @@
+uuid: 2d8c1851-1c5c-517b-a0bf-b3941fe5aa72
+slug: ambrosia-pla-camo-olive-drab
+brand:
+  slug: ambrosia
+name: PLA Camo Olive Drab
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#988334ff'
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

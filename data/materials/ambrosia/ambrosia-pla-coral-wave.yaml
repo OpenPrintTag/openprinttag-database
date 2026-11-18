@@ -1,0 +1,15 @@
+uuid: d1bfb578-764e-5783-a09b-44b20db3e5cc
+slug: ambrosia-pla-coral-wave
+brand:
+  slug: ambrosia
+name: PLA Coral Wave
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

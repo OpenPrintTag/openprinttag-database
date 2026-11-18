@@ -1,0 +1,21 @@
+uuid: d96b0edf-b023-5ae9-9a5c-9bab66490c61
+slug: ambrosia-asa-galactic-voron-red
+brand:
+  slug: ambrosia
+name: ASA Galactic Voron Red
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#af2125ff'
+tags:
+- glitter
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45

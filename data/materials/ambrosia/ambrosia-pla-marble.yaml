@@ -1,0 +1,17 @@
+uuid: db8d9b63-b40e-53c7-ab97-ace66f0fac2a
+slug: ambrosia-pla-marble
+brand:
+  slug: ambrosia
+name: PLA Marble
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+tags:
+- imitates_marble
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

@@ -1,0 +1,17 @@
+uuid: cb851718-66cd-5048-8779-5972493f24e8
+slug: ambrosia-pla-terracotta
+brand:
+  slug: ambrosia
+name: PLA Terracotta
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#974f2dff'
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

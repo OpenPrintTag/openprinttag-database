@@ -1,0 +1,21 @@
+uuid: 82b8a790-e1a2-571f-9064-4742d428f61c
+slug: ambrosia-asa-galactic-super-blue
+brand:
+  slug: ambrosia
+name: ASA Galactic Super Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#4472ebff'
+tags:
+- glitter
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45

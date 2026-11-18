@@ -1,0 +1,19 @@
+uuid: 6863e346-bb09-5615-a94e-c1e8dabdf645
+slug: ambrosia-asa-galactic-cosmic-shimmer
+brand:
+  slug: ambrosia
+name: ASA Galactic Cosmic Shimmer
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+tags:
+- glitter
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45

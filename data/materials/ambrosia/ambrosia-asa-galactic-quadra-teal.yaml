@@ -1,0 +1,21 @@
+uuid: 15ad0682-6c7a-5075-a5c8-33146685f16a
+slug: ambrosia-asa-galactic-quadra-teal
+brand:
+  slug: ambrosia
+name: ASA Galactic Quadra Teal
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#38a5c1ff'
+tags:
+- glitter
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45

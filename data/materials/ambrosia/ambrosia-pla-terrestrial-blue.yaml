@@ -1,0 +1,17 @@
+uuid: 1244ee11-ff55-5b75-b354-8e75cd7b412f
+slug: ambrosia-pla-terrestrial-blue
+brand:
+  slug: ambrosia
+name: PLA Terrestrial Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#0d81c3ff'
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65

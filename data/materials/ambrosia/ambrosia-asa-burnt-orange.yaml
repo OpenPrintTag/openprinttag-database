@@ -1,0 +1,20 @@
+uuid: 55db77d9-7475-5ba9-a411-88f8a2a3a4ab
+slug: ambrosia-asa-burnt-orange
+brand:
+  slug: ambrosia
+name: ASA Burnt Orange
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+primary_color:
+  color_rgba: '#f92e08ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
