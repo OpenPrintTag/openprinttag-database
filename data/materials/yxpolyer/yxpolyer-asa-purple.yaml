@@ -1,0 +1,19 @@
+uuid: c5f0d79a-04d9-5eab-a6cd-c13c0adcb3e8
+slug: yxpolyer-asa-purple
+brand:
+  slug: yxpolyer
+name: ASA Purple
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-purple
+primary_color:
+  color_rgba: '#735aa5ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

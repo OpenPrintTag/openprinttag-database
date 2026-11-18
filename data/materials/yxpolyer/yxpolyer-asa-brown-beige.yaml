@@ -1,0 +1,19 @@
+uuid: 319a5c71-c78e-51c2-a59f-3ece65bc552b
+slug: yxpolyer-asa-brown-beige
+brand:
+  slug: yxpolyer
+name: ASA Brown Beige
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-brown-beige
+primary_color:
+  color_rgba: '#967759ff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

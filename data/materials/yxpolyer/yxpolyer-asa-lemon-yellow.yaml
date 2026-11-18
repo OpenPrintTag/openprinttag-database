@@ -1,0 +1,19 @@
+uuid: 1648eb3a-41c1-5822-a831-fc3a72bbdc22
+slug: yxpolyer-asa-lemon-yellow
+brand:
+  slug: yxpolyer
+name: ASA Lemon Yellow
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-lemon-yellow
+primary_color:
+  color_rgba: '#c8b75bff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

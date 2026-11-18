@@ -1,0 +1,19 @@
+uuid: 04b92c95-a774-520a-9114-eb270623cf97
+slug: yxpolyer-asa-light-ivory
+brand:
+  slug: yxpolyer
+name: ASA Light Ivory
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-light-ivory
+primary_color:
+  color_rgba: '#d4c9baff'
+tags:
+- filtration_recommended
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110
