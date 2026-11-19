@@ -1,0 +1,22 @@
+uuid: '9f1778fb-bed9-516e-bc7b-05a0142a8944'
+slug: nobufil-plax-matt-white
+brand:
+  slug: nobufil
+name: PLAx Matt White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/pla-filament-matt-white'
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- matte
+- recycled
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 235
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.19

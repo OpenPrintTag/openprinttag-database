@@ -1,0 +1,22 @@
+uuid: '3d353383-4ac6-5eac-ab21-f1298dbaf198'
+slug: nobufil-plax-matt-black
+brand:
+  slug: nobufil
+name: PLAx Matt Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/pla-filament-matt-black'
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- matte
+- recycled
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 235
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.19

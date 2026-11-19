@@ -1,0 +1,22 @@
+uuid: d4209c14-9412-50d7-9188-110944a5db06
+slug: nobufil-plax-lw-white
+brand:
+  slug: nobufil
+name: PLAx LW White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/plax-lw-filament-white'
+primary_color:
+  color_rgba: '#cfc4a8ff'
+tags:
+- foaming
+- recycled
+properties:
+  min_print_temperature: 225
+  max_print_temperature: 245
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.19

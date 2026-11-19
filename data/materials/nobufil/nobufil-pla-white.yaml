@@ -1,0 +1,21 @@
+uuid: '515459ff-6015-5d6f-8091-5f6c3138802a'
+slug: nobufil-pla-white
+brand:
+  slug: nobufil
+name: PLA White
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/nobufil-pla-white-filament-1-kg-1-75-mm'
+primary_color:
+  color_rgba: '#ffffffff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 220
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.18

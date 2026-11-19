@@ -1,0 +1,21 @@
+uuid: '49be9d8b-3351-59a9-9420-e75627aa21f6'
+slug: nobufil-plax-astro-black
+brand:
+  slug: nobufil
+name: PLAx Astro Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/pla-filament-astro-black'
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- recycled
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 235
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.19

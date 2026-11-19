@@ -1,0 +1,23 @@
+uuid: b05bbce6-2c6a-5b5a-92af-81cb8a02fe27
+slug: nobufil-plax-cf-anthracite
+brand:
+  slug: nobufil
+name: PLAx CF Anthracite
+class: FFF
+type: PLA
+abbreviation: PLA
+url: 'https://www.nobufil.com/product-page/plax-cf-filament-anthracite'
+primary_color:
+  color_rgba: '#44494bff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- recycled
+properties:
+  min_print_temperature: 215
+  max_print_temperature: 235
+  min_bed_temperature: 55
+  max_bed_temperature: 75
+  drying_temperature: 50
+  drying_time: 180
+  density: 1.19
