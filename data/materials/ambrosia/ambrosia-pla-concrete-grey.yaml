@@ -1,0 +1,21 @@
+uuid: ed12c09a-fad3-517d-9195-8a5e0bc92977
+slug: ambrosia-pla-concrete-grey
+brand:
+  slug: ambrosia
+name: PLA Concrete Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-concrete-grey/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-7805486.jpg
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40

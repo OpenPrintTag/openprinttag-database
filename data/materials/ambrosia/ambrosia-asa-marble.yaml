@@ -1,0 +1,23 @@
+uuid: a70f0a76-c30e-5d19-a255-714540fdb0b5
+slug: ambrosia-asa-marble
+brand:
+  slug: ambrosia
+name: ASA Marble
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+tags:
+- imitates_marble
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-marble/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa-west3d-3d-printing-supplies-ambrosia-filament-1643472.jpg
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

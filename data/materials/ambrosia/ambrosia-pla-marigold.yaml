@@ -1,0 +1,21 @@
+uuid: 37655698-e9e5-5545-949a-e87cc6cee976
+slug: ambrosia-pla-marigold
+brand:
+  slug: ambrosia
+name: PLA Marigold
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-marigold/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-1094149.jpg
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40

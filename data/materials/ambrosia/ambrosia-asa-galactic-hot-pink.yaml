@@ -1,0 +1,25 @@
+uuid: 99068bdf-2115-5e74-beac-4fec67fb4591
+slug: ambrosia-asa-galactic-hot-pink
+brand:
+  slug: ambrosia
+name: ASA Galactic Hot Pink
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#f94b8cff'
+tags:
+- glitter
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-galactic-hot-pink/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambr-8134783.png
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

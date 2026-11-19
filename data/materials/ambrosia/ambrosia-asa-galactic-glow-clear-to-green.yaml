@@ -1,0 +1,25 @@
+uuid: 5acf73ff-bd4e-511f-a784-26f3efcfbc8c
+slug: ambrosia-asa-galactic-glow-clear-to-green
+brand:
+  slug: ambrosia
+name: ASA Galactic Glow Clear to Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+tags:
+- glitter
+- glow_in_the_dark
+- abrasive
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-galactic-glow-clear-to-green/Galactic_Glow_Green.jpg
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

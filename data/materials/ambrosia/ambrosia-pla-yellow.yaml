@@ -1,0 +1,23 @@
+uuid: 88c12dd3-bf38-5e7f-98e6-b0222f905b41
+slug: ambrosia-pla-yellow
+brand:
+  slug: ambrosia
+name: PLA Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#e9a723ff'
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-yellow/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-9769710.png
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40

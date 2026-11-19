@@ -1,0 +1,24 @@
+uuid: c5e7a2f5-82ca-5672-bccb-059040bdbe7d
+slug: ambrosia-asa-midnight-purple
+brand:
+  slug: ambrosia
+name: ASA Midnight Purple
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+primary_color:
+  color_rgba: '#312b7cff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-midnight-purple/midnight.webp
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

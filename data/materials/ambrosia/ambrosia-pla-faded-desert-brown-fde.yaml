@@ -1,0 +1,23 @@
+uuid: a14b1218-70c0-5ce1-b1ea-24b15152f142
+slug: ambrosia-pla-faded-desert-brown-fde
+brand:
+  slug: ambrosia
+name: PLA Faded Desert Brown FDE
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#9c876cff'
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-faded-desert-brown-fde/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-5298539.png
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40

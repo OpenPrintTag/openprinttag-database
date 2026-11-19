@@ -1,0 +1,23 @@
+uuid: bd725fa2-6db9-52e3-a65c-122907990e5a
+slug: ambrosia-pla-cardovan
+brand:
+  slug: ambrosia
+name: PLA Cardovan
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#622229ff'
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-cardovan/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-7489187.png
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40

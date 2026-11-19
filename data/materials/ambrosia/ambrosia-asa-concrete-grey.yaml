@@ -1,0 +1,22 @@
+uuid: 132b69b3-e939-575c-85a5-fcc082202bf8
+slug: ambrosia-asa-concrete-grey
+brand:
+  slug: ambrosia
+name: ASA Concrete Grey
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-concrete-grey/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa-west3d-3d-printing-supplies-ambrosia-filament-7291983.jpg
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

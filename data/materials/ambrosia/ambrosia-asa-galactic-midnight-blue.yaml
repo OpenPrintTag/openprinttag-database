@@ -1,0 +1,23 @@
+uuid: 72f3aa36-5218-5876-b056-8efb56a8329a
+slug: ambrosia-asa-galactic-midnight-blue
+brand:
+  slug: ambrosia
+name: ASA Galactic Midnight Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+tags:
+- glitter
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-galactic-midnight-blue/ambrosia-galactic-sparkle-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-fil-8650242.jpg
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

@@ -1,0 +1,23 @@
+uuid: d27f3f70-dfa5-512a-b603-acecb0bf0e1d
+slug: ambrosia-pla-black
+brand:
+  slug: ambrosia
+name: PLA Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#2e292eff'
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-black/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-5835524.png
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40

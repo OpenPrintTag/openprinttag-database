@@ -1,0 +1,24 @@
+uuid: bd69d1b9-c2f0-5102-ab7f-815fcc77ac62
+slug: ambrosia-asa-camo-olive-drab
+brand:
+  slug: ambrosia
+name: ASA Camo Olive Drab
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://ambrosiafilament.com/products/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa
+primary_color:
+  color_rgba: '#988334ff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-asa-camo-olive-drab/ambrosia-asa-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-house-asa-west3d-3d-printing-supplies-ambrosia-filament-3798010.png
+  type: package
+properties:
+  density: 1.08
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 100
+  max_bed_temperature: 115
+  chamber_temperature: 45
+  min_chamber_temperature: 40

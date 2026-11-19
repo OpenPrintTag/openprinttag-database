@@ -1,0 +1,23 @@
+uuid: dca73695-611c-509b-81b7-6042d52fcd50
+slug: ambrosia-pla-super-grey
+brand:
+  slug: ambrosia
+name: PLA Super Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament
+primary_color:
+  color_rgba: '#484a44ff'
+photos:
+- url: https://files.openprinttag.org/ambrosia/ambrosia-pla-super-grey/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambrosia-filament-5937893.png
+  type: package
+properties:
+  density: 1.25
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 0
+  max_bed_temperature: 65
+  chamber_temperature: 25
+  min_chamber_temperature: 15
+  max_chamber_temperature: 40
