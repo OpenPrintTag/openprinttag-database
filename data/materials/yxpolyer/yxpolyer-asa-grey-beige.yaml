@@ -11,6 +11,11 @@ primary_color:
   color_rgba: '#948b7fff'
 tags:
 - filtration_recommended
+photos:
+- url: https://cdn.shopify.com/s/files/1/0770/3304/6257/files/1_1669a364-da9a-4d89-a6f5-bba7b3deb732.jpg
+  type: package
+- url: https://cdn.shopify.com/s/files/1/0770/3304/6257/files/ASA_db37b06d-9141-44e9-9056-d6df5807eee2.jpg
+  type: print
 properties:
   density: 1.08
   min_print_temperature: 250
