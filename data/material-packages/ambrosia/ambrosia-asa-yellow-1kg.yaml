@@ -3,7 +3,7 @@ class: FFF
 material:
   slug: ambrosia-asa-yellow
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
+filament_diameter: 1.75
 container:
   slug: ambrosia-cardboard-spool-1kg
 brand_specific_id: AMB1502

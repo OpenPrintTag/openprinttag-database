@@ -4,8 +4,8 @@ container:
   slug: tm3d-spool-1kg
 class: FFF
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 gtin: 6013936221214
 url: https://tm3dfilament.nl/products/basil-green?variant=53309402415447
 uuid: 9ae4d3a8-ef4c-51dd-9510-f3d1f8719c70

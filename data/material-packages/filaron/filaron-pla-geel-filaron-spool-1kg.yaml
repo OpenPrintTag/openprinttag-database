@@ -5,6 +5,6 @@ container:
 class: FFF
 url: https://www.filaron.be/products/pla-geel-1-75mm-1-0kg-bundle?variant=58024629535055
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 slug: filaron-pla-geel-filaron-spool-1kg

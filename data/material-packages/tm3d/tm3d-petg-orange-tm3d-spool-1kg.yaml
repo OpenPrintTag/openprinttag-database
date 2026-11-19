@@ -5,8 +5,8 @@ container:
 class: FFF
 url: https://tm3dfilament.nl/products/petg-pure-orange?variant=42682603110619
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 gtin: 6013917355310
 uuid: 78780e32-443e-56e2-bd4f-08ffc8046127
 slug: tm3d-petg-orange-tm3d-spool-1kg

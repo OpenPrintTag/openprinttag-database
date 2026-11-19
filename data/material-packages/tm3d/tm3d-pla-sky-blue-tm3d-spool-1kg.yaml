@@ -5,7 +5,7 @@ container:
 class: FFF
 gtin: 6013919521577
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 uuid: af511438-a84a-55c4-bca7-f1a8b11702c9
 slug: tm3d-pla-sky-blue-tm3d-spool-1kg
