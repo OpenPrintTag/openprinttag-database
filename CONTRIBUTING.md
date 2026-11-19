@@ -58,6 +58,17 @@ Follow these conventions for consistent file naming across the database:
 
 - **Slugs**: When a brand's catalog uses multiple languages, prefer English names for slugs and filenames. This ensures consistency and better accessibility for the international community.
 
+### Units
+
+Diameters (`filament_diameter`, `filament_diameter_tolerance`, `min_nozzle_diameter`) are stored in **millimeters** (e.g. `filament_diameter: 1.75`), not micrometers. File names and slugs are not affected by this (e.g. `...-2850um-...` stays as it is).
+
+If you have older changes that still use micrometers (`1750`), convert them with:
+
+```bash
+python scripts/migrate_units_mm.py          # dry run, only reports
+python scripts/migrate_units_mm.py --apply  # rewrites the files
+```
+
 ### Slugs
 
 Slugs are URL-friendly identifiers. They must be:
