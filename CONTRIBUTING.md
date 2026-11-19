@@ -166,6 +166,7 @@ The UI editor supports uploading local images directly. When you upload a photo 
 - **Schema**: Always refer to the [OpenPrintTag Architecture documentation](https://arch.openprinttag.org) for current field requirements and allowed values
 - **Validation**: Always run `make validate` before submitting changes
 - **`data/manifest.yaml`**: This file is auto-generated — do **not** edit it manually. It is updated automatically by CI after merging to `main`.
+- **README statistics**: The counts of brands, materials, packages and containers in `README.md` are auto-generated (`scripts/update_stats.py`) — do **not** edit them manually. CI updates them together with the manifest after merging to `main`.
 
 ---
 

@@ -15,13 +15,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Check for changes in ui-editor
         id: check-changes
-        uses: dorny/paths-filter@v3
+        uses: dorny/paths-filter@v4
         with:
           filters: |
             ui-editor:
@@ -29,13 +29,13 @@ jobs:
 
       - name: Setup Node.js
         if: steps.check-changes.outputs.ui-editor == 'true'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "24"
 
       - name: Setup pnpm
         if: steps.check-changes.outputs.ui-editor == 'true'
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           package_json_file: ui-editor/package.json
 
@@ -48,7 +48,7 @@ jobs:
 
       - name: Setup pnpm cache
         if: steps.check-changes.outputs.ui-editor == 'true'
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
