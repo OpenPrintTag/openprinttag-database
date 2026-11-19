@@ -24,18 +24,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # Schemas live in a separate repo and are fetched here so the prerender
       # script can resolve `/api/schema/<entity>` from `../openprinttag/schema`.
       - name: Fetch schemas
         run: make fetch-schemas
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '24'
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           package_json_file: ui-editor/package.json
 
@@ -46,7 +46,7 @@ jobs:
         run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - name: Setup pnpm cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('ui-editor/pnpm-lock.yaml') }}
@@ -95,7 +95,7 @@ jobs:
           touch "$STATIC_DIR/.nojekyll"
           echo "STATIC_DIR=ui-editor/$STATIC_DIR" >> "$GITHUB_ENV"
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: ${{ env.STATIC_DIR }}
 
@@ -107,4 +107,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
