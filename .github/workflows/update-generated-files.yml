@@ -1,4 +1,4 @@
-name: Update Data Manifest
+name: Update Generated Files
 
 on:
   push:
@@ -8,19 +8,19 @@ on:
       - '!data/manifest.yaml'
 
 jobs:
-  update-manifest:
+  update-generated-files:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -32,14 +32,17 @@ jobs:
       - name: Update manifest
         run: python scripts/update_manifest.py
 
+      - name: Update README statistics
+        run: python scripts/update_stats.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/manifest.yaml
+          git add data/manifest.yaml README.md
           if git diff --staged --quiet; then
-            echo "No changes to manifest"
+            echo "No changes to manifest or README statistics"
           else
-            git commit -m "chore: update data manifest [skip ci]"
+            git commit -m "chore: update data manifest and README stats [skip ci]"
             git push
           fi
