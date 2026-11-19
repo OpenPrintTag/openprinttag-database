@@ -12,6 +12,9 @@ primary_color:
 tags:
 - glitter
 - filtration_recommended
+photos:
+- url: https://cdn.shopify.com/s/files/1/0794/8687/8010/files/ambrosia-asa-galactic-filament-of-the-gods-glitter-sparkle-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament-west3d-3d-printing-supplies-ambr-4314044.png
+  type: package
 properties:
   density: 1.08
   min_print_temperature: 230
@@ -19,3 +22,5 @@ properties:
   min_bed_temperature: 100
   max_bed_temperature: 115
   chamber_temperature: 45
+  min_chamber_temperature: 40
+  max_chamber_temperature: 120
