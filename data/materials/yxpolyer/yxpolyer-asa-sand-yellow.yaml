@@ -1,0 +1,24 @@
+uuid: 9be644c6-b4ff-599d-8879-3cad77a5a91e
+slug: yxpolyer-asa-sand-yellow
+brand:
+  slug: yxpolyer
+name: ASA Sand Yellow
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-sand-yellow-filament
+primary_color:
+  color_rgba: '#c8bb85ff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-sand-yellow/1_df6dc78f-b6b0-4138-943f-edd37d2cd43a.jpg
+  type: package
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-sand-yellow/ASA_b481b2ca-b84b-4ec4-9874-12b761759d87.jpg
+  type: print
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

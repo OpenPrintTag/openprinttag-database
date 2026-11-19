@@ -1,0 +1,24 @@
+uuid: b76db3d8-9626-5dee-9038-52343a4d8819
+slug: yxpolyer-asa-misty-blue
+brand:
+  slug: yxpolyer
+name: ASA Misty Blue
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-misty-blue
+primary_color:
+  color_rgba: '#5e88a9ff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-misty-blue/1_2d05317a-3f90-4703-9439-10a24a5d8b87.jpg
+  type: package
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-misty-blue/ASA_35323d55-1c27-4831-98e7-1970d76877e5.jpg
+  type: print
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

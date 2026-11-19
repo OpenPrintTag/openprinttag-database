@@ -1,0 +1,24 @@
+uuid: cc26385f-abfd-577b-b63e-8a4228d92170
+slug: yxpolyer-asa-olive-green
+brand:
+  slug: yxpolyer
+name: ASA Olive Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-olive-green
+primary_color:
+  color_rgba: '#474e3aff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-olive-green/1_7fe4c2de-d941-44d8-a099-f5565e72a2e4.jpg
+  type: package
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-olive-green/ASA_8009ef8b-3a12-4642-8f92-b4dd972d2d59.jpg
+  type: print
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

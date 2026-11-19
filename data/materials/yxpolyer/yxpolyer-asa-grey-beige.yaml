@@ -1,0 +1,24 @@
+uuid: 23d873d4-b449-5c87-9bfc-216aacac3da8
+slug: yxpolyer-asa-grey-beige
+brand:
+  slug: yxpolyer
+name: ASA Grey Beige
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-grey-beige
+primary_color:
+  color_rgba: '#948b7fff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-grey-beige/1_1669a364-da9a-4d89-a6f5-bba7b3deb732.jpg
+  type: package
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-grey-beige/ASA_db37b06d-9141-44e9-9056-d6df5807eee2.jpg
+  type: print
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

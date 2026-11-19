@@ -1,0 +1,24 @@
+uuid: d59da7b0-7371-58b3-b18b-c9184a5e30a4
+slug: yxpolyer-asa-mint-green
+brand:
+  slug: yxpolyer
+name: ASA Mint Green
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-mint-green
+primary_color:
+  color_rgba: '#8dd0cdff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-mint-green/1_d0c8b10d-fc38-4d33-b13b-d733ef0c628f.jpg
+  type: package
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-mint-green/ASA_28e397d8-2beb-49d7-b05d-cbcbd738b165.jpg
+  type: print
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110

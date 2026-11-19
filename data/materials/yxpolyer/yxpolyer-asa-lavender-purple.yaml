@@ -1,0 +1,24 @@
+uuid: e3c88be0-73b2-5005-8e69-69c88dc99c77
+slug: yxpolyer-asa-lavender-purple
+brand:
+  slug: yxpolyer
+name: ASA Lavender Purple
+class: FFF
+type: ASA
+abbreviation: ASA
+url: https://yxpolyer.com/products/asa-lavender-purple
+primary_color:
+  color_rgba: '#9c89bdff'
+tags:
+- filtration_recommended
+photos:
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-lavender-purple/1_ea3bc41e-4c8b-4427-a57c-b76ef79df088.jpg
+  type: package
+- url: https://files.openprinttag.org/yxpolyer/yxpolyer-asa-lavender-purple/ASA_11c787b2-7a81-4458-85c8-3ff8e07c50ef.jpg
+  type: print
+properties:
+  density: 1.08
+  min_print_temperature: 250
+  max_print_temperature: 280
+  min_bed_temperature: 100
+  max_bed_temperature: 110
