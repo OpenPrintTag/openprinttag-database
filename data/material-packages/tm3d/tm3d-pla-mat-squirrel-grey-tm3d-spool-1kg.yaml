@@ -4,8 +4,8 @@ container:
   slug: tm3d-spool-1kg
 class: FFF
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 url: https://tm3dfilament.nl/products/pla-mat-squirrel-grey?variant=42751762071771
 gtin: 6013915014073
 uuid: e5473c4e-7947-5c65-85bc-9d369e24c1ec
