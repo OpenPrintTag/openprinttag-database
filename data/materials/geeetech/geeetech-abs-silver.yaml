@@ -6,9 +6,11 @@ name: ABS+ Silver
 class: FFF
 type: ABS
 abbreviation: ABS
+primary_color:
+  color_rgba: '#9da0afff'
 url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-abs-silver/ABS_Silver.jpg?v=1784422626
+- url: https://www.geeetech.com/cdn/shop/files/ABS_Silver.jpg
   type: package
 properties:
   min_print_temperature: 220

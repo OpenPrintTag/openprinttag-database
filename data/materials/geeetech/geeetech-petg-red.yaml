@@ -6,9 +6,11 @@ name: PETG Red
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#c31f2cff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-red/geeetech-petg-3d-printer-filament-175mm-1kg-spool-7778956.jpg?v=1782872119
+- url: https://www.geeetech.com/cdn/shop/files/geeetech-petg-3d-printer-filament-175mm-1kg-spool-7778956.jpg
   type: package
 properties:
   min_print_temperature: 220

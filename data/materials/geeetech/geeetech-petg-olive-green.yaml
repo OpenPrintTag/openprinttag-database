@@ -6,6 +6,8 @@ name: PETG Olive Green
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#65a30dff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 properties:
   min_print_temperature: 220

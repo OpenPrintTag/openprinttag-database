@@ -6,11 +6,13 @@ name: PETG Transparent Emerald Green
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#168237ff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 tags:
 - transparent
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-transparent-emerald-green/PETG_Transparent_Emerald_Green.jpg?v=1791617322
+- url: https://www.geeetech.com/cdn/shop/files/PETG_Transparent_Emerald_Green.jpg
   type: package
 properties:
   min_print_temperature: 220

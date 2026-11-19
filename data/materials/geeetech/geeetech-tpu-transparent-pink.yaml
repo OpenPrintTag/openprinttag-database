@@ -6,11 +6,13 @@ name: TPU Transparent Pink
 class: FFF
 type: TPU
 abbreviation: TPU
+primary_color:
+  color_rgba: '#a7257bff'
 url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
 tags:
 - transparent
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-tpu-transparent-pink/geeetech-tpu-3d-printer-filament-175mm-1kg-spool-3498624.jpg?v=1782872115
+- url: https://www.geeetech.com/cdn/shop/files/geeetech-tpu-3d-printer-filament-175mm-1kg-spool-3498624.jpg
   type: package
 properties:
   min_print_temperature: 200

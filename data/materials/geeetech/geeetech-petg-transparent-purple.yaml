@@ -6,11 +6,13 @@ name: PETG Transparent Purple
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#b98ddbff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 tags:
 - transparent
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-transparent-purple/PETG_transparent_purple.jpg?v=1791617322
+- url: https://www.geeetech.com/cdn/shop/files/PETG_transparent_purple.jpg
   type: package
 properties:
   min_print_temperature: 220

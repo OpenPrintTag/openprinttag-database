@@ -6,9 +6,11 @@ name: PETG Army Green
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#2b452eff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-army-green/PETG_army_green.jpg?v=1791617095
+- url: https://www.geeetech.com/cdn/shop/files/PETG_army_green.jpg
   type: package
 properties:
   min_print_temperature: 220

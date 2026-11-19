@@ -6,9 +6,11 @@ name: TPU Yellow
 class: FFF
 type: TPU
 abbreviation: TPU
+primary_color:
+  color_rgba: '#d7e002ff'
 url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-tpu-yellow/TPU_Yellow.jpg?v=1786742766
+- url: https://www.geeetech.com/cdn/shop/files/TPU_Yellow.jpg
   type: package
 properties:
   min_print_temperature: 200
