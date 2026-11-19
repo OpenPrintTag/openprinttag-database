@@ -6,9 +6,11 @@ name: ABS+ Water Blue
 class: FFF
 type: ABS
 abbreviation: ABS
+primary_color:
+  color_rgba: '#20a1f5ff'
 url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-abs-water-blue/geeetech-abs-3d-printer-filament-175mm-1kg-spool-4121791.jpg?v=1782872116
+- url: https://files.openprinttag.org/geeetech/geeetech-abs-water-blue/geeetech-abs-3d-printer-filament-175mm-1kg-spool-4121791.jpg
   type: package
 properties:
   min_print_temperature: 220

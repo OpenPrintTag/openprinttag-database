@@ -6,6 +6,8 @@ name: PLA Red
 class: FFF
 type: PLA
 abbreviation: PLA
+primary_color:
+  color_rgba: '#da2f33ff'
 tags:
 - industrially_compostable
 photos:

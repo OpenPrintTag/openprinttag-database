@@ -6,9 +6,11 @@ name: ASA Blue
 class: FFF
 type: ASA
 abbreviation: ASA
+primary_color:
+  color_rgba: '#4973d8ff'
 url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-asa-blue/geeetech-asa-3d-printer-filament-175mm-1kg-spool-8366221.jpg?v=1782872114
+- url: https://files.openprinttag.org/geeetech/geeetech-asa-blue/geeetech-asa-3d-printer-filament-175mm-1kg-spool-8366221.jpg
   type: package
 properties:
   min_print_temperature: 240

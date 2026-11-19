@@ -6,9 +6,11 @@ name: ASA Grey
 class: FFF
 type: ASA
 abbreviation: ASA
+primary_color:
+  color_rgba: '#626571ff'
 url: https://www.geeetech.com/products/asa-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-asa-grey/geeetech-asa-3d-printer-filament-175mm-1kg-spool-5982084.jpg?v=1782872115
+- url: https://files.openprinttag.org/geeetech/geeetech-asa-grey/geeetech-asa-3d-printer-filament-175mm-1kg-spool-5982084.jpg
   type: package
 properties:
   min_print_temperature: 240

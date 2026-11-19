@@ -6,11 +6,13 @@ name: PETG Transparent Blue
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#55a2ecff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 tags:
 - transparent
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-transparent-blue/81VXekX3ErL._AC_SL1500.jpg?v=1791617005
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-transparent-blue/81VXekX3ErL._AC_SL1500.jpg
   type: package
 properties:
   min_print_temperature: 220

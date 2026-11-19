@@ -6,9 +6,11 @@ name: PETG Metal Green
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#72a66bff'
 url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-green/geeetech-petg-metal-3d-printer-filament-175mm-1kg-spool-4199681.jpg?v=1782872119
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-green/geeetech-petg-metal-3d-printer-filament-175mm-1kg-spool-4199681.jpg
   type: package
 properties:
   min_print_temperature: 220

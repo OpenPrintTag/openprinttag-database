@@ -6,9 +6,11 @@ name: PETG Apple Green
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#aacd25ff'
 url: https://www.geeetech.com/products/petg-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-apple-green/geeetech-petg-3d-printer-filament-175mm-1kg-spool-1986730.jpg?v=1782872120
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-apple-green/geeetech-petg-3d-printer-filament-175mm-1kg-spool-1986730.jpg
   type: package
 properties:
   min_print_temperature: 220

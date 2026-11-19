@@ -6,9 +6,11 @@ name: ABS+ Red
 class: FFF
 type: ABS
 abbreviation: ABS
+primary_color:
+  color_rgba: '#dc2c29ff'
 url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-abs-red/geeetech-abs-3d-printer-filament-175mm-1kg-spool-7250012.jpg?v=1782872117
+- url: https://files.openprinttag.org/geeetech/geeetech-abs-red/geeetech-abs-3d-printer-filament-175mm-1kg-spool-7250012.jpg
   type: package
 properties:
   min_print_temperature: 220

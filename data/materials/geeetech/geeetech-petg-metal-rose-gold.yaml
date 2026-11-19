@@ -6,9 +6,11 @@ name: PETG Metal Rose Gold
 class: FFF
 type: PETG
 abbreviation: PETG
+primary_color:
+  color_rgba: '#b28c66ff'
 url: https://www.geeetech.com/products/petg-metal-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-rose-gold/PETG_Metal_Rose_gold.jpg?v=1791617424
+- url: https://files.openprinttag.org/geeetech/geeetech-petg-metal-rose-gold/PETG_Metal_Rose_gold.jpg
   type: package
 properties:
   min_print_temperature: 220

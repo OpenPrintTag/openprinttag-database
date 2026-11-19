@@ -6,9 +6,11 @@ name: ABS+ Apple Green
 class: FFF
 type: ABS
 abbreviation: ABS
+primary_color:
+  color_rgba: '#b4dc59ff'
 url: https://www.geeetech.com/products/abs-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-abs-apple-green/geeetech-abs-3d-printer-filament-175mm-1kg-spool-1131537.jpg?v=1782872175
+- url: https://files.openprinttag.org/geeetech/geeetech-abs-apple-green/geeetech-abs-3d-printer-filament-175mm-1kg-spool-1131537.jpg
   type: package
 properties:
   min_print_temperature: 220

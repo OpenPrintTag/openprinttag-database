@@ -6,9 +6,11 @@ name: TPU Silver
 class: FFF
 type: TPU
 abbreviation: TPU
+primary_color:
+  color_rgba: '#626669ff'
 url: https://www.geeetech.com/products/tpu-3d-printer-filament-1-75mm-1kg-roll
 photos:
-- url: https://files.openprinttag.org/geeetech/geeetech-tpu-silver/TPU_sliver1pcs.jpg?v=1784671451
+- url: https://files.openprinttag.org/geeetech/geeetech-tpu-silver/TPU_sliver1pcs.jpg
   type: package
 properties:
   min_print_temperature: 200
