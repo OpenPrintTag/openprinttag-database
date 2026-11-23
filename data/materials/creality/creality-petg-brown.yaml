@@ -1,0 +1,22 @@
+name: PETG Brown
+slug: creality-petg-brown
+brand:
+  slug: creality
+class: FFF
+type: PETG
+abbreviation: PETG
+tags: []
+certifications: []
+primary_color:
+  color_rgba: '#8f583b'
+secondary_colors: []
+photos:
+- url: /tmp/assets/creality/creality-petg-brown/crpetg.png
+  type: package
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+uuid: 30353cc0-24c9-5d2f-9deb-64e1bda975c1
