@@ -230,6 +230,7 @@ export const FieldEditor: React.FC<FieldEditorProps> = memo(
               id={inputId}
               className="input"
               type="number"
+              step={field.type === 'integer' ? 1 : 'any'}
               value={typeof value === 'number' ? value : ''}
               disabled={disabled}
               onChange={(e) => {

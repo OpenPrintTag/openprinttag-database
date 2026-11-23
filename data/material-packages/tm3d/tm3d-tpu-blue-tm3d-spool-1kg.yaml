@@ -5,8 +5,8 @@ container:
 class: FFF
 url: https://tm3dfilament.nl/products/tpu-blue?variant=54689605157207
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 gtin: 6013923942986
 uuid: 1a8b281f-a01b-57e0-ace2-09f6180e3df1
 slug: tm3d-tpu-blue-tm3d-spool-1kg

@@ -32,4 +32,4 @@ properties:
   max_chamber_temperature: 30
   drying_temperature: 65
   drying_time: 180
-  min_nozzle_diameter: 400
+  min_nozzle_diameter: 0.4

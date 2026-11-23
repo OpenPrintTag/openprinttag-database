@@ -3,6 +3,6 @@ class: FFF
 material:
   slug: forgely-performance-pla-translucent-plum
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 20
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.02
 url: https://www.forgely3d.com/products/forgely-performance-pla-translucent-refills

@@ -5,8 +5,8 @@ container:
 class: FFF
 url: https://tm3dfilament.nl/products/petg-sky-blue?variant=42682560119003
 nominal_netto_full_weight: 1000
-filament_diameter: 1750
-filament_diameter_tolerance: 30
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.03
 gtin: 6013926374395
 uuid: 796b9885-942f-5788-892c-fc0906fba79e
 slug: tm3d-petg-sky-blue-tm3d-spool-1kg
