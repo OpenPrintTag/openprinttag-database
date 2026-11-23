@@ -11,10 +11,10 @@ An open-source, community-driven database of 3D printing materials, brands, and 
 This repository is a **publicly editable database** of 3D printing materials stored in human-readable YAML files. Think of it as a community wiki for filament specifications, but in a format that machines can also understand.
 
 **What's inside:**
-- **140 brands** — Material manufacturers from Prusament to Hatchbox
-- **16,553 materials** — PLA, PETG, ASA, TPU and many more with detailed properties
-- **19,142 packages** — Physical products with GTINs/barcodes
-- **115 containers** — Spool specifications and dimensions
+- **144 brands** — Material manufacturers from Prusament to Hatchbox
+- **16,740 materials** — PLA, PETG, ASA, TPU and many more with detailed properties
+- **19,370 packages** — Physical products with GTINs/barcodes
+- **117 containers** — Spool specifications and dimensions
 
 *Note: These values are generated automatically by* `scripts/update_stats.py` *— CI updates them after every merge to `main`. Do not edit them manually.*
 
