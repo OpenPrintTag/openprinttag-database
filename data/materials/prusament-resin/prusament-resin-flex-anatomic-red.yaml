@@ -9,4 +9,5 @@ primary_color:
   color_rgba: '#ad4f54ff'
 properties:
   density: 1.114
-  hardness_shore_d: 82
+  hardness_shore_a: 80
+  cure_wavelength: 405
