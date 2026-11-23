@@ -1,0 +1,22 @@
+name: PETG Roasted Chestnut
+slug: sunlu-petg-roasted-chestnut
+brand:
+  slug: sunlu
+class: FFF
+type: PETG
+abbreviation: PETG
+tags: []
+certifications: []
+primary_color:
+  color_rgba: '#1d0e07'
+secondary_colors: []
+photos:
+- url: /tmp/assets/sunlu/sunlu-petg-roasted-chestnut/c26cf767-a527-4f9e-a451-f032d6ef35c9.jpg
+  type: print
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+uuid: d3bdc7dc-6b4e-50bf-a166-fbda2febc4fe

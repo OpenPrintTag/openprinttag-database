@@ -1,0 +1,22 @@
+name: PETG Coffee Brown
+slug: sunlu-petg-coffee-brown
+brand:
+  slug: sunlu
+class: FFF
+type: PETG
+abbreviation: PETG
+tags: []
+certifications: []
+primary_color:
+  color_rgba: '#362111'
+secondary_colors: []
+photos:
+- url: /tmp/assets/sunlu/sunlu-petg-coffee-brown/48d1d465-8d4e-4ab6-9fb3-2353c9e1e692.jpg
+  type: print
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+uuid: bc4ab10a-2b13-5165-91cb-9f138c930f8a
