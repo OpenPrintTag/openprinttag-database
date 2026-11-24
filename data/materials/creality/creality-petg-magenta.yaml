@@ -1,0 +1,22 @@
+name: PETG Magenta
+slug: creality-petg-magenta
+brand:
+  slug: creality
+class: FFF
+type: PETG
+abbreviation: PETG
+tags: []
+certifications: []
+primary_color:
+  color_rgba: '#e93cac'
+secondary_colors: []
+photos:
+- url: /tmp/assets/creality/creality-petg-magenta/crpetg-5.png
+  type: package
+properties:
+  density: 1.29
+  min_print_temperature: 230
+  max_print_temperature: 250
+  min_bed_temperature: 70
+  max_bed_temperature: 80
+uuid: 275a032f-62d4-5612-9435-13bbace28e46
