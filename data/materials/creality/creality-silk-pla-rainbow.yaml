@@ -19,4 +19,6 @@ tags:
 photos:
 - url: https://files.openprinttag.org/creality/creality-silk-pla-rainbow/6a6cf8505be5.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
