@@ -13,4 +13,6 @@ tags:
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-pla-plus-white/7e3c3101fc73.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 205
+  max_print_temperature: 230
