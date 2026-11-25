@@ -1,0 +1,10 @@
+slug: overture-tpu-black-1kg
+class: FFF
+material:
+  slug: overture-tpu-black
+nominal_netto_full_weight: 1000
+container:
+  slug: overture-cardboard-spool-1kg
+filament_diameter: 1.75
+filament_diameter_tolerance: 0.02
+nominal_full_length: 332000
