@@ -16,4 +16,6 @@ tags:
 photos:
 - url: https://files.openprinttag.org/creality/creality-silk-pla-yellow-blue/be1697ca34a1.jpg
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
