@@ -9,6 +9,7 @@ primary_color:
   color_rgba: '#595959ff'
 properties:
   density: 1.11
+  hardness_shore_d: 72
   cure_wavelength: 405
   viscosity_18c: 226
   viscosity_25c: 133

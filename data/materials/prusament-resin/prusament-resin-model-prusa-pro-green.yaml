@@ -5,6 +5,8 @@ brand:
 name: Model Prusa Pro Green
 class: SLA
 abbreviation: ''
+primary_color:
+  color_rgba: '#29b2b2ff'
 properties:
   density: 1.11
   cure_wavelength: 405
