@@ -1,0 +1,19 @@
+uuid: 022ae100-246e-5e23-b3cb-dc917be88c7f
+slug: sunlu-petg-sunny-orange
+brand:
+  slug: sunlu
+name: PETG Sunny Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#ed7334ff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

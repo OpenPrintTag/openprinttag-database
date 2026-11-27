@@ -1,0 +1,20 @@
+uuid: 0173fc6a-6058-50de-b3da-cbc9da79b7f1
+slug: elegoo-pla-cmyk-rilievo-cyan
+brand:
+  slug: elegoo
+name: PLA CMYK Rilievo Cyan
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-cmyk
+primary_color:
+  color_rgba: '#0086d6ff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.26
+  drying_temperature: 55
+  drying_time: 480
+  min_nozzle_diameter: 0.2

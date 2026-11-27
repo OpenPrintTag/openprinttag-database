@@ -1,0 +1,20 @@
+uuid: 65d767bd-5460-5747-93da-53bcdda4844a
+slug: elegoo-pla-sparkle-black
+brand:
+  slug: elegoo
+name: PLA Sparkle Black
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-sparkle-filament-1-75mm-colored-1-kg
+tags:
+- glitter
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.23
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

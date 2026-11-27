@@ -1,0 +1,22 @@
+uuid: ee2f529a-ce76-5adf-ae99-4462b9594296
+slug: elegoo-abs-abs-pink
+brand:
+  slug: elegoo
+name: ABS ABS Pink
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://us.elegoo.com/products/abs-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#f77d7fff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  density: 1.05
+  drying_temperature: 70
+  drying_time: 480
+  min_nozzle_diameter: 0.2
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60

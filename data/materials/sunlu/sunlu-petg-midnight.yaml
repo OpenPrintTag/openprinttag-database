@@ -1,0 +1,19 @@
+uuid: 40b4e611-0c2b-509d-b4d4-cda93ddb1b85
+slug: sunlu-petg-midnight
+brand:
+  slug: sunlu
+name: PETG Midnight
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#28334aff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

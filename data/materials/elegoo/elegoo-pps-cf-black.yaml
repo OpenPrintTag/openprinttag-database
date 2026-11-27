@@ -1,0 +1,26 @@
+uuid: b3e80a59-8a0f-5e48-ad4c-1e6721fb205a
+slug: elegoo-pps-cf-black
+brand:
+  slug: elegoo
+name: PPS-CF Black
+class: FFF
+type: PPS
+abbreviation: PPS
+url: https://us.elegoo.com/products/pps-cf
+primary_color:
+  color_rgba: '#000000ff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- high_temperature
+properties:
+  min_print_temperature: 290
+  max_print_temperature: 320
+  min_bed_temperature: 100
+  max_bed_temperature: 120
+  density: 1.31
+  drying_temperature: 100
+  drying_time: 480
+  min_nozzle_diameter: 0.4
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60

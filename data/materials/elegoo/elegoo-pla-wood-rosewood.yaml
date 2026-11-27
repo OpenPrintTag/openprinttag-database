@@ -1,0 +1,23 @@
+uuid: 1a39b7ce-efe9-5ba4-9a85-df0116e6b849
+slug: elegoo-pla-wood-rosewood
+brand:
+  slug: elegoo
+name: PLA Wood Rosewood
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-wood
+primary_color:
+  color_rgba: '#523530ff'
+tags:
+- imitates_wood
+- contains_wood
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.21
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

@@ -6,6 +6,7 @@ name: Galaxy PLA Peacock Blue
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://us.elegoo.com/products/galaxy-pla-filament-1-75mm-colored-1kg
 primary_color:
   color_rgba: '#375680ff'
 tags:
@@ -14,4 +15,12 @@ tags:
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-galaxy-pla-peacock-blue/10c815db18fa.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.21
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

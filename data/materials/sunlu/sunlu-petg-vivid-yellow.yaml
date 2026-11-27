@@ -1,0 +1,19 @@
+uuid: afba619c-bd10-52f5-a82d-657e6e56849f
+slug: sunlu-petg-vivid-yellow
+brand:
+  slug: sunlu
+name: PETG Vivid yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#eac642ff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

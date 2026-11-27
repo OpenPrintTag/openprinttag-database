@@ -1,0 +1,19 @@
+uuid: af3cfa46-50aa-5e10-ad9c-e9cfcce84fb4
+slug: sunlu-petg-klein-blue
+brand:
+  slug: sunlu
+name: PETG Klein Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#1729abff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

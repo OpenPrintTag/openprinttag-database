@@ -1,0 +1,20 @@
+uuid: f9f6985f-9200-56d6-9466-b46da0b36b0b
+slug: elegoo-pla-basic-cobalt-blue
+brand:
+  slug: elegoo
+name: PLA Basic Cobalt Blue
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#1341d2ff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.2
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.2

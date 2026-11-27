@@ -1,0 +1,20 @@
+uuid: af472a38-c2dc-5eb6-bce1-bc6fa5c7b81d
+slug: elegoo-pla-plus-true-green
+brand:
+  slug: elegoo
+name: PLA Plus True Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/elegoo-pla-plus-3d-printer-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#20ab2aff'
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.3
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.2

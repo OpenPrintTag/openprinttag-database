@@ -1,0 +1,23 @@
+uuid: 3d1f65ae-bf17-52ff-91db-ab55c2f6bdf4
+slug: elegoo-petg-glitter-glitter-teal-green
+brand:
+  slug: elegoo
+name: PETG Glitter Glitter Teal Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-glitter
+primary_color:
+  color_rgba: '#00685eff'
+tags:
+- glitter
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.3
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.4

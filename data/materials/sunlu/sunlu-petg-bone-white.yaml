@@ -1,0 +1,19 @@
+uuid: bf43d334-8cce-57bf-aa82-2c6bb078640a
+slug: sunlu-petg-bone-white
+brand:
+  slug: sunlu
+name: PETG Bone White
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#eee7d4ff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

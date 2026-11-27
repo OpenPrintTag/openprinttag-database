@@ -1,0 +1,23 @@
+uuid: 9e366f21-c079-5ed1-8e86-d1ee8c26815e
+slug: elegoo-tpu-72d-white
+brand:
+  slug: elegoo
+name: TPU 72D White
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.elegoo.com/products/tpu-72d
+primary_color:
+  color_rgba: '#ffffffff'
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+  density: 1.25
+  drying_temperature: 70
+  drying_time: 480
+  min_nozzle_diameter: 0.4
+  hardness_shore_d: 72
+  min_chamber_temperature: 20
+  max_chamber_temperature: 45

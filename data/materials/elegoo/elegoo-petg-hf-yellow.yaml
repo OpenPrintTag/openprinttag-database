@@ -1,0 +1,22 @@
+uuid: 95d04808-bbb9-502b-9993-4bab0e64c7a6
+slug: elegoo-petg-hf-yellow
+brand:
+  slug: elegoo
+name: PETG HF Yellow
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-hf
+primary_color:
+  color_rgba: '#fbec07ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.29
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

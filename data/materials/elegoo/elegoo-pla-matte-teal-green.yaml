@@ -6,6 +6,7 @@ name: PLA Matte Teal Green
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://us.elegoo.com/products/pla-matte-filament-1-75mm-colored-1kg
 primary_color:
   color_rgba: '#85e2ddff'
 tags:
@@ -21,3 +22,4 @@ properties:
   max_bed_temperature: 65
   drying_temperature: 50
   drying_time: 480
+  min_nozzle_diameter: 0.2

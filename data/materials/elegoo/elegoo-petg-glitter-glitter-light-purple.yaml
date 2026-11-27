@@ -1,0 +1,23 @@
+uuid: fb402e04-3da7-5f77-a2c9-ae4faf04d887
+slug: elegoo-petg-glitter-glitter-light-purple
+brand:
+  slug: elegoo
+name: PETG Glitter Glitter Light Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-glitter
+primary_color:
+  color_rgba: '#c6a1cfff'
+tags:
+- glitter
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.3
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.4

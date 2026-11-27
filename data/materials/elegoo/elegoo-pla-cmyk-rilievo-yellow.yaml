@@ -1,0 +1,20 @@
+uuid: 1c0f2657-4074-567b-8875-37caeb1805a4
+slug: elegoo-pla-cmyk-rilievo-yellow
+brand:
+  slug: elegoo
+name: PLA CMYK Rilievo Yellow
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-cmyk
+primary_color:
+  color_rgba: '#f4ee2aff'
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.26
+  drying_temperature: 55
+  drying_time: 480
+  min_nozzle_diameter: 0.2

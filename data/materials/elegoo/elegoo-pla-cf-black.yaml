@@ -6,12 +6,21 @@ name: PLA-CF Black
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://us.elegoo.com/products/pla-cf-filament-1-75mm-black-1kg
 primary_color:
   color_rgba: '#000000ff'
 tags:
-  - contains_carbon_fiber
-  - abrasive
+- contains_carbon_fiber
+- abrasive
 photos:
-  - url: https://files.openprinttag.org/elegoo/elegoo-pla-cf-black/1169ff614a2d.png
-    type: unspecified
-properties: {}
+- url: https://files.openprinttag.org/elegoo/elegoo-pla-cf-black/1169ff614a2d.png
+  type: unspecified
+properties:
+  min_print_temperature: 210
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.24
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4
