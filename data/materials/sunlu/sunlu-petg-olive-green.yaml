@@ -1,0 +1,19 @@
+uuid: 591399e1-3c05-582f-a899-6432dc1e8c2b
+slug: sunlu-petg-olive-green
+brand:
+  slug: sunlu
+name: PETG Olive Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#5a6d3dff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

@@ -6,13 +6,17 @@ name: PETG Grey
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
 primary_color:
   color_rgba: '#5c5b59ff'
 photos:
 - url: https://files.openprinttag.org/sunlu/sunlu-petg-grey/f40c37fc7c89.jpg
   type: unspecified
 properties:
-  min_print_temperature: 220
-  max_print_temperature: 230
+  min_print_temperature: 240
+  max_print_temperature: 260
   min_bed_temperature: 60
   max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

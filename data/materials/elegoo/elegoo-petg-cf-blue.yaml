@@ -1,0 +1,24 @@
+uuid: e9fc2fed-5f17-5e31-a9a4-bd7fed19b78b
+slug: elegoo-petg-cf-blue
+brand:
+  slug: elegoo
+name: PETG-CF Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-cf-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#2e437dff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- matte
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.29
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.4

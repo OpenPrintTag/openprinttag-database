@@ -1,0 +1,22 @@
+uuid: 5f9a80b7-2e3f-503e-9689-3136e1de5c84
+slug: elegoo-petg-translucent-pink
+brand:
+  slug: elegoo
+name: PETG Translucent Pink
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-translucent
+primary_color:
+  color_rgba: '#d18f97ff'
+tags:
+- translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.24
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

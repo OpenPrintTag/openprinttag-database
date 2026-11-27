@@ -1,0 +1,20 @@
+uuid: 148b0dc2-9165-5207-abf6-500ca59a66b2
+slug: elegoo-petg-pro-light-blue
+brand:
+  slug: elegoo
+name: PETG PRO Light Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#339bf7ff'
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

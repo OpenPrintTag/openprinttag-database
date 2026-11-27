@@ -1,0 +1,23 @@
+uuid: dad50e39-434a-5bac-9e79-7d479eb9e051
+slug: elegoo-pla-wood-tan-birch
+brand:
+  slug: elegoo
+name: PLA Wood Tan Birch
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-wood
+primary_color:
+  color_rgba: '#f2e9ddff'
+tags:
+- imitates_wood
+- contains_wood
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.21
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

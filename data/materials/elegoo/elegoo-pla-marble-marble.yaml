@@ -1,0 +1,21 @@
+uuid: 288bf473-6cc9-58de-b8dc-ed5c8051e0a4
+slug: elegoo-pla-marble-marble
+brand:
+  slug: elegoo
+name: PLA Marble Marble
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-marble
+tags:
+- imitates_marble
+- abrasive
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.23
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

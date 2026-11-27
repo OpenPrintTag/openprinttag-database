@@ -1,0 +1,23 @@
+uuid: 82f23759-1423-58c4-8d31-d05afadea50e
+slug: elegoo-pla-glow-green
+brand:
+  slug: elegoo
+name: PLA Glow Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-glow
+primary_color:
+  color_rgba: '#ade589ff'
+tags:
+- glow_in_the_dark
+- abrasive
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.24
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

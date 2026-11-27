@@ -1,0 +1,22 @@
+uuid: 6f80a979-0d8d-57a7-9f2d-8823c5b4cb87
+slug: elegoo-abs-grey
+brand:
+  slug: elegoo
+name: ABS Grey
+class: FFF
+type: ABS
+abbreviation: ABS
+url: https://us.elegoo.com/products/abs-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#8f949bff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 280
+  min_bed_temperature: 90
+  max_bed_temperature: 100
+  density: 1.05
+  drying_temperature: 70
+  drying_time: 480
+  min_nozzle_diameter: 0.2
+  min_chamber_temperature: 45
+  max_chamber_temperature: 60

@@ -1,0 +1,23 @@
+uuid: 0448ad98-4161-5714-bae9-42c1015d6686
+slug: elegoo-tpu-95a-red
+brand:
+  slug: elegoo
+name: TPU 95A Red
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.elegoo.com/products/tpu-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#ea140eff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+  density: 1.16
+  drying_temperature: 70
+  drying_time: 480
+  min_nozzle_diameter: 0.4
+  hardness_shore_a: 95
+  min_chamber_temperature: 20
+  max_chamber_temperature: 45

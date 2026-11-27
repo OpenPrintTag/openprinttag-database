@@ -1,0 +1,22 @@
+uuid: 87daba15-8635-5681-ba24-a31b9deab5df
+slug: elegoo-petg-hf-orange
+brand:
+  slug: elegoo
+name: PETG HF Orange
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-hf
+primary_color:
+  color_rgba: '#fd7c18ff'
+tags:
+- high_speed
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.29
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

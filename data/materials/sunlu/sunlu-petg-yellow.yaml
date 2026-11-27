@@ -6,6 +6,7 @@ name: PETG Yellow
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
 primary_color:
   color_rgba: '#fff13fff'
 photos:
@@ -18,3 +19,5 @@ properties:
   max_print_temperature: 260
   min_bed_temperature: 60
   max_bed_temperature: 70
+  drying_temperature: 60
+  drying_time: 240

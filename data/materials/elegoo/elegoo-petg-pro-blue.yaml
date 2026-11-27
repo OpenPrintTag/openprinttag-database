@@ -6,9 +6,18 @@ name: PETG PRO Blue
 class: FFF
 type: PETG
 abbreviation: PETG
+url: https://us.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg
 primary_color:
   color_rgba: '#2e56f1ff'
 photos:
 - url: https://files.openprinttag.org/elegoo/elegoo-petg-pro-blue/647df89f0ef1.png
   type: unspecified
-properties: {}
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

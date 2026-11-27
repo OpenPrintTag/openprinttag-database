@@ -1,0 +1,22 @@
+uuid: aa9a9f9d-4db0-56df-b15f-448b71205bd3
+slug: elegoo-petg-translucent-blue
+brand:
+  slug: elegoo
+name: PETG Translucent Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-translucent
+primary_color:
+  color_rgba: '#4a92d3ff'
+tags:
+- translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.24
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

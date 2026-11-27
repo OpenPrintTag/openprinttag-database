@@ -1,0 +1,23 @@
+uuid: 06de6139-48e3-5039-a982-bc846b6edb53
+slug: elegoo-petg-glitter-glitter-blue
+brand:
+  slug: elegoo
+name: PETG Glitter Glitter Blue
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-glitter
+primary_color:
+  color_rgba: '#006298ff'
+tags:
+- glitter
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.3
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.4

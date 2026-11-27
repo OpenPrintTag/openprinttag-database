@@ -1,0 +1,21 @@
+uuid: 0e7000c2-3d45-570f-8c11-eb156e5fb9af
+slug: elegoo-silk-pla-black-green
+brand:
+  slug: elegoo
+name: Silk PLA Black Green
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/elegoo-silk-pla-filament-1-75mm-colored-1kg
+tags:
+- silk
+- coextruded
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 230
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.25
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

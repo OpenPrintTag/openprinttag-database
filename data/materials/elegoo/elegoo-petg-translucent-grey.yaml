@@ -1,0 +1,22 @@
+uuid: 3418a0de-6923-53d1-9c66-7ec84a2fea91
+slug: elegoo-petg-translucent-grey
+brand:
+  slug: elegoo
+name: PETG Translucent Grey
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-translucent
+primary_color:
+  color_rgba: '#7d7d7dff'
+tags:
+- translucent
+properties:
+  min_print_temperature: 230
+  max_print_temperature: 260
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.24
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.2

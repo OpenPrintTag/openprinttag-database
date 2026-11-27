@@ -1,0 +1,22 @@
+uuid: e9758a77-946e-5995-a6fb-e3139456dec6
+slug: elegoo-petg-gf-glass-fiber-black
+brand:
+  slug: elegoo
+name: PETG-GF Glass Fiber Black
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-gf-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#0c0908ff'
+tags:
+- abrasive
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.3
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.4

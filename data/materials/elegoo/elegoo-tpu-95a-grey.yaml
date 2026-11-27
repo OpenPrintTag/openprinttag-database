@@ -1,0 +1,23 @@
+uuid: c5ea0c30-fd9e-5efb-97db-b6a0835e7935
+slug: elegoo-tpu-95a-grey
+brand:
+  slug: elegoo
+name: TPU 95A Grey
+class: FFF
+type: TPU
+abbreviation: TPU
+url: https://us.elegoo.com/products/tpu-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#5b6770ff'
+properties:
+  min_print_temperature: 220
+  max_print_temperature: 240
+  min_bed_temperature: 30
+  max_bed_temperature: 45
+  density: 1.16
+  drying_temperature: 70
+  drying_time: 480
+  min_nozzle_diameter: 0.4
+  hardness_shore_a: 95
+  min_chamber_temperature: 20
+  max_chamber_temperature: 45

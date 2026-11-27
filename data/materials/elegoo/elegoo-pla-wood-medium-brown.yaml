@@ -1,0 +1,23 @@
+uuid: 2c87a2b6-f037-5c1b-b9fb-006d1e11d476
+slug: elegoo-pla-wood-medium-brown
+brand:
+  slug: elegoo
+name: PLA Wood Medium Brown
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-wood
+primary_color:
+  color_rgba: '#885a40ff'
+tags:
+- imitates_wood
+- contains_wood
+properties:
+  min_print_temperature: 200
+  max_print_temperature: 240
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.21
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

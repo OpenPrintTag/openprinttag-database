@@ -1,0 +1,20 @@
+uuid: 84d03dc1-a480-55a7-af8c-f09835cb1adc
+slug: elegoo-pla-sparkle-purplish-grey
+brand:
+  slug: elegoo
+name: PLA Sparkle Purplish Grey
+class: FFF
+type: PLA
+abbreviation: PLA
+url: https://us.elegoo.com/products/pla-sparkle-filament-1-75mm-colored-1-kg
+tags:
+- glitter
+properties:
+  min_print_temperature: 190
+  max_print_temperature: 220
+  min_bed_temperature: 35
+  max_bed_temperature: 65
+  density: 1.23
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.4

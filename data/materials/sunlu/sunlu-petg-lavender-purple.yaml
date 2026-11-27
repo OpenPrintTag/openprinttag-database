@@ -1,0 +1,19 @@
+uuid: 2bcb234a-d429-59e9-9498-ea162e9c22cd
+slug: sunlu-petg-lavender-purple
+brand:
+  slug: sunlu
+name: PETG Lavender Purple
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#685bc7ff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

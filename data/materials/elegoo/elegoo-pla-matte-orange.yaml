@@ -6,6 +6,7 @@ name: PLA Matte Orange
 class: FFF
 type: PLA
 abbreviation: PLA
+url: https://us.elegoo.com/products/pla-matte-filament-1-75mm-colored-1kg
 primary_color:
   color_rgba: '#ed944dff'
 tags:
@@ -19,3 +20,6 @@ properties:
   max_print_temperature: 230
   min_bed_temperature: 35
   max_bed_temperature: 65
+  drying_temperature: 50
+  drying_time: 480
+  min_nozzle_diameter: 0.2

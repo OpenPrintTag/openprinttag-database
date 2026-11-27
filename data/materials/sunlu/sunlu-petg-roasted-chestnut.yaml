@@ -1,0 +1,19 @@
+uuid: d3bdc7dc-6b4e-50bf-a166-fbda2febc4fe
+slug: sunlu-petg-roasted-chestnut
+brand:
+  slug: sunlu
+name: PETG Roasted Chestnut
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://www.sunlu.com/products/petg-3d-printing-filament
+primary_color:
+  color_rgba: '#1d0e07ff'
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 260
+  min_bed_temperature: 60
+  max_bed_temperature: 70
+  density: 1.27
+  drying_temperature: 60
+  drying_time: 240

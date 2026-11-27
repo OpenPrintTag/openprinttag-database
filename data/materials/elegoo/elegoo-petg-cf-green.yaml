@@ -1,0 +1,24 @@
+uuid: 34a8a4d5-883a-59d4-8afe-ab65430f5b47
+slug: elegoo-petg-cf-green
+brand:
+  slug: elegoo
+name: PETG-CF Green
+class: FFF
+type: PETG
+abbreviation: PETG
+url: https://us.elegoo.com/products/petg-cf-filament-1-75mm-colored-1kg
+primary_color:
+  color_rgba: '#0f775fff'
+tags:
+- contains_carbon_fiber
+- abrasive
+- matte
+properties:
+  min_print_temperature: 240
+  max_print_temperature: 270
+  min_bed_temperature: 65
+  max_bed_temperature: 75
+  density: 1.29
+  drying_temperature: 60
+  drying_time: 480
+  min_nozzle_diameter: 0.4
